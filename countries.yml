@@ -1,0 +1,190 @@
+schema_version: 1.0.0
+last_updated: 2026-05-24
+total: 33
+
+groups:
+  eu-schengen:
+    description: EU/Schengen member states
+    countries: [Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia]
+  europe-non-eu:
+    description: European countries outside EU
+    countries: [Montenegro, Serbia, Turkey, Georgia]
+  balkans-east:
+    description: Balkans and Eastern Europe outside EU
+    countries: [Albania, North Macedonia, Bosnia and Herzegovina, Moldova]
+  latin-america:
+    description: Latin America
+    countries: [Uruguay, Paraguay, Mexico, Panama, Argentina]
+  middle-east-asia:
+    description: Middle East and Asia
+    countries: [UAE, Malaysia, Thailand, Indonesia]
+  post-ussr:
+    description: Post-USSR states
+    countries: [Kazakhstan, Armenia]
+
+countries:
+  - name: Spain
+    group: eu-schengen
+    tier_hint: 1
+    tier: null
+    status: pending
+  - name: Portugal
+    group: eu-schengen
+    tier_hint: 1
+    tier: null
+    status: pending
+  - name: Italy
+    group: eu-schengen
+    tier_hint: 1
+    tier: null
+    status: pending
+  - name: Greece
+    group: eu-schengen
+    tier_hint: 1
+    tier: null
+    status: pending
+  - name: Cyprus
+    group: eu-schengen
+    tier_hint: 1
+    tier: null
+    status: pending
+  - name: Croatia
+    group: eu-schengen
+    tier_hint: 1
+    tier: null
+    status: pending
+  - name: Malta
+    group: eu-schengen
+    tier_hint: 1
+    tier: null
+    status: pending
+  - name: Czech Republic
+    group: eu-schengen
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Poland
+    group: eu-schengen
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Romania
+    group: eu-schengen
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Bulgaria
+    group: eu-schengen
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Hungary
+    group: eu-schengen
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Slovakia
+    group: eu-schengen
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Slovenia
+    group: eu-schengen
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Montenegro
+    group: europe-non-eu
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Serbia
+    group: europe-non-eu
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Turkey
+    group: europe-non-eu
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Georgia
+    group: europe-non-eu
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Albania
+    group: balkans-east
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: North Macedonia
+    group: balkans-east
+    tier_hint: 3
+    tier: null
+    status: pending
+  - name: Bosnia and Herzegovina
+    group: balkans-east
+    tier_hint: 3
+    tier: null
+    status: pending
+  - name: Moldova
+    group: balkans-east
+    tier_hint: 3
+    tier: null
+    status: pending
+  - name: Uruguay
+    group: latin-america
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Paraguay
+    group: latin-america
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Panama
+    group: latin-america
+    tier_hint: 2
+    tier: null
+    status: pending
+  - name: Mexico
+    group: latin-america
+    tier_hint: 3
+    tier: null
+    status: pending
+  - name: Argentina
+    group: latin-america
+    tier_hint: 3
+    tier: null
+    status: pending
+  - name: UAE
+    group: middle-east-asia
+    tier_hint: 3
+    tier: null
+    status: pending
+  - name: Malaysia
+    group: middle-east-asia
+    tier_hint: 3
+    tier: null
+    status: pending
+  - name: Thailand
+    group: middle-east-asia
+    tier_hint: 3
+    tier: null
+    status: pending
+  - name: Indonesia
+    group: middle-east-asia
+    tier_hint: 3
+    tier: null
+    status: pending
+  - name: Kazakhstan
+    group: post-ussr
+    tier_hint: 3
+    tier: null
+    status: pending
+  - name: Armenia
+    group: post-ussr
+    tier_hint: 3
+    tier: null
+    status: pending

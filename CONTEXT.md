@@ -102,6 +102,8 @@ relocation-vault/
 7. **Source ID, не URL** — в `countries/*.md` ссылаться по `[src-NNN]`, URL в `sources.md`.
 8. **Post-flight** перед завершением итерации.
 9. **Telegram-уведомление** в стандартном формате (см. `vault-protocol.md` §14).
+10. **All output content must be written in English.** This includes country profiles, claims, source entries, decisions, run logs, dimensions, digests, proposals, and all updates to `INDEX.md` / `CHANGELOG.md` / `IMPROVEMENT_LOG.md` / `verification-queue.md` / `MIGRATIONS.md` / `assumptions.md` / `open-questions.md`. Markers use English canonical form (`[verification required]`, `[single source]`, `[no date, verification required]`, etc.). See `vault-protocol.md` §21 for the full rule and exceptions.
+11. **Hermes may propose adding new countries** via `type: new-country` proposals when research surfaces strong candidates not in the current list of 33. See `vault-protocol.md` §22.
 
 ---
 

@@ -521,7 +521,7 @@ Hermes не делает `country-deep-dive` по одной и той же ст
 proposal_id: 003
 created: 2026-05-25T10:00:00Z
 agent: hermes
-type: protocol-change | criteria-change | template-update | workflow-tip | dod-refinement | new-source | query-pattern | new-mode | schema-evolution
+type: protocol-change | criteria-change | template-update | workflow-tip | dod-refinement | new-source | query-pattern | new-mode | schema-evolution | new-country
 target_file: vault-protocol.md
 target_section: "8.2"
 severity: low | medium | high
@@ -799,8 +799,80 @@ Suggested fix: {if known}
 
 ---
 
-## 21. Что **не** делается в этом документе
+## 21. Language rule (output)
 
-- Описание содержания критериев исследования — это в `criteria.md`.
-- Финальный синтез — отдельный downstream-процесс.
-- Внешние интеграции (Telegram-бот internals, cron конфиг) — на уровне Hermes-настроек, не vault.
+**All content written by Hermes into vault data files MUST be in English.** This applies to:
+
+- `countries/*.md` (full profiles)
+- `claims/*.yml` (atomic claims, including `notes`)
+- `sources/sources.md` (source entries)
+- `decisions/decisions.md` (decision log entries)
+- `runs/*.md` (run logs)
+- `dimensions/*.md` (cross-country slices)
+- `digests/week-*.md` (weekly digests)
+- `proposals/proposal-*.md` (self-improvement proposals, all fields and body)
+- `INDEX.md` updates
+- `CHANGELOG.md` entries
+- `IMPROVEMENT_LOG.md` entries
+- `verification-queue.md` entries
+- `MIGRATIONS.md` entries
+- `assumptions.md` updates
+- `open-questions.md` updates
+- Telegram messages (per §14)
+
+Markers (per `GLOSSARY.md`) use the canonical English form: `[verification required]`, `[single source]`, `[no date, verification required]`, etc. Russian-language aliases exist only for legacy reference and must not appear in new content.
+
+**Why English?** Sources are predominantly English; consistency across files makes cross-referencing and downstream synthesis easier; agent reasoning is more reliable in English on technical/legal content.
+
+**Exceptions** (these documents may remain in their authoring language):
+- `criteria.md`, `vault-protocol.md`, `CONTEXT.md`, `GLOSSARY.md` — instructions/contract. Translation is a separate task.
+
+When citing original-language source material (Greek law text, Spanish tax form, etc.), include the original quote with an English translation alongside.
+
+## 22. Hermes-initiated country additions
+
+Hermes may **propose** adding a new country to the research set if, during research, evidence emerges that the country would be a strong fit. Examples that might trigger a proposal:
+
+- A community source mentions a country with an exceptionally clear post-2027 pathway for Ukrainians that isn't in our list.
+- A digital-nomad-friendly jurisdiction emerges with strong tax and climate profile that wasn't initially considered.
+- A neighbour of an existing Tier 1 candidate shows comparable or better metrics on a specific dimension.
+
+### 22.1. Proposal type
+
+`type: new-country` in the proposal frontmatter (per §13.3).
+
+Body must include:
+- **Country name** and **group** (existing group or proposed new group).
+- **Tier hint** with justification.
+- **Why this country should be added** (specific evidence with sources cited).
+- **Estimated fit** on the key criteria (legalization potential, climate, taxes, cost).
+- **Risks of adding** (e.g., far from Ukraine, language barrier, political concerns).
+- **Estimated cost** of researching it to depth_score 7 (≈ how many iterations).
+
+### 22.2. Approval flow
+
+Same as other proposals (§13.4). Approval threshold: medium severity (requires explicit human approve in Telegram or by editing `status:`).
+
+### 22.3. On approval (applied)
+
+Hermes performs in next iteration:
+
+1. Append country entry to `countries.yml` (with `tier_hint`, `tier: null`, `status: pending`).
+2. Append country to `state.json` `countries` block with default fields (depth_score 0, all sections pending).
+3. Append country row to `INDEX.md` table.
+4. Update `countries.yml` `total` count and group's country list.
+5. If the country is in a new group not in `countries.yml`, add the group definition.
+6. Update `IMPROVEMENT_LOG.md` and `CHANGELOG.md`.
+7. Bump `countries.yml` minor version (1.0.0 → 1.1.0) since the canonical list changed.
+
+### 22.4. Limit
+
+To avoid scope creep:
+- Maximum **2 new countries per month** can be applied. Excess pending proposals stay in queue.
+- New country additions are reviewed cumulatively in the **weekly digest** if any pending.
+
+## 23. What is **not** done in this document
+
+- Description of research criteria content — that's in `criteria.md`.
+- Final synthesis — separate downstream process.
+- External integrations (Telegram bot internals, cron config) — at the Hermes-runtime layer, not vault.
