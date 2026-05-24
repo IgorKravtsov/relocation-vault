@@ -1,0 +1,46 @@
+- id: claim-portugal-001
+  topic: temporary_protection_duration
+  value: "1 year, extendable by two six-month periods while return-blocking conditions continue"
+  source: src-017
+  date_verified: 2026-05-24
+  confidence: high
+  tags: [portugal, ukraine, temporary-protection, duration]
+  notes: "Portugal's justice FAQ says temporary protection starts at one year and may be extended by two six-month periods."
+
+- id: claim-portugal-002
+  topic: temporary_protection_assigns_core_numbers
+  value: "Temporary Protection Title automatically assigns NISS and NIF and grants access to the National Health System"
+  source: src-017
+  date_verified: 2026-05-24
+  confidence: high
+  tags: [portugal, ukraine, temporary-protection, nif, niss, nhs]
+  notes: "The Portuguese justice FAQ says TP triggers automatic Social Security and tax numbers plus health-system access."
+
+- id: claim-portugal-003
+  topic: d8_income_threshold_primary_applicant
+  value: 3680
+  unit: EUR/month
+  source: src-020
+  date_verified: 2026-05-24
+  confidence: medium
+  tags: [portugal, d8, remote-work, threshold, income]
+  notes: "Portugalist's 2026 D8 requirements guide says the main applicant must show active income of at least four times the Portuguese minimum wage, or €3,680/month in 2026."
+
+- id: claim-portugal-004
+  topic: d8_requires_nif_bank_account_and_accommodation
+  value: "Portugalist lists a Portuguese NIF, Portuguese bank account, accommodation proof, criminal-record certificate, and proof of remote-work authorization among core D8 residence-route requirements"
+  source: src-020
+  date_verified: 2026-05-24
+  confidence: medium
+  tags: [portugal, d8, remote-work, documents]
+  notes: "Useful orientation only until an official-primary D8 checklist is captured."
+
+- id: claim-portugal-005
+  topic: naturalization_minimum_residence_for_ukrainians
+  value: 10
+  unit: years legal residence
+  source: src-021
+  date_verified: 2026-05-24
+  confidence: high
+  tags: [portugal, citizenship, naturalization, ukraine]
+  notes: "Portugal's justice ministry says that from 19 May 2026 the naturalization residence period is ten years for nationals of states outside the EU and outside the Portuguese-speaking-country bucket."

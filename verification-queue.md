@@ -74,6 +74,46 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-05-24 (run-003)
 - **Status**: pending
 
+## vq-007 [high priority]
+- **Fact**: "Official-primary Portugal D8 / remote-work residence checklist, income-proof mechanics, and filing route"
+- **Country**: Portugal
+- **Section**: 5.1
+- **Current source**: src-020
+- **Why uncertain**: This iteration captured the D8 route through a strong secondary guide, but not through an official Portuguese service page, embassy checklist, or primary legal filing instruction.
+- **Suggested verification**: Capture the gov.pt / MNE / embassy checklist page or an equivalent official filing page with document-by-document requirements.
+- **Created**: 2026-05-24 (run-004)
+- **Status**: pending
+
+## vq-008 [high priority]
+- **Fact**: "Portugal's official post-04 March 2027 transition path from Ukrainian temporary protection into an ordinary residence permit, if any"
+- **Country**: Portugal
+- **Section**: 5.1
+- **Current source**: src-002, src-017, src-019
+- **Why uncertain**: This iteration confirmed the current TP framework and 2027 horizon, but did not find a Portuguese bridge equivalent to Greece's Article 194 mechanism.
+- **Suggested verification**: Check AIMA, gov.pt, Diário da República, or ministry guidance for an explicit TP conversion route or transitional instruction.
+- **Created**: 2026-05-24 (run-004)
+- **Status**: pending
+
+## vq-009 [medium priority]
+- **Fact**: "How a Polish `karta pobytu` or other existing EU residence interacts with Portugal-based TP or D8 planning"
+- **Country**: Portugal
+- **Section**: 5.1
+- **Current source**: src-017, src-020
+- **Why uncertain**: Current sources explain Portugal's TP and D8 frameworks separately but do not explicitly address how an existing Polish residence title changes the move.
+- **Suggested verification**: Check Portuguese consular guidance, AIMA materials, or a current Portugal immigration-lawyer explainer.
+- **Created**: 2026-05-24 (run-004)
+- **Status**: pending
+
+## vq-010 [medium priority]
+- **Fact**: "Exact sunny days per year for Lisbon, Porto, and Faro"
+- **Country**: Portugal
+- **Section**: 5.2
+- **Current source**: src-022, src-023, src-024
+- **Why uncertain**: Current climate sources provide temperatures, humidity, and sunshine-hour intensity, but not direct annual sunny-day counts.
+- **Suggested verification**: Find a source that exposes explicit day counts (for example meteoblue chart data, IPMA climatology tables, or another statistical source).
+- **Created**: 2026-05-24 (run-004)
+- **Status**: pending
+
 ## Low priority
 _(none)_
 

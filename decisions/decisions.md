@@ -26,3 +26,10 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 **Iteration**: run-003.
 **Counterevidence considered**: Spain's consular DN checklist is stronger and more family-aware than many countries' DN pages, but the unresolved long-term transition and income tightness could materially change practical viability.
 
+## 2026-05-24 — Portugal kept unranked after first iteration
+**Decision**: Do not assign a final tier yet.
+**Rationale**: Portugal still combines a live TP framework, a known remote-work route, and a strong climate fit, but this pass did not capture a clean official post-04 March 2027 TP bridge, the D8 threshold appears above the couple's current budget, and the captured 2026 nationality-law change pushes naturalization for Ukrainians to a much slower timeline.
+**Source**: src-002, src-017, src-019, src-020, src-021, src-022, src-023, src-024.
+**Iteration**: run-004.
+**Counterevidence considered**: Portugal's structural attractiveness remains real, especially if income rises or ordinary residence is secured early, but the long-term legality and affordability questions are still too material for a stable tier call.
+

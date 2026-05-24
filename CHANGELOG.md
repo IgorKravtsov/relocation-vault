@@ -35,3 +35,12 @@ Brief delta per iteration. Append-only.
 - Claims added: claim-spain-001 … claim-spain-005
 - Verification queue: 3 → 6
 - Next: country-deep-dive on Portugal (sections 5.1, 5.2)
+
+## 2026-05-24 — run-004 — portugal-legalization-climate
+
+- Portugal profile created from template
+- Portugal: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial)
+- Sources added: src-017 … src-024
+- Claims added: claim-portugal-001 … claim-portugal-005
+- Verification queue: 6 → 10
+- Next: verification pass across Greece / Spain / Portugal blockers because queue threshold reached 10

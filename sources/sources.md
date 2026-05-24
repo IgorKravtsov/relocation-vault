@@ -220,3 +220,99 @@ Each source entry:
 - **Facts supporting**: Málaga January/July temperatures; annual sunshine hours; humidity
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-017
+- **Title**: Justiça.gov.pt — Temporary Protection FAQ / Reception and integration of Ukrainian citizens in Portugal
+- **URL**: https://justica.gov.pt/en-gb/Servicos/Special-measures-for-Ukraine/-Reception-and-integration-of-Ukrainian-citizens-in-Portugal
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-24
+- **Used by**: Portugal
+- **Facts supporting**: Portugal TP does not require a visa; Temporary Protection Title creates a residence permit; automatic NISS/NIF/NHS access (claim-portugal-002); TP initial one-year duration plus two six-month extensions (claim-portugal-001)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-24
+
+## src-018
+- **Title**: gov.pt — Ukraine: Information for refugee citizens living in Portugal
+- **URL**: https://www2.gov.pt/en/migrantes-viver-e-trabalhar-em-portugal/ucrania-informacoes-e-apoios-disponiveis-em-portugal/ucrania-cidadaos-refugiados-a-viver-em-portugal
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-secondary
+- **Date published**: 2022-06-22
+- **Date accessed**: 2026-05-24
+- **Used by**: Portugal
+- **Facts supporting**: Portugal TP guidance umbrella for work/health/education support [data older than 2024, verify freshness]
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-11-24
+
+## src-019
+- **Title**: AIMA — Temporary protection for people displaced from Ukraine extended until 2027
+- **URL**: https://aima.gov.pt/pt/noticias/protecao-temporaria-para-pessoas-deslocados-da-ucrania-prorrogada-ate-2027
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2025-03-17
+- **Date accessed**: 2026-05-24
+- **Used by**: Portugal
+- **Facts supporting**: Portugal-specific confirmation that Ukrainian TP remains extended to 2027
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-24
+
+## src-020
+- **Title**: Portugalist — Portugal’s Digital Nomad Visa Requirements: a deep dive into every aspect of the application
+- **URL**: https://www.portugalist.com/digital-nomad-visa-requirements/
+- **Archive**: [archive: failed 2026-05-24]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-24
+- **Used by**: Portugal
+- **Facts supporting**: D8 route exists; 2026 primary-applicant threshold €3,680/month (claim-portugal-003); NIF/bank-account/accommodation/document checklist orientation (claim-portugal-004); family-document and higher-income expectations; residence-vs-temporary-stay route distinction
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-11-24
+
+## src-021
+- **Title**: Justiça.gov.pt — Nationality Law: new rules enter into force on 19 May
+- **URL**: https://justica.gov.pt/Noticias/Lei-da-Nacionalidade-novas-regras-entram-em-vigor-a-19-de-maio
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-05-19
+- **Date accessed**: 2026-05-24
+- **Used by**: Portugal
+- **Facts supporting**: naturalization residence period becomes 7 years for EU / Lusophone nationals and 10 years for other nationals (claim-portugal-005); stronger citizenship requirements from 19 May 2026
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-24
+
+## src-022
+- **Title**: Climate to Travel — Lisbon climate
+- **URL**: https://www.climatestotravel.com/climate/portugal/lisbon
+- **Archive**: [archive: failed 2026-05-24]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-24
+- **Used by**: Portugal
+- **Facts supporting**: Lisbon January/July temperatures; annual sunshine hours; humidity
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-023
+- **Title**: Climate to Travel — Porto climate
+- **URL**: https://www.climatestotravel.com/climate/portugal/porto
+- **Archive**: [archive: failed 2026-05-24]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-24
+- **Used by**: Portugal
+- **Facts supporting**: Porto January/July temperatures; annual sunshine hours; humidity
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-024
+- **Title**: Climate to Travel — Faro climate
+- **URL**: https://www.climatestotravel.com/climate/portugal/faro
+- **Archive**: [archive: failed 2026-05-24]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-24
+- **Used by**: Portugal
+- **Facts supporting**: Faro January/July temperatures; annual sunshine hours; humidity
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
