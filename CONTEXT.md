@@ -113,9 +113,16 @@ relocation-vault/
 - Не меняет `vault-protocol.md` (L3 — только через proposal + approve).
 - Не меняет веса, DoD checklists, confidence scale без approve.
 - Не удаляет собранные данные — только архивирует через `archive/` с записью в `decisions.md`.
-- Не делает git commit / push.
 - Не составляет финальный TOP-N рейтинг — это downstream-процесс.
 - Не отправляет ничего в Telegram сверх стандартных уведомлений.
+- Не делает destructive git операции: `push --force`, `reset --hard`, `rebase -i`, удаление веток, amend, git config, `--no-verify`. См. `vault-protocol.md` §23.4.
+
+## Что Hermes делает с git (новое в v1.0.0)
+
+- **Перед итерацией**: `git fetch` + `git status` (должно быть clean) + `git pull --ff-only` если remote впереди.
+- **После успешной итерации**: `git add -A` + `git commit` (формат сообщения в `vault-protocol.md` §23.3) + `git push` если remote настроен.
+- **В recovery mode**: коммит только run-log файла (audit trail), никаких изменений в data.
+- Работает только на default branch. Никогда не амендит и не делает destructive операций.
 
 ---
 

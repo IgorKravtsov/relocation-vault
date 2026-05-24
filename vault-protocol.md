@@ -871,7 +871,120 @@ To avoid scope creep:
 - Maximum **2 new countries per month** can be applied. Excess pending proposals stay in queue.
 - New country additions are reviewed cumulatively in the **weekly digest** if any pending.
 
-## 23. What is **not** done in this document
+## 23. Git workflow
+
+Hermes **commits and pushes** after every successful iteration. This gives clear undo points, off-machine backup, and a reviewable progress history.
+
+### 23.1. Pre-iteration git check (part of pre-flight §8)
+
+At the start of every iteration:
+
+1. `git fetch origin` — see if remote has new commits.
+2. `git status --porcelain` — must be **clean** (no uncommitted changes).
+   - If dirty: a previous iteration either crashed before commit, or the user is editing manually. **Enter recovery mode** — do not commit anything new until the situation is resolved by the user.
+3. If remote is ahead of local: `git pull --ff-only origin <branch>`.
+   - If fast-forward fails (genuine divergence): **enter recovery mode** — do not attempt auto-merge or rebase.
+4. If pull succeeds — proceed with normal iteration.
+
+### 23.2. Post-iteration commit (part of post-flight §10)
+
+After all post-flight checks pass:
+
+1. `git add -A` — stage all changes (vault is single-purpose; staging everything is safe).
+2. `git commit -m "<message>"` (format below).
+3. If a remote is configured: `git push origin <branch>`. If push fails, log the failure in the run-log but do not retry indefinitely; next iteration's pre-flight will re-attempt.
+
+### 23.3. Commit message format
+
+One commit per iteration. First line ≤ 72 chars. Body explains what changed.
+
+```
+iter <NNN>: <mode> — <target> (<delta-headline>)
+
+Summary: <1–2 sentences>
+Δ depth_score: <country> +N → M  (or "n/a" for non-country modes)
+Sources added: <count> (<src-IDs if ≤3>)
+Claims added: <count>
+Facts verified: <count>
+Files modified: <count>
+Proposals: <created/applied/N>
+```
+
+Examples:
+
+```
+iter 002: country-deep-dive — Greece (+2 → 2)
+
+Summary: Closed §5.1 (legalization) and §5.2 (climate) to DoD for Greece.
+Δ depth_score: Greece +2 → 2
+Sources added: 5 (src-001, src-002, src-003)
+Claims added: 7
+Facts verified: 0
+Files modified: 6
+Proposals: 0
+```
+
+```
+iter 017: verification — closed 5 items
+
+Summary: Resolved 5 [verification required] markers across Greece and Portugal.
+Δ depth_score: n/a
+Sources added: 3
+Claims added: 0
+Facts verified: 5
+Files modified: 4
+Proposals: 0
+```
+
+```
+iter 025: proposal-apply — applied proposal-003 (new-country: Albania)
+
+Summary: Added Albania to countries.yml, state.json, INDEX.md per accepted proposal-003.
+Δ depth_score: n/a
+Sources added: 0
+Claims added: 0
+Facts verified: 0
+Files modified: 4
+Proposals: applied 1
+```
+
+### 23.4. Hard git rules
+
+Hermes is **forbidden** from:
+
+- `git push --force` / `git push -f` / `git push --force-with-lease`
+- `git reset --hard` (use `git revert` if a previous commit must be undone)
+- `git rebase -i` or any interactive git command
+- Deleting branches (`git branch -D`, `git push origin --delete`)
+- Modifying git config (`git config`)
+- Committing on a branch other than the one used at vault setup time
+- Using `--no-verify` to skip hooks
+- Amending previous commits (`git commit --amend`)
+- Creating tags or releases
+
+If Hermes encounters a situation that seems to require a forbidden action — **enter recovery mode and escalate via Telegram alert.**
+
+### 23.5. What gets committed in recovery mode
+
+In recovery mode, Hermes still creates `runs/run-NNN-recovery.md` describing the issue. This file **is committed** (as audit trail) but **no data files** are modified. Commit message:
+
+```
+iter <NNN>: recovery — <short reason>
+
+Pre-flight failure: <detail>
+No data changes applied.
+Action required: <what the user needs to do>
+```
+
+### 23.6. Branch policy
+
+Hermes works on `main` (or whichever branch the vault was initialized on). It does not create new branches and does not switch branches. If the user wants to experiment, they create a branch manually; Hermes will refuse to operate on a non-default branch (recovery mode).
+
+### 23.7. Remote configuration
+
+If no remote is configured (`git remote -v` empty), Hermes skips push, commits locally, and notes "no remote configured" in the first run-log only. The user can add a remote later; Hermes will pick it up on the next iteration.
+
+## 24. What is **not** done in this document
 
 - Description of research criteria content — that's in `criteria.md`.
 - Final synthesis — separate downstream process.
