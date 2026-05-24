@@ -13,7 +13,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Spain | eu-schengen | 1 | — | 0 | — | — | — |
 | Portugal | eu-schengen | 1 | — | 0 | — | — | — |
 | Italy | eu-schengen | 1 | — | 0 | — | — | — |
-| Greece | eu-schengen | 1 | — | 0 | — | — | — |
+| Greece | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 2 | `countries/greece.md` |
 | Cyprus | eu-schengen | 1 | — | 0 | — | — | — |
 | Croatia | eu-schengen | 1 | — | 0 | — | — | — |
 | Malta | eu-schengen | 1 | — | 0 | — | — | — |
@@ -50,5 +50,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 1 hints**: 7 (Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta)
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
-- **Researched**: 0
-- **Average depth_score**: 0
+- **Researched**: 1
+- **Average depth_score**: 0.03

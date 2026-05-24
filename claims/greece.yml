@@ -1,0 +1,37 @@
+- id: claim-greece-001
+  topic: temporary_protection_extended_until
+  value: "2027-03-04"
+  unit: ISO-date
+  source: src-001
+  date_verified: 2026-05-24
+  confidence: high
+  tags: [greece, ukraine, tp, deadline]
+  notes: "Greek ministry page says TP validity is extended from 4 March 2026 until 4 March 2027."
+
+- id: claim-greece-002
+  topic: tp_to_immigration_code_bridge
+  value: "Until 2027-03-04, Greek TP permit holders may apply electronically for any residence permit under Law 5038/2023 without an entry visa; issuing the new permit ends TP."
+  source: src-001
+  date_verified: 2026-05-24
+  confidence: high
+  tags: [greece, tp, transition, law-5078-2023, article-194]
+  notes: "The Greek ministry page cites Article 194 of Law 5078/2023."
+
+- id: claim-greece-003
+  topic: dn_income_threshold_primary_applicant
+  value: 3500
+  unit: EUR/month after tax
+  source: src-004
+  date_verified: 2026-05-24
+  confidence: medium-high
+  tags: [greece, digital-nomad, threshold, income]
+  notes: "Work From Greece FAQ says at least €3,500/month after taxes for the main applicant."
+
+- id: claim-greece-004
+  topic: dn_family_income_uplift
+  value: "+20% spouse or cohabitant; +15% each child"
+  source: src-004
+  date_verified: 2026-05-24
+  confidence: medium-high
+  tags: [greece, digital-nomad, spouse, child, threshold]
+  notes: "Family uplift explicitly stated on Work From Greece FAQ."
