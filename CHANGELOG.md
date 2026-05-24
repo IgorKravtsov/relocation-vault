@@ -26,3 +26,12 @@ Brief delta per iteration. Append-only.
 - Claims added: claim-greece-001 … claim-greece-004
 - Verification queue: 0 → 3
 - Next: verification pass on DN primary checklist, Polish karta pobytu interaction, and sunny-day counts
+
+## 2026-05-24 — run-003 — spain-legalization-climate
+
+- Spain profile created from template
+- Spain: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial)
+- Sources added: src-011 … src-016
+- Claims added: claim-spain-001 … claim-spain-005
+- Verification queue: 3 → 6
+- Next: country-deep-dive on Portugal (sections 5.1, 5.2)

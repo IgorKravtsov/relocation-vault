@@ -19,3 +19,10 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 **Iteration**: run-002.
 **Counterevidence considered**: The Article 194 bridge is unusually strong, but unresolved DN and partner details could materially change practical viability for this couple.
 
+## 2026-05-24 — Spain kept unranked after first iteration
+**Decision**: Do not assign a final tier yet.
+**Rationale**: Spain shows a credible digital-nomad path and a fast TP system for Ukrainians, but this pass did not find a clear official post-04 March 2027 TP bridge, and the two-person DN income threshold is tight for the couple's current budget.
+**Source**: src-002, src-011, src-012, src-013, src-014, src-015, src-016.
+**Iteration**: run-003.
+**Counterevidence considered**: Spain's consular DN checklist is stronger and more family-aware than many countries' DN pages, but the unresolved long-term transition and income tightness could materially change practical viability.
+

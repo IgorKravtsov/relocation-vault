@@ -1,38 +1,39 @@
 {
   "version": 2,
-  "iteration": 2,
+  "iteration": 3,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-24T14:32:37Z",
+  "last_run_timestamp": "2026-05-24T16:05:23Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Greece",
+    "country": "Spain",
     "sections": [
       "5.1",
       "5.2"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": "Greece",
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Portugal",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Close three explicit gaps: Polish karta pobytu interaction, official-primary DN checklist, and sunny-day counts."
+    "reason": "Portugal remains a Tier-1-hint country at depth 0, so rotation favors opening its legalization and climate baseline next."
   },
   "countries": {
     "Spain": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 0,
+      "depth_score": 1.0,
       "sections_completed": [],
-      "sections_partial": [],
-      "sections_pending": [
+      "sections_partial": [
         "5.1",
-        "5.2",
+        "5.2"
+      ],
+      "sections_pending": [
         "5.3",
         "5.4",
         "5.5",
@@ -43,8 +44,13 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "no-clear-post-2027-tp-bridge",
+        "polish-karta-pobytu-interaction-unverified",
+        "climate-sunny-days-gap",
+        "dn-threshold-for-couple-tight"
+      ],
+      "last_iteration": 3
     },
     "Portugal": {
       "tier": null,
@@ -756,8 +762,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 3,
-  "sources_count": 10,
-  "claims_count": 4,
+  "verification_queue_size": 6,
+  "sources_count": 16,
+  "claims_count": 9,
   "proposals_pending": 0
 }

@@ -48,8 +48,8 @@ Each source entry:
 - **Type**: official-primary
 - **Date published**: 2025-07-15
 - **Date accessed**: 2026-05-24
-- **Used by**: Greece
-- **Facts supporting**: EU-level TP extension chain to 04 March 2027; one-Member-State TP principle
+- **Used by**: Greece, Spain
+- **Facts supporting**: EU-level TP extension chain to 04 March 2027; one-Member-State TP principle; Spain TP validity context through 04 March 2027
 - **Confidence ceiling**: high
 - **Stale at**: 2026-11-24
 
@@ -146,5 +146,77 @@ Each source entry:
 - **Date accessed**: 2026-05-24
 - **Used by**: Greece
 - **Facts supporting**: Heraklion January/July temperatures; humidity; sunshine hours
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-011
+- **Title**: Spain Ministry of Inclusion — What temporary protection for displaced persons from Ukraine is
+- **URL**: https://www.inclusion.gob.es/web/ucrania-urgente/w/proteccion-temporal-desplazados-ucrania
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-24
+- **Used by**: Spain
+- **Facts supporting**: Spain TP rights (reside/work/medical/study); duration up to 3 years; eligibility categories for Ukrainians and family members (claim-spain-001)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-24
+
+## src-012
+- **Title**: Spain Ministry of Inclusion — Procedures and documents necessary to obtain temporary protection in Spain
+- **URL**: https://www.inclusion.gob.es/web/ucrania-urgente/w/tramites-proteccion-temporal-desplazados-ucrania
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-24
+- **Used by**: Spain
+- **Facts supporting**: Spain TP 24-hour processing target (claim-spain-002); filing points; required documents; NIE and TIE follow-up flow
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-24
+
+## src-013
+- **Title**: Spanish Consulate in London — Digital Nomad Visa
+- **URL**: https://www.exteriores.gob.es/Consulados/londres/en/ServiciosConsulares/Paginas/Consular/Digital-Nomad-Visa.aspx
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-secondary
+- **Date published**: 2024-05-17
+- **Date accessed**: 2026-05-24
+- **Used by**: Spain
+- **Facts supporting**: DN route scope; spouse/unmarried-partner coverage; apostille/translation checklist; 3-month prior work proof; 200% SMI threshold (claim-spain-003); family uplift formula (claim-spain-004); 10-day decision window (claim-spain-005); 1-year visa validity
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-24
+
+## src-014
+- **Title**: Climate to Travel — Madrid climate
+- **URL**: https://www.climatestotravel.com/climate/spain/madrid
+- **Archive**: [archive: failed 2026-05-24]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-24
+- **Used by**: Spain
+- **Facts supporting**: Madrid January/July temperatures; annual sunshine hours; humidity
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-015
+- **Title**: Climate to Travel — Valencia climate
+- **URL**: https://www.climatestotravel.com/climate/spain/valencia
+- **Archive**: [archive: failed 2026-05-24]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-24
+- **Used by**: Spain
+- **Facts supporting**: Valencia January/July temperatures; sunshine profile; humidity
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-016
+- **Title**: Climate to Travel — Málaga climate
+- **URL**: https://www.climatestotravel.com/climate/spain/malaga
+- **Archive**: [archive: failed 2026-05-24]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-24
+- **Used by**: Spain
+- **Facts supporting**: Málaga January/July temperatures; annual sunshine hours; humidity
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31

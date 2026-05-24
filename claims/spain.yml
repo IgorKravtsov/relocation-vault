@@ -1,0 +1,47 @@
+- id: claim-spain-001
+  topic: temporary_protection_duration
+  value: "1 year, extendable up to 3 years without filing for asylum"
+  source: src-011
+  date_verified: 2026-05-24
+  confidence: high
+  tags: [spain, ukraine, temporary-protection, duration]
+  notes: "Spain's Ministry of Inclusion says TP allows residence, work, medical assistance, and study for one year, extendable up to three years."
+
+- id: claim-spain-002
+  topic: temporary_protection_processing_deadline
+  value: 24
+  unit: hours max after request
+  source: src-012
+  date_verified: 2026-05-24
+  confidence: high
+  tags: [spain, ukraine, temporary-protection, processing-time]
+  notes: "Spain's TP procedure page says the administrative procedures are resolved within a maximum of 24 hours after the request."
+
+- id: claim-spain-003
+  topic: dn_income_threshold_primary_applicant
+  value: 2268
+  unit: EUR/month
+  source: src-013
+  date_verified: 2026-05-24
+  confidence: medium-high
+  tags: [spain, digital-nomad, threshold, income]
+  notes: "The consular DN page sets the threshold at 200% of the monthly Spanish minimum wage and links to the 2024 SMI amount of €1,134/month."
+
+- id: claim-spain-004
+  topic: dn_family_income_uplift
+  value: "+75% of SMI for the first family member; +25% of SMI for each additional family member"
+  source: src-013
+  date_verified: 2026-05-24
+  confidence: medium-high
+  tags: [spain, digital-nomad, spouse, unmarried-partner, threshold]
+  notes: "The official consular checklist gives the family uplift formula for DN applications."
+
+- id: claim-spain-005
+  topic: dn_decision_deadline_consular
+  value: 10
+  unit: days
+  source: src-013
+  date_verified: 2026-05-24
+  confidence: medium-high
+  tags: [spain, digital-nomad, processing-time, consular]
+  notes: "The consular page says the legal term for reaching a visa decision is 10 days unless extra documents or an interview are requested."
