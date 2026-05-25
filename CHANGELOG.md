@@ -62,3 +62,12 @@ Brief delta per iteration. Append-only.
 - Claims added: claim-italy-001 … claim-italy-005
 - Verification queue: 5 → 7
 - Next: country-deep-dive on Cyprus (sections 5.1, 5.2)
+
+## 2026-05-25 — run-007 — cyprus-legalization-climate
+
+- Cyprus profile created from template
+- Cyprus: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial)
+- Sources added: src-035 … src-039
+- Claims added: claim-cyprus-001 … claim-cyprus-005
+- Verification queue: 7 → 9
+- Next: country-deep-dive on Croatia (sections 5.1, 5.2)

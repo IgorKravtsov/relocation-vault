@@ -48,8 +48,8 @@ Each source entry:
 - **Type**: official-primary
 - **Date published**: 2025-07-15
 - **Date accessed**: 2026-05-24
-- **Used by**: Greece, Spain, Italy
-- **Facts supporting**: EU-level TP extension chain to 04 March 2027; one-Member-State TP principle; Spain and Italy TP validity context through 04 March 2027
+- **Used by**: Greece, Spain, Italy, Cyprus
+- **Facts supporting**: EU-level TP extension chain to 04 March 2027; one-Member-State TP principle; Spain, Italy, and Cyprus TP validity context through 04 March 2027
 - **Confidence ceiling**: high
 - **Stale at**: 2026-11-24
 
@@ -436,3 +436,63 @@ Each source entry:
 - **Facts supporting**: TP eligibility and Questura filing route; rights to education, work, and SSN; no current TP-to-work-permit conversion provision (claim-italy-004)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2026-11-25
+
+## src-035
+- **Title**: Cyprus Migration Department — Digital nomads and family members
+- **URL**: https://www.gov.cy/mip-md/en/documents/digital-nomads-and-family-members/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus Digital Nomad route scope; €3,500/month net income threshold (claim-cyprus-003); one-year permit plus two-year renewal (claim-cyprus-004); spouse / civil-union partner / minor-child family scope; fees and 5–7 week examination time
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-25
+
+## src-036
+- **Title**: Cyprus Asylum Service — Announcement regarding the extension of temporary protection
+- **URL**: https://www.mip.gov.cy/mip/asylum/asylumservice.nsf/All/E9992074C56A3109C2258C5300255BAD
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus TP local-extension mechanics to 04 March 2026 and first-time application route (claim-cyprus-002)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-25
+
+## src-037
+- **Title**: Cyprus Ministry of Interior — Acquisition of Cypriot Citizenship By Naturalization (Due to years of residence, form M127)
+- **URL**: https://www.gov.cy/moi/en/documents/acquisition-of-cypriot-citizenship-by-naturalization-due-to-years-of-residence-form-m127/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Cyprus
+- **Facts supporting**: citizenship-by-naturalization residence requirement and Greek B1 / civic-knowledge / financial-resource conditions (claim-cyprus-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-25
+
+## src-038
+- **Title**: Cyprus Migration Department — Long-term Residents (LT) forms
+- **URL**: https://www.gov.cy/mip-md/en/documents/long-term-residents-lt/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2025-12-29
+- **Date accessed**: 2026-05-25
+- **Used by**: Cyprus
+- **Facts supporting**: official long-term-resident application packages exist; detailed eligibility extraction queued for later Cyprus legalization work
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-25
+
+## src-039
+- **Title**: Climates to Travel — Cyprus climate: temperature, rain, when to go
+- **URL**: https://www.climatestotravel.com/climate/cyprus
+- **Archive**: [archive: failed 2026-05-25]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus Mediterranean climate summary; January/July temperatures, humidity, precipitation days, and sun-hours data for Larnaca, Limassol, Nicosia, and Paphos
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

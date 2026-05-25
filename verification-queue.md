@@ -144,6 +144,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-05-25 (run-006)
 - **Status**: pending
 
+## vq-013 [high priority]
+- **Fact**: "Cyprus-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
+- **Country**: Cyprus
+- **Section**: 5.1
+- **Current source**: src-002, src-036
+- **Why uncertain**: EU-level temporary protection is extended to 04 March 2027, but the captured Cyprus Asylum Service local page still states the earlier 04 March 2026 extension and no Cyprus TP-to-ordinary-residence bridge was captured.
+- **Suggested verification**: Check Cyprus Asylum Service, Deputy Ministry of Migration and International Protection, Migration Department news, Council of Ministers decisions, and Cyprus legal updates for a 2027 local implementation page or transition rule.
+- **Created**: 2026-05-25 (run-007)
+- **Status**: pending
+
+## vq-014 [medium priority]
+- **Fact**: "Direct annual sunny-day counts for Nicosia, Limassol/Larnaca, and Paphos"
+- **Country**: Cyprus
+- **Section**: 5.2
+- **Current source**: src-039
+- **Why uncertain**: Current climate source provides temperatures, humidity, precipitation days, and annual sun hours, but not direct annual sunny-day counts for the target cities.
+- **Suggested verification**: Check Cyprus Meteorological Service climate normals, WMO city climate pages, meteoblue chart data, or another statistical source with explicit sunny/clear-day counts.
+- **Created**: 2026-05-25 (run-007)
+- **Status**: pending
+
 ## Low priority
 _(none)_
 

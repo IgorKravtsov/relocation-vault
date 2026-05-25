@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 6,
+  "iteration": 7,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-25T10:03:22Z",
+  "last_run_timestamp": "2026-05-25T16:15:00Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Italy",
+    "country": "Cyprus",
     "sections": [
       "5.1",
       "5.2"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Cyprus",
+    "suggested_country": "Croatia",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Verification queue remains below threshold, and Cyprus is the next Tier-1-hint country at depth 0."
+    "reason": "Verification queue remains below threshold, and Croatia is the next Tier-1-hint country at depth 0."
   },
   "countries": {
     "Spain": {
@@ -135,12 +135,13 @@
     "Cyprus": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 0,
+      "depth_score": 1.0,
       "sections_completed": [],
-      "sections_partial": [],
-      "sections_pending": [
+      "sections_partial": [
         "5.1",
-        "5.2",
+        "5.2"
+      ],
+      "sections_pending": [
         "5.3",
         "5.4",
         "5.5",
@@ -151,8 +152,13 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "no-clear-post-2027-tp-bridge",
+        "dn-income-above-current-budget",
+        "civil-union-needed-for-partner-dependency",
+        "climate-sunny-days-gap"
+      ],
+      "last_iteration": 7
     },
     "Croatia": {
       "tier": null,
@@ -771,8 +777,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 7,
-  "sources_count": 34,
-  "claims_count": 19,
+  "verification_queue_size": 9,
+  "sources_count": 39,
+  "claims_count": 24,
   "proposals_pending": 0
 }

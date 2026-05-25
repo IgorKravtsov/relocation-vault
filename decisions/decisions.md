@@ -40,3 +40,10 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 **Iteration**: run-006.
 **Counterevidence considered**: The DN income floor captured from a consulate page is not obviously above the couple's current income, but it is a 2024 figure and the route requires highly specialized-worker proof plus a registered Italian lease, so practical viability remains unresolved.
 
+## 2026-05-25 — Cyprus kept unranked after first iteration
+**Decision**: Do not assign a final tier yet.
+**Rationale**: Cyprus has an official Digital Nomad route and strong coastal climate fit, but the DN threshold is €3,500/month net, above the couple's current income, the first pass did not capture a Cyprus-specific post-04 March 2027 TP bridge, and DN family coverage appears to require spouse or civil-union partner status.
+**Source**: src-002, src-035, src-036, src-037, src-038, src-039.
+**Iteration**: run-007.
+**Counterevidence considered**: Citizenship by naturalization has a documented 7-year residence path and the DN route supports foreign remote work, but affordability and partner-formalization risks are too material for a stable tier call.
+

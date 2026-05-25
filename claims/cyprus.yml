@@ -1,0 +1,45 @@
+- id: claim-cyprus-001
+  topic: temporary_protection_eu_horizon
+  value: "EU temporary protection framework extended to 04 March 2027"
+  source: src-002
+  date_verified: 2026-05-25
+  confidence: high
+  tags: [temporary-protection, post-2027, eu]
+  notes: "EU-level horizon applies to Cyprus as an EU Member State; Cyprus-specific local implementation page still needs a 2027 update check."
+
+- id: claim-cyprus-002
+  topic: cyprus_temporary_protection_local_mechanics
+  value: "Cyprus Asylum Service page says existing TP beneficiaries do not need a new application for the automatic extension to 04 March 2026; first-time applicants apply online or at the Asylum Service headquarters in Nicosia."
+  source: src-036
+  date_verified: 2026-05-25
+  confidence: medium-high
+  tags: [temporary-protection, cyprus, application-route]
+  notes: "Official Cyprus page captured local mechanics but has not yet been updated to the EU 04 March 2027 horizon in this pass."
+
+- id: claim-cyprus-003
+  topic: digital_nomad_income_threshold
+  value: 3500
+  unit: EUR/month net
+  source: src-035
+  date_verified: 2026-05-25
+  confidence: high
+  tags: [digital-nomad, income-threshold, remote-work]
+  notes: "Stable and sufficient monthly net income after deductions for contributions and taxes."
+
+- id: claim-cyprus-004
+  topic: digital_nomad_permit_duration
+  value: "1-year first temporary residence permit; renewal valid for a maximum of 2 years"
+  source: src-035
+  date_verified: 2026-05-25
+  confidence: high
+  tags: [digital-nomad, permit-duration, renewal]
+  notes: "Family members can receive residence for the same period but without work/economic-activity rights in Cyprus."
+
+- id: claim-cyprus-005
+  topic: citizenship_naturalization_residence_requirement
+  value: "12 months legal and continuous residence immediately before application plus at least 7 years cumulative legal residence in the preceding 10 years"
+  source: src-037
+  date_verified: 2026-05-25
+  confidence: high
+  tags: [citizenship, naturalization, residence-years]
+  notes: "Also requires good character, Greek B1, civic-knowledge test, accommodation, stable financial resources, and intention to reside."
