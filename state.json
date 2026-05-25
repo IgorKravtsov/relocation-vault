@@ -1,24 +1,27 @@
 {
   "version": 2,
-  "iteration": 5,
+  "iteration": 6,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-25T04:09:15Z",
+  "last_run_timestamp": "2026-05-25T10:03:22Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
-    "sections": null
+    "mode": "country-deep-dive",
+    "country": "Italy",
+    "sections": [
+      "5.1",
+      "5.2"
+    ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Italy",
+    "suggested_country": "Cyprus",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Verification queue is back below the threshold, and Italy is the next Tier-1-hint country at depth 0."
+    "reason": "Verification queue remains below threshold, and Cyprus is the next Tier-1-hint country at depth 0."
   },
   "countries": {
     "Spain": {
@@ -78,12 +81,14 @@
     "Italy": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 0,
-      "sections_completed": [],
-      "sections_partial": [],
+      "depth_score": 1.5,
+      "sections_completed": [
+        "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
+      ],
       "sections_pending": [
-        "5.1",
-        "5.2",
         "5.3",
         "5.4",
         "5.5",
@@ -94,8 +99,12 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "no-clear-post-2027-tp-bridge",
+        "dn-income-source-2024",
+        "unmarried-partner-not-covered-by-dn-family-sponsorship"
+      ],
+      "last_iteration": 6
     },
     "Greece": {
       "tier": null,
@@ -762,8 +771,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 5,
-  "sources_count": 26,
-  "claims_count": 14,
+  "verification_queue_size": 7,
+  "sources_count": 34,
+  "claims_count": 19,
   "proposals_pending": 0
 }

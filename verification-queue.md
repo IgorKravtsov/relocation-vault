@@ -124,6 +124,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-05-24 (run-004)
 - **Status**: pending
 
+## vq-011 [high priority]
+- **Fact**: "Italy's official post-04 March 2027 transition path from Ukrainian temporary protection into an ordinary residence permit, if any"
+- **Country**: Italy
+- **Section**: 5.1
+- **Current source**: src-002, src-027, src-034
+- **Why uncertain**: This iteration confirmed the TP horizon through 04 March 2027 and captured UNHCR's no-current-conversion baseline, but did not find an Italian bridge equivalent to Greece's Article 194 mechanism.
+- **Suggested verification**: Check Ministry of Interior, Questura / Polizia di Stato, Integration Migrants, and Official Gazette updates for any explicit TP conversion or transitional route.
+- **Created**: 2026-05-25 (run-006)
+- **Status**: pending
+
+## vq-012 [medium priority]
+- **Fact**: "Italy digital nomad / remote-worker visa 2026 income threshold and family-dependent mechanics for a Ukrainian applicant, including unmarried partner eligibility"
+- **Country**: Italy
+- **Section**: 5.1
+- **Current source**: src-028
+- **Why uncertain**: The captured consular checklist gives a 2024 income floor and names spouse/minor children for family sponsorship, but the route needs a 2026 consular cross-check and a clearer answer for an unmarried partner.
+- **Suggested verification**: Check an Italian consulate serving Ukraine/Poland, Visa for Italy, and Questura guidance or a current Italian immigration-lawyer explainer.
+- **Created**: 2026-05-25 (run-006)
+- **Status**: pending
+
 ## Low priority
 _(none)_
 

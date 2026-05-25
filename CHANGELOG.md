@@ -53,3 +53,12 @@ Brief delta per iteration. Append-only.
 - Poland-residence interaction clarified for Greece, Spain, and Portugal baseline planning
 - Sources added: src-025, src-026
 - Facts verified: 5
+
+## 2026-05-25 — run-006 — italy-legalization-climate
+
+- Italy profile created from template
+- Italy: depth_score 0 → 1.5 (section 5.2 completed; section 5.1 advanced to partial)
+- Sources added: src-027 … src-034
+- Claims added: claim-italy-001 … claim-italy-005
+- Verification queue: 5 → 7
+- Next: country-deep-dive on Cyprus (sections 5.1, 5.2)

@@ -33,3 +33,10 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 **Iteration**: run-004.
 **Counterevidence considered**: Portugal's structural attractiveness remains real, especially if income rises or ordinary residence is secured early, but the long-term legality and affordability questions are still too material for a stable tier call.
 
+## 2026-05-25 — Italy kept unranked after first iteration
+**Decision**: Do not assign a final tier yet.
+**Rationale**: Italy has a live TP framework to 04 March 2027, a formal DN / remote-worker route, and strong central/southern climate fit, but the first pass did not find a clear official post-TP bridge, and the DN family route appears marriage-sensitive because the captured consular page names spouse and minor children rather than unmarried partners.
+**Source**: src-002, src-027, src-028, src-030, src-031, src-032, src-033, src-034.
+**Iteration**: run-006.
+**Counterevidence considered**: The DN income floor captured from a consulate page is not obviously above the couple's current income, but it is a 2024 figure and the route requires highly specialized-worker proof plus a registered Italian lease, so practical viability remains unresolved.
+

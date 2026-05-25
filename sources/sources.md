@@ -48,8 +48,8 @@ Each source entry:
 - **Type**: official-primary
 - **Date published**: 2025-07-15
 - **Date accessed**: 2026-05-24
-- **Used by**: Greece, Spain
-- **Facts supporting**: EU-level TP extension chain to 04 March 2027; one-Member-State TP principle; Spain TP validity context through 04 March 2027
+- **Used by**: Greece, Spain, Italy
+- **Facts supporting**: EU-level TP extension chain to 04 March 2027; one-Member-State TP principle; Spain and Italy TP validity context through 04 March 2027
 - **Confidence ceiling**: high
 - **Stale at**: 2026-11-24
 
@@ -339,4 +339,100 @@ Each source entry:
 - **Used by**: Portugal
 - **Facts supporting**: post-visa filing route at AIMA; in-person/appointment process; required passport, valid remote-work residence visa, foreign employer/client declaration, and residence-address evidence; 2-year initial permit renewable for 3-year periods
 - **Confidence ceiling**: high
+- **Stale at**: 2026-11-25
+
+## src-027
+- **Title**: Italy Integration Migrants portal — Temporary protection for Ukrainians, permits renewable until March 2027
+- **URL**: https://integrazionemigranti.gov.it/it-it/Ricerca-news/Dettaglio-news/id/4550/Protezione-temporanea-per-gli-ucraini-permessi-rinnovabili-fino-a-marzo-2027
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-01-07
+- **Date accessed**: 2026-05-25
+- **Used by**: Italy
+- **Facts supporting**: Italy TP / Ukrainian permit renewal to 04 March 2027 (claim-italy-001); Decree-Law 201/2025 context; link to Council Implementing Decision (EU) 2025/1460
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-25
+
+## src-028
+- **Title**: Italian Consulate General in New York — Digital Nomad / Remote Worker Visa
+- **URL**: https://consnewyork.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/visti/visas-to-enter-italy/digital-nomad-remote-worker-visa/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Italy
+- **Facts supporting**: DN route scope; highly specialized worker requirement; document checklist; insurance coverage; registered lease requirement; 2024 income floor €24,789/year (claim-italy-002); one-year renewable permesso (claim-italy-003); spouse/minor-child family scope (claim-italy-005)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-25
+
+## src-029
+- **Title**: Italian Prefecture / Ministry of Interior — Citizenship by residence guidance PDF (Section 2)
+- **URL**: https://prefettura.interno.gov.it/sites/default/files/98/2023-12/in-_section_2_citizenship_by_residence.pdf
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2023-12-01
+- **Date accessed**: 2026-05-25
+- **Used by**: Italy
+- **Facts supporting**: citizenship-by-residence official guidance captured for follow-up extraction; baseline naturalization timing needs detailed verification
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-25
+
+## src-030
+- **Title**: Climate to Travel — Rome climate
+- **URL**: https://www.climatestotravel.com/climate/italy/rome
+- **Archive**: [archive: failed 2026-05-25]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Italy
+- **Facts supporting**: Rome January / July temperatures; Mediterranean comfort summary; annual sunshine hours
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-031
+- **Title**: Climate to Travel — Milan climate
+- **URL**: https://www.climatestotravel.com/climate/italy/milan
+- **Archive**: [archive: failed 2026-05-25]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Italy
+- **Facts supporting**: Milan January / July temperatures; cold damp winter and muggy summer comfort summary; annual sunshine hours
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-032
+- **Title**: Climate to Travel — Palermo climate
+- **URL**: https://www.climatestotravel.com/climate/italy/palermo
+- **Archive**: [archive: failed 2026-05-25]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Italy
+- **Facts supporting**: Palermo January / July temperatures; very mild winter; sirocco heat risk; annual sunshine hours
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-033
+- **Title**: Current Results — Annual Sunshine in Italy
+- **URL**: https://www.currentresults.com/Weather/Italy/annual-days-of-sunshine.php
+- **Archive**: [archive: failed 2026-05-25]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Italy
+- **Facts supporting**: direct annual sunny-morning / clear-evening counts for Milan, Rome, and Palermo
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-034
+- **Title**: UNHCR Italy — Temporary Protection
+- **URL**: https://help.unhcr.org/italy/forms-of-protection-in-italy/temporary-protection/
+- **Archive**: [archive: failed 2026-05-25]
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Italy
+- **Facts supporting**: TP eligibility and Questura filing route; rights to education, work, and SSN; no current TP-to-work-permit conversion provision (claim-italy-004)
+- **Confidence ceiling**: medium-high
 - **Stale at**: 2026-11-25

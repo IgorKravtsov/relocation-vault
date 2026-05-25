@@ -1,0 +1,45 @@
+- id: claim-italy-001
+  topic: temporary_protection_extended_until
+  value: "2027-03-04"
+  source: src-027
+  date_verified: 2026-05-25
+  confidence: high
+  tags: [italy, ukraine, temporary-protection, eu, extension]
+  notes: "Italy's Integration Migrants portal says Decree-Law 201/2025 provides renewal to 4 March 2027 and confirms temporary protection for displaced Ukrainians to the same date under Council Implementing Decision (EU) 2025/1460."
+
+- id: claim-italy-002
+  topic: dn_income_threshold_primary_applicant
+  value: 24789
+  unit: EUR/year
+  source: src-028
+  date_verified: 2026-05-25
+  confidence: medium-high
+  tags: [italy, digital-nomad, remote-worker, threshold, income]
+  notes: "The cited Italian consular checklist says the minimum legal income at the time of writing in 2024 is no less than €24,789/year; this needs a 2026 cross-check before scoring."
+
+- id: claim-italy-003
+  topic: dn_residence_permit_validity
+  value: "1 year, renewable locally at Questura while employment, lodging, and health insurance are maintained"
+  source: src-028
+  date_verified: 2026-05-25
+  confidence: medium-high
+  tags: [italy, digital-nomad, residence-permit, renewal]
+  notes: "The consular page describes the post-entry permesso di soggiorno process for digital nomads and remote workers."
+
+- id: claim-italy-004
+  topic: temporary_protection_to_work_permit_conversion
+  value: "UNHCR Italy states that currently there is no provision allowing conversion of a temporary-protection permit into a work permit"
+  source: src-034
+  date_verified: 2026-05-25
+  confidence: medium-high
+  tags: [italy, ukraine, temporary-protection, conversion, post-2027]
+  notes: "Use as a conservative planning baseline until an official Italian transition mechanism is found."
+
+- id: claim-italy-005
+  topic: dn_family_sponsorship_scope
+  value: "spouse not separated/separating and children under 18; unmarried partner not captured in cited checklist"
+  source: src-028
+  date_verified: 2026-05-25
+  confidence: medium-high
+  tags: [italy, digital-nomad, spouse, dependent, partner-risk]
+  notes: "This creates a practical marriage-sensitive route for the couple; unmarried-partner eligibility needs direct verification."
