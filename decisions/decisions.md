@@ -47,3 +47,10 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 **Iteration**: run-007.
 **Counterevidence considered**: Citizenship by naturalization has a documented 7-year residence path and the DN route supports foreign remote work, but affordability and partner-formalization risks are too material for a stable tier call.
 
+## 2026-05-25 — Croatia kept unranked after first iteration
+**Decision**: Do not assign a final tier yet.
+**Rationale**: Croatia has an official TP intake channel, a formal digital-nomad temporary-stay route, and strong Adriatic climate fit, but the DN income floor is €3,622.50/month before partner uplift, the route is capped at 18 months with a cooling-off period, and this pass did not capture a Croatia-specific post-04 March 2027 TP bridge.
+**Source**: src-002, src-040, src-041, src-042, src-043.
+**Iteration**: run-008.
+**Counterevidence considered**: Croatia's DN route is operationally clear and more partner-friendly than spouse-only systems because it includes common-law partners, but affordability and long-term-status uncertainty are too material for a stable tier call.
+

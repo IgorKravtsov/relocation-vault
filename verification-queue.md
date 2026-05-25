@@ -167,6 +167,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 ## Low priority
 _(none)_
 
+## vq-015 [high priority]
+- **Fact**: "Croatia-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
+- **Country**: Croatia
+- **Section**: 5.1
+- **Current source**: src-002, src-040
+- **Why uncertain**: EU-level temporary protection is extended to 04 March 2027, and Croatia has an official TP application channel, but this pass did not find a Croatia-specific bridge equivalent to Greece's Article 194 mechanism.
+- **Suggested verification**: Check MUP, Croatia4Ukraine, Government of Croatia decisions, Official Gazette / Narodne novine, and current Croatian immigration-law updates for any explicit TP conversion or transitional route.
+- **Created**: 2026-05-25 (run-008)
+- **Status**: pending
+
+## vq-016 [medium priority]
+- **Fact**: "Direct annual sunny-day counts for Zagreb, Split, and Dubrovnik"
+- **Country**: Croatia
+- **Section**: 5.2
+- **Current source**: src-043
+- **Why uncertain**: Current climate source provides temperatures, humidity, precipitation days, and annual sunshine hours, but not direct annual sunny/clear-day counts for the target cities.
+- **Suggested verification**: Check Croatian Meteorological and Hydrological Service climate normals, WMO city climate pages, meteoblue chart data, or another statistical source with explicit sunny/clear-day counts.
+- **Created**: 2026-05-25 (run-008)
+- **Status**: pending
+
 ## Recently resolved (last 10)
 - `vq-001` — 2026-05-25 (run-005)
 - `vq-005` — 2026-05-25 (run-005)

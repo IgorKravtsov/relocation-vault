@@ -1,0 +1,45 @@
+- id: claim-croatia-001
+  topic: temporary_protection_eu_horizon
+  value: "EU temporary protection framework extended to 04 March 2027"
+  source: src-002
+  date_verified: 2026-05-25
+  confidence: high
+  tags: [temporary-protection, post-2027, eu]
+  notes: "EU-level horizon applies to Croatia as an EU Member State; Croatia-specific post-TP bridge still needs verification."
+
+- id: claim-croatia-002
+  topic: digital_nomad_income_threshold
+  value: 3622.50
+  unit: EUR/month
+  source: src-041
+  date_verified: 2026-05-25
+  confidence: high
+  tags: [digital-nomad, income-threshold, remote-work]
+  notes: "MUP states this is the current minimum monthly amount, based on 2.5 average monthly net salaries, with a 10% average-net-salary uplift per additional family member / life partner / informal life partner."
+
+- id: claim-croatia-003
+  topic: digital_nomad_permit_duration
+  value: "Temporary stay up to 18 months; if initially granted for less than 18 months, extension can bring total to a maximum of 18 months"
+  source: src-041
+  date_verified: 2026-05-25
+  confidence: high
+  tags: [digital-nomad, permit-duration, renewal]
+  notes: "A new digital-nomad stay application can be submitted 6 months after expiry of the previous relevant stay."
+
+- id: claim-croatia-004
+  topic: digital_nomad_family_member_scope
+  value: "Close family members may join; MUP includes common-law partners, with a childless common-law couple described as together for longer than 3 years"
+  source: src-041
+  date_verified: 2026-05-25
+  confidence: high
+  tags: [digital-nomad, family-reunification, partner]
+  notes: "This is more flexible than spouse-only routes, but evidence of the relationship will be practically important."
+
+- id: claim-croatia-005
+  topic: digital_nomad_foreign_remote_work_scope
+  value: "Applicant works through communication technology for a foreign employer or own company not registered in Croatia, and does not work or provide services to Croatian employers"
+  source: src-041
+  date_verified: 2026-05-25
+  confidence: high
+  tags: [digital-nomad, remote-work, local-work-restriction]
+  notes: "Structurally fits foreign-client IT work, subject to income threshold and documentation."

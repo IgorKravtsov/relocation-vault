@@ -48,8 +48,8 @@ Each source entry:
 - **Type**: official-primary
 - **Date published**: 2025-07-15
 - **Date accessed**: 2026-05-24
-- **Used by**: Greece, Spain, Italy, Cyprus
-- **Facts supporting**: EU-level TP extension chain to 04 March 2027; one-Member-State TP principle; Spain, Italy, and Cyprus TP validity context through 04 March 2027
+- **Used by**: Greece, Spain, Italy, Cyprus, Croatia
+- **Facts supporting**: EU-level TP extension chain to 04 March 2027; one-Member-State TP principle; Spain, Italy, Cyprus, and Croatia TP validity context through 04 March 2027
 - **Confidence ceiling**: high
 - **Stale at**: 2026-11-24
 
@@ -494,5 +494,53 @@ Each source entry:
 - **Date accessed**: 2026-05-25
 - **Used by**: Cyprus
 - **Facts supporting**: Cyprus Mediterranean climate summary; January/July temperatures, humidity, precipitation days, and sun-hours data for Larnaca, Limassol, Nicosia, and Paphos
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-040
+- **Title**: Croatia4Ukraine / Ministry of Interior — Temporary protection application form
+- **URL**: https://croatia4ukraine.mup.hr/Pages/Zahtjev
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Croatia
+- **Facts supporting**: Croatia temporary-protection application channel and eligibility categories for Ukrainians / family members / stateless and other third-country protection beneficiaries
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-25
+
+## src-041
+- **Title**: Croatia Ministry of Interior — Temporary stay of digital nomads
+- **URL**: https://mup.gov.hr/aliens-281621/stay-and-work/temporary-stay-of-digital-nomads/286833
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Croatia
+- **Facts supporting**: Croatia digital-nomad route scope; foreign-employer / foreign-company remote-work condition; up-to-18-month duration; €3,622.50/month means threshold; partner uplift; family reunification including common-law partners; document and application route checklist (claim-croatia-002 through claim-croatia-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-25
+
+## src-042
+- **Title**: gov.hr — Acquiring Croatian Citizenship
+- **URL**: https://gov.hr/en/acquiring-croatian-citizenship/460
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Croatia
+- **Facts supporting**: official Croatian citizenship-by-naturalisation page captured as anchor for later detailed extraction
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-25
+
+## src-043
+- **Title**: Climates to Travel — Croatia climate: temperature, rain, when to go
+- **URL**: https://www.climatestotravel.com/climate/croatia
+- **Archive**: [archive: failed 2026-05-25]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Croatia
+- **Facts supporting**: Croatia climate zones; January/July temperatures, humidity, precipitation days, and annual sunshine hours for Zagreb, Split, and Dubrovnik
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
