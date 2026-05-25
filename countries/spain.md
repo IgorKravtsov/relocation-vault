@@ -1,14 +1,14 @@
 ---
 country: Spain
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-24T16:05:23Z
-sections_completed: []
-sections_partial: ["5.1","5.2"]
+depth_score: 1.5
+last_updated: 2026-05-25T04:09:15Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge","polish-karta-pobytu-interaction-unverified","climate-sunny-days-gap","dn-threshold-for-couple-tight"]
-sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016"]
-unverified_count: 3
+risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight"]
+sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-24T16:05:23Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-05-25T04:09:15Z
 - **Tier rationale**: Spain already has a strong remote-work legalization route and a mature temporary-protection system for Ukrainians, but this pass did not locate a clean official post-04 March 2027 transition bridge from TP into ordinary residence, and the couple-income math for the digital nomad route is tight.
 
 ## Block 2 — Scoring
@@ -41,9 +41,9 @@ schema_version: 2.0.0
 
 ## Block 3 — Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-05-24, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-05-25, dod: partial}
 
-> **DoD status**: partial. Covered: who can get Spanish TP, what documents/procedure Spain uses, official DN checklist, income formula, family coverage, and practical remote-work route. Missing for full DoD: a clean official post-04 March 2027 bridge from TP into ordinary residence, exact PR/citizenship timelines from primary sources, and explicit Spanish guidance on how a Polish `karta pobytu` interacts with Spain-based long-stay planning.
+> **DoD status**: partial. Covered: who can get Spanish TP, what documents/procedure Spain uses, official DN checklist, income formula, family coverage, practical remote-work route, and the baseline planning answer for an existing Polish residence title. Missing for full DoD: a clean official post-04 March 2027 bridge from TP into ordinary residence and exact PR/citizenship timelines from primary sources.
 
 #### Now (until 03.2027)
 
@@ -82,19 +82,19 @@ schema_version: 2.0.0
 2. **For the man, the cleanest non-local-employer route documented so far is the digital nomad route.** Spain's official checklist is much more concrete than many countries' DN pages. [src-013]
 3. **Marriage is not strictly mandatory on the DN route** because the consular page explicitly includes an **unmarried partner**, but the couple still needs documentary proof of the relationship. [src-013]
 4. **Income math is the main practical stress point.** Using the SMI figure linked by the consular page, a one-person DN case is feasible at €2,268/month, but a two-person case is about **€3,118.50/month**, which is above the couple's nominal $3,000/month budget. That makes Spain more comfortable if only one partner applies first, if income rises, or if the current budget converts favorably and is documented strongly. [src-013]
-5. **Polish `karta pobytu` does not replace a Spanish long-stay basis.** This iteration found no official Spanish guidance saying a Polish residence permit itself authorizes long-term residence in Spain. The safe working assumption is that the couple still needs a Spanish status (TP, DN, family, study, etc.), while the exact interaction between a Polish permit and Spanish TP / DN planning remains open. [verification required; vq-005]
+5. **Polish `karta pobytu` does not replace a Spanish long-stay basis.** Spain's official DN route is a Spanish residence route with its own NIE and visa requirements, so an existing Polish residence title should be treated only as prior residence history, not as a substitute for a Spanish status. If the Polish status is itself temporary protection, the couple should also assume the EU one-Member-State TP rule applies. [src-002][src-013]
 6. **Prepare apostilles and translations early.** Spain's official DN page is explicit that foreign family and representation documents may need legalization/apostille plus official Spanish translation. That strongly suggests preparing civil-status evidence early if the partner is to be included. [src-013]
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-24, dod: partial}
+### 5.2. Climate {status: deep, depth: 2, last_updated: 2026-05-25, dod: passed}
 
-> **DoD status**: partial. Covered: January/July temperatures in 3 cities, humidity, sunshine-hours profile, and practical comfort. Missing for full DoD: a direct source that gives **sunny days per year** as day counts.
+> **DoD status**: passed. Covered: January/July temperatures in 3 cities, humidity, sunshine-hours profile, practical comfort, and direct annual clear-day counts.
 
 - **Madrid** is the least winter-soft of the three reviewed cities: average **January mean 6.3°C** and **July mean 26.0°C**. Climate to Travel also reports about **2,835 sunshine hours/year** and average humidity around **69%**. [src-014]
 - **Valencia** fits the brief better for a warm coastal lifestyle: average **January mean 10.7°C** and **July mean 25.8°C**, with average humidity around **67%** and very good summer sunshine. [src-015]
 - **Málaga** is the warmest and most relocation-friendly among the three for this couple's climate preferences: average **January mean 12.4°C** and **July mean 25.8°C**, average humidity around **70%**, and about **2,910 sunshine hours/year**. [src-016]
 - Practical comfort read: **Málaga** looks strongest for mild winter living and year-round sun; **Valencia** is a solid compromise between warmth and big-city practicality; **Madrid** is bright but less aligned with the couple's wish to avoid a cooler winter. [src-014][src-015][src-016]
 - The main weather trade-off is summer heat. Madrid gets the most inland heat spikes, while Valencia and Málaga are moderated somewhat by the sea but still very hot in high summer. [src-014][src-015][src-016]
-- **Sunny-days gap**: this pass captured sunshine-hour intensity and clear-sky descriptions, but not an explicit annual count of sunny days for all three cities. [verification required; vq-006]
+- A direct climate table from Current Results reports **97 clear days/year for Madrid**, **91 for Valencia**, and **107 for Málaga**. That closes the earlier sunny-day gap for the Spain climate section. [src-025]
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -251,15 +251,12 @@ _(none yet)_
 - [src-014] Climate to Travel — Madrid climate.
 - [src-015] Climate to Travel — Valencia climate.
 - [src-016] Climate to Travel — Málaga climate.
+- [src-025] Current Results — direct annual clear-day counts for Madrid, Valencia, and Málaga.
 
 ### 7e. Not found
 - A clear official Spanish TP→ordinary-residence transition mechanism for after 04 March 2027.
-- Explicit Spanish guidance on how a Polish `karta pobytu` interacts with Spanish TP or Spanish digital nomad residence planning.
-- A source exposing direct annual **sunny-day counts** for Madrid, Valencia, and Málaga rather than sunshine-hour totals.
 - Primary-source PR and citizenship timeline map for this exact residence scenario.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-004` — Spain post-04 March 2027 TP transition / ordinary-residence bridge.
-- `vq-005` — Spain treatment of a Polish `karta pobytu` in TP/DN planning.
-- `vq-006` — Sunny-day counts for Madrid, Valencia, and Málaga.

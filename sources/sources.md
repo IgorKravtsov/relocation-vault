@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-05-24
+last_updated: 2026-05-25
 ---
 
 # Sources Registry
@@ -316,3 +316,27 @@ Each source entry:
 - **Facts supporting**: Faro January/July temperatures; annual sunshine hours; humidity
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-025
+- **Title**: Current Results — Annual Sunshine in Spain
+- **URL**: https://www.currentresults.com/Weather/Spain/annual-days-of-sunshine.php
+- **Archive**: [archive: failed 2026-05-25]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Spain
+- **Facts supporting**: direct clear-day counts for Madrid (97), Valencia (91), and Málaga (107)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-026
+- **Title**: AIMA — Residence authorization for remote work with a residence visa (Art. 88(1), Digital Nomads)
+- **URL**: https://aima.gov.pt/pt/trabalhar/autorizacao-de-residencia-para-o-exercicio-de-atividade-profissional-prestada-de-forma-remota-com-visto-de-residencia-para-o-exe
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-25
+- **Used by**: Portugal
+- **Facts supporting**: post-visa filing route at AIMA; in-person/appointment process; required passport, valid remote-work residence visa, foreign employer/client declaration, and residence-address evidence; 2-year initial permit renewable for 3-year periods
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-25

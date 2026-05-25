@@ -2,13 +2,13 @@
 country: Portugal
 tier: null
 depth_score: 1.0
-last_updated: 2026-05-24T22:14:15Z
+last_updated: 2026-05-25T04:09:15Z
 sections_completed: []
 sections_partial: ["5.1","5.2"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge","polish-karta-pobytu-interaction-unverified","climate-sunny-days-gap","d8-income-above-current-budget","d8-official-checklist-gap"]
-sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024"]
-unverified_count: 4
+risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget"]
+sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -20,7 +20,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
 - **depth_score**: 1.0
-- **Last updated**: 2026-05-24T22:14:15Z
+- **Last updated**: 2026-05-25T04:09:15Z
 - **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
 
 ## Block 2 — Scoring
@@ -41,9 +41,9 @@ schema_version: 2.0.0
 
 ## Block 3 — Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-05-24, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-05-25, dod: partial}
 
-> **DoD status**: partial. Covered: Portugal's current TP shelter mechanism, the 04 March 2027 EU horizon, the existence and broad structure of the D8 remote-work route, the current naturalization rule change, and the practical fit for this couple. Missing for full DoD: an official-primary D8 checklist with step-by-step portal/consular instructions, a documented post-04 March 2027 TP conversion bridge into ordinary residence, and explicit guidance on how a Polish `karta pobytu` interacts with Portugal-based TP or D8 planning.
+> **DoD status**: partial. Covered: Portugal's current TP shelter mechanism, the 04 March 2027 EU horizon, the existence and broad structure of the D8 remote-work route, the current naturalization rule change, the official post-visa AIMA filing route for remote workers, and the baseline planning answer for an existing Polish residence title. Missing for full DoD: a documented post-04 March 2027 TP conversion bridge into ordinary residence and a direct source for annual sunny-day counts.
 
 #### Now (until 03.2027)
 
@@ -64,7 +64,7 @@ schema_version: 2.0.0
 - Portugalist's 2026 deep-dive says the main applicant must show **at least four times the Portuguese minimum wage per month**, which it translates into **€3,680/month** in 2026, plus Portuguese administrative setup such as a **NIF**, Portuguese bank account, accommodation evidence, criminal-record certificate, and proof of remote-work authorization. [src-020]
 - The same source says family applications require **higher income and savings**, plus marriage certificate or proof of cohabitation for unmarried partners. [src-020]
 - Portugalist also distinguishes two products inside the remote-work framework: a **residence visa** for long-stay relocation and a **temporary-stay visa** for longer non-resident stays. The residence route is the one relevant to a genuine relocation plan. [src-020]
-- Because this iteration did not capture the official-primary D8 service page or embassy checklist directly, every detailed D8 document rule above should be treated as **usable orientation, not final filing guidance**. [verification required; vq-007]
+- Portugal's AIMA now provides an official-primary page for the **post-visa residence-authorization stage** for remote workers. It says the application is made **by appointment** (or via an electronic platform for residence-visa holders once implemented), is filed **in person** with AIMA, and must include a **valid passport**, a **valid residence visa for remote work**, a declaration from the foreign employer/client attesting the employment or service relationship, and **residence-address evidence** backed by ownership or landlord-host documentation. The same page says the temporary permit is valid for **two years**, renewable for **successive three-year periods**. [src-026]
 
 #### PR and citizenship
 
@@ -79,10 +79,10 @@ schema_version: 2.0.0
 2. **Do not treat Portuguese TP as the long-term plan by itself.** This iteration found the current 2027 extension, but not a documented bridge from TP into ordinary residence after that horizon. [src-002][src-019][vq-008]
 3. **If Portugal stays in the shortlist, the rational non-local-employer strategy is to verify whether the man can qualify for the residence-type D8 route with stronger income evidence, higher earnings, or later two-income support.** At the current budget level, that looks weak. [src-020]
 4. **Marriage may help documentary clarity, but it does not solve the income problem.** The remote-work route appears family-aware, yet still requires higher financial proof for a spouse/partner. [src-020]
-5. **Polish `karta pobytu` should be treated as unresolved.** This iteration did not find explicit Portuguese guidance saying a Polish residence permit helps, blocks, or substitutes for Portugal's own long-stay basis. [verification required; vq-009]
+5. **A Polish residence title does not substitute for Portugal's own status.** Portugal's remote-work path is structured as a Portuguese residence visa followed by a Portuguese AIMA residence-authorization filing, so a Polish `karta pobytu` should be treated only as existing residence history, not as a replacement for Portuguese authorization. If the Polish status is temporary protection rather than ordinary residence, the couple should also assume the EU one-Member-State TP rule still governs that part of the plan. [src-002][src-026]
 6. **Citizenship should be modeled on a slower horizon than older Portugal marketing suggests.** Under the captured official 2026 rule change, the relevant naturalization period is now ten years for non-EU, non-Lusophone nationals such as Ukrainians. [src-021]
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-24, dod: partial}
+### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-25, dod: partial}
 
 > **DoD status**: partial. Covered: January/July temperatures in 3 cities, humidity, sunshine-hours profile, and practical comfort. Missing for full DoD: a direct source with annual **sunny-day counts** rather than sunshine hours.
 
@@ -238,6 +238,7 @@ schema_version: 2.0.0
 - [src-017] Justiça.gov.pt — Temporary Protection FAQ / reception and integration of Ukrainian citizens in Portugal.
 - [src-019] AIMA — temporary protection for displaced people from Ukraine extended to 2027.
 - [src-021] Justiça.gov.pt — 2026 nationality-law changes entering into force on 19 May.
+- [src-026] AIMA — official filing route and post-visa checklist for remote-work residence authorization.
 
 ### 7b. Reputable secondary
 - [src-018] gov.pt — refugee-support overview for Ukrainians in Portugal [data older than 2024, verify freshness].
@@ -252,15 +253,11 @@ _(none yet)_
 - [src-024] Climate to Travel — Faro climate.
 
 ### 7e. Not found
-- A clean official-primary D8 checklist and filing page captured in a form reusable for this vault.
 - A Portuguese official page explaining the post-04 March 2027 bridge from TP into ordinary residence.
-- Explicit Portuguese guidance on how a Polish `karta pobytu` interacts with TP or D8 planning.
 - A source exposing direct annual **sunny-day counts** for Lisbon, Porto, and Faro.
 - A primary-source permanent-residence timeline map for this exact residence scenario.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-007` — Official-primary Portugal D8 checklist, income proof, and filing mechanics.
 - `vq-008` — Portugal post-04 March 2027 TP transition / ordinary-residence bridge.
-- `vq-009` — Portugal treatment of a Polish `karta pobytu` in TP/D8 planning.
 - `vq-010` — Sunny-day counts for Lisbon, Porto, and Faro.

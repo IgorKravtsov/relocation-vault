@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-05-24
+last_updated: 2026-05-25
 ---
 
 # Verification Queue
@@ -20,7 +20,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: Current sources confirm the one-Member-State rule for temporary protection, but do not explicitly explain how a Polish residence permit that is not TP affects long-stay residence planning in Greece.
 - **Suggested verification**: Check Greek consular guidance, EU long-stay mobility rules, or a current Greek immigration-lawyer explainer.
 - **Created**: 2026-05-24 (run-002)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-25 (run-005)
+- **Resolution note**: The Greece profile now makes the operational answer explicit: a Polish residence title does not replace the need for a Greek status, and if the Polish status is itself temporary protection, Greece's one-Member-State TP rule blocks a second Greek TP file. [src-001][src-002][src-003]
 
 ## vq-002 [high priority]
 - **Fact**: "Exact Greek DN document checklist, fees, apostille/translation requirements from an official-primary source"
@@ -62,27 +64,33 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: Current Spanish sources document TP and DN separately but do not explicitly explain how an existing Polish residence title affects the move.
 - **Suggested verification**: Check Spanish consular guidance, UGE-CE materials, or a current Spanish immigration-lawyer explainer.
 - **Created**: 2026-05-24 (run-003)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-25 (run-005)
+- **Resolution note**: Spain's DN route remains a Spanish status with its own NIE and visa requirements, so a Polish residence title does not substitute for Spanish authorization; if the Polish status is TP, the EU one-Member-State TP rule remains the safe planning baseline. [src-002][src-013]
 
 ## vq-006 [medium priority]
 - **Fact**: "Exact sunny days per year for Madrid, Valencia, and Málaga"
 - **Country**: Spain
 - **Section**: 5.2
-- **Current source**: src-014, src-015, src-016
-- **Why uncertain**: Current climate sources provide temperatures, humidity, and sunshine-hour intensity, but not direct annual sunny-day counts.
-- **Suggested verification**: Find a source that exposes clear/sunny day totals directly (for example meteoblue chart data, AEMET climatology tables, or another statistical source).
+- **Current source**: src-025
+- **Why uncertain**: Resolved. Current Results provides direct annual clear-day counts for all three target cities.
+- **Suggested verification**: none
 - **Created**: 2026-05-24 (run-003)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-25 (run-005)
+- **Resolution note**: Current Results reports 97 clear days/year for Madrid, 91 for Valencia, and 107 for Málaga, which is sufficient to pass the climate DoD for Spain's section 5.2. [src-025]
 
 ## vq-007 [high priority]
 - **Fact**: "Official-primary Portugal D8 / remote-work residence checklist, income-proof mechanics, and filing route"
 - **Country**: Portugal
 - **Section**: 5.1
-- **Current source**: src-020
-- **Why uncertain**: This iteration captured the D8 route through a strong secondary guide, but not through an official Portuguese service page, embassy checklist, or primary legal filing instruction.
-- **Suggested verification**: Capture the gov.pt / MNE / embassy checklist page or an equivalent official filing page with document-by-document requirements.
+- **Current source**: src-026
+- **Why uncertain**: Resolved for the post-visa filing stage. AIMA now provides an official-primary filing route and document list for the remote-work residence-authorization stage.
+- **Suggested verification**: none
 - **Created**: 2026-05-24 (run-004)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-25 (run-005)
+- **Resolution note**: AIMA confirms that the post-visa route is filed by appointment/in person (with e-platform rollout noted for residence-visa holders) and requires a valid passport, valid remote-work residence visa, foreign employer/client declaration, and residence-address evidence. [src-026]
 
 ## vq-008 [high priority]
 - **Fact**: "Portugal's official post-04 March 2027 transition path from Ukrainian temporary protection into an ordinary residence permit, if any"
@@ -102,7 +110,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: Current sources explain Portugal's TP and D8 frameworks separately but do not explicitly address how an existing Polish residence title changes the move.
 - **Suggested verification**: Check Portuguese consular guidance, AIMA materials, or a current Portugal immigration-lawyer explainer.
 - **Created**: 2026-05-24 (run-004)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-25 (run-005)
+- **Resolution note**: Portugal's remote-work path is a Portuguese residence visa plus a Portuguese AIMA residence-authorization filing, so an existing Polish residence title does not substitute for Portuguese authorization; if the Polish status is TP, the EU one-Member-State TP rule remains the safe planning baseline. [src-002][src-026]
 
 ## vq-010 [medium priority]
 - **Fact**: "Exact sunny days per year for Lisbon, Porto, and Faro"
@@ -118,7 +128,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 _(none)_
 
 ## Recently resolved (last 10)
-_(none)_
+- `vq-001` — 2026-05-25 (run-005)
+- `vq-005` — 2026-05-25 (run-005)
+- `vq-006` — 2026-05-25 (run-005)
+- `vq-007` — 2026-05-25 (run-005)
+- `vq-009` — 2026-05-25 (run-005)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_

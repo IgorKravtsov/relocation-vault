@@ -1,7 +1,7 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-05-24
+last_updated: 2026-05-25
 ---
 
 # CHANGELOG
@@ -44,3 +44,12 @@ Brief delta per iteration. Append-only.
 - Claims added: claim-portugal-001 … claim-portugal-005
 - Verification queue: 6 → 10
 - Next: verification pass across Greece / Spain / Portugal blockers because queue threshold reached 10
+
+## 2026-05-25 — run-005 — verification-pass-legalization-climate
+
+- Verification queue: 10 → 5
+- Spain: depth_score 1.0 → 1.5 (section 5.2 climate closed to DoD with direct clear-day counts)
+- Portugal: official-primary AIMA remote-work residence filing route captured
+- Poland-residence interaction clarified for Greece, Spain, and Portugal baseline planning
+- Sources added: src-025, src-026
+- Facts verified: 5

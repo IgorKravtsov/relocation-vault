@@ -2,13 +2,13 @@
 country: Greece
 tier: null
 depth_score: 1.0
-last_updated: 2026-05-24T14:32:37Z
+last_updated: 2026-05-25T04:09:15Z
 sections_completed: []
 sections_partial: ["5.1","5.2"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["dn-checklist-not-primary-verified","polish-karta-pobytu-interaction-unverified","climate-sunny-days-gap"]
+risk_flags: ["dn-checklist-not-primary-verified","climate-sunny-days-gap"]
 sources_used: ["src-001","src-002","src-003","src-004","src-005","src-006","src-007","src-008","src-009","src-010"]
-unverified_count: 3
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -20,7 +20,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD after taxes, rent, healthcare, and partner-path research are added.
 - **depth_score**: 1.0
-- **Last updated**: 2026-05-24T14:32:37Z
+- **Last updated**: 2026-05-25T04:09:15Z
 - **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP→Immigration Code bridge) plus a documented digital nomad route, but this iteration did not fully close the DN primary-checklist gap or the Polish karta pobytu interaction.
 
 ## Block 2 — Scoring
@@ -41,9 +41,9 @@ schema_version: 2.0.0
 
 ## Block 3 — Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-05-24, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-05-25, dod: partial}
 
-> **DoD status**: partial. Covered: TP validity to 04 March 2027; legislated TP→Immigration Code bridge; DN threshold and family uplift; one-member-state TP rule; electronic filing direction. Missing for full DoD: exact official-primary DN document checklist, explicit Polish `karta pobytu` treatment, and a clean primary-source PR/citizenship timeline.
+> **DoD status**: partial. Covered: TP validity to 04 March 2027; legislated TP→Immigration Code bridge; DN threshold and family uplift; one-member-state TP rule; electronic filing direction; and the baseline planning answer for an existing Polish residence title. Missing for full DoD: exact official-primary DN document checklist and a clean primary-source PR/citizenship timeline.
 
 #### Now (until 03.2027)
 
@@ -55,7 +55,7 @@ schema_version: 2.0.0
 
 - The best-documented post-TP pathway from this iteration is **not a separate refugee extension**, but a move into a standard residence-permit category under the Greek Immigration Code **before** 04 March 2027. [src-001]
 - The Ministry's wording is unusually strong: TP holders are entitled to apply for any Immigration Code residence permit electronically and without an entry visa until that date. That makes Greece materially more promising than jurisdictions where the post-TP bridge is only discussed politically. [src-001]
-- What is still missing for full closure is a primary-source map of **which exact Immigration Code categories are most realistic for this couple** beyond DN, especially if they want a path that does not depend on marriage. [verification required; vq-001]
+- What is still missing for full closure is a primary-source map of **which exact Immigration Code categories are most realistic for this couple** beyond DN, especially if they want a path that does not depend on marriage.
 
 #### Residence without local employer
 
@@ -79,10 +79,10 @@ schema_version: 2.0.0
 2. **If the man can document stable remote income above the DN threshold**, the DN route is the cleanest non-local-employer path found in this iteration. [src-003][src-004]
 3. **If they rely on Greek TP**, they should plan the switch well before 04 March 2027 and use the Greek immigration e-portal while the Article 194 bridge is still open. [src-001]
 4. **Marriage or registered cohabitation materially improves the second partner's position** on the currently documented DN route, because the threshold explicitly mentions spouse/cohabitant uplift. For an unmarried partner, this iteration does not yet prove an equivalent dependent path. [src-004]
-5. **Polish `karta pobytu` interaction is still not cleanly verified**. The safe working assumption is that a Polish residence permit does not by itself replace the need for a Greek long-stay ground if the couple wants to reside in Greece, but exact interaction with DN/TP entry mechanics needs confirmation from a Greek consulate or immigration lawyer. [verification required; vq-001]
+5. **A Polish residence title does not replace the need for a Greek status.** Greece's official TP page is explicit that temporary protection can be held in only one Member State at a time, so a Polish TP file would block a second Greek TP file; for any Greek long-stay plan outside TP, the couple should assume they still need a Greek residence basis such as DN or another Immigration Code permit. [src-001][src-002][src-003]
 6. **Translation signal already visible**: the Greek TP page says that when online information cannot be confirmed, authorities may ask for extra supporting documents such as marriage/birth/family-status certificates and that such documents must be **officially translated into Greek**. That is a strong practical hint to prepare civil-status documents early. [src-001]
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-24, dod: partial}
+### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-25, dod: partial}
 
 > **DoD status**: partial. Covered: January/July temperatures in 3 cities, humidity, annual sunshine-hour proxy, and year-round comfort. Missing for full DoD: an explicit source that gives **sunny days per year** as day-counts rather than sunshine-hour totals.
 
@@ -259,6 +259,5 @@ _(none yet)_
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-001`: Exact treatment of Polish `karta pobytu`, non-TP Polish residence, and long-term Greek residence options for this couple.
 - `vq-002`: Official-primary DN document checklist and fee schedule.
 - `vq-003`: Exact sunny-day counts per year for Athens, Thessaloniki, and Heraklion.

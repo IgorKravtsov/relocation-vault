@@ -1,34 +1,35 @@
 {
   "version": 2,
-  "iteration": 4,
+  "iteration": 5,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-24T22:14:15Z",
+  "last_run_timestamp": "2026-05-25T04:09:15Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Portugal",
-    "sections": [
-      "5.1",
-      "5.2"
-    ]
+    "mode": "verification",
+    "country": null,
+    "sections": null
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": null,
-    "suggested_sections": null,
-    "reason": "Verification queue reached 10 items, so protocol priority shifts to a batch verification pass before opening another country."
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Italy",
+    "suggested_sections": [
+      "5.1",
+      "5.2"
+    ],
+    "reason": "Verification queue is back below the threshold, and Italy is the next Tier-1-hint country at depth 0."
   },
   "countries": {
     "Spain": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -43,11 +44,9 @@
       ],
       "risk_flags": [
         "no-clear-post-2027-tp-bridge",
-        "polish-karta-pobytu-interaction-unverified",
-        "climate-sunny-days-gap",
         "dn-threshold-for-couple-tight"
       ],
-      "last_iteration": 3
+      "last_iteration": 5
     },
     "Portugal": {
       "tier": null,
@@ -71,12 +70,10 @@
       ],
       "risk_flags": [
         "no-clear-post-2027-tp-bridge",
-        "polish-karta-pobytu-interaction-unverified",
         "climate-sunny-days-gap",
-        "d8-income-above-current-budget",
-        "d8-official-checklist-gap"
+        "d8-income-above-current-budget"
       ],
-      "last_iteration": 4
+      "last_iteration": 5
     },
     "Italy": {
       "tier": null,
@@ -122,10 +119,9 @@
       ],
       "risk_flags": [
         "dn-checklist-not-primary-verified",
-        "polish-karta-pobytu-interaction-unverified",
         "climate-sunny-days-gap"
       ],
-      "last_iteration": 2
+      "last_iteration": 5
     },
     "Cyprus": {
       "tier": null,
@@ -766,8 +762,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 10,
-  "sources_count": 24,
+  "verification_queue_size": 5,
+  "sources_count": 26,
   "claims_count": 14,
   "proposals_pending": 0
 }
