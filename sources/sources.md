@@ -48,8 +48,8 @@ Each source entry:
 - **Type**: official-primary
 - **Date published**: 2025-07-15
 - **Date accessed**: 2026-05-24
-- **Used by**: Greece, Spain, Italy, Cyprus, Croatia, Malta
-- **Facts supporting**: EU-level TP extension chain to 04 March 2027; one-Member-State TP principle; Spain, Italy, Cyprus, Croatia, and Malta TP validity context through 04 March 2027
+- **Used by**: Greece, Spain, Italy, Cyprus, Croatia, Malta, Czech Republic
+- **Facts supporting**: EU-level TP extension chain to 04 March 2027; one-Member-State TP principle; Spain, Italy, Cyprus, Croatia, Malta, and Czech Republic TP validity context through 04 March 2027
 - **Confidence ceiling**: high
 - **Stale at**: 2026-11-24
 
@@ -650,5 +650,101 @@ Each source entry:
 - **Date accessed**: 2026-05-26
 - **Used by**: Malta
 - **Facts supporting**: Malta / Valletta January and July temperatures, humidity, precipitation days, annual sunshine hours, and climate comfort caveats
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-053
+- **Title**: UNHCR Czechia — Special Long-Term Residence Permit
+- **URL**: https://help.unhcr.org/czech/information-for-people-from-ukraine/special-long-term-residence/
+- **Archive**: [archive: failed 2026-05-26]
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech special long-term residence permit for temporary-protection holders; two-year TP residence condition; 2024 taxable-income thresholds; household application rule; private health-insurance requirement; 2025 expression-of-interest / registration timing (claim-czech-002, claim-czech-003)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-26
+
+## src-054
+- **Title**: Czech Information Portal for Foreigners — Long-term Visa for the Purpose of Doing Business
+- **URL**: https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/long-term-visa/long-term-visa-for-the-purpose-of-doing-business/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech business-purpose long-term visa application channel; documents including proof of accommodation, funds, registration in a relevant register, criminal-record extract, possible medical report; 5,000 CZK consular fee; 90-day processing time with possible interruption (claim-czech-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-26
+
+## src-055
+- **Title**: Czech Ministry of the Interior — A visa for a stay of over 90 days (long-term)
+- **URL**: https://mv.gov.cz/mvcren/article/a-visa-for-a-stay-of-over-90-days-long-term.aspx
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Czech Republic
+- **Facts supporting**: general Czech long-term visa filing rule; originals or official copies; Czech-language official translations; apostille/superlegalisation for foreign public documents; embassy jurisdiction rule
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-26
+
+## src-056
+- **Title**: Czech Information Portal for Foreigners — Permanent Residence
+- **URL**: https://ipc.gov.cz/en/visa-and-residence-permit-types/third-country-nationals/permanent-residence/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Czech Republic
+- **Facts supporting**: permanent residence permit after 5 years of temporary residence in the Czech Republic (claim-czech-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-26
+
+## src-057
+- **Title**: EU Immigration Portal — Self-employed worker in Czechia
+- **URL**: https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/self-employed-worker-czechia_en
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Czech Republic
+- **Facts supporting**: self-employed route summary; long-term visa for business must be lodged in person at a Czech embassy abroad; long-term residence for business is filed inside Czechia; business/tax/social-security registration obligations
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-26
+
+## src-058
+- **Title**: Climates to Travel — Prague climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/czech-republic/prague
+- **Archive**: [archive: failed 2026-05-26]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Czech Republic
+- **Facts supporting**: Prague January/July temperatures, humidity, wind, precipitation, annual sunshine hours, and comfort caveats
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-059
+- **Title**: Climates to Travel — Brno climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/czech-republic/brno
+- **Archive**: [archive: failed 2026-05-26]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Czech Republic
+- **Facts supporting**: Brno January/July temperatures, humidity, precipitation, annual sunshine hours, and comfort caveats
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-060
+- **Title**: Climates to Travel — Ostrava climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/czech-republic/ostrava
+- **Archive**: [archive: failed 2026-05-26]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Czech Republic
+- **Facts supporting**: Ostrava January/July temperatures, humidity, precipitation, annual sunshine hours, and comfort caveats
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31

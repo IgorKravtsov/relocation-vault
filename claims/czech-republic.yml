@@ -1,0 +1,45 @@
+- id: claim-czech-001
+  topic: temporary_protection_eu_horizon
+  value: "EU temporary protection framework extended to 04 March 2027"
+  source: src-002
+  date_verified: 2026-05-26
+  confidence: high
+  tags: [temporary-protection, post-2027, eu]
+  notes: "EU-level horizon applies to Czechia as an EU Member State; Czech domestic implementation / later transition rules still need official-primary verification."
+
+- id: claim-czech-002
+  topic: special_long_term_residence_income_threshold
+  value: 550000
+  unit: CZK/year gross taxable income for a two-person household baseline
+  source: src-053
+  date_verified: 2026-05-26
+  confidence: medium-high
+  tags: [temporary-protection, special-long-term-residence, income-threshold]
+  notes: "UNHCR Czechia states CZK 440,000/year taxable income before tax for one person plus CZK 110,000 for each additional household member; for this two-person couple the baseline is CZK 550,000/year. Official-primary Czech page still needs capture."
+
+- id: claim-czech-003
+  topic: special_long_term_residence_tp_duration_condition
+  value: "Continuous Czech temporary-protection residence for 2 years, counted as of 31 March 2025 for the first round"
+  source: src-053
+  date_verified: 2026-05-26
+  confidence: medium-high
+  tags: [temporary-protection, special-long-term-residence, residence-duration]
+  notes: "UNHCR Czechia reports the first-round condition; future rounds and exact official legal basis need primary-source verification."
+
+- id: claim-czech-004
+  topic: business_long_term_visa_fee_and_timeline
+  value: "CZK 5,000 consular fee; 90-day processing time, with possible interruption when legal grounds apply"
+  source: src-054
+  date_verified: 2026-05-26
+  confidence: high
+  tags: [business-visa, self-employed, fees, processing-time]
+  notes: "This claim covers the official IPC business-purpose long-term visa page. Practical approval evidence for foreign-client IT freelancing remains to be researched."
+
+- id: claim-czech-005
+  topic: permanent_residence_after_temporary_residence
+  value: "Permanent residence permit after 5 years of temporary residence in the Czech Republic"
+  source: src-056
+  date_verified: 2026-05-26
+  confidence: high
+  tags: [permanent-residence, long-term-planning]
+  notes: "Which statuses count toward the 5-year clock for this couple—temporary protection, special long-term residence, business residence, student/dependent statuses—must be verified separately."

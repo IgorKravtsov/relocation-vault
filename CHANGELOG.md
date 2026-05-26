@@ -8,6 +8,14 @@ last_updated: 2026-05-26
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-26 — run-011
+- Czech Republic profile created from template.
+- Czech Republic: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).
+- Sources added: src-053 … src-060; src-002 usage extended to Czech Republic.
+- Claims added: claim-czech-001 … claim-czech-005.
+- Verification queue: 8 → 10 pending/open items (`vq-019`, `vq-020` added).
+- Next: verification pass because the queue has reached the scheduled-run threshold.
+
 ## 2026-05-26 — run-010
 - Malta profile created from template.
 - Malta: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).

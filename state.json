@@ -1,27 +1,27 @@
 {
   "version": 2,
-  "iteration": 10,
+  "iteration": 11,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-26T10:17:40Z",
+  "last_run_timestamp": "2026-05-26T16:03:44Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Malta",
+    "country": "Czech Republic",
     "sections": [
       "5.1",
       "5.2"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "country-deep-dive",
-    "suggested_country": "Czech Republic",
+    "suggested_mode": "verification",
+    "suggested_country": null,
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "All Tier-1-hint countries now have a first pass; verification queue remains below threshold, so rotate to the lowest-depth Tier-2-hint country."
+    "reason": "Pending verification queue has reached 10 items after adding Czech special-residence and climate blockers; run a verification pass before continuing normal country rotation."
   },
   "countries": {
     "Spain": {
@@ -218,12 +218,13 @@
     "Czech Republic": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 0,
+      "depth_score": 1.0,
       "sections_completed": [],
-      "sections_partial": [],
-      "sections_pending": [
+      "sections_partial": [
         "5.1",
-        "5.2",
+        "5.2"
+      ],
+      "sections_pending": [
         "5.3",
         "5.4",
         "5.5",
@@ -234,8 +235,12 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "special-long-term-residence-official-primary-gap",
+        "business-visa-evidence-burden",
+        "climate-sunny-days-gap"
+      ],
+      "last_iteration": 11
     },
     "Poland": {
       "tier": null,
@@ -788,8 +793,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 8,
-  "sources_count": 52,
-  "claims_count": 34,
+  "verification_queue_size": 10,
+  "sources_count": 60,
+  "claims_count": 39,
   "proposals_pending": 0
 }

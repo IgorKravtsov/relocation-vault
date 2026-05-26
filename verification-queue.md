@@ -217,6 +217,26 @@ _(none)_
 - **Created**: 2026-05-26 (run-010)
 - **Status**: pending
 
+## vq-019 [high priority]
+- **Fact**: "Czech special long-term residence / post-04 March 2027 bridge details for Ukrainian temporary-protection holders from an official-primary Czech source"
+- **Country**: Czech Republic
+- **Section**: 5.1
+- **Current source**: src-002, src-053
+- **Why uncertain**: EU-level TP extension is official and UNHCR Czechia describes the special long-term residence route, but this pass did not capture the Czech official-primary legal page or later-round details.
+- **Suggested verification**: Check Czech Ministry of the Interior / Information Portal for Foreigners pages for special long-term residence, Lex Ukraine implementing rules, and any 2026/2027 registration rounds.
+- **Created**: 2026-05-26 (run-011)
+- **Status**: pending
+
+## vq-020 [medium priority]
+- **Fact**: "Direct annual sunny-day or clear-day counts for Prague, Brno, and Ostrava"
+- **Country**: Czech Republic
+- **Section**: 5.2
+- **Current source**: src-058, src-059, src-060
+- **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct annual sunny/clear-day counts.
+- **Suggested verification**: Check Czech Hydrometeorological Institute climate normals, WMO city climate pages, meteoblue chart data, or another statistical source with explicit sunny/clear-day counts.
+- **Created**: 2026-05-26 (run-011)
+- **Status**: pending
+
 ## Recently resolved (last 10)
 - `vq-003` — 2026-05-26 (run-009)
 - `vq-011` — 2026-05-26 (run-009)
