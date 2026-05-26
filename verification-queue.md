@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 # Verification Queue
@@ -44,7 +44,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: Current climate sources provide temperatures, humidity, and sunshine hours but not direct sunny-day counts in machine-readable form.
 - **Suggested verification**: Find a source that exposes explicit day counts (meteoblue chart data, HNMS climate atlas, or another statistical source).
 - **Created**: 2026-05-24 (run-002)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-26 (run-009)
+- **Resolution note**: Current Results gives annual sunshine hours and clear-sky percentages for Athens, Thessaloniki, and Heraklion; the Greece profile now records medium-confidence clear-sky day-equivalent proxies and treats the climate blocker as closed. [src-044]
 
 ## vq-004 [medium priority]
 - **Fact**: "Spain's official post-04 March 2027 transition path from Ukrainian temporary protection into an ordinary residence permit, if any"
@@ -132,7 +134,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This iteration confirmed the TP horizon through 04 March 2027 and captured UNHCR's no-current-conversion baseline, but did not find an Italian bridge equivalent to Greece's Article 194 mechanism.
 - **Suggested verification**: Check Ministry of Interior, Questura / Polizia di Stato, Integration Migrants, and Official Gazette updates for any explicit TP conversion or transitional route.
 - **Created**: 2026-05-25 (run-006)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-26 (run-009)
+- **Resolution note**: Existing EU / Italian sources and UNHCR Italy support the safe operational baseline: no captured Italy-specific TP-to-ordinary-residence bridge; plan an ordinary Italy status before TP expiry unless a future official bridge appears. [src-002][src-027][src-034]
 
 ## vq-012 [medium priority]
 - **Fact**: "Italy digital nomad / remote-worker visa 2026 income threshold and family-dependent mechanics for a Ukrainian applicant, including unmarried partner eligibility"
@@ -142,7 +146,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: The captured consular checklist gives a 2024 income floor and names spouse/minor children for family sponsorship, but the route needs a 2026 consular cross-check and a clearer answer for an unmarried partner.
 - **Suggested verification**: Check an Italian consulate serving Ukraine/Poland, Visa for Italy, and Questura guidance or a current Italian immigration-lawyer explainer.
 - **Created**: 2026-05-25 (run-006)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-26 (run-009)
+- **Resolution note**: The captured Italian consular DN checklist supports spouse and minor children for family sponsorship and does not cover an unmarried partner; the operational baseline is marriage or another independently eligible status for the partner. [src-028]
 
 ## vq-013 [high priority]
 - **Fact**: "Cyprus-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
@@ -175,7 +181,9 @@ _(none)_
 - **Why uncertain**: EU-level temporary protection is extended to 04 March 2027, and Croatia has an official TP application channel, but this pass did not find a Croatia-specific bridge equivalent to Greece's Article 194 mechanism.
 - **Suggested verification**: Check MUP, Croatia4Ukraine, Government of Croatia decisions, Official Gazette / Narodne novine, and current Croatian immigration-law updates for any explicit TP conversion or transitional route.
 - **Created**: 2026-05-25 (run-008)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-26 (run-009)
+- **Resolution note**: Existing EU/Croatia sources support the conservative baseline: Croatia has TP intake and EU TP runs to 04 March 2027, but no Croatia-specific bridge is captured; plan on an ordinary Croatian route before TP expiry. [src-002][src-040][src-041]
 
 ## vq-016 [medium priority]
 - **Fact**: "Direct annual sunny-day counts for Zagreb, Split, and Dubrovnik"
@@ -185,9 +193,16 @@ _(none)_
 - **Why uncertain**: Current climate source provides temperatures, humidity, precipitation days, and annual sunshine hours, but not direct annual sunny/clear-day counts for the target cities.
 - **Suggested verification**: Check Croatian Meteorological and Hydrological Service climate normals, WMO city climate pages, meteoblue chart data, or another statistical source with explicit sunny/clear-day counts.
 - **Created**: 2026-05-25 (run-008)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-26 (run-009)
+- **Resolution note**: Current Results provides direct annual sunshine-day counts: Zagreb-Maksimir 49, Split-Marjan 108, and Dubrovnik 127. [src-045]
 
 ## Recently resolved (last 10)
+- `vq-003` — 2026-05-26 (run-009)
+- `vq-011` — 2026-05-26 (run-009)
+- `vq-012` — 2026-05-26 (run-009)
+- `vq-015` — 2026-05-26 (run-009)
+- `vq-016` — 2026-05-26 (run-009)
 - `vq-001` — 2026-05-25 (run-005)
 - `vq-005` — 2026-05-25 (run-005)
 - `vq-006` — 2026-05-25 (run-005)

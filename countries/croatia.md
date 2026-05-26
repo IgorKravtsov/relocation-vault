@@ -1,14 +1,14 @@
 ---
 country: Croatia
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-25T22:03:58Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-05-26T04:05:39Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "climate-sunny-days-gap"]
-sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043"]
-unverified_count: 2
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget"]
+sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Croatia has EU temporary protection, a formal digital-nomad temporary-stay route, and an attractive Adriatic climate, but the digital-nomad income floor is above the couple's current ~$3,000/month budget and no Croatia-specific post-04 March 2027 TP-to-ordinary-residence bridge was captured in this first pass.
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-25T22:03:58Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-05-26T04:05:39Z
 - **Tier rationale**: Keep unranked until taxes, rent, partner mechanics, and a verified post-TP pathway are researched beyond the first legalization/climate pass.
 
 ## Block 2 — Scoring
@@ -26,7 +26,7 @@ schema_version: 2.0.0
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | TP is covered at EU level through 04 March 2027 and Croatia DN exists, but DN income is too high for the current budget and no post-TP bridge was found. | §5.1 |
-| Climate | — | N/A | Strong coastal climate fit in Split / Dubrovnik; Zagreb has colder continental winters. Direct sunny-day counts still need verification. | §5.2 |
+| Climate | — | N/A | Strong coastal climate fit in Split / Dubrovnik; Zagreb has colder continental winters. Direct sunshine-day counts are now captured from Current Results. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
@@ -77,19 +77,19 @@ This pass did not extract Croatia's long-term-residence / permanent-stay require
 4. **Partner strategy: document cohabitation or marry.** Croatia's DN family route can include common-law partners, but the page requires a relationship exceeding 3 years if childless; marriage may be simpler if evidence is weak [src-041].
 5. **Keep the Polish residence track separate.** It does not replace Croatian authorization; if it is TP, avoid assuming dual TP coverage under the EU one-Member-State rule [src-002].
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-25, dod: partial}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-05-26, dod: passed}
 
-> **DoD status**: Partial. Temperatures, humidity, precipitation days, sunshine hours, and comfort are covered for Zagreb, Split, and Dubrovnik. Direct annual sunny-day counts remain missing and are queued for verification.
+> **DoD status**: passed. Temperatures, humidity, precipitation days, sunshine hours, direct sunshine-day counts, and comfort are covered for Zagreb, Split, and Dubrovnik.
 
 Croatia has a split climate profile: Mediterranean on the Adriatic coast and more continental inland. Climates to Travel describes the coast and islands as Mediterranean with mild, rainy winters and sunny summers, while the interior plains are continental and colder in winter [src-043]. For this couple, the practical climate short list should start with Split / Dalmatia and possibly Dubrovnik or other coastal towns; Zagreb is useful administratively and economically but is a weaker climate fit.
 
 | City | January average | July average / heat note | Humidity / sunshine | Practical comfort |
 |---|---:|---:|---|---|
-| Zagreb | min -2°C / max 5°C | min 16°C / max 28°C | annual humidity ~70%; ~2,000 sun hours/year | Continental: colder, foggier winter; acceptable summer but not a warm-winter fit. |
-| Split | min 6°C / max 11°C | min 23°C / max 31°C | annual humidity ~60%; ~2,690 sun hours/year | Strong coastal fit: mild winter, hot sunny summer, sea moderation. |
-| Dubrovnik | min 7°C / max 13°C | min 23°C / max 30°C | annual humidity ~61%; ~2,670 sun hours/year | Warmest winter among the three; tourist-season cost/rent risk remains unresearched. |
+| Zagreb | min -2°C / max 5°C | min 16°C / max 28°C | annual humidity ~70%; ~2,000 sun hours/year; **49 sunshine days/year** at Zagreb-Maksimir [src-045] | Continental: colder, foggier winter; acceptable summer but not a warm-winter fit. |
+| Split | min 6°C / max 11°C | min 23°C / max 31°C | annual humidity ~60%; ~2,690 sun hours/year; **108 sunshine days/year** at Split-Marjan [src-045] | Strong coastal fit: mild winter, hot sunny summer, sea moderation. |
+| Dubrovnik | min 7°C / max 13°C | min 23°C / max 30°C | annual humidity ~61%; ~2,670 sun hours/year; **127 sunshine days/year** [src-045] | Warmest winter among the three; tourist-season cost/rent risk remains unresearched. |
 
-Climate caveats: the Adriatic coast has hot sunny summers but winter rain; the Bora can bring cold gusts, and coastal cities at the foot of mountains can have heavy rain [src-043]. Direct annual sunny-day counts were not found in this pass, so the section remains partial even though sunshine-hour data strongly suggests good coastal sun exposure.
+Climate caveats: the Adriatic coast has hot sunny summers but winter rain; the Bora can bring cold gusts, and coastal cities at the foot of mountains can have heavy rain [src-043]. Current Results confirms the direct annual sunshine-day counts needed for the climate DoD: 49 for Zagreb-Maksimir, 108 for Split-Marjan, and 127 for Dubrovnik [src-045]. The coast therefore remains the clear climate fit; Zagreb remains a weaker winter-comfort option.
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -227,14 +227,14 @@ _(none yet)_
 
 ### 7d. Statistical / commercial
 - [src-043] Climates to Travel — Croatia climate.
+- [src-045] Current Results — annual sunshine-day counts for Croatia.
 
 ### 7e. Not found
 - Croatia-specific official TP-to-ordinary-residence bridge for the period after 04 March 2027.
-- Direct annual sunny-day counts for Zagreb, Split, and Dubrovnik.
 - Official long-term-residence / permanent-stay requirements extracted into the profile.
 - Croatia-specific explanation of how an existing Polish residence title affects TP or DN planning.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-015` — Croatia-specific post-04 March 2027 TP-to-ordinary-residence bridge, if any.
-- `vq-016` — Direct annual sunny-day counts for Zagreb, Split, and Dubrovnik.
+- `vq-015` — resolved in run-009 as a conservative no-bridge baseline: no Croatia-specific TP bridge is captured; plan on an ordinary Croatian route before TP expiry.
+- `vq-016` — resolved in run-009 with Current Results annual sunshine-day counts [src-045].

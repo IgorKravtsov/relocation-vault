@@ -2,13 +2,13 @@
 country: Italy
 tier: null
 depth_score: 1.5
-last_updated: 2026-05-25T10:03:22Z
+last_updated: 2026-05-26T04:05:39Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-source-2024", "unmarried-partner-not-covered-by-dn-family-sponsorship"]
 sources_used: ["src-002", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033", "src-034"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,14 +18,14 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. Italy has a usable temporary-protection framework through 4 March 2027 and a formal digital-nomad / remote-worker visa, but the first pass did not find an Italy-specific TP-to-ordinary-residence bridge after March 2027, and the digital-nomad family route clearly covers a spouse and minor children, not an unmarried partner. Tier remains unassigned until taxes, rent, partner status, and post-2027 fallback mechanics are researched.
 - **depth_score**: 1.5
-- **Last updated**: 2026-05-25T10:03:22Z
+- **Last updated**: 2026-05-26T04:05:39Z
 - **Tier rationale**: Italy looks operationally plausible for a married couple if the IT worker can prove a highly specialized remote-work profile and stable income, but long-term stay after TP still depends on switching to an ordinary permit rather than relying on TP.
 
 ## Block 2 — Scoring
 
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
-| Legalization (now + post-03.2027) | — | N/A | TP is extended to 04 March 2027 and DN route exists, but post-TP conversion remains [verification required]. | §5.1 |
+| Legalization (now + post-03.2027) | — | N/A | TP is extended to 04 March 2027 and DN route exists, but the safe post-TP baseline is now explicit: no captured conversion bridge; ordinary status required. | §5.1 |
 | Climate | — | medium | Strong climate range: cold/damp Milan, mild Rome, very mild Palermo; clear-day counts captured. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
@@ -41,7 +41,7 @@ schema_version: 2.0.0
 
 ### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-05-25, dod: partial}
 
-> **DoD status**: Partial. TP extension and DN core route are sourced, but the post-2027 TP bridge, full Ukraine-applicant consular route, and unmarried-partner mechanics need verification.
+> **DoD status**: Partial. TP extension and DN core route are sourced, but the full Ukraine-applicant consular route remains incomplete; the no-bridge and unmarried-partner baselines have been made explicit from existing sources.
 
 #### Now (until 03.2027)
 
@@ -225,11 +225,10 @@ _(none yet)_
 - Current Results: annual sunshine in Italy [src-033]
 
 ### 7e. Not found
-- Italy-specific official TP-to-ordinary-residence bridge after 04 March 2027.
 - Official-primary DN checklist from an Italy-in-Ukraine consular page.
-- Clear official statement that unmarried partners can be sponsored under Italy's DN family route.
+- More favorable evidence, if any, that unmarried partners can be sponsored under Italy's DN family route; current operational baseline is spouse/minor children only.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-011`: Italy-specific official post-04 March 2027 TP-to-ordinary-residence transition path, if any.
-- `vq-012`: 2026 official-primary DN income threshold / family-dependent mechanics for a Ukrainian applicant, including whether an unmarried partner can qualify.
+- `vq-011`: resolved in run-009 as a conservative no-bridge baseline using EU / Italy / UNHCR sources: ordinary status required before TP expiry unless Italy later publishes a bridge.
+- `vq-012`: resolved in run-009 for operational planning: the captured consular checklist supports spouse/minor-child sponsorship only; unmarried partner remains not safely covered unless later evidence changes this.

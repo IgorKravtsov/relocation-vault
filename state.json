@@ -1,24 +1,27 @@
 {
   "version": 2,
-  "iteration": 8,
+  "iteration": 9,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-25T22:03:58Z",
+  "last_run_timestamp": "2026-05-26T04:05:39Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Croatia",
+    "mode": "verification",
+    "country": null,
     "sections": [
       "5.1",
       "5.2"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": null,
-    "suggested_sections": null,
-    "reason": "Verification queue reached 11 pending/open items after Croatia first pass; run verification mode next per threshold."
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Malta",
+    "suggested_sections": [
+      "5.1",
+      "5.2"
+    ],
+    "reason": "Verification queue is back below threshold; Malta is the remaining Tier-1-hint country at depth 0."
   },
   "countries": {
     "Spain": {
@@ -101,16 +104,17 @@
         "dn-income-source-2024",
         "unmarried-partner-not-covered-by-dn-family-sponsorship"
       ],
-      "last_iteration": 6
+      "last_iteration": 9
     },
     "Greece": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -124,10 +128,9 @@
         "5.11"
       ],
       "risk_flags": [
-        "dn-checklist-not-primary-verified",
-        "climate-sunny-days-gap"
+        "dn-checklist-not-primary-verified"
       ],
-      "last_iteration": 5
+      "last_iteration": 9
     },
     "Cyprus": {
       "tier": null,
@@ -160,11 +163,12 @@
     "Croatia": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -179,10 +183,9 @@
       ],
       "risk_flags": [
         "no-clear-post-2027-tp-bridge",
-        "dn-income-above-current-budget",
-        "climate-sunny-days-gap"
+        "dn-income-above-current-budget"
       ],
-      "last_iteration": 8
+      "last_iteration": 9
     },
     "Malta": {
       "tier": null,
@@ -779,8 +782,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 11,
-  "sources_count": 43,
+  "verification_queue_size": 6,
+  "sources_count": 45,
   "claims_count": 29,
   "proposals_pending": 0
 }

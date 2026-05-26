@@ -544,3 +544,27 @@ Each source entry:
 - **Facts supporting**: Croatia climate zones; January/July temperatures, humidity, precipitation days, and annual sunshine hours for Zagreb, Split, and Dubrovnik
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-044
+- **Title**: Current Results — Annual Sunshine in Greece
+- **URL**: https://www.currentresults.com/Weather/Greece/annual-average-sunshine.php
+- **Archive**: [archive: failed 2026-05-26]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Greece
+- **Facts supporting**: annual sunshine hours and clear-sky percentages for Athens, Thessaloniki, and Heraklion; clear-sky day-equivalent proxy used to close the Greece climate sunny-days blocker
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-045
+- **Title**: Current Results — Annual Sunshine in Croatia
+- **URL**: https://www.currentresults.com/Weather/Croatia/sunshine-annual-average.php
+- **Archive**: [archive: failed 2026-05-26]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Croatia
+- **Facts supporting**: direct annual sunshine-day counts for Zagreb-Maksimir (49), Split-Marjan (108), and Dubrovnik (127), plus annual sunshine hours
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

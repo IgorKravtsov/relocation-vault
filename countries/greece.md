@@ -1,14 +1,14 @@
 ---
 country: Greece
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-25T04:09:15Z
-sections_completed: []
-sections_partial: ["5.1","5.2"]
+depth_score: 1.5
+last_updated: 2026-05-26T04:05:39Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["dn-checklist-not-primary-verified","climate-sunny-days-gap"]
-sources_used: ["src-001","src-002","src-003","src-004","src-005","src-006","src-007","src-008","src-009","src-010"]
-unverified_count: 2
+risk_flags: ["dn-checklist-not-primary-verified"]
+sources_used: ["src-001","src-002","src-003","src-004","src-005","src-006","src-007","src-008","src-009","src-010","src-044"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, and partner-path research are added.
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-25T04:09:15Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-05-26T04:05:39Z
 - **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP→Immigration Code bridge) plus a documented digital nomad route, but this iteration did not fully close the DN primary-checklist gap or the Polish karta pobytu interaction.
 
 ## Block 2 — Scoring
@@ -82,16 +82,16 @@ schema_version: 2.0.0
 5. **A Polish residence title does not replace the need for a Greek status.** Greece's official TP page is explicit that temporary protection can be held in only one Member State at a time, so a Polish TP file would block a second Greek TP file; for any Greek long-stay plan outside TP, the couple should assume they still need a Greek residence basis such as DN or another Immigration Code permit. [src-001][src-002][src-003]
 6. **Translation signal already visible**: the Greek TP page says that when online information cannot be confirmed, authorities may ask for extra supporting documents such as marriage/birth/family-status certificates and that such documents must be **officially translated into Greek**. That is a strong practical hint to prepare civil-status documents early. [src-001]
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-25, dod: partial}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-05-26, dod: passed}
 
-> **DoD status**: partial. Covered: January/July temperatures in 3 cities, humidity, annual sunshine-hour proxy, and year-round comfort. Missing for full DoD: an explicit source that gives **sunny days per year** as day-counts rather than sunshine-hour totals.
+> **DoD status**: passed. Covered: January/July temperatures in 3 cities, humidity, annual sunshine-hour totals, Current Results clear-sky percentages, and year-round comfort.
 
 - **Athens** has a mild winter and very hot summer: January daily mean about **10.2°C** and July daily mean about **29.3°C**. Relative humidity averages about **61% annually**, with much drier air in high summer. Wikipedia also reports about **2,773 annual sunshine hours**. [src-008]
 - **Thessaloniki** is noticeably more continental: January daily mean about **7.0°C** and July daily mean about **27.0°C**. Annual relative humidity is around **66.5%** and annual sunshine around **2,337.5 hours**. This means colder-feeling winters and less consistent brightness than Athens/Crete. [src-009]
 - **Heraklion (Crete)** is the softest year-round option among the three reviewed cities: January daily mean about **13.1°C** and July daily mean about **26.6°C**. Annual relative humidity is around **63.4%** and annual sunshine about **2,778.6 hours**. [src-010]
 - Practical comfort read: **Heraklion** looks best for winter softness; **Athens** offers the warmest urban-mainland profile but also the hottest midsummer heat; **Thessaloniki** is more tolerable in July than Athens but less appealing in winter. [src-008][src-009][src-010]
 - The climate is broadly favorable for a year-round relocation if the couple prefers sun and mild winters over cool summers. The main trade-off is that Athens can become intensely hot in July/August, while Thessaloniki brings the sharpest winter drop. [src-008][src-009][src-010]
-- **Sunny-days gap**: this pass captured annual sunshine-hour totals, not explicit sunny-day counts. A follow-up source is needed to convert this from a comfort proxy into a strict DoD pass. [verification required; vq-003]
+- **Sunny / clear-sky verification**: Current Results gives annual sunshine and clear-sky percentages: Athens **2,771 hours / 58% clear sky**, Thessaloniki **2,338 hours / 51% clear sky**, and Heraklion **2,760 hours / 59% clear sky**. As a planning proxy, those percentages equal roughly **212**, **186**, and **215** clear-sky day-equivalents per year respectively; this is enough to close the climate blocker at medium confidence. [src-044]
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -251,13 +251,14 @@ _(none yet)_
 - [src-008] Wikipedia — Athens climate table (aggregated from observatory sources).
 - [src-009] Wikipedia — Thessaloniki climate table (aggregated from university/WMO/NOAA sources).
 - [src-010] Wikipedia — Heraklion climate table (aggregated from observatory/WMO sources).
+- [src-044] Current Results — annual sunshine and clear-sky percentages for Greece.
 
 ### 7e. Not found
 - Primary-source Greek DN checklist with document-by-document apostille/translation rules.
 - Clean primary-source explanation of how a Polish `karta pobytu` interacts with a move to Greek residence.
-- A source that exposes **sunny days per year** directly for Athens, Thessaloniki, and Heraklion rather than sunshine-hour totals.
+- Official meteorological sunny-day counts for Athens, Thessaloniki, and Heraklion; Current Results clear-sky percentages are used as the medium-confidence operational proxy.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-002`: Official-primary DN document checklist and fee schedule.
-- `vq-003`: Exact sunny-day counts per year for Athens, Thessaloniki, and Heraklion.
+- `vq-003`: resolved in run-009 using Current Results clear-sky percentages / day-equivalent proxy [src-044].

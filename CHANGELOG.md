@@ -8,6 +8,13 @@ last_updated: 2026-05-25
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-26 — run-009
+- Mode: verification; resolved 5 queue items (`vq-003`, `vq-011`, `vq-012`, `vq-015`, `vq-016`).
+- Greece: depth_score 1.0 → 1.5; §5.2 climate passed using Current Results clear-sky statistics.
+- Croatia: depth_score 1.0 → 1.5; §5.2 climate passed using direct sunshine-day counts.
+- Sources added: src-044, src-045.
+- Verification queue: 11 → 6 pending/open items.
+
 ## 2026-05-24 — run-001 — bootstrap-v2
 
 - Vault structure created from scratch

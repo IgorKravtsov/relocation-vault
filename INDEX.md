@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 # INDEX
@@ -12,10 +12,10 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 |---------|-------|----------:|------|------------:|---------------|----------:|---------|
 | Spain | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 5 | `countries/spain.md` |
 | Portugal | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 5 | `countries/portugal.md` |
-| Italy | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 6 | `countries/italy.md` |
-| Greece | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 5 | `countries/greece.md` |
+| Italy | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/italy.md` |
+| Greece | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/greece.md` |
 | Cyprus | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 7 | `countries/cyprus.md` |
-| Croatia | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 8 | `countries/croatia.md` |
+| Croatia | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/croatia.md` |
 | Malta | eu-schengen | 1 | — | 0 | — | — | — |
 | Czech Republic | eu-schengen | 2 | — | 0 | — | — | — |
 | Poland | eu-schengen | 2 | — | 0 | — | — | — |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 6
-- **Average depth_score**: 0.21
+- **Average depth_score**: 0.24
