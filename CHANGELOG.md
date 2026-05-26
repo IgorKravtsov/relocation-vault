@@ -1,12 +1,20 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-05-25
+last_updated: 2026-05-26
 ---
 
 # CHANGELOG
 
 Brief delta per iteration. Append-only.
+
+## 2026-05-26 — run-010
+- Malta profile created from template.
+- Malta: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).
+- Sources added: src-046 … src-052; src-002 usage extended to Malta.
+- Claims added: claim-malta-001 … claim-malta-005.
+- Verification queue: 6 → 8 pending/open items (`vq-017`, `vq-018` added).
+- Next: country-deep-dive on Czech Republic (sections 5.1, 5.2) unless queue crosses verification threshold.
 
 ## 2026-05-26 — run-009
 - Mode: verification; resolved 5 queue items (`vq-003`, `vq-011`, `vq-012`, `vq-015`, `vq-016`).

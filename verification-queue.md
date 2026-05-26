@@ -197,6 +197,26 @@ _(none)_
 - **Resolved**: 2026-05-26 (run-009)
 - **Resolution note**: Current Results provides direct annual sunshine-day counts: Zagreb-Maksimir 49, Split-Marjan 108, and Dubrovnik 127. [src-045]
 
+## vq-017 [high priority]
+- **Fact**: "Malta-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
+- **Country**: Malta
+- **Section**: 5.1
+- **Current source**: src-002, src-046
+- **Why uncertain**: EU-level temporary protection is extended to 04 March 2027 and Malta has a domestic temporary-protection legal framework, but this pass did not capture a Malta-specific bridge equivalent to Greece's Article 194 mechanism or a current local TP extension/transition page.
+- **Suggested verification**: Check International Protection Agency, Home Affairs Malta, Identità, Legal Notices, and Malta legal updates for a 2027 local implementation page or transition rule; use WAF capture fallbacks if needed.
+- **Created**: 2026-05-26 (run-010)
+- **Status**: pending
+
+## vq-018 [medium priority]
+- **Fact**: "Direct annual sunny-day or clear-day counts for Valletta, Sliema/St Julian's, and Victoria/Gozo"
+- **Country**: Malta
+- **Section**: 5.2
+- **Current source**: src-052
+- **Why uncertain**: Current climate source provides temperatures, humidity, precipitation days, and annual sunshine hours, but not direct annual sunny/clear-day counts for the target localities.
+- **Suggested verification**: Check Malta Meteorological Office climate normals, WMO city climate pages, meteoblue chart data, or another statistical source with explicit sunny/clear-day counts.
+- **Created**: 2026-05-26 (run-010)
+- **Status**: pending
+
 ## Recently resolved (last 10)
 - `vq-003` — 2026-05-26 (run-009)
 - `vq-011` — 2026-05-26 (run-009)

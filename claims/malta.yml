@@ -1,0 +1,45 @@
+- id: claim-malta-001
+  topic: temporary_protection_eu_horizon
+  value: "EU temporary protection framework extended to 04 March 2027"
+  source: src-002
+  date_verified: 2026-05-26
+  confidence: high
+  tags: [temporary-protection, post-2027, eu]
+  notes: "EU-level horizon applies to Malta as an EU Member State; no Malta-specific post-TP bridge was captured in this first pass."
+
+- id: claim-malta-002
+  topic: nomad_residence_income_threshold
+  value: 3500
+  unit: EUR/month gross
+  source: src-047
+  date_verified: 2026-05-26
+  confidence: high
+  tags: [digital-nomad, income-threshold, remote-work]
+  notes: "Residency Malta states a minimum gross yearly income of EUR 42,000 for applications submitted from 1 April 2024; divided by 12 this is EUR 3,500/month gross. This is above the couple's current approximate USD 3,000/month income."
+
+- id: claim-malta-003
+  topic: nomad_residence_duration
+  value: "Initial Nomad Residence Permit valid for 1 year; renewable three times for a maximum total stay of 4 years at Agency discretion"
+  source: src-049
+  date_verified: 2026-05-26
+  confidence: high
+  tags: [digital-nomad, permit-duration, renewal]
+  notes: "Renewal requires, among other things, proof of at least 5 cumulative months residing in Malta in the last 12 months."
+
+- id: claim-malta-004
+  topic: nomad_residence_family_member_scope
+  value: "Spouse, minor children, principally dependent unmarried adult children, and adult children unable to cope independently due to medical condition or disability; checklist separately accepts de facto partner evidence for stable relationships over two consecutive years"
+  source: src-048
+  date_verified: 2026-05-26
+  confidence: medium-high
+  tags: [digital-nomad, family, partner]
+  notes: "FAQ family-member list names spouse and children; the checklist includes de facto partnership documentation for unmarried couples. Treat unmarried partner inclusion as plausible but needing programme confirmation for a Ukrainian couple before relying on it."
+
+- id: claim-malta-005
+  topic: nomad_residence_no_pr_citizenship_path
+  value: "The Nomad Residence Permit does not lead to any sort of permanent / long-term residency or citizenship"
+  source: src-049
+  date_verified: 2026-05-26
+  confidence: high
+  tags: [digital-nomad, permanent-residence, citizenship]
+  notes: "This is a major strategic risk: the route may be useful as a temporary base but is not, by itself, a long-term legalization pathway."

@@ -48,8 +48,8 @@ Each source entry:
 - **Type**: official-primary
 - **Date published**: 2025-07-15
 - **Date accessed**: 2026-05-24
-- **Used by**: Greece, Spain, Italy, Cyprus, Croatia
-- **Facts supporting**: EU-level TP extension chain to 04 March 2027; one-Member-State TP principle; Spain, Italy, Cyprus, and Croatia TP validity context through 04 March 2027
+- **Used by**: Greece, Spain, Italy, Cyprus, Croatia, Malta
+- **Facts supporting**: EU-level TP extension chain to 04 March 2027; one-Member-State TP principle; Spain, Italy, Cyprus, Croatia, and Malta TP validity context through 04 March 2027
 - **Confidence ceiling**: high
 - **Stale at**: 2026-11-24
 
@@ -566,5 +566,89 @@ Each source entry:
 - **Date accessed**: 2026-05-26
 - **Used by**: Croatia
 - **Facts supporting**: direct annual sunshine-day counts for Zagreb-Maksimir (49), Split-Marjan (108), and Dubrovnik (127), plus annual sunshine hours
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-046
+- **Title**: Malta S.L. 420.5 — Temporary Protection for Displaced Persons (Minimum Standards) Regulations
+- **URL**: https://legislation.mt/eli/sl/420.5/20220621/eng
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2022-06-21
+- **Date accessed**: 2026-05-26
+- **Used by**: Malta
+- **Facts supporting**: Malta domestic temporary-protection legal framework for displaced persons (claim-malta-001 context)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-26
+
+## src-047
+- **Title**: Residency Malta Agency — Nomad Residence Permit Eligibility
+- **URL**: https://nomad.residencymalta.gov.mt/nomad-eligibility/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Malta
+- **Facts supporting**: NRP remote-work eligibility categories; foreign-employer / foreign-client scope; EUR 42,000/year gross income threshold (claim-malta-002)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-26
+
+## src-048
+- **Title**: Residency Malta Agency — Nomad Residence Permit Checklist
+- **URL**: https://nomad.residencymalta.gov.mt/checklist/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-03-01
+- **Date accessed**: 2026-05-26
+- **Used by**: Malta
+- **Facts supporting**: NRP online filing route; document checklist; bank-statement, police-certificate, relationship, accommodation, and health-insurance requirements; de facto partner evidence (claim-malta-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-26
+
+## src-049
+- **Title**: Residency Malta Agency — Nomad Residence Permit FAQ, version 14.1
+- **URL**: https://nomad.residencymalta.gov.mt/new-faqs/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-04-17
+- **Date accessed**: 2026-05-26
+- **Used by**: Malta
+- **Facts supporting**: NRP fees; 30-working-day processing target; 1-year duration and renewals to maximum 4 years; family-member list; NRP does not lead to long-term residency or citizenship (claim-malta-003 through claim-malta-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-26
+
+## src-050
+- **Title**: Identità — Expatriates Unit Non-Employment Permits: Long-Term Residence
+- **URL**: https://identita.gov.mt/expatriates-unit-main-page/noneu-nationals/non-employment-permits/long-term-residence/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Malta
+- **Facts supporting**: Malta long-term-residence eligibility after 5 years legal continuous residence; resources, accommodation, integration measures; EUR 500 fee
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-26
+
+## src-051
+- **Title**: Aġenzija Komunità Malta — Acquisition of Citizenship by Naturalisation
+- **URL**: https://komunita.gov.mt/services/acquisition-of-citizenship/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Malta
+- **Facts supporting**: ordinary citizenship-by-residence requirements; final 12 months plus 4 aggregate years in prior 6; language and good-character requirements; dual citizenship note
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-26
+
+## src-052
+- **Title**: Climates to Travel — Malta climate: temperature, rain, when to go
+- **URL**: https://www.climatestotravel.com/climate/malta
+- **Archive**: [archive: failed 2026-05-26]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Malta
+- **Facts supporting**: Malta / Valletta January and July temperatures, humidity, precipitation days, annual sunshine hours, and climate comfort caveats
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
