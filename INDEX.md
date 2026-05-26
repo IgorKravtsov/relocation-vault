@@ -10,14 +10,14 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 
 | Country | Group | Tier hint | Tier | depth_score | Sections done | Last iter | Profile |
 |---------|-------|----------:|------|------------:|---------------|----------:|---------|
-| Spain | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 5 | `countries/spain.md` |
-| Portugal | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 5 | `countries/portugal.md` |
+| Spain | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 12 | `countries/spain.md` |
+| Portugal | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 12 | `countries/portugal.md` |
 | Italy | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/italy.md` |
 | Greece | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/greece.md` |
-| Cyprus | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 7 | `countries/cyprus.md` |
+| Cyprus | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 12 | `countries/cyprus.md` |
 | Croatia | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/croatia.md` |
-| Malta | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 10 | `countries/malta.md` |
-| Czech Republic | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 11 | `countries/czech-republic.md` |
+| Malta | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 12 | `countries/malta.md` |
+| Czech Republic | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 12 | `countries/czech-republic.md` |
 | Poland | eu-schengen | 2 | — | 0 | — | — | — |
 | Romania | eu-schengen | 2 | — | 0 | — | — | — |
 | Bulgaria | eu-schengen | 2 | — | 0 | — | — | — |

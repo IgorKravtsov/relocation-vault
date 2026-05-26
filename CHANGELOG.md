@@ -8,6 +8,13 @@ last_updated: 2026-05-26
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-26 — run-012
+- Mode: verification; resolved 5 queue items (`vq-004`, `vq-008`, `vq-013`, `vq-017`, `vq-019`).
+- Spain, Portugal, Cyprus, and Malta: post-2027 TP bridge blockers closed to conservative “no captured bridge; plan ordinary route before TP expiry” baselines.
+- Czech Republic: official-primary special long-term residence anchor added; PR counting rule updated (special residence counts full, prior TP counts one-half).
+- Sources added: src-061.
+- Verification queue: 10 → 5 pending/open items.
+
 ## 2026-05-26 — run-011
 - Czech Republic profile created from template.
 - Czech Republic: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).

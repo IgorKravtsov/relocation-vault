@@ -2,13 +2,13 @@
 country: Cyprus
 tier: null
 depth_score: 1.0
-last_updated: 2026-05-25T16:15:00Z
+last_updated: 2026-05-26T22:04:11Z
 sections_completed: []
 sections_partial: ["5.1", "5.2"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "climate-sunny-days-gap"]
 sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039"]
-unverified_count: 2
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (do not assign yet). Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the DN net-income floor is above the couple's current ~$3,000/month budget and this first pass did not find a Cyprus-specific ordinary-residence bridge after 04 March 2027.
 - **depth_score**: 1.0
-- **Last updated**: 2026-05-25T16:15:00Z
+- **Last updated**: 2026-05-26T22:04:11Z
 - **Tier rationale**: Keep unranked until taxes, rent, partner mechanics, and post-TP transition risk are researched beyond the first legalization/climate pass.
 
 ## Block 2 — Scoring
@@ -57,7 +57,7 @@ The permit gives one year of residence, renewable for a further two years [src-0
 
 #### After 4 March 2027
 
-No Cyprus-specific TP-to-ordinary-residence bridge equivalent to Greece's Article 194 was captured in this pass. Planning should therefore not rely on TP alone. The practical fallback is to secure an ordinary route before the TP cliff if income rises enough for DN or if a different Cyprus residence basis becomes viable. The DN route can provide up to three years total residence (1 year + renewal for up to 2 years) [src-035], but the current income requirement is the limiting factor.
+Verification pass baseline: no Cyprus-specific TP-to-ordinary-residence bridge equivalent to Greece's Article 194 has been captured. Planning should therefore not rely on TP alone after 04 March 2027 unless Cyprus publishes a later transition rule. The practical fallback is to secure an ordinary route before the TP cliff if income rises enough for DN or if a different Cyprus residence basis becomes viable. The DN route can provide up to three years total residence (1 year + renewal for up to 2 years) [src-035], but the current income requirement is the limiting factor.
 
 #### Residence without local employer
 
@@ -229,11 +229,10 @@ _(none yet)_
 - [src-039] Climates to Travel — Cyprus climate.
 
 ### 7e. Not found
-- Cyprus-specific official TP-to-ordinary-residence bridge after 04 March 2027.
+- Cyprus-specific official TP-to-ordinary-residence bridge after 04 March 2027; current operational baseline is “no captured bridge, plan an ordinary route before TP expiry.”
 - Direct city-level annual sunny-day counts for Nicosia, Limassol/Larnaca, and Paphos.
 - Extracted official DN document checklist from the gov.cy document-list attachments.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-013`: Cyprus-specific post-04 March 2027 TP bridge or official no-bridge baseline.
 - `vq-014`: Direct sunny-day counts for key Cyprus cities and / or a stronger Cyprus Meteorological Service climate table.

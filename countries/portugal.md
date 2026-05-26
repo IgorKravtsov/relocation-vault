@@ -2,13 +2,13 @@
 country: Portugal
 tier: null
 depth_score: 1.0
-last_updated: 2026-05-25T04:09:15Z
+last_updated: 2026-05-26T22:04:11Z
 sections_completed: []
 sections_partial: ["5.1","5.2"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget"]
 sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026"]
-unverified_count: 2
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -20,7 +20,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
 - **depth_score**: 1.0
-- **Last updated**: 2026-05-25T04:09:15Z
+- **Last updated**: 2026-05-26T22:04:11Z
 - **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
 
 ## Block 2 — Scoring
@@ -55,8 +55,8 @@ schema_version: 2.0.0
 
 #### After 4 March 2027
 
-- This iteration confirmed the current protection horizon through **04 March 2027**, but it did **not** capture a Portuguese official-primary page that explains a formal **TP-to-ordinary-residence transition mechanism** after that date. [src-002][src-019][verification required; vq-008]
-- That gap matters more in Portugal than in Greece because the couple cannot safely assume TP time will auto-convert into a normal residence track. The prudent working assumption for now is that Portugal is safer only if the couple moves onto an ordinary status **before** the TP horizon becomes critical. [verification required; vq-008]
+- Verification pass baseline: current sources confirm the EU/Portugal temporary-protection horizon through **04 March 2027**, but no Portuguese official-primary page captured so far explains a formal **TP-to-ordinary-residence transition mechanism** after that date. Treat this as the operational answer until AIMA/gov.pt publishes a bridge: TP should not be modeled as an automatic ordinary-residence off-ramp. [src-002][src-019]
+- That gap matters more in Portugal than in Greece because the couple cannot safely assume TP time will auto-convert into a normal residence track. The prudent working assumption is that Portugal is safer only if the couple moves onto an ordinary status **before** the TP horizon becomes critical. [src-026]
 
 #### Residence without local employer
 
@@ -253,11 +253,10 @@ _(none yet)_
 - [src-024] Climate to Travel — Faro climate.
 
 ### 7e. Not found
-- A Portuguese official page explaining the post-04 March 2027 bridge from TP into ordinary residence.
+- A Portuguese official page explaining the post-04 March 2027 bridge from TP into ordinary residence; current operational baseline is “no captured bridge, plan an ordinary route before TP expiry.”
 - A source exposing direct annual **sunny-day counts** for Lisbon, Porto, and Faro.
 - A primary-source permanent-residence timeline map for this exact residence scenario.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-008` — Portugal post-04 March 2027 TP transition / ordinary-residence bridge.
 - `vq-010` — Sunny-day counts for Lisbon, Porto, and Faro.

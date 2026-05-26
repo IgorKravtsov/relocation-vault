@@ -1,27 +1,27 @@
 {
   "version": 2,
-  "iteration": 11,
+  "iteration": 12,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-26T16:03:44Z",
+  "last_run_timestamp": "2026-05-26T22:04:11Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Czech Republic",
+    "mode": "verification",
+    "country": null,
     "sections": [
       "5.1",
       "5.2"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": null,
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Poland",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Pending verification queue has reached 10 items after adding Czech special-residence and climate blockers; run a verification pass before continuing normal country rotation."
+    "reason": "Verification queue is back below threshold after run-012; resume normal country rotation with the next fresh Tier-2-hint EU country at depth 0."
   },
   "countries": {
     "Spain": {
@@ -49,7 +49,7 @@
         "no-clear-post-2027-tp-bridge",
         "dn-threshold-for-couple-tight"
       ],
-      "last_iteration": 5
+      "last_iteration": 12
     },
     "Portugal": {
       "tier": null,
@@ -76,7 +76,7 @@
         "climate-sunny-days-gap",
         "d8-income-above-current-budget"
       ],
-      "last_iteration": 5
+      "last_iteration": 12
     },
     "Italy": {
       "tier": null,
@@ -158,7 +158,7 @@
         "civil-union-needed-for-partner-dependency",
         "climate-sunny-days-gap"
       ],
-      "last_iteration": 7
+      "last_iteration": 12
     },
     "Croatia": {
       "tier": null,
@@ -213,7 +213,7 @@
         "nomad-not-pr-citizenship-path",
         "climate-sunny-days-gap"
       ],
-      "last_iteration": 10
+      "last_iteration": 12
     },
     "Czech Republic": {
       "tier": null,
@@ -236,11 +236,11 @@
         "5.11"
       ],
       "risk_flags": [
-        "special-long-term-residence-official-primary-gap",
         "business-visa-evidence-burden",
-        "climate-sunny-days-gap"
+        "climate-sunny-days-gap",
+        "special-residence-round-timing-needs-follow-up"
       ],
-      "last_iteration": 11
+      "last_iteration": 12
     },
     "Poland": {
       "tier": null,
@@ -793,8 +793,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 10,
-  "sources_count": 60,
+  "verification_queue_size": 5,
+  "sources_count": 61,
   "claims_count": 39,
   "proposals_pending": 0
 }

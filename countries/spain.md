@@ -2,13 +2,13 @@
 country: Spain
 tier: null
 depth_score: 1.5
-last_updated: 2026-05-25T04:09:15Z
+last_updated: 2026-05-26T22:04:11Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight"]
 sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -20,7 +20,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
 - **depth_score**: 1.5
-- **Last updated**: 2026-05-25T04:09:15Z
+- **Last updated**: 2026-05-26T22:04:11Z
 - **Tier rationale**: Spain already has a strong remote-work legalization route and a mature temporary-protection system for Ukrainians, but this pass did not locate a clean official post-04 March 2027 transition bridge from TP into ordinary residence, and the couple-income math for the digital nomad route is tight.
 
 ## Block 2 — Scoring
@@ -57,7 +57,7 @@ schema_version: 2.0.0
 #### After 4 March 2027
 
 - At EU level, the current temporary-protection framework for displaced persons from Ukraine has been extended through **04 March 2027**. [src-002]
-- In this iteration, no Spanish official-primary or official-secondary page was found that clearly sets out a **TP-to-ordinary-residence transition mechanism after 04 March 2027** comparable to Greece's Article 194 bridge. That absence is itself strategically important: Spain may still work well if the couple enters a standard residence category before the deadline, but the TP off-ramp is not yet documented here. [verification required; vq-004]
+- Verification pass baseline: no Spanish official-primary or official-secondary page captured so far sets out a **TP-to-ordinary-residence transition mechanism after 04 March 2027** comparable to Greece's Article 194 bridge. Treat that as the safe operational answer until Spain publishes a bridge: TP is a current protection status through the EU horizon, not a documented long-term residence plan by itself. [src-002][src-011][src-012]
 - The practical fallback already visible in this iteration is to avoid dependence on an unknown TP transition and instead qualify directly for a standard route such as Spain's international telework residence. [src-013]
 
 #### Residence without local employer
@@ -254,9 +254,9 @@ _(none yet)_
 - [src-025] Current Results — direct annual clear-day counts for Madrid, Valencia, and Málaga.
 
 ### 7e. Not found
-- A clear official Spanish TP→ordinary-residence transition mechanism for after 04 March 2027.
+- A clear official Spanish TP→ordinary-residence transition mechanism for after 04 March 2027; current operational baseline is “no captured bridge, plan an ordinary route before TP expiry.”
 - Primary-source PR and citizenship timeline map for this exact residence scenario.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-004` — Spain post-04 March 2027 TP transition / ordinary-residence bridge.
+_(No active Spain verification-queue items from the first-pass legalization/climate opening. PR/citizenship and other pending sections remain for later country-deep-dive work.)_

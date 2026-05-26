@@ -2,13 +2,13 @@
 country: Malta
 tier: null
 depth_score: 1.0
-last_updated: 2026-05-26T10:17:40Z
+last_updated: 2026-05-26T22:04:11Z
 sections_completed: []
 sections_partial: ["5.1", "5.2"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path", "climate-sunny-days-gap"]
 sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052"]
-unverified_count: 2
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence makes Malta a mixed legalization candidate: it has EU temporary protection and a well-documented Nomad Residence Permit, but the nomad route requires EUR 42,000/year gross income and explicitly does not lead to long-term residence or citizenship by itself [src-047][src-049].
 - **depth_score**: 1.0
-- **Last updated**: 2026-05-26T10:17:40Z
+- **Last updated**: 2026-05-26T22:04:11Z
 - **Tier rationale**: Do not classify yet. Main current risk is that the couple's current USD 3,000/month is below the nomad threshold, and no Malta-specific TP-to-ordinary-residence bridge after 04 March 2027 was captured in this pass [src-002][src-049].
 
 ## Block 2 — Scoring
@@ -57,7 +57,7 @@ The income threshold is high for this couple: Residency Malta requires minimum g
 
 #### After 4 March 2027
 
-No Malta-specific official bridge from Ukrainian temporary protection into an ordinary Maltese residence permit was captured in this pass. The safe planning baseline is: do not rely on TP after 04 March 2027 unless Malta publishes a transition rule; plan an ordinary route before expiry [src-002]. The NRP can be a fallback only if the income threshold is met, but it is capped and explicitly not a PR/citizenship path [src-049]. A verification item was added as `vq-017`.
+Verification pass baseline: no Malta-specific official bridge from Ukrainian temporary protection into an ordinary Maltese residence permit has been captured. The safe planning baseline is: do not rely on TP after 04 March 2027 unless Malta publishes a transition rule; plan an ordinary route before expiry [src-002][src-046]. The NRP can be a fallback only if the income threshold is met, but it is capped and explicitly not a PR/citizenship path [src-049].
 
 #### Residence without local employer
 
@@ -217,10 +217,9 @@ _(none yet)_
 - [src-052] Climates to Travel Malta climate.
 
 ### 7e. Not found
-- Capturable Malta International Protection Agency / Home Affairs current TP procedure page. Obvious official pages were public in search results but blocked by security verification during extraction.
+- Capturable Malta International Protection Agency / Home Affairs current TP procedure page. Obvious official pages were public in search results but blocked by security verification during extraction. Current operational baseline is “no captured post-2027 TP bridge, plan an ordinary route before TP expiry.”
 - Direct annual sunny-day or clear-day counts for Valletta, Sliema/St Julian's, and Victoria/Gozo.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-017`: Malta-specific official post-04 March 2027 TP transition path, if any.
 - `vq-018`: Direct annual sunny-day / clear-day counts for Malta target localities.

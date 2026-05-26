@@ -748,3 +748,15 @@ Each source entry:
 - **Facts supporting**: Ostrava January/July temperatures, humidity, precipitation, annual sunshine hours, and comfort caveats
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-061
+- **Title**: Czech Information Portal for Foreigners — General information on special long-term residence
+- **URL**: https://ipc.gov.cz/zvlastni-dlouhodoby-pobyt/obecne-informace-ke-zvlastnimu-dlouhodobemu-pobytu/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-26
+- **Used by**: Czech Republic
+- **Facts supporting**: official Czech special long-term residence baseline; special long-term residence is distinct from temporary protection; health-insurance obligations; special long-term residence counts in full toward permanent residence while prior temporary-protection stay counts one-half
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-26

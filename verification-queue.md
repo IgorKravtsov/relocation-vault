@@ -53,10 +53,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Country**: Spain
 - **Section**: 5.1
 - **Current source**: src-002, src-011, src-012
-- **Why uncertain**: This iteration confirmed current TP rights and the 04 March 2027 horizon, but did not find an official Spanish bridge equivalent to Greece's Article 194 mechanism.
-- **Suggested verification**: Check Ministry of Inclusion / UGE-CE / immigration-law updates for an explicit TP conversion route or transitional instruction.
+- **Why uncertain**: Resolved to conservative planning baseline: no captured Spanish bridge equivalent to Greece's Article 194 mechanism.
+- **Suggested verification**: none
 - **Created**: 2026-05-24 (run-003)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-26 (run-012)
+- **Resolution note**: The Spain profile now records the safe operational baseline: TP is current protection through the EU horizon, not a documented automatic ordinary-residence off-ramp, so plan a standard Spanish route before TP expiry. [src-002][src-011][src-012][src-013]
 
 ## vq-005 [medium priority]
 - **Fact**: "How a Polish `karta pobytu` or other existing EU residence interacts with Spain-based TP or digital nomad residence planning"
@@ -99,10 +101,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Country**: Portugal
 - **Section**: 5.1
 - **Current source**: src-002, src-017, src-019
-- **Why uncertain**: This iteration confirmed the current TP framework and 2027 horizon, but did not find a Portuguese bridge equivalent to Greece's Article 194 mechanism.
-- **Suggested verification**: Check AIMA, gov.pt, Diário da República, or ministry guidance for an explicit TP conversion route or transitional instruction.
+- **Why uncertain**: Resolved to conservative planning baseline: no captured Portuguese bridge equivalent to Greece's Article 194 mechanism.
+- **Suggested verification**: none
 - **Created**: 2026-05-24 (run-004)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-26 (run-012)
+- **Resolution note**: No captured Portuguese official bridge from TP into ordinary residence after 04 March 2027; the Portugal profile now records the conservative baseline: use D8/another ordinary status before the TP horizon rather than relying on automatic conversion. [src-002][src-019][src-026]
 
 ## vq-009 [medium priority]
 - **Fact**: "How a Polish `karta pobytu` or other existing EU residence interacts with Portugal-based TP or D8 planning"
@@ -155,10 +159,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Country**: Cyprus
 - **Section**: 5.1
 - **Current source**: src-002, src-036
-- **Why uncertain**: EU-level temporary protection is extended to 04 March 2027, but the captured Cyprus Asylum Service local page still states the earlier 04 March 2026 extension and no Cyprus TP-to-ordinary-residence bridge was captured.
-- **Suggested verification**: Check Cyprus Asylum Service, Deputy Ministry of Migration and International Protection, Migration Department news, Council of Ministers decisions, and Cyprus legal updates for a 2027 local implementation page or transition rule.
+- **Why uncertain**: Resolved to conservative planning baseline: no captured Cyprus-specific bridge equivalent to Greece's Article 194 mechanism.
+- **Suggested verification**: none
 - **Created**: 2026-05-25 (run-007)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-26 (run-012)
+- **Resolution note**: No captured Cyprus-specific TP-to-ordinary-residence bridge; the Cyprus profile now records the baseline: do not rely on TP alone after 04 March 2027 unless Cyprus publishes a later transition rule. [src-002][src-035][src-036]
 
 ## vq-014 [medium priority]
 - **Fact**: "Direct annual sunny-day counts for Nicosia, Limassol/Larnaca, and Paphos"
@@ -202,10 +208,12 @@ _(none)_
 - **Country**: Malta
 - **Section**: 5.1
 - **Current source**: src-002, src-046
-- **Why uncertain**: EU-level temporary protection is extended to 04 March 2027 and Malta has a domestic temporary-protection legal framework, but this pass did not capture a Malta-specific bridge equivalent to Greece's Article 194 mechanism or a current local TP extension/transition page.
-- **Suggested verification**: Check International Protection Agency, Home Affairs Malta, Identità, Legal Notices, and Malta legal updates for a 2027 local implementation page or transition rule; use WAF capture fallbacks if needed.
+- **Why uncertain**: Resolved to conservative planning baseline: no captured Malta-specific bridge equivalent to Greece's Article 194 mechanism.
+- **Suggested verification**: none
 - **Created**: 2026-05-26 (run-010)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-26 (run-012)
+- **Resolution note**: No captured Malta-specific TP-to-ordinary-residence bridge; the Malta profile now records the baseline: plan an ordinary route before TP expiry, with NRP usable only if the income threshold is met and with the caveat that NRP does not lead to PR/citizenship. [src-002][src-046][src-049]
 
 ## vq-018 [medium priority]
 - **Fact**: "Direct annual sunny-day or clear-day counts for Valletta, Sliema/St Julian's, and Victoria/Gozo"
@@ -221,11 +229,13 @@ _(none)_
 - **Fact**: "Czech special long-term residence / post-04 March 2027 bridge details for Ukrainian temporary-protection holders from an official-primary Czech source"
 - **Country**: Czech Republic
 - **Section**: 5.1
-- **Current source**: src-002, src-053
-- **Why uncertain**: EU-level TP extension is official and UNHCR Czechia describes the special long-term residence route, but this pass did not capture the Czech official-primary legal page or later-round details.
-- **Suggested verification**: Check Czech Ministry of the Interior / Information Portal for Foreigners pages for special long-term residence, Lex Ukraine implementing rules, and any 2026/2027 registration rounds.
+- **Current source**: src-002, src-053, src-061
+- **Why uncertain**: Resolved for the official-primary route/status-counting anchor; later-round timing after the first registration cycle remains for ordinary follow-up rather than a blocker.
+- **Suggested verification**: none for this queue item; later Czech deep-dive should still check future special-residence rounds and Lex Ukraine updates.
 - **Created**: 2026-05-26 (run-011)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-26 (run-012)
+- **Resolution note**: Czech IPC now anchors the special long-term residence route as an official-primary source and states the PR counting rule: special long-term residence counts in full, previous temporary-protection stay counts one-half. The Czech profile and claim-czech-005 were updated. [src-053][src-056][src-061]
 
 ## vq-020 [medium priority]
 - **Fact**: "Direct annual sunny-day or clear-day counts for Prague, Brno, and Ostrava"
@@ -238,16 +248,16 @@ _(none)_
 - **Status**: pending
 
 ## Recently resolved (last 10)
+- `vq-004` — 2026-05-26 (run-012)
+- `vq-008` — 2026-05-26 (run-012)
+- `vq-013` — 2026-05-26 (run-012)
+- `vq-017` — 2026-05-26 (run-012)
+- `vq-019` — 2026-05-26 (run-012)
 - `vq-003` — 2026-05-26 (run-009)
 - `vq-011` — 2026-05-26 (run-009)
 - `vq-012` — 2026-05-26 (run-009)
 - `vq-015` — 2026-05-26 (run-009)
 - `vq-016` — 2026-05-26 (run-009)
-- `vq-001` — 2026-05-25 (run-005)
-- `vq-005` — 2026-05-25 (run-005)
-- `vq-006` — 2026-05-25 (run-005)
-- `vq-007` — 2026-05-25 (run-005)
-- `vq-009` — 2026-05-25 (run-005)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_

@@ -2,13 +2,13 @@
 country: Czech Republic
 tier: null
 depth_score: 1.0
-last_updated: 2026-05-26T16:03:44Z
+last_updated: 2026-05-26T22:04:11Z
 sections_completed: []
 sections_partial: ["5.1", "5.2"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["special-long-term-residence-official-primary-gap", "business-visa-evidence-burden", "climate-sunny-days-gap"]
-sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060"]
-unverified_count: 2
+risk_flags: ["business-visa-evidence-burden", "climate-sunny-days-gap", "special-residence-round-timing-needs-follow-up"]
+sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence suggests a strategically relevant Tier-2-hint profile: Czechia has an unusually explicit special long-term residence track for Ukrainian temporary-protection holders, but this pass captured it through UNHCR rather than an official-primary Czech page and the normal self-employed/business route has a high evidence burden.
 - **depth_score**: 1.0
-- **Last updated**: 2026-05-26T16:03:44Z
+- **Last updated**: 2026-05-26T22:04:11Z
 - **Tier rationale**: Keep Tier unset until taxes, cost, rent, healthcare, partner mechanics, and official-primary special-residence details are researched.
 
 ## Block 2 — Scoring
@@ -41,13 +41,13 @@ schema_version: 2.0.0
 
 ### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-05-26, dod: partial}
 
-> **DoD status**: partial. The pass captured TP horizon, special long-term residence, business-purpose long-term visa, PR anchor, translation/apostille mechanics, and a couple-specific baseline. Missing: official-primary Czech special-residence page, Czech-specific post-04 March 2027 implementation details, exact business-visa funds mechanics for a two-person household, and dependent/partner mechanics.
+> **DoD status**: partial. The pass captured TP horizon, special long-term residence including a Czech official-primary anchor, business-purpose long-term visa, PR anchor, translation/apostille mechanics, and a couple-specific baseline. Missing: later-round special-residence timing after the first round, exact business-visa funds mechanics for a two-person household, and dependent/partner mechanics.
 
 #### Now (until 03.2027)
 
 **Temporary protection.** EU temporary protection is extended to **04 March 2027** at EU level [src-002]. For Czechia, treat this as the legal planning horizon until a Czech domestic implementation page is captured. The EU one-Member-State principle remains the safe baseline: if one partner's Polish `karta pobytu` is itself temporary protection, do not assume the couple can simply open a second Czech TP file; if it is an ordinary Polish residence title, it still does not replace the need for a Czech status. **Confidence: high for EU horizon; medium for Czech operational details.**
 
-**Special long-term residence for Ukrainians.** UNHCR Czechia describes a **special long-term residence permit** for people from Ukraine who have held Czech temporary protection for a continuous two-year period, counted as of 31 March 2025 for the first round [src-053]. Stated conditions include: expression of interest, no criminal record, valid travel document, properly notified accommodation, no humanitarian benefits in the reference period, no debts and continuity of health insurance, school attendance for children aged 6–14, and economic independence. The cited income threshold is **CZK 440,000 yearly taxable income before tax for one person, plus CZK 110,000 for each additional household member**; for this two-person couple the baseline threshold is therefore **CZK 550,000/year gross taxable income** if both are in one household application [src-053]. Spouses and minor children must apply together; adult dependent student children can be included or apply separately, but this does not directly answer an unmarried partner scenario [src-053]. **Confidence: medium-high, pending Czech official-primary capture.**
+**Special long-term residence for Ukrainians.** UNHCR Czechia describes a **special long-term residence permit** for people from Ukraine who have held Czech temporary protection for a continuous two-year period, counted as of 31 March 2025 for the first round [src-053]. Stated conditions include: expression of interest, no criminal record, valid travel document, properly notified accommodation, no humanitarian benefits in the reference period, no debts and continuity of health insurance, school attendance for children aged 6–14, and economic independence. The cited income threshold is **CZK 440,000 yearly taxable income before tax for one person, plus CZK 110,000 for each additional household member**; for this two-person couple the baseline threshold is therefore **CZK 550,000/year gross taxable income** if both are in one household application [src-053]. Spouses and minor children must apply together; adult dependent student children can be included or apply separately, but this does not directly answer an unmarried partner scenario [src-053]. The Czech Information Portal for Foreigners now provides an official-primary anchor confirming that special long-term residence is a status for economically self-sufficient temporary-protection holders who want to settle in Czechia, that it does not replace temporary protection automatically, and that insurance obligations continue under the special status [src-061]. **Confidence: high for route existence and status-counting mechanics; medium-high for first-round income/timing details still sourced through UNHCR.**
 
 **Business / self-employed long-term visa.** Czechia has a long-term visa for the purpose of doing business. The official IPC page says the application is normally filed in person at a Czech diplomatic mission, with a consular fee of **CZK 5,000**, a **90-day** processing time, and required documents including application form, travel document, accommodation proof, proof of funds, photograph, confirmation of registration in a relevant register such as the Trade Licensing Register or Commercial Register, and criminal-record extract; a medical report or criminal-record extracts from other recent residence countries can be requested [src-054]. The Ministry of the Interior's general long-term visa page adds that documents must be originals or official copies, foreign-language documents must be officially translated into Czech, and foreign public documents require apostille or superlegalisation [src-055]. The EU Immigration Portal confirms the self-employed sequence: first a long-term visa for business from a Czech embassy abroad, then a long-term residence permit for business from inside Czechia; business, tax-office, and social-security registration obligations apply [src-057]. **Confidence: high that the route exists; medium that it is practical for this couple without a local Czech business case.**
 
@@ -55,7 +55,7 @@ schema_version: 2.0.0
 
 There are two distinct post-TP planning tracks:
 
-1. **Czech special long-term residence** could be the key bridge if the couple first holds Czech temporary protection long enough and meets the income/insurance/no-benefits conditions [src-053]. This is potentially much stronger than countries where no TP bridge was captured, but the exact official-primary legal basis and later-round timing must be verified before relying on it.
+1. **Czech special long-term residence** could be the key bridge if the couple first holds Czech temporary protection long enough and meets the income/insurance/no-benefits conditions [src-053][src-061]. This is potentially much stronger than countries where no TP bridge was captured, but later-round timing after the first registration cycle still needs follow-up before relying on it.
 2. **Ordinary business/self-employed residence** is the fallback if TP-to-special-residence eligibility does not fit. It requires a credible business/self-employment file, funds, accommodation, Czech translations, and likely trade/business registration evidence [src-054][src-055][src-057].
 
 #### Residence without local employer
@@ -64,7 +64,7 @@ Czechia does not need a classical digital-nomad visa to be usable for a remote I
 
 #### PR and citizenship
 
-The official IPC permanent-residence page lists permanent residence after **5 years of temporary residence in the Czech Republic** [src-056]. This pass did not yet verify which periods/statuses count for this couple: temporary protection, special long-term residence, business visa/residence, student periods, and dependent residence must be checked separately. Citizenship was not researched in this iteration.
+The official IPC permanent-residence page lists permanent residence after **5 years of temporary residence in the Czech Republic** [src-056]. The Czech special-residence page adds a crucial status-counting rule: special long-term residence counts in full toward permanent residence, while previous temporary-protection stay counts at **one-half** for this purpose [src-061]. This makes Czechia more concrete than countries with no TP bridge, but business visa/residence, student periods, dependent residence, and citizenship still need separate checks.
 
 #### Personal playbook for our couple
 
@@ -150,7 +150,7 @@ Czechia is an inland temperate option, not a warm-climate option. For this coupl
 - Large Ukrainian presence likely improves adaptation, to verify in §5.8.
 
 **Cons / risks**:
-- Official-primary special-residence capture still missing.
+- Special-residence route now has an official-primary anchor, but future-round timing and unmarried-partner mechanics remain unresolved.
 - Climate is a compromise: cold, gray winters and no sea/warm region.
 - Business/self-employed route may require a stronger Czech business file than simple foreign-client remote work.
 - Unmarried partner/dependent mechanics remain unresolved.
@@ -206,6 +206,7 @@ Czechia is an inland temperate option, not a warm-climate option. For this coupl
 - [src-054] Czech IPC business-purpose long-term visa.
 - [src-055] Czech Ministry of the Interior general long-term visa rules.
 - [src-056] Czech IPC permanent residence.
+- [src-061] Czech IPC general information on special long-term residence.
 
 ### 7b. Reputable secondary / official secondary
 - [src-053] UNHCR Czechia special long-term residence guidance.
@@ -220,10 +221,9 @@ _(none yet)_
 - [src-060] Climates to Travel — Ostrava.
 
 ### 7e. Not found
-- Czech official-primary page for the special long-term residence permit was not captured within this iteration.
+- Later-round special-long-term-residence timing after the first registration cycle remains unresolved.
 - Direct annual sunny-day / clear-day counts for Prague, Brno, and Ostrava were not captured.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-019`: official-primary Czech special long-term residence / post-04 March 2027 transition details.
 - `vq-020`: direct annual sunny-day or clear-day counts for Prague, Brno, and Ostrava.

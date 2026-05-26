@@ -37,9 +37,9 @@
 
 - id: claim-czech-005
   topic: permanent_residence_after_temporary_residence
-  value: "Permanent residence permit after 5 years of temporary residence in the Czech Republic"
-  source: src-056
+  value: "Permanent residence permit after 5 years of temporary residence in the Czech Republic; special long-term residence counts in full, while prior temporary-protection stay counts at one-half"
+  source: [src-056, src-061]
   date_verified: 2026-05-26
   confidence: high
   tags: [permanent-residence, long-term-planning]
-  notes: "Which statuses count toward the 5-year clock for this couple—temporary protection, special long-term residence, business residence, student/dependent statuses—must be verified separately."
+  notes: "Official IPC permanent-residence page gives the 5-year baseline; Czech special-long-term-residence page gives the TP/special-status counting rule. Business residence, student/dependent statuses, and citizenship must still be verified separately."
