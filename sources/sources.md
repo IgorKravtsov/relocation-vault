@@ -821,6 +821,102 @@ Each source entry:
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
 
+## src-068
+- **Title**: OUG 194/2002 (republished, consolidated April 2026) — Romanian law on the regime of foreigners
+- **URL**: https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-04-30
+- **Date accessed**: 2026-05-27
+- **Used by**: Romania
+- **Facts supporting**: definition of "nomad digital" (Art. 2); visa types (D/AM, D/AC, D/SD); family reunification (Art. 62); EU long-term residence conditions (Art. 71); temporary-protection references (Art. 81)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-27
+
+## src-069
+- **Title**: IGI Portal — Public Online Applications (Portal IGI)
+- **URL**: https://portaligi.mai.gov.ro/portaligi/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-27
+- **Used by**: Romania
+- **Facts supporting**: online application platform for residence permits and work authorisations; document-upload rules and appointment scheduling
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-27
+
+## src-070
+- **Title**: Nomad Girl — Romania Digital Nomad Visa & The 8 Best Cities To Stay
+- **URL**: https://nomadgirl.co/romania-digital-nomad-visa-the-8-best-cities-to-stay/
+- **Archive**: https://web.archive.org/web/20260527000000*/https://nomadgirl.co/romania-digital-nomad-visa-the-8-best-cities-to-stay/
+- **Type**: aggregator
+- **Date published**: 2022-01-11
+- **Date accessed**: 2026-05-27
+- **Used by**: Romania
+- **Facts supporting**: DN visa income threshold €3,300/month; 12+12 months duration; tax treatment; application at embassy or e-visa; IT consultant 3% tax and micro-company 1-3% turnover tax mentioned
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-05-27
+
+## src-071
+- **Title**: MAE — Annex 2: List of countries whose nationals are exempted from the Romanian visa requirement
+- **URL**: https://www.mae.ro/sites/default/files/file/anul_2021/2021_pdf/3.4._anexa_2_en.pdf
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2021-01-04
+- **Date accessed**: 2026-05-27
+- **Used by**: Romania
+- **Facts supporting**: Ukraine (biometric passport holders) exempt from Romanian short-stay visa
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-27
+
+## src-072
+- **Title**: Romania E-VISA portal — terms of use
+- **URL**: https://evisa.mae.ro/Home?lang=en-US
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-27
+- **Used by**: Romania
+- **Facts supporting**: online visa application available; applicant must still present at diplomatic mission
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-27
+
+## src-073
+- **Title**: Climate to Travel — Bucharest climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/romania/bucharest
+- **Archive**: [archive: failed 2026-05-27]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-27
+- **Used by**: Romania
+- **Facts supporting**: Bucharest January/July temperatures, annual sunshine hours (~2110), precipitation, comfort caveats (claim-romania-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-074
+- **Title**: Climate to Travel — Cluj-Napoca climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/romania/cluj-napoca
+- **Archive**: [archive: failed 2026-05-27]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-27
+- **Used by**: Romania
+- **Facts supporting**: Cluj-Napoca January/July temperatures, annual sunshine hours (~2030), precipitation, altitude and comfort caveats (claim-romania-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-075
+- **Title**: Climate to Travel — Timișoara climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/romania/timisoara
+- **Archive**: [archive: failed 2026-05-27]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-27
+- **Used by**: Romania
+- **Facts supporting**: Timișoara January/August temperatures, annual sunshine hours (~2130), precipitation, comfort caveats (claim-romania-008)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
 ## src-067
 - **Title**: Climate to Travel — Wroclaw climate: seasons, when to go, monthly averages
 - **URL**: https://www.climatestotravel.com/climate/poland/wroclaw

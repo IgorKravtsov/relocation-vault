@@ -8,6 +8,19 @@ last_updated: 2026-05-26
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-27 — run-014 — romania-legalization-climate
+
+- Romania profile created from template.
+- Romania: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).
+- Digital-nomad visa captured: Law 22/2022, €3,300/month income, 12+12 months, no Romanian tax (aggregator source; official-primary confirmation queued).
+- OUG 194/2002 (consolidated April 2026) captured as official-primary anchor: defines "nomad digital", visa types, family reunification (Art. 62), EU long-term residence conditions (Art. 71).
+- Ukrainians exempt from short-stay visa (MAE Annex 2) confirmed.
+- Climate first pass for Bucharest, Cluj-Napoca, and Timișoara completed (continental; cold winters; ~2,030–2,130 sunshine hours/year).
+- Sources added: src-068 … src-075.
+- Claims added: claim-romania-001 … claim-romania-008.
+- Verification queue: 6 → 13 pending/open items (7 new Romania items: `vq-022` through `vq-028`).
+- Next: country-deep-dive on Bulgaria (sections 5.1, 5.2) or verification if queue crosses threshold.
+
 ## 2026-05-27 — run-013 — poland-legalization-climate
 
 - Poland profile created from template.

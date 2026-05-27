@@ -1,0 +1,76 @@
+- id: claim-romania-001
+  topic: dn_visa_income_threshold
+  value: 3300
+  unit: EUR/month
+  source: src-070
+  date_verified: 2026-05-27
+  confidence: medium
+  tags: [romania, dn-visa, income-threshold]
+  notes: "Minimum monthly income for Romania digital-nomad visa per aggregator source; official-primary confirmation needed"
+
+- id: claim-romania-002
+  topic: dn_visa_duration
+  value: "12 months, renewable once for another 12 months"
+  source: src-070
+  date_verified: 2026-05-27
+  confidence: medium
+  tags: [romania, dn-visa, duration]
+  notes: "Total maximum 24 months on digital-nomad visa"
+
+- id: claim-romania-003
+  topic: dn_visa_tax_treatment
+  value: "No Romanian income tax; tax residence assumed elsewhere"
+  source: src-070
+  date_verified: 2026-05-27
+  confidence: low
+  tags: [romania, dn-visa, tax]
+  notes: "Single aggregator source; needs official-primary or tax-authority confirmation"
+
+- id: claim-romania-004
+  topic: ukraine_visa_exempt_romania
+  value: true
+  source: src-071
+  date_verified: 2026-05-27
+  confidence: high
+  tags: [romania, ukraine, visa-exemption]
+  notes: "Ukrainian biometric passport holders exempt from Romanian short-stay visa"
+
+- id: claim-romania-005
+  topic: eu_long_term_residence_period
+  value: 5
+  unit: years
+  source: src-068
+  date_verified: 2026-05-27
+  confidence: medium-high
+  tags: [romania, eu-long-term-residence, permanent-residence]
+  notes: "OUG 194/2002 Art. 71: 5 years continuous legal temporary residence or international protection required for EU long-term residence"
+
+- id: claim-romania-006
+  topic: bucharest_sunshine_hours
+  value: 2110
+  unit: hours/year
+  source: src-073
+  date_verified: 2026-05-27
+  confidence: medium
+  tags: [romania, climate, bucharest, sunshine]
+  notes: "Annual sunshine hours from Climate to Travel"
+
+- id: claim-romania-007
+  topic: cluj_napoca_sunshine_hours
+  value: 2030
+  unit: hours/year
+  source: src-074
+  date_verified: 2026-05-27
+  confidence: medium
+  tags: [romania, climate, cluj-napoca, sunshine]
+  notes: "Annual sunshine hours from Climate to Travel"
+
+- id: claim-romania-008
+  topic: timisoara_sunshine_hours
+  value: 2130
+  unit: hours/year
+  source: src-075
+  date_verified: 2026-05-27
+  confidence: medium
+  tags: [romania, climate, timisoara, sunshine]
+  notes: "Annual sunshine hours from Climate to Travel"

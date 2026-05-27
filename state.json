@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 13,
+  "iteration": 14,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-27T04:00:00Z",
+  "last_run_timestamp": "2026-05-27T10:00:00Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Poland",
+    "country": "Romania",
     "sections": [
       "5.1",
       "5.2"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Romania",
+    "suggested_country": "Bulgaria",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Poland first pass completed; continue Tier-2-hint EU rotation with the next fresh depth-0 country."
+    "reason": "Romania first pass completed; continue Tier-2-hint EU rotation with the next fresh depth-0 country."
   },
   "countries": {
     "Spain": {
@@ -274,12 +274,13 @@
     "Romania": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 0,
+      "depth_score": 1.0,
       "sections_completed": [],
-      "sections_partial": [],
-      "sections_pending": [
+      "sections_partial": [
         "5.1",
-        "5.2",
+        "5.2"
+      ],
+      "sections_pending": [
         "5.3",
         "5.4",
         "5.5",
@@ -290,8 +291,12 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "dn-income-above-current-budget",
+        "climate-sunny-days-gap",
+        "no-captured-post-2027-tp-bridge"
+      ],
+      "last_iteration": 14
     },
     "Bulgaria": {
       "tier": null,
@@ -800,8 +805,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 6,
-  "sources_count": 67,
-  "claims_count": 47,
+  "verification_queue_size": 13,
+  "sources_count": 75,
+  "claims_count": 55,
   "proposals_pending": 0
 }

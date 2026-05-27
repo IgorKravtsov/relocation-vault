@@ -257,6 +257,76 @@ _(none)_
 - **Created**: 2026-05-27 (run-013)
 - **Status**: pending
 
+## vq-022 [high priority]
+- **Fact**: "Romania digital-nomad visa exact document checklist, health-insurance requirement, and processing time from an official-primary source"
+- **Country**: Romania
+- **Section**: 5.1
+- **Current source**: src-070
+- **Why uncertain**: Nomad Girl gives the income threshold and duration, but the exact document list, health-insurance minimum coverage, and processing timeline need an official consulate page or IGI circular.
+- **Suggested verification**: Check a Romanian consulate serving Ukraine/Poland, or the IGI digital-nomad guidance page.
+- **Created**: 2026-05-27 (run-014)
+- **Status**: pending
+
+## vq-023 [medium priority]
+- **Fact**: "Romania temporary-protection registration procedure and rights for Ukrainian citizens"
+- **Country**: Romania
+- **Section**: 5.1
+- **Current source**: src-002, src-068
+- **Why uncertain**: The EU-level TP decision is known, and OUG 194/2002 references temporary protection, but no Romania-specific TP registration checklist or rights summary for Ukrainians was captured.
+- **Suggested verification**: Check IGI / UNHCR Romania pages, or the Romanian Government portal for Ukrainian refugees.
+- **Created**: 2026-05-27 (run-014)
+- **Status**: pending
+
+## vq-024 [high priority]
+- **Fact**: "Romania-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
+- **Country**: Romania
+- **Section**: 5.1
+- **Current source**: src-002, src-068
+- **Why uncertain**: No captured Romania-specific bridge equivalent to Greece's Article 194 mechanism.
+- **Suggested verification**: Check IGI, Romanian Government decisions, or Official Gazette for any explicit TP conversion or transitional route.
+- **Created**: 2026-05-27 (run-014)
+- **Status**: pending
+
+## vq-025 [medium priority]
+- **Fact**: "Direct annual sunny-day counts for Bucharest, Cluj-Napoca, and Timișoara"
+- **Country**: Romania
+- **Section**: 5.2
+- **Current source**: src-073, src-074, src-075
+- **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct annual sunny/clear-day counts for the target cities.
+- **Suggested verification**: Check Romanian Meteorological Administration climate normals, WMO city climate pages, meteoblue chart data, or another statistical source with explicit sunny/clear-day counts.
+- **Created**: 2026-05-27 (run-014)
+- **Status**: pending
+
+## vq-026 [medium priority]
+- **Fact**: "Whether Romania digital-nomad residence counts toward the 5-year EU long-term residence period"
+- **Country**: Romania
+- **Section**: 5.1
+- **Current source**: src-068, src-070
+- **Why uncertain**: OUG 194/2002 Art. 71 requires 5 years of continuous legal temporary residence or international protection, but it is unclear whether the digital-nomad permit is classified as a residence permit that counts.
+- **Suggested verification**: Check IGI guidance or a Romanian immigration-law explainer on DN permit classification.
+- **Created**: 2026-05-27 (run-014)
+- **Status**: pending
+
+## vq-027 [medium priority]
+- **Fact**: "Romania D/AC commercial-activity visa income and capital requirements for a self-employed IT freelancer"
+- **Country**: Romania
+- **Section**: 5.1
+- **Current source**: src-068
+- **Why uncertain**: OUG 194/2002 lists the D/AC visa for commercial activity but does not specify the minimum capital or business-plan requirements in the extracted text.
+- **Suggested verification**: Check Romanian consulate checklist for D/AC visa, or IGI guidance for self-employed foreigners.
+- **Created**: 2026-05-27 (run-014)
+- **Status**: pending
+
+## vq-028 [medium priority]
+- **Fact**: "Romania unmarried partner eligibility for family reunification or derived residence permit"
+- **Country**: Romania
+- **Section**: 5.1
+- **Current source**: src-068
+- **Why uncertain**: OUG 194/2002 Art. 62 references family reunification for the spouse and minor children of a sponsor, but does not explicitly address unmarried partners.
+- **Suggested verification**: Check IGI family-reunification guidance, or a Romanian immigration-lawyer explainer.
+- **Created**: 2026-05-27 (run-014)
+- **Status**: pending
+
 ## Recently resolved (last 10)
 - `vq-004` — 2026-05-26 (run-012)
 - `vq-008` — 2026-05-26 (run-012)
