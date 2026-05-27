@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 12,
+  "iteration": 13,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-26T22:04:11Z",
+  "last_run_timestamp": "2026-05-27T04:00:00Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
+    "mode": "country-deep-dive",
+    "country": "Poland",
     "sections": [
       "5.1",
       "5.2"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Poland",
+    "suggested_country": "Romania",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Verification queue is back below threshold after run-012; resume normal country rotation with the next fresh Tier-2-hint EU country at depth 0."
+    "reason": "Poland first pass completed; continue Tier-2-hint EU rotation with the next fresh depth-0 country."
   },
   "countries": {
     "Spain": {
@@ -245,12 +245,14 @@
     "Poland": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 0,
-      "sections_completed": [],
-      "sections_partial": [],
+      "depth_score": 1.5,
+      "sections_completed": [
+        "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
+      ],
       "sections_pending": [
-        "5.1",
-        "5.2",
         "5.3",
         "5.4",
         "5.5",
@@ -261,8 +263,13 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "cukr-next-permit-needs-general-purpose",
+        "family-reunification-unmarried-partner-rules-unclear",
+        "no-dedicated-dn-visa",
+        "climate-sunny-days-gap"
+      ],
+      "last_iteration": 13
     },
     "Romania": {
       "tier": null,
@@ -793,8 +800,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 5,
-  "sources_count": 61,
-  "claims_count": 39,
+  "verification_queue_size": 6,
+  "sources_count": 67,
+  "claims_count": 47,
   "proposals_pending": 0
 }

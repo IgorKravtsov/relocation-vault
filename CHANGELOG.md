@@ -8,6 +8,18 @@ last_updated: 2026-05-26
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-27 — run-013 — poland-legalization-climate
+
+- Poland profile created from template.
+- Poland: depth_score 0 → 1.5 (section 5.2 completed; section 5.1 advanced to partial).
+- CUKR card (3-year temporary residence for former Ukrainian TP holders) captured from official-primary UdSC sources.
+- Family-reunification potential via partner's existing Polish `karta pobytu` flagged for verification.
+- Climate first pass for Warsaw, Krakow, and Wroclaw completed.
+- Sources added: src-062 … src-067; src-002 usage extended to Poland.
+- Claims added: claim-poland-001 … claim-poland-008.
+- Verification queue: 5 → 6 pending/open items (`vq-021` added: Poland family-reunification rules for unmarried partners).
+- Next: country-deep-dive on Romania (sections 5.1, 5.2) or verification if queue crosses threshold.
+
 ## 2026-05-26 — run-012
 - Mode: verification; resolved 5 queue items (`vq-004`, `vq-008`, `vq-013`, `vq-017`, `vq-019`).
 - Spain, Portugal, Cyprus, and Malta: post-2027 TP bridge blockers closed to conservative “no captured bridge; plan ordinary route before TP expiry” baselines.

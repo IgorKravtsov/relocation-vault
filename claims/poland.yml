@@ -1,0 +1,73 @@
+- id: claim-poland-001
+  topic: cukr_card_duration
+  value: 3
+  unit: years
+  source: src-062
+  date_verified: 2026-05-27
+  confidence: high
+  tags: [poland, cukr, temporary-residence, post-2027, ukraine]
+  notes: "CUKR card is a 3-year temporary residence permit on special conditions for former Ukrainian TP holders"
+
+- id: claim-poland-002
+  topic: cukr_application_deadline
+  value: "2027-03-04"
+  source: src-062
+  date_verified: 2026-05-27
+  confidence: high
+  tags: [poland, cukr, deadline, ukraine]
+  notes: "Applications for CUKR card can be submitted until 04 March 2027"
+
+- id: claim-poland-003
+  topic: cukr_continuous_ukr_requirement
+  value: 365
+  unit: days
+  source: src-062
+  date_verified: 2026-05-27
+  confidence: high
+  tags: [poland, cukr, eligibility, ukraine]
+  notes: "Must have held status UKR continuously for at least 365 days"
+
+- id: claim-poland-004
+  topic: cukr_fees
+  value: "340 PLN stamp duty + 100 PLN card fee"
+  source: src-062
+  date_verified: 2026-05-27
+  confidence: high
+  tags: [poland, cukr, fees, ukraine]
+  notes: "Total 440 PLN in government fees for CUKR card"
+
+- id: claim-poland-005
+  topic: cukr_counts_toward_eu_long_term_residence
+  value: true
+  source: src-062
+  date_verified: 2026-05-27
+  confidence: high
+  tags: [poland, cukr, eu-long-term-residence, ukraine]
+  notes: "Time on CUKR counts toward the period required for EU long-term residence permit"
+
+- id: claim-poland-006
+  topic: warsaw_climate_january_july
+  value: "January avg -1.4°C / July avg 19.8°C"
+  source: src-065
+  date_verified: 2026-05-27
+  confidence: medium
+  tags: [poland, climate, warsaw]
+  notes: "Warsaw average temperatures from 1991-2020 climate normals"
+
+- id: claim-poland-007
+  topic: krakow_climate_january_july
+  value: "January avg -1.6°C / July avg 19.6°C"
+  source: src-066
+  date_verified: 2026-05-27
+  confidence: medium
+  tags: [poland, climate, krakow]
+  notes: "Krakow average temperatures from 1991-2020 climate normals"
+
+- id: claim-poland-008
+  topic: wroclaw_climate_january_july
+  value: "January avg -0.1°C / July avg 19.7°C"
+  source: src-067
+  date_verified: 2026-05-27
+  confidence: medium
+  tags: [poland, climate, wroclaw]
+  notes: "Wroclaw average temperatures from 1991-2020 climate normals"

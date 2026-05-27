@@ -760,3 +760,75 @@ Each source entry:
 - **Facts supporting**: official Czech special long-term residence baseline; special long-term residence is distinct from temporary protection; health-insurance obligations; special long-term residence counts in full toward permanent residence while prior temporary-protection stay counts one-half
 - **Confidence ceiling**: high
 - **Stale at**: 2026-11-26
+
+## src-062
+- **Title**: Poland UdSC — CUKR procedure page (Informacja dotycząca procedury wydania karty pobytu CUKR)
+- **URL**: https://www.gov.pl/web/udsc/CUKR-procedura
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-05-04
+- **Date accessed**: 2026-05-27
+- **Used by**: Poland
+- **Facts supporting**: CUKR card is a 3-year temporary residence permit on special conditions; eligibility criteria (365 days continuous UKR status, PESEL UKR on 04 June 2025); family scope; electronic application via MOS; fees 340 PLN + 100 PLN; deadline 04 March 2027; counts toward EU long-term residence (claim-poland-001 through claim-poland-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-27
+
+## src-063
+- **Title**: Poland UdSC — CUKR Q&A page (Pytania i odpowiedzi - karta pobytu CUKR)
+- **URL**: https://www.gov.pl/web/udsc/cukr-QA
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-05-04
+- **Date accessed**: 2026-05-27
+- **Used by**: Poland
+- **Facts supporting**: CUKR rights (full labour market, Schengen travel, business activity); loss of UKR benefits upon CUKR receipt; 6-month absence rule; 60-day collection deadline; next permit under general rules; children born in Poland eligibility
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-27
+
+## src-064
+- **Title**: Poland Gov.pl — Temporary protection extension until March 4, 2027
+- **URL**: https://www.gov.pl/web/ochrona-en/extension-of-validity-of-certificates-of-temporary-protection-until-march-4-2026
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2025-08-13
+- **Date accessed**: 2026-05-27
+- **Used by**: Poland
+- **Facts supporting**: Poland-specific confirmation that temporary protection certificates for Ukrainians are extended until 04 March 2027
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-27
+
+## src-065
+- **Title**: Climate to Travel — Warsaw climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/poland/warsaw
+- **Archive**: [archive: failed 2026-05-27]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-27
+- **Used by**: Poland
+- **Facts supporting**: Warsaw January/July temperatures, annual sunshine hours (~2000), precipitation, and comfort caveats (claim-poland-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-066
+- **Title**: Climate to Travel — Krakow climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/poland/krakow
+- **Archive**: [archive: failed 2026-05-27]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-27
+- **Used by**: Poland
+- **Facts supporting**: Krakow January/July temperatures, annual sunshine hours (~1455), precipitation, and comfort caveats (claim-poland-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-067
+- **Title**: Climate to Travel — Wroclaw climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/poland/wroclaw
+- **Archive**: [archive: failed 2026-05-27]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-27
+- **Used by**: Poland
+- **Facts supporting**: Wroclaw January/July temperatures, annual sunshine hours (~1885), precipitation, and comfort caveats (claim-poland-008)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

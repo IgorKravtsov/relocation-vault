@@ -247,6 +247,16 @@ _(none)_
 - **Created**: 2026-05-26 (run-011)
 - **Status**: pending
 
+## vq-021 [medium priority]
+- **Fact**: "Poland family-reunification residence permit conditions under Article 159 of the Act on Foreigners, specifically for an unmarried partner of a Polish `karta pobytu` holder, and whether marriage is required"
+- **Country**: Poland
+- **Section**: 5.1
+- **Current source**: src-062, src-063
+- **Why uncertain**: The CUKR and TP sources do not cover family-reunification rules for partners of existing Polish residence-permit holders. The couple's existing Polish `karta pobytu` is a potentially unique advantage, but the exact sponsorship rules (unmarried partner eligibility, minimum sponsor income, required documents) need an official-primary source.
+- **Suggested verification**: Check UdSC family-reunification guidance, MOS portal checklist for Art. 159 residence, or the Act on Foreigners text.
+- **Created**: 2026-05-27 (run-013)
+- **Status**: pending
+
 ## Recently resolved (last 10)
 - `vq-004` — 2026-05-26 (run-012)
 - `vq-008` — 2026-05-26 (run-012)
