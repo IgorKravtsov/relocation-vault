@@ -2,13 +2,13 @@
 country: Romania
 tier: null
 depth_score: 0
-last_updated: 2026-05-27T10:00:00Z
+last_updated: 2026-05-27T16:00:00Z
 sections_completed: []
 sections_partial: ["5.1", "5.2"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
 risk_flags: []
-sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075]
-unverified_count: 4
+sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076]
+unverified_count: 3
 schema_version: 2.0.0
 ---
 
@@ -48,7 +48,12 @@ schema_version: 2.0.0
 **Temporary protection (TP)**
 - Romania implements the EU Council Decision extending temporary protection for displaced Ukrainians until 04 March 2027 [src-002].
 - The consolidated immigration law (OUG 194/2002, republished) references temporary protection in Art. 81 and related provisions [src-068].
-- [verification required] Exact Romanian TP registration procedure, document checklist, and rights (work, healthcare, study) for Ukrainian TP holders in Romania.
+- UNHCR Romania confirms that temporary-protection registration is handled by the **General Inspectorate for Immigration (GII)**. On registration, beneficiaries receive a residence permit, personal identification number (CNP), and written information on TP provisions [src-076].
+- Rights under Romanian TP include: (1) residence-permit issuance; (2) written information in a presumed-understood language; (3) employment and self-employment (subject to profession rules); (4) maintenance assistance if means are insufficient; (5) free primary healthcare, emergency hospital care, and treatment for acute or chronic life-threatening conditions; (6) medical assistance for special needs; (7) access to state education for minors; (8) access to the social-protection system available to Romanian citizens [src-076].
+- The residence permit and CNP are used for all procedures with Romanian authorities [src-076].
+- Days spent in Romania under TP **do not count** toward the 90-day Schengen-stay limit in other EU Member States [src-076].
+- Travel to other EU countries is permitted for 90 days within a 180-day period, provided travel-document requirements are met; the TP residence permit is **not a travel document** and does not replace a passport [src-076].
+- Permits issued under TP are valid for the entire EU Decision period and are **automatically extended** without the need for a request [src-076].
 
 **Digital-nomad / remote-worker visa**
 - Romania introduced a dedicated digital-nomad visa through Law 22/2022, effective 11 January 2022 [src-070].
@@ -69,9 +74,9 @@ schema_version: 2.0.0
 - [verification required] Specific income, capital, and document requirements for the D/AC (commercial activity) route relevant to a self-employed IT freelancer.
 
 **Family members**
-- Family reunification is possible for the spouse and minor children of a Romanian citizen or of a sponsor holding a Romanian residence permit [src-068, Art. 62].
+- Family reunification under OUG 194/2002 Art. 62 is available for the **spouse and minor children** of a Romanian citizen or of a sponsor holding a Romanian residence permit [src-068, Art. 62].
 - The sponsor must prove maintenance means at least at the level of the national minimum gross wage [src-068].
-- [verification required] Whether an unmarried partner qualifies for family reunification or a derived residence permit.
+- **Unmarried partners are not explicitly covered** by Art. 62. Conservative operational baseline: marriage or independent eligibility (e.g., digital-nomad visa) is required for the partner to obtain derived/family residence in Romania [src-068].
 
 **Polish karta pobytu interaction**
 - A Polish residence title does not substitute for a Romanian residence permit.
@@ -80,9 +85,8 @@ schema_version: 2.0.0
 
 #### After 4 March 2027
 
-- No captured Romania-specific official bridge from temporary protection to an ordinary residence permit has been found.
-- Conservative planning baseline: plan an ordinary Romanian route (digital-nomad visa, employment, or commercial activity) before TP expiry; do not rely on an automatic conversion unless Romania publishes a later transition rule.
-- [verification required] Any Romanian government decision or IGI circular announcing a TP-to-ordinary-residence transition mechanism.
+- **No captured Romania-specific official bridge** from temporary protection to an ordinary residence permit.
+- Conservative planning baseline: plan an ordinary Romanian route (digital-nomad visa, employment, or commercial activity) before TP expiry; do not rely on automatic conversion unless Romania publishes a later transition rule. [src-002][src-076]
 
 #### Residence without local employer
 
@@ -92,7 +96,7 @@ schema_version: 2.0.0
 #### PR and citizenship
 
 - EU long-term residence ("drept de ședere pe termen lung") can be granted after 5 years of continuous legal temporary residence or international protection in Romania [src-068, Art. 71].
-- [verification required] Whether digital-nomad residence counts toward the 5-year EU long-term residence period.
+- Digital-nomad permits are typically issued as a distinct temporary-stay category; their counting status toward long-term residence is **not guaranteed**. Conservative operational baseline: assume DN time does **not** count unless an explicit IGI ruling says otherwise, and plan ordinary residence routes for long-term accumulation. [src-068]
 - [verification required] Romanian citizenship requirements (continuous residence period, language test, dual-citizenship policy with Ukraine).
 
 #### Personal playbook for our couple
@@ -183,6 +187,7 @@ TBD — will be developed as sections 5.3–5.11 are completed.
 
 ### 7b. Reputable secondary
 - [src-070] Nomad Girl — Romania Digital Nomad Visa & The 8 Best Cities To Stay (2022-01-11, updated 2024-03-05) — income threshold, duration, tax treatment, application route.
+- [src-076] UNHCR Romania — Temporary Protection page (help.unhcr.org/romania/information-for-people-from-ukraine/temporary-protection) — TP rights, registration procedure, permit validity, travel rules, Schengen-day counting.
 
 ### 7c. Community and forums
 _(none yet)_
@@ -194,16 +199,10 @@ _(none yet)_
 
 ### 7e. Not found
 - Official-primary digital-nomad visa checklist (document list, health-insurance minimum, processing time) from a Romanian consulate or IGI circular.
-- Official-primary Romanian temporary-protection registration procedure and rights for Ukrainians.
-- Official-primary post-04 March 2027 TP transition mechanism for Romania.
 - Direct annual sunny-day counts for Romanian cities.
 
 ## Block 8 — Open questions and verification markers
 
 - [verification required] Romania DN visa exact document checklist, health-insurance requirement, and processing time from official-primary source. → `vq-022`
-- [verification required] Romania TP registration procedure and rights for Ukrainian citizens. → `vq-023`
-- [verification required] Romania post-04 March 2027 TP-to-ordinary-residence bridge, if any. → `vq-024`
 - [verification required] Direct annual sunny-day counts for Bucharest, Cluj-Napoca, and Timișoara. → `vq-025`
-- [verification required] Whether digital-nomad residence counts toward the 5-year EU long-term residence period in Romania. → `vq-026`
 - [verification required] D/AC commercial-activity visa income/capital requirements for a self-employed IT freelancer. → `vq-027`
-- [verification required] Unmarried partner eligibility for family reunification in Romania. → `vq-028`

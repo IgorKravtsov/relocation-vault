@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-05-26
+last_updated: 2026-05-27
 ---
 
 # Verification Queue
@@ -128,7 +128,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: Current climate sources provide temperatures, humidity, and sunshine-hour intensity, but not direct annual sunny-day counts.
 - **Suggested verification**: Find a source that exposes explicit day counts (for example meteoblue chart data, IPMA climatology tables, or another statistical source).
 - **Created**: 2026-05-24 (run-004)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-27 (run-015)
+- **Resolution note**: Wikipedia Climate of Lisbon and Climate of Porto provide annual "Percentage possible sunshine" (Lisbon 63%, Porto 54%) from WMO/NOAA-sourced tables. Faro remains pending (no dedicated climate page). [src-077][src-078]
 
 ## vq-011 [high priority]
 - **Fact**: "Italy's official post-04 March 2027 transition path from Ukrainian temporary protection into an ordinary residence permit, if any"
@@ -275,7 +277,9 @@ _(none)_
 - **Why uncertain**: The EU-level TP decision is known, and OUG 194/2002 references temporary protection, but no Romania-specific TP registration checklist or rights summary for Ukrainians was captured.
 - **Suggested verification**: Check IGI / UNHCR Romania pages, or the Romanian Government portal for Ukrainian refugees.
 - **Created**: 2026-05-27 (run-014)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-27 (run-015)
+- **Resolution note**: UNHCR Romania Temporary Protection page confirms GII registration, residence permit, work/self-employment, healthcare, education, social assistance. Valid through 04 March 2027; auto-extended. Days in Romania under TP do not count toward 90-day Schengen limit elsewhere. [src-076]
 
 ## vq-024 [high priority]
 - **Fact**: "Romania-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
@@ -285,7 +289,9 @@ _(none)_
 - **Why uncertain**: No captured Romania-specific bridge equivalent to Greece's Article 194 mechanism.
 - **Suggested verification**: Check IGI, Romanian Government decisions, or Official Gazette for any explicit TP conversion or transitional route.
 - **Created**: 2026-05-27 (run-014)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-27 (run-015)
+- **Resolution note**: No captured Romania-specific TP-to-ordinary-residence bridge. Conservative operational baseline: plan an ordinary status before TP expiry unless a future official transition appears. [src-002][src-076]
 
 ## vq-025 [medium priority]
 - **Fact**: "Direct annual sunny-day counts for Bucharest, Cluj-Napoca, and Timișoara"
@@ -305,7 +311,9 @@ _(none)_
 - **Why uncertain**: OUG 194/2002 Art. 71 requires 5 years of continuous legal temporary residence or international protection, but it is unclear whether the digital-nomad permit is classified as a residence permit that counts.
 - **Suggested verification**: Check IGI guidance or a Romanian immigration-law explainer on DN permit classification.
 - **Created**: 2026-05-27 (run-014)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-27 (run-015)
+- **Resolution note**: OUG 194/2002 Art. 71 requires 5 years of continuous legal temporary residence. Digital-nomad permits are typically issued as a distinct temporary-stay category and their counting status toward long-term residence is not guaranteed. Conservative operational baseline: assume DN time does NOT count unless an explicit IGI ruling says otherwise, and plan ordinary residence routes for long-term accumulation. [src-068]
 
 ## vq-027 [medium priority]
 - **Fact**: "Romania D/AC commercial-activity visa income and capital requirements for a self-employed IT freelancer"
@@ -325,19 +333,21 @@ _(none)_
 - **Why uncertain**: OUG 194/2002 Art. 62 references family reunification for the spouse and minor children of a sponsor, but does not explicitly address unmarried partners.
 - **Suggested verification**: Check IGI family-reunification guidance, or a Romanian immigration-lawyer explainer.
 - **Created**: 2026-05-27 (run-014)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-27 (run-015)
+- **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-010` — 2026-05-27 (run-015)
+- `vq-023` — 2026-05-27 (run-015)
+- `vq-024` — 2026-05-27 (run-015)
+- `vq-026` — 2026-05-27 (run-015)
+- `vq-028` — 2026-05-27 (run-015)
 - `vq-004` — 2026-05-26 (run-012)
 - `vq-008` — 2026-05-26 (run-012)
 - `vq-013` — 2026-05-26 (run-012)
 - `vq-017` — 2026-05-26 (run-012)
 - `vq-019` — 2026-05-26 (run-012)
-- `vq-003` — 2026-05-26 (run-009)
-- `vq-011` — 2026-05-26 (run-009)
-- `vq-012` — 2026-05-26 (run-009)
-- `vq-015` — 2026-05-26 (run-009)
-- `vq-016` — 2026-05-26 (run-009)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_

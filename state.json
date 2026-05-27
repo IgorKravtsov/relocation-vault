@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "iteration": 14,
+  "iteration": 15,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-27T10:00:00Z",
+  "last_run_timestamp": "2026-05-27T16:20:00Z",
   "current_focus": {
-    "mode": "country-deep-dive",
+    "mode": "verification",
     "country": "Romania",
     "sections": [
       "5.1",
@@ -76,7 +76,7 @@
         "climate-sunny-days-gap",
         "d8-income-above-current-budget"
       ],
-      "last_iteration": 12
+      "last_iteration": 15
     },
     "Italy": {
       "tier": null,
@@ -296,7 +296,7 @@
         "climate-sunny-days-gap",
         "no-captured-post-2027-tp-bridge"
       ],
-      "last_iteration": 14
+      "last_iteration": 15
     },
     "Bulgaria": {
       "tier": null,
@@ -805,8 +805,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 13,
-  "sources_count": 75,
+  "verification_queue_size": 8,
+  "sources_count": 78,
   "claims_count": 55,
   "proposals_pending": 0
 }

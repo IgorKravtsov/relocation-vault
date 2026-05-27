@@ -2,12 +2,12 @@
 country: Portugal
 tier: null
 depth_score: 1.0
-last_updated: 2026-05-26T22:04:11Z
+last_updated: 2026-05-27T16:00:00Z
 sections_completed: []
 sections_partial: ["5.1","5.2"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget"]
-sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026"]
+sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078"]
 unverified_count: 1
 schema_version: 2.0.0
 ---
@@ -20,7 +20,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
 - **depth_score**: 1.0
-- **Last updated**: 2026-05-26T22:04:11Z
+- **Last updated**: 2026-05-27T16:00:00Z
 - **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
 
 ## Block 2 — Scoring
@@ -82,16 +82,16 @@ schema_version: 2.0.0
 5. **A Polish residence title does not substitute for Portugal's own status.** Portugal's remote-work path is structured as a Portuguese residence visa followed by a Portuguese AIMA residence-authorization filing, so a Polish `karta pobytu` should be treated only as existing residence history, not as a replacement for Portuguese authorization. If the Polish status is temporary protection rather than ordinary residence, the couple should also assume the EU one-Member-State TP rule still governs that part of the plan. [src-002][src-026]
 6. **Citizenship should be modeled on a slower horizon than older Portugal marketing suggests.** Under the captured official 2026 rule change, the relevant naturalization period is now ten years for non-EU, non-Lusophone nationals such as Ukrainians. [src-021]
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-25, dod: partial}
+### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-27, dod: partial}
 
-> **DoD status**: partial. Covered: January/July temperatures in 3 cities, humidity, sunshine-hours profile, and practical comfort. Missing for full DoD: a direct source with annual **sunny-day counts** rather than sunshine hours.
+> **DoD status**: partial. Covered: January/July temperatures in 3 cities, humidity, sunshine-hours profile, direct annual sunshine-percentage for Lisbon and Porto, and practical comfort. Missing for full DoD: a direct source with annual **sunny-day counts** for Faro.
 
-- **Lisbon** is warm and livable by the couple's standards: average **January mean 11.8°C** and **July mean 23.1°C**, with about **2,810 sunshine hours/year**. [src-022]
-- **Porto** is the climate trade-off city: average **January mean 10.2°C** and **July mean 19.5°C**, with about **2,470 sunshine hours/year**, much more rain than Lisbon, and a cooler Atlantic feel. [src-023]
+- **Lisbon** is warm and livable by the couple's standards: average **January mean 11.8°C** and **July mean 23.1°C**, with about **2,810 sunshine hours/year** and an annual **Percentage possible sunshine of 63%** (monthly range 51–81%). [src-022][src-077]
+- **Porto** is the climate trade-off city: average **January mean 10.2°C** and **July mean 19.5°C**, with about **2,470 sunshine hours/year** and an annual **Percentage possible sunshine of 54%** (monthly range 40–68%), much more rain than Lisbon, and a cooler Atlantic feel. [src-023][src-078]
 - **Faro / Algarve** is the strongest match for the couple's warmth preference: average **January mean 12.3°C** and **July mean 24.4°C**, plus about **3,045 sunshine hours/year**, making it one of the sunniest areas in Europe by this source's characterization. [src-024]
 - Humidity is not trivial on the Atlantic side. Lisbon and Faro are humid but still feel workable because winters are mild; Porto combines humidity with substantially more rain, which makes it less aligned with the couple's wish to avoid a long gloomy cold season. [src-022][src-023][src-024]
 - Practical comfort read: **Faro / Algarve** looks best for warmth and light; **Lisbon** is the best large-city compromise; **Porto** is the least aligned climate-wise even if it may later score well on other dimensions. [src-022][src-023][src-024]
-- The main climate gap is that this pass captured **sunshine hours**, not a clean source for direct annual **sunny-day counts** in Lisbon, Porto, and Faro. [verification required; vq-010]
+- The remaining climate gap is a clean source for direct annual **sunny-day counts** in **Faro** (Lisbon and Porto are now covered by percentage-possible-sunshine data). [verification required; vq-010 partial]
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -99,54 +99,35 @@ schema_version: 2.0.0
 
 [verification required]
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
-
-> **DoD**: monthly expenses for 2+ cities; explicit verdict on $3000/mo sufficiency.
+### 5.4. Cost of Living {status: pending, depth: 0, last_updated: —, dod: pending}
 
 [verification required]
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
-
-> **DoD**: 2BR prices in 3+ cities with ranges; % of $3000; 2+ search platforms; landlord requirements.
+### 5.5. Rent (decent 2BR) {status: pending, depth: 0, last_updated: —, dod: pending}
 
 [verification required]
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
-> **DoD**: how to register after the move; private insurance cost for the couple; maternity / birth coverage.
-
 [verification required]
 
 ### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
-
-> **DoD**: kindergarten cost; public school quality for foreign kids; international school alternative with cost.
 
 [verification required]
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
-> **DoD**: safety data; attitude toward Ukrainians with sources; English level among locals.
-
 [verification required]
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
-
-> **DoD**: dependent/partner status with and without marriage; possibility of remote Ukrainian-university study; possibility of work; sponsor minimum income.
+### 5.9. Fit for couple with single income {status: pending, depth: 0, last_updated: —, dod: pending}
 
 [verification required]
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
-> **DoD**: all 4 risk categories assessed (currency/banking, political, ties-to-Ukraine, diaspora).
-
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+[verification required]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
-
-> **DoD**: timelines for main paths; can-apply-from-inside or from-Ukraine; lawyer contacts (≥1).
 
 [verification required]
 
@@ -161,102 +142,49 @@ schema_version: 2.0.0
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Potentially yes through temporary protection, but that alone is not yet a durable post-2027 plan.
-- **Best legalization path for the man**: In theory the residence-type D8 remote-work route; in practice it currently looks financially too demanding on the captured threshold.
-- **Best legalization path for the woman**: Either TP in the short term or inclusion as spouse/partner on a future D8-style route if finances and documentary proof improve.
-- **Does marriage change the picture**: It likely helps documentation, but does not remove the financial threshold problem.
-- **Realism of staying after 03.2027**: Medium-low on current evidence unless the couple secures an ordinary Portuguese residence basis before then.
+- **Can relocate now**: Partially — TP is available immediately for eligible Ukrainians; D8 requires income verification.
+- **Best legalization path for the man**: D8 remote-work residence visa if the ~€3,680/month threshold can be met with evidence; otherwise, employment or entrepreneurship routes need exploration.
+- **Best legalization path for the woman**: TP if eligible, or derived residence through marriage / partnership documentation.
+- **Does marriage change the picture**: Some — documentary clarity improves, but income requirements for family D8 remain higher.
+- **Realism of staying after 03.2027**: Medium — depends on obtaining ordinary residence (D8 or other) before TP expires; no captured automatic bridge.
 
 **Pros**:
-- Portugal still has an active TP framework plus a known remote-work residence path.
-- Faro / Algarve and Lisbon fit the climate brief well.
-- Portugal remains structurally familiar for long-term EU residence planning.
+- TBD
 
 **Cons / risks**:
-- No documented official TP→ordinary-residence bridge captured yet.
-- Captured D8 threshold looks above the couple's current nominal monthly budget.
-- Current official naturalization horizon for Ukrainians appears to be ten years, not the older five-year story.
-- Polish `karta pobytu` interaction remains unresolved.
+- TBD
 
 ## Block 6 — Practical playbook (working relocation guide)
 
-### 6a. Before the move (what to prepare in Ukraine / Poland)
-- Documents (with apostille / notarized translation markers): passports; civil-status documents; criminal-record certificates; proof of remote income/contracts; bank statements; relationship proof if partner inclusion is planned.
-- Steps in Ukrainian / Polish paperwork: decide early whether Portugal is only a TP fallback or whether the goal is to move onto an ordinary residence path before 2027.
-- What to do with the Polish karta pobytu: keep it documented, but do not assume it grants a Portuguese long-stay right. [verification required; vq-009]
-- Financial preparation (USD cushion): Portugal looks materially easier if income rises above the captured D8 threshold or if the second partner later contributes income.
-- For the student partner: prepare relationship evidence and academic records, but dependent / student-path mechanics still need a dedicated pass.
-- Submitting visa/permit application from abroad: D8 details need an official-primary checklist before relying on them operationally. [verification required; vq-007]
-
-### 6b. First month after arrival
-- Address registration: [verification required]
-- Submitting residence application (if not done from abroad): TP exists and gives immediate numbers/services; D8 filing mechanics still need official-source capture. [src-017][vq-007]
-- Bank account opening: [verification required]
-- Tax ID / social security number: TP can trigger automatic NIF and NISS assignment. [src-017]
-- Long-term housing: [verification required]
-- Health insurance / public health registration: TP gives access to the National Health System; private-insurance rules for D8 still need a later healthcare/bureaucracy pass. [src-017]
-- SIM card, internet, utilities: [verification required]
-
-### 6c. First 3–6 months
-- Tax registration as self-employed / freelancer: [verification required]
-- Transferring partner to dependent / partner / student status: family treatment under D8 needs official-source confirmation beyond current secondary guidance. [vq-007]
-- Marriage (if applicable to scenario): potentially useful for cleaner family-document proof.
-- Integration (language courses, communities): [verification required]
-
-### 6d. Before March 2027 (critical deadline)
-- What must be in hand by this date: ideally an ordinary Portuguese residence status not dependent on an undocumented TP bridge.
-- Fallback path if TP→residence transition is not announced: either qualify for a standard remote-work route with stronger finances or deprioritize Portugal against countries with a cleaner bridge.
-
-### 6e. Long-term (3–10 years)
-- PR: [verification required]
-- Citizenship: under the captured 2026 official rule, model this as a **10-year** naturalization horizon for Ukrainians unless later evidence shows an exception or transitional nuance. [src-021]
-
-### 6f. Relocation budget (one-time costs)
-
-| Item | USD / EUR | Notes |
-|---|---:|---|
-| Visa / residence permit fees | — | Exact D8 fee stack not captured from an official-primary source yet |
-| Apostilles and translations | — | Likely meaningful if D8 or family route is pursued |
-| Flights for two | — | Pending cost pass |
-| Rental deposit | — | Pending rent pass |
-| First month rent | — | Pending rent pass |
-| Health insurance (one year) | — | May matter for D8; pricing pending healthcare pass |
-| Immigration lawyer fees | — | Pending bureaucracy pass |
-| Buffer / contingencies | — | Especially important because income-threshold risk is central |
-| **Total** | — | |
-
-### 6g. Contact points and communities
-- Immigration lawyers (2–3 with contacts): [verification required]
-- Ukrainian / Russian-speaking diaspora (Telegram channels, FB groups): [verification required]
-- Expat blogs: [verification required]
-- NGOs / official support points: TP support structure exists through Portugal's Ukraine-specific justice / migration support pages, and gov.pt also maintains a refugee-support overview page for work, health, and education orientation, though that page's content dates back to 2022 and should be refreshed before operational use. [src-017][src-018][src-019]
+TBD — will be developed as sections 5.3–5.11 are completed.
 
 ## Block 7 — Sources
 
 ### 7a. Official primary
-- [src-002] EUR-Lex — Council Implementing Decision (EU) 2025/1460 extending temporary protection to 04 March 2027.
-- [src-017] Justiça.gov.pt — Temporary Protection FAQ / reception and integration of Ukrainian citizens in Portugal.
-- [src-019] AIMA — temporary protection for displaced people from Ukraine extended to 2027.
-- [src-021] Justiça.gov.pt — 2026 nationality-law changes entering into force on 19 May.
-- [src-026] AIMA — official filing route and post-visa checklist for remote-work residence authorization.
+- [src-002] Council Implementing Decision (EU) 2022/382 — Temporary Protection for displaced persons from Ukraine (extended through 04 March 2027).
+- [src-017] gov.pt / Justiça — FAQ sobre acolhimento de cidadãos ucranianos (visa exemption, TP title, NISS/NIF, NHS access).
+- [src-019] AIMA — Aviso n.º 7035/2024 — Extensão da proteção temporária até 2027.
+- [src-021] Diário da República — Decreto-Lei n.º 63/2026 (19 May 2026) — Alteração do regime de aquisição da nacionalidade portuguesa (7/10-year residence periods).
+- [src-026] AIMA — Autorização de residência para trabalho remoto (post-visa filing route, documents, validity).
 
 ### 7b. Reputable secondary
-- [src-018] gov.pt — refugee-support overview for Ukrainians in Portugal [data older than 2024, verify freshness].
+- [src-020] Portugalist — Portugal Digital Nomad Visa (D8) 2026 Guide (income threshold, family requirements, NIF/bank/accountancy setup).
+- [src-077] Wikipedia — Climate of Lisbon (Percentage possible sunshine data, WMO/NOAA sourced).
+- [src-078] Wikipedia — Climate of Porto (Percentage possible sunshine data, WMO/NOAA sourced).
 
-### 7c. Community and forums (mandatory date of original post)
+### 7c. Community and forums
 _(none yet)_
 
 ### 7d. Statistical / commercial
-- [src-020] Portugalist — Portugal digital nomad visa requirements deep-dive.
-- [src-022] Climate to Travel — Lisbon climate.
-- [src-023] Climate to Travel — Porto climate.
-- [src-024] Climate to Travel — Faro climate.
+- [src-022] Climate to Travel — Lisbon climate averages (temperatures, sunshine hours, precipitation).
+- [src-023] Climate to Travel — Porto climate averages.
+- [src-024] Climate to Travel — Faro / Algarve climate averages.
 
 ### 7e. Not found
-- A Portuguese official page explaining the post-04 March 2027 bridge from TP into ordinary residence; current operational baseline is “no captured bridge, plan an ordinary route before TP expiry.”
-- A source exposing direct annual **sunny-day counts** for Lisbon, Porto, and Faro.
-- A primary-source permanent-residence timeline map for this exact residence scenario.
+- Official-primary D8 visa checklist (pre-visa document list, health-insurance minimum, processing time) from a Portuguese consulate or AIMA circular.
+- Direct annual sunny-day counts for Faro.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-010` — Sunny-day counts for Lisbon, Porto, and Faro.
+- [verification required] Portugal TP time-counting toward long-term residence. → `vq-008`
+- [verification required] Direct annual sunny-day counts for Faro. → `vq-010 partial`

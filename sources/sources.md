@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-05-25
+last_updated: 2026-05-27
 ---
 
 # Sources Registry
@@ -258,7 +258,7 @@ Each source entry:
 - **Stale at**: 2026-11-24
 
 ## src-020
-- **Title**: Portugalist — Portugal’s Digital Nomad Visa Requirements: a deep dive into every aspect of the application
+- **Title**: Portugalist — Portugal's Digital Nomad Visa Requirements: a deep dive into every aspect of the application
 - **URL**: https://www.portugalist.com/digital-nomad-visa-requirements/
 - **Archive**: [archive: failed 2026-05-24]
 - **Type**: commercial
@@ -821,6 +821,18 @@ Each source entry:
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
 
+## src-067
+- **Title**: Climate to Travel — Wroclaw climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/poland/wroclaw
+- **Archive**: [archive: failed 2026-05-27]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-27
+- **Used by**: Poland
+- **Facts supporting**: Wroclaw January/July temperatures, annual sunshine hours (~1885), precipitation, and comfort caveats (claim-poland-008)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
 ## src-068
 - **Title**: OUG 194/2002 (republished, consolidated April 2026) — Romanian law on the regime of foreigners
 - **URL**: https://igi.mai.gov.ro/wp-content/uploads/2026/04/ORDONANTA-DE-URGENTA-nr.-194-din-12-decembrie-2002.pdf
@@ -917,14 +929,38 @@ Each source entry:
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
 
-## src-067
-- **Title**: Climate to Travel — Wroclaw climate: seasons, when to go, monthly averages
-- **URL**: https://www.climatestotravel.com/climate/poland/wroclaw
+## src-076
+- **Title**: UNHCR Romania — Temporary Protection
+- **URL**: https://help.unhcr.org/romania/information-for-people-from-ukraine/temporary-protection/
 - **Archive**: [archive: failed 2026-05-27]
-- **Type**: commercial
+- **Type**: reputable-secondary
 - **Date published**: unknown
 - **Date accessed**: 2026-05-27
-- **Used by**: Poland
-- **Facts supporting**: Wroclaw January/July temperatures, annual sunshine hours (~1885), precipitation, and comfort caveats (claim-poland-008)
+- **Used by**: Romania
+- **Facts supporting**: Romania TP registration through GII; residence permit and CNP issuance; rights (work, self-employment, education, healthcare, social assistance); validity through 04 March 2027; automatic extension; Schengen travel rules; days in Romania under TP do not count toward 90-day limit in other Member States
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-27
+
+## src-077
+- **Title**: Wikipedia — Climate of Lisbon
+- **URL**: https://en.wikipedia.org/wiki/Climate_of_Lisbon
+- **Archive**: [archive: failed 2026-05-27]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-05-27
+- **Used by**: Portugal
+- **Facts supporting**: Lisbon monthly and annual "Percentage possible sunshine" (annual 63%, monthly range 51–81%); WMO/NOAA-sourced climate table
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-078
+- **Title**: Wikipedia — Climate of Porto
+- **URL**: https://en.wikipedia.org/wiki/Climate_of_Porto
+- **Archive**: [archive: failed 2026-05-27]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-05-27
+- **Used by**: Portugal
+- **Facts supporting**: Porto monthly and annual "Percentage possible sunshine" (annual 54%, monthly range 40–68%); WMO/NOAA-sourced climate table
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31

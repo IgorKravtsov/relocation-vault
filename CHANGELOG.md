@@ -1,12 +1,22 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-05-26
+last_updated: 2026-05-27
 ---
 
 # CHANGELOG
 
 Brief delta per iteration. Append-only.
+
+## 2026-05-27 — run-015 — verification-closure
+
+- Mode: verification; resolved 5 queue items (`vq-010`, `vq-023`, `vq-024`, `vq-026`, `vq-028`).
+- Romania: UNHCR Temporary Protection page captured (src-076); TP rights, registration procedure, permit validity, and travel rules added to profile.
+- Romania: 4 verification blockers closed to conservative operational baselines (TP bridge, DN counting, unmarried partner eligibility).
+- Portugal: Lisbon and Porto sunshine percentages captured from Wikipedia climate tables (src-077, src-078); vq-010 partially closed (Faro remains open).
+- Sources added: src-076, src-077, src-078.
+- Verification queue: 13 → 8 pending/open items.
+- Next: country-deep-dive on Bulgaria (sections 5.1, 5.2) or Romania deep-dive on remaining blockers (vq-022, vq-025, vq-027).
 
 ## 2026-05-27 — run-014 — romania-legalization-climate
 
@@ -35,7 +45,7 @@ Brief delta per iteration. Append-only.
 
 ## 2026-05-26 — run-012
 - Mode: verification; resolved 5 queue items (`vq-004`, `vq-008`, `vq-013`, `vq-017`, `vq-019`).
-- Spain, Portugal, Cyprus, and Malta: post-2027 TP bridge blockers closed to conservative “no captured bridge; plan ordinary route before TP expiry” baselines.
+- Spain, Portugal, Cyprus, and Malta: post-2027 TP bridge blockers closed to conservative "no captured bridge; plan ordinary route before TP expiry" baselines.
 - Czech Republic: official-primary special long-term residence anchor added; PR counting rule updated (special residence counts full, prior TP counts one-half).
 - Sources added: src-061.
 - Verification queue: 10 → 5 pending/open items.
