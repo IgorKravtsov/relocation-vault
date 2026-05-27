@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 15,
+  "iteration": 16,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-27T16:20:00Z",
+  "last_run_timestamp": "2026-05-28T06:00:00Z",
   "current_focus": {
-    "mode": "verification",
-    "country": "Romania",
+    "mode": "country-deep-dive",
+    "country": "Bulgaria",
     "sections": [
       "5.1",
       "5.2"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Bulgaria",
+    "suggested_country": "Hungary",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Romania first pass completed; continue Tier-2-hint EU rotation with the next fresh depth-0 country."
+    "reason": "Continue Tier-2-hint EU rotation with the next fresh depth-0 country."
   },
   "countries": {
     "Spain": {
@@ -301,12 +301,13 @@
     "Bulgaria": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 0,
+      "depth_score": 1.0,
       "sections_completed": [],
-      "sections_partial": [],
-      "sections_pending": [
+      "sections_partial": [
         "5.1",
-        "5.2",
+        "5.2"
+      ],
+      "sections_pending": [
         "5.3",
         "5.4",
         "5.5",
@@ -317,8 +318,13 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "no-captured-post-2027-tp-bridge",
+        "self-employment-permit-3-year-cap",
+        "climate-sunny-days-gap",
+        "dual-citizenship-restriction-for-non-eu-naturalized"
+      ],
+      "last_iteration": 16
     },
     "Hungary": {
       "tier": null,
@@ -805,8 +811,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 8,
-  "sources_count": 78,
-  "claims_count": 55,
+  "verification_queue_size": 12,
+  "sources_count": 88,
+  "claims_count": 63,
   "proposals_pending": 0
 }

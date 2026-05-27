@@ -351,3 +351,43 @@ _(none)_
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
+
+## vq-029 [high priority]
+- **Fact**: "Bulgaria self-employment permit exact income threshold, capital requirement, and document checklist from an official-primary source"
+- **Country**: Bulgaria
+- **Section**: 5.1
+- **Current source**: src-079 (official-secondary, EU Immigration Portal summary)
+- **Why uncertain**: The EU Immigration Portal describes the procedure but does not give the exact income floor, capital requirement, or document-by-document checklist for the self-employment permit.
+- **Suggested verification**: Check Bulgarian Employment Agency (az.government.bg) or Migration Directorate (mvr.bg) for the detailed checklist; or a Bulgarian consulate serving Ukraine/Poland.
+- **Created**: 2026-05-28 (run-016)
+- **Status**: pending
+
+## vq-030 [medium priority]
+- **Fact**: "Bulgaria-specific temporary-protection registration procedure and rights for Ukrainian citizens"
+- **Country**: Bulgaria
+- **Section**: 5.1
+- **Current source**: src-002 (EU-level TP decision), src-088 (MVR page, WAF-protected)
+- **Why uncertain**: No Bulgaria-specific TP registration checklist or rights summary for Ukrainians was captured.
+- **Suggested verification**: Check UNHCR Bulgaria, Bulgarian Migration Directorate, or Bulgarian Government portal for Ukrainian refugees.
+- **Created**: 2026-05-28 (run-016)
+- **Status**: pending
+
+## vq-031 [high priority]
+- **Fact**: "Bulgaria-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
+- **Country**: Bulgaria
+- **Section**: 5.1
+- **Current source**: src-002 (EU-level TP decision)
+- **Why uncertain**: No captured Bulgaria-specific bridge equivalent to Greece's Article 194 mechanism.
+- **Suggested verification**: Check Bulgarian Migration Directorate, Council of Ministers decisions, or Official Gazette for any explicit TP conversion or transitional route.
+- **Created**: 2026-05-28 (run-016)
+- **Status**: pending
+
+## vq-032 [medium priority]
+- **Fact**: "Direct annual sunny-day or clear-day counts for Sofia, Plovdiv, and Varna"
+- **Country**: Bulgaria
+- **Section**: 5.2
+- **Current source**: src-082, src-083, src-084 (Climate to Travel sunshine hours only)
+- **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct annual sunny/clear-day counts.
+- **Suggested verification**: Check Bulgarian Meteorological Service climate normals, WMO city climate pages, meteoblue chart data, or Current Results for explicit sunny/clear-day counts.
+- **Created**: 2026-05-28 (run-016)
+- **Status**: pending

@@ -1,0 +1,74 @@
+- id: claim-bulgaria-001
+  topic: tp_validity
+  value: "EU temporary protection for Ukrainians extended to 04 March 2027"
+  source: src-002
+  date_verified: 2026-05-28
+  confidence: high
+  tags: [tp, eu, ukraine, bulgaria]
+  notes: "Council Implementing Decision (EU) 2025/1460"
+
+- id: claim-bulgaria-002
+  topic: self_employment_permit_duration
+  value: "Maximum 1 year, renewable up to 3 years total; then 1 month outside Bulgaria required before reapplication"
+  source: src-079
+  date_verified: 2026-05-28
+  confidence: medium-high
+  tags: [self-employment, permit, duration, bulgaria]
+  notes: "EU Immigration Portal summary of Bulgarian rules"
+
+- id: claim-bulgaria-003
+  topic: permanent_residence_timeline
+  value: "5 years of legal residence; max 6 consecutive months or 10 total months absence"
+  source: src-079
+  date_verified: 2026-05-28
+  confidence: medium-high
+  tags: [permanent-residence, timeline, bulgaria]
+  notes: "EU Immigration Portal summary"
+
+- id: claim-bulgaria-004
+  topic: citizenship_naturalization_timeline
+  value: "5 years residence (3 years if married to Bulgarian citizen); Bulgarian language required"
+  source: src-081
+  date_verified: 2026-05-28
+  confidence: medium
+  tags: [citizenship, naturalization, timeline, bulgaria]
+  notes: "Wikipedia summary of Bulgarian Citizenship Act; needs official-primary confirmation"
+
+- id: claim-bulgaria-005
+  topic: dual_citizenship_restriction
+  value: "Naturalized non-EU citizens generally must renounce original nationality unless Bulgarian origin, spouse of Bulgarian, or reciprocity agreement"
+  source: src-081
+  date_verified: 2026-05-28
+  confidence: medium
+  tags: [dual-citizenship, restriction, bulgaria]
+  notes: "Wikipedia summary; Ukraine reciprocity status unverified"
+
+- id: claim-bulgaria-006
+  topic: sofia_climate_sunshine_hours
+  value: 2260
+  unit: hours/year
+  source: src-082
+  date_verified: 2026-05-28
+  confidence: medium
+  tags: [climate, sunshine, sofia, bulgaria]
+  notes: "Climate to Travel annual sunshine hours estimate"
+
+- id: claim-bulgaria-007
+  topic: plovdiv_climate_sunshine_hours
+  value: 2340
+  unit: hours/year
+  source: src-083
+  date_verified: 2026-05-28
+  confidence: medium
+  tags: [climate, sunshine, plovdiv, bulgaria]
+  notes: "Climate to Travel annual sunshine hours estimate"
+
+- id: claim-bulgaria-008
+  topic: varna_climate_sunshine_hours
+  value: 2300
+  unit: hours/year
+  source: src-084
+  date_verified: 2026-05-28
+  confidence: medium
+  tags: [climate, sunshine, varna, bulgaria]
+  notes: "Climate to Travel annual sunshine hours estimate"

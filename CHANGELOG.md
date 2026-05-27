@@ -8,6 +8,19 @@ last_updated: 2026-05-27
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-28 — run-016 — bulgaria-legalization-climate
+
+- Bulgaria profile created from template.
+- Bulgaria: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).
+- Self-employment route captured as the most relevant ordinary path for a remote IT worker: Employment Agency permit → Type D visa → residence permit; 1-year renewable up to 3 years; then 1-month exit required.
+- No captured dedicated digital-nomad visa; no captured Bulgaria-specific TP-to-ordinary-residence bridge.
+- Citizenship: 5 years residence + Bulgarian language; dual citizenship restricted for naturalized non-EU citizens unless reciprocity agreement or Bulgarian origin.
+- Climate first pass for Sofia, Plovdiv, and Varna completed (continental to humid subtropical; 2,260–2,340 sunshine hours/year).
+- Sources added: src-079 … src-088.
+- Claims added: claim-bulgaria-001 … claim-bulgaria-008.
+- Verification queue: 8 → 12 pending/open items (`vq-029` through `vq-032` added).
+- Next: country-deep-dive on Hungary (sections 5.1, 5.2) or verification if queue crosses threshold.
+
 ## 2026-05-27 — run-015 — verification-closure
 
 - Mode: verification; resolved 5 queue items (`vq-010`, `vq-023`, `vq-024`, `vq-026`, `vq-028`).

@@ -964,3 +964,123 @@ Each source entry:
 - **Facts supporting**: Porto monthly and annual "Percentage possible sunshine" (annual 54%, monthly range 40–68%); WMO/NOAA-sourced climate table
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-079
+- **Title**: EU Immigration Portal — Self-employed worker in Bulgaria
+- **URL**: https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/self-employed-worker-bulgaria_en
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgaria self-employment permit procedure; Employment Agency permit; Type D visa; residence permit from Migration Directorate; 1-year permit renewable up to 3 years; 1-month exit requirement; 5-year PR path; 6-month/10-month absence rules (claim-bulgaria-002, claim-bulgaria-003)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-28
+
+## src-080
+- **Title**: EU Immigration Portal — Family member in Bulgaria
+- **URL**: https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/family-member-bulgaria_en
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgaria family reunification scope for third-country nationals
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-28
+
+## src-081
+- **Title**: Wikipedia — Bulgarian nationality law
+- **URL**: https://en.wikipedia.org/wiki/Bulgarian_nationality_law
+- **Archive**: [archive: failed 2026-05-28]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgarian citizenship naturalization rules (5 years residence, 3 years if married to Bulgarian); language requirement; dual-citizenship restrictions for naturalized non-EU citizens (claim-bulgaria-004, claim-bulgaria-005)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-082
+- **Title**: Climate to Travel — Sofia climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/bulgaria/sofia
+- **Archive**: [archive: failed 2026-05-28]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Bulgaria
+- **Facts supporting**: Sofia January/July temperatures, annual sunshine hours (~2,260), precipitation, humidity, comfort caveats (claim-bulgaria-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-083
+- **Title**: Climate to Travel — Plovdiv climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/bulgaria/plovdiv
+- **Archive**: [archive: failed 2026-05-28]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Bulgaria
+- **Facts supporting**: Plovdiv January/July temperatures, annual sunshine hours (~2,340), precipitation, humidity, comfort caveats (claim-bulgaria-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-084
+- **Title**: Climate to Travel — Varna climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/bulgaria/varna
+- **Archive**: [archive: failed 2026-05-28]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Bulgaria
+- **Facts supporting**: Varna January/July temperatures, annual sunshine hours (~2,300), precipitation, humidity, Black Sea climate summary (claim-bulgaria-008)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-085
+- **Title**: Wikipedia — Sofia climate table
+- **URL**: https://en.wikipedia.org/wiki/Sofia
+- **Archive**: [archive: failed 2026-05-28]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Bulgaria
+- **Facts supporting**: Sofia mean monthly sunshine hours (2,261.2/year), NOAA/WMO-sourced temperature table
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-086
+- **Title**: Wikipedia — Plovdiv climate table
+- **URL**: https://en.wikipedia.org/wiki/Plovdiv
+- **Archive**: [archive: failed 2026-05-28]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Bulgaria
+- **Facts supporting**: Plovdiv mean monthly sunshine hours (2,339/year), temperature extremes
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-087
+- **Title**: Wikipedia — Varna, Bulgaria climate table
+- **URL**: https://en.wikipedia.org/wiki/Varna,_Bulgaria
+- **Archive**: [archive: failed 2026-05-28]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Bulgaria
+- **Facts supporting**: Varna mean monthly sunshine hours (2,345/year), NOAA/WMO-sourced temperature table, sea temperatures
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-088
+- **Title**: Bulgarian Ministry of Interior — Ukraine information page (WAF-protected, not directly capturable)
+- **URL**: https://www.mvr.bg/en/ukraine
+- **Archive**: [archive: failed 2026-05-28]
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgaria TP and Ukraine-specific guidance (not extracted due to WAF)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-28
