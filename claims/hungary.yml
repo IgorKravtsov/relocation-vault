@@ -1,0 +1,63 @@
+- id: claim-hungary-001
+  topic: temporary_protection_eligibility
+  value: "Hungary can grant temporary protection to Ukrainian nationals who were residing in Ukraine before 24 February 2022, protected non-Ukrainian residents of Ukraine, and qualifying family members."
+  source: src-092
+  date_verified: 2026-05-28
+  confidence: high
+  tags: [temporary-protection, ukraine, eligibility, hungary]
+  notes: "OIF official-primary page; EU-level end-date handled by shared source src-002."
+
+- id: claim-hungary-002
+  topic: temporary_protection_work_healthcare_rights
+  value: "A person applying for recognition as a beneficiary of temporary protection may work without a specific work permit and has access to listed free healthcare categories if not socially insured."
+  source: src-092
+  date_verified: 2026-05-28
+  confidence: high
+  tags: [temporary-protection, work-rights, healthcare, hungary]
+  notes: "Includes primary care, urgent specialist/hospital care, prenatal/obstetric care, chronic/oncology care, emergency dental care, and maternity-care support categories."
+
+- id: claim-hungary-003
+  topic: white_card_income_threshold
+  value: 3000
+  unit: EUR net/month
+  source: src-093
+  date_verified: 2026-05-28
+  confidence: high
+  tags: [white-card, digital-nomad, income-threshold, hungary]
+  notes: "Applicant must show legal monthly income equal to or above EUR 3,000 net for at least 6 months before entry and maintain it during the Hungarian stay."
+
+- id: claim-hungary-004
+  topic: white_card_scope
+  value: "White Card is for foreign employment or profitable foreign-company ownership performed from Hungary via digital technology; it excludes Hungarian gainful activity and Hungarian company shareholding."
+  source: src-093
+  date_verified: 2026-05-28
+  confidence: high
+  tags: [white-card, remote-work, no-local-work, hungary]
+  notes: "Operationally relevant because the man works remotely for foreign clients; local Hungarian work/business would require another route."
+
+- id: claim-hungary-005
+  topic: guest_self_employment_income_requirement
+  value: "For registered self-employed activity, OIF requires evidence that annual income from self-employment exceeds the current minimum wage 24 times plus a no-tax/no-contribution-debt certificate."
+  source: src-094
+  date_verified: 2026-05-28
+  confidence: high
+  tags: [guest-self-employment, self-employed, income-threshold, hungary]
+  notes: "Exact current HUF amount and tax-registration path need a later tax/business pass."
+
+- id: claim-hungary-006
+  topic: guest_self_employment_validity
+  value: "Guest self-employment residence permit validity is up to 1 year and may be extended for the same purpose up to 2 more years, with total validity not exceeding 3 years from first issuance."
+  source: src-094
+  date_verified: 2026-05-28
+  confidence: high
+  tags: [guest-self-employment, validity, renewability, hungary]
+  notes: "This makes it a medium-term rather than straightforward indefinite remote-work route."
+
+- id: claim-hungary-007
+  topic: national_residence_card_residence_period
+  value: "A third-country national holding a residence permit, interim permanent residence permit, or interim residence card may be eligible for a National Residence Card after at least 3 years of legal uninterrupted residence in Hungary, subject to conditions."
+  source: src-096
+  date_verified: 2026-05-28
+  confidence: high
+  tags: [permanent-residence, national-residence-card, hungary]
+  notes: "Counting rules by permit type, including White Card and guest self-employment, should be checked in a later deep-dive."

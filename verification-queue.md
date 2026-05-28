@@ -401,3 +401,33 @@ _(none)_
 - **Suggested verification**: Check Bulgarian Meteorological Service climate normals, WMO city climate pages, meteoblue chart data, or Current Results for explicit sunny/clear-day counts.
 - **Created**: 2026-05-28 (run-016)
 - **Status**: pending
+
+## vq-033 [high priority]
+- **Fact**: "Hungary-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
+- **Country**: Hungary
+- **Section**: 5.1
+- **Current source**: src-002, src-092
+- **Why uncertain**: EU-level temporary protection is known, and OIF documents TP eligibility/rights, but no Hungary-specific bridge equivalent to Greece's Article 194 mechanism was captured in the first pass.
+- **Suggested verification**: Check OIF/NDGAP announcements, Hungarian government decisions, Magyar Közlöny, or UNHCR Hungary for any explicit TP conversion or transitional route.
+- **Created**: 2026-05-28 (run-018)
+- **Status**: pending
+
+## vq-034 [high priority]
+- **Fact**: "Hungary White Card exact consular checklist, fees, translation/apostille rules, and family-reunification availability for a Ukrainian applicant / partner"
+- **Country**: Hungary
+- **Section**: 5.1
+- **Current source**: src-093, src-095
+- **Why uncertain**: OIF confirms the White Card route and core income/scope rules, but this first pass did not capture a jurisdiction-specific consular checklist or a clear answer on whether a White Card holder can sponsor the partner, especially if unmarried.
+- **Suggested verification**: Check Hungarian consular pages serving Ukraine/Poland, Enter Hungary forms, OIF family-reunification cross-references, or a current Hungarian immigration-lawyer explainer.
+- **Created**: 2026-05-28 (run-018)
+- **Status**: pending
+
+## vq-035 [medium priority]
+- **Fact**: "Direct annual sunny-day or clear-day counts for Budapest, Debrecen, and Pécs"
+- **Country**: Hungary
+- **Section**: 5.2
+- **Current source**: src-097, src-098, src-099 (Wikipedia/HungaroMet/NOAA-sourced climate tables with sunshine hours only)
+- **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct annual sunny/clear-day counts for the target cities.
+- **Suggested verification**: Check HungaroMet climate normals, WMO city climate pages, meteoblue chart data, Current Results, or another statistical source with explicit sunny/clear-day counts.
+- **Created**: 2026-05-28 (run-018)
+- **Status**: pending

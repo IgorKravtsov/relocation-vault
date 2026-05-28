@@ -1120,3 +1120,99 @@ Each source entry:
 - **Facts supporting**: Poland family-reunification application route under Article 159 conditions, supporting documents, marriage/birth certificate evidence, health insurance, accommodation, stable regular income (PLN 776 net single / PLN 600 net per family member), PLN 340 stamp duty and PLN 50 residence-card fee
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2026-11-28
+
+## src-092
+- **Title**: OIF Hungary — Provisions and benefits provided for persons applying for recognition as a beneficiary of temporary protection
+- **URL**: https://oif.gov.hu/factsheets/provisions-and-benefits-provided-for-persons-applying-for-recognition-as-a-beneficiary-of-temporary-protection
+- **Archive**: [archive: failed 2026-05-28; Wayback returned 429]
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Hungary
+- **Facts supporting**: temporary-protection eligibility for Ukrainians and qualifying family members; application submission after identity/data/biometric recording; right to work without a specific permit; listed healthcare benefits; accommodation-change reporting caveat (claim-hungary-001, claim-hungary-002)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-28
+
+## src-093
+- **Title**: OIF Hungary — White Card: residency for digital nomads
+- **URL**: https://oif.gov.hu/factsheets/white-card-residency-for-digital-nomads
+- **Archive**: [archive: failed 2026-05-28; Wayback returned 429]
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Hungary
+- **Facts supporting**: White Card eligibility for foreign employment or foreign-company ownership; exclusion of Hungarian gainful activity and Hungarian company shareholding; EUR 3,000 net/month income threshold; 6-month prior-income evidence; extension mechanics; 21-day procedural administration period (claim-hungary-003, claim-hungary-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-28
+
+## src-094
+- **Title**: OIF Hungary — Residence permit for guest self-employment
+- **URL**: https://oif.gov.hu/factsheets/residence-permit-for-guest-self-employment
+- **Archive**: [archive: failed 2026-05-28; Wayback returned 429]
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Hungary
+- **Facts supporting**: guest self-employment evidence for registered self-employed persons and business-organisation chief executives; annual self-employment income above 24 times minimum wage; no-tax/no-contribution-debt certificate; permit validity up to 1 year, extendable up to 3 years total (claim-hungary-005, claim-hungary-006)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-28
+
+## src-095
+- **Title**: OIF Hungary — Residence permit for the purpose of family reunification
+- **URL**: https://oif.gov.hu/factsheets/residence-permit-for-the-purpose-of-family-reunification
+- **Archive**: [archive: failed 2026-05-28; Wayback returned 429]
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Hungary
+- **Facts supporting**: family-reunification beneficiary examples; spouse/minor-child/dependent-family baseline; subsistence/accommodation/healthcare evidence; general validity up to 3 years and extension rules
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-28
+
+## src-096
+- **Title**: OIF Hungary — National Residence Card
+- **URL**: https://oif.gov.hu/factsheets/national-residence-card
+- **Archive**: [archive: failed 2026-05-28; Wayback returned 429]
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Hungary
+- **Facts supporting**: National Residence Card eligibility after at least 3 years legal uninterrupted residence for qualifying third-country nationals; 10-year validity and 10-year extension (claim-hungary-007)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-28
+
+## src-097
+- **Title**: Wikipedia — Budapest climate table
+- **URL**: https://en.wikipedia.org/wiki/Budapest#Climate
+- **Archive**: [archive: failed 2026-05-28; Wayback returned 429]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Hungary
+- **Facts supporting**: Budapest 1991–2020 January/July temperatures, relative humidity, precipitation days, sunshine hours (~1,928/year), and comfort caveats
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-098
+- **Title**: Wikipedia — Debrecen climate table
+- **URL**: https://en.wikipedia.org/wiki/Debrecen#Climate
+- **Archive**: [archive: failed 2026-05-28; Wayback returned 429]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Hungary
+- **Facts supporting**: Debrecen 1991–2020 January/July temperatures, relative humidity, precipitation days, sunshine hours (~2,043/year), and continental-climate caveats
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-099
+- **Title**: Wikipedia — Pécs climate table
+- **URL**: https://en.wikipedia.org/wiki/P%C3%A9cs#Climate
+- **Archive**: [archive: failed 2026-05-28; Wayback returned 429]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Hungary
+- **Facts supporting**: Pécs 1991–2020 January/July/August temperatures, relative humidity, precipitation days, sunshine hours (~2,058/year), and southwestern-Hungary comfort caveats
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

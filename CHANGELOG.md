@@ -8,6 +8,19 @@ last_updated: 2026-05-28
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-28 — run-018 — hungary-legalization-climate
+
+- Hungary profile created from template.
+- Hungary: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).
+- White Card captured from OIF official-primary source: foreign remote work/company management only, no Hungarian gainful activity, EUR 3,000 net/month for 6 months and throughout stay.
+- Guest self-employment captured as a heavier fallback: self-employment income above 24× minimum wage annually or business-organisation evidence; up to 3 years total validity.
+- No captured Hungary-specific TP-to-ordinary-residence bridge after 04 March 2027; conservative baseline added.
+- Climate first pass for Budapest, Debrecen, and Pécs completed (continental; 1,928–2,058 sunshine hours/year; direct sunny-day counts still missing).
+- Sources added: src-092 … src-099.
+- Claims added: claim-hungary-001 … claim-hungary-007.
+- Verification queue: 7 → 10 pending/open items (`vq-033` through `vq-035` added).
+- Next: country-deep-dive on Slovakia (sections 5.1, 5.2), unless verification queue crosses threshold.
+
 ## 2026-05-28 — run-017 — verification-closure
 
 - Mode: verification; resolved 5 queue items (`vq-021`, `vq-027`, `vq-029`, `vq-030`, `vq-031`).

@@ -1,26 +1,27 @@
 {
   "version": 2,
-  "iteration": 17,
+  "iteration": 18,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-28T16:16:16Z",
+  "last_run_timestamp": "2026-05-28T22:25:00Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
+    "mode": "country-deep-dive",
+    "country": "Hungary",
     "sections": [
-      "5.1"
+      "5.1",
+      "5.2"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Hungary",
+    "suggested_country": "Slovakia",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Verification queue is now below threshold; resume Tier-2-hint EU rotation with the next fresh depth-0 country."
+    "reason": "Continue Tier-2-hint EU rotation with the next fresh depth-0 country; verification queue is at threshold but not above it."
   },
   "countries": {
     "Spain": {
@@ -328,12 +329,13 @@
     "Hungary": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 0,
+      "depth_score": 1.0,
       "sections_completed": [],
-      "sections_partial": [],
-      "sections_pending": [
+      "sections_partial": [
         "5.1",
-        "5.2",
+        "5.2"
+      ],
+      "sections_pending": [
         "5.3",
         "5.4",
         "5.5",
@@ -344,8 +346,14 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "white-card-income-above-current-budget",
+        "white-card-no-local-work",
+        "guest-self-employment-evidence-burden",
+        "no-captured-post-2027-tp-bridge",
+        "climate-sunny-days-gap"
+      ],
+      "last_iteration": 18
     },
     "Slovakia": {
       "tier": null,
@@ -810,8 +818,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 7,
-  "sources_count": 91,
-  "claims_count": 69,
+  "verification_queue_size": 10,
+  "sources_count": 99,
+  "claims_count": 76,
   "proposals_pending": 0
 }
