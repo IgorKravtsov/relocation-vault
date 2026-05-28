@@ -1,12 +1,23 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # CHANGELOG
 
 Brief delta per iteration. Append-only.
+
+## 2026-05-28 — run-017 — verification-closure
+
+- Mode: verification; resolved 5 queue items (`vq-021`, `vq-027`, `vq-029`, `vq-030`, `vq-031`).
+- Bulgaria: UNHCR Bulgaria TP pages captured (`src-089`, `src-090`); TP registration/rights and conservative no-bridge baseline added.
+- Poland: family-reunification via existing `karta pobytu` resolved to spouse/marriage baseline with income/document guidance (`src-091`).
+- Romania: D/AC commercial-activity route resolved as company/investment route, not a simple solo IT-freelancer fallback.
+- Sources added: `src-089`, `src-090`, `src-091`.
+- Claims added: `claim-bulgaria-009` … `claim-bulgaria-011`, `claim-poland-009` … `claim-poland-010`, `claim-romania-009`.
+- Verification queue: 12 → 7 pending/open items.
+- Next: country-deep-dive on Hungary (sections 5.1, 5.2), unless accepted proposals appear.
 
 ## 2026-05-28 — run-016 — bulgaria-legalization-climate
 

@@ -2,13 +2,13 @@
 country: Poland
 tier: null
 depth_score: 0
-last_updated: 2026-05-27T04:00:00Z
+last_updated: 2026-05-28T16:08:19Z
 sections_completed: []
 sections_partial: ["5.1", "5.2"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
 risk_flags: []
-sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067"]
-unverified_count: 4
+sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091"]
+unverified_count: 3
 schema_version: 2.0.0
 ---
 
@@ -70,8 +70,9 @@ schema_version: 2.0.0
 
 **Family reunification via the partner's existing Polish `karta pobytu`**
 - One partner in the couple already holds a Polish `karta pobytu` (residence permit). This creates a potential family-reunification path under Article 159 of the Act on Foreigners.
-- [verification required] The exact conditions for sponsoring an unmarried partner vs. a spouse need verification against the current Act on Foreigners and official UdSC guidance. Marriage would likely simplify the path significantly.
-- [verification required] Whether the existing `karta pobytu` holder can sponsor the partner while working remotely for a foreign employer needs confirmation.
+- Verification baseline from a Polish voivodeship information portal: the operational family-reunification file is built around Article 159 conditions, proof of family ties (for example marriage certificate / birth certificate), health insurance, accommodation, and stable regular income. The portal gives income baselines of **PLN 776 net for a single person** or **PLN 600 net per family member**, plus PLN 340 stamp duty and PLN 50 residence-card fee after approval [src-091].
+- The captured official-secondary guidance does **not** list an unmarried partner as a family-reunification beneficiary. For this couple, the safe planning baseline is therefore: **marriage is required before relying on family reunification via the existing Polish `karta pobytu`; an unmarried partner should use independent eligibility (CUKR/TP, study, work/business) unless a lawyer obtains a different written interpretation** [src-091].
+- The source does not condition sponsorship on a Polish local employer. It asks for stable and regular income sufficient for the household, so foreign-client remote income may be usable if it is documented and accepted by the voivode; verify document practice before filing [src-091].
 
 **Business / self-employed temporary residence**
 - [verification required] Poland offers a temporary residence permit for the purpose of conducting business activity. Details on minimum capital, business-plan requirements, and processing times need primary-source capture.
@@ -271,6 +272,7 @@ schema_version: 2.0.0
 - [src-062] Poland UdSC — CUKR procedure page (2026-05-04)
 - [src-063] Poland UdSC — CUKR Q&A page (2026-05-04)
 - [src-064] Poland Gov.pl — Temporary protection extension until March 4, 2027 (2025-08-13)
+- [src-091] Kujawsko-Pomorskie Voivodeship information portal — family reunification (2020-07-21, accessed 2026-05-28)
 
 ### 7b. Reputable secondary
 - [src-002] Council Implementing Decision (EU) 2025/1460 extending temporary protection
@@ -284,15 +286,13 @@ _(none yet)_
 - [src-067] Climate to Travel — Wroclaw climate (accessed 2026-05-27)
 
 ### 7e. Not found
-- Official-primary document checklist for family-reunification residence permit under Art. 159 of the Act on Foreigners.
+- A safe Article 159 family-reunification basis for an unmarried partner of a Polish residence-permit holder.
 - Official-primary income threshold and business-plan requirements for business-activity temporary residence.
 - Official-primary rules on whether remote work for a foreign employer qualifies for a Polish work or business residence permit.
 - Direct annual sunny-day counts for Warsaw, Krakow, and Wroclaw (only sunshine-hour totals captured).
 
 ## Block 8 — Open questions and verification markers
 
-- `[verification required]` Family-reunification conditions for an unmarried partner of a Polish `karta pobytu` holder.
-- `[verification required]` Whether marriage is required for family reunification under the partner's existing Polish residence permit.
 - `[verification required]` Exact counting rules for CUKR and prior TP time toward permanent residence / EU long-term residence.
 - `[verification required]` Poland permanent residence and citizenship rules (years required, language level, dual citizenship policy).
 - `[verification required]` Business-activity residence permit minimum requirements.

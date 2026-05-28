@@ -72,3 +72,30 @@
   confidence: medium
   tags: [climate, sunshine, varna, bulgaria]
   notes: "Climate to Travel annual sunshine hours estimate"
+
+- id: claim-bulgaria-009
+  topic: temporary_protection_local_registration
+  value: "UNHCR Bulgaria confirms TP registration generates PFN/ЛНЧ and a temporary registration document; address card may be required at the local police station"
+  source: src-089
+  date_verified: 2026-05-28
+  confidence: medium-high
+  tags: [tp, registration, ukraine, bulgaria]
+  notes: "Local TP operational baseline for Ukrainian arrivals in Bulgaria"
+
+- id: claim-bulgaria-010
+  topic: temporary_protection_local_rights
+  value: "TP holders have residence, shelter/social welfare assistance, medical care, education, and work without a permit"
+  source: src-089
+  date_verified: 2026-05-28
+  confidence: medium-high
+  tags: [tp, rights, ukraine, bulgaria]
+  notes: "UNHCR Bulgaria rights summary"
+
+- id: claim-bulgaria-011
+  topic: temporary_protection_bulgaria_validity
+  value: "Bulgaria extended temporary protection until 04 March 2027; beneficiaries need registration-card renewal"
+  source: src-090
+  date_verified: 2026-05-28
+  confidence: medium-high
+  tags: [tp, validity, ukraine, bulgaria]
+  notes: "UNHCR Bulgaria announcement dated 2026-02-25"

@@ -1,17 +1,16 @@
 {
   "version": 2,
-  "iteration": 16,
+  "iteration": 17,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-28T06:00:00Z",
+  "last_run_timestamp": "2026-05-28T16:16:16Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Bulgaria",
+    "mode": "verification",
+    "country": null,
     "sections": [
-      "5.1",
-      "5.2"
+      "5.1"
     ]
   },
   "next_iteration_hint": {
@@ -21,7 +20,7 @@
       "5.1",
       "5.2"
     ],
-    "reason": "Continue Tier-2-hint EU rotation with the next fresh depth-0 country."
+    "reason": "Verification queue is now below threshold; resume Tier-2-hint EU rotation with the next fresh depth-0 country."
   },
   "countries": {
     "Spain": {
@@ -811,8 +810,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 12,
-  "sources_count": 88,
-  "claims_count": 63,
+  "verification_queue_size": 7,
+  "sources_count": 91,
+  "claims_count": 69,
   "proposals_pending": 0
 }

@@ -2,13 +2,13 @@
 country: Romania
 tier: null
 depth_score: 0
-last_updated: 2026-05-27T16:00:00Z
+last_updated: 2026-05-28T16:08:19Z
 sections_completed: []
 sections_partial: ["5.1", "5.2"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
 risk_flags: []
 sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076]
-unverified_count: 3
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -71,7 +71,7 @@ schema_version: 2.0.0
 
 **Other residence routes**
 - OUG 194/2002 provides long-stay visas for: employment (D/AM1, D/AM2), commercial activity / self-employment (D/AC), studies (D/SD), family reunification, and other purposes [src-068].
-- [verification required] Specific income, capital, and document requirements for the D/AC (commercial activity) route relevant to a self-employed IT freelancer.
+- Verification baseline for **D/AC commercial activity**: OUG 194/2002 Art. 43 frames D/AC as a route for shareholders/associates with management or administration roles in Romanian commercial companies that will make an investment, not as a lightweight self-employed IT-freelancer route. The business plan must identify the company, activity, investment value, estimated jobs, investment stages, location, duration/amortisation, and at least 3 years of financial projections; the law also includes a capital / technology-transfer threshold in this commercial-company context [src-068]. Operationally, D/AC is **not** a clean fallback for a solo remote IT contractor unless the couple is willing to build a real Romanian company/investment file.
 
 **Family members**
 - Family reunification under OUG 194/2002 Art. 62 is available for the **spouse and minor children** of a Romanian citizen or of a sponsor holding a Romanian residence permit [src-068, Art. 62].
@@ -91,7 +91,7 @@ schema_version: 2.0.0
 #### Residence without local employer
 
 - The digital-nomad visa is the most direct route for a remote IT worker without a Romanian employer.
-- Alternatively, a self-employed / micro-company route (D/AC commercial-activity visa) may be available but requires primary-source verification of capital and business-plan requirements.
+- Alternatively, a Romanian company / investment route could be explored, but Art. 43 makes this a heavier commercial-activity file, not a simple freelancer permit [src-068].
 
 #### PR and citizenship
 
@@ -205,4 +205,4 @@ _(none yet)_
 
 - [verification required] Romania DN visa exact document checklist, health-insurance requirement, and processing time from official-primary source. → `vq-022`
 - [verification required] Direct annual sunny-day counts for Bucharest, Cluj-Napoca, and Timișoara. → `vq-025`
-- [verification required] D/AC commercial-activity visa income/capital requirements for a self-employed IT freelancer. → `vq-027`
+

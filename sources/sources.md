@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Sources Registry
@@ -1083,4 +1083,40 @@ Each source entry:
 - **Used by**: Bulgaria
 - **Facts supporting**: Bulgaria TP and Ukraine-specific guidance (not extracted due to WAF)
 - **Confidence ceiling**: high
+- **Stale at**: 2026-11-28
+
+## src-089
+- **Title**: UNHCR Bulgaria — Arrival from Ukraine
+- **URL**: https://help.unhcr.org/bulgaria/arrival-from-ukraine/
+- **Archive**: [archive: failed 2026-05-28; Wayback returned 429]
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-28
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgaria temporary-protection eligibility, registration flow, PFN/registration document issuance, address-card requirement, rights including residence, work without permit, medical care, education, social welfare assistance, and validity through 04 March 2027
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-28
+
+## src-090
+- **Title**: UNHCR Bulgaria — Important: TP has been extended until 4 March 2027
+- **URL**: https://help.unhcr.org/bulgaria/2026/02/25/%F0%9F%93%A2-important-tp-has-been-extended-until-4-march-2027/
+- **Archive**: [archive: failed 2026-05-28; Wayback returned 429]
+- **Type**: reputable-secondary
+- **Date published**: 2026-02-25
+- **Date accessed**: 2026-05-28
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgaria announcement that TP has been extended until 04 March 2027 and beneficiaries need to renew registration cards at State Agency for Refugees registration centres
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-28
+
+## src-091
+- **Title**: Kujawsko-Pomorskie Voivodeship information portal for foreigners — Family reunification
+- **URL**: https://cudzoziemiec.bydgoszcz.pl/en/stay-in-poland/temporary-stay/family-reunification/
+- **Archive**: [archive: failed 2026-05-28]
+- **Type**: official-secondary
+- **Date published**: 2020-07-21
+- **Date accessed**: 2026-05-28
+- **Used by**: Poland
+- **Facts supporting**: Poland family-reunification application route under Article 159 conditions, supporting documents, marriage/birth certificate evidence, health insurance, accommodation, stable regular income (PLN 776 net single / PLN 600 net per family member), PLN 340 stamp duty and PLN 50 residence-card fee
+- **Confidence ceiling**: medium-high
 - **Stale at**: 2026-11-28

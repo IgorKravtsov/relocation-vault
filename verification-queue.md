@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-05-27
+last_updated: 2026-05-28
 ---
 
 # Verification Queue
@@ -257,7 +257,9 @@ _(none)_
 - **Why uncertain**: The CUKR and TP sources do not cover family-reunification rules for partners of existing Polish residence-permit holders. The couple's existing Polish `karta pobytu` is a potentially unique advantage, but the exact sponsorship rules (unmarried partner eligibility, minimum sponsor income, required documents) need an official-primary source.
 - **Suggested verification**: Check UdSC family-reunification guidance, MOS portal checklist for Art. 159 residence, or the Act on Foreigners text.
 - **Created**: 2026-05-27 (run-013)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-28 (run-017)
+- **Resolution note**: Polish voivodeship administrative guidance confirms the operational file: Article 159 condition evidence, marriage/birth certificate proof of family ties, health insurance, accommodation, and stable regular income (PLN 776 net single / PLN 600 net per family member). It does not list unmarried partners, so the safe baseline is marriage or independent eligibility. [src-091]
 
 ## vq-022 [high priority]
 - **Fact**: "Romania digital-nomad visa exact document checklist, health-insurance requirement, and processing time from an official-primary source"
@@ -323,7 +325,9 @@ _(none)_
 - **Why uncertain**: OUG 194/2002 lists the D/AC visa for commercial activity but does not specify the minimum capital or business-plan requirements in the extracted text.
 - **Suggested verification**: Check Romanian consulate checklist for D/AC visa, or IGI guidance for self-employed foreigners.
 - **Created**: 2026-05-27 (run-014)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-28 (run-017)
+- **Resolution note**: OUG 194/2002 Art. 43 frames D/AC as a Romanian company/shareholder-or-associate investment route with management/administration role and business-plan requirements, not a lightweight solo IT-freelancer permit. Conservative baseline: do not treat D/AC as the fallback for a remote contractor unless building a real Romanian company/investment file. [src-068]
 
 ## vq-028 [medium priority]
 - **Fact**: "Romania unmarried partner eligibility for family reunification or derived residence permit"
@@ -338,16 +342,16 @@ _(none)_
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-021` — 2026-05-28 (run-017)
+- `vq-027` — 2026-05-28 (run-017)
+- `vq-029` — 2026-05-28 (run-017)
+- `vq-030` — 2026-05-28 (run-017)
+- `vq-031` — 2026-05-28 (run-017)
 - `vq-010` — 2026-05-27 (run-015)
 - `vq-023` — 2026-05-27 (run-015)
 - `vq-024` — 2026-05-27 (run-015)
 - `vq-026` — 2026-05-27 (run-015)
 - `vq-028` — 2026-05-27 (run-015)
-- `vq-004` — 2026-05-26 (run-012)
-- `vq-008` — 2026-05-26 (run-012)
-- `vq-013` — 2026-05-26 (run-012)
-- `vq-017` — 2026-05-26 (run-012)
-- `vq-019` — 2026-05-26 (run-012)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
@@ -360,7 +364,9 @@ _(none)_
 - **Why uncertain**: The EU Immigration Portal describes the procedure but does not give the exact income floor, capital requirement, or document-by-document checklist for the self-employment permit.
 - **Suggested verification**: Check Bulgarian Employment Agency (az.government.bg) or Migration Directorate (mvr.bg) for the detailed checklist; or a Bulgarian consulate serving Ukraine/Poland.
 - **Created**: 2026-05-28 (run-016)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-28 (run-017)
+- **Resolution note**: Existing EU Immigration Portal evidence is enough for an operational baseline: no fixed income/capital threshold was captured; the route turns on an Employment Agency self-employment permit based on a detailed business plan and economic/social-impact assessment. Treat it as non-operational without Employment Agency / lawyer confirmation, not as a fixed-threshold DN substitute. [src-079]
 
 ## vq-030 [medium priority]
 - **Fact**: "Bulgaria-specific temporary-protection registration procedure and rights for Ukrainian citizens"
@@ -370,7 +376,9 @@ _(none)_
 - **Why uncertain**: No Bulgaria-specific TP registration checklist or rights summary for Ukrainians was captured.
 - **Suggested verification**: Check UNHCR Bulgaria, Bulgarian Migration Directorate, or Bulgarian Government portal for Ukrainian refugees.
 - **Created**: 2026-05-28 (run-016)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-28 (run-017)
+- **Resolution note**: UNHCR Bulgaria confirms local TP registration, PFN/ЛНЧ and temporary registration document issuance, address-card mechanics, and core rights including residence, work without permit, medical care, education, shelter/social welfare support. [src-089]
 
 ## vq-031 [high priority]
 - **Fact**: "Bulgaria-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
@@ -380,7 +388,9 @@ _(none)_
 - **Why uncertain**: No captured Bulgaria-specific bridge equivalent to Greece's Article 194 mechanism.
 - **Suggested verification**: Check Bulgarian Migration Directorate, Council of Ministers decisions, or Official Gazette for any explicit TP conversion or transitional route.
 - **Created**: 2026-05-28 (run-016)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-28 (run-017)
+- **Resolution note**: UNHCR Bulgaria confirms TP validity and card renewal through 04 March 2027 but does not describe an automatic ordinary-residence bridge. Conservative baseline: no captured Bulgaria-specific TP-to-ordinary-residence bridge; plan an ordinary route before TP expiry unless a later official transition appears. [src-002][src-089][src-090]
 
 ## vq-032 [medium priority]
 - **Fact**: "Direct annual sunny-day or clear-day counts for Sofia, Plovdiv, and Varna"

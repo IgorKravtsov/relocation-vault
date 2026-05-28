@@ -74,3 +74,12 @@
   confidence: medium
   tags: [romania, climate, timisoara, sunshine]
   notes: "Annual sunshine hours from Climate to Travel"
+
+- id: claim-romania-009
+  topic: d_ac_commercial_activity_baseline
+  value: "D/AC commercial activity is a Romanian company/shareholder-or-associate investment route with management/administration role and business-plan requirements, not a simple solo IT-freelancer permit"
+  source: src-068
+  date_verified: 2026-05-28
+  confidence: medium-high
+  tags: [romania, commercial-activity, d-ac, self-employment]
+  notes: "OUG 194/2002 Art. 43; use as conservative baseline for vq-027"

@@ -2,13 +2,13 @@
 country: Bulgaria
 tier: null
 depth_score: 1.0
-last_updated: 2026-05-28T06:00:00Z
+last_updated: 2026-05-28T16:08:19Z
 sections_completed: []
 sections_partial: ["5.1", "5.2"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["no-captured-post-2027-tp-bridge", "self-employment-permit-3-year-cap", "climate-sunny-days-gap", "dual-citizenship-restriction-for-non-eu-naturalized"]
-sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087"]
-unverified_count: 4
+risk_flags: ["self-employment-permit-3-year-cap", "climate-sunny-days-gap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational"]
+sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -49,9 +49,9 @@ schema_version: 2.0.0
 
 **Temporary Protection (TP)**
 
-Bulgaria, as an EU Member State, applies the EU-wide temporary protection for displaced persons from Ukraine extended until **04 March 2027** by Council Implementing Decision (EU) 2025/1460 [src-002]. Ukrainian nationals can enter Bulgaria visa-free with a biometric passport for short stays and may apply for temporary protection, which grants a residence permit, access to the labour market, healthcare, education, and social assistance.
+Bulgaria, as an EU Member State, applies the EU-wide temporary protection for displaced persons from Ukraine extended until **04 March 2027** by Council Implementing Decision (EU) 2025/1460 [src-002]. UNHCR Bulgaria confirms the local operational baseline: eligible people fleeing Ukraine can register for temporary protection in Bulgaria without going through the standard asylum procedure, receive a Personal Foreigner's Number (PFN/ЛНЧ) and temporary registration document with photo, and may need to complete an address card at the police station for the place where they settle [src-089].
 
-The Bulgarian Ministry of Interior (MVR) maintains a dedicated Ukraine page, but it is behind WAF protection and was not directly capturable in this iteration [src-088]. The EU-level TP framework is the operative baseline.
+UNHCR Bulgaria lists TP rights as the right to remain in Bulgaria, access to shelter/social welfare assistance, medical care, education, and the ability to work without a permit [src-089]. UNHCR also published a 25 February 2026 notice that Bulgaria extended TP until **04 March 2027** and that beneficiaries must renew registration cards at State Agency for Refugees registration centres [src-090]. This is enough to close the local TP-procedure blocker at medium-high confidence, though Bulgarian MVR's own Ukraine page remained WAF-protected during capture [src-088].
 
 **Self-employment residence route**
 
@@ -65,7 +65,7 @@ For a remote IT worker, the most relevant ordinary route is the **self-employmen
 - The residence permit duration is aligned with the self-employment permit and must be renewed no later than 14 days before expiry.
 - **Change of status** requires a new application from outside Bulgaria.
 
-[verification required] Exact income threshold, minimum capital, and business-plan requirements for the self-employment permit are not captured from an official-primary source.
+Verification baseline: the captured EU Immigration Portal route does **not** provide a simple published income floor or minimum capital number for the self-employment permit. It frames the decisive test as an Employment Agency permit based on a detailed business plan and economic/social-impact assessment [src-079]. Operationally, this route should be treated as **not yet executable without Bulgarian Employment Agency / Migration Directorate confirmation or counsel**, rather than as a fixed-threshold digital-nomad substitute.
 
 **No captured dedicated digital-nomad visa**
 
@@ -81,7 +81,7 @@ A Polish residence title does not substitute for Bulgarian authorization. If the
 
 #### After 4 March 2027
 
-No captured Bulgaria-specific transition mechanism from temporary protection to an ordinary residence permit has been found. The conservative operational baseline is: **plan an ordinary Bulgarian route (e.g., self-employment) before TP expiry** unless a future official transition rule appears.
+No Bulgaria-specific transition mechanism from temporary protection to an ordinary residence permit has been captured. UNHCR Bulgaria confirms the TP validity horizon and card-renewal mechanics through 04 March 2027, but does not describe any automatic conversion into ordinary residence [src-089][src-090]. Conservative operational baseline: **plan an ordinary Bulgarian route (e.g., self-employment) before TP expiry** unless a future official transition rule appears.
 
 #### Residence without local employer
 
@@ -247,6 +247,8 @@ _(none yet — Bulgarian Ministry of Interior and Employment Agency pages were W
 - [src-079] EU Immigration Portal — Self-employed worker in Bulgaria (official-secondary)
 - [src-080] EU Immigration Portal — Family member in Bulgaria (official-secondary)
 - [src-081] Wikipedia — Bulgarian nationality law (aggregator)
+- [src-089] UNHCR Bulgaria — Arrival from Ukraine (reputable-secondary)
+- [src-090] UNHCR Bulgaria — TP extended until 04 March 2027 (reputable-secondary)
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -263,7 +265,7 @@ _(none yet)_
 > Explicit list of resources searched for but not found. Signal for future iterations.
 
 - Bulgarian Ministry of Interior Ukraine/TP page (WAF-protected, not capturable via Jina AI)
-- Bulgarian Employment Agency self-employment permit exact income threshold and document checklist
+- Bulgarian Employment Agency self-employment permit exact document checklist / business-plan practice. No fixed income or capital threshold was captured; do not assume one exists without primary confirmation.
 - Bulgaria dedicated digital-nomad visa
 - Direct annual sunny/clear-day counts for Sofia, Plovdiv, and Varna
 - Bulgaria-Ukraine dual-citizenship reciprocity agreement status
@@ -272,7 +274,4 @@ _(none yet)_
 
 > All `[verification required]` items for this country. Links to the corresponding entries in `verification-queue.md` via item ID.
 
-- `vq-029` — Bulgaria self-employment permit exact income threshold, capital requirement, and document checklist from an official-primary source.
-- `vq-030` — Bulgaria-specific temporary-protection registration procedure and rights for Ukrainian citizens.
-- `vq-031` — Bulgaria-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any.
 - `vq-032` — Direct annual sunny-day or clear-day counts for Sofia, Plovdiv, and Varna.

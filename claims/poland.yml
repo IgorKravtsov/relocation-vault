@@ -71,3 +71,21 @@
   confidence: medium
   tags: [poland, climate, wroclaw]
   notes: "Wroclaw average temperatures from 1991-2020 climate normals"
+
+- id: claim-poland-009
+  topic: family_reunification_spouse_baseline
+  value: "Article 159 family-reunification operational file uses family-tie evidence such as marriage/birth certificate, health insurance, accommodation, and stable regular income; no unmarried-partner basis captured"
+  source: src-091
+  date_verified: 2026-05-28
+  confidence: medium-high
+  tags: [poland, family-reunification, spouse, karta-pobytu]
+  notes: "Safe planning baseline: marriage before relying on family reunification via the existing Polish residence-permit holder"
+
+- id: claim-poland-010
+  topic: family_reunification_income_baseline
+  value: "PLN 776 net for a single person or PLN 600 net per family member"
+  source: src-091
+  date_verified: 2026-05-28
+  confidence: medium-high
+  tags: [poland, family-reunification, income-threshold]
+  notes: "Administrative guidance from Kujawsko-Pomorskie Voivodeship foreigner portal"
