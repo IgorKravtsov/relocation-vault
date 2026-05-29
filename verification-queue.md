@@ -469,3 +469,23 @@ _(none)_
 - **Suggested verification**: Check Slovak Hydrometeorological Institute climate normals, WMO city climate pages, meteoblue chart data, Current Results, or another statistical source with explicit sunny/clear-day counts.
 - **Created**: 2026-05-29 (run-020)
 - **Status**: pending
+
+## vq-039 [high priority]
+- **Fact**: "Slovenia digital-nomad residence exact current numeric income threshold, application checklist/fees, partner evidence, and whether DN time counts toward permanent residence"
+- **Country**: Slovenia
+- **Section**: 5.1
+- **Current source**: src-111, src-112, src-113
+- **Why uncertain**: GOV.SI gives the DN route and income formula (twice average monthly net salary) but this pass did not capture the current Official Gazette salary value, full application checklist, fee schedule, or explicit PR-counting rule for DN time.
+- **Suggested verification**: Check Ministry of Interior / administrative-unit DN checklist, Official Gazette salary publication, and Aliens Act / official guidance on permanent-residence counting for digital-nomad temporary residence.
+- **Created**: 2026-05-29 (run-022)
+- **Status**: pending
+
+## vq-040 [medium priority]
+- **Fact**: "Direct annual sunny-day or clear-day counts for Ljubljana, Maribor, and Portorož/Koper"
+- **Country**: Slovenia
+- **Section**: 5.2
+- **Current source**: src-115, src-116, src-117 (Climate to Travel sunshine hours only)
+- **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct annual sunny/clear-day counts for the target cities.
+- **Suggested verification**: Check ARSO climate normals, WMO city climate pages, meteoblue chart data, Current Results, or another statistical source with explicit sunny/clear-day counts.
+- **Created**: 2026-05-29 (run-022)
+- **Status**: pending

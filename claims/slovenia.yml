@@ -1,0 +1,71 @@
+- id: claim-slovenia-001
+  topic: temporary_protection_procedure_and_rights
+  value: "Slovenia's government states that Ukrainians and qualifying groups who left Ukraine due to the Russian military invasion may apply for temporary protection; the process starts with police registration, then an administrative-unit application within three working days, and an approved temporary-protection card is valid as a temporary residence permit in Slovenia."
+  source: src-110
+  date_verified: 2026-05-29
+  confidence: high
+  tags: [temporary-protection, ukraine, procedure, slovenia]
+  notes: "EU-level protection horizon to 04 March 2027 is supported by shared source src-002."
+
+- id: claim-slovenia-002
+  topic: post_temporary_protection_filing_window
+  value: "After temporary protection ends, Slovenia allows a person to apply within 10 days to the competent authority for a temporary residence permit for any statutory purpose; if filed on time, a certificate is valid as residence until final decision, and for timely single-permit applicants who were employed/working/self-employed at TP termination the certificate can allow residence and work until decision."
+  source: src-110
+  date_verified: 2026-05-29
+  confidence: high
+  tags: [temporary-protection, post-2027, transition-window, slovenia]
+  notes: "This is a filing-window/safety-valve baseline, not automatic conversion into a specific long-term status."
+
+- id: claim-slovenia-003
+  topic: digital_nomad_residence_route
+  value: "Slovenia introduced a temporary residence permit for digital nomads on 21 November 2025 for non-EU/EEA foreigners working remotely via ICT for a foreign employer/client or as self-employed abroad; it may be issued for up to one year, cannot be extended, and requires monthly funds of at least twice Slovenia's average monthly net salary."
+  source: src-111
+  date_verified: 2026-05-29
+  confidence: high
+  tags: [digital-nomad, remote-work, income-threshold, slovenia]
+  notes: "Current numeric threshold from the latest Official Gazette salary value still needs calculation before budget scoring."
+
+- id: claim-slovenia-004
+  topic: self_employed_single_permit_baseline
+  value: "EU Immigration Portal guidance says a person who wants to work as self-employed in Slovenia must obtain a single permit and generally must already have resided in Slovenia on a valid residence permit for at least one year before self-employment, except for a business-register professional-activity category."
+  source: src-112
+  date_verified: 2026-05-29
+  confidence: medium-high
+  tags: [self-employed, single-permit, temporary-residence, slovenia]
+  notes: "Needs a later tax/business pass for practical freelancer fit."
+
+- id: claim-slovenia-005
+  topic: family_reunification_scope
+  value: "Slovenia family-reunification guidance covers the spouse, partner in a civil partnership or civil union, or partner with whom the sponsor is in a long-term relationship, plus listed children/dependent relatives; digital nomads may reunite with family members immediately under the Ministry announcement."
+  source: src-113
+  date_verified: 2026-05-29
+  confidence: medium-high
+  tags: [family-reunification, partner, digital-nomad, slovenia]
+  notes: "Exact evidence standard for an unmarried long-term partner still needs application-checklist verification."
+
+- id: claim-slovenia-006
+  topic: permanent_residence_period
+  value: "EU Immigration Portal guidance states that after five continuous years of legal residence on the basis of temporary residence in Slovenia, a person can apply for a permanent residence permit, subject to absence and continuity rules."
+  source: src-112
+  date_verified: 2026-05-29
+  confidence: medium-high
+  tags: [permanent-residence, long-term-residence, slovenia]
+  notes: "Whether DN and TP time count fully should be verified before scoring."
+
+- id: claim-slovenia-007
+  topic: citizenship_residence_period
+  value: "Slovenia's government citizenship page states that ordinary naturalisation requires living in Slovenia for at least 10 years, including a continuous period of five years' residence prior to application, plus other statutory conditions."
+  source: src-114
+  date_verified: 2026-05-29
+  confidence: high
+  tags: [citizenship, naturalization, slovenia]
+  notes: "Detailed language, income, release/dual-citizenship and document conditions need a later citizenship pass."
+
+- id: claim-slovenia-008
+  topic: climate_first_pass
+  value: "Ljubljana, Maribor, and Portorož show a split Slovenia climate profile: inland January means around 0.5-1.2°C and July means around 21.4-21.9°C with about 1,955-2,045 annual sunshine hours, while coastal Portorož has a January mean of 5.3°C, July mean of 23.4°C, and about 2,415 sunshine hours; direct sunny-day counts are not captured."
+  source: src-115
+  date_verified: 2026-05-29
+  confidence: medium
+  tags: [climate, sunshine-hours, slovenia]
+  notes: "Also relies on src-116 and src-117 for Maribor and Portorož; keep section 5.2 partial until direct sunny/clear-day counts are verified."

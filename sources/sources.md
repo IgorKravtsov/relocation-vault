@@ -1336,3 +1336,99 @@ Each source entry:
 - **Facts supporting**: automatic extension of temporary refuge for displaced people from Ukraine in Slovakia until 04 March 2027 under the EU Council implementing decision and Slovak government resolution; residence-card validity/extension mechanics; no captured ordinary-residence bridge in the announcement (claim-slovakia-009)
 - **Confidence ceiling**: high
 - **Stale at**: 2026-11-29
+
+## src-110
+- **Title**: GOV.SI — Support for Ukrainian Nationals in Slovenia
+- **URL**: https://www.gov.si/en/topics/slovenias-assistance-to-the-citizens-of-ukraine/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovenia
+- **Facts supporting**: Slovenia temporary-protection eligibility and procedure; police registration and administrative-unit application within three working days; TP card valid as temporary residence permit; fee exemption; temporary-residence registration; post-temporary-protection 10-day filing window and certificate effects (claim-slovenia-001, claim-slovenia-002)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-29
+
+## src-111
+- **Title**: GOV.SI Ministry of the Interior — Temporary residence permit for digital nomads
+- **URL**: https://www.gov.si/en/news/2025-11-21-temporary-residence-permit-for-digital-nomads/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2025-11-21
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovenia
+- **Facts supporting**: Slovenia digital-nomad temporary residence; foreign remote-work definition; non-entry into Slovenian labour market; filing abroad or in Slovenia while legally present; up to one year, non-extendable, six-month wait before reapplication; sufficient-means formula of at least twice average monthly net salary; immediate family-reunification feature (claim-slovenia-003, claim-slovenia-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-29
+
+## src-112
+- **Title**: EU Immigration Portal — Self-employed worker in Slovenia
+- **URL**: https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/self-employed-worker-slovenia_en
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-secondary
+- **Date published**: 2025-04-01
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovenia
+- **Facts supporting**: Slovenia single permit for self-employed work; one-year prior valid-residence rule and professional-activity exception; filing abroad or at administrative unit; permanent residence after five continuous years of legal residence on temporary residence (claim-slovenia-004, claim-slovenia-006)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-29
+
+## src-113
+- **Title**: EU Immigration Portal — Family member in Slovenia
+- **URL**: https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/family-member-slovenia_en
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-secondary
+- **Date published**: 2025-04-01
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovenia
+- **Facts supporting**: Slovenia family-reunification scope for spouse, civil partner/civil-union partner, long-term relationship partner, children and dependent relatives; timing baseline after permanent residence or one year of temporary residence for general sponsors (claim-slovenia-005)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-29
+
+## src-114
+- **Title**: GOV.SI — Citizenship
+- **URL**: https://www.gov.si/en/topics/citizenship/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovenia
+- **Facts supporting**: ordinary Slovenian naturalisation baseline: at least 10 years living in Slovenia, including five continuous years before application (claim-slovenia-007)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-29
+
+## src-115
+- **Title**: Climate to Travel — Ljubljana climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/slovenia/ljubljana
+- **Archive**: [archive: failed 2026-05-29; Wayback returned 429]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovenia
+- **Facts supporting**: Ljubljana January/July temperatures, precipitation, humidity, annual sunshine hours (~1,955), and continental/foggy winter comfort caveats (claim-slovenia-008)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-116
+- **Title**: Climate to Travel — Maribor climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/slovenia/maribor
+- **Archive**: [archive: failed 2026-05-29; Wayback returned 429]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovenia
+- **Facts supporting**: Maribor January/July temperatures, precipitation, humidity, annual sunshine hours (~2,045), and continental climate comfort caveats (claim-slovenia-008)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-117
+- **Title**: Climate to Travel — Portorož climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/slovenia/portoroz
+- **Archive**: [archive: failed 2026-05-29; Wayback returned 429]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovenia
+- **Facts supporting**: Portorož/coastal Slovenia January/July temperatures, precipitation, humidity, annual sunshine hours (~2,415), sea temperature, and mild coastal climate comfort baseline (claim-slovenia-008)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

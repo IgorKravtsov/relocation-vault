@@ -8,6 +8,18 @@ last_updated: 2026-05-29
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-29 — run-022 — slovenia-legalization-climate
+
+- Slovenia profile created from template.
+- Slovenia: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).
+- Temporary protection captured from GOV.SI, including police registration, administrative-unit application, TP card as temporary residence, and post-TP 10-day ordinary-permit filing window.
+- Digital-nomad residence captured from GOV.SI: foreign remote work, no Slovenian labour-market entry, up to 1 year, non-extendable, twice-average-net-salary formula, immediate family-reunification feature.
+- Climate first pass for Ljubljana, Maribor, and Portorož/coast completed; direct sunny-day counts still missing.
+- Sources added: `src-110` … `src-117`.
+- Claims added: `claim-slovenia-001` … `claim-slovenia-008`.
+- Verification queue: 9 → 11 pending/open items (`vq-039`, `vq-040` added).
+- Next: verification batch because the queue reached threshold again.
+
 ## 2026-05-29 — run-021 — verification-slovakia-legal-baselines
 
 - Mode: verification; resolved 2 Slovakia legal blockers (`vq-036`, `vq-037`).
