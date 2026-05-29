@@ -435,3 +435,33 @@ _(none)_
 - **Suggested verification**: Check HungaroMet climate normals, WMO city climate pages, meteoblue chart data, Current Results, or another statistical source with explicit sunny/clear-day counts.
 - **Created**: 2026-05-28 (run-018)
 - **Status**: pending
+
+## vq-036 [high priority]
+- **Fact**: "Slovakia business/self-employed residence exact official-primary checklist and operational fit for foreign-client IT freelancing"
+- **Country**: Slovakia
+- **Section**: 5.1
+- **Current source**: src-101 (official-secondary EU Immigration Portal)
+- **Why uncertain**: EU Immigration Portal gives a strong route overview, but the exact Slovak official-primary checklist, trade-licence / Commercial Register mechanics, and whether foreign-client IT freelancing is accepted in practice need Slovak authority or specialist confirmation.
+- **Suggested verification**: Check Slovak Foreign Police / Ministry of Interior pages, trade-licensing authority guidance, or a current Slovak immigration-lawyer explainer for business residence based on IT freelancing.
+- **Created**: 2026-05-29 (run-020)
+- **Status**: pending
+
+## vq-037 [high priority]
+- **Fact**: "Slovakia-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
+- **Country**: Slovakia
+- **Section**: 5.1
+- **Current source**: src-002, src-100
+- **Why uncertain**: EU-level temporary protection is known through 04 March 2027 and UNHCR Slovakia documents the current TP framework, but this pass did not capture a Slovakia-specific bridge equivalent to Greece's Article 194 mechanism.
+- **Suggested verification**: Check Slovak Ministry of Interior, Foreign Police, government decisions, and current legal updates for any explicit TP conversion or transitional route.
+- **Created**: 2026-05-29 (run-020)
+- **Status**: pending
+
+## vq-038 [medium priority]
+- **Fact**: "Direct annual sunny-day or clear-day counts for Bratislava, Košice, and Poprad"
+- **Country**: Slovakia
+- **Section**: 5.2
+- **Current source**: src-105, src-106, src-107 (Climate to Travel sunshine hours only)
+- **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct annual sunny/clear-day counts for the target cities.
+- **Suggested verification**: Check Slovak Hydrometeorological Institute climate normals, WMO city climate pages, meteoblue chart data, Current Results, or another statistical source with explicit sunny/clear-day counts.
+- **Created**: 2026-05-29 (run-020)
+- **Status**: pending

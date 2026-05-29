@@ -1216,3 +1216,99 @@ Each source entry:
 - **Facts supporting**: Pécs 1991–2020 January/July/August temperatures, relative humidity, precipitation days, sunshine hours (~2,058/year), and southwestern-Hungary comfort caveats
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-100
+- **Title**: UNHCR Slovakia — Temporary Protection
+- **URL**: https://help.unhcr.org/slovakia/information-for-people-coming-from-ukraine/temporary-protection/
+- **Archive**: [archive: failed 2026-05-29; not attempted within iteration budget]
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovakia
+- **Facts supporting**: Slovakia temporary-protection eligibility, EU extension through 04 March 2027, public healthcare/education/labour-market/social-assistance rights, application at Foreign Police, 90/180-day EU travel baseline, Ukraine travel not cancelling status (claim-slovakia-001)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-29
+
+## src-101
+- **Title**: EU Immigration Portal — Self-employed worker in Slovakia
+- **URL**: https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/self-employed-worker-slovakia_en
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-secondary
+- **Date published**: 2025-04-01
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovakia
+- **Facts supporting**: Slovakia temporary residence for purpose of business/self-employment; trade licence / Commercial Register mechanics; application location; documents, apostille/translation and 90-day freshness rules; business and personal financial evidence; fees; post-approval reporting, health-insurance and medical-report requirements; maximum 3-year validity and renewability (claim-slovakia-002, claim-slovakia-003)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-29
+
+## src-102
+- **Title**: EU Immigration Portal — Family member in Slovakia
+- **URL**: https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/family-member-slovakia_en
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-secondary
+- **Date published**: 2025-04-01
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovakia
+- **Facts supporting**: Slovakia family-reunification scope for spouse aged at least 18, children and dependent relatives; application location; document authentication rules; family-reunification fees; validity up to sponsor residence / maximum five years (claim-slovakia-004)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-29
+
+## src-103
+- **Title**: IOM Slovakia Migration Information Centre — Permanent Residence
+- **URL**: https://www.mic.iom.sk/en/residence/permanent-residence.html
+- **Archive**: [archive: failed 2026-05-29; WAF direct capture required Jina text mirror]
+- **Type**: reputable-secondary
+- **Date published**: 2025-11-25
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovakia
+- **Facts supporting**: Slovakia permanent/long-term residence overview; long-term residence after at least 5 years uninterrupted legal residence; Blue Card / high-qualified / study / research / family-with-Blue-Card counting variant (claim-slovakia-005)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-29
+
+## src-104
+- **Title**: Wikipedia — Slovak nationality law
+- **URL**: https://en.wikipedia.org/wiki/Slovak_nationality_law
+- **Archive**: [archive: failed 2026-05-29; not attempted within iteration budget]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovakia
+- **Facts supporting**: Slovakia citizenship naturalization placeholder: continuous permanent residence for at least 8 years, Slovak language and country-knowledge requirement, security/obligation conditions (claim-slovakia-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-05-29
+
+## src-105
+- **Title**: Climate to Travel — Bratislava climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/slovakia/bratislava
+- **Archive**: [archive: failed 2026-05-29; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovakia
+- **Facts supporting**: Bratislava January/July temperatures, precipitation, humidity, annual sunshine hours (~2,075), and continental climate comfort caveats (claim-slovakia-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-106
+- **Title**: Climate to Travel — Košice climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/slovakia/kosice
+- **Archive**: [archive: failed 2026-05-29; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovakia
+- **Facts supporting**: Košice January/July/August temperatures, precipitation, humidity, annual sunshine hours (~1,945), and continental climate comfort caveats (claim-slovakia-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-107
+- **Title**: Climate to Travel — Poprad climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/slovakia/poprad
+- **Archive**: [archive: failed 2026-05-29; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovakia
+- **Facts supporting**: Poprad high-altitude climate, January/July temperatures, sunshine hours (~1,890), and comfort caveats for colder mountain living (claim-slovakia-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

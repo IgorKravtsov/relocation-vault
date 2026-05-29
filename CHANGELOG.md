@@ -8,6 +8,19 @@ last_updated: 2026-05-29
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-29 — run-020 — slovakia-legalization-climate
+
+- Slovakia profile created from template.
+- Slovakia: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).
+- Temporary protection captured from UNHCR Slovakia: eligibility, rights, work/self-employment access, and EU horizon through 04 March 2027.
+- Business/self-employed residence captured from EU Immigration Portal: trade licence / Commercial Register mechanics, documents, fees, health-insurance and medical-report steps, up to 3-year validity.
+- No captured dedicated digital-nomad visa; no captured Slovakia-specific TP-to-ordinary-residence bridge.
+- Climate first pass for Bratislava, Košice, and Poprad completed (continental; 1,890–2,075 sunshine hours/year; direct sunny-day counts still missing).
+- Sources added: src-100 … src-107.
+- Claims added: claim-slovakia-001 … claim-slovakia-007.
+- Verification queue: 8 → 11 pending/open items (`vq-036` through `vq-038` added).
+- Next: verification batch because the queue reached threshold again.
+
 ## 2026-05-29 — run-019 — verification-closure
 
 - Mode: verification; resolved 2 Hungary legal blockers (`vq-033`, `vq-034`).

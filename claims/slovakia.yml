@@ -1,0 +1,62 @@
+- id: claim-slovakia-001
+  topic: temporary_protection_validity_and_rights
+  value: "UNHCR Slovakia states that temporary protection for Ukrainians is extended until 04 March 2027 and gives access to healthcare, education, labour market rights as employee or self-employed person, public social assistance, and accommodation support subject to conditions."
+  source: src-100
+  date_verified: 2026-05-29
+  confidence: medium-high
+  tags: [temporary-protection, ukraine, rights, slovakia]
+  notes: "EU-level end date also supported by shared source src-002."
+
+- id: claim-slovakia-002
+  topic: self_employed_business_residence_route
+  value: "A non-EU self-employed worker in Slovakia must obtain temporary residence for the purpose of business and satisfy Slovak-law business conditions such as a trade licence; trade-licence applicants without EU/OECD permanent residence must also apply for Commercial Register entry."
+  source: src-101
+  date_verified: 2026-05-29
+  confidence: medium-high
+  tags: [self-employed, business-residence, temporary-residence, slovakia]
+  notes: "EU Immigration Portal is official-secondary; official-primary Slovak checklist still queued for verification."
+
+- id: claim-slovakia-003
+  topic: business_residence_documents_and_fees
+  value: "Business-residence application evidence includes Slovak application form, passport, photos, business plan or business authorization, criminal-record statements, personal and business financial coverage, accommodation evidence, certified Slovak translations/authentication for foreign official documents, and fees of EUR 232 at Foreign Police or EUR 240 at embassy plus EUR 4.50 residence-card fee."
+  source: src-101
+  date_verified: 2026-05-29
+  confidence: medium-high
+  tags: [business-residence, documents, fees, apostille, slovakia]
+  notes: "Documents generally must be no older than 90 days except registry documents."
+
+- id: claim-slovakia-004
+  topic: family_reunification_spouse_baseline
+  value: "Slovakia family-reunification residence covers the spouse aged at least 18 and listed child/dependent-relative categories; the captured guidance does not list unmarried partners."
+  source: src-102
+  date_verified: 2026-05-29
+  confidence: medium-high
+  tags: [family-reunification, spouse, unmarried-partner, slovakia]
+  notes: "Operational baseline for the couple: marriage or independent eligibility for the woman if derived residence is needed."
+
+- id: claim-slovakia-005
+  topic: long_term_residence_period
+  value: "IOM Slovakia states that long-term residence can be granted to a foreign national who has legally resided in Slovakia for an uninterrupted period of at least 5 years directly before application."
+  source: src-103
+  date_verified: 2026-05-29
+  confidence: medium-high
+  tags: [long-term-residence, permanent-residence, slovakia]
+  notes: "Permit-type counting should be checked in a later legal deep-dive."
+
+- id: claim-slovakia-006
+  topic: citizenship_residence_period_placeholder
+  value: "Aggregator evidence states that Slovak citizenship may be granted after continuous permanent residence for at least 8 years, with language/country-knowledge and security/obligation conditions."
+  source: src-104
+  date_verified: 2026-05-29
+  confidence: medium
+  tags: [citizenship, naturalization, slovakia, aggregator]
+  notes: "Official Ministry of Interior confirmation required before scoring citizenship."
+
+- id: claim-slovakia-007
+  topic: climate_first_pass
+  value: "Bratislava, Košice, and Poprad show a moderately continental climate: January means from 0.0°C to -3.8°C, July/August means from 17.2°C to 21.8°C, and about 1,890-2,075 annual sunshine hours; direct sunny-day counts are not captured."
+  source: src-105
+  date_verified: 2026-05-29
+  confidence: medium
+  tags: [climate, sunshine-hours, slovakia]
+  notes: "Also relies on src-106 and src-107 for Košice and Poprad; keep section 5.2 partial until direct sunny/clear-day counts are verified."
