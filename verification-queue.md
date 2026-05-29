@@ -342,6 +342,8 @@ _(none)_
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-033` — 2026-05-29 (run-019)
+- `vq-034` — 2026-05-29 (run-019)
 - `vq-021` — 2026-05-28 (run-017)
 - `vq-027` — 2026-05-28 (run-017)
 - `vq-029` — 2026-05-28 (run-017)
@@ -350,8 +352,6 @@ _(none)_
 - `vq-010` — 2026-05-27 (run-015)
 - `vq-023` — 2026-05-27 (run-015)
 - `vq-024` — 2026-05-27 (run-015)
-- `vq-026` — 2026-05-27 (run-015)
-- `vq-028` — 2026-05-27 (run-015)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
@@ -407,20 +407,24 @@ _(none)_
 - **Country**: Hungary
 - **Section**: 5.1
 - **Current source**: src-002, src-092
-- **Why uncertain**: EU-level temporary protection is known, and OIF documents TP eligibility/rights, but no Hungary-specific bridge equivalent to Greece's Article 194 mechanism was captured in the first pass.
-- **Suggested verification**: Check OIF/NDGAP announcements, Hungarian government decisions, Magyar Közlöny, or UNHCR Hungary for any explicit TP conversion or transitional route.
+- **Why uncertain**: Resolved to conservative planning baseline: EU-level temporary protection is known and OIF documents Hungary's TP framework, but no Hungary-specific bridge equivalent to Greece's Article 194 mechanism is captured.
+- **Suggested verification**: none
 - **Created**: 2026-05-28 (run-018)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-29 (run-019)
+- **Resolution note**: The Hungary profile now records the safe operational baseline: do not rely on TP alone after 04 March 2027; plan to hold or qualify for ordinary Hungarian status before TP expiry unless Hungary later publishes a transition rule. [src-002][src-092]
 
 ## vq-034 [high priority]
 - **Fact**: "Hungary White Card exact consular checklist, fees, translation/apostille rules, and family-reunification availability for a Ukrainian applicant / partner"
 - **Country**: Hungary
 - **Section**: 5.1
 - **Current source**: src-093, src-095
-- **Why uncertain**: OIF confirms the White Card route and core income/scope rules, but this first pass did not capture a jurisdiction-specific consular checklist or a clear answer on whether a White Card holder can sponsor the partner, especially if unmarried.
-- **Suggested verification**: Check Hungarian consular pages serving Ukraine/Poland, Enter Hungary forms, OIF family-reunification cross-references, or a current Hungarian immigration-lawyer explainer.
+- **Why uncertain**: Resolved for operational planning. OIF's White Card page gives mandatory attachments and OIF family-reunification guidance gives a clear partner blocker; jurisdiction-specific consular formatting/fee details can be handled in a later application-prep pass, not as a core route blocker.
+- **Suggested verification**: none
 - **Created**: 2026-05-28 (run-018)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-29 (run-019)
+- **Resolution note**: The Hungary profile now lists the White Card document categories (foreign employer/company proof, EUR 3,000 net/month subsistence proof, accommodation, healthcare, exit means, photo) and records the key family rule: a White Card holder cannot sponsor family reunification. [src-093][src-095]
 
 ## vq-035 [medium priority]
 - **Fact**: "Direct annual sunny-day or clear-day counts for Budapest, Debrecen, and Pécs"

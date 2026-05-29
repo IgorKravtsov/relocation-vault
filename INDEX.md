@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-05-28
+last_updated: 2026-05-29
 ---
 
 # INDEX
@@ -21,7 +21,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Poland | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 13 | `countries/poland.md` |
 | Romania | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 15 | `countries/romania.md` |
 | Bulgaria | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 16 | `countries/bulgaria.md` |
-| Hungary | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 18 | `countries/hungary.md` |
+| Hungary | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 19 | `countries/hungary.md` |
 | Slovakia | eu-schengen | 2 | — | 0 | — | — | — |
 | Slovenia | eu-schengen | 2 | — | 0 | — | — | — |
 | Montenegro | europe-non-eu | 2 | — | 0 | — | — | — |

@@ -2,13 +2,13 @@
 country: Hungary
 tier: null
 depth_score: 1.0
-last_updated: 2026-05-28T22:25:00Z
+last_updated: 2026-05-29T04:04:07Z
 sections_completed: []
 sections_partial: ["5.1", "5.2"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "climate-sunny-days-gap"]
+risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "climate-sunny-days-gap"]
 sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099"]
-unverified_count: 3
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -16,9 +16,9 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. First pass shows Hungary is usable as a legal short/medium-term base but not yet an obvious long-term fit for this couple: the White Card is clean for foreign remote work but requires at least EUR 3,000 net monthly income for 6 months and does not allow Hungarian gainful activity; guest self-employment has a heavier evidence burden and a 3-year cap before a new application. [src-093][src-094]
+- **Tier**: TBD. First pass shows Hungary is usable as a legal short/medium-term base but not yet an obvious long-term fit for this couple: the White Card is clean for foreign remote work but requires at least EUR 3,000 net monthly income for 6 months, does not allow Hungarian gainful activity, and its holder cannot sponsor family reunification; guest self-employment has a heavier evidence burden and a 3-year cap before a new application. [src-093][src-094][src-095]
 - **depth_score**: 1.0
-- **Last updated**: 2026-05-28T22:25:00Z
+- **Last updated**: 2026-05-29T04:04:07Z
 - **Tier rationale**: Leave unassigned until taxes, cost, rent, healthcare, and ordinary self-employment feasibility are researched.
 
 ## Block 2 — Scoring
@@ -61,7 +61,7 @@ For this couple, guest self-employment may be a fallback if the man can build a 
 
 #### After 4 March 2027
 
-No Hungary-specific official bridge from Ukrainian temporary protection into an ordinary residence permit after 04 March 2027 was captured in this pass. Conservative baseline: do not rely on TP alone after the EU horizon; plan to hold or qualify for an ordinary Hungarian status (White Card, guest self-employment, family, study, work, or another route) before TP expiry unless Hungary later publishes a transition rule. [src-002][src-092]
+No Hungary-specific official bridge from Ukrainian temporary protection into an ordinary residence permit after 04 March 2027 is captured. The operational baseline is now closed for planning purposes: do not rely on TP alone after the EU horizon; plan to hold or qualify for an ordinary Hungarian status (guest self-employment, family, study, work, or another route) before TP expiry unless Hungary later publishes a transition rule. [src-002][src-092]
 
 #### Residence without local employer
 
@@ -71,7 +71,7 @@ No Hungary-specific official bridge from Ukrainian temporary protection into an 
 
 #### Family reunification / partner handling
 
-OIF's family-reunification page supports a spouse/minor-child style baseline rather than an unmarried-partner baseline. The captured beneficiary examples include the sponsor's spouse, dependent parent categories, and family members of refugees in specific situations; no unmarried partner category was captured in this first pass. For planning, marriage is likely materially helpful if one partner sponsors the other, but this needs a deeper section 5.9 pass. [src-095]
+OIF's family-reunification page supports a spouse/registered-partner/minor-child baseline rather than an unmarried-partner baseline. It defines family member to include a spouse, including a registered partner under Act XXIX of 2009, minor children, and limited dependent parent/sibling/ascendant categories; it does not list an unmarried partner. More importantly for this couple, OIF explicitly says family reunification may not be granted if the sponsor is a holder of a White Card. Operational baseline: a White Card cannot be used to sponsor the woman; if Hungary is chosen, she needs TP/independent eligibility or the man needs a different sponsor-eligible status. [src-095]
 
 Family-reunification applicants must show subsistence, accommodation, return/onward-travel capacity, and healthcare coverage; evidence can include bank statements/savings, employer/tax-authority income documents, or a notarised maintenance declaration by a family member with evidence of ability to maintain the applicant. General validity is up to 3 years and may be extended by up to 3 years, but it cannot exceed the sponsor's permit or the applicant's travel-document validity. [src-095]
 
@@ -90,7 +90,7 @@ Citizenship conditions were not official-primary verified in this pass. Treat na
 1. **Do not rely on Hungary TP as the only post-2027 plan.** TP can support immediate safety/status if eligible, but no captured Hungarian bridge exists. [src-002][src-092]
 2. **White Card only works if income is raised/structured above EUR 3,000 net/month for 6 months.** Current USD 3,000/month is likely insufficient, especially if it is gross and must support two people. [src-093]
 3. **If choosing Hungary anyway, investigate guest self-employment plus tax registration next.** It may fit an IT freelancer better long-term than the White Card, but the official criteria are evidence-heavy and capped at 3 years before a new application. [src-094]
-4. **Marriage probably matters for dependency.** First-pass OIF family guidance did not capture an unmarried-partner route; the woman should either qualify independently or the couple should plan around marriage if using family reunification. [src-095]
+4. **White Card does not solve partner dependency.** OIF excludes White Card holders as family-reunification sponsors, so the woman needs TP/independent eligibility, or the man must use a different sponsor-eligible Hungarian status before family reunification is a viable plan. [src-095]
 5. **Use the Polish karta pobytu only as supporting documentation, not as Hungarian status.** It does not replace a Hungarian permit.
 
 ### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-28, dod: partial}
@@ -151,10 +151,10 @@ Debrecen is colder in winter and similarly hot in summer: January daily mean abo
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Possible, but Hungary is not yet a top-fit first-pass route. TP may work if eligible; White Card requires EUR 3,000 net/month and excludes local work; guest self-employment needs deeper business/tax validation. [src-092][src-093][src-094]
-- **Best legalization path for the man**: White Card only if income is safely above EUR 3,000 net/month; otherwise investigate guest self-employment.
-- **Best legalization path for the woman**: Temporary protection if independently eligible, or family reunification after marriage if the man holds a sponsor-eligible Hungarian status; unmarried dependency is not captured. [src-095]
-- **Does marriage change the picture**: Likely yes for family reunification; exact unmarried-partner treatment remains a verification item.
+- **Can relocate now**: Possible, but Hungary is not yet a top-fit first-pass route. TP may work if eligible; White Card requires EUR 3,000 net/month, excludes local work, and cannot sponsor family reunification; guest self-employment needs deeper business/tax validation. [src-092][src-093][src-094][src-095]
+- **Best legalization path for the man**: White Card only if income is safely above EUR 3,000 net/month and the woman has her own status; otherwise investigate guest self-employment or another sponsor-eligible route.
+- **Best legalization path for the woman**: Temporary protection if independently eligible, or independent study/work/other status; family reunification is not available from a White Card sponsor, and unmarried dependency is not captured. [src-095]
+- **Does marriage change the picture**: It may help only if the sponsor holds a sponsor-eligible Hungarian status; marriage alone does not fix White Card family-reunification exclusion.
 - **Realism of staying after 03.2027**: Unclear/medium-low until ordinary route feasibility is verified; no captured TP bridge.
 
 **Pros**:
@@ -164,7 +164,7 @@ Debrecen is colder in winter and similarly hot in summer: January daily mean abo
 
 **Cons / risks**:
 - White Card EUR 3,000 net/month requirement is above the couple's current budget assumption. [src-093]
-- White Card excludes Hungarian gainful activity and Hungarian company ownership. [src-093]
+- White Card holders cannot sponsor family reunification, so the partner needs independent eligibility or the man needs a different sponsor-eligible status. [src-095]
 - Guest self-employment has a material evidence burden and a 3-year cap before a new application. [src-094]
 - No Hungary-specific post-2027 TP bridge captured. [src-002][src-092]
 - Winters are cold compared with Tier-1 Mediterranean candidates. [src-097][src-098][src-099]
@@ -190,8 +190,8 @@ Debrecen is colder in winter and similarly hot in summer: January daily mean abo
 
 ### 6c. First 3–6 months
 - Tax registration as self-employed / freelancer: required research for guest self-employment; not completed.
-- Transferring partner to dependent / partner / student status: likely marriage-based family route if sponsor eligible; unmarried route not captured. [src-095]
-- Marriage (if applicable to scenario): likely useful if Hungary is chosen.
+- Transferring partner to dependent / partner / student status: White Card cannot sponsor family reunification; use TP/independent eligibility, or switch the man to a different sponsor-eligible status before attempting family reunification. [src-095]
+- Marriage (if applicable to scenario): useful only with a sponsor-eligible status; it does not overcome the White Card sponsor exclusion.
 - Integration (language courses, communities): TBD.
 
 ### 6d. Before March 2027 (critical deadline)
@@ -243,12 +243,9 @@ _(none yet)_
 - [src-099] Wikipedia — Pécs climate table.
 
 ### 7e. Not found
-- Hungary-specific official TP-to-ordinary-residence bridge after 04 March 2027.
 - Direct annual sunny/clear-day counts for Budapest, Debrecen, and Pécs.
 - Consular jurisdiction-specific White Card checklist for Ukrainian citizens residing in Ukraine/Poland.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-033`: Hungary-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any.
-- `vq-034`: Exact White Card consular checklist, fees, translation/apostille rules, and whether family reunification is available for the partner of a White Card holder.
 - `vq-035`: Direct annual sunny/clear-day counts for Budapest, Debrecen, and Pécs.

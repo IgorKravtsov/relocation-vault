@@ -61,3 +61,21 @@
   confidence: high
   tags: [permanent-residence, national-residence-card, hungary]
   notes: "Counting rules by permit type, including White Card and guest self-employment, should be checked in a later deep-dive."
+
+- id: claim-hungary-008
+  topic: no_captured_tp_to_ordinary_bridge
+  value: "No Hungary-specific temporary-protection to ordinary-residence bridge after 04 March 2027 is captured; the conservative operational baseline is to hold or qualify for an ordinary Hungarian status before TP expiry unless a later transition rule appears."
+  source: src-002
+  date_verified: 2026-05-29
+  confidence: medium-high
+  tags: [temporary-protection, post-2027, transition-baseline, hungary]
+  notes: "Baseline also relies on src-092 for Hungary's captured TP framework; no automatic conversion language was captured."
+
+- id: claim-hungary-009
+  topic: white_card_family_reunification_exclusion
+  value: "OIF states that a residence permit for family reunification may not be granted if the sponsor is a holder of a White Card."
+  source: src-095
+  date_verified: 2026-05-29
+  confidence: high
+  tags: [white-card, family-reunification, partner, hungary]
+  notes: "Operationally important for the couple: the woman needs independent status or a sponsor with a different sponsor-eligible permit."

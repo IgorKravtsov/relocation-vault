@@ -1,12 +1,22 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-05-28
+last_updated: 2026-05-29
 ---
 
 # CHANGELOG
 
 Brief delta per iteration. Append-only.
+
+## 2026-05-29 — run-019 — verification-closure
+
+- Mode: verification; resolved 2 Hungary legal blockers (`vq-033`, `vq-034`).
+- Hungary: post-2027 TP bridge closed to conservative operational baseline: no captured Hungary-specific bridge; plan ordinary status before TP expiry unless a later official transition appears.
+- Hungary: White Card partner dependency clarified from OIF family-reunification guidance; White Card holders cannot sponsor family reunification.
+- Claims added: `claim-hungary-008`, `claim-hungary-009`.
+- Sources added: none (existing OIF/EU sources were sufficient for safe operational closure).
+- Verification queue: 10 → 8 pending/open items.
+- Next: country-deep-dive on Slovakia (sections 5.1, 5.2), unless accepted proposals appear or queue again reaches threshold.
 
 ## 2026-05-28 — run-018 — hungary-legalization-climate
 

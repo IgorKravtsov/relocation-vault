@@ -1,17 +1,16 @@
 {
   "version": 2,
-  "iteration": 18,
+  "iteration": 19,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-28T22:25:00Z",
+  "last_run_timestamp": "2026-05-29T04:04:07Z",
   "current_focus": {
-    "mode": "country-deep-dive",
+    "mode": "verification",
     "country": "Hungary",
     "sections": [
-      "5.1",
-      "5.2"
+      "5.1"
     ]
   },
   "next_iteration_hint": {
@@ -21,7 +20,7 @@
       "5.1",
       "5.2"
     ],
-    "reason": "Continue Tier-2-hint EU rotation with the next fresh depth-0 country; verification queue is at threshold but not above it."
+    "reason": "Verification queue is back below threshold after resolving two Hungary legal blockers; resume Tier-2-hint EU rotation with the next fresh depth-0 country."
   },
   "countries": {
     "Spain": {
@@ -349,11 +348,12 @@
       "risk_flags": [
         "white-card-income-above-current-budget",
         "white-card-no-local-work",
+        "white-card-holder-cannot-sponsor-family-reunification",
         "guest-self-employment-evidence-burden",
         "no-captured-post-2027-tp-bridge",
         "climate-sunny-days-gap"
       ],
-      "last_iteration": 18
+      "last_iteration": 19
     },
     "Slovakia": {
       "tier": null,
@@ -818,8 +818,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 10,
+  "verification_queue_size": 8,
   "sources_count": 99,
-  "claims_count": 76,
+  "claims_count": 78,
   "proposals_pending": 0
 }
