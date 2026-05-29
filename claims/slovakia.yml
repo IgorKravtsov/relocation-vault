@@ -60,3 +60,21 @@
   confidence: medium
   tags: [climate, sunshine-hours, slovakia]
   notes: "Also relies on src-106 and src-107 for Košice and Poprad; keep section 5.2 partial until direct sunny/clear-day counts are verified."
+
+- id: claim-slovakia-008
+  topic: business_residence_real_business_scrutiny
+  value: "Slovakia's Ministry of Economy states that from 01 July 2025 business-purpose temporary-residence applications are accepted exclusively at Slovak diplomatic missions abroad, require a mandatory business plan, and are evaluated for feasibility, sustainability, and economic contribution; extensions examine real business activity, tax compliance, employees, and contribution to reducing unemployment."
+  source: src-108
+  date_verified: 2026-05-29
+  confidence: high
+  tags: [business-residence, business-plan, self-employed, slovakia]
+  notes: "Operational baseline: this is not a lightweight digital-nomad substitute for passive foreign-client remote work."
+
+- id: claim-slovakia-009
+  topic: temporary_protection_no_bridge_baseline
+  value: "Slovakia's Ministry of Interior confirms automatic temporary-refuge extension for displaced people from Ukraine to 04 March 2027; the captured official update explains extension mechanics and does not establish a TP-to-ordinary-residence conversion route."
+  source: src-109
+  date_verified: 2026-05-29
+  confidence: high
+  tags: [temporary-protection, post-2027, no-bridge-baseline, slovakia]
+  notes: "Conservative planning baseline: qualify for an ordinary Slovak status before TP expiry unless a later official transition appears."

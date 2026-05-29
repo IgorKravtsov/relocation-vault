@@ -1312,3 +1312,27 @@ Each source entry:
 - **Facts supporting**: Poprad high-altitude climate, January/July temperatures, sunshine hours (~1,890), and comfort caveats for colder mountain living (claim-slovakia-007)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-108
+- **Title**: Slovak Ministry of Economy — Foreigners: Running a business in the Slovak Republic
+- **URL**: https://www.economy.gov.sk/podnikatelske-prostredie/cudzinci-foreigners/foreigners-running-a-business-in-the-slovak-republic
+- **Archive**: [archive: failed 2026-05-29; Wayback returned 429]
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovakia
+- **Facts supporting**: business-purpose temporary-residence applications accepted at Slovak diplomatic missions abroad from 01 July 2025; Ministry of Economy opinion role; mandatory business plan; assessment of feasibility, sustainability, and economic contribution; extension scrutiny of real business activity, tax compliance, employees, and unemployment contribution (claim-slovakia-008)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-29
+
+## src-109
+- **Title**: Slovak Ministry of Interior — Temporary refuge for displaced people from Ukraine is automatically extended until 4 March 2027
+- **URL**: https://www.minv.sk/?tlacove-spravy-6&sprava=docasne-utocisko-pre-odidencov-z-ukrajiny-na-slovensku-sa-automaticky-predlzuje-do-4-marca-2027
+- **Archive**: [archive: failed 2026-05-29; Wayback returned 429]
+- **Type**: official-primary
+- **Date published**: 2026-02-18
+- **Date accessed**: 2026-05-29
+- **Used by**: Slovakia
+- **Facts supporting**: automatic extension of temporary refuge for displaced people from Ukraine in Slovakia until 04 March 2027 under the EU Council implementing decision and Slovak government resolution; residence-card validity/extension mechanics; no captured ordinary-residence bridge in the announcement (claim-slovakia-009)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-29

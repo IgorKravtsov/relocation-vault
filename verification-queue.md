@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-05-28
+last_updated: 2026-05-29
 ---
 
 # Verification Queue
@@ -342,6 +342,8 @@ _(none)_
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-036` — 2026-05-29 (run-021)
+- `vq-037` — 2026-05-29 (run-021)
 - `vq-033` — 2026-05-29 (run-019)
 - `vq-034` — 2026-05-29 (run-019)
 - `vq-021` — 2026-05-28 (run-017)
@@ -350,8 +352,6 @@ _(none)_
 - `vq-030` — 2026-05-28 (run-017)
 - `vq-031` — 2026-05-28 (run-017)
 - `vq-010` — 2026-05-27 (run-015)
-- `vq-023` — 2026-05-27 (run-015)
-- `vq-024` — 2026-05-27 (run-015)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
@@ -440,21 +440,25 @@ _(none)_
 - **Fact**: "Slovakia business/self-employed residence exact official-primary checklist and operational fit for foreign-client IT freelancing"
 - **Country**: Slovakia
 - **Section**: 5.1
-- **Current source**: src-101 (official-secondary EU Immigration Portal)
-- **Why uncertain**: EU Immigration Portal gives a strong route overview, but the exact Slovak official-primary checklist, trade-licence / Commercial Register mechanics, and whether foreign-client IT freelancing is accepted in practice need Slovak authority or specialist confirmation.
-- **Suggested verification**: Check Slovak Foreign Police / Ministry of Interior pages, trade-licensing authority guidance, or a current Slovak immigration-lawyer explainer for business residence based on IT freelancing.
+- **Current source**: src-101 (official-secondary EU Immigration Portal), src-108 (official-primary Slovak Ministry of Economy)
+- **Why uncertain**: Resolved for operational planning. The Slovak Ministry of Economy confirms the 2025+ business-plan and real-business scrutiny layer; the route is not a fixed-threshold digital-nomad substitute.
+- **Suggested verification**: none for this queue item; later Slovakia tax/business deep-dive should still price tax registration, accounting, and lawyer-assisted filing.
 - **Created**: 2026-05-29 (run-020)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-29 (run-021)
+- **Resolution note**: Slovakia profile now records the official-primary baseline: business-purpose temporary residence requires a mandatory business plan assessed for feasibility/sustainability/economic contribution, and extensions scrutinize real business activity, tax compliance, employees, and unemployment contribution. Treat foreign-client IT freelancing as evidence-heavy and adviser-dependent, not as a DN-style remote-work permit. [src-101][src-108]
 
 ## vq-037 [high priority]
 - **Fact**: "Slovakia-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
 - **Country**: Slovakia
 - **Section**: 5.1
-- **Current source**: src-002, src-100
-- **Why uncertain**: EU-level temporary protection is known through 04 March 2027 and UNHCR Slovakia documents the current TP framework, but this pass did not capture a Slovakia-specific bridge equivalent to Greece's Article 194 mechanism.
-- **Suggested verification**: Check Slovak Ministry of Interior, Foreign Police, government decisions, and current legal updates for any explicit TP conversion or transitional route.
+- **Current source**: src-002, src-100, src-109
+- **Why uncertain**: Resolved to conservative operational baseline: Slovakia officially extended temporary refuge to 04 March 2027, but the captured official update does not establish a TP-to-ordinary-residence bridge.
+- **Suggested verification**: none for this queue item; monitor later Ministry of Interior / Foreign Police updates in ordinary staleness checks.
 - **Created**: 2026-05-29 (run-020)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-29 (run-021)
+- **Resolution note**: The Slovakia profile now records the safe baseline: no captured Slovakia-specific bridge equivalent to Greece's Article 194; plan an ordinary Slovak status before TP expiry unless Slovakia later publishes a transition route. [src-002][src-100][src-109]
 
 ## vq-038 [medium priority]
 - **Fact**: "Direct annual sunny-day or clear-day counts for Bratislava, Košice, and Poprad"

@@ -8,6 +8,16 @@ last_updated: 2026-05-29
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-29 — run-021 — verification-slovakia-legal-baselines
+
+- Mode: verification; resolved 2 Slovakia legal blockers (`vq-036`, `vq-037`).
+- Slovakia: business/self-employed route now has an official-primary Ministry of Economy anchor for mandatory business-plan and real-business scrutiny.
+- Slovakia: post-2027 TP bridge closed to conservative operational baseline: TP is automatically extended to 04 March 2027, but no captured ordinary-residence bridge.
+- Sources added: `src-108`, `src-109`.
+- Claims added: `claim-slovakia-008`, `claim-slovakia-009`.
+- Verification queue: 11 → 9 pending/open items.
+- Next: resume country-deep-dive rotation with Slovenia sections 5.1 and 5.2 unless accepted proposals appear.
+
 ## 2026-05-29 — run-020 — slovakia-legalization-climate
 
 - Slovakia profile created from template.
