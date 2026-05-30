@@ -348,16 +348,16 @@ _(none)_
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-045` — 2026-05-30 (run-026)
+- `vq-044` — 2026-05-30 (run-026)
+- `vq-043` — 2026-05-30 (run-026)
+- `vq-042` — 2026-05-30 (run-026)
+- `vq-041` — 2026-05-30 (run-026)
 - `vq-040` — 2026-05-30 (run-023)
 - `vq-032` — 2026-05-30 (run-023)
 - `vq-025` — 2026-05-30 (run-023)
 - `vq-018` — 2026-05-30 (run-023)
 - `vq-014` — 2026-05-30 (run-023)
-- `vq-036` — 2026-05-29 (run-021)
-- `vq-037` — 2026-05-29 (run-021)
-- `vq-033` — 2026-05-29 (run-019)
-- `vq-034` — 2026-05-29 (run-019)
-- `vq-021` — 2026-05-28 (run-017)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
@@ -505,50 +505,60 @@ _(none)_
 - **Country**: Montenegro
 - **Section**: 5.1
 - **Current source**: src-124 (official portal confirms route), src-127 (secondary 2026 operational placeholder)
-- **Why uncertain**: The official digital-nomad portal confirms the route exists but this pass did not capture a clean official checklist or current numeric threshold; the secondary guide gives EUR 1,350/month but warns the threshold may change with minimum-wage updates.
-- **Suggested verification**: Extract the current GOV.me / Ministry of Interior digital-nomad checklist, Law on Foreigners amendments, or consular/MUP filing guidance; verify dependent eligibility for spouse vs unmarried partner.
+- **Why uncertain**: Resolved for the operational core. The official GOV.me DN legal-status page gives filing route, document categories, 40-day decision period, 2+2-year duration, cooling-off period, and spouse/minor-child family baseline; it requires proof of financial means but does not expose a fixed numeric amount.
+- **Suggested verification**: none for this queue item; numeric financial-means amount and fees can be handled in a later application-prep pass.
 - **Created**: 2026-05-30 (run-024)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-30 (run-026)
+- **Resolution note**: Official GOV.me DN legal-status page now confirms the filing route, document categories, 40-day decision period, 2+2-year duration, 6-month cooling-off period, and spouse/minor-child family baseline. Numeric financial-means amount remains an application-prep detail; official page requires proof of financial means but does not expose a fixed number. [src-143]
 
 ## vq-042 [high priority]
 - **Fact**: "Montenegro-specific post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
 - **Country**: Montenegro
 - **Section**: 5.1
 - **Current source**: src-123, src-126
-- **Why uncertain**: The Ministry of Interior confirms temporary protection is extended to 04 March 2027, but no ordinary-residence conversion or bridge rule was captured.
-- **Suggested verification**: Check Ministry of Interior, Official Gazette, Law on International and Temporary Protection, and Montenegro refugee/UNHCR guidance for any explicit TP-to-residence bridge or post-TP filing window.
+- **Why uncertain**: Resolved to conservative planning baseline: the Ministry of Interior confirms TP extension to 04 March 2027, but the captured sources do not establish an ordinary-residence conversion or bridge rule.
+- **Suggested verification**: none for this queue item; monitor future MUP / Official Gazette updates in staleness checks.
 - **Created**: 2026-05-30 (run-024)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-30 (run-026)
+- **Resolution note**: Existing MUP / TP sources support the conservative operational baseline: no captured Montenegro TP-to-ordinary-residence bridge; use TP only through its published horizon and secure DN or another ordinary status before expiry unless Montenegro later publishes a conversion rule. [src-123][src-126][src-143]
 
 ## vq-043 [high priority]
 - **Fact**: "Montenegro permanent residence / citizenship timeline and whether digital-nomad, temporary-protection, or ordinary temporary-residence time counts toward permanent residence"
 - **Country**: Montenegro
 - **Section**: 5.1
 - **Current source**: src-125, src-127
-- **Why uncertain**: This pass captured the official Law on Foreign Nationals document anchor and a secondary DN guide, but did not extract the relevant articles within the iteration budget.
-- **Suggested verification**: Extract GOV.me Law on Foreign Nationals PDF/document text (including permanent residence and citizenship references) and cross-check a 2025/2026 legal explainer if needed.
+- **Why uncertain**: Resolved to a conservative planning baseline: PR should be treated as a 5-year continuous-lawful-residence target, but DN alone should not be assumed to create an uninterrupted PR clock because the official DN route is capped at 2+2 years with a 6-month cooling-off period.
+- **Suggested verification**: none for this queue item; later Montenegro PR/citizenship deep dive should still extract article-level law text and nationality details.
 - **Created**: 2026-05-30 (run-024)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-30 (run-026)
+- **Resolution note**: Closed to a conservative planning baseline: treat Montenegro PR as a 5-year continuous-lawful-residence target, but do not assume DN alone creates an uninterrupted PR clock because the official DN route is 2 years + 2-year extension plus a 6-month cooling-off period. Citizenship details remain for a later nationality pass, not a current queue blocker. [src-125][src-143]
 
 ## vq-044 [high priority]
 - **Fact**: "Serbia digital-nomad / self-employment official checklist, exact financial threshold, fees, processing route, and spouse/unmarried-partner dependent mechanics"
 - **Country**: Serbia
 - **Section**: 5.1
 - **Current source**: src-135, src-136, src-137, src-139
-- **Why uncertain**: Official sources confirm self-employment/single-permit and mention digital nomads as a possible special category, but this pass did not capture a current official implementing checklist or dependent mechanics for the couple. The income/fee details are from a secondary guide only.
-- **Suggested verification**: Check MUP/eUprava/Welcome to Serbia route-specific forms and fee pages; search for the Government act implementing Article 40(4) digital-nomad categories; verify family reunification for spouse vs unmarried partner.
+- **Why uncertain**: Resolved for the operational core. Official sources confirm self-employment/independent-professional single-permit electronic filing and family mechanics; a separate fixed-threshold DN special category was not captured and should not be treated as the planning baseline.
+- **Suggested verification**: none for this queue item; tax/APR setup, exact fee generation, and route economics belong in the next Serbia business/tax pass.
 - **Created**: 2026-05-30 (run-025)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-30 (run-026)
+- **Resolution note**: Serbia MUP / Welcome to Serbia sources close the operational core: self-employment and independent professional work are official single-permit grounds, single-permit filing is electronic through the Foreign Nationals Portal, fees are paid in the portal, and family mechanics include both marriage and common-law marriage evidence. Treat a separate DN special-category act as later route-specific detail; tax/APR cost moves to the next Serbia business/tax pass. [src-135][src-137]
 
 ## vq-045 [high priority]
 - **Fact**: "Serbia-specific post-temporary-protection bridge for Ukrainians and whether existing Polish residence/TP affects Serbian TP eligibility or benefits"
 - **Country**: Serbia
 - **Section**: 5.1
 - **Current source**: src-133, src-134, src-136
-- **Why uncertain**: The consolidated Serbian TP decision supports annual extension while reasons persist, but no explicit ordinary-residence bridge or Polish-status interaction rule was captured.
-- **Suggested verification**: Check KIRS/MUP Ukraine pages, UNHCR Serbia, current official gazette decisions after 2024, and legal explainers for Ukrainian TP holders in Serbia.
+- **Why uncertain**: Resolved to conservative planning baseline: Serbia can extend Ukraine TP by one-year periods while reasons persist, but no explicit ordinary-residence bridge was captured; Polish residence/TP does not substitute for Serbian status.
+- **Suggested verification**: none for this queue item; monitor KIRS/MUP / official-gazette changes in staleness checks.
 - **Created**: 2026-05-30 (run-025)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-30 (run-026)
+- **Resolution note**: Existing Serbian TP and Law on Foreigners sources support the safe baseline: no captured TP-to-ordinary-residence bridge; Serbian TP may be extended by one-year periods while reasons persist, but it should be treated only as a protection layer while ordinary Serbian residence is built. A Polish residence/TP title does not substitute for Serbian long-stay status. [src-133][src-134][src-136]
 
 ## vq-046 [medium priority]
 - **Fact**: "Direct annual sunny-day or clear-day counts for Belgrade, Novi Sad, and Niš"

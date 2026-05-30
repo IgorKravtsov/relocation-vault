@@ -2,13 +2,13 @@
 country: Montenegro
 tier: null
 depth_score: 1.5
-last_updated: 2026-05-30T10:05:11Z
+last_updated: 2026-05-30T22:01:43Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-income-threshold-needs-primary-check", "digital-nomad-long-term-counting-unclear"]
-sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131"]
-unverified_count: 3
+sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-143"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,8 +18,8 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests a potentially useful non-EU fallback because Montenegro has extended temporary protection for Ukrainians to 04 March 2027 and advertises a digital-nomad residence framework, but the captured DN income/checklist details are not yet official-primary and the long-term residence counting path remains unclear. [src-123][src-124][src-127]
 - **depth_score**: 1.5
-- **Last updated**: 2026-05-30T10:05:11Z
-- **Tier rationale**: Do not classify yet. Key blockers are the official DN checklist/income floor, whether DN/residence time counts toward permanent residence, and whether any post-2027 TP-to-ordinary-residence bridge exists.
+- **Last updated**: 2026-05-30T22:01:43Z
+- **Tier rationale**: Do not classify yet. The official DN page now confirms filing route, document categories, duration, processing time, and spouse/minor-child family baseline; remaining classification blockers are the exact numeric income floor, tax/cost fit, and whether DN or other temporary-residence time can safely build a long-term PR clock.
 
 ## Block 2 — Scoring
 
@@ -41,7 +41,7 @@ schema_version: 2.0.0
 
 ### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-05-30, dod: partial}
 
-> **DoD status**: partial. TP and DN route anchors are captured, but exact DN checklist/income from official-primary guidance, post-TP ordinary-residence bridge, Polish-residence interaction, and detailed family/dependent mechanics still need verification.
+> **DoD status**: partial. TP and DN route anchors are captured. Verification run-026 added an official-primary DN filing checklist, processing time, duration/extension mechanics, and spouse/minor-child family baseline. Remaining gaps: exact current numeric financial-means threshold, full fee schedule/apostille practice, ordinary company/self-employment alternatives, and adviser-confirmed PR counting.
 
 #### Now (until 03.2027)
 
@@ -49,23 +49,27 @@ schema_version: 2.0.0
 
 Earlier government guidance from March 2022 confirms that Montenegro granted temporary protection to persons from Ukraine who could not return due to armed conflict, allowed humanitarian entry even without a valid travel document using expired travel documents, internal passports, ID cards, or children's birth certificates, and involved the Ministry of Interior, Police Directorate, Red Cross and UNHCR in implementation. [src-126]
 
-**Digital-nomad / remote-work route.** Montenegro has an official government digital-nomad website describing the route as based on the Law on Foreigners and the Government programme for attracting digital nomads. The official site is enough to confirm the route exists, but this pass did not capture a clean official checklist or numeric threshold. [src-124][src-125] A 2026 secondary guide describes a long-stay visa / residence route for digital nomads with foreign employer/client work, remote work by electronic means, no local Montenegrin-company services, health insurance, background check, and an income floor of about **EUR 1,350/month** (3× minimum wage), while warning that the threshold may rise with 2025/2026 minimum-wage changes. Treat this value as **medium confidence only** until verified from an official-primary checklist. [src-127]
+**Digital-nomad / remote-work route.** Montenegro has an official government digital-nomad website describing the route as based on the Law on Foreigners and the Government programme for attracting digital nomads. The official legal-status page confirms that a foreigner who is employed by, or works electronically for, a foreign company or their own company not registered in Montenegro may apply for temporary residence as a digital nomad after entering Montenegro legally. The request is submitted personally to the Ministry in the place of residence; the officer fills the bilingual form, and the applicant gives a photo, two fingerprints, and a digitized handwritten signature. A proper application filed before the 90-day stay expires allows the foreigner to remain until the enforceable decision is issued. [src-124][src-143]
+
+The official document categories are: proof of financial means, accommodation, health insurance, valid travel document or accepted ID valid at least three months beyond the requested residence period, clean criminal-record baseline for offences prosecuted ex officio, and proof of the justification of the request, such as an employment contract or other evidence that the applicant performs work electronically for a foreign company or their own non-Montenegrin company. The regional unit / MIA branch should decide within **40 days** from a proper application. [src-143] The official page does **not** expose a current numeric income threshold; a 2026 secondary guide reports about **EUR 1,350/month** (3× minimum wage) but warns the threshold may change, so use the numeric amount only as a medium-confidence placeholder. [src-127]
+
+A DN temporary residence permit is issued for up to **2 years**, can be extended for up to **2 more years**, and a new permit can be issued six months after the previous DN temporary-residence permit expires. Close family members can join for family reunification, but the captured official definition lists **spouses**, minor children born in or out of wedlock, and children/adopted children of one spouse up to 18; it does not list unmarried partners. Operational baseline: marriage is the safe dependent route for this couple if the woman is not using her own TP/ordinary status. [src-143]
 
 **Visa-free / entry baseline.** Detailed Ukrainian entry rules were not fully captured in this pass. The practical baseline is to verify current Montenegro visa-free entry and whether the couple should enter as tourists and file in-country or use a consular Visa D route before booking travel. [verification required]
 
 #### After 4 March 2027
 
-No Montenegro-specific ordinary-residence bridge from temporary protection into a long-term status was captured. The safe operational baseline is: do not rely on TP alone beyond 04 March 2027; use DN, company/self-employment, employment, family, study, or another ordinary status before the TP horizon unless Montenegro later publishes a conversion rule. [src-123][src-126]
+No Montenegro-specific ordinary-residence bridge from temporary protection into a long-term status was captured. The safe operational baseline is closed for planning purposes: do not rely on TP alone beyond 04 March 2027; use DN, company/self-employment, employment, family, study, or another ordinary status before the TP horizon unless Montenegro later publishes a conversion rule. [src-123][src-126]
 
 #### Residence without local employer
 
-The digital-nomad framework is the main captured route for a remote IT worker without a Montenegrin employer. The captured secondary checklist says the applicant must work for or own a company registered outside Montenegro and perform work exclusively through electronic communication tools; this matches the male partner's foreign-client IT profile in principle. [src-127]
+The digital-nomad framework is the main captured route for a remote IT worker without a Montenegrin employer. The official page fits foreign remote work / foreign-company ownership and provides the core application file; the remaining numeric-income issue is a threshold check, not a route-existence blocker. [src-143]
 
 Company/self-employment residence, business registration, and whether a Montenegrin sole-proprietor/company route is more durable than DN were not researched in this pass. [verification required]
 
 #### PR and citizenship
 
-The government document library has the Law on Foreign Nationals and the Law on International and Temporary Protection of Foreigners as official-primary anchors, but this pass did not extract the permanent-residence and citizenship rules from the PDFs. [src-125][src-126] Verify: (1) years required for permanent residence, (2) whether DN/temporary-residence time counts, (3) absence limits, (4) citizenship timeline/language/dual-citizenship constraints.
+The official Law on Foreign Nationals remains the PR legal anchor. Operational baseline after verification: treat Montenegro permanent residence as a **5-year continuous lawful residence** target, but do not assume the DN route alone can satisfy that clock because the official DN route is capped at 2 years + 2-year extension and then requires a 6-month wait before a new DN permit. A lawyer/adviser check is still needed before counting DN time, TP time, or any gap-bridging ordinary status toward PR. [src-125][src-143] Citizenship timeline, language/integration requirements, and dual-citizenship constraints still need a later nationality-law pass.
 
 #### Polish karta pobytu interaction
 
@@ -75,8 +79,8 @@ Not captured from a Montenegro-specific official source. Conservative baseline: 
 
 1. **Short term**: verify current Ukrainian entry rules and whether the couple can file for TP or DN from inside Montenegro.
 2. **If relying on TP**: apply/extend TP with the Ministry of Interior branch; treat it as a time-limited shelter status through 04 March 2027, not as a proven long-term bridge. [src-123]
-3. **For the working IT partner**: prioritize official-primary DN checklist verification. If the income floor is around EUR 1,350/month, the couple's ~$3,000/month gross budget likely clears the primary-applicant threshold; if the 2026 floor has risen toward EUR 1,800-2,010/month, it may still clear for one applicant but needs dependent/family calculation. [src-127]
-4. **For the student partner**: do not assume unmarried dependent coverage until DN/family guidance is verified. Marriage may become important if only spouses are eligible for family residence.
+3. **For the working IT partner**: the official DN route now looks operational for foreign remote work if the financial-means proof is acceptable. File personally at the local MIA branch after lawful entry, prepare foreign-employer/client or own-foreign-company evidence, accommodation, health insurance, clean-record proof, and expect a 40-day decision window. [src-143]
+4. **For the student partner**: the captured DN family list covers spouses and minor children, not unmarried partners. If she cannot use her own TP/ordinary route, marriage is the safe dependent baseline. [src-143]
 5. **Before 04 March 2027**: hold an ordinary Montenegro residence basis or have a filed application; do not wait for a TP conversion that has not been captured.
 
 ### 5.2. Climate {status: deep, depth: 2, last_updated: 2026-05-30, dod: passed}
@@ -139,20 +143,21 @@ A Montenegro-focused weather guide gives direct sunny-day heuristics: Podgorica 
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Probably yes, subject to current entry/filing verification. TP is extended to 04 March 2027, and a DN route exists, but DN details need official-primary confirmation. [src-123][src-124]
-- **Best legalization path for the man**: Likely DN / foreign-client remote-work residence if official checklist confirms the threshold and filing route; otherwise TP as a temporary shelter status while preparing an ordinary residence basis.
-- **Best legalization path for the woman**: TP independently if eligible; dependent/family status under DN or another ordinary route needs verification, especially if unmarried.
-- **Does marriage change the picture**: Potentially yes, but Montenegro-specific dependent/family rules were not captured yet.
-- **Realism of staying after 03.2027**: Medium-unclear. Better than a no-route country because DN exists, but long-term counting/PR route is not yet verified.
+- **Can relocate now**: Probably yes, subject to current entry verification. TP is extended to 04 March 2027, and the official DN page confirms a local MIA filing route, core document categories, 40-day decision period, and 2+2-year permit structure. [src-123][src-124][src-143]
+- **Best legalization path for the man**: Likely DN / foreign-client remote-work residence if the financial-means proof is accepted; otherwise TP as a temporary shelter status while preparing another ordinary residence basis.
+- **Best legalization path for the woman**: TP independently if eligible; as a DN family member, the official captured list supports spouse/minor-child family reunification, not an unmarried partner baseline. [src-143]
+- **Does marriage change the picture**: Yes. Marriage is the safe baseline if she needs derived DN/family residence.
+- **Realism of staying after 03.2027**: Medium-unclear. DN exists and can cover up to 4 years, but the 6-month cooling-off rule and PR counting need legal confirmation.
 
 **Pros**:
 - TP officially extended to 04 March 2027. [src-123]
-- Official government digital-nomad portal exists. [src-124]
+- Official government digital-nomad portal exists, with an official checklist/filing route now captured. [src-124][src-143]
 - Warm, sunny coastal climate with mild winters. [src-129][src-130]
 
 **Cons / risks**:
 - No captured TP-to-ordinary-residence bridge after 04 March 2027.
-- DN numeric income/checklist and dependent mechanics are not official-primary verified.
+- DN numeric income amount remains not official-primary verified, even though the official page requires financial-means proof.
+- DN family baseline covers spouses/minor children; unmarried partner dependency is not captured. [src-143]
 - Podgorica can be very hot in summer; coastal areas may be seasonally expensive, but rent is not researched yet.
 
 ## Block 6 — Practical playbook (working relocation guide)
@@ -164,7 +169,7 @@ A Montenegro-focused weather guide gives direct sunny-day heuristics: Podgorica 
 
 ### 6b. First month after arrival
 - If using TP: go to the competent Ministry of Interior branch / civil-status and personal-document office with ID and documents; existing TP holders exchange the old TP document for a new one under the 2026 decision. [src-123]
-- If using DN: verify whether to file through consulate, local police/MUP, or another portal before arrival; the captured source says processing is typically about 40 days, but this needs official confirmation. [src-127]
+- If using DN: file personally at the local MIA regional unit/branch after lawful entry; prepare financial-means, accommodation, health-insurance, valid-travel-document, clean-record, and foreign-electronic-work evidence. Official processing baseline: 40 days from a proper application. [src-143]
 
 ### 6c. First 3–6 months
 - Choose coastal vs Podgorica base after rent research; climate favours the coast, administration may favour Podgorica.
@@ -203,6 +208,7 @@ A Montenegro-focused weather guide gives direct sunny-day heuristics: Podgorica 
 - [src-124] Digital Nomads GOV.me — official digital-nomad website.
 - [src-125] Government of Montenegro — Law on Foreign Nationals.
 - [src-126] Government of Montenegro — Law on International and Temporary Protection of Foreigners / 2022 TP decision context.
+- [src-143] Digital Nomads GOV.me — official legal-status / application checklist page for digital nomads.
 
 ### 7b. Reputable secondary
 - [src-127] Visa Free Nomads — Montenegro digital nomad visa 2026 guide; used only as medium-confidence operational placeholder.
@@ -217,13 +223,12 @@ _(none yet)_
 - [src-131] Weather in Montenegro — sunny-day heuristics for Podgorica, Budva, Herceg Novi.
 
 ### 7e. Not found
-- Official-primary DN numeric income threshold and full document checklist.
-- Official post-04 March 2027 bridge from TP into ordinary residence.
-- Official extraction of permanent residence / citizenship rules from the Law on Foreign Nationals.
+- Official-primary DN numeric income threshold and full fee schedule.
+- Adviser-confirmed PR counting for DN / TP / ordinary temporary residence and how to bridge the DN 2+2-year cap plus 6-month cooling-off rule.
 - Montenegro-specific guidance on Polish `karta pobytu` interaction.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-041` — official-primary DN checklist, numeric income threshold, filing route, dependent mechanics, and fees.
-- `vq-042` — Montenegro-specific post-04 March 2027 TP-to-ordinary-residence bridge, if any.
-- `vq-043` — PR/citizenship timeline and whether DN/TP/ordinary temporary residence time counts toward permanent residence.
+- `vq-041` — resolved in run-026: official DN filing route, document categories, 40-day processing baseline, duration, and spouse/minor-child family baseline captured; numeric financial-means amount remains a later application-prep detail.
+- `vq-042` — resolved in run-026: no captured TP-to-ordinary-residence bridge; plan an ordinary status before TP expiry.
+- `vq-043` — resolved in run-026 to a conservative PR baseline: use 5 years as the planning target, but do not assume DN alone creates an uninterrupted PR clock because of the 2+2-year cap and 6-month cooling-off rule.

@@ -1732,3 +1732,15 @@ Each source entry:
 - **Facts supporting**: Niš January/July temperatures, precipitation days, humidity, annual sunshine hours, snow-cover and summer heat-wave caveats (claim-serbia-008)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-143
+- **Title**: Digital Nomads GOV.me — How to get the visa? / Legal status for nomads
+- **URL**: https://digitalnomads.gov.me/article/legal-status-for-nomads
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Montenegro
+- **Facts supporting**: official-primary Montenegro digital-nomad filing route, document categories, 40-day decision period, up-to-2-year permit plus up-to-2-year extension and six-month cooling-off period, and spouse/minor-child family-reunification baseline (claim-montenegro-009, claim-montenegro-010)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30

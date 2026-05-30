@@ -69,3 +69,30 @@
   confidence: medium
   tags: [climate, sunny-days, montenegro]
   notes: "Commercial guide; acceptable for first-pass climate DoD at medium confidence, not official climatology."
+
+- id: claim-montenegro-009
+  topic: digital_nomad_official_checklist_and_timing
+  value: "Montenegro's official digital-nomad page says the applicant applies personally to the Ministry in the place of residence, gives photo/fingerprints/signature, may remain in Montenegro if a proper application is filed before the 90-day stay expires, attaches proof of financial means, accommodation, health insurance, valid travel document/ID, clean criminal-record baseline, and proof of foreign-company/own-foreign-company electronic work, and receives a decision within 40 days."
+  source: src-143
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [digital-nomad, checklist, processing-time, montenegro]
+  notes: "The official page gives document categories and filing route but not a numeric income amount; keep numeric threshold as a separate medium-confidence placeholder."
+
+- id: claim-montenegro-010
+  topic: digital_nomad_duration_and_family
+  value: "Montenegro digital-nomad temporary residence is issued for up to 2 years, can be extended for up to 2 more years, and a new permit can be issued after a 6-month cooling-off period; close family members who can join are spouses, minor children born in or out of wedlock, and children/adopted children of one spouse up to 18."
+  source: src-143
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [digital-nomad, family-reunification, spouse, duration, montenegro]
+  notes: "Unmarried partners are not listed in the captured official close-family definition; marriage is the safe dependent baseline."
+
+- id: claim-montenegro-011
+  topic: permanent_residence_operational_baseline
+  value: "Operational baseline from the official Law on Foreign Nationals anchor: permanent residence should be treated as a 5-year continuous-lawful-residence target; because the DN permit is capped at 2+2 years followed by a 6-month cooling-off period, DN alone should not be assumed to create an uninterrupted 5-year PR clock without legal confirmation."
+  source: src-125
+  date_verified: 2026-05-30
+  confidence: medium
+  tags: [permanent-residence, digital-nomad, residence-counting, montenegro]
+  notes: "PDF extraction remains imperfect; use as conservative planning baseline, not a final legal conclusion."

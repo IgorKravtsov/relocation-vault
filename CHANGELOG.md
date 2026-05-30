@@ -8,6 +8,17 @@ last_updated: 2026-05-30
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-30 — run-026 — verification-montenegro-serbia-legal-baselines
+
+- Mode: verification; resolved 5 legal blockers (`vq-041` through `vq-045`).
+- Montenegro: official GOV.me DN checklist/filing route captured; DN duration is 2+2 years with 6-month cooling-off, and family baseline covers spouses/minor children.
+- Montenegro: TP bridge and PR-counting blockers closed to conservative operational baselines.
+- Serbia: official MUP/Welcome to Serbia sources now confirm self-employment / independent-professional single-permit electronic filing and marriage/common-law family mechanics.
+- Serbia: TP bridge / Polish-status blocker closed to conservative baseline: TP is protection only; ordinary Serbian residence is still needed.
+- Sources added: `src-143`; claims added: `claim-montenegro-009` … `claim-montenegro-011`, `claim-serbia-009` … `claim-serbia-010`.
+- Verification queue: 12 → 7 pending/open items.
+- Next: resume country-deep-dive rotation with Turkey sections 5.1 and 5.2.
+
 ## 2026-05-30 — run-025 — serbia-legalization-climate
 
 - Serbia profile created from template.

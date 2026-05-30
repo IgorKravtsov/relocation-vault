@@ -69,3 +69,21 @@
   confidence: medium
   tags: [climate, temperature, sunshine-hours, serbia]
   notes: "Also relies on src-141 and src-142 for Novi Sad and Niš; direct sunny-day counts remain queued."
+
+- id: claim-serbia-009
+  topic: self_employment_single_permit_official_route
+  value: "Serbia MUP confirms that single residence-and-work permits are filed exclusively electronically through the Foreign Nationals Portal for employment-based detailed reasons including self-employment and independent professional work; documents are uploaded electronically and fees are paid through the portal."
+  source: src-135
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [single-permit, self-employment, electronic-filing, serbia]
+  notes: "The official page does not set a fixed digital-nomad income threshold; route-specific budgeting still needs a later tax/business pass."
+
+- id: claim-serbia-010
+  topic: family_reunification_common_law_baseline
+  value: "Serbia MUP family-reunification guidance explicitly lists marriage to a foreign national with a single permit or temporary employment residence, and also lists common-law marriage with required single-status certificates, partner declarations, two certified witness statements, proof of more permanent union of life, shared address proof, or a common-law-marriage register extract if available."
+  source: src-135
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [family-reunification, common-law-partner, spouse, serbia]
+  notes: "This closes the unmarried-partner mechanic at the checklist level, but practical acceptance still benefits from Serbian legal review."
