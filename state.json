@@ -1,26 +1,27 @@
 {
   "version": 2,
-  "iteration": 23,
+  "iteration": 24,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-30T04:15:07Z",
+  "last_run_timestamp": "2026-05-30T10:05:11Z",
   "current_focus": {
-    "mode": "verification",
-    "country": "multi-country climate",
+    "mode": "country-deep-dive",
+    "country": "Montenegro",
     "sections": [
+      "5.1",
       "5.2"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Montenegro",
+    "suggested_country": "Serbia",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Pending verification queue is below threshold after run-023; resume anti-clustered rotation with a fresh depth-0 Tier-2-hint country."
+    "reason": "Continue anti-clustered rotation with the next fresh depth-0 Tier-2-hint non-EU Europe country; pending verification queue remains below threshold."
   },
   "countries": {
     "Spain": {
@@ -413,12 +414,14 @@
     "Montenegro": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 0,
-      "sections_completed": [],
-      "sections_partial": [],
+      "depth_score": 1.5,
+      "sections_completed": [
+        "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
+      ],
       "sections_pending": [
-        "5.1",
-        "5.2",
         "5.3",
         "5.4",
         "5.5",
@@ -429,8 +432,12 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "no-captured-post-2027-tp-bridge",
+        "digital-nomad-income-threshold-needs-primary-check",
+        "digital-nomad-long-term-counting-unclear"
+      ],
+      "last_iteration": 24
     },
     "Serbia": {
       "tier": null,
@@ -829,8 +836,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 6,
-  "sources_count": 122,
-  "claims_count": 95,
+  "verification_queue_size": 9,
+  "sources_count": 131,
+  "claims_count": 103,
   "proposals_pending": 0
 }

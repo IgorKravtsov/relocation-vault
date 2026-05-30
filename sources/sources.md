@@ -1492,3 +1492,111 @@ Each source entry:
 - **Facts supporting**: monthly percentages of time in the clearer cloud-cover categories for Ljubljana, Maribor, and Portorož; annual clearer-day-equivalent proxies calculated from monthly percentages
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-123
+- **Title**: Montenegro Ministry of Interior — Temporary protection for persons from Ukraine extended to 04 March 2027
+- **URL**: https://www.gov.me/clanak/produzava-se-privremena-zastita-licima-iz-ukrajine-do-4-marta-2027-godine
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-03-03
+- **Date accessed**: 2026-05-30
+- **Used by**: Montenegro
+- **Facts supporting**: Montenegro temporary protection for persons from Ukraine extended until 04 March 2027; existing-document exchange and first-time application baseline; rights under temporary protection (claim-montenegro-001, claim-montenegro-002, claim-montenegro-006)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-124
+- **Title**: Digital Nomads GOV.me — Official Montenegro digital-nomad website
+- **URL**: https://digitalnomads.gov.me/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Montenegro
+- **Facts supporting**: Montenegro official digital-nomad portal; route exists and is tied to the Law on Foreigners and government digital-nomad programme (claim-montenegro-003)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-125
+- **Title**: Government of Montenegro — Law on Foreign Nationals
+- **URL**: https://www.gov.me/en/documents/e8ac34ee-953a-457c-944a-f9568b1aab65
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2021-05-13
+- **Date accessed**: 2026-05-30
+- **Used by**: Montenegro
+- **Facts supporting**: official-law anchor for Montenegro foreigner residence framework, including digital-nomad route referenced by the official DN portal; PR/citizenship extraction still pending
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-126
+- **Title**: Government of Montenegro — Law on International and Temporary Protection of Foreigners / 2022 Ukraine TP decision context
+- **URL**: https://www.gov.me/en/documents/05b28b4b-9bd7-4ea8-a1b4-0b6148d650d5
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2018-03-21
+- **Date accessed**: 2026-05-30
+- **Used by**: Montenegro
+- **Facts supporting**: official legal anchor for temporary protection; paired with the March 2022 Cabinet decision granting temporary protection to persons from Ukraine and humanitarian-entry document flexibility
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-30
+
+## src-127
+- **Title**: Visa Free Nomads — Montenegro Digital Nomad Visa: Requirements, Fees & How to Apply (2026)
+- **URL**: https://visafreenomads.com/guides/digital-nomad-visa/montenegro
+- **Archive**: [archive: failed 2026-05-30; not attempted within iteration budget]
+- **Type**: reputable-secondary
+- **Date published**: 2026-04-16
+- **Date accessed**: 2026-05-30
+- **Used by**: Montenegro
+- **Facts supporting**: secondary operational placeholder for DN income threshold (~EUR 1,350/month), eligibility, foreign-employer/client remote-work requirement, health insurance, background check, processing time and fee caveats (claim-montenegro-004, claim-montenegro-005)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-11-30
+
+## src-128
+- **Title**: Climate to Travel — Podgorica climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/montenegro/podgorica
+- **Archive**: [archive: failed 2026-05-30; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Montenegro
+- **Facts supporting**: Podgorica January/July temperatures, precipitation, humidity, annual sunshine hours (~2,475), and extreme summer-heat comfort caveat (claim-montenegro-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-129
+- **Title**: Climate to Travel — Budva climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/montenegro/budva
+- **Archive**: [archive: failed 2026-05-30; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Montenegro
+- **Facts supporting**: Budva / Bar coastal January/July temperatures, precipitation, sea temperatures, annual sunshine hours (~2,530), and coastal comfort baseline (claim-montenegro-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-130
+- **Title**: Climate to Travel — Herceg Novi climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/montenegro/herceg-novi
+- **Archive**: [archive: failed 2026-05-30; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Montenegro
+- **Facts supporting**: Herceg Novi January/July temperatures, precipitation, sea temperatures, annual sunshine hours (~2,435), and Bay of Kotor comfort caveats (claim-montenegro-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-131
+- **Title**: Weather in Montenegro — Podgorica, Budva, and Herceg Novi climate guides
+- **URL**: https://www.weather-in-montenegro.com/
+- **Archive**: [archive: failed 2026-05-30; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Montenegro
+- **Facts supporting**: direct practical sunny-day heuristics for Podgorica (270+), Budva (240+), and Herceg Novi (200+) used as medium-confidence climate-screening counts (claim-montenegro-008)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

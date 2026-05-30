@@ -499,3 +499,33 @@ _(none)_
 - **Status**: resolved
 - **Resolved**: 2026-05-30 (run-023)
 - **Resolution note**: Slovenia profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Ljubljana ~183, Maribor ~185, Portorož ~203. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-122]
+
+## vq-041 [high priority]
+- **Fact**: "Montenegro digital-nomad residence exact official-primary checklist, current numeric income threshold, filing route, fees, and dependent/family mechanics"
+- **Country**: Montenegro
+- **Section**: 5.1
+- **Current source**: src-124 (official portal confirms route), src-127 (secondary 2026 operational placeholder)
+- **Why uncertain**: The official digital-nomad portal confirms the route exists but this pass did not capture a clean official checklist or current numeric threshold; the secondary guide gives EUR 1,350/month but warns the threshold may change with minimum-wage updates.
+- **Suggested verification**: Extract the current GOV.me / Ministry of Interior digital-nomad checklist, Law on Foreigners amendments, or consular/MUP filing guidance; verify dependent eligibility for spouse vs unmarried partner.
+- **Created**: 2026-05-30 (run-024)
+- **Status**: pending
+
+## vq-042 [high priority]
+- **Fact**: "Montenegro-specific post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
+- **Country**: Montenegro
+- **Section**: 5.1
+- **Current source**: src-123, src-126
+- **Why uncertain**: The Ministry of Interior confirms temporary protection is extended to 04 March 2027, but no ordinary-residence conversion or bridge rule was captured.
+- **Suggested verification**: Check Ministry of Interior, Official Gazette, Law on International and Temporary Protection, and Montenegro refugee/UNHCR guidance for any explicit TP-to-residence bridge or post-TP filing window.
+- **Created**: 2026-05-30 (run-024)
+- **Status**: pending
+
+## vq-043 [high priority]
+- **Fact**: "Montenegro permanent residence / citizenship timeline and whether DN, TP, or other temporary-residence time counts toward permanent residence"
+- **Country**: Montenegro
+- **Section**: 5.1
+- **Current source**: src-125, src-126
+- **Why uncertain**: The official law pages were captured as anchors, but this pass did not extract the relevant PR/citizenship articles or residence-counting exclusions.
+- **Suggested verification**: Extract the Law on Foreign Nationals PDF text or another official-primary explainer for permanent residence, absence limits, citizenship naturalisation, dual-citizenship constraints, and DN/TP counting rules.
+- **Created**: 2026-05-30 (run-024)
+- **Status**: pending

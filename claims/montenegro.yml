@@ -1,0 +1,71 @@
+- id: claim-montenegro-001
+  topic: temporary_protection_extension_2027
+  value: "Montenegro's Ministry of Interior states that the decision approving temporary protection for persons from Ukraine, published in Official Gazette of Montenegro No. 27/26 of 02 March 2026, extends temporary protection until 04 March 2027 and applies from 04 March 2026."
+  source: src-123
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [temporary-protection, ukraine, montenegro, post-2027]
+  notes: "The page is in Montenegrin; profile includes an English operational summary."
+
+- id: claim-montenegro-002
+  topic: temporary_protection_application_extension_mechanics
+  value: "Existing Montenegro temporary-protection document holders from Ukraine should apply at the locally competent branch for civil status and personal documents with valid ID and the previous TP document; first-time applicants are also approved under the 2026 decision until 04 March 2027."
+  source: src-123
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [temporary-protection, procedure, ukraine, montenegro]
+  notes: "Detailed document checklist and local branch addresses need a later application-prep pass."
+
+- id: claim-montenegro-003
+  topic: digital_nomad_route_exists
+  value: "Montenegro operates an official GOV.me digital-nomad portal and describes the route as based on the Law on Foreigners and the Government programme for attracting digital nomads."
+  source: src-124
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [digital-nomad, remote-work, montenegro]
+  notes: "The official page did not expose a clean current checklist or numeric threshold in this pass."
+
+- id: claim-montenegro-004
+  topic: digital_nomad_income_placeholder
+  value: "A 2026 secondary guide reports a Montenegro digital-nomad income floor of about EUR 1,350/month, described as 3x minimum wage, with warning that the floor may rise with 2025/2026 minimum-wage changes."
+  source: src-127
+  date_verified: 2026-05-30
+  confidence: medium
+  tags: [digital-nomad, income-threshold, verification-required, montenegro]
+  notes: "Use only as an operational placeholder until official-primary checklist/income rules are captured."
+
+- id: claim-montenegro-005
+  topic: digital_nomad_operational_fit_placeholder
+  value: "Secondary 2026 guidance describes Montenegro DN eligibility as foreign employer/client or foreign-company owner work performed remotely by electronic communication tools, with no local Montenegrin-company services, health insurance, and background check."
+  source: src-127
+  date_verified: 2026-05-30
+  confidence: medium
+  tags: [digital-nomad, remote-work, eligibility, montenegro]
+  notes: "Official-primary confirmation required before scoring the route fully."
+
+- id: claim-montenegro-006
+  topic: no_captured_post_tp_bridge
+  value: "No Montenegro-specific ordinary-residence bridge from temporary protection into a long-term status after 04 March 2027 was captured in this pass; conservative baseline is to secure an ordinary residence route before TP expiry."
+  source: src-123
+  date_verified: 2026-05-30
+  confidence: medium-high
+  tags: [temporary-protection, post-2027, transition-bridge, montenegro]
+  notes: "Absence finding based on captured MUP extension page and initial official-law anchors; queue remains open for explicit bridge verification."
+
+- id: claim-montenegro-007
+  topic: climate_first_pass
+  value: "Podgorica has January/July means around 5.7/26.9°C and about 2,475 sunshine hours/year; Budva around 9.4/25.4°C and 2,530 sunshine hours/year; Herceg Novi around 8.9/25.6°C and 2,435 sunshine hours/year."
+  source: src-128
+  date_verified: 2026-05-30
+  confidence: medium
+  tags: [climate, temperature, sunshine-hours, montenegro]
+  notes: "Also relies on src-129 and src-130 for Budva and Herceg Novi."
+
+- id: claim-montenegro-008
+  topic: sunny_days_first_pass
+  value: "Weather in Montenegro gives practical sunny-day heuristics of 270+ sunny days/year for Podgorica, 240+ for Budva, and 200+ for Herceg Novi."
+  source: src-131
+  date_verified: 2026-05-30
+  confidence: medium
+  tags: [climate, sunny-days, montenegro]
+  notes: "Commercial guide; acceptable for first-pass climate DoD at medium confidence, not official climatology."

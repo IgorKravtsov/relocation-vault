@@ -8,6 +8,18 @@ last_updated: 2026-05-30
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-30 — run-024 — montenegro-legalization-climate
+
+- Montenegro profile created from template.
+- Montenegro: depth_score 0 → 1.5 (section 5.2 passed; section 5.1 advanced to partial).
+- Temporary protection captured from Montenegro MUP: protection for persons from Ukraine extended to 04 March 2027, with existing-document exchange / first-time application baseline.
+- Digital-nomad route opened from official GOV.me portal plus a secondary 2026 checklist placeholder; official numeric threshold and dependent mechanics queued for verification.
+- Climate first pass completed for Podgorica, Budva, and Herceg Novi, including January/July temperatures, sunshine hours, and sunny-day heuristics.
+- Sources added: `src-123` … `src-131`.
+- Claims added: `claim-montenegro-001` … `claim-montenegro-008`.
+- Verification queue: 6 → 9 pending/open items (`vq-041` through `vq-043` added).
+- Next: country-deep-dive rotation with Serbia sections 5.1 and 5.2 unless accepted proposals appear.
+
 ## 2026-05-30 — run-023 — verification-climate-clearer-days
 
 - Mode: verification; resolved 5 climate sunny/clear-day blockers (`vq-014`, `vq-018`, `vq-025`, `vq-032`, `vq-040`).
