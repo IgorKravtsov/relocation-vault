@@ -1600,3 +1600,135 @@ Each source entry:
 - **Facts supporting**: direct practical sunny-day heuristics for Podgorica (270+), Budva (240+), and Herceg Novi (200+) used as medium-confidence climate-screening counts (claim-montenegro-008)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-132
+- **Title**: Serbia MFA — Visa regime for entering Serbia: Ukraine
+- **URL**: https://mfa.gov.rs/en/citizens/travel-serbia/visa-regime/ukrajina
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Serbia
+- **Facts supporting**: Ukrainian ordinary-passport holders do not need a visa for Serbia visits up to 90 days within 180 days (claim-serbia-001)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-133
+- **Title**: KIRS / Serbian official consolidated decision — Temporary protection in Serbia for displaced persons coming from Ukraine
+- **URL**: https://rtcm.kirs.gov.rs/wp-content/uploads/2026/04/RS-Privremena-zastita-za-Ukrajince.pdf
+- **Archive**: stable official/public-sector domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-04-18
+- **Date accessed**: 2026-05-30
+- **Used by**: Serbia
+- **Facts supporting**: Serbia Ukraine temporary-protection eligibility, registration by MUP, rights reference, and one-year extension mechanics while reasons persist (claim-serbia-002, claim-serbia-003)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-134
+- **Title**: KIRS — Law on Asylum and Temporary Protection
+- **URL**: https://kirs.gov.rs/media/uploads/Law_on_asylum_and_temporary_prot.pdf
+- **Archive**: stable gov/public-sector domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2020-12-28
+- **Date accessed**: 2026-05-30
+- **Used by**: Serbia
+- **Facts supporting**: legal framework for asylum and temporary protection; family-member definition and Article 76 rights anchor referenced by the Serbia Ukraine TP decision
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-30
+
+## src-135
+- **Title**: Serbia Ministry of Interior — Temporary residence information page
+- **URL**: https://mup.gov.rs/wps/portal/en/information/temporary%20residence/temporary%20residence/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Serbia
+- **Facts supporting**: temporary-residence and single-permit application baseline; route-specific document sections for self-employment and family reunification; e-application context
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-136
+- **Title**: Serbia Ministry of Interior — Law on Foreigners (consolidated through 2023 amendments)
+- **URL**: https://mup.gov.rs/wps/wcm/connect/9e10bf1d-79ad-4a50-a8c1-76b6afb0d6e9/Law+on+Foreigners+2023.pdf?MOD=AJPERES&CVID=pdNziNy
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2023-07-27
+- **Date accessed**: 2026-05-30
+- **Used by**: Serbia
+- **Facts supporting**: temporary-residence grounds; general temporary-residence evidence; single-permit self-employment framework; up-to-3-year residence/single-permit duration; PR after 3 years; absence limits; student-time counting limits (claim-serbia-004, claim-serbia-005, claim-serbia-006)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-30
+
+## src-137
+- **Title**: Welcome to Serbia GOV — Residence and work permit
+- **URL**: https://welcometoserbia.gov.rs/residence-and-work-permit
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Serbia
+- **Facts supporting**: Serbia visa D and single temporary residence/work-permit overview; self-employment, independent professional, and electronic application route for visa-exempt nationals
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-138
+- **Title**: Serbia MFA — Citizenship
+- **URL**: https://www.mfa.gov.rs/en/citizens/services/citizenship
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Serbia
+- **Facts supporting**: ordinary Serbian naturalization requirements for foreigners with permanent residence, including 3 years registered permanent residence and release/proof of release from foreign citizenship (claim-serbia-007)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-30
+
+## src-139
+- **Title**: Visa Free Nomads — Serbia Digital Nomad Visa 2026: Temporary Residence Requirements & Eligibility
+- **URL**: https://visafreenomads.com/guides/digital-nomad-visa/serbia
+- **Archive**: [archive: failed 2026-05-30; not attempted within iteration budget]
+- **Type**: reputable-secondary
+- **Date published**: 2026-04-16
+- **Date accessed**: 2026-05-30
+- **Used by**: Serbia
+- **Facts supporting**: medium-confidence operational placeholder for Serbia self-employment / entrepreneur route, no fixed official minimum income, EUR 1,000 bank-balance placeholder, RSD 22,700 + RSD 420 fee placeholder, 15-day processing, insurance, APR registration, and independent-professional EUR 3,500/month caveat
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-11-30
+
+## src-140
+- **Title**: Climate to Travel — Belgrade climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/serbia/belgrade
+- **Archive**: [archive: failed 2026-05-30; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Serbia
+- **Facts supporting**: Belgrade January/July temperatures, precipitation days, humidity, annual sunshine hours, winter fog/cold and summer heat-wave caveats (claim-serbia-008)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-141
+- **Title**: Climate to Travel — Novi Sad climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/serbia/novi-sad
+- **Archive**: [archive: failed 2026-05-30; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Serbia
+- **Facts supporting**: Novi Sad January/July temperatures, precipitation days, humidity, annual sunshine hours, winter fog/frost and summer heat-wave caveats (claim-serbia-008)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-142
+- **Title**: Climate to Travel — Niš climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/serbia/nis
+- **Archive**: [archive: failed 2026-05-30; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: 2026-05-30
+- **Date accessed**: 2026-05-30
+- **Used by**: Serbia
+- **Facts supporting**: Niš January/July temperatures, precipitation days, humidity, annual sunshine hours, snow-cover and summer heat-wave caveats (claim-serbia-008)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

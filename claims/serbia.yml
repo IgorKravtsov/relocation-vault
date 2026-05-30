@@ -1,0 +1,71 @@
+- id: claim-serbia-001
+  topic: ukrainian_visa_free_entry
+  value: "Serbia MFA states that Ukrainian ordinary-passport holders do not need a visa for visits of up to 90 days within a 180-day period."
+  source: src-132
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [entry, visa-free, ukraine, serbia]
+  notes: "Useful for reconnaissance and in-country filing where the route allows it."
+
+- id: claim-serbia-002
+  topic: temporary_protection_framework
+  value: "Serbia grants temporary protection to displaced persons from Ukraine; the consolidated official decision covers Ukrainian citizens and family members, selected non-Ukrainian protection/residence holders from Ukraine, registration by MUP, and rights under Article 76 of the Law on Asylum and Temporary Protection."
+  source: src-133
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [temporary-protection, ukraine, serbia]
+  notes: "The official text is in Serbian; profile records an English operational summary."
+
+- id: claim-serbia-003
+  topic: temporary_protection_extension_mechanics
+  value: "The 2024 amendment to Serbia's Ukraine temporary-protection decision says temporary protection may be extended for one-year periods while the reasons for which protection was approved persist."
+  source: src-133
+  date_verified: 2026-05-30
+  confidence: medium-high
+  tags: [temporary-protection, extension, post-2027, serbia]
+  notes: "No specific post-04 March 2027 bridge into ordinary residence was captured."
+
+- id: claim-serbia-004
+  topic: temporary_residence_grounds
+  value: "Serbia's Law on Foreigners Article 40 lists temporary-residence grounds including employment, studies, family reunification, immovable-property ownership, humanitarian stay, and other legitimate reasons; employment/specialization grounds use a single permit."
+  source: src-136
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [temporary-residence, law-on-foreigners, serbia]
+  notes: "Digital nomads are mentioned as a possible special Government-defined category, but implementing details remain to be verified."
+
+- id: claim-serbia-005
+  topic: single_permit_duration_and_processing
+  value: "The amended Law on Foreigners allows temporary residence and single permits to be issued for up to 3 years and extended; the competent authority decides on single-permit applications within 15 days from receipt of an orderly request."
+  source: src-136
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [single-permit, self-employment, processing-time, serbia]
+  notes: "Route-specific documents and fees require official page verification."
+
+- id: claim-serbia-006
+  topic: permanent_residence_after_three_years
+  value: "Serbia's Law on Foreigners Article 67 provides permanent residence after 3 years of continuous residence, with absence limits of multiple absences totaling up to 10 months or one absence up to 6 months over the 3-year period."
+  source: src-136
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [permanent-residence, long-term, serbia]
+  notes: "Student residence cannot directly support PR; if changed later, only one-half of student time counts."
+
+- id: claim-serbia-007
+  topic: citizenship_after_permanent_residence
+  value: "Serbia MFA says an ordinary foreign applicant with permanent residence may acquire citizenship if 18+, legally capable, released from foreign citizenship or able to prove release if admitted, registered permanent residence in Serbia for at least 3 uninterrupted years, and signs a statement considering Serbia their country."
+  source: src-138
+  date_verified: 2026-05-30
+  confidence: high
+  tags: [citizenship, naturalization, serbia]
+  notes: "Foreign-citizenship-release condition is a major caveat for Ukrainians under the ordinary route."
+
+- id: claim-serbia-008
+  topic: climate_first_pass
+  value: "Belgrade January/July means are about 1.0/22.8°C with ~2,115 sunshine hours/year; Novi Sad about 1.0/22.4°C with ~2,210 sunshine hours/year; Niš about 1.1/23.0°C with ~2,005 sunshine hours/year."
+  source: src-140
+  date_verified: 2026-05-30
+  confidence: medium
+  tags: [climate, temperature, sunshine-hours, serbia]
+  notes: "Also relies on src-141 and src-142 for Novi Sad and Niš; direct sunny-day counts remain queued."

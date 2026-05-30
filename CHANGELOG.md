@@ -8,6 +8,18 @@ last_updated: 2026-05-30
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-30 — run-025 — serbia-legalization-climate
+
+- Serbia profile created from template.
+- Serbia: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).
+- Legalization first pass captured visa-free entry for Ukrainians, Serbian temporary-protection framework, Law on Foreigners temporary residence / single permits, PR after 3 years, and MFA citizenship baseline.
+- Self-employment / digital-nomad route opened as a medium-confidence placeholder; official implementing checklist, threshold, and dependent mechanics queued for verification.
+- Climate first pass captured Belgrade, Novi Sad, and Niš temperatures, humidity, precipitation, sunshine hours, and comfort caveats; direct sunny/clear-day counts remain queued.
+- Sources added: `src-132` … `src-142`.
+- Claims added: `claim-serbia-001` … `claim-serbia-008`.
+- Verification queue: 9 → 12 pending/open items (`vq-044` through `vq-046` added).
+- Next: verification batch because the queue is above threshold.
+
 ## 2026-05-30 — run-024 — montenegro-legalization-climate
 
 - Montenegro profile created from template.

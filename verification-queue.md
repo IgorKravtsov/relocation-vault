@@ -521,11 +521,41 @@ _(none)_
 - **Status**: pending
 
 ## vq-043 [high priority]
-- **Fact**: "Montenegro permanent residence / citizenship timeline and whether DN, TP, or other temporary-residence time counts toward permanent residence"
+- **Fact**: "Montenegro permanent residence / citizenship timeline and whether digital-nomad, temporary-protection, or ordinary temporary-residence time counts toward permanent residence"
 - **Country**: Montenegro
 - **Section**: 5.1
-- **Current source**: src-125, src-126
-- **Why uncertain**: The official law pages were captured as anchors, but this pass did not extract the relevant PR/citizenship articles or residence-counting exclusions.
-- **Suggested verification**: Extract the Law on Foreign Nationals PDF text or another official-primary explainer for permanent residence, absence limits, citizenship naturalisation, dual-citizenship constraints, and DN/TP counting rules.
+- **Current source**: src-125, src-127
+- **Why uncertain**: This pass captured the official Law on Foreign Nationals document anchor and a secondary DN guide, but did not extract the relevant articles within the iteration budget.
+- **Suggested verification**: Extract GOV.me Law on Foreign Nationals PDF/document text (including permanent residence and citizenship references) and cross-check a 2025/2026 legal explainer if needed.
 - **Created**: 2026-05-30 (run-024)
+- **Status**: pending
+
+## vq-044 [high priority]
+- **Fact**: "Serbia digital-nomad / self-employment official checklist, exact financial threshold, fees, processing route, and spouse/unmarried-partner dependent mechanics"
+- **Country**: Serbia
+- **Section**: 5.1
+- **Current source**: src-135, src-136, src-137, src-139
+- **Why uncertain**: Official sources confirm self-employment/single-permit and mention digital nomads as a possible special category, but this pass did not capture a current official implementing checklist or dependent mechanics for the couple. The income/fee details are from a secondary guide only.
+- **Suggested verification**: Check MUP/eUprava/Welcome to Serbia route-specific forms and fee pages; search for the Government act implementing Article 40(4) digital-nomad categories; verify family reunification for spouse vs unmarried partner.
+- **Created**: 2026-05-30 (run-025)
+- **Status**: pending
+
+## vq-045 [high priority]
+- **Fact**: "Serbia-specific post-temporary-protection bridge for Ukrainians and whether existing Polish residence/TP affects Serbian TP eligibility or benefits"
+- **Country**: Serbia
+- **Section**: 5.1
+- **Current source**: src-133, src-134, src-136
+- **Why uncertain**: The consolidated Serbian TP decision supports annual extension while reasons persist, but no explicit ordinary-residence bridge or Polish-status interaction rule was captured.
+- **Suggested verification**: Check KIRS/MUP Ukraine pages, UNHCR Serbia, current official gazette decisions after 2024, and legal explainers for Ukrainian TP holders in Serbia.
+- **Created**: 2026-05-30 (run-025)
+- **Status**: pending
+
+## vq-046 [medium priority]
+- **Fact**: "Direct annual sunny-day or clear-day counts for Belgrade, Novi Sad, and Niš"
+- **Country**: Serbia
+- **Section**: 5.2
+- **Current source**: src-140, src-141, src-142
+- **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct sunny/clear-day counts.
+- **Suggested verification**: Check WeatherSpark city cloud-cover pages, Serbia hydrometeorological service climate normals, meteoblue chart data, or another source with explicit annual sunny/clear-day counts.
+- **Created**: 2026-05-30 (run-025)
 - **Status**: pending
