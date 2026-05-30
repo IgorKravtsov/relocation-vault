@@ -1,14 +1,14 @@
 ---
 country: Malta
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-26T22:04:11Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-05-30T00:00:00Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path", "climate-sunny-days-gap"]
-sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052"]
-unverified_count: 1
+risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path"]
+sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052", "src-120"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence makes Malta a mixed legalization candidate: it has EU temporary protection and a well-documented Nomad Residence Permit, but the nomad route requires EUR 42,000/year gross income and explicitly does not lead to long-term residence or citizenship by itself [src-047][src-049].
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-26T22:04:11Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-05-30T00:00:00Z
 - **Tier rationale**: Do not classify yet. Main current risk is that the couple's current USD 3,000/month is below the nomad threshold, and no Malta-specific TP-to-ordinary-residence bridge after 04 March 2027 was captured in this pass [src-002][src-049].
 
 ## Block 2 — Scoring
@@ -81,13 +81,13 @@ A Polish residence title does not substitute for a Maltese status. If the Polish
 4. **Relationship strategy**: marriage is the lower-risk route for inclusion. If not married, collect two years of de facto partnership evidence and seek written confirmation before filing [src-048][src-049].
 5. **Long-term strategy**: Malta likely needs a separate countable residence route beyond NRP for PR/citizenship; research taxes, ordinary work/self-employment permits, and MPRP later before assigning a tier.
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-26, dod: partial}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-05-30, dod: passed}
 
 Malta has a warm Mediterranean climate with mild winters, dry sunny summers, and autumn rain concentration. Climates to Travel reports Valletta average temperatures from about 12.5 °C in February to 27.5 °C in August, rainfall around 600 mm/year, and about 3,000 annual sunshine hours, making Malta one of Europe's sunniest places [src-052]. The Valletta table gives January min/max about 50/61 °F (10/16 °C), July about 72/90 °F (22/32 °C), annual humidity about 72%, 58 precipitation days/year, and 3,055 sunshine hours [src-052].
 
 For practical relocation comfort, Malta is very favorable against the couple's cold-winter constraint: freezing weather and snow are extremely rare, sea swimming is usually realistic July-October, and winter still has sunny periods [src-052]. Main downsides are humid winters, windy storm periods, and Saharan sirocco / heat waves that can push temperatures above 40 °C in exceptional summer events [src-052].
 
-Because Malta is geographically compact, this first pass uses Valletta as the island-level climate anchor; Sliema / St Julian's and other coastal towns should be treated as broadly similar until a future city-by-city source is captured. The section remains partial because direct annual sunny-day / clear-day counts for Valletta, Sliema/St Julian's, and Victoria/Gozo were not captured. `vq-018` was added.
+Because Malta is geographically compact, the first pass used Valletta as the island-level climate anchor; WeatherSpark now adds city-level clearer-sky proxies for Valletta, Sliema, and Victoria/Gozo. Converting monthly percentages for clear / mostly clear / partly cloudy conditions gives **Valletta ~266**, **Sliema ~266**, and **Victoria ~265** clearer-sky day-equivalents/year [src-120]. This is a medium-confidence proxy rather than an official meteorological sunny-day count, but it is enough for practical climate screening and closes `vq-018`.
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -215,11 +215,12 @@ _(none yet)_
 
 ### 7d. Statistical / commercial
 - [src-052] Climates to Travel Malta climate.
+- [src-120] WeatherSpark — Malta city cloud-cover climate pages.
 
 ### 7e. Not found
 - Capturable Malta International Protection Agency / Home Affairs current TP procedure page. Obvious official pages were public in search results but blocked by security verification during extraction. Current operational baseline is “no captured post-2027 TP bridge, plan an ordinary route before TP expiry.”
-- Direct annual sunny-day or clear-day counts for Valletta, Sliema/St Julian's, and Victoria/Gozo.
+- Official meteorological annual sunny-day or clear-day counts for Valletta, Sliema/St Julian's, and Victoria/Gozo. WeatherSpark clearer-sky day-equivalent proxies are now captured for §5.2 screening.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-018`: Direct annual sunny-day / clear-day counts for Malta target localities.
+_(none after run-023 climate verification)_

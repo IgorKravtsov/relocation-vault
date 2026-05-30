@@ -1,27 +1,26 @@
 {
   "version": 2,
-  "iteration": 22,
+  "iteration": 23,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-29T22:05:09Z",
+  "last_run_timestamp": "2026-05-30T04:15:07Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Slovenia",
+    "mode": "verification",
+    "country": "multi-country climate",
     "sections": [
-      "5.1",
       "5.2"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": "Slovenia",
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Montenegro",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Opening Slovenia added two verification items and raised the pending queue to 11, above the verification threshold."
+    "reason": "Pending verification queue is below threshold after run-023; resume anti-clustered rotation with a fresh depth-0 Tier-2-hint country."
   },
   "countries": {
     "Spain": {
@@ -135,11 +134,12 @@
     "Cyprus": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -155,10 +155,9 @@
       "risk_flags": [
         "no-clear-post-2027-tp-bridge",
         "dn-income-above-current-budget",
-        "civil-union-needed-for-partner-dependency",
-        "climate-sunny-days-gap"
+        "civil-union-needed-for-partner-dependency"
       ],
-      "last_iteration": 12
+      "last_iteration": 23
     },
     "Croatia": {
       "tier": null,
@@ -190,11 +189,12 @@
     "Malta": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -210,10 +210,9 @@
       "risk_flags": [
         "no-clear-post-2027-tp-bridge",
         "nomad-income-above-current-budget",
-        "nomad-not-pr-citizenship-path",
-        "climate-sunny-days-gap"
+        "nomad-not-pr-citizenship-path"
       ],
-      "last_iteration": 12
+      "last_iteration": 23
     },
     "Czech Republic": {
       "tier": null,
@@ -274,11 +273,12 @@
     "Romania": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -293,19 +293,19 @@
       ],
       "risk_flags": [
         "dn-income-above-current-budget",
-        "climate-sunny-days-gap",
         "no-captured-post-2027-tp-bridge"
       ],
-      "last_iteration": 15
+      "last_iteration": 23
     },
     "Bulgaria": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -321,10 +321,9 @@
       "risk_flags": [
         "no-captured-post-2027-tp-bridge",
         "self-employment-permit-3-year-cap",
-        "climate-sunny-days-gap",
         "dual-citizenship-restriction-for-non-eu-naturalized"
       ],
-      "last_iteration": 16
+      "last_iteration": 23
     },
     "Hungary": {
       "tier": null,
@@ -387,11 +386,12 @@
     "Slovenia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -406,10 +406,9 @@
       ],
       "risk_flags": [
         "digital-nomad-income-formula-needs-current-value",
-        "digital-nomad-not-renewable",
-        "climate-sunny-days-gap"
+        "digital-nomad-not-renewable"
       ],
-      "last_iteration": 22
+      "last_iteration": 23
     },
     "Montenegro": {
       "tier": null,
@@ -830,8 +829,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 11,
-  "sources_count": 117,
+  "verification_queue_size": 6,
+  "sources_count": 122,
   "claims_count": 95,
   "proposals_pending": 0
 }

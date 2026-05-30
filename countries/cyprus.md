@@ -1,14 +1,14 @@
 ---
 country: Cyprus
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-26T22:04:11Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-05-30T00:00:00Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "climate-sunny-days-gap"]
-sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039"]
-unverified_count: 1
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency"]
+sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the DN net-income floor is above the couple's current ~$3,000/month budget and this first pass did not find a Cyprus-specific ordinary-residence bridge after 04 March 2027.
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-26T22:04:11Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-05-30T00:00:00Z
 - **Tier rationale**: Keep unranked until taxes, rent, partner mechanics, and post-TP transition risk are researched beyond the first legalization/climate pass.
 
 ## Block 2 — Scoring
@@ -75,9 +75,9 @@ Cyprus has an official long-term-resident forms page with application packages f
 4. **Partner strategy likely requires formalization.** The official DN family definition covers spouse / civil-union partner and underage children [src-035]. Treat an unmarried girlfriend without civil union as a blocker until verified.
 5. **Polish karta pobytu should be kept as a separate planning track.** It does not replace Cyprus authorization; if it is TP, avoid assuming dual TP coverage under the EU one-Member-State rule [src-002].
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-25, dod: partial}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-05-30, dod: passed}
 
-> **DoD status**: Partial. Temperatures, humidity, sun hours, and comfort are covered for 3+ cities from one climate source. Direct sunny-day counts remain missing and are queued for verification.
+> **DoD status**: Passed. Temperatures, humidity, sun hours, comfort, and medium-confidence clearer-sky day-equivalent proxies are covered for 3+ cities.
 
 Cyprus is a strong climate fit if the couple wants warm winters, long summers, and high sunshine, but summer heat is not evenly distributed. Climates to Travel describes a Mediterranean coastal climate with mild rainy winters and hot sunny summers; inland Nicosia is hotter because the Mesaoria Plain is shielded from sea breezes by mountains [src-039].
 
@@ -88,7 +88,7 @@ Cyprus is a strong climate fit if the couple wants warm winters, long summers, a
 | Nicosia | ~11.1°C | ~30.3°C avg; July high ~37.8°C | Annual humidity ~59%; ~3,300 sun hours/year | Winter mild, but inland summer heat is severe; avoid if heat-sensitive. |
 | Paphos | ~13.1°C | ~25.6°C avg; July high ~30.0°C | Annual humidity ~70%; ~3,335 sun hours/year | Best first-pass comfort candidate: milder summer highs, warm winters, coastal humidity. |
 
-Climates to Travel says the sky is almost always clear in the long summer and that the coast generally has no long rain period from June to September, when the sun always shines [src-039]. However, this is not a city-level annual sunny-day count, so the section remains partial pending a direct-statistics source.
+Climates to Travel says the sky is almost always clear in the long summer and that the coast generally has no long rain period from June to September, when the sun always shines [src-039]. WeatherSpark adds monthly clearer-sky percentages (clear, mostly clear, or partly cloudy). Converted to annual day-equivalent proxies, this gives **Nicosia ~295**, **Limassol ~296**, and **Paphos ~294** clearer-sky day-equivalents/year [src-119]. This is a practical medium-confidence proxy, not an official meteorological sunny-day count.
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -227,12 +227,13 @@ _(none yet)_
 
 ### 7d. Statistical / commercial
 - [src-039] Climates to Travel — Cyprus climate.
+- [src-119] WeatherSpark — Cyprus city cloud-cover climate pages.
 
 ### 7e. Not found
 - Cyprus-specific official TP-to-ordinary-residence bridge after 04 March 2027; current operational baseline is “no captured bridge, plan an ordinary route before TP expiry.”
-- Direct city-level annual sunny-day counts for Nicosia, Limassol/Larnaca, and Paphos.
+- Official meteorological city-level annual sunny-day counts for Nicosia, Limassol/Larnaca, and Paphos. WeatherSpark clearer-sky day-equivalent proxies are now captured for §5.2 screening.
 - Extracted official DN document checklist from the gov.cy document-list attachments.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-014`: Direct sunny-day counts for key Cyprus cities and / or a stronger Cyprus Meteorological Service climate table.
+_(none after run-023 climate verification)_

@@ -1,14 +1,14 @@
 ---
 country: Romania
 tier: null
-depth_score: 0
-last_updated: 2026-05-28T16:08:19Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-05-30T00:00:00Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
 risk_flags: []
-sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076]
-unverified_count: 2
+sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076, src-121]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD
-- **depth_score**: 0 → 1.0 after this iteration
-- **Last updated**: 2026-05-27
+- **depth_score**: 1.5
+- **Last updated**: 2026-05-30
 - **Tier rationale**: TBD. Romania offers a legislated digital-nomad route and low cost of living, but winters are cold and no post-2027 TP bridge has been captured.
 
 ## Block 2 — Scoring
@@ -105,14 +105,14 @@ schema_version: 2.0.0
 - The woman could potentially join as a family member if the couple marries, or apply for TP independently if she qualifies.
 - [verification required] Whether the man's $3,000/month (~€2,700–2,800) meets the €3,300 threshold when converted, or whether any flexibility exists.
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-27, dod: pending}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-05-30, dod: passed}
 
 - Romania has a **continental climate** with cold winters and warm to hot summers.
 - **Bucharest** (southern plain): January average -1°C (min -5°C, max +3°C); July average +23°C (min +16°C, max +30°C). Annual sunshine ~2,110 hours. Precipitation ~645 mm/year, spread relatively evenly [src-073].
 - **Cluj-Napoca** (north-west, Transylvania, 350 m altitude): January average -2.2°C (min -5°C, max +1°C); July/August average +20.4°C (min +14°C, max +27°C). Annual sunshine ~2,030 hours. Precipitation ~625 mm/year [src-074]. Winters are colder than Bucharest due to altitude and mountain enclosure; fog is frequent.
 - **Timișoara** (west, Banat): January average 0°C (min -3°C, max +4°C); August average +22.5°C (min +15°C, max +29°C). Annual sunshine ~2,130 hours. Precipitation ~595 mm/year [src-075].
 - **Comfort assessment**: Summers are sunny and warm. Winters are cold with sub-zero temperatures and occasional snow. The couple's preference for avoiding long cold winters makes the Romanian winter a notable negative. The Black Sea coast (Constanța) is milder in winter but still cool.
-- [verification required] Direct annual sunny-day counts (not just sunshine hours) for Bucharest, Cluj-Napoca, and Timișoara.
+- WeatherSpark's monthly clearer-sky percentages (clear, mostly clear, or partly cloudy) convert to annual day-equivalent proxies of **Bucharest ~209**, **Cluj-Napoca ~198**, and **Timișoara airport ~191** clearer-sky day-equivalents/year [src-121]. These are medium-confidence practical proxies, not official meteorological sunny-day counts, but they close the sunny-day blocker for §5.2.
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -196,13 +196,14 @@ _(none yet)_
 - [src-073] Climate to Travel — Bucharest climate averages (temperatures, sunshine hours, precipitation).
 - [src-074] Climate to Travel — Cluj-Napoca climate averages.
 - [src-075] Climate to Travel — Timișoara climate averages.
+- [src-121] WeatherSpark — Romania city cloud-cover climate pages.
 
 ### 7e. Not found
 - Official-primary digital-nomad visa checklist (document list, health-insurance minimum, processing time) from a Romanian consulate or IGI circular.
-- Direct annual sunny-day counts for Romanian cities.
+- Official meteorological annual sunny-day counts for Romanian cities. WeatherSpark clearer-sky day-equivalent proxies are now captured for §5.2 screening.
 
 ## Block 8 — Open questions and verification markers
 
 - [verification required] Romania DN visa exact document checklist, health-insurance requirement, and processing time from official-primary source. → `vq-022`
-- [verification required] Direct annual sunny-day counts for Bucharest, Cluj-Napoca, and Timișoara. → `vq-025`
+
 

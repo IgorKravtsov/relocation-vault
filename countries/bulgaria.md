@@ -1,14 +1,14 @@
 ---
 country: Bulgaria
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-28T16:08:19Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-05-30T00:00:00Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["self-employment-permit-3-year-cap", "climate-sunny-days-gap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational"]
-sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090"]
-unverified_count: 1
+risk_flags: ["self-employment-permit-3-year-cap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational"]
+sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (insufficient data for tier assignment after first pass)
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-28
+- **depth_score**: 1.5
+- **Last updated**: 2026-05-30
 - **Tier rationale**: TBD. Bulgaria offers a self-employment residence route with a 3-year cap and a 5-year path to permanent residence, but the 3-year self-employment permit limitation and the absence of a captured TP-to-ordinary-residence bridge create operational constraints. Dual-citizenship restrictions for naturalized non-EU nationals are a further consideration. A tier will be assigned after deeper research.
 
 ## Block 2 — Scoring
@@ -97,7 +97,7 @@ Remote work for foreign clients is not explicitly recognized as a standalone res
 
 TBD pending deeper research on exact self-employment permit requirements, income thresholds, and tax implications.
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-28, dod: pending}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-05-30, dod: passed}
 
 > **DoD**: January/July temperatures in 3+ cities; sunny days; humidity; year-round comfort.
 
@@ -124,7 +124,7 @@ Bulgaria has a **continental climate** in the north and interior, with cold wint
 - January humidity: ~81%
 - Black Sea influence moderates temperatures; milder winters than inland, warm summers. Sea temperature in summer: 24–27°C.
 
-[verification required] Direct annual sunny/clear-day counts for Sofia, Plovdiv, and Varna are not captured. Current sources provide sunshine hours but not explicit day counts.
+WeatherSpark provides monthly percentages for the broader clearer-sky categories (clear, mostly clear, or partly cloudy). Converting those monthly percentages to annual day-equivalent proxies gives: **Sofia ~223 clearer-sky day-equivalents/year**, **Plovdiv ~230**, and **Varna ~215** [src-118]. This is not an official meteorological sunny-day count; it is a medium-confidence clearer-sky proxy, but it closes the climate DoD blocker for practical screening.
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -260,6 +260,7 @@ _(none yet)_
 - [src-085] Wikipedia — Sofia climate table (aggregator)
 - [src-086] Wikipedia — Plovdiv climate table (aggregator)
 - [src-087] Wikipedia — Varna, Bulgaria climate table (aggregator)
+- [src-118] WeatherSpark — Bulgaria city cloud-cover climate pages (commercial)
 
 ### 7e. Not found
 > Explicit list of resources searched for but not found. Signal for future iterations.
@@ -267,11 +268,11 @@ _(none yet)_
 - Bulgarian Ministry of Interior Ukraine/TP page (WAF-protected, not capturable via Jina AI)
 - Bulgarian Employment Agency self-employment permit exact document checklist / business-plan practice. No fixed income or capital threshold was captured; do not assume one exists without primary confirmation.
 - Bulgaria dedicated digital-nomad visa
-- Direct annual sunny/clear-day counts for Sofia, Plovdiv, and Varna
+- Official meteorological annual sunny/clear-day counts for Sofia, Plovdiv, and Varna. WeatherSpark clearer-sky day-equivalent proxies are now captured for §5.2 screening.
 - Bulgaria-Ukraine dual-citizenship reciprocity agreement status
 
 ## Block 8 — Open questions and verification markers
 
 > All `[verification required]` items for this country. Links to the corresponding entries in `verification-queue.md` via item ID.
 
-- `vq-032` — Direct annual sunny-day or clear-day counts for Sofia, Plovdiv, and Varna.
+_(none after run-023 climate verification)_

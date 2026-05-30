@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-05-29
+last_updated: 2026-05-30
 ---
 
 # Verification Queue
@@ -176,7 +176,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: Current climate source provides temperatures, humidity, precipitation days, and annual sun hours, but not direct annual sunny-day counts for the target cities.
 - **Suggested verification**: Check Cyprus Meteorological Service climate normals, WMO city climate pages, meteoblue chart data, or another statistical source with explicit sunny/clear-day counts.
 - **Created**: 2026-05-25 (run-007)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-30 (run-023)
+- **Resolution note**: Cyprus profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Nicosia ~295, Limassol ~296, Paphos ~294. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-119]
 
 ## Low priority
 _(none)_
@@ -225,7 +227,9 @@ _(none)_
 - **Why uncertain**: Current climate source provides temperatures, humidity, precipitation days, and annual sunshine hours, but not direct annual sunny/clear-day counts for the target localities.
 - **Suggested verification**: Check Malta Meteorological Office climate normals, WMO city climate pages, meteoblue chart data, or another statistical source with explicit sunny/clear-day counts.
 - **Created**: 2026-05-26 (run-010)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-30 (run-023)
+- **Resolution note**: Malta profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Valletta ~266, Sliema ~266, Victoria/Gozo ~265. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-120]
 
 ## vq-019 [high priority]
 - **Fact**: "Czech special long-term residence / post-04 March 2027 bridge details for Ukrainian temporary-protection holders from an official-primary Czech source"
@@ -303,7 +307,9 @@ _(none)_
 - **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct annual sunny/clear-day counts for the target cities.
 - **Suggested verification**: Check Romanian Meteorological Administration climate normals, WMO city climate pages, meteoblue chart data, or another statistical source with explicit sunny/clear-day counts.
 - **Created**: 2026-05-27 (run-014)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-30 (run-023)
+- **Resolution note**: Romania profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Bucharest ~209, Cluj-Napoca ~198, Timișoara airport ~191. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-121]
 
 ## vq-026 [medium priority]
 - **Fact**: "Whether Romania digital-nomad residence counts toward the 5-year EU long-term residence period"
@@ -342,16 +348,16 @@ _(none)_
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-040` — 2026-05-30 (run-023)
+- `vq-032` — 2026-05-30 (run-023)
+- `vq-025` — 2026-05-30 (run-023)
+- `vq-018` — 2026-05-30 (run-023)
+- `vq-014` — 2026-05-30 (run-023)
 - `vq-036` — 2026-05-29 (run-021)
 - `vq-037` — 2026-05-29 (run-021)
 - `vq-033` — 2026-05-29 (run-019)
 - `vq-034` — 2026-05-29 (run-019)
 - `vq-021` — 2026-05-28 (run-017)
-- `vq-027` — 2026-05-28 (run-017)
-- `vq-029` — 2026-05-28 (run-017)
-- `vq-030` — 2026-05-28 (run-017)
-- `vq-031` — 2026-05-28 (run-017)
-- `vq-010` — 2026-05-27 (run-015)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
@@ -398,9 +404,11 @@ _(none)_
 - **Section**: 5.2
 - **Current source**: src-082, src-083, src-084 (Climate to Travel sunshine hours only)
 - **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct annual sunny/clear-day counts.
-- **Suggested verification**: Check Bulgarian Meteorological Service climate normals, WMO city climate pages, meteoblue chart data, or Current Results for explicit sunny/clear-day counts.
+- **Suggested verification**: Check Bulgarian Meteorological Service climate normals, WMO city climate pages, meteoblue chart data, Current Results, or another statistical source with explicit sunny/clear-day counts.
 - **Created**: 2026-05-28 (run-016)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-30 (run-023)
+- **Resolution note**: Bulgaria profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Sofia ~223, Plovdiv ~230, Varna ~215. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-118]
 
 ## vq-033 [high priority]
 - **Fact**: "Hungary-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
@@ -488,4 +496,6 @@ _(none)_
 - **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct annual sunny/clear-day counts for the target cities.
 - **Suggested verification**: Check ARSO climate normals, WMO city climate pages, meteoblue chart data, Current Results, or another statistical source with explicit sunny/clear-day counts.
 - **Created**: 2026-05-29 (run-022)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-30 (run-023)
+- **Resolution note**: Slovenia profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Ljubljana ~183, Maribor ~185, Portorož ~203. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-122]

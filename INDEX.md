@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-05-29
+last_updated: 2026-05-30
 ---
 
 # INDEX
@@ -14,16 +14,16 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Portugal | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 15 | `countries/portugal.md` |
 | Italy | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/italy.md` |
 | Greece | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/greece.md` |
-| Cyprus | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 12 | `countries/cyprus.md` |
+| Cyprus | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/cyprus.md` |
 | Croatia | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/croatia.md` |
-| Malta | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 12 | `countries/malta.md` |
+| Malta | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/malta.md` |
 | Czech Republic | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 12 | `countries/czech-republic.md` |
 | Poland | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 13 | `countries/poland.md` |
-| Romania | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 15 | `countries/romania.md` |
-| Bulgaria | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 16 | `countries/bulgaria.md` |
+| Romania | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/romania.md` |
+| Bulgaria | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/bulgaria.md` |
 | Hungary | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 19 | `countries/hungary.md` |
 | Slovakia | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 21 | `countries/slovakia.md` |
-| Slovenia | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 22 | `countries/slovenia.md` |
+| Slovenia | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/slovenia.md` |
 | Montenegro | europe-non-eu | 2 | — | 0 | — | — | — |
 | Serbia | europe-non-eu | 2 | — | 0 | — | — | — |
 | Turkey | europe-non-eu | 2 | — | 0 | — | — | — |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 14
-- **Average depth_score**: 0.50
+- **Average depth_score**: 0.58

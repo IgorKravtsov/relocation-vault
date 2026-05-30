@@ -1,12 +1,22 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-05-29
+last_updated: 2026-05-30
 ---
 
 # CHANGELOG
 
 Brief delta per iteration. Append-only.
+
+## 2026-05-30 — run-023 — verification-climate-clearer-days
+
+- Mode: verification; resolved 5 climate sunny/clear-day blockers (`vq-014`, `vq-018`, `vq-025`, `vq-032`, `vq-040`).
+- Cyprus, Malta, Romania, Bulgaria, and Slovenia: §5.2 advanced from partial to passed using WeatherSpark monthly clearer-sky percentages converted into annual day-equivalent proxies.
+- Depth changes: Cyprus, Malta, Romania, Bulgaria, and Slovenia each +0.5 → 1.5.
+- Sources added: `src-118` … `src-122`.
+- Claims added: none.
+- Verification queue: 11 → 6 pending/open items.
+- Next: resume country-deep-dive rotation with Montenegro sections 5.1 and 5.2 unless accepted proposals appear.
 
 ## 2026-05-29 — run-022 — slovenia-legalization-climate
 

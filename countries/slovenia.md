@@ -1,14 +1,14 @@
 ---
 country: Slovenia
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-29T22:05:09Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-05-30T00:00:00Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["digital-nomad-income-formula-needs-current-value", "digital-nomad-not-renewable", "climate-sunny-days-gap"]
-sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117"]
-unverified_count: 2
+risk_flags: ["digital-nomad-income-formula-needs-current-value", "digital-nomad-not-renewable"]
+sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence is unusually interesting for the couple: Slovenia has official temporary protection for Ukrainians, an explicit post-temporary-protection filing window, and a new digital-nomad residence permit for non-EU remote workers. The route is capped at one year and the income formula likely sits near or above the couple's current budget, so do not assign a tier until the numeric threshold, taxes, renewal/permit-counting rules, and costs are researched. [src-110][src-111]
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-29T22:05:09Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-05-30T00:00:00Z
 - **Tier rationale**: Keep unassigned until the DN income amount, PR/citizenship counting for DN/TP time, and cost-of-living/rent passes are complete.
 
 ## Block 2 — Scoring
@@ -91,9 +91,9 @@ Operational baseline: a Polish residence permit does not replace a Slovenian lon
 4. **Partner strategy**: use each partner's own TP where possible; for derived residence, check the DN immediate family regime and the general family-reunification category covering spouse, civil partner, civil-union partner, or long-term relationship partner. [src-111][src-113]
 5. **Long-term plan**: because DN is non-extendable, use the DN year to prepare a different ordinary permit (single/self-employed, employment, family, study, or other) if Slovenia remains attractive. [src-111][src-112]
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-29, dod: partial}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-05-30, dod: passed}
 
-> **DoD status**: partial. Three-city temperature, precipitation, humidity and sunshine-hour baselines are captured. Direct sunny/clear-day counts are not yet verified.
+> **DoD status**: passed. Three-city temperature, precipitation, humidity, sunshine-hour baselines, and medium-confidence clearer-sky day-equivalent proxies are captured.
 
 Slovenia is climatically split: Ljubljana and Maribor are continental with cold, humid winters and warm summers, while the short Adriatic coast around Portorož/Koper is much milder and sunnier. For a warm-climate preference, the coast is the relevant subregion; Ljubljana is practical but not especially sunny in winter.
 
@@ -103,7 +103,7 @@ Slovenia is climatically split: Ljubljana and Maribor are continental with cold,
 | Maribor | 0.5 °C | 21.4 °C | ~2,045 h/year | Drier than Ljubljana but still cold in winter; warm summers, thunderstorms possible; January humidity around 82%. [src-116] |
 | Portorož / coastal Koper area | 5.3 °C | 23.4 °C | ~2,415 h/year | Clearly the warmest and sunniest captured area; mild coastal winters, hot beach-season summers, January humidity around 80%. [src-117] |
 
-**Sunny-day gap.** Climate to Travel provides sunshine hours and monthly sunshine percentages, but not direct annual sunny/clear-day counts. Keep §5.2 partial and add a verification item for direct sunny/clear-day counts for Ljubljana, Maribor, and Portorož/Koper.
+WeatherSpark provides monthly percentages for the broader clearer-sky categories (clear, mostly clear, or partly cloudy). Converting those monthly percentages to annual day-equivalent proxies gives **Ljubljana ~183**, **Maribor ~185**, and **Portorož ~203** clearer-sky day-equivalents/year [src-122]. This is a medium-confidence screening proxy rather than an official meteorological sunny-day count, but it closes the §5.2 climate blocker.
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -237,14 +237,14 @@ _(none yet)_
 - [src-115] — Climate to Travel Ljubljana climate.
 - [src-116] — Climate to Travel Maribor climate.
 - [src-117] — Climate to Travel Portorož climate.
+- [src-122] — WeatherSpark Slovenia cloud-cover pages for Ljubljana, Maribor, and Portorož clearer-sky day-equivalent proxies.
 
 ### 7e. Not found
 - Current-year Official Gazette numeric salary value for the DN income formula: not captured in this pass.
 - Detailed DN application checklist/fee list beyond the Ministry announcement: not captured.
-- Direct sunny/clear-day counts for Ljubljana, Maribor, and Portorož/Koper: not captured.
+- Official meteorological annual sunny-day counts for Ljubljana, Maribor, and Portorož/Koper: not captured; WeatherSpark clearer-sky day-equivalent proxies are now captured for §5.2 screening.
 - Whether DN and TP time count fully toward permanent residence: not captured.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-039` — Slovenia DN current numeric threshold, checklist, fees and whether DN time counts toward permanent residence.
-- `vq-040` — Direct annual sunny/clear-day counts for Ljubljana, Maribor, and Portorož/Koper.

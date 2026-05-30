@@ -1432,3 +1432,63 @@ Each source entry:
 - **Facts supporting**: Portorož/coastal Slovenia January/July temperatures, precipitation, humidity, annual sunshine hours (~2,415), sea temperature, and mild coastal climate comfort baseline (claim-slovenia-008)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-118
+- **Title**: WeatherSpark — Bulgaria city cloud-cover climate pages (Sofia, Plovdiv, Varna)
+- **URL**: https://weatherspark.com/countries/BG
+- **Archive**: [archive: failed 2026-05-30; Wayback returned 429]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Bulgaria
+- **Facts supporting**: monthly percentages of time in the clearer cloud-cover categories (clear / mostly clear / partly cloudy) for Sofia, Plovdiv, and Varna; annual clearer-day-equivalent proxies calculated from monthly percentages
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-119
+- **Title**: WeatherSpark — Cyprus city cloud-cover climate pages (Nicosia, Limassol, Paphos)
+- **URL**: https://weatherspark.com/countries/CY
+- **Archive**: [archive: failed 2026-05-30; Wayback returned 429]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Cyprus
+- **Facts supporting**: monthly percentages of time in the clearer cloud-cover categories for Nicosia, Limassol, and Paphos; annual clearer-day-equivalent proxies calculated from monthly percentages
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-120
+- **Title**: WeatherSpark — Malta city cloud-cover climate pages (Valletta, Sliema, Victoria)
+- **URL**: https://weatherspark.com/countries/MT
+- **Archive**: [archive: failed 2026-05-30; Wayback returned 429]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Malta
+- **Facts supporting**: monthly percentages of time in the clearer cloud-cover categories for Valletta, Sliema, and Victoria/Gozo; annual clearer-day-equivalent proxies calculated from monthly percentages
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-121
+- **Title**: WeatherSpark — Romania city cloud-cover climate pages (Bucharest, Cluj-Napoca, Timișoara)
+- **URL**: https://weatherspark.com/countries/RO
+- **Archive**: [archive: failed 2026-05-30; Wayback returned 429]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Romania
+- **Facts supporting**: monthly percentages of time in the clearer cloud-cover categories for Bucharest, Cluj-Napoca, and Timișoara airport; annual clearer-day-equivalent proxies calculated from monthly percentages
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-122
+- **Title**: WeatherSpark — Slovenia city cloud-cover climate pages (Ljubljana, Maribor, Portorož)
+- **URL**: https://weatherspark.com/countries/SI
+- **Archive**: [archive: failed 2026-05-30; Wayback returned 429]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-30
+- **Used by**: Slovenia
+- **Facts supporting**: monthly percentages of time in the clearer cloud-cover categories for Ljubljana, Maribor, and Portorož; annual clearer-day-equivalent proxies calculated from monthly percentages
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
