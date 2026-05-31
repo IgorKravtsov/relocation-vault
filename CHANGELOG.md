@@ -8,6 +8,15 @@ last_updated: 2026-05-31
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-31 — run-030 — verification-turkey-climate-clearer-days
+
+- Mode: verification; resolved Turkey climate blocker `vq-050` at medium confidence.
+- Turkey: depth_score 1.0 → 1.5 (section 5.2 passed; section 5.1 remains partial).
+- Added WeatherSpark clearer-sky day-equivalent proxies: Istanbul ~231 days/year and Izmir ~266 days/year; Antalya remains represented by ~2,865 annual sunshine hours.
+- Sources added: `src-162`, `src-163`.
+- Verification queue: 10 → 9 pending/open items.
+- Next: continue verification, prioritizing Georgia legal blockers and older climate sunny-day gaps.
+
 ## 2026-05-31 — run-029 — georgia-legalization-climate
 
 - Georgia profile created from template.

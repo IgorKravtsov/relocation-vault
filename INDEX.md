@@ -26,7 +26,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Slovenia | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/slovenia.md` |
 | Montenegro | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 26 | `countries/montenegro.md` |
 | Serbia | europe-non-eu | 2 | — | 1.0 | partial: 5.1, 5.2 | 26 | `countries/serbia.md` |
-| Turkey | europe-non-eu | 2 | — | 1.0 | partial: 5.1, 5.2 | 28 | `countries/turkey.md` |
+| Turkey | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 30 | `countries/turkey.md` |
 | Georgia | europe-non-eu | 2 | — | 1.0 | partial: 5.1, 5.2 | 29 | `countries/georgia.md` |
 | Albania | balkans-east | 2 | — | 0 | — | — | — |
 | North Macedonia | balkans-east | 3 | — | 0 | — | — | — |

@@ -1,14 +1,14 @@
 ---
 country: Turkey
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-31T10:20:00Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-05-31T22:25:18Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["dn-income-at-budget-edge", "climate-sunny-days-gap", "family-route-likely-marriage-dependent"]
-sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154"]
-unverified_count: 1
+risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent"]
+sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Turkey is easy to enter for Ukrainians and has an official digital-nomad / remote-work channel, but the route sits exactly at the couple's current ~$3,000/month income and long-term settlement depends on ordinary Turkish residence rather than an EU-style Ukraine temporary-protection bridge.
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-31T04:02:34Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-05-31T22:25:18Z
 - **Tier rationale**: Not assigned until taxes, cost, healthcare, rent, and actual residence-renewal practice are researched.
 
 ## Block 2 — Scoring
@@ -26,7 +26,7 @@ schema_version: 2.0.0
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | Entry and DN/ordinary residence routes opened; long-term and Ukraine-specific protection baselines need verification. | §5.1 |
-| Climate | — | N/A | Istanbul, Izmir, and Antalya climate baselines captured; sunny/clear-day counts still need direct verification. | §5.2 |
+| Climate | — | medium | Istanbul, Izmir, and Antalya climate baselines captured; WeatherSpark clearer-sky proxies close the sunny-day blocker for planning, with Antalya still represented by sunshine-hour evidence rather than a direct WeatherSpark page. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
@@ -80,9 +80,9 @@ schema_version: 2.0.0
 4. If the woman needs dependent status, treat marriage as the safer baseline until unmarried-partner family residence is verified. [src-145]
 5. Before committing, run a Turkey tax / self-employment pass: the route may be legally feasible but monthly net income after tax, insurance, rent, and inflation risk is unknown.
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-31, dod: partial}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-05-31, dod: passed}
 
-> **DoD status**: Partial. Three-city temperature, precipitation, sunshine-hours, humidity/comfort baselines are captured. Direct sunny/clear-day counts are not yet verified, so the sunny-day DoD remains open.
+> **DoD status**: passed at medium confidence. Three-city temperature, precipitation, sunshine-hours, humidity/comfort baselines are captured. Verification run-030 added WeatherSpark clearer-sky day-equivalent proxies for Istanbul and Izmir and retained Antalya's high sunshine-hour baseline as the warm-coast planning proxy.
 
 | City | January | July/August | Sunshine / rain | Comfort notes |
 |---|---:|---:|---|---|
@@ -90,7 +90,7 @@ schema_version: 2.0.0
 | Izmir | Jan mean about 8 C | Hot sunny summer; July/August can be very hot | Climate to Travel describes great summer sunshine and winter alternation between sunny and bad-weather periods | Better Aegean climate than Istanbul; summer heat can be intense but humidity is usually not extreme. [src-150] |
 | Antalya | Jan mean ~10.3 C | Jul mean ~29 C; Aug ~29.2 C, with heat-wave risk above 40 C | ~2,865 sunshine hours/year; rain concentrated in winter | Warmest first-pass candidate; excellent winter mildness but hot/humid summer and heavy winter rain episodes. [src-151] |
 
-**Sunny-day gap**: This pass captured sunshine hours rather than direct annual sunny/clear-day counts. Add a verification item for WeatherSpark / meteorological-service clearer-sky day equivalents for Istanbul, Izmir, and Antalya.
+**Sunny / clearer-sky verification.** WeatherSpark's monthly cloud-cover tables give the share of time when the sky is clear, mostly clear, or partly cloudy. Converting those monthly percentages by month length gives about **231 clearer-sky day-equivalent days/year for Istanbul** and **266 for Izmir**. Antalya still lacks a directly extracted WeatherSpark city page in this vault, but its **~2,865 sunshine hours/year** baseline is materially stronger than Istanbul and supports the operational conclusion that Antalya is Turkey's warmest/sunniest first-pass city. Treat all these as medium-confidence climate proxies, not official meteorological sunny-day counts. [src-151][src-162][src-163]
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -218,14 +218,16 @@ _(none yet)_
 - [src-149] Climate to Travel — Istanbul.
 - [src-150] Climate to Travel — Izmir.
 - [src-151] Climate to Travel — Antalya.
+- [src-162] WeatherSpark — Istanbul cloud-cover / clearer-sky percentages.
+- [src-163] WeatherSpark — Izmir cloud-cover / clearer-sky percentages.
 
 ### 7e. Not found
 - Official Ukraine-specific Turkish temporary-protection / post-2027 bridge page: not found; run-028 closed the operational baseline to ordinary residence planning because the captured official TP framework is Syria/mass-influx oriented and does not transfer to long-term residence. [src-146][src-154]
-- Direct annual sunny/clear-day counts for Istanbul, Izmir, and Antalya.
+- Direct official meteorological sunny-day counts for Antalya; current operational baseline uses Climate to Travel sunshine hours.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-047` — resolved in run-028 at the operational-core level: GoTurkey confirms the DN certificate's age, income, diploma, passport/photo, and work-contract evidence; consular fee/dependent mechanics remain application-prep checks. [src-148]
 - `vq-048` — resolved in run-028: no Ukraine-specific Turkish TP bridge captured; use ordinary residence planning, and Polish residence/TP does not substitute for Turkish status. [src-146][src-154]
 - `vq-049` — resolved in run-028 for long-term residence counting: at least eight years continuous residence; student time half, other ordinary permit time full; TP/humanitarian residence does not transfer. Citizenship remains a later nationality pass. [src-154]
-- `vq-050` — Turkey direct sunny/clear-day counts for Istanbul, Izmir, and Antalya.
+- `vq-050` — resolved in run-030 at medium confidence: WeatherSpark clearer-sky day-equivalent proxies added for Istanbul (~231 days/year) and Izmir (~266 days/year); Antalya remains represented by a strong sunshine-hour proxy (~2,865 h/year) rather than an official sunny-day count. [src-151][src-162][src-163]

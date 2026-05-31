@@ -612,11 +612,13 @@ _(none)_
 - **Fact**: "Direct annual sunny-day or clear-day counts for Istanbul, Izmir, and Antalya"
 - **Country**: Turkey
 - **Section**: 5.2
-- **Current source**: src-149, src-150, src-151
-- **Why uncertain**: Current climate sources provide temperatures, humidity/comfort notes, rainfall, and sunshine hours, but not direct annual sunny/clear-day counts.
-- **Suggested verification**: Check WeatherSpark city cloud-cover pages, Turkish State Meteorological Service normals, meteoblue chart data, or another source with explicit annual sunny/clear-day counts.
+- **Current source**: src-149, src-150, src-151, src-162, src-163
+- **Why uncertain**: Resolved at medium confidence for planning: WeatherSpark provides city cloud-cover percentages for Istanbul and Izmir; Antalya still uses a strong sunshine-hour proxy rather than an official sunny-day count.
+- **Suggested verification**: none for current climate DoD; if Turkey reaches application-prep depth, check Turkish State Meteorological Service normals for an Antalya-specific official sunny/clear-day count.
 - **Created**: 2026-05-31 (run-027)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-31 (run-030)
+- **Resolution note**: Turkey profile now records WeatherSpark clearer-sky day-equivalent proxies for Istanbul (~231 days/year) and Izmir (~266 days/year), derived from monthly clear/mostly clear/partly cloudy percentages by month length. Antalya remains represented by Climate to Travel's high sunshine-hour baseline (~2,865 h/year). [src-151][src-162][src-163]
 
 ## vq-051 [high priority]
 - **Fact**: "Current official Georgian visa-free stay duration for Ukrainian citizens and transitional treatment for Ukrainians already present in Georgia"

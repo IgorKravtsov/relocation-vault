@@ -1,27 +1,26 @@
 {
   "version": 2,
-  "iteration": 29,
+  "iteration": 30,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-31T16:03:39Z",
+  "last_run_timestamp": "2026-05-31T22:25:18Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Georgia",
+    "mode": "verification",
+    "country": "Turkey",
     "sections": [
-      "5.1",
       "5.2"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "verification",
-    "suggested_country": null,
+    "suggested_country": "Georgia",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Pending verification queue reached threshold after Georgia first-pass source gaps; close a focused batch before opening another fresh country."
+    "reason": "Pending verification queue remains near threshold; close Georgia legal blockers and older climate sunny-day blockers before opening another fresh country."
   },
   "countries": {
     "Spain": {
@@ -467,11 +466,12 @@
     "Turkey": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -486,10 +486,9 @@
       ],
       "risk_flags": [
         "dn-income-at-budget-edge",
-        "climate-sunny-days-gap",
         "family-route-likely-marriage-dependent"
       ],
-      "last_iteration": 28
+      "last_iteration": 30
     },
     "Georgia": {
       "tier": null,
@@ -849,8 +848,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 10,
-  "sources_count": 160,
+  "verification_queue_size": 9,
+  "sources_count": 162,
   "claims_count": 133,
   "proposals_pending": 0
 }

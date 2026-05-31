@@ -1948,3 +1948,27 @@ Each source entry:
 - **Facts supporting**: Kutaisi January/July/August temperatures, annual rainfall and rain days, humidity, and hot/wet comfort caveats (claim-georgia-007)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-162
+- **Title**: WeatherSpark — Istanbul climate and cloud-cover categories
+- **URL**: https://weatherspark.com/y/95434/Average-Weather-in-%C4%B0stanbul-Turkey-Year-Round
+- **Archive**: [archive: failed 2026-05-31; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Turkey
+- **Facts supporting**: Istanbul monthly clearer-sky percentages; derived annual clearer-sky day-equivalent proxy of about 231 days/year for section 5.2 verification
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-163
+- **Title**: WeatherSpark — Izmir climate and cloud-cover categories
+- **URL**: https://weatherspark.com/y/94320/Average-Weather-in-%C4%B0zmir-Turkey-Year-Round
+- **Archive**: [archive: failed 2026-05-31; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Turkey
+- **Facts supporting**: Izmir monthly clearer-sky percentages; derived annual clearer-sky day-equivalent proxy of about 266 days/year for section 5.2 verification
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
