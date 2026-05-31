@@ -52,3 +52,30 @@
   confidence: medium
   tags: [climate, istanbul, izmir, antalya]
   notes: "Composite first-pass climate claim using src-149, src-150, and src-151; direct sunny/clear-day counts remain queued."
+
+- id: claim-turkey-007
+  topic: long_term_residence_period_and_counting
+  value: "Turkey long-term residence can be issued to foreigners continuously resident in Turkey for at least eight years on a permit; half of student-residence time and the full duration of other residence-permit types count, while temporary protection and humanitarian residence holders are not entitled to transfer to long-term residence."
+  source: src-154
+  date_verified: 2026-05-31
+  confidence: high
+  tags: [long-term-residence, residence-counting, turkey]
+  notes: "This resolves the core long-term residence counting baseline for vq-049; citizenship still belongs in a later nationality pass."
+
+- id: claim-turkey-008
+  topic: turkey_temporary_protection_scope_baseline
+  value: "Turkey's official temporary-protection page describes the current temporary-protection framework around Syrians / Syria-related mass influx and contains no Ukraine-specific temporary-protection bridge; temporary-protection identification does not transfer to long-term residence."
+  source: src-146
+  date_verified: 2026-05-31
+  confidence: high
+  tags: [temporary-protection, ukraine, turkey, no-bridge]
+  notes: "Conservative operational baseline for vq-048: plan ordinary Turkish residence, not Ukraine-specific TP conversion."
+
+- id: claim-turkey-009
+  topic: digital_nomad_operational_core
+  value: "Turkey's official GoTurkey digital-nomad interface gives the operational core for the DN certificate: age 21-55, USD 3,000/month or USD 36,000/year income proof, university-graduate evidence, passport/photo, and foreign-employment or freelancer-contract evidence; fees, Ukrainian consular workflow, and dependent mechanics remain application-prep details."
+  source: src-148
+  date_verified: 2026-05-31
+  confidence: medium-high
+  tags: [digital-nomad, checklist, turkey]
+  notes: "Resolves vq-047 at the core-route level without overclaiming consular fee/dependent mechanics."

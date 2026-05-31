@@ -2,13 +2,13 @@
 country: Turkey
 tier: null
 depth_score: 1.0
-last_updated: 2026-05-31T04:02:34Z
+last_updated: 2026-05-31T10:20:00Z
 sections_completed: []
 sections_partial: ["5.1", "5.2"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-ukraine-tp-equivalent-captured", "dn-income-at-budget-edge", "climate-sunny-days-gap", "family-route-likely-marriage-dependent"]
-sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151"]
-unverified_count: 4
+risk_flags: ["dn-income-at-budget-edge", "climate-sunny-days-gap", "family-route-likely-marriage-dependent"]
+sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -46,14 +46,14 @@ schema_version: 2.0.0
 #### Now (until 03.2027)
 
 - **Visa-free entry / tourism-commerce baseline**: Turkey MFA states that e-visas are only for tourism or commerce and that work/study visas are handled by Turkish embassies or consulates. Ukrainians should still verify the exact visa-free stay at the consular table before travel; operational baseline is that entry is simple, but not a residence solution. [src-144] Confidence: medium-high.
-- **No captured Ukraine temporary-protection equivalent**: The Turkish Presidency of Migration Management has a temporary-protection framework and pages on temporary protection in Turkey, but the captured official pages are structured around mass-influx temporary protection generally and historically around Syria, not a Ukraine-specific EU-style TP extension to 04 March 2027. Treat Turkey as **not** having a captured Ukraine TP bridge for this couple until verified. [src-146] Confidence: medium.
+- **No captured Ukraine temporary-protection equivalent**: Verification run-028 checked the Turkish temporary-protection page in more detail. It describes Turkey's temporary-protection framework around Syrians / Syria-related mass influx and contains no Ukraine-specific EU-style temporary-protection bridge; it also states that a Temporary Protection Identification Document does not transfer to long-term residence. Operational baseline: Ukrainians should plan ordinary Turkish residence / DN-related residence rather than a Ukraine-specific TP conversion path. [src-146][src-154] Confidence: high for the conservative baseline.
 - **Ordinary residence-permit channel**: The Presidency of Migration Management official residence-permit pages and e-ikamet portal are the filing anchor for short-term / family / long-term residence permit procedures. For a first move, this means the couple should plan around e-ikamet / provincial migration office steps rather than relying on border status. [src-145][src-147] Confidence: medium-high.
 - **Digital nomad / remote-work route**: GoTurkey's digital-nomad application interface exposes the core official requirements for the Digital Nomad Identification Certificate: age 21-55, proof of income of at least **$3,000 monthly or $36,000 annually**, document proving university graduation, passport, photograph, and either employer-approved employment document or freelancer project contract. This fits the IT partner only if the ~$3,000/month income is stable and documentable; it is a budget-edge route, not a comfortable threshold. [src-148] Confidence: medium-high.
 
 #### After 4 March 2027
 
 - **No EU-TP deadline dependency, but no captured Ukraine bridge**: Turkey is outside the EU temporary-protection framework. The relevant long-term question is not an EU TP extension but whether the couple can hold and renew an ordinary Turkish residence / DN-related status and later qualify for long-term residence. No Ukraine-specific post-2027 bridge was captured. [src-145][src-146] Confidence: medium.
-- **Long-term residence baseline**: Turkey's migration authority lists long-term residence as a residence-permit category. The common operational baseline is long-term residence after eight years of uninterrupted lawful residence, but this first pass did not extract the article-level official English text needed to score what DN / short-term / family time counts. [src-145] Confidence: medium; verification required for counting rules.
+- **Long-term residence baseline**: PMM's residence-permit-types page states that long-term residence can be issued to foreigners who have continuously resided in Turkey for at least **eight years** on a permit, or who meet Ministry-set conditions. For the eight-year calculation, half of student-residence time and the full duration of other residence-permit types count. Refugees, conditional refugees, subsidiary-protection beneficiaries, temporary-protection beneficiaries, and humanitarian residence holders are not entitled to transfer to long-term residence. Conditions include no social assistance in the past three years, sufficient/stable income for self/family, valid medical insurance, and no public-order/security threat. [src-154] Confidence: high; citizenship remains a later nationality-law pass.
 
 #### Residence without local employer
 
@@ -70,7 +70,7 @@ schema_version: 2.0.0
 
 #### PR and citizenship
 
-- Long-term residence is the key PR-like target, but counting rules and interruption thresholds need an article-level official capture before scoring. Citizenship-by-naturalization timing and dual-citizenship consequences were not opened in this iteration. [verification required]
+- Long-term residence is now official-primary verified as an eight-year continuous-residence route with student time counting half and other ordinary residence-permit types counting in full; temporary-protection / humanitarian residence does not transfer to long-term residence. Citizenship-by-naturalization timing and dual-citizenship consequences remain for a later nationality pass. [src-154]
 
 #### Personal playbook for our couple
 
@@ -146,7 +146,7 @@ schema_version: 2.0.0
 - **Best legalization path for the man**: Turkey digital-nomad / remote-work route if he can document at least $3,000/month or $36,000/year; otherwise ordinary residence/self-employment requires a legal/tax pass.
 - **Best legalization path for the woman**: likely dependent/family route after marriage, or independent education/residence route later; unmarried-partner status not confirmed.
 - **Does marriage change the picture**: likely yes; use marriage as the conservative baseline for dependent planning until official unmarried-partner treatment is verified.
-- **Realism of staying after 03.2027**: medium/uncertain; Turkey avoids EU TP expiry mechanics but depends on ordinary residence renewals and long-term residence counting.
+- **Realism of staying after 03.2027**: medium/uncertain; Turkey avoids EU TP expiry mechanics but depends on ordinary residence renewals and an eight-year long-term-residence clock. [src-154]
 
 **Pros**:
 - Easy regional access and likely simple entry baseline for Ukrainians.
@@ -206,6 +206,7 @@ schema_version: 2.0.0
 - [src-145] Turkey Presidency of Migration Management residence permit pages.
 - [src-146] Turkey Presidency of Migration Management temporary protection pages.
 - [src-147] Turkey e-ikamet portal.
+- [src-154] Turkey Presidency of Migration Management residence-permit types page.
 
 ### 7b. Official secondary
 - [src-148] GoTurkey digital-nomad application / tourism portal.
@@ -219,14 +220,12 @@ _(none yet)_
 - [src-151] Climate to Travel — Antalya.
 
 ### 7e. Not found
-- Official Ukraine-specific Turkish temporary-protection / post-2027 bridge page.
-- Official static applicant-country checklist for Turkey digital nomads, including exact consular route, fees, and dependent mechanics.
+- Official Ukraine-specific Turkish temporary-protection / post-2027 bridge page: not found; run-028 closed the operational baseline to ordinary residence planning because the captured official TP framework is Syria/mass-influx oriented and does not transfer to long-term residence. [src-146][src-154]
 - Direct annual sunny/clear-day counts for Istanbul, Izmir, and Antalya.
-- Article-level English source for long-term residence counting and citizenship/double-citizenship treatment.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-047` — Turkey DN official checklist / consular workflow / dependent mechanics / fees.
-- `vq-048` — Turkey Ukraine-specific protection or no-bridge baseline and Polish residence interaction.
-- `vq-049` — Turkey long-term residence and citizenship counting for DN / short-term / family statuses.
+- `vq-047` — resolved in run-028 at the operational-core level: GoTurkey confirms the DN certificate's age, income, diploma, passport/photo, and work-contract evidence; consular fee/dependent mechanics remain application-prep checks. [src-148]
+- `vq-048` — resolved in run-028: no Ukraine-specific Turkish TP bridge captured; use ordinary residence planning, and Polish residence/TP does not substitute for Turkish status. [src-146][src-154]
+- `vq-049` — resolved in run-028 for long-term residence counting: at least eight years continuous residence; student time half, other ordinary permit time full; TP/humanitarian residence does not transfer. Citizenship remains a later nationality pass. [src-154]
 - `vq-050` — Turkey direct sunny/clear-day counts for Istanbul, Izmir, and Antalya.

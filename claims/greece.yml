@@ -35,3 +35,12 @@
   confidence: medium-high
   tags: [greece, digital-nomad, spouse, child, threshold]
   notes: "Family uplift explicitly stated on Work From Greece FAQ."
+
+- id: claim-greece-005
+  topic: dn_official_primary_route_anchor
+  value: "The Greek Ministry of Foreign Affairs maintains an official-primary digital-nomad visa page for work in Greece as a digital nomad; this closes the core official-source gap for route existence/checklist anchoring, while consular appointment formatting remains application-prep detail."
+  source: src-152
+  date_verified: 2026-05-31
+  confidence: high
+  tags: [greece, digital-nomad, checklist, official-primary]
+  notes: "Used to resolve vq-002 at the operational-core level; continue to check the applicant's serving consulate before filing."

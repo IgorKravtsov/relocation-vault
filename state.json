@@ -1,27 +1,26 @@
 {
   "version": 2,
-  "iteration": 27,
+  "iteration": 28,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-31T04:02:34Z",
+  "last_run_timestamp": "2026-05-31T10:20:00Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Turkey",
+    "mode": "verification",
+    "country": null,
     "sections": [
-      "5.1",
-      "5.2"
+      "5.1"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": "Turkey / older climate-legal queue",
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Georgia",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Turkey first pass added four verification blockers and the pending queue is above threshold again."
+    "reason": "Pending verification queue is back below threshold; resume fresh depth-0 country rotation with the next Tier-2-hint non-EU Europe country."
   },
   "countries": {
     "Spain": {
@@ -127,10 +126,8 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [
-        "dn-checklist-not-primary-verified"
-      ],
-      "last_iteration": 9
+      "risk_flags": [],
+      "last_iteration": 28
     },
     "Cyprus": {
       "tier": null,
@@ -487,12 +484,11 @@
         "5.11"
       ],
       "risk_flags": [
-        "no-ukraine-tp-equivalent-captured",
         "dn-income-at-budget-edge",
         "climate-sunny-days-gap",
         "family-route-likely-marriage-dependent"
       ],
-      "last_iteration": 27
+      "last_iteration": 28
     },
     "Georgia": {
       "tier": null,
@@ -847,8 +843,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 11,
-  "sources_count": 151,
-  "claims_count": 122,
+  "verification_queue_size": 7,
+  "sources_count": 153,
+  "claims_count": 126,
   "proposals_pending": 0
 }

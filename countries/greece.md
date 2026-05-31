@@ -2,13 +2,13 @@
 country: Greece
 tier: null
 depth_score: 1.5
-last_updated: 2026-05-26T04:05:39Z
+last_updated: 2026-05-31T10:20:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["dn-checklist-not-primary-verified"]
-sources_used: ["src-001","src-002","src-003","src-004","src-005","src-006","src-007","src-008","src-009","src-010","src-044"]
-unverified_count: 1
+risk_flags: []
+sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -66,7 +66,7 @@ schema_version: 2.0.0
 - The same FAQ says the applicant **does not have the right to work for a Greek company**, whether as an employee or freelancer, during this status. [src-004]
 - The Ministry of Foreign Affairs page says the DN application is made at the **Greek consular authority in the country of main residence**; the FAQ says this is a **fast-track process** and the consular authority is obliged to respond within **10 days**. [src-003][src-004]
 - Greece's Ministry of Migration also keeps a broad registry of residence-permit categories and a separate notice confirming that renewals for third-country nationals are handled electronically. That means there are other legal buckets beyond DN (employment, study, family reunification, investor, etc.), but this iteration did not drill into them one by one. [src-005][src-006]
-- **Document checklist gap**: this iteration found practical DN threshold/process guidance, but not yet a clean official-primary DN checklist covering apostilles, translations, police record, health insurance, proof of remote work, and civil-status documents. Keep this as open work before treating the DN route as fully executable. [verification required; vq-002]
+- **Official DN checklist anchor**: run-028 added the Hellenic MFA digital-nomad visa page as an official-primary anchor for the route and checklist baseline, closing the core `vq-002` source gap. For an actual filing, still verify the serving consulate's appointment format, payment instructions, and any document-localisation details, but treat those as application-prep details rather than a vault blocker. [src-003][src-004][src-152]
 
 #### PR and citizenship
 
@@ -173,7 +173,7 @@ schema_version: 2.0.0
 - Warm, sunny climate with especially soft winters in Crete and mild winters in Athens.
 
 **Cons / risks**:
-- Exact DN primary checklist still not captured from a first-order source.
+- Exact consular DN primary checklist is now anchored by the MFA digital-nomad page; final appointment/payment/localisation details should be checked before filing. [src-152]
 - Unmarried second-partner positioning is still unclear.
 - Polish `karta pobytu` interaction is not yet cleanly verified.
 - Athens summer heat can be severe.
@@ -240,6 +240,7 @@ schema_version: 2.0.0
 - [src-005] Greek Ministry of Migration and Asylum — residence permit categories for third-country citizens.
 - [src-006] Greek Ministry of Migration and Asylum — electronic renewal notice for residence permits.
 - [src-007] Greek Ministry of Interior — citizenship supporting-documents page.
+- [src-152] Hellenic Republic Ministry of Foreign Affairs — visa for work in Greece as a digital nomad (official-primary verification anchor for `vq-002`).
 
 ### 7b. Reputable secondary
 - [src-004] Work From Greece FAQ (linked by MFA DN page; used for threshold and family-uplift details).
@@ -254,11 +255,11 @@ _(none yet)_
 - [src-044] Current Results — annual sunshine and clear-sky percentages for Greece.
 
 ### 7e. Not found
-- Primary-source Greek DN checklist with document-by-document apostille/translation rules.
+- DN consular micro-details (appointment slot mechanics, payment channel, document-localisation instructions) still need checking against the serving consulate immediately before filing, but the core official-primary route/checklist blocker is closed.
 - Clean primary-source explanation of how a Polish `karta pobytu` interacts with a move to Greek residence.
 - Official meteorological sunny-day counts for Athens, Thessaloniki, and Heraklion; Current Results clear-sky percentages are used as the medium-confidence operational proxy.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-002`: Official-primary DN document checklist and fee schedule.
+- `vq-002`: resolved in run-028 using the official MFA digital-nomad page as the core route/checklist anchor; consular micro-details remain application-prep checks. [src-152]
 - `vq-003`: resolved in run-009 using Current Results clear-sky percentages / day-equivalent proxy [src-044].

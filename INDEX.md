@@ -13,7 +13,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Spain | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 12 | `countries/spain.md` |
 | Portugal | eu-schengen | 1 | — | 1.0 | partial: 5.1, 5.2 | 15 | `countries/portugal.md` |
 | Italy | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/italy.md` |
-| Greece | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/greece.md` |
+| Greece | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 28 | `countries/greece.md` |
 | Cyprus | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/cyprus.md` |
 | Croatia | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/croatia.md` |
 | Malta | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/malta.md` |
@@ -26,7 +26,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Slovenia | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/slovenia.md` |
 | Montenegro | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 26 | `countries/montenegro.md` |
 | Serbia | europe-non-eu | 2 | — | 1.0 | partial: 5.1, 5.2 | 26 | `countries/serbia.md` |
-| Turkey | europe-non-eu | 2 | — | 1.0 | partial: 5.1, 5.2 | 27 | `countries/turkey.md` |
+| Turkey | europe-non-eu | 2 | — | 1.0 | partial: 5.1, 5.2 | 28 | `countries/turkey.md` |
 | Georgia | europe-non-eu | 2 | — | 0 | — | — | — |
 | Albania | balkans-east | 2 | — | 0 | — | — | — |
 | North Macedonia | balkans-east | 3 | — | 0 | — | — | — |

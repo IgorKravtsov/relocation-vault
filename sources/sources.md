@@ -1840,3 +1840,27 @@ Each source entry:
 - **Facts supporting**: Antalya January/July/August temperatures, heavy winter rainfall, hot-summer caveat, and annual sunshine hours (claim-turkey-006)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-152
+- **Title**: Hellenic Republic Ministry of Foreign Affairs — Visa for work in Greece as a digital nomad
+- **URL**: https://www.mfa.gr/services/working-in-greece-as-a-digital-nomad/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Greece
+- **Facts supporting**: official-primary Greek digital-nomad visa page used to close the core source gap for the DN route; jurisdiction-specific appointment formatting remains an application-prep detail (claim-greece-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-154
+- **Title**: Turkey Presidency of Migration Management — Residence Permit Types
+- **URL**: https://en.goc.gov.tr/residence-permit-types
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Turkey
+- **Facts supporting**: short-term, family, and long-term residence-permit categories; long-term residence after at least eight years continuous residence; residence-type counting and exclusions for temporary-protection / humanitarian statuses (claim-turkey-007, claim-turkey-008)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30

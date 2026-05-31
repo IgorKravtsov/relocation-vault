@@ -8,6 +8,16 @@ last_updated: 2026-05-31
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-31 — run-028 — verification-greece-turkey-legal-baselines
+
+- Mode: verification; resolved 4 legal blockers (`vq-002`, `vq-047`, `vq-048`, `vq-049`).
+- Greece: official MFA digital-nomad page now closes the core DN official-primary route/checklist anchor; consular micro-details remain application-prep checks.
+- Turkey: DN operational core, no-Ukraine-TP-bridge baseline, and eight-year long-term-residence counting rules updated from PMM/GoTurkey sources.
+- Sources added: `src-152`, `src-154`.
+- Claims added: `claim-greece-005`, `claim-turkey-007` … `claim-turkey-009`.
+- Verification queue: 11 → 7 pending/open items.
+- Next: resume country-deep-dive rotation with Georgia sections 5.1 and 5.2.
+
 ## 2026-05-31 — run-027 — turkey-legalization-climate
 
 - Turkey profile created from template.

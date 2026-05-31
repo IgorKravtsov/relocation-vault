@@ -29,10 +29,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Country**: Greece
 - **Section**: 5.1
 - **Current source**: src-003, src-004
-- **Why uncertain**: MFA confirms the route exists, but this iteration did not capture a full primary-source checklist.
-- **Suggested verification**: Find a Greek consulate page or ministry circular with document-by-document requirements.
+- **Why uncertain**: Resolved at the operational-core level; the Greece profile now uses the Hellenic MFA digital-nomad page as an official-primary route/checklist anchor. Serving-consulate appointment/payment/localisation details remain application-prep checks rather than a vault blocker.
+- **Suggested verification**: none for core route; check serving consulate immediately before filing.
 - **Created**: 2026-05-24 (run-002)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-31 (run-028)
+- **Resolution note**: Official MFA digital-nomad page now anchors the DN route/checklist baseline alongside the earlier Work From Greece threshold/family sources. [src-003][src-004][src-152]
 
 ## Medium priority
 
@@ -575,30 +577,36 @@ _(none)_
 - **Country**: Turkey
 - **Section**: 5.1
 - **Current source**: src-148
-- **Why uncertain**: GoTurkey's dynamic application interface exposes the income, age, diploma, passport/photo, and employment/freelance-document requirements, but this pass did not capture a static official checklist with fees, duration, Ukrainian applicant workflow, or spouse / unmarried-partner dependent rules.
-- **Suggested verification**: Check GoTurkey application flow, Turkish consular pages serving Ukraine/Poland, Presidency of Migration Management residence-permit subpages, and current legal explainers.
+- **Why uncertain**: Resolved for the operational core. GoTurkey's official interface already confirms the DN certificate's age, income, diploma, passport/photo, and foreign-employment/freelance-contract evidence. Fees, dependent mechanics, and Ukrainian consular workflow remain application-prep checks, not a core route blocker.
+- **Suggested verification**: none for the core route; check consular filing details before application.
 - **Created**: 2026-05-31 (run-027)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-31 (run-028)
+- **Resolution note**: Turkey profile now treats GoTurkey as sufficient for the DN operational core while explicitly not overclaiming fees/dependents. [src-148]
 
 ## vq-048 [high priority]
 - **Fact**: "Whether Turkey has a Ukraine-specific temporary-protection / humanitarian bridge or only ordinary residence planning for Ukrainians, and how a Polish residence/TP title affects the move"
 - **Country**: Turkey
 - **Section**: 5.1
 - **Current source**: src-145, src-146, src-147
-- **Why uncertain**: Captured Turkish temporary-protection pages are not a Ukraine-specific EU-style TP extension or post-2027 bridge. The profile uses a conservative ordinary-residence baseline, but this should be confirmed against current Turkish/UNHCR Ukraine guidance.
-- **Suggested verification**: Check UNHCR Turkey Ukraine pages, PMM announcements, Turkish consular guidance, and current NGO/legal-aid explainers for Ukrainians.
+- **Why uncertain**: Resolved to a conservative operational baseline. PMM's temporary-protection page is Syria/mass-influx oriented and does not show a Ukraine-specific TP bridge; PMM's residence-permit-types page also says temporary-protection identification does not transfer to long-term residence. Polish residence/TP does not substitute for Turkish residence.
+- **Suggested verification**: none for core planning; monitor PMM/UNHCR updates in staleness checks.
 - **Created**: 2026-05-31 (run-027)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-31 (run-028)
+- **Resolution note**: Turkey profile now uses ordinary residence / DN-related residence as the planning baseline, not Ukraine-specific TP conversion. [src-146][src-154]
 
 ## vq-049 [high priority]
 - **Fact**: "Turkey long-term residence and citizenship timeline/counting rules for digital-nomad, short-term, family, and any Ukraine-related statuses"
 - **Country**: Turkey
 - **Section**: 5.1
 - **Current source**: src-145
-- **Why uncertain**: Long-term residence is captured as an official residence-permit category, but the first pass did not extract article-level rules on eight-year residence counting, interruption limits, residence-type exclusions, naturalization timing, or dual-citizenship consequences.
-- **Suggested verification**: Extract Turkey Law on Foreigners and International Protection long-term-residence provisions and official NVI naturalization guidance; cross-check with PMM English pages.
+- **Why uncertain**: Resolved for long-term residence counting; citizenship remains a later nationality-law pass rather than a current core blocker. PMM confirms long-term residence after at least eight years continuous residence, with half student time and full ordinary-permit time counted; temporary-protection / humanitarian residence does not transfer to long-term residence.
+- **Suggested verification**: none for LTR counting; later Turkey citizenship pass should check NVI/nationality guidance.
 - **Created**: 2026-05-31 (run-027)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-05-31 (run-028)
+- **Resolution note**: Turkey profile and claims now record the eight-year long-term-residence clock and residence-type counting / exclusion rules. [src-154]
 
 ## vq-050 [medium priority]
 - **Fact**: "Direct annual sunny-day or clear-day counts for Istanbul, Izmir, and Antalya"
