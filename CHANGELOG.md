@@ -8,6 +8,17 @@ last_updated: 2026-05-31
 
 Brief delta per iteration. Append-only.
 
+## 2026-05-31 — run-029 — georgia-legalization-climate
+
+- Georgia profile created from template.
+- Georgia: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).
+- Legalization first pass captured MFA entry portal anchor, 2025 Ukraine one-year visa-free baseline from secondary reporting, SDA residence-permit framework, work/entrepreneur permit, IT residence permit, family reunification, PR after 10 years, and ordinary citizenship after 10 consecutive years.
+- Climate first pass captured Tbilisi, Batumi, and Kutaisi temperature / rainfall / humidity comfort baselines; direct sunny/clear-day counts remain queued.
+- Sources added: `src-155` … `src-161`.
+- Claims added: `claim-georgia-001` … `claim-georgia-007`.
+- Verification queue: 7 → 10 pending/open items (`vq-051` through `vq-053` added).
+- Next: verification batch because the queue reached threshold.
+
 ## 2026-05-31 — run-028 — verification-greece-turkey-legal-baselines
 
 - Mode: verification; resolved 4 legal blockers (`vq-002`, `vq-047`, `vq-048`, `vq-049`).

@@ -617,3 +617,33 @@ _(none)_
 - **Suggested verification**: Check WeatherSpark city cloud-cover pages, Turkish State Meteorological Service normals, meteoblue chart data, or another source with explicit annual sunny/clear-day counts.
 - **Created**: 2026-05-31 (run-027)
 - **Status**: pending
+
+## vq-051 [high priority]
+- **Fact**: "Current official Georgian visa-free stay duration for Ukrainian citizens and transitional treatment for Ukrainians already present in Georgia"
+- **Country**: Georgia
+- **Section**: 5.1
+- **Current source**: src-155, src-156
+- **Why uncertain**: GeoConsul is the official entry portal but the country-specific Ukraine table was not cleanly extracted in this pass; the one-year stay baseline comes from a 2025 reputable-secondary report quoting a Prime Ministerial decree.
+- **Suggested verification**: Capture the official decree text or GeoConsul / MFA country-specific Ukraine entry table and verify whether one-year visa-free stay remains current in 2026.
+- **Created**: 2026-05-31 (run-029)
+- **Status**: pending
+
+## vq-052 [high priority]
+- **Fact**: "Georgia IT residence permit 2026 work-right registration, small-business / foreign-client mechanics, and dependent treatment for spouse or unmarried partner"
+- **Country**: Georgia
+- **Section**: 5.1
+- **Current source**: src-157
+- **Why uncertain**: SDA lists the IT permit and core requirements, including USD 25,000 annual remuneration and State Employment Support Agency / small-business elements, but this pass did not capture a worked official guidance page for a foreign-client remote IT freelancer or dependent mechanics beyond generic family reunification.
+- **Suggested verification**: Check State Employment Support Agency instructions, Revenue Service small-business guidance, Public Service Hall forms, and current Georgian immigration-lawyer explainers for the IT-permit filing sequence.
+- **Created**: 2026-05-31 (run-029)
+- **Status**: pending
+
+## vq-053 [medium priority]
+- **Fact**: "Direct annual sunny-day or clear-day counts for Tbilisi, Batumi, and Kutaisi"
+- **Country**: Georgia
+- **Section**: 5.2
+- **Current source**: src-159, src-160, src-161
+- **Why uncertain**: Current climate sources provide temperatures, rainfall, humidity/comfort notes, and sunshine hours for Tbilisi/Batumi, but not direct annual sunny/clear-day counts for all three cities.
+- **Suggested verification**: Check WeatherSpark city cloud-cover pages, Georgian meteorological service climate normals, meteoblue chart data, Current Results, or another source with explicit annual sunny/clear-day counts.
+- **Created**: 2026-05-31 (run-029)
+- **Status**: pending

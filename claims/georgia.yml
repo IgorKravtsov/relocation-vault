@@ -1,0 +1,62 @@
+- id: claim-georgia-001
+  topic: ukraine_visa_free_stay_baseline
+  value: "A 2025 report quoting the Prime Ministerial decree says Ukrainian citizens may enter Georgia without a visa and stay for one full year; Ukrainians present before 24 February 2025 were extended until 24 February 2026."
+  source: src-156
+  date_verified: 2026-05-31
+  confidence: medium
+  tags: [entry, visa-free, ukraine, georgia]
+  notes: "Operational baseline only; queued for official decree / GeoConsul table verification."
+
+- id: claim-georgia-002
+  topic: residence_permit_filing_baseline
+  value: "Georgia SDA states that an alien generally applies for a Georgian residence permit 40 calendar days before lawful stay expires and must be lawfully staying in Georgia and meet the Law on Legal Status of Aliens and Stateless Persons."
+  source: src-157
+  date_verified: 2026-05-31
+  confidence: high
+  tags: [residence-permit, filing, georgia]
+  notes: "General filing baseline for ordinary Georgian residence planning."
+
+- id: claim-georgia-003
+  topic: work_entrepreneur_residence_baseline
+  value: "Georgia work residence can be issued to a registered labour immigrant or to an alien carrying out entrepreneurial activities in Georgia; requirements include income at least five times the minimum subsistence level and employer/enterprise turnover of at least GEL 50,000 per foreign applicant, with a lower GEL 35,000 threshold for educational/medical institutions."
+  source: src-157
+  date_verified: 2026-05-31
+  confidence: high
+  tags: [work-residence, entrepreneur, income-threshold, georgia]
+  notes: "Not treated as a lightweight DN substitute until foreign-client / small-business practice is verified."
+
+- id: claim-georgia-004
+  topic: it_residence_permit_core_requirements
+  value: "Georgia SDA lists an IT residence permit requiring IT work/economic-activity experience of at least 2 years and annual IT remuneration of at least USD 25,000 equivalent in lari; a Georgia small-business / entrepreneurial-natural-person variant is listed for specified IT activity codes."
+  source: src-157
+  date_verified: 2026-05-31
+  confidence: high
+  tags: [it-residence, digital-nomad-adjacent, income-threshold, georgia]
+  notes: "Promising for the male IT worker but queued for 2026 work-right registration and foreign-client mechanics."
+
+- id: claim-georgia-005
+  topic: family_reunification_baseline
+  value: "Georgia residence for family reunification is issued to family members of an alien holding a residence permit; the checklist requires proof of kinship, lawful stay, income or bank funds, and funds of at least twice the minimum subsistence level for the average consumer considering permit validity."
+  source: src-157
+  date_verified: 2026-05-31
+  confidence: high
+  tags: [family-reunification, dependent, georgia]
+  notes: "Conservative couple baseline is marriage; unmarried-partner coverage was not confirmed."
+
+- id: claim-georgia-006
+  topic: permanent_residence_and_citizenship_clocks
+  value: "Georgia permanent residence is available after the last 10 years based on a temporary residence permit, excluding study/medical/diplomatic-equivalent periods; ordinary citizenship requires 10 consecutive years of lawful residence plus Georgian language, history, and law tests and economic/property/business ties."
+  source: src-157
+  date_verified: 2026-05-31
+  confidence: high
+  tags: [permanent-residence, citizenship, residence-counting, georgia]
+  notes: "Composite claim uses src-157 for PR and src-158 for citizenship."
+
+- id: claim-georgia-007
+  topic: georgia_climate_first_pass
+  value: "Tbilisi: Jan mean 3.4 C / Jul mean 25.9 C / Aug mean 26.0 C / ~2,045 sunshine hours and ~510 mm rain; Batumi: Jan mean 7.8 C / Aug mean 24.2 C / ~1,960 sunshine hours and ~2,435 mm rain; Kutaisi: Jan mean 6.7 C / Aug mean 25.4 C / ~1,360 mm rain."
+  source: src-159
+  date_verified: 2026-05-31
+  confidence: medium
+  tags: [climate, tbilisi, batumi, kutaisi]
+  notes: "Composite first-pass climate claim using src-159, src-160, and src-161; direct sunny/clear-day counts remain queued."

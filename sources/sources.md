@@ -1864,3 +1864,87 @@ Each source entry:
 - **Facts supporting**: short-term, family, and long-term residence-permit categories; long-term residence after at least eight years continuous residence; residence-type counting and exclusions for temporary-protection / humanitarian statuses (claim-turkey-007, claim-turkey-008)
 - **Confidence ceiling**: high
 - **Stale at**: 2026-11-30
+
+## src-155
+- **Title**: Georgian Ministry of Foreign Affairs GeoConsul — Entering Georgia
+- **URL**: https://geoconsul.gov.ge/en/entering-georgia
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Georgia
+- **Facts supporting**: official entry-information portal anchor; country-specific Ukraine stay table was not cleanly extractable in this pass (claim-georgia-001 as a source-gap anchor)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-156
+- **Title**: Georgia Today — GD cuts visa-free stay for Ukrainians from 3 years to 1
+- **URL**: https://georgiatoday.ge/gd-cuts-visa-free-stay-for-ukrainians-from-3-years-to-1/
+- **Archive**: [archive: failed 2026-05-31; not attempted within iteration budget]
+- **Type**: reputable-secondary
+- **Date published**: 2025-04-03
+- **Date accessed**: 2026-05-31
+- **Used by**: Georgia
+- **Facts supporting**: medium-confidence operational baseline that Ukrainian citizens may enter Georgia visa-free and stay for one full year; Ukrainians already present before 24 February 2025 extended until 24 February 2026 (claim-georgia-001)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-11-30
+
+## src-157
+- **Title**: Georgia Public Service Development Agency — Migration / Residence Permits
+- **URL**: https://sda.gov.ge/en/products/migration-residence-permits/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Georgia
+- **Facts supporting**: residence-permit filing baseline; work / entrepreneurial residence requirements; IT residence permit requirements; family reunification; permanent residence after 10 years on temporary residence (claim-georgia-002 through claim-georgia-006)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-158
+- **Title**: Georgia Public Service Development Agency — Georgian citizenship
+- **URL**: https://sda.gov.ge/en/products/citizenship/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Georgia
+- **Facts supporting**: ordinary naturalization after 10 consecutive years lawful residence; Georgian language, history, and basic law tests; economic/property/business tie requirement (claim-georgia-006)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-05-31
+
+## src-159
+- **Title**: Climate to Travel — Tbilisi climate: seasons, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/georgia/tbilisi
+- **Archive**: [archive: failed 2026-05-31; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Georgia
+- **Facts supporting**: Tbilisi January/July/August temperatures, annual rainfall and rain days, sunshine hours, humidity, and cold/hot-spell comfort caveats (claim-georgia-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-160
+- **Title**: Climate to Travel — Batumi climate: seasons, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/georgia/batumi
+- **Archive**: [archive: failed 2026-05-31; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Georgia
+- **Facts supporting**: Batumi January/July/August temperatures, annual rainfall and rain days, sunshine hours, sea temperature, and humid subtropical comfort caveats (claim-georgia-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-161
+- **Title**: Climate to Travel — Kutaisi climate: seasons, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/georgia/kutaisi
+- **Archive**: [archive: failed 2026-05-31; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Georgia
+- **Facts supporting**: Kutaisi January/July/August temperatures, annual rainfall and rain days, humidity, and hot/wet comfort caveats (claim-georgia-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

@@ -1,26 +1,27 @@
 {
   "version": 2,
-  "iteration": 28,
+  "iteration": 29,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-05-31T10:20:00Z",
+  "last_run_timestamp": "2026-05-31T16:03:39Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
+    "mode": "country-deep-dive",
+    "country": "Georgia",
     "sections": [
-      "5.1"
+      "5.1",
+      "5.2"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "country-deep-dive",
-    "suggested_country": "Georgia",
+    "suggested_mode": "verification",
+    "suggested_country": null,
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Pending verification queue is back below threshold; resume fresh depth-0 country rotation with the next Tier-2-hint non-EU Europe country."
+    "reason": "Pending verification queue reached threshold after Georgia first-pass source gaps; close a focused batch before opening another fresh country."
   },
   "countries": {
     "Spain": {
@@ -493,12 +494,13 @@
     "Georgia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 0,
+      "depth_score": 1.0,
       "sections_completed": [],
-      "sections_partial": [],
-      "sections_pending": [
+      "sections_partial": [
         "5.1",
-        "5.2",
+        "5.2"
+      ],
+      "sections_pending": [
         "5.3",
         "5.4",
         "5.5",
@@ -509,8 +511,12 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "visa-free-not-residence",
+        "it-permit-foreign-client-mechanics-need-check",
+        "climate-sunny-days-gap"
+      ],
+      "last_iteration": 29
     },
     "Albania": {
       "tier": null,
@@ -843,8 +849,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 7,
-  "sources_count": 153,
-  "claims_count": 126,
+  "verification_queue_size": 10,
+  "sources_count": 160,
+  "claims_count": 133,
   "proposals_pending": 0
 }
