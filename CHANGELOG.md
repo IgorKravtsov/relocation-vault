@@ -1,12 +1,23 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-05-30
+last_updated: 2026-05-31
 ---
 
 # CHANGELOG
 
 Brief delta per iteration. Append-only.
+
+## 2026-05-31 — run-027 — turkey-legalization-climate
+
+- Turkey profile created from template.
+- Turkey: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).
+- Legalization first pass captured MFA visa-scope baseline, official residence/e-ikamet filing anchors, Turkey temporary-protection framework caveat, and GoTurkey digital-nomad requirements: age 21-55, diploma, foreign employment/freelance evidence, and USD 3,000/month or USD 36,000/year income proof.
+- Climate first pass captured Istanbul, Izmir, and Antalya temperature / sunshine-hours / humidity comfort baselines; direct sunny/clear-day counts remain queued.
+- Sources added: `src-144` … `src-151`.
+- Claims added: `claim-turkey-001` … `claim-turkey-006`.
+- Verification queue: 7 → 11 pending/open items (`vq-047` through `vq-050` added).
+- Next: verification batch because the queue is above threshold.
 
 ## 2026-05-30 — run-026 — verification-montenegro-serbia-legal-baselines
 

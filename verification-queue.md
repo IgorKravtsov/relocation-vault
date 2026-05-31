@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-05-30
+last_updated: 2026-05-31
 ---
 
 # Verification Queue
@@ -568,4 +568,44 @@ _(none)_
 - **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct sunny/clear-day counts.
 - **Suggested verification**: Check WeatherSpark city cloud-cover pages, Serbia hydrometeorological service climate normals, meteoblue chart data, or another source with explicit annual sunny/clear-day counts.
 - **Created**: 2026-05-30 (run-025)
+- **Status**: pending
+
+## vq-047 [high priority]
+- **Fact**: "Turkey digital-nomad route official applicant-country checklist, consular / in-country workflow, fees, duration, and dependent mechanics"
+- **Country**: Turkey
+- **Section**: 5.1
+- **Current source**: src-148
+- **Why uncertain**: GoTurkey's dynamic application interface exposes the income, age, diploma, passport/photo, and employment/freelance-document requirements, but this pass did not capture a static official checklist with fees, duration, Ukrainian applicant workflow, or spouse / unmarried-partner dependent rules.
+- **Suggested verification**: Check GoTurkey application flow, Turkish consular pages serving Ukraine/Poland, Presidency of Migration Management residence-permit subpages, and current legal explainers.
+- **Created**: 2026-05-31 (run-027)
+- **Status**: pending
+
+## vq-048 [high priority]
+- **Fact**: "Whether Turkey has a Ukraine-specific temporary-protection / humanitarian bridge or only ordinary residence planning for Ukrainians, and how a Polish residence/TP title affects the move"
+- **Country**: Turkey
+- **Section**: 5.1
+- **Current source**: src-145, src-146, src-147
+- **Why uncertain**: Captured Turkish temporary-protection pages are not a Ukraine-specific EU-style TP extension or post-2027 bridge. The profile uses a conservative ordinary-residence baseline, but this should be confirmed against current Turkish/UNHCR Ukraine guidance.
+- **Suggested verification**: Check UNHCR Turkey Ukraine pages, PMM announcements, Turkish consular guidance, and current NGO/legal-aid explainers for Ukrainians.
+- **Created**: 2026-05-31 (run-027)
+- **Status**: pending
+
+## vq-049 [high priority]
+- **Fact**: "Turkey long-term residence and citizenship timeline/counting rules for digital-nomad, short-term, family, and any Ukraine-related statuses"
+- **Country**: Turkey
+- **Section**: 5.1
+- **Current source**: src-145
+- **Why uncertain**: Long-term residence is captured as an official residence-permit category, but the first pass did not extract article-level rules on eight-year residence counting, interruption limits, residence-type exclusions, naturalization timing, or dual-citizenship consequences.
+- **Suggested verification**: Extract Turkey Law on Foreigners and International Protection long-term-residence provisions and official NVI naturalization guidance; cross-check with PMM English pages.
+- **Created**: 2026-05-31 (run-027)
+- **Status**: pending
+
+## vq-050 [medium priority]
+- **Fact**: "Direct annual sunny-day or clear-day counts for Istanbul, Izmir, and Antalya"
+- **Country**: Turkey
+- **Section**: 5.2
+- **Current source**: src-149, src-150, src-151
+- **Why uncertain**: Current climate sources provide temperatures, humidity/comfort notes, rainfall, and sunshine hours, but not direct annual sunny/clear-day counts.
+- **Suggested verification**: Check WeatherSpark city cloud-cover pages, Turkish State Meteorological Service normals, meteoblue chart data, or another source with explicit annual sunny/clear-day counts.
+- **Created**: 2026-05-31 (run-027)
 - **Status**: pending

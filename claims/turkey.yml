@@ -1,0 +1,54 @@
+- id: claim-turkey-001
+  topic: mfa_evisa_scope
+  value: "Turkey MFA says e-Visa is valid only for tourism or commerce; work and study visas are issued by Turkish embassies or consulates."
+  source: src-144
+  date_verified: 2026-05-31
+  confidence: medium-high
+  tags: [entry, visa, turkey]
+  notes: "Used as the entry-scope baseline; Ukraine-specific stay length still needs consular-table verification."
+
+- id: claim-turkey-002
+  topic: residence_permit_filing_channel
+  value: "Turkey Presidency of Migration Management / e-ikamet is the official residence-permit filing anchor."
+  source: src-145
+  date_verified: 2026-05-31
+  confidence: medium-high
+  tags: [residence-permit, filing, e-ikamet]
+  notes: "Operational filing baseline for ordinary Turkish residence planning."
+
+- id: claim-turkey-003
+  topic: digital_nomad_income_threshold
+  value: 3000
+  unit: USD/month
+  source: src-148
+  date_verified: 2026-05-31
+  confidence: medium-high
+  tags: [digital-nomad, income-threshold, remote-work]
+  notes: "GoTurkey digital-nomad interface states proof of income of at least $3,000 monthly or $36,000 annually."
+
+- id: claim-turkey-004
+  topic: digital_nomad_age_range
+  value: "21-55"
+  source: src-148
+  date_verified: 2026-05-31
+  confidence: medium-high
+  tags: [digital-nomad, eligibility]
+  notes: "Application interface displays age requirement / age-error message for 21-55 years old."
+
+- id: claim-turkey-005
+  topic: digital_nomad_core_documents
+  value: "Passport, photograph, university-graduate document, income proof, and employer-approved employment document or freelancer project contract."
+  source: src-148
+  date_verified: 2026-05-31
+  confidence: medium-high
+  tags: [digital-nomad, checklist]
+  notes: "Static interface strings; exact consular/applicant-country workflow still queued for verification."
+
+- id: claim-turkey-006
+  topic: turkey_climate_first_pass
+  value: "Istanbul: Jan mean 6.2 C / Jul mean 25.5 C / ~2,220 sunshine hours; Izmir: Jan mean about 8 C and hot sunny summers; Antalya: Jan mean 10.3 C / Jul mean 29 C / ~2,865 sunshine hours."
+  source: src-149
+  date_verified: 2026-05-31
+  confidence: medium
+  tags: [climate, istanbul, izmir, antalya]
+  notes: "Composite first-pass climate claim using src-149, src-150, and src-151; direct sunny/clear-day counts remain queued."

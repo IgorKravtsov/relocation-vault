@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-05-28
+last_updated: 2026-05-31
 ---
 
 # Sources Registry
@@ -1744,3 +1744,99 @@ Each source entry:
 - **Facts supporting**: official-primary Montenegro digital-nomad filing route, document categories, 40-day decision period, up-to-2-year permit plus up-to-2-year extension and six-month cooling-off period, and spouse/minor-child family-reunification baseline (claim-montenegro-009, claim-montenegro-010)
 - **Confidence ceiling**: high
 - **Stale at**: 2026-11-30
+
+## src-144
+- **Title**: Republic of Turkey Ministry of Foreign Affairs — Visa Information For Foreigners
+- **URL**: https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Turkey
+- **Facts supporting**: e-Visa scope limited to tourism/commerce and work/study visas handled by embassies or consulates (claim-turkey-001)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-145
+- **Title**: Turkey Presidency of Migration Management — Residence Permits
+- **URL**: https://en.goc.gov.tr/residence-permits
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Turkey
+- **Facts supporting**: official residence-permit framework and categories; ordinary residence planning baseline; family and long-term residence category anchor (claim-turkey-002)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-146
+- **Title**: Turkey Presidency of Migration Management — Temporary Protection in Turkey
+- **URL**: https://en.goc.gov.tr/temporary-protection-in-turkey
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Turkey
+- **Facts supporting**: Turkish temporary-protection framework exists, but no Ukraine-specific EU-style TP bridge captured in this pass
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-147
+- **Title**: Turkey e-ikamet — Residence permit application portal
+- **URL**: https://e-ikamet.goc.gov.tr/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Turkey
+- **Facts supporting**: official electronic residence-permit application channel / operational filing anchor (claim-turkey-002)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-11-30
+
+## src-148
+- **Title**: GoTurkey — Digital Nomads / Digital Nomad Identification Certificate application interface
+- **URL**: https://digitalnomads.goturkiye.com/
+- **Archive**: [archive: failed 2026-05-31; dynamic site not snapshotted within iteration budget]
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Turkey
+- **Facts supporting**: digital-nomad age 21-55, income proof of at least USD 3,000 monthly or USD 36,000 annually, university-graduate document, passport/photo, employer document or freelancer project contract (claim-turkey-003, claim-turkey-004, claim-turkey-005)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-11-30
+
+## src-149
+- **Title**: Climate to Travel — Istanbul climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/turkey/istanbul
+- **Archive**: [archive: failed 2026-05-31; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Turkey
+- **Facts supporting**: Istanbul January/July temperatures, rain days, humidity, winter cloud/fog caveat, and annual sunshine hours (claim-turkey-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-150
+- **Title**: Climate to Travel — Izmir climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/turkey/izmir
+- **Archive**: [archive: failed 2026-05-31; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Turkey
+- **Facts supporting**: Izmir January temperature, hot sunny summer, humidity / Meltemi comfort caveats, and seasonal rainfall pattern (claim-turkey-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-151
+- **Title**: Climate to Travel — Antalya climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/turkey/antalya
+- **Archive**: [archive: failed 2026-05-31; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-05-31
+- **Used by**: Turkey
+- **Facts supporting**: Antalya January/July/August temperatures, heavy winter rainfall, hot-summer caveat, and annual sunshine hours (claim-turkey-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
