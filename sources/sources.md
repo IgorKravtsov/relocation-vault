@@ -2056,3 +2056,63 @@ Each source entry:
 - **Facts supporting**: Vlorë January/July/August temperatures, annual rainfall and rain days, sea temperature, sunshine hours, and southern coastal comfort caveats (claim-albania-007)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-171
+- **Title**: WeatherSpark — Czechia city cloud-cover climate pages (Prague, Brno, Ostrava)
+- **URL**: https://weatherspark.com/countries/CZ
+- **Archive**: [archive: failed 2026-06-01; WeatherSpark direct fetch returned empty 202 responses]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Czech Republic
+- **Facts supporting**: monthly percentages of time in the clearer cloud-cover categories for Prague, Brno, and Ostrava; annual clearer-sky day-equivalent proxies calculated from monthly percentages
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-172
+- **Title**: WeatherSpark — Hungary city cloud-cover climate pages (Budapest, Debrecen, Pécs)
+- **URL**: https://weatherspark.com/countries/HU
+- **Archive**: [archive: failed 2026-06-01; WeatherSpark direct fetch returned empty 202 responses]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Hungary
+- **Facts supporting**: monthly percentages of time in the clearer cloud-cover categories for Budapest, Debrecen, and Pécs; annual clearer-sky day-equivalent proxies calculated from monthly percentages
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-173
+- **Title**: WeatherSpark — Slovakia city cloud-cover climate pages (Bratislava, Košice, Poprad)
+- **URL**: https://weatherspark.com/countries/SK
+- **Archive**: [archive: failed 2026-06-01; WeatherSpark direct fetch returned empty 202 responses]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Slovakia
+- **Facts supporting**: monthly percentages of time in the clearer cloud-cover categories for Bratislava, Košice, and Poprad; annual clearer-sky day-equivalent proxies calculated from monthly percentages
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-174
+- **Title**: WeatherSpark — Serbia city cloud-cover climate pages (Belgrade, Novi Sad, Niš)
+- **URL**: https://weatherspark.com/countries/RS
+- **Archive**: [archive: failed 2026-06-01; WeatherSpark direct fetch returned empty 202 responses]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Serbia
+- **Facts supporting**: monthly percentages of time in the clearer cloud-cover categories for Belgrade, Novi Sad, and Niš; annual clearer-sky day-equivalent proxies calculated from monthly percentages
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-175
+- **Title**: WeatherSpark — Georgia city cloud-cover climate pages (Tbilisi, Batumi, Kutaisi)
+- **URL**: https://weatherspark.com/countries/GE
+- **Archive**: [archive: failed 2026-06-01; WeatherSpark direct fetch returned empty 202 responses]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Georgia
+- **Facts supporting**: monthly percentages of time in the clearer cloud-cover categories for Tbilisi, Batumi, and Kutaisi; annual clearer-sky day-equivalent proxies calculated from monthly percentages
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

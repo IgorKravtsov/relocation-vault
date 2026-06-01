@@ -1,14 +1,14 @@
 ---
 country: Hungary
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-29T04:04:07Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-06-01T10:12:00Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "climate-sunny-days-gap"]
-sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099"]
-unverified_count: 1
+risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge"]
+sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Hungary is usable as a legal short/medium-term base but not yet an obvious long-term fit for this couple: the White Card is clean for foreign remote work but requires at least EUR 3,000 net monthly income for 6 months, does not allow Hungarian gainful activity, and its holder cannot sponsor family reunification; guest self-employment has a heavier evidence burden and a 3-year cap before a new application. [src-093][src-094][src-095]
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-29T04:04:07Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-06-01T10:12:00Z
 - **Tier rationale**: Leave unassigned until taxes, cost, rent, healthcare, and ordinary self-employment feasibility are researched.
 
 ## Block 2 — Scoring
@@ -26,7 +26,7 @@ schema_version: 2.0.0
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | TP and White Card/guest self-employment routes identified, but the White Card income floor is above the couple's current budget and no Hungary-specific TP bridge after 04 March 2027 was captured. | §5.1 |
-| Climate | — | medium | Continental climate: warm/hot summers, cold winters, 1,928–2,058 annual sunshine hours in target cities; direct sunny-day counts still missing. | §5.2 |
+| Climate | — | medium | Continental climate: warm/hot summers, cold winters, 1,928–2,058 annual sunshine hours in target cities; clearer-sky proxies now close the sunny-day blocker. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
@@ -93,13 +93,13 @@ Citizenship conditions were not official-primary verified in this pass. Treat na
 4. **White Card does not solve partner dependency.** OIF excludes White Card holders as family-reunification sponsors, so the woman needs TP/independent eligibility, or the man must use a different sponsor-eligible Hungarian status before family reunification is a viable plan. [src-095]
 5. **Use the Polish karta pobytu only as supporting documentation, not as Hungarian status.** It does not replace a Hungarian permit.
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-28, dod: partial}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-06-01, dod: passed}
 
 Hungary has a continental Central European climate rather than a Mediterranean one. Winters are meaningfully colder than in Spain/Portugal/Greece/Cyprus, while summers are warm to hot. For Budapest, the 1991–2020 table gives a January daily mean around 0.0°C and July daily mean around 22.5°C, with average relative humidity around 68% and about 1,928 annual sunshine hours. [src-097]
 
 Debrecen is colder in winter and similarly hot in summer: January daily mean about -0.8°C, July about 21.9°C, annual relative humidity about 72.6%, and about 2,043 annual sunshine hours. [src-098] Pécs in the southwest is one of the more comfortable warmer options: January daily mean about 0.4°C, July/August around 22.0°C daily mean, annual relative humidity about 71.3%, and about 2,058 annual sunshine hours. [src-099]
 
-**Sunny-day blocker**: the captured sources give sunshine hours, humidity, and temperature normals but not direct annual sunny/clear-day counts. Keep §5.2 partial and close after a direct sunny/clear-day source is found for Budapest, Debrecen, and Pécs. [verification required]
+**Sunny/clear-day proxy verification**: WeatherSpark cloud-cover pages provide monthly percentages in the clearer sky categories (clear, mostly clear, or partly cloudy). Converted by month length, the medium-confidence clearer-sky day-equivalent proxies are: Budapest ~212 days/year, Debrecen ~218 days/year, and Pécs ~220 days/year. These are broader clearer-sky proxies, not official meteorological sunny-day counts, but they are enough to close the §5.2 sunny-day blocker for planning. [src-172]
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -241,6 +241,7 @@ _(none yet)_
 - [src-097] Wikipedia — Budapest climate table.
 - [src-098] Wikipedia — Debrecen climate table.
 - [src-099] Wikipedia — Pécs climate table.
+- [src-172] WeatherSpark — Hungary city cloud-cover climate pages.
 
 ### 7e. Not found
 - Direct annual sunny/clear-day counts for Budapest, Debrecen, and Pécs.

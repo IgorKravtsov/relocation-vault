@@ -324,3 +324,8 @@ Brief delta per iteration. Append-only.
 - Claims added: claim-croatia-001 … claim-croatia-005
 - Verification queue: 9 → 11
 - Next: verification mode because queue threshold is now reached
+## 2026-06-01 — run-032
+- Verification: closed climate sunny/clear-day blockers for Czech Republic, Hungary, Slovakia, Serbia, and Georgia using WeatherSpark clearer-sky day-equivalent proxies.
+- Depth_score: Czech Republic 1.0 → 1.5; Hungary 1.0 → 1.5; Slovakia 1.0 → 1.5; Serbia 1.0 → 1.5; Georgia 1.0 → 1.5.
+- Sources added: src-171, src-172, src-173, src-174, src-175.
+- Verification queue: 12 → 7 (resolved vq-020, vq-035, vq-038, vq-046, vq-053).

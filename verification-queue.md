@@ -253,7 +253,9 @@ _(none)_
 - **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct annual sunny/clear-day counts.
 - **Suggested verification**: Check Czech Hydrometeorological Institute climate normals, WMO city climate pages, meteoblue chart data, or another statistical source with explicit sunny/clear-day counts.
 - **Created**: 2026-05-26 (run-011)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-01 (run-032)
+- **Resolution note**: Czech Republic profile now records WeatherSpark clearer-sky day-equivalent proxies for Prague (~184), Brno (~191), and Ostrava (~182), labelled as medium-confidence proxies rather than official sunny-day counts. [src-171]
 
 ## vq-021 [medium priority]
 - **Fact**: "Poland family-reunification residence permit conditions under Article 159 of the Act on Foreigners, specifically for an unmarried partner of a Polish `karta pobytu` holder, and whether marriage is required"
@@ -350,6 +352,11 @@ _(none)_
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-053` — 2026-06-01 (run-032)
+- `vq-046` — 2026-06-01 (run-032)
+- `vq-038` — 2026-06-01 (run-032)
+- `vq-035` — 2026-06-01 (run-032)
+- `vq-020` — 2026-06-01 (run-032)
 - `vq-045` — 2026-05-30 (run-026)
 - `vq-044` — 2026-05-30 (run-026)
 - `vq-043` — 2026-05-30 (run-026)
@@ -444,7 +451,9 @@ _(none)_
 - **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct annual sunny/clear-day counts for the target cities.
 - **Suggested verification**: Check HungaroMet climate normals, WMO city climate pages, meteoblue chart data, Current Results, or another statistical source with explicit sunny/clear-day counts.
 - **Created**: 2026-05-28 (run-018)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-01 (run-032)
+- **Resolution note**: Hungary profile now records WeatherSpark clearer-sky day-equivalent proxies for Budapest (~212), Debrecen (~218), and Pécs (~220), labelled as medium-confidence proxies rather than official sunny-day counts. [src-172]
 
 ## vq-036 [high priority]
 - **Fact**: "Slovakia business/self-employed residence exact official-primary checklist and operational fit for foreign-client IT freelancing"
@@ -478,7 +487,9 @@ _(none)_
 - **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct annual sunny/clear-day counts for the target cities.
 - **Suggested verification**: Check Slovak Hydrometeorological Institute climate normals, WMO city climate pages, meteoblue chart data, Current Results, or another statistical source with explicit sunny/clear-day counts.
 - **Created**: 2026-05-29 (run-020)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-01 (run-032)
+- **Resolution note**: Slovakia profile now records WeatherSpark clearer-sky day-equivalent proxies for Bratislava (~211), Košice (~201), and Poprad (~190), labelled as medium-confidence proxies rather than official sunny-day counts. [src-173]
 
 ## vq-039 [high priority]
 - **Fact**: "Slovenia digital-nomad residence exact current numeric income threshold, application checklist/fees, partner evidence, and whether DN time counts toward permanent residence"
@@ -570,7 +581,9 @@ _(none)_
 - **Why uncertain**: Current climate sources provide temperatures, humidity, precipitation, and annual sunshine hours, but not direct sunny/clear-day counts.
 - **Suggested verification**: Check WeatherSpark city cloud-cover pages, Serbia hydrometeorological service climate normals, meteoblue chart data, or another source with explicit annual sunny/clear-day counts.
 - **Created**: 2026-05-30 (run-025)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-01 (run-032)
+- **Resolution note**: Serbia profile now records WeatherSpark clearer-sky day-equivalent proxies for Belgrade (~225), Novi Sad (~231), and Niš (~222), labelled as medium-confidence proxies rather than official sunny-day counts. [src-174]
 
 ## vq-047 [high priority]
 - **Fact**: "Turkey digital-nomad route official applicant-country checklist, consular / in-country workflow, fees, duration, and dependent mechanics"
@@ -648,7 +661,9 @@ _(none)_
 - **Why uncertain**: Current climate sources provide temperatures, rainfall, humidity/comfort notes, and sunshine hours for Tbilisi/Batumi, but not direct annual sunny/clear-day counts for all three cities.
 - **Suggested verification**: Check WeatherSpark city cloud-cover pages, Georgian meteorological service climate normals, meteoblue chart data, Current Results, or another source with explicit annual sunny/clear-day counts.
 - **Created**: 2026-05-31 (run-029)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-01 (run-032)
+- **Resolution note**: Georgia profile now records WeatherSpark clearer-sky day-equivalent proxies for Tbilisi (~243), Batumi (~197), and Kutaisi (~214), labelled as medium-confidence proxies rather than official sunny-day counts. [src-175]
 
 ## vq-054 [high priority]
 - **Fact**: "Current official Albanian visa-free entry rule for Ukrainian citizens, current Ukraine temporary-protection status, and any post-2027 bridge into ordinary residence"

@@ -1,27 +1,26 @@
 {
   "version": 2,
-  "iteration": 31,
+  "iteration": 32,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-01T04:01:26Z",
+  "last_run_timestamp": "2026-06-01T10:12:00Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Albania",
+    "mode": "verification",
+    "country": null,
     "sections": [
-      "5.1",
       "5.2"
-    ]
+    ],
+    "target": "climate sunny-day gaps"
   },
   "next_iteration_hint": {
     "suggested_mode": "verification",
     "suggested_country": "Albania",
     "suggested_sections": [
-      "5.1",
-      "5.2"
+      "5.1"
     ],
-    "reason": "Pending verification queue is back above threshold after Albania first pass; close Albania official-primary legal blockers and climate sunny-day gap before opening another fresh country."
+    "reason": "Pending queue remains above the ordinary working threshold after climate closures; prioritize Albania official-primary legal blockers before opening another fresh country."
   },
   "countries": {
     "Spain": {
@@ -216,11 +215,12 @@
     "Czech Republic": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -235,10 +235,9 @@
       ],
       "risk_flags": [
         "business-visa-evidence-burden",
-        "climate-sunny-days-gap",
         "special-residence-round-timing-needs-follow-up"
       ],
-      "last_iteration": 12
+      "last_iteration": 32
     },
     "Poland": {
       "tier": null,
@@ -327,11 +326,12 @@
     "Hungary": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -349,19 +349,19 @@
         "white-card-no-local-work",
         "white-card-holder-cannot-sponsor-family-reunification",
         "guest-self-employment-evidence-burden",
-        "no-captured-post-2027-tp-bridge",
-        "climate-sunny-days-gap"
+        "no-captured-post-2027-tp-bridge"
       ],
-      "last_iteration": 19
+      "last_iteration": 32
     },
     "Slovakia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -377,10 +377,9 @@
       "risk_flags": [
         "no-dedicated-digital-nomad-visa",
         "business-residence-evidence-burden",
-        "no-captured-post-2027-tp-bridge",
-        "climate-sunny-days-gap"
+        "no-captured-post-2027-tp-bridge"
       ],
-      "last_iteration": 21
+      "last_iteration": 32
     },
     "Slovenia": {
       "tier": null,
@@ -440,11 +439,12 @@
     "Serbia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -459,10 +459,9 @@
       ],
       "risk_flags": [
         "no-captured-post-2027-tp-bridge",
-        "digital-nomad-implementing-rules-need-primary-check",
-        "climate-sunny-days-gap"
+        "digital-nomad-implementing-rules-need-primary-check"
       ],
-      "last_iteration": 26
+      "last_iteration": 32
     },
     "Turkey": {
       "tier": null,
@@ -494,11 +493,12 @@
     "Georgia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -513,10 +513,9 @@
       ],
       "risk_flags": [
         "visa-free-not-residence",
-        "it-permit-foreign-client-mechanics-need-check",
-        "climate-sunny-days-gap"
+        "it-permit-foreign-client-mechanics-need-check"
       ],
-      "last_iteration": 29
+      "last_iteration": 32
     },
     "Albania": {
       "tier": null,
@@ -854,8 +853,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 12,
-  "sources_count": 169,
+  "verification_queue_size": 7,
+  "sources_count": 174,
   "claims_count": 140,
   "proposals_pending": 0
 }

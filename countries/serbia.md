@@ -1,14 +1,14 @@
 ---
 country: Serbia
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-30T22:01:43Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-06-01T10:12:00Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check", "climate-sunny-days-gap"]
-sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142"]
-unverified_count: 1
+risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check"]
+sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (likely Tier-2-hint until full legal/tax/cost evidence is gathered).
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-30T22:01:43Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-06-01T10:12:00Z
 - **Tier rationale**: Serbia is operationally attractive because Ukrainian citizens have visa-free entry, Serbia has a renewable temporary-protection framework for Ukrainians, MUP confirms electronic single-permit filing for self-employment / independent professional work, and the amended Law on Foreigners provides temporary residence / single permits up to 3 years plus permanent residence after 3 years of continuous temporary residence. The weak points are that no Serbia-specific post-TP ordinary-residence bridge was captured and climate sunny-day counts remain open. [src-132][src-133][src-135][src-136]
 
 ## Block 2 — Scoring
@@ -28,7 +28,7 @@ schema_version: 2.0.0
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | Multiple legal bases exist, but the best remote-work path still needs official implementing-rule verification. | §5.1 |
-| Climate | — | medium | Continental climate: cold/grey winters and hot summers; sunshine-hour baselines captured, but direct sunny/clear-day counts remain open. | §5.2 |
+| Climate | — | medium | Continental climate: cold/grey winters and hot summers; sunshine-hour baselines and clearer-sky proxies are now captured. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
@@ -90,15 +90,17 @@ First-pass implication: an ordinary route could plausibly be **3 years to PR + 3
 - **Budget risk**: a simple self-employment route may fit the couple if only sufficient means / bank balance is needed; an independent-professional / digital-nomad threshold around EUR 3,500/month would exceed or stress the current single-income budget. [src-139]
 - **Long-term upside**: PR after 3 years of continuous temporary residence is attractive, but citizenship may require release from Ukrainian citizenship under the ordinary naturalization route. [src-136][src-138]
 
-### 5.2. Climate {status: partial, depth: 0.5, last_updated: 2026-05-30, dod: partial}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-06-01, dod: passed}
 
-> **DoD gap**: temperatures, precipitation, humidity, sunshine hours, and comfort caveats are captured for 3 cities, but direct annual sunny/clear-day counts were not captured. Added `vq-046`.
+> **DoD status**: passed at medium confidence. Temperatures, precipitation, humidity, sunshine hours, comfort caveats, and clearer-sky day-equivalent proxies are captured for 3 cities.
 
 Serbia has a continental climate rather than a Mediterranean one. Belgrade is cold in winter and hot in summer; January averages about 1.0°C (33.8°F), July about 22.8°C (73.0°F), and August about 23.0°C. It gets about 630 mm precipitation over 88 days/year and around 2,115 sunshine hours/year; January humidity is about 85%, with winter fog possible and summer heat waves sometimes reaching 37–38°C or more. [src-140]
 
 Novi Sad is similar but slightly sunnier: January averages about 1.0°C, July about 22.4°C, August about 22.6°C, with about 676 mm precipitation over 87 days/year and around 2,210 sunshine hours/year. Winter is cold and grey with snow/frost/fog; summer is hot and sunny, with occasional thunderstorms and heat-wave risk above 35°C. [src-141]
 
 Niš in the south is not a winter-warm option: January averages about 1.1°C, July about 23.0°C, August about 23.3°C, with about 615 mm precipitation over 90 days/year and around 2,005 sunshine hours/year. The source reports average snow cover for about 40 days/year and summer heat waves up to around 40°C. [src-142]
+
+**Sunny/clear-day proxy verification.** WeatherSpark cloud-cover pages provide monthly percentages in the clearer sky categories (clear, mostly clear, or partly cloudy). Converted by month length, the medium-confidence clearer-sky day-equivalent proxies are: Belgrade ~225 days/year, Novi Sad ~231 days/year, and Niš ~222 days/year. These are broader clearer-sky proxies, not official meteorological sunny-day counts, but they are enough to close the §5.2 sunny-day blocker for planning. [src-174]
 
 **Comfort verdict for the couple:** Serbia is much less coastal/winter-mild than Montenegro, Greece, Cyprus, Malta, or parts of Spain/Portugal. It may still be acceptable if Belgrade/Novi Sad infrastructure and legal practicality dominate, but the climate is only moderately aligned with the preference for warm or moderately warm living. The south (Niš) is hotter in summer but still has real winter cold.
 

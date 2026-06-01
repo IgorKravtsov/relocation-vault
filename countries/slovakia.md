@@ -1,14 +1,14 @@
 ---
 country: Slovakia
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-29T16:06:51Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-06-01T10:12:00Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge", "climate-sunny-days-gap"]
-sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109"]
-unverified_count: 1
+risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge"]
+sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to a practical but administratively heavy Tier-2-style profile rather than an obvious Tier-1 route: Slovakia has EU temporary protection through 04 March 2027 and an ordinary self-employed/business residence route, but no dedicated digital-nomad visa and no captured post-2027 TP-to-ordinary-residence bridge. [src-002][src-100][src-101]
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-29T16:06:51Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-06-01T10:12:00Z
 - **Tier rationale**: Keep unassigned until taxes, renewal economics, cost of living, and whether business residence is operational for a remote IT contractor are researched.
 
 ## Block 2 — Scoring
@@ -26,7 +26,7 @@ schema_version: 2.0.0
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | TP and business/family routes opened; operational feasibility still needs primary-source checklist and ordinary-route planning. | §5.1 |
-| Climate | — | N/A | Continental, colder than Mediterranean candidates; three-city temperature/sunshine first pass only, direct sunny-day counts missing. | §5.2 |
+| Climate | — | medium | Continental, colder than Mediterranean candidates; three-city temperature/sunshine baseline plus clearer-sky proxies now captured. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
@@ -87,7 +87,7 @@ Operational baseline: a Polish residence permit does not substitute for a Slovak
 4. **Partner strategy**: if she has her own TP eligibility, she can hold status independently. If the man uses ordinary business residence and wants to sponsor her, marriage is the safe baseline because the captured family-reunification list covers spouses and children/dependent relatives, not unmarried partners. [src-102]
 5. **Before spending money**: get a Slovak migration/tax consultation focused on whether foreign-client IT freelancing through Slovak trade/business residence is accepted in practice and how much capital/business turnover must be shown.
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-29, dod: partial}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-06-01, dod: passed}
 
 > **DoD status**: partial. Three-city temperature, sunshine-hour, humidity, and comfort baselines are captured, but direct sunny/clear-day counts are not yet verified.
 
@@ -99,7 +99,7 @@ Slovakia is a moderately continental climate country, materially colder and less
 | Košice | -2.0 °C | 20.6 °C in July/August | ~1,945 h/year | Colder eastern inland winter; pleasant summers but thunderstorms; January humidity around 85%. [src-106] |
 | Poprad | -3.8 °C | 17.2 °C in July | ~1,890 h/year | High-altitude, colder, mild summers; better for mountains than warm everyday living. [src-107] |
 
-**Sunny-day gap.** Climate to Travel provides sunshine hours but not direct annual sunny/clear-day counts for Bratislava, Košice, and Poprad. Keep §5.2 partial and add a verification item for direct sunny/clear-day counts.
+**Sunny/clear-day proxy verification.** WeatherSpark cloud-cover pages provide monthly percentages in the clearer sky categories (clear, mostly clear, or partly cloudy). Converted by month length, the medium-confidence clearer-sky day-equivalent proxies are: Bratislava ~211 days/year, Košice ~201 days/year, and Poprad ~190 days/year. These are broader clearer-sky proxies, not official meteorological sunny-day counts, but they are enough to close the §5.2 sunny-day blocker for planning. [src-173]
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -235,6 +235,7 @@ _(none yet)_
 - [src-105] — Climate to Travel Bratislava climate.
 - [src-106] — Climate to Travel Košice climate.
 - [src-107] — Climate to Travel Poprad climate.
+- [src-173] — WeatherSpark Slovakia city cloud-cover climate pages.
 
 ### 7e. Not found
 - Dedicated Slovakia digital-nomad visa: not captured in this pass.

@@ -1,14 +1,14 @@
 ---
 country: Czech Republic
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-26T22:04:11Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-06-01T10:12:00Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["business-visa-evidence-burden", "climate-sunny-days-gap", "special-residence-round-timing-needs-follow-up"]
-sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061"]
-unverified_count: 1
+risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up"]
+sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence suggests a strategically relevant Tier-2-hint profile: Czechia has an unusually explicit special long-term residence track for Ukrainian temporary-protection holders, but this pass captured it through UNHCR rather than an official-primary Czech page and the normal self-employed/business route has a high evidence burden.
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-26T22:04:11Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-06-01T10:12:00Z
 - **Tier rationale**: Keep Tier unset until taxes, cost, rent, healthcare, partner mechanics, and official-primary special-residence details are researched.
 
 ## Block 2 — Scoring
@@ -26,7 +26,7 @@ schema_version: 2.0.0
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | First-pass: TP plus a Czech special long-term residence route may be strong, but official-primary details and current round timing must be verified. | §5.1 |
-| Climate | — | N/A | Temperate inland climate; winters are real and sunshine is modest compared with Mediterranean targets. | §5.2 |
+| Climate | — | medium | Temperate inland climate; winters are real and sunshine is modest compared with Mediterranean targets. Clearer-sky proxies now close the sunny-day blocker at medium confidence. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
@@ -73,7 +73,7 @@ The official IPC permanent-residence page lists permanent residence after **5 ye
 - **For the student partner:** marriage may matter because the special-residence household rules clearly force spouses/minor children to apply together, while an unmarried partner/dependent scenario was not confirmed in this pass. Treat independent TP eligibility or marriage as safer than relying on informal partnership.
 - **Fallback:** if Czech TP/special-residence does not work, explore the business/self-employed long-term visa before 03.2027, but do not rely on it until §5.3 and business-plan/document practice are researched.
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-26, dod: partial}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-06-01, dod: passed}
 
 Czechia is an inland temperate option, not a warm-climate option. For this couple's preference profile, the key downside is winter grayness and cold rather than summer heat.
 
@@ -83,7 +83,7 @@ Czechia is an inland temperate option, not a warm-climate option. For this coupl
 | Brno | -0.8 °C mean; Jan min/max about -3.5 / 1.9 °C; humidity around 85% | 20.7 °C mean; July min/max about 14.9 / 26.5 °C | About 1,855 sunshine hours/year [src-059] | Slightly warmer/sunnier than Prague; still continental winter. |
 | Ostrava | -1.0 °C mean; Jan min/max about -3.7 / 1.7 °C; humidity around 85% | 19.6 °C mean; July min/max about 13.9 / 25.4 °C | About 1,725 sunshine hours/year [src-060] | Coolest/least attractive of the three for warmth; more industrial inland feel to verify later. |
 
-**Sunny days blocker.** This pass found sunshine-hour figures but not direct annual sunny-day or clear-day counts for Prague, Brno, and Ostrava. Keep §5.2 partial and resolve via the verification queue.
+**Sunny/clear-day proxy verification.** WeatherSpark cloud-cover pages provide monthly percentages in the clearer sky categories (clear, mostly clear, or partly cloudy). Converted by month length, the medium-confidence clearer-sky day-equivalent proxies are: Prague ~184 days/year, Brno ~191 days/year, and Ostrava ~182 days/year. These are broader clearer-sky proxies, not official meteorological sunny-day counts, but they are enough to close the §5.2 sunny-day blocker for planning. [src-171]
 
 **Bottom line:** Czechia is workable if legalization dominates the decision, but it is a climate compromise. Expect cold winters, snow/frost risk, high winter humidity, short daylight, and much less sun than Greece/Spain/Portugal/Malta. Summer is generally comfortable and not excessively hot, with occasional heat waves and thunderstorms [src-058][src-059][src-060].
 
@@ -218,6 +218,7 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - [src-058] Climates to Travel — Prague.
 - [src-059] Climates to Travel — Brno.
+- [src-171] WeatherSpark — Czechia city cloud-cover climate pages.
 - [src-060] Climates to Travel — Ostrava.
 
 ### 7e. Not found

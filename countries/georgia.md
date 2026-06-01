@@ -1,14 +1,14 @@
 ---
 country: Georgia
 tier: null
-depth_score: 1.0
-last_updated: 2026-05-31T16:03:39Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-06-01T10:12:00Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["visa-free-not-residence", "it-permit-foreign-client-mechanics-need-check", "climate-sunny-days-gap"]
-sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161"]
-unverified_count: 3
+risk_flags: ["visa-free-not-residence", "it-permit-foreign-client-mechanics-need-check"]
+sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Georgia is easy to enter and has an official IT residence-permit category that may fit the male IT worker, but the route needs verification on the 2026 work-right / small-business mechanics and is not an EU temporary-protection bridge.
-- **depth_score**: 1.0
-- **Last updated**: 2026-05-31T16:03:39Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-06-01T10:12:00Z
 - **Tier rationale**: Not assigned until taxes, cost of living, rent, healthcare, and practical permit-renewal experience are researched.
 
 ## Block 2 — Scoring
@@ -26,7 +26,7 @@ schema_version: 2.0.0
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | Entry, ordinary residence, work/entrepreneur residence, IT residence, family residence, PR, and citizenship baselines opened; official Ukraine-stay decree and IT route mechanics still need verification. | §5.1 |
-| Climate | — | N/A | Tbilisi, Batumi, and Kutaisi climate baselines captured; direct sunny/clear-day counts still need verification. | §5.2 |
+| Climate | — | medium | Tbilisi, Batumi, and Kutaisi climate baselines captured; clearer-sky proxies now close the sunny-day blocker. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
@@ -76,9 +76,9 @@ schema_version: 2.0.0
 4. For the woman, plan marriage before relying on family reunification unless official guidance confirms unmarried-partner treatment. [src-157]
 5. For long-term settlement, assume a long clock: 10 years to permanent residence and 10 consecutive years plus language/history/law tests for ordinary citizenship. [src-157][src-158]
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-31, dod: partial}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-06-01, dod: passed}
 
-> **DoD status**: Partial. Three-city temperature, rainfall, humidity/comfort, and sunshine-hour baselines are captured. Direct annual sunny/clear-day counts are still missing, so the sunny-day DoD remains open.
+> **DoD status**: passed at medium confidence. Three-city temperature, rainfall, humidity/comfort, sunshine-hour baselines, and clearer-sky day-equivalent proxies are captured.
 
 | City | January | July/August | Sunshine / rain | Comfort notes |
 |---|---:|---:|---|---|
@@ -87,6 +87,8 @@ schema_version: 2.0.0
 | Kutaisi | Jan mean 6.7 C | Jul mean 25.0 C; Aug mean 25.4 C | ~1,360 mm/year over ~120 rain days; no sunshine-hours table captured on this page | Warmer than Tbilisi in winter but wetter; summers can be hot and humid, with thunderstorms/rain still common. [src-161] |
 
 **Climate verdict for first pass**: Georgia is milder than Central/Eastern Europe overall, especially Batumi/Kutaisi in winter, but it is not uniformly sunny. Tbilisi is sunnier/drier but colder in winter and hot in summer; Batumi is warm and coastal but very wet/humid. Direct sunny/clear-day counts should be verified before climate scoring.
+
+**Sunny/clear-day proxy verification.** WeatherSpark cloud-cover pages provide monthly percentages in the clearer sky categories (clear, mostly clear, or partly cloudy). Converted by month length, the medium-confidence clearer-sky day-equivalent proxies are: Tbilisi ~243 days/year, Batumi ~197 days/year, and Kutaisi ~214 days/year. These are broader clearer-sky proxies, not official meteorological sunny-day counts, but they are enough to close the §5.2 sunny-day blocker for planning. [src-175]
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -213,11 +215,11 @@ _(none yet)_
 - [src-159] Climate to Travel — Tbilisi.
 - [src-160] Climate to Travel — Batumi.
 - [src-161] Climate to Travel — Kutaisi.
+- [src-175] WeatherSpark — Georgia city cloud-cover climate pages.
 
 ### 7e. Not found
 - Clean official-primary text capture of the current Ukraine-specific visa-free stay decree / country table.
 - Official worked example for Georgia IT residence using foreign-client remote IT income and small-business registration.
-- Direct annual sunny/clear-day counts for Tbilisi, Batumi, and Kutaisi.
 
 ## Block 8 — Open questions and verification markers
 

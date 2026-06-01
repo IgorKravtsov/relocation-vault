@@ -17,17 +17,17 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Cyprus | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/cyprus.md` |
 | Croatia | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/croatia.md` |
 | Malta | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/malta.md` |
-| Czech Republic | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 12 | `countries/czech-republic.md` |
+| Czech Republic | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/czech-republic.md` |
 | Poland | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 13 | `countries/poland.md` |
 | Romania | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/romania.md` |
 | Bulgaria | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/bulgaria.md` |
-| Hungary | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 19 | `countries/hungary.md` |
-| Slovakia | eu-schengen | 2 | — | 1.0 | partial: 5.1, 5.2 | 21 | `countries/slovakia.md` |
+| Hungary | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/hungary.md` |
+| Slovakia | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/slovakia.md` |
 | Slovenia | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/slovenia.md` |
 | Montenegro | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 26 | `countries/montenegro.md` |
-| Serbia | europe-non-eu | 2 | — | 1.0 | partial: 5.1, 5.2 | 26 | `countries/serbia.md` |
+| Serbia | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/serbia.md` |
 | Turkey | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 30 | `countries/turkey.md` |
-| Georgia | europe-non-eu | 2 | — | 1.0 | partial: 5.1, 5.2 | 29 | `countries/georgia.md` |
+| Georgia | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/georgia.md` |
 | Albania | balkans-east | 2 | — | 1.0 | partial: 5.1, 5.2 | 31 | `countries/albania.md` |
 | North Macedonia | balkans-east | 3 | — | 0 | — | — | — |
 | Bosnia and Herzegovina | balkans-east | 3 | — | 0 | — | — | — |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 19
-- **Average depth_score**: 0.74
+- **Average depth_score**: 0.82
