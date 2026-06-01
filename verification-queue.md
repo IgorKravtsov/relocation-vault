@@ -694,3 +694,13 @@ _(none)_
 - **Suggested verification**: Check WeatherSpark city cloud-cover pages, Albanian meteorological service climate normals, meteoblue chart data, Current Results, or another source with explicit annual sunny/clear-day counts.
 - **Created**: 2026-06-01 (run-031)
 - **Status**: pending
+
+## vq-057 [medium priority]
+- **Fact**: "Exact 2026 T2 / normal two-room apartment rent medians or listing ranges for Lisbon, Porto, and Faro"
+- **Country**: Portugal
+- **Section**: 5.5
+- **Current source**: src-176, src-177, src-178, src-179
+- **Why uncertain**: This iteration used current secondary city-budget and rent-per-square-metre sources to create conservative planning bands, but direct listing pages for exact T2 searches were JS/WAF-blocked and no clean city-level T2 median table was captured.
+- **Suggested verification**: Capture idealista T2 listing results via a readable endpoint/cache, INE/rental statistics, Confidencial Imobiliário, or another current listings/statistics source with city-level T2 data.
+- **Created**: 2026-06-01 (run-033)
+- **Status**: pending

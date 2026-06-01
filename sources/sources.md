@@ -2116,3 +2116,51 @@ Each source entry:
 - **Facts supporting**: monthly percentages of time in the clearer cloud-cover categories for Tbilisi, Batumi, and Kutaisi; annual clearer-sky day-equivalent proxies calculated from monthly percentages
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-176
+- **Title**: Movingto — Cost of Living in Portugal 2026: Real Prices, Rent, and Monthly Budgets
+- **URL**: https://movingto.com/pt/cost-of-living-portugal
+- **Archive**: [archive: failed 2026-06-01; Wayback returned HTTP 429]
+- **Type**: reputable-secondary
+- **Date published**: 2026-05-21
+- **Date accessed**: 2026-06-01
+- **Used by**: Portugal
+- **Facts supporting**: Portugal monthly budget ranges for couples, utilities, internet, transport, groceries, and housing orientation for Lisbon/Porto/interior
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-01
+
+## src-177
+- **Title**: idealista/news — Cost of living in Portugal in 2026
+- **URL**: https://www.idealista.pt/en/news/financial-advice-in-portugal/2026/01/19/5469-cost-of-living-in-portugal
+- **Archive**: [archive: failed 2026-06-01; Wayback returned HTTP 429]
+- **Type**: reputable-secondary
+- **Date published**: 2026-01-19
+- **Date accessed**: 2026-06-01
+- **Used by**: Portugal
+- **Facts supporting**: non-rent monthly cost baselines, family-of-four cost baseline, utilities, rent per square metre, Lisbon metro rent per square metre, transport-pass cost
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-01
+
+## src-178
+- **Title**: Live in Portugal — Cost of Living in Portugal by City 2026: Real Monthly Costs
+- **URL**: https://liveinpt.com/guides/cost-of-living-portugal-by-city/
+- **Archive**: [archive: failed 2026-06-01; Wayback returned HTTP 429]
+- **Type**: reputable-secondary
+- **Date published**: 2026-05-04
+- **Date accessed**: 2026-06-01
+- **Used by**: Portugal
+- **Facts supporting**: Lisbon, Porto, and Faro city-level rent, groceries, utilities, internet, transport, eating-out, and monthly total ranges for 2026 planning
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-01
+
+## src-179
+- **Title**: idealista/news — How to rent an apartment in Portugal: a step-by-step guide
+- **URL**: https://www.idealista.pt/en/news/property-for-rent-in-portugal/2026/06/21/730-a-step-by-step-guide-to-renting-property-in-portugal
+- **Archive**: [archive: failed 2026-06-01; Wayback returned HTTP 429]
+- **Type**: reputable-secondary
+- **Date published**: 2026-05-22
+- **Date accessed**: 2026-06-01
+- **Used by**: Portugal
+- **Facts supporting**: rental process, NIF/ID/income/bank/guarantor expectations, standard deposit and advance-rent practice, written contract points, foreign remote-income caveat
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-01

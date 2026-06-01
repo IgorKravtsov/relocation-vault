@@ -1,26 +1,27 @@
 {
   "version": 2,
-  "iteration": 32,
+  "iteration": 33,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-01T10:12:00Z",
+  "last_run_timestamp": "2026-06-01T16:05:49Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
+    "mode": "country-deep-dive",
+    "country": "Portugal",
     "sections": [
-      "5.2"
-    ],
-    "target": "climate sunny-day gaps"
+      "5.4",
+      "5.5"
+    ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": "Albania",
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Italy",
     "suggested_sections": [
-      "5.1"
+      "5.3",
+      "5.4"
     ],
-    "reason": "Pending queue remains above the ordinary working threshold after climate closures; prioritize Albania official-primary legal blockers before opening another fresh country."
+    "reason": "Verification queue remains below threshold; continue Tier-1-hint rotation by advancing a low-depth country without clustering on Portugal."
   },
   "countries": {
     "Spain": {
@@ -53,16 +54,17 @@
     "Portugal": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 1.0,
-      "sections_completed": [],
+      "depth_score": 2.5,
+      "sections_completed": [
+        "5.4"
+      ],
       "sections_partial": [
         "5.1",
-        "5.2"
+        "5.2",
+        "5.5"
       ],
       "sections_pending": [
         "5.3",
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -73,9 +75,10 @@
       "risk_flags": [
         "no-clear-post-2027-tp-bridge",
         "climate-sunny-days-gap",
-        "d8-income-above-current-budget"
+        "d8-income-above-current-budget",
+        "lisbon-rent-pressure"
       ],
-      "last_iteration": 15
+      "last_iteration": 33
     },
     "Italy": {
       "tier": null,
@@ -853,8 +856,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 7,
-  "sources_count": 174,
+  "verification_queue_size": 8,
+  "sources_count": 178,
   "claims_count": 140,
   "proposals_pending": 0
 }

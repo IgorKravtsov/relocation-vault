@@ -8,6 +8,15 @@ last_updated: 2026-06-01
 
 Brief delta per iteration. Append-only.
 
+## 2026-06-01 — run-033 — portugal-cost-rent
+
+- Portugal: depth_score 1.0 → 2.5 (section 5.4 completed; section 5.5 advanced to partial).
+- Cost-of-living pass added Lisbon, Porto, and Faro/Algarve monthly budget ranges, utilities, internet, transport, groceries, and a $3,000/month budget conclusion.
+- Rent pass added working T2 planning bands, search-process notes, foreign-tenant document expectations, deposit/advance-rent rules, and a new `lisbon-rent-pressure` flag.
+- Sources added: `src-176` … `src-179`.
+- Verification queue: 7 → 8 pending/open items (`vq-057` added for exact Portugal T2 listing medians).
+- Next: continue country-deep-dive rotation with Italy sections 5.3/5.4 unless the queue rises above threshold.
+
 ## 2026-06-01 — run-031 — albania-legalization-climate
 
 - Albania profile created from template.
