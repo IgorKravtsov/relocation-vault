@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-05-31
+last_updated: 2026-06-01
 ---
 
 # INDEX
@@ -28,7 +28,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Serbia | europe-non-eu | 2 | — | 1.0 | partial: 5.1, 5.2 | 26 | `countries/serbia.md` |
 | Turkey | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 30 | `countries/turkey.md` |
 | Georgia | europe-non-eu | 2 | — | 1.0 | partial: 5.1, 5.2 | 29 | `countries/georgia.md` |
-| Albania | balkans-east | 2 | — | 0 | — | — | — |
+| Albania | balkans-east | 2 | — | 1.0 | partial: 5.1, 5.2 | 31 | `countries/albania.md` |
 | North Macedonia | balkans-east | 3 | — | 0 | — | — | — |
 | Bosnia and Herzegovina | balkans-east | 3 | — | 0 | — | — | — |
 | Moldova | balkans-east | 3 | — | 0 | — | — | — |
@@ -50,5 +50,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 1 hints**: 7 (Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta)
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
-- **Researched**: 18
-- **Average depth_score**: 0.71
+- **Researched**: 19
+- **Average depth_score**: 0.74

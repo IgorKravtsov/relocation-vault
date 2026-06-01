@@ -1972,3 +1972,87 @@ Each source entry:
 - **Facts supporting**: Izmir monthly clearer-sky percentages; derived annual clearer-sky day-equivalent proxy of about 266 days/year for section 5.2 verification
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-164
+- **Title**: Wikipedia — Visa requirements for Ukrainian citizens (Albania row)
+- **URL**: https://en.wikipedia.org/wiki/Visa_requirements_for_Ukrainian_citizens
+- **Archive**: [archive: failed 2026-06-01; not attempted within iteration budget]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Albania
+- **Facts supporting**: medium-confidence operational baseline that Ukrainian citizens are visa-exempt for Albania for 90 days within any 180-day period (claim-albania-001)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-01
+
+## src-165
+- **Title**: Albania MFA / Ministry pages — visa regime and Ukraine temporary-protection pages attempted, content WAF-blocked
+- **URL**: https://punetejashtme.gov.al/en/regjimi-i-vizave-per-te-huajt/ ; https://mb.gov.al/en/ministry/news/temporary-protection-for-ukrainian-citizens/
+- **Archive**: stable gov domain / WAF shell captured; snapshot not useful
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Albania
+- **Facts supporting**: official-primary targets for Albanian visa-regime and Ukrainian temporary-protection verification; direct content was blocked by Incapsula/WAF in this pass (claim-albania-002)
+- **Confidence ceiling**: low
+- **Stale at**: 2026-12-01
+
+## src-166
+- **Title**: Nomads Embassy — Albania Digital Nomad Visa: How to Apply
+- **URL**: https://nomadsembassy.com/albania-digital-nomad-visa/
+- **Archive**: [archive: failed 2026-06-01; not attempted within iteration budget]
+- **Type**: reputable-secondary
+- **Date published**: 2025-09-02
+- **Date accessed**: 2026-06-01
+- **Used by**: Albania
+- **Facts supporting**: secondary operational baseline for Albania Unique Permit / remote-worker route, 1-year initial validity, renewability up to 5 years, family inclusion, income threshold, documents, apostille/translation notes, Albanian bank account, and health-insurance requirements (claim-albania-003 through claim-albania-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-01
+
+## src-167
+- **Title**: Citizen Remote — Albania Digital Nomad Visa 2026: requirements, costs and how to apply
+- **URL**: https://citizenremote.com/visas/albania-digital-nomad-visa/
+- **Archive**: [archive: failed 2026-06-01; not attempted within iteration budget]
+- **Type**: reputable-secondary
+- **Date published**: 2026-02-23
+- **Date accessed**: 2026-06-01
+- **Used by**: Albania
+- **Facts supporting**: secondary 2026 baseline for Type D visa + Unique Permit remote-worker structure, foreign-client / foreign-employer income requirement, approximate income floor, annual renewals, no Albanian-market work without separate authorization, and document categories (claim-albania-003 through claim-albania-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-01
+
+## src-168
+- **Title**: Climate to Travel — Tirana climate: seasons, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/albania/tirana
+- **Archive**: [archive: failed 2026-06-01; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Albania
+- **Facts supporting**: Tirana January/July/August temperatures, annual rainfall and rain days, sunshine hours, humidity, and hot/cold comfort caveats (claim-albania-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-169
+- **Title**: Climate to Travel — Durrës climate: seasons, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/albania/durres
+- **Archive**: [archive: failed 2026-06-01; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Albania
+- **Facts supporting**: Durrës January/July/August temperatures, annual rainfall and rain days, sea temperature, sunshine hours, and coastal comfort caveats (claim-albania-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-170
+- **Title**: Climate to Travel — Vlorë climate: seasons, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/albania/vlore
+- **Archive**: [archive: failed 2026-06-01; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Albania
+- **Facts supporting**: Vlorë January/July/August temperatures, annual rainfall and rain days, sea temperature, sunshine hours, and southern coastal comfort caveats (claim-albania-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

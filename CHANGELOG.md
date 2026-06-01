@@ -1,12 +1,23 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-05-31
+last_updated: 2026-06-01
 ---
 
 # CHANGELOG
 
 Brief delta per iteration. Append-only.
+
+## 2026-06-01 — run-031 — albania-legalization-climate
+
+- Albania profile created from template.
+- Albania: depth_score 0 → 1.0 (sections 5.1 and 5.2 advanced to partial).
+- Legalization first pass opened the visa-free entry baseline, WAF-blocked official Ukraine/visa source gap, Type D + Unique Permit remote-worker route from 2025–2026 secondary sources, family/dependent baseline, and conservative no-TP-bridge caution.
+- Climate first pass captured Tirana, Durrës, and Vlorë temperature / rainfall / sunshine-hour / comfort baselines; direct sunny/clear-day counts remain queued.
+- Sources added: `src-164` … `src-170`.
+- Claims added: `claim-albania-001` … `claim-albania-007`.
+- Verification queue: 9 → 12 pending/open items (`vq-054` through `vq-056` added).
+- Next: verification batch because the queue is above threshold.
 
 ## 2026-05-31 — run-030 — verification-turkey-climate-clearer-days
 

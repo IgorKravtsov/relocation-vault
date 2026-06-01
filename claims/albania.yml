@@ -1,0 +1,62 @@
+- id: claim-albania-001
+  topic: ukraine_visa_free_entry_baseline
+  value: "Aggregator visa data records Ukrainian citizens as visa-exempt for Albania for 90 days within any 180-day period; official MFA capture was WAF-blocked in this pass."
+  source: src-164
+  date_verified: 2026-06-01
+  confidence: medium
+  tags: [entry, visa-free, ukraine, albania]
+  notes: "Operational baseline only; queued for official MFA / e-visa verification."
+
+- id: claim-albania-002
+  topic: ukraine_temporary_protection_gap
+  value: "A Ministry of Interior URL about temporary protection for Ukrainian citizens exists but was WAF-protected; no current Albania-specific TP extension or post-2027 ordinary-residence bridge was captured."
+  source: src-165
+  date_verified: 2026-06-01
+  confidence: low
+  tags: [temporary-protection, ukraine, verification-gap, albania]
+  notes: "Conservative planning baseline: do not rely on Albania as a Ukraine TP bridge until official material is captured."
+
+- id: claim-albania-003
+  topic: remote_worker_unique_permit_baseline
+  value: "Secondary 2025-2026 sources describe Albania's remote-worker path as a Type D long-stay visa followed by a Unique Permit / residence authorization for people working remotely for foreign employers or clients."
+  source: src-167
+  date_verified: 2026-06-01
+  confidence: medium
+  tags: [digital-nomad, unique-permit, remote-work, albania]
+  notes: "Composite claim using src-166 and src-167; official e-Albania / State Police checklist remains queued."
+
+- id: claim-albania-004
+  topic: remote_worker_income_threshold_secondary
+  value: "Captured secondary sources give inconsistent low income baselines for Albania remote-worker residence: about EUR 450/month or USD 9,800/year in one guide, and about ALL 40,000/month / USD 500/month in another; the couple's USD 3,000/month appears above both but the official threshold is unverified."
+  source: src-166
+  date_verified: 2026-06-01
+  confidence: medium
+  tags: [income-threshold, digital-nomad, budget-fit, albania]
+  notes: "Exact couple/dependent threshold needs official verification before scoring."
+
+- id: claim-albania-005
+  topic: remote_worker_documents_secondary
+  value: "Secondary route lists converge on passport, photos, remote-work contract or service contracts, proof of funds / bank statements, Albanian accommodation, Albanian bank account, clean criminal record, and health insurance; one guide says government-issued documents should be apostilled and English or Albanian documents are acceptable."
+  source: src-166
+  date_verified: 2026-06-01
+  confidence: medium
+  tags: [documents, digital-nomad, unique-permit, albania]
+  notes: "Official document checklist and fee schedule still required."
+
+- id: claim-albania-006
+  topic: remote_worker_duration_pr_secondary
+  value: "Secondary sources describe the Albania remote-worker / Unique Permit route as initially valid for about one year and renewable annually, with some guides describing renewability up to five years and possible permanent residence afterward."
+  source: src-166
+  date_verified: 2026-06-01
+  confidence: medium
+  tags: [duration, renewal, permanent-residence, albania]
+  notes: "Verify with Law on Foreigners / State Police before treating the PR clock as confirmed."
+
+- id: claim-albania-007
+  topic: albania_climate_first_pass
+  value: "Tirana: Jan mean 7.1 C / Jul mean 25.3 C / Aug mean 25.5 C / ~2,545 sunshine hours / ~1,345 mm rain; Durrës: Jan 8.4 C / Jul 26.9 C / Aug 27.6 C / ~2,695 sunshine hours / ~1,125 mm rain; Vlorë: Jan 8.9 C / Jul 26.3 C / Aug 26.6 C / ~2,670 sunshine hours / ~1,075 mm rain."
+  source: src-168
+  date_verified: 2026-06-01
+  confidence: medium
+  tags: [climate, tirana, durres, vlore, albania]
+  notes: "Composite first-pass climate claim using src-168, src-169, and src-170; direct sunny/clear-day counts remain queued."

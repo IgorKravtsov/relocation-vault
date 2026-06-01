@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-05-31
+last_updated: 2026-06-01
 ---
 
 # Verification Queue
@@ -648,4 +648,34 @@ _(none)_
 - **Why uncertain**: Current climate sources provide temperatures, rainfall, humidity/comfort notes, and sunshine hours for Tbilisi/Batumi, but not direct annual sunny/clear-day counts for all three cities.
 - **Suggested verification**: Check WeatherSpark city cloud-cover pages, Georgian meteorological service climate normals, meteoblue chart data, Current Results, or another source with explicit annual sunny/clear-day counts.
 - **Created**: 2026-05-31 (run-029)
+- **Status**: pending
+
+## vq-054 [high priority]
+- **Fact**: "Current official Albanian visa-free entry rule for Ukrainian citizens, current Ukraine temporary-protection status, and any post-2027 bridge into ordinary residence"
+- **Country**: Albania
+- **Section**: 5.1
+- **Current source**: src-164, src-165
+- **Why uncertain**: The official MFA visa-regime and Ministry temporary-protection pages were WAF-blocked in this pass; the 90/180 entry baseline comes from an aggregator, and no current Ukraine-specific TP extension / post-2027 bridge was captured.
+- **Suggested verification**: Extract Albanian MFA / e-visa / State Police / Council of Ministers material, using text mirrors or official gazette sources if needed.
+- **Created**: 2026-06-01 (run-031)
+- **Status**: pending
+
+## vq-055 [high priority]
+- **Fact**: "Albania Type D + Unique Permit remote-worker route official checklist, exact income threshold, fees, dependent mechanics, and whether time counts toward permanent residence"
+- **Country**: Albania
+- **Section**: 5.1
+- **Current source**: src-166, src-167
+- **Why uncertain**: Secondary sources describe the route and document set, but official e-Albania / State Police / law-text extraction was not captured; secondary sources differ on exact income thresholds and renewal/PR details.
+- **Suggested verification**: Check e-Albania service pages, State Police foreigner services, Law on Foreigners / implementing decisions, or a current official checklist PDF.
+- **Created**: 2026-06-01 (run-031)
+- **Status**: pending
+
+## vq-056 [medium priority]
+- **Fact**: "Direct annual sunny-day or clear-day counts for Tirana, Durrës, and Vlorë"
+- **Country**: Albania
+- **Section**: 5.2
+- **Current source**: src-168, src-169, src-170
+- **Why uncertain**: Current climate sources provide temperatures, rainfall, humidity/comfort notes, and annual sunshine hours, but not direct annual sunny/clear-day counts.
+- **Suggested verification**: Check WeatherSpark city cloud-cover pages, Albanian meteorological service climate normals, meteoblue chart data, Current Results, or another source with explicit annual sunny/clear-day counts.
+- **Created**: 2026-06-01 (run-031)
 - **Status**: pending
