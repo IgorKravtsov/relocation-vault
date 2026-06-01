@@ -8,6 +8,17 @@ last_updated: 2026-06-01
 
 Brief delta per iteration. Append-only.
 
+## 2026-06-01 — run-034 — uruguay-legalization-climate
+
+- Uruguay profile created from template.
+- Uruguay: depth_score 0 → 1.5 (section 5.2 completed; section 5.1 advanced to partial).
+- Legalization first pass captured Ukrainian visa-free entry, ordinary permanent residence, foreign-company / independent-worker means-of-life evidence, 6+6 month digital-nomad provisional identity bridge, and legal citizenship after 3 years with family or 5 years without family.
+- Climate pass completed Montevideo, Salto, and Tacuarembo temperature / comfort baselines and WeatherSpark clearer-sky day-equivalent proxies.
+- Sources added: `src-180` … `src-186`.
+- Claims added: `claim-uruguay-001` … `claim-uruguay-006`.
+- Verification queue: 8 → 10 pending/open items (`vq-058`, `vq-059` added).
+- Next: continue country-deep-dive rotation with Paraguay sections 5.1/5.2 unless the queue rises above threshold.
+
 ## 2026-06-01 — run-033 — portugal-cost-rent
 
 - Portugal: depth_score 1.0 → 2.5 (section 5.4 completed; section 5.5 advanced to partial).

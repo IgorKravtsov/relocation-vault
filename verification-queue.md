@@ -704,3 +704,23 @@ _(none)_
 - **Suggested verification**: Capture idealista T2 listing results via a readable endpoint/cache, INE/rental statistics, Confidencial Imobiliário, or another current listings/statistics source with city-level T2 data.
 - **Created**: 2026-06-01 (run-033)
 - **Status**: pending
+
+## vq-058 [high priority]
+- **Fact**: "Uruguay permanent legal residence: practical evidence package and income sufficiency for a foreign-client IT worker earning about USD 3,000/month while supporting a partner"
+- **Country**: Uruguay
+- **Section**: 5.1
+- **Current source**: src-182
+- **Why uncertain**: The official permanent-residence checklist recognizes foreign legal-entity employment and independent-worker means-of-life evidence, but it does not state a fixed income floor or worked filing example for a remote IT worker supporting a second adult.
+- **Suggested verification**: Check Uruguayan migration-lawyer explainers, notary/accountant guidance, DNM FAQs, or a current case note for income sufficiency and the notarial/accounting certificate package.
+- **Created**: 2026-06-01 (run-034)
+- **Status**: pending
+
+## vq-059 [high priority]
+- **Fact**: "Whether Uruguay's digital-nomad provisional identity route counts toward habitual residence / legal-citizenship timelines and how spouse or unmarried-partner residence files are handled"
+- **Country**: Uruguay
+- **Section**: 5.1
+- **Current source**: src-183, src-184
+- **Why uncertain**: Official pages document the 6+6 month digital-nomad provisional identity route and separate legal-citizenship habitual-residence rules, but this pass did not capture an official answer on DN time-counting or partner/dependent handling for the couple.
+- **Suggested verification**: Check DNM/Corte Electoral guidance, Uruguayan notary or immigration-lawyer explanations, and any official FAQ on provisional identity versus legal residence/citizenship evidence.
+- **Created**: 2026-06-01 (run-034)
+- **Status**: pending

@@ -1,0 +1,53 @@
+- id: claim-uruguay-001
+  topic: ukrainian_ordinary_passport_entry
+  value: "Ukraine is listed as No necesita Visa for ordinary passports in Uruguay's admission-visa regime table."
+  source: src-180
+  date_verified: 2026-06-01
+  confidence: high
+  tags: [entry, visa-free, ukrainians]
+  notes: "Official Ministry of Interior table accessed 2026-06-01; re-check before travel because admission tables can change."
+
+- id: claim-uruguay-002
+  topic: permanent_residence_foreign_employee_evidence
+  value: "Permanent legal residence means-of-life evidence includes a foreign legal-entity employee category requiring a notarial certificate covering the company, income, payment method, remote activity from Uruguay, and whether labour/social-security registration applies."
+  source: src-182
+  date_verified: 2026-06-01
+  confidence: high
+  tags: [residence, remote-work, means-of-life, foreign-employer]
+  notes: "No fixed minimum income was captured; practical sufficiency remains a verification item for the couple's USD 3000/month budget."
+
+- id: claim-uruguay-003
+  topic: digital_nomad_provisional_identity_duration
+  value: "Uruguay's digital-nomad provisional identity route is described as an initial six-month stay after regular tourist entry, renewable for another six months with criminal-record and vaccination evidence."
+  source: src-183
+  date_verified: 2026-06-01
+  confidence: high
+  tags: [digital-nomad, provisional-identity, duration]
+  notes: "The route is a short bridge, not yet confirmed as a long-term residence/citizenship-counting route."
+
+- id: claim-uruguay-004
+  topic: legal_citizenship_timeline
+  value: "Legal citizenship can be available after 3 years of habitual residence for foreigners with family constituted in Uruguay, or 5 years without family, if other Article 75 conditions are met."
+  source: src-184
+  date_verified: 2026-06-01
+  confidence: high
+  tags: [citizenship, timeline, family, habitual-residence]
+  notes: "The same source states that exits over 6 consecutive months reset the required residence period and that non-Spanish-language applicants must understand and express themselves in Spanish."
+
+- id: claim-uruguay-005
+  topic: climate_clearer_sky_day_equivalents
+  value: "WeatherSpark monthly clearer-sky percentages convert to approximately 217 clearer-sky day-equivalents for Montevideo, 233 for Salto, and 223 for Tacuarembo."
+  source: src-186
+  date_verified: 2026-06-01
+  confidence: medium
+  tags: [climate, clear-sky, proxy]
+  notes: "Computed from WeatherSpark monthly percentages using month lengths; these are clearer-sky proxies, not official sunny-day counts."
+
+- id: claim-uruguay-006
+  topic: climate_temperature_baseline
+  value: "Representative January/July average high-low pairs are Montevideo 26.7/18.3 C and 14.4/7.2 C, Salto 31.7/20.0 C and 17.8/8.3 C, and Tacuarembo 29.4/18.3 C and 16.7/6.7 C."
+  source: src-186
+  date_verified: 2026-06-01
+  confidence: medium
+  tags: [climate, temperature, montevideo, salto, tacuarembo]
+  notes: "Converted from WeatherSpark Fahrenheit tables with Python during run-034."

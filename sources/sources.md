@@ -2164,3 +2164,87 @@ Each source entry:
 - **Facts supporting**: rental process, NIF/ID/income/bank/guarantor expectations, standard deposit and advance-rent practice, written contract points, foreign remote-income caveat
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-01
+
+## src-180
+- **Title**: Uruguay Ministry of Interior — Regimen de visas de admision
+- **URL**: https://www.gub.uy/ministerio-interior/comunicacion/publicaciones/regimen-visas-admision
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2025-08-19
+- **Date accessed**: 2026-06-01
+- **Used by**: Uruguay
+- **Facts supporting**: Ukrainian ordinary-passport admission visa baseline; Ukraine listed as no visa required (claim-uruguay-001)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-01
+
+## src-181
+- **Title**: Uruguay gub.uy / National Migration Directorate — Residencia Legal
+- **URL**: https://www.gub.uy/tramites/residencia-legal
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-03-13
+- **Date accessed**: 2026-06-01
+- **Used by**: Uruguay
+- **Facts supporting**: official overview of Uruguay temporary/permanent residence routes, document formalities, apostille/legalization/translation rules, and residence/cedula planning baseline
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-01
+
+## src-182
+- **Title**: Uruguay gub.uy / National Migration Directorate — Residencia Legal - Permanente
+- **URL**: https://www.gub.uy/tramites/residencia-legal-permanente
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-02-19
+- **Date accessed**: 2026-06-01
+- **Used by**: Uruguay
+- **Facts supporting**: permanent legal residence checklist; criminal-record, health, vaccination, marriage/birth-document, apostille/translation requirements; means-of-life categories including foreign legal-entity employee, independent worker, and sole proprietor (claim-uruguay-002)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-01
+
+## src-183
+- **Title**: Uruguay gub.uy — Hoja de identidad provisoria
+- **URL**: https://www.gub.uy/tramites/hoja-identidad-provisoria
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Uruguay
+- **Facts supporting**: provisional identity sheet and digital-nomad subcategory checklist; online/in-person filing route; first filing and renewal evidence including identity document, sworn declaration, criminal records, and Uruguayan vaccination scheme (claim-uruguay-003)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-01
+
+## src-184
+- **Title**: Uruguay gub.uy / Corte Electoral — Carta de ciudadania (ciudadania legal uruguaya)
+- **URL**: https://www.gub.uy/tramites/carta-ciudadania-ciudadania-legal-uruguaya
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-05-27
+- **Date accessed**: 2026-06-01
+- **Used by**: Uruguay
+- **Facts supporting**: legal citizenship evidence, 3-year family / 5-year no-family habitual residence baseline, six-month consecutive absence reset rule, and Spanish comprehension/expression requirement (claim-uruguay-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-01
+
+## src-185
+- **Title**: Climate to Travel — Uruguay climate: temperature, rain, when to go
+- **URL**: https://www.climatestotravel.com/climate/uruguay
+- **Archive**: [archive: failed 2026-06-01; Wayback returned HTTP 429]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguay humid-subtropical climate overview, mild windy winters, hot summer / heat-wave caveats, Montevideo rainfall and comfort notes, warmer northern climate context
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-186
+- **Title**: WeatherSpark — Uruguay country climate comparison (Montevideo, Salto, Tacuarembo)
+- **URL**: https://weatherspark.com/countries/UY
+- **Archive**: [archive: failed 2026-06-01; Wayback returned HTTP 429]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-01
+- **Used by**: Uruguay
+- **Facts supporting**: monthly average high/low temperatures and clearer-sky percentages for Montevideo, Salto, and Tacuarembo; annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-uruguay-005, claim-uruguay-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

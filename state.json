@@ -1,27 +1,27 @@
 {
   "version": 2,
-  "iteration": 33,
+  "iteration": 34,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-01T16:05:49Z",
+  "last_run_timestamp": "2026-06-01T22:02:41Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Portugal",
+    "country": "Uruguay",
     "sections": [
-      "5.4",
-      "5.5"
+      "5.1",
+      "5.2"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Italy",
+    "suggested_country": "Paraguay",
     "suggested_sections": [
-      "5.3",
-      "5.4"
+      "5.1",
+      "5.2"
     ],
-    "reason": "Verification queue remains below threshold; continue Tier-1-hint rotation by advancing a low-depth country without clustering on Portugal."
+    "reason": "Verification queue is at but not above the threshold; continue opening fresh depth-0 Tier-2-hint countries without clustering."
   },
   "countries": {
     "Spain": {
@@ -616,12 +616,14 @@
     "Uruguay": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 0,
-      "sections_completed": [],
-      "sections_partial": [],
+      "depth_score": 1.5,
+      "sections_completed": [
+        "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
+      ],
       "sections_pending": [
-        "5.1",
-        "5.2",
         "5.3",
         "5.4",
         "5.5",
@@ -632,8 +634,12 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "digital-nomad-not-long-term-route",
+        "citizenship-requires-habitual-presence",
+        "remote-income-sufficiency-needs-notarial-confirmation"
+      ],
+      "last_iteration": 34
     },
     "Paraguay": {
       "tier": null,
@@ -856,8 +862,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 8,
-  "sources_count": 178,
-  "claims_count": 140,
+  "verification_queue_size": 10,
+  "sources_count": 185,
+  "claims_count": 146,
   "proposals_pending": 0
 }
