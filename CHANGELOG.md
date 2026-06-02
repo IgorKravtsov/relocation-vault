@@ -8,6 +8,17 @@ last_updated: 2026-06-02
 
 Brief delta per iteration. Append-only.
 
+## 2026-06-02 — run-036 — paraguay-legalization-climate
+
+- Paraguay profile created from template.
+- Paraguay: depth_score 0 → 1.5 (section 5.2 completed; section 5.1 advanced to partial).
+- Legalization first pass captured Ukrainian tourist visa-free entry up to 90 days, the residence / lucrative-activity visa caveat, temporary residence up to 2+2 years, temporary-to-permanent category change, official fees, and constitutional naturalization after 3 years of radication.
+- Climate pass completed Asuncion, Ciudad del Este, and Encarnacion temperature / comfort baselines and WeatherSpark clearer-sky day-equivalent proxies.
+- Sources added: `src-190` … `src-196`.
+- Claims added: `claim-paraguay-001` … `claim-paraguay-006`.
+- Verification queue: 4 → 6 pending/open items (`vq-060`, `vq-061` added).
+- Next: continue country-deep-dive rotation with Panama sections 5.1/5.2 while the queue remains below threshold.
+
 ## 2026-06-02 — run-035 — verification-batch
 
 - Mode: verification; resolved 6 pending items (`vq-039`, `vq-052`, `vq-056`, `vq-057`, `vq-058`, `vq-059`).

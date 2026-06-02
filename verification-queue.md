@@ -731,3 +731,23 @@ _(none)_
 - **Status**: resolved
 - **Resolved**: 2026-06-02 (run-035)
 - **Resolution note**: Closed to a safe planning baseline: the DN/provisional identity route is a 6+6 month bridge and should not be assumed to satisfy habitual-residence / citizenship evidence by itself. Use it only while building permanent legal residence; partner mechanics should be handled through separate residence files and family/civil-status evidence, with marriage the conservative baseline. [src-182][src-183][src-184]
+
+## vq-060 [high priority]
+- **Fact**: "Paraguay residence / lucrative-activity visa route for Ukrainian citizens: whether a consular visa is required before filing temporary residence, and whether in-country conversion from tourist entry is accepted"
+- **Country**: Paraguay
+- **Section**: 5.1
+- **Current source**: src-190, src-191
+- **Why uncertain**: The official visa table says Ukrainians do not require a tourist visa for up to 90 days but do require a visa for extension, residence, or lucrative activities; the temporary-residence checklist says consular visa is required when applicable but does not give Ukraine-specific filing mechanics.
+- **Suggested verification**: Check a Paraguayan consulate serving Ukraine/Poland, DNM FAQs, or a current Paraguay immigration-lawyer explainer for Ukrainian applicants under Law 6984/2022.
+- **Created**: 2026-06-02 (run-036)
+- **Status**: pending
+
+## vq-061 [high priority]
+- **Fact**: "Paraguay temporary residence for a foreign-client IT worker: lawful-activity evidence, income sufficiency for about USD 3,000/month supporting a partner, tax-registration implications, and spouse/unmarried-partner mechanics"
+- **Country**: Paraguay
+- **Section**: 5.1
+- **Current source**: src-191, src-192
+- **Why uncertain**: The captured official route is generic lawful-activity temporary residence, not a fixed-threshold digital-nomad route; no worked official checklist was captured for foreign-client remote IT income or for spouse versus unmarried-partner residence.
+- **Suggested verification**: Check DNM route-specific requirements, SET/DNIT tax registration, Paraguayan accountant/lawyer guidance, and family-residence checklists.
+- **Created**: 2026-06-02 (run-036)
+- **Status**: pending

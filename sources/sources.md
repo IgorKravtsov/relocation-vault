@@ -2284,3 +2284,87 @@ Each source entry:
 - **Facts supporting**: 2025-2026 long-term T2/two-bedroom rental bands for Lisbon, Porto, and Faro / Algarve, plus central-vs-peripheral rent caveats
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-02
+
+## src-190
+- **Title**: Paraguay National Migration Directorate — Informacion sobre Visas
+- **URL**: https://migraciones.gov.py/index.php/tramites/informacion-sobre-visas
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: Paraguay
+- **Facts supporting**: Ukraine tourist visa-free entry up to 90 days, but visa required for extension of stay, residence, or lucrative activities (claim-paraguay-001)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-02
+
+## src-191
+- **Title**: Paraguay National Migration Directorate — Residencia Temporal establecida por la Ley No. 6984/2022 de Migraciones
+- **URL**: https://migraciones.gov.py/residencia-temporal/
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: Paraguay
+- **Facts supporting**: temporary residence purpose, up-to-2-year duration plus equal extension, temporary residence as prerequisite to permanent residence, residente precario benefits, general document checklist, translation/apostille notes, and fee baseline (claim-paraguay-002)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-02
+
+## src-192
+- **Title**: Paraguay National Migration Directorate — Residencia Permanente para el cambio de categoria de residencia temporal
+- **URL**: https://migraciones.gov.py/residencia-permanente-para-el-cambio-de-categoria-de-residente-temporal/
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: Paraguay
+- **Facts supporting**: permanent residence as indefinite residence after temporary residence, category-change timing window, post-expiry grace period/fine, and permanent-residence fee / certificate baseline (claim-paraguay-003)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-02
+
+## src-193
+- **Title**: BACN — Constitucion de la Republica del Paraguay, Articles 148-150
+- **URL**: https://www.bacn.gov.py/leyes-paraguayas/9580/constitucion-nacional-
+- **Archive**: stable official legal database — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2021-06-09
+- **Date accessed**: 2026-06-02
+- **Used by**: Paraguay
+- **Facts supporting**: naturalization after minimum 3 years of radication plus profession/trade/science/art/industry and good conduct; multiple-nationality and loss-of-naturalized-nationality caveats (claim-paraguay-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-02
+
+## src-194
+- **Title**: Climate to Travel — Paraguay climate: temperature, rain, when to go
+- **URL**: https://www.climatestotravel.com/climate/paraguay
+- **Archive**: [archive: failed 2026-06-02; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: Paraguay
+- **Facts supporting**: Paraguay subtropical climate overview, very mild winters, hot summers, cold-air outbreaks, rainfall pattern, sunshine / cloudy-day comfort notes, and Asuncion / Encarnacion context
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-195
+- **Title**: WeatherSpark — Paraguay country climate comparison (Asuncion, Ciudad del Este, Encarnacion)
+- **URL**: https://weatherspark.com/countries/PY
+- **Archive**: [archive: failed 2026-06-02; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: Paraguay
+- **Facts supporting**: monthly average high/low temperatures and clearer-sky percentages for Asuncion, Ciudad del Este, and Encarnacion; annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-paraguay-005, claim-paraguay-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-196
+- **Title**: Paraguay National Migration Directorate — MIC y Migraciones lanzan el Paraguay Investor Pass
+- **URL**: https://migraciones.gov.py/mic-y-migraciones-lanzan-el-paraguay-investor-pass-para-promover-la-residencia-permanente-a-inversionistas-extranjeros/
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-04-17
+- **Date accessed**: 2026-06-02
+- **Used by**: Paraguay
+- **Facts supporting**: high-capital direct permanent-residence investor route context; USD 150,000 tourism-project or USD 200,000 stock-market / real-estate examples, not suitable as the couple's baseline
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-02

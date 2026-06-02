@@ -1,0 +1,53 @@
+- id: claim-paraguay-001
+  topic: ukrainian_tourist_entry
+  value: "Paraguay's DNM visa table lists Ukraine as not requiring a tourist visa for stays up to 90 days, but requiring a visa for extension, residence, or lucrative activities."
+  source: src-190
+  date_verified: 2026-06-02
+  confidence: high
+  tags: [entry, visa-free, ukrainians, residence-visa]
+  notes: "This is a split baseline: tourist entry is visa-free, but residence planning needs a visa-route check."
+
+- id: claim-paraguay-002
+  topic: temporary_residence_duration
+  value: "Temporary residence under Law 6984/2022 is valid for up to 2 years, extendable for an equal period, and is prerequisite to permanent residence."
+  source: src-191
+  date_verified: 2026-06-02
+  confidence: high
+  tags: [temporary-residence, duration, pr-path]
+  notes: "The same page states that pending applicants receive residente precario status allowing exit/re-entry, study, and work during validity."
+
+- id: claim-paraguay-003
+  topic: permanent_residence_category_change_timing
+  value: "The temporary-to-permanent residence category change should be filed within the 3 months before temporary-residence card expiry; up to 1 month after expiry is possible with a fine, after which only temporary-residence extension is available."
+  source: src-192
+  date_verified: 2026-06-02
+  confidence: high
+  tags: [permanent-residence, timing, category-change]
+  notes: "Relevant for planning the post-2027 fallback timeline."
+
+- id: claim-paraguay-004
+  topic: naturalization_timeline
+  value: "Paraguay Constitution Article 148 allows naturalization for adult foreigners after at least 3 years of radication in Paraguay, exercise of a profession/trade/science/art/industry in the country, and good conduct."
+  source: src-193
+  date_verified: 2026-06-02
+  confidence: high
+  tags: [citizenship, naturalization, timeline]
+  notes: "Article 149 makes multiple nationality treaty/reciprocity-based; verify dual-nationality consequences before scoring."
+
+- id: claim-paraguay-005
+  topic: climate_clearer_sky_day_equivalents
+  value: "WeatherSpark monthly clearer-sky percentages convert to approximately 232 clearer-sky day-equivalents for Asuncion, 221 for Ciudad del Este, and 228 for Encarnacion."
+  source: src-195
+  date_verified: 2026-06-02
+  confidence: medium
+  tags: [climate, clear-sky, proxy]
+  notes: "Computed from WeatherSpark monthly percentages using month lengths; these are clearer-sky proxies, not official sunny-day counts."
+
+- id: claim-paraguay-006
+  topic: climate_temperature_baseline
+  value: "Representative January/July average high-low pairs are Asuncion 33.3/22.8 C and 23.3/13.3 C, Ciudad del Este 32.2/21.7 C and 23.3/12.2 C, and Encarnacion 32.2/21.7 C and 21.7/11.7 C."
+  source: src-195
+  date_verified: 2026-06-02
+  confidence: medium
+  tags: [climate, temperature, asuncion, ciudad-del-este, encarnacion]
+  notes: "Converted from WeatherSpark Fahrenheit tables with Python during run-036."
