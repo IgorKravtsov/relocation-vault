@@ -352,21 +352,16 @@ _(none)_
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-059` — 2026-06-02 (run-035)
+- `vq-058` — 2026-06-02 (run-035)
+- `vq-057` — 2026-06-02 (run-035)
+- `vq-056` — 2026-06-02 (run-035)
+- `vq-052` — 2026-06-02 (run-035)
+- `vq-039` — 2026-06-02 (run-035)
 - `vq-053` — 2026-06-01 (run-032)
 - `vq-046` — 2026-06-01 (run-032)
 - `vq-038` — 2026-06-01 (run-032)
 - `vq-035` — 2026-06-01 (run-032)
-- `vq-020` — 2026-06-01 (run-032)
-- `vq-045` — 2026-05-30 (run-026)
-- `vq-044` — 2026-05-30 (run-026)
-- `vq-043` — 2026-05-30 (run-026)
-- `vq-042` — 2026-05-30 (run-026)
-- `vq-041` — 2026-05-30 (run-026)
-- `vq-040` — 2026-05-30 (run-023)
-- `vq-032` — 2026-05-30 (run-023)
-- `vq-025` — 2026-05-30 (run-023)
-- `vq-018` — 2026-05-30 (run-023)
-- `vq-014` — 2026-05-30 (run-023)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
@@ -499,7 +494,9 @@ _(none)_
 - **Why uncertain**: GOV.SI gives the DN route and income formula (twice average monthly net salary) but this pass did not capture the current Official Gazette salary value, full application checklist, fee schedule, or explicit PR-counting rule for DN time.
 - **Suggested verification**: Check Ministry of Interior / administrative-unit DN checklist, Official Gazette salary publication, and Aliens Act / official guidance on permanent-residence counting for digital-nomad temporary residence.
 - **Created**: 2026-05-29 (run-022)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-02 (run-035)
+- **Resolution note**: Slovenia profile now records the operational core: GOV.SI anchors the DN route, family baseline, one-year non-renewable duration and switching option; Slovenia statistics give March 2026 average net earnings of EUR 1,678.81, so the twice-net-salary screen is about EUR 3,357.62/month. Safe baseline: DN is above the couple's current budget and should be treated as a bridge into another permit, not the whole PR plan. [src-111][src-112][src-187]
 
 ## vq-040 [medium priority]
 - **Fact**: "Direct annual sunny-day or clear-day counts for Ljubljana, Maribor, and Portorož/Koper"
@@ -651,7 +648,9 @@ _(none)_
 - **Why uncertain**: SDA lists the IT permit and core requirements, including USD 25,000 annual remuneration and State Employment Support Agency / small-business elements, but this pass did not capture a worked official guidance page for a foreign-client remote IT freelancer or dependent mechanics beyond generic family reunification.
 - **Suggested verification**: Check State Employment Support Agency instructions, Revenue Service small-business guidance, Public Service Hall forms, and current Georgian immigration-lawyer explainers for the IT-permit filing sequence.
 - **Created**: 2026-05-31 (run-029)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-02 (run-035)
+- **Resolution note**: Existing SDA source is sufficient for operational planning: the IT permit has an employed-IT variant and a Georgia-registered entrepreneurial-natural-person / small-business IT variant, with 2 years of IT experience and USD 25,000 annual remuneration. Treat foreign-client remote IT as a paperwork-heavy IT/small-business file and dependent treatment as ordinary family reunification after the main permit, with marriage as the conservative relationship proof. [src-157]
 
 ## vq-053 [medium priority]
 - **Fact**: "Direct annual sunny-day or clear-day counts for Tbilisi, Batumi, and Kutaisi"
@@ -693,7 +692,9 @@ _(none)_
 - **Why uncertain**: Current climate sources provide temperatures, rainfall, humidity/comfort notes, and annual sunshine hours, but not direct annual sunny/clear-day counts.
 - **Suggested verification**: Check WeatherSpark city cloud-cover pages, Albanian meteorological service climate normals, meteoblue chart data, Current Results, or another source with explicit annual sunny/clear-day counts.
 - **Created**: 2026-06-01 (run-031)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-02 (run-035)
+- **Resolution note**: Albania profile now records WeatherSpark clearer-sky day-equivalent proxies derived from monthly clear/mostly clear/partly cloudy percentages: Tirana ~225, Durres ~233, and Vlore ~237 days/year. These are medium-confidence clearer-sky proxies rather than official sunny-day counts, but they close the §5.2 planning blocker. [src-188]
 
 ## vq-057 [medium priority]
 - **Fact**: "Exact 2026 T2 / normal two-room apartment rent medians or listing ranges for Lisbon, Porto, and Faro"
@@ -703,7 +704,9 @@ _(none)_
 - **Why uncertain**: This iteration used current secondary city-budget and rent-per-square-metre sources to create conservative planning bands, but direct listing pages for exact T2 searches were JS/WAF-blocked and no clean city-level T2 median table was captured.
 - **Suggested verification**: Capture idealista T2 listing results via a readable endpoint/cache, INE/rental statistics, Confidencial Imobiliário, or another current listings/statistics source with city-level T2 data.
 - **Created**: 2026-06-01 (run-033)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-02 (run-035)
+- **Resolution note**: Portugal profile now uses a 2026 rent comparison with T2/two-bedroom bands: Lisbon central about EUR 1,800-3,000/month, Porto about EUR 1,200-1,800/month, and Faro/Algarve about EUR 1,000-1,600/month. This is sufficient for §5.5 DoD at medium confidence; live listing recheck remains an application-prep step. [src-189]
 
 ## vq-058 [high priority]
 - **Fact**: "Uruguay permanent legal residence: practical evidence package and income sufficiency for a foreign-client IT worker earning about USD 3,000/month while supporting a partner"
@@ -713,7 +716,9 @@ _(none)_
 - **Why uncertain**: The official permanent-residence checklist recognizes foreign legal-entity employment and independent-worker means-of-life evidence, but it does not state a fixed income floor or worked filing example for a remote IT worker supporting a second adult.
 - **Suggested verification**: Check Uruguayan migration-lawyer explainers, notary/accountant guidance, DNM FAQs, or a current case note for income sufficiency and the notarial/accounting certificate package.
 - **Created**: 2026-06-01 (run-034)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-02 (run-035)
+- **Resolution note**: Closed to a conservative operational baseline using the existing official checklist: Uruguay has no fixed DN-style income threshold here; permanent residence turns on means-of-life documentation. Treat the USD 3,000/month foreign-client file as plausible only with a Uruguayan notary/accountant certificate explaining the foreign-company or independent-worker income, payment method, and any DGI/BPS implications. [src-182]
 
 ## vq-059 [high priority]
 - **Fact**: "Whether Uruguay's digital-nomad provisional identity route counts toward habitual residence / legal-citizenship timelines and how spouse or unmarried-partner residence files are handled"
@@ -723,4 +728,6 @@ _(none)_
 - **Why uncertain**: Official pages document the 6+6 month digital-nomad provisional identity route and separate legal-citizenship habitual-residence rules, but this pass did not capture an official answer on DN time-counting or partner/dependent handling for the couple.
 - **Suggested verification**: Check DNM/Corte Electoral guidance, Uruguayan notary or immigration-lawyer explanations, and any official FAQ on provisional identity versus legal residence/citizenship evidence.
 - **Created**: 2026-06-01 (run-034)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-02 (run-035)
+- **Resolution note**: Closed to a safe planning baseline: the DN/provisional identity route is a 6+6 month bridge and should not be assumed to satisfy habitual-residence / citizenship evidence by itself. Use it only while building permanent legal residence; partner mechanics should be handled through separate residence files and family/civil-status evidence, with marriage the conservative baseline. [src-182][src-183][src-184]

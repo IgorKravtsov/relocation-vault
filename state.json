@@ -1,17 +1,18 @@
 {
   "version": 2,
-  "iteration": 34,
+  "iteration": 35,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-01T22:02:41Z",
+  "last_run_timestamp": "2026-06-02T04:01:45Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Uruguay",
+    "mode": "verification",
+    "country": null,
     "sections": [
       "5.1",
-      "5.2"
+      "5.2",
+      "5.5"
     ]
   },
   "next_iteration_hint": {
@@ -21,7 +22,7 @@
       "5.1",
       "5.2"
     ],
-    "reason": "Verification queue is at but not above the threshold; continue opening fresh depth-0 Tier-2-hint countries without clustering."
+    "reason": "Verification queue is back below threshold after run-035; resume fresh depth-0 Tier-2-hint country rotation without clustering."
   },
   "countries": {
     "Spain": {
@@ -54,14 +55,14 @@
     "Portugal": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 2.5,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.4"
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
-        "5.2",
-        "5.5"
+        "5.2"
       ],
       "sections_pending": [
         "5.3",
@@ -78,7 +79,7 @@
         "d8-income-above-current-budget",
         "lisbon-rent-pressure"
       ],
-      "last_iteration": 33
+      "last_iteration": 35
     },
     "Italy": {
       "tier": null,
@@ -406,10 +407,10 @@
         "5.11"
       ],
       "risk_flags": [
-        "digital-nomad-income-formula-needs-current-value",
+        "digital-nomad-income-above-current-budget",
         "digital-nomad-not-renewable"
       ],
-      "last_iteration": 23
+      "last_iteration": 35
     },
     "Montenegro": {
       "tier": null,
@@ -515,19 +516,19 @@
         "5.11"
       ],
       "risk_flags": [
-        "visa-free-not-residence",
-        "it-permit-foreign-client-mechanics-need-check"
+        "visa-free-not-residence"
       ],
-      "last_iteration": 32
+      "last_iteration": 35
     },
     "Albania": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -542,10 +543,9 @@
       ],
       "risk_flags": [
         "official-primary-capture-gaps",
-        "dn-income-threshold-needs-primary-check",
-        "climate-sunny-days-gap"
+        "dn-income-threshold-needs-primary-check"
       ],
-      "last_iteration": 31
+      "last_iteration": 35
     },
     "North Macedonia": {
       "tier": null,
@@ -636,10 +636,9 @@
       ],
       "risk_flags": [
         "digital-nomad-not-long-term-route",
-        "citizenship-requires-habitual-presence",
-        "remote-income-sufficiency-needs-notarial-confirmation"
+        "citizenship-requires-habitual-presence"
       ],
-      "last_iteration": 34
+      "last_iteration": 35
     },
     "Paraguay": {
       "tier": null,
@@ -862,8 +861,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 10,
-  "sources_count": 185,
+  "verification_queue_size": 4,
+  "sources_count": 188,
   "claims_count": 146,
   "proposals_pending": 0
 }

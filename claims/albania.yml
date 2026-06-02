@@ -54,9 +54,9 @@
 
 - id: claim-albania-007
   topic: albania_climate_first_pass
-  value: "Tirana: Jan mean 7.1 C / Jul mean 25.3 C / Aug mean 25.5 C / ~2,545 sunshine hours / ~1,345 mm rain; Durrës: Jan 8.4 C / Jul 26.9 C / Aug 27.6 C / ~2,695 sunshine hours / ~1,125 mm rain; Vlorë: Jan 8.9 C / Jul 26.3 C / Aug 26.6 C / ~2,670 sunshine hours / ~1,075 mm rain."
+  value: "Tirana: Jan mean 7.1 C / Jul mean 25.3 C / Aug mean 25.5 C / ~2,545 sunshine hours / ~1,345 mm rain / ~225 clearer-sky day-equivalent proxy; Durres: Jan 8.4 C / Jul 26.9 C / Aug 27.6 C / ~2,695 sunshine hours / ~1,125 mm rain / ~233 clearer-sky proxy; Vlore: Jan 8.9 C / Jul 26.3 C / Aug 26.6 C / ~2,670 sunshine hours / ~1,075 mm rain / ~237 clearer-sky proxy."
   source: src-168
-  date_verified: 2026-06-01
+  date_verified: 2026-06-02
   confidence: medium
   tags: [climate, tirana, durres, vlore, albania]
-  notes: "Composite first-pass climate claim using src-168, src-169, and src-170; direct sunny/clear-day counts remain queued."
+  notes: "Composite first-pass climate claim using src-168, src-169, src-170, and src-188. WeatherSpark values are clearer-sky day-equivalent planning proxies, not official sunny-day counts."

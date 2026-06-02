@@ -1,14 +1,14 @@
 ---
 country: Albania
 tier: null
-depth_score: 1.0
-last_updated: 2026-06-01T04:01:26Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-06-02T04:01:45Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["official-primary-capture-gaps", "dn-income-threshold-needs-primary-check", "climate-sunny-days-gap"]
-sources_used: ["src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170"]
-unverified_count: 3
+risk_flags: ["official-primary-capture-gaps", "dn-income-threshold-needs-primary-check"]
+sources_used: ["src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-188"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Albania has an attractive remote-worker / Unique Permit narrative and a warm Adriatic/Ionian climate, but this first pass could not capture clean official-primary route pages because several Albanian government sites were blocked or unreachable. Treat the digital-nomad route as promising but medium-confidence until the official e-Albania / State Police / law-text checklist is extracted.
-- **depth_score**: 1.0
-- **Last updated**: 2026-06-01T04:01:26Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-06-02T04:01:45Z
 - **Tier rationale**: Not assigned until the official residence route, taxes, rent, healthcare, and post-5-year PR mechanics are verified.
 
 ## Block 2 — Scoring
@@ -26,7 +26,7 @@ schema_version: 2.0.0
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | Visa-free entry, Ukraine temporary-protection placeholder, and remote-worker Unique Permit baseline opened; official-primary route pages still need capture. | §5.1 |
-| Climate | — | N/A | Tirana, Durrës, and Vlorë temperature/rain/sunshine baselines captured; direct sunny/clear-day counts still need verification. | §5.2 |
+| Climate | — | medium | Tirana, Durrës, and Vlorë temperature/rain/sunshine baselines captured; WeatherSpark clearer-sky proxies now close the sunny-day blocker. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
@@ -76,9 +76,9 @@ schema_version: 2.0.0
 4. For the woman, use marriage as the conservative dependent-status baseline; unmarried-partner treatment remains unconfirmed.
 5. Before considering Albania a settlement candidate, verify whether the chosen permit counts toward PR/citizenship and what absences / renewals break the clock.
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-06-01, dod: partial}
+### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-06-02, dod: passed}
 
-> **DoD status**: Partial. Three-city temperature, rain, humidity/comfort, and sunshine-hour baselines are captured. Direct annual sunny/clear-day counts are still missing, so the sunny-day DoD remains open.
+> **DoD status**: passed at medium confidence. Three-city temperature, rain, humidity/comfort, sunshine-hour baselines, and clearer-sky day-equivalent proxies are captured.
 
 | City | January | July/August | Sunshine / rain | Comfort notes |
 |---|---:|---:|---|---|
@@ -86,7 +86,9 @@ schema_version: 2.0.0
 | Durrës | Jan mean 8.4 C | Jul mean 26.9 C; Aug mean 27.6 C | ~2,695 sunshine hours/year; ~1,125 mm rain/year over ~117 rain days; sea ~24–25 C in Jul/Aug | Coastal and sunny, but still hot in summer and rainy in winter/autumn. [src-169] |
 | Vlorë | Jan mean 8.9 C | Jul mean 26.3 C; Aug mean 26.6 C | ~2,670 sunshine hours/year; ~1,075 mm rain/year over ~120 rain days; sea ~24.5–25 C in Jul/Aug | Southern coast gives warm winters and strong summer beach climate, with autumn/winter rainfall and occasional extreme heat. [src-170] |
 
-**Climate verdict for first pass**: Albania is a strong warm-climate candidate for the couple: coastal Durrës/Vlorë are mild in winter and sunny in summer, while Tirana is practical but hotter inland. Climate scoring should wait for direct sunny/clear-day counts or WeatherSpark clearer-sky proxies.
+**Sunny/clear-day proxy verification**: WeatherSpark country and city cloud-cover pages provide monthly percentages in the broader clearer-sky categories (clear, mostly clear, or partly cloudy). Converted by month length, the medium-confidence clearer-sky day-equivalent proxies are: Tirana ~225 days/year, Durrës ~233 days/year, and Vlorë ~237 days/year. These are not official meteorological sunny-day counts, but they are enough to close the §5.2 sunny-day blocker for planning. [src-188]
+
+**Climate verdict for first pass**: Albania is a strong warm-climate candidate for the couple: coastal Durrës/Vlorë are mild in winter and sunny in summer, while Tirana is practical but hotter inland. The main comfort caveats are hot summer peaks and wet autumn/winter periods rather than a long cold winter. [src-168][src-169][src-170][src-188]
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -214,15 +216,15 @@ _(none yet)_
 - [src-168] Climate to Travel — Tirana.
 - [src-169] Climate to Travel — Durrës.
 - [src-170] Climate to Travel — Vlorë.
+- [src-188] WeatherSpark — Albania country and Vlorë city cloud-cover pages.
 
 ### 7e. Not found
 - Clean official-primary extraction of Albania's current visa regime for Ukrainian citizens.
 - Current official Ukraine temporary-protection extension / post-2027 bridge page.
 - Official e-Albania / State Police / law-text page for the Type D + Unique Permit remote-worker checklist, fees, exact income threshold, dependent mechanics, and PR-counting rules.
-- Direct annual sunny/clear-day counts for Tirana, Durrës, and Vlorë.
+- Official meteorological sunny-day counts for Tirana, Durrës, and Vlorë; WeatherSpark clearer-sky proxies are now sufficient for planning but not official statistics.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-054` — current official Albanian visa-free / Ukraine temporary-protection baseline and any post-2027 bridge.
 - `vq-055` — official Unique Permit remote-worker checklist, threshold, fees, dependents, and PR-counting rules.
-- `vq-056` — direct annual sunny/clear-day counts for Tirana, Durrës, and Vlorë.

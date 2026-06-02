@@ -2248,3 +2248,39 @@ Each source entry:
 - **Facts supporting**: monthly average high/low temperatures and clearer-sky percentages for Montevideo, Salto, and Tacuarembo; annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-uruguay-005, claim-uruguay-006)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-187
+- **Title**: Statistical Office of the Republic of Slovenia — Earnings of persons in paid employment by legal persons, March 2026
+- **URL**: https://www.stat.si/StatWeb/en/News/Index/14332
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-05-22
+- **Date accessed**: 2026-06-02
+- **Used by**: Slovenia
+- **Facts supporting**: March 2026 average earnings of EUR 2,678.28 gross and EUR 1,678.81 net; derived digital-nomad funds screen of about EUR 3,357.62/month if applying the GOV.SI twice-average-net-salary formula
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-02
+
+## src-188
+- **Title**: WeatherSpark — Albania country and Vlore city cloud-cover climate pages
+- **URL**: https://weatherspark.com/countries/AL ; https://weatherspark.com/y/84249/Average-Weather-in-Vlor%C3%AB-Albania-Year-Round
+- **Archive**: [archive: failed 2026-06-02; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: Albania
+- **Facts supporting**: monthly clearer-sky percentages for Tirana, Durres, and Vlore; annual clearer-sky day-equivalent proxies calculated as Tirana ~225, Durres ~233, and Vlore ~237
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-189
+- **Title**: The Traveler — Rent in Lisbon vs Porto vs Faro: Cost comparison for expats
+- **URL**: https://www.thetraveler.org/rent-in-lisbon-vs-porto-vs-faro-cost-comparison-for-expats/
+- **Archive**: [archive: failed 2026-06-02; text mirror used for extraction]
+- **Type**: reputable-secondary
+- **Date published**: 2026-03-30
+- **Date accessed**: 2026-06-02
+- **Used by**: Portugal
+- **Facts supporting**: 2025-2026 long-term T2/two-bedroom rental bands for Lisbon, Porto, and Faro / Algarve, plus central-vs-peripheral rent caveats
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-02

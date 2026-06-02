@@ -2,13 +2,13 @@
 country: Slovenia
 tier: null
 depth_score: 1.5
-last_updated: 2026-05-30T00:00:00Z
+last_updated: 2026-06-02T04:01:45Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["digital-nomad-income-formula-needs-current-value", "digital-nomad-not-renewable"]
-sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122"]
-unverified_count: 1
+risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable"]
+sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,14 +18,14 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence is unusually interesting for the couple: Slovenia has official temporary protection for Ukrainians, an explicit post-temporary-protection filing window, and a new digital-nomad residence permit for non-EU remote workers. The route is capped at one year and the income formula likely sits near or above the couple's current budget, so do not assign a tier until the numeric threshold, taxes, renewal/permit-counting rules, and costs are researched. [src-110][src-111]
 - **depth_score**: 1.5
-- **Last updated**: 2026-05-30T00:00:00Z
+- **Last updated**: 2026-06-02T04:01:45Z
 - **Tier rationale**: Keep unassigned until the DN income amount, PR/citizenship counting for DN/TP time, and cost-of-living/rent passes are complete.
 
 ## Block 2 — Scoring
 
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
-| Legalization (now + post-03.2027) | — | N/A | TP, DN, self-employed and family routes opened; DN exact current income value and long-term counting need verification. | §5.1 |
+| Legalization (now + post-03.2027) | — | medium | TP, DN, self-employed and family routes opened; the current salary screen indicates DN is above the couple's budget, and DN should be treated as a one-year bridge rather than a PR clock by itself. | §5.1 |
 | Climate | — | N/A | Continental/alpine overall, but the coast is much milder and sunnier; direct sunny-day counts missing. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
@@ -55,7 +55,7 @@ EU temporary protection is extended to **04 March 2027** at EU level. Slovenia's
 
 Applications may be filed at any Slovenian diplomatic mission/consular post abroad, or at any administrative unit in Slovenia if the applicant is already legally residing in Slovenia. The permit may be issued for up to **one year** and cannot be extended. Reapplication is possible six months after expiry. During validity, the holder may apply for another type of temporary residence permit based on a different purpose of stay. [src-111]
 
-The sufficient-means rule is formula-based: monthly funds must be at least **twice the average monthly net salary in Slovenia**, calculated on the basis of the average monthly gross salary most recently published in the Official Gazette. Proof may come from any lawful income sources. Because this first pass did not capture the current Official Gazette value, treat the couple's ~$3,000/month budget as **unverified/tight** until the numeric threshold is calculated. [src-111]
+The sufficient-means rule is formula-based: monthly funds must be at least **twice the average monthly net salary in Slovenia**, calculated on the basis of the average monthly gross salary most recently published in the Official Gazette. Proof may come from any lawful income sources. The current salary screen is now captured from Slovenia's statistical office: March 2026 average earnings were EUR 2,678.28 gross and EUR 1,678.81 net; applying the twice-net-salary formula gives about **EUR 3,357.62/month**. That is above the couple's current ~$3,000/month nominal income, before any dependent buffer, so the DN route should be treated as budget-failing/tight unless income rises or savings/other lawful income can be counted. [src-111][src-187]
 
 Family treatment is better than in several neighbouring countries: Slovenia says digital nomads may reunite with family members immediately, without restrictions tied to the duration of the foreigner's residence or permit validity. The exact dependent-document checklist and whether an unmarried partner qualifies through the general long-term-relationship category need a later application-prep pass. [src-111][src-113]
 
@@ -75,7 +75,7 @@ A self-employed/single-permit route may become relevant after one year of valid 
 
 #### PR and citizenship
 
-The EU Immigration Portal states that after **five continuous years** of legal residence on the basis of temporary residence, a person can apply for a permanent residence permit, with absence rules described in the source. Whether TP time and the one-year DN permit count fully toward this period should be verified before scoring. [src-112]
+The EU Immigration Portal states that after **five continuous years** of legal residence on the basis of temporary residence, a person can apply for a permanent residence permit, with absence rules described in the source. For operational planning, do not rely on the one-year non-renewable DN permit as the main PR clock by itself. Use it only as a bridge into another temporary residence purpose; later application-prep should confirm residence-type counting, but the safe strategy is to move to a renewable ordinary permit before depending on the five-year PR route. [src-111][src-112]
 
 Slovenia's government citizenship page states that ordinary naturalisation is possible after living in Slovenia for at least **10 years**, including a continuous period of **five years** of residence before application, subject to other legal conditions. [src-114]
 
@@ -87,7 +87,7 @@ Operational baseline: a Polish residence permit does not replace a Slovenian lon
 
 1. **Current safe layer**: if eligible and not already relying on TP elsewhere, Slovenia TP is an immediate lawful-residence option with a card treated as temporary residence. [src-110]
 2. **Best ordinary remote-work candidate**: test the DN permit first because it is explicitly for foreign remote work and can be filed abroad or in Slovenia while legally present. [src-111]
-3. **Budget warning**: do not commit until the current Official Gazette salary value is converted; the formula is twice Slovenia's average monthly net salary and may exceed ~$3,000/month. [src-111]
+3. **Budget warning**: the captured March 2026 net-earnings screen gives a twice-net-salary figure of about EUR 3,357.62/month, above the current ~$3,000/month income. Treat DN as not safely affordable unless income rises or other accepted lawful funds are documented. [src-111][src-187]
 4. **Partner strategy**: use each partner's own TP where possible; for derived residence, check the DN immediate family regime and the general family-reunification category covering spouse, civil partner, civil-union partner, or long-term relationship partner. [src-111][src-113]
 5. **Long-term plan**: because DN is non-extendable, use the DN year to prepare a different ordinary permit (single/self-employed, employment, family, study, or other) if Slovenia remains attractive. [src-111][src-112]
 
@@ -169,7 +169,7 @@ WeatherSpark provides monthly percentages for the broader clearer-sky categories
 
 **Cons / risks**:
 - DN permit is up to one year and cannot be extended; reapplication requires a six-month gap. [src-111]
-- DN income formula may exceed the couple's current ~$3,000/month budget once converted to the current official amount. [src-111]
+- DN income formula currently screens at about EUR 3,357.62/month using March 2026 average net earnings, above the couple's current ~$3,000/month budget. [src-111][src-187]
 - Ljubljana/Maribor winters are cold, humid and not Mediterranean.
 - Taxes, rent, healthcare, and practical application costs are still unresearched.
 
@@ -187,7 +187,7 @@ WeatherSpark provides monthly percentages for the broader clearer-sky categories
 - If using DN from inside Slovenia, file while legally present at an administrative unit; if outside Slovenia, file at a Slovenian diplomatic/consular post. [src-111]
 
 ### 6c. First 3–6 months
-- Calculate the current DN threshold from the latest Official Gazette salary value and preserve ongoing income proof.
+- Recheck the DN threshold immediately before filing; the current captured screen is about EUR 3,357.62/month, so preserve ongoing income proof and do not assume a ~$3,000/month file passes. [src-111][src-187]
 - If Slovenia is attractive beyond one year, begin switching-plan work early: self-employed/single permit, employment, family, study or another statutory purpose. [src-111][src-112]
 - Track residence continuity if planning for permanent residence after five years. [src-112]
 
@@ -224,6 +224,7 @@ WeatherSpark provides monthly percentages for the broader clearer-sky categories
 - [src-110] — GOV.SI Support for Ukrainian Nationals in Slovenia.
 - [src-111] — GOV.SI Ministry of the Interior digital-nomad temporary residence announcement.
 - [src-114] — GOV.SI Citizenship.
+- [src-187] — Statistical Office of Slovenia March 2026 average earnings release used to screen the DN income formula.
 
 ### 7b. Official-secondary / reputable secondary
 - [src-002] — EU Council / EU temporary protection extension to 04 March 2027.
@@ -240,11 +241,11 @@ _(none yet)_
 - [src-122] — WeatherSpark Slovenia cloud-cover pages for Ljubljana, Maribor, and Portorož clearer-sky day-equivalent proxies.
 
 ### 7e. Not found
-- Current-year Official Gazette numeric salary value for the DN income formula: not captured in this pass.
+- Exact serving-administrative-unit DN checklist and fee schedule: not captured in this pass.
 - Detailed DN application checklist/fee list beyond the Ministry announcement: not captured.
 - Official meteorological annual sunny-day counts for Ljubljana, Maribor, and Portorož/Koper: not captured; WeatherSpark clearer-sky day-equivalent proxies are now captured for §5.2 screening.
-- Whether DN and TP time count fully toward permanent residence: not captured.
+- Article-level confirmation of which temporary-residence purposes count toward permanent residence remains for application-prep; the operational baseline is not to rely on a one-year non-renewable DN permit as the whole PR plan.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-039` — Slovenia DN current numeric threshold, checklist, fees and whether DN time counts toward permanent residence.
+_(none for current partial-depth scope; later application-prep should still recheck DN forms, fees, and residence-type counting before filing.)_

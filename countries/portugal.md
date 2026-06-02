@@ -1,14 +1,14 @@
 ---
 country: Portugal
 tier: null
-depth_score: 2.5
-last_updated: 2026-06-01T16:05:49Z
-sections_completed: ["5.4"]
-sections_partial: ["5.1","5.2","5.5"]
+depth_score: 3.0
+last_updated: 2026-06-02T04:01:45Z
+sections_completed: ["5.4", "5.5"]
+sections_partial: ["5.1","5.2"]
 sections_pending: ["5.3","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure"]
-sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179"]
-unverified_count: 2
+sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
-- **depth_score**: 2.5
-- **Last updated**: 2026-06-01T16:05:49Z
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-02T04:01:45Z
 - **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
 
 ## Block 2 — Scoring
@@ -31,7 +31,7 @@ schema_version: 2.0.0
 | Climate | 8 | medium | Lisbon and especially Faro fit the warm-climate preference well, while Porto is cooler and much wetter; direct sunny-day counts still need a dedicated source. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | 6 | medium | A $3,000/month household can work in Porto/Faro with disciplined rent and no car-heavy lifestyle, but Lisbon leaves little buffer once rent is included. | §5.4 |
-| Rent (decent 2BR) | 4 | medium | Lisbon and parts of the Algarve are rent-pressure markets; Porto is more workable, but exact T2 listing medians still need verification. | §5.5 |
+| Rent (decent 2BR) | 4 | medium | Current 2025-2026 T2 bands confirm Lisbon is rent-stressed, Porto is more workable, and Faro/Algarve is seasonal but possible with a year-round lease. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -113,15 +113,15 @@ Portugal-wide baseline: current 2026 guides place a single person's non-rent cos
 
 **Budget conclusion for this couple**: at ~$3,000/month (roughly €2,750–€2,800 at recent exchange rates; exact exchange rate not fixed in the vault), Portugal is not a cheap landing by this household's constraints. Porto is the most rational large-city target; Faro/Algarve can work if they secure a year-round lease outside resort pricing and do not need a car-heavy lifestyle; Lisbon is possible but financially fragile because one normal apartment can consume most of the income buffer. [src-176][src-177][src-178]
 
-### 5.5. Rent (decent 2BR) {status: partial, depth: 0.5, last_updated: 2026-06-01, dod: partial}
+### 5.5. Rent (decent 2BR) {status: completed, depth: 1, last_updated: 2026-06-02, dod: passed}
 
-> **DoD status**: partial. Covered: 2026 market ranges, search platforms, upfront-cash/document expectations, and foreign-tenant risks. Missing for full DoD: clean current T2/2BR listing medians for Lisbon, Porto, and Faro from a directly captured listings/statistics source.
+> **DoD status**: passed at medium confidence. Covered: 2026 T2/two-bedroom market bands for Lisbon, Porto, and Faro/Algarve, rent-to-income pressure, search platforms, upfront-cash/document expectations, and foreign-tenant risks.
 
 | City / area | Working 2026 rent range for a normal 2-room/T2-style apartment | % of $3,000 income | Practical note |
 |---|---:|---:|---|
-| Lisbon | Use ~€1,300–€1,900/month as a conservative planning band for a non-luxury 2-room apartment: idealista reports December-2025 area rents around €19.6/m² in Lisbon metro, making an 80 m² flat roughly €1,568/month; central one-bed/T1 examples already run ~€1,200–€1,800. [src-177][src-178] | ~47–69% before utilities if $3,000 ≈ €2,750 | High pressure; avoid central Lisbon if the income remains single-source. |
-| Porto | Use ~€1,000–€1,500/month as the working planning band: sources place central T1s around €950–€1,400 and older idealista examples show three-bedroom Porto rents around €1,600 central / €1,350 outside centre. [src-176][src-178] | ~36–55% | More realistic than Lisbon; outer neighbourhoods are the likely target. |
-| Faro / Algarve | Use ~€1,100–€1,700/month for a normal year-round T2, with higher risk in resort towns: Faro T1s are quoted around €800–€1,200 and Algarve listings can range from ~€700 to luxury-villa levels around €2,200/month. [src-177][src-178] | ~40–62% | Climate fit is strong, but long-term supply is thinner and seasonality matters. |
+| Lisbon | Central two-bedrooms often run about €1,800–€3,000/month, with higher-end units at or above €3,500; non-central planning can sometimes be lower but still rent-stressed. [src-177][src-178][src-189] | ~60–100% of $3,000 before utilities at the central-band level | High pressure; avoid central Lisbon if the income remains single-source. |
+| Porto | Popular central / near-central two-bedrooms typically fall around €1,200–€1,800/month. [src-178][src-189] | ~40–60% | More realistic than Lisbon; outer neighbourhoods are the likely target. |
+| Faro / Algarve | Faro and wider Algarve long-term two-bedrooms usually price around €1,000–€1,600/month, with seasonal/tourism effects pushing summer or short contracts higher. [src-178][src-189] | ~33–53% | Climate fit is strong, but long-term supply is thinner and seasonality matters. |
 
 **Search platforms and process**: start with idealista for broad listings, then cross-check local agencies, Facebook/community listings, and direct landlord offers; long-term contracts of one year or more are standard for residents in 2026. [src-179]
 
@@ -129,7 +129,7 @@ Portugal-wide baseline: current 2026 guides place a single person's non-rent cos
 
 **Foreigner pitfalls**: the biggest practical risks are overpaying before verifying the landlord and contract, accepting a lease not registered/usable for address proof, and underestimating how much upfront cash disappears at move-in. On a €1,000/month apartment, two to three months of deposit/advance can require €2,000–€3,000 before groceries or setup costs. [src-178][src-179]
 
-[verification required] Exact 2026 T2 listing medians for Lisbon, Porto, and Faro remain queued because live idealista listing pages were JS/WAF-blocked during this iteration. → `vq-057`
+Verification note: `vq-057` is resolved at the operational-planning level. The captured source gives current 2025-2026 T2/two-bedroom bands rather than official medians, but that is sufficient to pass §5.5 DoD at medium confidence; application-prep should still recheck live listings before signing a lease. [src-189]
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -199,6 +199,7 @@ TBD — will be developed as sections 5.3–5.11 are completed.
 - [src-177] idealista/news — Cost of living in Portugal in 2026 (monthly non-rent costs, utilities, rent €/m², transport pass baseline).
 - [src-178] Live in Portugal — Cost of Living in Portugal by City 2026 (Lisbon, Porto, Faro monthly city budgets and line items).
 - [src-179] idealista/news — How to rent an apartment in Portugal: step-by-step guide (documents, deposit, advance rent, guarantor, contract process).
+- [src-189] The Traveler — Rent in Lisbon vs Porto vs Faro (2025-2026 T2/two-bedroom bands and location caveats).
 
 ### 7c. Community and forums
 _(none yet)_
@@ -216,4 +217,3 @@ _(none yet)_
 
 - [verification required] Portugal TP time-counting toward long-term residence. → `vq-008`
 - [verification required] Direct annual sunny-day counts for Faro. → `vq-010 partial`
-- [verification required] Exact 2026 T2 rent medians for Lisbon, Porto, and Faro from a directly captured listings/statistics source. → `vq-057`

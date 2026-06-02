@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # INDEX
@@ -11,7 +11,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Country | Group | Tier hint | Tier | depth_score | Sections done | Last iter | Profile |
 |---------|-------|----------:|------|------------:|---------------|----------:|---------|
 | Spain | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 12 | `countries/spain.md` |
-| Portugal | eu-schengen | 1 | — | 2.5 | done: 5.4; partial: 5.1, 5.2, 5.5 | 33 | `countries/portugal.md` |
+| Portugal | eu-schengen | 1 | — | 3.0 | done: 5.4, 5.5; partial: 5.1, 5.2 | 35 | `countries/portugal.md` |
 | Italy | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/italy.md` |
 | Greece | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 28 | `countries/greece.md` |
 | Cyprus | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/cyprus.md` |
@@ -23,16 +23,16 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Bulgaria | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/bulgaria.md` |
 | Hungary | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/hungary.md` |
 | Slovakia | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/slovakia.md` |
-| Slovenia | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/slovenia.md` |
+| Slovenia | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/slovenia.md` |
 | Montenegro | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 26 | `countries/montenegro.md` |
 | Serbia | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/serbia.md` |
 | Turkey | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 30 | `countries/turkey.md` |
-| Georgia | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/georgia.md` |
-| Albania | balkans-east | 2 | — | 1.0 | partial: 5.1, 5.2 | 31 | `countries/albania.md` |
+| Georgia | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/georgia.md` |
+| Albania | balkans-east | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/albania.md` |
 | North Macedonia | balkans-east | 3 | — | 0 | — | — | — |
 | Bosnia and Herzegovina | balkans-east | 3 | — | 0 | — | — | — |
 | Moldova | balkans-east | 3 | — | 0 | — | — | — |
-| Uruguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 34 | `countries/uruguay.md` |
+| Uruguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/uruguay.md` |
 | Paraguay | latin-america | 2 | — | 0 | — | — | — |
 | Panama | latin-america | 2 | — | 0 | — | — | — |
 | Mexico | latin-america | 3 | — | 0 | — | — | — |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 20
-- **Average depth_score**: 0.92
+- **Average depth_score**: 0.95

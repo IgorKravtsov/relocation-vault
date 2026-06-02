@@ -1,12 +1,23 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # CHANGELOG
 
 Brief delta per iteration. Append-only.
+
+## 2026-06-02 — run-035 — verification-batch
+
+- Mode: verification; resolved 6 pending items (`vq-039`, `vq-052`, `vq-056`, `vq-057`, `vq-058`, `vq-059`).
+- Portugal: depth_score 2.5 → 3.0 (section 5.5 rent completed with current T2/two-bedroom bands).
+- Albania: depth_score 1.0 → 1.5 (section 5.2 climate completed with WeatherSpark clearer-sky proxies for Tirana, Durres, and Vlore).
+- Slovenia: DN route operational core updated; current twice-net-salary screen is about EUR 3,357.62/month, above the couple's current budget.
+- Georgia and Uruguay legal blockers closed to conservative operational baselines using existing official sources.
+- Sources added: `src-187` … `src-189`.
+- Verification queue: 10 → 4 pending/open items.
+- Next: country-deep-dive rotation can resume; prioritize a fresh depth-0 Tier-2-hint country such as Paraguay, unless new accepted proposals appear.
 
 ## 2026-06-01 — run-034 — uruguay-legalization-climate
 

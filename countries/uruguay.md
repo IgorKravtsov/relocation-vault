@@ -2,13 +2,13 @@
 country: Uruguay
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-01T22:02:41Z
+last_updated: 2026-06-02T04:01:45Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence", "remote-income-sufficiency-needs-notarial-confirmation"]
+risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence"]
 sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,14 +18,14 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests a potentially strong long-term route because Uruguay allows ordinary legal residence for non-Mercosur foreigners and legal citizenship after 3 years with family constituted in Uruguay or 5 years without family, but the route depends on proving habitual residence and means of life rather than a simple remote-worker visa threshold. [src-181][src-182][src-184]
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-01T22:02:41Z
+- **Last updated**: 2026-06-02T04:01:45Z
 - **Tier rationale**: keep as Tier-2 hint until taxes, cost, rent, healthcare, and practical residence approval mechanics for foreign-client IT income are checked.
 
 ## Block 2 - Scoring
 
 | Criterion | Score (1-10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
-| Legalization (now + post-03.2027) | — | medium | Visa-free entry plus ordinary permanent residence and short DN/provisional identity route exist, but remote-income proof and DN-to-long-term counting need follow-up. | §5.1 |
+| Legalization (now + post-03.2027) | — | medium | Visa-free entry plus ordinary permanent residence and short DN/provisional identity route exist; operational baseline is PR via foreign-company/independent-worker evidence, with DN only as a bridge. | §5.1 |
 | Climate | — | medium | Mild humid-subtropical climate; no long cold winter; hotter north; clear-sky proxies are decent but not Mediterranean-dry. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
@@ -55,12 +55,12 @@ schema_version: 2.0.0
 #### After 4 March 2027
 
 - There is no Ukraine-specific TP-to-residence bridge to capture because Uruguay is not an EU TP state. The conservative baseline is to treat Uruguay as an **ordinary residence plan**: enter visa-free if still eligible, then file permanent legal residence (or start with the DN/provisional identity only as a short bridge) well before the EU TP horizon. [src-180][src-181][src-182]
-- The DN/provisional identity route is not enough by itself for long-term planning: it is framed as 6 months plus a 6-month renewal, while the long-term anchor is permanent legal residence / legal citizenship. [src-183][src-185]
+- The DN/provisional identity route is not enough by itself for long-term planning: it is framed as 6 months plus a 6-month renewal, while the long-term anchor is permanent legal residence / legal citizenship. Verification baseline for `vq-059`: do not assume DN/provisional-identity time alone will satisfy habitual-residence / citizenship evidence; use it only as an entry bridge while building a permanent legal residence file. Partner mechanics should be handled through separate residence files and family/civil-status evidence, with marriage helpful for documentary clarity and possibly the family-constituted citizenship timeline. [src-182][src-183][src-184][src-185]
 
 #### Residence without local employer
 
 - The strongest captured official hook for the IT partner is **foreign-company employment** or **independent worker / sole proprietor** evidence under the permanent-residence means-of-life checklist. This is better than treating the digital-nomad sheet as the main path, because permanent residence is the route connected to stable residence and later citizenship evidence. [src-182]
-- No fixed minimum monthly income was captured on the official page. The checklist says income must be sufficient for maintenance and proved through notarial/accounting documentation. For the couple's ~$3,000/month foreign-client income, this is promising but remains an application-mechanics gap until a current Uruguayan notary/lawyer or migration FAQ confirms what amount and documents are normally accepted. [src-182]
+- No fixed minimum monthly income was captured on the official page. Verification baseline for `vq-058`: for planning, this is not a fixed-threshold DN-style route; it is a documentary sufficiency file. The couple's ~$3,000/month foreign-client income is plausible only if a Uruguayan notary/accountant can certify the foreign-company or independent-worker means-of-life package, payment method, and any DGI/BPS implications. Treat notarial/accounting preparation as mandatory, not optional. [src-182]
 
 #### PR and citizenship
 
@@ -150,8 +150,8 @@ Uruguay has a humid subtropical climate: mild winters, hot summers, rain in all 
 
 - **Can relocate now**: likely yes for entry and initial filing, because Ukrainian ordinary passports are listed as visa-free and Uruguay has in-country residence routes. [src-180][src-181]
 - **Best legalization path for the man**: permanent legal residence using foreign-company employee or independent-worker proof; DN/provisional identity only as a short bridge. [src-182][src-183]
-- **Best legalization path for the woman**: not yet confirmed; likely own residence file tied to family/spouse evidence if married, or independent ordinary residence evidence. [verification required]
-- **Does marriage change the picture**: probably yes for documentary clarity and legal-citizenship timeline, but exact residence dependent mechanics need verification. [src-182][src-184]
+- **Best legalization path for the woman**: separate ordinary residence file tied to family/spouse evidence if married, or independent ordinary residence evidence; do not rely on the DN bridge as a dependent route. [src-182][src-184]
+- **Does marriage change the picture**: yes for documentary clarity and possibly the family-constituted 3-year legal-citizenship timeline, but residence still needs a Uruguayan file and means/support evidence. [src-182][src-184]
 - **Realism of staying after 03.2027**: medium-positive if ordinary residence is filed early and habitual presence is maintained; not dependent on EU TP extension.
 
 **Pros**:
@@ -235,12 +235,11 @@ _(none yet)_
 - [src-186] WeatherSpark Uruguay country climate comparison.
 
 ### 7e. Not found
-- Exact Uruguayan migration practice for accepting ~$3,000/month foreign-client IT income for a couple.
-- Whether digital-nomad provisional identity time counts toward habitual residence for legal citizenship.
-- Partner/dependent mechanics for an unmarried Ukrainian partner in an ordinary residence file.
+- Exact Uruguayan migration practice for accepting ~$3,000/month foreign-client IT income for a couple remains an application-prep check; operational planning should treat a notarial/accounting means-of-life package as mandatory.
+- Whether digital-nomad provisional identity time counts toward habitual residence for legal citizenship remains unproven; the safe baseline is not to rely on it without permanent legal residence evidence.
+- Partner/dependent mechanics for an unmarried Ukrainian partner remain unproven; the safe baseline is marriage or separate residence eligibility.
 - Uruguay tax treatment for foreign-client IT remote work.
 
 ## Block 8 - Open questions and verification markers
 
-- `vq-058` — confirm the practical permanent-residence evidence package and income sufficiency for a foreign-client IT worker earning about $3,000/month while supporting a partner.
-- `vq-059` — confirm whether the digital-nomad provisional identity route counts toward habitual residence / legal-citizenship timelines and how spouse/unmarried partner residence files are handled.
+_(none for current partial-depth scope; later application-prep should still check DNM/notary practice before filing.)_

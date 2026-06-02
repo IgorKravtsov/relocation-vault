@@ -2,13 +2,13 @@
 country: Georgia
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-01T10:12:00Z
+last_updated: 2026-06-02T04:01:45Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["visa-free-not-residence", "it-permit-foreign-client-mechanics-need-check"]
+risk_flags: ["visa-free-not-residence"]
 sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175"]
-unverified_count: 2
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -18,14 +18,14 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. Georgia is easy to enter and has an official IT residence-permit category that may fit the male IT worker, but the route needs verification on the 2026 work-right / small-business mechanics and is not an EU temporary-protection bridge.
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-01T10:12:00Z
+- **Last updated**: 2026-06-02T04:01:45Z
 - **Tier rationale**: Not assigned until taxes, cost of living, rent, healthcare, and practical permit-renewal experience are researched.
 
 ## Block 2 — Scoring
 
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
-| Legalization (now + post-03.2027) | — | N/A | Entry, ordinary residence, work/entrepreneur residence, IT residence, family residence, PR, and citizenship baselines opened; official Ukraine-stay decree and IT route mechanics still need verification. | §5.1 |
+| Legalization (now + post-03.2027) | — | medium | Entry, ordinary residence, work/entrepreneur residence, IT residence, family residence, PR, and citizenship baselines opened; the IT route is usable as an operational planning baseline, while the official Ukraine-stay decree still needs capture. | §5.1 |
 | Climate | — | medium | Tbilisi, Batumi, and Kutaisi climate baselines captured; clearer-sky proxies now close the sunny-day blocker. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
@@ -52,7 +52,7 @@ schema_version: 2.0.0
 #### Residence without local employer
 
 - **Work / entrepreneurial residence permit**: SDA says a work residence permit can be issued to a labour immigrant registered with the relevant Georgian ministry or to an alien carrying out entrepreneurial activities in Georgia. Required evidence includes lawful stay, employment or entrepreneurial activity in Georgia, income/remuneration not less than five times the minimum subsistence level for the average consumer, and employer / enterprise turnover evidence of at least GEL 50,000 per alien seeking a work permit (lower GEL 35,000 threshold for educational or medical institutions). This is a potential route only if the IT worker builds a real Georgian entrepreneurial file; it is not yet a lightweight foreign-client freelancer permit. [src-157] Confidence: high for the checklist baseline.
-- **IT residence permit**: SDA has a specific temporary residence permit for a person engaged in IT. The captured official page lists two important variants: (1) employed IT worker with at least 2 years of IT work/economic-activity experience and at least USD 25,000 equivalent annual remuneration during the last year; (2) Georgia-registered entrepreneurial natural person with small-business status conducting IT activities under listed activity codes, with documents proving small-business status, IT activity, at least 2 years of IT experience, and qualifying remuneration. The page also references a work-right decision / State Employment Support Agency unique code. This route looks promising for a remote IT worker near $36,000/year, but exact 2026 work-right registration and foreign-client mechanics need verification. [src-157] Confidence: high for published requirements; medium for fit to this couple.
+- **IT residence permit**: SDA has a specific temporary residence permit for a person engaged in IT. The captured official page lists two important variants: (1) employed IT worker with at least 2 years of IT work/economic-activity experience and at least USD 25,000 equivalent annual remuneration during the last year; (2) Georgia-registered entrepreneurial natural person with small-business status conducting IT activities under listed activity codes, with documents proving small-business status, IT activity, at least 2 years of IT experience, and qualifying remuneration. The page also references a work-right decision / State Employment Support Agency unique code. Verification baseline for `vq-052`: this is enough for operational planning at medium confidence. For a foreign-client remote IT worker, treat the small-business / entrepreneurial-natural-person variant as the likely route to test, not a pure visa-free DN status; dependent handling remains through ordinary family reunification after the main applicant receives a residence permit, with marriage as the conservative relationship proof. [src-157] Confidence: high for published requirements; medium for fit to this couple.
 - **Real estate / investment alternatives**: SDA also lists short-term / investment residence concepts, including investment thresholds around USD 300,000 for investment residence. These are likely outside the couple's current budget and should not be treated as the main route. [src-157] Confidence: high.
 
 #### Family / partner route
@@ -153,7 +153,7 @@ schema_version: 2.0.0
 
 **Cons / risks**:
 - Visa-free stay is not residence and appears to have been cut back to one year for Ukrainians.
-- IT route needs current 2026 work-right / foreign-client mechanics verification.
+- IT route is promising but paperwork-heavy: foreign-client fit should be built around the official IT / small-business variant and ordinary family reunification, not a simple DN visa.
 - No EU-style temporary-protection bridge; long-term residence/citizenship clocks are about 10 years.
 - Climate is split: Tbilisi is hot/cold continental; Batumi is very rainy and humid.
 
@@ -219,10 +219,8 @@ _(none yet)_
 
 ### 7e. Not found
 - Clean official-primary text capture of the current Ukraine-specific visa-free stay decree / country table.
-- Official worked example for Georgia IT residence using foreign-client remote IT income and small-business registration.
+- A worked State Employment Support Agency / Revenue Service filing example for the IT small-business variant remains useful for application-prep, but the core route blocker is closed for planning.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-051` — Georgia current official Ukraine visa-free stay duration and transitional treatment for Ukrainians already in Georgia.
-- `vq-052` — Georgia IT residence 2026 work-right / small-business / foreign-client mechanics and dependent treatment.
-- `vq-053` — Georgia direct sunny/clear-day counts for Tbilisi, Batumi, and Kutaisi.
