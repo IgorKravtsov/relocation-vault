@@ -1,0 +1,53 @@
+- id: claim-panama-001
+  topic: remote_worker_income_threshold
+  value: "Panama's short-stay remote-worker visa requires foreign-source income of at least B/.36,000 per year, or B/.3,000 per month in the employer-letter checklist."
+  source: src-199
+  date_verified: 2026-06-02
+  confidence: high
+  tags: [remote-worker, digital-nomad, income-threshold]
+  notes: "The couple's approximate USD 3,000/month gross sits exactly at the threshold, so a buffer is prudent."
+
+- id: claim-panama-002
+  topic: remote_worker_duration
+  value: "Panama's remote-worker visa is valid for 9 months and may be renewed once for the same period."
+  source: src-199
+  date_verified: 2026-06-02
+  confidence: high
+  tags: [remote-worker, duration, bridge]
+  notes: "This is a bridge route, not captured as permanent residence."
+
+- id: claim-panama-003
+  topic: remote_worker_rights
+  value: "Once granted, the remote-worker visa allows remote work from Panama without an additional state work or residence permit, provided the work effects and income source are abroad."
+  source: src-199
+  date_verified: 2026-06-02
+  confidence: high
+  tags: [remote-worker, work-rights, foreign-source]
+  notes: "The checklist also requires a sworn declaration not to accept local work/services/business in Panama."
+
+- id: claim-panama-004
+  topic: friendly_countries_provisional_residence
+  value: "Panama's specific/friendly-countries category can grant 2 years of provisional residence to eligible nationals pursuing economic or professional activities, with a later permanent-residence stage."
+  source: src-200
+  date_verified: 2026-06-02
+  confidence: medium
+  tags: [residence, friendly-countries, pr-path]
+  notes: "Ukraine inclusion and fit for foreign-client remote IT were not verified in this pass."
+
+- id: claim-panama-005
+  topic: climate_clearer_sky_day_equivalents
+  value: "WeatherSpark monthly clearer-sky percentages convert to approximately 83 clearer-sky day-equivalents for Panama City, 87 for David, and 86 for Boquete/Guayabal."
+  source: src-202
+  date_verified: 2026-06-02
+  confidence: medium
+  tags: [climate, clear-sky, proxy]
+  notes: "Boquete/Guayabal uses the city-specific WeatherSpark page at src-203; values are proxies, not official sunny-day counts."
+
+- id: claim-panama-006
+  topic: climate_temperature_baseline
+  value: "Representative January/July average high-low pairs are Panama City 31.1/24.4 C and 30.6/25.0 C, David 31.7/22.2 C and 30.0/23.3 C, and Boquete/Guayabal 27.8/17.8 C and 26.7/19.4 C."
+  source: src-202
+  date_verified: 2026-06-02
+  confidence: medium
+  tags: [climate, temperature, panama-city, david, boquete]
+  notes: "Converted from WeatherSpark Fahrenheit tables with Python during run-037; Boquete/Guayabal source is src-203."

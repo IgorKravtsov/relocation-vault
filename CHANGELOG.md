@@ -6,7 +6,11 @@ last_updated: 2026-06-02
 
 # CHANGELOG
 
-Brief delta per iteration. Append-only.
+## 2026-06-02 — run-037
+- Panama: created profile and claims; depth_score 0 → 1.5 (5.2 completed; 5.1 partial)
+- Sources added: src-197, src-198, src-199, src-200, src-201, src-202, src-203
+- Claims added: claim-panama-001 through claim-panama-006
+- Verification queue: 6 → 8 (added vq-062, vq-063)
 
 ## 2026-06-02 — run-036 — paraguay-legalization-climate
 

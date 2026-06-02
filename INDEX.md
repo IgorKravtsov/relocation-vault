@@ -34,7 +34,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Moldova | balkans-east | 3 | — | 0 | — | — | — |
 | Uruguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/uruguay.md` |
 | Paraguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 36 | `countries/paraguay.md` |
-| Panama | latin-america | 2 | — | 0 | — | — | — |
+| Panama | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 37 | `countries/panama.md` |
 | Mexico | latin-america | 3 | — | 0 | — | — | — |
 | Argentina | latin-america | 3 | — | 0 | — | — | — |
 | UAE | middle-east-asia | 3 | — | 0 | — | — | — |
@@ -50,5 +50,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 1 hints**: 7 (Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta)
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
-- **Researched**: 21
-- **Average depth_score**: 1.00
+- **Researched**: 22
+- **Average depth_score**: 1.05

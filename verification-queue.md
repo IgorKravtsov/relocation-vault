@@ -751,3 +751,23 @@ _(none)_
 - **Suggested verification**: Check DNM route-specific requirements, SET/DNIT tax registration, Paraguayan accountant/lawyer guidance, and family-residence checklists.
 - **Created**: 2026-06-02 (run-036)
 - **Status**: pending
+
+## vq-062 [high priority]
+- **Fact**: "Panama current official entry / visa rule for Ukrainian citizens, including maximum visa-free or tourist stay and extension mechanics"
+- **Country**: Panama
+- **Section**: 5.1
+- **Current source**: src-197, src-201
+- **Why uncertain**: A reputable aggregator lists Panama as visa-free for Ukrainian passport holders and Panama's official tourist page gives general tourist requirements, but this pass did not capture Panama's official country-specific Ukraine entry table.
+- **Suggested verification**: Check Panama consular guidance, National Migration Service visa-country list, embassy pages, or an official visa-required/exempt nationality table.
+- **Created**: 2026-06-02 (run-037)
+- **Status**: pending
+
+## vq-063 [high priority]
+- **Fact**: "Panama remote-worker visa follow-on route for a Ukrainian foreign-client IT worker: conversion/follow-on residence, friendly-countries or foreign-professional eligibility, PR counting, and spouse/unmarried-partner mechanics"
+- **Country**: Panama
+- **Section**: 5.1
+- **Current source**: src-198, src-199, src-200
+- **Why uncertain**: The remote-worker route is official and income-fit, but it is a 9+9 month non-resident bridge. This pass did not verify whether Ukraine is included in the friendly/specific-countries list, whether foreign-client IT qualifies without Panama employment/investment, or whether a spouse/unmarried partner can derive status from the remote-worker file.
+- **Suggested verification**: Check Executive Decree 226/2021 country list and amendments, National Migration Service FAQs, foreign-professional reserved-professions rules, and current Panama immigration-lawyer guidance.
+- **Created**: 2026-06-02 (run-037)
+- **Status**: pending

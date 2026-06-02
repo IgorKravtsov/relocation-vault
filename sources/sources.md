@@ -2368,3 +2368,87 @@ Each source entry:
 - **Facts supporting**: high-capital direct permanent-residence investor route context; USD 150,000 tourism-project or USD 200,000 stock-market / real-estate examples, not suitable as the couple's baseline
 - **Confidence ceiling**: high
 - **Stale at**: 2026-12-02
+
+## src-197
+- **Title**: VisaGuide.World — Ukrainian passport visa-free countries list
+- **URL**: https://visaguide.world/visa-free-countries/ukrainian-passport/
+- **Archive**: [archive: failed 2026-06-02; text mirror used for extraction]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: Panama
+- **Facts supporting**: medium-confidence placeholder that Panama is listed as visa-free for Ukrainian passport holders pending official Panama country-table verification
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-02
+
+## src-198
+- **Title**: Panama National Migration Service — Permisos Migratorios catalogue
+- **URL**: https://www.migracion.gob.pa/permisos-y-requisitos/permisos-migratorios/
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-05-26
+- **Date accessed**: 2026-06-02
+- **Used by**: Panama
+- **Facts supporting**: official catalogue of non-resident, permanent-residence, temporary-residence, foreign-professional, friendly-countries, remote-worker, and related migration permit checklists
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-02
+
+## src-199
+- **Title**: Panama National Migration Service — Requisitos para solicitar visa de corta estancia como trabajador remoto
+- **URL**: https://www.migracion.gob.pa/wp-content/uploads/18.REQUISITOS-PARA-SOLICITAR-VISA-DE-CORTA-ESTANCIA-COMO-TRABAJADOR-REMOTO.pdf
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2023-09-26
+- **Date accessed**: 2026-06-02
+- **Used by**: Panama
+- **Facts supporting**: remote-worker visa eligibility, foreign-source income threshold B/.36,000/year or B/.3,000/month, 9+9 month duration, right to work remotely without extra permit, no-local-work declaration, document checklist, insurance, fees, and self-employed evidence package (claim-panama-001 through claim-panama-003)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-02
+
+## src-200
+- **Title**: Panama National Migration Service — Permiso de residente provisional/permanente en calidad de extranjeros nacionales de paises especificos
+- **URL**: https://www.migracion.gob.pa/wp-content/uploads/02-PAISES-ESPECIFICOS.pdf
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2024-01-26
+- **Date accessed**: 2026-06-02
+- **Used by**: Panama
+- **Facts supporting**: friendly/specific-countries provisional residence for 2 years, economic/professional activity hooks, investment/employment/dependent evidence, solvency baseline for dependents, and permanent-residence stage (claim-panama-004)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-02
+
+## src-201
+- **Title**: Panama National Migration Service — Turistas / Requisitos para solicitar visa de turista
+- **URL**: https://www.migracion.gob.pa/turistas/ and https://www.migracion.gob.pa/wp-content/uploads/Solicitud-y-Requesitos-para-Visa-de-Turista-2.pdf
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2025-08-07
+- **Date accessed**: 2026-06-02
+- **Used by**: Panama
+- **Facts supporting**: general tourist entry requirements, passport/visa where required, solvency and return/onward-ticket requirements, tourist visa maximum 90 days, B/.50 fee, and B/.500 minimum solvency proof
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-02
+
+## src-202
+- **Title**: WeatherSpark — Panama country climate comparison (Panama City and David)
+- **URL**: https://weatherspark.com/countries/PA
+- **Archive**: [archive: failed 2026-06-02; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: Panama
+- **Facts supporting**: monthly average high/low temperatures, precipitation, humidity, and clearer-sky percentages for Panama City and David; annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-panama-005, claim-panama-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-203
+- **Title**: WeatherSpark — Boquete / Guayabal climate, weather by month
+- **URL**: https://weatherspark.com/y/16703/Average-Weather-in-Boquete-Panama-Year-Round
+- **Archive**: [archive: failed 2026-06-02; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: Panama
+- **Facts supporting**: Boquete/Guayabal monthly average high/low temperatures, precipitation, humidity, and clearer-sky percentages; annual clearer-sky day-equivalent proxy calculated from monthly percentages (claim-panama-005, claim-panama-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

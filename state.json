@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 36,
+  "iteration": 37,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-02T10:15:06Z",
+  "last_run_timestamp": "2026-06-02T16:05:56Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Paraguay",
+    "country": "Panama",
     "sections": [
       "5.1",
       "5.2"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Panama",
+    "suggested_country": "North Macedonia",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Verification queue remains below threshold after run-036; continue fresh depth-0 Tier-2-hint country rotation without clustering."
+    "reason": "Verification queue remains below threshold after run-037; continue fresh depth-0 country rotation into Tier-3-hint countries without clustering."
   },
   "countries": {
     "Spain": {
@@ -670,12 +670,14 @@
     "Panama": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 0,
-      "sections_completed": [],
-      "sections_partial": [],
+      "depth_score": 1.5,
+      "sections_completed": [
+        "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
+      ],
       "sections_pending": [
-        "5.1",
-        "5.2",
         "5.3",
         "5.4",
         "5.5",
@@ -686,8 +688,13 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "official-ukraine-entry-table-gap",
+        "remote-worker-visa-bridge-only",
+        "panama-permanent-residence-route-needs-fit-check",
+        "very-humid-rainy-season"
+      ],
+      "last_iteration": 37
     },
     "Mexico": {
       "tier": null,
@@ -866,8 +873,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 6,
-  "sources_count": 195,
-  "claims_count": 152,
+  "verification_queue_size": 8,
+  "sources_count": 202,
+  "claims_count": 158,
   "proposals_pending": 0
 }
