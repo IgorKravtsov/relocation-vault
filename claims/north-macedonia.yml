@@ -1,0 +1,53 @@
+- id: claim-north-macedonia-001
+  topic: eu_schengen_residence_short_entry
+  value: "North Macedonia MFA states that third-country nationals with temporary or permanent residence in an EU Member State or Schengen signatory may stay up to 15 days per entry, with total stay not exceeding 90 days in any 180-day period."
+  source: src-205
+  date_verified: 2026-06-02
+  confidence: high
+  tags: [entry, polish-karta-pobytu, short-stay]
+  notes: "This is a short-entry bridge only; it does not replace a North Macedonian residence permit."
+
+- id: claim-north-macedonia-002
+  topic: temporary_residence_purposes
+  value: "Invest North Macedonia summarizes temporary residence purposes including work, study, training, volunteering, scientific research, medical treatment, family reunification, humanitarian reasons, and other legal bases."
+  source: src-206
+  date_verified: 2026-06-02
+  confidence: medium-high
+  tags: [temporary-residence, work, family-reunification]
+  notes: "Official investment-promotion summary; Ministry of Interior checklist still needs route-specific extraction."
+
+- id: claim-north-macedonia-003
+  topic: self_employment_residence_candidate
+  value: "Invest North Macedonia says aftercare support covers obtaining/extension of temporary residence for employment, work, or self-employment in North Macedonia for foreign owners/co-owners/managers or related applicants."
+  source: src-207
+  date_verified: 2026-06-02
+  confidence: medium-high
+  tags: [self-employment, work-permit, residence]
+  notes: "This opens the route conceptually but does not prove a lightweight foreign-client IT freelancer file."
+
+- id: claim-north-macedonia-004
+  topic: ukraine_temporary_protection_2024_baseline
+  value: "UNHCR reported in September 2024 that North Macedonia had extended temporary protection for Ukrainians until 9 August 2025 and that 45 refugees from Ukraine had been granted temporary protection and residence on humanitarian grounds."
+  source: src-209
+  date_verified: 2026-06-02
+  confidence: medium
+  tags: [ukraine, temporary-protection, stale-follow-up]
+  notes: "Useful historical baseline only; current 2026 extension / rights and any post-2027 bridge are pending verification."
+
+- id: claim-north-macedonia-005
+  topic: climate_clearer_sky_day_equivalents
+  value: "WeatherSpark monthly clearer-sky percentages convert to approximately 228 clearer-sky day-equivalents for Skopje, 219 for Ohrid, and 224 for Bitola."
+  source: src-211
+  date_verified: 2026-06-02
+  confidence: medium
+  tags: [climate, clear-sky, proxy]
+  notes: "Bitola uses the city-specific WeatherSpark page at src-212; values are proxies, not official sunny-day counts."
+
+- id: claim-north-macedonia-006
+  topic: climate_temperature_comfort_baseline
+  value: "North Macedonia has cold winters and hot lower-valley summers; Climate to Travel places Skopje summer average maxima around 32 C in July/August with possible 40 C heat waves, while WeatherSpark gives Bitola January about 27-41 F and July about 58-82 F."
+  source: src-210
+  date_verified: 2026-06-02
+  confidence: medium
+  tags: [climate, temperature, comfort]
+  notes: "Skopje and Ohrid climate comparison is supported by src-211; Bitola city detail by src-212."

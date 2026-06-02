@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-01
+last_updated: 2026-06-02
 ---
 
 # Verification Queue
@@ -770,4 +770,24 @@ _(none)_
 - **Why uncertain**: The remote-worker route is official and income-fit, but it is a 9+9 month non-resident bridge. This pass did not verify whether Ukraine is included in the friendly/specific-countries list, whether foreign-client IT qualifies without Panama employment/investment, or whether a spouse/unmarried partner can derive status from the remote-worker file.
 - **Suggested verification**: Check Executive Decree 226/2021 country list and amendments, National Migration Service FAQs, foreign-professional reserved-professions rules, and current Panama immigration-lawyer guidance.
 - **Created**: 2026-06-02 (run-037)
+- **Status**: pending
+
+## vq-064 [high priority]
+- **Fact**: "North Macedonia current official entry rule for Ukrainian citizens, current Ukraine temporary-protection status / rights, and any post-2027 bridge into ordinary residence"
+- **Country**: North Macedonia
+- **Section**: 5.1
+- **Current source**: src-204, src-205, src-209
+- **Why uncertain**: The Ukrainian passport entry baseline is from an aggregator, the official MFA page captured only EU/Schengen residence-card short-entry rules, and the UNHCR temporary-protection source is a 2024 fact sheet only current to August 2025. No current 2026 government protection extension or post-2027 bridge was captured.
+- **Suggested verification**: Capture MFA visa-check results for Ukraine, Ministry of Interior / asylum-sector Ukrainian protection guidance, or a current UNHCR / government update; check Official Gazette for any temporary-protection conversion or extension rule.
+- **Created**: 2026-06-02 (run-038)
+- **Status**: pending
+
+## vq-065 [high priority]
+- **Fact**: "North Macedonia self-employment / company-backed residence for a Ukrainian foreign-client IT worker: official checklist, income or capital sufficiency, local-company / work-permit mechanics, spouse/unmarried-partner dependent treatment, and PR counting"
+- **Country**: North Macedonia
+- **Section**: 5.1
+- **Current source**: src-206, src-207, src-208
+- **Why uncertain**: Invest North Macedonia confirms employment/work/self-employment residence support conceptually, and a 2025 legal-change explainer flags updated requirements, but this pass did not capture a Ministry of Interior / Employment Agency route-specific checklist or proof that a foreign-client remote IT freelancer on about USD 3,000/month can qualify without local employment, investment, or a Macedonian company.
+- **Suggested verification**: Check Ministry of Interior foreigner residence services, Employment Agency / work-permit guidance, updated Law on Foreigners text, and current North Macedonian immigration-lawyer guidance for IT/self-employment files and family reunification.
+- **Created**: 2026-06-02 (run-038)
 - **Status**: pending

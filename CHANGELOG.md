@@ -6,6 +6,12 @@ last_updated: 2026-06-02
 
 # CHANGELOG
 
+## 2026-06-02 — run-038
+- North Macedonia: created profile and claims; depth_score 0 → 1.5 (5.2 completed; 5.1 partial)
+- Sources added: src-204, src-205, src-206, src-207, src-208, src-209, src-210, src-211, src-212
+- Claims added: claim-north-macedonia-001 through claim-north-macedonia-006
+- Verification queue: 8 → 10 (added vq-064, vq-065); next mode should be verification
+
 ## 2026-06-02 — run-037
 - Panama: created profile and claims; depth_score 0 → 1.5 (5.2 completed; 5.1 partial)
 - Sources added: src-197, src-198, src-199, src-200, src-201, src-202, src-203

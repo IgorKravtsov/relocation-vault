@@ -2452,3 +2452,111 @@ Each source entry:
 - **Facts supporting**: Boquete/Guayabal monthly average high/low temperatures, precipitation, humidity, and clearer-sky percentages; annual clearer-sky day-equivalent proxy calculated from monthly percentages (claim-panama-005, claim-panama-006)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-204
+- **Title**: VisaGuide.World — Ukrainian passport visa-free countries list
+- **URL**: https://visaguide.world/visa-free-countries/ukrainian-passport/
+- **Archive**: [archive: failed 2026-06-02; text mirror/search result used for extraction]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: North Macedonia
+- **Facts supporting**: medium-confidence placeholder that North Macedonia is listed as visa-free for Ukrainian passport holders pending official North Macedonia country-table verification
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-02
+
+## src-205
+- **Title**: North Macedonia MFA — Visa requirements for entering the Republic of North Macedonia
+- **URL**: https://mfa.gov.mk/en-GB/konzularni-uslugi/informacii-za-vlez-vo-rsm
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: North Macedonia
+- **Facts supporting**: EU/Schengen temporary or permanent residence-card short-entry rule of up to 15 days per entry and 90 days in any 180-day period (claim-north-macedonia-001)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-02
+
+## src-206
+- **Title**: Invest North Macedonia — Work Visas and Permits
+- **URL**: https://investnorthmacedonia.gov.mk/work-visas-and-permits/
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: North Macedonia
+- **Facts supporting**: D visa / temporary residence sequence, work and residence permit categories, and temporary residence purposes including work, study, family reunification, humanitarian reasons, and other legal bases (claim-north-macedonia-002)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-02
+
+## src-207
+- **Title**: Invest North Macedonia — Permit / Aftercare work permit support
+- **URL**: https://investnorthmacedonia.gov.mk/invest-permit/
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: North Macedonia
+- **Facts supporting**: aftercare assistance for temporary residence and work permits for employment, work, or self-employment in North Macedonia; contact-point baseline for company-linked applicants (claim-north-macedonia-003)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-02
+
+## src-208
+- **Title**: Karanovic & Partners — Temporary Residence and Employment of Foreigners in North Macedonia: Key Changes Under the 2025 Amendments
+- **URL**: https://www.karanovicpartners.com/news/temporary-residence-and-employment-of-foreigners-in-north-macedonia-key-changes-under-the-2025-amendments/
+- **Archive**: [archive: failed 2026-06-02; text mirror used for extraction]
+- **Type**: reputable-secondary
+- **Date published**: 2025-09-26
+- **Date accessed**: 2026-06-02
+- **Used by**: North Macedonia
+- **Facts supporting**: 2025 Law on Foreigners amendment alert affecting temporary residence / employment procedure and application-document baselines
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-02
+
+## src-209
+- **Title**: UNHCR North Macedonia Fact Sheet, September 2024
+- **URL**: https://www.unhcr.org/europe/sites/europe/files/2024-10/bi-annual-fact-sheet-2024-09-north-macedonia.pdf
+- **Archive**: [archive: failed 2026-06-02; text mirror used for extraction]
+- **Type**: reputable-secondary
+- **Date published**: 2024-10-11
+- **Date accessed**: 2026-06-02
+- **Used by**: North Macedonia
+- **Facts supporting**: historical temporary-protection baseline for Ukrainians extended to 09 August 2025; 45 Ukrainian refugees granted temporary protection and residence on humanitarian grounds by mid-2024 (claim-north-macedonia-004)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-02
+
+## src-210
+- **Title**: Climate to Travel — Macedonia climate: temperature, rain, when to go
+- **URL**: https://www.climatestotravel.com/climate/macedonia
+- **Archive**: [archive: failed 2026-06-02; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: North Macedonia
+- **Facts supporting**: North Macedonia continental climate overview, Skopje / Ohrid / Bitola climate normals, winter cold, Skopje summer heat, low-humidity comfort caveats, and sunshine-hour context (claim-north-macedonia-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-211
+- **Title**: WeatherSpark — Macedonia country climate comparison (Skopje and Ohrid)
+- **URL**: https://weatherspark.com/countries/MK
+- **Archive**: [archive: failed 2026-06-02; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: North Macedonia
+- **Facts supporting**: monthly average high/low temperatures, muggy-condition notes, and clearer-sky percentages for Skopje and Ohrid; annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-north-macedonia-005, claim-north-macedonia-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-212
+- **Title**: WeatherSpark — Bitola climate and average weather year round
+- **URL**: https://weatherspark.com/y/86830/Average-Weather-in-Bitola-Macedonia-Year-Round
+- **Archive**: [archive: failed 2026-06-02; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-02
+- **Used by**: North Macedonia
+- **Facts supporting**: Bitola January/July temperature baseline, almost-zero muggy-day burden, monthly clearer-sky percentages, and annual clearer-sky day-equivalent proxy calculated from monthly percentages (claim-north-macedonia-005, claim-north-macedonia-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
