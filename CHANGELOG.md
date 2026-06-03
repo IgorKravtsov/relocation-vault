@@ -6,6 +6,14 @@ last_updated: 2026-06-03
 
 # CHANGELOG
 
+## 2026-06-03 — run-041
+- Moldova: created profile and claims; depth_score 0 → 1.5 (5.2 completed; 5.1 partial).
+- Legalization first pass captured temporary protection through 01 March 2027, provisional-stay categories, the official digital-nomad document list / income formula, and permanent-stay baselines with PR-counting caveats.
+- Climate pass completed Chisinau, Balti, and Tiraspol with continental winter/summer baselines and WeatherSpark clearer-sky day-equivalent proxies.
+- Sources added: src-219, src-220, src-221, src-222, src-223, src-224, src-225 (reused src-204).
+- Claims added: claim-moldova-001 through claim-moldova-006.
+- Verification queue: 7 → 9 (added vq-068, vq-069); next can continue depth-0 rotation with Mexico.
+
 ## 2026-06-03 — run-040
 - Bosnia and Herzegovina: created profile and claims; depth_score 0 → 1.5 (5.2 completed; 5.1 partial).
 - Legalization first pass captured 90/180 visa-free mechanics, temporary residence filing, work-permit / company-founder checklists, and permanent residence after five uninterrupted years; no DN route or Ukraine-specific bridge captured.

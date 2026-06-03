@@ -821,3 +821,23 @@ _(none)_
 - **Suggested verification**: Check Law on Aliens Art. 52 / family reunification provisions, work-permit / self-employment rules, Service field-office checklist, Bosnia immigration-lawyer guidance, and Law on Citizenship / entity citizenship rules.
 - **Created**: 2026-06-03 (run-040)
 - **Status**: pending
+
+## vq-068 [high priority]
+- **Fact**: "Moldova current official entry rule for Ukrainian citizens, current Ukraine temporary-protection transition / post-01 March 2027 bridge, and citizenship / dual-citizenship baseline"
+- **Country**: Moldova
+- **Section**: 5.1
+- **Current source**: src-204, src-219, src-222
+- **Why uncertain**: The Ukrainian passport entry baseline is from an aggregator; UNHCR confirms temporary protection only through 01 March 2027 and this pass did not capture a Moldova-specific post-TP bridge or citizenship/naturalization source.
+- **Suggested verification**: Capture Moldovan MFA/eVisa country table for Ukraine, GIM / Government extension or transition decisions for temporary protection after 01 March 2027, and Moldova citizenship law / ASP guidance on ordinary naturalization and dual citizenship.
+- **Created**: 2026-06-03 (run-041)
+- **Status**: pending
+
+## vq-069 [high priority]
+- **Fact**: "Moldova digital-nomad current numeric income threshold, spouse/unmarried-partner dependent treatment for a foreign DN sponsor, and whether DN/IT residence counts toward permanent stay"
+- **Country**: Moldova
+- **Section**: 5.1
+- **Current source**: src-219, src-220, src-221, src-225
+- **Why uncertain**: GIM gives the DN formula of at least 18 times the current-year forecast average salary / three salaries per month and a strong document list, but the numeric 2026 salary figure was not captured. Family-reunification evidence captured only reunification with a Moldovan citizen. The permanent-residence page includes IT/study/posting/investment/free-zone category caveats, so DN/IT PR counting needs legal interpretation.
+- **Suggested verification**: Find the official 2026 forecast average salary figure, GIM DN duration/renewal/dependent FAQ or law text, and legal/official guidance on whether digital-nomad or IT-specialist residence counts toward the 5-year permanent-stay route.
+- **Created**: 2026-06-03 (run-041)
+- **Status**: pending

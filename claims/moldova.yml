@@ -1,0 +1,57 @@
+- id: claim-moldova-001
+  topic: ukraine_passport_short_entry_placeholder
+  value: "VisaGuide.World lists Moldova as visa-free for Ukrainian passport holders; official Moldovan MFA/eVisa country-table verification is still required."
+  source: src-204
+  date_verified: 2026-06-03
+  confidence: medium
+  tags: [entry, ukrainian-citizens, visa-free, aggregator-placeholder]
+  notes: "Used only as a first-pass placeholder; see vq-068."
+
+- id: claim-moldova-002
+  topic: temporary_protection_horizon_and_rights
+  value: "Moldova temporary protection for eligible displaced persons from Ukraine gives the right to remain until 01 March 2027, work, receive primary/emergency healthcare, children's education, social assistance, and temporary-placement accommodation."
+  source: src-222
+  date_verified: 2026-06-03
+  confidence: medium-high
+  tags: [temporary-protection, ukraine, work-rights, post-2027]
+  notes: "UNHCR Help Moldova page; GIM's own temporary-protection page was visible but detailed information was withdrawn due to validity expiration."
+
+- id: claim-moldova-003
+  topic: provisional_stay_framework
+  value: "Foreigners wishing to reside in Moldova for more than 90 days apply for provisional stay; purposes include family reunification, work, investments, studies, humanitarian/religious/volunteer activities, other cases, and digital nomad."
+  source: src-219
+  date_verified: 2026-06-03
+  confidence: high
+  tags: [temporary-residence, provisional-stay, residence-categories]
+  notes: "Applications are filed in person with GIM; normal review is 30 days, with shorter work/investor/EU timelines listed."
+
+- id: claim-moldova-004
+  topic: digital_nomad_income_formula_and_documents
+  value: "Moldova's digital-nomad residence document list requires accommodation evidence, criminal-record evidence, medical insurance, bank statements confirming monthly income at least 18 times the current-year forecast average salary (three salaries/month) for the last six months, a foreign employment/service contract, a remote-work sworn statement, passport page, application, and photo."
+  source: src-220
+  date_verified: 2026-06-03
+  confidence: high
+  tags: [digital-nomad, income-threshold, documents, remote-work]
+  notes: "The numeric 2026 forecast average salary was not captured; see vq-069."
+
+- id: claim-moldova-005
+  topic: permanent_stay_baseline
+  value: "IGM's provisional-stay overview states permanent stay is available after 3 years of temporary residence for family reunification or 5 years for other categories, but the permanent-residence page contains IT/study/posting/investment/free-zone and humanitarian/religious/volunteer category caveats requiring interpretation."
+  source: src-219
+  date_verified: 2026-06-03
+  confidence: medium-high
+  tags: [permanent-residence, five-years, family-reunification, pr-counting]
+  notes: "Cross-read with src-221; do not assume DN/IT time counts until verified."
+
+- id: claim-moldova-006
+  topic: climate_clearer_sky_proxy
+  value:
+    Chisinau: 191
+    Balti: 190
+    Tiraspol: 196
+  unit: clearer-sky day-equivalent proxy/year
+  source: src-224
+  date_verified: 2026-06-03
+  confidence: medium
+  tags: [climate, clearer-sky-proxy, sunny-days]
+  notes: "Computed from WeatherSpark monthly percentages of clear / mostly clear / partly cloudy sky using month lengths; not official sunny-day counts."

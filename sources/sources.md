@@ -2460,8 +2460,8 @@ Each source entry:
 - **Type**: aggregator
 - **Date published**: unknown
 - **Date accessed**: 2026-06-02
-- **Used by**: North Macedonia; Bosnia and Herzegovina
-- **Facts supporting**: medium-confidence placeholder that North Macedonia and Bosnia and Herzegovina are listed as visa-free for Ukrainian passport holders pending official country-table verification
+- **Used by**: North Macedonia; Bosnia and Herzegovina; Moldova
+- **Facts supporting**: medium-confidence placeholder that North Macedonia, Bosnia and Herzegovina, and Moldova are listed as visa-free for Ukrainian passport holders pending official country-table verification
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-02
 
@@ -2631,4 +2631,88 @@ Each source entry:
 - **Used by**: Bosnia and Herzegovina
 - **Facts supporting**: ordinary asylum / international-protection baseline and absence of captured Ukraine-specific temporary-protection bridge in this pass
 - **Confidence ceiling**: medium
+- **Stale at**: 2026-12-03
+
+## src-219
+- **Title**: Moldova General Inspectorate for Migration — Provisional stay
+- **URL**: https://igm.gov.md/en/imigration/provisional-stay/
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Moldova
+- **Facts supporting**: Moldova provisional-stay framework for stays over 90 days; purposes including family reunification, work, investments, studies, humanitarian/religious/volunteer activities, other cases, and digital nomad; GIM filing location, 30-day / 15-day submission and processing baselines; permanent-stay 3-year family / 5-year other-category overview (claim-moldova-003, claim-moldova-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-03
+
+## src-220
+- **Title**: Moldova General Inspectorate for Migration — Digital nomad residence application and document list
+- **URL**: https://igm.gov.md/en/cererea-privind-acordarea-prelungirea-dreptului-de-sedere-in-scop-de-nomad-digital-precum-si-lista-de-acte/
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Moldova
+- **Facts supporting**: Moldova digital-nomad granting/extension document list; accommodation, criminal-record, insurance, bank-statement, foreign employment/service contract, sworn remote-work statement, passport/application/photo requirements; income formula of at least 18 times current-year forecast average salary / three salaries per month for last six months (claim-moldova-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-03
+
+## src-221
+- **Title**: Moldova General Inspectorate for Migration — Permanent Residence
+- **URL**: https://igm.gov.md/en/content/permanent-residence
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Moldova
+- **Facts supporting**: Moldova permanent-residence conditions, 3-year and 5-year residence baselines, 90-day review period, language/housing/criminal-record conditions, and category caveats for students, IT specialists, posted workers, investment/free-zone workers, and religious/humanitarian/volunteer categories (claim-moldova-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-03
+
+## src-222
+- **Title**: UNHCR Moldova — Temporary Protection in Moldova
+- **URL**: https://help.unhcr.org/moldova/temporary-protection/
+- **Archive**: [archive: failed 2026-06-03; text mirror used for extraction]
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Moldova
+- **Facts supporting**: Moldova temporary-protection eligibility for displaced persons from Ukraine, online + GIM appointment registration, TP card, rights to remain until 01 March 2027, work, healthcare, education, social assistance, accommodation, vehicle stay, and beneficiary obligations / cessation triggers (claim-moldova-002)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-03
+
+## src-223
+- **Title**: Climate to Travel — Moldova climate and Chisinau climate normals
+- **URL**: https://www.climatestotravel.com/climate/moldova and https://www.climatestotravel.com/climate/moldova/chisinau
+- **Archive**: [archive: failed 2026-06-03; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Moldova
+- **Facts supporting**: Moldova continental climate overview, north/south temperature and sunshine differences, Balti and Chisinau climate tables, annual sunshine-hour context, precipitation, summer/winter comfort caveats (claim-moldova-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-224
+- **Title**: WeatherSpark — Moldova climate pages for Chisinau, Balti, and Tiraspol
+- **URL**: https://weatherspark.com/y/95676/Average-Weather-in-Chisinau-Moldova-Year-Round; https://weatherspark.com/y/95001/Average-Weather-in-B%C4%83l%C5%A3i-Moldova-Year-Round; https://weatherspark.com/y/96107/Average-Weather-in-Tiraspolul-Moldova-Year-Round
+- **Archive**: [archive: failed 2026-06-03; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Moldova
+- **Facts supporting**: Chisinau / Balti / Tiraspol monthly average high/low/mean temperatures, cloudier/clearer percentages, muggy-condition notes, and annual clearer-sky day-equivalent proxies calculated from monthly clearer percentages (claim-moldova-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-225
+- **Title**: Moldova General Inspectorate for Migration — Provisional stay for family reunification
+- **URL**: https://igm.gov.md/en/imigration/provisional-stay/provisional-stay-for-family-reunification/
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Moldova
+- **Facts supporting**: family-reunification provisional-stay document list for reunification with a Moldovan citizen, including marriage certificate, housing evidence, criminal record, health insurance, application timing, and in-person presence baseline; used as a caveat that foreign digital-nomad dependent mechanics were not captured
+- **Confidence ceiling**: high
 - **Stale at**: 2026-12-03
