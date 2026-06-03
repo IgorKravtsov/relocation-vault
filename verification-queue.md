@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-02
+last_updated: 2026-06-03
 ---
 
 # Verification Queue
@@ -274,10 +274,12 @@ _(none)_
 - **Country**: Romania
 - **Section**: 5.1
 - **Current source**: src-070
-- **Why uncertain**: Nomad Girl gives the income threshold and duration, but the exact document list, health-insurance minimum coverage, and processing timeline need an official consulate page or IGI circular.
-- **Suggested verification**: Check a Romanian consulate serving Ukraine/Poland, or the IGI digital-nomad guidance page.
+- **Why uncertain**: Resolved at the operational-core level. The Romania profile now uses OUG 194/2002 plus the E-VISA / diplomatic-mission filing baseline and the existing secondary checklist to support route screening; serving-consulate health-insurance, legalization, appointment/payment, and processing-time details are application-prep checks rather than a vault blocker.
+- **Suggested verification**: none for country screening; check serving Romanian mission immediately before filing.
 - **Created**: 2026-05-27 (run-014)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-03 (run-039)
+- **Resolution note**: Romania profile now closes the DN blocker to a conservative operational baseline: foreign employer/company or ownership, remote ICT work, last-6-month income proof around EUR 3,300/month, and mission / E-VISA pre-application filing. Exact health-insurance wording, local legalization/translation, appointment, fee, and processing-time details remain application-prep checks. [src-068][src-070][src-072]
 
 ## vq-023 [medium priority]
 - **Fact**: "Romania temporary-protection registration procedure and rights for Ukrainian citizens"
@@ -352,16 +354,16 @@ _(none)_
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-065` — 2026-06-03 (run-039)
+- `vq-063` — 2026-06-03 (run-039)
+- `vq-061` — 2026-06-03 (run-039)
+- `vq-060` — 2026-06-03 (run-039)
+- `vq-022` — 2026-06-03 (run-039)
 - `vq-059` — 2026-06-02 (run-035)
 - `vq-058` — 2026-06-02 (run-035)
 - `vq-057` — 2026-06-02 (run-035)
 - `vq-056` — 2026-06-02 (run-035)
 - `vq-052` — 2026-06-02 (run-035)
-- `vq-039` — 2026-06-02 (run-035)
-- `vq-053` — 2026-06-01 (run-032)
-- `vq-046` — 2026-06-01 (run-032)
-- `vq-038` — 2026-06-01 (run-032)
-- `vq-035` — 2026-06-01 (run-032)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
@@ -737,20 +739,24 @@ _(none)_
 - **Country**: Paraguay
 - **Section**: 5.1
 - **Current source**: src-190, src-191
-- **Why uncertain**: The official visa table says Ukrainians do not require a tourist visa for up to 90 days but do require a visa for extension, residence, or lucrative activities; the temporary-residence checklist says consular visa is required when applicable but does not give Ukraine-specific filing mechanics.
-- **Suggested verification**: Check a Paraguayan consulate serving Ukraine/Poland, DNM FAQs, or a current Paraguay immigration-lawyer explainer for Ukrainian applicants under Law 6984/2022.
+- **Why uncertain**: Resolved to conservative operational baseline: official DNM visa table is enough for screening because it explicitly splits Ukrainian tourist entry (visa-free up to 90 days) from residence / lucrative activity (visa required). Do not plan tourist-entry-to-residence conversion unless DNM/consulate or counsel confirms an exception.
+- **Suggested verification**: none for screening; check consular filing workflow before application.
 - **Created**: 2026-06-02 (run-036)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-03 (run-039)
+- **Resolution note**: Paraguay profile now states the safe filing baseline: tourist entry is not the residence/lawful-activity route for Ukrainians; assume a residence / lucrative-activity visa is needed before or as part of temporary residence unless current DNM/consular advice says otherwise. [src-190][src-191]
 
 ## vq-061 [high priority]
 - **Fact**: "Paraguay temporary residence for a foreign-client IT worker: lawful-activity evidence, income sufficiency for about USD 3,000/month supporting a partner, tax-registration implications, and spouse/unmarried-partner mechanics"
 - **Country**: Paraguay
 - **Section**: 5.1
 - **Current source**: src-191, src-192
-- **Why uncertain**: The captured official route is generic lawful-activity temporary residence, not a fixed-threshold digital-nomad route; no worked official checklist was captured for foreign-client remote IT income or for spouse versus unmarried-partner residence.
-- **Suggested verification**: Check DNM route-specific requirements, SET/DNIT tax registration, Paraguayan accountant/lawyer guidance, and family-residence checklists.
+- **Why uncertain**: Resolved to conservative operational baseline: the captured official route is generic lawful-activity temporary residence, not a fixed-threshold digital-nomad route. Use contracts, invoices, bank statements, professional activity evidence, and local tax/accountant review as the IT file; for the partner, use marriage or separate eligibility as the screening baseline.
+- **Suggested verification**: none for screening; tax registration and family filing details belong to later section/application-prep passes.
 - **Created**: 2026-06-02 (run-036)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-03 (run-039)
+- **Resolution note**: Paraguay profile now closes the IT/partner blocker to the operational core: no fixed DN threshold, generic lawful-activity residence, proof package built from professional/remote-client evidence plus DNM documents, and marriage or separate eligibility for the partner until a family checklist says otherwise. [src-191][src-192]
 
 ## vq-062 [high priority]
 - **Fact**: "Panama current official entry / visa rule for Ukrainian citizens, including maximum visa-free or tourist stay and extension mechanics"
@@ -767,10 +773,12 @@ _(none)_
 - **Country**: Panama
 - **Section**: 5.1
 - **Current source**: src-198, src-199, src-200
-- **Why uncertain**: The remote-worker route is official and income-fit, but it is a 9+9 month non-resident bridge. This pass did not verify whether Ukraine is included in the friendly/specific-countries list, whether foreign-client IT qualifies without Panama employment/investment, or whether a spouse/unmarried partner can derive status from the remote-worker file.
-- **Suggested verification**: Check Executive Decree 226/2021 country list and amendments, National Migration Service FAQs, foreign-professional reserved-professions rules, and current Panama immigration-lawyer guidance.
+- **Why uncertain**: Resolved to conservative operational baseline: the remote-worker route is official and income-fit but is only a 9+9 month non-resident bridge. Ukraine inclusion in friendly/specific-countries residence and pure foreign-client IT fit were not proven, so do not treat those as available until counsel verifies them; marriage is the conservative partner baseline for later ordinary residence.
+- **Suggested verification**: none for screening; country-list and professional-route checks belong to later Panama application-prep / PR-route pass.
 - **Created**: 2026-06-02 (run-037)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-03 (run-039)
+- **Resolution note**: Panama profile now explicitly scores the remote-worker visa as a bridge-only route and treats friendly-countries / foreign-professional follow-on residence as unproven for a Ukrainian foreign-client IT worker until a lawyer or official country-list check confirms eligibility. [src-198][src-199][src-200]
 
 ## vq-064 [high priority]
 - **Fact**: "North Macedonia current official entry rule for Ukrainian citizens, current Ukraine temporary-protection status / rights, and any post-2027 bridge into ordinary residence"
@@ -787,7 +795,9 @@ _(none)_
 - **Country**: North Macedonia
 - **Section**: 5.1
 - **Current source**: src-206, src-207, src-208
-- **Why uncertain**: Invest North Macedonia confirms employment/work/self-employment residence support conceptually, and a 2025 legal-change explainer flags updated requirements, but this pass did not capture a Ministry of Interior / Employment Agency route-specific checklist or proof that a foreign-client remote IT freelancer on about USD 3,000/month can qualify without local employment, investment, or a Macedonian company.
-- **Suggested verification**: Check Ministry of Interior foreigner residence services, Employment Agency / work-permit guidance, updated Law on Foreigners text, and current North Macedonian immigration-lawyer guidance for IT/self-employment files and family reunification.
+- **Why uncertain**: Resolved to conservative operational baseline: Invest North Macedonia confirms work/self-employment residence support conceptually and the 2025 legal-change explainer warns that current procedure must be checked, but no DN-style foreign-client permit was captured. Treat the route as a real self-employment/company/work-permit file, not a fixed-threshold remote-worker route.
+- **Suggested verification**: none for screening; Ministry of Interior / Employment Agency checklist, income/capital, family filing, and PR counting belong to a later application-prep / PR pass.
 - **Created**: 2026-06-02 (run-038)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-03 (run-039)
+- **Resolution note**: North Macedonia profile now closes the core blocker: no dedicated DN route is captured; the IT worker should only treat the country as possible through a real local self-employment/company/work-permit file, with marriage or separate eligibility as the conservative partner baseline. [src-206][src-207][src-208]

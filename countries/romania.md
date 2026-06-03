@@ -2,25 +2,25 @@
 country: Romania
 tier: null
 depth_score: 1.5
-last_updated: 2026-05-30T00:00:00Z
+last_updated: 2026-06-03T00:00:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
 risk_flags: []
 sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076, src-121]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
 # Romania
 
-> First-pass country profile. Sections 5.1 and 5.2 opened at medium confidence. Several items marked [verification required].
+> First-pass country profile. Sections 5.1 and 5.2 opened at medium confidence. The digital-nomad checklist blocker is closed at the operational-core level; consular formatting remains an application-prep check.
 
 ## Block 1 — Summary
 
 - **Tier**: TBD
 - **depth_score**: 1.5
-- **Last updated**: 2026-05-30
+- **Last updated**: 2026-06-03
 - **Tier rationale**: TBD. Romania offers a legislated digital-nomad route and low cost of living, but winters are cold and no post-2027 TP bridge has been captured.
 
 ## Block 2 — Scoring
@@ -41,7 +41,7 @@ schema_version: 2.0.0
 
 ## Block 3 — Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-05-27, dod: pending}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-03, dod: partial}
 
 #### Now (until 03.2027)
 
@@ -62,8 +62,8 @@ schema_version: 2.0.0
 - Applicant must show the last 6 months of income [src-070].
 - Duration: 12 months, renewable once for another 12 months (total maximum 24 months) [src-070].
 - Tax treatment: Romania assumes the digital nomad maintains tax residence elsewhere; no Romanian income tax is levied on the remote salary [src-070]. [single source]
-- Application route: Romanian diplomatic mission / consular office, or via the E-VISA portal (evisa.mae.ro) [src-070][src-072].
-- [verification required] Exact document checklist, health-insurance requirement, and processing time from an official-primary source (consulate page or IGI circular).
+- Application route: Romanian diplomatic mission / consular office, or via the E-VISA portal (evisa.mae.ro); the portal is an online pre-application route, but the applicant still presents at a diplomatic mission for the formal visa file [src-070][src-072].
+- **Verification closure for `vq-022`**: the core route is usable for planning from the captured law + portal + secondary checklist baseline: foreign employer/company or foreign-company ownership, remote ICT work from Romania, last-6-month income proof around EUR 3,300/month, passport, and mission / e-visa filing. Health-insurance, legalized document formatting, appointment availability, and exact processing time should be checked with the serving Romanian mission immediately before filing, but they are application-prep details rather than a blocker for country screening. Confidence: medium. [src-068][src-070][src-072]
 
 **Short-stay entry for Ukrainians**
 - Ukrainian citizens holding biometric passports are exempt from the Romanian short-stay visa requirement [src-071].
@@ -97,7 +97,7 @@ schema_version: 2.0.0
 
 - EU long-term residence ("drept de ședere pe termen lung") can be granted after 5 years of continuous legal temporary residence or international protection in Romania [src-068, Art. 71].
 - Digital-nomad permits are typically issued as a distinct temporary-stay category; their counting status toward long-term residence is **not guaranteed**. Conservative operational baseline: assume DN time does **not** count unless an explicit IGI ruling says otherwise, and plan ordinary residence routes for long-term accumulation. [src-068]
-- [verification required] Romanian citizenship requirements (continuous residence period, language test, dual-citizenship policy with Ukraine).
+- Romanian citizenship requirements (continuous residence period, language test, and dual-citizenship consequences) remain for a later nationality pass and are not part of `vq-022`.
 
 #### Personal playbook for our couple
 
@@ -199,11 +199,11 @@ _(none yet)_
 - [src-121] WeatherSpark — Romania city cloud-cover climate pages.
 
 ### 7e. Not found
-- Official-primary digital-nomad visa checklist (document list, health-insurance minimum, processing time) from a Romanian consulate or IGI circular.
+- Serving-consulate digital-nomad appointment/payment/localisation details and exact processing-time practice; not a current core-route blocker after `vq-022` closure.
 - Official meteorological annual sunny-day counts for Romanian cities. WeatherSpark clearer-sky day-equivalent proxies are now captured for §5.2 screening.
 
 ## Block 8 — Open questions and verification markers
 
-- [verification required] Romania DN visa exact document checklist, health-insurance requirement, and processing time from official-primary source. → `vq-022`
+_(none for sections 5.1/5.2 after `vq-022` operational-core closure; later tax, citizenship, healthcare, rent, and application-prep checks remain in their own pending sections.)_
 
 

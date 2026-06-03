@@ -1,24 +1,26 @@
 {
   "version": 2,
-  "iteration": 38,
+  "iteration": 39,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-02T22:01:56Z",
+  "last_run_timestamp": "2026-06-03T04:07:07Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "North Macedonia",
+    "mode": "verification",
+    "country": null,
     "sections": [
-      "5.1",
-      "5.2"
+      "5.1"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": null,
-    "suggested_sections": null,
-    "reason": "Pending/open verification queue reached the active threshold of 10 after run-038; switch to verification mode."
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Bosnia and Herzegovina",
+    "suggested_sections": [
+      "5.1",
+      "5.2"
+    ],
+    "reason": "Pending/open verification queue is back below the active threshold; continue fresh depth-0 Tier-3-hint country rotation."
   },
   "countries": {
     "Spain": {
@@ -293,7 +295,7 @@
         "dn-income-above-current-budget",
         "no-captured-post-2027-tp-bridge"
       ],
-      "last_iteration": 23
+      "last_iteration": 39
     },
     "Bulgaria": {
       "tier": null,
@@ -569,7 +571,7 @@
         "no-dedicated-digital-nomad-visa",
         "ordinary-residence-route-needs-fit-check"
       ],
-      "last_iteration": 38
+      "last_iteration": 39
     },
     "Bosnia and Herzegovina": {
       "tier": null,
@@ -668,7 +670,7 @@
         "no-fixed-remote-income-threshold",
         "hot-humid-summers"
       ],
-      "last_iteration": 36
+      "last_iteration": 39
     },
     "Panama": {
       "tier": null,
@@ -697,7 +699,7 @@
         "panama-permanent-residence-route-needs-fit-check",
         "very-humid-rainy-season"
       ],
-      "last_iteration": 37
+      "last_iteration": 39
     },
     "Mexico": {
       "tier": null,
@@ -876,7 +878,7 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 10,
+  "verification_queue_size": 5,
   "sources_count": 211,
   "claims_count": 164,
   "proposals_pending": 0

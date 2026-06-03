@@ -2,13 +2,13 @@
 country: North Macedonia
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-02T22:01:56Z
+last_updated: 2026-06-03T00:00:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["official-ukraine-entry-table-gap", "no-dedicated-digital-nomad-visa", "ordinary-residence-route-needs-fit-check"]
 sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212"]
-unverified_count: 2
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence points to an ordinary-residence / work-or-self-employment file rather than a dedicated digital-nomad route. The country is promising as a low-cost Balkan base, but the post-2027 Ukrainian protection baseline and foreign-client IT residence fit still need primary-source verification.
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-02T22:01:56Z
+- **Last updated**: 2026-06-03T00:00:00Z
 - **Tier rationale**: Not assigned yet; legalization remains partial.
 
 ## Block 2 — Scoring
@@ -39,9 +39,9 @@ schema_version: 2.0.0
 
 ## Block 3 — Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-02, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-03, dod: partial}
 
-> **DoD status**: partial. Entry, residence categories, temporary-residence / self-employment availability, and climate-independent long-stay planning have been opened. The exact Ukrainian entry table, current Ukraine temporary-protection extension / rights, foreign-client IT self-employment checklist, partner mechanics, and PR/citizenship counting need follow-up.
+> **DoD status**: partial. Entry, residence categories, temporary-residence / self-employment availability, and climate-independent long-stay planning have been opened. The exact Ukrainian entry table and current Ukraine temporary-protection extension / rights remain open (`vq-064`). `vq-065` is closed to a conservative operational baseline: no dedicated DN route is captured, and the IT worker should only treat North Macedonia as possible through a real self-employment/company/work-permit file.
 
 #### Now (until 03.2027)
 
@@ -58,7 +58,7 @@ No North Macedonia-specific bridge from Ukrainian temporary protection into ordi
 
 #### Residence without local employer
 
-North Macedonia does not have a clearly captured official digital-nomad visa in this pass. The practical candidate is ordinary temporary residence for work/self-employment or a company/management file. Invest North Macedonia confirms self-employment can be a purpose for residence/work-permit support [src-207], but this does **not** yet prove that a Ukrainian foreign-client IT contractor on about USD 3,000/month can qualify without local clients, local employment, investment, or a Macedonian company. This gap is tracked as `vq-065`.
+North Macedonia does not have a clearly captured official digital-nomad visa. Verification closure for `vq-065`: the practical candidate is ordinary temporary residence for work/self-employment or a company/management file. Invest North Macedonia confirms self-employment can be a purpose for residence/work-permit support [src-207], and the 2025 law-change alert means a current Ministry of Interior / employment-permit checklist must be checked before filing [src-208]. For screening, assume a Ukrainian foreign-client IT contractor on about USD 3,000/month must build a real local self-employment/company/work-permit file; do **not** treat foreign-client remote work alone as sufficient, and do **not** assume a fixed-income DN substitute.
 
 #### PR and citizenship
 
@@ -69,7 +69,7 @@ Not completed. A law-text / Ministry of Interior pass is needed for permanent re
 1. **Do not assume a DN route exists**: North Macedonia should be treated as an ordinary-residence jurisdiction, not a fixed-threshold digital-nomad destination.
 2. **Use short entry only as scouting**: the Polish residence card may allow 15-day-per-entry visits under the MFA rule, but it is not a residence solution [src-205]. Verify Ukrainian passport visa-free duration before relying on a longer scouting stay.
 3. **Main route to test**: prepare a self-employment / small-company file around the IT partner, with local counsel checking Ministry of Interior and employment-permit requirements after the 2025 amendments [src-207][src-208].
-4. **Partner baseline**: until family mechanics are verified, assume marriage or independent eligibility is safer than unmarried-partner dependency.
+4. **Partner baseline**: assume marriage or independent eligibility is safer than unmarried-partner dependency; no captured source supports unmarried-partner sponsorship for the candidate self-employment/company file.
 5. **Before March 2027**: if Ukrainian temporary protection is available, treat it as backup only; secure ordinary residence before any protection horizon because no captured conversion bridge exists.
 
 ### 5.2. Climate {status: deep, depth: 2, last_updated: 2026-06-02, dod: passed}
@@ -215,10 +215,9 @@ _(none yet)_
 ### 7e. Not found
 - Official North Macedonia country-specific Ukraine visa table was not cleanly captured.
 - Current 2026 government temporary-protection extension / rights page for Ukrainians was not captured.
-- Official Ministry of Interior self-employment / foreign-client IT checklist was not captured.
+- Detailed Ministry of Interior / Employment Agency self-employment checklist, income/capital sufficiency, and family filing remain application-prep items; the screening baseline is a real local self-employment/company file, not a DN-style foreign-client permit.
 - Official PR/citizenship counting rules were not extracted.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-064` — North Macedonia Ukrainian entry / temporary-protection current status and any post-2027 bridge.
-- `vq-065` — North Macedonia self-employment / foreign-client IT route, income sufficiency, partner mechanics, and PR counting.

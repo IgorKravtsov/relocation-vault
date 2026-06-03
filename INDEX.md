@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-02
+last_updated: 2026-06-03
 ---
 
 # INDEX
@@ -19,7 +19,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Malta | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/malta.md` |
 | Czech Republic | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/czech-republic.md` |
 | Poland | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 13 | `countries/poland.md` |
-| Romania | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/romania.md` |
+| Romania | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 39 | `countries/romania.md` |
 | Bulgaria | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 23 | `countries/bulgaria.md` |
 | Hungary | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/hungary.md` |
 | Slovakia | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/slovakia.md` |
@@ -29,12 +29,12 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Turkey | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 30 | `countries/turkey.md` |
 | Georgia | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/georgia.md` |
 | Albania | balkans-east | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/albania.md` |
-| North Macedonia | balkans-east | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 38 | `countries/north-macedonia.md` |
+| North Macedonia | balkans-east | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 39 | `countries/north-macedonia.md` |
 | Bosnia and Herzegovina | balkans-east | 3 | — | 0 | — | — | — |
 | Moldova | balkans-east | 3 | — | 0 | — | — | — |
 | Uruguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/uruguay.md` |
-| Paraguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 36 | `countries/paraguay.md` |
-| Panama | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 37 | `countries/panama.md` |
+| Paraguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 39 | `countries/paraguay.md` |
+| Panama | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 39 | `countries/panama.md` |
 | Mexico | latin-america | 3 | — | 0 | — | — | — |
 | Argentina | latin-america | 3 | — | 0 | — | — | — |
 | UAE | middle-east-asia | 3 | — | 0 | — | — | — |

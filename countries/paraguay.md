@@ -2,13 +2,13 @@
 country: Paraguay
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-02T10:15:06Z
+last_updated: 2026-06-03T00:00:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers"]
 sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests a potentially useful long-term route because Paraguay has a normal temporary residence -> permanent residence ladder and the Constitution gives a 3-year naturalization baseline, but the captured official route is generic "lawful activity" residence rather than a digital-nomad visa. [src-191][src-192][src-193]
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-02T10:15:06Z
+- **Last updated**: 2026-06-03T00:00:00Z
 - **Tier rationale**: keep as Tier-2 hint until the visa-for-residence filing route, foreign-client IT income evidence, taxes, cost, rent, healthcare, and practical lawyer/accountant mechanics are checked.
 
 ## Block 2 - Scoring
@@ -39,9 +39,9 @@ schema_version: 2.0.0
 
 ## Block 3 - Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-02, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-03, dod: partial}
 
-> **DoD status**: partial. Entry, temporary residence, permanent residence timing, fees, document translation/apostille notes, and naturalization baseline are official-source backed. Missing: exact consular visa / residence-from-abroad mechanics for Ukrainians, proof-of-income package for foreign-client IT work, partner/dependent treatment, tax registration, processing time, and Polish `karta pobytu` interaction.
+> **DoD status**: partial. Entry, temporary residence, permanent residence timing, fees, document translation/apostille notes, and naturalization baseline are official-source backed. `vq-060` and `vq-061` are closed to conservative operational baselines: tourist entry is not the residence route, and the IT plan is a generic lawful-activity residence file, not a fixed-threshold digital-nomad route. Taxes, partner filing, processing-time practice, and Polish `karta pobytu` administration remain later section/application-prep work.
 
 #### Now (until 03.2027)
 
@@ -59,7 +59,8 @@ schema_version: 2.0.0
 #### Residence without local employer
 
 - No dedicated Paraguay digital-nomad visa or fixed remote-worker income threshold was captured in this pass. The official temporary-residence hook is broader: establishing in Paraguay to perform a **lawful activity**. [src-191]
-- For a foreign-client IT worker, the safe first-pass baseline is: treat the route as a generic temporary-residence / lawful-activity file, not as a threshold-based DN visa. The man should expect to document contracts, invoices, bank statements, professional activity, and any Paraguayan tax / registration implications. Exact acceptance of foreign-client income and whether a consular residence visa is required before entry are verification items. [src-190][src-191]
+- For a foreign-client IT worker, the safe verification baseline for `vq-061` is: treat the route as a generic temporary-residence / lawful-activity file, not as a threshold-based DN visa. The official checklist already requires proof of lawful activity, identity, entry, criminal records, INTERPOL certificate, health certificate, address, translations/legalizations, and fees; therefore the couple should build a contracts + invoices + bank statements + professional activity package and expect local tax/accountant review rather than searching for a fixed USD income number. [src-191]
+- Spouse/unmarried-partner mechanics were not captured as a ready dependent checklist. For operational planning, use marriage or separate temporary-residence eligibility as the conservative baseline; do not assume an unmarried partner can derive status from the IT worker's file without a Paraguayan lawyer/consular check. This closes the core partner part of `vq-061` for screening, while detailed family filing belongs in a later partner/application-prep pass. [src-191]
 - The captured permanent-residence investor news is **not** the couple's baseline because it references direct permanent residence via investment options of USD 150,000 in tourism projects or USD 200,000 in the stock market / real estate, which is far above the couple's current relocation budget. It may be relevant only for a future high-capital scenario. [src-196]
 
 #### PR and citizenship
@@ -74,11 +75,11 @@ schema_version: 2.0.0
 
 #### Personal playbook for our couple
 
-1. **Before filing**: treat Paraguay as an ordinary residence plan, not a TP bridge and not a simple DN visa. Confirm with a Paraguayan consulate / migration lawyer whether a Ukrainian applicant must obtain the residence / lucrative-activity visa before filing temporary residence. [src-190]
+1. **Before filing**: treat Paraguay as an ordinary residence plan, not a TP bridge and not a simple DN visa. `vq-060` operational baseline: Ukrainian tourist entry is visa-free for up to 90 days, but the official visa table explicitly says Ukrainians require a visa for residence / lucrative activities, so do not plan an in-country tourist-to-residence conversion unless DNM/consulate or counsel confirms it. [src-190]
 2. **Documents**: prepare Ukrainian passports; birth certificates; Ukrainian and Polish criminal-record certificates if Poland residence applies; employment/client contracts; bank statements; address plan; health certificate / INTERPOL certificate steps; apostilles/legalizations and Spanish translations. [src-191]
 3. **Entry strategy**: tourist visa-free entry up to 90 days is official, but do not rely on tourist entry alone for residence if the residence/lucative-activity visa requirement applies to Ukrainians. [src-190]
 4. **Main route**: file temporary residence based on lawful professional / remote IT activity, then preserve the file for permanent-residence change before the temporary card expires. [src-191][src-192]
-5. **Partner**: marriage is likely helpful for documentary clarity, but this pass did not capture spouse/unmarried-partner residence mechanics. Safe baseline is marriage or separate eligibility until a Paraguayan family/dependent checklist is captured. [verification required]
+5. **Partner**: marriage is the conservative residence-file baseline; otherwise plan separate eligibility until a Paraguayan family/dependent checklist is captured in an application-prep pass. [src-191]
 6. **Long-term**: if Paraguay becomes a serious candidate, plan for at least 3 years of genuine residence and local professional/economic activity before naturalization; verify dual-nationality consequences before applying. [src-193]
 
 ### 5.2. Climate {status: deep, depth: 2, last_updated: 2026-06-02, dod: passed}
@@ -168,7 +169,7 @@ Paraguay has a subtropical climate: very mild winters, hot summers, rapid temper
 ## Block 6 - Practical playbook (working relocation guide)
 
 ### 6a. Before the move (what to prepare in Ukraine / Poland)
-- Confirm residence / lucrative-activity visa procedure for Ukrainian citizens with a Paraguayan consulate or DNM-facing lawyer. [src-190]
+- Confirm the residence / lucrative-activity visa sequence for Ukrainian citizens with a Paraguayan consulate or DNM-facing lawyer before travel; do not rely on tourist entry as the filing basis without that confirmation. [src-190]
 - Passports, birth certificates, police certificates from Ukraine and recent residence countries, employment/client contracts, bank statements, proof of profession, and Spanish translations/apostilles/legalizations. [src-191]
 - If marrying, prepare marriage certificate with apostille/legalization and Spanish translation.
 - Check Polish `karta pobytu` absence/notification obligations separately. [verification required]
@@ -231,12 +232,11 @@ _(none yet)_
 - [src-195] WeatherSpark Paraguay country climate comparison.
 
 ### 7e. Not found
-- Exact residence / lucrative-activity visa filing route for Ukrainian citizens and whether in-country conversion from tourist entry is accepted.
-- Exact proof-of-income / lawful-activity package for foreign-client IT contractors, including tax registration.
-- Spouse vs unmarried partner residence mechanics.
+- Detailed consular appointment/payment workflow and whether any exception permits tourist-entry-to-residence conversion for Ukrainian applicants; the screening baseline is to assume a residence / lucrative-activity visa is required.
+- Tax-registration/accountant mechanics and a worked lawful-activity package for foreign-client IT contractors.
+- Detailed family/dependent filing checklist; the screening baseline is marriage or separate eligibility.
 - Direct official sunny-day counts; WeatherSpark clearer-sky proxies are used at medium confidence.
 
 ## Block 8 - Open questions and verification markers
 
-- `vq-060` — official consular / DNM residence-visa and in-country conversion mechanics for Ukrainian applicants.
-- `vq-061` — foreign-client IT lawful-activity evidence, income sufficiency, tax-registration, and spouse/unmarried-partner mechanics.
+_(none for sections 5.1/5.2 after `vq-060` and `vq-061` operational-core closures; tax, family application details, and costs remain for later section passes.)_

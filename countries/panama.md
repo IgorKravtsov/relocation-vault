@@ -2,13 +2,13 @@
 country: Panama
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-02T16:05:56Z
+last_updated: 2026-06-03T00:00:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["official-ukraine-entry-table-gap", "remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season"]
 sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203"]
-unverified_count: 2
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests Panama is useful as a short-to-medium-term remote-work base because the official remote-worker visa fits exactly USD 3,000/month foreign-source income, but it is a non-resident short-stay route and not a clean permanent-residence/citizenship ladder by itself. [src-199]
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-02T16:05:56Z
+- **Last updated**: 2026-06-03T00:00:00Z
 - **Tier rationale**: keep as Tier-2 hint only if a separate residence route can be made realistic. The likely long-term routes require a Panama employer/professional file, friendly-nations economic/professional activity, or investment/family facts not yet proven for this Ukrainian remote-IT couple. [src-198][src-200]
 
 ## Block 2 - Scoring
@@ -39,9 +39,9 @@ schema_version: 2.0.0
 
 ## Block 3 - Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-02, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-03, dod: partial}
 
-> **DoD status**: partial. Official sources capture general tourist requirements, remote-worker visa requirements, the migration-permits catalogue, and some permanent-residence categories. Missing: official Ukraine-specific entry/visa table, whether remote-worker status can be followed by an ordinary residence route from inside Panama, whether the friendly-nations/professional categories include Ukraine and fit foreign-client IT, detailed spouse/unmarried-partner mechanics, PR/citizenship timing, and Polish `karta pobytu` interaction.
+> **DoD status**: partial. Official sources capture general tourist requirements, remote-worker visa requirements, the migration-permits catalogue, and some permanent-residence categories. Missing: official Ukraine-specific entry/visa table, PR/citizenship timing, and Polish `karta pobytu` administration. `vq-063` is closed to the conservative operational baseline: the remote-worker visa is a 9+9 month non-resident bridge, and a separate ordinary residence route must be proven before relocation.
 
 #### Now (until 03.2027)
 
@@ -61,13 +61,13 @@ schema_version: 2.0.0
 #### Residence without local employer
 
 - **Best first-pass fit**: the remote-worker visa is the cleanest official route for foreign-client IT because it explicitly accepts foreign-source telework and self-employment, with no additional Panama work permit required. [src-199]
-- **Long-term gap**: the remote-worker route is short-stay / non-resident. The official friendly-countries category is a 2-year provisional residence route for nationals of specified countries maintaining friendly/professional/economic/investment ties with Panama, with work, real-estate, fixed-deposit, or other economic/professional hooks and B/.250 + B/.800 certified checks. But this pass did not verify Ukraine's inclusion or whether foreign-client remote IT qualifies without a Panama employer/company/investment. [src-200]
+- **Long-term baseline (`vq-063` closure)**: the remote-worker route is short-stay / non-resident. The official friendly-countries category is a 2-year provisional residence route for nationals of specified countries maintaining friendly/professional/economic/investment ties with Panama, with work, real-estate, fixed-deposit, or other economic/professional hooks and B/.250 + B/.800 certified checks. Because Ukraine inclusion and pure foreign-client IT fit are not proven in the captured official checklist, the safe planning answer is **do not treat friendly-countries residence as available** until a lawyer verifies the country list and economic/professional hook. [src-200]
 - **Foreign professional route**: the official foreign-professional checklist applies to professionals whose profession is not reserved to Panamanian nationals, requires an apostilled/authenticated diploma and homologation if foreign, and has B/.250 Treasury + B/.800 Migration certified checks. This may be relevant for an IT specialist only if diploma/homologation and professional eligibility work; it is not yet proven as a practical remote-freelancer route. [src-198]
 
 #### PR and citizenship
 
 - The permits catalogue contains permanent-residence routes, but no general remote-worker-to-PR rule was captured. The friendly-countries PDF describes a provisional residence permit for **2 years** and then a permanent-residence stage where previous requirements are repeated except criminal-record certificate and check. [src-200]
-- The foreign-professional PDF similarly has provisional and permanent versions, but this pass did not capture the residence clock, renewal mechanics, citizenship/naturalization timing, absence rules, or dual-nationality consequences. [src-198]
+- The foreign-professional PDF similarly has provisional and permanent versions. For `vq-063`, this is only a candidate follow-on route if the man's profession is not reserved, his diploma/professional evidence can be accepted/homologated, and Panama counsel confirms it fits foreign-client IT without local employment. Residence clock, renewal mechanics, citizenship/naturalization timing, absence rules, and dual-nationality consequences remain for a later PR/nationality pass. [src-198]
 
 #### Polish karta pobytu interaction
 
@@ -78,8 +78,8 @@ schema_version: 2.0.0
 1. **Do not rely on tourist entry alone**: first verify an official Panama country table for Ukrainian citizens and the maximum visa-free stay / extension mechanics. [src-197][src-201]
 2. **Bridge route**: if Panama is used as a post-EU-TP fallback, prepare a remote-worker visa file: foreign-client contracts, invoices, bank statements, proof of at least B/.36,000/year foreign-source income, health insurance covering Panama, police certificate, health certificate, notarized power/application, and no-local-work sworn declaration. [src-199]
 3. **Income risk**: B/.3,000/month is exactly the stated floor. Build a buffer above USD 3,000/month or have extra bank evidence before treating the route as safe. [src-199]
-4. **Long-term route**: before moving, get a Panama immigration lawyer to test whether Ukrainian nationality can use friendly-countries residence, foreign-professional residence, or another ordinary route after/alongside remote-worker status. [src-198][src-200]
-5. **Partner**: spouse/dependent treatment for the remote-worker visa was not captured. Friendly-countries dependent language uses marriage certificate / children / guardianship evidence and solvency proof, so marriage is the conservative relationship baseline until a route-specific dependent checklist is confirmed. [src-200]
+4. **Long-term route**: before moving, get a Panama immigration lawyer to test whether Ukrainian nationality can use friendly-countries residence, foreign-professional residence, or another ordinary route after/alongside remote-worker status. Until then, score Panama as remote-worker bridge + unproven PR route. [src-198][src-200]
+5. **Partner**: the remote-worker checklist does not establish an unmarried-partner dependent route. Friendly-countries dependent language uses marriage certificate / children / guardianship evidence and solvency proof, so marriage is the conservative relationship baseline for `vq-063` screening. [src-199][src-200]
 
 ### 5.2. Climate {status: deep, depth: 2, last_updated: 2026-06-02, dod: passed}
 
@@ -226,10 +226,9 @@ _(none yet)_
 
 ### 7e. Not found
 - Official Panama / consular country table showing the current Ukraine-specific entry rule and exact visa-free duration.
-- Official rule saying whether remote-worker status can be converted into or followed by friendly-countries / professional / other ordinary residence from inside Panama.
-- Official dependent checklist for spouse or unmarried partner of a remote-worker visa holder.
+- Confirmed country list / lawyer opinion for whether Ukrainians can use friendly-countries residence and whether foreign-professional residence fits a foreign-client IT worker; the screening baseline is negative/unknown until proven.
+- Route-specific remote-worker dependent checklist; the screening baseline is marriage for any later ordinary dependent file and no confirmed unmarried-partner route.
 
 ## Block 8 - Open questions and verification markers
 
 - `vq-062` — official Panama entry / visa table for Ukrainian citizens and exact allowed stay / extension mechanics.
-- `vq-063` — Panama remote-worker follow-on route, friendly-countries/professional eligibility for Ukrainians, and spouse/unmarried-partner mechanics.

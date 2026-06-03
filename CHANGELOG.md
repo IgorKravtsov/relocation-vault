@@ -1,10 +1,17 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-02
+last_updated: 2026-06-03
 ---
 
 # CHANGELOG
+
+## 2026-06-03 — run-039
+- Mode: verification; resolved 5 pending items (`vq-022`, `vq-060`, `vq-061`, `vq-063`, `vq-065`) to conservative operational baselines.
+- Romania DN core route, Paraguay residence/lawful-activity file, Panama remote-worker follow-on baseline, and North Macedonia self-employment baseline updated.
+- Sources added: none.
+- Verification queue: 10 → 5 pending/open items.
+- Next: country-deep-dive rotation can resume; prioritize fresh depth-0 Bosnia and Herzegovina sections 5.1/5.2 unless accepted proposals appear.
 
 ## 2026-06-02 — run-038
 - North Macedonia: created profile and claims; depth_score 0 → 1.5 (5.2 completed; 5.1 partial)
