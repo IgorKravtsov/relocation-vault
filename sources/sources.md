@@ -2716,3 +2716,87 @@ Each source entry:
 - **Facts supporting**: family-reunification provisional-stay document list for reunification with a Moldovan citizen, including marriage certificate, housing evidence, criminal record, health insurance, application timing, and in-person presence baseline; used as a caveat that foreign digital-nomad dependent mechanics were not captured
 - **Confidence ceiling**: high
 - **Stale at**: 2026-12-03
+
+## src-226
+- **Title**: Mexico INM — Countries and regions that require a visa to travel to Mexico
+- **URL**: https://www.inm.gob.mx/gobmx/word/index.php/paises-requieren-visa-para-mexico/
+- **Archive**: stable gov domain via text mirror; country list image not OCR-readable in this pass
+- **Type**: official-primary
+- **Date published**: unknown; page image path indicates 2024-03
+- **Date accessed**: 2026-06-03
+- **Used by**: Mexico
+- **Facts supporting**: Mexican visa-required framework; 180-day visitor cap; alternatives to Mexican visa via permanent residence in Canada/US/Japan/UK/Schengen/Pacific Alliance or valid visa from Canada/US/Japan/UK/Schengen; Polish residence-card caveat (claim-mexico-001)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-03
+
+## src-227
+- **Title**: Mexico gob.mx / INM migration procedures — canje, renewal, and permanent residence after four years of temporary residence
+- **URL**: https://www.gob.mx/tramites/ficha/expedicion-de-documento-migratorio-por-canje/INM811; https://www.gob.mx/tramites/ficha/expedicion-de-documento-migratorio-por-renovacion/INM823; https://www.gob.mx/tramites/ficha/cambio-a-residente-permanente-por-contar-con-cuatro-anos-de-residencia-temporal/INM824
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Mexico
+- **Facts supporting**: resident-visa exchange into Mexican migration document, renewal route, and change to permanent resident after four years of temporary residence (claim-mexico-003)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-03
+
+## src-228
+- **Title**: Mexico SRE — Carta de naturalizacion por residencia procedure
+- **URL**: https://www.gob.mx/tramites/ficha/carta-de-naturalizacion-por-residencia/SRE256
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Mexico
+- **Facts supporting**: SRE naturalization-by-residence procedure baseline; exact residence period / exams / absence limits queued for legal follow-up (claim-mexico-004)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-03
+
+## src-229
+- **Title**: Mexperience — Financial Criteria for Legal Residency in Mexico 2026
+- **URL**: https://www.mexperience.com/financial-criteria-for-residency-in-mexico/
+- **Archive**: [archive: failed 2026-06-03; text mirror used for extraction]
+- **Type**: reputable-secondary
+- **Date published**: 2026-05-29
+- **Date accessed**: 2026-06-03
+- **Used by**: Mexico
+- **Facts supporting**: 2026 temporary-residence economic-solvency benchmark of about USD 4,400/month net income for last 6 months, consulate variation, and savings/investment alternative context (claim-mexico-002)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-03
+
+## src-230
+- **Title**: Climate to Travel — Mexico City climate: seasons, when to go, monthly averages
+- **URL**: https://www.climatestotravel.com/climate/mexico/mexico-city
+- **Archive**: [archive: failed 2026-06-03; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Mexico
+- **Facts supporting**: Mexico City highland subtropical climate, mild days, cool/cold winter nights, rainy-season comfort caveats, and temperature context
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-231
+- **Title**: Climate to Travel — Mexico climate, Cancun climate, and Puerto Vallarta climate
+- **URL**: https://www.climatestotravel.com/climate/mexico; https://www.climatestotravel.com/climate/mexico/cancun; https://www.climatestotravel.com/climate/mexico/puerto-vallarta
+- **Archive**: [archive: failed 2026-06-03; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Mexico
+- **Facts supporting**: Mexico regional climate split, Caribbean / Pacific coastal warmth, rainy-season and hurricane / tropical-storm caveats, and warm-region comfort notes
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-232
+- **Title**: WeatherSpark — Mexico country climate comparison (Mexico City, Cancun, Puerto Vallarta)
+- **URL**: https://weatherspark.com/countries/MX
+- **Archive**: [archive: failed 2026-06-03; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Mexico
+- **Facts supporting**: Mexico City / Cancun / Puerto Vallarta monthly average high/low temperatures, muggy-day burden, precipitation days, clearer-sky percentages, and annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-mexico-005, claim-mexico-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

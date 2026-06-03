@@ -1,27 +1,24 @@
 {
   "version": 2,
-  "iteration": 41,
+  "iteration": 42,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-03T16:11:26Z",
+  "last_run_timestamp": "2026-06-03T22:01:59Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Moldova",
+    "country": "Mexico",
     "sections": [
       "5.1",
       "5.2"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "country-deep-dive",
-    "suggested_country": "Mexico",
-    "suggested_sections": [
-      "5.1",
-      "5.2"
-    ],
-    "reason": "Pending/open verification queue remains below the active threshold; continue fresh depth-0 Tier-3-hint country rotation."
+    "suggested_mode": "verification",
+    "suggested_country": null,
+    "suggested_sections": null,
+    "reason": "Pending/open verification queue is 11, at or above the active threshold; run a verification batch next."
   },
   "countries": {
     "Spain": {
@@ -719,12 +716,14 @@
     "Mexico": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 0,
-      "sections_completed": [],
-      "sections_partial": [],
+      "depth_score": 1.5,
+      "sections_completed": [
+        "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
+      ],
       "sections_pending": [
-        "5.1",
-        "5.2",
         "5.3",
         "5.4",
         "5.5",
@@ -735,8 +734,13 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "ukrainian-entry-visa-likely-required",
+        "temporary-residence-income-above-current-budget",
+        "no-dedicated-digital-nomad-visa",
+        "coastal-heat-humidity"
+      ],
+      "last_iteration": 42
     },
     "Argentina": {
       "tier": null,
@@ -893,8 +897,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 9,
-  "sources_count": 224,
-  "claims_count": 176,
-  "proposals_pending": 0
+  "verification_queue_size": 11,
+  "sources_count": 231,
+  "claims_count": 182,
+  "proposals_pending": 1
 }

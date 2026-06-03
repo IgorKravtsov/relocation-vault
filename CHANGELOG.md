@@ -6,6 +6,14 @@ last_updated: 2026-06-03
 
 # CHANGELOG
 
+## 2026-06-03 — run-042
+- Mexico: created profile and claims; depth_score 0 → 1.5 (5.2 completed; 5.1 partial).
+- Legalization first pass captured Mexico's visa-required / visa-alternative framework, ordinary temporary-residence route, residence-card exchange, permanent-residence change after four years, and naturalization-by-residence procedure baseline.
+- Climate pass completed Mexico City, Cancun, and Puerto Vallarta with temperature baselines, highland-vs-coast comfort split, muggy-day caveats, and WeatherSpark clearer-sky day-equivalent proxies.
+- Sources added: src-226, src-227, src-228, src-229, src-230, src-231, src-232.
+- Claims added: claim-mexico-001 through claim-mexico-006.
+- Verification queue: 9 → 11 (added vq-070, vq-071); next mode should be verification because the queue is at or above the active threshold.
+
 ## 2026-06-03 — run-041
 - Moldova: created profile and claims; depth_score 0 → 1.5 (5.2 completed; 5.1 partial).
 - Legalization first pass captured temporary protection through 01 March 2027, provisional-stay categories, the official digital-nomad document list / income formula, and permanent-stay baselines with PR-counting caveats.

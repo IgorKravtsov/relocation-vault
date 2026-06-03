@@ -841,3 +841,23 @@ _(none)_
 - **Suggested verification**: Find the official 2026 forecast average salary figure, GIM DN duration/renewal/dependent FAQ or law text, and legal/official guidance on whether digital-nomad or IT-specialist residence counts toward the 5-year permanent-stay route.
 - **Created**: 2026-06-03 (run-041)
 - **Status**: pending
+
+## vq-070 [high priority]
+- **Fact**: "Mexico exact Ukrainian-passport entry rule, Mexican-visa alternatives, and whether a Polish temporary or permanent `karta pobytu` changes visitor entry or residence planning"
+- **Country**: Mexico
+- **Section**: 5.1
+- **Current source**: src-226
+- **Why uncertain**: INM's captured page gives the visa-required framework and alternatives but exposes the country list as an image that was not OCR-readable in this pass. It clearly names permanent Schengen residence and Schengen visas as alternatives, but not temporary Polish residence cards.
+- **Suggested verification**: Capture a readable INM / Mexican embassy country table for Ukraine, test the Mexican visa-checker if available, and verify whether Polish temporary residence is accepted or only permanent residence / visas qualify.
+- **Created**: 2026-06-03 (run-042)
+- **Status**: pending
+
+## vq-071 [high priority]
+- **Fact**: "Mexico temporary-resident economic-solvency threshold for the couple, foreign-client remote-work fit, spouse/unmarried-partner dependent mechanics, PR counting, and naturalization details"
+- **Country**: Mexico
+- **Section**: 5.1
+- **Current source**: src-227, src-228, src-229
+- **Why uncertain**: The first pass has a secondary 2026 threshold estimate (~USD 4,400/month net for temporary residence) and official procedure pages for residence-card exchange / permanent-residence change, but no serving-consulate official checklist, no dependent uplift, no remote-work tax/work-compliance answer, and no fully extracted naturalization conditions.
+- **Suggested verification**: Check the Mexican consulate serving Ukraine/Poland or current residence for temporary-resident visa criteria, spouse/dependent filing and income uplift; verify INM family-unity rules, SAT/RFC tax treatment for foreign-client IT work, PR counting after four years, and SRE naturalization requirements / dual-citizenship consequences.
+- **Created**: 2026-06-03 (run-042)
+- **Status**: pending

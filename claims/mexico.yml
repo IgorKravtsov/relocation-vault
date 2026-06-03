@@ -1,0 +1,53 @@
+- id: claim-mexico-001
+  topic: visitor_visa_alternative_documents
+  value: "INM states that alternatives to a Mexican visitor visa include proof of permanent residence in Canada, the United States, Japan, the United Kingdom, Schengen countries, or Pacific Alliance countries, or a valid visa from Canada, the United States, Japan, the United Kingdom, or Schengen."
+  source: src-226
+  date_verified: 2026-06-03
+  confidence: high
+  tags: [entry, visa-alternative, schengen, ukrainians]
+  notes: "The Ukraine-specific country list is exposed as an image in the captured page, so exact Ukrainian passport placement remains a verification item."
+
+- id: claim-mexico-002
+  topic: temporary_residence_income_threshold_2026
+  value: "Current 2026 secondary guidance estimates Mexico temporary residence by income at about USD 4,400/month net income for the last 6 months, with consulate variation and some posts requesting 12 months."
+  source: src-229
+  date_verified: 2026-06-03
+  confidence: medium
+  tags: [temporary-residence, economic-solvency, income-threshold]
+  notes: "This is above the couple's current USD 3000/month and must be confirmed with the serving Mexican consulate."
+
+- id: claim-mexico-003
+  topic: temporary_to_permanent_residence_ladder
+  value: "Mexico has a federal procedure for changing to permanent resident after four years of temporary residence."
+  source: src-227
+  date_verified: 2026-06-03
+  confidence: medium-high
+  tags: [permanent-residence, temporary-residence, four-years]
+  notes: "Procedure page captured by title / route; later round should extract exact checklist and fees."
+
+- id: claim-mexico-004
+  topic: naturalization_by_residence_baseline
+  value: "Mexican naturalization by residence is handled through SRE's carta de naturalizacion by residence procedure."
+  source: src-228
+  date_verified: 2026-06-03
+  confidence: medium
+  tags: [citizenship, naturalization, residence]
+  notes: "Exact ordinary five-year / reduced-term applicability, exams, absences, and dual-citizenship consequences need legal verification before scoring."
+
+- id: claim-mexico-005
+  topic: climate_clearer_sky_day_equivalents
+  value: "WeatherSpark monthly clearer-sky percentages convert to approximately 150 clearer-sky day-equivalents for Mexico City, 184 for Cancun, and 152 for Puerto Vallarta."
+  source: src-232
+  date_verified: 2026-06-03
+  confidence: medium
+  tags: [climate, clear-sky, proxy, mexico-city, cancun, puerto-vallarta]
+  notes: "Computed from WeatherSpark monthly percentages using month lengths; these are broader clearer-sky proxies, not official sunny-day counts."
+
+- id: claim-mexico-006
+  topic: climate_temperature_baseline
+  value: "Representative January/July average high-low pairs are Mexico City 21.7/6.7 C and 23.3/13.3 C, Cancun 27.2/19.4 C and 32.2/25.0 C, and Puerto Vallarta 27.2/16.7 C and 32.2/24.4 C."
+  source: src-232
+  date_verified: 2026-06-03
+  confidence: medium
+  tags: [climate, temperature, mexico-city, cancun, puerto-vallarta]
+  notes: "Converted from WeatherSpark Fahrenheit country-comparison tables during run-042."
