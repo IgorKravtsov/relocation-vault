@@ -2460,8 +2460,8 @@ Each source entry:
 - **Type**: aggregator
 - **Date published**: unknown
 - **Date accessed**: 2026-06-02
-- **Used by**: North Macedonia
-- **Facts supporting**: medium-confidence placeholder that North Macedonia is listed as visa-free for Ukrainian passport holders pending official North Macedonia country-table verification
+- **Used by**: North Macedonia; Bosnia and Herzegovina
+- **Facts supporting**: medium-confidence placeholder that North Macedonia and Bosnia and Herzegovina are listed as visa-free for Ukrainian passport holders pending official country-table verification
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-02
 
@@ -2560,3 +2560,75 @@ Each source entry:
 - **Facts supporting**: Bitola January/July temperature baseline, almost-zero muggy-day burden, monthly clearer-sky percentages, and annual clearer-sky day-equivalent proxy calculated from monthly percentages (claim-north-macedonia-005, claim-north-macedonia-006)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-213
+- **Title**: Bosnia and Herzegovina Service for Foreigners' Affairs — Entry of Aliens to B&H and FAQ
+- **URL**: https://sps.gov.ba/?page_id=2548&lang=en and https://sps.gov.ba/?page_id=2518&lang=en
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: entry framework, invitation-letter mechanics, visa-free stay FAQ, private-stay registration within 48 hours, and paid-work / work-permit baseline
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-03
+
+## src-214
+- **Title**: Bosnia and Herzegovina Service for Foreigners' Affairs — Stay of aliens in Bosnia and Herzegovina
+- **URL**: https://sps.gov.ba/?page_id=2491&lang=en
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: visa-free stay up to 90 days in six months, temporary residence filing inside / outside Bosnia and Herzegovina, one-year temporary residence baseline, residence registration, permanent residence after five uninterrupted years, absence tolerance, and permanent-residence conditions (claim-bosnia-herzegovina-002, claim-bosnia-herzegovina-003, claim-bosnia-herzegovina-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-03
+
+## src-215
+- **Title**: Bosnia and Herzegovina Service for Foreigners' Affairs — Required documents and residence checklist PDFs
+- **URL**: https://sps.gov.ba/?page_id=2527&lang=en; https://sps.gov.ba/dokumenti/dokumentacija/en/PB-4.1.pdf; https://sps.gov.ba/dokumenti/dokumentacija/en/PB-5.4.pdf; https://sps.gov.ba/dokumenti/dokumentacija/en/PB-6.pdf; https://sps.gov.ba/dokumenti/dokumentacija/en/PB-7.pdf; https://sps.gov.ba/dokumenti/dokumentacija/en/SB-1.pdf
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2018-09-10 for extracted PDFs; index date unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: temporary-residence document checklists for work permit, company founders, other justified reasons, real-estate ownership, and permanent residence; BAM 150 temporary-residence fee; BAM 200 permanent-residence fee; translation requirement; health-insurance / accommodation / criminal-record / medical-certificate evidence; company-founder employee and gross-salary burden (claim-bosnia-herzegovina-004, claim-bosnia-herzegovina-005)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-03
+
+## src-216
+- **Title**: Climate to Travel — Bosnia Herzegovina climate: temperature, rain, when to go
+- **URL**: https://www.climatestotravel.com/climate/bosnia-herzegovina
+- **Archive**: [archive: failed 2026-06-03; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Bosnia and Herzegovina climate zones, Mediterranean / transitional / continental split, cold inland winter waves, hot summer periods, and Sarajevo / Mostar / northern plain comfort context
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-217
+- **Title**: WeatherSpark — Bosnia and Herzegovina country climate comparison (Sarajevo, Tuzla, Mostar)
+- **URL**: https://weatherspark.com/countries/BA
+- **Archive**: [archive: failed 2026-06-03; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Sarajevo / Tuzla / Mostar monthly average high/low temperatures, muggy-day burden, and clearer-sky percentages; annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-bosnia-herzegovina-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-218
+- **Title**: UNHCR Help Bosnia and Herzegovina — asylum procedure and international protection overview
+- **URL**: https://help.unhcr.org/bosniaandherzegovina/
+- **Archive**: [archive: failed 2026-06-03; text mirror used for extraction]
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-03
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: ordinary asylum / international-protection baseline and absence of captured Ukraine-specific temporary-protection bridge in this pass
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-03

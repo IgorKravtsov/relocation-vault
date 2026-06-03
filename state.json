@@ -1,26 +1,27 @@
 {
   "version": 2,
-  "iteration": 39,
+  "iteration": 40,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-03T04:07:07Z",
+  "last_run_timestamp": "2026-06-03T10:08:32Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
+    "mode": "country-deep-dive",
+    "country": "Bosnia and Herzegovina",
     "sections": [
-      "5.1"
+      "5.1",
+      "5.2"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Bosnia and Herzegovina",
+    "suggested_country": "Moldova",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Pending/open verification queue is back below the active threshold; continue fresh depth-0 Tier-3-hint country rotation."
+    "reason": "Pending/open verification queue remains below the active threshold; continue fresh depth-0 Tier-3-hint country rotation."
   },
   "countries": {
     "Spain": {
@@ -576,12 +577,14 @@
     "Bosnia and Herzegovina": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 0,
-      "sections_completed": [],
-      "sections_partial": [],
+      "depth_score": 1.5,
+      "sections_completed": [
+        "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
+      ],
       "sections_pending": [
-        "5.1",
-        "5.2",
         "5.3",
         "5.4",
         "5.5",
@@ -592,8 +595,13 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "no-dedicated-digital-nomad-visa",
+        "company-founder-route-high-burden",
+        "ukraine-protection-status-gap",
+        "cold-inland-winters"
+      ],
+      "last_iteration": 40
     },
     "Moldova": {
       "tier": null,
@@ -878,8 +886,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 5,
-  "sources_count": 211,
-  "claims_count": 164,
+  "verification_queue_size": 7,
+  "sources_count": 217,
+  "claims_count": 170,
   "proposals_pending": 0
 }

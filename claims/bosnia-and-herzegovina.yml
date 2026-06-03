@@ -1,0 +1,57 @@
+- id: claim-bosnia-herzegovina-001
+  topic: ukraine_passport_short_entry_placeholder
+  value: "VisaGuide.World lists Bosnia and Herzegovina as visa-free for Ukrainian passport holders; official country-table verification is still required."
+  source: src-204
+  date_verified: 2026-06-03
+  confidence: medium
+  tags: [entry, ukrainian-citizens, visa-free, aggregator-placeholder]
+  notes: "Used only as a first-pass placeholder; see vq-066."
+
+- id: claim-bosnia-herzegovina-002
+  topic: visa_free_stay_duration
+  value: "Visa-free stay is up to 90 days over a six-month period unless an international treaty or Council of Ministers decision provides otherwise."
+  source: src-214
+  date_verified: 2026-06-03
+  confidence: high
+  tags: [entry, short-stay, ninety-days]
+  notes: "General Service for Foreigners' Affairs rule for visa-free nationals."
+
+- id: claim-bosnia-herzegovina-003
+  topic: temporary_residence_filing_and_duration
+  value: "First temporary residence is normally filed through a Bosnia and Herzegovina diplomatic-consular representation abroad, but may be filed in-country by a D-visa entrant or visa-free national; temporary residence is generally issued up to one year."
+  source: src-214
+  date_verified: 2026-06-03
+  confidence: high
+  tags: [temporary-residence, filing, d-visa]
+  notes: "Operational baseline for ordinary residence planning."
+
+- id: claim-bosnia-herzegovina-004
+  topic: company_founder_route_burden
+  value: "The company-founder work-without-work-permit checklist requires company registration, solvency and tax evidence, means, health insurance, and evidence that the company employs at least five BiH citizens per foreign founder with gross pay at least the BiH average gross salary."
+  source: src-215
+  date_verified: 2026-06-03
+  confidence: high
+  tags: [company-founder, self-employment, work-without-work-permit, high-burden]
+  notes: "This makes the route unsuitable as a lightweight DN substitute until lawyer / Service verification says otherwise."
+
+- id: claim-bosnia-herzegovina-005
+  topic: permanent_residence_baseline
+  value: "Permanent residence requires at least five years of uninterrupted temporary residence before application, sufficient regular funds, adequate accommodation, health insurance, language/script knowledge, and clean criminal-record evidence; absences can total up to 10 months or one absence up to six months."
+  source: src-214
+  date_verified: 2026-06-03
+  confidence: high
+  tags: [permanent-residence, five-years, residence-counting]
+  notes: "Document checklist also requires copies of temporary residence decisions/stickers for the last five years."
+
+- id: claim-bosnia-herzegovina-006
+  topic: climate_clearer_sky_proxy
+  value:
+    Sarajevo: 191
+    Tuzla: 189
+    Mostar: 205
+  unit: clearer-sky day-equivalent proxy/year
+  source: src-217
+  date_verified: 2026-06-03
+  confidence: medium
+  tags: [climate, clearer-sky-proxy, sunny-days]
+  notes: "Computed from WeatherSpark monthly percentages of clear / mostly clear / partly cloudy sky using month lengths; not official sunny-day counts."

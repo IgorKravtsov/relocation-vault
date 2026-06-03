@@ -801,3 +801,23 @@ _(none)_
 - **Status**: resolved
 - **Resolved**: 2026-06-03 (run-039)
 - **Resolution note**: North Macedonia profile now closes the core blocker: no dedicated DN route is captured; the IT worker should only treat the country as possible through a real local self-employment/company/work-permit file, with marriage or separate eligibility as the conservative partner baseline. [src-206][src-207][src-208]
+
+## vq-066 [high priority]
+- **Fact**: "Bosnia and Herzegovina current official entry rule for Ukrainian citizens, current Ukraine temporary-protection / humanitarian-protection status and rights, and any post-2027 bridge into ordinary residence"
+- **Country**: Bosnia and Herzegovina
+- **Section**: 5.1
+- **Current source**: src-204, src-214, src-218
+- **Why uncertain**: The Ukrainian passport entry baseline is from an aggregator, the Service for Foreigners' Affairs page captures general visa-free mechanics but not the Ukraine country table, and this pass found only ordinary UNHCR asylum / international-protection guidance rather than a current Ukraine-specific temporary-protection extension or transition rule.
+- **Suggested verification**: Capture the Bosnia and Herzegovina MFA / Decision on Visas country table for Ukraine, Service / Ministry of Security Ukraine-protection guidance, UNHCR Bosnia Ukraine updates, and any Official Gazette / Council of Ministers decision on Ukraine protection or transition.
+- **Created**: 2026-06-03 (run-040)
+- **Status**: pending
+
+## vq-067 [high priority]
+- **Fact**: "Bosnia and Herzegovina company-founder / self-employment / foreign-client IT residence fit, spouse or unmarried-partner dependent mechanics, PR counting, and citizenship / dual-citizenship consequences"
+- **Country**: Bosnia and Herzegovina
+- **Section**: 5.1
+- **Current source**: src-214, src-215
+- **Why uncertain**: The company-founder checklist is official but appears heavy, including five BiH employees per foreign founder; no DN-style or simple foreign-client IT route was captured. Family-reunification timing/scope, unmarried-partner treatment, exact PR counting for founder/work categories, and citizenship consequences were not researched in this pass.
+- **Suggested verification**: Check Law on Aliens Art. 52 / family reunification provisions, work-permit / self-employment rules, Service field-office checklist, Bosnia immigration-lawyer guidance, and Law on Citizenship / entity citizenship rules.
+- **Created**: 2026-06-03 (run-040)
+- **Status**: pending

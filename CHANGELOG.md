@@ -6,6 +6,14 @@ last_updated: 2026-06-03
 
 # CHANGELOG
 
+## 2026-06-03 — run-040
+- Bosnia and Herzegovina: created profile and claims; depth_score 0 → 1.5 (5.2 completed; 5.1 partial).
+- Legalization first pass captured 90/180 visa-free mechanics, temporary residence filing, work-permit / company-founder checklists, and permanent residence after five uninterrupted years; no DN route or Ukraine-specific bridge captured.
+- Climate pass completed Sarajevo, Tuzla, and Mostar with temperature baselines, low muggy-day burden, and WeatherSpark clearer-sky day-equivalent proxies.
+- Sources added: src-213, src-214, src-215, src-216, src-217, src-218 (reused src-204).
+- Claims added: claim-bosnia-herzegovina-001 through claim-bosnia-herzegovina-006.
+- Verification queue: 5 → 7 (added vq-066, vq-067); next can continue depth-0 rotation with Moldova.
+
 ## 2026-06-03 — run-039
 - Mode: verification; resolved 5 pending items (`vq-022`, `vq-060`, `vq-061`, `vq-063`, `vq-065`) to conservative operational baselines.
 - Romania DN core route, Paraguay residence/lawful-activity file, Panama remote-worker follow-on baseline, and North Macedonia self-employment baseline updated.
