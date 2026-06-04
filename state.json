@@ -1,24 +1,26 @@
 {
   "version": 2,
-  "iteration": 42,
+  "iteration": 43,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-03T22:01:59Z",
+  "last_run_timestamp": "2026-06-04T00:00:00Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Mexico",
+    "mode": "verification",
+    "country": null,
     "sections": [
-      "5.1",
-      "5.2"
+      "5.1"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": null,
-    "suggested_sections": null,
-    "reason": "Pending/open verification queue is 11, at or above the active threshold; run a verification batch next."
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Argentina",
+    "suggested_sections": [
+      "5.1",
+      "5.2"
+    ],
+    "reason": "Pending/open verification queue is below the active threshold after run-043; resume fresh country coverage with the next depth-0 Tier-3-hint country."
   },
   "countries": {
     "Spain": {
@@ -598,7 +600,7 @@
         "ukraine-protection-status-gap",
         "cold-inland-winters"
       ],
-      "last_iteration": 40
+      "last_iteration": 43
     },
     "Moldova": {
       "tier": null,
@@ -627,7 +629,7 @@
         "post-2027-tp-bridge-gap",
         "transnistria-practical-risk"
       ],
-      "last_iteration": 41
+      "last_iteration": 43
     },
     "Uruguay": {
       "tier": null,
@@ -740,7 +742,7 @@
         "no-dedicated-digital-nomad-visa",
         "coastal-heat-humidity"
       ],
-      "last_iteration": 42
+      "last_iteration": 43
     },
     "Argentina": {
       "tier": null,
@@ -897,8 +899,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 11,
+  "verification_queue_size": 6,
   "sources_count": 231,
   "claims_count": 182,
-  "proposals_pending": 1
+  "proposals_pending": 0
 }

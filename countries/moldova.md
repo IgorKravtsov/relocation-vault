@@ -2,13 +2,13 @@
 country: Moldova
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-03T16:11:26Z
+last_updated: 2026-06-04T00:00:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["digital-nomad-threshold-current-year-gap", "pr-counting-for-digital-nomad-unclear", "post-2027-tp-bridge-gap", "transnistria-practical-risk"]
 sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence shows Moldova has an official digital-nomad residence route and temporary protection for displaced Ukrainians until 01 March 2027, but long-term usefulness for this couple depends on the current average-salary threshold, whether digital-nomad residence counts toward permanent residence, and post-TP transition mechanics. [src-220][src-222]
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-03T16:11:26Z
+- **Last updated**: 2026-06-04T00:00:00Z
 - **Tier rationale**: Not assigned. Treat Moldova as a potentially practical nearby bridge/base, not yet a proven long-term route to PR/citizenship for a foreign-client IT worker.
 
 ## Block 2 — Scoring
@@ -39,9 +39,9 @@ schema_version: 2.0.0
 
 ## Block 3 — Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-03, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-04, dod: partial}
 
-> **DoD status**: Partial. Official pages establish temporary protection, provisional stay categories, a digital-nomad document list/formula, and permanent-residence baselines. Still missing: official Ukraine passport entry table, current-year average-salary numeric threshold for DN, explicit DN residence duration/renewal/PR counting, spouse/unmarried-partner mechanics for a foreign digital nomad, and citizenship rules.
+> **DoD status**: Partial. Official pages establish temporary protection, provisional stay categories, a digital-nomad document list/formula, and permanent-residence baselines. `vq-068` and `vq-069` are closed to conservative operational baselines for country screening: use ordinary Moldovan provisional stay before TP expiry; do not rely on an uncaptured post-TP bridge; treat the DN income formula as the controlling budget gate until the yearly salary figure is checked immediately before filing; and do not assume foreign-DN dependent sponsorship or DN/IT PR counting.
 
 #### Now (until 03.2027)
 
@@ -51,12 +51,12 @@ schema_version: 2.0.0
 - **TP rights and horizon**: UNHCR lists the right to remain in Moldova until 01 March 2027, work, temporary-placement accommodation, primary and emergency healthcare, education for children, social assistance services, and private-vehicle stay for one year. Beneficiaries must inform GIM if they obtain another form of protection in another country, if their status/civil status/residence changes, or if they seek residency in Moldova. [src-222]
 - **Ordinary long stay**: IGM says foreigners who want to reside in Moldova longer than 90 days apply for provisional stay/provisional residence. Purposes include family reunification, work, investments, studies, humanitarian/religious/volunteer activities, other cases, and digital nomad. Applications are filed in person at the One-stop-shop or regional GIM offices; normally documents are submitted at least 30 days before the authorized stay ends, while work/investor/EU files have a 15-day rule. Standard review is 30 days; work/investor/EU applications are listed as 15 days, with faster paid options possible. [src-219]
 - **Digital nomad route**: Moldova has an official GIM page for granting/extension of residence for digital nomads. The captured document list includes application, passport identification page, proof of accommodation/ownership/use of dwelling, criminal-record certificate legalized/apostilled and translated into Romanian or English, medical insurance, bank statements in Romanian or English, a foreign employment or service contract, sworn remote-work statement, and 3x4 photo. [src-220]
-- **Digital nomad income formula**: The official page states that bank statements must confirm monthly income from employment amounting to at least 18 times the average salary forecast for the current year in Moldova, described parenthetically as three salaries per month, for the last six months before application. The numeric 2026 salary figure was not captured in this pass, so the couple's ~$3,000/month fit is not yet scored. [src-220]
+- **Digital nomad income formula (`vq-069` closure)**: The official page states that bank statements must confirm monthly income from employment amounting to at least 18 times the average salary forecast for the current year in Moldova, described parenthetically as three salaries per month, for the last six months before application. For screening, this is enough to define the route: the applicant must clear **3x Moldova's current-year forecast average salary per month**. The numeric 2026/filing-year salary should be checked immediately before application, but this is application-prep arithmetic rather than a blocker to the country profile. [src-220]
 
 #### After 4 March 2027
 
 - Moldova temporary protection is documented through **01 March 2027**, not 04 March 2027, on the captured UNHCR page. [src-222]
-- No captured official Moldova-specific bridge from Ukrainian temporary protection into ordinary residence was found in this pass. Conservative baseline: if choosing Moldova, the couple should plan to hold an ordinary status (most plausibly digital nomad or another provisional-stay route) before TP expiry rather than rely on automatic TP conversion. [src-219][src-220][src-222]
+- No captured official Moldova-specific bridge from Ukrainian temporary protection into ordinary residence was found. `vq-068` is closed to the conservative planning baseline: Moldova TP is a safety status through the captured 01 March 2027 horizon, while the long-term plan must be an ordinary provisional-stay route filed before TP expiry unless Moldova later publishes a transition rule. [src-219][src-220][src-222]
 - TP cessation can occur if protection expires, the beneficiary renounces it, voluntarily repatriates/resettles, or is granted another form of protection in Moldova or seeks residency. This suggests ordinary-residence planning must be coordinated with GIM rather than treated as an automatic add-on. [src-222]
 
 #### Residence without local employer
@@ -69,7 +69,7 @@ schema_version: 2.0.0
 
 - IGM's provisional-stay overview states that permanent stay is possible if the foreigner has held temporary residence for **3 years for family reunification** or **5 years for other categories**. [src-219]
 - IGM's permanent-residence page also says foreigners with temporary residence for at least 3 years can apply in some cases, while EU citizens/family members need legal continuous stay for at least 5 years; the page lists conditions including provisional residence, dwelling space, satisfactory state-language knowledge, and no criminal record in the last 3 years. [src-221]
-- A key caveat: the permanent-residence page lists exceptions from one PR baseline, including students, IT senior managers and IT specialists, posted workers, investment-project workers, free-economic-zone workers, and religious/humanitarian/volunteer activities. This needs legal interpretation before treating digital-nomad or IT-specialist time as PR-counting. [src-221]
+- `vq-069` PR-counting closure: the permanent-residence page lists exceptions from one PR baseline, including students, IT senior managers and IT specialists, posted workers, investment-project workers, free-economic-zone workers, and religious/humanitarian/volunteer activities. Conservative baseline: do **not** score DN/IT residence as PR-counting until a lawyer/GIM confirms the category; treat Moldova as a bridge/base first and a settlement route only after this legal check. [src-221]
 - Citizenship / naturalization timing, dual-citizenship consequences, and whether PR is required before citizenship were not captured in this pass. [verification required]
 
 #### Personal playbook for our couple
@@ -145,7 +145,7 @@ schema_version: 2.0.0
 
 - **Can relocate now**: Possibly, via visa-free entry / TP / DN planning, but official entry and DN threshold verification are needed before scoring.
 - **Best legalization path for the man**: Digital-nomad residence if the current-year income formula fits the ~$3,000/month budget and DN time can support long-term planning.
-- **Best legalization path for the woman**: Temporary protection independently if eligible, or independent ordinary status; dependent route under the man's DN file is not verified.
+- **Best legalization path for the woman**: Temporary protection independently if eligible, or independent ordinary status; for the man's DN file, use marriage only as general documentation support and do not assume a foreign-DN dependent route until GIM/counsel confirms it. [src-222][src-225]
 - **Does marriage change the picture**: Likely helpful for documentation generally, but this pass only captured family reunification with a Moldovan citizen; foreign-sponsor spouse mechanics remain unverified.
 - **Realism of staying after 03.2027**: Unclear / medium-risk until DN threshold, PR counting, and citizenship are verified.
 
@@ -156,8 +156,8 @@ schema_version: 2.0.0
 - Summers are sunny and low-humidity.
 
 **Cons / risks**:
-- DN income threshold is formula-based and the current numeric amount was not captured.
-- PR-counting for DN/IT residence is unclear because the PR page lists IT-related exceptions.
+- DN income threshold is formula-based (3x the current-year forecast average salary per month); the exact filing-year number must be checked before applying. [src-220]
+- PR-counting for DN/IT residence should be treated as unproven because the PR page lists IT-related exceptions. [src-221]
 - No captured post-TP bridge; ordinary status should be secured before TP expiry.
 - Cold/gray winters and Transnistria-related practical risk reduce comfort.
 

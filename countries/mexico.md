@@ -2,13 +2,13 @@
 country: Mexico
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-03T22:01:59Z
+last_updated: 2026-06-04T00:00:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["ukrainian-entry-visa-likely-required", "temporary-residence-income-above-current-budget", "no-dedicated-digital-nomad-visa", "coastal-heat-humidity"]
 sources_used: ["src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests Mexico is a possible ordinary-residence fallback rather than a clean digital-nomad route: temporary residence can lead to permanent residence after four years, but 2026 economic-solvency thresholds appear above the couple's current ~$3,000/month income if they apply through the standard income route. [src-227][src-229]
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-03T22:01:59Z
+- **Last updated**: 2026-06-04T00:00:00Z
 - **Tier rationale**: keep as Tier-3 hint until the exact serving-consulate threshold, entry mechanics for Ukrainian passports, taxes, rent, healthcare, and partner sponsorship are checked.
 
 ## Block 2 - Scoring
@@ -39,15 +39,15 @@ schema_version: 2.0.0
 
 ## Block 3 - Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-03, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-04, dod: partial}
 
-> **DoD status**: partial. Entry / visa-alternative mechanics, the ordinary temporary-residence to permanent-residence ladder, and naturalization baseline are opened. Missing: exact Ukraine passport entry table from OCR/readable official list, serving-consulate temporary-resident checklist/threshold, dependent mechanics, fees, remote-work tax/work-compliance treatment, and a full couple playbook.
+> **DoD status**: partial. Entry / visa-alternative mechanics, the ordinary temporary-residence to permanent-residence ladder, and naturalization baseline are opened. `vq-070` and `vq-071` are closed to conservative screening baselines: do not assume a temporary Polish `karta pobytu` waives a Mexican visa; use the serving consulate's economic-solvency test as the controlling gate; treat the rough 2026 income benchmark as above the couple's current income unless savings or a lower post-specific threshold is confirmed.
 
 #### Now (until 03.2027)
 
-- **Entry / visitor baseline**: INM's visa-required-country page says nationals in the visa-required list must obtain a Mexican visa for entry, including visitor and resident categories. The same page lists alternatives to a Mexican visitor visa: proof of **permanent residence** in Canada, the United States, Japan, the United Kingdom, Schengen countries, or Pacific Alliance countries; or a valid visa from Canada, the United States, Japan, the United Kingdom, or Schengen. Because the page exposes the country list as an image, this pass treats the exact Ukrainian-passport placement as a verification item rather than a high-confidence extracted fact. [src-226]
+- **Entry / visitor baseline (`vq-070` closure)**: INM's visa-required-country page says nationals in the visa-required list must obtain a Mexican visa for entry, including visitor and resident categories. The same page lists alternatives to a Mexican visitor visa: proof of **permanent residence** in Canada, the United States, Japan, the United Kingdom, Schengen countries, or Pacific Alliance countries; or a valid visa from Canada, the United States, Japan, the United Kingdom, or Schengen. For screening, assume a Ukrainian ordinary passport needs a Mexican visa unless a readable official list or visa-checker confirms otherwise. [src-226]
 - **Polish `karta pobytu` caveat**: the captured INM alternative is **permanent residence** in a Schengen country, not any temporary Polish residence card. A Polish temporary `karta pobytu` should not be assumed to replace a Mexican visa; if the card is permanent, it may be useful for visitor entry only, not for Mexican residence. [src-226]
-- **No dedicated digital-nomad visa captured**: Mexico is best treated as a temporary-resident / economic-solvency route, not a Panama-style explicit remote-worker visa. Current secondary 2026 guidance says consulates apply economic-solvency thresholds that vary by post; for temporary residence by income, the rough 2026 benchmark is about **US$4,400/month net income for the last 6 months** (some consulates request 12 months), or savings/investments instead. This is above the couple's current ~$3,000/month income and must be confirmed with the serving consulate before scoring. [src-229]
+- **No dedicated digital-nomad visa captured (`vq-071` closure)**: Mexico is best treated as a temporary-resident / economic-solvency route, not a Panama-style explicit remote-worker visa. Current secondary 2026 guidance says consulates apply economic-solvency thresholds that vary by post; for temporary residence by income, the rough 2026 benchmark is about **US$4,400/month net income for the last 6 months** (some consulates request 12 months), or savings/investments instead. For country screening this closes the blocker: the couple's ~$3,000/month income is likely insufficient through income alone unless a serving consulate accepts a lower threshold or savings route. [src-229]
 - **Consular visa then in-country card exchange**: Mexico's federal immigration-tramites catalogue includes the exchange (`canje`) of a consular resident visa into a Mexican migration document and renewal of migration documents. Operationally, the route is normally: get the resident visa from a Mexican consulate, enter Mexico, then exchange it for the residence card with INM. [src-227]
 
 #### After 4 March 2027
@@ -62,7 +62,7 @@ schema_version: 2.0.0
 
 #### Partner / dependent baseline
 
-- No official dependent checklist was captured in this pass. Conservative baseline: if Mexico remains in scope, the couple should either marry before using a family-unity/dependent path or prepare two independently eligible files. Unmarried partner treatment, extra solvency for a dependent, and whether one income can support both applications remain open. [verification required]
+- `vq-071` partner closure: no official dependent checklist was captured in this pass, so the safe screening baseline is marriage before any family-unity/dependent strategy or two independently eligible files. Unmarried-partner treatment and dependent solvency uplift are application-prep checks; they should not be assumed in scoring. [src-227][src-229]
 
 #### Personal playbook for our couple
 
@@ -138,9 +138,9 @@ Mexico's climate fit depends heavily on altitude and coast. The best first-pass 
 
 ## Block 5 - Practical verdict
 
-- **Can relocate now**: possible only after entry / consular requirements are confirmed. Ukrainian citizens likely need a Mexican visa unless a qualifying alternative document applies, and a temporary Polish residence card should not be assumed enough. [src-226]
+- **Can relocate now**: possible only after entry / consular requirements are confirmed. Conservative baseline: Ukrainian citizens need a Mexican visa unless a qualifying alternative document applies, and a temporary Polish residence card is not enough. [src-226]
 - **Best legalization path for the man**: temporary resident visa based on economic solvency if income/savings meet the serving-consulate threshold; no dedicated DN route captured. [src-227][src-229]
-- **Best legalization path for the woman**: dependent/family-unity route if married and eligible, or independent file; exact rules remain open. [verification required]
+- **Best legalization path for the woman**: spouse/family-unity route if married and eligible, or independent file; do not assume an unmarried-partner or one-income dependent route until the serving consulate confirms it. [src-227][src-229]
 - **Does marriage change the picture**: probably yes for dependent/family-unity clarity, but the exact Mexican dependent evidence and solvency uplift were not captured.
 - **Realism of staying after 03.2027**: medium-low at current income until the solvency threshold is solved; ordinary temporary residence can lead to permanent residence after four years if obtained and maintained. [src-227]
 
@@ -152,7 +152,7 @@ Mexico's climate fit depends heavily on altitude and coast. The best first-pass 
 **Cons / risks**:
 - Standard 2026 temporary-residence income benchmark appears above the couple's current ~$3,000/month. [src-229]
 - Ukrainian entry / visa-waiver alternatives need a readable official country-list confirmation. [src-226]
-- Partner/dependent mechanics and remote-work tax compliance are not yet captured.
+- Partner/dependent mechanics should be handled spouse-first for screening; remote-work tax compliance remains for the tax section.
 - Coastal warmth comes with high humidity, rainy-season, and storm exposure. [src-231][src-232]
 
 ## Block 6 - Practical playbook (working relocation guide)

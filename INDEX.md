@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # INDEX

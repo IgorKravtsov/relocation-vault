@@ -2,13 +2,13 @@
 country: Bosnia and Herzegovina
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-03T10:08:32Z
+last_updated: 2026-06-04T00:00:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-dedicated-digital-nomad-visa", "company-founder-route-high-burden", "ukraine-protection-status-gap", "cold-inland-winters"]
 sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218"]
-unverified_count: 2
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (Tier-3 hint retained until tax / cost / ordinary-residence viability is researched).
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-03T10:08:32Z
+- **Last updated**: 2026-06-04T00:00:00Z
 - **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and needs official / lawyer verification. [src-214][src-215]
 
 ## Block 2 — Scoring
@@ -39,9 +39,9 @@ schema_version: 2.0.0
 
 ## Block 3 — Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-03, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-04, dod: partial}
 
-> **DoD status**: partial. The first pass has official anchors for entry / residence mechanics, work-permit or company-founder documents, and permanent residence, but does not yet capture an official Ukraine-specific entry table, current Ukraine temporary-protection / humanitarian-extension mechanics, or a clean foreign-client IT residence route.
+> **DoD status**: partial. The first pass has official anchors for entry / residence mechanics, work-permit or company-founder documents, and permanent residence, but does not yet capture an official Ukraine-specific entry table or current Ukraine temporary-protection / humanitarian-extension mechanics. `vq-067` is closed to a conservative operational baseline: Bosnia and Herzegovina is not a DN-style foreign-client IT route; only a real local work-permit / company-founder file should be considered, and the captured founder checklist is high-burden.
 
 #### Now (until 03.2027)
 
@@ -141,8 +141,8 @@ Sunny-day DoD is met with WeatherSpark clearer-sky day-equivalent proxies, not o
 
 - **Can relocate now**: Maybe for scouting, if the official Ukraine visa-free rule is confirmed; not yet a clean long-stay plan.
 - **Best legalization path for the man**: No DN route captured; only a real local company / work-permit / founder file is visible so far.
-- **Best legalization path for the woman**: Marriage or independent eligibility is the conservative baseline until family / partner mechanics are verified.
-- **Does marriage change the picture**: Likely yes for family residence, but exact sponsor timing and income rules need verification.
+- **Best legalization path for the woman**: Marriage or independent eligibility is the conservative screening baseline; no captured source supports an unmarried-partner dependent file for the heavy company/work route. [src-214][src-215]
+- **Does marriage change the picture**: Yes for conservative planning: if Bosnia is pursued, marriage is the safest relationship proof for any family/dependent file; exact sponsor timing and income rules can be checked in an application-prep pass. [src-214][src-215]
 - **Realism of staying after 03.2027**: Medium-low until the company / self-employment fit and Ukraine protection status are verified.
 
 **Pros**:
@@ -170,7 +170,7 @@ Sunny-day DoD is met with WeatherSpark clearer-sky day-equivalent proxies, not o
 
 ### 6c. First 3–6 months
 - If the company route remains viable, retain an accountant / immigration lawyer before incorporation because the captured founder checklist requires company solvency, tax evidence, and five BiH employees per foreign founder. [src-215]
-- Verify whether the partner can be sponsored as spouse only, or whether durable/unmarried partnership is recognized for residence.
+- Treat partner sponsorship as spouse-first unless counsel confirms a durable/unmarried-partner filing; for screening, use marriage or independent eligibility. [src-214][src-215]
 
 ### 6d. Before March 2027 (critical deadline)
 - Do not rely on Ukraine-specific protection unless a current Bosnia government / UNHCR source is captured.

@@ -1,8 +1,15 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
+## 2026-06-04 — run-043
+- Verification batch: resolved 5 legal blockers (`vq-067`, `vq-068`, `vq-069`, `vq-070`, `vq-071`).
+- Bosnia and Herzegovina: closed company/founder route fit to a high-burden local work/company baseline.
+- Moldova: closed TP/DN blockers to ordinary-status-before-TP-expiry and DN-formula/PR-counting conservative baselines.
+- Mexico: closed entry/temporary-residence blockers to visa-required and consular-solvency conservative baselines.
+- Verification queue: 11 -> 6 pending/open.
+
 
 # CHANGELOG
 

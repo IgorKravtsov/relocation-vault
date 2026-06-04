@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-03
+last_updated: 2026-06-04
 ---
 
 # Verification Queue
@@ -820,7 +820,9 @@ _(none)_
 - **Why uncertain**: The company-founder checklist is official but appears heavy, including five BiH employees per foreign founder; no DN-style or simple foreign-client IT route was captured. Family-reunification timing/scope, unmarried-partner treatment, exact PR counting for founder/work categories, and citizenship consequences were not researched in this pass.
 - **Suggested verification**: Check Law on Aliens Art. 52 / family reunification provisions, work-permit / self-employment rules, Service field-office checklist, Bosnia immigration-lawyer guidance, and Law on Citizenship / entity citizenship rules.
 - **Created**: 2026-06-03 (run-040)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-04 (run-043)
+- **Resolution note**: Bosnia profile now closes the core route-fit blocker: no DN-style or lightweight foreign-client IT route is captured; only a real local work-permit / company-founder file should be considered, and the official founder checklist is high-burden. Marriage or independent eligibility is the conservative partner baseline. [src-214][src-215]
 
 ## vq-068 [high priority]
 - **Fact**: "Moldova current official entry rule for Ukrainian citizens, current Ukraine temporary-protection transition / post-01 March 2027 bridge, and citizenship / dual-citizenship baseline"
@@ -830,7 +832,9 @@ _(none)_
 - **Why uncertain**: The Ukrainian passport entry baseline is from an aggregator; UNHCR confirms temporary protection only through 01 March 2027 and this pass did not capture a Moldova-specific post-TP bridge or citizenship/naturalization source.
 - **Suggested verification**: Capture Moldovan MFA/eVisa country table for Ukraine, GIM / Government extension or transition decisions for temporary protection after 01 March 2027, and Moldova citizenship law / ASP guidance on ordinary naturalization and dual citizenship.
 - **Created**: 2026-06-03 (run-041)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-04 (run-043)
+- **Resolution note**: Moldova profile now uses the conservative operational baseline: TP is documented only through 01 March 2027 and no post-TP ordinary-residence bridge is captured, so plan ordinary provisional stay before TP expiry. Citizenship remains a later nationality pass, not a core country-screening blocker. [src-219][src-222]
 
 ## vq-069 [high priority]
 - **Fact**: "Moldova digital-nomad current numeric income threshold, spouse/unmarried-partner dependent treatment for a foreign DN sponsor, and whether DN/IT residence counts toward permanent stay"
@@ -840,7 +844,9 @@ _(none)_
 - **Why uncertain**: GIM gives the DN formula of at least 18 times the current-year forecast average salary / three salaries per month and a strong document list, but the numeric 2026 salary figure was not captured. Family-reunification evidence captured only reunification with a Moldovan citizen. The permanent-residence page includes IT/study/posting/investment/free-zone category caveats, so DN/IT PR counting needs legal interpretation.
 - **Suggested verification**: Find the official 2026 forecast average salary figure, GIM DN duration/renewal/dependent FAQ or law text, and legal/official guidance on whether digital-nomad or IT-specialist residence counts toward the 5-year permanent-stay route.
 - **Created**: 2026-06-03 (run-041)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-04 (run-043)
+- **Resolution note**: Moldova profile now closes the DN blocker to a screening baseline: GIM formula requires 3x the current-year forecast average salary per month; check the filing-year number before applying. Do not assume foreign-DN dependent sponsorship or DN/IT PR counting because the PR page has IT/category caveats. [src-220][src-221][src-225]
 
 ## vq-070 [high priority]
 - **Fact**: "Mexico exact Ukrainian-passport entry rule, Mexican-visa alternatives, and whether a Polish temporary or permanent `karta pobytu` changes visitor entry or residence planning"
@@ -850,7 +856,9 @@ _(none)_
 - **Why uncertain**: INM's captured page gives the visa-required framework and alternatives but exposes the country list as an image that was not OCR-readable in this pass. It clearly names permanent Schengen residence and Schengen visas as alternatives, but not temporary Polish residence cards.
 - **Suggested verification**: Capture a readable INM / Mexican embassy country table for Ukraine, test the Mexican visa-checker if available, and verify whether Polish temporary residence is accepted or only permanent residence / visas qualify.
 - **Created**: 2026-06-03 (run-042)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-04 (run-043)
+- **Resolution note**: Mexico profile now closes the entry interaction blocker to a conservative baseline: assume a Ukrainian ordinary passport needs a Mexican visa unless a readable official list/checker says otherwise; INM alternatives name permanent Schengen residence or a valid Schengen visa, not a temporary Polish residence card. [src-226]
 
 ## vq-071 [high priority]
 - **Fact**: "Mexico temporary-resident economic-solvency threshold for the couple, foreign-client remote-work fit, spouse/unmarried-partner dependent mechanics, PR counting, and naturalization details"
@@ -860,4 +868,6 @@ _(none)_
 - **Why uncertain**: The first pass has a secondary 2026 threshold estimate (~USD 4,400/month net for temporary residence) and official procedure pages for residence-card exchange / permanent-residence change, but no serving-consulate official checklist, no dependent uplift, no remote-work tax/work-compliance answer, and no fully extracted naturalization conditions.
 - **Suggested verification**: Check the Mexican consulate serving Ukraine/Poland or current residence for temporary-resident visa criteria, spouse/dependent filing and income uplift; verify INM family-unity rules, SAT/RFC tax treatment for foreign-client IT work, PR counting after four years, and SRE naturalization requirements / dual-citizenship consequences.
 - **Created**: 2026-06-03 (run-042)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-04 (run-043)
+- **Resolution note**: Mexico profile now closes the route-fit blocker for screening: no DN visa captured; use temporary residence by economic solvency only if the serving consulate threshold or savings route fits. The rough 2026 income benchmark is above USD 3,000/month, and partner planning should be spouse-first or independent until confirmed. [src-227][src-229]
