@@ -1,0 +1,53 @@
+- id: claim-argentina-001
+  topic: ukrainian_tourist_entry_baseline
+  value: "Specialized 2026 guidance says ordinary Ukrainian passport holders can enter Argentina visa-free for 90 days; direct official exemption-list capture remains required before relying on it."
+  source: src-233
+  date_verified: 2026-06-04
+  confidence: medium
+  tags: [entry, ukrainians, visa-free, tourist]
+  notes: "Used as a medium-confidence placeholder because the official exemption PDF/table was identified but not directly captured in this pass."
+
+- id: claim-argentina-002
+  topic: digital_nomad_transitory_residence
+  value: "Argentina's official digital-nomad route is a transitory residence under Law 25.871 Art. 24(h) / DNM Disposition 758/2022 for visa-exempt nationals serving clients or entities abroad, granted for up to 180 days and extendable."
+  source: src-235
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [digital-nomad, transitory-residence, remote-work]
+  notes: "The in-country route is semi-presential / in person and needs passport, Argentine criminal record, address evidence, regular entry, signed request, CV, and proof of remote activity/income/reference."
+
+- id: claim-argentina-003
+  topic: digital_nomad_electronic_entry
+  value: "Argentina's electronic entry process for digital nomads requires a request note, CV, passport JPG, live photo JPG, and proof of remote work activity/income/reference; approved applicants receive email authorization to show at border control."
+  source: src-236
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [digital-nomad, electronic-entry, checklist]
+  notes: "This supports pre-arrival DN planning but does not by itself establish a durable residence route."
+
+- id: claim-argentina-004
+  topic: rentista_route_excludes_personal_work
+  value: "Argentina's rentista temporary-residence category requires external income from assets and explicitly excludes remuneration obtained by personal work; the rent amount must be at least five Argentine minimum wages."
+  source: src-239
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [rentista, temporary-residence, income-threshold, route-fit]
+  notes: "This makes rentista a poor default fit for a foreign-client IT freelancer unless passive assets/income are documented separately."
+
+- id: claim-argentina-005
+  topic: citizenship_two_year_continuous_legal_residence
+  value: "Updated Law 346 Art. 2 allows foreigners over 18 to naturalize after continuous and legal residence in Argentina during the two years before application, and defines continuous residence as staying in Argentina throughout that period without any trip abroad."
+  source: src-240
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [citizenship, naturalization, two-years, continuous-residence]
+  notes: "The 2025 no-exit rule is a major practical constraint for planning."
+
+- id: claim-argentina-006
+  topic: climate_clearer_sky_and_temperature_baseline
+  value: "WeatherSpark clearer-sky percentages convert to about 225 clearer-sky day-equivalents for Buenos Aires, 269 for San Miguel de Tucuman as an inland northern proxy, and 265 for Mendoza; Climate to Travel gives practical January/July temperature and rain comfort baselines for Buenos Aires, Cordoba, and Mendoza."
+  source: src-242
+  date_verified: 2026-06-04
+  confidence: medium
+  tags: [climate, clear-sky, temperature, buenos-aires, cordoba, mendoza]
+  notes: "Clearer-sky values are broader WeatherSpark proxies, not official sunny-day counts. Cordoba climate temperatures/rainfall are anchored by src-241; WeatherSpark country table lacks Cordoba, so San Miguel de Tucuman is not used as a city-specific Cordoba claim."

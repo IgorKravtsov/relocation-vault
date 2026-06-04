@@ -3,6 +3,14 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-04
 ---
+## 2026-06-04 — run-044
+- Argentina: created profile and claims; depth_score 0 -> 1.5 (5.2 completed; 5.1 partial).
+- Legalization first pass captured the official DN transitory residence / TIE / extension route, Argentina residence-category baselines, rentista route-fit caveat, and updated Law 346 citizenship baseline.
+- Climate pass completed Buenos Aires, Cordoba, and Mendoza with temperature/rain/humidity comfort notes and WeatherSpark clearer-sky day-equivalent proxies.
+- Sources added: src-233 through src-242.
+- Claims added: claim-argentina-001 through claim-argentina-006.
+- Verification queue: 6 -> 8 (added vq-072, vq-073); next can continue depth-0 rotation with UAE.
+
 ## 2026-06-04 — run-043
 - Verification batch: resolved 5 legal blockers (`vq-067`, `vq-068`, `vq-069`, `vq-070`, `vq-071`).
 - Bosnia and Herzegovina: closed company/founder route fit to a high-burden local work/company baseline.

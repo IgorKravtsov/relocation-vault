@@ -185,6 +185,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 ## Low priority
 _(none)_
 
+## vq-072 [high priority]
+- **Fact**: "Current official Argentina tourist-exemption rule for Ukrainian ordinary passport holders and whether it satisfies the digital-nomad route's visa-exempt-nationality condition"
+- **Country**: Argentina
+- **Section**: 5.1
+- **Current source**: src-233, src-234, src-235, src-236
+- **Why uncertain**: A 2026 specialist nationality page says Ukrainian ordinary passports are visa-free for 90 days and points to an official exemption PDF, but the official country list/PDF was not directly captured in this pass.
+- **Suggested verification**: Capture the current Argentine Cancilleria tourist-exemption PDF/table or consular list, confirm Ukraine placement, and cross-check whether the DN TIE / in-country DN route accepts that status for Ukrainian applicants.
+- **Created**: 2026-06-04 (run-044)
+- **Status**: pending
+
+## vq-073 [high priority]
+- **Fact**: "Argentina durable temporary/permanent residence path for foreign-client IT income, digital-nomad time-counting, dependent mechanics, and Law 346 citizenship continuous-residence implications"
+- **Country**: Argentina
+- **Section**: 5.1
+- **Current source**: src-235, src-237, src-238, src-239, src-240
+- **Why uncertain**: The digital-nomad route is official but transitory; rentista excludes personal-work remuneration; this pass did not capture a durable temporary residence category for foreign-client IT freelancing or whether a spouse/dependent can attach and later count residence toward PR/citizenship.
+- **Suggested verification**: Check DNM temporary-residence category procedures, legal commentary on remote/self-employed foreign-client work, family reunification rules for foreign temporary residents, permanent residence rules, and post-Decree-366/2025 citizenship practice.
+- **Created**: 2026-06-04 (run-044)
+- **Status**: pending
+
 ## vq-015 [high priority]
 - **Fact**: "Croatia-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
 - **Country**: Croatia

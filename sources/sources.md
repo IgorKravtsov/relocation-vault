@@ -2800,3 +2800,123 @@ Each source entry:
 - **Facts supporting**: Mexico City / Cancun / Puerto Vallarta monthly average high/low temperatures, muggy-day burden, precipitation days, clearer-sky percentages, and annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-mexico-005, claim-mexico-006)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-233
+- **Title**: ArgentinaVisaLaw — Argentina Visa Requirements for Ukrainian Citizens
+- **URL**: https://argentinavisalaw.com/nationality/ukraine
+- **Archive**: [archive: failed 2026-06-04; text mirror used for extraction]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-07
+- **Date accessed**: 2026-06-04
+- **Used by**: Argentina
+- **Facts supporting**: medium-confidence Ukraine ordinary-passport tourist visa-free 90-day baseline and planning caveats; identifies official tourist-exemption PDF for later direct capture (claim-argentina-001)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-04
+
+## src-234
+- **Title**: Argentina Ministry of Foreign Affairs — Tourist Visa / Visa para Turismo
+- **URL**: https://www.cancilleria.gob.ar/en/services/visa/tourist-visa and https://www.cancilleria.gob.ar/es/servicios/visas/visa-para-turismo
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: Argentina
+- **Facts supporting**: generic tourist-visa baseline for applicants who need a visa: up to 90 days, passport, photos, application form, proof of income, return booking, lodging/itinerary, interview, and USD/EUR 150 fee
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-04
+
+## src-235
+- **Title**: Argentina.gob.ar / Migraciones — Obtain a transitory residence as a Digital Nomad
+- **URL**: https://www.argentina.gob.ar/servicio/obtener-una-residencia-transitoria-como-nomada-digital
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2023-11-10
+- **Date accessed**: 2026-06-04
+- **Used by**: Argentina
+- **Facts supporting**: official digital-nomad transitory residence basis, visa-exempt nationality condition, foreign-client remote-work scope, in-country semi-presential filing route, document checklist, legalization/apostille/translation rules, and 180-day extendable duration (claim-argentina-002)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-04
+
+## src-236
+- **Title**: Argentina.gob.ar / Migraciones — Electronic Entry Process for Digital Nomads
+- **URL**: https://www.argentina.gob.ar/servicio/tramitacion-de-ingreso-electronica-nomadas-digitales
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2022-05-10
+- **Date accessed**: 2026-06-04
+- **Used by**: Argentina
+- **Facts supporting**: online TIE digital-nomad entry checklist, email entry authorization, border-control use, cost-table pointer, and 180-day transitory stay (claim-argentina-003)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-04
+
+## src-237
+- **Title**: Argentina.gob.ar / Migraciones — Obtain an extension of transitory residence as a Digital Nomad
+- **URL**: https://www.argentina.gob.ar/servicio/obtener-una-prorroga-de-residencia-transitoria-como-nomada-digital
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2023-10-27
+- **Date accessed**: 2026-06-04
+- **Used by**: Argentina
+- **Facts supporting**: digital-nomad extension eligibility, income-from-services proof during the residence period, country-of-origin criminal-record requirement, legalization/apostille/translation rules, and 180-day extension baseline (claim-argentina-002)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-04
+
+## src-238
+- **Title**: Argentina.gob.ar / Migraciones — Residences and temporary-residence categories
+- **URL**: https://www.argentina.gob.ar/migraciones/residencias and https://www.argentina.gob.ar/migraciones/radicaciones-residencia-temporaria
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2019-01-31 / 2019-06-04
+- **Date accessed**: 2026-06-04
+- **Used by**: Argentina
+- **Facts supporting**: distinction between transitory, temporary, and permanent residence; transitory maximum one year and no DNI; temporary residence up to three years with temporary DNI; list of ordinary temporary categories for follow-up
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-04
+
+## src-239
+- **Title**: Argentina.gob.ar / Migraciones — Obtain temporary residence as a rentista
+- **URL**: https://www.argentina.gob.ar/servicio/obtener-una-residencia-temporaria-como-rentista
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2019-06-04
+- **Date accessed**: 2026-06-04
+- **Used by**: Argentina
+- **Facts supporting**: rentista temporary residence route, passive/external asset-income scope, exclusion of remuneration from personal work, five-minimum-wage income threshold, authorized-bank fund-entry rule, RADEX filing, and 1-year temporary-residence duration (claim-argentina-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-04
+
+## src-240
+- **Title**: Argentina Law 346 / InfoLEG — Citizenship law updated text
+- **URL**: https://www.argentina.gob.ar/normativa/nacional/ley-346-48854/texto and https://servicios.infoleg.gob.ar/infolegInternet/anexos/45000-49999/48854/texact.htm
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: Law 346; updated by Decree 366/2025
+- **Date accessed**: 2026-06-04
+- **Used by**: Argentina
+- **Facts supporting**: naturalization after two years of continuous and legal residence for foreigners over 18; 2025 continuous-residence definition requiring no exits during the two years before application (claim-argentina-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-04
+
+## src-241
+- **Title**: Climate to Travel — Argentina, Buenos Aires, Cordoba, and Mendoza climate pages
+- **URL**: https://www.climatestotravel.com/climate/argentina; https://www.climatestotravel.com/climate/argentina/buenos-aires; https://www.climatestotravel.com/climate/argentina/cordoba; https://www.climatestotravel.com/climate/argentina/mendoza
+- **Archive**: [archive: failed 2026-06-04; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: Argentina
+- **Facts supporting**: Argentina regional climate split; Buenos Aires, Cordoba, and Mendoza January/July temperatures, precipitation days, sunshine-hour context, humidity/heat/cold/wind comfort caveats (claim-argentina-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-242
+- **Title**: WeatherSpark — Argentina country climate comparison
+- **URL**: https://weatherspark.com/countries/AR
+- **Archive**: [archive: failed 2026-06-04; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: Argentina
+- **Facts supporting**: Buenos Aires / San Miguel de Tucuman / Mendoza / Ushuaia high-low temperatures, clearer-sky percentages, muggy-day burden, wind speeds, and clearer-sky day-equivalent proxies calculated from monthly percentages (claim-argentina-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
