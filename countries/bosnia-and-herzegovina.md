@@ -2,13 +2,13 @@
 country: Bosnia and Herzegovina
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-04T00:00:00Z
+last_updated: 2026-06-04T19:46:13Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-dedicated-digital-nomad-visa", "company-founder-route-high-burden", "ukraine-protection-status-gap", "cold-inland-winters"]
+risk_flags: ["no-dedicated-digital-nomad-visa", "company-founder-route-high-burden", "no-captured-ukraine-protection-bridge", "cold-inland-winters"]
 sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (Tier-3 hint retained until tax / cost / ordinary-residence viability is researched).
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-04T00:00:00Z
+- **Last updated**: 2026-06-04T19:46:13Z
 - **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and needs official / lawyer verification. [src-214][src-215]
 
 ## Block 2 — Scoring
@@ -41,22 +41,22 @@ schema_version: 2.0.0
 
 ### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-04, dod: partial}
 
-> **DoD status**: partial. The first pass has official anchors for entry / residence mechanics, work-permit or company-founder documents, and permanent residence, but does not yet capture an official Ukraine-specific entry table or current Ukraine temporary-protection / humanitarian-extension mechanics. `vq-067` is closed to a conservative operational baseline: Bosnia and Herzegovina is not a DN-style foreign-client IT route; only a real local work-permit / company-founder file should be considered, and the captured founder checklist is high-burden.
+> **DoD status**: partial. The first pass has official anchors for entry / residence mechanics, work-permit or company-founder documents, and permanent residence. `vq-066` is closed to a conservative operational baseline: short entry is only for scouting, and no current Ukraine-specific protection / post-2027 bridge is captured, so ordinary residence must be built before any protection horizon. `vq-067` is closed to a conservative operational baseline: Bosnia and Herzegovina is not a DN-style foreign-client IT route; only a real local work-permit / company-founder file should be considered, and the captured founder checklist is high-burden.
 
 #### Now (until 03.2027)
 
-- **Short entry**: VisaGuide's April 2026 Ukrainian-passport list includes Bosnia and Herzegovina among visa-free destinations for Ukrainian citizens, but this is only an aggregator placeholder until the Bosnia and Herzegovina MFA / Decision on Visas country table is captured. [src-204]
+- **Short entry (`vq-066` closure)**: VisaGuide's April 2026 Ukrainian-passport list includes Bosnia and Herzegovina among visa-free destinations for Ukrainian citizens, and the Service confirms visa-free stay mechanics of up to 90 days in a six-month period unless a treaty or Council decision says otherwise. This is enough for a scouting baseline, but before travel the Bosnia and Herzegovina MFA / Decision on Visas country table should still be checked for Ukraine-specific placement. [src-204][src-214]
 - **Visa-free stay mechanics**: Bosnia and Herzegovina's Service for Foreigners' Affairs states that visa-free stay is up to 90 days in a six-month period, unless an international treaty or Council of Ministers decision provides otherwise. [src-214]
 - **Residence registration**: aliens must register temporary / permanent residence with the Service for Foreigners' Affairs field office or competent Ministry of Interior unit after arrival; the FAQ also says private-stay registration is required within 48 hours if the foreigner will stay more than three days. [src-214][src-213]
 - **Temporary residence**: first temporary residence can be filed through a Bosnia and Herzegovina diplomatic-consular representation abroad, or directly with the competent Service unit inside Bosnia and Herzegovina when the applicant entered with a D visa or is a visa-free national. A temporary residence permit is generally issued up to one year. [src-214]
 - **Work route**: paid work normally requires a work permit from the competent employment authority, followed by a temporary-residence application; the official work-permit checklist includes a BAM 150 residence fee, photo, passport / D-visa / entry evidence, white card, work permit, tax evidence for a company, medical certificate, criminal-record certificates, and accommodation evidence. [src-213][src-215]
 - **Company-founder route without work permit**: the official checklist for founders of a company exists, but it is not a lightweight freelancer route. It requires company registration, business-type evidence, company solvency, tax-compliance evidence, means of subsistence, health insurance, accommodation, medical / criminal-record certificates, and evidence that the company employs at least five BiH citizens per foreign founder and pays each employee at least the average gross salary in BiH. [src-215]
 - **Other justified reasons / real estate**: the Service publishes checklists for "other justified reasons" and real-estate ownership, but neither is captured as a reliable foreign-client IT residence route in this pass. [src-215]
-- **International protection / Ukraine-specific protection**: UNHCR Bosnia and Herzegovina describes the ordinary asylum / international-protection process and states that asylum-seekers are protected while the application is processed. This pass did not capture a current Ukraine-specific temporary-protection extension or a post-2027 bridge. [src-218]
+- **International protection / Ukraine-specific protection (`vq-066` closure)**: UNHCR Bosnia and Herzegovina describes the ordinary asylum / international-protection process and states that asylum-seekers are protected while the application is processed. This pass did not capture a current Ukraine-specific temporary-protection extension or a post-2027 bridge. Conservative operational baseline: do not rely on Ukraine protection as a settlement route; use ordinary temporary residence before any protection horizon. [src-218]
 
 #### After 4 March 2027
 
-No Bosnia and Herzegovina-specific post-2027 Ukraine temporary-protection bridge was captured. Conservative baseline: do not rely on a Ukraine protection off-ramp; if Bosnia and Herzegovina remains in consideration, plan an ordinary temporary-residence basis before any protection horizon and verify current Ukraine-specific humanitarian/protection decisions. [src-214][src-218]
+No Bosnia and Herzegovina-specific post-2027 Ukraine temporary-protection bridge was captured. Conservative baseline for `vq-066`: do not rely on a Ukraine protection off-ramp; if Bosnia and Herzegovina remains in consideration, plan an ordinary temporary-residence basis before any protection horizon and treat current Ukraine-specific humanitarian/protection decisions as application-prep checks. [src-214][src-218]
 
 #### Residence without local employer
 
@@ -153,13 +153,13 @@ Sunny-day DoD is met with WeatherSpark clearer-sky day-equivalent proxies, not o
 **Cons / risks**:
 - No dedicated digital-nomad / remote-worker route captured.
 - Company-founder route appears high-burden, including local employee obligations. [src-215]
-- No current Ukraine-specific temporary-protection / post-2027 bridge captured. [src-218]
+- No current Ukraine-specific temporary-protection / post-2027 bridge captured; ordinary residence is the only safe screening plan. [src-218]
 - Inland winters are cold relative to the couple's warm-climate preference. [src-216]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
 ### 6a. Before the move (what to prepare in Ukraine / Poland)
-- Confirm official Ukraine passport entry status from Bosnia and Herzegovina MFA / Decision on Visas before booking.
+- Confirm official Ukraine passport entry status from Bosnia and Herzegovina MFA / Decision on Visas before booking; for screening, treat entry as scouting only.
 - Prepare passports with validity at least three months beyond the requested residence period if filing residence. [src-215]
 - For any residence file, expect foreign documents to be translated into one official language in Bosnia and Herzegovina; criminal-record certificates must generally be recent (not older than six months). [src-215]
 - Treat the Polish karta pobytu as logistical support only, not a Bosnia long-stay authorization.
@@ -173,7 +173,7 @@ Sunny-day DoD is met with WeatherSpark clearer-sky day-equivalent proxies, not o
 - Treat partner sponsorship as spouse-first unless counsel confirms a durable/unmarried-partner filing; for screening, use marriage or independent eligibility. [src-214][src-215]
 
 ### 6d. Before March 2027 (critical deadline)
-- Do not rely on Ukraine-specific protection unless a current Bosnia government / UNHCR source is captured.
+- Do not rely on Ukraine-specific protection as a settlement route unless a current Bosnia government / UNHCR source later creates a bridge.
 - Have an ordinary residence file or a different country fallback ready before any protection horizon.
 
 ### 6e. Long-term (3–7 years)
@@ -219,8 +219,8 @@ _(none yet)_
 - [src-217] WeatherSpark Bosnia and Herzegovina country climate comparison.
 
 ### 7e. Not found
-- Official Bosnia and Herzegovina MFA / Decision on Visas country table confirming Ukraine passport visa-free entry.
-- Current 2026 Ukraine-specific temporary-protection / humanitarian-stay extension and any post-2027 transition bridge.
+- Official Bosnia and Herzegovina MFA / Decision on Visas country table confirming Ukraine passport visa-free entry remains useful before travel; `vq-066` is closed for screening.
+- Current 2026 Ukraine-specific temporary-protection / humanitarian-stay extension and any post-2027 transition bridge remains uncaptured; safe baseline is no reliance on a protection bridge.
 - Dedicated digital-nomad / remote-worker residence route.
 - Official self-employment / foreign-client IT route that avoids the heavy company-founder employee obligation.
 - Family-reunification checklist for spouse vs unmarried partner, sponsor income, and timing.
@@ -228,5 +228,4 @@ _(none yet)_
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-066` — official Ukraine entry / Ukraine protection / post-2027 bridge for Bosnia and Herzegovina.
-- `vq-067` — company-founder / self-employment / foreign-client IT fit, partner mechanics, and PR/citizenship counting.
+_(none for current screening depth; Ukraine-specific entry/protection can be rechecked before travel or application prep.)

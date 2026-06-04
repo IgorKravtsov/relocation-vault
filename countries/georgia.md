@@ -2,13 +2,13 @@
 country: Georgia
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-02T04:01:45Z
+last_updated: 2026-06-04T19:46:13Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["visa-free-not-residence"]
 sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. Georgia is easy to enter and has an official IT residence-permit category that may fit the male IT worker, but the route needs verification on the 2026 work-right / small-business mechanics and is not an EU temporary-protection bridge.
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-02T04:01:45Z
+- **Last updated**: 2026-06-04T19:46:13Z
 - **Tier rationale**: Not assigned until taxes, cost of living, rent, healthcare, and practical permit-renewal experience are researched.
 
 ## Block 2 — Scoring
@@ -39,13 +39,13 @@ schema_version: 2.0.0
 
 ## Block 3 — Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-05-31, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-04, dod: partial}
 
-> **DoD status**: Partial. First pass opened the legal-stay, work/entrepreneur residence, IT residence, family residence, permanent residence, and citizenship baselines. Missing: official-primary capture of the current Ukraine visa-free decree / consular table, current IT work-right registration workflow, foreign-client / small-business fit, Polish residence interaction, permit-renewal practice, and full document/apostille/translation checklist for the couple.
+> **DoD status**: Partial. First pass opened the legal-stay, work/entrepreneur residence, IT residence, family residence, permanent residence, and citizenship baselines. `vq-051` is closed to an operational screening baseline: do not rely on visa-free stay as residence; plan the IT / small-business residence file before any one-year lawful-stay horizon. Missing for application prep: direct official decree/table capture, current filing workflow, permit-renewal practice, and full document/apostille/translation checklist for the couple.
 
 #### Now (until 03.2027)
 
-- **Entry / visa-free stay**: The Georgian MFA consular portal is the official entry-information anchor, but the dynamic country-specific table was not cleanly extractable in this pass. A 2025 Georgia Today report quotes the Prime Ministerial decree as reducing Ukrainian citizens' visa-free stay from 3 years back to **one full year**, with Ukrainians already present before 24 February 2025 extended until 24 February 2026. Treat this as a medium-confidence operational baseline and verify against the official decree or GeoConsul country table before travel. [src-155][src-156] Confidence: medium.
+- **Entry / visa-free stay (`vq-051` closure)**: The Georgian MFA consular portal remains the official entry-information anchor, while the extractable country-specific table/decree text is still an application-prep capture gap. For screening, the safe baseline is the 2025 reported decree: Ukrainian citizens should assume **one full year** of visa-free stay, with earlier Ukraine-specific transitional treatment not usable as a long-term residence plan. This is enough to decide that Georgia can be scouted/entered but must be converted into a Georgian residence-permit file before the lawful-stay horizon. [src-155][src-156] Confidence: medium.
 - **No EU-style temporary-protection bridge**: Georgia is outside the EU Temporary Protection Directive system. For this couple, Georgia should be treated as an ordinary residence / visa-free-stay planning option, not as a continuation of EU temporary protection after 04 March 2027. [src-157] Confidence: medium-high for the structural point.
 - **Residence-permit filing baseline**: The Public Service Development Agency (SDA) states that an alien generally applies for a Georgian residence permit 40 calendar days before lawful stay expires, and that a residence permit is issued to a lawfully staying alien meeting the Law on Legal Status of Aliens and Stateless Persons. [src-157] Confidence: high.
 
@@ -218,9 +218,9 @@ _(none yet)_
 - [src-175] WeatherSpark — Georgia city cloud-cover climate pages.
 
 ### 7e. Not found
-- Clean official-primary text capture of the current Ukraine-specific visa-free stay decree / country table.
+- Clean official-primary text capture of the current Ukraine-specific visa-free stay decree / country table remains useful before travel, but `vq-051` is closed for country-screening because the safe operational baseline is one-year visa-free stay only, not residence.
 - A worked State Employment Support Agency / Revenue Service filing example for the IT small-business variant remains useful for application-prep, but the core route blocker is closed for planning.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-051` — Georgia current official Ukraine visa-free stay duration and transitional treatment for Ukrainians already in Georgia.
+_(none for current screening depth; official Ukraine entry-table capture can be rechecked during application prep.)

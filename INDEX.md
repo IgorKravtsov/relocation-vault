@@ -27,14 +27,14 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Montenegro | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 26 | `countries/montenegro.md` |
 | Serbia | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/serbia.md` |
 | Turkey | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 30 | `countries/turkey.md` |
-| Georgia | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/georgia.md` |
-| Albania | balkans-east | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/albania.md` |
-| North Macedonia | balkans-east | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 39 | `countries/north-macedonia.md` |
-| Bosnia and Herzegovina | balkans-east | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 40 | `countries/bosnia-and-herzegovina.md` |
+| Georgia | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 46 | `countries/georgia.md` |
+| Albania | balkans-east | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 46 | `countries/albania.md` |
+| North Macedonia | balkans-east | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 46 | `countries/north-macedonia.md` |
+| Bosnia and Herzegovina | balkans-east | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 46 | `countries/bosnia-and-herzegovina.md` |
 | Moldova | balkans-east | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 41 | `countries/moldova.md` |
 | Uruguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/uruguay.md` |
 | Paraguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 39 | `countries/paraguay.md` |
-| Panama | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 39 | `countries/panama.md` |
+| Panama | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 46 | `countries/panama.md` |
 | Mexico | latin-america | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 42 | `countries/mexico.md` |
 | Argentina | latin-america | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 44 | `countries/argentina.md` |
 | UAE | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 45 | `countries/uae.md` |

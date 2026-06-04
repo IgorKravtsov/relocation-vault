@@ -1,26 +1,26 @@
 {
   "version": 2,
-  "iteration": 45,
+  "iteration": 46,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-04T16:02:02Z",
+  "last_run_timestamp": "2026-06-04T19:46:13Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "UAE",
+    "mode": "verification",
+    "country": null,
     "sections": [
-      "5.1",
-      "5.2"
+      "5.1"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": null,
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Malaysia",
     "suggested_sections": [
-      "5.1"
+      "5.1",
+      "5.2"
     ],
-    "reason": "Pending/open verification queue reached the active threshold after run-045; run verification before continuing depth-0 rotation."
+    "reason": "Verification queue is back below the active threshold; continue depth-0 rotation with the next unresearched Tier-3-hint country."
   },
   "countries": {
     "Spain": {
@@ -516,7 +516,7 @@
       "risk_flags": [
         "visa-free-not-residence"
       ],
-      "last_iteration": 35
+      "last_iteration": 46
     },
     "Albania": {
       "tier": null,
@@ -543,7 +543,7 @@
         "official-primary-capture-gaps",
         "dn-income-threshold-needs-primary-check"
       ],
-      "last_iteration": 35
+      "last_iteration": 46
     },
     "North Macedonia": {
       "tier": null,
@@ -571,7 +571,7 @@
         "no-dedicated-digital-nomad-visa",
         "ordinary-residence-route-needs-fit-check"
       ],
-      "last_iteration": 39
+      "last_iteration": 46
     },
     "Bosnia and Herzegovina": {
       "tier": null,
@@ -600,7 +600,7 @@
         "ukraine-protection-status-gap",
         "cold-inland-winters"
       ],
-      "last_iteration": 43
+      "last_iteration": 46
     },
     "Moldova": {
       "tier": null,
@@ -713,7 +713,7 @@
         "panama-permanent-residence-route-needs-fit-check",
         "very-humid-rainy-season"
       ],
-      "last_iteration": 39
+      "last_iteration": 46
     },
     "Mexico": {
       "tier": null,
@@ -913,7 +913,7 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 10,
+  "verification_queue_size": 5,
   "sources_count": 249,
   "claims_count": 194,
   "proposals_pending": 0

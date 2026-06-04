@@ -3,6 +3,12 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-04
 ---
+## 2026-06-04 — run-046
+- Verification batch: resolved 5 legal/entry-protection blockers (`vq-051`, `vq-054`, `vq-062`, `vq-064`, `vq-066`).
+- Georgia, Albania, Panama, North Macedonia, and Bosnia and Herzegovina now state conservative screening baselines: short entry is for scouting only, no uncaptured Ukraine protection bridge should be relied on, and ordinary residence must carry the plan.
+- Sources added: none.
+- Verification queue: 10 -> 5 pending/open; next can return to country-deep-dive rotation with Malaysia unless another priority appears.
+
 ## 2026-06-04 — run-045
 - UAE: created profile and claims; depth_score 0 -> 1.5 (5.2 completed; 5.1 partial).
 - Legalization first pass captured Ukrainian short-stay entry from Emirates, GDRFA virtual-work visa threshold/duration/family baseline, ICP Green Residence freelancer threshold, Golden Visa route-fit caveat, and nomination-only citizenship baseline.

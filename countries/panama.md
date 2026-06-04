@@ -2,13 +2,13 @@
 country: Panama
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-03T00:00:00Z
+last_updated: 2026-06-04T19:46:13Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["official-ukraine-entry-table-gap", "remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season"]
+risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season"]
 sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests Panama is useful as a short-to-medium-term remote-work base because the official remote-worker visa fits exactly USD 3,000/month foreign-source income, but it is a non-resident short-stay route and not a clean permanent-residence/citizenship ladder by itself. [src-199]
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-03T00:00:00Z
+- **Last updated**: 2026-06-04T19:46:13Z
 - **Tier rationale**: keep as Tier-2 hint only if a separate residence route can be made realistic. The likely long-term routes require a Panama employer/professional file, friendly-nations economic/professional activity, or investment/family facts not yet proven for this Ukrainian remote-IT couple. [src-198][src-200]
 
 ## Block 2 - Scoring
@@ -39,13 +39,13 @@ schema_version: 2.0.0
 
 ## Block 3 - Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-03, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-04, dod: partial}
 
-> **DoD status**: partial. Official sources capture general tourist requirements, remote-worker visa requirements, the migration-permits catalogue, and some permanent-residence categories. Missing: official Ukraine-specific entry/visa table, PR/citizenship timing, and Polish `karta pobytu` administration. `vq-063` is closed to the conservative operational baseline: the remote-worker visa is a 9+9 month non-resident bridge, and a separate ordinary residence route must be proven before relocation.
+> **DoD status**: partial. Official sources capture general tourist requirements, remote-worker visa requirements, the migration-permits catalogue, and some permanent-residence categories. `vq-062` is closed to a screening baseline: Ukraine-specific entry-table capture is an application-prep item, but long-term planning must not rely on tourist status. `vq-063` is closed to the conservative operational baseline: the remote-worker visa is a 9+9 month non-resident bridge, and a separate ordinary residence route must be proven before relocation. Missing: PR/citizenship timing and Polish `karta pobytu` administration.
 
 #### Now (until 03.2027)
 
-- **Tourist entry baseline**: a reputable passport/visa aggregator lists Panama among visa-free destinations for Ukrainian passport holders. This is not official-primary evidence, so the operational baseline is only medium confidence until Panama's consular / migration country table is captured. [src-197]
+- **Tourist entry baseline (`vq-062` closure)**: a reputable passport/visa aggregator lists Panama among visa-free destinations for Ukrainian passport holders. This is not official-primary evidence, but for screening the safe answer is that tourist entry is only for scouting and cannot solve post-2027 residence. Before travel, still check Panama's consular / migration country table for Ukraine-specific duration and extension mechanics. [src-197]
 - **General tourist requirements**: Panama's National Migration Service tourist page states that foreigners must enter through authorized posts, present a valid passport/travel document and entry visa where required, undergo interview/biometric/document checks, have economic solvency for the stay, and hold a return/onward ticket when the category requires it. [src-201]
 - **Tourist visa if required**: the official tourist-visa checklist says tourist visas are issued for a term not exceeding **90 days** and require a passport with at least 3 months' validity, onward itinerary, ID/residence card from country of domicile, photos, B/.50 service fee, and solvency proof of at least **B/.500**. [src-201]
 - **Remote-worker visa**: Panama has an official **Visa de Corta Estancia como Trabajador Remoto** in the non-resident category. It applies to a foreign-company employee or self-employed worker performing telework whose functions take effect abroad and whose income comes from foreign sources. The threshold is **B/.36,000/year** or **B/.3,000/month**. This exactly matches the couple's approximate gross income but leaves little buffer if proof must be strict. [src-199]
@@ -75,7 +75,7 @@ schema_version: 2.0.0
 
 #### Personal playbook for our couple
 
-1. **Do not rely on tourist entry alone**: first verify an official Panama country table for Ukrainian citizens and the maximum visa-free stay / extension mechanics. [src-197][src-201]
+1. **Do not rely on tourist entry alone**: for screening, tourist status is only a scouting bridge; before travel, verify an official Panama country table for Ukrainian citizens and maximum stay / extension mechanics. [src-197][src-201]
 2. **Bridge route**: if Panama is used as a post-EU-TP fallback, prepare a remote-worker visa file: foreign-client contracts, invoices, bank statements, proof of at least B/.36,000/year foreign-source income, health insurance covering Panama, police certificate, health certificate, notarized power/application, and no-local-work sworn declaration. [src-199]
 3. **Income risk**: B/.3,000/month is exactly the stated floor. Build a buffer above USD 3,000/month or have extra bank evidence before treating the route as safe. [src-199]
 4. **Long-term route**: before moving, get a Panama immigration lawyer to test whether Ukrainian nationality can use friendly-countries residence, foreign-professional residence, or another ordinary route after/alongside remote-worker status. Until then, score Panama as remote-worker bridge + unproven PR route. [src-198][src-200]
@@ -160,14 +160,14 @@ Panama is tropical: the core comfort problem is not winter but heat, humidity, r
 
 **Cons / risks**:
 - Remote-worker visa is a short-stay non-resident bridge, not a proven PR route. [src-198][src-199]
-- Ukraine-specific official entry table was not captured in this pass. [verification required]
+- Ukraine-specific official entry table should still be checked before travel, but this is no longer a core screening blocker because tourist status is not the long-term route.
 - The USD 3,000/month budget sits exactly at the remote-worker threshold, leaving little margin. [src-199]
 - Very humid/rainy/cloudy climate in the practical lowland cities. [src-202]
 
 ## Block 6 - Practical playbook (working relocation guide)
 
 ### 6a. Before the move (what to prepare in Ukraine / Poland)
-- Confirm official Panama entry rule for Ukrainian citizens and whether visa-free stay is accepted for the intended filing sequence. [verification required]
+- Confirm official Panama entry rule for Ukrainian citizens and whether visa-free stay is accepted for the intended filing sequence before travel; do not treat it as the residence plan.
 - Prepare passport copies, police certificates, health certificate, medical insurance covering Panama, bank statements, client/employer letters, proof of foreign-source income, and notarized translations/legalizations as advised by counsel. [src-199]
 - If marrying, prepare marriage certificate with apostille/legalization and Spanish translation; captured dependent language is spouse-focused. [src-200]
 - Check Polish `karta pobytu` absence/notification obligations separately. [verification required]
@@ -225,10 +225,10 @@ _(none yet)_
 - [src-203] WeatherSpark Boquete/Guayabal climate page.
 
 ### 7e. Not found
-- Official Panama / consular country table showing the current Ukraine-specific entry rule and exact visa-free duration.
+- Official Panama / consular country table showing the current Ukraine-specific entry rule and exact visa-free duration remains useful before travel; `vq-062` is closed for screening to the tourist-status-is-not-residence baseline.
 - Confirmed country list / lawyer opinion for whether Ukrainians can use friendly-countries residence and whether foreign-professional residence fits a foreign-client IT worker; the screening baseline is negative/unknown until proven.
 - Route-specific remote-worker dependent checklist; the screening baseline is marriage for any later ordinary dependent file and no confirmed unmarried-partner route.
 
 ## Block 8 - Open questions and verification markers
 
-- `vq-062` — official Panama entry / visa table for Ukrainian citizens and exact allowed stay / extension mechanics.
+_(none for current screening depth; Ukraine-specific entry duration can be rechecked before travel.)

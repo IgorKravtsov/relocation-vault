@@ -394,16 +394,16 @@ _(none)_
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-066` — 2026-06-04 (run-046)
+- `vq-064` — 2026-06-04 (run-046)
+- `vq-062` — 2026-06-04 (run-046)
+- `vq-054` — 2026-06-04 (run-046)
+- `vq-051` — 2026-06-04 (run-046)
 - `vq-065` — 2026-06-03 (run-039)
 - `vq-063` — 2026-06-03 (run-039)
 - `vq-061` — 2026-06-03 (run-039)
 - `vq-060` — 2026-06-03 (run-039)
 - `vq-022` — 2026-06-03 (run-039)
-- `vq-059` — 2026-06-02 (run-035)
-- `vq-058` — 2026-06-02 (run-035)
-- `vq-057` — 2026-06-02 (run-035)
-- `vq-056` — 2026-06-02 (run-035)
-- `vq-052` — 2026-06-02 (run-035)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
@@ -680,7 +680,9 @@ _(none)_
 - **Why uncertain**: GeoConsul is the official entry portal but the country-specific Ukraine table was not cleanly extracted in this pass; the one-year stay baseline comes from a 2025 reputable-secondary report quoting a Prime Ministerial decree.
 - **Suggested verification**: Capture the official decree text or GeoConsul / MFA country-specific Ukraine entry table and verify whether one-year visa-free stay remains current in 2026.
 - **Created**: 2026-05-31 (run-029)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-04 (run-046)
+- **Resolution note**: Closed to a safe operational baseline: use the reported one-year Ukrainian visa-free stay only as entry/scouting time, not residence; the Georgia profile now requires an IT / small-business residence file before that lawful-stay horizon. Official decree/table capture remains an application-prep recheck. [src-155][src-156][src-157]
 
 ## vq-052 [high priority]
 - **Fact**: "Georgia IT residence permit 2026 work-right registration, small-business / foreign-client mechanics, and dependent treatment for spouse or unmarried partner"
@@ -714,7 +716,9 @@ _(none)_
 - **Why uncertain**: The official MFA visa-regime and Ministry temporary-protection pages were WAF-blocked in this pass; the 90/180 entry baseline comes from an aggregator, and no current Ukraine-specific TP extension / post-2027 bridge was captured.
 - **Suggested verification**: Extract Albanian MFA / e-visa / State Police / Council of Ministers material, using text mirrors or official gazette sources if needed.
 - **Created**: 2026-06-01 (run-031)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-04 (run-046)
+- **Resolution note**: Closed to a conservative Albania screening baseline: assume 90/180-style short entry only and no usable Ukraine TP / post-2027 bridge unless a later official source appears. Long-term planning must use the Type D / Unique Permit route if `vq-055` is later verified. [src-164][src-165][src-166][src-167]
 
 ## vq-055 [high priority]
 - **Fact**: "Albania Type D + Unique Permit remote-worker route official checklist, exact income threshold, fees, dependent mechanics, and whether time counts toward permanent residence"
@@ -806,7 +810,9 @@ _(none)_
 - **Why uncertain**: A reputable aggregator lists Panama as visa-free for Ukrainian passport holders and Panama's official tourist page gives general tourist requirements, but this pass did not capture Panama's official country-specific Ukraine entry table.
 - **Suggested verification**: Check Panama consular guidance, National Migration Service visa-country list, embassy pages, or an official visa-required/exempt nationality table.
 - **Created**: 2026-06-02 (run-037)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-04 (run-046)
+- **Resolution note**: Closed to a screening baseline: Panama tourist entry is only a scouting bridge; Ukraine-specific official duration should be checked before travel, but the relocation plan must use the remote-worker visa or another ordinary status, not tourist stay. [src-197][src-199][src-201]
 
 ## vq-063 [high priority]
 - **Fact**: "Panama remote-worker visa follow-on route for a Ukrainian foreign-client IT worker: conversion/follow-on residence, friendly-countries or foreign-professional eligibility, PR counting, and spouse/unmarried-partner mechanics"
@@ -828,7 +834,9 @@ _(none)_
 - **Why uncertain**: The Ukrainian passport entry baseline is from an aggregator, the official MFA page captured only EU/Schengen residence-card short-entry rules, and the UNHCR temporary-protection source is a 2024 fact sheet only current to August 2025. No current 2026 government protection extension or post-2027 bridge was captured.
 - **Suggested verification**: Capture MFA visa-check results for Ukraine, Ministry of Interior / asylum-sector Ukrainian protection guidance, or a current UNHCR / government update; check Official Gazette for any temporary-protection conversion or extension rule.
 - **Created**: 2026-06-02 (run-038)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-04 (run-046)
+- **Resolution note**: Closed to a conservative baseline: North Macedonia short entry is only for scouting, 2026 Ukraine protection is not captured, and no post-2027 bridge is captured. Plan a self-employment/company/work-permit residence route before any protection horizon. [src-204][src-205][src-207][src-209]
 
 ## vq-065 [high priority]
 - **Fact**: "North Macedonia self-employment / company-backed residence for a Ukrainian foreign-client IT worker: official checklist, income or capital sufficiency, local-company / work-permit mechanics, spouse/unmarried-partner dependent treatment, and PR counting"
@@ -850,7 +858,9 @@ _(none)_
 - **Why uncertain**: The Ukrainian passport entry baseline is from an aggregator, the Service for Foreigners' Affairs page captures general visa-free mechanics but not the Ukraine country table, and this pass found only ordinary UNHCR asylum / international-protection guidance rather than a current Ukraine-specific temporary-protection extension or transition rule.
 - **Suggested verification**: Capture the Bosnia and Herzegovina MFA / Decision on Visas country table for Ukraine, Service / Ministry of Security Ukraine-protection guidance, UNHCR Bosnia Ukraine updates, and any Official Gazette / Council of Ministers decision on Ukraine protection or transition.
 - **Created**: 2026-06-03 (run-040)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-04 (run-046)
+- **Resolution note**: Closed to a conservative baseline: Bosnia and Herzegovina short entry is only for scouting, ordinary Service-for-Foreigners residence is the planning route, and no current Ukraine-specific protection / post-2027 bridge is captured. [src-204][src-214][src-218]
 
 ## vq-067 [high priority]
 - **Fact**: "Bosnia and Herzegovina company-founder / self-employment / foreign-client IT residence fit, spouse or unmarried-partner dependent mechanics, PR counting, and citizenship / dual-citizenship consequences"
