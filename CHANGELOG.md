@@ -3,6 +3,14 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-04
 ---
+## 2026-06-04 — run-047
+- Malaysia: created profile and claims; depth_score 0 -> 1.0 (5.1 and 5.2 partial).
+- Legalization first pass captured DE Rantau as an official remote-work bridge with USD 24,000/year tech-income threshold, spouse/children dependent baseline, 24-month cap, Entry Permit PR anchor, and Article 19 citizenship baseline.
+- Climate first pass captured Malaysia / Kuala Lumpur hot-humid-rainy baselines and Penang / Johor Bahru comfort caveats; direct sunny-day counts remain queued.
+- Sources added: src-251 through src-256.
+- Claims added: claim-malaysia-001 through claim-malaysia-006.
+- Verification queue: 5 -> 8 (added vq-076, vq-077, vq-078); next can continue depth-0 rotation with Thailand.
+
 ## 2026-06-04 — run-046
 - Verification batch: resolved 5 legal/entry-protection blockers (`vq-051`, `vq-054`, `vq-062`, `vq-064`, `vq-066`).
 - Georgia, Albania, Panama, North Macedonia, and Bosnia and Herzegovina now state conservative screening baselines: short entry is for scouting only, no uncaptured Ukraine protection bridge should be relied on, and ordinary residence must carry the plan.

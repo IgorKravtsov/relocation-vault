@@ -1,0 +1,54 @@
+- id: claim-malaysia-001
+  topic: derantau_tech_income_threshold
+  value: 24000
+  unit: USD/year
+  source: src-253
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [digital-nomad, de-rantau, income-threshold, remote-work, tech]
+  notes: "MDEC lists Tech Talent/Profession applicants as needing more than USD 24,000 per year; the couple's roughly USD 36,000/year income is above this threshold if accepted as tech-professional income."
+
+- id: claim-malaysia-002
+  topic: derantau_duration_and_renewal
+  value: "DE Rantau is a Professional Visit Pass valid for 3 to 12 months, renewable for an additional 12 months, allowing a total stay of up to 24 months."
+  source: src-253
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [digital-nomad, de-rantau, duration, bridge-route]
+  notes: "This makes DE Rantau a bridge/base route rather than a durable residence ladder by itself."
+
+- id: claim-malaysia-003
+  topic: derantau_dependents_and_application_location
+  value: "DE Rantau allows spouse and children as dependents, plus parent(s) for the main pass holder, and the applicant does not need to be in Malaysia to apply."
+  source: src-253
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [digital-nomad, dependents, spouse, application]
+  notes: "Unmarried partner treatment was not captured; use marriage as the conservative dependent baseline."
+
+- id: claim-malaysia-004
+  topic: malaysia_entry_permit_pr_baseline
+  value: "Malaysia's Entry Permit is the no-time-limit permanent-residence facility; the public page lists Malaysian-citizen spouse, Malaysian-citizen child, and fully foreign national categories, but this pass did not extract a predictable DE Rantau-to-PR ladder."
+  source: src-254
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [permanent-residence, entry-permit, long-term]
+  notes: "Further verification is needed for the fully foreign national pathway and whether DE Rantau / Professional Visit Pass time helps."
+
+- id: claim-malaysia-005
+  topic: malaysia_citizenship_article_19
+  value: "Article 19 naturalization requires age 21+, at least 10 years residence in a 12-year period including the immediate 12 months before application, intention to reside permanently, good character, Malay language knowledge, two citizen referees, and Form C filing."
+  source: src-255
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [citizenship, naturalization, residence-period, language]
+  notes: "Naturalization is a long-horizon route and depends on first obtaining a durable lawful status / entry permit baseline."
+
+- id: claim-malaysia-006
+  topic: malaysia_climate_first_pass
+  value: "Malaysia is equatorial: hot, humid, and rainy year-round. Kuala Lumpur averages about 23.8/32.6 C in January and 24.4/32.8 C in July, with about 2,200 sunshine hours/year; west-coast Penang is least rainy around January-February and Johor Bahru has no clearly dry period."
+  source: src-256
+  date_verified: 2026-06-04
+  confidence: medium
+  tags: [climate, temperature, humidity, sunshine-hours, rainfall]
+  notes: "Direct sunny/clear-day counts were not captured, so section 5.2 remains partial pending vq-078."

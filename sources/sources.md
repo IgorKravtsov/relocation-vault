@@ -3016,3 +3016,75 @@ Each source entry:
 - **Facts supporting**: Dubai / Abu Dhabi / Al Fujayrah / Al Ain high-low temperatures, muggy-day burden, clearer-sky percentages, and annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-uae-006)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-251
+- **Title**: Malaysian Immigration Department — Visa Requirement by Country
+- **URL**: https://www.imi.gov.my/index.php/en/main-services/visa/visa-requirement-by-country/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: Malaysia
+- **Facts supporting**: official visa-requirement list target; this pass did not cleanly extract Ukraine's row/status, so Ukrainian short-stay treatment remains queued as an official-table verification item
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-04
+
+## src-252
+- **Title**: Malaysian Immigration Department — Malaysia Digital Arrival Card (MDAC)
+- **URL**: https://imigresen-online.imi.gov.my/mdac/main?registerMain
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: Malaysia
+- **Facts supporting**: MDAC filing portal includes Ukraine as a nationality option for arrival-card registration, but it does not by itself establish visa-free duration
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-04
+
+## src-253
+- **Title**: Malaysia Digital Economy Corporation — DE Rantau Foreign Digital Nomad Pass
+- **URL**: https://mdec.my/derantau/foreign
+- **Archive**: stable official programme domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: Malaysia
+- **Facts supporting**: DE Rantau / Professional Visit Pass for foreign digital nomads; 3-12 month stay, renewable up to 24 months total; tech-professional annual-income threshold above USD 24,000; non-tech threshold above USD 60,000; spouse/children and main-holder parents as dependents; application from outside Malaysia; all nationalities except Israel (claim-malaysia-001 through claim-malaysia-003)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-04
+
+## src-254
+- **Title**: Malaysian Immigration Department — Entry Permit
+- **URL**: https://www.imi.gov.my/index.php/en/main-services/permit/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: Malaysia
+- **Facts supporting**: Entry Permit as Malaysia's no-time-limit permanent-residence facility; categories include Malaysian-citizen spouse, Malaysian-citizen child, and fully foreign national (claim-malaysia-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-04
+
+## src-255
+- **Title**: National Registration Department Malaysia — Citizenship under Article 19 of the Federal Constitution, aged 21 and older
+- **URL**: https://www.jpn.gov.my/en/core-business/citizenship/warga-19-21lebih-eng
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: Malaysia
+- **Facts supporting**: naturalization conditions: age 21+, 10 years residence in a 12-year period including the immediate 12 months, intention to reside permanently, good character, Malay language knowledge, two citizen referees, and Form C filing (claim-malaysia-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-04
+
+## src-256
+- **Title**: Climate to Travel — Malaysia and Kuala Lumpur climate baselines
+- **URL**: https://www.climatestotravel.com/climate/malaysia ; https://www.climatestotravel.com/climate/malaysia/kuala-lumpur
+- **Archive**: [archive: failed 2026-06-04; not attempted within iteration budget]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: Malaysia
+- **Facts supporting**: Malaysia equatorial hot/humid/rainy baseline; Kuala Lumpur January/July temperatures, rainfall, rain days and 2,200 annual sunshine hours; west-coast Penang / Johor Bahru qualitative rainfall-season comfort caveats (claim-malaysia-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

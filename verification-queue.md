@@ -921,3 +921,33 @@ _(none)_
 - **Status**: resolved
 - **Resolved**: 2026-06-04 (run-043)
 - **Resolution note**: Mexico profile now closes the route-fit blocker for screening: no DN visa captured; use temporary residence by economic solvency only if the serving consulate threshold or savings route fits. The rough 2026 income benchmark is above USD 3,000/month, and partner planning should be spouse-first or independent until confirmed. [src-227][src-229]
+
+## vq-076 [high priority]
+- **Fact**: "Malaysia current official Ukrainian-passport short-stay entry rule, exact visa-free / eVisa requirement, stay duration, and whether MDAC is sufficient before travel"
+- **Country**: Malaysia
+- **Section**: 5.1
+- **Current source**: src-251, src-252
+- **Why uncertain**: The official visa-requirement page was captured as the right table target, and MDAC includes Ukraine as a nationality option, but this pass did not cleanly extract Ukraine's exact row/status or stay duration.
+- **Suggested verification**: Capture a readable Malaysian Immigration visa table row for Ukraine, test MYVISA/eVISA eligibility if needed, and cross-check the Malaysian embassy / airline TIMATIC before travel.
+- **Created**: 2026-06-04 (run-047)
+- **Status**: pending
+
+## vq-077 [high priority]
+- **Fact**: "Malaysia DE Rantau post-24-month options, PR / Entry Permit fit for a foreign-client IT worker, Professional Visit Pass time-counting, spouse/unmarried-partner mechanics, and durable residence alternatives"
+- **Country**: Malaysia
+- **Section**: 5.1
+- **Current source**: src-253, src-254, src-255
+- **Why uncertain**: DE Rantau is official and fits the current IT income, but it is capped at 24 months total and this pass did not capture a predictable route from DE Rantau into Employment Pass, Residence Pass-Talent, Entry Permit, MM2H, or citizenship-qualifying residence.
+- **Suggested verification**: Check MDEC / Immigration DE Rantau FAQ PDFs, Residence Pass-Talent and MM2H rules, Entry Permit fully foreign national guidelines, and current immigration-lawyer guidance on remote foreign-client workers and dependent/unmarried-partner treatment.
+- **Created**: 2026-06-04 (run-047)
+- **Status**: pending
+
+## vq-078 [medium priority]
+- **Fact**: "Direct annual sunny-day or clear-day counts for Kuala Lumpur, Penang/George Town, and Johor Bahru"
+- **Country**: Malaysia
+- **Section**: 5.2
+- **Current source**: src-256
+- **Why uncertain**: Climate to Travel provides temperatures, rainfall, humidity, and sunshine hours, but not direct sunny/clear-day counts for the three target cities.
+- **Suggested verification**: Find WeatherSpark readable snippets/caches, meteoblue chart data, Malaysia Met Department climate normals, or another statistical source with explicit annual clear/sunny-day counts or a defensible clearer-sky proxy.
+- **Created**: 2026-06-04 (run-047)
+- **Status**: pending

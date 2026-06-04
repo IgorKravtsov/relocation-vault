@@ -1,26 +1,27 @@
 {
   "version": 2,
-  "iteration": 46,
+  "iteration": 47,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-04T19:46:13Z",
+  "last_run_timestamp": "2026-06-04T22:59:08Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
+    "mode": "country-deep-dive",
+    "country": "Malaysia",
     "sections": [
-      "5.1"
+      "5.1",
+      "5.2"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Malaysia",
+    "suggested_country": "Thailand",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Verification queue is back below the active threshold; continue depth-0 rotation with the next unresearched Tier-3-hint country."
+    "reason": "Continue depth-0 rotation with the next unresearched Tier-3-hint country; verification queue remains below the active threshold."
   },
   "countries": {
     "Spain": {
@@ -805,12 +806,13 @@
     "Malaysia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 0,
+      "depth_score": 1.0,
       "sections_completed": [],
-      "sections_partial": [],
-      "sections_pending": [
+      "sections_partial": [
         "5.1",
-        "5.2",
+        "5.2"
+      ],
+      "sections_pending": [
         "5.3",
         "5.4",
         "5.5",
@@ -821,8 +823,13 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "derantau-bridge-only",
+        "pr-ladder-unclear",
+        "official-ukraine-entry-table-gap",
+        "hot-humid-rainy-year-round"
+      ],
+      "last_iteration": 47
     },
     "Thailand": {
       "tier": null,
@@ -913,8 +920,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 5,
-  "sources_count": 249,
-  "claims_count": 194,
+  "verification_queue_size": 8,
+  "sources_count": 255,
+  "claims_count": 200,
   "proposals_pending": 0
 }
