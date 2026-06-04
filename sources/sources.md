@@ -2920,3 +2920,99 @@ Each source entry:
 - **Facts supporting**: Buenos Aires / San Miguel de Tucuman / Mendoza / Ushuaia high-low temperatures, clearer-sky percentages, muggy-day burden, wind speeds, and clearer-sky day-equivalent proxies calculated from monthly percentages (claim-argentina-006)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-243
+- **Title**: Emirates — UAE visa information
+- **URL**: https://www.emirates.com/ua/english/before-you-fly/visa-passport-information/uae-visa-information/
+- **Archive**: [archive: failed 2026-06-04; text mirror used for extraction]
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: UAE
+- **Facts supporting**: Ukraine ordinary-passport 30-day visa-on-arrival operational baseline for short UAE scouting entry; generic UAE visa and sponsorship context (claim-uae-001)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-04
+
+## src-244
+- **Title**: GDRFA Dubai — Visa Issuance (Virtual Work)
+- **URL**: https://gdrfad.gov.ae/en/services/64154a31-ec6d-11ec-140b-0050569629e8
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: UAE
+- **Facts supporting**: virtual-work visa scope for remote employment without UAE employment; passport, foreign-entity remote-work proof, USD 3,500/month income, health-insurance requirements; one-year extendable residence; family sponsorship for same period; visa fee baseline (claim-uae-002, claim-uae-003)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-04
+
+## src-245
+- **Title**: ICP UAE — Green Residency
+- **URL**: https://icp.gov.ae/en/green-residency/
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2025-09-04
+- **Date accessed**: 2026-06-04
+- **Used by**: UAE
+- **Facts supporting**: Green Residence 5-year renewable self-sponsored status; family sponsorship; freelancer/self-employed eligibility; MOHRE permit / bachelor's or specialized diploma / AED 360,000 annual freelancing income or financial-solvency baseline; skilled-professional AED 15,000/month baseline (claim-uae-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-04
+
+## src-246
+- **Title**: UAE Government — Residence visa for doing business in the UAE / Green visa
+- **URL**: https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-doing-business-in-the-uae
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: UAE
+- **Facts supporting**: Green visa benefits: renewable 5-year residence, no sponsor required, family sponsorship for spouse and children, and eligible categories including freelancers/self-employed and investors/business partners
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-04
+
+## src-247
+- **Title**: UAE Government — Golden visa
+- **URL**: https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/golden-visa
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: updated 2026-02-26
+- **Date accessed**: 2026-06-04
+- **Used by**: UAE
+- **Facts supporting**: 5- or 10-year Golden Visa categories and benefits, including no sponsor, extended time outside UAE, and family sponsorship for spouse and children
+- **Confidence ceiling**: high
+- **Stale at**: 2027-02-26
+
+## src-248
+- **Title**: UAE Government — Emirati nationality
+- **URL**: https://u.ae/en/information-and-services/passports-and-traveling/emirati-nationality
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: UAE
+- **Facts supporting**: nomination-based UAE citizenship categories, spouse/children coverage, original-nationality retention, and acquisition only through Rulers' and Crown Princes' Courts / Executive Councils / Cabinet nomination channels (claim-uae-005)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-04
+
+## src-249
+- **Title**: Climate to Travel — Dubai climate
+- **URL**: https://www.climatestotravel.com/climate/united-arab-emirates/dubai
+- **Archive**: [archive: failed 2026-06-04; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: UAE
+- **Facts supporting**: Dubai subtropical desert climate, January/July-August average temperature range, monthly temperature table, humidity and oppressive summer comfort caveats (claim-uae-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-250
+- **Title**: WeatherSpark — UAE country climate comparison
+- **URL**: https://weatherspark.com/countries/AE
+- **Archive**: [archive: failed 2026-06-04; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-04
+- **Used by**: UAE
+- **Facts supporting**: Dubai / Abu Dhabi / Al Fujayrah / Al Ain high-low temperatures, muggy-day burden, clearer-sky percentages, and annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-uae-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

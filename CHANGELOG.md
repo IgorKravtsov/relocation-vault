@@ -3,6 +3,14 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-04
 ---
+## 2026-06-04 — run-045
+- UAE: created profile and claims; depth_score 0 -> 1.5 (5.2 completed; 5.1 partial).
+- Legalization first pass captured Ukrainian short-stay entry from Emirates, GDRFA virtual-work visa threshold/duration/family baseline, ICP Green Residence freelancer threshold, Golden Visa route-fit caveat, and nomination-only citizenship baseline.
+- Climate pass completed Dubai, Abu Dhabi, Al Fujayrah, and Al Ain with winter/summer temperature baselines, humid heat caveats, and WeatherSpark clearer-sky day-equivalent proxies.
+- Sources added: src-243 through src-250.
+- Claims added: claim-uae-001 through claim-uae-006.
+- Verification queue: 8 -> 10 (added vq-074, vq-075); next mode should be verification because the queue is at the active threshold.
+
 ## 2026-06-04 — run-044
 - Argentina: created profile and claims; depth_score 0 -> 1.5 (5.2 completed; 5.1 partial).
 - Legalization first pass captured the official DN transitory residence / TIE / extension route, Argentina residence-category baselines, rentista route-fit caveat, and updated Law 346 citizenship baseline.

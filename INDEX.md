@@ -37,7 +37,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Panama | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 39 | `countries/panama.md` |
 | Mexico | latin-america | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 42 | `countries/mexico.md` |
 | Argentina | latin-america | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 44 | `countries/argentina.md` |
-| UAE | middle-east-asia | 3 | — | 0 | — | — | — |
+| UAE | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 45 | `countries/uae.md` |
 | Malaysia | middle-east-asia | 3 | — | 0 | — | — | — |
 | Thailand | middle-east-asia | 3 | — | 0 | — | — | — |
 | Indonesia | middle-east-asia | 3 | — | 0 | — | — | — |
@@ -50,5 +50,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 1 hints**: 7 (Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta)
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
-- **Researched**: 27
-- **Average depth_score**: 1.27
+- **Researched**: 28
+- **Average depth_score**: 1.32

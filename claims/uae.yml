@@ -1,0 +1,55 @@
+- id: claim-uae-001
+  topic: ukrainian_short_stay_entry
+  value: "Emirates' UAE visa page lists Ukraine under 30-day visa-on-arrival eligibility: no advance visa arrangements and a free 30-day visit visa stamped at Dubai immigration."
+  source: src-243
+  date_verified: 2026-06-04
+  confidence: medium
+  tags: [entry, ukrainians, visa-on-arrival, tourist]
+  notes: "Strong operational airline guidance, but official UAE nationality-selector capture is queued before relying on it for filing logistics."
+
+- id: claim-uae-002
+  topic: virtual_work_income_threshold
+  value: 3500
+  unit: USD/month
+  source: src-244
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [virtual-work, digital-nomad, income-threshold, remote-work]
+  notes: "GDRFA Dubai requires proof of monthly income of no less than USD 3,500 or equivalent for virtual work."
+
+- id: claim-uae-003
+  topic: virtual_work_duration_and_family
+  value: "The virtual-work residence has a one-year extendable period from issuance and allows family sponsorship for the same period."
+  source: src-244
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [virtual-work, duration, family-sponsorship]
+  notes: "Core route works as a bridge if the sponsor meets the income and insurance requirements."
+
+- id: claim-uae-004
+  topic: green_residence_freelancer_threshold
+  value: 360000
+  unit: AED/year
+  source: src-245
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [green-residence, freelancer, income-threshold, self-employment]
+  notes: "ICP says annual income from freelancing must not be less than AED 360,000 in the past two years or equivalent."
+
+- id: claim-uae-005
+  topic: citizenship_nomination_only_baseline
+  value: "UAE citizenship for foreigners is limited to nominated exceptional categories and is acquired only through Rulers' and Crown Princes' Courts, Executive Councils, and Cabinet nomination processes."
+  source: src-248
+  date_verified: 2026-06-04
+  confidence: high
+  tags: [citizenship, naturalization, nomination, long-term]
+  notes: "Not a predictable ordinary residence-to-citizenship route for the couple."
+
+- id: claim-uae-006
+  topic: climate_clearer_sky_and_temperature_baseline
+  value: "WeatherSpark gives January/July high-low baselines of Dubai 75/58 F and 106/85 F, Abu Dhabi 73/61 F and 103/87 F, Al Fujayrah 76/62 F and 98/89 F, and Al Ain 75/54 F and 110/86 F; annual clearer-sky proxies are about Dubai 270, Abu Dhabi 267, Al Fujayrah 250, and Al Ain 279 day-equivalents."
+  source: src-250
+  date_verified: 2026-06-04
+  confidence: medium
+  tags: [climate, clear-sky, temperature, dubai, abu-dhabi, al-fujayrah, al-ain]
+  notes: "Clearer-sky values are WeatherSpark day-equivalent proxies, not official sunny-day counts; Climate to Travel confirms Dubai's oppressive humid summer heat."

@@ -205,6 +205,26 @@ _(none)_
 - **Created**: 2026-06-04 (run-044)
 - **Status**: pending
 
+## vq-074 [high priority]
+- **Fact**: "Official UAE nationality-selector / government entry-table confirmation of Ukrainian ordinary-passport short-stay eligibility and exact stay limit"
+- **Country**: UAE
+- **Section**: 5.1
+- **Current source**: src-243
+- **Why uncertain**: Emirates' operational visa page lists Ukraine under 30-day visa-on-arrival eligibility, but this first pass did not capture the official UAE Government nationality selector or GDRFA/ICP nationality table directly.
+- **Suggested verification**: Use the UAE Government 'Check if you need a visa' selector, GDRFA/ICP entry-permit guidance, or another official government table to confirm Ukraine placement and exact duration.
+- **Created**: 2026-06-04 (run-045)
+- **Status**: pending
+
+## vq-075 [high priority]
+- **Fact**: "Full UAE virtual-work residence-permit mechanics after entry, including Emirates ID, medical test, dependent documents, inside/outside-country filing, total fees, and whether unmarried partner sponsorship exists"
+- **Country**: UAE
+- **Section**: 5.1
+- **Current source**: src-244, src-246
+- **Why uncertain**: GDRFA captured the core virtual-work visa threshold and one-year/family baseline, but this pass did not fully extract the residence-permit issuance stage, dependent-document checklist, total costs, or unmarried-partner treatment.
+- **Suggested verification**: Check GDRFA 'Issuing residence permit (virtual work)', ICP services-details pages, Amer/GDRFA checklists, and current dependent sponsorship rules.
+- **Created**: 2026-06-04 (run-045)
+- **Status**: pending
+
 ## vq-015 [high priority]
 - **Fact**: "Croatia-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
 - **Country**: Croatia
