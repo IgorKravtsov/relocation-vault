@@ -1001,3 +1001,33 @@ _(none)_
 - **Suggested verification**: Capture Indonesian Immigration ITAP/permanent-stay pages, nationality-law guidance, and reputable legal commentary on whether E33G or other non-local-employer categories qualify for ITAP/citizenship and whether dual citizenship is restricted.
 - **Created**: 2026-06-05 (run-050)
 - **Status**: pending
+
+## vq-083 [high priority]
+- **Fact**: "Kazakhstan official-primary Neo Nomad / remote-work visa checklist, current visa category, income threshold, dependent mechanics, application channel, duration, renewal, and whether the route permits foreign-client IT without local work"
+- **Country**: Kazakhstan
+- **Section**: 5.1
+- **Current source**: src-269
+- **Why uncertain**: This first pass captured only a secondary Neo Nomad baseline and did not capture an official MFA / Ministry / eVisa / VMP checklist. The route may fit the couple's US$3,000/month profile, but it cannot be scored until the official threshold and family mechanics are verified.
+- **Suggested verification**: Capture Kazakhstan MFA / Ministry of Tourism / VMP / eVisa pages or current consular guidance for Neo Nomad, including income period, bank statements, insurance, criminal record, spouse/unmarried-partner treatment, filing channel, fees, duration, renewal, and local-work restrictions.
+- **Created**: 2026-06-05 (run-051)
+- **Status**: pending
+
+## vq-084 [high priority]
+- **Fact**: "Kazakhstan TRP / business-immigrant / self-employed route fit for a Ukrainian foreign-client IT worker, including whether a sole proprietor or small company without local employer or high capital can support residence"
+- **Country**: Kazakhstan
+- **Section**: 5.1
+- **Current source**: src-268, src-270
+- **Why uncertain**: eGov confirms CIS-citizen TRP purposes including labor, business-immigrant, family, and study, but this pass did not capture the practical checklist or eligibility fit for foreign-client IT income without local employment.
+- **Suggested verification**: Capture Kazakhstan business-immigrant TRP checklists, individual-entrepreneur registration rules for foreigners, work-permit exemptions, tax registration guidance, and current immigration-lawyer analysis for foreign-client IT files.
+- **Created**: 2026-06-05 (run-051)
+- **Status**: pending
+
+## vq-085 [high priority]
+- **Fact**: "Kazakhstan permanent residence and citizenship ladder for TRP / Neo Nomad / foreign-client IT, including residence-counting rules, qualifying statuses, income/savings proof, language/history tests, family filing, and dual-citizenship consequences for Ukrainians"
+- **Country**: Kazakhstan
+- **Section**: 5.1
+- **Current source**: src-270, src-271
+- **Why uncertain**: Adilet legal baselines were captured, but the exact ordinary PR checklist, qualifying temporary-status history, citizenship timing, and dual-citizenship consequences for this couple remain unresolved.
+- **Suggested verification**: Capture Ministry of Interior / eGov permanent residence permit guidance, Adilet implementing rules, citizenship application procedure pages, and counsel commentary on whether TRP / Neo Nomad / business-immigrant time counts toward PR/citizenship and whether Ukrainian citizenship must be renounced.
+- **Created**: 2026-06-05 (run-051)
+- **Status**: pending

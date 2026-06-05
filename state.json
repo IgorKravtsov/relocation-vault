@@ -1,27 +1,26 @@
 {
   "version": 2,
-  "iteration": 50,
+  "iteration": 51,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-05T08:28:47Z",
+  "last_run_timestamp": "2026-06-05T11:37:28Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Indonesia",
+    "country": "Kazakhstan",
     "sections": [
       "5.1",
       "5.2"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "country-deep-dive",
-    "suggested_country": "Kazakhstan",
+    "suggested_mode": "verification",
+    "suggested_country": null,
     "suggested_sections": [
-      "5.1",
-      "5.2"
+      "5.1"
     ],
-    "reason": "Pending verification queue remains below threshold; next fresh depth-0 Tier-3-hint country in the anti-clustering rotation."
+    "reason": "Pending/open verification queue reached the active threshold (10) after Kazakhstan added three legal blockers."
   },
   "countries": {
     "Spain": {
@@ -891,12 +890,14 @@
     "Kazakhstan": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 0,
-      "sections_completed": [],
-      "sections_partial": [],
+      "depth_score": 1.5,
+      "sections_completed": [
+        "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
+      ],
       "sections_pending": [
-        "5.1",
-        "5.2",
         "5.3",
         "5.4",
         "5.5",
@@ -907,8 +908,13 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "ordinary-trp-not-settlement",
+        "dn-route-secondary-sourced",
+        "pr-citizenship-ladder-unclear",
+        "cold-continental-winters"
+      ],
+      "last_iteration": 51
     },
     "Armenia": {
       "tier": null,
@@ -933,8 +939,8 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 7,
-  "sources_count": 265,
-  "claims_count": 211,
+  "verification_queue_size": 10,
+  "sources_count": 272,
+  "claims_count": 216,
   "proposals_pending": 0
 }

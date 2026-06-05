@@ -3208,3 +3208,87 @@ Each source entry:
 - **Facts supporting**: monthly clearer-sky percentages, precipitation days, muggy-day counts, and annual clearer-sky day-equivalent proxies for Jakarta, Surabaya, and Medan (claim-indonesia-005)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-267
+- **Title**: Kazakhstan MFA — Visa regime of the Republic of Kazakhstan for foreign citizens
+- **URL**: https://www.gov.kz/memleket/entities/mfa/press/article/details/6764?lang=en
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2022-11-11; updated 2026-04-28
+- **Date accessed**: 2026-06-05
+- **Used by**: Kazakhstan
+- **Facts supporting**: Ukrainian ordinary passport visa-free entry up to 90 days for Kazakhstan scouting / short-stay baseline (claim-kazakhstan-001)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-05
+
+## src-268
+- **Title**: eGov Kazakhstan — Rules for entry and exit from Kazakhstan for foreign nationals
+- **URL**: https://egov.kz/cms/en/articles/exit-entry_of_foreign_nationals
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown; migration digest prepared as of 2023-02
+- **Date accessed**: 2026-06-05
+- **Used by**: Kazakhstan
+- **Facts supporting**: arrival notification within 3 working days; TRP purposes and up-to-1-year duration for CIS citizens; IIN utility for banking/digital services; work-without-permit administrative risk (claim-kazakhstan-002)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-05
+
+## src-269
+- **Title**: Kazakhstan Neo Nomad visa first-pass secondary baseline
+- **URL**: https://astanatimes.com/ ; secondary reporting and search snippets reviewed for the 2024 Neo Nomad launch
+- **Archive**: [archive: failed 2026-06-05; official-primary page not captured]
+- **Type**: reputable-secondary
+- **Date published**: 2024-11 (reported launch period)
+- **Date accessed**: 2026-06-05
+- **Used by**: Kazakhstan
+- **Facts supporting**: medium-confidence placeholder for Neo Nomad / remote-work route: US$3,000/month income, health insurance, clean criminal record, foreign remote work, and possible bridge fit for the couple pending official-primary checklist capture (claim-kazakhstan-003)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-05
+
+## src-270
+- **Title**: Adilet — Law of the Republic of Kazakhstan On Migration
+- **URL**: https://adilet.zan.kz/eng/docs/Z1100000477
+- **Archive**: stable official legal database via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: current unofficial English translation; amendments through 2025 visible in source
+- **Date accessed**: 2026-06-05
+- **Used by**: Kazakhstan
+- **Facts supporting**: legal definition of residence permit and migration-law context for unresolved TRP / permanent-residence counting questions (claim-kazakhstan-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-05
+
+## src-271
+- **Title**: Adilet — Law of the Republic of Kazakhstan On Citizenship
+- **URL**: https://adilet.zan.kz/eng/docs/Z910004800_
+- **Archive**: stable official legal database via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: current unofficial English translation; amendments through 2025 visible in source
+- **Date accessed**: 2026-06-05
+- **Used by**: Kazakhstan
+- **Facts supporting**: citizenship-law baseline including non-recognition of another country's citizenship for Kazakh citizens and language / constitution / history screening caveats (claim-kazakhstan-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-05
+
+## src-272
+- **Title**: Climate to Travel — Kazakhstan and Almaty climate baselines
+- **URL**: https://www.climatestotravel.com/climate/kazakhstan ; https://www.climatestotravel.com/climate/kazakhstan/almaty
+- **Archive**: [archive: failed 2026-06-05; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Kazakhstan
+- **Facts supporting**: Kazakhstan continental-climate overview, extreme winter/summer comfort caveats, aridity/precipitation pattern, and Almaty January/July temperature and precipitation baseline (claim-kazakhstan-005)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-273
+- **Title**: WeatherSpark — Kazakhstan country climate comparison
+- **URL**: https://weatherspark.com/countries/KZ
+- **Archive**: [archive: failed 2026-06-05; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Kazakhstan
+- **Facts supporting**: monthly average high/low temperatures and clearer-sky percentages for Astana, Almaty, and Shymkent; annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-kazakhstan-005)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

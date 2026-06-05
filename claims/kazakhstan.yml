@@ -1,0 +1,44 @@
+- id: claim-kazakhstan-001
+  topic: kazakhstan_ukrainian_visa_free_entry
+  value: "Kazakhstan MFA's visa-regime table lists Ukraine ordinary passports as visa-free up to 90 days."
+  source: src-267
+  date_verified: 2026-06-05
+  confidence: high
+  tags: [entry, visa-free, ukraine, scouting]
+  notes: "This supports scouting and short stay only; long-stay residence still requires a Kazakhstan status."
+
+- id: claim-kazakhstan-002
+  topic: kazakhstan_arrival_notification_and_trp
+  value: "The receiving party must notify migration authorities within 3 working days of a foreign citizen's arrival; TRP is issued to CIS citizens for up to 1 year for labor activity, entrepreneurial activity as a business immigrant, family reunion, study, medical treatment, or missionary activity."
+  source: src-268
+  date_verified: 2026-06-05
+  confidence: high
+  tags: [arrival-notification, trp, cis, temporary-residence]
+  notes: "The source also states that IIN is needed for bank accounts, salary, digital signatures, public services, and payments."
+
+- id: claim-kazakhstan-003
+  topic: kazakhstan_neo_nomad_secondary_baseline
+  value: "A reputable-secondary first pass describes Kazakhstan's Neo Nomad route as a remote-work visa with a US$3,000/month income threshold, health insurance, clean criminal-record certificate, and foreign-client/foreign-employer work."
+  source: src-269
+  date_verified: 2026-06-05
+  confidence: medium
+  tags: [remote-worker, digital-nomad, income-threshold, verification-required]
+  notes: "Official-primary checklist / visa category / dependent mechanics were not captured in this iteration, so this cannot yet be used as a high-confidence settlement route."
+
+- id: claim-kazakhstan-004
+  topic: kazakhstan_pr_citizenship_unclear
+  value: "Kazakhstan migration and citizenship laws define residence-permit and citizenship concepts, and citizenship law says a Kazakh citizen is not recognized as a citizen of another country; this pass did not capture the exact PR-counting and ordinary naturalization mechanics for TRP / Neo Nomad / foreign-client IT."
+  source: src-270
+  date_verified: 2026-06-05
+  confidence: medium
+  tags: [permanent-residence, citizenship, dual-citizenship, verification-required]
+  notes: "Citizenship law source is src-271; claim anchored to the legal-baseline pair."
+
+- id: claim-kazakhstan-005
+  topic: kazakhstan_climate_first_pass
+  value: "Kazakhstan is markedly continental: Astana is about -4/12 F low/high in January and 57/79 F in July, Almaty about 13/29 F in January and 61/85 F in July, and Shymkent about 23/38 F in January and 65/92 F in July; WeatherSpark clearer-sky proxies are about 163, 220, and 235 day-equivalent days/year respectively."
+  source: src-273
+  date_verified: 2026-06-05
+  confidence: medium
+  tags: [climate, astana, almaty, shymkent, clearer-sky-proxy]
+  notes: "Climate to Travel source src-272 supports the broader continental-climate and winter-comfort caveats."

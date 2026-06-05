@@ -3,6 +3,15 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-05
 ---
+## 2026-06-05 — run-051
+- Kazakhstan: created profile and claims; depth_score 0 -> 1.5 (5.2 completed; 5.1 partial).
+- Legalization first pass captured official Ukrainian visa-free scouting up to 90 days, arrival-notification rules, and CIS-citizen TRP purposes; durable foreign-client IT residence remains unproven.
+- Neo Nomad / remote-work route is only secondary-sourced in this pass and queued for official-primary checklist verification.
+- Climate pass completed Astana, Almaty, and Shymkent with WeatherSpark clearer-sky proxies and flagged cold continental winters as the main comfort risk.
+- Sources added: src-267 through src-273.
+- Claims added: claim-kazakhstan-001 through claim-kazakhstan-005.
+- Verification queue: 7 -> 10 (added vq-083, vq-084, vq-085); next mode should be verification because the queue is at the active threshold.
+
 ## 2026-06-05 — run-050
 - Indonesia: created profile and claims; depth_score 0 -> 1.5 (5.2 completed; 5.1 partial).
 - Legalization first pass captured official VoA/e-VoA scouting eligibility for Ukraine/Poland and E33G remote-worker limited-stay route, but E33G requires US$60,000/year, above the couple's current income.
