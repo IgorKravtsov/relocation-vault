@@ -1,0 +1,44 @@
+- id: claim-indonesia-001
+  topic: indonesia_ukrainian_voa_subject
+  value: "Indonesia's official VoA / BVK / calling-visa subject-country list includes Ukraina and Polandia; the B1 visit visa on arrival permits a first stay up to 30 days, extendable once to 60 days total."
+  source: src-263
+  date_verified: 2026-06-05
+  confidence: high
+  tags: [entry, visa-on-arrival, ukraine, scouting]
+  notes: "B1 visitor status is for scouting/tourism; it does not create a long-stay residence path by itself."
+
+- id: claim-indonesia-002
+  topic: indonesia_b1_work_restriction
+  value: "Foreigners holding stay rights from Indonesia's B1 visit visa on arrival may not sell goods or services or receive compensation, wages, or similar payments from Indonesian persons or corporations."
+  source: src-263
+  date_verified: 2026-06-05
+  confidence: high
+  tags: [entry, visitor-status, work-restriction]
+  notes: "This supports using B1 only for reconnaissance and not for local-client work."
+
+- id: claim-indonesia-003
+  topic: indonesia_e33g_remote_worker_threshold
+  value: "Indonesia's E33G remote-worker limited-stay visa requires proof of salary or income of at least US$60,000/year and an employment agreement with a company established outside Indonesia."
+  source: src-264
+  date_verified: 2026-06-05
+  confidence: high
+  tags: [remote-worker, income-threshold, foreign-employer, limited-stay]
+  notes: "The couple's current roughly US$36,000/year income is below this threshold."
+
+- id: claim-indonesia-004
+  topic: indonesia_e33g_duration_fee_process
+  value: "Indonesia's E33G remote-worker visa gives a 1-year limited stay, can be extended online, costs Rp7,000,000 in the listed 1-year package, and has a stated processing time of five working days after visa payment."
+  source: src-264
+  date_verified: 2026-06-05
+  confidence: high
+  tags: [remote-worker, duration, fees, process, limited-stay]
+  notes: "The page also says the limited-stay permit and re-entry permit issue automatically after admission."
+
+- id: claim-indonesia-005
+  topic: indonesia_climate_first_pass
+  value: "Indonesia is generally hot, humid, and rainy year-round; Jakarta is about 75/87 F in January and 74/90 F in July, Surabaya about 76/90 F in January and 73/88 F in July, Bandung about 68/83 F in January and 65/84 F in July, and Bali/Denpasar about 77/87 F in January and 75/85 F in July."
+  source: src-265
+  date_verified: 2026-06-05
+  confidence: medium
+  tags: [climate, temperature, humidity, jakarta, surabaya, bandung, bali]
+  notes: "No winter issue, but humidity, rainfall, and flooding/monsoon comfort risks require later city selection. WeatherSpark clearer-sky proxies add about 77 day-equivalent days for Jakarta, 96 for Surabaya, and 39 for Medan."

@@ -3,6 +3,14 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-05
 ---
+## 2026-06-05 — run-050
+- Indonesia: created profile and claims; depth_score 0 -> 1.5 (5.2 completed; 5.1 partial).
+- Legalization first pass captured official VoA/e-VoA scouting eligibility for Ukraine/Poland and E33G remote-worker limited-stay route, but E33G requires US$60,000/year, above the couple's current income.
+- Climate pass completed Jakarta, Surabaya, Bandung, and Bali/Denpasar with temperature/rainfall/humidity baselines plus WeatherSpark clearer-sky proxies for Jakarta, Surabaya, and Medan.
+- Sources added: src-262 through src-266.
+- Claims added: claim-indonesia-001 through claim-indonesia-005.
+- Verification queue: 5 -> 7 (added vq-081, vq-082); next can continue depth-0 rotation with Kazakhstan.
+
 ## 2026-06-05 — run-049
 - Verification batch: resolved 5 legal/route blockers (`vq-073`, `vq-074`, `vq-075`, `vq-076`, `vq-077`).
 - Argentina now treats DN as bridge-only until a durable foreign-client IT temporary-residence category is confirmed.

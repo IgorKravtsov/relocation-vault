@@ -981,3 +981,23 @@ _(none)_
 - **Suggested verification**: Capture Thai Immigration permanent residence pages/PDFs, Special Branch or Ministry of Interior naturalization guidance, and reputable legal commentary on remote-worker eligibility, PR quotas, nationality requirements, and dual-nationality consequences.
 - **Created**: 2026-06-05 (run-048)
 - **Status**: pending
+
+## vq-081 [high priority]
+- **Fact**: "Indonesia E33G remote-worker route mechanics for spouse/dependent or unmarried-partner coverage, tax residence, and whether repeated E33G years can convert to or count toward durable residence"
+- **Country**: Indonesia
+- **Section**: 5.1
+- **Current source**: src-262, src-264
+- **Why uncertain**: The official E33G page captures the 1-year remote-worker limited-stay route, US$60,000/year threshold, and generic convertibility language, but this pass did not capture family/dependent filing, unmarried-partner treatment, tax-residence consequences, or whether E33G can become settlement-qualifying.
+- **Suggested verification**: Check Indonesian Immigration e-visa family categories, E33G FAQ / regulation text, Directorate General of Taxes guidance for foreign remote income, and current Indonesian immigration-lawyer analysis for E33G conversion/counting and spouse/unmarried-partner mechanics.
+- **Created**: 2026-06-05 (run-050)
+- **Status**: pending
+
+## vq-082 [high priority]
+- **Fact**: "Indonesia official ITAP/permanent-stay and citizenship mechanics for a foreign-client remote IT worker without a local employer, including qualifying ITAS categories, residence-counting rules, language/integration requirements, and dual-citizenship consequences"
+- **Country**: Indonesia
+- **Section**: 5.1
+- **Current source**: src-262, src-264
+- **Why uncertain**: The first pass captured B1 scouting and E33G remote-worker residence but not the official ITAP/permanent-stay or citizenship ladder for this profile. Indonesia should not be scored as a settlement route until the qualifying categories and counting rules are captured.
+- **Suggested verification**: Capture Indonesian Immigration ITAP/permanent-stay pages, nationality-law guidance, and reputable legal commentary on whether E33G or other non-local-employer categories qualify for ITAP/citizenship and whether dual citizenship is restricted.
+- **Created**: 2026-06-05 (run-050)
+- **Status**: pending

@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-05-31
+last_updated: 2026-06-05
 ---
 
 # Sources Registry
@@ -3146,5 +3146,65 @@ Each source entry:
 - **Date accessed**: 2026-06-05
 - **Used by**: Thailand
 - **Facts supporting**: monthly clearer-sky percentages for Bangkok, Phuket, and Chiang Mai; annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-thailand-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-262
+- **Title**: Indonesia Directorate General of Immigration — Daftar Visa Indonesia
+- **URL**: https://www.imigrasi.go.id/wna/daftar-visa-indonesia
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Indonesia
+- **Facts supporting**: official visa-category index including B1 visit visa on arrival, D12 multiple-entry visit visa, family visas, investor visas, and E33G remote-worker / second-home category
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-05
+
+## src-263
+- **Title**: Indonesia Directorate General of Immigration — VoA/BVK/calling-visa subject-country list and B1 visit visa on arrival page
+- **URL**: https://www.imigrasi.go.id/wna/daftar-negara-voa-bvk-calling-visa ; https://www.imigrasi.go.id/wna/daftar-visa-indonesia/B1
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Indonesia
+- **Facts supporting**: Ukraine and Poland listed as VoA/BVK/calling-visa subject countries; B1 VoA 30-day stay, one extension to 60 days total, Rp500,000 fee, e-VoA online extension channel, and visitor work/payment restriction (claim-indonesia-001, claim-indonesia-002)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-05
+
+## src-264
+- **Title**: Indonesia Directorate General of Immigration — E33G Visa Rumah Kedua Pekerja Jarak Jauh
+- **URL**: https://www.imigrasi.go.id/wna/daftar-visa-indonesia/E33G
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Indonesia
+- **Facts supporting**: E33G remote-worker limited-stay route; 1-year stay; online extension; Rp7,000,000 one-year fee package; US$2,000 living-cost bank statement; CV/itinerary/photo/passport; US$60,000/year salary or income proof; foreign-company employment agreement; five-working-day processing after payment; automatic limited-stay / re-entry permit issue at admission (claim-indonesia-003, claim-indonesia-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-05
+
+## src-265
+- **Title**: Climate to Travel — Indonesia, Jakarta, Bali, Bandung, and Surabaya climate baselines
+- **URL**: https://www.climatestotravel.com/climate/indonesia ; https://www.climatestotravel.com/climate/indonesia/jakarta ; https://www.climatestotravel.com/climate/indonesia/bali ; https://www.climatestotravel.com/climate/indonesia/bandung ; https://www.climatestotravel.com/climate/indonesia/surabaya
+- **Archive**: [archive: failed 2026-06-05; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Indonesia
+- **Facts supporting**: Indonesia hot/humid/rainy equatorial baseline; Jakarta, Surabaya, Bandung, and Bali/Denpasar January/July temperatures, rainfall, rain days, humidity notes, sunshine hours, monsoon and flood/comfort caveats (claim-indonesia-005)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-266
+- **Title**: WeatherSpark — Indonesia country climate comparison
+- **URL**: https://weatherspark.com/countries/ID
+- **Archive**: [archive: failed 2026-06-05; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Indonesia
+- **Facts supporting**: monthly clearer-sky percentages, precipitation days, muggy-day counts, and annual clearer-sky day-equivalent proxies for Jakarta, Surabaya, and Medan (claim-indonesia-005)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
