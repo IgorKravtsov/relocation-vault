@@ -1,0 +1,44 @@
+- id: claim-armenia-001
+  topic: armenia_ukrainian_visa_free_entry
+  value: "Armenia MFA's bilateral/multilateral visa-free regime list includes Ukraine for all passport types; the MFA visa framework should be used as the entry baseline for Ukrainian scouting, not as residence authorization."
+  source: src-274
+  date_verified: 2026-06-05
+  confidence: high
+  tags: [entry, visa-free, ukraine, scouting]
+  notes: "The unilateral visa-free list separately states up to 180 days per year for listed countries, but Ukraine appears in the agreement-based list rather than the unilateral list; exact stay-count mechanics should be checked before travel."
+
+- id: claim-armenia-002
+  topic: armenia_temporary_residence_business_activity
+  value: "Armenia MFA lists temporary resident card eligibility grounds including study, work permit, close family of a temporary resident or Armenian/special-passport holder, running business activity in Armenia, Armenian nationality, and other cases prescribed by law; the card is valid up to one year and extendable by one year."
+  source: src-275
+  date_verified: 2026-06-05
+  confidence: high
+  tags: [temporary-residence, business-activity, family, work, study]
+  notes: "The exact foreign-client IT / individual-entrepreneur evidence package was not captured in this pass."
+
+- id: claim-armenia-003
+  topic: armenia_residence_documents_fees_processing
+  value: "Armenia MFA lists residence-card documents as application, three 35x45 mm photos, passport, passport copy, notarized Armenian passport translation, documents supporting the residence ground, medical certificate, and fee receipt; temporary residence costs AMD 105,000, permanent residence AMD 140,000, and processing is up to 30 days after submission."
+  source: src-275
+  date_verified: 2026-06-05
+  confidence: high
+  tags: [documents, fees, processing-time, temporary-residence, permanent-residence]
+  notes: "Applicant should file extensions at least 30 days before expiry."
+
+- id: claim-armenia-004
+  topic: armenia_permanent_residence_and_citizenship_baseline
+  value: "Armenia MFA says a permanent resident card is valid for five years and includes business activity as an eligibility ground; MFA citizenship guidance says an adult may apply if they have been permanently and lawfully residing in Armenia for at least three years, among other grounds."
+  source: src-276
+  date_verified: 2026-06-05
+  confidence: medium-high
+  tags: [permanent-residence, citizenship, business-activity, lawful-residence]
+  notes: "Permanent-residence source is src-275; claim uses the residency and citizenship pair. Verify how temporary/permanent business residence counts before scoring Armenia as a settlement route."
+
+- id: claim-armenia-005
+  topic: armenia_climate_first_pass
+  value: "Armenia is continental and altitude-sensitive: Yerevan is dry, sunny, and very hot in summer (about 66/93 F July low/high, 2,675 sun hours/year, ~255 clearer-sky day-equivalent proxy days), while Gyumri is colder (about 7/27 F in January and 55/81 F in July, ~236 clearer-sky proxy days) and Sevan is a cooler summer refuge but cold in winter."
+  source: src-278
+  date_verified: 2026-06-05
+  confidence: medium
+  tags: [climate, yerevan, gyumri, sevan, clearer-sky-proxy]
+  notes: "Climate to Travel source src-277 supports the country climate zones, city temperatures, sunshine hours, and comfort caveats; WeatherSpark source src-278 supports Yerevan/Gyumri clear-sky proxies and low muggy-day burden."

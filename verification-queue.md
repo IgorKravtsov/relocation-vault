@@ -185,6 +185,36 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 ## Low priority
 _(none)_
 
+## vq-086 [medium priority]
+- **Fact**: "Whether Armenia has any Ukraine-specific temporary-protection, humanitarian-stay, or post-2027 bridge relevant to Ukrainian citizens"
+- **Country**: Armenia
+- **Section**: 5.1
+- **Current source**: src-274, src-275
+- **Why uncertain**: This first pass captured ordinary visa-free entry and ordinary residence categories, but no Armenia-specific Ukraine protection / transition route.
+- **Suggested verification**: Check Armenia Migration and Citizenship Service, UNHCR Armenia, Armenian legal aid materials for Ukrainians, and 2025-2026 government announcements.
+- **Created**: 2026-06-05 (run-053)
+- **Status**: pending
+
+## vq-087 [high priority]
+- **Fact**: "Armenia business-activity temporary residence fit for a Ukrainian foreign-client IT worker, including IE/LLC evidence, renewals, PR counting, and citizenship counting"
+- **Country**: Armenia
+- **Section**: 5.1
+- **Current source**: src-275, src-276
+- **Why uncertain**: MFA lists business activity as a temporary/permanent residence ground, but this pass did not capture the operational checklist for foreign-client IT or whether that route counts safely toward permanent residence / citizenship.
+- **Suggested verification**: Capture MCS / official checklist pages, Armenian individual-entrepreneur/company registration rules, or current immigration-lawyer guidance specific to business residence.
+- **Created**: 2026-06-05 (run-053)
+- **Status**: pending
+
+## vq-088 [medium priority]
+- **Fact**: "Armenia dependent mechanics for spouse vs unmarried partner of a temporary resident sponsor"
+- **Country**: Armenia
+- **Section**: 5.1
+- **Current source**: src-275
+- **Why uncertain**: MFA wording names wife/husband, parent, and child of a temporary resident; it does not show unmarried-partner sponsorship or sponsor income/support evidence.
+- **Suggested verification**: Check MCS family residence checklist, law-on-foreigners implementing rules, and current lawyer guidance for cohabiting partners.
+- **Created**: 2026-06-05 (run-053)
+- **Status**: pending
+
 ## vq-072 [high priority]
 - **Fact**: "Current official Argentina tourist-exemption rule for Ukrainian ordinary passport holders and whether it satisfies the digital-nomad route's visa-exempt-nationality condition"
 - **Country**: Argentina

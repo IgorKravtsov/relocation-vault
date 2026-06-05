@@ -3,6 +3,14 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-05
 ---
+## 2026-06-05 — run-053
+- Armenia: created profile and claims; depth_score 0 -> 1.5 (5.2 completed; 5.1 partial).
+- Legalization first pass captured official Ukrainian visa-free scouting, temporary/permanent residence grounds, business-activity route baseline, fees, documents, and citizenship-lawful-residence baseline.
+- Climate pass completed Yerevan, Gyumri, and Sevan with WeatherSpark clearer-sky proxies for Yerevan/Gyumri and flagged hot Yerevan summers plus cold inland winters.
+- Sources added: src-274 through src-278.
+- Claims added: claim-armenia-001 through claim-armenia-005.
+- Verification queue: 3 -> 6 (added vq-086, vq-087, vq-088); next should return to low-depth country rotation or start deeper practical sections.
+
 ## 2026-06-05 — run-052
 - Verification mode: resolved 7 legal/route blockers across Thailand, Indonesia, and Kazakhstan to safe operational baselines.
 - Countries updated: Thailand, Indonesia, Kazakhstan (bridge/base vs settlement baselines clarified; unverified_count reduced).

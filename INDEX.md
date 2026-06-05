@@ -42,7 +42,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Thailand | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 48 | `countries/thailand.md` |
 | Indonesia | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 50 | `countries/indonesia.md` |
 | Kazakhstan | post-ussr | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 51 | `countries/kazakhstan.md` |
-| Armenia | post-ussr | 3 | — | 0 | — | — | — |
+| Armenia | post-ussr | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 53 | `countries/armenia.md` |
 
 ## Summary
 
@@ -50,5 +50,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 1 hints**: 7 (Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta)
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
-- **Researched**: 32
-- **Average depth_score**: 1.48
+- **Researched**: 33
+- **Average depth_score**: 1.53

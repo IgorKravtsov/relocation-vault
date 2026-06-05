@@ -1,26 +1,27 @@
 {
   "version": 2,
-  "iteration": 52,
+  "iteration": 53,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-05T14:48:05Z",
+  "last_run_timestamp": "2026-06-05T17:59:29Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
+    "mode": "country-deep-dive",
+    "country": "Armenia",
     "sections": [
-      "5.1"
+      "5.1",
+      "5.2"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Armenia",
+    "suggested_country": "Malaysia",
     "suggested_sections": [
       "5.1",
       "5.2"
     ],
-    "reason": "Verification queue is back below the active threshold; Armenia is the remaining depth-0 country."
+    "reason": "Verification queue remains below the active threshold; Malaysia has the lowest depth_score after Armenia was opened and still needs a climate closure / practical-section pass."
   },
   "countries": {
     "Spain": {
@@ -922,12 +923,14 @@
     "Armenia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 0,
-      "sections_completed": [],
-      "sections_partial": [],
+      "depth_score": 1.5,
+      "sections_completed": [
+        "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
+      ],
       "sections_pending": [
-        "5.1",
-        "5.2",
         "5.3",
         "5.4",
         "5.5",
@@ -938,12 +941,18 @@
         "5.10",
         "5.11"
       ],
-      "risk_flags": [],
-      "last_iteration": null
+      "risk_flags": [
+        "ordinary-business-residence-not-dn",
+        "settlement-ladder-needs-business-substance",
+        "partner-baseline-marriage",
+        "cold-winters-hot-yerevan-summers"
+      ],
+      "last_iteration": 53,
+      "unverified_count": 3
     }
   },
-  "verification_queue_size": 3,
-  "sources_count": 272,
-  "claims_count": 216,
+  "verification_queue_size": 6,
+  "sources_count": 277,
+  "claims_count": 221,
   "proposals_pending": 0
 }

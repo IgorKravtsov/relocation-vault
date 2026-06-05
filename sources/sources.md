@@ -3292,3 +3292,63 @@ Each source entry:
 - **Facts supporting**: monthly average high/low temperatures and clearer-sky percentages for Astana, Almaty, and Shymkent; annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-kazakhstan-005)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-274
+- **Title**: Armenia MFA — Visa framework and visa-free regime lists
+- **URL**: https://www.mfa.am/en/visa/ ; https://www.mfa.am/en/visafreelist ; https://www.mfa.am/en/whoneedvisa
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Armenia
+- **Facts supporting**: Armenia visa framework, unilateral visa-free list context, and bilateral/multilateral visa-free regime list including Ukraine for all passport types (claim-armenia-001)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-05
+
+## src-275
+- **Title**: Armenia MFA — Temporary and Permanent Residency in Armenia
+- **URL**: https://www.mfa.am/en/residency/
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Armenia
+- **Facts supporting**: temporary, permanent, and special residency types; temporary-residence eligibility including work permit, family, study, business activity, Armenian nationality, and other legal cases; permanent-residence eligibility including business activity; residence documents, fees, filing office, extension timing, and processing time (claim-armenia-002, claim-armenia-003, claim-armenia-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-05
+
+## src-276
+- **Title**: Armenia MFA — Citizenship
+- **URL**: https://www.mfa.am/en/citizenship/
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026 guidance update visible for e-system launch
+- **Date accessed**: 2026-06-05
+- **Used by**: Armenia
+- **Facts supporting**: citizenship application e-system from 2026; ordinary eligibility grounds including at least three years of permanent and lawful residence, Armenian descent, marriage to an Armenian citizen with residence conditions, parent/child links, refugee and stateless-person grounds (claim-armenia-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-05
+
+## src-277
+- **Title**: Climate to Travel — Armenia climate and city climate baselines
+- **URL**: https://www.climatestotravel.com/climate/armenia
+- **Archive**: [archive: failed 2026-06-05; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown; text mirror timestamp 2026-06-05
+- **Date accessed**: 2026-06-05
+- **Used by**: Armenia
+- **Facts supporting**: Armenia continental / arid continental climate zones, winter and summer comfort caveats, Yerevan / Gyumri / Sevan January and July temperature baselines, rainfall, humidity, and sunshine hours (claim-armenia-005)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-278
+- **Title**: WeatherSpark — Armenia country climate comparison
+- **URL**: https://weatherspark.com/countries/AM
+- **Archive**: [archive: failed 2026-06-05; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Armenia
+- **Facts supporting**: Yerevan and Gyumri monthly high/low temperatures, clearer-sky percentages, precipitation days, low muggy-day burden, and annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-armenia-005)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
