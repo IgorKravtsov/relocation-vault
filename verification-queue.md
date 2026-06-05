@@ -986,11 +986,13 @@ _(none)_
 - **Fact**: "Direct annual sunny-day or clear-day counts for Kuala Lumpur, Penang/George Town, and Johor Bahru"
 - **Country**: Malaysia
 - **Section**: 5.2
-- **Current source**: src-256
-- **Why uncertain**: Climate to Travel provides temperatures, rainfall, humidity, and sunshine hours, but not direct sunny/clear-day counts for the three target cities.
-- **Suggested verification**: Find WeatherSpark readable snippets/caches, meteoblue chart data, Malaysia Met Department climate normals, or another statistical source with explicit annual clear/sunny-day counts or a defensible clearer-sky proxy.
+- **Current source**: src-256, src-279
+- **Why uncertain**: Resolved for first-pass screening: WeatherSpark provides monthly clearer-sky percentages for Kuala Lumpur, George Town, and Kuching, which are converted into annual clearer-sky day-equivalent proxies. These are not official meteorological sunny-day counts, but they answer the country-screening question safely.
+- **Suggested verification**: none for screening; official meteorological sunny-day counts can be checked later for city-selection detail.
 - **Created**: 2026-06-04 (run-047)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-054)
+- **Resolution note**: Malaysia profile now records WeatherSpark clearer-sky day-equivalent proxies: Kuala Lumpur ~52 days/year, George Town ~57, and Kuching ~57, confirming a low-clear-sky humid-tropical climate baseline. [src-256][src-279]
 
 ## vq-079 [high priority]
 - **Fact**: "Thailand DTV long-term route mechanics: DTV-to-PR / DTV-to-LTR or other conversion, whether DTV time counts for permanent residence or citizenship, tax residency for foreign-client IT income, and spouse/unmarried-partner dependent treatment"

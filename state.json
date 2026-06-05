@@ -1,27 +1,25 @@
 {
   "version": 2,
-  "iteration": 53,
+  "iteration": 54,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-05T17:59:29Z",
+  "last_run_timestamp": "2026-06-05T21:08:32Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Armenia",
+    "country": "Malaysia",
     "sections": [
-      "5.1",
       "5.2"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Malaysia",
+    "suggested_country": "Spain",
     "suggested_sections": [
-      "5.1",
-      "5.2"
+      "5.3"
     ],
-    "reason": "Verification queue remains below the active threshold; Malaysia has the lowest depth_score after Armenia was opened and still needs a climate closure / practical-section pass."
+    "reason": "Verification queue is below the active threshold after resolving Malaysia climate; many countries are tied at depth_score 1.5, so return to a Tier-1-hint country and start a practical tax slice rather than clustering on Malaysia."
   },
   "countries": {
     "Spain": {
@@ -806,11 +804,12 @@
     "Malaysia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 1.0,
-      "sections_completed": [],
-      "sections_partial": [
-        "5.1",
+      "depth_score": 1.5,
+      "sections_completed": [
         "5.2"
+      ],
+      "sections_partial": [
+        "5.1"
       ],
       "sections_pending": [
         "5.3",
@@ -828,7 +827,8 @@
         "pr-ladder-unclear",
         "hot-humid-rainy-year-round"
       ],
-      "last_iteration": 49
+      "last_iteration": 54,
+      "unverified_count": 0
     },
     "Thailand": {
       "tier": null,
@@ -951,8 +951,8 @@
       "unverified_count": 3
     }
   },
-  "verification_queue_size": 6,
-  "sources_count": 277,
-  "claims_count": 221,
+  "verification_queue_size": 5,
+  "sources_count": 278,
+  "claims_count": 222,
   "proposals_pending": 0
 }

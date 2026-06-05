@@ -3352,3 +3352,15 @@ Each source entry:
 - **Facts supporting**: Yerevan and Gyumri monthly high/low temperatures, clearer-sky percentages, precipitation days, low muggy-day burden, and annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-armenia-005)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-279
+- **Title**: WeatherSpark — Malaysia country climate comparison
+- **URL**: https://weatherspark.com/countries/MY
+- **Archive**: [archive: failed 2026-06-05; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Malaysia
+- **Facts supporting**: monthly clearer-sky percentages for Kuala Lumpur, George Town, and Kuching; annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-malaysia-007)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

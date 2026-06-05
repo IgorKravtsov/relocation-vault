@@ -3,6 +3,14 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-05
 ---
+## 2026-06-05 — run-054
+- Malaysia: depth_score 1.0 -> 1.5; section 5.2 climate now passed, while 5.1 remains partial.
+- Added WeatherSpark Malaysia clearer-sky proxy source and claim; Kuala Lumpur, George Town, and Kuching are all only about 52-57 clearer-sky day-equivalent days/year.
+- Resolved vq-078 for first-pass screening; Malaysia climate is now clearly hot/humid/rainy with low clear-sky reliability rather than just missing sunny-day data.
+- Sources added: src-279.
+- Claims added: claim-malaysia-007.
+- Verification queue: 6 -> 5 pending/open; next can return to Tier-1-hint low-depth practical sections.
+
 ## 2026-06-05 — run-053
 - Armenia: created profile and claims; depth_score 0 -> 1.5 (5.2 completed; 5.1 partial).
 - Legalization first pass captured official Ukrainian visa-free scouting, temporary/permanent residence grounds, business-activity route baseline, fees, documents, and citizenship-lawful-residence baseline.

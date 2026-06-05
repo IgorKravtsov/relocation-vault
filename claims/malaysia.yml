@@ -51,4 +51,13 @@
   date_verified: 2026-06-04
   confidence: medium
   tags: [climate, temperature, humidity, sunshine-hours, rainfall]
-  notes: "Direct sunny/clear-day counts were not captured, so section 5.2 remains partial pending vq-078."
+  notes: "Direct official sunny-day counts were not captured; section 5.2 now uses WeatherSpark clearer-sky proxies in claim-malaysia-007 for first-pass screening."
+
+- id: claim-malaysia-007
+  topic: malaysia_clearer_sky_day_equivalent_proxies
+  value: "WeatherSpark monthly clearer-sky percentages convert to about 52 clearer-sky day-equivalent days per year for Kuala Lumpur, 57 for George Town, and 57 for Kuching."
+  source: src-279
+  date_verified: 2026-06-05
+  confidence: medium
+  tags: [climate, clearer-sky, sunny-days-proxy, weather-spark]
+  notes: "Calculated as sum(month_length * monthly clearer-sky percentage / 100), rounded to whole days; these are broader clearer-sky proxies, not official sunny-day counts."

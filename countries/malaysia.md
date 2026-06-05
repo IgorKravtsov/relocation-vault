@@ -1,14 +1,14 @@
 ---
 country: Malaysia
 tier: null
-depth_score: 1.0
-last_updated: 2026-06-05T05:16:25Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
+depth_score: 1.5
+last_updated: 2026-06-05T21:08:32Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["derantau-bridge-only", "pr-ladder-unclear", "hot-humid-rainy-year-round"]
-sources_used: ["src-251", "src-252", "src-253", "src-254", "src-255", "src-256"]
-unverified_count: 1
+sources_used: ["src-251", "src-252", "src-253", "src-254", "src-255", "src-256", "src-279"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (early evidence points to a useful remote-work bridge/base, not yet a proven settlement route).
-- **depth_score**: 1.0
-- **Last updated**: 2026-06-05T05:16:25Z
+- **depth_score**: 1.5
+- **Last updated**: 2026-06-05T21:08:32Z
 - **Tier rationale**: Malaysia's DE Rantau pass is an official route for foreign digital nomads and the tech-professional threshold is below the couple's current income, but it is a Professional Visit Pass capped at 24 months total and no DE Rantau-to-PR ladder was captured. Entry Permit and citizenship pages show long-term mechanisms exist, but the fully foreign national / remote-worker fit remains a core verification gap. [src-253][src-254][src-255]
 
 ## Block 2 - Scoring
@@ -26,7 +26,7 @@ schema_version: 2.0.0
 | Criterion | Score (1-10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | DE Rantau fits a foreign-client IT worker and clears the income threshold, but is capped at 24 months and the PR ladder is not proven. | §5.1 |
-| Climate | — | medium | No winter, but year-round heat, humidity, thunderstorms, and frequent rain are major comfort constraints; direct sunny-day counts still missing. | §5.2 |
+| Climate | — | medium | No winter, but year-round heat, humidity, thunderstorms, frequent rain, and very low clearer-sky proxies are major comfort constraints. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
@@ -81,7 +81,7 @@ schema_version: 2.0.0
 4. Marriage is the conservative partner plan because MDEC names spouse/children, not an unmarried partner. [src-253]
 5. Before moving household life to Malaysia, verify whether DE Rantau can lead to Employment Pass / Residence Pass-Talent / Entry Permit / MM2H or another ordinary status that fits a foreign-client IT worker on about USD 3,000/month. [src-254]
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-06-04, dod: partial}
+### 5.2. Climate {status: deep, depth: 2, last_updated: 2026-06-05, dod: passed}
 
 > **DoD**: January/July temperatures in 3+ cities; sunny days; humidity; year-round comfort.
 
@@ -89,8 +89,8 @@ schema_version: 2.0.0
 - **Kuala Lumpur**: Climate to Travel describes Kuala Lumpur as tropical, hot and humid all year, with no dry season. Its temperature table gives January about 23.8/32.6 C min/max and July about 24.4/32.8 C; rainfall is still material even in the less rainy June-August period, and thunderstorms can cause flooding. [src-256]
 - **Penang / George Town**: the west-coast Penang baseline is still hot year-round; January-February are the best months, with roughly 70 mm/month rainfall, while April-November is much wetter. This is useful for winter scouting but not a dry Mediterranean-style climate. [src-256]
 - **Johor Bahru / southern peninsula**: Climate to Travel groups Johor Bahru with the interior/southern peninsula pattern: hot and humid, with February, June and July among the less rainy months but no clearly preferable dry season. [src-256]
-- **Sun / clear days**: Kuala Lumpur has about 2,200 sunshine hours/year, and Malaysia's wettest areas can be around 1,800 hours/year while the least rainy areas can reach about 2,500 hours/year. Direct annual sunny/clear-day counts for Kuala Lumpur, Penang/George Town, and Johor Bahru were not captured, so the sunny-day DoD remains partial pending `vq-078`. [src-256]
-- **Practical comfort verdict**: Malaysia avoids cold winters entirely and has warm seas, but the couple should expect year-round humidity, thunderstorms, wet-season disruption, and lower sunshine reliability than Mediterranean / dry subtropical countries. It may be comfortable for people who tolerate humid tropics, less so if the goal is dry warmth.
+- **Sun / clear days**: Kuala Lumpur has about 2,200 sunshine hours/year, and Malaysia's wettest areas can be around 1,800 hours/year while the least rainy areas can reach about 2,500 hours/year. WeatherSpark's Malaysia comparison gives monthly clearer-sky percentages for Kuala Lumpur, George Town, and Kuching (used here as an East Malaysia / wetter-coast comparison point). Converting those monthly percentages by month length gives only about **52 clearer-sky day-equivalent days/year for Kuala Lumpur**, **57 for George Town**, and **57 for Kuching**. This is a medium-confidence clearer-sky proxy, not an official sunny-day count. [src-256][src-279]
+- **Practical comfort verdict**: Malaysia avoids cold winters entirely and has warm seas, but the couple should expect year-round humidity, thunderstorms, wet-season disruption, and much lower sunshine reliability than Mediterranean / dry subtropical countries. It may be comfortable for people who tolerate humid tropics, less so if the goal is dry warmth or predictable clear skies.
 
 ### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -238,12 +238,13 @@ _(none yet)_
 
 ### 7d. Statistical / commercial
 - Climate to Travel Malaysia / Kuala Lumpur climate baselines: [src-256].
+- WeatherSpark Malaysia clearer-sky comparison: [src-279].
 
 ### 7e. Not found
 - Clean official Ukraine row / stay-duration extraction from Malaysia's visa table before travel.
-- Direct sunny/clear-day counts for Kuala Lumpur, Penang/George Town, and Johor Bahru.
+- Official meteorological sunny-day counts for Kuala Lumpur, George Town, and an East Malaysia comparator; WeatherSpark clearer-sky proxies are sufficient for first-pass screening but are not official sunny-day counts.
 - Official DE Rantau post-24-month transition / PR-counting guidance for a foreign-client IT worker is not captured; screening baseline is bridge-only.
 
 ## Block 8 - Open questions and verification markers
 
-- `vq-078`: direct sunny/clear-day counts for Kuala Lumpur, Penang/George Town, and Johor Bahru.
+- `vq-078` resolved in run-054: WeatherSpark clearer-sky percentages now provide medium-confidence annual clearer-sky day-equivalent proxies for Kuala Lumpur, George Town, and Kuching.
