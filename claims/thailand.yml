@@ -1,0 +1,53 @@
+- id: claim-thailand-001
+  topic: thailand_ukrainian_visa_exemption
+  value: "Polish/Ukrainian passport holders entitled to visa exemption may enter Thailand for tourism without a visa for up to 60 days; entry conditions include passport validity, adequate cash, and onward travel."
+  source: src-257
+  date_verified: 2026-06-05
+  confidence: medium-high
+  tags: [entry, visa-exemption, ukraine, scouting]
+  notes: "This is a consular page for the Poland/Ukraine jurisdiction and is sufficient for a first-pass operational scouting baseline, but final travel should still check the current Thai e-visa selector / airline TIMATIC."
+
+- id: claim-thailand-002
+  topic: dtv_duration_and_savings_threshold
+  value: "Thailand DTV is a 5-year multiple-entry visa with 180 days per entry, one possible extension up to 180 additional days per entry, and a financial-evidence requirement of at least 500,000 THB."
+  source: src-257
+  date_verified: 2026-06-05
+  confidence: medium-high
+  tags: [digital-nomad, dtv, duration, savings-threshold, bridge-route]
+  notes: "The Washington embassy page cross-checks the 500,000 THB / roughly USD 16,000 savings baseline and remote-work evidence."
+
+- id: claim-thailand-003
+  topic: dtv_workcation_and_dependents
+  value: "DTV workcation is available for digital nomad / remote worker / foreign talent / freelancer purposes, and DTV dependent coverage is captured for spouse and children under 20."
+  source: src-257
+  date_verified: 2026-06-05
+  confidence: medium-high
+  tags: [digital-nomad, remote-work, dependents, spouse]
+  notes: "Unmarried partner treatment was not captured; marriage is the conservative dependent baseline."
+
+- id: claim-thailand-004
+  topic: ltr_work_from_thailand_threshold
+  value: "BOI's LTR Work-from-Thailand Professionals category requires USD 80,000/year average personal income for the past two years, or USD 40,000-80,000/year with extra qualifications and a qualifying well-established overseas employer."
+  source: src-259
+  date_verified: 2026-06-05
+  confidence: high
+  tags: [ltr, work-from-thailand, income-threshold, remote-work]
+  notes: "The couple's current roughly USD 36,000/year income is below the reduced USD 40,000 floor and far below the normal USD 80,000/year floor."
+
+- id: claim-thailand-005
+  topic: thailand_climate_temperature_rainfall
+  value: "Bangkok averages about 74/91 F in January and 79/92 F in July with about 1,650 mm/year rain; Phuket averages about 73/91 F in January and 76/89 F in July with about 2,200 mm/year rain; Chiang Mai averages about 59/86 F in January and 75/90 F in July with about 1,100 mm/year rain."
+  source: src-260
+  date_verified: 2026-06-05
+  confidence: medium
+  tags: [climate, temperature, rainfall, bangkok, phuket, chiang-mai]
+  notes: "Thailand clears the no-cold-winter preference, but Bangkok/Phuket are hot/humid and monsoon-affected; Chiang Mai needs a later air-quality/smoke-season pass."
+
+- id: claim-thailand-006
+  topic: thailand_clearer_sky_day_equivalent_proxy
+  value: "WeatherSpark clearer-sky percentages convert to about 100 clearer-sky day-equivalent days/year for Bangkok, 65 for Phuket, and 143 for Chiang Mai."
+  source: src-261
+  date_verified: 2026-06-05
+  confidence: medium
+  tags: [climate, sunny-days, clear-sky-proxy, weather-spark]
+  notes: "Computed from monthly clearer-sky percentages weighted by month length; labelled as a clearer-sky day-equivalent proxy rather than official sunny-day counts."

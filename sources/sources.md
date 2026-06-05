@@ -3088,3 +3088,63 @@ Each source entry:
 - **Facts supporting**: Malaysia equatorial hot/humid/rainy baseline; Kuala Lumpur January/July temperatures, rainfall, rain days and 2,200 annual sunshine hours; west-coast Penang / Johor Bahru qualitative rainfall-season comfort caveats (claim-malaysia-006)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-257
+- **Title**: Royal Thai Embassy Warsaw — Visa Information
+- **URL**: https://warsaw.thaiembassy.org/en/page/visa-information?menu=5fa59bd069d5ff051774a732
+- **Archive**: stable MFA/embassy domain via text mirror — snapshot not required
+- **Type**: official-secondary
+- **Date published**: 2024-07-25
+- **Date accessed**: 2026-06-05
+- **Used by**: Thailand
+- **Facts supporting**: Ukrainian/Polish passport visa-exemption up to 60 days for tourism; visa-exemption cash/onward-travel conditions; DTV workcation eligibility for applicants residing in Poland or Ukraine; 5-year multiple-entry validity; 180-day stay plus one 180-day extension; 500,000 THB financial evidence; remote-work evidence; spouse/children-under-20 dependent baseline; Warsaw e-visa fee (claim-thailand-001 through claim-thailand-003)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-05
+
+## src-258
+- **Title**: Royal Thai Embassy Washington — Destination Thailand Visa (DTV)
+- **URL**: https://washingtondc.thaiembassy.org/en/page/dtv-visa
+- **Archive**: stable MFA/embassy domain via text mirror — snapshot not required
+- **Type**: official-secondary
+- **Date published**: 2026-03-19
+- **Date accessed**: 2026-06-05
+- **Used by**: Thailand
+- **Facts supporting**: DTV checklist cross-check: 5-year validity, workcation purposes, spouse/children dependents, 500,000 THB / roughly USD 16,000 savings evidence, and remote-work / freelancer evidence requirements (claim-thailand-002, claim-thailand-003)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-05
+
+## src-259
+- **Title**: Thailand BOI — LTR Visa Thailand, Long-Term Resident Program
+- **URL**: https://ltr.boi.go.th/
+- **Archive**: stable official programme domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-03-17
+- **Date accessed**: 2026-06-05
+- **Used by**: Thailand
+- **Facts supporting**: LTR programme privileges; Work-from-Thailand Professionals category; 10-year renewable visa concept; spouse/children dependents; USD 80,000/year normal income threshold, reduced USD 40,000-80,000/year band with extra qualifications, qualifying overseas-employer requirement, and USD 50,000 insurance / USD 100,000 deposit alternative (claim-thailand-004)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-05
+
+## src-260
+- **Title**: Climate to Travel — Thailand, Bangkok, Phuket, and Chiang Mai climate baselines
+- **URL**: https://www.climatestotravel.com/climate/thailand ; https://www.climatestotravel.com/climate/thailand/bangkok ; https://www.climatestotravel.com/climate/thailand/phuket ; https://www.climatestotravel.com/climate/thailand/chiang-mai
+- **Archive**: [archive: failed 2026-06-05; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Thailand
+- **Facts supporting**: Thailand monsoon regional baseline; Bangkok / Phuket / Chiang Mai January and July temperatures, annual rainfall, rain-season timing, and practical hot/humid comfort caveats (claim-thailand-005)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31
+
+## src-261
+- **Title**: WeatherSpark — Thailand country climate comparison
+- **URL**: https://weatherspark.com/countries/TH
+- **Archive**: [archive: failed 2026-06-05; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-05
+- **Used by**: Thailand
+- **Facts supporting**: monthly clearer-sky percentages for Bangkok, Phuket, and Chiang Mai; annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-thailand-006)
+- **Confidence ceiling**: medium
+- **Stale at**: 2099-12-31

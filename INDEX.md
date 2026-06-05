@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 ---
 
 # INDEX
@@ -39,7 +39,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Argentina | latin-america | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 44 | `countries/argentina.md` |
 | UAE | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 45 | `countries/uae.md` |
 | Malaysia | middle-east-asia | 3 | — | 1.0 | partial: 5.1, 5.2 | 47 | `countries/malaysia.md` |
-| Thailand | middle-east-asia | 3 | — | 0 | — | — | — |
+| Thailand | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 48 | `countries/thailand.md` |
 | Indonesia | middle-east-asia | 3 | — | 0 | — | — | — |
 | Kazakhstan | post-ussr | 3 | — | 0 | — | — | — |
 | Armenia | post-ussr | 3 | — | 0 | — | — | — |
@@ -50,5 +50,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 1 hints**: 7 (Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta)
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
-- **Researched**: 29
-- **Average depth_score**: 1.35
+- **Researched**: 30
+- **Average depth_score**: 1.39

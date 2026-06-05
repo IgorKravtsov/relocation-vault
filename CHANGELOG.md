@@ -1,8 +1,16 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 ---
+## 2026-06-05 — run-048
+- Thailand: created profile and claims; depth_score 0 -> 1.5 (5.2 completed; 5.1 partial).
+- Legalization first pass captured 60-day Ukrainian visa-exempt scouting, DTV workcation as a 5-year multiple-entry bridge with 500,000 THB savings requirement, spouse/children dependent baseline, and BOI LTR Work-from-Thailand threshold caveats.
+- Climate pass completed Bangkok, Phuket, and Chiang Mai with temperature/rainfall baselines and WeatherSpark clearer-sky day-equivalent proxies.
+- Sources added: src-257 through src-261.
+- Claims added: claim-thailand-001 through claim-thailand-006.
+- Verification queue: 8 -> 10 (added vq-079, vq-080); next mode should be verification because the queue is at the active threshold.
+
 ## 2026-06-04 — run-047
 - Malaysia: created profile and claims; depth_score 0 -> 1.0 (5.1 and 5.2 partial).
 - Legalization first pass captured DE Rantau as an official remote-work bridge with USD 24,000/year tech-income threshold, spouse/children dependent baseline, 24-month cap, Entry Permit PR anchor, and Article 19 citizenship baseline.

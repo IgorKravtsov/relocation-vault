@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-04
+last_updated: 2026-06-05
 ---
 
 # Verification Queue
@@ -950,4 +950,24 @@ _(none)_
 - **Why uncertain**: Climate to Travel provides temperatures, rainfall, humidity, and sunshine hours, but not direct sunny/clear-day counts for the three target cities.
 - **Suggested verification**: Find WeatherSpark readable snippets/caches, meteoblue chart data, Malaysia Met Department climate normals, or another statistical source with explicit annual clear/sunny-day counts or a defensible clearer-sky proxy.
 - **Created**: 2026-06-04 (run-047)
+- **Status**: pending
+
+## vq-079 [high priority]
+- **Fact**: "Thailand DTV long-term route mechanics: DTV-to-PR / DTV-to-LTR or other conversion, whether DTV time counts for permanent residence or citizenship, tax residency for foreign-client IT income, and spouse/unmarried-partner dependent treatment"
+- **Country**: Thailand
+- **Section**: 5.1
+- **Current source**: src-257, src-258, src-259
+- **Why uncertain**: DTV is officially captured as a 5-year multiple-entry remote-work/freelancer bridge with 180-day stay mechanics and spouse/children dependents, but this pass did not capture whether DTV can become settlement-qualifying, whether repeated DTV stays count for PR/citizenship, how foreign remote income is taxed, or whether an unmarried partner can attach.
+- **Suggested verification**: Check Thai Immigration DTV extension/long-stay rules, BOI/LTR FAQs, Thai Revenue Department foreign-income guidance, and current Thai immigration-lawyer analysis for DTV conversion/counting and unmarried-partner mechanics.
+- **Created**: 2026-06-05 (run-048)
+- **Status**: pending
+
+## vq-080 [high priority]
+- **Fact**: "Thailand official permanent-residence and citizenship mechanics for a non-local-employer remote IT worker, including qualifying visa categories, residence-counting rules, quotas, income/work requirements, family filing, and dual-citizenship practice"
+- **Country**: Thailand
+- **Section**: 5.1
+- **Current source**: src-257, src-259
+- **Why uncertain**: The first pass could not cleanly capture Thai Immigration PR/citizenship source pages. The profile therefore treats Thailand as a bridge/base and does not score it as a settlement route until PR/citizenship eligibility and DTV/LTR counting are verified.
+- **Suggested verification**: Capture Thai Immigration permanent residence pages/PDFs, Special Branch or Ministry of Interior naturalization guidance, and reputable legal commentary on remote-worker eligibility, PR quotas, nationality requirements, and dual-nationality consequences.
+- **Created**: 2026-06-05 (run-048)
 - **Status**: pending
