@@ -3,6 +3,14 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-05
 ---
+## 2026-06-05 — run-049
+- Verification batch: resolved 5 legal/route blockers (`vq-073`, `vq-074`, `vq-075`, `vq-076`, `vq-077`).
+- Argentina now treats DN as bridge-only until a durable foreign-client IT temporary-residence category is confirmed.
+- UAE now treats short entry and virtual-work micro-checklist gaps as travel/application-prep items; core route decision remains income-gated at USD 3,500/month.
+- Malaysia now treats visitor-entry row capture as pre-travel only and DE Rantau as a 3-24 month bridge, not a proven PR/citizenship ladder.
+- Sources added: none.
+- Verification queue: 10 -> 5 pending/open; next can return to country-deep-dive rotation with Indonesia unless another priority appears.
+
 ## 2026-06-05 — run-048
 - Thailand: created profile and claims; depth_score 0 -> 1.5 (5.2 completed; 5.1 partial).
 - Legalization first pass captured 60-day Ukrainian visa-exempt scouting, DTV workcation as a 5-year multiple-entry bridge with 500,000 THB savings requirement, spouse/children dependent baseline, and BOI LTR Work-from-Thailand threshold caveats.

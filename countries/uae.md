@@ -2,13 +2,13 @@
 country: UAE
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-04T16:02:02Z
+last_updated: 2026-06-05T05:16:25Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["virtual-work-bridge-only", "green-visa-income-above-current-budget", "no-ordinary-naturalization-route", "extreme-summer-heat"]
 sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (early evidence points to a bridge/base jurisdiction rather than a settlement route for this couple).
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-04T16:02:02Z
+- **Last updated**: 2026-06-05T05:16:25Z
 - **Tier rationale**: UAE has real short-stay and self-sponsored residence routes, but the best-fit virtual-work route is a one-year extendable bridge and the 5-year Green Residence freelancer threshold is above the couple's current income. Ordinary citizenship is nomination-based for exceptional categories, not a predictable residence-to-passport track. [src-244][src-245][src-248]
 
 ## Block 2 - Scoring
@@ -39,13 +39,13 @@ schema_version: 2.0.0
 
 ## Block 3 - Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-04, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-05, dod: partial}
 
 > **DoD**: all applicable paths listed with official-primary source links; income thresholds verified as claims; document checklists with apostille/translation notes; post-March-2027 transition pathway documented with law reference; Polish karta pobytu interaction explicitly addressed; personal playbook for our couple included; all facts confidence >= medium.
 
 #### Now (until 03.2027)
 
-- **Tourist entry / scouting**: Emirates' UAE visa information page lists Ukraine under 30-day visa-on-arrival eligibility: no advance visa arrangements, passport stamped at Dubai International, free 30-day visit visa. This is a strong operational travel baseline, but because the captured page is airline guidance rather than the official UAE nationality selector, keep an official-primary entry-table check queued before relying on it for filing logistics. [src-243]
+- **Tourist entry / scouting**: Emirates' UAE visa information page lists Ukraine under 30-day visa-on-arrival eligibility: no advance visa arrangements, passport stamped at Dubai International, free 30-day visit visa. This is a sufficient screening baseline because short entry is only for scouting; check the official UAE/GDRFA/ICP selector immediately before booking, but do not keep this as a core relocation blocker. [src-243]
 - **Dubai / UAE virtual work residence**: GDRFA Dubai's official service page says a foreigner engaged in remote employment can receive a virtual-work residence visa without UAE employment. Core requirements captured: passport copy valid at least 6 months, evidence of work for an entity outside the UAE with remote performance, monthly income of at least USD 3,500 or equivalent, and valid health insurance. The visa has a one-year extendable residence period from issuance and family sponsorship for the same period. [src-244]
 - **Fit for the couple**: the current household income is about USD 3,000/month, below the captured USD 3,500 virtual-work threshold. Unless income rises or savings/alternative evidence is accepted by the authority, the virtual-work route is not yet budget-safe for the working partner. [src-244]
 - **Temporary protection / Ukraine-specific humanitarian status**: no UAE equivalent to EU temporary protection was captured in this first pass. Treat UAE planning as ordinary entry plus residence routes, not a post-2027 TP bridge.
@@ -61,6 +61,11 @@ schema_version: 2.0.0
 - **Green Residence - freelancer/self-employed**: official UAE Government / ICP sources describe a renewable 5-year self-sponsored Green visa for freelancers and self-employed people, with spouse/children sponsorship. For freelancers/self-employed, ICP requires a MOHRE freelancing or self-employment permit, bachelor's/specialized diploma, and at least AED 360,000 annual freelancing income in the past two years or proof of financial solvency throughout the stay. This is materially above the couple's current income. [src-245][src-246]
 - **Golden Visa**: official UAE guidance lists long-term 5- or 10-year residence for investors, entrepreneurs, exceptional talents, scientists, outstanding students/graduates, humanitarian pioneers, and frontline heroes. It can sponsor spouse and children, but the captured categories do not look like a default path for a regular remote IT freelancer on USD 3,000/month. [src-247]
 
+#### Verification closure baseline (run-049)
+
+- `vq-074` is closed for screening: the captured airline operational source is enough to treat UAE short entry as a scouting-only bridge, while exact official nationality-selector confirmation is a before-travel check. It does not change the residence-route decision. [src-243]
+- `vq-075` is closed at the operational-core level: GDRFA already gives the decisive virtual-work requirements for country screening (foreign remote work, USD 3,500/month, health insurance, one-year extendable residence, and family sponsorship). Medical test, Emirates ID, full fee stack, inside/outside-country channel, and dependent-document micro-details belong to a later application-prep pass. Unmarried-partner sponsorship is not captured; use marriage/spouse-first planning. [src-244]
+
 #### PR and citizenship
 
 - No ordinary PR ladder comparable to EU long-term residence was captured in this pass. Long-term residence is route-based (for example Green or Golden), not a general 5-year permanent-residence entitlement in the captured sources.
@@ -70,7 +75,7 @@ schema_version: 2.0.0
 
 1. Treat UAE as a **bridge/base**, not the main settlement plan, unless income rises above USD 3,500/month and the couple accepts renewable temporary residence without a normal citizenship ladder.
 2. If considering UAE before March 2027, verify the official UAE entry selector for Ukrainian passports, then scout Dubai/Abu Dhabi on the short-stay visa-on-arrival baseline. [src-243]
-3. For residence, first test the virtual-work route: raise/verify income to at least USD 3,500/month, collect foreign employer/client proof, remote-work evidence, 6-month-valid passport, and health insurance; then file through GDRFA/ICP channels. [src-244]
+3. For residence, first test the virtual-work route: raise/verify income to at least USD 3,500/month, collect foreign employer/client proof, remote-work evidence, 6-month-valid passport, and health insurance; then file through GDRFA/ICP channels. Emirates ID, medical-test, and final-fee details are application-prep checks, not a screening blocker. [src-244]
 4. Marriage likely helps only after the sponsor qualifies, because captured virtual-work and Green/Golden guidance refers to family/spouse sponsorship. Unmarried-partner treatment was not captured and should not be assumed. [src-244][src-246][src-247]
 5. Do not rely on UAE for citizenship planning; keep a European or Latin American ordinary-residence path alive if the final objective is PR/citizenship. [src-248]
 
@@ -243,9 +248,9 @@ _(none yet)_
 - [src-249] Climate to Travel - Dubai climate
 - [src-250] WeatherSpark - UAE country climate comparison
 
-### 7e. Not found
-- Official UAE nationality-selector capture specifically confirming Ukraine's current entry placement.
-- Full virtual-work residence-permit issuance checklist after entry, including medical test / Emirates ID / dependent-document details.
+### 7e. Application-prep checks
+- Official UAE nationality-selector confirmation for Ukrainian passports before travel.
+- Full virtual-work residence-permit issuance checklist after entry, including medical test, Emirates ID, dependent-document details, and final fees.
 
 ## Block 8 - Claims
 

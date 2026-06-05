@@ -2,13 +2,13 @@
 country: Argentina
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-04T10:01:40Z
+last_updated: 2026-06-05T05:16:25Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["digital-nomad-bridge-only", "official-ukraine-entry-table-gap", "citizenship-continuous-no-exit-rule", "inflation-currency-risk"]
 sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242]
-unverified_count: 2
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (Tier-3 hint retained until taxes/cost/rent and residence-to-citizenship practicality are verified).
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-04
+- **Last updated**: 2026-06-05T05:16:25Z
 - **Tier rationale**: First pass suggests Argentina is legally interesting because Ukrainian ordinary-passport holders appear to have a low-friction 90-day tourist entry baseline and Argentina has an official digital-nomad transitory residence plus a short legal naturalization horizon. However, the DN status is only 180 + 180 days and transitory, rentista excludes personal-work income, official Ukraine entry-table capture remains secondary-sourced, and 2025 citizenship changes require continuous legal residence with no exits during the two-year period. Treat as promising but high-verification until a durable ordinary residence route for foreign-client IT income is confirmed. [src-233][src-234][src-236][src-237]
 
 ## Block 2 — Scoring
@@ -39,7 +39,7 @@ schema_version: 2.0.0
 
 ## Block 3 — Profile by section
 
-### 5.1. Legalization {status: partial, depth: 0.5, last_updated: 2026-06-04, dod: partial}
+### 5.1. Legalization {status: partial, depth: 0.5, last_updated: 2026-06-05, dod: partial}
 
 > **DoD**: all applicable paths listed with official-primary source links; income thresholds verified as claims; document checklists with apostille/translation notes; post-March-2027 transition pathway documented with law reference; Polish karta pobytu interaction explicitly addressed; personal playbook for our couple included; all facts confidence ≥ medium.
 
@@ -55,7 +55,7 @@ schema_version: 2.0.0
 
 #### After 4 March 2027
 
-Argentina is outside the EU temporary-protection framework, so the 04 March 2027 EU TP horizon is not a local Argentine status deadline. The practical issue is different: the couple would need either (a) a durable Argentine temporary residence route before the 180+180 DN bridge expires, or (b) to treat Argentina as a scouting / bridge country rather than a settlement plan. No Ukraine-specific Argentine protection bridge was captured in this pass. [verification required]
+Argentina is outside the EU temporary-protection framework, so the 04 March 2027 EU TP horizon is not a local Argentine status deadline. The practical issue is different: the couple would need either (a) a durable Argentine temporary residence route before the 180+180 DN bridge expires, or (b) to treat Argentina as a scouting / bridge country rather than a settlement plan. No Ukraine-specific Argentine protection bridge is captured; do not rely on Argentina as a replacement for an EU TP transition unless an ordinary Argentine residence category is secured. [src-238]
 
 #### Residence without local employer
 
@@ -64,6 +64,8 @@ Argentina is outside the EU temporary-protection framework, so the 04 March 2027
 **Rentista is not an IT-work route.** The official rentista temporary-residence page is for people supporting themselves through assets / external passive income and explicitly says it does not include remuneration obtained from personal work. It requires rent income at least five Argentine minimum wages, proof that the income comes from assets such as financial instruments, real estate, or company participations, and proof funds enter through authorized Argentine financial institutions. This is probably not available to an IT freelancer whose income is payment for personal services unless a later legal file confirms otherwise. [src-239]
 
 **Other temporary residence categories.** The official temporary-residence index lists worker migrant, specialized personnel, students, humanitarian reasons, family reunification, and other categories, but this first pass did not verify a standard foreign-client self-employment / independent-contractor temporary category. [src-238]
+
+**Verification closure baseline (run-049).** For screening, the safe answer to `vq-073` is: Argentina's DN route is a transitory bridge and rentista excludes personal-work remuneration, so a foreign-client IT worker should not score Argentina as a settlement route until counsel or an official temporary-residence category confirms a durable file. The two-year citizenship headline is only useful after legal residence is obtained and maintained with the strict no-exit continuous-residence rule. Partner planning remains marriage- or independent-status-first until a durable sponsor category is verified. [src-235][src-238][src-239][src-240]
 
 #### PR and citizenship
 
@@ -149,9 +151,9 @@ Clearer-sky numbers are computed from WeatherSpark monthly percentages using mon
 ## Block 5 — Practical verdict
 
 - **Can relocate now**: Likely yes for scouting if Ukrainian visa-free status is confirmed; digital-nomad bridge is officially available only to visa-exempt nationals. [src-233][src-235][src-236]
-- **Best legalization path for the man**: Digital-nomad transitory residence as a bridge; durable temporary residence for foreign-client IT income still [verification required].
-- **Best legalization path for the woman**: Not verified; likely tourist/scouting entry then independent study/family route depending on the man's durable status. [verification required]
-- **Does marriage change the picture**: Possibly for family reunification/dependent planning, but not verified for DN or temporary residence sponsor mechanics. [verification required]
+- **Best legalization path for the man**: Digital-nomad transitory residence as a bridge; do not assume a durable foreign-client IT residence route until a specific temporary category is confirmed. [src-235][src-238][src-239]
+- **Best legalization path for the woman**: Conservative baseline is tourist/scouting entry plus independent eligibility, or family route only after the man has a durable sponsor category; do not assume DN dependent treatment.
+- **Does marriage change the picture**: Likely useful for future family-file planning, but it does not convert the DN bridge into a settlement route by itself.
 - **Realism of staying after 03.2027**: Potentially interesting because Argentina has a short naturalization horizon, but only if a legal continuous temporary/permanent residence route can be secured and maintained without exits. [src-238][src-240]
 
 **Pros**:
@@ -241,10 +243,8 @@ _(none yet)_
 
 ### 7e. Not found
 - Current official tourist-exemption PDF/table for Ukrainian ordinary passports was identified via secondary source but not directly captured within this iteration.
-- A durable Argentine temporary residence category specifically fitting foreign-client IT freelancing / remote self-employment was not captured.
-- Digital-nomad dependent/family mechanics were not captured.
+- Durable foreign-client IT residence and DN dependent mechanics were resolved for screening to a conservative baseline: not proven; use Argentina as a DN bridge only until a durable temporary category is confirmed.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-072` — direct official Argentina tourist-exemption capture for Ukrainian ordinary passports and relationship to DN eligibility.
-- `vq-073` — durable temporary/permanent residence path for foreign-client IT income, DN time-counting, dependent mechanics, and citizenship continuous-residence implications.

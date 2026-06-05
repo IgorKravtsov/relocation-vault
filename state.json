@@ -1,26 +1,26 @@
 {
   "version": 2,
-  "iteration": 48,
+  "iteration": 49,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-05T02:09:41Z",
+  "last_run_timestamp": "2026-06-05T05:16:25Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Thailand",
+    "mode": "verification",
+    "country": null,
     "sections": [
-      "5.1",
-      "5.2"
+      "5.1"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": null,
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Indonesia",
     "suggested_sections": [
-      "5.1"
+      "5.1",
+      "5.2"
     ],
-    "reason": "Pending/open verification queue is exactly 10, at the active threshold after Thailand added two legal settlement blockers."
+    "reason": "Pending verification queue reduced below threshold; next fresh depth-0 Tier-3-hint country in the anti-clustering rotation."
   },
   "countries": {
     "Spain": {
@@ -771,7 +771,7 @@
         "citizenship-continuous-no-exit-rule",
         "inflation-currency-risk"
       ],
-      "last_iteration": 44
+      "last_iteration": 49
     },
     "UAE": {
       "tier": null,
@@ -800,7 +800,7 @@
         "no-ordinary-naturalization-route",
         "extreme-summer-heat"
       ],
-      "last_iteration": 45
+      "last_iteration": 49
     },
     "Malaysia": {
       "tier": null,
@@ -825,10 +825,9 @@
       "risk_flags": [
         "derantau-bridge-only",
         "pr-ladder-unclear",
-        "official-ukraine-entry-table-gap",
         "hot-humid-rainy-year-round"
       ],
-      "last_iteration": 47
+      "last_iteration": 49
     },
     "Thailand": {
       "tier": null,
@@ -926,7 +925,7 @@
       "last_iteration": null
     }
   },
-  "verification_queue_size": 10,
+  "verification_queue_size": 5,
   "sources_count": 260,
   "claims_count": 206,
   "proposals_pending": 0

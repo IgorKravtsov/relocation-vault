@@ -36,9 +36,9 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Paraguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 39 | `countries/paraguay.md` |
 | Panama | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 46 | `countries/panama.md` |
 | Mexico | latin-america | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 42 | `countries/mexico.md` |
-| Argentina | latin-america | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 44 | `countries/argentina.md` |
-| UAE | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 45 | `countries/uae.md` |
-| Malaysia | middle-east-asia | 3 | — | 1.0 | partial: 5.1, 5.2 | 47 | `countries/malaysia.md` |
+| Argentina | latin-america | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 49 | `countries/argentina.md` |
+| UAE | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 49 | `countries/uae.md` |
+| Malaysia | middle-east-asia | 3 | — | 1.0 | partial: 5.1, 5.2 | 49 | `countries/malaysia.md` |
 | Thailand | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 48 | `countries/thailand.md` |
 | Indonesia | middle-east-asia | 3 | — | 0 | — | — | — |
 | Kazakhstan | post-ussr | 3 | — | 0 | — | — | — |

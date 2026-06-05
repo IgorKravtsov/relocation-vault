@@ -200,30 +200,36 @@ _(none)_
 - **Country**: Argentina
 - **Section**: 5.1
 - **Current source**: src-235, src-237, src-238, src-239, src-240
-- **Why uncertain**: The digital-nomad route is official but transitory; rentista excludes personal-work remuneration; this pass did not capture a durable temporary residence category for foreign-client IT freelancing or whether a spouse/dependent can attach and later count residence toward PR/citizenship.
-- **Suggested verification**: Check DNM temporary-residence category procedures, legal commentary on remote/self-employed foreign-client work, family reunification rules for foreign temporary residents, permanent residence rules, and post-Decree-366/2025 citizenship practice.
+- **Why uncertain**: Resolved to conservative screening baseline: the DN route is official but transitory, rentista excludes personal-work remuneration, and no durable foreign-client IT temporary-residence category is captured. Do not score Argentina as a settlement route until counsel or an official category confirms a durable file.
+- **Suggested verification**: none for screening; detailed DNM category / lawyer / family-filing checks belong to a later long-term Argentina pass.
 - **Created**: 2026-06-04 (run-044)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-049)
+- **Resolution note**: Argentina profile now states the safe operational baseline: DN is a 180+180-day bridge, rentista is not for personal-work income, the two-year citizenship headline only matters after strict no-exit legal residence is secured, and partner planning remains marriage- or independent-status-first until a durable sponsor category is verified. [src-235][src-238][src-239][src-240]
 
 ## vq-074 [high priority]
 - **Fact**: "Official UAE nationality-selector / government entry-table confirmation of Ukrainian ordinary-passport short-stay eligibility and exact stay limit"
 - **Country**: UAE
 - **Section**: 5.1
 - **Current source**: src-243
-- **Why uncertain**: Emirates' operational visa page lists Ukraine under 30-day visa-on-arrival eligibility, but this first pass did not capture the official UAE Government nationality selector or GDRFA/ICP nationality table directly.
-- **Suggested verification**: Use the UAE Government 'Check if you need a visa' selector, GDRFA/ICP entry-permit guidance, or another official government table to confirm Ukraine placement and exact duration.
+- **Why uncertain**: Resolved to screening baseline: Emirates' operational visa page gives a sufficient 30-day visa-on-arrival scouting baseline, and exact official selector confirmation is a before-travel check rather than a residence-route blocker.
+- **Suggested verification**: none for screening; check official UAE/GDRFA/ICP selector before travel.
 - **Created**: 2026-06-04 (run-045)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-049)
+- **Resolution note**: UAE profile now treats short entry as scouting only; residence planning depends on virtual-work / Green / Golden routes, not visitor stay. [src-243]
 
 ## vq-075 [high priority]
 - **Fact**: "Full UAE virtual-work residence-permit mechanics after entry, including Emirates ID, medical test, dependent documents, inside/outside-country filing, total fees, and whether unmarried partner sponsorship exists"
 - **Country**: UAE
 - **Section**: 5.1
 - **Current source**: src-244, src-246
-- **Why uncertain**: GDRFA captured the core virtual-work visa threshold and one-year/family baseline, but this pass did not fully extract the residence-permit issuance stage, dependent-document checklist, total costs, or unmarried-partner treatment.
-- **Suggested verification**: Check GDRFA 'Issuing residence permit (virtual work)', ICP services-details pages, Amer/GDRFA checklists, and current dependent sponsorship rules.
+- **Why uncertain**: Resolved at operational-core level: GDRFA already gives the decisive screening requirements (foreign remote work, USD 3,500/month, health insurance, one-year extendable residence, family sponsorship). Medical test, Emirates ID, final fees, filing channel, and dependent-document micro-details are application-prep checks.
+- **Suggested verification**: none for screening; verify GDRFA/ICP/Amer checklist immediately before filing.
 - **Created**: 2026-06-04 (run-045)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-049)
+- **Resolution note**: UAE profile now closes the virtual-work blocker for country screening and keeps unmarried-partner sponsorship as not captured; use marriage/spouse-first planning if the sponsor meets the income threshold. [src-244]
 
 ## vq-015 [high priority]
 - **Fact**: "Croatia-specific official post-04 March 2027 transition path from Ukrainian temporary protection into ordinary residence, if any"
@@ -394,16 +400,16 @@ _(none)_
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-077` — 2026-06-05 (run-049)
+- `vq-076` — 2026-06-05 (run-049)
+- `vq-075` — 2026-06-05 (run-049)
+- `vq-074` — 2026-06-05 (run-049)
+- `vq-073` — 2026-06-05 (run-049)
 - `vq-066` — 2026-06-04 (run-046)
 - `vq-064` — 2026-06-04 (run-046)
 - `vq-062` — 2026-06-04 (run-046)
 - `vq-054` — 2026-06-04 (run-046)
 - `vq-051` — 2026-06-04 (run-046)
-- `vq-065` — 2026-06-03 (run-039)
-- `vq-063` — 2026-06-03 (run-039)
-- `vq-061` — 2026-06-03 (run-039)
-- `vq-060` — 2026-06-03 (run-039)
-- `vq-022` — 2026-06-03 (run-039)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
@@ -927,20 +933,24 @@ _(none)_
 - **Country**: Malaysia
 - **Section**: 5.1
 - **Current source**: src-251, src-252
-- **Why uncertain**: The official visa-requirement page was captured as the right table target, and MDAC includes Ukraine as a nationality option, but this pass did not cleanly extract Ukraine's exact row/status or stay duration.
-- **Suggested verification**: Capture a readable Malaysian Immigration visa table row for Ukraine, test MYVISA/eVISA eligibility if needed, and cross-check the Malaysian embassy / airline TIMATIC before travel.
+- **Why uncertain**: Resolved to screening baseline: exact Ukrainian visitor-entry duration is a before-travel/application-prep check, while relocation planning depends on DE Rantau or another Malaysian pass, not visitor status. MDAC is only an arrival form, not residence authorization.
+- **Suggested verification**: none for screening; check visa table / MYVISA / embassy / TIMATIC before travel.
 - **Created**: 2026-06-04 (run-047)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-049)
+- **Resolution note**: Malaysia profile now demotes Ukraine visitor-entry row capture from core blocker to before-travel check and preserves the route decision around DE Rantau / durable-status planning. [src-251][src-252]
 
 ## vq-077 [high priority]
 - **Fact**: "Malaysia DE Rantau post-24-month options, PR / Entry Permit fit for a foreign-client IT worker, Professional Visit Pass time-counting, spouse/unmarried-partner mechanics, and durable residence alternatives"
 - **Country**: Malaysia
 - **Section**: 5.1
 - **Current source**: src-253, src-254, src-255
-- **Why uncertain**: DE Rantau is official and fits the current IT income, but it is capped at 24 months total and this pass did not capture a predictable route from DE Rantau into Employment Pass, Residence Pass-Talent, Entry Permit, MM2H, or citizenship-qualifying residence.
-- **Suggested verification**: Check MDEC / Immigration DE Rantau FAQ PDFs, Residence Pass-Talent and MM2H rules, Entry Permit fully foreign national guidelines, and current immigration-lawyer guidance on remote foreign-client workers and dependent/unmarried-partner treatment.
+- **Why uncertain**: Resolved to conservative screening baseline: DE Rantau is an income-fit 3-24 month bridge, not a proven PR/citizenship ladder. Do not count Professional Visit Pass time toward Entry Permit / PR or citizenship unless Malaysian Immigration or counsel confirms it; use marriage or independent eligibility for the partner.
+- **Suggested verification**: none for screening; durable post-DE Rantau alternatives belong to a later long-term Malaysia route pass.
 - **Created**: 2026-06-04 (run-047)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-049)
+- **Resolution note**: Malaysia profile now treats DE Rantau as bridge/base only for settlement scoring and leaves Employment Pass, Residence Pass-Talent, MM2H, company route, fully foreign national Entry Permit, and PR counting as future long-term-route research. [src-253][src-254][src-255]
 
 ## vq-078 [medium priority]
 - **Fact**: "Direct annual sunny-day or clear-day counts for Kuala Lumpur, Penang/George Town, and Johor Bahru"

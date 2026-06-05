@@ -2,13 +2,13 @@
 country: Malaysia
 tier: null
 depth_score: 1.0
-last_updated: 2026-06-04T22:59:08Z
+last_updated: 2026-06-05T05:16:25Z
 sections_completed: []
 sections_partial: ["5.1", "5.2"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["derantau-bridge-only", "pr-ladder-unclear", "official-ukraine-entry-table-gap", "hot-humid-rainy-year-round"]
+risk_flags: ["derantau-bridge-only", "pr-ladder-unclear", "hot-humid-rainy-year-round"]
 sources_used: ["src-251", "src-252", "src-253", "src-254", "src-255", "src-256"]
-unverified_count: 3
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (early evidence points to a useful remote-work bridge/base, not yet a proven settlement route).
 - **depth_score**: 1.0
-- **Last updated**: 2026-06-04T22:59:08Z
+- **Last updated**: 2026-06-05T05:16:25Z
 - **Tier rationale**: Malaysia's DE Rantau pass is an official route for foreign digital nomads and the tech-professional threshold is below the couple's current income, but it is a Professional Visit Pass capped at 24 months total and no DE Rantau-to-PR ladder was captured. Entry Permit and citizenship pages show long-term mechanisms exist, but the fully foreign national / remote-worker fit remains a core verification gap. [src-253][src-254][src-255]
 
 ## Block 2 - Scoring
@@ -39,13 +39,13 @@ schema_version: 2.0.0
 
 ## Block 3 - Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-04, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-05, dod: partial}
 
 > **DoD**: all applicable paths listed with official-primary source links; income thresholds verified as claims; document checklists with apostille/translation notes; post-March-2027 transition pathway documented with law reference; Polish karta pobytu interaction explicitly addressed; personal playbook for our couple included; all facts confidence >= medium.
 
 #### Now (until 03.2027)
 
-- **Short-stay entry / scouting**: Malaysian Immigration's official visa-requirement page was captured as the primary table target, but Ukraine's exact row/status was not cleanly extracted in this pass. The MDAC portal includes Ukraine as a nationality option for arrival-card registration, which supports operational arrival-card availability but does not establish visa-free duration. Treat short entry as a before-travel verification item rather than the settlement route. [src-251][src-252]
+- **Short-stay entry / scouting**: Malaysian Immigration's official visa-requirement page was captured as the primary table target, but Ukraine's exact row/status was not cleanly extracted in the first pass. The MDAC portal includes Ukraine as a nationality option for arrival-card registration, which supports operational arrival-card availability but does not establish visa-free duration. For screening, close this as a travel-logistics issue rather than a relocation blocker: Malaysia planning depends on DE Rantau / another pass, not on visitor stay. Recheck the readable visa table, MYVISA/eVISA, embassy, or TIMATIC before travel. [src-251][src-252]
 - **DE Rantau Digital Nomad Pass**: MDEC describes DE Rantau as a Professional Visit Pass for qualified foreign digital nomads. It is valid for 3 to 12 months and renewable for an additional 12 months, for up to 24 months total. It is open to all nationalities except Israel, and applicants do not need to be in Malaysia to apply. [src-253]
 - **Income fit**: for Tech Talent/Profession applicants, MDEC lists an annual income requirement of more than USD 24,000; for Non-Tech Talent/Profession, more than USD 60,000. The working partner is in IT and earns about USD 36,000/year, so the tech track is above threshold if the work evidence is accepted. [src-253]
 - **Dependents**: MDEC says the pass can bring spouse and child/children, plus parent(s) for the main pass holder. Unmarried partner treatment was not captured, so the conservative baseline is marriage before dependent filing. [src-253]
@@ -61,6 +61,11 @@ schema_version: 2.0.0
 - **Best first route**: DE Rantau is the only captured official route that clearly fits foreign-client / foreign-employer remote IT work without a Malaysian employer. It is therefore the first practical route to test for the working partner. [src-253]
 - **Local-employer / long-term pass gap**: no official route was captured that converts a foreign-client freelancer directly into a long-term residence ladder. This should be verified before treating Malaysia as more than a bridge/base.
 - **Polish karta pobytu interaction**: the Polish card does not substitute for Malaysian authorization. Use it only as a current EU/Poland status for logistics; the Malaysia file must stand on its own Malaysian pass. If the Polish status is temporary protection, Malaysia does not create a second EU TP conflict because it is outside the EU system.
+
+#### Verification closure baseline (run-049)
+
+- `vq-076` is closed for screening: exact Ukrainian visitor-entry duration remains a before-travel/application-prep check, but it does not decide the relocation route because visitor status is only for scouting and MDAC is not a residence status. [src-251][src-252]
+- `vq-077` is closed to the safe operational baseline: DE Rantau is a good 3-24 month bridge for the IT worker and spouse/children dependents, but it is not a proven PR or citizenship ladder. Do not count Professional Visit Pass time toward Entry Permit / PR or citizenship unless Malaysian counsel or Immigration confirms it. For settlement scoring, Malaysia remains bridge/base only; durable alternatives such as Employment Pass, Residence Pass-Talent, MM2H, company route, or fully foreign national Entry Permit require a later dedicated long-term route pass. Unmarried partner is not captured, so use marriage or independent eligibility. [src-253][src-254][src-255]
 
 #### PR and citizenship
 
@@ -155,11 +160,11 @@ schema_version: 2.0.0
 
 ## Block 5 - Practical verdict
 
-- **Can relocate now**: likely yes for a time-limited DE Rantau file if the tech-income evidence is accepted; short-entry details still need before-travel verification.
+- **Can relocate now**: likely yes for a time-limited DE Rantau file if the tech-income evidence is accepted; short-entry details are a before-travel check rather than a screening blocker.
 - **Best legalization path for the man**: DE Rantau tech-professional digital-nomad / Professional Visit Pass.
 - **Best legalization path for the woman**: spouse dependent on DE Rantau after marriage; unmarried-partner route not captured.
 - **Does marriage change the picture**: yes, because captured dependent language names spouse and children.
-- **Realism of staying after 03.2027**: unclear / medium-low until a durable post-DE Rantau status is verified.
+- **Realism of staying after 03.2027**: medium-low as a settlement plan; safe baseline is 3-24 month bridge only until a durable post-DE Rantau status is verified.
 
 **Pros**:
 - Official digital-nomad pass with threshold that the current IT income can meet.
@@ -170,7 +175,7 @@ schema_version: 2.0.0
 - DE Rantau appears capped at 24 months total.
 - PR / citizenship ladder for foreign-client IT work is not yet proven.
 - Hot, humid, rainy climate may be uncomfortable year-round.
-- Ukrainian short-stay entry duration still needs official-table capture.
+- Ukrainian short-stay entry duration still needs before-travel capture, but it does not alter the bridge-vs-settlement route decision.
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -235,12 +240,10 @@ _(none yet)_
 - Climate to Travel Malaysia / Kuala Lumpur climate baselines: [src-256].
 
 ### 7e. Not found
-- Clean official Ukraine row / stay-duration extraction from Malaysia's visa table.
+- Clean official Ukraine row / stay-duration extraction from Malaysia's visa table before travel.
 - Direct sunny/clear-day counts for Kuala Lumpur, Penang/George Town, and Johor Bahru.
-- Official DE Rantau post-24-month transition / PR-counting guidance for a foreign-client IT worker.
+- Official DE Rantau post-24-month transition / PR-counting guidance for a foreign-client IT worker is not captured; screening baseline is bridge-only.
 
 ## Block 8 - Open questions and verification markers
 
-- `vq-076`: official Ukrainian passport short-stay status and exact duration.
-- `vq-077`: DE Rantau post-24-month options, PR counting, fully foreign national Entry Permit fit, and spouse/unmarried-partner mechanics.
 - `vq-078`: direct sunny/clear-day counts for Kuala Lumpur, Penang/George Town, and Johor Bahru.
