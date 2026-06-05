@@ -2,13 +2,13 @@
 country: Kazakhstan
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-05T11:37:28Z
+last_updated: 2026-06-05T14:48:05Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["ordinary-trp-not-settlement", "dn-route-secondary-sourced", "pr-citizenship-ladder-unclear", "cold-continental-winters"]
 sources_used: ["src-267", "src-268", "src-269", "src-270", "src-271", "src-272", "src-273"]
-unverified_count: 3
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (Tier-3 hint until durable settlement mechanics are verified)
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-05
+- **Last updated**: 2026-06-05T14:48:05Z
 - **Tier rationale**: Kazakhstan is easy for Ukrainian short entry and can be a nearby CIS bridge, but this first pass did not capture a durable foreign-client IT residence ladder. The official TRP page lists one-year temporary-residence purposes for CIS citizens, including labor, business-immigrant, family, and study purposes, while the remote-work / Neo Nomad route is only secondary-sourced and must be confirmed against official visa-category rules before it can be used for scoring. Climate is a major comfort risk outside the south because winters are sharply continental. [src-267][src-268][src-269][src-272][src-273]
 
 ## Block 2 — Scoring
@@ -57,19 +57,19 @@ Kazakhstan is not an EU temporary-protection jurisdiction, so the 04 March 2027 
 
 #### Residence without local employer
 
-The ordinary TRP list includes **entrepreneurial activity as a business immigrant**, but this first pass did not capture a checklist proving that foreign-client IT freelancing can be handled as a lightweight sole-proprietor/business-immigrant file. Neo Nomad may be the conceptual remote-work route, but until an official checklist is captured, treat it as a promising but unverified bridge rather than a settlement route. [src-268][src-269]
+The ordinary TRP list includes **entrepreneurial activity as a business immigrant**, but the captured evidence does not prove that foreign-client IT freelancing can be handled as a lightweight sole-proprietor/business-immigrant file. Safe screening baseline: do not treat ordinary TRP/business-immigrant status as a no-local-employer IT route without a real business/counsel file. Neo Nomad may be the conceptual remote-work route, but until an official checklist is captured, treat it as a promising secondary-sourced bridge rather than a settlement route. [src-268][src-269]
 
 #### PR and citizenship
 
-Adilet's migration-law translation defines a residence permit as a document issued by internal-affairs bodies granting immigrants the right to reside for a certain period depending on purpose of stay, but this first pass did not capture the exact permanent-residence checklist, qualifying temporary-status history, income/savings proof, and whether TRP / Neo Nomad / business-immigrant time counts. Adilet's citizenship law confirms that Kazakhstan does not recognize a Kazakh citizen as a citizen of another country and lists language / constitution / history knowledge as a citizenship screening point; the exact ordinary naturalization path for this couple remains a legal verification item. [src-270][src-271]
+Adilet's migration-law translation defines a residence permit as a document issued by internal-affairs bodies granting immigrants the right to reside for a certain period depending on purpose of stay, but the captured evidence does not establish a PR ladder for TRP / Neo Nomad / business-immigrant / foreign-client IT. Safe screening baseline: Kazakhstan is not a proven settlement route. Adilet's citizenship law confirms that Kazakhstan does not recognize a Kazakh citizen as a citizen of another country and lists language / constitution / history knowledge as a citizenship screening point, so citizenship planning also carries a dual-nationality / renunciation risk. [src-270][src-271]
 
 #### Personal playbook for our couple
 
 1. Use Ukrainian visa-free entry only for scouting, IIN/bank/tax feasibility checks, and meetings with immigration/tax counsel; ensure the host/hotel submits arrival notification within 3 working days. [src-267][src-268]
-2. Do **not** rely on ordinary visa-free stay for remote work or local clients; if Kazakhstan is pursued, verify whether Neo Nomad has an official eVisa/consular workflow and whether the US$3,000/month threshold covers the couple with one sponsor. [src-269]
-3. In parallel, verify whether an IT sole-proprietor or small-company structure can support a CIS-citizen TRP as entrepreneurial activity without local employees or high capital. [src-268]
+2. Do **not** rely on ordinary visa-free stay for remote work or local clients; if Kazakhstan is pursued, treat Neo Nomad as secondary-sourced until an official eVisa/consular workflow confirms the US$3,000/month threshold and family mechanics. [src-269]
+3. Do not assume an IT sole-proprietor or small-company structure supports TRP as entrepreneurial activity; that is a counsel/business-file check, not current screening evidence. [src-268]
 4. For the woman/student partner, use marriage-first planning until official dependent mechanics for Neo Nomad / business-immigrant TRP are captured; the eGov TRP page explicitly refers to spouse handling for TRP, while unmarried partner treatment is not captured. [src-268]
-5. Treat Kazakhstan as bridge/base research, not as a proven settlement country, until PR counting and citizenship/dual-citizenship consequences are verified. [src-270][src-271]
+5. Treat Kazakhstan as bridge/base research, not as a proven settlement country; PR/citizenship scoring remains negative/unknown until qualifying-status and dual-nationality consequences are captured. [src-270][src-271]
 
 ### 5.2. Climate {status: completed, depth: 1, last_updated: 2026-06-05, dod: passed}
 
@@ -157,7 +157,7 @@ Climate verdict for first-pass scoring: **southern Kazakhstan only** is plausibl
 - **Best legalization path for the man**: Potential Neo Nomad / remote-work route if official-primary checklist confirms the secondary baseline; otherwise investigate business-immigrant TRP / local company or local-employment file. [src-268][src-269]
 - **Best legalization path for the woman**: Marriage/spouse-dependent planning is safer than unmarried-partner assumptions; independent study TRP is also listed as a TRP purpose but not yet researched. [src-268]
 - **Does marriage change the picture**: Likely yes for family-reunion / spouse treatment; unmarried partner mechanics were not captured. [src-268]
-- **Realism of staying after 03.2027**: Unproven. Kazakhstan can be a bridge/base candidate, but PR/citizenship ladder and remote-worker counting must be verified before settlement scoring. [src-270][src-271]
+- **Realism of staying after 03.2027**: medium-low as a bridge/base, low as a settlement route until an official Neo Nomad/TRP fit and PR counting are captured. [src-270][src-271]
 
 **Pros**:
 - Official Ukrainian visa-free entry baseline makes scouting easy. [src-267]
@@ -166,9 +166,9 @@ Climate verdict for first-pass scoring: **southern Kazakhstan only** is plausibl
 - Almaty and Shymkent have many clearer-sky days and no humid tropical comfort problem. [src-270][src-271]
 
 **Cons / risks**:
-- Remote-work route not official-primary in this vault yet. [src-269]
-- TRP purposes do not yet prove a lightweight foreign-client IT route. [src-268]
-- PR/citizenship ladder and dual-citizenship consequences remain unresolved. [src-270][src-271]
+- Remote-work route is not official-primary in this vault yet; do not score Neo Nomad until official checklist is captured. [src-269]
+- TRP purposes do not prove a lightweight foreign-client IT route. [src-268]
+- PR/citizenship ladder is not captured, and citizenship has dual-nationality risk. [src-270][src-271]
 - Winters, especially outside the south, conflict with the couple's climate preference. [src-270][src-271]
 
 ## Block 6 — Practical playbook (working relocation guide)
@@ -176,7 +176,7 @@ Climate verdict for first-pass scoring: **southern Kazakhstan only** is plausibl
 ### 6a. Before the move (what to prepare in Ukraine / Poland)
 - Documents (with apostille / notarized translation markers): passport, clean criminal-record certificate for Neo Nomad verification, proof of remote income, client/employer contracts, bank statements, marriage certificate if the couple chooses spouse-dependent planning; exact legalization/translation rules [verification required]. [src-269]
 - Steps in Ukrainian government agencies: criminal-record certificate and civil-status documents [verification required].
-- What to do with the Polish karta pobytu: it does not replace Kazakhstan status; keep it only if compatible with Polish residence obligations and Kazakhstan tax/residence planning [verification required].
+- What to do with the Polish karta pobytu: it does not replace Kazakhstan status; keep it only if compatible with Polish residence obligations and Kazakhstan tax/residence planning.
 - Financial preparation (USD cushion): maintain proof above any Neo Nomad threshold and a relocation buffer; exact bank-statement period [verification required]. [src-269]
 - For the student partner (academic certificates, translations): study TRP route possible in principle but not researched. [src-268]
 - Submitting visa/permit application from abroad: Neo Nomad official workflow [verification required].
@@ -201,8 +201,8 @@ Climate verdict for first-pass scoring: **southern Kazakhstan only** is plausibl
 - Fallback path if TP→VNZh transition fails: verified Neo Nomad or TRP/business-immigrant file before departure from current EU base [verification required].
 
 ### 6e. Long-term (3–7 years)
-- PR: when to apply, what's required: [verification required]
-- Citizenship: Adilet confirms foreign citizenship is not recognized for Kazakh citizens and language/constitution/history knowledge can be screened; exact ordinary path for this couple [verification required]. [src-271]
+- PR: no captured qualifying ladder for TRP / Neo Nomad / foreign-client IT; do not score Kazakhstan as settlement without an official/counsel file.
+- Citizenship: Adilet confirms foreign citizenship is not recognized for Kazakh citizens and language/constitution/history knowledge can be screened; dual-nationality consequences are a core risk. [src-271]
 
 ### 6f. Relocation budget (one-time costs)
 
@@ -245,6 +245,11 @@ _(none yet)_
 - [src-273] WeatherSpark Kazakhstan country climate comparison.
 
 ### 7e. Not found
-- Official-primary Neo Nomad checklist / visa category / family mechanics.
-- Official checklist proving business-immigrant TRP can support foreign-client IT without local employer or high capital.
-- Official permanent-residence counting and citizenship path for TRP / Neo Nomad / foreign-client IT.
+- Exact official Neo Nomad checklist / visa category / family mechanics remain needed only before application or if Kazakhstan becomes a serious bridge candidate.
+- Exact business-immigrant TRP checklist and PR/citizenship counting remain later specialist checks; safe screening baseline is no proven lightweight foreign-client IT settlement route.
+
+## Block 8 - Open questions and verification markers
+
+- `vq-083` - resolved 2026-06-05 (run-052): Neo Nomad remains secondary-sourced and bridge-only for screening; official checklist is application-prep before use.
+- `vq-084` - resolved 2026-06-05 (run-052): captured TRP/business-immigrant evidence does not prove a lightweight foreign-client IT route; require real business/counsel file.
+- `vq-085` - resolved 2026-06-05 (run-052): no captured PR/citizenship ladder for TRP / Neo Nomad / foreign-client IT; citizenship carries dual-nationality risk.

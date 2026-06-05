@@ -400,16 +400,16 @@ _(none)_
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-085` — 2026-06-05 (run-052)
+- `vq-084` — 2026-06-05 (run-052)
+- `vq-083` — 2026-06-05 (run-052)
+- `vq-082` — 2026-06-05 (run-052)
+- `vq-081` — 2026-06-05 (run-052)
+- `vq-080` — 2026-06-05 (run-052)
+- `vq-079` — 2026-06-05 (run-052)
 - `vq-077` — 2026-06-05 (run-049)
 - `vq-076` — 2026-06-05 (run-049)
 - `vq-075` — 2026-06-05 (run-049)
-- `vq-074` — 2026-06-05 (run-049)
-- `vq-073` — 2026-06-05 (run-049)
-- `vq-066` — 2026-06-04 (run-046)
-- `vq-064` — 2026-06-04 (run-046)
-- `vq-062` — 2026-06-04 (run-046)
-- `vq-054` — 2026-06-04 (run-046)
-- `vq-051` — 2026-06-04 (run-046)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
@@ -967,67 +967,81 @@ _(none)_
 - **Country**: Thailand
 - **Section**: 5.1
 - **Current source**: src-257, src-258, src-259
-- **Why uncertain**: DTV is officially captured as a 5-year multiple-entry remote-work/freelancer bridge with 180-day stay mechanics and spouse/children dependents, but this pass did not capture whether DTV can become settlement-qualifying, whether repeated DTV stays count for PR/citizenship, how foreign remote income is taxed, or whether an unmarried partner can attach.
-- **Suggested verification**: Check Thai Immigration DTV extension/long-stay rules, BOI/LTR FAQs, Thai Revenue Department foreign-income guidance, and current Thai immigration-lawyer analysis for DTV conversion/counting and unmarried-partner mechanics.
+- **Why uncertain**: Resolved to operational screening baseline: DTV remains a bridge/base, not a captured settlement route; LTR is above current income/profile; unmarried partner and tax microdetails are later checks.
+- **Suggested verification**: none for screening; verify tax/DTV extension details only before using Thailand as a bridge.
 - **Created**: 2026-06-05 (run-048)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-052)
+- **Resolution note**: Thailand profile now records the screening baseline: DTV is a 5-year bridge/base with 180-day stay mechanics, not a captured PR/citizenship ladder; LTR is above the current income/profile; spouse/children are the captured dependent categories, while unmarried-partner and tax microdetails are later checks. [src-257][src-259]
 
 ## vq-080 [high priority]
 - **Fact**: "Thailand official permanent-residence and citizenship mechanics for a non-local-employer remote IT worker, including qualifying visa categories, residence-counting rules, quotas, income/work requirements, family filing, and dual-citizenship practice"
 - **Country**: Thailand
 - **Section**: 5.1
 - **Current source**: src-257, src-259
-- **Why uncertain**: The first pass could not cleanly capture Thai Immigration PR/citizenship source pages. The profile therefore treats Thailand as a bridge/base and does not score it as a settlement route until PR/citizenship eligibility and DTV/LTR counting are verified.
-- **Suggested verification**: Capture Thai Immigration permanent residence pages/PDFs, Special Branch or Ministry of Interior naturalization guidance, and reputable legal commentary on remote-worker eligibility, PR quotas, nationality requirements, and dual-nationality consequences.
+- **Why uncertain**: Resolved to safe settlement baseline: no captured no-local-employer Thai PR/citizenship route for this couple.
+- **Suggested verification**: none for screening; revisit only if income/profile reaches LTR or a local-work/business route is pursued.
 - **Created**: 2026-06-05 (run-048)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-052)
+- **Resolution note**: Thailand profile now records the safe settlement answer: no captured no-local-employer PR/citizenship route for the couple; DTV is not enough for settlement scoring and LTR is not currently met. [src-257][src-259]
 
 ## vq-081 [high priority]
 - **Fact**: "Indonesia E33G remote-worker route mechanics for spouse/dependent or unmarried-partner coverage, tax residence, and whether repeated E33G years can convert to or count toward durable residence"
 - **Country**: Indonesia
 - **Section**: 5.1
 - **Current source**: src-262, src-264
-- **Why uncertain**: The official E33G page captures the 1-year remote-worker limited-stay route, US$60,000/year threshold, and generic convertibility language, but this pass did not capture family/dependent filing, unmarried-partner treatment, tax-residence consequences, or whether E33G can become settlement-qualifying.
-- **Suggested verification**: Check Indonesian Immigration e-visa family categories, E33G FAQ / regulation text, Directorate General of Taxes guidance for foreign remote income, and current Indonesian immigration-lawyer analysis for E33G conversion/counting and spouse/unmarried-partner mechanics.
+- **Why uncertain**: Resolved to screening baseline: E33G is official but above current income and bridge-only; dependent/tax/conversion details do not change country screening while the income gate is unmet.
+- **Suggested verification**: none for screening; check dependent/tax/conversion details if income rises above US$60,000/year and E33G is pursued.
 - **Created**: 2026-06-05 (run-050)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-052)
+- **Resolution note**: Indonesia profile now treats E33G as above current income and bridge-only; dependent/tax/conversion details are later checks if income rises above the official US$60,000/year gate. [src-264]
 
 ## vq-082 [high priority]
 - **Fact**: "Indonesia official ITAP/permanent-stay and citizenship mechanics for a foreign-client remote IT worker without a local employer, including qualifying ITAS categories, residence-counting rules, language/integration requirements, and dual-citizenship consequences"
 - **Country**: Indonesia
 - **Section**: 5.1
 - **Current source**: src-262, src-264
-- **Why uncertain**: The first pass captured B1 scouting and E33G remote-worker residence but not the official ITAP/permanent-stay or citizenship ladder for this profile. Indonesia should not be scored as a settlement route until the qualifying categories and counting rules are captured.
-- **Suggested verification**: Capture Indonesian Immigration ITAP/permanent-stay pages, nationality-law guidance, and reputable legal commentary on whether E33G or other non-local-employer categories qualify for ITAP/citizenship and whether dual citizenship is restricted.
+- **Why uncertain**: Resolved to safe settlement baseline: no captured ITAP/PR/citizenship ladder for foreign-client remote IT without local employer.
+- **Suggested verification**: none for screening; revisit ITAP/citizenship categories only if income rises and Indonesia remains in scope.
 - **Created**: 2026-06-05 (run-050)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-052)
+- **Resolution note**: Indonesia profile now records that no ITAP/PR/citizenship ladder is captured for foreign-client remote IT without a local employer; do not score Indonesia as settlement. [src-262][src-264]
 
 ## vq-083 [high priority]
 - **Fact**: "Kazakhstan official-primary Neo Nomad / remote-work visa checklist, current visa category, income threshold, dependent mechanics, application channel, duration, renewal, and whether the route permits foreign-client IT without local work"
 - **Country**: Kazakhstan
 - **Section**: 5.1
 - **Current source**: src-269
-- **Why uncertain**: This first pass captured only a secondary Neo Nomad baseline and did not capture an official MFA / Ministry / eVisa / VMP checklist. The route may fit the couple's US$3,000/month profile, but it cannot be scored until the official threshold and family mechanics are verified.
-- **Suggested verification**: Capture Kazakhstan MFA / Ministry of Tourism / VMP / eVisa pages or current consular guidance for Neo Nomad, including income period, bank statements, insurance, criminal record, spouse/unmarried-partner treatment, filing channel, fees, duration, renewal, and local-work restrictions.
+- **Why uncertain**: Resolved to operational baseline: Neo Nomad remains secondary-sourced and bridge-only for screening; official-primary checklist is required before application, but the absence of it already prevents settlement scoring.
+- **Suggested verification**: none for screening; capture official Neo Nomad checklist before application or if Kazakhstan becomes a serious bridge candidate.
 - **Created**: 2026-06-05 (run-051)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-052)
+- **Resolution note**: Kazakhstan profile now treats Neo Nomad as secondary-sourced and bridge-only for screening; official checklist and family mechanics are before-application checks, not evidence for settlement scoring. [src-269]
 
 ## vq-084 [high priority]
 - **Fact**: "Kazakhstan TRP / business-immigrant / self-employed route fit for a Ukrainian foreign-client IT worker, including whether a sole proprietor or small company without local employer or high capital can support residence"
 - **Country**: Kazakhstan
 - **Section**: 5.1
 - **Current source**: src-268, src-270
-- **Why uncertain**: eGov confirms CIS-citizen TRP purposes including labor, business-immigrant, family, and study, but this pass did not capture the practical checklist or eligibility fit for foreign-client IT income without local employment.
-- **Suggested verification**: Capture Kazakhstan business-immigrant TRP checklists, individual-entrepreneur registration rules for foreigners, work-permit exemptions, tax registration guidance, and current immigration-lawyer analysis for foreign-client IT files.
+- **Why uncertain**: Resolved to safe operational baseline: captured TRP/business-immigrant evidence does not prove a lightweight foreign-client IT route.
+- **Suggested verification**: none for screening; require a real business/counsel file before using TRP/business-immigrant as the route.
 - **Created**: 2026-06-05 (run-051)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-052)
+- **Resolution note**: Kazakhstan profile now records that captured TRP/business-immigrant evidence does not prove a lightweight foreign-client IT route; require a real business/counsel file before use. [src-268][src-270]
 
 ## vq-085 [high priority]
 - **Fact**: "Kazakhstan permanent residence and citizenship ladder for TRP / Neo Nomad / foreign-client IT, including residence-counting rules, qualifying statuses, income/savings proof, language/history tests, family filing, and dual-citizenship consequences for Ukrainians"
 - **Country**: Kazakhstan
 - **Section**: 5.1
 - **Current source**: src-270, src-271
-- **Why uncertain**: Adilet legal baselines were captured, but the exact ordinary PR checklist, qualifying temporary-status history, citizenship timing, and dual-citizenship consequences for this couple remain unresolved.
-- **Suggested verification**: Capture Ministry of Interior / eGov permanent residence permit guidance, Adilet implementing rules, citizenship application procedure pages, and counsel commentary on whether TRP / Neo Nomad / business-immigrant time counts toward PR/citizenship and whether Ukrainian citizenship must be renounced.
+- **Why uncertain**: Resolved to safe settlement baseline: no captured PR/citizenship ladder for TRP / Neo Nomad / foreign-client IT, and citizenship has dual-nationality risk.
+- **Suggested verification**: none for screening; revisit official PR/citizenship mechanics only if Kazakhstan remains a serious bridge/base option.
 - **Created**: 2026-06-05 (run-051)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-05 (run-052)
+- **Resolution note**: Kazakhstan profile now records no captured PR/citizenship ladder for TRP / Neo Nomad / foreign-client IT, plus citizenship dual-nationality risk. [src-270][src-271]

@@ -3,6 +3,13 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-05
 ---
+## 2026-06-05 — run-052
+- Verification mode: resolved 7 legal/route blockers across Thailand, Indonesia, and Kazakhstan to safe operational baselines.
+- Countries updated: Thailand, Indonesia, Kazakhstan (bridge/base vs settlement baselines clarified; unverified_count reduced).
+- Sources added: 0
+- Claims added: 0
+- Verification queue: 10 -> 3 pending/open
+
 ## 2026-06-05 — run-051
 - Kazakhstan: created profile and claims; depth_score 0 -> 1.5 (5.2 completed; 5.1 partial).
 - Legalization first pass captured official Ukrainian visa-free scouting up to 90 days, arrival-notification rules, and CIS-citizen TRP purposes; durable foreign-client IT residence remains unproven.

@@ -2,13 +2,13 @@
 country: Thailand
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-05T02:09:41Z
+last_updated: 2026-06-05T14:48:05Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate"]
 sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (first pass suggests a strong medium-term bridge/base, not a proven settlement route for this couple).
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-05T02:09:41Z
+- **Last updated**: 2026-06-05T14:48:05Z
 - **Tier rationale**: Ukrainian passport holders can use a 60-day visa exemption for tourism/scouting, and the Destination Thailand Visa (DTV) is a current official workcation route for remote workers/freelancers with a 500,000 THB savings threshold and 5-year multiple-entry validity. However, DTV is structured around 180-day stays and exits/re-entries, while the official LTR Work-from-Thailand route requires at least USD 80,000/year, or USD 40,000/year plus extra qualifications and a qualifying large overseas employer, above or awkward for the couple's current profile. [src-257][src-258][src-259]
 
 ## Block 2 - Scoring
@@ -55,18 +55,18 @@ schema_version: 2.0.0
 #### After 4 March 2027
 
 - Thailand does not solve the EU temporary-protection expiry problem through a TP conversion; it is a third-country ordinary-status plan.
-- DTV can be a multi-year mobility/base tool because it is valid for 5 years and permits repeated 180-day stays with extension/re-entry mechanics, but this pass did not capture any DTV-to-permanent-residence or DTV-to-citizenship ladder. Treat it as a bridge/base unless later verification proves Thai permanent residence counting for DTV or a feasible conversion route. [src-257]
-- The official LTR route is the durable-looking remote-worker category but appears above budget/profile. If income rises above USD 40,000-80,000/year and the employer/client structure fits BOI's company requirements, it deserves a separate LTR pass. [src-259]
+- DTV can be a multi-year mobility/base tool because it is valid for 5 years and permits repeated 180-day stays with extension/re-entry mechanics, but the safe screening baseline is that it is **not** a settlement route. Until an official PR/citizenship counting rule is captured, do not count DTV stay toward Thai PR/citizenship planning. [src-257]
+- The official LTR route is the only captured durable-looking remote-worker category, but it is above budget/profile: BOI requires USD 80,000/year, or USD 40,000-80,000/year plus extra qualifications and a qualifying large overseas employer. Treat LTR as unavailable at the couple's current USD 36,000/year freelance/client profile. [src-259]
 
 #### Residence without local employer
 
 - **Best first route**: DTV workcation is the strongest captured no-local-employer route for the working partner. It explicitly names digital nomad / remote worker / freelancer and asks for remote-work evidence plus savings, not Thai employment. [src-257]
-- **Settlement gap**: no captured Thai route converts a foreign-client freelancer with USD 3,000/month income into ordinary long-term residence, permanent residence, or citizenship. LTR is higher-threshold and employer-profile-constrained; business/work routes, Smart Visa, Elite/Privilege, or company formation remain unresearched for this couple.
+- **Settlement baseline**: no captured Thai route converts a foreign-client freelancer with USD 3,000/month income into ordinary long-term residence, permanent residence, or citizenship. For screening, Thailand remains bridge/base-only: DTV is useful mobility, while LTR is higher-threshold and employer-profile-constrained. Business/work routes, Smart Visa, Privilege/Elite, or company formation remain later specialist checks, not current evidence for settlement.
 - **Polish karta pobytu interaction**: the Polish residence card does not substitute for Thai authorization. It may help prove current residence for the Warsaw e-visa jurisdiction if valid and if the applicant is applying from Poland, but Thailand still requires its own visa/status. If the Polish status is temporary protection, Thailand creates no second-EU-TP conflict because it is outside the EU system. [src-257]
 
 #### PR and citizenship
 
-- No official Thai permanent-residence or citizenship source was cleanly captured in this first pass. The immediate safe statement is negative/unknown for settlement: DTV is not enough evidence for a PR/citizenship route, and LTR eligibility is not currently met by the couple's income/profile. Add a later verification pass for Thai PR categories, non-immigrant stay counting, nationality rules, and whether DTV/LTR time helps. [src-257][src-259]
+- Safe operational baseline for screening: Thailand is **not** a proven PR/citizenship route for this couple. DTV is not enough evidence for a PR/citizenship ladder, and LTR eligibility is not currently met by the couple's income/profile. Thai PR categories, quotas, nationality rules, tax residency, and specialist conversion strategies should be checked only if Thailand remains attractive as a bridge after cost/tax/comfort passes. [src-257][src-259]
 
 #### Personal playbook for our couple
 
@@ -75,7 +75,7 @@ schema_version: 2.0.0
 3. If choosing Thailand as the non-EU fallback, prepare a DTV workcation file through the relevant Thai e-visa jurisdiction: passports, photos, proof of current residence in Poland/Ukraine, bank evidence of at least 500,000 THB, foreign-client/employer contracts or portfolio, and fee budget. [src-257]
 4. Marriage is the conservative partner plan because captured DTV dependent language names spouse and children under 20, not unmarried partners. [src-257][src-258]
 5. Do not plan on LTR unless income/profile changes: current USD 36,000/year is below BOI's reduced USD 40,000 floor and far below the normal USD 80,000/year floor. [src-259]
-6. Before relying on Thailand beyond a bridge, verify PR/citizenship route mechanics, tax residency for foreign-client IT income, health insurance, and whether DTV extensions/re-entries are administratively reliable in practice.
+6. Screening conclusion: use Thailand only as a bridge/base unless income/profile rises into LTR territory or later counsel identifies a real settlement file; tax residency, DTV extension reliability, and insurance remain application-prep / comfort-pass checks.
 
 ### 5.2. Climate {status: deep, depth: 2, last_updated: 2026-06-05, dod: passed}
 
@@ -159,7 +159,7 @@ schema_version: 2.0.0
 - **Best legalization path for the man**: DTV workcation / remote worker / freelancer route.
 - **Best legalization path for the woman**: spouse dependent on DTV after marriage; unmarried-partner route not captured.
 - **Does marriage change the picture**: yes, captured DTV dependent language covers spouse and children under 20.
-- **Realism of staying after 03.2027**: unclear / medium-low until DTV-to-durable-status and Thai PR/citizenship mechanics are verified.
+- **Realism of staying after 03.2027**: medium as a bridge/base, low as a settlement route at current income/profile; no DTV-to-PR/citizenship ladder is captured.
 
 **Pros**:
 - Official remote-worker/freelancer DTV route with no high monthly income threshold captured; main financial gate is savings of at least 500,000 THB.
@@ -167,9 +167,9 @@ schema_version: 2.0.0
 - No cold winter; Chiang Mai offers a milder dry-season inland option.
 
 **Cons / risks**:
-- DTV is not proven as a settlement route and requires exits/re-entries after 180+180 days.
+- DTV is a bridge/mobility route, not a captured settlement route, and requires exits/re-entries after 180+180 days.
 - LTR Work-from-Thailand appears above the couple's current income/profile.
-- Unmarried partner not captured for dependent treatment.
+- Unmarried partner is not captured for dependent treatment; spouse/children only is the safe baseline.
 - Bangkok/Phuket are hot, humid, and monsoon-affected; Phuket has low clearer-sky reliability.
 
 ## Block 6 - Practical playbook (working relocation guide)
@@ -195,8 +195,7 @@ schema_version: 2.0.0
 - Do not expect Thailand to convert EU temporary protection; it is an ordinary third-country plan.
 
 ### 6e. Long-term (3-7 years)
-- PR: verify Thai permanent-residence categories, non-immigrant stay counting, DTV/LTR eligibility, quota mechanics, and fees.
-- Citizenship: verify naturalization residence, language, work/income, PR prerequisites, and dual-nationality practice before scoring.
+- Long-term screening baseline: do not count on PR/citizenship through DTV. Revisit Thai PR/naturalization only if income/profile reaches LTR or a separate local-work/business route is being considered.
 
 ### 6f. Relocation budget (one-time costs)
 
@@ -239,12 +238,10 @@ _(none yet)_
 - Royal Thai Embassy Washington DTV page used as a secondary official checklist cross-check: [src-258].
 
 ### 7f. Not found
-- Clean official Thai Immigration permanent-residence and citizenship route mechanics accessible without WAF.
-- DTV-to-PR / DTV-to-LTR / DTV status-counting guidance.
-- Unmarried-partner dependent treatment for DTV.
-- Thailand tax treatment for a DTV remote worker with foreign-client IT income.
+- Exact Thai PR/citizenship filing mechanics, quotas, tax residency, and specialist conversion strategy remain later checks if Thailand is pursued beyond bridge use.
+- Unmarried-partner dependent treatment for DTV; safe baseline is spouse/children only.
 
 ## Block 8 - Open questions and verification markers
 
-- `vq-079` — Thailand DTV long-term route, PR/citizenship counting, DTV-to-LTR/other conversion, tax residency, and unmarried-partner treatment.
-- `vq-080` — Thai official PR/citizenship mechanics and whether any no-local-employer route can become settlement-qualifying.
+- `vq-079` — resolved 2026-06-05 (run-052): screening baseline is DTV bridge/base only; no DTV settlement counting captured, unmarried partner not covered by captured dependent language, and tax details are later application-prep checks.
+- `vq-080` — resolved 2026-06-05 (run-052): no captured no-local-employer PR/citizenship route for the couple; LTR is above current income/profile.

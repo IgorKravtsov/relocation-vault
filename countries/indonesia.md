@@ -2,13 +2,13 @@
 country: Indonesia
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-05T08:28:47Z
+last_updated: 2026-06-05T14:48:05Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["remote-worker-income-above-current-budget","bridge-route-not-settlement","pr-ladder-unclear","hot-humid-rainy-climate"]
 sources_used: ["src-262","src-263","src-264","src-265","src-266"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence points to Indonesia as a bridge/base rather than a proven settlement route for this couple: Ukraine is listed among Indonesia's VoA/e-VoA subject countries, and the official E33G remote-worker limited-stay visa exists, but its US$60,000/year income requirement is above the couple's current ~US$36,000/year income. [src-263][src-264]
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-05
+- **Last updated**: 2026-06-05T14:48:05Z
 - **Tier rationale**: Do not classify yet. The core route is official but income-gated and the first pass did not capture a durable PR/citizenship ladder for a foreign-client IT worker using E33G.
 
 ## Block 2 — Scoring
@@ -47,7 +47,7 @@ schema_version: 2.0.0
 
 - **Short scouting entry**: Indonesia's official immigration country list for VoA / visa-free / calling-visa subjects lists `Ukraina` and `Polandia`; the B1 visit visa on arrival allows up to 30 days, extendable once to a total of 60 days, with a Rp500,000 fee for the first 30 days. B1 holders may not sell goods/services or receive wages or similar compensation from Indonesian persons or corporations. [src-263][src-264]
 - **Ukrainian TP context**: Indonesia is not an EU temporary-protection jurisdiction; March 2027 is therefore not an Indonesian TP deadline. The relevant question is whether the couple can secure an ordinary Indonesian status before relying on Indonesia as a base.
-- **Polish karta pobytu**: Not captured as giving any Indonesian long-stay right. Use it only as an existing third-country residence/travel document where forms ask for residence history; it does not replace an Indonesian visa/residence permit. [verification required]
+- **Polish karta pobytu**: safe baseline - it does not give any Indonesian long-stay right. Use it only as an existing third-country residence/travel document where forms ask for residence history; it does not replace an Indonesian visa/residence permit.
 
 #### After 4 March 2027
 
@@ -62,14 +62,14 @@ schema_version: 2.0.0
 
 #### PR and citizenship
 
-- Not captured in this pass. The E33G page says the stay permit can be extended and can be converted to another stay permit, but that sentence alone is not enough to treat E33G as a PR/citizenship ladder. Queue follow-up before any settlement scoring.
+- Safe operational baseline for screening: Indonesia is not a settlement route for this couple at current income. The E33G page says the stay permit can be extended and can be converted to another stay permit, but that generic sentence is not enough to treat E33G as an ITAP/PR/citizenship ladder. Since E33G also requires US$60,000/year, Indonesia should be scored as scouting/bridge-only unless income rises and a later official ITAP/category check confirms a durable path. [src-264]
 
 #### Personal playbook for our couple
 
 1. Treat Indonesia as a **scouting / possible bridge** country, not a proven settlement country yet.
 2. Use B1 VoA/e-VoA only for a short reconnaissance trip; do not work for Indonesian clients or employers on visitor status. [src-263]
 3. Do not rely on E33G at current income: the official income proof is US$60,000/year, above the current ~US$36,000/year. [src-264]
-4. If income rises above US$60,000/year, verify the serving e-visa workflow, dependent/spouse mechanics, tax residence consequences, and whether repeated E33G years can ever lead to ITAP/PR before committing.
+4. If income rises above US$60,000/year, use E33G as a possible bridge only; verify spouse/dependent filing, tax residence, and any ITAP conversion with official/counsel sources before treating Indonesia as durable.
 
 ### 5.2. Climate {status: deep, depth: 2, last_updated: 2026-06-05, dod: passed}
 
@@ -136,9 +136,9 @@ Indonesia has no cold-winter problem: the country is generally equatorial/tropic
 
 - **Can relocate now**: only for scouting or if a qualifying long-stay route is secured; B1 visitor status is not a residence solution.
 - **Best legalization path for the man**: E33G remote-worker visa only if income rises to at least US$60,000/year and foreign-employer contract evidence fits.
-- **Best legalization path for the woman**: unresolved; marriage/spouse-dependent mechanics must be verified before treating her as covered.
-- **Does marriage change the picture**: likely relevant for dependent planning, but not captured for E33G in this pass. [verification required]
-- **Realism of staying after 03.2027**: unproven at current income; do not treat Indonesia as a settlement route yet.
+- **Best legalization path for the woman**: unresolved for E33G; conservative baseline is marriage/spouse-dependent planning only if an official dependent file is confirmed, otherwise independent eligibility.
+- **Does marriage change the picture**: likely relevant for dependent planning, but not captured for E33G in this pass.
+- **Realism of staying after 03.2027**: low at current income; Indonesia is scouting/bridge-only unless income rises above E33G and a durable ITAP path is later confirmed.
 
 **Pros**:
 - Official remote-worker limited-stay route exists.
@@ -147,7 +147,7 @@ Indonesia has no cold-winter problem: the country is generally equatorial/tropic
 
 **Cons / risks**:
 - E33G US$60,000/year income threshold exceeds current budget.
-- PR/citizenship ladder for E33G not captured.
+- PR/citizenship ladder for E33G not captured; do not use Indonesia for settlement scoring now.
 - Hot, humid, rainy climate; flood and air-quality checks still needed.
 
 ## Block 6 — Practical playbook (working relocation guide)
@@ -162,14 +162,14 @@ Indonesia has no cold-winter problem: the country is generally equatorial/tropic
 - If entering on E33G, confirm automatic limited-stay permit / re-entry permit issuance at admission and set up e-visa account access for extensions. [src-264]
 
 ### 6c. First 3–6 months
-- Verify tax residence and foreign-client income reporting before staying long enough to trigger Indonesian tax obligations. [verification required]
-- Verify dependent/family filing for spouse or unmarried partner. [verification required]
+- Verify tax residence and foreign-client income reporting before staying long enough to trigger Indonesian tax obligations if E33G becomes realistic.
+- Verify dependent/family filing for spouse; do not assume unmarried-partner coverage.
 
 ### 6d. Before March 2027 (critical deadline)
 - Indonesia is outside EU TP. If using Indonesia after the EU TP horizon, the couple needs an ordinary Indonesian status that fits independently of Ukrainian TP.
 
 ### 6e. Long-term (3–7 years)
-- PR / ITAP and citizenship route for an E33G remote worker: [verification required]
+- PR / ITAP and citizenship: no captured route for an E33G remote worker; revisit only after income rises and official category/counting evidence is captured.
 
 ### 6f. Relocation budget (one-time costs)
 
@@ -210,10 +210,9 @@ _(none yet)_
 - [src-266] WeatherSpark — Indonesia country climate comparison
 
 ### 7e. Not found
-- Official E33G dependent/spouse mechanics were not captured in this pass.
-- Official PR/ITAP and citizenship ladder for E33G / remote-worker residents was not captured in this pass.
+- Exact E33G dependent/spouse mechanics, tax treatment, and ITAP/citizenship category-counting remain later application-prep / long-term-route checks; safe screening baseline is bridge-only and above current income.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-081` — Indonesia E33G dependent/spouse/unmarried-partner mechanics, tax residence, and whether repeated E33G years can convert/count toward durable residence.
-- `vq-082` — Indonesia official ITAP/PR and citizenship mechanics for a foreign-client remote IT worker without a local employer.
+- `vq-081` — resolved 2026-06-05 (run-052): E33G is above current income and should be treated as bridge-only; dependent/tax/conversion microdetails are later checks if income rises.
+- `vq-082` — resolved 2026-06-05 (run-052): no captured ITAP/PR/citizenship ladder for foreign-client remote IT without a local employer; do not score Indonesia as settlement.
