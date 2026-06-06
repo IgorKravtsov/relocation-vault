@@ -194,6 +194,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-06 (run-058)
 - **Status**: pending
 
+## vq-092 [medium priority]
+- **Fact**: "Current Croatia 2026 self-employed / craft contribution base and lump-sum craft fit for a Ukrainian foreign-client IT freelancer, including VAT/reverse-charge handling and dependent allowance treatment"
+- **Country**: Croatia
+- **Section**: 5.3
+- **Current source**: src-306, src-308, src-309, src-310
+- **Why uncertain**: PwC confirms the ordinary PIT, allowance, contribution-rate, VAT, and lump-sum-threshold framework, but this pass did not capture a clean official 2026 craft/self-employed contribution table or accountant-level confirmation that foreign-client IT receipts can safely use lump-sum craft taxation outside VAT.
+- **Suggested verification**: Capture official Tax Administration / HZMO / HZZO or accountant guidance for 2026 paušalni obrt contribution bands, IT activity eligibility, foreign-client reverse-charge/place-of-supply treatment, and dependent-family-member allowance proof for a spouse/unmarried partner.
+- **Created**: 2026-06-06 (run-059)
+- **Status**: pending
+
 ## vq-086 [medium priority]
 - **Fact**: "Whether Armenia has any Ukraine-specific temporary-protection, humanitarian-stay, or post-2027 bridge relevant to Ukrainian citizens"
 - **Country**: Armenia

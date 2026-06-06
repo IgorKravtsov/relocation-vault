@@ -3528,8 +3528,8 @@ Each source entry:
 - **Type**: commercial
 - **Date published**: 2026-06-06
 - **Date accessed**: 2026-06-06
-- **Used by**: Italy; Greece
-- **Facts supporting**: run-date USD/EUR conversion of 1 USD = EUR 0.865342 used for Italy section 5.3 worked forfetario / INPS budget example (claim-italy-011) and Greece section 5.3 PIT-only business-profit example (claim-greece-011)
+- **Used by**: Italy; Greece; Croatia
+- **Facts supporting**: run-date USD/EUR conversion of 1 USD = EUR 0.865342 used for Italy section 5.3 worked forfetario / INPS budget example (claim-italy-011), Greece section 5.3 PIT-only business-profit example (claim-greece-011), and Croatia section 5.3 ordinary self-employment stress test (claim-croatia-011)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-06
 
@@ -3677,3 +3677,63 @@ Each source entry:
 - **Facts supporting**: tax-registration/data-amendment and employee/self-employed registration / online contribution-payment route anchors (claim-cyprus-009)
 - **Confidence ceiling**: high
 - **Stale at**: 2026-12-06
+
+## src-306
+- **Title**: PwC Worldwide Tax Summaries — Croatia individual taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/croatia/individual/taxes-on-personal-income
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-30
+- **Date accessed**: 2026-06-06
+- **Used by**: Croatia
+- **Facts supporting**: Croatian worldwide-income tax-residence baseline, local progressive PIT rates for annual income, self-employment inclusion in annual income, EUR 60,000 lower bracket, and local-rate ranges of 15%-23% / 25%-33% (claim-croatia-006, claim-croatia-008, claim-croatia-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-30
+
+## src-307
+- **Title**: PwC Worldwide Tax Summaries — Croatia individual residence
+- **URL**: https://taxsummaries.pwc.com/croatia/individual/residence
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-30
+- **Date accessed**: 2026-06-06
+- **Used by**: Croatia
+- **Facts supporting**: Croatian PIT residence rules based on real estate available for at least 183 days or physical presence for at least 183 days in one or two calendar years, plus family/work-location and DTT tie-breaker context (claim-croatia-007)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-30
+
+## src-308
+- **Title**: PwC Worldwide Tax Summaries — Croatia individual income determination
+- **URL**: https://taxsummaries.pwc.com/croatia/individual/income-determination
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-30
+- **Date accessed**: 2026-06-06
+- **Used by**: Croatia
+- **Facts supporting**: Croatian self-employment income categories, business-book baseline, receipts-minus-expenses tax base, monthly prepayments, and lump-sum taxation possibility where the taxpayer is outside VAT and annual receipts do not exceed EUR 60,000 (claim-croatia-008, claim-croatia-009)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-30
+
+## src-309
+- **Title**: PwC Worldwide Tax Summaries — Croatia individual deductions
+- **URL**: https://taxsummaries.pwc.com/croatia/individual/deductions
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-30
+- **Date accessed**: 2026-06-06
+- **Used by**: Croatia
+- **Facts supporting**: EUR 600 monthly personal allowance, EUR 300 monthly dependent-family-member allowance, and mandatory health-insurance contribution deduction context used in the Croatia section 5.3 worked example (claim-croatia-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-30
+
+## src-310
+- **Title**: PwC Worldwide Tax Summaries — Croatia individual other taxes and tax administration
+- **URL**: https://taxsummaries.pwc.com/croatia/individual/other-taxes ; https://taxsummaries.pwc.com/croatia/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-30
+- **Date accessed**: 2026-06-06
+- **Used by**: Croatia
+- **Facts supporting**: Croatian pension and health social-contribution baseline, contribution-base caveat by status/circumstances, 25% general VAT rate, no joint PIT filing, annual return deadline, and lump-sum assessment/reporting mechanics (claim-croatia-010, claim-croatia-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-30

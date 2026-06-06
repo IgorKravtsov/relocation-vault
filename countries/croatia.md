@@ -1,14 +1,14 @@
 ---
 country: Croatia
 tier: null
-depth_score: 1.5
-last_updated: 2026-05-26T04:05:39Z
+depth_score: 2.0
+last_updated: 2026-06-06T12:56:27Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget"]
-sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "croatia-self-employed-contribution-base-gap", "croatia-lump-sum-obrt-fit-gap"]
+sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045", "src-293", "src-306", "src-307", "src-308", "src-309", "src-310"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Croatia has EU temporary protection, a formal digital-nomad temporary-stay route, and an attractive Adriatic climate, but the digital-nomad income floor is above the couple's current ~$3,000/month budget and no Croatia-specific post-04 March 2027 TP-to-ordinary-residence bridge was captured in this first pass.
-- **depth_score**: 1.5
-- **Last updated**: 2026-05-26T04:05:39Z
-- **Tier rationale**: Keep unranked until taxes, rent, partner mechanics, and a verified post-TP pathway are researched beyond the first legalization/climate pass.
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-06T12:56:27Z
+- **Tier rationale**: Keep unranked until rent, partner mechanics, ordinary residence after TP, and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the first legalization, climate, and tax passes.
 
 ## Block 2 — Scoring
 
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | TP is covered at EU level through 04 March 2027 and Croatia DN exists, but DN income is too high for the current budget and no post-TP bridge was found. | §5.1 |
 | Climate | — | N/A | Strong coastal climate fit in Split / Dubrovnik; Zagreb has colder continental winters. Direct sunshine-day counts are now captured from Current Results. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | N/A | Croatia tax residents are taxed on worldwide income; ordinary self-employment has local-rate PIT and social contributions, while lump-sum craft taxation may be better but needs exact 2026 contribution / activity-fit verification. First conservative ordinary example at $3,000/month leaves about EUR 1,407-1,491/month before accountant/VAT edge cases. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -91,9 +91,60 @@ Croatia has a split climate profile: Mediterranean on the Adriatic coast and mor
 
 Climate caveats: the Adriatic coast has hot sunny summers but winter rain; the Bora can bring cold gusts, and coastal cities at the foot of mountains can have heavy rain [src-043]. Current Results confirms the direct annual sunshine-day counts needed for the climate DoD: 49 for Zagreb-Maksimir, 108 for Split-Marjan, and 127 for Dubrovnik [src-045]. The coast therefore remains the clear climate fit; Zagreb remains a weaker winter-comfort option.
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-06, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. This pass captures tax residence, ordinary self-employment PIT, personal allowances, social-security rates, VAT, filing mechanics, and a conservative USD 3,000/month worked example. Missing before passing DoD: exact 2026 self-employed contribution base for an IT freelancer / craft, whether the couple can safely use lump-sum craft taxation for foreign-client IT receipts, and accountant confirmation of VAT / reverse-charge treatment.
+
+#### Tax residence and scope
+
+Croatian tax residents are taxed on worldwide income, while non-residents pay Croatian tax on Croatian-source income [src-306]. PwC's Croatia residence summary says an individual is a resident if they have real estate at their disposal in Croatia for at least 183 days in one or two calendar years, or are physically present in Croatia for at least 183 days in one or two calendar years; treaty tie-breakers may still matter where another country also claims residence [src-307]. For this couple, living in Croatia as a real base should therefore be treated as Croatian tax-residence planning, not just visa planning.
+
+#### Ordinary self-employment / freelancer baseline
+
+PwC treats self-employment income as annual income subject to progressive local-rate PIT and annual assessment [src-306][src-308]. Self-employment income includes small business / craft activity and independent professions, requires business books and evidence, and the tax base is receipts minus allowable expenses and personal allowances [src-308]. The annual lower PIT bracket covers the first EUR 60,000 of tax base; local governments set the lower rate within 15%-23% and the higher rate within 25%-33% depending on municipality type, with default rates of 20% and 30% if no local choice is made [src-306]. Zagreb can set up to 23% / 33%, while a municipality can be as low as 15% / 25% [src-306].
+
+PwC lists a EUR 600/month personal allowance and EUR 300/month dependent-family-member allowance where eligible [src-309]. The tax example below uses only the worker's EUR 600/month allowance because partner-dependent treatment for an unmarried student and the exact filing posture are not verified. Croatia does not allow joint annual PIT filing [src-310].
+
+#### Social contributions and health insurance
+
+Croatia's social-security system covers pension and health insurance [src-310]. PwC gives the employee-style rates as 20% pension contributions and 16.5% health contributions; it also warns that contributions can be payable on realised income or an artificial base depending on the person's social-insurance status and circumstances [src-310]. For a solo foreign-client IT worker, the material gap is not the headline rates but the exact self-employed / craft contribution base and whether a lump-sum craft can use a fixed monthly contribution schedule. Until that is mapped by a Croatian accountant, use the ordinary calculation below as a conservative stress test, not the likely optimized outcome.
+
+#### Lump-sum craft / small-business possibility
+
+PwC confirms a derogation from book-based self-employment where a self-employed taxpayer is not subject to VAT and annual receipts do not exceed the VAT-registration threshold of EUR 60,000; in that case PIT can be paid as a lump sum based on a Tax Administration assessment [src-308][src-310]. This looks structurally important because USD 3,000/month is about EUR 31,152/year at the run-date FX rate [src-293], under EUR 60,000. However, this pass did not capture a clean official 2026 table for lump-sum income-tax bands, craft social contributions, IT activity eligibility, or foreign-client / cross-border service VAT treatment. Treat lump-sum craft as a promising but unscored optimization until verified.
+
+#### VAT and filing mechanics
+
+The general Croatian VAT rate is 25% [src-310]. The self-employment VAT-registration threshold is EUR 60,000 according to PwC's lump-sum-tax discussion [src-308]. Foreign-client IT services may involve reverse-charge or foreign-place-of-supply rules rather than charging Croatian VAT, but this was not verified in this pass; do not assume the exact invoicing treatment without a Croatian accountant. Annual PIT returns are due by the end of February for the previous year when the taxpayer realizes self-employment income; lump-sum self-employment uses a Tax Administration assessment and a special annual reporting form due within 15 days after year-end [src-310].
+
+#### Worked example for USD 3,000/month
+
+Run-date FX source `src-293` gives 1 USD = EUR 0.865342, so USD 3,000/month is about EUR 2,596/month or EUR 31,152/year. Conservative ordinary self-employment stress test:
+
+| Item | Amount |
+|---|---:|
+| Gross receipts | EUR 31,152/year |
+| Pension + health contributions stress test at 36.5% | EUR 11,371/year |
+| Personal allowance | EUR 7,200/year |
+| Tax base after contributions and allowance | EUR 12,582/year |
+| PIT at 15% low-municipality lower rate | EUR 1,887/year |
+| PIT at 20% default lower rate | EUR 2,516/year |
+| PIT at 23% Zagreb maximum lower rate | EUR 2,894/year |
+| Estimated net after contributions + PIT | about EUR 1,407-1,491/month |
+
+This ordinary stress test is materially worse than Italy's forfetario-style result and may be overly conservative if Croatia's lump-sum craft route applies. The practical tax conclusion is therefore **incomplete rather than negative**: Croatia could be viable only if a Croatian accountant confirms a low-burden lump-sum craft / small-business setup, foreign-client VAT handling, and the exact 2026 contribution base. If the worker must use ordinary self-employment with broad contributions on receipts, the net at current income is tight.
+
+#### Marriage / partner tax effects
+
+Croatia has no joint annual PIT return [src-310]. A dependent-family-member allowance exists, but the pass did not verify whether an unmarried student partner qualifies, what proof is needed, or whether marriage materially changes allowance eligibility [src-309]. The first-pass example therefore does not include the partner allowance.
+
+#### Practical tax playbook
+
+1. Before choosing Croatia, ask a Croatian accountant to model two structures: ordinary book-based self-employment and lump-sum craft / small business.
+2. Specifically verify whether foreign-client IT services can use lump-sum taxation while staying outside VAT at EUR 31,152/year, and how reverse-charge / place-of-supply invoicing works.
+3. If the DN route becomes affordable later, re-check whether DN status changes Croatian tax treatment; this pass did not capture a tax exemption or special DN tax regime from a tax source.
+4. Avoid basing the relocation budget on the optimistic lump-sum route until the 2026 contribution table and activity fit are documented.
+5. For current-income planning, use the conservative ordinary-stress net of about EUR 1,407-1,491/month after Croatian tax/social contributions, before accountant fees and living costs.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -141,10 +192,10 @@ Climate caveats: the Adriatic coast has hot sunny summers but winter rain; the B
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Possibly via TP if eligible; DN only if income rises above €3,622.50/month plus partner uplift.
-- **Best legalization path for the man**: TP as temporary bridge; DN only after income increase.
+- **Can relocate now**: Possibly via TP if eligible; DN only if income rises above €3,622.50/month plus partner uplift. Tax planning is not yet a positive reason to choose Croatia: ordinary self-employment looks tight at current income unless lump-sum craft optimization is confirmed.
+- **Best legalization path for the man**: TP as temporary bridge; DN only after income increase; ordinary self-employment / craft tax setup requires accountant verification before treating it as affordable.
 - **Best legalization path for the woman**: TP independently if eligible; as DN family member if marriage or provable common-law partnership fits MUP criteria.
-- **Does marriage change the picture**: Yes. Croatia recognizes common-law partners, but marriage may simplify proof if they cannot document 3+ years of cohabitation.
+- **Does marriage change the picture**: Yes for immigration proof. Tax benefit is unverified: Croatia has no joint annual PIT return, but a dependent-family-member allowance may matter if eligibility is documented [src-309][src-310].
 - **Realism of staying after 03.2027**: Unclear at current income until a Croatia post-TP bridge or another ordinary residence route is verified.
 
 **Pros**:
@@ -155,6 +206,8 @@ Climate caveats: the Adriatic coast has hot sunny summers but winter rain; the B
 **Cons / risks**:
 - DN income threshold is above current income and rises for an accompanying partner.
 - DN stay is temporary and capped at 18 months before a cooling-off period.
+- Ordinary self-employment tax/social-contribution stress test leaves only about EUR 1,407-1,491/month from USD 3,000/month gross unless lump-sum craft optimization applies [src-293][src-306][src-310].
+- Exact 2026 lump-sum craft / IT freelancer contribution and VAT treatment is not verified.
 - No Croatia-specific post-04 March 2027 TP bridge captured.
 - Coastal rent / seasonality risk is likely material but unresearched.
 
@@ -172,13 +225,13 @@ Climate caveats: the Adriatic coast has hot sunny summers but winter rain; the B
 - Address registration: provide address or intended address; if no fixed housing, a confirmed hotel/hostel reservation can be used as intended stay address for first application [src-041].
 - Submitting residence application: online or at the competent police administration/station if legally in Croatia [src-041].
 - Bank account opening: [verification required]
-- Tax ID / social security number: [verification required]
+- Tax ID / social security number: tax-resident / self-employed setup will require Croatian Tax Administration treatment; exact OIB / craft registration steps remain pending.
 - Long-term housing: [verification required]
-- Health insurance / public health registration: private/travel insurance covering Croatia is needed for DN; public system details pending [src-041].
+- Health insurance / public health registration: private/travel insurance covering Croatia is needed for DN; ordinary self-employed social-insurance registration and contribution base remain pending [src-041][src-310].
 - SIM card, internet, utilities: [verification required]
 
 ### 6c. First 3–6 months
-- Tax registration as self-employed / freelancer: [verification required]
+- Tax registration as self-employed / freelancer: first-pass tax baseline captured. Ordinary self-employment is taxable through local-rate PIT and social contributions; lump-sum craft may be a better fit below EUR 60,000/year but exact 2026 contribution / VAT / IT-activity treatment requires accountant verification [src-306][src-308][src-310].
 - Transferring partner to dependent / partner / student status: use family reunification after the DN principal is granted; common-law proof or marriage may be required [src-041].
 - Marriage (if applicable to scenario): consider if common-law evidence is weak.
 - Integration (language courses, communities): [verification required]
@@ -220,7 +273,11 @@ Climate caveats: the Adriatic coast has hot sunny summers but winter rain; the B
 - [src-042] gov.hr Croatian citizenship page.
 
 ### 7b. Reputable secondary
-_(none yet)_
+- [src-306] PwC Croatia — individual taxes on personal income.
+- [src-307] PwC Croatia — individual residence.
+- [src-308] PwC Croatia — individual income determination.
+- [src-309] PwC Croatia — individual deductions.
+- [src-310] PwC Croatia — individual other taxes and tax administration.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -233,8 +290,11 @@ _(none yet)_
 - Croatia-specific official TP-to-ordinary-residence bridge for the period after 04 March 2027.
 - Official long-term-residence / permanent-stay requirements extracted into the profile.
 - Croatia-specific explanation of how an existing Polish residence title affects TP or DN planning.
+- Exact 2026 Croatian self-employed / craft social-contribution base for a foreign-client IT worker.
+- Official or accountant-confirmed fit of lump-sum craft taxation, VAT/reverse-charge mechanics, and dependent allowance for the couple's exact facts.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-015` — resolved in run-009 as a conservative no-bridge baseline: no Croatia-specific TP bridge is captured; plan on an ordinary Croatian route before TP expiry.
 - `vq-016` — resolved in run-009 with Current Results annual sunshine-day counts [src-045].
+- `vq-092` — pending: exact 2026 self-employed / craft contribution base, lump-sum craft fit for foreign-client IT, VAT/reverse-charge mechanics, and dependent allowance treatment for Croatia section 5.3.

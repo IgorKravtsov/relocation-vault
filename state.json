@@ -1,25 +1,25 @@
 {
   "version": 2,
-  "iteration": 58,
+  "iteration": 59,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-06T09:48:30Z",
+  "last_run_timestamp": "2026-06-06T12:56:27Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Cyprus",
+    "country": "Croatia",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Croatia",
+    "suggested_country": "Malta",
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Verification queue remains below the active threshold; continue Tier-1-hint low-depth practical tax coverage without clustering on Cyprus."
+    "reason": "Verification queue remains below the active threshold; continue Tier-1-hint practical tax coverage without clustering on Croatia."
   },
   "countries": {
     "Spain": {
@@ -171,15 +171,15 @@
     "Croatia": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -191,9 +191,12 @@
       ],
       "risk_flags": [
         "no-clear-post-2027-tp-bridge",
-        "dn-income-above-current-budget"
+        "dn-income-above-current-budget",
+        "croatia-self-employed-contribution-base-gap",
+        "croatia-lump-sum-obrt-fit-gap"
       ],
-      "last_iteration": 9
+      "last_iteration": 59,
+      "unverified_count": 2
     },
     "Malta": {
       "tier": null,
@@ -961,8 +964,8 @@
       "unverified_count": 3
     }
   },
-  "verification_queue_size": 8,
-  "sources_count": 304,
-  "claims_count": 246,
+  "verification_queue_size": 9,
+  "sources_count": 309,
+  "claims_count": 252,
   "proposals_pending": 0
 }

@@ -43,3 +43,57 @@
   confidence: high
   tags: [digital-nomad, remote-work, local-work-restriction]
   notes: "Structurally fits foreign-client IT work, subject to income threshold and documentation."
+
+- id: claim-croatia-006
+  topic: tax_residence_scope
+  value: "Croatian tax residents are taxed on worldwide income; non-residents pay Croatian tax on Croatian-source income"
+  source: src-306
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [tax, tax-residence, worldwide-income]
+  notes: "Residence mechanics cross-checked in src-307; DTT tie-breakers may matter if another country also claims tax residence."
+
+- id: claim-croatia-007
+  topic: tax_residence_183_day_rule
+  value: "Resident if real estate is owned/available for at least 183 days in one or two calendar years, or physically present for at least 183 days in one or two calendar years"
+  source: src-307
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [tax, tax-residence, 183-day-rule]
+  notes: "PwC also notes family / work-location tie-breakers and DTT consultation where appropriate."
+
+- id: claim-croatia-008
+  topic: self_employment_pit_rates
+  value: "Self-employment annual income uses local progressive PIT; first EUR 60,000 tax base is taxed at a local lower rate of 15%-23%, with default 20% if no local choice applies"
+  source: src-306
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [tax, self-employment, pit]
+  notes: "Higher bracket above EUR 60,000 uses local rates from 25%-33%; this run's USD 3,000/month example remains inside the lower bracket after deductions."
+
+- id: claim-croatia-009
+  topic: lump_sum_self_employment_threshold
+  value: "Self-employed taxpayers not subject to VAT and with annual receipts not exceeding EUR 60,000 may use lump-sum PIT assessment"
+  source: src-308
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [tax, self-employment, lump-sum, vat-threshold]
+  notes: "Exact 2026 lump-sum tax bands, craft contributions, IT activity fit, and foreign-client VAT handling remain verification items."
+
+- id: claim-croatia-010
+  topic: social_contribution_rates_baseline
+  value: "PwC lists Croatian pension contributions at 20% and health contributions at 16.5%, with the exact base depending on status and circumstances"
+  source: src-310
+  date_verified: 2026-06-06
+  confidence: medium
+  tags: [tax, social-security, health-insurance, self-employment]
+  notes: "Used only as a conservative ordinary self-employment stress-test rate; exact self-employed / craft base is not verified."
+
+- id: claim-croatia-011
+  topic: usd3000_tax_stress_test_net
+  value: "USD 3,000/month equals about EUR 31,152/year at run-date FX; ordinary self-employment stress test leaves about EUR 1,407-1,491/month after 36.5% contributions and 15%-23% lower-bracket PIT"
+  source: src-293
+  date_verified: 2026-06-06
+  confidence: medium
+  tags: [tax, budget, worked-example, self-employment]
+  notes: "Uses src-306 PIT rates, src-309 EUR 600/month allowance, and src-310 contribution-rate baseline; result may be overly conservative if lump-sum craft taxation applies."

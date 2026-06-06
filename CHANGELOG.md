@@ -3,6 +3,14 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-06
 ---
+## 2026-06-06 — run-059
+- Croatia: depth_score 1.5 -> 2.0; section 5.3 taxes is now partial with tax-residence, ordinary self-employment PIT, social contributions, allowances, VAT, filing, and worked-example baselines.
+- Worked example: USD 3,000/month -> about EUR 31,152/year; conservative ordinary self-employment stress test leaves about EUR 1,407-1,491/month after 36.5% contributions and local lower-bracket PIT.
+- Main finding: Croatia's tax answer is incomplete rather than negative because lump-sum craft taxation may be much better, but exact 2026 contribution / IT activity / VAT treatment needs verification.
+- Sources added: src-306 through src-310; reused src-293 FX.
+- Claims added: claim-croatia-006 through claim-croatia-011.
+- Verification queue: 8 -> 9 pending/open; next should continue Tier-1-hint practical tax coverage without clustering, likely Malta 5.3.
+
 ## 2026-06-06 — run-058
 - Cyprus: depth_score 1.5 -> 2.0; section 5.3 taxes is now partial with tax-residence, PIT, self-employed Social Insurance/GHS, filing, marriage, and worked-example baselines.
 - Worked example: USD 3,000/month -> about EUR 31,152/year; estimated net about EUR 1,974/month if contributions are deductible, or about EUR 1,854/month in the non-deductible sensitivity.
