@@ -1,14 +1,14 @@
 ---
 country: Cyprus
 tier: null
-depth_score: 1.5
-last_updated: 2026-05-30T00:00:00Z
+depth_score: 2.0
+last_updated: 2026-06-06T09:48:30Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency"]
-sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119"]
-unverified_count: 0
+sections_partial: ["5.1","5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "cyprus-social-insurance-category-gap"]
+sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119", "src-293", "src-301", "src-302", "src-303", "src-304", "src-305"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the DN net-income floor is above the couple's current ~$3,000/month budget and this first pass did not find a Cyprus-specific ordinary-residence bridge after 04 March 2027.
-- **depth_score**: 1.5
-- **Last updated**: 2026-05-30T00:00:00Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-06T09:48:30Z
 - **Tier rationale**: Keep unranked until taxes, rent, partner mechanics, and post-TP transition risk are researched beyond the first legalization/climate pass.
 
 ## Block 2 — Scoring
@@ -26,8 +26,8 @@ schema_version: 2.0.0
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | TP is covered at EU level through 04 March 2027 and Cyprus DN exists, but the route is expensive for this couple and no official Cyprus post-TP bridge was captured. | §5.1 |
-| Climate | — | N/A | Very sunny and warm; Nicosia heat is a major summer-comfort caveat. Direct sunny-day counts still need verification. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Climate | — | N/A | Very sunny and warm; Nicosia heat is a major summer-comfort caveat. WeatherSpark clearer-sky proxies now close the first-pass sunny-day blocker at medium confidence. | §5.2 |
+| Taxes | — | N/A | Cyprus looks moderately tax-workable at USD 3,000/month if self-employment/GHS contributions are deductible: roughly EUR 1,974/month net after a first-pass PIT + social/GHS estimate; exact Social Insurance category floors/ceilings still need official extraction. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -90,9 +90,49 @@ Cyprus is a strong climate fit if the couple wants warm winters, long summers, a
 
 Climates to Travel says the sky is almost always clear in the long summer and that the coast generally has no long rain period from June to September, when the sun always shines [src-039]. WeatherSpark adds monthly clearer-sky percentages (clear, mostly clear, or partly cloudy). Converted to annual day-equivalent proxies, this gives **Nicosia ~295**, **Limassol ~296**, and **Paphos ~294** clearer-sky day-equivalents/year [src-119]. This is a practical medium-confidence proxy, not an official meteorological sunny-day count.
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-06, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. This pass captured tax-residence rules, PIT bands, GHS and self-employed social-insurance rates, registration/filing anchors, marriage mechanics, and a USD 3,000/month worked example. Missing: official extraction of the current Social Insurance self-employed category table / lower and maximum insurable-earnings limits for an IT freelancer; therefore the net estimate is a planning baseline, not filing advice.
+
+#### Tax residence and scope
+
+Cyprus taxes residents on worldwide income and non-residents only on certain Cyprus-source income [src-302]. For a relocation/DN stay, the practical tax-residence trigger is important: Cyprus tax residence can arise under the ordinary 183-day rule, or under the 60-day rule if the person is not tax-resident elsewhere, does not spend more than 183 days in another country, spends at least 60 days in Cyprus, has defined Cyprus ties, carries on business / employment / office in Cyprus, and has owned or rented permanent residential property in Cyprus [src-302].
+
+For this couple, assume the working partner becomes a Cyprus tax resident if Cyprus is used as the real base rather than only as a short scouting stay. Foreign-client IT income should therefore be planned as reportable worldwide/self-employed income unless a Cyprus tax adviser confirms a narrower treatment for the exact DN / contractor structure.
+
+#### PIT and social/GHS contributions
+
+The Tax Department's individual PIT bands from 2011 onward remain: 0% up to EUR 19,500; 20% on EUR 19,501-28,000; 25% on EUR 28,001-36,300; 30% on EUR 36,301-60,000; and 35% above EUR 60,000 [src-301]. PwC's 2026 Cyprus summary is consistent with this PIT framework and confirms worldwide taxation for Cyprus tax residents [src-302].
+
+Social and health contributions are the material non-PIT cost. PwC states that, from 1 January 2024, self-employed Social Insurance contributions are 16.6% of income, subject to lower and maximum limits depending on profession/trade and set annually [src-303]. The Tax Department's GHS/GESY table gives a 4.00% contribution rate for self-employed persons from 1 July 2020 onward [src-304]. PwC also notes that employee/social-insurance/GHS-type personal deductions can be deductible for PIT subject to an overall cap, but this pass did not capture the exact official lower/maximum self-employed insurable-earnings table for an IT freelancer [src-303].
+
+#### Registration and filing mechanics
+
+The Tax Department exposes an official tax-registration/data-amendment path and a registration-to-the-Tax-Department page [src-305]. The Social Insurance Services site exposes an employee/self-employed registration sample and online contribution-payment entry point [src-305]. For a real move, the first-month practical sequence should be: obtain/activate the Cyprus tax registration/TIC route, register the self-employed activity/social-insurance position if the foreign-client IT structure is treated as Cyprus self-employment, and only then finalize invoice/VAT/GHS mechanics with a Cyprus accountant.
+
+PwC lists the tax year as the calendar year and gives electronic return due dates: 31 July of the following year for employees/pensioners and for self-employed individuals whose annual turnover does not exceed EUR 120,000; 31 March of the second year following the tax year for self-employed individuals whose annual turnover exceeds EUR 120,000 [src-303]. For this couple's current income, the under-EUR-120,000 deadline is the relevant first-pass baseline.
+
+#### Marriage / partner tax effect
+
+PwC describes income-tax filing on an individual basis rather than a joint-family calculation [src-303]. Marriage is still important for immigration/dependent planning under the Cyprus DN route, but this tax pass found no Cyprus joint-filing benefit that would materially change the USD 3,000/month calculation. If the partner starts earning, model her income separately and check whether her days/centre-of-life create Cyprus tax residence.
+
+#### Worked example: USD 3,000/month foreign-client IT
+
+Using the run-date FX already captured for the vault (1 USD = EUR 0.865342), USD 3,000/month equals about **EUR 31,152/year** [src-293]. A conservative first-pass self-employed estimate is:
+
+| Item | Annual EUR | Monthly EUR | Notes |
+|---|---:|---:|---|
+| Gross foreign-client IT income | 31,152 | 2,596 | USD 3,000/month at run-date FX [src-293]. |
+| Social Insurance, 16.6% | 5,171 | 431 | Before profession-specific minimum/maximum category check [src-303]. |
+| GHS/GESY, 4.0% | 1,246 | 104 | Tax Department self-employed rate [src-304]. |
+| PIT after deducting the above contributions | ~1,047 | ~87 | 20% band only after the EUR 19,500 zero band [src-301][src-303]. |
+| **Estimated net** | **~23,688/year** | **~1,974/month** | About USD 2,281/month at run-date FX; before accountant fees, rent, insurance, and any VAT/cashflow effects. |
+
+If contributions are not deductible in the exact filing posture, PIT would be about EUR 2,488/year and net would fall to about **EUR 1,854/month**. Treat EUR 1,850-1,975/month as the current safe tax-planning band until a Cyprus accountant maps the exact self-employed category and deduction position.
+
+#### Practical conclusion for the couple
+
+Cyprus is not tax-hostile at USD 3,000/month, but it is also not a low-burden micro-tax jurisdiction once Social Insurance and GHS are included. The bigger blocker remains immigration: the DN route requires EUR 3,500/month **net after taxes and contributions** [src-035]. This tax estimate suggests the current gross income would be far below that net threshold after Cyprus contributions/tax, so Cyprus DN still looks unrealistic unless income rises substantially or a different legal route is found.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -171,13 +211,13 @@ Climates to Travel says the sky is almost always clear in the long summer and th
 - Address registration: [verification required]
 - Submitting residence application: DN application must be submitted within 3 months of arrival at the Migration Department central offices in Nicosia [src-035].
 - Bank account opening: [verification required]
-- Tax ID / social security number: [verification required]
+- Tax ID / social security number: use the Tax Department tax-registration route and Social Insurance employee/self-employed registration anchors; exact documents/portal flow still need accountant confirmation [src-305].
 - Long-term housing: [verification required]
 - Health insurance / public health registration: [verification required]
 - SIM card, internet, utilities: [verification required]
 
 ### 6c. First 3–6 months
-- Tax registration as self-employed / freelancer: [verification required]
+- Tax registration as self-employed / freelancer: register/activate the Tax Department profile and Social Insurance self-employed position if the foreign-client IT structure is treated as Cyprus self-employment; map contribution category before filing [src-305].
 - Transferring partner to dependent / partner / student status: only safe first-pass route is spouse / civil-union partner under DN family coverage [src-035].
 - Marriage (if applicable to scenario): likely important if DN is the route.
 - Integration (language courses, communities): Greek B1 is required for naturalization [src-037].
@@ -218,9 +258,13 @@ Climates to Travel says the sky is almost always clear in the long summer and th
 - [src-036] Cyprus Asylum Service — announcement regarding the extension of temporary protection.
 - [src-037] Cyprus Ministry of Interior — citizenship by naturalization.
 - [src-038] Cyprus Migration Department — long-term residents forms.
+- [src-301] Cyprus Tax Department — Tax rates for income tax from 1991.
+- [src-304] Cyprus Tax Department — GHS/GESY contributions.
+- [src-305] Cyprus Tax Department and Social Insurance Services — registration anchors.
 
 ### 7b. Reputable secondary
-_(none yet)_
+- [src-302] PwC Worldwide Tax Summaries — Cyprus individual taxes and residence.
+- [src-303] PwC Worldwide Tax Summaries — Cyprus social contributions, deductions, and tax administration.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -236,4 +280,4 @@ _(none yet)_
 
 ## Block 8 — Open questions and verification markers
 
-_(none after run-023 climate verification)_
+- `vq-091`: current Cyprus Social Insurance self-employed category / lower and maximum insurable-earnings table for a foreign-client IT freelancer, and whether the full 16.6% + 4.0% contribution is deductible in the couple's exact filing posture.

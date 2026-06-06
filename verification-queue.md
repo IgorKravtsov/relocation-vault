@@ -183,7 +183,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolution note**: Cyprus profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Nicosia ~295, Limassol ~296, Paphos ~294. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-119]
 
 ## Low priority
-_(none)_
+
+## vq-091 [medium priority]
+- **Fact**: "Current Cyprus Social Insurance self-employed category / lower and maximum insurable-earnings table for a foreign-client IT freelancer, and whether the 16.6% Social Insurance + 4.0% GHS contribution is fully deductible in the couple's exact filing posture"
+- **Country**: Cyprus
+- **Section**: 5.3
+- **Current source**: src-303, src-304, src-305
+- **Why uncertain**: PwC confirms the 16.6% self-employed rate and says lower/maximum limits depend on profession/trade and are set annually; the official Social Insurance page exposed category anchors but the actual current table was not cleanly extracted in this pass.
+- **Suggested verification**: Capture the Social Insurance Services self-employed categories / basic insurable earnings table for 2026, map the likely IT freelancer category with a Cyprus accountant, and confirm deduction treatment in the income-tax return.
+- **Created**: 2026-06-06 (run-058)
+- **Status**: pending
 
 ## vq-086 [medium priority]
 - **Fact**: "Whether Armenia has any Ukraine-specific temporary-protection, humanitarian-stay, or post-2027 bridge relevant to Ukrainian citizens"

@@ -43,3 +43,58 @@
   confidence: high
   tags: [citizenship, naturalization, residence-years]
   notes: "Also requires good character, Greek B1, civic-knowledge test, accommodation, stable financial resources, and intention to reside."
+
+
+- id: claim-cyprus-006
+  topic: cyprus_tax_residence_rules
+  value: "Cyprus tax residence can arise under the 183-day rule or, from 2017, the 60-day rule with no other tax residence, no >183 days elsewhere, at least 60 days in Cyprus, Cyprus business/employment/office ties, and owned/rented permanent residential property."
+  source: src-302
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [tax-residence, worldwide-income, cyprus]
+  notes: "Use as the planning baseline if Cyprus becomes the real base rather than a short scouting stay."
+
+- id: claim-cyprus-007
+  topic: cyprus_personal_income_tax_bands
+  value: "0% up to EUR 19,500; 20% EUR 19,501-28,000; 25% EUR 28,001-36,300; 30% EUR 36,301-60,000; 35% above EUR 60,000"
+  source: src-301
+  date_verified: 2026-06-06
+  confidence: high
+  tags: [tax, pit, income-tax]
+  notes: "Tax Department table for 2011 onward; PwC 2026 summary is consistent."
+
+- id: claim-cyprus-008
+  topic: cyprus_self_employed_social_ghs_rates
+  value: "Self-employed Social Insurance rate 16.6% of income from 1 January 2024; GHS/GESY self-employed rate 4.0% from 1 July 2020 onward"
+  source: src-303; src-304
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [social-insurance, ghs, self-employed]
+  notes: "Profession-specific lower and maximum contribution limits were not cleanly extracted in this pass; see vq-091."
+
+- id: claim-cyprus-009
+  topic: cyprus_tax_social_registration_route
+  value: "Tax Department exposes tax-registration/data-amendment and registration-to-the-Tax-Department routes; Social Insurance Services exposes employee/self-employed registration and online contribution-payment anchors."
+  source: src-305
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [tax-registration, social-insurance, self-employed]
+  notes: "Operational route anchor only; exact documents and portal steps should be checked with an accountant before filing."
+
+- id: claim-cyprus-010
+  topic: cyprus_tax_filing_and_marriage
+  value: "Tax year is calendar year; electronic return due date is normally 31 July of the following year for self-employed individuals with annual turnover not exceeding EUR 120,000; individual taxation rather than joint-family calculation is the planning baseline."
+  source: src-303
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [tax-filing, marriage, self-employed]
+  notes: "For USD 3,000/month, the under-EUR-120,000 turnover filing baseline applies."
+
+- id: claim-cyprus-011
+  topic: cyprus_usd3000_tax_net_example
+  value: "USD 3,000/month equals about EUR 31,152/year at run-date FX; first-pass estimate after 16.6% Social Insurance, 4.0% GHS, and PIT with contributions treated as deductible is about EUR 1,974/month net; non-deductible sensitivity about EUR 1,854/month."
+  source: src-293; src-301; src-303; src-304
+  date_verified: 2026-06-06
+  confidence: medium
+  tags: [tax-calculation, self-employed, budget]
+  notes: "Planning estimate only until the current Social Insurance category floor/ceiling and deduction treatment are confirmed."

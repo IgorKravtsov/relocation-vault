@@ -3616,3 +3616,64 @@ Each source entry:
 - **Facts supporting**: Article 5C special taxation for new Greek tax residents earning salaried employment and/or business-activity income in Greece; 50% income-tax exemption described by PwC; application-timing caveats and foreign-client IT fit gap (claim-greece-008, claim-greece-011)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-02-16
+
+
+## src-301
+- **Title**: Cyprus Tax Department — Tax rates for income tax from 1991
+- **URL**: https://www.mof.gov.cy/mof/TAX/taxdep.nsf/All/9F836EBDE0C59EDDC225825000322C38?OpenDocument
+- **Archive**: stable official domain; direct HTML extraction used with SSL verification disabled due local certificate-chain failure
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-06
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus individual PIT bands for 2011 onward: 0%, 20%, 25%, 30%, and 35% brackets (claim-cyprus-007, claim-cyprus-011)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-06
+
+## src-302
+- **Title**: PwC Worldwide Tax Summaries — Cyprus individual taxes and residence
+- **URL**: https://taxsummaries.pwc.com/cyprus/individual/taxes-on-personal-income ; https://taxsummaries.pwc.com/cyprus/individual/residence
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-05-18
+- **Date accessed**: 2026-06-06
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus resident worldwide-income / non-resident Cyprus-source baseline and 183-day / 60-day tax-residence rules (claim-cyprus-006)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-18
+
+## src-303
+- **Title**: PwC Worldwide Tax Summaries — Cyprus other taxes, deductions, and tax administration
+- **URL**: https://taxsummaries.pwc.com/cyprus/individual/other-taxes ; https://taxsummaries.pwc.com/cyprus/individual/deductions ; https://taxsummaries.pwc.com/cyprus/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-05-18
+- **Date accessed**: 2026-06-06
+- **Used by**: Cyprus
+- **Facts supporting**: self-employed Social Insurance contribution rate, contribution-limit caveat, GHS/deduction context, calendar tax year, e-filing due dates, and individual-taxation baseline (claim-cyprus-008, claim-cyprus-010, claim-cyprus-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-18
+
+## src-304
+- **Title**: Cyprus Tax Department — General Healthcare System (GESY) contributions
+- **URL**: https://www.mof.gov.cy/mof/TAX/taxdep.nsf/All/F27BF90AF3990FD6C225857E002C04CF?OpenDocument
+- **Archive**: stable official domain; direct HTML extraction used with SSL verification disabled due local certificate-chain failure
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-06
+- **Used by**: Cyprus
+- **Facts supporting**: self-employed GHS/GESY contribution rate of 4.00% from 1 July 2020 onward (claim-cyprus-008, claim-cyprus-011)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-06
+
+## src-305
+- **Title**: Cyprus Tax Department and Social Insurance Services — tax / self-employed registration anchors
+- **URL**: https://www.mof.gov.cy/mof/TAX/taxdep.nsf/All/781EF8626258458AC22584710036A93E?OpenDocument ; https://www.mlsi.gov.cy/mlsi/sid/sidv2.nsf/page33_en/page33_en?OpenDocument
+- **Archive**: stable official domains; direct HTML extraction used with SSL verification disabled due local certificate-chain failure
+- **Type**: official-primary
+- **Date published**: unknown; Social Insurance page modified 2026-06-04
+- **Date accessed**: 2026-06-06
+- **Used by**: Cyprus
+- **Facts supporting**: tax-registration/data-amendment and employee/self-employed registration / online contribution-payment route anchors (claim-cyprus-009)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-06
