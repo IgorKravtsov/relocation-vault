@@ -1,13 +1,13 @@
 ---
 country: Spain
 tier: null
-depth_score: 1.5
-last_updated: 2026-05-26T22:04:11Z
-sections_completed: ["5.2"]
+depth_score: 2.5
+last_updated: 2026-06-06T00:17:44Z
+sections_completed: ["5.2","5.3"]
 sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight"]
-sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight","autonomo-tax-social-security-burden"]
+sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025","src-280","src-281","src-282","src-283","src-284","src-285","src-286"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -19,17 +19,17 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
-- **depth_score**: 1.5
-- **Last updated**: 2026-05-26T22:04:11Z
-- **Tier rationale**: Spain already has a strong remote-work legalization route and a mature temporary-protection system for Ukrainians, but this pass did not locate a clean official post-04 March 2027 transition bridge from TP into ordinary residence, and the couple-income math for the digital nomad route is tight.
+- **depth_score**: 2.5
+- **Last updated**: 2026-06-06T00:17:44Z
+- **Tier rationale**: Spain already has a strong remote-work legalization route, a mature temporary-protection system for Ukrainians, passed climate coverage, and now a practical ordinary freelancer-tax baseline. The main remaining caveats are no captured post-04 March 2027 TP-to-ordinary-residence bridge, tight couple-income math for the digital nomad route, and a heavy autonomous-worker tax/social-security burden at the couple's current income.
 
 ## Block 2 — Scoring
 
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | 6 | medium-high | Strong because Spain has a documented TP process and an official digital nomad route with spouse/unmarried-partner coverage; weakened by no clear official TP→ordinary-residence bridge found in this iteration and by tight couple-income math. | §5.1 |
-| Climate | 8 | medium | Warm, sunny profile in Valencia and Málaga, with Madrid less winter-friendly but still bright; exact sunny-day counts still need direct sourcing. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Climate | 8 | medium | Warm, sunny profile in Valencia and Málaga, with Madrid less winter-friendly but still bright; direct clear-day counts are captured for all three target cities. | §5.2 |
+| Taxes | 5 | medium | Ordinary autonomous-worker planning at about USD 3,000/month leaves roughly EUR 1,800/month after estimated IRPF and RETA social-security contributions; the 24% inpatriate / Beckham-style route may help some employee-style DN files but is not a safe default for a foreign-client freelancer. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -96,11 +96,56 @@ schema_version: 2.0.0
 - The main weather trade-off is summer heat. Madrid gets the most inland heat spikes, while Valencia and Málaga are moderated somewhat by the sea but still very hot in high summer. [src-014][src-015][src-016]
 - A direct climate table from Current Results reports **97 clear days/year for Madrid**, **91 for Valencia**, and **107 for Málaga**. That closes the earlier sunny-day gap for the Spain climate section. [src-025]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: deep, depth: 2, last_updated: 2026-06-06, dod: passed}
 
-> **DoD**: effective rate at $3000/mo computed; registration procedure for applicable regime; gross→net example; new-resident reliefs; marriage tax effect.
+> **DoD status**: passed for first-pass country screening. Covered: ordinary freelancer/autonomo tax-residence baseline, 2025/2026 PIT brackets, RETA social-security range, registration route, new-resident relief caveat, marriage effect, and a worked USD 3,000/month example. Exact city/autonomous-community tax and VAT-form workflow should be rechecked with a Spanish gestor before filing.
 
-[verification required]
+#### Tax-residence baseline
+
+- Spain is not a low-tax digital-nomad jurisdiction once the IT worker lives there long enough to become a Spanish tax resident. PwC summarizes the core residence rule: more than 183 days in Spain in a calendar year, or main economic interests / family centre in Spain, generally makes the person Spanish tax resident for the whole tax year; Spanish law does not have a part-year resident concept. [src-282]
+- For a foreign-client freelancer on the Spain digital-nomad / international-telework path, the conservative baseline is therefore **Spanish resident taxation on worldwide self-employment income** plus Spanish self-employed social security unless a social-security certificate / treaty position is available. PwC notes that wage employees may sometimes remain in the home-country social-security system if a bilateral / EU certificate applies, but that is not a safe default for a Ukrainian freelancer billing foreign clients. [src-281][src-282]
+
+#### Ordinary freelancer / autonomo route
+
+- The practical operating file is: obtain/hold NIE, register the professional activity with the Tax Agency using **Form 036** (census declaration for entrepreneurs, professionals and withholding agents), then register in Social Security's **RETA** if the activity is habitual, personal, direct, lucrative self-employment. [src-280][src-284]
+- The Social Security page defines a self-employed worker as someone who habitually, personally and directly carries out a lucrative economic activity without an employment contract. That matches the risk profile of a remote IT contractor who invoices foreign clients from Spain. [src-284]
+- Infoautonomos' 2026 RETA table, citing the Social Security quota calculator, says self-employed contributions are based on 15 real-net-income brackets and can be updated up to six times per year. For a net-return bracket **EUR 2,330-2,760/month**, the 2026 minimum base is **EUR 1,356.21** and the corresponding minimum quota is about **EUR 427/month**; for **EUR 2,760-3,190/month**, the minimum quota is about **EUR 452/month**. [src-285]
+- PwC's 2025/2026 Spain PIT summary gives the general-income withholding scale as a planning guide: 19% up to EUR 12,450; 24% on the next EUR 7,750; 30% on the next EUR 15,000; 37% on the next EUR 24,800; 45% up to EUR 300,000; and 47% above that. It warns that the final rate differs by autonomous community, so Madrid / Valencia / Andalusia should be checked separately before filing. [src-281]
+- PwC also says the minimum monthly contribution base under the general social-security regime for 2026 is EUR 1,381.20 and the maximum is EUR 5,101.20; this is not the autonomo quota table, but it confirms the 2026 contribution-base context and that social security is a material cost in Spain. [src-283]
+
+#### VAT / invoicing caveat
+
+- This pass did not open a full VAT workflow. For screening, assume the freelancer still needs a gestor to set up invoices, Form 303/390 if applicable, and EU/non-EU place-of-supply treatment. Foreign-client B2B services often do not mean charging Spanish VAT to the client, but they still require correct Spanish reporting and invoice wording. Keep this as a filing-prep issue, not a country-screening blocker.
+
+#### New-resident reliefs / Beckham-style regime
+
+- Spain's famous inpatriate / Beckham-style regime can be attractive for some inbound remote workers because qualifying taxpayers are generally taxed under non-resident-like rules rather than ordinary progressive resident PIT. PwC's Spain tables show the key non-resident general rate as **24%** (19% for EU/EEA residents in some cases), while ordinary resident general income can climb through progressive bands. [src-281]
+- Do **not** score this as the default for this couple yet. The couple's likely operating model is foreign-client freelance/self-employment, and this pass did not capture an official-primary answer that a Ukrainian DN freelancer with non-Spanish clients qualifies for the special regime. Treat it as a **tax-adviser question before choosing Spain**, especially if the man can structure as an employee of a foreign company rather than as a pure freelancer. [src-013][src-281]
+
+#### Worked example for the couple's current income
+
+Assumptions for a conservative first-pass screen: USD 3,000/month gross remote IT income; run-date FX from open.er-api.com was approximately **1 USD = EUR 0.860529**, so gross is about **EUR 2,582/month** or **EUR 30,979/year**; no deductible business expenses other than RETA quota; first-year flat-rate relief ignored; simplified personal allowance approximation used; regional PIT differences ignored. [src-281][src-285][src-286]
+
+| Item | Monthly | Annual | Notes |
+|---|---:|---:|---|
+| Gross foreign-client IT income | EUR 2,582 | EUR 30,979 | USD 3,000/month at run-date FX |
+| RETA social-security quota | -EUR 427 | -EUR 5,124 | 2026 minimum quota in the EUR 2,330-2,760/month net-return bracket [src-285] |
+| Approx. IRPF after personal-allowance simplification | -EUR 355 | -EUR 4,257 | Uses PwC 2025 state withholding brackets as a planning proxy [src-281] |
+| **Estimated net after IRPF + RETA** | **EUR 1,800** | **EUR 21,598** | Approx. effective burden: **30%** before gestor fees / VAT-reporting costs |
+
+Practical interpretation: Spain is legally attractive but tax-heavy at this income. A normal autonomo file leaves only about **EUR 1,800/month** before rent, health insurance, and living costs, so Spain's $3,000/month household budget needs either low-rent city selection, higher income, savings, or a confirmed special-regime / employee-structure advantage.
+
+#### Marriage / partner tax effect
+
+- PwC says individual taxation is the basic method, but family units may elect joint taxation. A family unit generally requires non-legally separated spouses and minor / disabled dependent children; without marriage, partners are not the same joint-tax unit. [src-283]
+- For this couple, marriage may help immigration evidence and family-unit filing options later, but **it does not solve the main tax problem**: the only earner still bears Spanish PIT/RETA on the same income, and a non-working spouse does not create a large enough tax saving to neutralize rent and social-security pressure.
+
+#### Action checklist before relying on Spain
+
+1. Decide whether the man will be an employee of a foreign company or self-employed with foreign clients; this changes special-regime and social-security analysis.
+2. Ask a Spanish gestor to model the exact autonomous community (Madrid vs Valencia vs Andalusia), RETA bracket, VAT place-of-supply treatment, and any first-year flat-rate quota eligibility.
+3. If applying as DN with the partner included, model the tax net **and** the DN income threshold together; the Spain DN couple threshold is already tight at the current budget. [src-013]
+4. Do not assume the 24% special regime until an adviser confirms eligibility for the exact contract structure.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -164,11 +209,12 @@ schema_version: 2.0.0
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Potentially yes, especially through digital nomad residence if income and documents are strong enough.
-- **Best legalization path for the man**: Digital nomad / international telework route.
-- **Best legalization path for the woman**: Inclusion as spouse or unmarried partner on the DN route looks plausible on current official evidence, but exact partner-work consequences still need follow-up.
-- **Does marriage change the picture**: Less dramatically than in Greece, because Spain explicitly mentions the unmarried partner; still, marriage can simplify documentary proof.
+- **Can relocate now**: Potentially yes, especially through digital nomad residence if income and documents are strong enough, but the post-tax budget is tighter than the gross income suggests.
+- **Best legalization path for the man**: Digital nomad / international telework route, with tax structuring checked before filing.
+- **Best legalization path for the woman**: Inclusion as spouse or unmarried partner on the DN route looks plausible on current official evidence, but exact partner-work consequences and tax-family effects still need follow-up.
+- **Does marriage change the picture**: Less dramatically than in Greece, because Spain explicitly mentions the unmarried partner; still, marriage can simplify documentary proof and may open joint-tax filing later.
 - **Realism of staying after 03.2027**: Medium, but only if the couple is already on a standard residence track rather than depending on an unknown TP transition.
+- **Budget/tax read**: Caution. A conservative ordinary autonomo file at USD 3,000/month leaves roughly EUR 1,800/month after IRPF + RETA before rent and living costs.
 
 **Pros**:
 - Official digital nomad checklist is concrete and family-aware.
@@ -178,6 +224,7 @@ schema_version: 2.0.0
 **Cons / risks**:
 - No clear official TP→ordinary-residence bridge found yet.
 - Two-person DN income threshold is tight for a $3,000/month household.
+- Ordinary Spanish autonomo taxation / RETA social security is heavy at this income; special-regime eligibility is not confirmed for a pure foreign-client freelancer.
 - Polish `karta pobytu` interaction still needs explicit confirmation.
 - PR/citizenship path still needs a dedicated official-source pass.
 
@@ -195,13 +242,13 @@ schema_version: 2.0.0
 - Address registration: [verification required]
 - Submitting residence application (if not done from abroad): TP can be filed in person at CREADE / designated police points; DN is documented consular-first in this iteration. [src-012][src-013]
 - Bank account opening: [verification required]
-- Tax ID / social security number: NIE is part of the process; broader tax registration still needs a later tax pass. [src-012][src-013]
+- Tax ID / social security number: NIE is part of the process; a freelancer should register the activity through AEAT Form 036 and RETA if operating habitually from Spain. [src-012][src-013][src-280][src-284]
 - Long-term housing: [verification required]
 - Health insurance / public health registration: DN requires insurance; TP includes access to medical assistance. [src-011][src-013]
 - SIM card, internet, utilities: [verification required]
 
 ### 6c. First 3–6 months
-- Tax registration as self-employed / freelancer: [verification required]
+- Tax registration as self-employed / freelancer: register activity with AEAT Form 036, confirm IAE/professional activity code, register / forecast the RETA contribution bracket, and set up invoices / VAT reporting with a gestor. [src-280][src-284][src-285]
 - Transferring partner to dependent / partner / student status: DN family path looks feasible, but exact in-country handling still needs follow-up. [src-013]
 - Marriage (if applicable to scenario): optional but may simplify evidence if unmarried-partner documents are weak.
 - Integration (language courses, communities): [verification required]
@@ -240,9 +287,15 @@ schema_version: 2.0.0
 - [src-002] EUR-Lex — Council Implementing Decision (EU) 2025/1460 extending temporary protection to 04 March 2027.
 - [src-011] Spain Ministry of Inclusion — what temporary protection for displaced persons from Ukraine is.
 - [src-012] Spain Ministry of Inclusion — TP procedures and required documents in Spain.
+- [src-280] Spain Tax Agency — Form 036 census declaration for entrepreneurs, professionals and withholding agents.
+- [src-284] Spain Social Security — RETA scope for self-employed workers.
 
 ### 7b. Reputable secondary
 - [src-013] Spanish Consulate in London — Digital Nomad Visa checklist and procedure.
+- [src-281] PwC Worldwide Tax Summaries — Spain personal income tax rates.
+- [src-282] PwC Worldwide Tax Summaries — Spain individual tax residence.
+- [src-283] PwC Worldwide Tax Summaries — Spain other taxes / social-security context and tax administration / joint filing.
+- [src-285] Infoautonomos — 2026 self-employed quota table for RETA planning.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -252,6 +305,7 @@ _(none yet)_
 - [src-015] Climate to Travel — Valencia climate.
 - [src-016] Climate to Travel — Málaga climate.
 - [src-025] Current Results — direct annual clear-day counts for Madrid, Valencia, and Málaga.
+- [src-286] open.er-api.com — USD/EUR run-date FX used for the worked tax example.
 
 ### 7e. Not found
 - A clear official Spanish TP→ordinary-residence transition mechanism for after 04 March 2027; current operational baseline is “no captured bridge, plan an ordinary route before TP expiry.”

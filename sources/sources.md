@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 ---
 
 # Sources Registry
@@ -3364,3 +3364,87 @@ Each source entry:
 - **Facts supporting**: monthly clearer-sky percentages for Kuala Lumpur, George Town, and Kuching; annual clearer-sky day-equivalent proxies calculated from monthly percentages (claim-malaysia-007)
 - **Confidence ceiling**: medium
 - **Stale at**: 2099-12-31
+
+## src-280
+- **Title**: Spain Tax Agency — Form 036 census declaration for entrepreneurs, professionals and withholding agents
+- **URL**: https://sede.agenciatributaria.gob.es/Sede/en_gb/procedimientoini/G322.shtml
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-06
+- **Used by**: Spain
+- **Facts supporting**: Spain self-employed / professional tax-registration route using Form 036 census declaration of registration, modification, and deregistration (claim-spain-006)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-06
+
+## src-281
+- **Title**: PwC Worldwide Tax Summaries — Spain individual taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/spain/individual/taxes-on-personal-income
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-31
+- **Date accessed**: 2026-06-06
+- **Used by**: Spain
+- **Facts supporting**: Spain PIT general-income progressive withholding scale used as a planning proxy; non-resident 24% general-rate context; autonomous-community caveat for final resident PIT calculation (claim-spain-007, claim-spain-008)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-31
+
+## src-282
+- **Title**: PwC Worldwide Tax Summaries — Spain individual residence
+- **URL**: https://taxsummaries.pwc.com/spain/individual/residence
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-31
+- **Date accessed**: 2026-06-06
+- **Used by**: Spain
+- **Facts supporting**: Spain tax-residence baseline: more than 183 days, centre of economic/personal interests, no part-year resident concept (claim-spain-009)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-31
+
+## src-283
+- **Title**: PwC Worldwide Tax Summaries — Spain other taxes, deductions, and tax administration
+- **URL**: https://taxsummaries.pwc.com/spain/individual/other-taxes ; https://taxsummaries.pwc.com/spain/individual/deductions ; https://taxsummaries.pwc.com/spain/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-31
+- **Date accessed**: 2026-06-06
+- **Used by**: Spain
+- **Facts supporting**: 2026 Spanish social-security contribution-base context, employee/social-security certificate caveat, filing period, and individual vs joint taxation / family-unit baseline (claim-spain-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-31
+
+## src-284
+- **Title**: Spain Social Security — Special Regime for Self-Employed Workers (RETA) scope
+- **URL**: https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/Afiliacion/10548/32825
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-06
+- **Used by**: Spain
+- **Facts supporting**: RETA self-employed worker definition: habitual, personal, direct lucrative economic activity without employment contract (claim-spain-006)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-06
+
+## src-285
+- **Title**: Infoautonomos — Cuota de autonomos 2026
+- **URL**: https://www.infoautonomos.com/seguridad-social/cuota-de-autonomos-cuanto-se-paga/
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: unknown; 2026 article
+- **Date accessed**: 2026-06-06
+- **Used by**: Spain
+- **Facts supporting**: 2026 RETA real-net-income brackets and monthly quota planning table, including EUR 2,330-2,760/month bracket with EUR 427/month minimum quota and EUR 2,760-3,190/month bracket with EUR 452/month minimum quota (claim-spain-011)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-06
+
+## src-286
+- **Title**: open.er-api.com — USD exchange-rate feed
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: failed 2026-06-06; direct JSON extraction used]
+- **Type**: commercial
+- **Date published**: 2026-06-06
+- **Date accessed**: 2026-06-06
+- **Used by**: Spain
+- **Facts supporting**: run-date USD/EUR conversion of 1 USD = EUR 0.860529 used only for the Spain section 5.3 worked budget/tax example
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-06

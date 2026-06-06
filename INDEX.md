@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 ---
 
 # INDEX
@@ -10,7 +10,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 
 | Country | Group | Tier hint | Tier | depth_score | Sections done | Last iter | Profile |
 |---------|-------|----------:|------|------------:|---------------|----------:|---------|
-| Spain | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 12 | `countries/spain.md` |
+| Spain | eu-schengen | 1 | — | 2.5 | done: 5.2, 5.3; partial: 5.1 | 55 | `countries/spain.md` |
 | Portugal | eu-schengen | 1 | — | 3.0 | done: 5.4, 5.5; partial: 5.1, 5.2 | 35 | `countries/portugal.md` |
 | Italy | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 9 | `countries/italy.md` |
 | Greece | eu-schengen | 1 | — | 1.5 | done: 5.2; partial: 5.1 | 28 | `countries/greece.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 1.55
+- **Average depth_score**: 1.58

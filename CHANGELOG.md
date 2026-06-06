@@ -1,8 +1,16 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 ---
+## 2026-06-06 — run-055
+- Spain: depth_score 1.5 -> 2.5; section 5.3 taxes now passed, while 5.1 remains partial.
+- Added ordinary autonomo tax baseline: AEAT Form 036 + RETA registration, PIT planning scale, tax-residence rule, and a USD 3,000/month gross -> about EUR 1,800/month net worked example.
+- New risk flag: autonomo-tax-social-security-burden; Spain remains legally attractive but budget-tight unless income rises or special-regime / employee structure is confirmed.
+- Sources added: src-280 through src-286.
+- Claims added: claim-spain-006 through claim-spain-011.
+- Verification queue: unchanged at 5 pending/open; next should continue Tier-1-hint low-depth practical sections, likely Italy 5.3 taxes.
+
 ## 2026-06-05 — run-054
 - Malaysia: depth_score 1.0 -> 1.5; section 5.2 climate now passed, while 5.1 remains partial.
 - Added WeatherSpark Malaysia clearer-sky proxy source and claim; Kuala Lumpur, George Town, and Kuching are all only about 52-57 clearer-sky day-equivalent days/year.
