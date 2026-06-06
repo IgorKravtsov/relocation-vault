@@ -3,6 +3,11 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-06
 ---
+## 2026-06-06 — run-060
+- Malta: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
+- Added Malta tax sources `src-311` through `src-315` and claims `claim-malta-006` through `claim-malta-011`.
+- Added `vq-093` for NRP authorised-work tax / social-security / VAT verification; queue 9 -> 10.
+
 ## 2026-06-06 — run-059
 - Croatia: depth_score 1.5 -> 2.0; section 5.3 taxes is now partial with tax-residence, ordinary self-employment PIT, social contributions, allowances, VAT, filing, and worked-example baselines.
 - Worked example: USD 3,000/month -> about EUR 31,152/year; conservative ordinary self-employment stress test leaves about EUR 1,407-1,491/month after 36.5% contributions and local lower-bracket PIT.

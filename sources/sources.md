@@ -3528,8 +3528,8 @@ Each source entry:
 - **Type**: commercial
 - **Date published**: 2026-06-06
 - **Date accessed**: 2026-06-06
-- **Used by**: Italy; Greece; Croatia
-- **Facts supporting**: run-date USD/EUR conversion of 1 USD = EUR 0.865342 used for Italy section 5.3 worked forfetario / INPS budget example (claim-italy-011), Greece section 5.3 PIT-only business-profit example (claim-greece-011), and Croatia section 5.3 ordinary self-employment stress test (claim-croatia-011)
+- **Used by**: Italy; Greece; Croatia; Malta
+- **Facts supporting**: run-date USD/EUR conversion of 1 USD = EUR 0.865342 used for Italy section 5.3 worked forfetario / INPS budget example (claim-italy-011), Greece section 5.3 PIT-only business-profit example (claim-greece-011), Croatia section 5.3 ordinary self-employment stress test (claim-croatia-011), and Malta section 5.3 ordinary / NRP tax examples (claim-malta-011)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-06
 
@@ -3737,3 +3737,63 @@ Each source entry:
 - **Facts supporting**: Croatian pension and health social-contribution baseline, contribution-base caveat by status/circumstances, 25% general VAT rate, no joint PIT filing, annual return deadline, and lump-sum assessment/reporting mechanics (claim-croatia-010, claim-croatia-011)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2026-12-30
+
+## src-311
+- **Title**: PwC Worldwide Tax Summaries — Malta individual taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/malta/individual/taxes-on-personal-income
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-06
+- **Used by**: Malta
+- **Facts supporting**: Malta tax-residence scope, 2026 PIT bands, NRP authorised-work 10% tax rule and first-year relief concept, and USD 3,000/month Malta tax examples (claim-malta-006, claim-malta-007, claim-malta-008, claim-malta-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-312
+- **Title**: PwC Worldwide Tax Summaries — Malta individual residence
+- **URL**: https://taxsummaries.pwc.com/malta/individual/residence
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-06
+- **Used by**: Malta
+- **Facts supporting**: Malta residence / ordinary residence / domicile and remittance-basis factual caveats (claim-malta-006)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-313
+- **Title**: PwC Worldwide Tax Summaries — Malta other taxes
+- **URL**: https://taxsummaries.pwc.com/malta/individual/other-taxes
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-06
+- **Used by**: Malta
+- **Facts supporting**: 2026 self-occupied / self-employed social-security rate and weekly cap, 18% standard VAT, and service small-enterprise EUR 35,000 turnover baseline (claim-malta-009, claim-malta-010, claim-malta-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-314
+- **Title**: PwC Worldwide Tax Summaries — Malta deductions and tax administration
+- **URL**: https://taxsummaries.pwc.com/malta/individual/deductions ; https://taxsummaries.pwc.com/malta/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-06
+- **Used by**: Malta
+- **Facts supporting**: no general personal allowances, business deductions baseline, calendar-year filing, end-June return due date, responsible-spouse / separate-computation mechanics, and self-employed provisional-tax instalments (claim-malta-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-315
+- **Title**: Legislation Malta — Legal Notice 277 of 2023, Nomad Residence Permits (Income Tax) Rules, 2023
+- **URL**: https://legislation.mt/eli/ln/2023/277/eng
+- **Archive**: stable official domain via direct HTML extraction — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2023-12-07
+- **Date accessed**: 2026-06-06
+- **Used by**: Malta
+- **Facts supporting**: official legal-notice metadata anchor for Malta NRP income-tax rules; full rule text / article-level extraction remains a verification item (claim-malta-008)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-06

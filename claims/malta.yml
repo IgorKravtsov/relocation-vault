@@ -43,3 +43,57 @@
   confidence: high
   tags: [digital-nomad, permanent-residence, citizenship]
   notes: "This is a major strategic risk: the route may be useful as a temporary base but is not, by itself, a long-term legalization pathway."
+
+- id: claim-malta-006
+  topic: malta_tax_residence_scope
+  value: "Ordinarily resident and domiciled individuals are taxed on worldwide income; ordinarily resident but non-domiciled individuals are generally taxed on Malta-source income and foreign income remitted to Malta"
+  source: src-311
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [tax-residence, remittance-basis, worldwide-income]
+  notes: "PwC also notes that Malta has few bright-line residence / domicile rules and that remittance is a question of fact; adviser review is needed for a real Malta base."
+
+- id: claim-malta-007
+  topic: malta_2026_pit_bands
+  value: "2026 resident PIT bands: single 0% to EUR 12,000, 15% to EUR 16,000, 25% to EUR 60,000, 35% above; married 0% to EUR 15,500, 15% to EUR 23,000, 25% to EUR 60,000, 35% above"
+  source: src-311
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [tax, pit, rates]
+  notes: "Used for the Malta section 5.3 ordinary self-employed worked example. Official CFR tax-rate page was WAF-blocked in this pass, so PwC is the current usable source."
+
+- id: claim-malta-008
+  topic: malta_nrp_authorised_work_tax
+  value: "NRP main applicant authorised-work income is taxed at 10%, before double-tax relief; generally not subject to Malta income tax on authorised-work income in the first year"
+  source: src-311
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [nomad-residence-permit, tax, remote-work]
+  notes: "Legislation Malta Legal Notice 277 of 2023 was captured as the official legal-notice anchor, but full rule text and exact fit for the couple's foreign-client IT contracts need adviser verification."
+
+- id: claim-malta-009
+  topic: malta_self_employed_social_security_2026
+  value: "Self-occupied / self-employed social security is 15% of annual net income earned during the previous year, capped at EUR 83.89 per week for persons born on or after 1 January 1962"
+  source: src-313
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [social-security, self-employed, tax]
+  notes: "Used as a conservative cap in the ordinary self-employed example; whether this applies unchanged to NRP authorised-work income is queued for verification."
+
+- id: claim-malta-010
+  topic: malta_vat_small_enterprise_services
+  value: "Standard VAT is 18%; service businesses with annual turnover not higher than EUR 35,000 may qualify as small enterprises that do not charge VAT but still generally require registration"
+  source: src-313
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [vat, small-enterprise, self-employed]
+  notes: "Foreign-client IT place-of-supply / reverse-charge treatment was not verified in this pass."
+
+- id: claim-malta-011
+  topic: malta_usd3000_tax_example
+  value: "At 1 USD = EUR 0.865342, USD 3,000/month is about EUR 31,152/year; ordinary self-employed stress test nets about EUR 1,867/month single or EUR 1,963/month married after PIT and capped 2026 social security; NRP 10% authorised-work tax would net about EUR 2,336/month after PIT only but the NRP income threshold is not met"
+  source: src-293
+  date_verified: 2026-06-06
+  confidence: medium
+  tags: [tax, worked-example, budget]
+  notes: "This is a first-pass calculation, not advice. NRP examples exclude unresolved social-security / VAT / source-remittance classification."

@@ -1,25 +1,23 @@
 {
   "version": 2,
-  "iteration": 59,
+  "iteration": 60,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-06T12:56:27Z",
+  "last_run_timestamp": "2026-06-06T16:06:18Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Croatia",
+    "country": "Malta",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "country-deep-dive",
-    "suggested_country": "Malta",
-    "suggested_sections": [
-      "5.3"
-    ],
-    "reason": "Verification queue remains below the active threshold; continue Tier-1-hint practical tax coverage without clustering on Croatia."
+    "suggested_mode": "verification",
+    "suggested_country": null,
+    "suggested_sections": null,
+    "reason": "Pending/open verification queue reached the active threshold (10) after the Malta tax pass."
   },
   "countries": {
     "Spain": {
@@ -201,15 +199,15 @@
     "Malta": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -222,9 +220,11 @@
       "risk_flags": [
         "no-clear-post-2027-tp-bridge",
         "nomad-income-above-current-budget",
-        "nomad-not-pr-citizenship-path"
+        "nomad-not-pr-citizenship-path",
+        "malta-nrp-authorized-work-tax-fit-gap"
       ],
-      "last_iteration": 23
+      "last_iteration": 60,
+      "unverified_count": 1
     },
     "Czech Republic": {
       "tier": null,
@@ -964,8 +964,8 @@
       "unverified_count": 3
     }
   },
-  "verification_queue_size": 9,
-  "sources_count": 309,
-  "claims_count": 252,
+  "verification_queue_size": 10,
+  "sources_count": 314,
+  "claims_count": 258,
   "proposals_pending": 0
 }

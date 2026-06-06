@@ -204,6 +204,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-06 (run-059)
 - **Status**: pending
 
+## vq-093 [medium priority]
+- **Fact**: "Exact Malta NRP authorised-work tax / social-security / VAT treatment for a Ukrainian foreign-client IT worker"
+- **Country**: Malta
+- **Section**: 5.3
+- **Current source**: src-311, src-312, src-313, src-314, src-315
+- **Why uncertain**: PwC captures the 10% authorised-work rule and first-year relief concept, plus ordinary PIT / social-security / VAT baselines, but this pass did not extract the full Legal Notice 277 rule text or confirm whether the couple's foreign-client IT contracts, remittances, Class Two contributions, and small-enterprise VAT position fit the NRP tax regime.
+- **Suggested verification**: Extract Legal Notice 277 / Subsidiary Legislation rule text or current MTCA guidance; confirm with Maltese tax-adviser guidance for NRP authorised work, first-year relief, Class Two contributions, VAT small-enterprise / place-of-supply treatment, and source/remittance classification.
+- **Created**: 2026-06-06 (run-060)
+- **Status**: pending
+
 ## vq-086 [medium priority]
 - **Fact**: "Whether Armenia has any Ukraine-specific temporary-protection, humanitarian-stay, or post-2027 bridge relevant to Ukrainian citizens"
 - **Country**: Armenia
