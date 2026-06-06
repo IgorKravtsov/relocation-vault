@@ -3528,7 +3528,91 @@ Each source entry:
 - **Type**: commercial
 - **Date published**: 2026-06-06
 - **Date accessed**: 2026-06-06
-- **Used by**: Italy
-- **Facts supporting**: run-date USD/EUR conversion of 1 USD = EUR 0.865342 used for Italy section 5.3 worked forfetario / INPS budget example (claim-italy-011)
+- **Used by**: Italy; Greece
+- **Facts supporting**: run-date USD/EUR conversion of 1 USD = EUR 0.865342 used for Italy section 5.3 worked forfetario / INPS budget example (claim-italy-011) and Greece section 5.3 PIT-only business-profit example (claim-greece-011)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-06
+
+## src-294
+- **Title**: AADE — Tax residence for natural persons (Income Tax Code)
+- **URL**: https://www.aade.gr/en/greeks-abroad-non-residents/income-taxation/tax-residence-natural-persons-itc
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-06
+- **Used by**: Greece
+- **Facts supporting**: Greek tax-residence tests: permanent/principal residence, habitual abode, centre of vital interests, and more-than-183-days presence in any 12-month period (claim-greece-006)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-06
+
+## src-295
+- **Title**: PwC Worldwide Tax Summaries — Greece individual taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/greece/individual/taxes-on-personal-income
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-16
+- **Date accessed**: 2026-06-06
+- **Used by**: Greece
+- **Facts supporting**: 2026 Greek unified PIT scale for employment, pensions, and business profits: 9%, 20%, 26%, 34%, and 44% brackets; used for the Greece section 5.3 USD 3,000/month PIT example (claim-greece-007, claim-greece-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-16
+
+## src-296
+- **Title**: PwC Worldwide Tax Summaries — Greece individual income determination
+- **URL**: https://taxsummaries.pwc.com/greece/individual/income-determination
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-16
+- **Date accessed**: 2026-06-06
+- **Used by**: Greece
+- **Facts supporting**: Greek tax residents taxed on worldwide income; non-residents taxed on Greek work/source income; separate freelancer/sole-proprietor taxation abolished and business profits use the unified scale (claim-greece-006, claim-greece-007)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-16
+
+## src-297
+- **Title**: AADE — Commencement of activities and changes to registry details
+- **URL**: https://www.aade.gr/en/greeks-abroad-non-residents/registration-tax-register/commencement-activities-and-changes-registry-details
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-06
+- **Used by**: Greece
+- **Facts supporting**: myAADE activity-commencement route for foreign residents / natural persons not served through gov.gr, Form D211, and headquarters/use-of-space evidence for self-employed registration (claim-greece-009)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-06
+
+## src-298
+- **Title**: AADE — Issuance of Tax Identification Number and Authentication Key and appointment of tax representative
+- **URL**: https://www.aade.gr/en/greeks-abroad-non-residents/registration-tax-register/issuance-tax-identification-number-and-authentication-key-and-appointment
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-06
+- **Used by**: Greece
+- **Facts supporting**: electronic TIN and authentication-key application through myAADE, in-person or myAADElive identification, and representative filing mechanics (claim-greece-009)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-06
+
+## src-299
+- **Title**: PwC Worldwide Tax Summaries — Greece other taxes and tax administration
+- **URL**: https://taxsummaries.pwc.com/greece/individual/other-taxes ; https://taxsummaries.pwc.com/greece/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-16
+- **Date accessed**: 2026-06-06
+- **Used by**: Greece
+- **Facts supporting**: VAT baseline, electronic individual return filing, 15 March to 15 July filing window, 55% prepayment for non-withheld freelance/business income, and marriage/civil-partnership joint-return mechanics (claim-greece-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-16
+
+## src-300
+- **Title**: AADE and PwC — Greece Article 5C new-tax-resident incentive
+- **URL**: https://www.aade.gr/en/greeks-abroad-non-residents/income-taxation/tax-incentives-order-attract-new-tax-residents ; https://taxsummaries.pwc.com/greece/individual/other-tax-credits-and-incentives
+- **Archive**: stable AADE official domain via text mirror; PwC archive failed 2026-06-06, direct HTML extraction used
+- **Type**: official-primary; reputable-secondary
+- **Date published**: AADE unknown; PwC reviewed 2026-02-16
+- **Date accessed**: 2026-06-06
+- **Used by**: Greece
+- **Facts supporting**: Article 5C special taxation for new Greek tax residents earning salaried employment and/or business-activity income in Greece; 50% income-tax exemption described by PwC; application-timing caveats and foreign-client IT fit gap (claim-greece-008, claim-greece-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-16

@@ -3,6 +3,15 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-06
 ---
+## 2026-06-06 — run-057
+- Greece: depth_score 1.5 -> 2.0; section 5.3 taxes is now partial with PIT baseline, registration route, filing/marriage mechanics, and Article 5C upside caveat.
+- Added AADE/PwC tax sources for Greek tax residence, unified business-profit PIT, myAADE TIN/activity commencement, VAT/filing/prepayment, and new-tax-resident Article 5C relief.
+- Worked example: USD 3,000/month -> about EUR 31,152/year; ordinary PIT-only net about EUR 2,105/month before EFKA, or about EUR 2,428/month if Article 5C applies.
+- New risk flags: greece-efka-self-employed-contribution-gap; greece-article-5c-foreign-client-fit-gap.
+- Sources added: src-294 through src-300; reused src-293 FX.
+- Claims added: claim-greece-006 through claim-greece-011.
+- Verification queue: 5 -> 7 pending/open; next should continue Tier-1-hint practical tax coverage, likely Cyprus 5.3.
+
 ## 2026-06-06 — run-056
 - Italy: depth_score 1.5 -> 2.5; section 5.3 taxes now passed, while 5.1 remains partial.
 - Added forfetario tax baseline: Agenzia forfetario rules + AA9/12 partita IVA route, INPS Gestione Separata 2026 rate, PwC residence/PIT/filing context, and a USD 3,000/month gross -> about EUR 1,950/month net worked example at the 15% forfetario rate.

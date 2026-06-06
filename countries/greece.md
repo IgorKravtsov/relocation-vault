@@ -1,14 +1,14 @@
 ---
 country: Greece
 tier: null
-depth_score: 1.5
-last_updated: 2026-05-31T10:20:00Z
+depth_score: 2.0
+last_updated: 2026-06-06T06:39:40Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: []
-sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["greece-efka-self-employed-contribution-gap", "greece-article-5c-foreign-client-fit-gap"]
+sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -19,9 +19,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, and partner-path research are added.
-- **depth_score**: 1.5
-- **Last updated**: 2026-05-26T04:05:39Z
-- **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP→Immigration Code bridge) plus a documented digital nomad route, but this iteration did not fully close the DN primary-checklist gap or the Polish karta pobytu interaction.
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-06T06:39:40Z
+- **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP→Immigration Code bridge) plus a documented digital nomad route. The first tax pass shows ordinary business-profit PIT is workable at USD 3,000/month, but the exact self-employed EFKA contribution and Article 5C fit for foreign-client IT work still need current specialist/official verification.
 
 ## Block 2 — Scoring
 
@@ -29,7 +29,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | 7 | medium-high | Strong because Greece explicitly allows TP holders to switch into Immigration Code permits without an entry visa before 04 March 2027, and a DN route exists; weakened by unresolved Polish-karta and DN-checklist gaps. | §5.1 |
 | Climate | 8 | medium | Warm Mediterranean profile with strong sun in Athens and Heraklion, cooler winter in Thessaloniki; exact sunny-day counts still need a source that exposes day totals directly. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | 6 | medium | Ordinary business-profit PIT on USD 3,000/month is roughly EUR 491/month before social insurance; Article 5C could improve the result if the foreign-client IT file qualifies, but current EFKA/self-employed contribution and 5C route-fit details are still open. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -93,11 +93,38 @@ schema_version: 2.0.0
 - The climate is broadly favorable for a year-round relocation if the couple prefers sun and mild winters over cool summers. The main trade-off is that Athens can become intensely hot in July/August, while Thessaloniki brings the sharpest winter drop. [src-008][src-009][src-010]
 - **Sunny / clear-sky verification**: Current Results gives annual sunshine and clear-sky percentages: Athens **2,771 hours / 58% clear sky**, Thessaloniki **2,338 hours / 51% clear sky**, and Heraklion **2,760 hours / 59% clear sky**. As a planning proxy, those percentages equal roughly **212**, **186**, and **215** clear-sky day-equivalents per year respectively; this is enough to close the climate blocker at medium confidence. [src-044]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-06, dod: partial}
 
-> **DoD**: effective rate at $3000/mo computed; registration procedure for applicable regime; gross→net example; new-resident reliefs; marriage tax effect.
+> **DoD status**: partial. Covered: Greek tax residence, business-profit PIT scale, AADE/TIN and activity-commencement route, filing period, joint-return baseline, Article 5C new-tax-resident incentive, and a USD 3,000/month PIT worked example. Missing for full DoD: current official EFKA self-employed contribution category/amount for a solo IT freelancer and a clean 2026 answer on whether foreign-client IT business activity qualifies for Article 5C.
 
-[verification required]
+#### Baseline tax residence and income scope
+- AADE states that an individual becomes a Greek tax resident if they have permanent/principal residence, habitual abode, or centre of vital interests in Greece; separately, presence in Greece for more than **183 days cumulatively in any 12-month period** makes the person a Greek tax resident from the first day of presence, except for limited private/tourism/medical stays up to 365 days. [src-294]
+- PwC's Greece summary states that Greek tax residents are taxed on worldwide income, while non-residents are taxed on Greek-source salary/work income. For a couple actually relocating and living in Greece, use the conservative planning baseline that the working partner becomes Greek tax resident and must model worldwide freelance/business income in Greece. [src-295][src-296]
+
+#### Ordinary freelancer / sole-proprietor baseline
+- Greece uses a unified personal income-tax scale for employment income, pensions, and business profits. PwC's 2026-reviewed table shows **9% on the first EUR 10,000**, **20% on the next EUR 10,000**, **26% on the next EUR 10,000**, **34% on the next EUR 10,000**, and **44% above that**. [src-295]
+- PwC also notes that the separate taxation of freelancers and sole proprietorships has been abolished, so business profits use that unified scale rather than a special low freelancer regime. [src-296]
+- AADE's registration page confirms the operational start route for foreign residents: the interested person or tax representative uses myAADE / My Requests and the procedure **"Commencement of Activity of Natural Persons who are not served through the Single Digital Portal www.gov.gr"** under **Registry & Communication**, with Form D211 and headquarters/use-of-space evidence. [src-297]
+- If the applicant first needs a Greek TIN / authentication key, AADE says the TIN and authentication-key request is filed electronically through the myAADE **"TIN & Authentication Key"** application; identification can be in person or by myAADElive video call, and the certificate/key are delivered by email or to the representative's digital mailbox depending on who filed. [src-298]
+
+#### Social insurance and VAT caveats
+- This iteration did **not** capture a clean current official EFKA page for self-employed / freelancer insurance categories and monthly minimums. Do not treat the PIT-only example below as final take-home pay; it is a tax lower-bound before the required accountant/EFKA check. [verification required; vq-089]
+- PwC's "other taxes" page confirms that standard VAT is **24%** with reduced 13% and 6% rates for specified goods/services. Whether the IT freelancer invoices non-Greek business clients under reverse-charge / export-of-services treatment, or needs Greek VAT filings, is filing-prep detail for a Greek accountant and should not be guessed from this pass. [src-299]
+
+#### New-resident reliefs / Article 5C
+- AADE's new-tax-resident incentive page describes Articles 5A, 5B, and **5C** of the Income Tax Code. Article 5C is the relevant candidate for this couple because it covers income obtained in Greece from salaried employment and/or business activity by individuals transferring tax residence to Greece. [src-300]
+- PwC describes Article 5C as a regime for relocated employees and individual business activity in Greece. If accepted, **50% of employment income / income from individual business activity earned in Greece** is exempt from income tax, with application timing tied to the commencement of service/business activity. [src-300]
+- Planning caveat: the vault has not yet confirmed whether a Ukrainian remote IT worker serving only foreign clients under a DN/ordinary status fits Article 5C in practice, especially if the clients and payment source are outside Greece. Treat the 5C calculation below as an upside scenario requiring Greek tax-adviser confirmation, not the default score. [verification required; vq-090]
+
+#### Filing and marriage effect
+- PwC says Greek individual income-tax returns are filed electronically; the annual filing window is **15 March to 15 July** for each tax year. If income is not subject to withholding, such as freelance/business income, a **55% tax prepayment** on current-year income tax may be assessed, reduced to 50% only for the first year of filing. [src-299]
+- During marriage or civil partnership, spouses file a joint return from the year of marriage/partnership, but taxes, fees, and contributions are calculated separately for each spouse's income. Separate filing is possible if one spouse opts by 28 February of the filing year. For this couple, marriage does not by itself merge tax brackets or create a strong tax subsidy; its value is primarily immigration/dependent positioning. [src-299]
+
+#### Worked USD 3,000/month example
+- Run-date FX source: **1 USD = EUR 0.865342**, so USD 3,000/month is about **EUR 2,596/month** or **EUR 31,152/year** gross. [src-293]
+- **Ordinary PIT only**: applying the 9% / 20% / 26% scale to EUR 31,152/year gives about **EUR 5,892/year** PIT, or **EUR 491/month**. PIT-only net is about **EUR 25,261/year / EUR 2,105/month**, before EFKA, VAT/accounting costs, rent, and living costs. [src-295]
+- **Article 5C upside scenario**: if 50% of the business income is exempt and only about EUR 15,576 is taxable, PIT is about **EUR 2,015/year** and PIT-only net rises to about **EUR 2,428/month**, again before EFKA and accountant/VAT mechanics. This scenario is not yet safe for scoring until Article 5C fit is verified for a foreign-client IT file. [src-300]
+- **Budget read**: Greece looks less tax-hostile than ordinary Spain autonomo at the same gross income, but the missing EFKA contribution is a material gap. Treat Greece as tax-promising but not tax-closed until `vq-089` and `vq-090` are resolved.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -166,6 +193,7 @@ schema_version: 2.0.0
 - **Best legalization path for the woman**: Not fully resolved; spouse/cohabitant uplift is documented for DN, but unmarried-partner treatment is still open.
 - **Does marriage change the picture**: Yes, materially, because the documented DN threshold explicitly accounts for spouse/cohabitant dependants.
 - **Realism of staying after 03.2027**: Medium-high if Greek TP is obtained and converted before 04 March 2027, or if the couple qualifies for a standard Immigration Code permit independently of TP.
+- **Tax budget read**: Promising but incomplete. Ordinary business-profit PIT on USD 3,000/month leaves about EUR 2,105/month before EFKA; Article 5C could improve the result, but both EFKA and 5C route fit need verification before using a final net number. [src-295][src-300]
 
 **Pros**:
 - Greece has an explicit TP→Immigration Code bridge before 04 March 2027.
@@ -177,6 +205,7 @@ schema_version: 2.0.0
 - Unmarried second-partner positioning is still unclear.
 - Polish `karta pobytu` interaction is not yet cleanly verified.
 - Athens summer heat can be severe.
+- Current EFKA self-employed contribution and Article 5C fit for foreign-client IT income are not yet closed.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -198,7 +227,7 @@ schema_version: 2.0.0
 - SIM card, internet, utilities: [verification required]
 
 ### 6c. First 3–6 months
-- Tax registration as self-employed / freelancer: [verification required]
+- Tax registration as self-employed / freelancer: obtain TIN/authentication key through myAADE if needed, then use myAADE / My Requests for natural-person activity commencement with Form D211 and headquarters/use-of-space evidence; verify EFKA and VAT setup with a Greek accountant before issuing invoices. [src-297][src-298]
 - Transferring partner to dependent / partner / student status: [verification required]
 - Marriage (if applicable to scenario): likely materially useful on the currently documented DN route.
 - Integration (language courses, communities): [verification required]
@@ -241,9 +270,16 @@ schema_version: 2.0.0
 - [src-006] Greek Ministry of Migration and Asylum — electronic renewal notice for residence permits.
 - [src-007] Greek Ministry of Interior — citizenship supporting-documents page.
 - [src-152] Hellenic Republic Ministry of Foreign Affairs — visa for work in Greece as a digital nomad (official-primary verification anchor for `vq-002`).
+- [src-294] AADE — tax residence for natural persons.
+- [src-297] AADE — commencement of activities and changes to registry details.
+- [src-298] AADE — issuance of TIN and authentication key / tax representative.
+- [src-300] AADE — tax incentives to attract new tax residents.
 
 ### 7b. Reputable secondary
 - [src-004] Work From Greece FAQ (linked by MFA DN page; used for threshold and family-uplift details).
+- [src-295] PwC Worldwide Tax Summaries — Greece individual taxes on personal income.
+- [src-296] PwC Worldwide Tax Summaries — Greece individual income determination.
+- [src-299] PwC Worldwide Tax Summaries — Greece other taxes and tax administration.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -253,13 +289,18 @@ _(none yet)_
 - [src-009] Wikipedia — Thessaloniki climate table (aggregated from university/WMO/NOAA sources).
 - [src-010] Wikipedia — Heraklion climate table (aggregated from observatory/WMO sources).
 - [src-044] Current Results — annual sunshine and clear-sky percentages for Greece.
+- [src-293] open.er-api.com — USD/EUR exchange-rate feed reused for the Greece tax example.
 
 ### 7e. Not found
 - DN consular micro-details (appointment slot mechanics, payment channel, document-localisation instructions) still need checking against the serving consulate immediately before filing, but the core official-primary route/checklist blocker is closed.
 - Clean primary-source explanation of how a Polish `karta pobytu` interacts with a move to Greek residence.
 - Official meteorological sunny-day counts for Athens, Thessaloniki, and Heraklion; Current Results clear-sky percentages are used as the medium-confidence operational proxy.
+- Current official EFKA self-employed/freelancer insurance contribution category and monthly amount for the IT freelancer scenario.
+- Greek tax-adviser confirmation on Article 5C applicability for a Ukrainian foreign-client IT freelancer / sole proprietor.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-002`: resolved in run-028 using the official MFA digital-nomad page as the core route/checklist anchor; consular micro-details remain application-prep checks. [src-152]
 - `vq-003`: resolved in run-009 using Current Results clear-sky percentages / day-equivalent proxy [src-044].
+- `vq-089`: pending; current official EFKA self-employed/freelancer contribution categories and monthly minimums need capture before the Greece tax example is final.
+- `vq-090`: pending; Article 5C applicability to a foreign-client IT business-activity file needs tax-adviser or official-practice verification.

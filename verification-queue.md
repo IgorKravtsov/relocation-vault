@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-05
+last_updated: 2026-06-06
 ---
 
 # Verification Queue
@@ -213,6 +213,26 @@ _(none)_
 - **Why uncertain**: MFA wording names wife/husband, parent, and child of a temporary resident; it does not show unmarried-partner sponsorship or sponsor income/support evidence.
 - **Suggested verification**: Check MCS family residence checklist, law-on-foreigners implementing rules, and current lawyer guidance for cohabiting partners.
 - **Created**: 2026-06-05 (run-053)
+- **Status**: pending
+
+## vq-089 [high priority]
+- **Fact**: "Current Greek EFKA self-employed / freelancer insurance contribution categories and monthly minimum for a solo foreign-client IT freelancer"
+- **Country**: Greece
+- **Section**: 5.3
+- **Current source**: src-295, src-297, src-299
+- **Why uncertain**: This tax pass captured the PIT scale and AADE activity-commencement route, but did not capture a clean current official EFKA table for self-employed contribution categories / monthly minimums. The Greece tax example is therefore PIT-only before social insurance.
+- **Suggested verification**: Capture EFKA official contribution-category table or current Greek accountant guidance for 2026 self-employed professionals; confirm first-category monthly amount, health/unemployment components, and whether digital-nomad/foreign-client sole proprietors must enroll.
+- **Created**: 2026-06-06 (run-057)
+- **Status**: pending
+
+## vq-090 [medium priority]
+- **Fact**: "Whether Greece Article 5C new-tax-resident relief applies in practice to a Ukrainian foreign-client IT freelancer / sole proprietor, including DN-status compatibility"
+- **Country**: Greece
+- **Section**: 5.3
+- **Current source**: src-300
+- **Why uncertain**: AADE and PwC confirm Article 5C for income from employment and/or business activity in Greece, but this iteration did not prove that a foreign-client IT freelancer whose clients and payments remain outside Greece qualifies, or how this interacts with a digital-nomad residence file.
+- **Suggested verification**: Check Article 5C FAQ / circulars, Ministry of Finance guidance, or a current Greek tax-adviser explainer on freelancers with foreign clients and digital-nomad residence.
+- **Created**: 2026-06-06 (run-057)
 - **Status**: pending
 
 ## vq-072 [high priority]

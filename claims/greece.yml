@@ -44,3 +44,57 @@
   confidence: high
   tags: [greece, digital-nomad, checklist, official-primary]
   notes: "Used to resolve vq-002 at the operational-core level; continue to check the applicant's serving consulate before filing."
+
+- id: claim-greece-006
+  topic: tax_residence_worldwide_income
+  value: "A Greek tax resident is determined by residence/habitual abode/centre of vital interests or more than 183 days of presence in any 12-month period, and Greek tax residents are taxed on worldwide income."
+  source: src-294
+  date_verified: 2026-06-06
+  confidence: high
+  tags: [greece, taxes, tax-residence, worldwide-income]
+  notes: "PwC source src-296 cross-checks the worldwide-income baseline for Greek tax residents."
+
+- id: claim-greece-007
+  topic: business_profit_pit_scale
+  value: "Greek business profits use the unified PIT scale: 9% first EUR 10,000; 20% next EUR 10,000; 26% next EUR 10,000; 34% next EUR 10,000; 44% above."
+  source: src-295
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [greece, taxes, pit, freelancer, business-profits]
+  notes: "PwC states that separate taxation of freelancers and sole proprietorships is abolished and business profits use the unified scale."
+
+- id: claim-greece-008
+  topic: article_5c_new_tax_resident_relief
+  value: "Article 5C is a special taxation regime for new Greek tax residents with salaried employment and/or business-activity income in Greece; PwC describes a 50% income-tax exemption if accepted."
+  source: src-300
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [greece, taxes, article-5c, new-tax-resident, relief]
+  notes: "Foreign-client IT fit remains queued because the captured sources do not prove that this couple's likely invoicing pattern qualifies in practice."
+
+- id: claim-greece-009
+  topic: self_employed_registration_route
+  value: "Foreign residents can file natural-person activity commencement through myAADE / My Requests under the activity-commencement procedure for persons not served through gov.gr, using Form D211 and headquarters/use-of-space evidence; TIN/authentication key can be requested electronically through myAADE."
+  source: src-297
+  date_verified: 2026-06-06
+  confidence: high
+  tags: [greece, taxes, registration, self-employed, myaade]
+  notes: "Source src-298 supports the TIN/authentication-key portion."
+
+- id: claim-greece-010
+  topic: filing_prepayment_marriage_baseline
+  value: "Greek individual returns are filed electronically from 15 March to 15 July; non-withheld freelance/business income can trigger a 55% tax prepayment; spouses/civil partners file jointly but taxes are calculated separately by spouse."
+  source: src-299
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [greece, taxes, filing, prepayment, marriage]
+  notes: "First-year tax prepayment can be reduced to 50%; separate filing can be elected by 28 February of the filing year."
+
+- id: claim-greece-011
+  topic: usd_3000_pit_only_tax_example
+  value: "At 1 USD = EUR 0.865342, USD 3,000/month equals about EUR 31,152/year; ordinary PIT on that business-profit amount is about EUR 5,892/year, leaving about EUR 2,105/month before EFKA/VAT/accounting costs. If Article 5C 50% exemption applies, PIT-only net is about EUR 2,428/month."
+  source: src-293
+  date_verified: 2026-06-06
+  confidence: medium
+  tags: [greece, taxes, worked-example, budget, article-5c]
+  notes: "This is deliberately labelled PIT-only because current official EFKA self-employed contributions were not captured in this iteration."
