@@ -1,13 +1,13 @@
 ---
 country: Italy
 tier: null
-depth_score: 1.5
-last_updated: 2026-05-26T04:05:39Z
-sections_completed: ["5.2"]
+depth_score: 2.5
+last_updated: 2026-06-06T03:29:02Z
+sections_completed: ["5.2", "5.3"]
 sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-source-2024", "unmarried-partner-not-covered-by-dn-family-sponsorship"]
-sources_used: ["src-002", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033", "src-034"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-source-2024", "unmarried-partner-not-covered-by-dn-family-sponsorship", "italy-worldwide-tax-and-reporting"]
+sources_used: ["src-002", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033", "src-034", "src-287", "src-288", "src-289", "src-290", "src-291", "src-292", "src-293"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Italy has a usable temporary-protection framework through 4 March 2027 and a formal digital-nomad / remote-worker visa, but the first pass did not find an Italy-specific TP-to-ordinary-residence bridge after March 2027, and the digital-nomad family route clearly covers a spouse and minor children, not an unmarried partner. Tier remains unassigned until taxes, rent, partner status, and post-2027 fallback mechanics are researched.
-- **depth_score**: 1.5
-- **Last updated**: 2026-05-26T04:05:39Z
+- **depth_score**: 2.5
+- **Last updated**: 2026-06-06T03:29:02Z
 - **Tier rationale**: Italy looks operationally plausible for a married couple if the IT worker can prove a highly specialized remote-work profile and stable income, but long-term stay after TP still depends on switching to an ordinary permit rather than relying on TP.
 
 ## Block 2 — Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | TP is extended to 04 March 2027 and DN route exists, but the safe post-TP baseline is now explicit: no captured conversion bridge; ordinary status required. | §5.1 |
 | Climate | — | medium | Strong climate range: cold/damp Milan, mild Rome, very mild Palermo; clear-day counts captured. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | 7 | medium | For a small IT freelancer, Italy's `regime forfetario` can keep the first-pass burden moderate, but Italian tax residence means worldwide-income reporting and INPS contributions are material. At run-date FX, USD 3,000/month gross is about EUR 31.2k/year; simplified forfetario + Gestione Separata gives about EUR 1,950/month net at the ordinary 15% substitute-tax rate, or about EUR 2,078/month if the 5% startup rate truly applies. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -95,9 +95,68 @@ Italy is climatically uneven: the north is much less aligned with the couple's p
 
 **Climate verdict for the couple**: Rome and Palermo/Sicily fit the warm-climate preference much better than Milan. Milan should be treated as a jobs/services hub rather than a climate-fit city. Palermo has the best winter comfort but also the strongest heat and sirocco risk. Rome is the balanced first city to research further for rent, services, and bureaucracy.
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: deep, depth: 1, last_updated: 2026-06-06, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass country screening. The section gives a conservative `partita IVA` / `regime forfetario` baseline for a foreign-client IT freelancer at about USD 3,000/month, plus the ordinary-IRPEF fallback and filing caveats. Exact ATECO classification, invoice/VAT handling for specific clients, and the 5% startup-rate eligibility should be checked with an Italian commercialista before filing.
+
+#### Tax residence and scope
+
+Italy is a full tax-residence country, not a simple digital-nomad tax shelter. PwC's 2026 Italy tax summary states that an individual is Italian tax resident if, for most of the fiscal year, they are physically present in Italy, have habitual residence, or have domicile / principal social-interest centre in Italy; registration in the resident-population record also creates a presumption of residence [src-291]. A resident individual is taxed in Italy on worldwide income and must report foreign investments / assets in the Italian return [src-291].
+
+For this couple, the practical baseline is: if the IT worker lives in Italy long enough for DN / ordinary residence planning, treat him as Italian tax resident and plan Italian self-employment registration, not "pay taxes only in Ukraine/Poland". The Polish `karta pobytu` does not by itself change Italian tax residence if the actual centre of life moves to Italy.
+
+#### Best-fit regime: `partita IVA` under `regime forfetario`
+
+The most plausible first-pass setup for a solo foreign-client IT freelancer is opening an Italian individual VAT number (`partita IVA`) and using the simplified `regime forfetario`, if eligibility conditions are met. Agenzia delle Entrate describes the forfetario as a preferential regime for individuals carrying on business, arts, or professions; access requires, among other conditions, prior-year revenues/fees not above EUR 85,000 and employee/collaborator costs not above EUR 20,000 [src-287]. Agenzia also says a new activity can opt into the regime by declaring expected eligibility in the VAT-start declaration [src-287]. For individual VAT-number opening / change / closure, Agenzia uses the AA9/12 process for natural persons [src-289].
+
+How the regime works for the calculation:
+
+- income is not actual profit; it is revenues multiplied by an ATECO profitability coefficient [src-288];
+- for IT / communications activity codes, a 2026 coefficient table gives the broad ATECO 58-63 band at 67%, meaning 67% of revenue is deemed taxable income before mandatory social-security deductions [src-292];
+- mandatory social-security contributions are deducted from the forfetario income base before the substitute tax [src-288];
+- the substitute tax is 15% instead of ordinary IRPEF, regional/municipal surtaxes, and IRAP [src-288];
+- a 5% substitute tax can apply for the first five years of a genuinely new activity if the statutory startup conditions are met, including no similar artistic/professional/business activity in the prior three years and no mere continuation of prior work [src-287][src-288].
+
+Confidence: medium-high for the 85k cap and 15% / 5% rules from Agenzia; medium for applying the 67% ATECO band to the couple's exact IT activity until a commercialista maps his precise ATECO code.
+
+#### Social security: INPS `Gestione Separata`
+
+For an unlicensed IT consultant / developer without a professional pension fund, the working assumption is INPS `Gestione Separata`. INPS Circular 8/2026 sets the 2026 separate-management contribution framework and shows a 26.07% annual rate for professionals using that category; it also states that professionals enrolled in `Gestione Separata` bear the contribution themselves and pay it by telematic F24 on the income-tax deadlines [src-290]. PwC's 2026 Italy summary is consistent at a planning level: VAT-number self-employed individuals not covered by a mandatory private pension fund pay their own `Gestione Separata` contributions and may charge a 4% client contribution on invoices, but the payment obligation remains with the individual [src-291].
+
+#### Worked example for USD 3,000/month gross
+
+Run-date FX from `open.er-api.com` was 1 USD = EUR 0.865342, so USD 3,000/month equals about EUR 2,596/month or EUR 31,152/year [src-293]. Simplified forfetario calculation for an IT activity with a 67% coefficient and INPS `Gestione Separata` at 26.07%:
+
+| Step | Amount |
+|---|---:|
+| Gross revenue | EUR 31,152/year |
+| Forfetario deemed income, 67% of revenue | EUR 20,872/year |
+| INPS `Gestione Separata`, 26.07% of deemed income | EUR 5,441/year |
+| Substitute-tax base after mandatory contributions | EUR 15,431/year |
+| Substitute tax at 15% | EUR 2,315/year |
+| **Estimated net at ordinary forfetario 15%** | **EUR 23,396/year = EUR 1,950/month** |
+| Substitute tax at 5% startup rate, if eligible | EUR 772/year |
+| **Estimated net at startup 5%** | **EUR 24,939/year = EUR 2,078/month** |
+
+This is before rent and living costs, and before accounting fees / stamp duties / e-invoicing software. It also assumes the activity can safely use forfetario, the 67% ATECO band, and `Gestione Separata` rather than a different INPS fund. The 15% case is the conservative screen; the 5% case is upside, not a guaranteed plan.
+
+#### Ordinary IRPEF fallback and new-resident relief caveat
+
+If forfetario is unavailable, Italy becomes much heavier. PwC lists 2025 national IRPEF brackets of 23% to EUR 28,000, 33% from EUR 28,001 to EUR 50,000, and 43% above EUR 50,000, plus regional tax of 1.23%-3.33% and municipal tax of 0%-0.9% [src-291]. This ordinary regime may allow actual expense deductions, but for a low-cost remote IT worker it is likely less attractive than forfetario.
+
+Italy also has special new-resident / impatriate-style regimes, but the captured PwC material describes high-net-worth lump-sum foreign-income regimes and other specialized rules rather than a clear default benefit for a pure small foreign-client freelancer at USD 3,000/month [src-291]. Do not assume those regimes rescue the budget without professional advice.
+
+#### Registration and compliance playbook
+
+1. Before filing, ask a commercialista to map the exact work to an ATECO code and confirm forfetario eligibility, 5% startup eligibility, and INPS fund.
+2. Open `partita IVA` as a natural person through Agenzia's AA9/12 route; indicate expected forfetario eligibility if starting under that regime [src-287][src-289].
+3. Register / pay INPS `Gestione Separata` if this is the correct fund; budget for self-assessed F24 payments aligned with income-tax deadlines [src-290].
+4. Use Italian-compliant invoicing / e-invoicing workflows and keep foreign-client contracts, invoices, bank statements, and proof of remote work consistent with the immigration file.
+5. File `Modello Redditi PF` rather than the simplified employee-style 730 if he has a VAT number; PwC states `Modello Redditi PF` is used where 730 is not applicable, with electronic filing by 31 October and self-assessed payments / advances [src-291].
+
+#### Couple-specific verdict
+
+At USD 3,000/month, Italy's tax system is workable only if the IT worker can use forfetario and keep rent under control. The tax result is not the main blocker compared with legalization/rent: net around EUR 1,950/month at the ordinary forfetario rate may be enough in cheaper cities but tight for Rome/Milan with a dependent partner. Marriage does not create a major freelancer-tax saving in this baseline; PwC notes joint filing for Modello 730, but VAT-number taxpayers use `Modello Redditi PF`, where married couples cannot file jointly [src-291]. If the partner later works, her income should be modelled separately.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -213,9 +272,12 @@ Italy is climatically uneven: the north is much less aligned with the couple's p
 - Italy Integration Migrants portal on Ukraine permit renewal to March 2027: [src-027]
 - Italian Consulate New York DN / remote-worker checklist: [src-028]
 - Prefecture / Interior Ministry citizenship-by-residence guidance PDF: [src-029]
+- Agenzia delle Entrate forfetario eligibility / tax mechanics and AA9/12 `partita IVA` route: [src-287][src-288][src-289]
+- INPS `Gestione Separata` 2026 contribution circular: [src-290]
 
 ### 7b. Reputable secondary
 - UNHCR Italy temporary-protection guide: [src-034]
+- PwC Italy individual tax summaries for PIT, residence, social security, and filing: [src-291]
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -223,10 +285,12 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - Climate to Travel: Rome, Milan, Palermo [src-030][src-031][src-032]
 - Current Results: annual sunshine in Italy [src-033]
+- Forfetario IT/communications profitability-coefficient table and run-date USD/EUR FX feed: [src-292][src-293]
 
 ### 7e. Not found
 - Official-primary DN checklist from an Italy-in-Ukraine consular page.
 - More favorable evidence, if any, that unmarried partners can be sponsored under Italy's DN family route; current operational baseline is spouse/minor children only.
+- Commercialista confirmation of the exact ATECO code, forfetario eligibility, 5% startup-rate eligibility, and invoice/VAT treatment for the IT worker's actual client setup.
 
 ## Block 8 — Open questions and verification markers
 

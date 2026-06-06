@@ -3448,3 +3448,87 @@ Each source entry:
 - **Facts supporting**: run-date USD/EUR conversion of 1 USD = EUR 0.860529 used only for the Spain section 5.3 worked budget/tax example
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-06
+
+## src-287
+- **Title**: Agenzia delle Entrate — Regime forfetario: che cos'è / eligibility rules
+- **URL**: https://www.agenziaentrate.gov.it/portale/regime-forfetario-le-regole-2020-/infogen-regime-forfetario-le-regole-2020-
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: updated 2026-01-19
+- **Date accessed**: 2026-06-06
+- **Used by**: Italy
+- **Facts supporting**: forfetario eligibility baseline, EUR 85,000 annualized revenue/fees cap, EUR 20,000 employee/collaborator cost cap, new-activity opt-in statement, exclusions, and 5% startup-rate condition summary (claim-italy-007, claim-italy-008)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-06
+
+## src-288
+- **Title**: Agenzia delle Entrate — Regime forfetario: reddito e tassazione
+- **URL**: https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/regime-agevolato-forfettario/reddito-e-tassazione-nuovo-regime-forfettario-agevolato ; https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/regime-agevolato-forfettario/agevolazioni-per-soggetti-che-iniziano-nuova-attivita
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-06
+- **Used by**: Italy
+- **Facts supporting**: forfetario income computation by ATECO profitability coefficient; mandatory social-security contributions deducted from forfetario income; 15% substitute tax replacing ordinary income/regional/municipal taxes and IRAP; 5% substitute tax for first five years of qualifying new activities (claim-italy-008)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-06
+
+## src-289
+- **Title**: Agenzia delle Entrate — Partita IVA persone fisiche, modello AA9/12
+- **URL**: https://www.agenziaentrate.gov.it/portale/schede/istanze/aa9_11-apertura-variazione-chiusura-pf/modello-e-istr-pi-pf
+- **Archive**: stable gov domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-06
+- **Used by**: Italy
+- **Facts supporting**: individual VAT-number opening, variation, and closure route using model AA9/12 for natural persons
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-06
+
+## src-290
+- **Title**: INPS Circular No. 8/2026 — Gestione Separata contribution rates for 2026
+- **URL**: https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.02.circolare-numero-8-del-03-02-2026_15153.html
+- **Archive**: stable official domain via text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2026-02-03
+- **Date accessed**: 2026-06-06
+- **Used by**: Italy
+- **Facts supporting**: 2026 INPS `Gestione Separata` rates, including 26.07% professional rate, self-paid professional F24 payment mechanics, and 2026 contribution massimale/minimale context (claim-italy-009)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-06
+
+## src-291
+- **Title**: PwC Worldwide Tax Summaries — Italy individual taxes, residence, other taxes, and tax administration
+- **URL**: https://taxsummaries.pwc.com/italy/individual/taxes-on-personal-income ; https://taxsummaries.pwc.com/italy/individual/residence ; https://taxsummaries.pwc.com/italy/individual/other-taxes ; https://taxsummaries.pwc.com/italy/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-25
+- **Date accessed**: 2026-06-06
+- **Used by**: Italy
+- **Facts supporting**: Italy tax-residence tests, worldwide-income and foreign-asset reporting, ordinary IRPEF / regional / municipal tax bands, social-security context for VAT-number self-employed professionals, Modello 730 vs Modello Redditi PF filing mechanics, joint-filing caveat, and payment deadlines (claim-italy-006)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-25
+
+## src-292
+- **Title**: Forfettari.it — Coefficienti di Redditività ATECO 2026
+- **URL**: https://www.forfettari.it/coefficienti-ateco.php
+- **Archive**: [archive: failed 2026-06-06; text mirror used for extraction]
+- **Type**: commercial
+- **Date published**: unknown; 2026 page title
+- **Date accessed**: 2026-06-06
+- **Used by**: Italy
+- **Facts supporting**: commercial coefficient table showing `Informatica e comunicazione` / ATECO 58-63 at 67% profitability and 33% presumed costs for the forfetario calculation (claim-italy-010)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-06
+
+## src-293
+- **Title**: open.er-api.com — USD exchange-rate feed
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: failed 2026-06-06; direct JSON extraction used]
+- **Type**: commercial
+- **Date published**: 2026-06-06
+- **Date accessed**: 2026-06-06
+- **Used by**: Italy
+- **Facts supporting**: run-date USD/EUR conversion of 1 USD = EUR 0.865342 used for Italy section 5.3 worked forfetario / INPS budget example (claim-italy-011)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-06

@@ -1,25 +1,25 @@
 {
   "version": 2,
-  "iteration": 55,
+  "iteration": 56,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-06T00:17:44Z",
+  "last_run_timestamp": "2026-06-06T03:29:02Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Spain",
+    "country": "Italy",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Italy",
+    "suggested_country": "Greece",
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Verification queue remains below the active threshold; after Spain tax pass, several Tier-1-hint countries remain tied at depth_score 1.5, so continue practical tax coverage without clustering on Spain."
+    "reason": "Verification queue remains below the active threshold; after Italy tax pass, several Tier-1-hint countries remain tied at depth_score 1.5, so continue practical tax coverage without clustering on Italy."
   },
   "countries": {
     "Spain": {
@@ -83,15 +83,15 @@
     "Italy": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 1.5,
+      "depth_score": 2.5,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.3"
       ],
       "sections_partial": [
         "5.1"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -104,9 +104,11 @@
       "risk_flags": [
         "no-clear-post-2027-tp-bridge",
         "dn-income-source-2024",
-        "unmarried-partner-not-covered-by-dn-family-sponsorship"
+        "unmarried-partner-not-covered-by-dn-family-sponsorship",
+        "italy-worldwide-tax-and-reporting"
       ],
-      "last_iteration": 9
+      "last_iteration": 56,
+      "unverified_count": 0
     },
     "Greece": {
       "tier": null,
@@ -954,7 +956,7 @@
     }
   },
   "verification_queue_size": 5,
-  "sources_count": 285,
-  "claims_count": 228,
+  "sources_count": 292,
+  "claims_count": 234,
   "proposals_pending": 0
 }

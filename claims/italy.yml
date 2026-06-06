@@ -43,3 +43,60 @@
   confidence: medium-high
   tags: [italy, digital-nomad, spouse, dependent, partner-risk]
   notes: "This creates a practical marriage-sensitive route for the couple; unmarried-partner eligibility needs direct verification."
+
+- id: claim-italy-006
+  topic: tax_residence_worldwide_income
+  value: "Italian tax residence can arise from more than 183 days' physical presence, residence, domicile/social-interest centre, or resident-population registration; residents are taxed on worldwide income and must report foreign investments."
+  source: src-291
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [italy, taxes, tax-residence, worldwide-income]
+  notes: "Use as the planning baseline for a DN / ordinary resident who actually lives in Italy."
+
+- id: claim-italy-007
+  topic: forfetario_revenue_cap
+  value: 85000
+  unit: EUR/year
+  source: src-287
+  date_verified: 2026-06-06
+  confidence: high
+  tags: [italy, taxes, forfetario, partita-iva]
+  notes: "Agenzia delle Entrate says forfetario access requires prior-year revenues/fees, annualized, not above EUR 85,000, plus other conditions."
+
+- id: claim-italy-008
+  topic: forfetario_substitute_tax_rates
+  value: "15% standard substitute tax; 5% for the first five years of a qualifying new activity"
+  source: src-288
+  date_verified: 2026-06-06
+  confidence: high
+  tags: [italy, taxes, forfetario, substitute-tax]
+  notes: "The 5% startup rate is conditional and should not be assumed without a commercialista eligibility check."
+
+- id: claim-italy-009
+  topic: gestione_separata_professional_rate_2026
+  value: 26.07
+  unit: percent
+  source: src-290
+  date_verified: 2026-06-06
+  confidence: high
+  tags: [italy, taxes, social-security, inps, gestione-separata]
+  notes: "INPS Circular 8/2026 is used for the unlicensed IT-professional planning baseline."
+
+- id: claim-italy-010
+  topic: forfetario_it_profitability_coefficient
+  value: 67
+  unit: percent of revenue
+  source: src-292
+  date_verified: 2026-06-06
+  confidence: medium
+  tags: [italy, taxes, forfetario, ateco, it]
+  notes: "Commercial coefficient table gives the IT/communications ATECO 58-63 band at 67%; exact ATECO mapping requires commercialista confirmation."
+
+- id: claim-italy-011
+  topic: usd_3000_forfetario_net_estimate
+  value: "about EUR 1,950/month net at 15% substitute tax; about EUR 2,078/month if the 5% startup rate applies"
+  source: src-293
+  date_verified: 2026-06-06
+  confidence: medium
+  tags: [italy, taxes, forfetario, budget, worked-example]
+  notes: "Calculated at run-date FX 1 USD = EUR 0.865342, annual gross EUR 31,152, 67% deemed income, INPS 26.07%, and substitute tax after mandatory contributions."

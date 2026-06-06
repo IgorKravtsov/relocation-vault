@@ -3,6 +3,14 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-06
 ---
+## 2026-06-06 — run-056
+- Italy: depth_score 1.5 -> 2.5; section 5.3 taxes now passed, while 5.1 remains partial.
+- Added forfetario tax baseline: Agenzia forfetario rules + AA9/12 partita IVA route, INPS Gestione Separata 2026 rate, PwC residence/PIT/filing context, and a USD 3,000/month gross -> about EUR 1,950/month net worked example at the 15% forfetario rate.
+- New risk flag: italy-worldwide-tax-and-reporting; Italy remains tax-workable under forfetario but rent and ordinary-status planning remain the bigger blockers.
+- Sources added: src-287 through src-293.
+- Claims added: claim-italy-006 through claim-italy-011.
+- Verification queue: unchanged at 5 pending/open; next should continue Tier-1-hint low-depth practical sections, likely Greece 5.3 taxes.
+
 ## 2026-06-06 — run-055
 - Spain: depth_score 1.5 -> 2.5; section 5.3 taxes now passed, while 5.1 remains partial.
 - Added ordinary autonomo tax baseline: AEAT Form 036 + RETA registration, PIT planning scale, tax-residence rule, and a USD 3,000/month gross -> about EUR 1,800/month net worked example.
