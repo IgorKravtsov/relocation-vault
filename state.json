@@ -1,23 +1,25 @@
 {
   "version": 2,
-  "iteration": 60,
+  "iteration": 61,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-06T16:06:18Z",
+  "last_run_timestamp": "2026-06-06T19:13:35Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Malta",
+    "mode": "verification",
+    "country": null,
     "sections": [
-      "5.3"
+      "5.1"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": null,
-    "suggested_sections": null,
-    "reason": "Pending/open verification queue reached the active threshold (10) after the Malta tax pass."
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Czech Republic",
+    "suggested_sections": [
+      "5.3"
+    ],
+    "reason": "Pending/open verification queue fell below the active threshold after run-061; resume low-depth Tier-2-hint country tax coverage without clustering on recent Tier-1 tax passes."
   },
   "countries": {
     "Spain": {
@@ -553,9 +555,10 @@
       ],
       "risk_flags": [
         "official-primary-capture-gaps",
-        "dn-income-threshold-needs-primary-check"
+        "remote-worker-route-application-prep-gap"
       ],
-      "last_iteration": 46
+      "last_iteration": 61,
+      "unverified_count": 0
     },
     "North Macedonia": {
       "tier": null,
@@ -779,11 +782,12 @@
       ],
       "risk_flags": [
         "digital-nomad-bridge-only",
-        "official-ukraine-entry-table-gap",
+        "tourist-entry-before-travel-check",
         "citizenship-continuous-no-exit-rule",
         "inflation-currency-risk"
       ],
-      "last_iteration": 49
+      "last_iteration": 61,
+      "unverified_count": 0
     },
     "UAE": {
       "tier": null,
@@ -960,11 +964,11 @@
         "partner-baseline-marriage",
         "cold-winters-hot-yerevan-summers"
       ],
-      "last_iteration": 53,
-      "unverified_count": 3
+      "last_iteration": 61,
+      "unverified_count": 0
     }
   },
-  "verification_queue_size": 10,
+  "verification_queue_size": 5,
   "sources_count": 314,
   "claims_count": 258,
   "proposals_pending": 0

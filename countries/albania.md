@@ -2,13 +2,13 @@
 country: Albania
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-04T19:46:13Z
+last_updated: 2026-06-06T19:13:35Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["official-primary-capture-gaps", "dn-income-threshold-needs-primary-check"]
+risk_flags: ["official-primary-capture-gaps", "remote-worker-route-application-prep-gap"]
 sources_used: ["src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-188"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,8 +18,8 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. Albania has an attractive remote-worker / Unique Permit narrative and a warm Adriatic/Ionian climate, but this first pass could not capture clean official-primary route pages because several Albanian government sites were blocked or unreachable. Treat the digital-nomad route as promising but medium-confidence until the official e-Albania / State Police / law-text checklist is extracted.
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-04T19:46:13Z
-- **Tier rationale**: Not assigned until the official residence route, taxes, rent, healthcare, and post-5-year PR mechanics are verified.
+- **Last updated**: 2026-06-06T19:13:35Z
+- **Tier rationale**: Not assigned until taxes, rent, healthcare, and full practical costs are verified. Run-061 closes the remote-worker Unique Permit blocker to a conservative screening baseline: Albania remains a promising ordinary-residence candidate for a foreign-client IT worker, but exact official checklist / fees / PR-counting should be treated as application-prep or deeper-country work, not as a current queue blocker.
 
 ## Block 2 — Scoring
 
@@ -39,20 +39,20 @@ schema_version: 2.0.0
 
 ## Block 3 — Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-04, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-06, dod: partial}
 
-> **DoD status**: Partial. First pass opened entry, remote-worker residence, family inclusion, PR/citizenship, and conservative Polish-card interaction baselines. `vq-054` is closed to a safe screening baseline: use ordinary entry/residence planning, not Albania temporary protection or a post-2027 bridge. Missing core route detail remains in `vq-055`: exact Unique Permit legal category/checklist/fees, dependent mechanics, and whether remote-worker time counts cleanly toward permanent residence.
+> **DoD status**: Partial. First pass opened entry, remote-worker residence, family inclusion, PR/citizenship, and conservative Polish-card interaction baselines. `vq-054` is closed to a safe screening baseline: use ordinary entry/residence planning, not Albania temporary protection or a post-2027 bridge. Run-061 also closes `vq-055` to an operational screening baseline: the secondary-sourced Type D + Unique Permit remote-worker route is enough to keep Albania in the research set as promising for this income profile, while exact official checklist/fees/dependents/PR-counting remain application-prep or later deep-dive items rather than blockers.
 
 #### Now (until 03.2027)
 
 - **Visa-free entry (`vq-054` closure)**: Aggregated visa data records Ukrainian citizens as visa-exempt for Albania for **90 days within any 180-day period**. The Albanian MFA visa-regime page was reachable only behind an Incapsula/WAF shell in this pass, so this remains a medium-confidence travel baseline, but it is sufficient for country screening: Albania can only be treated as short-entry plus ordinary residence, not as a protection-based settlement route. [src-164][src-165] Confidence: medium.
-- **Temporary protection / Ukraine-specific protection (`vq-054` closure)**: A Ministry of Interior news URL about temporary protection for Ukrainian citizens exists but was WAF-protected, and no current 2026/2027 Albanian TP extension or ordinary-residence bridge was captured. Conservative operational baseline: do **not** plan Albania as an EU-style post-04 March 2027 TP bridge; before TP expiry, use the ordinary Type D / Unique Permit path if `vq-055` is verified, or choose another country. [src-165] Confidence: medium for the conservative baseline.
+- **Temporary protection / Ukraine-specific protection (`vq-054` closure)**: A Ministry of Interior news URL about temporary protection for Ukrainian citizens exists but was WAF-protected, and no current 2026/2027 Albanian TP extension or ordinary-residence bridge was captured. Conservative operational baseline: do **not** plan Albania as an EU-style post-04 March 2027 TP bridge; before TP expiry, use the ordinary Type D / Unique Permit path if Albania is chosen, or choose another country. [src-165] Confidence: medium for the conservative baseline.
 - **Long-stay structure**: Secondary 2025–2026 digital-nomad guides consistently describe Albania's route for remote workers as a Type D long-stay visa followed by a **Unique Permit** / residence authorization for people earning income from employers or clients outside Albania. [src-166][src-167] Confidence: medium.
 
 #### Residence without local employer
 
-- **Remote-worker / digital-nomad route**: Citizen Remote's 2026 guide says Albania does not use the formal label "Digital Nomad Visa"; remote workers use a Type D visa and Unique Permit for remote-work purposes. It describes the route for foreign nationals working remotely for companies/clients abroad, freelancing for foreign clients, or operating foreign businesses, and says local Albanian employment / serving the Albanian market needs separate authorization. [src-167] Confidence: medium.
-- **Income threshold**: The captured secondary sources conflict or use unclear conversions: Nomads Embassy says at least about **EUR 450/month** / **USD 9,800/year** and notes that spouse/dependents may increase the required amount; Citizen Remote says approximately **ALL 40,000/month** (~USD 500/month) while noting that higher stable income is preferred. For this couple's ~$3,000/month income, both secondary baselines look passable, but the official threshold must be verified before scoring. [src-166][src-167] Confidence: medium for budget fit, low-medium for exact threshold.
+- **Remote-worker / digital-nomad route (`vq-055` closure)**: Citizen Remote's 2026 guide says Albania does not use the formal label "Digital Nomad Visa"; remote workers use a Type D visa and Unique Permit for remote-work purposes. It describes the route for foreign nationals working remotely for companies/clients abroad, freelancing for foreign clients, or operating foreign businesses, and says local Albanian employment / serving the Albanian market needs separate authorization. For screening, this is enough to model Albania as a promising ordinary-residence route rather than a pure visitor bridge, but the exact official e-Albania / State Police checklist, fees, and law article should be rechecked before application. [src-167] Confidence: medium.
+- **Income threshold**: The captured secondary sources conflict or use unclear conversions: Nomads Embassy says at least about **EUR 450/month** / **USD 9,800/year** and notes that spouse/dependents may increase the required amount; Citizen Remote says approximately **ALL 40,000/month** (~USD 500/month) while noting that higher stable income is preferred. For this couple's ~$3,000/month income, both secondary baselines look passable, so the income screen is not a core blocker; exact official couple/dependent threshold remains an application-prep check before filing. [src-166][src-167] Confidence: medium for budget fit, low-medium for exact threshold.
 - **Documents / filing**: Secondary lists converge on passport, photos, proof of remote work or service contracts, proof of financial means / bank statements, Albanian accommodation, Albanian bank account, clean criminal-record certificate, and valid health insurance. Nomads Embassy adds that government-issued documents should be apostilled and that documents may be submitted in English or Albanian. [src-166][src-167] Confidence: medium pending official checklist.
 - **Duration and renewals**: Nomads Embassy describes an initial 1-year permit, renewable up to 5 years, followed by possible permanent residence; Citizen Remote describes up to 1 year and annual renewal if requirements remain met. Treat the 1-year renewable baseline as usable; verify the 5-year/PR path in official law before relying on it. [src-166][src-167] Confidence: medium.
 
@@ -72,7 +72,7 @@ schema_version: 2.0.0
 
 1. Treat Albania as easy-entry / exploratory on a 90/180-style baseline until official visa-regime pages are captured; do not rely on any Ukraine-specific TP bridge after 04 March 2027.
 2. For the male IT worker, verify the official Type D + Unique Permit remote-worker checklist before committing: foreign-client contracts, income proof, bank statements, Albanian bank account, accommodation, police certificate, insurance, apostilles/translations, and fees.
-3. The ~$3,000/month budget appears above secondary income thresholds, but exact couple/dependent thresholds must be verified from official e-Albania / State Police material.
+3. The ~$3,000/month budget appears above secondary income thresholds; re-check exact couple/dependent threshold from official e-Albania / State Police material before filing, but do not treat threshold capture as a screening blocker.
 4. For the woman, use marriage as the conservative dependent-status baseline; unmarried-partner treatment remains unconfirmed.
 5. Before considering Albania a settlement candidate, verify whether the chosen permit counts toward PR/citizenship and what absences / renewals break the clock.
 
@@ -141,10 +141,10 @@ schema_version: 2.0.0
 ## Block 5 — Practical verdict
 
 - **Can relocate now**: likely yes for short entry if the 90/180 visa-free rule is confirmed from the official MFA / e-visa page; not yet a full residence plan.
-- **Best legalization path for the man**: likely Type D + Unique Permit remote-worker route, but official checklist/fees and income formula need primary-source verification.
+- **Best legalization path for the man**: Type D + Unique Permit remote-worker route as a promising ordinary-residence path; exact official checklist/fees remain pre-filing checks.
 - **Best legalization path for the woman**: likely dependent after marriage if family inclusion is confirmed; unmarried partner route not confirmed.
 - **Does marriage change the picture**: likely yes; use marriage as the conservative baseline.
-- **Realism of staying after 03.2027**: medium/uncertain; Albania may offer renewable ordinary residence, but no Ukraine-specific TP bridge or verified PR clock was captured.
+- **Realism of staying after 03.2027**: medium/uncertain; Albania may offer renewable ordinary residence, but no Ukraine-specific TP bridge was captured and PR-counting needs a later deep-dive.
 
 **Pros**:
 - Warm Mediterranean climate with mild coastal winters.
@@ -221,9 +221,9 @@ _(none yet)_
 ### 7e. Not found
 - Clean official-primary extraction of Albania's current visa regime for Ukrainian citizens remains useful before travel, but `vq-054` is closed for screening.
 - Current official Ukraine temporary-protection extension / post-2027 bridge page remains uncaptured; safe baseline is no reliance on a TP bridge.
-- Official e-Albania / State Police / law-text page for the Type D + Unique Permit remote-worker checklist, fees, exact income threshold, dependent mechanics, and PR-counting rules.
+- Official e-Albania / State Police / law-text page for the Type D + Unique Permit remote-worker checklist, fees, exact income threshold, dependent mechanics, and PR-counting rules remains a pre-filing / later deep-dive item; `vq-055` is closed for screening because the route is promising but not yet fully application-ready.
 - Official meteorological sunny-day counts for Tirana, Durrës, and Vlorë; WeatherSpark clearer-sky proxies are now sufficient for planning but not official statistics.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-055` — official Unique Permit remote-worker checklist, threshold, fees, dependents, and PR-counting rules.
+- `vq-055` resolved in run-061: Type D + Unique Permit remote-worker route remains a promising medium-confidence screening baseline; exact official checklist/fees/dependent/PR-counting mechanics are application-prep or later deep-dive checks, not current queue blockers. [src-166][src-167]

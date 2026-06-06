@@ -2,13 +2,13 @@
 country: Argentina
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-05T05:16:25Z
+last_updated: 2026-06-06T19:13:35Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["digital-nomad-bridge-only", "official-ukraine-entry-table-gap", "citizenship-continuous-no-exit-rule", "inflation-currency-risk"]
+risk_flags: ["digital-nomad-bridge-only", "tourist-entry-before-travel-check", "citizenship-continuous-no-exit-rule", "inflation-currency-risk"]
 sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,8 +18,8 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (Tier-3 hint retained until taxes/cost/rent and residence-to-citizenship practicality are verified).
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-05T05:16:25Z
-- **Tier rationale**: First pass suggests Argentina is legally interesting because Ukrainian ordinary-passport holders appear to have a low-friction 90-day tourist entry baseline and Argentina has an official digital-nomad transitory residence plus a short legal naturalization horizon. However, the DN status is only 180 + 180 days and transitory, rentista excludes personal-work income, official Ukraine entry-table capture remains secondary-sourced, and 2025 citizenship changes require continuous legal residence with no exits during the two-year period. Treat as promising but high-verification until a durable ordinary residence route for foreign-client IT income is confirmed. [src-233][src-234][src-236][src-237]
+- **Last updated**: 2026-06-06T19:13:35Z
+- **Tier rationale**: First pass suggests Argentina is legally interesting because Ukrainian ordinary-passport holders have a usable 90-day tourist-entry screening baseline and Argentina has an official digital-nomad transitory residence plus a short legal naturalization horizon. However, the DN status is only 180 + 180 days and transitory, rentista excludes personal-work income, and 2025 citizenship changes require continuous legal residence with no exits during the two-year period. Treat as promising but high-verification until a durable ordinary residence route for foreign-client IT income is confirmed. [src-233][src-234][src-236][src-237]
 
 ## Block 2 — Scoring
 
@@ -39,13 +39,13 @@ schema_version: 2.0.0
 
 ## Block 3 — Profile by section
 
-### 5.1. Legalization {status: partial, depth: 0.5, last_updated: 2026-06-05, dod: partial}
+### 5.1. Legalization {status: partial, depth: 0.5, last_updated: 2026-06-06, dod: partial}
 
 > **DoD**: all applicable paths listed with official-primary source links; income thresholds verified as claims; document checklists with apostille/translation notes; post-March-2027 transition pathway documented with law reference; Polish karta pobytu interaction explicitly addressed; personal playbook for our couple included; all facts confidence ≥ medium.
 
 #### Now (until 03.2027)
 
-**Tourist / scouting entry.** A specialist 2026 nationality page, citing the Argentine tourist-exemption PDF, says ordinary Ukrainian passport holders can enter Argentina visa-free for 90 days; this was not re-captured directly from the official PDF in this pass, so keep it as medium confidence and verify against the current official exemption table before travel. The Argentine MFA tourist-visa page gives the generic alternative baseline for people who do need a tourist visa: up to 90 days, passport, photos, FSV form, economic solvency, round trip booking, lodging/itinerary, interview, and USD/EUR 150 consular fee. [src-233][src-234]
+**Tourist / scouting entry (`vq-072` closure).** A specialist 2026 nationality page, citing the Argentine tourist-exemption PDF, says ordinary Ukrainian passport holders can enter Argentina visa-free for 90 days. The Argentine MFA tourist-visa page gives the generic fallback for people who do need a tourist visa: up to 90 days, passport, photos, FSV form, economic solvency, round trip booking, lodging/itinerary, interview, and USD/EUR 150 consular fee. For country screening, this is enough because short entry is only a scouting / DN-eligibility precondition; verify the current official exemption PDF immediately before travel or DN filing, but do not keep it as a core settlement blocker. [src-233][src-234]
 
 **Digital nomad transitory residence.** Argentina has an official transitory residence for digital nomads under Law 25.871 Art. 24(h) and DNM Disposition 758/2022. It is for foreign nationals from countries that do not require a tourist visa and who provide remote services through IT/telecommunications or similar means to people or entities domiciled abroad. The in-country version requires a valid passport, Argentine criminal-record certificate for applicants over 16, address evidence, regular entry, a signed request with personal data and independent work activities, a short CV with experience and education/training, proof of activity such as contract/company endorsement/labor-demand request/income or fee certificates, and at least one work reference. Foreign documents need Argentine consular legalization or Hague apostille and Spanish translation by an Argentine public translator with translator-college legalization. The process is in person/semi-presential, not RADEX, through DNM advice email in CABA or a local migration office; the status is up to 180 days and extendable. [src-235]
 
@@ -79,7 +79,7 @@ A Polish residence card does not replace an Argentine immigration category. Oper
 
 #### Personal playbook for our couple
 
-1. Before travel, verify the current official Argentina tourist-exemption PDF for Ukrainian ordinary passports and save an offline copy; if visa-free status is confirmed, use a 90-day scouting entry or the digital-nomad TIE route. [src-233][src-236]
+1. Before travel, re-check the current official Argentina tourist-exemption PDF for Ukrainian ordinary passports as a before-travel / DN-filing step; for screening, the 90-day Ukrainian visa-free baseline is sufficient. [src-233][src-234][src-236]
 2. Prepare documents in Ukraine/Poland before departure: valid passports, Ukrainian police certificates, proof of remote IT contracts / client letters / invoices / income, CV, education/training evidence, apostilles where applicable, and a plan for certified Spanish translations in Argentina. [src-235][src-237]
 3. Treat the Argentine DN route as a 6-12 month bridge for testing Buenos Aires / Cordoba / Mendoza, not as a settlement route by itself. [src-235][src-237][src-238]
 4. Do not rely on rentista unless passive-income/assets evidence exists; salary or freelance service income appears excluded. [src-239]
@@ -232,7 +232,7 @@ Clearer-sky numbers are computed from WeatherSpark monthly percentages using mon
 - [src-240] Argentina Law 346 / InfoLEG updated citizenship text.
 
 ### 7b. Reputable secondary
-- [src-233] ArgentinaVisaLaw Ukraine nationality page, used only as a medium-confidence placeholder for the Ukraine tourist-visa exemption until official PDF/table capture is verified.
+- [src-233] ArgentinaVisaLaw Ukraine nationality page, used as a medium-confidence screening placeholder for the Ukraine tourist-visa exemption; direct official table capture remains a before-travel / DN-filing check rather than a core blocker.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -242,9 +242,9 @@ _(none yet)_
 - [src-242] WeatherSpark Argentina country climate comparison.
 
 ### 7e. Not found
-- Current official tourist-exemption PDF/table for Ukrainian ordinary passports was identified via secondary source but not directly captured within this iteration.
+- Current official tourist-exemption PDF/table for Ukrainian ordinary passports was identified via secondary source but not directly captured; re-check before travel or DN filing.
 - Durable foreign-client IT residence and DN dependent mechanics were resolved for screening to a conservative baseline: not proven; use Argentina as a DN bridge only until a durable temporary category is confirmed.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-072` — direct official Argentina tourist-exemption capture for Ukrainian ordinary passports and relationship to DN eligibility.
+- `vq-072` resolved in run-061: 90-day Ukrainian tourist-entry baseline is sufficient for screening; direct official exemption-table capture is a before-travel / DN-filing check, not a settlement-route blocker. [src-233][src-234][src-236]

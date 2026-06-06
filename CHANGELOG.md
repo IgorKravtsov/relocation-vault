@@ -3,6 +3,13 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-06
 ---
+## 2026-06-06 — run-061
+- Verification mode: resolved 5 legal/route blockers (`vq-072`, `vq-086`, `vq-087`, `vq-088`, `vq-055`).
+- Armenia now has conservative screening baselines: no captured Ukraine-specific bridge, business activity is a real-business IE/LLC route rather than DN, and partner planning is marriage/independent-status first.
+- Argentina tourist-entry capture is demoted to before-travel / DN-filing check; Albania Unique Permit microdetails are demoted to application-prep / later deep-dive checks.
+- Sources added: none.
+- Verification queue: 10 -> 5 pending/open; next can resume country-deep-dive, likely Czech Republic 5.3 taxes.
+
 ## 2026-06-06 — run-060
 - Malta: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
 - Added Malta tax sources `src-311` through `src-315` and claims `claim-malta-006` through `claim-malta-011`.

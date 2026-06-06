@@ -2,13 +2,13 @@
 country: Armenia
 tier: null
 depth_score: 1.5
-last_updated: 2026-06-05T17:59:29Z
+last_updated: 2026-06-06T19:13:35Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1"]
 sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers"]
 sources_used: [src-274, src-275, src-276, src-277, src-278]
-unverified_count: 3
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,14 +18,14 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (Tier-3 hint). Armenia is easy for Ukrainian short entry and has official temporary/permanent residence categories, including business activity, but this first pass did not capture a dedicated digital-nomad route or a low-documentation foreign-client IT pathway. Long-term potential depends on whether the working partner can run a real Armenian business / individual-entrepreneur file that renews cleanly and supports later permanent residence and citizenship. [src-274][src-275][src-276]
 - **depth_score**: 1.5
-- **Last updated**: 2026-06-05
+- **Last updated**: 2026-06-06
 - **Tier rationale**: Not assigned yet; the current file is a first-pass legalization and climate baseline.
 
 ## Block 2 — Scoring
 
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
-| Legalization (now + post-03.2027) | — | medium | Visa-free short entry is clear; ordinary temporary/permanent residence exists, but foreign-client IT fit and partner mechanics need verification. | §5.1 |
+| Legalization (now + post-03.2027) | — | medium | Visa-free short entry and ordinary temporary/permanent residence exist; foreign-client IT and partner baselines are conservative, with exact application mechanics still needing later deep-dive. | §5.1 |
 | Climate | — | medium | Sunny and dry in summer with low muggy burden, but Yerevan summers are very hot and much of the country has cold winters. | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
@@ -39,25 +39,25 @@ schema_version: 2.0.0
 
 ## Block 3 — Profile by section
 
-### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-05, dod: partial}
+### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-06-06, dod: partial}
 
-> **DoD status**: first-pass baseline only. Entry, ordinary residence categories, core fees, processing time, and citizenship baseline are captured from official sources. Missing: official confirmation of a foreign-client IT / individual-entrepreneur filing pattern, exact business-substance documents, unmarried-partner treatment, Polish residence interaction, and any Ukraine-specific protection / post-2027 bridge.
+> **DoD status**: first-pass baseline only. Entry, ordinary residence categories, core fees, processing time, and citizenship baseline are captured from official sources. Verification batch run-061 closed the Ukraine-protection, business-activity, and dependent-mechanics blockers to conservative screening baselines. Missing: official operational checklist for foreign-client IT / individual-entrepreneur filing, exact business-substance documents, Polish residence interaction, and application-prep detail.
 
 #### Now (until 03.2027)
 
 - **Short entry / scouting**: Armenia MFA lists Ukraine under the countries with which Armenia has a visa-free regime by agreement, covering all passport types. The general visa page points applicants to the MFA visa framework and lists visa-free country tables. For planning, treat this as a short-entry/scouting baseline only, not a residence authorization. [src-274]
-- **No captured EU-style Ukrainian temporary-protection route**: This first pass did not capture an Armenia-specific temporary-protection or post-2027 bridge for Ukrainians. Armenia should therefore be modeled as an ordinary-residence country for this couple unless a later official source says otherwise. [verification required]
+- **No captured EU-style Ukrainian temporary-protection route (`vq-086` closure)**: Armenia should be modeled as an ordinary-residence country for this couple. The captured official sources provide ordinary visa-free entry plus ordinary residence categories, but no Ukraine-specific temporary-protection / humanitarian-stay / post-2027 bridge. For screening, this is a sufficient safe answer: do not rely on a protection transition; secure ordinary Armenian residence before using Armenia as a base. [src-274][src-275]
 - **Temporary resident card**: MFA says a temporary resident card is valid up to one year and can be extended for one year at a time. Listed eligibility includes study in Armenia, having a work permit in Armenia, being the spouse/parent/child of a temporary resident, being the spouse/parent/child/relative of an Armenian citizen or special-passport holder, running business activity in Armenia, being an Armenian national, and other cases prescribed by law. [src-275]
 - **Application location and timing**: MFA lists the Department for Determination of the Legal Status of Foreigners at the Migration and Citizenship Service, 14 Tairov Street, Yerevan, as the filing location. Extension should be filed at least 30 days before expiry. Processing time is up to 30 days after submission. [src-275]
 - **Core documents and fees**: MFA lists application, three 35×45 mm photos, passport, passport copy, notarized Armenian translation of the passport, documents supporting the residence-permit condition, medical certificate, and fee receipt. The temporary resident card / extension fee is AMD 105,000; permanent resident card fee is AMD 140,000; special passport fee is AMD 150,000. [src-275]
 
 #### After 4 March 2027
 
-No Armenia-specific Ukraine temporary-protection bridge was captured. The conservative baseline is: if the couple uses Armenia, they should secure an ordinary Armenian status before the EU TP horizon rather than relying on a future Ukraine-specific protection transition. [verification required]
+No Armenia-specific Ukraine temporary-protection bridge was captured. The conservative baseline is: if the couple uses Armenia, they should secure an ordinary Armenian status before the EU TP horizon rather than relying on a future Ukraine-specific protection transition. This closes `vq-086` for screening; any future Armenia protection announcement can be monitored through ordinary staleness checks. [src-274][src-275]
 
 #### Residence without local employer
 
-The key plausible path is **business activity in Armenia**, because MFA explicitly lists running business activity as an eligibility ground for temporary residence and permanent residence. This is promising for a foreign-client IT worker if Armenia accepts an individual-entrepreneur / company file with foreign clients, but that exact operational pattern was not captured in this pass. Do not yet treat Armenia as a true digital-nomad route. [src-275]
+The key plausible path is **business activity in Armenia**, because MFA explicitly lists running business activity as an eligibility ground for both temporary residence and permanent residence. `vq-087` is closed to a conservative screening baseline: treat this as a real-business / adviser-assisted Armenian IE or company file, not as a true digital-nomad route. Foreign-client IT may fit only if the applicant can document Armenian business registration, contracts/invoices, activity, taxes, address, and renewal substance; until a checklist or lawyer confirms a light IE pattern, do not score Armenia as a low-friction remote-work route. [src-275]
 
 #### PR and citizenship
 
@@ -72,8 +72,8 @@ A Polish residence card does not replace the need for Armenian entry/residence s
 
 1. Use Ukrainian visa-free entry only for scouting and document filing, not as a settlement plan. [src-274]
 2. Before moving, prepare passports, notarized Armenian passport translations, medical certificate logistics, proof of address/accommodation, and evidence for the chosen residence ground. [src-275]
-3. Treat the working partner's likely path as an Armenia business-activity / self-employment file until proven otherwise; verify whether foreign-client IT invoices, an Armenian individual entrepreneur, or a local LLC can satisfy residence requirements. [src-275]
-4. For the student partner, the official family-dependent baseline captured so far is spouse/parent/child of a temporary resident; unmarried partner sponsorship was not captured. Marriage may be important if Armenia becomes a serious option. [src-275]
+3. Treat the working partner's likely path as an Armenia business-activity / self-employment file until proven otherwise; verify the exact IE/LLC checklist before application, but for screening assume real business substance is needed. [src-275]
+4. For the student partner, `vq-088` is closed to the conservative family baseline: the captured official wording names spouse/parent/child of a temporary resident and does not support unmarried-partner sponsorship. Marriage or independent eligibility should be assumed if Armenia becomes a serious option. [src-275]
 5. Long-term: do not rely on a Ukraine-specific bridge. Build an ordinary residence record and verify whether the business route can lead to permanent residence and then citizenship after the required lawful-residence period. [src-275][src-276]
 
 ### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-06-05, dod: passed}
@@ -160,7 +160,7 @@ WeatherSpark country data also shows almost no muggy days for Yerevan or Gyumri,
 
 ### 6a. Before the move (what to prepare in Ukraine / Poland)
 - Passports and notarized Armenian translation plan for passports. [src-275]
-- Business/self-employment evidence for the working partner: contracts, invoices, bank statements, portfolio, client letters, and a plan for Armenian IE/company registration. [verification required]
+- Business/self-employment evidence for the working partner: contracts, invoices, bank statements, portfolio, client letters, and a plan for Armenian IE/company registration. Treat this as real-business evidence, not a DN-style formality. [src-275]
 - Civil-status documents and possible marriage documents if the partner will be sponsored as spouse. [src-275]
 - Medical certificate logistics for residence filing. [src-275]
 - Check Polish residence-card absence / renewal consequences before a long Armenia stay. [verification required]
@@ -179,7 +179,7 @@ WeatherSpark country data also shows almost no muggy days for Yerevan or Gyumri,
 - Do not rely on a Ukraine-specific TP bridge; none is captured in this first pass.
 
 ### 6e. Long-term (3–7 years)
-- Verify whether the business route can move to permanent residence and whether the residence record satisfies the citizenship-lawful-residence baseline. [src-275][src-276]
+- Verify whether the business route can move to permanent residence and whether the residence record satisfies the citizenship-lawful-residence baseline; for screening, MFA already supports business activity as a temporary/permanent residence ground, but the operational IE/LLC checklist remains an application-prep item. [src-275][src-276]
 
 ### 6f. Relocation budget (one-time costs)
 
@@ -215,13 +215,13 @@ _(none yet)_
 - [src-278] WeatherSpark — Armenia country climate comparison for Yerevan and Gyumri.
 
 ### 7e. Not found
-- Official Armenia Ukraine-specific temporary-protection or post-2027 bridge.
-- Official digital-nomad / remote-worker route.
-- Official business-activity residence checklist for foreign-client IT / individual entrepreneur.
-- Unmarried partner sponsorship evidence.
+- Official Armenia Ukraine-specific temporary-protection or post-2027 bridge; screening baseline is no reliance on one.
+- Official digital-nomad / remote-worker route; screening baseline is ordinary business activity, not DN.
+- Official business-activity residence checklist for foreign-client IT / individual entrepreneur; screening baseline is real-business substance.
+- Unmarried partner sponsorship evidence; screening baseline is spouse/marriage or independent status.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-086`: Does Armenia have any Ukraine-specific protection / humanitarian stay / post-2027 bridge relevant to Ukrainian citizens?
-- `vq-087`: Can a Ukrainian foreign-client IT worker use Armenian business-activity temporary residence via individual entrepreneur or LLC, and does it count toward permanent residence / citizenship?
-- `vq-088`: Exact spouse/unmarried-partner dependent mechanics for a temporary resident sponsor, including document requirements and sponsor income/support evidence.
+- `vq-086` resolved in run-061: no captured Ukraine-specific protection / humanitarian / post-2027 bridge; use ordinary Armenian status for screening. [src-274][src-275]
+- `vq-087` resolved in run-061: business activity is the conservative route, but treat foreign-client IT as a real-business IE/LLC file requiring adviser/application-prep confirmation, not as DN. [src-275]
+- `vq-088` resolved in run-061: spouse/parent/child wording supports marriage-first dependent planning; unmarried partner sponsorship is not captured. [src-275]

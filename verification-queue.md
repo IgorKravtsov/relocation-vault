@@ -222,7 +222,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This first pass captured ordinary visa-free entry and ordinary residence categories, but no Armenia-specific Ukraine protection / transition route.
 - **Suggested verification**: Check Armenia Migration and Citizenship Service, UNHCR Armenia, Armenian legal aid materials for Ukrainians, and 2025-2026 government announcements.
 - **Created**: 2026-06-05 (run-053)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-06 (run-061)
+- **Resolution note**: Closed to a conservative screening baseline: no Armenia-specific Ukraine protection / humanitarian-stay / post-2027 bridge is captured in the existing official sources, so Armenia should be planned through ordinary entry plus ordinary residence only. [src-274][src-275]
 
 ## vq-087 [high priority]
 - **Fact**: "Armenia business-activity temporary residence fit for a Ukrainian foreign-client IT worker, including IE/LLC evidence, renewals, PR counting, and citizenship counting"
@@ -232,7 +234,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: MFA lists business activity as a temporary/permanent residence ground, but this pass did not capture the operational checklist for foreign-client IT or whether that route counts safely toward permanent residence / citizenship.
 - **Suggested verification**: Capture MCS / official checklist pages, Armenian individual-entrepreneur/company registration rules, or current immigration-lawyer guidance specific to business residence.
 - **Created**: 2026-06-05 (run-053)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-06 (run-061)
+- **Resolution note**: Closed to a screening baseline: MFA's business-activity temporary/permanent residence ground is enough to model a possible route, but it should be treated as a real-business Armenian IE/LLC file with adviser/application-prep confirmation, not a low-friction DN substitute. [src-275][src-276]
 
 ## vq-088 [medium priority]
 - **Fact**: "Armenia dependent mechanics for spouse vs unmarried partner of a temporary resident sponsor"
@@ -242,7 +246,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: MFA wording names wife/husband, parent, and child of a temporary resident; it does not show unmarried-partner sponsorship or sponsor income/support evidence.
 - **Suggested verification**: Check MCS family residence checklist, law-on-foreigners implementing rules, and current lawyer guidance for cohabiting partners.
 - **Created**: 2026-06-05 (run-053)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-06 (run-061)
+- **Resolution note**: Closed to a conservative screening baseline: captured MFA wording names wife/husband, parent, and child of a temporary resident and does not show unmarried-partner sponsorship. Assume marriage or independent eligibility for the student partner. [src-275]
 
 ## vq-089 [high priority]
 - **Fact**: "Current Greek EFKA self-employed / freelancer insurance contribution categories and monthly minimum for a solo foreign-client IT freelancer"
@@ -272,7 +278,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: A 2026 specialist nationality page says Ukrainian ordinary passports are visa-free for 90 days and points to an official exemption PDF, but the official country list/PDF was not directly captured in this pass.
 - **Suggested verification**: Capture the current Argentine Cancilleria tourist-exemption PDF/table or consular list, confirm Ukraine placement, and cross-check whether the DN TIE / in-country DN route accepts that status for Ukrainian applicants.
 - **Created**: 2026-06-04 (run-044)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-06 (run-061)
+- **Resolution note**: Closed to a screening baseline: existing medium-confidence 90-day Ukrainian tourist-entry evidence is enough because short entry is only for scouting / DN eligibility, not settlement. Direct official exemption-table capture remains a before-travel or DN-filing check. [src-233][src-234][src-236]
 
 ## vq-073 [high priority]
 - **Fact**: "Argentina durable temporary/permanent residence path for foreign-client IT income, digital-nomad time-counting, dependent mechanics, and Law 346 citizenship continuous-residence implications"
@@ -479,16 +487,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
+- `vq-055` — 2026-06-06 (run-061)
+- `vq-088` — 2026-06-06 (run-061)
+- `vq-087` — 2026-06-06 (run-061)
+- `vq-086` — 2026-06-06 (run-061)
+- `vq-072` — 2026-06-06 (run-061)
 - `vq-085` — 2026-06-05 (run-052)
 - `vq-084` — 2026-06-05 (run-052)
 - `vq-083` — 2026-06-05 (run-052)
 - `vq-082` — 2026-06-05 (run-052)
 - `vq-081` — 2026-06-05 (run-052)
-- `vq-080` — 2026-06-05 (run-052)
-- `vq-079` — 2026-06-05 (run-052)
-- `vq-077` — 2026-06-05 (run-049)
-- `vq-076` — 2026-06-05 (run-049)
-- `vq-075` — 2026-06-05 (run-049)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
@@ -813,7 +821,9 @@ _(none)_
 - **Why uncertain**: Secondary sources describe the route and document set, but official e-Albania / State Police / law-text extraction was not captured; secondary sources differ on exact income thresholds and renewal/PR details.
 - **Suggested verification**: Check e-Albania service pages, State Police foreigner services, Law on Foreigners / implementing decisions, or a current official checklist PDF.
 - **Created**: 2026-06-01 (run-031)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-06 (run-061)
+- **Resolution note**: Closed to a screening baseline. Existing secondary evidence is enough to keep Albania as a promising ordinary remote-worker / Unique Permit candidate for the couple's income, but exact official checklist, fees, dependent mechanics, and PR-counting should be handled as pre-filing or later deep-dive checks rather than current queue blockers. [src-166][src-167]
 
 ## vq-056 [medium priority]
 - **Fact**: "Direct annual sunny-day or clear-day counts for Tirana, Durrës, and Vlorë"

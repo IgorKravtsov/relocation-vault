@@ -28,7 +28,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Serbia | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/serbia.md` |
 | Turkey | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 30 | `countries/turkey.md` |
 | Georgia | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 46 | `countries/georgia.md` |
-| Albania | balkans-east | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 46 | `countries/albania.md` |
+| Albania | balkans-east | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 61 | `countries/albania.md` |
 | North Macedonia | balkans-east | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 46 | `countries/north-macedonia.md` |
 | Bosnia and Herzegovina | balkans-east | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 46 | `countries/bosnia-and-herzegovina.md` |
 | Moldova | balkans-east | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 41 | `countries/moldova.md` |
@@ -36,13 +36,13 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Paraguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 39 | `countries/paraguay.md` |
 | Panama | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 46 | `countries/panama.md` |
 | Mexico | latin-america | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 42 | `countries/mexico.md` |
-| Argentina | latin-america | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 49 | `countries/argentina.md` |
+| Argentina | latin-america | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 61 | `countries/argentina.md` |
 | UAE | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 49 | `countries/uae.md` |
 | Malaysia | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 54 | `countries/malaysia.md` |
 | Thailand | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 48 | `countries/thailand.md` |
 | Indonesia | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 50 | `countries/indonesia.md` |
 | Kazakhstan | post-ussr | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 51 | `countries/kazakhstan.md` |
-| Armenia | post-ussr | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 53 | `countries/armenia.md` |
+| Armenia | post-ussr | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 61 | `countries/armenia.md` |
 
 ## Summary
 
