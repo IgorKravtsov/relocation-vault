@@ -43,3 +43,57 @@
   confidence: high
   tags: [permanent-residence, long-term-planning]
   notes: "Official IPC permanent-residence page gives the 5-year baseline; Czech special-long-term-residence page gives the TP/special-status counting rule. Business residence, student/dependent statuses, and citizenship must still be verified separately."
+
+- id: claim-czech-006
+  topic: tax_residence_scope
+  value: "Czech tax residents are taxed on worldwide income; residence can arise from permanent home / intention to live permanently or 183+ days in a calendar year"
+  source: src-316
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [taxes, tax-residence, worldwide-income]
+  notes: "PwC reviewed the Czech residence page on 2026-01-07. A long-term visa alone does not automatically create tax residence."
+
+- id: claim-czech-007
+  topic: individual_pit_rates_2026
+  value: "15% PIT up to CZK 1,762,812 gross annual income; 23% above that threshold"
+  source: src-316
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [taxes, pit, rates]
+  notes: "Threshold is 36x average monthly salary for 2026 per PwC."
+
+- id: claim-czech-008
+  topic: self_employed_lump_sum_expenses
+  value: "Percentage expense deductions include 60% for certain trading / entrepreneurial activities and 40% for activities under special statutory provisions, capped by CZK 2 million gross-income mechanics"
+  source: src-317
+  date_verified: 2026-06-06
+  confidence: medium-high
+  tags: [taxes, self-employed, lump-sum-expenses]
+  notes: "Exact foreign-client IT trade classification is not confirmed and is queued as vq-094."
+
+- id: claim-czech-009
+  topic: flat_tax_band_i_2026
+  value: "2026 flat-tax band I payment is CZK 9,984/month, split into CZK 100 income tax, CZK 6,578 pension insurance, and CZK 3,306 health insurance"
+  source: src-319
+  date_verified: 2026-06-06
+  confidence: high
+  tags: [taxes, flat-tax, self-employed, social-insurance]
+  notes: "Financial Administration page also lists band II CZK 16,745/month and band III CZK 27,139/month."
+
+- id: claim-czech-010
+  topic: flat_tax_band_i_income_fit
+  value: "Band I is available up to CZK 1M self-employment income regardless of activity, and up to CZK 1.5M where at least 75% of income has 80% or 60% expense-category eligibility"
+  source: src-319
+  date_verified: 2026-06-06
+  confidence: high
+  tags: [taxes, flat-tax, income-threshold]
+  notes: "At USD 3,000/month the couple's gross income is about CZK 752,100/year at the run-date exchange rate, but IT classification must be confirmed."
+
+- id: claim-czech-011
+  topic: usd_3000_tax_example_flat_tax
+  value: "USD 3,000/month equals about CZK 62,675/month; if flat-tax band I applies, net after the CZK 9,984 monthly payment is about CZK 52,691/month (~USD 2,522)"
+  source: [src-293, src-319]
+  date_verified: 2026-06-06
+  confidence: medium
+  tags: [taxes, worked-example, flat-tax, budget]
+  notes: "Calculation uses 1 USD = CZK 20.891673 from src-293 and excludes accountant, banking, VAT-compliance, and immigration-lawyer costs."

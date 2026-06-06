@@ -3,6 +3,12 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-06
 ---
+## 2026-06-06 — run-062
+- Czech Republic: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
+- Added Czech tax sources `src-316` through `src-319`, reused `src-293` USD/CZK, and added `claim-czech-006` through `claim-czech-011`.
+- Main finding: if flat-tax band I applies, USD 3,000/month nets about CZK 52,691 / USD 2,522 after the CZK 9,984 monthly flat-tax payment.
+- Added `vq-094` for Czech IT trade / 60% expense-category / VAT / social-health confirmation; queue 5 -> 6.
+
 ## 2026-06-06 — run-061
 - Verification mode: resolved 5 legal/route blockers (`vq-072`, `vq-086`, `vq-087`, `vq-088`, `vq-055`).
 - Armenia now has conservative screening baselines: no captured Ukraine-specific bridge, business activity is a real-business IE/LLC route rather than DN, and partner planning is marriage/independent-status first.

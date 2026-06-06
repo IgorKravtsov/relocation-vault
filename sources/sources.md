@@ -3528,8 +3528,8 @@ Each source entry:
 - **Type**: commercial
 - **Date published**: 2026-06-06
 - **Date accessed**: 2026-06-06
-- **Used by**: Italy; Greece; Croatia; Malta
-- **Facts supporting**: run-date USD/EUR conversion of 1 USD = EUR 0.865342 used for Italy section 5.3 worked forfetario / INPS budget example (claim-italy-011), Greece section 5.3 PIT-only business-profit example (claim-greece-011), Croatia section 5.3 ordinary self-employment stress test (claim-croatia-011), and Malta section 5.3 ordinary / NRP tax examples (claim-malta-011)
+- **Used by**: Italy; Greece; Croatia; Malta; Czech Republic
+- **Facts supporting**: run-date USD/EUR conversion of 1 USD = EUR 0.865342 used for Italy section 5.3 worked forfetario / INPS budget example (claim-italy-011), Greece section 5.3 PIT-only business-profit example (claim-greece-011), Croatia section 5.3 ordinary self-employment stress test (claim-croatia-011), and Malta section 5.3 ordinary / NRP tax examples (claim-malta-011); run-date USD/CZK conversion of 1 USD = CZK 20.891673 used for Czech Republic flat-tax worked example (claim-czech-011)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-06
 
@@ -3797,3 +3797,51 @@ Each source entry:
 - **Facts supporting**: official legal-notice metadata anchor for Malta NRP income-tax rules; full rule text / article-level extraction remains a verification item (claim-malta-008)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-06-06
+
+## src-316
+- **Title**: PwC Worldwide Tax Summaries — Czech Republic individual taxes on personal income and residence
+- **URL**: https://taxsummaries.pwc.com/czech-republic/individual/taxes-on-personal-income ; https://taxsummaries.pwc.com/czech-republic/individual/residence
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-07
+- **Date accessed**: 2026-06-06
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech tax-residence scope / worldwide-income baseline, permanent-home and 183-day residence tests, 2026 15% / 23% PIT brackets, and threshold of CZK 1,762,812 (claim-czech-006, claim-czech-007)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-07
+
+## src-317
+- **Title**: PwC Worldwide Tax Summaries — Czech Republic individual deductions and tax administration
+- **URL**: https://taxsummaries.pwc.com/czech-republic/individual/deductions ; https://taxsummaries.pwc.com/czech-republic/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-07
+- **Date accessed**: 2026-06-06
+- **Used by**: Czech Republic
+- **Facts supporting**: self-employed actual-expense and percentage-expense deduction baseline, 60% / 40% lump-sum expense categories, CZK 2 million cap mechanics, calendar-year filing, 1 April / 1 May / 1 July filing deadlines, and tax-adviser extension context (claim-czech-008)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-07
+
+## src-318
+- **Title**: PwC Worldwide Tax Summaries — Czech Republic individual other taxes
+- **URL**: https://taxsummaries.pwc.com/czech-republic/individual/other-taxes
+- **Archive**: [archive: failed 2026-06-06; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-07
+- **Date accessed**: 2026-06-06
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech social-security / health-insurance contribution context, 2026 social-security assessment-base cap, sickness-insurance caveat for entrepreneurs, and 21% VAT baseline (claim-czech-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-07
+
+## src-319
+- **Title**: Czech Financial Administration — Information on the flat-tax institute for 2025 and 2026
+- **URL**: https://financnisprava.gov.cz/cs/dane/dane/dan-z-prijmu/pausalni-dan/informace-k-institutu-pausalni-dane-pro-rok-2025
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-06
+- **Used by**: Czech Republic
+- **Facts supporting**: 2026 flat-tax bands, monthly payments, income/category eligibility bands, 60% expense-category relevance, and payment due date by the 20th day of each month (claim-czech-009, claim-czech-010, claim-czech-011)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-06

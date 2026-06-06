@@ -214,6 +214,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-06 (run-060)
 - **Status**: pending
 
+## vq-094 [medium priority]
+- **Fact**: "Czech flat-tax band I and 60% lump-sum expense-category fit for a Ukrainian foreign-client IT freelancer, including VAT / reverse-charge and social-health registration handling"
+- **Country**: Czech Republic
+- **Section**: 5.3
+- **Current source**: src-316, src-317, src-318, src-319
+- **Why uncertain**: Financial Administration confirms the 2026 flat-tax bands and payment amounts, and PwC confirms PIT / lump-sum expense / social-health baselines, but this pass did not capture accountant-level mapping from the couple's exact foreign-client IT activity to the Czech trade licence, 60% expense category, VAT handling, and self-employed social/health registration.
+- **Suggested verification**: Check Czech Financial Administration / trade-licence / VAT guidance or current Czech accountant guidance for foreign-client IT freelancers; confirm 60% expense-category eligibility, flat-tax regime compatibility with immigration status, VAT identification / reverse-charge reporting, social-health registration, and partner insurance implications.
+- **Created**: 2026-06-06 (run-062)
+- **Status**: pending
+
 ## vq-086 [medium priority]
 - **Fact**: "Whether Armenia has any Ukraine-specific temporary-protection, humanitarian-stay, or post-2027 bridge relevant to Ukrainian citizens"
 - **Country**: Armenia

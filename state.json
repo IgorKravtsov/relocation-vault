@@ -1,25 +1,25 @@
 {
   "version": 2,
-  "iteration": 61,
+  "iteration": 62,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-06T19:13:35Z",
+  "last_run_timestamp": "2026-06-06T22:23:33Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
+    "mode": "country-deep-dive",
+    "country": "Czech Republic",
     "sections": [
-      "5.1"
+      "5.3"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Czech Republic",
+    "suggested_country": "Poland",
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Pending/open verification queue fell below the active threshold after run-061; resume low-depth Tier-2-hint country tax coverage without clustering on recent Tier-1 tax passes."
+    "reason": "Pending/open verification queue remains below the active threshold after run-062; continue low-depth Tier-2-hint tax coverage without repeating Czech Republic."
   },
   "countries": {
     "Spain": {
@@ -231,15 +231,15 @@
     "Czech Republic": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -251,9 +251,11 @@
       ],
       "risk_flags": [
         "business-visa-evidence-burden",
-        "special-residence-round-timing-needs-follow-up"
+        "special-residence-round-timing-needs-follow-up",
+        "czech-flat-tax-it-trade-fit-gap"
       ],
-      "last_iteration": 32
+      "last_iteration": 62,
+      "unverified_count": 1
     },
     "Poland": {
       "tier": null,
@@ -968,8 +970,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 5,
-  "sources_count": 314,
-  "claims_count": 258,
+  "verification_queue_size": 6,
+  "sources_count": 318,
+  "claims_count": 264,
   "proposals_pending": 0
 }

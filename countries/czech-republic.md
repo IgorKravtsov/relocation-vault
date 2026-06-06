@@ -1,14 +1,14 @@
 ---
 country: Czech Republic
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-01T10:12:00Z
+depth_score: 2.0
+last_updated: 2026-06-06T22:23:33Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up"]
-sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up", "czech-flat-tax-it-trade-fit-gap"]
+sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171", "src-293", "src-316", "src-317", "src-318", "src-319"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence suggests a strategically relevant Tier-2-hint profile: Czechia has an unusually explicit special long-term residence track for Ukrainian temporary-protection holders, but this pass captured it through UNHCR rather than an official-primary Czech page and the normal self-employed/business route has a high evidence burden.
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-01T10:12:00Z
-- **Tier rationale**: Keep Tier unset until taxes, cost, rent, healthcare, partner mechanics, and official-primary special-residence details are researched.
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-06T22:23:33Z
+- **Tier rationale**: Keep Tier unset until cost, rent, healthcare, partner mechanics, official-primary special-residence details, and flat-tax IT trade fit are researched.
 
 ## Block 2 — Scoring
 
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | First-pass: TP plus a Czech special long-term residence route may be strong, but official-primary details and current round timing must be verified. | §5.1 |
 | Climate | — | medium | Temperate inland climate; winters are real and sunshine is modest compared with Mediterranean targets. Clearer-sky proxies now close the sunny-day blocker at medium confidence. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | First pass: Czech tax residence brings worldwide-income taxation; the promising route is the 2026 flat-tax regime, potentially CZK 9,984/month in band I if foreign-client IT activity qualifies as a 60% expense trade. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -87,9 +87,42 @@ Czechia is an inland temperate option, not a warm-climate option. For this coupl
 
 **Bottom line:** Czechia is workable if legalization dominates the decision, but it is a climate compromise. Expect cold winters, snow/frost risk, high winter humidity, short daylight, and much less sun than Greece/Spain/Portugal/Malta. Summer is generally comfortable and not excessively hot, with occasional heat waves and thunderstorms [src-058][src-059][src-060].
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-06, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This pass captures tax residence, ordinary PIT rates, lump-sum expense mechanics, the official 2026 flat-tax regime, social/health contribution baselines, VAT and filing deadlines, and a worked USD 3,000/month example. Missing: accountant-level confirmation that the exact foreign-client IT activity can safely use the Czech trade classification / 60% expense category and flat-tax band I, plus detailed social/health registration mechanics for a newly arrived Ukrainian self-employed resident.
+
+#### Tax residence and scope
+
+A Czech tax resident is taxed on worldwide income; a non-resident is generally taxed only on Czech-source income [src-316]. Residence is triggered by either a permanent home in Czechia with an intention to live there permanently or physical presence for **183+ days in a calendar year**; holding a long-term visa by itself is not enough [src-316]. For this couple, any serious Czech TP / special-long-term-residence / business-residence plan should assume the IT partner becomes Czech tax resident once Czechia is the real base.
+
+#### Ordinary self-employed taxation
+
+Czech PIT is progressive: **15%** up to CZK **1,762,812** gross annual income in 2026 and **23%** above that threshold [src-316]. For self-employment / business income, necessary expenses are deductible; alternatively, fixed expense percentages can be used. PwC lists lump-sum deductions of **60%** for a limited set of trading and entrepreneurial activities, **40%** for activities under special statutory provisions, and an overall CZK 2 million gross-income cap for applying the percentage expense system [src-317]. For a foreign-client IT freelancer, the planning question is therefore whether the exact Czech trade / licence maps to the 60% category or only to a lower / different treatment.
+
+Social and health charges are material. PwC states that income subject to Czech income tax is generally subject to Czech social-security and health-insurance contributions; employee rates are 7.1% social security plus 4.5% health, while employers pay 24.8% plus 9%, and the 2026 social-security assessment-base cap is CZK 2,350,416 [src-318]. Entrepreneurs can choose whether to contribute to sickness insurance, but pension / health treatment for a new self-employed foreigner needs a Czech accountant or authority checklist before application-level planning [src-318].
+
+#### Flat-tax regime as the promising planning route
+
+The Czech Financial Administration's 2025/2026 flat-tax page is the key source for this income level. It says the flat-tax regime has bands based on self-employment income and allowable expense-percentage category. Band I is available for self-employment income up to CZK 1 million regardless of activity type; up to CZK 1.5 million where at least 75% of income is from activities with 80% or 60% percentage expenses; and up to CZK 2 million where at least 75% qualifies for 80% expenses [src-319]. For 2026, monthly flat-tax payments are: **band I CZK 9,984** (CZK 100 income tax + CZK 6,578 pension insurance + CZK 3,306 health insurance), **band II CZK 16,745**, and **band III CZK 27,139** [src-319]. Payments are due by the 20th day of each month [src-319].
+
+At the run-date rate, USD 3,000/month is about **CZK 62,675/month** or **CZK 752,100/year** [src-293]. If the IT partner can use flat-tax **band I**, the simplified budget is:
+
+| Item | Monthly | Annual |
+|---|---:|---:|
+| Gross foreign-client income | CZK 62,675 | CZK 752,100 |
+| 2026 flat-tax band I payment | CZK 9,984 | CZK 119,808 |
+| Net after Czech flat-tax payment | **CZK 52,691** | **CZK 632,292** |
+| Approx. USD equivalent | **~USD 2,522/month** | — |
+
+This is tax-attractive compared with many EU options already screened. However, it should not be treated as confirmed until a Czech accountant maps the exact foreign-client IT activity to the correct trade / expense category and confirms VAT / EU reverse-charge treatment and whether the flat-tax regime is compatible with the immigration file.
+
+#### VAT, filing, and marriage effects
+
+PwC gives the standard Czech VAT rate as **21%** and notes a 12% reduced rate for selected supplies [src-318]. This pass did not verify whether foreign-client IT services are outside Czech VAT, reverse-charged, or require VAT-identification / reporting without charging Czech VAT. Ordinary annual PIT filing is calendar-year based; the basic filing/payment deadline is **1 April**, extended automatically to **1 May** for electronic filing and to **1 July** if filed by a Czech registered tax adviser with proper authorization [src-317]. Marriage effects were not fully researched; for now, do not assume joint-filing relief solves the one-income household problem.
+
+#### Bottom line for the couple
+
+Czechia is potentially a strong tax fit **if** the IT partner can use the flat-tax band I regime: roughly CZK 52,700 / USD 2,520 monthly net from USD 3,000 gross before accounting and banking costs. The main risk is classification, not headline rates. Before relying on Czechia as a Tier-2 settlement route, get a Czech accountant to confirm the trade licence, 60% expense-category / flat-tax band, VAT treatment for foreign clients, social/health registration, and whether the student's dependency / marriage status affects insurance or tax filings [src-317][src-318][src-319].
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -207,10 +240,14 @@ Czechia is an inland temperate option, not a warm-climate option. For this coupl
 - [src-055] Czech Ministry of the Interior general long-term visa rules.
 - [src-056] Czech IPC permanent residence.
 - [src-061] Czech IPC general information on special long-term residence.
+- [src-319] Czech Financial Administration 2025/2026 flat-tax regime information.
 
 ### 7b. Reputable secondary / official secondary
 - [src-053] UNHCR Czechia special long-term residence guidance.
 - [src-057] EU Immigration Portal self-employed worker in Czechia.
+- [src-316] PwC Czech Republic tax residence and individual PIT rates.
+- [src-317] PwC Czech Republic deductions and tax administration.
+- [src-318] PwC Czech Republic other taxes, social/health, and VAT.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -220,11 +257,14 @@ _(none yet)_
 - [src-059] Climates to Travel — Brno.
 - [src-171] WeatherSpark — Czechia city cloud-cover climate pages.
 - [src-060] Climates to Travel — Ostrava.
+- [src-293] USD exchange-rate feed used for the Czech tax worked example.
 
 ### 7e. Not found
 - Later-round special-long-term-residence timing after the first registration cycle remains unresolved.
 - Direct annual sunny-day / clear-day counts for Prague, Brno, and Ostrava were not captured.
+- Accountant-level confirmation that foreign-client IT can use the Czech 60% expense trade category / flat-tax band I, plus exact VAT and social/health registration handling, was not captured.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-020`: direct annual sunny-day or clear-day counts for Prague, Brno, and Ostrava.
+- `vq-094`: Czech flat-tax / 60% expense-category / VAT / social-health fit for a Ukrainian foreign-client IT freelancer.
