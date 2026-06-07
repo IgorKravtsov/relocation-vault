@@ -184,6 +184,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+## vq-095 [medium priority]
+- **Fact**: "Poland 2026 ZUS normal / preferential self-employed social-contribution amounts and exact IT `ryczalt` / VAT / reverse-charge treatment for a Ukrainian foreign-client IT freelancer"
+- **Country**: Poland
+- **Section**: 5.3
+- **Current source**: src-320, src-321, src-322, src-323
+- **Why uncertain**: This tax pass captured the PIT forms, 12% designated-IT lump-sum baseline, health contribution band, filing, and marriage mechanics, but did not capture the official 2026 ZUS normal/preferential social-contribution table or accountant-level mapping of the couple's exact foreign-client IT activity to a 12% lump-sum classification, VAT/reverse-charge reporting, and immigration-status compatibility.
+- **Suggested verification**: Capture ZUS / Biznes.gov.pl 2026 contribution tables; confirm with Polish accountant guidance for PKD/PKWiU classification, `ryczalt` rate, VAT EU / reverse-charge handling for foreign B2B clients, CEIDG setup, and whether CUKR / family-reunification / business residence status supports the self-employed file.
+- **Created**: 2026-06-07 (run-063)
+- **Status**: pending
+
 ## vq-091 [medium priority]
 - **Fact**: "Current Cyprus Social Insurance self-employed category / lower and maximum insurable-earnings table for a foreign-client IT freelancer, and whether the 16.6% Social Insurance + 4.0% GHS contribution is fully deductible in the couple's exact filing posture"
 - **Country**: Cyprus

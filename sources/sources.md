@@ -3845,3 +3845,51 @@ Each source entry:
 - **Facts supporting**: 2026 flat-tax bands, monthly payments, income/category eligibility bands, 60% expense-category relevance, and payment due date by the 20th day of each month (claim-czech-009, claim-czech-010, claim-czech-011)
 - **Confidence ceiling**: high
 - **Stale at**: 2026-12-06
+
+## src-320
+- **Title**: PwC Worldwide Tax Summaries — Poland individual taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/poland/individual/taxes-on-personal-income
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-26
+- **Date accessed**: 2026-06-07
+- **Used by**: Poland
+- **Facts supporting**: Polish worldwide-income baseline for tax residents, 12% / 32% PIT scale, PLN 30,000 tax-free amount, 19% flat business tax option, lump-sum business taxation option, and 12% lump-sum rate for certain designated IT services (claim-poland-011, claim-poland-012, claim-poland-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-26
+
+## src-321
+- **Title**: PwC Worldwide Tax Summaries — Poland individual other taxes
+- **URL**: https://taxsummaries.pwc.com/poland/individual/other-taxes
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-26
+- **Date accessed**: 2026-06-07
+- **Used by**: Poland
+- **Facts supporting**: self-employed social-security contribution framework, startup and preferential-contribution relief baseline, entrepreneur health contributions by tax form, PLN 830.58/month lump-sum health contribution band for PLN 60,000-300,000 annual revenue, and health-contribution deduction caveats (claim-poland-014, claim-poland-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-26
+
+## src-322
+- **Title**: PwC Worldwide Tax Summaries — Poland individual residence and tax administration
+- **URL**: https://taxsummaries.pwc.com/poland/individual/residence ; https://taxsummaries.pwc.com/poland/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-26
+- **Date accessed**: 2026-06-07
+- **Used by**: Poland
+- **Facts supporting**: Polish tax residence tests, annual PIT filing deadline by 30 April, tax micro-account / PESEL / NIP mechanics, joint-spouse filing baseline, and business-tax-form caveat for joint filing (claim-poland-011, claim-poland-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-26
+
+## src-323
+- **Title**: Biznes.gov.pl — How to choose the best form of business activity taxation
+- **URL**: https://www.biznes.gov.pl/en/portal/004172
+- **Archive**: stable official domain via direct HTML extraction — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-07
+- **Used by**: Poland
+- **Facts supporting**: official business-tax-form baseline for natural-person entrepreneurs: tax scale, 19% flat tax, lump-sum registered-revenue tax, tax-scale default rule, lump-sum eligibility caveats, and health-contribution dependency on chosen tax form (claim-poland-012, claim-poland-014)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-07

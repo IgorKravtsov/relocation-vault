@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-06
+last_updated: 2026-06-07
 ---
+## 2026-06-07 — run-063
+- Poland: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
+- Added Poland tax sources `src-320` through `src-323`, reused `src-293` USD/PLN, and added `claim-poland-011` through `claim-poland-017`.
+- Main finding: if 12% IT `ryczalt` applies, USD 3,000/month is about PLN 10,918 gross and leaves about PLN 8,777 / USD 2,412 after lump-sum tax and health contribution, before uncaptured ZUS social contributions.
+- Added `vq-095` for 2026 ZUS / IT classification / VAT / immigration-status confirmation; queue 6 -> 7.
+
 ## 2026-06-06 — run-062
 - Czech Republic: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
 - Added Czech tax sources `src-316` through `src-319`, reused `src-293` USD/CZK, and added `claim-czech-006` through `claim-czech-011`.

@@ -89,3 +89,66 @@
   confidence: medium-high
   tags: [poland, family-reunification, income-threshold]
   notes: "Administrative guidance from Kujawsko-Pomorskie Voivodeship foreigner portal"
+
+- id: claim-poland-011
+  topic: tax_residence_test
+  value: "Polish tax residence if centre of personal/business interests is in Poland or stay exceeds 183 days in a fiscal year; residents taxed on worldwide income"
+  source: src-322
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [poland, taxes, tax-residence, worldwide-income]
+  notes: "PwC residence page plus personal-income page used for worldwide-income scope"
+
+- id: claim-poland-012
+  topic: self_employed_tax_forms
+  value: "Natural-person entrepreneurs can use tax scale 12/32%, 19% flat tax, or lump-sum registered-revenue tax; tax scale is default unless another form is chosen"
+  source: src-323
+  date_verified: 2026-06-07
+  confidence: high
+  tags: [poland, taxes, self-employed, ceidg]
+  notes: "Official Biznes.gov.pl business-tax-form overview"
+
+- id: claim-poland-013
+  topic: it_lump_sum_tax_rate
+  value: "Certain designated IT services are taxed at 12% under lump-sum taxation"
+  source: src-320
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [poland, taxes, ryczalt, it]
+  notes: "Exact PKD/PKWiU classification for the couple's foreign-client IT activity remains verification-required"
+
+- id: claim-poland-014
+  topic: entrepreneur_health_contribution_lump_sum_band
+  value: "PLN 830.58/month for lump-sum taxpayers with annual revenue between PLN 60,000 and PLN 300,000"
+  source: src-321
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [poland, taxes, health-contribution, self-employed]
+  notes: "Used for the USD 3,000/month first-pass worked example"
+
+- id: claim-poland-015
+  topic: self_employed_social_security_relief
+  value: "Startup self-employed relief can mean no social-security contributions for the first six months, then lower preferential contributions for the next 24 months, subject to conditions"
+  source: src-321
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [poland, taxes, zus, self-employed, startup-relief]
+  notes: "Exact 2026 normal/preferential ZUS amounts not captured in this pass"
+
+- id: claim-poland-016
+  topic: joint_filing_business_tax_caveat
+  value: "Married Polish tax residents may file jointly under conditions, but joint reconciliation requires that neither spouse conducts business taxed differently than progressive rates up to 32%"
+  source: src-322
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [poland, taxes, marriage, joint-filing]
+  notes: "Marriage may help immigration more than tax if the IT worker chooses lump-sum or 19% flat tax"
+
+- id: claim-poland-017
+  topic: poland_tax_worked_example_current_income
+  value: "USD 3,000/month at NBP USD/PLN 3.6392 equals about PLN 10,918/month; 12% lump-sum tax plus PLN 830.58 health contribution leaves about PLN 8,777/month (USD 2,412) before uncaptured ZUS social contributions"
+  source: src-293
+  date_verified: 2026-06-07
+  confidence: medium
+  tags: [poland, taxes, worked-example, ryczalt, budget]
+  notes: "Uses src-320 for the 12% IT rate and src-321 for health contribution; not a completed long-term net because ZUS social table / IT classification remain pending"

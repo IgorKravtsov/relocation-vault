@@ -1,14 +1,14 @@
 ---
 country: Poland
 tier: null
-depth_score: 0
-last_updated: 2026-05-28T16:08:19Z
-sections_completed: []
-sections_partial: ["5.1", "5.2"]
-sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: []
-sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091"]
-unverified_count: 3
+depth_score: 2.0
+last_updated: 2026-06-07T01:33:58Z
+sections_completed: ["5.2"]
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["poland-zus-social-contribution-gap", "poland-ryczalt-it-rate-fit-gap"]
+sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091", "src-293", "src-320", "src-321", "src-322", "src-323"]
+unverified_count: 4
 schema_version: 2.0.0
 ---
 
@@ -19,9 +19,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (set after sufficient evidence; justify with sources)
-- **depth_score**: 0 → target 1.5 after this first pass
-- **Last updated**: 2026-05-27
-- **Tier rationale**: TBD. Poland is a uniquely relevant case because one partner already holds a Polish `karta pobytu` (residence permit), which creates a family-reunification path that does not exist for most other countries in the set. The new CUKR card (May 2026) also provides a clear post-2027 bridge for Ukrainian temporary-protection holders. If both paths hold, Poland could rate Tier 1 or Tier 2.
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-07
+- **Tier rationale**: TBD. Poland is a uniquely relevant case because one partner already holds a Polish `karta pobytu` (residence permit), which creates a family-reunification path that does not exist for most other countries in the set. The new CUKR card (May 2026) also provides a clear post-2027 bridge for Ukrainian temporary-protection holders. If both paths hold, Poland could rate Tier 1 or Tier 2; the first tax pass suggests the self-employed tax answer can be workable, but exact ZUS and IT lump-sum classification require accountant confirmation.
 
 ## Block 2 — Scoring
 
@@ -29,7 +29,7 @@ schema_version: 2.0.0
 |---|---|---:|---|---|
 | Legalization (now + post-03.2027) | — | N/A | [verification required] | §5.1 |
 | Climate | — | N/A | [verification required] | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | First-pass self-employed model: 12% IT `ryczalt` may leave about PLN 8,777 / USD 2,412 per month before uncaptured ZUS social contributions; exact classification and ZUS table pending. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -133,11 +133,44 @@ schema_version: 2.0.0
 - [verification required] Direct annual sunny-day counts are not yet captured; only sunshine-hour totals are available.
 - The climate is not ideal for the couple's preference for warm/short winters, but it is manageable with proper housing and clothing.
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-07, dod: pending}
 
-> **DoD**: effective rate at $3000/mo computed; registration procedure for applicable regime; gross→net example; new-resident reliefs; marriage tax effect.
+> **DoD**: effective rate at $3000/mo computed; registration procedure for applicable regime; gross->net example; new-resident reliefs; marriage tax effect.
 
-[verification required]
+#### Tax-residence baseline
+- Polish tax residents pay PIT on worldwide income; non-residents pay Polish PIT only on Polish-source income. PwC states that an individual is resident if they have a centre of personal or business interests in Poland or spend more than 183 days in a fiscal year in Poland. [src-320][src-322]
+- For a couple actually living in Poland after CUKR / family reunification, assume Polish tax residence and worldwide-income reporting unless a tax adviser confirms a non-resident treatment for a short first year. [src-320][src-322]
+
+#### Self-employed tax regimes for a foreign-client IT worker
+- Poland lets natural-person entrepreneurs choose between three main business-activity taxation forms: general tax scale (12% / 32%), flat-rate tax (19%), or lump-sum tax on registered revenue; tax scale is the default unless another form is chosen. [src-323]
+- PwC similarly states that sole traders can choose the scale, a 19% flat income tax, or lump-sum tax subject to conditions; it specifically notes that income from certain designated IT services is taxed at a 12% lump-sum rate. [src-320]
+- For this couple's current profile (foreign clients, low expenses, about USD 36,000/year revenue), the most promising first-pass tax model is **registered sole proprietorship + lump-sum revenue tax (`ryczalt`) at 12% for designated IT services**, but the exact PKD/PKWiU classification and whether the client's activity is 12% rather than another lump-sum rate must be confirmed by a Polish accountant. [src-320][src-323]
+- The alternative conservative model is flat 19% PIT on income plus health contribution, but it usually looks worse if the freelancer has low deductible costs. [src-320][src-321][src-323]
+
+#### Social and health contributions
+- Self-employed people generally pay ZUS social-security contributions as lump sums independent of actual income, with a basis tied to the forecast average monthly wage. PwC also notes startup relief: no social-security contributions for the first six months of self-employment and lower preferential contributions for the next 24 months, subject to conditions. [src-321]
+- Entrepreneur health contributions depend on the chosen tax form: 9% of income for scale, 4.9% of income for the 19% flat-rate tax, and a revenue-band-based fixed contribution for lump-sum taxpayers. PwC gives the lump-sum health band for annual revenue between PLN 60,000 and PLN 300,000 as **PLN 830.58/month**. [src-321]
+- This pass did **not** capture the official 2026 ZUS monthly social-contribution table for normal / preferential entrepreneurs. Therefore the worked example below is a startup-relief or before-social-contribution baseline, not a complete long-term net figure. [verification required]
+
+#### Registration and filing mechanics
+- Registration route is expected to be Polish sole proprietorship / CEIDG (`jednoosobowa dzialalnosc gospodarcza`) after the person has a residence status allowing economic activity (CUKR explicitly allows economic activity on the same terms as Polish citizens). [src-063]
+- Annual PIT returns are generally due by 30 April of the following year; PwC says this also applies to taxpayers reconciling lump-sum-tax income for 2022 and following years. [src-322]
+- Taxes are paid via an individual tax micro-account using PESEL for most individual taxpayers and NIP for entrepreneurs / tax or social-security remitters. [src-322]
+
+#### Worked example at USD 3,000/month
+- Run-date exchange reference: NBP USD/PLN mid-rate on 2026-06-05 was 3.6392, so USD 3,000/month is about **PLN 10,918/month** or **PLN 131,011/year**. [src-293]
+- If the IT activity safely qualifies for the 12% lump-sum rate, monthly lump-sum tax is about **PLN 1,310** (12% of revenue). [src-320]
+- With the PwC lump-sum health band for PLN 60,000-300,000 revenue, health contribution is **PLN 830.58/month**. [src-321]
+- **Startup-relief / before-ZUS-social baseline**: PLN 10,918 gross - PLN 1,310 lump-sum tax - PLN 831 health contribution = about **PLN 8,777/month net**, roughly **USD 2,412/month**, before accounting fees and any ZUS social contributions not captured in this pass. [src-293][src-320][src-321]
+- Planning interpretation: Poland is tax-workable at the couple's current income if 12% `ryczalt` applies and startup relief is available, but the full long-term result may be materially lower once normal ZUS social contributions start.
+
+#### Marriage and one-income household effect
+- PwC says married Polish tax residents may choose joint or separate filing if conditions are met, and joint filing is often more beneficial when one spouse has no income or a lower tax rate. [src-322]
+- Important caveat: PwC also states that joint reconciliation is available only if neither spouse conducts business activity taxed differently than progressive rates up to 32%; using 19% flat tax or lump-sum taxation can therefore block the main joint-filing benefit. [src-322]
+- For this couple, marriage mainly matters for immigration / family reunification first. Tax-wise, marriage may help only if they choose the progressive tax scale rather than lump-sum or flat tax, which may not be optimal for IT income.
+
+#### DoD status
+- Section 5.3 is **partial**, not passed: core PIT / health / filing / marriage baselines are captured, but the official 2026 ZUS social-contribution table, exact IT classification for 12% `ryczalt`, VAT / reverse-charge handling for foreign B2B clients, and immigration-status compatibility still need verification.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -273,9 +306,14 @@ schema_version: 2.0.0
 - [src-063] Poland UdSC — CUKR Q&A page (2026-05-04)
 - [src-064] Poland Gov.pl — Temporary protection extension until March 4, 2027 (2025-08-13)
 - [src-091] Kujawsko-Pomorskie Voivodeship information portal — family reunification (2020-07-21, accessed 2026-05-28)
+- [src-323] Biznes.gov.pl — How to choose the best form of business activity taxation (accessed 2026-06-07)
 
 ### 7b. Reputable secondary
 - [src-002] Council Implementing Decision (EU) 2025/1460 extending temporary protection
+- [src-320] PwC Worldwide Tax Summaries — Poland individual taxes on personal income (accessed 2026-06-07)
+- [src-321] PwC Worldwide Tax Summaries — Poland individual other taxes / social and health contributions (accessed 2026-06-07)
+- [src-322] PwC Worldwide Tax Summaries — Poland individual residence and tax administration (accessed 2026-06-07)
+- [src-293] NBP USD/PLN exchange-rate API reference reused for 2026-06-05 USD/PLN calculation
 
 ### 7c. Community and forums
 _(none yet)_
@@ -290,6 +328,7 @@ _(none yet)_
 - Official-primary income threshold and business-plan requirements for business-activity temporary residence.
 - Official-primary rules on whether remote work for a foreign employer qualifies for a Polish work or business residence permit.
 - Direct annual sunny-day counts for Warsaw, Krakow, and Wroclaw (only sunshine-hour totals captured).
+- Official 2026 ZUS normal / preferential self-employed contribution table and accountant-level classification of foreign-client IT services for 12% `ryczalt`, VAT / reverse-charge, and immigration-status compatibility.
 
 ## Block 8 — Open questions and verification markers
 
@@ -297,3 +336,5 @@ _(none yet)_
 - `[verification required]` Poland permanent residence and citizenship rules (years required, language level, dual citizenship policy).
 - `[verification required]` Business-activity residence permit minimum requirements.
 - `[verification required]` Direct sunny-day counts for Polish cities.
+- `[verification required]` Official 2026 ZUS normal / preferential self-employed contribution amounts for a foreign-client IT sole proprietor.
+- `[verification required]` Exact PKD/PKWiU classification, 12% `ryczalt` eligibility, VAT / reverse-charge handling, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer in Poland.
