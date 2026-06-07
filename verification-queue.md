@@ -184,6 +184,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+## vq-098 [medium priority]
+- **Fact**: "Hungary individual-entrepreneur tax regime, exact 2026 contribution bases, KATA / flat-rate eligibility, VAT / reverse-charge treatment, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer"
+- **Country**: Hungary
+- **Section**: 5.3
+- **Current source**: src-332, src-333, src-334, src-335, src-336
+- **Why uncertain**: This tax pass captured 15% PIT, independent-activity 90%-of-gross tax-base mechanics, 18.5% social-security contribution, 13% social tax, 2026 minimum wage / guaranteed minimum wage, VAT headline, annual filing / separate-spouse mechanics, and a USD 3,000/month stress test, but did not capture a clean official NAV/accountant mapping of the couple's exact foreign-client IT file to an individual-entrepreneur regime or prove compatibility with White Card versus guest self-employment status.
+- **Suggested verification**: Capture NAV / Hungarian accountant guidance for individual entrepreneur registration, KATA or flat-rate availability for B2B foreign-client IT, exact self-employed social-security and social-tax bases for IT work in 2026, EU/foreign-client VAT or reverse-charge reporting, and compatibility with White Card / guest self-employment immigration routes.
+- **Created**: 2026-06-07 (run-066)
+- **Status**: pending
+
 ## vq-097 [medium priority]
 - **Fact**: "Bulgaria self-insured contribution package, health-insurance obligation, foreign-client IT classification, VAT / reverse-charge handling, and immigration-status compatibility for a Ukrainian remote IT freelancer"
 - **Country**: Bulgaria

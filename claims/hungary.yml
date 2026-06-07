@@ -79,3 +79,66 @@
   confidence: high
   tags: [white-card, family-reunification, partner, hungary]
   notes: "Operationally important for the couple: the woman needs independent status or a sponsor with a different sponsor-eligible permit."
+
+- id: claim-hungary-010
+  topic: tax_residence_tests
+  value: "Hungarian tax residence can arise from having the only permanent home in Hungary, centre of vital interests, or at least 183 days in Hungary in a calendar year where home/vital-interest tests do not resolve residence."
+  source: src-332
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [tax-residence, worldwide-income, hungary]
+  notes: "Use Hungarian tax-residence planning for a remote worker actually living in Hungary unless a tax adviser confirms a treaty-specific exception."
+
+- id: claim-hungary-011
+  topic: pit_rate_independent_activity_base
+  value: "Hungary's PIT rate is 15% for nearly all income; independent-activity income is in the consolidated tax base and can use 90% of gross income or gross income reduced by deductible costs as the tax base."
+  source: src-332
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [pit, independent-activity, self-employed, hungary]
+  notes: "The country profile uses the 90%-of-gross baseline for a first-pass no-accountant stress test."
+
+- id: claim-hungary-012
+  topic: social_security_social_tax_rates_2026
+  value: "PwC states the employee social-security contribution rate is 18.5%, employer-side social tax is 13%, the 2026 minimum wage is HUF 322,800/month, and the 2026 guaranteed minimum wage is HUF 373,200/month."
+  source: src-333
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [social-security, social-tax, minimum-wage, hungary]
+  notes: "Exact self-employed contribution base and whether the guaranteed-minimum-wage base applies to IT freelance activity need NAV/accountant verification."
+
+- id: claim-hungary-013
+  topic: healthcare_service_contribution_2026
+  value: "Uninsured dependent adults are generally liable for Hungarian healthcare service contributions of HUF 12,300/month in 2026."
+  source: src-333
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [healthcare-contribution, social-security, hungary]
+  notes: "Relevant for the non-working partner if she is not covered through a residence/insurance route."
+
+- id: claim-hungary-014
+  topic: vat_general_rate
+  value: "Hungary's general VAT rate is 27%, with reduced 18% and 5% rates for specified goods and services."
+  source: src-334
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [vat, remote-work, hungary]
+  notes: "Foreign-client IT VAT place-of-supply / reverse-charge reporting remains unresolved for the couple's exact file."
+
+- id: claim-hungary-015
+  topic: tax_return_separate_spouse_filing
+  value: "Hungarian individual tax returns are due by 20 May of the following year, and husbands and wives file separate returns rather than joint returns."
+  source: src-335
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [filing, marriage, tax-administration, hungary]
+  notes: "Marriage may help immigration, but it should not be assumed to create joint taxation in Hungary."
+
+- id: claim-hungary-016
+  topic: usd_3000_tax_stress_test
+  value: "At 1 USD = HUF 306.3855, USD 3,000/month is about HUF 919,157/month. A conservative actual-base stress test with 90% PIT base, 15% PIT, 18.5% social-security contribution, and 13% social tax leaves about HUF 534,490/month (~USD 1,745); a minimum-base sensitivity leaves about HUF 671,448/month (~USD 2,192)."
+  source: src-336
+  date_verified: 2026-06-07
+  confidence: medium
+  tags: [tax-calculation, self-employed, remote-it, hungary]
+  notes: "Not a passed-section result: exact individual-entrepreneur registration, contribution bases, VAT, and immigration-status compatibility need adviser / authority verification."

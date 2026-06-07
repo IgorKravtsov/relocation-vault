@@ -3,6 +3,12 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-07
 ---
+## 2026-06-07 — run-066
+- Hungary: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
+- Added Hungary tax sources `src-332` through `src-336` and `claim-hungary-010` through `claim-hungary-016`.
+- Main finding: USD 3,000/month is about HUF 919,157 gross; a conservative actual-base stress test leaves about HUF 534,490 / USD 1,745 net, while an unverified minimum-base sensitivity leaves about HUF 671,448 / USD 2,192.
+- Added `vq-098` for individual-entrepreneur regime / contribution-base / VAT / immigration-status confirmation; queue 9 -> 10, so next mode should be verification.
+
 ## 2026-06-07 — run-065
 - Bulgaria: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
 - Added Bulgaria tax sources `src-328` through `src-331` and `claim-bulgaria-012` through `claim-bulgaria-017`.

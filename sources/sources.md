@@ -3989,3 +3989,63 @@ Each source entry:
 - **Facts supporting**: run-date USD/BGN conversion of 1 USD = BGN 1.690673 used for Bulgaria section 5.3 freelancer tax stress test (claim-bulgaria-017)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-07
+
+## src-332
+- **Title**: PwC Worldwide Tax Summaries — Hungary individual taxes on personal income and residence
+- **URL**: https://taxsummaries.pwc.com/hungary/individual/taxes-on-personal-income ; https://taxsummaries.pwc.com/hungary/individual/residence
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-31
+- **Date accessed**: 2026-06-07
+- **Used by**: Hungary
+- **Facts supporting**: Hungarian tax-residence tests, 15% PIT rate, independent-activity inclusion in the consolidated tax base, and 90%-of-gross or actual-cost independent-activity tax-base mechanics (claim-hungary-010, claim-hungary-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-31
+
+## src-333
+- **Title**: PwC Worldwide Tax Summaries — Hungary individual other taxes and social contributions
+- **URL**: https://taxsummaries.pwc.com/hungary/individual/other-taxes
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-31
+- **Date accessed**: 2026-06-07
+- **Used by**: Hungary
+- **Facts supporting**: 18.5% employee social-security contribution, 13% employer-side social tax, 2026 minimum wage / guaranteed minimum wage, non-Hungarian employer compliance caveat, 2026 healthcare service contribution, and individual VAT headline context (claim-hungary-012, claim-hungary-013, claim-hungary-014)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-31
+
+## src-334
+- **Title**: PwC Worldwide Tax Summaries — Hungary corporate other taxes / VAT rates
+- **URL**: https://taxsummaries.pwc.com/hungary/corporate/other-taxes
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-31
+- **Date accessed**: 2026-06-07
+- **Used by**: Hungary
+- **Facts supporting**: general 27% VAT rate and reduced 18% / 5% VAT-rate context for Hungary (claim-hungary-014)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-31
+
+## src-335
+- **Title**: PwC Worldwide Tax Summaries — Hungary individual tax administration
+- **URL**: https://taxsummaries.pwc.com/hungary/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-31
+- **Date accessed**: 2026-06-07
+- **Used by**: Hungary
+- **Facts supporting**: calendar-year taxation, annual individual tax return deadline of 20 May following the tax year, self-assessment / NAV draft-return caveat, and separate spouse filing (claim-hungary-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-31
+
+## src-336
+- **Title**: open.er-api.com — USD exchange-rate feed, HUF rate
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: failed 2026-06-07; direct JSON extraction used]
+- **Type**: commercial
+- **Date published**: 2026-06-07
+- **Date accessed**: 2026-06-07
+- **Used by**: Hungary
+- **Facts supporting**: run-date USD/HUF conversion of 1 USD = HUF 306.3855 used for Hungary section 5.3 independent-activity tax stress test (claim-hungary-016)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-07

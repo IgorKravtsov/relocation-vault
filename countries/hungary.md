@@ -1,14 +1,14 @@
 ---
 country: Hungary
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-01T10:12:00Z
+depth_score: 2.0
+last_updated: 2026-06-07T10:58:38Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge"]
-sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "hungary-self-employed-tax-and-immigration-fit-gap"]
+sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172", "src-332", "src-333", "src-334", "src-335", "src-336"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Hungary is usable as a legal short/medium-term base but not yet an obvious long-term fit for this couple: the White Card is clean for foreign remote work but requires at least EUR 3,000 net monthly income for 6 months, does not allow Hungarian gainful activity, and its holder cannot sponsor family reunification; guest self-employment has a heavier evidence burden and a 3-year cap before a new application. [src-093][src-094][src-095]
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-01T10:12:00Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-07T10:58:38Z
 - **Tier rationale**: Leave unassigned until taxes, cost, rent, healthcare, and ordinary self-employment feasibility are researched.
 
 ## Block 2 — Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | TP and White Card/guest self-employment routes identified, but the White Card income floor is above the couple's current budget and no Hungary-specific TP bridge after 04 March 2027 was captured. | §5.1 |
 | Climate | — | medium | Continental climate: warm/hot summers, cold winters, 1,928–2,058 annual sunshine hours in target cities; clearer-sky proxies now close the sunny-day blocker. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | First-pass tax stress test captured 15% PIT, 18.5% social security, 13% social tax, VAT headline, separate spouse filing, and a USD 3,000/month HUF calculation; exact self-employed registration / base rules and White Card vs local self-employment fit remain unresolved. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -101,9 +101,52 @@ Debrecen is colder in winter and similarly hot in summer: January daily mean abo
 
 **Sunny/clear-day proxy verification**: WeatherSpark cloud-cover pages provide monthly percentages in the clearer sky categories (clear, mostly clear, or partly cloudy). Converted by month length, the medium-confidence clearer-sky day-equivalent proxies are: Budapest ~212 days/year, Debrecen ~218 days/year, and Pécs ~220 days/year. These are broader clearer-sky proxies, not official meteorological sunny-day counts, but they are enough to close the §5.2 sunny-day blocker for planning. [src-172]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-07, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This pass gives a conservative planning baseline for a foreign-client IT worker at about USD 3,000/month, but it does not yet prove the exact Hungarian individual-entrepreneur registration path, contribution-base mechanics, KATA / flat-rate availability for foreign B2B clients, VAT reverse-charge handling, or compatibility with White Card / guest self-employment immigration status.
+
+#### Tax residence and income scope
+
+PwC's 2025/2026 Hungary individual guide states that an individual is treated as Hungarian tax resident if their only permanent home is in Hungary; if there are multiple/no permanent homes, the centre of vital interests can decide; and if neither permanent-home nor vital-interest tests resolve the answer, spending at least 183 days in Hungary in a calendar year can make the person resident. For a remote IT worker actually living in Hungary, the safe planning baseline is therefore Hungarian tax residence and Hungarian filing on relevant worldwide/self-employment income unless a tax adviser confirms a treaty-specific exception. [src-332]
+
+#### PIT and self-employed income baseline
+
+The headline personal income tax rate is 15% for nearly all income. PwC describes income from independent activity as part of the consolidated tax base, with the tax base generally either 90% of gross income or gross income reduced by deductible costs. For a first-pass no-accountant stress test, use the 90%-of-gross baseline rather than assuming more generous real costs. [src-332]
+
+Hungary does have special small-business regimes in practice, but this pass did not capture a clean official/current English source proving that KATA or another simplified entrepreneur regime is available for a Ukrainian IT freelancer invoicing foreign corporate clients. Do not score a KATA-like low-tax scenario until Hungarian accountant/NAV evidence confirms eligibility, customer restrictions, revenue limits, and immigration compatibility.
+
+#### Social security, healthcare, and minimum bases
+
+PwC's individual other-taxes page gives the employee social-security contribution rate as 18.5% and the employer-side social tax as 13%. It also states that from 1 January 2026 the monthly minimum wage is HUF 322,800 and the guaranteed minimum wage for work requiring at least secondary qualification or vocational training is HUF 373,200. If a non-Hungarian employer fails to fulfil Hungarian social-security obligations, the employee can become responsible for those tasks. Uninsured adults generally owe a healthcare service contribution of HUF 12,300/month in 2026. [src-333]
+
+For a solo IT freelancer / individual entrepreneur, this page is enough to flag the likely contribution burden, but not enough to mark the section passed: the exact self-employed contribution base, whether the guaranteed-minimum-wage base applies to the IT activity, and whether social tax / social-security contributions are due on actual profit, an entrepreneur withdrawal, or statutory minimum bases need NAV/accountant confirmation.
+
+#### VAT, filing, and marriage effects
+
+Hungary's general VAT rate is 27%, with reduced 18% and 5% rates for specified goods/services. This pass did not verify whether foreign-client B2B IT services are outside-scope, reverse-charged, or require EU VAT registration/reporting from a Hungarian sole entrepreneur. [src-333][src-334]
+
+Individual tax returns are due by 20 May of the following year. PwC also states that husbands and wives file separate returns, so marriage should not be assumed to create joint taxation for the couple. Marriage may matter for immigration/family status, but not as a simple joint-filing tax reducer. [src-335]
+
+#### USD 3,000/month stress test
+
+Using the 2026-06-07 open.er-api.com rate of 1 USD = HUF 306.3855, USD 3,000/month is about HUF 919,157/month. [src-336]
+
+Conservative simplified calculation:
+
+| Line | HUF/month | USD/month equiv. | Notes |
+|---|---:|---:|---|
+| Gross revenue | 919,157 | 3,000 | Foreign-client IT revenue converted at run-date FX. |
+| 90% independent-activity PIT base | 827,241 | 2,700 | PwC 90%-of-gross default, before proving real expenses. [src-332] |
+| PIT at 15% | -124,086 | -405 | Applies to the 90% base. |
+| Social-security contribution sensitivity at 18.5% of same base | -153,040 | -499 | Conservative actual-base sensitivity, not confirmed self-employed rule. [src-333] |
+| Social tax sensitivity at 13% of same base | -107,541 | -351 | Conservative actual-base sensitivity, not confirmed self-employed rule. [src-333] |
+| **Net, actual-base sensitivity** | **534,490** | **1,745** | Useful stress test if both contribution types bite on most income. |
+
+Minimum-base sensitivity: if contributions could instead be modelled on the 2026 guaranteed minimum wage (HUF 373,200) and 112.5% of that amount for social tax, the same PIT line plus minimum contributions would leave about HUF 671,448/month (~USD 2,192). This is materially better, but it is not safe to use as the default score until a Hungarian accountant confirms the self-employed IT base and registration posture. [src-333][src-336]
+
+#### Practical conclusion for the couple
+
+At current income, Hungary is tax-uncertain and likely contribution-heavy rather than obviously tax-attractive. White Card residence is also awkward because it forbids Hungarian gainful activity and Hungarian company shareholding, while guest self-employment is the route that most naturally points toward Hungarian tax/self-employed registration. Until the immigration-status fit is resolved, the safe planning answer is: Hungary may work as a legal/tax base only with a pre-filing Hungarian accountant plus immigration lawyer; do not rely on a low-tax small-entrepreneur regime or minimum-base contribution scenario in scoring. [src-093][src-094][src-332][src-333]
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -233,6 +276,11 @@ Debrecen is colder in winter and similarly hot in summer: January daily mean abo
 
 ### 7b. Reputable secondary
 - [src-002] EU temporary-protection extension source already in vault.
+- [src-332] PwC Worldwide Tax Summaries — Hungary individual taxes on personal income and residence.
+- [src-333] PwC Worldwide Tax Summaries — Hungary individual other taxes.
+- [src-334] PwC Worldwide Tax Summaries — Hungary corporate other taxes / VAT.
+- [src-335] PwC Worldwide Tax Summaries — Hungary individual tax administration.
+- [src-336] open.er-api.com — USD/HUF exchange-rate feed.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -246,7 +294,8 @@ _(none yet)_
 ### 7e. Not found
 - Direct annual sunny/clear-day counts for Budapest, Debrecen, and Pécs.
 - Consular jurisdiction-specific White Card checklist for Ukrainian citizens residing in Ukraine/Poland.
+- Current official NAV/accountant source mapping a Ukrainian foreign-client IT freelancer to a Hungarian individual-entrepreneur regime, exact 2026 contribution bases, KATA / flat-rate eligibility, VAT / reverse-charge reporting, and White Card / guest self-employment immigration-status compatibility.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-035`: Direct annual sunny/clear-day counts for Budapest, Debrecen, and Pécs.
+- `vq-098`: Hungary individual-entrepreneur tax regime, contribution-base, VAT / reverse-charge, and immigration-status fit for a Ukrainian foreign-client IT freelancer.
