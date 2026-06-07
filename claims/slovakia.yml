@@ -78,3 +78,57 @@
   confidence: high
   tags: [temporary-protection, post-2027, no-bridge-baseline, slovakia]
   notes: "Conservative planning baseline: qualify for an ordinary Slovak status before TP expiry unless a later official transition appears."
+
+- id: claim-slovakia-010
+  topic: tax_residence_and_pit_baseline
+  value: "PwC Slovakia states that Slovak tax residents are taxed on worldwide income; residence can arise through permanent residence, 183+ days of presence, accommodation plus intent to stay permanently, or treaty status. At the couple's current income, the first-pass PIT model stays in the 19% band."
+  source: src-338
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [tax-residence, pit, slovakia, freelancer]
+  notes: "Route-specific tax residence and treaty tie-breaker facts should be checked if the couple keeps another residence base."
+
+- id: claim-slovakia-011
+  topic: szco_lump_sum_expense_baseline
+  value: "PwC Slovakia states that a private entrepreneur who is not a Slovak VAT payer can use lump-sum expenses of 60% of income, capped at EUR 20,000 per year, instead of actual business expenses."
+  source: src-339
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [szco, lump-sum-expenses, freelancer-tax, slovakia]
+  notes: "Exact foreign-client IT trade classification and immigration compatibility remain unverified."
+
+- id: claim-slovakia-012
+  topic: szco_social_insurance_minimum_2026
+  value: "Slovakia's Social Insurance Agency 2026 table gives the mandatory SZCO minimum assessment base as EUR 914.40/month and minimum social-insurance contribution as EUR 303.11/month, with a EUR 16,764/month maximum assessment base."
+  source: src-340
+  date_verified: 2026-06-07
+  confidence: high
+  tags: [social-insurance, szco, contributions, 2026, slovakia]
+  notes: "First-year contribution timing and whether the threshold is reached from prior-year income need adviser confirmation before filing."
+
+- id: claim-slovakia-013
+  topic: szco_health_insurance_minimum_2026
+  value: "Vseobecna zdravotna poistovna and Dovera publish the 2026 SZCO minimum public health-insurance advance as EUR 121.92/month for a person without disability, based on a EUR 762.00 minimum assessment base and 16% rate."
+  source: src-341
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [health-insurance, szco, contributions, 2026, slovakia]
+  notes: "Dovera notes that the minimum may not apply when the SZCO is also an employee or state-insured person; that exception is not used for the working partner baseline."
+
+- id: claim-slovakia-014
+  topic: vat_registration_threshold_2026
+  value: "PwC Slovakia states that the standard VAT rate is 23%; Slovak-established taxable persons become VAT payers if annual turnover exceeds EUR 50,000 in the current calendar year, generally from the next calendar year, while exceeding EUR 62,500 triggers immediate registration."
+  source: src-342
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [vat, registration-threshold, reverse-charge, slovakia]
+  notes: "Foreign-client IT place-of-supply and reverse-charge reporting remain open for accountant verification."
+
+- id: claim-slovakia-015
+  topic: usd3000_slovakia_szco_tax_stress_test
+  value: "At the ECB 2026-06-05 rate of EUR 1 = USD 1.1640, USD 3,000/month is about EUR 2,577/month. Under a possible non-VAT SZCO model with 60% lump-sum expenses, 2026 minimum social insurance, and 2026 minimum health insurance, first-pass net is about EUR 2,050-2,147/month (about USD 2,386-2,499) before accountant/VAT/immigration costs."
+  source: src-343
+  date_verified: 2026-06-07
+  confidence: medium
+  tags: [worked-example, tax-net, usd3000, szco, slovakia]
+  notes: "Uses src-338 through src-342 for tax/contribution mechanics; not a passed DoD result until SZCO/trade and immigration fit are confirmed."

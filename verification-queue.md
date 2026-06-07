@@ -184,6 +184,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+## vq-099 [medium priority]
+- **Fact**: "Slovakia SZCO/trade classification, VAT / reverse-charge handling, first-year contribution timing, and self-employed/business residence compatibility for a Ukrainian foreign-client IT freelancer"
+- **Country**: Slovakia
+- **Section**: 5.3
+- **Current source**: src-338, src-339, src-340, src-341, src-342, src-343
+- **Why uncertain**: This tax pass captured tax-residence, PIT, 60% lump-sum expense mechanics, official 2026 social-insurance minimums, health-insurance minimums, VAT thresholds, and a USD 3,000/month stress test, but did not prove the exact Slovak SZCO trade classification for foreign-client IT, EU/non-EU VAT / reverse-charge reporting, first-year social-insurance timing, or compatibility with the evidence-heavy business-residence route.
+- **Suggested verification**: Capture Slovak Financial Administration / trade-licence guidance or Slovak accountant advice for IT SZCO classification, place-of-supply and reverse-charge reporting for foreign clients, first-year social/health contribution timing, and whether the business-residence file accepts this foreign-client IT structure.
+- **Created**: 2026-06-07 (run-068)
+- **Status**: pending
+
 ## vq-098 [medium priority]
 - **Fact**: "Hungary individual-entrepreneur tax regime, exact 2026 contribution bases, KATA / flat-rate eligibility, VAT / reverse-charge treatment, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer"
 - **Country**: Hungary

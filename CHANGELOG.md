@@ -3,6 +3,12 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-07
 ---
+## 2026-06-07 — run-068
+- Slovakia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
+- Added Slovakia tax sources `src-338` through `src-343` and `claim-slovakia-010` through `claim-slovakia-015`.
+- Main finding: if the non-VAT SZCO 60% lump-sum expense model and 2026 minimum social/health contributions apply, USD 3,000/month leaves about EUR 2,050-2,147 / USD 2,386-2,499 net before accountant/VAT/immigration costs.
+- Added `vq-099` for SZCO trade classification / VAT / contribution timing / business-residence compatibility; queue 9 -> 10, so next mode should be verification.
+
 ## 2026-06-07 — run-067
 - Verification mode: resolved Greece `vq-089` by capturing EFKA's official 2026 self-employed contribution table.
 - Added Greece source `src-337` and `claim-greece-012`; Greece section 5.3 remains partial but now has a usable ordinary PIT + minimum EFKA stress test.

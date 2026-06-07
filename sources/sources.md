@@ -4061,3 +4061,75 @@ Each source entry:
 - **Facts supporting**: 2026 EFKA freelancer / self-employed contribution categories, including category-1 main pension plus health amount of EUR 250.77/month, EUR 10 unemployment add-on, and separate auxiliary / lump-sum benefit categories (claim-greece-012)
 - **Confidence ceiling**: high
 - **Stale at**: 2027-01-01
+
+## src-338
+- **Title**: PwC Worldwide Tax Summaries — Slovak Republic individual taxes on personal income, residence, and tax administration
+- **URL**: https://taxsummaries.pwc.com/slovak-republic/individual/taxes-on-personal-income ; https://taxsummaries.pwc.com/slovak-republic/individual/residence ; https://taxsummaries.pwc.com/slovak-republic/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-20
+- **Date accessed**: 2026-06-07
+- **Used by**: Slovakia
+- **Facts supporting**: Slovak tax-residence tests, worldwide-income scope, 2026 PIT-rate baseline, 2026 return threshold and filing deadlines, electronic communication obligation, and separate-spouse filing (claim-slovakia-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-20
+
+## src-339
+- **Title**: PwC Worldwide Tax Summaries — Slovak Republic individual deductions and private-entrepreneur lump-sum expenses
+- **URL**: https://taxsummaries.pwc.com/slovak-republic/individual/deductions
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-20
+- **Date accessed**: 2026-06-07
+- **Used by**: Slovakia
+- **Facts supporting**: private-entrepreneur ordinary expenses, 60% lump-sum expense option capped at EUR 20,000/year for non-VAT payers, 2026 personal allowance, and dependent-spouse allowance context (claim-slovakia-011, claim-slovakia-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-20
+
+## src-340
+- **Title**: Social Insurance Agency Slovakia — Tables for payment of insurance premiums from 1 January 2026
+- **URL**: https://www.socpoist.sk/socialne-poistenie/platenie-poistneho/tabulky-platenia-poistneho/tabulky-platenia-poistneho-od-1-6?ref=2435
+- **Archive**: stable official domain; direct HTML extraction used
+- **Type**: official-primary
+- **Date published**: 2026-01-01 effective table
+- **Date accessed**: 2026-06-07
+- **Used by**: Slovakia
+- **Facts supporting**: 2026 SZCO minimum assessment base of EUR 914.40/month, minimum social-insurance contribution of EUR 303.11/month, maximum assessment base of EUR 16,764/month, and prior-year income threshold note (claim-slovakia-012)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-01-01
+
+## src-341
+- **Title**: Vseobecna zdravotna poistovna / Dovera — 2026 SZCO health-insurance advances
+- **URL**: https://www.vszp.sk/platitelia/platenie-poistneho/oznamenia-zmeny/zmeny-od-01-01.2026/ ; https://www.dovera.sk/platitel/samoplatitel-szco/tema-platba-poistneho/kolko-platit-v-roku-2026
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2025-11-11 for Dovera; 2026 update page for VZP
+- **Date accessed**: 2026-06-07
+- **Used by**: Slovakia
+- **Facts supporting**: 2026 SZCO public health-insurance minimum advance of EUR 121.92/month for a person without disability, EUR 762.00 minimum health assessment base, and 16% rate (claim-slovakia-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-01
+
+## src-342
+- **Title**: PwC Worldwide Tax Summaries — Slovak Republic corporate other taxes / VAT
+- **URL**: https://taxsummaries.pwc.com/slovak-republic/corporate/other-taxes
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-20
+- **Date accessed**: 2026-06-07
+- **Used by**: Slovakia
+- **Facts supporting**: Slovak 23% standard VAT rate, EUR 50,000 annual turnover registration threshold, EUR 62,500 immediate-registration threshold, voluntary registration, and reverse-charge context (claim-slovakia-014)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-20
+
+## src-343
+- **Title**: European Central Bank — Euro foreign exchange reference rates, USD rate
+- **URL**: https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
+- **Archive**: stable official XML feed; direct XML extraction used
+- **Type**: official-primary
+- **Date published**: 2026-06-05
+- **Date accessed**: 2026-06-07
+- **Used by**: Slovakia
+- **Facts supporting**: EUR/USD reference rate of EUR 1 = USD 1.1640 used for Slovakia USD 3,000/month tax stress test (claim-slovakia-015)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-07

@@ -1,14 +1,14 @@
 ---
 country: Slovakia
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-01T10:12:00Z
+depth_score: 2.0
+last_updated: 2026-06-07T21:30:00Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge"]
-sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge", "slovakia-szco-tax-and-immigration-fit-gap"]
+sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173", "src-338", "src-339", "src-340", "src-341", "src-342", "src-343"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to a practical but administratively heavy Tier-2-style profile rather than an obvious Tier-1 route: Slovakia has EU temporary protection through 04 March 2027 and an ordinary self-employed/business residence route, but no dedicated digital-nomad visa and no captured post-2027 TP-to-ordinary-residence bridge. [src-002][src-100][src-101]
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-01T10:12:00Z
-- **Tier rationale**: Keep unassigned until taxes, renewal economics, cost of living, and whether business residence is operational for a remote IT contractor are researched.
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-07T21:30:00Z
+- **Tier rationale**: Keep unassigned until renewal economics, cost of living, and whether business/SZCO residence is operational for a foreign-client IT contractor are confirmed.
 
 ## Block 2 — Scoring
 
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | TP and business/family routes opened; operational feasibility still needs primary-source checklist and ordinary-route planning. | §5.1 |
 | Climate | — | medium | Continental, colder than Mediterranean candidates; three-city temperature/sunshine baseline plus clearer-sky proxies now captured. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | First-pass SZCO/tax-resident model captured: 19% PIT under the current-income band, 60% lump-sum expenses up to EUR 20,000/year if not VAT payer, official 2026 social-insurance minimum EUR 303.11/month, health-insurance minimum EUR 121.92/month, and a USD 3,000/month stress test. Exact foreign-client IT trade fit, VAT/reverse-charge handling, and business-residence compatibility remain open. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -101,9 +101,56 @@ Slovakia is a moderately continental climate country, materially colder and less
 
 **Sunny/clear-day proxy verification.** WeatherSpark cloud-cover pages provide monthly percentages in the clearer sky categories (clear, mostly clear, or partly cloudy). Converted by month length, the medium-confidence clearer-sky day-equivalent proxies are: Bratislava ~211 days/year, Košice ~201 days/year, and Poprad ~190 days/year. These are broader clearer-sky proxies, not official meteorological sunny-day counts, but they are enough to close the §5.2 sunny-day blocker for planning. [src-173]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-07, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This pass captures a practical Slovak tax-resident / SZCO first-pass model, 2026 contribution minimums, VAT threshold context, and a USD 3,000/month stress test. It does **not** yet prove that a Ukrainian foreign-client IT freelancer can safely use the SZCO/trade model under the business-residence file, nor exact VAT/reverse-charge reporting, contribution timing after a first year, or accountant-level classification.
+
+#### Tax residence and PIT baseline
+
+PwC Slovakia states that Slovak tax residents are taxed on worldwide income, while non-residents are taxed on Slovak-source income only. Individual tax residence can arise through permanent residence, 183+ days of physical presence in a calendar year, accommodation plus evidence of intent to stay permanently, or treaty tie-breaker status. For the couple, an ordinary Slovakia base should therefore be modelled as Slovak tax residence once they actually live there. [src-338]
+
+For 2026, PwC notes that Slovakia is moving from the 19% / 25% PIT structure to lower thresholds plus new higher brackets, but this couple's annual gross at USD 3,000/month is below the high-bracket range. The conservative first-pass assumption is therefore that the net taxable base after allowed deductions stays in the 19% band. [src-338]
+
+#### SZCO / trade-style expense mechanics
+
+For a private entrepreneur, PwC says ordinary business expenses can be deducted if proper accounts are kept. As an alternative, an entrepreneur who is **not** a Slovak VAT payer can use lump-sum expenses of 60% of income, capped at EUR 20,000/year; actual business expenses or rental costs are then not deductible. This is the key possible simplification for a small foreign-client IT file, but it still needs Slovak accountant confirmation for exact trade classification and immigration-status compatibility. [src-339]
+
+PwC also records 2026 personal allowance mechanics and a possible dependent-spouse allowance for Slovak tax residents with permanent residence in Slovakia, subject to the spouse's income and the worker's tax-base level. The safe screening model below treats spouse allowance as conditional and does not use it as the default. Husbands and wives file separately in Slovakia. [src-339][src-338]
+
+#### Social and health insurance
+
+Slovakia's official Social Insurance Agency 2026 contribution table gives the mandatory SZCO minimum assessment base as **EUR 914.40/month** and the minimum monthly social-insurance contribution as **EUR 303.11/month**: sickness 4.4%, old-age pension 18%, disability 6%, and reserve fund 4.75%. The maximum assessment base for 2026 is EUR 16,764/month. The same official note says compulsory sickness/pension insurance for SZCO in the 2025/2026 window starts when prior-year gross income exceeded the threshold based on the minimum assessment base; exact first-year timing should be checked before filing. [src-340]
+
+For public health insurance, Vseobecna zdravotna poistovna and Dovera both publish the 2026 SZCO minimum health-insurance advance as **EUR 121.92/month** for a person without disability, based on a EUR 762.00 minimum health assessment base and a 16% rate. Dovera notes that the minimum is not fixed for SZCO who are also employees or state-insured persons, but that exception is not assumed for the working partner. [src-341]
+
+#### VAT and foreign-client invoicing
+
+PwC's Slovakia VAT summary says the standard VAT rate is 23% from 2025 and that taxable persons established in Slovakia become VAT payers if annual turnover exceeds EUR 50,000 in the current calendar year, with registration generally effective from the next calendar year; exceeding EUR 62,500 triggers immediate registration. It also describes reverse-charge categories for some supplies. Because the couple's USD 36,000/year gross is below EUR 50,000 at the current exchange rate, the first-pass model assumes no mandatory VAT payer status, but EU/non-EU client place-of-supply and reverse-charge reporting remain an accountant-level blocker. [src-342]
+
+#### Worked example for USD 3,000/month
+
+ECB's 2026-06-05 reference rate was EUR 1 = USD 1.1640, so USD 3,000/month is about **EUR 2,577/month** or **EUR 30,928/year**. Under a possible non-VAT SZCO model, 60% lump-sum expenses are about EUR 18,557/year, below the EUR 20,000 cap. Before personal allowance and insurance-ordering nuances, this leaves about EUR 12,371/year of business tax base. [src-339][src-343]
+
+Conservative screening baseline:
+
+| Item | Annual | Monthly |
+|---|---:|---:|
+| Gross income | EUR 30,928 | EUR 2,577 |
+| 60% lump-sum expense deduction | -EUR 18,557 | -EUR 1,546 |
+| Minimum social insurance | -EUR 3,637 | -EUR 303 |
+| Minimum health insurance | -EUR 1,463 | -EUR 122 |
+| PIT sensitivity | about -EUR 60 to -EUR 1,210/year | about -EUR 5 to -EUR 101 |
+| **Estimated net** | **about EUR 24,630-25,760/year** | **about EUR 2,050-2,147/month** |
+
+The low-PIT end assumes paid insurance and the 2026 personal allowance reduce the PIT base heavily; the higher-PIT sensitivity avoids relying on exact deduction ordering. In USD terms at the run-date ECB rate, this is roughly **USD 2,386-2,499/month net** before accountant fees, bank fees, VAT filings, and immigration-lawyer costs. This is materially better than ordinary full-tax employment-style models, but it is not yet a passed DoD result because it depends on the SZCO/trade model being accepted for the couple's foreign-client IT facts. [src-338][src-339][src-340][src-341][src-342][src-343]
+
+#### Filing and administration
+
+PwC states that the individual tax year is the calendar year; a 2026 tax return is required if annual taxable income exceeds EUR 2,983.37; the normal filing/payment deadline is 31 March after the year-end, extendable by three months by notification or by six months when the individual has foreign-source income. Entrepreneurs and their representatives must communicate electronically with the tax authority. [src-338]
+
+#### Practical tax conclusion for the couple
+
+Slovakia's first-pass tax economics look workable **if** the man can operate as a genuine Slovak SZCO/trade entrepreneur using 60% lump-sum expenses and minimum contributions. At USD 3,000/month, the stress-test net of about EUR 2,050-2,147/month is not tax-negative. The bigger blocker is not arithmetic but route fit: the immigration section already warns that Slovakia business residence is evidence-heavy and scrutinises real Slovak business activity. Therefore, do not mark §5.3 passed until Slovak accountant / adviser evidence confirms IT trade classification, foreign-client invoicing/VAT treatment, first-year contribution timing, and compatibility with the self-employed/business residence route.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -152,19 +199,20 @@ Slovakia is a moderately continental climate country, materially colder and less
 ## Block 5 — Practical verdict
 
 - **Can relocate now**: Yes for a current protection/base-status layer via temporary protection, assuming eligibility and no conflicting active TP status elsewhere. [src-100]
-- **Best legalization path for the man**: TP now if appropriate; ordinary fallback to investigate is temporary residence for business/self-employment, not a dedicated DN visa. This route now has an official-primary business-plan/real-business scrutiny anchor and should be treated as evidence-heavy. [src-101][src-108]
+- **Best legalization path for the man**: TP now if appropriate; ordinary fallback to investigate is temporary residence for business/self-employment, not a dedicated DN visa. The tax pass suggests an SZCO model could be economically workable at USD 3,000/month, but the route still needs adviser confirmation because business residence is evidence-heavy and scrutinises real Slovak activity. [src-101][src-108][src-339][src-340]
 - **Best legalization path for the woman**: Her own TP if eligible; otherwise marriage-dependent family reunification or her own independent status.
 - **Does marriage change the picture**: Yes. Captured family-reunification guidance covers a spouse aged at least 18; it does not list unmarried partners. [src-102]
 - **Realism of staying after 03.2027**: Medium-low. TP is officially extended to 04 March 2027, but no captured Slovakia-specific bridge converts it into ordinary residence; the practical ordinary fallback is business residence, which needs a real Slovak business file. [src-108][src-109]
 
 **Pros**:
 - EU/Schengen country close to Ukraine with TP access through the EU horizon.
-- Business/self-employed residence exists and may fit a genuine freelancer/business setup.
+- Business/self-employed residence exists and may fit a genuine freelancer/business setup; the first-pass SZCO tax model can leave roughly EUR 2,050-2,147/month net from USD 3,000/month if 60% lump-sum expenses and minimum contributions apply. [src-339][src-340][src-341][src-342]
 - Long-term residence anchor after 5 years of uninterrupted legal residence is captured. [src-103]
 
 **Cons / risks**:
 - No captured dedicated digital-nomad visa.
 - Business residence is evidence-heavy: a mandatory business plan is assessed for feasibility, sustainability, and economic contribution, and extensions examine real activity rather than virtual business. [src-108]
+- Tax result depends on SZCO/trade classification, VAT/reverse-charge treatment, contribution timing, and immigration compatibility; these are not yet verified for a Ukrainian foreign-client IT freelancer. [src-338][src-339][src-342]
 - No captured post-2027 TP bridge beyond automatic TP extension to 04 March 2027. [src-109]
 - Climate is continental and cold compared with Tier-1 Mediterranean hints.
 
@@ -227,6 +275,9 @@ Slovakia is a moderately continental climate country, materially colder and less
 - [src-102] — EU Immigration Portal family member in Slovakia.
 - [src-103] — IOM Slovakia permanent residence page.
 - [src-104] — Wikipedia Slovak nationality law (aggregator; citizenship placeholder only).
+- [src-338] — PwC Slovakia individual taxes / residence / tax administration.
+- [src-339] — PwC Slovakia individual deductions and SZCO lump-sum expense baseline.
+- [src-342] — PwC Slovakia corporate VAT context.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -236,15 +287,19 @@ _(none yet)_
 - [src-106] — Climate to Travel Košice climate.
 - [src-107] — Climate to Travel Poprad climate.
 - [src-173] — WeatherSpark Slovakia city cloud-cover climate pages.
+- [src-341] — VZP / Dovera 2026 SZCO health-insurance advance pages.
+- [src-343] — ECB EUR/USD reference rate used for the tax stress test.
 
 ### 7e. Not found
 - Dedicated Slovakia digital-nomad visa: not captured in this pass.
 - Slovakia-specific official TP-to-ordinary-residence bridge after 04 March 2027: not captured; conservative baseline closed in run-021.
 - Direct sunny/clear-day counts for Bratislava, Košice, Poprad: not captured.
 - Official Ministry of Interior citizenship page in English: not captured; aggregator placeholder used at low operational weight.
+- Slovak accountant / Financial Administration guidance mapping foreign-client IT freelancing to a specific SZCO trade, VAT/reverse-charge reporting, first-year contribution timing, and self-employed/business residence compatibility: not captured.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-036` — resolved in run-021: official-primary Slovak business-plan / real-business scrutiny captured; operational baseline is evidence-heavy business residence, not DN-style remote work.
 - `vq-037` — resolved in run-021: no captured TP-to-ordinary-residence bridge; official source confirms automatic TP extension only.
-- `vq-038` — Direct annual sunny/clear-day counts for Bratislava, Košice, and Poprad.
+- `vq-038` — resolved in run-032: WeatherSpark clearer-sky day-equivalent proxies now close the climate sunny/clear-day blocker for screening.
+- `vq-099` — Slovakia SZCO/trade classification, VAT/reverse-charge handling, contribution timing, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer.

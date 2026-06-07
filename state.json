@@ -1,25 +1,25 @@
 {
   "version": 2,
-  "iteration": 67,
+  "iteration": 68,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-07T15:45:00Z",
+  "last_run_timestamp": "2026-06-07T21:30:00Z",
   "current_focus": {
-    "mode": "verification",
-    "country": "Greece",
+    "mode": "country-deep-dive",
+    "country": "Slovakia",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "country-deep-dive",
-    "suggested_country": "Slovakia",
+    "suggested_mode": "verification",
+    "suggested_country": null,
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Verification queue dropped below the active threshold after resolving Greece EFKA; resume low-depth Tier-2 tax coverage without clustering."
+    "reason": "Slovakia tax pass added vq-099 and brought the pending/open verification queue back to the active threshold of 10."
   },
   "countries": {
     "Spain": {
@@ -383,15 +383,15 @@
     "Slovakia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -404,9 +404,11 @@
       "risk_flags": [
         "no-dedicated-digital-nomad-visa",
         "business-residence-evidence-burden",
-        "no-captured-post-2027-tp-bridge"
+        "no-captured-post-2027-tp-bridge",
+        "slovakia-szco-tax-and-immigration-fit-gap"
       ],
-      "last_iteration": 32
+      "last_iteration": 68,
+      "unverified_count": 1
     },
     "Slovenia": {
       "tier": null,
@@ -979,8 +981,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 9,
-  "sources_count": 336,
-  "claims_count": 292,
+  "verification_queue_size": 10,
+  "sources_count": 342,
+  "claims_count": 298,
   "proposals_pending": 0
 }
