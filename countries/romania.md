@@ -2,7 +2,7 @@
 country: Romania
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-07T04:42:38Z
+last_updated: 2026-06-07T22:15:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
@@ -233,8 +233,8 @@ _(none yet)_
 
 ## Block 8 — Open questions and verification markers
 
-Tax verification now open:
-- `vq-096`: Romania PFA / independent-activity registration, expense, VAT / reverse-charge, and immigration-status fit for a Ukrainian foreign-client IT freelancer.
+Tax application-prep checks after run-069:
+- `vq-096` — resolved to a conservative screening baseline: do not rely on DN tax-free assumptions or an unverified PFA file; CAEN classification, expense ordering, VAT / reverse-charge, and immigration-status fit remain accountant/application-prep checks before filing.
 
 Sections 5.1/5.2 have no current blockers after `vq-022` operational-core closure; later citizenship, healthcare, rent, and application-prep checks remain in their own pending sections.
 

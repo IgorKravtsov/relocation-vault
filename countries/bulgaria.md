@@ -2,7 +2,7 @@
 country: Bulgaria
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-07T07:49:24Z
+last_updated: 2026-06-07T22:15:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
@@ -312,4 +312,4 @@ _(none yet)_
 
 > All `[verification required]` items for this country. Links to the corresponding entries in `verification-queue.md` via item ID.
 
-- `vq-097`: Bulgaria self-insured contribution package, health-insurance obligation, foreign-client IT classification, VAT / reverse-charge handling, and immigration-status compatibility for a Ukrainian remote IT freelancer.
+- `vq-097` — resolved to a conservative screening baseline: keep the statutory-expense / contribution stress test as partial only; exact contribution package, foreigner health-insurance obligation, IT classification, VAT / reverse-charge handling, and migration-route fit remain accountant/application-prep checks before filing.

@@ -2,7 +2,7 @@
 country: Hungary
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-07T10:58:38Z
+last_updated: 2026-06-07T22:15:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass shows Hungary is usable as a legal short/medium-term base but not yet an obvious long-term fit for this couple: the White Card is clean for foreign remote work but requires at least EUR 3,000 net monthly income for 6 months, does not allow Hungarian gainful activity, and its holder cannot sponsor family reunification; guest self-employment has a heavier evidence burden and a 3-year cap before a new application. [src-093][src-094][src-095]
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-07T10:58:38Z
+- **Last updated**: 2026-06-07
 - **Tier rationale**: Leave unassigned until taxes, cost, rent, healthcare, and ordinary self-employment feasibility are researched.
 
 ## Block 2 — Scoring
@@ -298,4 +298,4 @@ _(none yet)_
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-098`: Hungary individual-entrepreneur tax regime, contribution-base, VAT / reverse-charge, and immigration-status fit for a Ukrainian foreign-client IT freelancer.
+- `vq-098` — resolved to a conservative screening baseline: do not assume KATA / flat-rate or White Card compatibility; individual-entrepreneur registration, exact contribution bases, VAT / reverse-charge, and immigration-status fit remain accountant/application-prep checks before filing.

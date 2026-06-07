@@ -18,11 +18,11 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Croatia | eu-schengen | 1 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 59 | `countries/croatia.md` |
 | Malta | eu-schengen | 1 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 60 | `countries/malta.md` |
 | Czech Republic | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 62 | `countries/czech-republic.md` |
-| Poland | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 63 | `countries/poland.md` |
-| Romania | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 64 | `countries/romania.md` |
-| Bulgaria | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 65 | `countries/bulgaria.md` |
-| Hungary | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 66 | `countries/hungary.md` |
-| Slovakia | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 68 | `countries/slovakia.md` |
+| Poland | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 69 | `countries/poland.md` |
+| Romania | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 69 | `countries/romania.md` |
+| Bulgaria | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 69 | `countries/bulgaria.md` |
+| Hungary | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 69 | `countries/hungary.md` |
+| Slovakia | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 69 | `countries/slovakia.md` |
 | Slovenia | eu-schengen | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/slovenia.md` |
 | Montenegro | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 26 | `countries/montenegro.md` |
 | Serbia | europe-non-eu | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 32 | `countries/serbia.md` |

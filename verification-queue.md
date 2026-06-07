@@ -192,7 +192,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This tax pass captured tax-residence, PIT, 60% lump-sum expense mechanics, official 2026 social-insurance minimums, health-insurance minimums, VAT thresholds, and a USD 3,000/month stress test, but did not prove the exact Slovak SZCO trade classification for foreign-client IT, EU/non-EU VAT / reverse-charge reporting, first-year social-insurance timing, or compatibility with the evidence-heavy business-residence route.
 - **Suggested verification**: Capture Slovak Financial Administration / trade-licence guidance or Slovak accountant advice for IT SZCO classification, place-of-supply and reverse-charge reporting for foreign clients, first-year social/health contribution timing, and whether the business-residence file accepts this foreign-client IT structure.
 - **Created**: 2026-06-07 (run-068)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-07 (run-069)
+- **Resolution note**: Closed to a conservative screening baseline: Slovakia section 5.3 should use the existing SZCO 60% lump-sum scenario only as a partial planning model; exact trade classification, foreign-client VAT/reverse-charge, first-year contribution timing, and business-residence compatibility remain accountant/application-prep checks rather than country-screening blockers. [src-338][src-339][src-340][src-341][src-342][src-343]
 
 ## vq-098 [medium priority]
 - **Fact**: "Hungary individual-entrepreneur tax regime, exact 2026 contribution bases, KATA / flat-rate eligibility, VAT / reverse-charge treatment, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer"
@@ -202,7 +204,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This tax pass captured 15% PIT, independent-activity 90%-of-gross tax-base mechanics, 18.5% social-security contribution, 13% social tax, 2026 minimum wage / guaranteed minimum wage, VAT headline, annual filing / separate-spouse mechanics, and a USD 3,000/month stress test, but did not capture a clean official NAV/accountant mapping of the couple's exact foreign-client IT file to an individual-entrepreneur regime or prove compatibility with White Card versus guest self-employment status.
 - **Suggested verification**: Capture NAV / Hungarian accountant guidance for individual entrepreneur registration, KATA or flat-rate availability for B2B foreign-client IT, exact self-employed social-security and social-tax bases for IT work in 2026, EU/foreign-client VAT or reverse-charge reporting, and compatibility with White Card / guest self-employment immigration routes.
 - **Created**: 2026-06-07 (run-066)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-07 (run-069)
+- **Resolution note**: Closed to a conservative screening baseline: Hungary section 5.3 should not assume KATA / flat-rate or White Card compatibility; the profile keeps the independent-activity stress test partial and leaves individual-entrepreneur registration, contribution bases, VAT/reverse-charge, and immigration-status fit for accountant/application-prep verification. [src-332][src-333][src-334][src-335][src-336]
 
 ## vq-097 [medium priority]
 - **Fact**: "Bulgaria self-insured contribution package, health-insurance obligation, foreign-client IT classification, VAT / reverse-charge handling, and immigration-status compatibility for a Ukrainian remote IT freelancer"
@@ -212,7 +216,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This tax pass captured a 10% PIT baseline, 25% statutory freelance expense deduction, 2026 freelancer insurance-base limits, VAT threshold, filing mechanics, and a USD 3,000/month stress test, but did not capture a clean official NRA self-insured contribution package or confirm whether the Bulgarian self-employment residence route supports a foreign-client IT file.
 - **Suggested verification**: Capture NRA / Bulgarian accountant guidance for self-insured rates and registration, non-EU health-insurance obligation by residence type, IT freelancer classification, VAT / reverse-charge handling for foreign B2B clients, and compatibility with Employment Agency / Migration Directorate self-employment residence approval.
 - **Created**: 2026-06-07 (run-065)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-07 (run-069)
+- **Resolution note**: Closed to a conservative screening baseline: Bulgaria section 5.3 should use the existing statutory-expense / contribution stress test only as a partial planning model, not as a passed tax result; exact self-insured package, health-insurance obligation, VAT/reverse-charge, IT classification, and migration-route fit remain accountant/application-prep checks. [src-328][src-329][src-330][src-331]
 
 ## vq-096 [medium priority]
 - **Fact**: "Romania PFA / independent-activity registration, expense deductions, VAT / reverse-charge treatment, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer"
@@ -222,7 +228,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This tax pass captured the 10% PIT baseline, CAS/CASS thresholds, VAT headline rate, filing deadline, ANAF online filing channels, and a conservative USD 3,000/month net estimate, but did not confirm the exact PFA/CAEN setup for foreign-client IT, deductible-expense mechanics, VAT / EU reverse-charge obligations, or whether the immigration file supports the independent-activity route.
 - **Suggested verification**: Check ANAF / ONRC / Romanian accountant guidance for PFA registration and CAEN classification for IT services, real-system expense deduction and social-contribution ordering, VAT registration / reverse-charge reporting for foreign B2B clients, and compatibility with DN / TP / D-AC or other residence status.
 - **Created**: 2026-06-07 (run-064)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-07 (run-069)
+- **Resolution note**: Closed to a conservative screening baseline: Romania section 5.3 should not rely on DN tax-free assumptions or an unverified PFA setup; the profile keeps the PFA-style stress test partial and treats CAEN classification, deductible-expense ordering, VAT/reverse-charge, and residence-status fit as accountant/application-prep checks. [src-324][src-325][src-326][src-327]
 
 ## vq-095 [medium priority]
 - **Fact**: "Poland 2026 ZUS normal / preferential self-employed social-contribution amounts and exact IT `ryczalt` / VAT / reverse-charge treatment for a Ukrainian foreign-client IT freelancer"
@@ -232,7 +240,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This tax pass captured the PIT forms, 12% designated-IT lump-sum baseline, health contribution band, filing, and marriage mechanics, but did not capture the official 2026 ZUS normal/preferential social-contribution table or accountant-level mapping of the couple's exact foreign-client IT activity to a 12% lump-sum classification, VAT/reverse-charge reporting, and immigration-status compatibility.
 - **Suggested verification**: Capture ZUS / Biznes.gov.pl 2026 contribution tables; confirm with Polish accountant guidance for PKD/PKWiU classification, `ryczalt` rate, VAT EU / reverse-charge handling for foreign B2B clients, CEIDG setup, and whether CUKR / family-reunification / business residence status supports the self-employed file.
 - **Created**: 2026-06-07 (run-063)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-07 (run-069)
+- **Resolution note**: Closed to a conservative screening baseline: Poland section 5.3 should not assume the 12% IT lump-sum or missing ZUS values as fully verified; the existing profile already models the route as workable only before uncaptured ZUS social contributions and keeps exact PKD/PKWiU, VAT/reverse-charge, CEIDG, ZUS, and immigration-status checks as accountant/application-prep items. [src-320][src-321][src-322][src-323]
 
 ## vq-091 [medium priority]
 - **Fact**: "Current Cyprus Social Insurance self-employed category / lower and maximum insurable-earnings table for a foreign-client IT freelancer, and whether the 16.6% Social Insurance + 4.0% GHS contribution is fully deductible in the couple's exact filing posture"

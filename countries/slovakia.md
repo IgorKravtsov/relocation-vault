@@ -2,7 +2,7 @@
 country: Slovakia
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-07T21:30:00Z
+last_updated: 2026-06-07T22:15:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence points to a practical but administratively heavy Tier-2-style profile rather than an obvious Tier-1 route: Slovakia has EU temporary protection through 04 March 2027 and an ordinary self-employed/business residence route, but no dedicated digital-nomad visa and no captured post-2027 TP-to-ordinary-residence bridge. [src-002][src-100][src-101]
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-07T21:30:00Z
+- **Last updated**: 2026-06-07
 - **Tier rationale**: Keep unassigned until renewal economics, cost of living, and whether business/SZCO residence is operational for a foreign-client IT contractor are confirmed.
 
 ## Block 2 — Scoring
@@ -302,4 +302,4 @@ _(none yet)_
 - `vq-036` — resolved in run-021: official-primary Slovak business-plan / real-business scrutiny captured; operational baseline is evidence-heavy business residence, not DN-style remote work.
 - `vq-037` — resolved in run-021: no captured TP-to-ordinary-residence bridge; official source confirms automatic TP extension only.
 - `vq-038` — resolved in run-032: WeatherSpark clearer-sky day-equivalent proxies now close the climate sunny/clear-day blocker for screening.
-- `vq-099` — Slovakia SZCO/trade classification, VAT/reverse-charge handling, contribution timing, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer.
+- `vq-099` — resolved to a conservative screening baseline: keep the SZCO 60% lump-sum scenario as partial only; exact trade classification, VAT/reverse-charge handling, first-year contribution timing, and business-residence compatibility remain accountant/application-prep checks before filing.

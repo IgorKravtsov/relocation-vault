@@ -2,7 +2,7 @@
 country: Poland
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-07T01:33:58Z
+last_updated: 2026-06-07T22:15:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
@@ -328,7 +328,7 @@ _(none yet)_
 - Official-primary income threshold and business-plan requirements for business-activity temporary residence.
 - Official-primary rules on whether remote work for a foreign employer qualifies for a Polish work or business residence permit.
 - Direct annual sunny-day counts for Warsaw, Krakow, and Wroclaw (only sunshine-hour totals captured).
-- Official 2026 ZUS normal / preferential self-employed contribution table and accountant-level classification of foreign-client IT services for 12% `ryczalt`, VAT / reverse-charge, and immigration-status compatibility.
+- Exact 2026 ZUS normal / preferential self-employed contribution table and accountant-level classification of foreign-client IT services for 12% `ryczalt`, VAT / reverse-charge, and immigration-status compatibility remain application-prep checks; the screening baseline should not assume these are verified.
 
 ## Block 8 — Open questions and verification markers
 
@@ -336,5 +336,5 @@ _(none yet)_
 - `[verification required]` Poland permanent residence and citizenship rules (years required, language level, dual citizenship policy).
 - `[verification required]` Business-activity residence permit minimum requirements.
 - `[verification required]` Direct sunny-day counts for Polish cities.
-- `[verification required]` Official 2026 ZUS normal / preferential self-employed contribution amounts for a foreign-client IT sole proprietor.
-- `[verification required]` Exact PKD/PKWiU classification, 12% `ryczalt` eligibility, VAT / reverse-charge handling, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer in Poland.
+- Application-prep check: official/current 2026 ZUS normal / preferential self-employed contribution amounts for a foreign-client IT sole proprietor.
+- Application-prep check: exact PKD/PKWiU classification, 12% `ryczalt` eligibility, VAT / reverse-charge handling, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer in Poland.

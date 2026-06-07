@@ -3,6 +3,12 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-07
 ---
+
+## 2026-06-07 — run-069
+- Verification batch: resolved vq-095 through vq-099 to conservative screening baselines for Poland, Romania, Bulgaria, Hungary, and Slovakia tax-fit blockers.
+- Country tax sections remain partial; exact accountant / VAT / immigration-status checks were demoted to application-prep notes rather than treated as passed DoD.
+- Verification queue: 10 → 5 pending/open items.
+
 ## 2026-06-07 — run-068
 - Slovakia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
 - Added Slovakia tax sources `src-338` through `src-343` and `claim-slovakia-010` through `claim-slovakia-015`.
