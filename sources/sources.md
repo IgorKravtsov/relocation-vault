@@ -4133,3 +4133,63 @@ Each source entry:
 - **Facts supporting**: EUR/USD reference rate of EUR 1 = USD 1.1640 used for Slovakia USD 3,000/month tax stress test (claim-slovakia-015)
 - **Confidence ceiling**: high
 - **Stale at**: 2026-12-07
+
+## src-344
+- **Title**: PwC Worldwide Tax Summaries — Slovenia individual taxes on personal income and residence
+- **URL**: https://taxsummaries.pwc.com/slovenia/individual/taxes-on-personal-income ; https://taxsummaries.pwc.com/slovenia/individual/residence
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-06
+- **Date accessed**: 2026-06-07
+- **Used by**: Slovenia
+- **Facts supporting**: Slovenian tax-residence tests, resident worldwide-income scope, non-resident Slovenia-source scope, and 2025/2026 progressive PIT band baseline used for section 5.3 stress test (claim-slovenia-009, claim-slovenia-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-06
+
+## src-345
+- **Title**: PwC Worldwide Tax Summaries — Slovenia individual other taxes / social security contributions
+- **URL**: https://taxsummaries.pwc.com/slovenia/individual/other-taxes
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-06
+- **Date accessed**: 2026-06-07
+- **Used by**: Slovenia
+- **Facts supporting**: self-employed obligation to pay income tax and social-security contributions themselves; employee-side 22.10%, employer-side 16.10%, and aggregate 38.20% social-contribution rate table used as a conservative stress-test baseline (claim-slovenia-010, claim-slovenia-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-06
+
+## src-346
+- **Title**: PwC Worldwide Tax Summaries — Slovenia individual deductions and tax administration
+- **URL**: https://taxsummaries.pwc.com/slovenia/individual/deductions ; https://taxsummaries.pwc.com/slovenia/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-06
+- **Date accessed**: 2026-06-07
+- **Used by**: Slovenia
+- **Facts supporting**: EUR 5,000 general allowance where total income is EUR 16,000 or above, calendar-year tax period, annual PIT assessment mechanics, business-activity tax return by 31 March, and monthly prepayment reporting for employment income from a non-Slovenian payer (claim-slovenia-009, claim-slovenia-011, claim-slovenia-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-06
+
+## src-347
+- **Title**: PwC Worldwide Tax Summaries — Slovenia corporate other taxes / VAT
+- **URL**: https://taxsummaries.pwc.com/slovenia/corporate/other-taxes
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-06
+- **Date accessed**: 2026-06-07
+- **Used by**: Slovenia
+- **Facts supporting**: 22% standard VAT rate, EUR 60,000 VAT registration threshold from 1 January 2025, VAT return timing, and EU B2B reverse-charge / recapitulative-statement context (claim-slovenia-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-06
+
+## src-348
+- **Title**: European Central Bank — Euro foreign exchange reference rates, USD rate
+- **URL**: https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
+- **Archive**: stable official XML feed; direct XML extraction used
+- **Type**: official-primary
+- **Date published**: 2026-06-05
+- **Date accessed**: 2026-06-07
+- **Used by**: Slovenia
+- **Facts supporting**: EUR/USD reference rate of EUR 1 = USD 1.1640 used for Slovenia USD 3,000/month tax stress test (claim-slovenia-012, claim-slovenia-013)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-07

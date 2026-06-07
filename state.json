@@ -1,25 +1,25 @@
 {
   "version": 2,
-  "iteration": 69,
+  "iteration": 70,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-07T22:15:00Z",
+  "last_run_timestamp": "2026-06-07T23:34:54Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
+    "mode": "country-deep-dive",
+    "country": "Slovenia",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Slovenia",
+    "suggested_country": "Montenegro",
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Verification queue is back below the active threshold after the tax-fit screening-baseline batch; resume low-depth Tier-2-hint tax coverage without clustering."
+    "reason": "Pending/open verification queue remains below the active threshold; continue low-depth Tier-2-hint practical tax coverage without clustering after Slovenia."
   },
   "countries": {
     "Spain": {
@@ -413,15 +413,15 @@
     "Slovenia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -433,9 +433,11 @@
       ],
       "risk_flags": [
         "digital-nomad-income-above-current-budget",
-        "digital-nomad-not-renewable"
+        "digital-nomad-not-renewable",
+        "slovenia-self-employed-tax-and-immigration-fit-gap"
       ],
-      "last_iteration": 35
+      "last_iteration": 70,
+      "unverified_count": 1
     },
     "Montenegro": {
       "tier": null,
@@ -981,8 +983,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 5,
-  "sources_count": 342,
-  "claims_count": 298,
+  "verification_queue_size": 6,
+  "sources_count": 347,
+  "claims_count": 303,
   "proposals_pending": 0
 }

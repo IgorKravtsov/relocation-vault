@@ -69,3 +69,48 @@
   confidence: medium
   tags: [climate, sunshine-hours, slovenia]
   notes: "Also relies on src-116 and src-117 for Maribor and Portorož; keep section 5.2 partial until direct sunny/clear-day counts are verified."
+
+- id: claim-slovenia-009
+  topic: tax_residence_and_pit_rates
+  value: "Slovenian PIT residents are taxed on worldwide income; tax residence can arise from formal residence ties, habitual abode / centre of interests, or presence over 183 days in a taxable year. PwC's January 2026 table gives progressive PIT bands of 16%, 26%, 33%, 39%, and 50%, with the first two annual taxable-base bands ending at EUR 9,210.26 and EUR 27,089."
+  source: src-344
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [tax-residence, pit, worldwide-income, slovenia]
+  notes: "Also relies on src-346 for the general allowance used in the simplified worked example."
+
+- id: claim-slovenia-010
+  topic: self_employed_social_contributions
+  value: "PwC states that self-employed persons in Slovenia must pay income tax and social-security contributions themselves; the captured contribution table totals 22.10% employee-side and 16.10% employer-side rates, or 38.20% in aggregate, across pension/disability, health, unemployment, injury-at-work, and parental-insurance components."
+  source: src-345
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [self-employed, social-contributions, slovenia]
+  notes: "Used only as a conservative gross-rate stress test; exact Slovenian s.p. contribution base for the couple's file remains unverified."
+
+- id: claim-slovenia-011
+  topic: tax_filing_and_vat_baseline
+  value: "Slovenia's tax year is the calendar year; business-activity tax returns should be submitted by 31 March for the previous calendar year. The standard VAT rate is 22%, the VAT registration threshold is reported by PwC as EUR 60,000 from 1 January 2025, and EU B2B reverse-charge services can require VAT return and recapitulative-statement handling."
+  source: src-346
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [tax-administration, vat, reverse-charge, slovenia]
+  notes: "VAT details also rely on src-347; exact foreign-client IT place-of-supply / VAT ID treatment remains verification-required."
+
+- id: claim-slovenia-012
+  topic: usd_eur_fx_for_tax_example
+  value: "ECB's run-date reference rate was EUR 1 = USD 1.1640, so USD 3,000/month converts to about EUR 2,577/month for the Slovenia section 5.3 worked example."
+  source: src-348
+  date_verified: 2026-06-07
+  confidence: high
+  tags: [fx, tax-example, slovenia]
+  notes: "Rate date in ECB feed was 2026-06-05; accessed during run-070 on 2026-06-07."
+
+- id: claim-slovenia-013
+  topic: conservative_tax_net_estimate
+  value: "A conservative ordinary self-employed stress test at USD 3,000/month (about EUR 30,928/year) applies 38.2% social contributions to gross and progressive PIT after a EUR 5,000 allowance, leaving about EUR 1,364/month or USD 1,587/month before accountant, VAT, health-insurance edge cases, and immigration costs."
+  source: src-344
+  date_verified: 2026-06-07
+  confidence: medium
+  tags: [tax-example, self-employed, net-income, slovenia]
+  notes: "Also relies on src-345, src-346, and src-348. This is not a passed DoD result because normirani s.p., exact contribution bases, VAT/reverse-charge, and immigration-status fit are unverified."

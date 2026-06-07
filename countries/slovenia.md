@@ -1,14 +1,14 @@
 ---
 country: Slovenia
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-02T04:01:45Z
+depth_score: 2.0
+last_updated: 2026-06-07T23:34:54Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable"]
-sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable", "slovenia-self-employed-tax-and-immigration-fit-gap"]
+sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187", "src-344", "src-345", "src-346", "src-347", "src-348"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence is unusually interesting for the couple: Slovenia has official temporary protection for Ukrainians, an explicit post-temporary-protection filing window, and a new digital-nomad residence permit for non-EU remote workers. The route is capped at one year and the income formula likely sits near or above the couple's current budget, so do not assign a tier until the numeric threshold, taxes, renewal/permit-counting rules, and costs are researched. [src-110][src-111]
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-02T04:01:45Z
-- **Tier rationale**: Keep unassigned until the DN income amount, PR/citizenship counting for DN/TP time, and cost-of-living/rent passes are complete.
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-07T23:34:54Z
+- **Tier rationale**: Keep unassigned until PR/citizenship counting for DN/TP time, DN-to-ordinary status strategy, tax/business fit, and cost-of-living/rent passes are complete.
 
 ## Block 2 — Scoring
 
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | TP, DN, self-employed and family routes opened; the current salary screen indicates DN is above the couple's budget, and DN should be treated as a one-year bridge rather than a PR clock by itself. | §5.1 |
 | Climate | — | N/A | Continental/alpine overall, but the coast is much milder and sunnier; direct sunny-day counts missing. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | First-pass ordinary self-employed stress test is heavy: USD 3,000/month is about EUR 2,577/month, and applying the captured 38.2% social-contribution table plus progressive PIT leaves about EUR 1,364/month (~USD 1,587) before accountant/VAT/immigration costs. Normirani s.p. / exact foreign-client IT treatment is not verified. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -105,9 +105,34 @@ Slovenia is climatically split: Ljubljana and Maribor are continental with cold,
 
 WeatherSpark provides monthly percentages for the broader clearer-sky categories (clear, mostly clear, or partly cloudy). Converting those monthly percentages to annual day-equivalent proxies gives **Ljubljana ~183**, **Maribor ~185**, and **Portorož ~203** clearer-sky day-equivalents/year [src-122]. This is a medium-confidence screening proxy rather than an official meteorological sunny-day count, but it closes the §5.2 climate blocker.
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-07, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This pass captures Slovenia tax-residence, PIT bands, social-contribution rates, filing/VAT baselines, and a conservative USD 3,000/month ordinary self-employed stress test. It does **not** prove the best Slovenian structure for a Ukrainian foreign-client IT freelancer, whether a normirani s.p. / deemed-expense model is available and better in 2026, the exact contribution base for a new s.p., VAT/reverse-charge filing for foreign clients, or compatibility with the DN / single-permit immigration route.
+
+**Tax residence and worldwide-income baseline.** PwC states that an individual is Slovenian PIT-resident if they have a formal residential tie, habitual abode / centre of personal and economic interests, or are present in Slovenia for more than 183 days in a taxable year. Residents pay PIT on worldwide income; non-residents pay PIT on Slovenia-source income. For a relocation plan, assume the working partner can become Slovenian tax-resident if Slovenia becomes the real base. [src-344]
+
+**PIT rates.** PwC's Slovenia table reviewed in January 2026 gives progressive annual PIT bands: 16% up to EUR 9,210.26 taxable base; 26% from EUR 9,210.26 to EUR 27,089; 33% from EUR 27,089 to EUR 54,178; 39% from EUR 54,178 to EUR 78,016.32; and 50% above EUR 78,016.32. Residents have a general allowance; PwC's table shows EUR 5,000 where total income is EUR 16,000 or above. [src-344][src-346]
+
+**Self-employed / social-contribution baseline.** PwC says self-employed persons must pay income tax and social-security contributions themselves. The captured social-contribution table totals 22.10% employee-side plus 16.10% employer-side, or 38.20% in aggregate, across pension/disability, health, unemployment, injury-at-work, and parental-insurance components. This is a conservative gross-rate stress test, not an accountant-confirmed Slovenian s.p. contribution-base calculation for a new foreign-client IT freelancer. [src-345]
+
+**Filing mechanics.** The Slovenian tax year is the calendar year. PwC says income from business activity is included in the annual tax return, while a separate tax return for business activity should be submitted by 31 March for the previous calendar year. Employment income from a person who is not a Slovenian payer of tax has monthly prepayment reporting by the 15th day for the previous month; later accountant review must map whether the couple's foreign-client file is treated as self-employment/business income, employment-like income, or another route. [src-346]
+
+**VAT context.** Slovenia's standard VAT rate is 22%. PwC states that the VAT-registration threshold increased from EUR 50,000 to **EUR 60,000** from 1 January 2025, and that EU B2B reverse-charge services can trigger VAT return / recapitulative-statement timing by the 20th day of the month. At about EUR 30,928/year gross, the couple's current income is below the domestic threshold, but foreign-client place-of-supply, VAT ID, reverse-charge, and recapitulative-statement requirements need accountant confirmation before filing. [src-347]
+
+**Worked example at USD 3,000/month.** ECB's run-date reference rate was EUR 1 = USD 1.1640, so USD 3,000/month is about **EUR 2,577/month** or **EUR 30,928/year**. A conservative ordinary self-employed stress test applies the 38.2% contribution table to gross income, then applies the EUR 5,000 allowance and progressive PIT to the remaining base:
+
+| Step | Annual EUR | Monthly EUR | Notes |
+|---|---:|---:|---|
+| Gross foreign-client income | 30,928 | 2,577 | USD 3,000/month at EUR/USD 1.1640. [src-348] |
+| Social contributions, conservative 38.2% gross-rate stress test | -11,814 | -985 | Uses PwC aggregate social-contribution rates; exact s.p. base unverified. [src-345] |
+| PIT after EUR 5,000 allowance | -2,748 | -229 | 16% / 26% bands on the simplified post-contribution taxable base. [src-344][src-346] |
+| **Estimated net** | **16,365** | **1,364** | About **USD 1,587/month**, before accountant, VAT filing, health-insurance edge cases, and immigration costs. |
+
+**Normirani s.p. / deemed-expense caveat.** Slovenia may have more favorable small-business / deemed-expense mechanics than the conservative gross-rate stress test, but this run did not capture a stable official 2026 rule text or accountant mapping for foreign-client IT. Do **not** mark Slovenia tax as passed or tax-negative on this run alone: the safe screening answer is that the ordinary baseline looks heavy, while the potentially better s.p. / normirani treatment needs a Slovenian accountant and official-rule capture. [verification required]
+
+**Marriage / partner tax effect.** PwC describes individual filing mechanics and dependent-family allowances, but this pass did not prove a useful spouse/unmarried-partner tax benefit for a non-working partner. Treat marriage as primarily an immigration/dependent issue in Slovenia until a tax adviser confirms dependent allowance access and residence-status effects. [src-346]
+
+**Bottom line for the couple.** At the current income, Slovenia's tax picture is not yet attractive under the conservative ordinary self-employed model: about EUR 1,364/month net would leave little room for Slovenian rent and DN income-threshold compliance. The remaining tax question is whether a legitimate Slovenian self-employed / normirani s.p. structure materially improves the net and is compatible with the DN or single-permit route; queue this for verification before scoring §5.3 as passed.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -171,7 +196,8 @@ WeatherSpark provides monthly percentages for the broader clearer-sky categories
 - DN permit is up to one year and cannot be extended; reapplication requires a six-month gap. [src-111]
 - DN income formula currently screens at about EUR 3,357.62/month using March 2026 average net earnings, above the couple's current ~$3,000/month budget. [src-111][src-187]
 - Ljubljana/Maribor winters are cold, humid and not Mediterranean.
-- Taxes, rent, healthcare, and practical application costs are still unresearched.
+- Rent, healthcare, and practical application costs are still unresearched.
+- Conservative ordinary self-employed tax stress test is heavy, with about EUR 1,364/month (~USD 1,587) net from USD 3,000/month before accountant/VAT/immigration costs; a potentially better Slovenian s.p. / normirani structure is unverified. [src-344][src-345][src-346][src-347][src-348]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -188,6 +214,7 @@ WeatherSpark provides monthly percentages for the broader clearer-sky categories
 
 ### 6c. First 3–6 months
 - Recheck the DN threshold immediately before filing; the current captured screen is about EUR 3,357.62/month, so preserve ongoing income proof and do not assume a ~$3,000/month file passes. [src-111][src-187]
+- Before opening Slovenian self-employment, get accountant confirmation of s.p. / normirani eligibility, contribution base, VAT/reverse-charge filings, and immigration-status compatibility; the conservative ordinary model at USD 3,000/month leaves only about EUR 1,364/month net in this pass. [src-344][src-345][src-346][src-347][src-348]
 - If Slovenia is attractive beyond one year, begin switching-plan work early: self-employed/single permit, employment, family, study or another statutory purpose. [src-111][src-112]
 - Track residence continuity if planning for permanent residence after five years. [src-112]
 
@@ -209,7 +236,7 @@ WeatherSpark provides monthly percentages for the broader clearer-sky categories
 | Flights / ground travel for two | TBD | Slovenia reachable overland/air via EU routes; price pass pending. |
 | Rental deposit + first month | TBD | Rent pass pending, especially Ljubljana vs coast. |
 | Health insurance | TBD | Healthcare pass pending. |
-| Immigration/tax consultation | TBD | Recommended before relying on DN-to-ordinary transition. |
+| Immigration/tax consultation | TBD | Recommended before relying on DN-to-ordinary transition or Slovenian s.p. / normirani tax planning. |
 | Buffer / contingencies | TBD | Pending cost-of-living pass. |
 | **Total** | — | Not enough data yet. |
 
@@ -225,11 +252,16 @@ WeatherSpark provides monthly percentages for the broader clearer-sky categories
 - [src-111] — GOV.SI Ministry of the Interior digital-nomad temporary residence announcement.
 - [src-114] — GOV.SI Citizenship.
 - [src-187] — Statistical Office of Slovenia March 2026 average earnings release used to screen the DN income formula.
+- [src-348] — European Central Bank EUR/USD reference rate used for the Slovenia tax worked example.
 
 ### 7b. Official-secondary / reputable secondary
 - [src-002] — EU Council / EU temporary protection extension to 04 March 2027.
 - [src-112] — EU Immigration Portal self-employed worker in Slovenia.
 - [src-113] — EU Immigration Portal family member in Slovenia.
+- [src-344] — PwC Slovenia individual PIT / residence.
+- [src-345] — PwC Slovenia social-security contributions.
+- [src-346] — PwC Slovenia deductions / tax administration.
+- [src-347] — PwC Slovenia VAT / corporate other taxes.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -244,8 +276,10 @@ _(none yet)_
 - Exact serving-administrative-unit DN checklist and fee schedule: not captured in this pass.
 - Detailed DN application checklist/fee list beyond the Ministry announcement: not captured.
 - Official meteorological annual sunny-day counts for Ljubljana, Maribor, and Portorož/Koper: not captured; WeatherSpark clearer-sky day-equivalent proxies are now captured for §5.2 screening.
+- Official 2026 Slovenian s.p. / normirani rule text, exact new-entrepreneur contribution base, foreign-client VAT/reverse-charge handling, and compatibility with the DN / single-permit immigration route: not captured.
 - Article-level confirmation of which temporary-residence purposes count toward permanent residence remains for application-prep; the operational baseline is not to rely on a one-year non-renewable DN permit as the whole PR plan.
 
 ## Block 8 — Open questions and verification markers
 
-_(none for current partial-depth scope; later application-prep should still recheck DN forms, fees, and residence-type counting before filing.)_
+- `vq-100`: Verify the exact Slovenian s.p. / normirani and VAT treatment for a Ukrainian foreign-client IT freelancer, including 2026 deemed-expense rules, contribution bases, VAT / reverse-charge reporting, and DN / single-permit immigration compatibility.
+- Later application-prep should still recheck DN forms, fees, and residence-type counting before filing.

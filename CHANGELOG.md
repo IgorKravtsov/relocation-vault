@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-07
 ---
 
+## 2026-06-07 — run-070
+- Slovenia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
+- Added Slovenia tax sources `src-344` through `src-348` and `claim-slovenia-009` through `claim-slovenia-013`.
+- Main finding: a conservative ordinary self-employed stress test at USD 3,000/month leaves about EUR 1,364 / USD 1,587 net per month after a gross-rate social-contribution stress test and PIT, before accountant/VAT/immigration costs.
+- Added `vq-100` for Slovenian s.p. / normirani / VAT / immigration-status confirmation; queue 5 -> 6, still below the active verification threshold.
+
 ## 2026-06-07 — run-069
 - Verification batch: resolved vq-095 through vq-099 to conservative screening baselines for Poland, Romania, Bulgaria, Hungary, and Slovakia tax-fit blockers.
 - Country tax sections remain partial; exact accountant / VAT / immigration-status checks were demoted to application-prep notes rather than treated as passed DoD.

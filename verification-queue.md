@@ -196,6 +196,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolved**: 2026-06-07 (run-069)
 - **Resolution note**: Closed to a conservative screening baseline: Slovakia section 5.3 should use the existing SZCO 60% lump-sum scenario only as a partial planning model; exact trade classification, foreign-client VAT/reverse-charge, first-year contribution timing, and business-residence compatibility remain accountant/application-prep checks rather than country-screening blockers. [src-338][src-339][src-340][src-341][src-342][src-343]
 
+## vq-100 [medium priority]
+- **Fact**: "Slovenia s.p. / normirani and VAT treatment for a Ukrainian foreign-client IT freelancer, including 2026 deemed-expense rules, social-contribution base, and immigration-status compatibility"
+- **Country**: Slovenia
+- **Section**: 5.3
+- **Current source**: src-344, src-345, src-346, src-347, src-348
+- **Why uncertain**: This tax pass captured a conservative ordinary self-employed stress test using PwC PIT/social/VAT context and ECB FX, but did not capture stable official 2026 normirani s.p. rule text, a new-entrepreneur contribution-base table, foreign-client VAT / reverse-charge filing mechanics, or whether the structure is compatible with the DN route or self-employed/single-permit route.
+- **Suggested verification**: Capture Slovenian FURS / SPOT / ZPIZ / health-insurance or accountant guidance for 2026 s.p. and normirani rules, contribution bases, foreign-client IT VAT / reverse-charge reporting, and DN / single-permit compatibility before scoring Slovenia section 5.3 as passed.
+- **Created**: 2026-06-07 (run-070)
+- **Status**: pending
+
 ## vq-098 [medium priority]
 - **Fact**: "Hungary individual-entrepreneur tax regime, exact 2026 contribution bases, KATA / flat-rate eligibility, VAT / reverse-charge treatment, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer"
 - **Country**: Hungary
