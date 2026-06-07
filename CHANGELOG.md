@@ -3,6 +3,12 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-07
 ---
+## 2026-06-07 — run-067
+- Verification mode: resolved Greece `vq-089` by capturing EFKA's official 2026 self-employed contribution table.
+- Added Greece source `src-337` and `claim-greece-012`; Greece section 5.3 remains partial but now has a usable ordinary PIT + minimum EFKA stress test.
+- Main finding: EFKA category-1 main pension + health is EUR 250.77/month plus EUR 10 unemployment; Greece's conservative USD 3,000/month tax baseline is about EUR 1,844 / USD 2,131 net before accountant/VAT filing costs.
+- Removed `greece-efka-self-employed-contribution-gap`; queue 10 -> 9, so next mode can resume country-deep-dive.
+
 ## 2026-06-07 — run-066
 - Hungary: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
 - Added Hungary tax sources `src-332` through `src-336` and `claim-hungary-010` through `claim-hungary-016`.

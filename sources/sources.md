@@ -4049,3 +4049,15 @@ Each source entry:
 - **Facts supporting**: run-date USD/HUF conversion of 1 USD = HUF 306.3855 used for Hungary section 5.3 independent-activity tax stress test (claim-hungary-016)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-07
+
+## src-337
+- **Title**: e-EFKA — 2026 insurance-category choice for main insurance, health care, auxiliary insurance and lump-sum benefits
+- **URL**: https://www.efka.gov.gr/el/asphalismenoi/me-misthotoi/neo-systhma-asfalistikon-eisforon/eleftheroi-epaggelmaties-aftoapasxoloumenoi
+- **Archive**: stable official domain; direct HTML extraction used
+- **Type**: official-primary
+- **Date published**: 2026-01-01 effective table; page dated 2020-12-21
+- **Date accessed**: 2026-06-07
+- **Used by**: Greece
+- **Facts supporting**: 2026 EFKA freelancer / self-employed contribution categories, including category-1 main pension plus health amount of EUR 250.77/month, EUR 10 unemployment add-on, and separate auxiliary / lump-sum benefit categories (claim-greece-012)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-01-01

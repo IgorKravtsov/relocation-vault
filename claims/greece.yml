@@ -98,3 +98,12 @@
   confidence: medium
   tags: [greece, taxes, worked-example, budget, article-5c]
   notes: "This is deliberately labelled PIT-only because current official EFKA self-employed contributions were not captured in this iteration."
+
+- id: claim-greece-012
+  topic: efka_2026_self_employed_minimum_contribution
+  value: "EFKA's 2026 table for ordinary freelancers / self-employed persons lists category-1 main pension plus health at EUR 250.77/month; an extra EUR 10/month unemployment contribution is collected with insurance contributions, giving a minimum planning baseline of EUR 260.77/month before any category upgrade or branch-specific add-on."
+  source: src-337
+  date_verified: 2026-06-07
+  confidence: high
+  tags: [greece, taxes, efka, social-insurance, self-employed, 2026]
+  notes: "Auxiliary insurance and lump-sum benefit categories are listed separately by EFKA and should be checked by profession/entitlement; ordinary IT freelancer screening uses the mandatory main pension + health baseline."

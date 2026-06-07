@@ -1,23 +1,25 @@
 {
   "version": 2,
-  "iteration": 66,
+  "iteration": 67,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-07T10:58:38Z",
+  "last_run_timestamp": "2026-06-07T15:45:00Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Hungary",
+    "mode": "verification",
+    "country": "Greece",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": null,
-    "suggested_sections": null,
-    "reason": "Pending/open verification queue reached the active threshold after run-066; switch to verification mode before continuing tax deep dives."
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Slovakia",
+    "suggested_sections": [
+      "5.3"
+    ],
+    "reason": "Verification queue dropped below the active threshold after resolving Greece EFKA; resume low-depth Tier-2 tax coverage without clustering."
   },
   "countries": {
     "Spain": {
@@ -130,11 +132,10 @@
         "5.11"
       ],
       "risk_flags": [
-        "greece-efka-self-employed-contribution-gap",
         "greece-article-5c-foreign-client-fit-gap"
       ],
-      "last_iteration": 57,
-      "unverified_count": 2
+      "last_iteration": 67,
+      "unverified_count": 1
     },
     "Cyprus": {
       "tier": null,
@@ -978,8 +979,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 10,
-  "sources_count": 335,
-  "claims_count": 291,
+  "verification_queue_size": 9,
+  "sources_count": 336,
+  "claims_count": 292,
   "proposals_pending": 0
 }

@@ -2,13 +2,13 @@
 country: Greece
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-06T06:39:40Z
+last_updated: 2026-06-07T15:45:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["greece-efka-self-employed-contribution-gap", "greece-article-5c-foreign-client-fit-gap"]
-sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300"]
-unverified_count: 2
+risk_flags: ["greece-article-5c-foreign-client-fit-gap"]
+sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300", "src-337"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -20,8 +20,8 @@ schema_version: 2.0.0
 
 - **Tier**: TBD after taxes, rent, healthcare, and partner-path research are added.
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-06T06:39:40Z
-- **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP→Immigration Code bridge) plus a documented digital nomad route. The first tax pass shows ordinary business-profit PIT is workable at USD 3,000/month, but the exact self-employed EFKA contribution and Article 5C fit for foreign-client IT work still need current specialist/official verification.
+- **Last updated**: 2026-06-07T15:45:00Z
+- **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP→Immigration Code bridge) plus a documented digital nomad route. The tax pass now has an official 2026 EFKA self-employed minimum, so the conservative ordinary PIT + minimum social-insurance stress test is usable; Article 5C fit for foreign-client IT work still needs current specialist/official verification.
 
 ## Block 2 — Scoring
 
@@ -93,9 +93,9 @@ schema_version: 2.0.0
 - The climate is broadly favorable for a year-round relocation if the couple prefers sun and mild winters over cool summers. The main trade-off is that Athens can become intensely hot in July/August, while Thessaloniki brings the sharpest winter drop. [src-008][src-009][src-010]
 - **Sunny / clear-sky verification**: Current Results gives annual sunshine and clear-sky percentages: Athens **2,771 hours / 58% clear sky**, Thessaloniki **2,338 hours / 51% clear sky**, and Heraklion **2,760 hours / 59% clear sky**. As a planning proxy, those percentages equal roughly **212**, **186**, and **215** clear-sky day-equivalents per year respectively; this is enough to close the climate blocker at medium confidence. [src-044]
 
-### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-06, dod: partial}
+### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-07, dod: partial}
 
-> **DoD status**: partial. Covered: Greek tax residence, business-profit PIT scale, AADE/TIN and activity-commencement route, filing period, joint-return baseline, Article 5C new-tax-resident incentive, and a USD 3,000/month PIT worked example. Missing for full DoD: current official EFKA self-employed contribution category/amount for a solo IT freelancer and a clean 2026 answer on whether foreign-client IT business activity qualifies for Article 5C.
+> **DoD status**: partial. Covered: Greek tax residence, business-profit PIT scale, AADE/TIN and activity-commencement route, filing period, joint-return baseline, Article 5C new-tax-resident incentive, current EFKA 2026 self-employed contribution categories, and a USD 3,000/month ordinary-tax stress test. Missing for full DoD: a clean 2026 answer on whether foreign-client IT business activity qualifies for Article 5C.
 
 #### Baseline tax residence and income scope
 - AADE states that an individual becomes a Greek tax resident if they have permanent/principal residence, habitual abode, or centre of vital interests in Greece; separately, presence in Greece for more than **183 days cumulatively in any 12-month period** makes the person a Greek tax resident from the first day of presence, except for limited private/tourism/medical stays up to 365 days. [src-294]
@@ -108,7 +108,7 @@ schema_version: 2.0.0
 - If the applicant first needs a Greek TIN / authentication key, AADE says the TIN and authentication-key request is filed electronically through the myAADE **"TIN & Authentication Key"** application; identification can be in person or by myAADElive video call, and the certificate/key are delivered by email or to the representative's digital mailbox depending on who filed. [src-298]
 
 #### Social insurance and VAT caveats
-- This iteration did **not** capture a clean current official EFKA page for self-employed / freelancer insurance categories and monthly minimums. Do not treat the PIT-only example below as final take-home pay; it is a tax lower-bound before the required accountant/EFKA check. [verification required; vq-089]
+- EFKA's official self-employed / freelancer 2026 page says contributions are decoupled from taxable income and the person must choose one of six mandatory insurance categories for the whole year. For ordinary freelancers / self-employed persons, the main pension + health categories are: **EUR 250.77/month** in category 1, EUR 300.93 in category 2, EUR 360.63 in category 3, EUR 433.47 in category 4, EUR 519.45 in category 5, and EUR 675.87 in category 6. EFKA also says an extra **EUR 10/month** unemployment contribution is collected with the insurance contributions; auxiliary insurance / lump-sum benefit categories apply only where the insured person has that branch entitlement. For a conservative first screening of a solo IT freelancer, use category 1 plus unemployment as the minimum official baseline: **EUR 260.77/month** before any accountant-specific add-ons. [src-337]
 - PwC's "other taxes" page confirms that standard VAT is **24%** with reduced 13% and 6% rates for specified goods/services. Whether the IT freelancer invoices non-Greek business clients under reverse-charge / export-of-services treatment, or needs Greek VAT filings, is filing-prep detail for a Greek accountant and should not be guessed from this pass. [src-299]
 
 #### New-resident reliefs / Article 5C
@@ -122,9 +122,9 @@ schema_version: 2.0.0
 
 #### Worked USD 3,000/month example
 - Run-date FX source: **1 USD = EUR 0.865342**, so USD 3,000/month is about **EUR 2,596/month** or **EUR 31,152/year** gross. [src-293]
-- **Ordinary PIT only**: applying the 9% / 20% / 26% scale to EUR 31,152/year gives about **EUR 5,892/year** PIT, or **EUR 491/month**. PIT-only net is about **EUR 25,261/year / EUR 2,105/month**, before EFKA, VAT/accounting costs, rent, and living costs. [src-295]
+- **Ordinary PIT + minimum EFKA baseline**: applying the 9% / 20% / 26% scale to EUR 31,152/year gives about **EUR 5,892/year** PIT, or **EUR 491/month**. PIT-only net is about **EUR 25,261/year / EUR 2,105/month**. Subtracting EFKA's 2026 category-1 main pension + health amount plus the EUR 10 unemployment contribution (**EUR 260.77/month**) leaves roughly **EUR 1,844/month** (about **USD 2,131/month**) before accountant fees, VAT filing costs, rent, and living costs. [src-295][src-337]
 - **Article 5C upside scenario**: if 50% of the business income is exempt and only about EUR 15,576 is taxable, PIT is about **EUR 2,015/year** and PIT-only net rises to about **EUR 2,428/month**, again before EFKA and accountant/VAT mechanics. This scenario is not yet safe for scoring until Article 5C fit is verified for a foreign-client IT file. [src-300]
-- **Budget read**: Greece looks less tax-hostile than ordinary Spain autonomo at the same gross income, but the missing EFKA contribution is a material gap. Treat Greece as tax-promising but not tax-closed until `vq-089` and `vq-090` are resolved.
+- **Budget read**: Greece remains tax-promising after adding the official minimum EFKA baseline, but it is not tax-closed until `vq-090` is resolved. The conservative default should be ordinary PIT plus minimum EFKA; Article 5C remains only an upside scenario requiring Greek tax-adviser confirmation.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -193,7 +193,7 @@ schema_version: 2.0.0
 - **Best legalization path for the woman**: Not fully resolved; spouse/cohabitant uplift is documented for DN, but unmarried-partner treatment is still open.
 - **Does marriage change the picture**: Yes, materially, because the documented DN threshold explicitly accounts for spouse/cohabitant dependants.
 - **Realism of staying after 03.2027**: Medium-high if Greek TP is obtained and converted before 04 March 2027, or if the couple qualifies for a standard Immigration Code permit independently of TP.
-- **Tax budget read**: Promising but incomplete. Ordinary business-profit PIT on USD 3,000/month leaves about EUR 2,105/month before EFKA; Article 5C could improve the result, but both EFKA and 5C route fit need verification before using a final net number. [src-295][src-300]
+- **Tax budget read**: Promising but incomplete. Ordinary business-profit PIT plus EFKA's 2026 minimum category leaves about EUR 1,844/month before accountant/VAT filing costs; Article 5C could improve the result, but 5C route fit still needs verification before using it as a default. [src-295][src-300][src-337]
 
 **Pros**:
 - Greece has an explicit TP→Immigration Code bridge before 04 March 2027.
@@ -205,7 +205,7 @@ schema_version: 2.0.0
 - Unmarried second-partner positioning is still unclear.
 - Polish `karta pobytu` interaction is not yet cleanly verified.
 - Athens summer heat can be severe.
-- Current EFKA self-employed contribution and Article 5C fit for foreign-client IT income are not yet closed.
+- Article 5C fit for foreign-client IT income is not yet closed; EFKA category-1 minimum is now captured, but exact category choice should still be confirmed with a Greek accountant before filing.
 
 ## Block 6 — Practical playbook (working relocation guide)
 

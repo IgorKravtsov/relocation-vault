@@ -304,11 +304,13 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Fact**: "Current Greek EFKA self-employed / freelancer insurance contribution categories and monthly minimum for a solo foreign-client IT freelancer"
 - **Country**: Greece
 - **Section**: 5.3
-- **Current source**: src-295, src-297, src-299
-- **Why uncertain**: This tax pass captured the PIT scale and AADE activity-commencement route, but did not capture a clean current official EFKA table for self-employed contribution categories / monthly minimums. The Greece tax example is therefore PIT-only before social insurance.
-- **Suggested verification**: Capture EFKA official contribution-category table or current Greek accountant guidance for 2026 self-employed professionals; confirm first-category monthly amount, health/unemployment components, and whether digital-nomad/foreign-client sole proprietors must enroll.
+- **Current source**: src-295, src-297, src-299, src-337
+- **Why uncertain**: Resolved for the screening baseline. EFKA's official 2026 table gives the current freelancer / self-employed categories and the category-1 main pension + health minimum; exact profession/category choice, branch add-ons, and deductibility remain accountant/application-prep checks rather than a vault blocker.
+- **Suggested verification**: none for screening; confirm exact category selection, branch add-ons, and deductibility with a Greek accountant before filing.
 - **Created**: 2026-06-06 (run-057)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-07 (run-067)
+- **Resolution note**: Greece profile now uses EFKA's official 2026 table: category-1 main pension + health is EUR 250.77/month, plus EUR 10/month unemployment contribution, for a EUR 260.77/month minimum planning baseline. [src-337]
 
 ## vq-090 [medium priority]
 - **Fact**: "Whether Greece Article 5C new-tax-resident relief applies in practice to a Ukrainian foreign-client IT freelancer / sole proprietor, including DN-status compatibility"
