@@ -99,3 +99,59 @@
   confidence: medium-high
   tags: [tp, validity, ukraine, bulgaria]
   notes: "UNHCR Bulgaria announcement dated 2026-02-25"
+
+- id: claim-bulgaria-012
+  topic: tax_residence_scope
+  value: "Bulgarian tax residents are taxed on worldwide income; non-residents are taxed on Bulgarian-source income, including services rendered in Bulgaria regardless of payer location"
+  source: src-328
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [tax, residence, worldwide-income, bulgaria]
+  notes: "PwC Bulgaria reviewed 2026-01-30; treaty tie-breakers can override domestic tests"
+
+- id: claim-bulgaria-013
+  topic: personal_income_tax_rate
+  value: 10
+  unit: percent
+  source: src-328
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [tax, pit, flat-tax, bulgaria]
+  notes: "Flat PIT baseline for personal income; exceptions not relevant to this first-pass IT freelance calculation"
+
+- id: claim-bulgaria-014
+  topic: freelance_statutory_expense_deduction
+  value: 25
+  unit: percent_of_gross_income
+  source: src-329
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [tax, freelance, deductions, bulgaria]
+  notes: "PwC says freelancers / civil contractors / private practitioners may deduct pre-estimated statutory expenses; mandatory individual social-security contributions are also deductible with documentation"
+
+- id: claim-bulgaria-015
+  topic: freelancer_insurance_base_2026
+  value: "Minimum EUR 550.66/month; maximum EUR 2,111.64/month from 01 January 2026"
+  source: src-329
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [tax, social-security, health-insurance, bulgaria]
+  notes: "Exact self-insured contribution package for a Ukrainian foreign-client IT worker still needs NRA/accountant confirmation"
+
+- id: claim-bulgaria-016
+  topic: vat_and_filing_baseline
+  value: "Standard VAT 20%; mandatory VAT registration threshold EUR 51,130 from 2026; annual PIT return and payment due 30 April; freelancers pay quarterly advance taxes; spouses taxed separately"
+  source: src-329; src-330
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [tax, vat, filing, spouse, bulgaria]
+  notes: "Foreign-client VAT place-of-supply / reverse-charge treatment remains a verification item"
+
+- id: claim-bulgaria-017
+  topic: usd_3000_freelance_tax_stress_test
+  value: "USD 3,000/month is about BGN 5,072/month; after 25% statutory expense, capped-base 27.8% contribution stress test, and 10% PIT, planning net is about BGN 3,658/month or USD 2,164/month; 31.3% contribution sensitivity is about USD 2,087/month"
+  source: src-328; src-329; src-331
+  date_verified: 2026-06-07
+  confidence: medium
+  tags: [tax, worked-example, freelance, bulgaria]
+  notes: "Planning stress test only; exact contribution package, health-insurance obligation, VAT/reverse-charge, and immigration-status compatibility require confirmation"

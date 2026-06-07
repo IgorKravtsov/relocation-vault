@@ -184,6 +184,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+## vq-097 [medium priority]
+- **Fact**: "Bulgaria self-insured contribution package, health-insurance obligation, foreign-client IT classification, VAT / reverse-charge handling, and immigration-status compatibility for a Ukrainian remote IT freelancer"
+- **Country**: Bulgaria
+- **Section**: 5.3
+- **Current source**: src-328, src-329, src-330, src-331
+- **Why uncertain**: This tax pass captured a 10% PIT baseline, 25% statutory freelance expense deduction, 2026 freelancer insurance-base limits, VAT threshold, filing mechanics, and a USD 3,000/month stress test, but did not capture a clean official NRA self-insured contribution package or confirm whether the Bulgarian self-employment residence route supports a foreign-client IT file.
+- **Suggested verification**: Capture NRA / Bulgarian accountant guidance for self-insured rates and registration, non-EU health-insurance obligation by residence type, IT freelancer classification, VAT / reverse-charge handling for foreign B2B clients, and compatibility with Employment Agency / Migration Directorate self-employment residence approval.
+- **Created**: 2026-06-07 (run-065)
+- **Status**: pending
+
 ## vq-096 [medium priority]
 - **Fact**: "Romania PFA / independent-activity registration, expense deductions, VAT / reverse-charge treatment, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer"
 - **Country**: Romania

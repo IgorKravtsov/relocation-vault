@@ -3941,3 +3941,51 @@ Each source entry:
 - **Facts supporting**: run-date USD/RON conversion of 1 USD = RON 4.517763 used for Romania section 5.3 PFA / independent-activity tax stress test (claim-romania-016)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-07
+
+## src-328
+- **Title**: PwC Worldwide Tax Summaries — Bulgaria individual taxes on personal income and residence
+- **URL**: https://taxsummaries.pwc.com/bulgaria/individual/taxes-on-personal-income ; https://taxsummaries.pwc.com/bulgaria/individual/residence
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-30
+- **Date accessed**: 2026-06-07
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgarian tax-residence tests, worldwide-income / Bulgarian-source-income scope, services-rendered-in-Bulgaria source rule, and 10% flat PIT baseline (claim-bulgaria-012, claim-bulgaria-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-30
+
+## src-329
+- **Title**: PwC Worldwide Tax Summaries — Bulgaria individual other taxes, deductions, and tax administration
+- **URL**: https://taxsummaries.pwc.com/bulgaria/individual/other-taxes ; https://taxsummaries.pwc.com/bulgaria/individual/deductions ; https://taxsummaries.pwc.com/bulgaria/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-30
+- **Date accessed**: 2026-06-07
+- **Used by**: Bulgaria
+- **Facts supporting**: 25% statutory freelance expense deduction, 2026 freelancer minimum/maximum insurance base, non-EU/EEA social/health contribution caveat, 20% standard VAT headline, annual return / quarterly advance-tax mechanics, and separate-spouse taxation (claim-bulgaria-014, claim-bulgaria-015, claim-bulgaria-016, claim-bulgaria-017)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-30
+
+## src-330
+- **Title**: PwC Worldwide Tax Summaries — Bulgaria corporate other taxes / VAT registration threshold
+- **URL**: https://taxsummaries.pwc.com/bulgaria/corporate/other-taxes
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-30
+- **Date accessed**: 2026-06-07
+- **Used by**: Bulgaria
+- **Facts supporting**: 2026 mandatory VAT registration threshold of EUR 51,130, calendar-year turnover test, and 7-day application deadline after exceeding the threshold (claim-bulgaria-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-30
+
+## src-331
+- **Title**: open.er-api.com — USD exchange-rate feed, BGN rate
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: failed 2026-06-07; direct JSON extraction used]
+- **Type**: commercial
+- **Date published**: 2026-06-07
+- **Date accessed**: 2026-06-07
+- **Used by**: Bulgaria
+- **Facts supporting**: run-date USD/BGN conversion of 1 USD = BGN 1.690673 used for Bulgaria section 5.3 freelancer tax stress test (claim-bulgaria-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-07

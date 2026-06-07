@@ -1,14 +1,14 @@
 ---
 country: Bulgaria
 tier: null
-depth_score: 1.5
-last_updated: 2026-05-30T00:00:00Z
+depth_score: 2.0
+last_updated: 2026-06-07T07:49:24Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3", "5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["self-employment-permit-3-year-cap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational"]
-sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["self-employment-permit-3-year-cap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational", "bulgaria-self-employed-contribution-and-status-fit-gap"]
+sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118", "src-328", "src-329", "src-330", "src-331"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -19,17 +19,17 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (insufficient data for tier assignment after first pass)
-- **depth_score**: 1.5
-- **Last updated**: 2026-05-30
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-07
 - **Tier rationale**: TBD. Bulgaria offers a self-employment residence route with a 3-year cap and a 5-year path to permanent residence, but the 3-year self-employment permit limitation and the absence of a captured TP-to-ordinary-residence bridge create operational constraints. Dual-citizenship restrictions for naturalized non-EU nationals are a further consideration. A tier will be assigned after deeper research.
 
 ## Block 2 — Scoring
 
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
-|---|---|---:|---|---|---|
+|---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | [verification required] | §5.1 |
 | Climate | — | N/A | [verification required] | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | First-pass 10% PIT / statutory-expense / social-insurance / VAT baseline; exact immigration-status and contribution package fit still needs verification | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -126,9 +126,40 @@ Bulgaria has a **continental climate** in the north and interior, with cold wint
 
 WeatherSpark provides monthly percentages for the broader clearer-sky categories (clear, mostly clear, or partly cloudy). Converting those monthly percentages to annual day-equivalent proxies gives: **Sofia ~223 clearer-sky day-equivalents/year**, **Plovdiv ~230**, and **Varna ~215** [src-118]. This is not an official meteorological sunny-day count; it is a medium-confidence clearer-sky proxy, but it closes the climate DoD blocker for practical screening.
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-07, dod: pending}
 
-[verification required]
+> **DoD**: effective tax burden for a USD 3,000/month foreign-client IT worker; registration route; PIT, social/health, VAT and filing mechanics; marriage/partner tax effect; concrete gross-to-net example; all critical facts confidence >= medium. This pass opens the section but does not pass DoD because the exact Bulgarian self-employment / immigration-status fit and contribution package for a Ukrainian remote IT worker need accountant or authority confirmation.
+
+#### Tax residence and scope
+
+PwC Bulgaria states that Bulgarian tax residents are taxed on worldwide income, while non-residents are taxed only on Bulgarian-source income. Rendering services in Bulgaria is treated as Bulgarian-source income regardless of where or by whom it is paid [src-328]. Tax residence is triggered by one or more tests: permanent address in Bulgaria plus centre of vital interests, more than 183 days in any 12-month period, assignment abroad by a Bulgarian company/state, or centre of vital interests in Bulgaria; treaty tie-breakers can override domestic tests [src-328].
+
+#### PIT and freelance expense baseline
+
+Bulgaria has a simple headline personal-income-tax regime: a flat **10% PIT** applies to all personal income, with exceptions not relevant to this first pass [src-328]. For freelancers / civil contractors / private practitioners, PwC reports a **25% statutory expense deduction** from gross income before PIT; mandatory social-security contributions borne by the individual are tax-deductible in full when supported by documentation [src-329]. This makes Bulgaria mathematically attractive on PIT, but the immigration route is still the bottleneck: the profile's legal section does not yet prove that a Ukrainian remote IT worker can safely operate as a Bulgarian freelancer under the self-employment residence route without a Bulgarian Employment Agency / Migration Directorate approval file.
+
+#### Social and health contributions
+
+PwC gives the 2026 freelancer insurance-base limits: minimum **EUR 550.66/month** and maximum **EUR 2,111.64/month** from 01 January 2026 [src-329]. It also notes that non-EU/EEA nationals may be subject to social-security contributions under certain conditions, while health-insurance contributions apply if they have a Bulgarian permanent residence permit [src-329]. Because this pass did not capture a clean official NRA table for the exact self-insured foreigner package, the worked example uses a planning stress test rather than a passed-tax conclusion: 27.8% on the capped base for pension + health-like coverage, with a 31.3% sensitivity if the fuller sickness/maternity package applies. This assumption must be confirmed before scoring.
+
+#### VAT, filing, and spouse mechanics
+
+The standard VAT rate is **20%** [src-329]. PwC's corporate VAT summary says mandatory VAT registration from 01 January 2026 applies when taxable turnover exceeds **EUR 51,130** in the current or previous calendar year, with a new 7-day registration deadline after the threshold is exceeded [src-330]. At USD 36,000/year, the couple's current income is below this headline threshold, but foreign-client B2B place-of-supply / reverse-charge handling remains an accountant-level check.
+
+Annual PIT returns are generally due by **30 April** of the following year, with a 5% discount on outstanding PIT if filed electronically and paid by 31 March, capped at EUR 255.65; freelancers must pay quarterly advance taxes regardless of whether the payer is Bulgarian or foreign [src-329]. Spouses are treated as separate taxpayers and no income splitting is allowed [src-329].
+
+#### Worked example at USD 3,000/month
+
+Run-date FX from open.er-api is **1 USD = BGN 1.690673**, so USD 3,000/month is about **BGN 5,072/month** or **BGN 60,864/year** [src-331]. Using the 2026 maximum freelancer insurance base of about BGN 4,130/month (EUR 2,111.64 at the fixed EUR/BGN peg), a planning calculation is:
+
+1. Gross: **BGN 5,072/month**.
+2. 25% statutory freelance expense deduction: **BGN 1,268/month**.
+3. Social/health stress test at 27.8% of capped base: **BGN 1,148/month**.
+4. PIT base after statutory expense and contributions: about **BGN 2,656/month**.
+5. 10% PIT: about **BGN 266/month**.
+6. Estimated net: about **BGN 3,658/month**, or **USD 2,164/month**.
+
+If the fuller 31.3% contribution package applies, the sensitivity falls to about **BGN 3,528/month** or **USD 2,087/month**. Conservative conclusion: Bulgaria's first-pass tax math is potentially favorable relative to many EU routes, but section 5.3 remains partial until Bulgarian NRA / accountant evidence confirms exact self-insured status, foreign-client IT classification, health-insurance obligation for the couple's residence posture, VAT / reverse-charge handling, and whether this tax registration is compatible with the immigration route.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -249,6 +280,9 @@ _(none yet — Bulgarian Ministry of Interior and Employment Agency pages were W
 - [src-081] Wikipedia — Bulgarian nationality law (aggregator)
 - [src-089] UNHCR Bulgaria — Arrival from Ukraine (reputable-secondary)
 - [src-090] UNHCR Bulgaria — TP extended until 04 March 2027 (reputable-secondary)
+- [src-328] PwC Worldwide Tax Summaries — Bulgaria individual taxes and residence (reputable-secondary)
+- [src-329] PwC Worldwide Tax Summaries — Bulgaria other taxes, deductions, and tax administration (reputable-secondary)
+- [src-330] PwC Worldwide Tax Summaries — Bulgaria corporate VAT context (reputable-secondary)
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -261,6 +295,7 @@ _(none yet)_
 - [src-086] Wikipedia — Plovdiv climate table (aggregator)
 - [src-087] Wikipedia — Varna, Bulgaria climate table (aggregator)
 - [src-118] WeatherSpark — Bulgaria city cloud-cover climate pages (commercial)
+- [src-331] open.er-api.com — USD exchange-rate feed (commercial)
 
 ### 7e. Not found
 > Explicit list of resources searched for but not found. Signal for future iterations.
@@ -270,9 +305,11 @@ _(none yet)_
 - Bulgaria dedicated digital-nomad visa
 - Official meteorological annual sunny/clear-day counts for Sofia, Plovdiv, and Varna. WeatherSpark clearer-sky day-equivalent proxies are now captured for §5.2 screening.
 - Bulgaria-Ukraine dual-citizenship reciprocity agreement status
+- Bulgarian NRA official 2026 self-insured contribution table / exact foreigner health-insurance obligation and self-employed IT classification. Direct NRA capture failed during run-065, so the tax worked example uses a PwC-backed planning stress test and remains partial.
+- Accountant-level VAT / reverse-charge and immigration-status compatibility for a Ukrainian foreign-client IT freelancer.
 
 ## Block 8 — Open questions and verification markers
 
 > All `[verification required]` items for this country. Links to the corresponding entries in `verification-queue.md` via item ID.
 
-_(none after run-023 climate verification)_
+- `vq-097`: Bulgaria self-insured contribution package, health-insurance obligation, foreign-client IT classification, VAT / reverse-charge handling, and immigration-status compatibility for a Ukrainian remote IT freelancer.

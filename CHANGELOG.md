@@ -3,6 +3,12 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-07
 ---
+## 2026-06-07 — run-065
+- Bulgaria: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
+- Added Bulgaria tax sources `src-328` through `src-331` and `claim-bulgaria-012` through `claim-bulgaria-017`.
+- Main finding: a USD 3,000/month foreign-client freelance stress test is about BGN 5,072 gross and roughly BGN 3,658 / USD 2,164 net after 25% statutory expenses, capped-base 27.8% contributions, and 10% PIT.
+- Added `vq-097` for self-insured contribution package / IT classification / VAT / immigration-status confirmation; queue 8 -> 9.
+
 ## 2026-06-07 — run-064
 - Romania: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
 - Added Romania tax sources `src-324` through `src-327` and `claim-romania-010` through `claim-romania-016`.
