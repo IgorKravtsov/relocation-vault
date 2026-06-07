@@ -3,6 +3,12 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-07
 ---
+## 2026-06-07 — run-064
+- Romania: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
+- Added Romania tax sources `src-324` through `src-327` and `claim-romania-010` through `claim-romania-016`.
+- Main finding: ordinary PFA-style tax stress test at USD 3,000/month leaves about RON 9,156 / USD 2,027 per month after CAS/CASS and PIT, with a lower gross-base-PIT sensitivity around USD 1,952.
+- Added `vq-096` for PFA registration / expense / VAT / immigration-status confirmation; queue 7 -> 8.
+
 ## 2026-06-07 — run-063
 - Poland: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
 - Added Poland tax sources `src-320` through `src-323`, reused `src-293` USD/PLN, and added `claim-poland-011` through `claim-poland-017`.

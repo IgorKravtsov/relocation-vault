@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-06
+last_updated: 2026-06-07
 ---
 
 # Verification Queue
@@ -183,6 +183,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolution note**: Cyprus profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Nicosia ~295, Limassol ~296, Paphos ~294. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-119]
 
 ## Low priority
+
+## vq-096 [medium priority]
+- **Fact**: "Romania PFA / independent-activity registration, expense deductions, VAT / reverse-charge treatment, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer"
+- **Country**: Romania
+- **Section**: 5.3
+- **Current source**: src-324, src-325, src-326, src-327
+- **Why uncertain**: This tax pass captured the 10% PIT baseline, CAS/CASS thresholds, VAT headline rate, filing deadline, ANAF online filing channels, and a conservative USD 3,000/month net estimate, but did not confirm the exact PFA/CAEN setup for foreign-client IT, deductible-expense mechanics, VAT / EU reverse-charge obligations, or whether the immigration file supports the independent-activity route.
+- **Suggested verification**: Check ANAF / ONRC / Romanian accountant guidance for PFA registration and CAEN classification for IT services, real-system expense deduction and social-contribution ordering, VAT registration / reverse-charge reporting for foreign B2B clients, and compatibility with DN / TP / D-AC or other residence status.
+- **Created**: 2026-06-07 (run-064)
+- **Status**: pending
 
 ## vq-095 [medium priority]
 - **Fact**: "Poland 2026 ZUS normal / preferential self-employed social-contribution amounts and exact IT `ryczalt` / VAT / reverse-charge treatment for a Ukrainian foreign-client IT freelancer"

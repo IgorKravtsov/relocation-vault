@@ -83,3 +83,68 @@
   confidence: medium-high
   tags: [romania, commercial-activity, d-ac, self-employment]
   notes: "OUG 194/2002 Art. 43; use as conservative baseline for vq-027"
+
+- id: claim-romania-010
+  topic: tax_residence_tests
+  value: "Romanian tax residence can arise from Romanian domicile, centre of vital interests in Romania, or presence exceeding 183 days in any 12 consecutive months ending in the relevant calendar year"
+  source: src-324
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [romania, taxes, tax-residence]
+  notes: "PwC Romania individual residence summary reviewed 2026-03-30"
+
+- id: claim-romania-011
+  topic: personal_income_tax_rate
+  value: 10
+  unit: percent
+  source: src-324
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [romania, taxes, pit]
+  notes: "Flat PIT rate; no local personal-income taxes per PwC"
+
+- id: claim-romania-012
+  topic: self_employed_social_insurance_cas
+  value: "25% on a chosen base; for 2026 the base is at least RON 48,600 when income is 12-24 minimum salaries and RON 97,200 when income is at least 24 minimum salaries"
+  source: src-325
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [romania, taxes, social-contributions, cas, self-employed]
+  notes: "Independent/freelancing activity baseline; exact PFA fit remains verification item vq-096"
+
+- id: claim-romania-013
+  topic: self_employed_health_insurance_cass
+  value: "10% of annual net income for independent activities, capped at 72 minimum gross salaries (RON 291,600 for 2026)"
+  source: src-325
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [romania, taxes, health-contribution, cass, self-employed]
+  notes: "PwC says income from independent activities is subject to CASS at 10%; calculation base and expense treatment need accountant confirmation"
+
+- id: claim-romania-014
+  topic: standard_vat_rate
+  value: 21
+  unit: percent
+  source: src-325
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [romania, taxes, vat]
+  notes: "PwC states standard VAT rate is 21% from 1 August 2025; foreign-client IT reverse-charge treatment remains verification item vq-096"
+
+- id: claim-romania-015
+  topic: tax_filing_and_joint_filing
+  value: "Annual income-tax and social-contributions return/payment deadline is 25 May for relevant income categories; spouses are separate taxpayers and joint filing is not regulated"
+  source: [src-324, src-326]
+  date_verified: 2026-06-07
+  confidence: medium-high
+  tags: [romania, taxes, filing, marriage]
+  notes: "ANAF provides official online declaratie unica / SPV-PF and SPV registration anchors; PwC provides deadline and spouse treatment"
+
+- id: claim-romania-016
+  topic: pfa_independent_activity_3000_usd_net_estimate
+  value: "At USD 3,000/month (about RON 162,639/year), conservative no-expense PFA-style stress test leaves about RON 9,156/month (~USD 2,027) after CAS/CASS and PIT if social contributions are deducted before PIT; gross-base PIT variant leaves about RON 8,818/month (~USD 1,952)"
+  source: [src-324, src-325, src-327]
+  date_verified: 2026-06-07
+  confidence: medium
+  tags: [romania, taxes, worked-example, self-employed, budget]
+  notes: "Calculation uses 1 USD = RON 4.517763. Do not mark section 5.3 passed until PFA registration, expense deductions, VAT/reverse-charge, and immigration-status compatibility are confirmed."

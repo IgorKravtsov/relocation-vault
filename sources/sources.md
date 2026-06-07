@@ -3893,3 +3893,51 @@ Each source entry:
 - **Facts supporting**: official business-tax-form baseline for natural-person entrepreneurs: tax scale, 19% flat tax, lump-sum registered-revenue tax, tax-scale default rule, lump-sum eligibility caveats, and health-contribution dependency on chosen tax form (claim-poland-012, claim-poland-014)
 - **Confidence ceiling**: high
 - **Stale at**: 2026-12-07
+
+## src-324
+- **Title**: PwC Worldwide Tax Summaries — Romania individual taxes on personal income, residence, and tax administration
+- **URL**: https://taxsummaries.pwc.com/romania/individual/taxes-on-personal-income ; https://taxsummaries.pwc.com/romania/individual/residence ; https://taxsummaries.pwc.com/romania/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-30
+- **Date accessed**: 2026-06-07
+- **Used by**: Romania
+- **Facts supporting**: Romanian tax-residence tests, worldwide-income scope for residents, 10% flat PIT and no local personal-income tax, annual return / payment deadline of 25 May, separate spouse filing, and foreign-income / independent-activity filing baseline (claim-romania-010, claim-romania-011, claim-romania-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-30
+
+## src-325
+- **Title**: PwC Worldwide Tax Summaries — Romania individual other taxes and social contributions
+- **URL**: https://taxsummaries.pwc.com/romania/individual/other-taxes
+- **Archive**: [archive: failed 2026-06-07; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-30
+- **Date accessed**: 2026-06-07
+- **Used by**: Romania
+- **Facts supporting**: 2026 independent/freelance CAS 25% base thresholds, CASS 10% on annual net income with 72-minimum-salary cap, 2026 minimum-salary base values, and 21% standard VAT baseline from 1 August 2025 (claim-romania-012, claim-romania-013, claim-romania-014, claim-romania-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-30
+
+## src-326
+- **Title**: ANAF — Declaratie unica / SPV-PF filing and Spatiul Privat Virtual registration pages
+- **URL**: https://www.anaf.ro/anaf/internet/ANAF/asistenta_contribuabili/declararea_obligatiilor_fiscale/declaratia_unica ; https://www.anaf.ro/anaf/internet/ANAF/servicii_online/inreg_inrol_pf_pj_spv
+- **Archive**: stable official domain via direct HTML extraction — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-07
+- **Used by**: Romania
+- **Facts supporting**: official ANAF online filing channel for `declaratie unica` / SPV-PF forms and registration / enrolment of individuals and legal entities in Spatiul Privat Virtual (claim-romania-015)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-07
+
+## src-327
+- **Title**: open.er-api.com — USD exchange-rate feed, RON rate
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: failed 2026-06-07; direct JSON extraction used]
+- **Type**: commercial
+- **Date published**: 2026-06-07
+- **Date accessed**: 2026-06-07
+- **Used by**: Romania
+- **Facts supporting**: run-date USD/RON conversion of 1 USD = RON 4.517763 used for Romania section 5.3 PFA / independent-activity tax stress test (claim-romania-016)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-07
