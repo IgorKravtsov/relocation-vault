@@ -1,14 +1,14 @@
 ---
 country: Turkey
 tier: null
-depth_score: 1.5
-last_updated: 2026-05-31T22:25:18Z
+depth_score: 2.0
+last_updated: 2026-06-08T09:02:54Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent"]
-sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent", "turkey-self-employment-and-sgk-fit-gap"]
+sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163", "src-359", "src-360", "src-361", "src-362", "src-363", "src-364"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Turkey is easy to enter for Ukrainians and has an official digital-nomad / remote-work channel, but the route sits exactly at the couple's current ~$3,000/month income and long-term settlement depends on ordinary Turkish residence rather than an EU-style Ukraine temporary-protection bridge.
-- **depth_score**: 1.5
-- **Last updated**: 2026-05-31T22:25:18Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-08T09:02:54Z
 - **Tier rationale**: Not assigned until taxes, cost, healthcare, rent, and actual residence-renewal practice are researched.
 
 ## Block 2 — Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | Entry and DN/ordinary residence routes opened; long-term and Ukraine-specific protection baselines need verification. | §5.1 |
 | Climate | — | medium | Istanbul, Izmir, and Antalya climate baselines captured; WeatherSpark clearer-sky proxies close the sunny-day blocker for planning, with Antalya still represented by sunshine-hour evidence rather than a direct WeatherSpark page. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | First-pass resident / self-employed tax model added: ordinary progressive PIT is heavy at the couple's income, and SGK / VAT / immigration-status fit remain unresolved. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -92,9 +92,44 @@ schema_version: 2.0.0
 
 **Sunny / clearer-sky verification.** WeatherSpark's monthly cloud-cover tables give the share of time when the sky is clear, mostly clear, or partly cloudy. Converting those monthly percentages by month length gives about **231 clearer-sky day-equivalent days/year for Istanbul** and **266 for Izmir**. Antalya still lacks a directly extracted WeatherSpark city page in this vault, but its **~2,865 sunshine hours/year** baseline is materially stronger than Istanbul and supports the operational conclusion that Antalya is Turkey's warmest/sunniest first-pass city. Treat all these as medium-confidence climate proxies, not official meteorological sunny-day counts. [src-151][src-162][src-163]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-08, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. A first-pass Turkey tax model is now captured for the male IT partner at USD 3,000/month. It covers tax residence, worldwide-income exposure, 2026 progressive PIT brackets, foreign-client business/professional income caveats, employee-style SGK sensitivity, VAT context, filing mechanics, and a worked gross-to-net calculation. It does **not** prove the correct Turkish structure for a Ukrainian DN / ordinary-residence foreign-client IT worker, exact Bag-Kur / SGK self-employed premium base, VAT export / reverse-charge treatment, or whether DN status changes tax registration duties.
+
+#### Tax residence and income scope
+
+PwC Turkey states that residents are people with legal residence in Turkey or who intend to settle there; foreigners who reside in Turkey for more than six months in one calendar year are also treated as tax resident. Residents are full taxpayers, while people without Turkish legal residence and without more-than-six-month residence are limited taxpayers. Turkey generally taxes residents on worldwide income and non-residents on Turkish-source earnings only. [src-359][src-360] Confidence: medium-high.
+
+For this couple, the conservative screening baseline is: if they actually live in Turkey on a DN / residence-permit route long enough to become tax resident, assume worldwide foreign-client IT income is in scope unless a Turkish tax adviser confirms a specific exemption. PwC notes a foreign-income exemption regime introduced by Law No. 7582, but this pass did not establish that it applies to foreign-client freelancers or DN residents, so it is **not** used in the worked example. [src-360]
+
+#### IT freelance / foreign-client route
+
+PwC's income-determination page warns that there may be restrictions on self-employment activities of foreign nationals in Turkey. It states that profits or gains from trades, professions, or vocations carried out in Turkey are taxable whether or not the individual is resident; if resident in Turkey, liability may arise even if the trade or profession is conducted abroad. This supports a conservative position that the male partner needs Turkish tax / immigration advice before assuming remote foreign-client work can remain untaxed or unregistered. [src-361] Confidence: medium-high.
+
+#### 2026 PIT brackets
+
+For 2026, PwC gives progressive PIT brackets for non-employment income: 15% up to TRY 190,000; 20% from TRY 190,000 to TRY 400,000; 27% from TRY 400,000 to TRY 1,000,000; 35% from TRY 1,000,000 to TRY 5,300,000; and 40% above TRY 5,300,000. The same page says there are no local taxes on personal income in Turkey. [src-360] Confidence: medium-high.
+
+#### Social security, VAT, filing, and spouse effect
+
+PwC's individual other-taxes page gives employee-style 2026 social-security salary limits of TRY 33,030/month minimum and TRY 297,270/month maximum, with general Turkish-national rates of 14% employee social security plus 1% unemployment insurance and employer-side contributions as well. Foreign nationals may be exempt from Turkish social security for up to three months if they remain covered by a home-country system and proof is filed, with longer periods possible under a treaty. This is not enough to finalize a self-employed Bag-Kur / SGK answer, but it is enough to show that social contributions can materially reduce the net result. [src-362] Confidence: medium-high for employee-style rates; medium/verification-required for applying them to this freelancer.
+
+VAT is a real follow-up issue: PwC Turkey's corporate VAT overview says deliveries of goods and services are subject to VAT at rates from 1% to 20%, with the general rate 20%, and that input VAT is offset against output VAT in the VAT return. This pass did not verify whether foreign-client IT services are zero-rated/exported, reverse-charged, exempt, or require Turkish VAT registration. [src-363] Confidence: medium-high for headline VAT context.
+
+The annual individual tax return is due by 31 March of the following year. Where tax is due via return, it is paid in two instalments by the end of March and July. Taxpayers filing returns for commercial or professional income must pay advance income tax at 15% of cumulative income at the end of each quarter except the fourth quarter. [src-362] Confidence: medium-high.
+
+Marriage does not create a captured joint-filing advantage in this pass; treat the tax model as one working partner with the student's income at zero unless a Turkish adviser confirms family deductions or spouse-specific insurance treatment.
+
+#### Worked example at USD 3,000/month
+
+FX snapshot: XE showed **1 USD = TRY 46.0952** on 2026-06-08. Therefore USD 3,000/month is about **TRY 138,286/month**, or **TRY 1,659,427/year**. [src-364]
+
+- **PIT-only foreign-client professional-income model**: annual PIT is about TRY 463,300 using the 2026 non-employment brackets; monthly PIT is about TRY 38,608. Net is about **TRY 99,677/month (~USD 2,162)** before SGK, accountant, VAT, health insurance, and immigration costs. [src-360][src-364]
+- **Employee-rate SGK sensitivity**: if a 15% employee-style social-security / unemployment burden were applied to gross and deducted before PIT, the stress-test net falls to about **TRY 86,194/month (~USD 1,870)**. This is a sensitivity only, not a final self-employed answer, because the correct Bag-Kur / SGK base for a foreign-client IT file was not captured. [src-362][src-364]
+
+#### Screening conclusion
+
+Turkey is tax-heavy at the couple's current income if ordinary progressive PIT applies, especially because the DN income threshold already consumes the full USD 3,000/month budget. Use **TRY 99,700/month / USD 2,160 PIT-only** as the optimistic conservative screening baseline and **TRY 86,200/month / USD 1,870** as a social-contribution sensitivity, both before rent and professional costs. Do **not** mark Turkey section 5.3 passed until a Turkish tax adviser or official SGK / Revenue guidance confirms the correct registration route, self-employed premium base, VAT treatment, foreign-income exemption eligibility, and DN / ordinary-residence compatibility.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -157,7 +192,7 @@ schema_version: 2.0.0
 - $3,000/month DN threshold is exactly at the couple's current income, leaving little margin.
 - No captured Ukraine-specific TP bridge or protection equivalent.
 - Long-term residence / citizenship pathway needs article-level verification.
-- Currency, inflation, rent, healthcare, and tax impacts are not researched yet.
+- Currency, inflation, rent, healthcare, and exact SGK/VAT tax impacts remain material unresolved risks.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -171,7 +206,7 @@ schema_version: 2.0.0
 - Prepare address, health insurance, biometric/photo, and appointment evidence once the exact route is selected.
 
 ### 6c. First 3–6 months
-- Verify tax residency and self-employment obligations for foreign-client IT income.
+- Verify tax residency, SGK / Bag-Kur registration, VAT / export-of-services treatment, and whether the DN or ordinary-residence status permits the chosen foreign-client IT tax structure. [src-359][src-361][src-362][src-363]
 - Decide whether marriage is needed for dependent residence.
 
 ### 6d. Before March 2027 (critical deadline)
@@ -211,10 +246,18 @@ schema_version: 2.0.0
 ### 7b. Official secondary
 - [src-148] GoTurkey digital-nomad application / tourism portal.
 
+### 7b. Reliable secondary tax sources
+- [src-359] PwC Turkey individual residence.
+- [src-360] PwC Turkey individual taxes on personal income.
+- [src-361] PwC Turkey individual income determination.
+- [src-362] PwC Turkey individual other taxes and tax administration.
+- [src-363] PwC Turkey corporate VAT / other taxes.
+
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
 
 ### 7d. Statistical / commercial
+- [src-364] XE USD/TRY exchange-rate snapshot.
 - [src-149] Climate to Travel — Istanbul.
 - [src-150] Climate to Travel — Izmir.
 - [src-151] Climate to Travel — Antalya.
@@ -231,3 +274,4 @@ _(none yet)_
 - `vq-048` — resolved in run-028: no Ukraine-specific Turkish TP bridge captured; use ordinary residence planning, and Polish residence/TP does not substitute for Turkish status. [src-146][src-154]
 - `vq-049` — resolved in run-028 for long-term residence counting: at least eight years continuous residence; student time half, other ordinary permit time full; TP/humanitarian residence does not transfer. Citizenship remains a later nationality pass. [src-154]
 - `vq-050` — resolved in run-030 at medium confidence: WeatherSpark clearer-sky day-equivalent proxies added for Istanbul (~231 days/year) and Izmir (~266 days/year); Antalya remains represented by a strong sunshine-hour proxy (~2,865 h/year) rather than an official sunny-day count. [src-151][src-162][src-163]
+- `vq-103` — pending: confirm the correct Turkish structure for a Ukrainian foreign-client IT worker, including self-employment permission under DN / ordinary residence, SGK / Bag-Kur premium base, VAT / export-of-services treatment, foreign-income exemption eligibility, and whether the PIT-only model is too optimistic. [src-359][src-360][src-361][src-362][src-363][src-364]

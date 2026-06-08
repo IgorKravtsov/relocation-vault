@@ -4313,3 +4313,76 @@ Each source entry:
 - **Facts supporting**: USD/RSD rate snapshot of about 1 USD = RSD 100.72 used only for Serbia section 5.3 worked example (claim-serbia-015)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-08
+
+
+## src-359
+- **Title**: PwC Worldwide Tax Summaries — Turkey individual residence
+- **URL**: https://taxsummaries.pwc.com/turkey/individual/residence
+- **Archive**: [archive: failed 2026-06-08; Wayback returned HTTP 429, direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-27
+- **Date accessed**: 2026-06-08
+- **Used by**: Turkey
+- **Facts supporting**: Turkey tax-residence tests, more-than-six-month foreigner residence rule, full-taxpayer / limited-taxpayer distinction (claim-turkey-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-27
+
+## src-360
+- **Title**: PwC Worldwide Tax Summaries — Turkey individual taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/turkey/individual/taxes-on-personal-income
+- **Archive**: [archive: failed 2026-06-08; Wayback returned HTTP 429, direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-27
+- **Date accessed**: 2026-06-08
+- **Used by**: Turkey
+- **Facts supporting**: resident worldwide-income / non-resident Turkish-source baseline, foreign-income exemption caveat, 2026 progressive PIT brackets for non-employment income, and no local personal income tax (claim-turkey-010, claim-turkey-012, claim-turkey-014)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-27
+
+## src-361
+- **Title**: PwC Worldwide Tax Summaries — Turkey individual income determination
+- **URL**: https://taxsummaries.pwc.com/turkey/individual/income-determination
+- **Archive**: [archive: failed 2026-06-08; Wayback returned HTTP 429, direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-27
+- **Date accessed**: 2026-06-08
+- **Used by**: Turkey
+- **Facts supporting**: foreign-national self-employment restriction warning and business / professional income taxability for activities carried out in Turkey or by Turkish tax residents abroad (claim-turkey-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-27
+
+## src-362
+- **Title**: PwC Worldwide Tax Summaries — Turkey individual other taxes and tax administration
+- **URL**: https://taxsummaries.pwc.com/turkey/individual/other-taxes ; https://taxsummaries.pwc.com/turkey/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-08; Wayback returned HTTP 429, direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-27
+- **Date accessed**: 2026-06-08
+- **Used by**: Turkey
+- **Facts supporting**: 2026 employee-style social-security and unemployment contribution rates / bases, foreign-coverage exemption caveat, annual return deadline, March/July payment instalments, and 15% quarterly advance tax for commercial or professional income (claim-turkey-013, claim-turkey-014)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-27
+
+## src-363
+- **Title**: PwC Worldwide Tax Summaries — Turkey corporate other taxes / VAT
+- **URL**: https://taxsummaries.pwc.com/turkey/corporate/other-taxes
+- **Archive**: [archive: failed 2026-06-08; Wayback returned HTTP 429, direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-27
+- **Date accessed**: 2026-06-08
+- **Used by**: Turkey
+- **Facts supporting**: Turkey VAT context, including 1%-20% VAT rate range, 20% general rate, input/output VAT mechanism, and VAT-return context for later foreign-client IT checks (claim-turkey-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-27
+
+## src-364
+- **Title**: XE Currency Converter — USD to Turkish lira snapshot
+- **URL**: https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=TRY
+- **Archive**: [archive: failed 2026-06-08; Wayback returned HTTP 429, direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: live rate snapshot, no static publication date
+- **Date accessed**: 2026-06-08
+- **Used by**: Turkey
+- **Facts supporting**: USD/TRY rate snapshot of 1 USD = TRY 46.0952 used only for Turkey section 5.3 worked example (claim-turkey-014)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08

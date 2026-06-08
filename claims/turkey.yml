@@ -79,3 +79,49 @@
   confidence: medium-high
   tags: [digital-nomad, checklist, turkey]
   notes: "Resolves vq-047 at the core-route level without overclaiming consular fee/dependent mechanics."
+
+
+- id: claim-turkey-010
+  topic: turkey_tax_residence_worldwide_income
+  value: "Foreigners residing in Turkey for more than six months in a calendar year are treated as tax resident; Turkish residents are generally taxed on worldwide income, while non-residents are taxed on Turkish-source income only."
+  source: src-359
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [tax-residence, worldwide-income, turkey]
+  notes: "Composite claim using src-359 and src-360; foreign-income exemption was not applied because freelancer / DN fit was not proven."
+
+- id: claim-turkey-011
+  topic: turkey_foreign_client_professional_income_scope
+  value: "PwC warns that foreign nationals may face restrictions on self-employment in Turkey; profits from trades, professions, or vocations carried out in Turkey are taxable whether or not the person is resident, and resident liability may arise even if the trade or profession is conducted abroad."
+  source: src-361
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [self-employment, foreign-client-it, turkey]
+  notes: "Supports conservative adviser-required baseline for a Ukrainian DN / ordinary-residence IT freelancer."
+
+- id: claim-turkey-012
+  topic: turkey_2026_non_employment_pit_brackets
+  value: "2026 non-employment PIT brackets: 15% to TRY 190,000; 20% to TRY 400,000; 27% to TRY 1,000,000; 35% to TRY 5,300,000; 40% above TRY 5,300,000."
+  source: src-360
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [pit, tax-brackets, 2026, turkey]
+  notes: "Used for the USD 3,000/month PIT-only worked example."
+
+- id: claim-turkey-013
+  topic: turkey_social_security_vat_filing_context
+  value: "PwC gives 2026 employee-style social-security / unemployment rates and salary bases, a 20% headline VAT rate, annual return by 31 March, March/July tax payment instalments, and 15% quarterly advance tax for commercial or professional income."
+  source: src-362
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [social-security, vat, filing, turkey]
+  notes: "Composite claim using src-362 and src-363; exact self-employed SGK / VAT export treatment remains verification-required."
+
+- id: claim-turkey-014
+  topic: turkey_usd3000_tax_stress_test
+  value: "At 1 USD = TRY 46.0952, USD 3,000/month is about TRY 138,286/month. Applying 2026 non-employment PIT brackets gives about TRY 99,677/month (USD 2,162) PIT-only net; a 15% employee-style social-security sensitivity gives about TRY 86,194/month (USD 1,870) net."
+  source: src-364
+  date_verified: 2026-06-08
+  confidence: medium
+  tags: [worked-example, tax-net, turkey, usd3000]
+  notes: "Calculation uses src-360 for PIT brackets, src-362 for social-security sensitivity, and src-364 for FX. It is partial, not a final Turkish self-employed answer."

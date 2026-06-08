@@ -184,6 +184,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+## vq-103 [medium priority]
+- **Fact**: "Turkey DN / ordinary-residence foreign-client IT tax route: self-employment permission, SGK / Bag-Kur premium base, VAT / export-of-services treatment, foreign-income exemption eligibility, and whether the PIT-only model is too optimistic"
+- **Country**: Turkey
+- **Section**: 5.3
+- **Current source**: src-359, src-360, src-361, src-362, src-363, src-364
+- **Why uncertain**: This tax pass captured tax residence, worldwide-income exposure, 2026 PIT brackets, PwC's self-employment restriction warning, employee-style social-security sensitivity, VAT context, filing mechanics, and a USD 3,000/month worked example, but did not prove the correct Turkish structure for a Ukrainian foreign-client IT worker on DN / ordinary residence.
+- **Suggested verification**: Capture Turkish Revenue / SGK / Bag-Kur guidance or current Turkish accountant advice on freelancer / sole-proprietor registration, SGK premium base, export-of-services / VAT treatment for foreign B2B clients, foreign-income exemption applicability, and immigration-status compatibility before marking Turkey §5.3 passed.
+- **Created**: 2026-06-08 (run-073)
+- **Status**: pending
+
 ## vq-102 [medium priority]
 - **Fact**: "Serbia foreign-client IT route classification: freelancer portal versus registered entrepreneur / APR activity, lump-sum or expense treatment, social-contribution base, VAT / reverse-charge / e-invoicing, and compatibility with the self-employment or independent-professional single permit"
 - **Country**: Serbia

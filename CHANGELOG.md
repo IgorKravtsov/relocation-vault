@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-08
 ---
 
+## 2026-06-08 — run-073
+- Turkey: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
+- Added Turkey tax / FX sources `src-359` through `src-364` and `claim-turkey-010` through `claim-turkey-014`.
+- Main finding: USD 3,000/month is about TRY 138,286; ordinary 2026 non-employment PIT leaves about TRY 99,677 / USD 2,162 net, while a 15% employee-style SGK sensitivity leaves about TRY 86,194 / USD 1,870.
+- Added `vq-103` for Turkish self-employment / SGK / VAT / foreign-income exemption / immigration-status compatibility; queue 8 -> 9, below the active verification threshold.
+
 ## 2026-06-08 — run-072
 - Serbia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
 - Added Serbia tax / FX sources `src-353` through `src-358` and `claim-serbia-011` through `claim-serbia-015`.
