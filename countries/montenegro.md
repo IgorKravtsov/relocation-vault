@@ -2,13 +2,13 @@
 country: Montenegro
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-08T02:42:16Z
+last_updated: 2026-06-08T15:18:10Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-income-threshold-needs-primary-check", "digital-nomad-long-term-counting-unclear", "montenegro-tax-registration-and-ssc-fit-gap"]
 sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-143", "src-348", "src-349", "src-350", "src-351", "src-352"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests a potentially useful non-EU fallback because Montenegro has extended temporary protection for Ukrainians to 04 March 2027 and advertises a digital-nomad residence framework, but the DN numeric income amount, long-term residence counting, and tax-registration / social-contribution fit for a foreign-client IT freelancer remain unresolved. [src-123][src-124][src-127][src-349]
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-08T02:42:16Z
+- **Last updated**: 2026-06-08T15:18:10Z
 - **Tier rationale**: Do not classify yet. The official DN page now confirms filing route, document categories, duration, processing time, and spouse/minor-child family baseline; remaining classification blockers are the exact numeric income floor, tax/cost fit, and whether DN or other temporary-residence time can safely build a long-term PR clock.
 
 ## Block 2 — Scoring
@@ -121,7 +121,7 @@ A Montenegro-focused weather guide gives direct sunny-day heuristics: Podgorica 
 
 **Marriage / partner tax effect.** This pass did not capture joint-filing or dependent-spouse allowance mechanics. Treat marriage as primarily an immigration/dependent strategy for Montenegro; any tax effect should be checked with a local accountant once the actual residence route is chosen. [verification required]
 
-**Bottom line for the couple.** Montenegro's first-pass tax screen looks more workable than many EU self-employed baselines if the entrepreneur PIT model applies: PIT-only net is about EUR 2,314/month (~USD 2,693), and even a conservative employee-rate SSC sensitivity remains around EUR 2,043/month (~USD 2,378). Keep §5.3 partial because the exact self-employed registration, SSC, VAT/reverse-charge, and DN/ordinary-residence compatibility are not verified.
+**Bottom line for the couple.** Montenegro's first-pass tax screen looks more workable than many EU self-employed baselines if the entrepreneur PIT model applies: PIT-only net is about EUR 2,314/month (~USD 2,693), and even a conservative employee-rate SSC sensitivity remains around EUR 2,043/month (~USD 2,378). Verification run-075 closes the tax-fit queue item only for screening: use the PIT-plus-SSC-sensitivity model as the safe planning baseline, keep §5.3 partial, and treat self-employed registration category, exact SSC base/rates, VAT/reverse-charge, and DN/ordinary-residence compatibility as accountant/application-prep checks. [src-349][src-350][src-351][src-352]
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 

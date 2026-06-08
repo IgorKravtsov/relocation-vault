@@ -2,13 +2,13 @@
 country: Slovenia
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-07T23:34:54Z
+last_updated: 2026-06-08T15:18:10Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
 risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable", "slovenia-self-employed-tax-and-immigration-fit-gap"]
 sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187", "src-344", "src-345", "src-346", "src-347", "src-348"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence is unusually interesting for the couple: Slovenia has official temporary protection for Ukrainians, an explicit post-temporary-protection filing window, and a new digital-nomad residence permit for non-EU remote workers. The route is capped at one year and the income formula likely sits near or above the couple's current budget, so do not assign a tier until the numeric threshold, taxes, renewal/permit-counting rules, and costs are researched. [src-110][src-111]
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-07T23:34:54Z
+- **Last updated**: 2026-06-08T15:18:10Z
 - **Tier rationale**: Keep unassigned until PR/citizenship counting for DN/TP time, DN-to-ordinary status strategy, tax/business fit, and cost-of-living/rent passes are complete.
 
 ## Block 2 — Scoring
@@ -132,7 +132,7 @@ WeatherSpark provides monthly percentages for the broader clearer-sky categories
 
 **Marriage / partner tax effect.** PwC describes individual filing mechanics and dependent-family allowances, but this pass did not prove a useful spouse/unmarried-partner tax benefit for a non-working partner. Treat marriage as primarily an immigration/dependent issue in Slovenia until a tax adviser confirms dependent allowance access and residence-status effects. [src-346]
 
-**Bottom line for the couple.** At the current income, Slovenia's tax picture is not yet attractive under the conservative ordinary self-employed model: about EUR 1,364/month net would leave little room for Slovenian rent and DN income-threshold compliance. The remaining tax question is whether a legitimate Slovenian self-employed / normirani s.p. structure materially improves the net and is compatible with the DN or single-permit route; queue this for verification before scoring §5.3 as passed.
+**Bottom line for the couple.** At the current income, Slovenia's tax picture is not yet attractive under the conservative ordinary self-employed model: about EUR 1,364/month net would leave little room for Slovenian rent and DN income-threshold compliance. Verification run-075 closes the accountant-level tax-fit queue item only for screening: use this conservative model as the safe planning baseline, keep §5.3 partial, and treat normirani s.p. eligibility, exact contribution bases, VAT/reverse-charge reporting, and DN/single-permit compatibility as accountant/application-prep checks rather than country-screening blockers. [src-344][src-345][src-346][src-347][src-348]
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 

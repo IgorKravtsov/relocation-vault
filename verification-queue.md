@@ -189,40 +189,48 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Country**: Georgia
 - **Section**: 5.3
 - **Current source**: src-365, src-366, src-367, src-368, src-369, src-370
-- **Why uncertain**: This tax pass captured the 183-day residence rule, foreign-source exemption caveat, 20% ordinary PIT, 1%/3% small-business turnover regime, no-social-security baseline, 4% pension sensitivity, VAT threshold/place-of-supply context, and a USD 3,000/month worked example, but did not prove the exact Georgian Revenue Service / accountant mapping for foreign-client IT under the official IT residence permit.
-- **Suggested verification**: Capture Revenue Service / Georgian accountant guidance for individual entrepreneur registration, small-business status eligibility for IT activity codes, foreign-client B2B service place-of-supply / VAT or export-treatment reporting, pension registration, and whether the same structure supports IT residence permit issuance and renewal before marking Georgia §5.3 passed.
+- **Why uncertain**: Resolved to a conservative screening baseline: the Georgia profile now uses the small-business tax-only / pension-sensitivity model only as an optimistic planning baseline, preserves the 20% PIT downside fallback, and keeps §5.3 partial until Revenue Service / accountant confirmation.
+- **Suggested verification**: none for screening; Revenue Service / accountant confirmation remains application-prep before filing or marking §5.3 passed.
 - **Created**: 2026-06-08 (run-074)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-08 (run-075)
+- **Resolution note**: Closed for country screening only. Activity code, small-business status eligibility, VAT/place-of-supply or export-treatment reporting, pension registration, and IT-residence renewal evidence remain application-prep checks. [src-157][src-365][src-367][src-369][src-370]
 
 ## vq-103 [medium priority]
 - **Fact**: "Turkey DN / ordinary-residence foreign-client IT tax route: self-employment permission, SGK / Bag-Kur premium base, VAT / export-of-services treatment, foreign-income exemption eligibility, and whether the PIT-only model is too optimistic"
 - **Country**: Turkey
 - **Section**: 5.3
 - **Current source**: src-359, src-360, src-361, src-362, src-363, src-364
-- **Why uncertain**: This tax pass captured tax residence, worldwide-income exposure, 2026 PIT brackets, PwC's self-employment restriction warning, employee-style social-security sensitivity, VAT context, filing mechanics, and a USD 3,000/month worked example, but did not prove the correct Turkish structure for a Ukrainian foreign-client IT worker on DN / ordinary residence.
-- **Suggested verification**: Capture Turkish Revenue / SGK / Bag-Kur guidance or current Turkish accountant advice on freelancer / sole-proprietor registration, SGK premium base, export-of-services / VAT treatment for foreign B2B clients, foreign-income exemption applicability, and immigration-status compatibility before marking Turkey §5.3 passed.
+- **Why uncertain**: Resolved to a conservative screening baseline: the Turkey profile now uses the ordinary PIT-only model and SGK sensitivity for planning, does not assume a foreign-income exemption or DN tax shelter, and keeps §5.3 partial until Turkish adviser / authority confirmation.
+- **Suggested verification**: none for screening; Turkish Revenue / SGK / Bag-Kur or accountant confirmation remains application-prep before filing or marking §5.3 passed.
 - **Created**: 2026-06-08 (run-073)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-08 (run-075)
+- **Resolution note**: Closed for country screening only. Correct registration route, self-employed premium base, VAT/export-of-services treatment, foreign-income exemption eligibility, and DN/ordinary-residence compatibility remain application-prep checks. [src-359][src-360][src-361][src-362][src-363]
 
 ## vq-102 [medium priority]
 - **Fact**: "Serbia foreign-client IT route classification: freelancer portal versus registered entrepreneur / APR activity, lump-sum or expense treatment, social-contribution base, VAT / reverse-charge / e-invoicing, and compatibility with the self-employment or independent-professional single permit"
 - **Country**: Serbia
 - **Section**: 5.3
 - **Current source**: src-353, src-354, src-355, src-356, src-357, src-358
-- **Why uncertain**: This tax pass captured tax residence, PIT/self-employment baselines, the official freelancer portal scope for foreign-payer income, SSC/VAT context, and a conservative USD 3,000/month stress test, but did not prove whether the best tax route is unregistered freelancer self-taxation, registered entrepreneur / sole proprietor, or another structure accepted by MUP for a single permit.
-- **Suggested verification**: Capture Serbian Tax Administration / APR / accountant guidance for IT activity classification, lump-sum eligibility or deductible-expense model, exact self-employed/freelancer contribution base, VAT / reverse-charge / e-invoicing treatment for foreign B2B clients, and whether the structure supports a self-employment or independent-professional single permit before marking §5.3 passed.
+- **Why uncertain**: Resolved to a conservative screening baseline: the Serbia profile now uses the gross-base and 20% expense-base stress tests, explicitly does not assume the official freelancer portal creates immigration status, and keeps §5.3 partial until APR/tax/single-permit fit is confirmed.
+- **Suggested verification**: none for screening; Serbian Tax Administration / APR / accountant confirmation remains application-prep before filing or marking §5.3 passed.
 - **Created**: 2026-06-08 (run-072)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-08 (run-075)
+- **Resolution note**: Closed for country screening only. APR/tax registration, lump-sum or freelancer self-taxation fit, contribution bases, VAT / e-invoicing / foreign-client treatment, and single-permit compatibility remain application-prep checks. [src-353][src-355][src-356][src-357]
 
 ## vq-101 [medium priority]
 - **Fact**: "Montenegro entrepreneur/self-employed registration, exact SSC base/rates, VAT / reverse-charge handling, and DN/ordinary-residence tax compatibility for a Ukrainian foreign-client IT freelancer"
 - **Country**: Montenegro
 - **Section**: 5.3
 - **Current source**: src-348, src-349, src-350, src-351, src-352
-- **Why uncertain**: This tax pass captured tax-residence, entrepreneurial PIT bands, broad SSC/VAT/filing baselines, and a USD 3,000/month worked example, but did not prove the exact registration category for foreign-client IT, the current self-employed SSC base/rates, small-business VAT threshold or foreign-client place-of-supply / reverse-charge mechanics, or whether DN residence changes the tax result.
-- **Suggested verification**: Capture Montenegrin Tax Administration / SSC-law guidance or current Montenegro accountant advice for entrepreneur registration, self-employed contribution base, VAT threshold and foreign-client reverse-charge handling, and DN / ordinary-residence compatibility before marking §5.3 passed.
+- **Why uncertain**: Resolved to a conservative screening baseline: the Montenegro profile now uses the entrepreneur PIT baseline plus SSC sensitivity, does not assume a DN tax exemption, and keeps §5.3 partial until registration / SSC / VAT / residence compatibility is confirmed.
+- **Suggested verification**: none for screening; Montenegrin Tax Administration / SSC-law or accountant confirmation remains application-prep before filing or marking §5.3 passed.
 - **Created**: 2026-06-08 (run-071)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-08 (run-075)
+- **Resolution note**: Closed for country screening only. Self-employed registration category, exact SSC base/rates, VAT/reverse-charge, and DN/ordinary-residence compatibility remain application-prep checks. [src-349][src-350][src-351][src-352]
 
 ## vq-099 [medium priority]
 - **Fact**: "Slovakia SZCO/trade classification, VAT / reverse-charge handling, first-year contribution timing, and self-employed/business residence compatibility for a Ukrainian foreign-client IT freelancer"
@@ -241,10 +249,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Country**: Slovenia
 - **Section**: 5.3
 - **Current source**: src-344, src-345, src-346, src-347, src-348
-- **Why uncertain**: This tax pass captured a conservative ordinary self-employed stress test using PwC PIT/social/VAT context and ECB FX, but did not capture stable official 2026 normirani s.p. rule text, a new-entrepreneur contribution-base table, foreign-client VAT / reverse-charge filing mechanics, or whether the structure is compatible with the DN route or self-employed/single-permit route.
-- **Suggested verification**: Capture Slovenian FURS / SPOT / ZPIZ / health-insurance or accountant guidance for 2026 s.p. and normirani rules, contribution bases, foreign-client IT VAT / reverse-charge reporting, and DN / single-permit compatibility before scoring Slovenia section 5.3 as passed.
+- **Why uncertain**: Resolved to a conservative screening baseline: the Slovenia profile now uses the ordinary self-employed gross-rate stress test as the safe planning model, does not assume normirani s.p. availability, and keeps §5.3 partial until Slovenian accountant / authority confirmation.
+- **Suggested verification**: none for screening; FURS / SPOT / ZPIZ / health-insurance or accountant confirmation remains application-prep before filing or marking §5.3 passed.
 - **Created**: 2026-06-07 (run-070)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-08 (run-075)
+- **Resolution note**: Closed for country screening only. Normirani s.p. eligibility, exact contribution bases, VAT/reverse-charge reporting, and DN/single-permit compatibility remain application-prep checks. [src-344][src-345][src-346][src-347][src-348]
 
 ## vq-098 [medium priority]
 - **Fact**: "Hungary individual-entrepreneur tax regime, exact 2026 contribution bases, KATA / flat-rate eligibility, VAT / reverse-charge treatment, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer"

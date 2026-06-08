@@ -4,6 +4,11 @@ version: 1.0.0
 last_updated: 2026-06-08
 ---
 
+## 2026-06-08 — run-075
+- Verification batch: resolved `vq-100` through `vq-104` to conservative screening baselines for Slovenia, Montenegro, Serbia, Turkey, and Georgia tax-fit blockers.
+- Country tax sections remain partial; accountant / VAT / contribution / immigration-status details were demoted to application-prep checks rather than treated as passed DoD.
+- Verification queue: 10 -> 5 pending/open items. Next suggested focus: Cyprus 5.4/5.5 cost and rent.
+
 ## 2026-06-08 — run-074
 - Georgia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
 - Added Georgia tax / FX sources `src-365` through `src-370` and `claim-georgia-008` through `claim-georgia-012`.

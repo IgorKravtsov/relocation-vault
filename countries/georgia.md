@@ -2,13 +2,13 @@
 country: Georgia
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-08T12:09:59Z
+last_updated: 2026-06-08T15:18:10Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["visa-free-not-residence", "georgia-small-business-tax-and-it-residence-fit-gap"]
 sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. Georgia is easy to enter and has an official IT residence-permit category that may fit the male IT worker, but the route needs verification on the 2026 work-right / small-business mechanics and is not an EU temporary-protection bridge.
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-08T12:09:59Z
+- **Last updated**: 2026-06-08T15:18:10Z
 - **Tier rationale**: Not assigned until taxes, cost of living, rent, healthcare, and practical permit-renewal experience are researched.
 
 ## Block 2 — Scoring
@@ -117,7 +117,7 @@ FX snapshot used only for screening: **1 USD = GEL 2.661955**. [src-370]
 | Small-business + 4% pension sensitivity | GEL 7,986 (~USD 3,000) | 1% turnover tax + 4% self-employed pension sensitivity = GEL 399/month | GEL 7,587 (~USD 2,850) | Conservative planning sensitivity until pension obligation is mapped for this exact status. |
 | Ordinary PIT fallback | GEL 7,986 (~USD 3,000) | 20% PIT on gross | GEL 6,389 (~USD 2,400) | Use if small-business status is unavailable or unsafe for the immigration / IT-residence file. |
 
-**Tax verdict for first pass**: Georgia looks tax-attractive if the male partner can safely operate as a Georgian individual entrepreneur with small-business status: the screening net is roughly USD 2,850-2,970/month before accountant, VAT, bank, and immigration costs. Do **not** mark §5.3 passed yet: the decisive practical question is whether a Ukrainian foreign-client IT worker using the official IT residence permit can register the right Georgian activity / small-business status, keep the 1% regime, handle VAT/place-of-supply correctly, and document the same structure for residence renewal. [src-157][src-365][src-367][src-369]
+**Tax verdict for first pass**: Georgia looks tax-attractive if the male partner can safely operate as a Georgian individual entrepreneur with small-business status: the screening net is roughly USD 2,850-2,970/month before accountant, VAT, bank, and immigration costs. Verification run-075 closes the tax-fit queue item only for screening: use the small-business tax-only / pension-sensitivity model as the optimistic conservative baseline, keep the 20% PIT fallback for downside screening, and keep §5.3 partial. Activity code, small-business status eligibility, VAT/place-of-supply or export-treatment reporting, pension registration, and IT-residence renewal evidence remain Revenue Service / accountant application-prep checks. [src-157][src-365][src-367][src-369][src-370]
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 

@@ -2,13 +2,13 @@
 country: Turkey
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-08T09:02:54Z
+last_updated: 2026-06-08T15:18:10Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent", "turkey-self-employment-and-sgk-fit-gap"]
 sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163", "src-359", "src-360", "src-361", "src-362", "src-363", "src-364"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass shows Turkey is easy to enter for Ukrainians and has an official digital-nomad / remote-work channel, but the route sits exactly at the couple's current ~$3,000/month income and long-term settlement depends on ordinary Turkish residence rather than an EU-style Ukraine temporary-protection bridge.
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-08T09:02:54Z
+- **Last updated**: 2026-06-08T15:18:10Z
 - **Tier rationale**: Not assigned until taxes, cost, healthcare, rent, and actual residence-renewal practice are researched.
 
 ## Block 2 — Scoring
@@ -129,7 +129,7 @@ FX snapshot: XE showed **1 USD = TRY 46.0952** on 2026-06-08. Therefore USD 3,00
 
 #### Screening conclusion
 
-Turkey is tax-heavy at the couple's current income if ordinary progressive PIT applies, especially because the DN income threshold already consumes the full USD 3,000/month budget. Use **TRY 99,700/month / USD 2,160 PIT-only** as the optimistic conservative screening baseline and **TRY 86,200/month / USD 1,870** as a social-contribution sensitivity, both before rent and professional costs. Do **not** mark Turkey section 5.3 passed until a Turkish tax adviser or official SGK / Revenue guidance confirms the correct registration route, self-employed premium base, VAT treatment, foreign-income exemption eligibility, and DN / ordinary-residence compatibility.
+Turkey is tax-heavy at the couple's current income if ordinary progressive PIT applies, especially because the DN income threshold already consumes the full USD 3,000/month budget. Verification run-075 closes the tax-fit queue item only for screening: use **TRY 99,700/month / USD 2,160 PIT-only** as the optimistic conservative baseline and **TRY 86,200/month / USD 1,870** as a social-contribution sensitivity, both before rent and professional costs. Keep §5.3 partial; correct registration route, self-employed premium base, VAT/export-of-services treatment, foreign-income exemption eligibility, and DN/ordinary-residence compatibility remain Turkish adviser / SGK / Revenue application-prep checks. [src-359][src-360][src-361][src-362][src-363]
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 

@@ -2,13 +2,13 @@
 country: Serbia
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-08T05:48:14Z
+last_updated: 2026-06-08T15:18:10Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1","5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check", "serbia-freelancer-tax-and-single-permit-fit-gap"]
 sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174", "src-353", "src-354", "src-355", "src-356", "src-357", "src-358"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -20,7 +20,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (likely Tier-2-hint until full legal/tax/cost evidence is gathered).
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-08T05:48:14Z
+- **Last updated**: 2026-06-08T15:18:10Z
 - **Tier rationale**: Serbia is operationally attractive because Ukrainian citizens have visa-free entry, Serbia has a renewable temporary-protection framework for Ukrainians, MUP confirms electronic single-permit filing for self-employment / independent professional work, and the amended Law on Foreigners provides temporary residence / single permits up to 3 years plus permanent residence after 3 years of continuous temporary residence. The weak points are that no Serbia-specific post-TP ordinary-residence bridge was captured and climate sunny-day counts remain open. [src-132][src-133][src-135][src-136]
 
 ## Block 2 — Scoring
@@ -128,7 +128,7 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 
 **Marriage / partner effect.** Captured tax sources do not show ordinary joint filing for the couple's routine PIT. PwC does mention dependent-family deductions for supplementary annual taxation, but at USD 3,000/month the main planning question is route classification and contribution base, not family deductions. Treat marriage as mainly an immigration/family-reunification simplifier for Serbia, not a tax optimization assumption. [src-356]
 
-**Planning baseline for the couple.** Serbia may be workable on a USD 3,000/month gross income if the immigration route accepts a registered entrepreneur / self-employment file and if the accountant confirms a better-than-gross-base tax model. The official freelancer portal is promising for foreign-payer income, but it explicitly does not create a status; therefore do not assume it is enough for a single permit. Before marking §5.3 passed, verify the exact APR/tax registration path, whether IT services can use lump-sum or freelancer self-taxation while holding the relevant residence/single permit, social-contribution bases, VAT / e-invoicing / foreign-client treatment, and accountant cost.
+**Planning baseline for the couple.** Serbia may be workable on a USD 3,000/month gross income if the immigration route accepts a registered entrepreneur / self-employment file and if the accountant confirms a better-than-gross-base tax model. Verification run-075 closes the tax-fit queue item only for screening: use the conservative gross-base and 20% expense-base stress tests as the safe planning baseline, keep §5.3 partial, and do not assume the official freelancer portal alone is enough for a single permit because the portal explicitly does not create status. Exact APR/tax registration, lump-sum or freelancer self-taxation fit, contribution bases, VAT / e-invoicing / foreign-client treatment, and single-permit compatibility remain accountant/application-prep checks. [src-353][src-355][src-356][src-357]
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
