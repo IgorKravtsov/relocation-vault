@@ -1,13 +1,13 @@
 ---
 country: Cyprus
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-06T09:48:30Z
-sections_completed: ["5.2"]
+depth_score: 4.0
+last_updated: 2026-06-08T18:40:45Z
+sections_completed: ["5.2","5.4","5.5"]
 sections_partial: ["5.1","5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "cyprus-social-insurance-category-gap"]
-sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119", "src-293", "src-301", "src-302", "src-303", "src-304", "src-305"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "cyprus-social-insurance-category-gap", "limassol-rent-pressure"]
+sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119", "src-293", "src-301", "src-302", "src-303", "src-304", "src-305", "src-371", "src-372", "src-373", "src-374", "src-375"]
 unverified_count: 1
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the DN net-income floor is above the couple's current ~$3,000/month budget and this first pass did not find a Cyprus-specific ordinary-residence bridge after 04 March 2027.
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-06T09:48:30Z
-- **Tier rationale**: Keep unranked until taxes, rent, partner mechanics, and post-TP transition risk are researched beyond the first legalization/climate pass.
+- **depth_score**: 4.0
+- **Last updated**: 2026-06-08T18:40:45Z
+- **Tier rationale**: Keep unranked until healthcare, partner mechanics, and post-TP transition risk are researched beyond the first legalization/climate/tax/cost/rent passes.
 
 ## Block 2 — Scoring
 
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | TP is covered at EU level through 04 March 2027 and Cyprus DN exists, but the route is expensive for this couple and no official Cyprus post-TP bridge was captured. | §5.1 |
 | Climate | — | N/A | Very sunny and warm; Nicosia heat is a major summer-comfort caveat. WeatherSpark clearer-sky proxies now close the first-pass sunny-day blocker at medium confidence. | §5.2 |
 | Taxes | — | N/A | Cyprus looks moderately tax-workable at USD 3,000/month if self-employment/GHS contributions are deductible: roughly EUR 1,974/month net after a first-pass PIT + social/GHS estimate; exact Social Insurance category floors/ceilings still need official extraction. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | N/A | First-pass 2026 Livingcost data suggests Cyprus is manageable only with careful city choice: Larnaca/Nicosia are the safer budget screens, Paphos is tighter, and Limassol is too rent-heavy for the couple's current after-tax band. | §5.4 |
+| Rent (decent 2BR) | — | N/A | A one-bedroom apartment with separate bedroom/living room is the practical first target; Livingcost's March 2026 city data puts cheap 1BR rent around $582 Nicosia, $699 Larnaca, $942 Paphos, and $1,231 Limassol. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -134,13 +134,54 @@ If contributions are not deductible in the exact filing posture, PIT would be ab
 
 Cyprus is not tax-hostile at USD 3,000/month, but it is also not a low-burden micro-tax jurisdiction once Social Insurance and GHS are included. The bigger blocker remains immigration: the DN route requires EUR 3,500/month **net after taxes and contributions** [src-035]. This tax estimate suggests the current gross income would be far below that net threshold after Cyprus contributions/tax, so Cyprus DN still looks unrealistic unless income rises substantially or a different legal route is found.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-08, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. This section now covers utilities, groceries, transport, communications, document/registration costs, and a city-level budget conclusion using March 2026 Livingcost data. Healthcare / insurance is only a high-level placeholder here and remains for §5.6.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost's March 2026 Cyprus page estimates the national average cost of living at **$1,722/month for one person** and **$3,892/month for a family of four**, with rent and utilities at **$1,010** and **$1,714** respectively [src-371]. That is not a perfect two-adult-couple model, but it is enough for screening: Cyprus is not cheap, and the city choice matters more than groceries or transport.
 
-[verification required]
+| City | One-person total with rent | Family-of-4 total with rent | Rent + utilities band | Food band | Transport band | Budget implication |
+|---|---:|---:|---:|---:|---:|---|
+| Nicosia | $1,485/mo (~EUR 1,285) | $3,514/mo (~EUR 3,041) | $789 / $1,379 | $489 / $1,282 | $67 / $184 | Cheapest large-city screen, but inland heat is the climate tradeoff. [src-372] |
+| Larnaca | $1,553/mo (~EUR 1,344) | $3,563/mo (~EUR 3,083) | $888 / $1,549 | $472 / $1,235 | $75 / $206 | Best first-pass balance: coastal, cheaper than Limassol/Paphos, and more climate-comfortable than Nicosia. [src-374] |
+| Paphos | $1,831/mo (~EUR 1,584) | $4,156/mo (~EUR 3,596) | $1,113 / $1,977 | $502 / $1,342 | $79 / $218 | Climate-comfortable but meaningfully tighter on one income; use only with low rent. [src-375] |
+| Limassol | $2,265/mo (~EUR 1,960) | $4,993/mo (~EUR 4,321) | $1,453 / $2,466 | $587 / $1,582 | $69 / $194 | Too expensive for the current profile unless income rises or rent is unusually low. [src-373] |
+
+For the working partner's current USD 3,000/month gross, the tax pass estimated a Cyprus after-tax planning band of about **EUR 1,850-1,975/month** before accountant fees, rent, insurance, and VAT/cash-flow effects [src-293][src-301][src-303][src-304]. That means the household cannot plan on the national family-of-four figure, and even a lean two-adult budget must be disciplined. A practical two-adult target outside Limassol is approximately:
+
+| Expense bucket | Practical monthly screen | Notes |
+|---|---:|---|
+| Rent for 1BR / small 2-room apartment | EUR 600-900 in Nicosia/Larnaca; EUR 800-1,100 in Paphos; EUR 1,050+ in Limassol | Derived from Livingcost cheap/city-centre 1BR ranges; see §5.5. |
+| Utilities | EUR 100-170 | Livingcost gives family utilities of roughly $178-228/month depending on city, or about EUR 154-197 [src-371][src-372][src-373][src-374][src-375]. |
+| Groceries and household basics | EUR 650-900 | Livingcost country food averages are $509 for one person and $1,352 for a family of four; two adults should model materially above one-person but below family-of-four [src-371]. |
+| Local transport | EUR 80-170 | Livingcost city transport bands are roughly $67-79 for one person and $184-218 for family-of-four [src-372][src-373][src-374][src-375]. Car ownership would raise this. |
+| Internet / mobile | EUR 30-70 | Livingcost city internet entries are about $33-40/month for a 50+ Mbps unlimited plan; mobile plans still need a later practical pass [src-372][src-373][src-374][src-375]. |
+| Healthcare / insurance | [verification required] | Leave detailed insurance and GESY/private-care costs for §5.6. |
+| Documents / registration | EUR 140+ for DN government fees, plus translations/legalisation | DN fees are EUR 70 permit issuance/renewal plus EUR 70 initial Aliens' Registry registration; certified translations are required [src-035]. |
+| Accountant / tax compliance | [verification required] | Needed because Cyprus self-employed Social Insurance category and VAT/GHS mechanics remain unresolved. |
+
+**Budget conclusion.** With current income and the Cyprus tax estimate, Cyprus is a **tight single-income country**. Nicosia and Larnaca remain plausible only with a low-rent apartment and a lean lifestyle. Paphos is attractive climatically but rent-sensitive. Limassol should be treated as a high-risk city for this couple's current budget. The DN immigration threshold is still the bigger blocker: the official route requires EUR 3,500/month net after taxes/contributions, while the current post-tax model is far below that [src-035].
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-08, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. The section covers long-term apartment price bands, income share, city choice, search approach, deposits/agent caveats, and foreigner risks at medium confidence. It uses commercial crowd-sourced price data, so before signing a lease the couple should verify live listings on Cyprus portals.
+
+For this vault's definition, a "normal two-room apartment" means a separate bedroom plus a second living room, not a studio. Livingcost's 40 m2 **1-bedroom apartment** line is therefore the closest first-pass proxy; the 80 m2 3-bedroom line is a useful upside / family-expansion stress test [src-371].
+
+| City | 1BR city centre | Cheap 1BR | 3BR city centre | Cheap 3BR | Share of USD 3,000 gross / Cyprus tax-net band | First-pass rent verdict |
+|---|---:|---:|---:|---:|---|---|
+| Nicosia | $705 (~EUR 610) | $582 (~EUR 504) | $1,295 (~EUR 1,121) | $1,073 (~EUR 929) | Cheap 1BR is ~19% of gross and ~26% of EUR 1,974 tax-net; 3BR is too heavy. | Best affordability, but hot inland summers. [src-372] |
+| Larnaca | $906 (~EUR 784) | $699 (~EUR 605) | $1,624 (~EUR 1,405) | $1,268 (~EUR 1,097) | Cheap 1BR is ~23% of gross and ~31% of tax-net. | Best coastal affordability compromise. [src-374] |
+| Paphos | $1,056 (~EUR 914) | $942 (~EUR 815) | $1,877 (~EUR 1,624) | $1,743 (~EUR 1,508) | Cheap 1BR is ~31% of gross and ~41% of tax-net. | Possible only with careful rent control; avoid tourist-premium listings. [src-375] |
+| Limassol | $1,449 (~EUR 1,254) | $1,231 (~EUR 1,065) | $2,652 (~EUR 2,295) | $2,096 (~EUR 1,814) | Cheap 1BR is ~41% of gross and ~54% of tax-net. | Not recommended at current income. [src-373] |
+
+**How to search.** Use this first-pass sequence: (1) search live long-term listings on Cyprus portals / local agencies for Larnaca and Nicosia first; (2) filter out holiday lets and short seasonal contracts; (3) request a written list of included utilities / common expenses / internet / air-conditioning costs; (4) ask whether the landlord accepts foreign remote-income proof instead of a local employment contract; (5) compare every candidate against the bands above before visiting.
+
+**Foreigner and one-income risks.** The couple's official income sits with one partner, and the Cyprus DN route itself requires a high net-income proof. Landlords may therefore ask for stronger proof than a local salaried tenant: recent bank statements, remote-work contracts, extra deposit, or prepayment. Treat any unit above EUR 900/month outside Limassol as a budget stress case unless income rises.
+
+**Deposits, agency commission, and contract terms.** Exact Cyprus deposit/agent practice was not source-verified in this iteration. Conservative application-prep baseline: budget at least first month's rent plus one-month deposit, check whether an agency fee applies before viewing, and insist that the lease states rent, common expenses, utilities, break clause, indexation, air-conditioning responsibility, inventory, and whether registration/address proof can be used for residence and tax purposes.
+
+**City recommendation for housing search.** Start with **Larnaca** for the best climate/price compromise, then **Nicosia** if rent is the overriding constraint and summer heat is acceptable. Use **Paphos** only if a below-market long-term lease is found. Avoid making **Limassol** the default city at the current income level.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -185,6 +226,7 @@ Cyprus is not tax-hostile at USD 3,000/month, but it is also not a low-burden mi
 - **Best legalization path for the woman**: TP independently if eligible; DN dependent only if spouse / civil-union partner or another confirmed family basis exists.
 - **Does marriage change the picture**: Yes. Official DN family coverage includes spouse / civil-union partner, not an informal girlfriend [src-035].
 - **Realism of staying after 03.2027**: Unclear / medium-low at current income until a Cyprus post-TP bridge or a feasible ordinary residence route is verified.
+- **Budget fit after rent pass**: Tight. Larnaca and Nicosia are the only first-pass cities that look potentially manageable on the current income; Paphos needs a low-rent lease, and Limassol is too expensive by default. [src-372][src-373][src-374][src-375]
 
 **Pros**:
 - Very strong warm-climate fit, especially coastal cities.
@@ -212,7 +254,7 @@ Cyprus is not tax-hostile at USD 3,000/month, but it is also not a low-burden mi
 - Submitting residence application: DN application must be submitted within 3 months of arrival at the Migration Department central offices in Nicosia [src-035].
 - Bank account opening: [verification required]
 - Tax ID / social security number: use the Tax Department tax-registration route and Social Insurance employee/self-employed registration anchors; exact documents/portal flow still need accountant confirmation [src-305].
-- Long-term housing: [verification required]
+- Long-term housing: start with Larnaca or Nicosia and screen 1BR / small two-room flats against a hard EUR 600-900/month target; avoid Limassol as the default city at current income [src-372][src-373][src-374].
 - Health insurance / public health registration: [verification required]
 - SIM card, internet, utilities: [verification required]
 
@@ -237,8 +279,8 @@ Cyprus is not tax-hostile at USD 3,000/month, but it is also not a low-burden mi
 | Visa / residence permit fees | €140+ | €70 permit issuance/renewal plus €70 initial Aliens' Registry registration under DN [src-035]. |
 | Apostilles and translations | — | Official translations / certification required for DN documents [src-035]. |
 | Flights for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | EUR 600-1,800+ | At least first month's rent plus one-month deposit for a budget 1BR; exact Cyprus deposit / agency practice still needs live lease verification. |
+| First month rent | EUR 600-900 target outside Limassol | Larnaca/Nicosia first; Paphos only with low-rent lease; Limassol usually exceeds the safe band [src-372][src-373][src-374][src-375]. |
 | Health insurance (one year) | — | TBD |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
@@ -272,6 +314,11 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - [src-039] Climates to Travel — Cyprus climate.
 - [src-119] WeatherSpark — Cyprus city cloud-cover climate pages.
+- [src-371] Livingcost — Cyprus cost of living country page.
+- [src-372] Livingcost — Nicosia cost of living.
+- [src-373] Livingcost — Limassol cost of living.
+- [src-374] Livingcost — Larnaca cost of living.
+- [src-375] Livingcost — Paphos cost of living.
 
 ### 7e. Not found
 - Cyprus-specific official TP-to-ordinary-residence bridge after 04 March 2027; current operational baseline is “no captured bridge, plan an ordinary route before TP expiry.”

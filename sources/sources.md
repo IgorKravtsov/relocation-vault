@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-06
+last_updated: 2026-06-08
 ---
 
 # Sources Registry
@@ -4456,5 +4456,65 @@ Each source entry:
 - **Date accessed**: 2026-06-08
 - **Used by**: Georgia
 - **Facts supporting**: USD/GEL rate snapshot of 1 USD = GEL 2.661955 used only for Georgia section 5.3 worked example (claim-georgia-012)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08
+
+## src-371
+- **Title**: Livingcost — Cost of living in Cyprus
+- **URL**: https://livingcost.org/cost/cyprus
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-08
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08
+
+## src-372
+- **Title**: Livingcost — Cost of living in Nicosia
+- **URL**: https://livingcost.org/cost/cyprus/nicosia
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-08
+- **Used by**: Cyprus
+- **Facts supporting**: Nicosia cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08
+
+## src-373
+- **Title**: Livingcost — Cost of living in Limassol
+- **URL**: https://livingcost.org/cost/cyprus/limassol
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-08
+- **Used by**: Cyprus
+- **Facts supporting**: Limassol cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08
+
+## src-374
+- **Title**: Livingcost — Cost of living in Larnaca
+- **URL**: https://livingcost.org/cost/cyprus/larnaca
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-08
+- **Used by**: Cyprus
+- **Facts supporting**: Larnaca cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08
+
+## src-375
+- **Title**: Livingcost — Cost of living in Paphos
+- **URL**: https://livingcost.org/cost/cyprus/paphos
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-08
+- **Used by**: Cyprus
+- **Facts supporting**: Paphos cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-08

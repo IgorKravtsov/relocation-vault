@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-08
 ---
 
+## 2026-06-08 — run-076
+- Cyprus: depth_score 2.0 -> 4.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
+- Added Cyprus cost/rent sources `src-371` through `src-375` from Livingcost country and city pages.
+- Main finding: Larnaca and Nicosia are the only plausible first-pass cities on the current income; Paphos is rent-sensitive and Limassol is too expensive by default.
+- Verification queue remains 5 pending/open items; next suggested focus: Malta 5.4/5.5.
+
 ## 2026-06-08 — run-075
 - Verification batch: resolved `vq-100` through `vq-104` to conservative screening baselines for Slovenia, Montenegro, Serbia, Turkey, and Georgia tax-fit blockers.
 - Country tax sections remain partial; accountant / VAT / contribution / immigration-status details were demoted to application-prep checks rather than treated as passed DoD.
