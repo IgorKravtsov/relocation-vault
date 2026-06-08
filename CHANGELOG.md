@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-07
+last_updated: 2026-06-08
 ---
+
+## 2026-06-08 — run-071
+- Montenegro: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
+- Added Montenegro tax sources `src-349` through `src-352`, reused `src-348` ECB FX, and added `claim-montenegro-012` through `claim-montenegro-016`.
+- Main finding: if the entrepreneur PIT model applies, USD 3,000/month leaves about EUR 2,314 / USD 2,693 PIT-only, or about EUR 2,043 / USD 2,378 under a conservative 10.5% employee-rate SSC sensitivity.
+- Added `vq-101` for self-employed registration / SSC / VAT / DN-status tax compatibility; queue 6 -> 7, below the active verification threshold.
 
 ## 2026-06-07 — run-070
 - Slovenia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.

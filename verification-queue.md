@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-07
+last_updated: 2026-06-08
 ---
 
 # Verification Queue
@@ -183,6 +183,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolution note**: Cyprus profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Nicosia ~295, Limassol ~296, Paphos ~294. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-119]
 
 ## Low priority
+
+## vq-101 [medium priority]
+- **Fact**: "Montenegro entrepreneur/self-employed registration, exact SSC base/rates, VAT / reverse-charge handling, and DN/ordinary-residence tax compatibility for a Ukrainian foreign-client IT freelancer"
+- **Country**: Montenegro
+- **Section**: 5.3
+- **Current source**: src-348, src-349, src-350, src-351, src-352
+- **Why uncertain**: This tax pass captured tax-residence, entrepreneurial PIT bands, broad SSC/VAT/filing baselines, and a USD 3,000/month worked example, but did not prove the exact registration category for foreign-client IT, the current self-employed SSC base/rates, small-business VAT threshold or foreign-client place-of-supply / reverse-charge mechanics, or whether DN residence changes the tax result.
+- **Suggested verification**: Capture Montenegrin Tax Administration / SSC-law guidance or current Montenegro accountant advice for entrepreneur registration, self-employed contribution base, VAT threshold and foreign-client reverse-charge handling, and DN / ordinary-residence compatibility before marking §5.3 passed.
+- **Created**: 2026-06-08 (run-071)
+- **Status**: pending
 
 ## vq-099 [medium priority]
 - **Fact**: "Slovakia SZCO/trade classification, VAT / reverse-charge handling, first-year contribution timing, and self-employed/business residence compatibility for a Ukrainian foreign-client IT freelancer"

@@ -96,3 +96,48 @@
   confidence: medium
   tags: [permanent-residence, digital-nomad, residence-counting, montenegro]
   notes: "PDF extraction remains imperfect; use as conservative planning baseline, not a final legal conclusion."
+
+- id: claim-montenegro-012
+  topic: tax_residence_worldwide_income
+  value: "PwC Montenegro states that resident individuals are taxed on worldwide income while non-residents are taxed on Montenegro-source income; individual tax residence is triggered by domicile, centre of personal and economic interests, or at least 183 days in a tax year."
+  source: src-349
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [tax-residence, worldwide-income, montenegro]
+  notes: "Use as the relocation baseline if Montenegro becomes the couple's real living base."
+
+- id: claim-montenegro-013
+  topic: entrepreneur_pit_bands
+  value: "PwC Montenegro's March 2026 table gives entrepreneurial-income PIT bands of 0% up to EUR 8,400/year, 9% from EUR 8,400.01 to EUR 12,000/year, and 15% above EUR 12,000.01/year."
+  source: src-349
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [taxes, entrepreneur, pit, montenegro]
+  notes: "Accountant confirmation is still needed before assuming a Ukrainian foreign-client IT freelancer can use this exact category."
+
+- id: claim-montenegro-014
+  topic: social_security_baseline_gap
+  value: "PwC Montenegro states that mandatory salary SSC includes 10% employee pension/disability plus 0.5% employee unemployment and 0.5% employer unemployment, and that SSC are also levied on other personal income under the SSC Law; the exact self-employed contribution base/rate was not captured."
+  source: src-350
+  date_verified: 2026-06-08
+  confidence: medium
+  tags: [social-security, self-employed, verification-required, montenegro]
+  notes: "Used only for an employee-rate sensitivity; not a final self-employed contribution answer."
+
+- id: claim-montenegro-015
+  topic: tax_filing_vat_baseline
+  value: "PwC Montenegro states that the tax year is the calendar year, annual returns are generally due by end-April for the previous year's income, entrepreneurial-income tax is payable in 12 monthly instalments, and the standard VAT rate is 21%."
+  source: src-351
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [tax-filing, vat, entrepreneur, montenegro]
+  notes: "Also relies on src-352 for VAT rate context; small-business threshold and foreign-client place-of-supply were not captured."
+
+- id: claim-montenegro-016
+  topic: usd3000_tax_stress_test
+  value: "At EUR 1 = USD 1.1640, USD 3,000/month is about EUR 2,577/month or EUR 30,928/year; applying the captured entrepreneur PIT bands progressively leaves about EUR 2,314/month net before SSC, and a conservative 10.5% employee-rate SSC sensitivity leaves about EUR 2,043/month net."
+  source: src-348
+  date_verified: 2026-06-08
+  confidence: medium
+  tags: [taxes, worked-example, foreign-client-it, montenegro]
+  notes: "The PIT arithmetic is useful for screening, but the self-employed SSC base, VAT/reverse-charge handling, and DN/ordinary-status compatibility remain unverified."

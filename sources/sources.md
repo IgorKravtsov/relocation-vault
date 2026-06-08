@@ -4189,7 +4189,55 @@ Each source entry:
 - **Type**: official-primary
 - **Date published**: 2026-06-05
 - **Date accessed**: 2026-06-07
-- **Used by**: Slovenia
-- **Facts supporting**: EUR/USD reference rate of EUR 1 = USD 1.1640 used for Slovenia USD 3,000/month tax stress test (claim-slovenia-012, claim-slovenia-013)
+- **Used by**: Slovenia; Montenegro
+- **Facts supporting**: EUR/USD reference rate of EUR 1 = USD 1.1640 used for Slovenia and Montenegro USD 3,000/month tax stress tests (claim-slovenia-012, claim-slovenia-013, claim-montenegro-016)
 - **Confidence ceiling**: high
 - **Stale at**: 2026-12-07
+
+## src-349
+- **Title**: PwC Worldwide Tax Summaries — Montenegro individual taxes on personal income and residence
+- **URL**: https://taxsummaries.pwc.com/montenegro/individual/taxes-on-personal-income ; https://taxsummaries.pwc.com/montenegro/individual/residence
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-27
+- **Date accessed**: 2026-06-08
+- **Used by**: Montenegro
+- **Facts supporting**: Montenegro tax-residence tests, resident worldwide-income / non-resident source-income baseline, and salary / entrepreneurial-income PIT bands used for the USD 3,000/month tax stress test (claim-montenegro-012, claim-montenegro-013, claim-montenegro-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-27
+
+## src-350
+- **Title**: PwC Worldwide Tax Summaries — Montenegro individual other taxes / social security contributions
+- **URL**: https://taxsummaries.pwc.com/montenegro/individual/other-taxes
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-27
+- **Date accessed**: 2026-06-08
+- **Used by**: Montenegro
+- **Facts supporting**: Montenegro salary social-security contribution baseline of 10% employee pension/disability plus 0.5% employee unemployment and 0.5% employer unemployment, and statement that SSC are also levied on other personal income under the SSC Law (claim-montenegro-014, claim-montenegro-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-27
+
+## src-351
+- **Title**: PwC Worldwide Tax Summaries — Montenegro individual tax administration
+- **URL**: https://taxsummaries.pwc.com/montenegro/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-27
+- **Date accessed**: 2026-06-08
+- **Used by**: Montenegro
+- **Facts supporting**: Montenegro calendar-year tax period, annual tax return by end-April, tax payment on submission where not withheld, and 12 monthly instalments for entrepreneurial-income tax (claim-montenegro-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-27
+
+## src-352
+- **Title**: PwC Worldwide Tax Summaries — Montenegro corporate other taxes / VAT
+- **URL**: https://taxsummaries.pwc.com/montenegro/corporate/other-taxes
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-27
+- **Date accessed**: 2026-06-08
+- **Used by**: Montenegro
+- **Facts supporting**: Montenegro VAT context, including standard 21% VAT rate and reduced 15%, 7%, and 0% rates; used as VAT background for foreign-client IT tax checks (claim-montenegro-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-27
