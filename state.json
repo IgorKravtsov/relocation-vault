@@ -1,25 +1,21 @@
 {
   "version": 2,
-  "iteration": 73,
+  "iteration": 74,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-08T09:02:54Z",
+  "last_run_timestamp": "2026-06-08T12:09:59Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Turkey",
+    "country": "Georgia",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "country-deep-dive",
-    "suggested_country": "Georgia",
-    "suggested_sections": [
-      "5.3"
-    ],
-    "reason": "Pending/open verification queue remains below the active threshold after Turkey; continue low-depth Tier-2-hint practical tax coverage without clustering."
+    "suggested_mode": "verification",
+    "reason": "Pending/open verification queue reached the active threshold (10) after Georgia; run a verification batch before more country-deep-dive work."
   },
   "countries": {
     "Spain": {
@@ -530,15 +526,15 @@
     "Georgia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -549,9 +545,11 @@
         "5.11"
       ],
       "risk_flags": [
-        "visa-free-not-residence"
+        "visa-free-not-residence",
+        "georgia-small-business-tax-and-it-residence-fit-gap"
       ],
-      "last_iteration": 46
+      "last_iteration": 74,
+      "unverified_count": 1
     },
     "Albania": {
       "tier": null,
@@ -989,8 +987,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 9,
-  "sources_count": 363,
-  "claims_count": 318,
+  "verification_queue_size": 10,
+  "sources_count": 369,
+  "claims_count": 323,
   "proposals_pending": 0
 }

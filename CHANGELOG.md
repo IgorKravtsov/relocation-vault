@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-08
 ---
 
+## 2026-06-08 — run-074
+- Georgia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
+- Added Georgia tax / FX sources `src-365` through `src-370` and `claim-georgia-008` through `claim-georgia-012`.
+- Main finding: if small-business status applies, USD 3,000/month is about GEL 7,986 gross and screens at about GEL 7,906 / USD 2,970 net tax-only, or GEL 7,587 / USD 2,850 with a 4% pension sensitivity; ordinary 20% PIT fallback is about USD 2,400.
+- Added `vq-104` for small-business / IT residence / VAT / pension compatibility; queue 9 -> 10, so next mode should be verification.
+
 ## 2026-06-08 — run-073
 - Turkey: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
 - Added Turkey tax / FX sources `src-359` through `src-364` and `claim-turkey-010` through `claim-turkey-014`.

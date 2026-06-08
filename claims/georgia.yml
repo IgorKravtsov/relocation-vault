@@ -60,3 +60,48 @@
   confidence: medium
   tags: [climate, tbilisi, batumi, kutaisi]
   notes: "Composite first-pass climate claim using src-159, src-160, and src-161; direct sunny/clear-day counts remain queued."
+
+- id: claim-georgia-008
+  topic: tax_residence_and_foreign_source_baseline
+  value: "Georgia tax residence is triggered by actual presence for at least 183 days in any continuous 12-month period ending in the current tax year; resident individuals are exempt from tax on income that does not have a Georgian source."
+  source: src-366
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [tax-residence, foreign-source, georgia]
+  notes: "Foreign-source exemption should not be treated as a zero-tax answer for an IT-residence / Georgian entrepreneurial file without Georgian accountant confirmation; source also cross-checked with src-365."
+
+- id: claim-georgia-009
+  topic: georgia_small_business_turnover_tax
+  value: "PwC Georgia states that individual entrepreneurs with annual turnover below GEL 500,000 may register as small businesses and pay 1% tax on turnover; the rate increases to 3% if annual turnover exceeds GEL 500,000."
+  source: src-365
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [tax, small-business, individual-entrepreneur, georgia]
+  notes: "Needs Revenue Service / accountant confirmation for foreign-client IT activity code, IT residence compatibility, and VAT interaction."
+
+- id: claim-georgia-010
+  topic: georgia_social_security_and_pension_context
+  value: "PwC Georgia states there are no social-security contributions in Georgia, while pension-scheme context includes a 4% self-employed individual contribution sensitivity."
+  source: src-367
+  date_verified: 2026-06-08
+  confidence: medium
+  tags: [tax, pension, social-security, georgia]
+  notes: "Use 4% pension as a conservative sensitivity until an adviser confirms whether and how it applies to the couple's exact foreign self-employed IT status."
+
+- id: claim-georgia-011
+  topic: georgia_filing_and_vat_baseline
+  value: "Georgia uses a calendar tax year; individuals with income not taxed at source file before 1 April. The standard VAT rate is 18%, and persons established in Georgia register for VAT when taxable turnover exceeds GEL 100,000 in any continuous 12-month period."
+  source: src-368
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [tax-filing, vat, georgia]
+  notes: "Composite claim uses src-368 for filing and src-369 for VAT threshold/place-of-supply context."
+
+- id: claim-georgia-012
+  topic: georgia_usd3000_tax_worked_example
+  value: "At 1 USD = GEL 2.661955, USD 3,000/month is about GEL 7,986/month. A 1% small-business tax-only model leaves about GEL 7,906/month (~USD 2,970); adding a 4% pension sensitivity leaves about GEL 7,587/month (~USD 2,850); an ordinary 20% PIT fallback leaves about GEL 6,389/month (~USD 2,400)."
+  source: src-370
+  date_verified: 2026-06-08
+  confidence: medium
+  tags: [tax, worked-example, small-business, foreign-client-it, georgia]
+  notes: "Worked example also relies on src-365 for PIT/small-business rates, src-367 for pension sensitivity, and src-369 for VAT caveat; not a passed DoD until fit with IT residence and VAT/place-of-supply is verified."

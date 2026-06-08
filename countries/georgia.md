@@ -1,14 +1,14 @@
 ---
 country: Georgia
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-04T19:46:13Z
+depth_score: 2.0
+last_updated: 2026-06-08T12:09:59Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["visa-free-not-residence"]
-sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["visa-free-not-residence", "georgia-small-business-tax-and-it-residence-fit-gap"]
+sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Georgia is easy to enter and has an official IT residence-permit category that may fit the male IT worker, but the route needs verification on the 2026 work-right / small-business mechanics and is not an EU temporary-protection bridge.
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-04T19:46:13Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-08T12:09:59Z
 - **Tier rationale**: Not assigned until taxes, cost of living, rent, healthcare, and practical permit-renewal experience are researched.
 
 ## Block 2 — Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | Entry, ordinary residence, work/entrepreneur residence, IT residence, family residence, PR, and citizenship baselines opened; the IT route is usable as an operational planning baseline, while the official Ukraine-stay decree still needs capture. | §5.1 |
 | Climate | — | medium | Tbilisi, Batumi, and Kutaisi climate baselines captured; clearer-sky proxies now close the sunny-day blocker. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | First-pass tax baseline captured: 183-day residence, 20% ordinary PIT, 1%/3% small-business turnover regime, no social-security contributions, 4% self-employed pension contribution context, VAT threshold/place-of-supply caveats, and a USD 3,000/month worked example. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -90,9 +90,34 @@ schema_version: 2.0.0
 
 **Sunny/clear-day proxy verification.** WeatherSpark cloud-cover pages provide monthly percentages in the clearer sky categories (clear, mostly clear, or partly cloudy). Converted by month length, the medium-confidence clearer-sky day-equivalent proxies are: Tbilisi ~243 days/year, Batumi ~197 days/year, and Kutaisi ~214 days/year. These are broader clearer-sky proxies, not official meteorological sunny-day counts, but they are enough to close the §5.2 sunny-day blocker for planning. [src-175]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-08, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. This pass gives a usable screening baseline for a Georgian individual-entrepreneur / small-business file, but it does not prove the exact fit between the IT residence permit, Georgian small-business status, foreign-client place-of-supply / VAT reporting, and pension registration. `vq-104` tracks the accountant / Revenue Service confirmation needed before marking §5.3 passed.
+
+#### Tax residence and tax base
+- **Residence trigger**: PwC states that an individual is Georgian tax resident if actually located in Georgia for **183 days or more in any continuous 12-month period ending in the current tax year**. Resident individuals are exempt from tax on income that does not have a Georgian source. For this couple, do **not** rely on a zero-tax foreign-source interpretation while also using Georgian entrepreneurial / IT-residence evidence; model the route as a Georgian business activity unless a Georgian accountant confirms otherwise. [src-365][src-366] Confidence: medium-high.
+- **Ordinary PIT fallback**: Personal income is generally taxed at a flat **20%** rate. If the IT worker cannot safely use small-business status, a simple 20% PIT stress test on USD 3,000/month leaves about GEL 6,389/month (~USD 2,400) before accountant, VAT, pension, and immigration costs. [src-365][src-370] Confidence: medium.
+
+#### Small-business / individual-entrepreneur route
+- **Small-business regime**: PwC states that individual entrepreneurs with annual turnover below **GEL 500,000** may register as small businesses and pay **1% of turnover**; the rate increases to **3%** if annual turnover exceeds GEL 500,000. USD 3,000/month at the run-074 FX snapshot is about GEL 7,986/month or GEL 95,830/year, well below the GEL 500,000 turnover ceiling. [src-365][src-370] Confidence: medium-high for the tax-rate screen.
+- **Micro-business regime**: PwC also notes a micro-business exemption for individuals with annual turnover below GEL 30,000 and no employees, but the couple's USD 36,000/year income is far above that ceiling, so micro-business is not the planning route. [src-365] Confidence: medium-high.
+- **Pension / social charges**: PwC says there are **no social-security contributions** in Georgia, but the pension scheme context includes a **4% self-employed individual contribution** to the individual pension account, with government matching limits. Because the exact obligation for a foreign self-employed IT resident needs adviser confirmation, use two sensitivities: tax-only small business and small business plus 4% pension. [src-367] Confidence: medium.
+
+#### VAT, filing, and administration
+- **Filing**: The tax year is the calendar year. PwC says individuals with income not taxed at source in Georgia, including foreign individuals with Georgian tax residency, file individual income tax declarations before **1 April** for the previous calendar year. [src-368] Confidence: medium-high.
+- **VAT context**: Georgia's standard VAT rate is **18%**. PwC says a person established in Georgia must register for VAT when taxable turnover exceeds **GEL 100,000** in any continuous 12-month period. The place-of-supply rule for B2B services generally follows the recipient / fixed establishment location, while B2C generally follows the supplier / fixed establishment. This is the main unresolved issue for foreign-client IT invoices: the USD 36,000/year gross is close to the GEL 100,000 VAT threshold at this FX snapshot, and the place-of-supply / export-treatment answer needs Revenue Service or accountant confirmation. [src-369][src-370] Confidence: medium.
+
+#### Worked example at USD 3,000/month
+
+FX snapshot used only for screening: **1 USD = GEL 2.661955**. [src-370]
+
+| Scenario | Monthly gross | Tax / contribution model | Estimated net | Screening caveat |
+|---|---:|---|---:|---|
+| Small-business tax only | GEL 7,986 (~USD 3,000) | 1% turnover tax = GEL 80/month | GEL 7,906 (~USD 2,970) | Attractive if small-business status, IT activity code, foreign-client invoicing, and IT-residence compatibility are confirmed. |
+| Small-business + 4% pension sensitivity | GEL 7,986 (~USD 3,000) | 1% turnover tax + 4% self-employed pension sensitivity = GEL 399/month | GEL 7,587 (~USD 2,850) | Conservative planning sensitivity until pension obligation is mapped for this exact status. |
+| Ordinary PIT fallback | GEL 7,986 (~USD 3,000) | 20% PIT on gross | GEL 6,389 (~USD 2,400) | Use if small-business status is unavailable or unsafe for the immigration / IT-residence file. |
+
+**Tax verdict for first pass**: Georgia looks tax-attractive if the male partner can safely operate as a Georgian individual entrepreneur with small-business status: the screening net is roughly USD 2,850-2,970/month before accountant, VAT, bank, and immigration costs. Do **not** mark §5.3 passed yet: the decisive practical question is whether a Ukrainian foreign-client IT worker using the official IT residence permit can register the right Georgian activity / small-business status, keep the 1% regime, handle VAT/place-of-supply correctly, and document the same structure for residence renewal. [src-157][src-365][src-367][src-369]
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -171,6 +196,7 @@ schema_version: 2.0.0
 ### 6c. First 3–6 months
 - Decide between IT residence and ordinary entrepreneurial/work residence.
 - Verify tax residency and small-business tax treatment before invoicing through Georgia.
+- Budget tax cautiously: if the small-business regime is confirmed, a USD 3,000/month file screens at about USD 2,850-2,970/month net before accountant/VAT/immigration costs; if not, ordinary 20% PIT leaves about USD 2,400/month. [src-365][src-367][src-370]
 - If the woman needs dependent residence, prepare marriage / family documentation unless unmarried-partner coverage is confirmed.
 
 ### 6d. Before March 2027 (critical deadline)
@@ -207,6 +233,11 @@ schema_version: 2.0.0
 
 ### 7b. Reputable secondary
 - [src-156] Georgia Today — 2025 report on Ukrainian visa-free stay being cut from 3 years to 1 year.
+- [src-365] PwC Worldwide Tax Summaries — Georgia individual taxes on personal income.
+- [src-366] PwC Worldwide Tax Summaries — Georgia individual residence.
+- [src-367] PwC Worldwide Tax Summaries — Georgia individual other taxes.
+- [src-368] PwC Worldwide Tax Summaries — Georgia individual tax administration.
+- [src-369] PwC Worldwide Tax Summaries — Georgia corporate other taxes / VAT.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -216,11 +247,13 @@ _(none yet)_
 - [src-160] Climate to Travel — Batumi.
 - [src-161] Climate to Travel — Kutaisi.
 - [src-175] WeatherSpark — Georgia city cloud-cover climate pages.
+- [src-370] ExchangeRate-API — USD/GEL snapshot.
 
 ### 7e. Not found
 - Clean official-primary text capture of the current Ukraine-specific visa-free stay decree / country table remains useful before travel, but `vq-051` is closed for country-screening because the safe operational baseline is one-year visa-free stay only, not residence.
 - A worked State Employment Support Agency / Revenue Service filing example for the IT small-business variant remains useful for application-prep, but the core route blocker is closed for planning.
+- Revenue Service / accountant confirmation of the exact small-business status, IT activity code, VAT / export-service handling, pension registration, and compatibility with the IT residence-permit file is required before treating Georgia §5.3 as passed.
 
 ## Block 8 — Open questions and verification markers
 
-_(none for current screening depth; official Ukraine entry-table capture can be rechecked during application prep.)
+- `vq-104`: Georgia small-business / IT residence tax fit, VAT / place-of-supply, pension registration, and residence-renewal compatibility.

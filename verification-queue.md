@@ -184,6 +184,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+## vq-104 [medium priority]
+- **Fact**: "Georgia individual-entrepreneur / small-business tax route fit for a Ukrainian foreign-client IT worker using the IT residence permit, including activity code, VAT/place-of-supply, pension registration, and residence-renewal evidence"
+- **Country**: Georgia
+- **Section**: 5.3
+- **Current source**: src-365, src-366, src-367, src-368, src-369, src-370
+- **Why uncertain**: This tax pass captured the 183-day residence rule, foreign-source exemption caveat, 20% ordinary PIT, 1%/3% small-business turnover regime, no-social-security baseline, 4% pension sensitivity, VAT threshold/place-of-supply context, and a USD 3,000/month worked example, but did not prove the exact Georgian Revenue Service / accountant mapping for foreign-client IT under the official IT residence permit.
+- **Suggested verification**: Capture Revenue Service / Georgian accountant guidance for individual entrepreneur registration, small-business status eligibility for IT activity codes, foreign-client B2B service place-of-supply / VAT or export-treatment reporting, pension registration, and whether the same structure supports IT residence permit issuance and renewal before marking Georgia §5.3 passed.
+- **Created**: 2026-06-08 (run-074)
+- **Status**: pending
+
 ## vq-103 [medium priority]
 - **Fact**: "Turkey DN / ordinary-residence foreign-client IT tax route: self-employment permission, SGK / Bag-Kur premium base, VAT / export-of-services treatment, foreign-income exemption eligibility, and whether the PIT-only model is too optimistic"
 - **Country**: Turkey

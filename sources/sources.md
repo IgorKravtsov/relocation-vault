@@ -4386,3 +4386,75 @@ Each source entry:
 - **Facts supporting**: USD/TRY rate snapshot of 1 USD = TRY 46.0952 used only for Turkey section 5.3 worked example (claim-turkey-014)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-08
+
+## src-365
+- **Title**: PwC Worldwide Tax Summaries — Georgia individual taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/georgia/individual/taxes-on-personal-income
+- **Archive**: [archive: failed 2026-06-08; Wayback returned HTTP 429, direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-21
+- **Date accessed**: 2026-06-08
+- **Used by**: Georgia
+- **Facts supporting**: Georgia resident foreign-source exemption baseline, 20% flat PIT, micro-business turnover ceiling, and individual-entrepreneur small-business 1% / 3% turnover-tax regime (claim-georgia-008, claim-georgia-009, claim-georgia-010, claim-georgia-012)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-21
+
+## src-366
+- **Title**: PwC Worldwide Tax Summaries — Georgia individual residence
+- **URL**: https://taxsummaries.pwc.com/georgia/individual/residence
+- **Archive**: [archive: failed 2026-06-08; Wayback returned HTTP 429, direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-21
+- **Date accessed**: 2026-06-08
+- **Used by**: Georgia
+- **Facts supporting**: Georgia individual tax-residence rule of actual presence for 183 days or more in any continuous 12-month period ending in the current tax year (claim-georgia-008)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-21
+
+## src-367
+- **Title**: PwC Worldwide Tax Summaries — Georgia individual other taxes
+- **URL**: https://taxsummaries.pwc.com/georgia/individual/other-taxes
+- **Archive**: [archive: failed 2026-06-08; Wayback returned HTTP 429, direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-21
+- **Date accessed**: 2026-06-08
+- **Used by**: Georgia
+- **Facts supporting**: no social-security contributions in Georgia; pension contribution context including 4% self-employed contribution sensitivity and government matching limits (claim-georgia-010, claim-georgia-012)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-21
+
+## src-368
+- **Title**: PwC Worldwide Tax Summaries — Georgia individual tax administration
+- **URL**: https://taxsummaries.pwc.com/georgia/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-08; Wayback returned HTTP 429, direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-21
+- **Date accessed**: 2026-06-08
+- **Used by**: Georgia
+- **Facts supporting**: Georgia calendar tax year and individual income tax declaration deadline before 1 April for income not taxed at source (claim-georgia-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-21
+
+## src-369
+- **Title**: PwC Worldwide Tax Summaries — Georgia corporate other taxes / VAT
+- **URL**: https://taxsummaries.pwc.com/georgia/corporate/other-taxes
+- **Archive**: [archive: failed 2026-06-08; Wayback returned HTTP 429, direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-21
+- **Date accessed**: 2026-06-08
+- **Used by**: Georgia
+- **Facts supporting**: Georgia 18% VAT rate, GEL 100,000 VAT-registration threshold, B2B/B2C service place-of-supply context, and foreign-client IT VAT verification caveat (claim-georgia-011, claim-georgia-012)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-21
+
+## src-370
+- **Title**: ExchangeRate-API — USD to Georgian lari snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: failed 2026-06-08; Wayback returned HTTP 429, direct JSON extraction used]
+- **Type**: commercial
+- **Date published**: live rate snapshot, time_last_update_utc 2026-06-08T00:02:31Z
+- **Date accessed**: 2026-06-08
+- **Used by**: Georgia
+- **Facts supporting**: USD/GEL rate snapshot of 1 USD = GEL 2.661955 used only for Georgia section 5.3 worked example (claim-georgia-012)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08
