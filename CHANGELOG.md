@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-08
 ---
 
+## 2026-06-08 — run-077
+- Malta: depth_score 2.0 -> 4.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
+- Added Malta cost/rent sources `src-376` through `src-380` from Livingcost country and city pages.
+- Main finding: Malta is tight-to-negative on current income; Marsaskala is the only screened city that looks potentially manageable, while Sliema is too rent-heavy by default.
+- Verification queue remains 5 pending/open items; next suggested focus: Croatia 5.4/5.5.
+
 ## 2026-06-08 — run-076
 - Cyprus: depth_score 2.0 -> 4.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
 - Added Cyprus cost/rent sources `src-371` through `src-375` from Livingcost country and city pages.

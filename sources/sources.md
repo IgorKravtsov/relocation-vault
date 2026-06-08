@@ -4518,3 +4518,63 @@ Each source entry:
 - **Facts supporting**: Paphos cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-08
+
+## src-376
+- **Title**: Livingcost — Cost of living in Malta
+- **URL**: https://livingcost.org/cost/malta
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-08
+- **Used by**: Malta
+- **Facts supporting**: Malta national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08
+
+## src-377
+- **Title**: Livingcost — Cost of living in Valletta
+- **URL**: https://livingcost.org/cost/malta/valletta
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-08
+- **Used by**: Malta
+- **Facts supporting**: Valletta cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08
+
+## src-378
+- **Title**: Livingcost — Cost of living in Sliema
+- **URL**: https://livingcost.org/cost/malta/sliema
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-08
+- **Used by**: Malta
+- **Facts supporting**: Sliema cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08
+
+## src-379
+- **Title**: Livingcost — Cost of living in Birkirkara
+- **URL**: https://livingcost.org/cost/malta/birkirkara
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-08
+- **Used by**: Malta
+- **Facts supporting**: Birkirkara cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08
+
+## src-380
+- **Title**: Livingcost — Cost of living in Marsaskala
+- **URL**: https://livingcost.org/cost/malta/marsaskala
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-08
+- **Used by**: Malta
+- **Facts supporting**: Marsaskala cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08

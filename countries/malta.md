@@ -1,13 +1,13 @@
 ---
 country: Malta
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-06T16:06:18Z
-sections_completed: ["5.2"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path", "malta-nrp-authorized-work-tax-fit-gap"]
-sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052", "src-120", "src-293", "src-311", "src-312", "src-313", "src-314", "src-315"]
+depth_score: 4.0
+last_updated: 2026-06-08T21:49:49Z
+sections_completed: ["5.2","5.4","5.5"]
+sections_partial: ["5.1","5.3"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path", "malta-nrp-authorized-work-tax-fit-gap", "malta-rent-pressure"]
+sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052", "src-120", "src-293", "src-311", "src-312", "src-313", "src-314", "src-315", "src-376", "src-377", "src-378", "src-379", "src-380"]
 unverified_count: 1
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence makes Malta a mixed legalization candidate: it has EU temporary protection and a well-documented Nomad Residence Permit, but the nomad route requires EUR 42,000/year gross income and explicitly does not lead to long-term residence or citizenship by itself [src-047][src-049].
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-06T16:06:18Z
-- **Tier rationale**: Do not classify yet. Main current risks are that the couple's current USD 3,000/month is below the nomad threshold, the NRP does not lead to PR/citizenship, and the exact Maltese tax/social-security treatment of foreign-client IT work under the NRP still needs adviser confirmation [src-002][src-049][src-311][src-312].
+- **depth_score**: 4.0
+- **Last updated**: 2026-06-08T21:49:49Z
+- **Tier rationale**: Do not classify yet. Main current risks are that the couple's current USD 3,000/month is below the nomad threshold, the NRP does not lead to PR/citizenship, the ordinary fallback is tax/rent-tight, and the exact Maltese tax/social-security treatment of foreign-client IT work under the NRP still needs adviser confirmation [src-002][src-049][src-311][src-312][src-376].
 
 ## Block 2 — Scoring
 
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | TP and Nomad Residence Permit routes exist, but DN income is above current budget and DN does not lead to PR/citizenship; post-TP bridge still [verification required]. | §5.1 |
 | Climate | — | N/A | Very sunny Mediterranean climate; WeatherSpark clearer-sky proxies now close the practical sunny-day screening gap at medium confidence. | §5.2 |
 | Taxes | — | N/A | Malta has favorable NRP-specific 10% authorized-work taxation after a first-year relief concept, but the route is income-blocked at the couple's current budget; ordinary resident self-employed modelling gives about EUR 1,867-1,963/month after PIT and capped Class Two-style contributions before accountant/VAT edge cases. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | N/A | First-pass 2026 Livingcost data suggests Malta is expensive for the current income: Marsaskala is the only screened city with a plausible low-rent path, while Sliema is too rent-heavy by default. | §5.4 |
+| Rent (decent 2BR) | — | N/A | A 40 m2 1BR is the closest proxy for a two-room starter apartment; cheap 1BR rent ranges from about $691 in Marsaskala to $1,141 in Sliema, before deposits / agency practice verification. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -140,13 +140,54 @@ Marriage or civil union can matter for Malta tax computation: spouses / civil-un
 4. If not using NRP, model ordinary self-employment at roughly EUR 1,867-1,963/month net before accountant/VAT edge cases at the current income level.
 5. For marriage planning, treat Malta as one of the countries where marriage / civil union can improve both immigration dependency clarity and tax computation, but do not marry for tax alone without immigration counsel.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-08, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. This section covers utilities, groceries, transport, communications, document/registration costs, and a city-level budget conclusion using March 2026 Livingcost data. Healthcare / insurance remains for §5.6, and live listing checks remain application-prep.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost's March 2026 Malta page estimates the national average cost of living at **$1,726/month for one person** and **$3,922/month for a family of four**, with rent and utilities at **$1,022** and **$1,782** respectively [src-376]. This is not a perfect two-adult model, but it is enough for screening: Malta is materially expensive for the couple's current one-income budget, especially because the NRP threshold is already above current income and the ordinary tax fallback leaves only about EUR 1,867-1,963/month after PIT and capped Class Two-style social security [src-311][src-313].
 
-[verification required]
+| City | One-person total with rent | Family-of-4 total with rent | Rent + utilities band | Food band | Transport band | Budget implication |
+|---|---:|---:|---:|---:|---:|---|
+| Marsaskala | $1,512/mo (~EUR 1,308) | $3,606/mo (~EUR 3,120) | $812 / $1,442 | $536 / $1,418 | $57.8 / $166 | Best first-pass affordability screen; coastal and lower-rent, but verify commute / services / live listings. [src-380] |
+| Birkirkara | $1,783/mo (~EUR 1,543) | $3,898/mo (~EUR 3,373) | $1,067 / $1,754 | $516 / $1,363 | $55.8 / $158 | Central practical fallback, but rent still consumes much of the ordinary tax-net band. [src-379] |
+| Valletta | $1,810/mo (~EUR 1,566) | $4,092/mo (~EUR 3,541) | $1,069 / $1,869 | $544 / $1,431 | $62.1 / $177 | Convenient but tourist / capital pricing makes it tight on one income. [src-377] |
+| Sliema | $2,130/mo (~EUR 1,843) | $4,796/mo (~EUR 4,150) | $1,323 / $2,355 | $610 / $1,601 | $77.4 / $223 | Too expensive as the default city for the current profile. [src-378] |
+
+For a practical two-adult budget, the couple should not extrapolate from Malta's family-of-four number, but they also cannot rely on one-person totals. A conservative first target is:
+
+| Expense bucket | Practical monthly screen | Notes |
+|---|---:|---|
+| Rent for 1BR / small two-room apartment | EUR 600-850 in Marsaskala; EUR 800-1,000 in Birkirkara / Valletta; EUR 1,000+ in Sliema | Derived from Livingcost cheap/city-centre 1BR lines; see §5.5. |
+| Utilities | EUR 60-120 | Livingcost family utility lines are roughly $97 national, $102 Sliema, $133 Valletta, and $113 Marsaskala [src-376][src-377][src-378][src-380]. Air-conditioning season can push bills higher. |
+| Groceries and household basics | EUR 650-950 | Livingcost country food averages are $528 for one person and $1,394 for a family of four [src-376]. Two adults should model above one-person but below family-of-four. |
+| Local transport | EUR 50-170 | Livingcost city transport bands are low compared with rent; car ownership, taxis, and island commuting would raise this [src-377][src-378][src-379][src-380]. |
+| Internet / mobile | EUR 30-45 | Livingcost internet entries are about $36.5 national, $38.6 Valletta, and $46.3 Sliema for 50+ Mbps unlimited [src-376][src-377][src-378]. |
+| Healthcare / insurance | [verification required] | NRP requires health insurance after Approval in Principle, but pricing remains for §5.6 [src-048]. |
+| Documents / registration | EUR 400+ for two NRP application/card fees, plus translations / insurance / accommodation | NRP fees are EUR 300 application fee and EUR 100 residence-card fee per person [src-049]. |
+| Accountant / tax compliance | [verification required] | Needed because NRP authorised-work / self-employed social-security / VAT treatment remains unresolved. |
+
+**Budget conclusion.** Malta is a **tight-to-negative single-income country** at the current profile. Marsaskala is the only screened city that looks potentially manageable if the couple secures a cheap small apartment and controls groceries / utilities. Birkirkara and Valletta are tight; Sliema should be treated as a high-risk rent market unless income rises. The bigger strategic blocker remains immigration: the NRP requires EUR 42,000/year gross and does not itself lead to PR/citizenship [src-047][src-049].
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-08, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. The section covers long-term apartment price bands, income share, city choice, search approach, deposit / agency caveats, and foreigner risks at medium confidence. It uses commercial crowd-sourced price data, so live Maltese listings should be checked before signing a lease.
+
+For this vault's definition, a "normal two-room apartment" means a separate bedroom plus a second living room, not a studio. Livingcost's 40 m2 **1-bedroom apartment** line is the closest first-pass proxy; the 80 m2 3-bedroom line is a useful family-expansion stress test [src-376].
+
+| City | 1BR city centre | Cheap 1BR | 3BR city centre | Cheap 3BR | Share of USD 3,000 gross / Malta ordinary tax-net band | First-pass rent verdict |
+|---|---:|---:|---:|---:|---|---|
+| Marsaskala | $817 (~EUR 707) | $691 (~EUR 598) | $1,492 (~EUR 1,291) | $1,265 (~EUR 1,095) | Cheap 1BR is ~23% of gross and ~30-32% of the EUR 1,867-1,963 ordinary tax-net band. | Best first-pass housing target. [src-380] |
+| Birkirkara | $1,099 (~EUR 951) | $923 (~EUR 799) | $1,846 (~EUR 1,597) | $1,543 (~EUR 1,335) | Cheap 1BR is ~31% of gross and ~41-43% of ordinary tax-net. | Possible but tight; central convenience must justify rent. [src-379] |
+| Valletta | $1,157 (~EUR 1,001) | $892 (~EUR 772) | $2,066 (~EUR 1,788) | $1,605 (~EUR 1,389) | Cheap 1BR is ~30% of gross and ~39-41% of ordinary tax-net. | Tight and likely listing-sensitive; avoid tourist-premium leases. [src-377] |
+| Sliema | $1,481 (~EUR 1,282) | $1,141 (~EUR 987) | $2,715 (~EUR 2,349) | $2,080 (~EUR 1,800) | Cheap 1BR is ~38% of gross and ~50-53% of ordinary tax-net. | Not recommended at current income. [src-378] |
+
+**How to search.** Use this first-pass sequence: (1) search live long-term listings in Marsaskala and Birkirkara first, then Valletta only if a below-band lease appears; (2) filter out short lets, tourist-season pricing, and units without a separate bedroom/living room; (3) request a written list of included utilities, condominium/common-area fees, internet, and air-conditioning costs; (4) ask whether the landlord accepts foreign remote-income proof instead of a Malta employment contract; (5) compare each unit against the rent bands above before visiting.
+
+**Foreigner and one-income risks.** The couple's official income sits with one partner, and the NRP route itself requires high documented gross income. Landlords may therefore ask for stronger proof than a local salaried tenant: recent bank statements, remote-work contracts, extra deposit, or prepayment. Treat any small apartment above EUR 850/month in Marsaskala or EUR 1,000/month in Birkirkara / Valletta as a stress case unless income rises.
+
+**Deposits, agency commission, and contract terms.** Exact Malta deposit and agent-fee practice was not source-verified in this iteration. Conservative application-prep baseline: budget at least first month's rent plus one-month deposit, verify agency commission before viewing, and ensure the lease states rent, utilities/common parts, break clause, indexation, air-conditioning responsibility, inventory, and whether the address can be used for NRP / tax / banking evidence.
+
+**City recommendation for housing search.** Start with **Marsaskala** for affordability, then **Birkirkara** if centrality matters and a cheap 1BR is found. Treat **Valletta** as a convenience/tourist-premium market and **Sliema** as too rent-heavy for the current income by default.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -191,6 +232,7 @@ Marriage or civil union can matter for Malta tax computation: spouses / civil-un
 - **Best legalization path for the woman**: Dependent route under NRP may be possible as spouse or de facto partner, but unmarried-partner treatment needs confirmation; TP may be independent if eligible.
 - **Does marriage change the picture**: Yes. Marriage makes dependent inclusion cleaner than relying on de facto partnership evidence.
 - **Realism of staying after 03.2027**: Low-to-uncertain on current evidence unless income rises and a separate long-term-countable route is found.
+- **Budget fit after rent pass**: Tight to negative. Marsaskala is the only screened city that looks potentially manageable on current income; Birkirkara / Valletta are tight and Sliema is too rent-heavy by default. [src-377][src-378][src-379][src-380]
 
 **Pros**:
 - Official, English-language NRP pages and checklist are unusually clear [src-047][src-048][src-049].
@@ -209,7 +251,7 @@ Marriage or civil union can matter for Malta tax computation: spouses / civil-un
 ### 6a. Before the move (what to prepare in Ukraine / Poland)
 - Documents: passports, police conduct certificates, CV, foreign-client / employer contracts, three months of official bank statements, relationship documents, and English translations for non-English documents [src-048].
 - What to do with the Polish karta pobytu: keep it as a logistics asset if valid, but do not assume it grants Maltese residence rights.
-- Financial preparation: NRP requires documented gross income of EUR 42,000/year plus application fees, one-year health insurance, and accommodation proof [src-047][src-048][src-049].
+- Financial preparation: NRP requires documented gross income of EUR 42,000/year plus application fees, one-year health insurance, and accommodation proof [src-047][src-048][src-049]. For housing, start live-listing checks in Marsaskala and Birkirkara and keep the first small-apartment target around EUR 600-850/month if possible [src-379][src-380].
 - For the student partner: collect relationship evidence; student-status impacts are unresearched.
 
 ### 6b. First month after arrival
@@ -236,10 +278,10 @@ Marriage or civil union can matter for Malta tax computation: spouses / civil-un
 | NRP application fee | EUR 300/person | Non-refundable [src-049] |
 | Residence card fee | EUR 100/person | Paid to Identità [src-049] |
 | Police certificate / translations | — | Non-English documents need English translation [src-048] |
-| Accommodation | — | Required after Approval in Principle and should cover the permit period [src-048][src-049] |
+| Accommodation | EUR 600-1,000/month target, plus deposit | Marsaskala / Birkirkara first; avoid Sliema at current income unless rent is unusually low [src-378][src-379][src-380]. |
 | Health insurance | — | Must cover Malta/international risks for one full year [src-048] |
 | Buffer / contingencies | — | TBD |
-| **Total** | — | Complete in cost-of-living/rent iteration |
+| **Total** | — | Complete after healthcare / insurance / travel / live-listing checks |
 
 ### 6g. Contact points and communities
 - Residency Malta Agency, Zentrum Business Centre, Level 2, Mdina Road, Qormi QRM 9010; clientrelations.residencymalta@gov.mt; +356 22034000 [src-047].
@@ -270,6 +312,11 @@ _(none yet)_
 - [src-052] Climates to Travel Malta climate.
 - [src-120] WeatherSpark — Malta city cloud-cover climate pages.
 - [src-293] open.er-api.com USD/EUR exchange-rate feed.
+- [src-376] Livingcost — Malta cost of living country page.
+- [src-377] Livingcost — Valletta cost of living.
+- [src-378] Livingcost — Sliema cost of living.
+- [src-379] Livingcost — Birkirkara cost of living.
+- [src-380] Livingcost — Marsaskala cost of living.
 
 ### 7e. Not found
 - Capturable Malta International Protection Agency / Home Affairs current TP procedure page. Obvious official pages were public in search results but blocked by security verification during extraction. Current operational baseline is “no captured post-2027 TP bridge, plan an ordinary route before TP expiry.”
