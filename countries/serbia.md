@@ -1,14 +1,14 @@
 ---
 country: Serbia
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-01T10:12:00Z
+depth_score: 2.0
+last_updated: 2026-06-08T05:48:14Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check"]
-sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174"]
-unverified_count: 0
+sections_partial: ["5.1","5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check", "serbia-freelancer-tax-and-single-permit-fit-gap"]
+sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174", "src-353", "src-354", "src-355", "src-356", "src-357", "src-358"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (likely Tier-2-hint until full legal/tax/cost evidence is gathered).
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-01T10:12:00Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-08T05:48:14Z
 - **Tier rationale**: Serbia is operationally attractive because Ukrainian citizens have visa-free entry, Serbia has a renewable temporary-protection framework for Ukrainians, MUP confirms electronic single-permit filing for self-employment / independent professional work, and the amended Law on Foreigners provides temporary residence / single permits up to 3 years plus permanent residence after 3 years of continuous temporary residence. The weak points are that no Serbia-specific post-TP ordinary-residence bridge was captured and climate sunny-day counts remain open. [src-132][src-133][src-135][src-136]
 
 ## Block 2 — Scoring
@@ -29,7 +29,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | Multiple legal bases exist, but the best remote-work path still needs official implementing-rule verification. | §5.1 |
 | Climate | — | medium | Continental climate: cold/grey winters and hot summers; sunshine-hour baselines and clearer-sky proxies are now captured. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | Serbia has a workable but not-yet-passed freelancer / entrepreneur tax baseline; exact route fit with a single permit, APR status, and VAT/reverse-charge mechanics still need accountant/authority confirmation. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -104,9 +104,31 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 
 **Comfort verdict for the couple:** Serbia is much less coastal/winter-mild than Montenegro, Greece, Cyprus, Malta, or parts of Spain/Portugal. It may still be acceptable if Belgrade/Novi Sad infrastructure and legal practicality dominate, but the climate is only moderately aligned with the preference for warm or moderately warm living. The south (Niš) is hotter in summer but still has real winter cold.
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-08, dod: partial}
 
-[verification required]
+> **DoD gap**: this is a conservative first tax pass, not a passed section. It captures Serbia's tax-residence baseline, personal-income-tax / self-employment framework, freelancer portal baseline for foreign-payer income, social-contribution / VAT context, filing timing, and a USD 3,000/month stress test. It does **not** yet prove the exact best route for a Ukrainian foreign-client IT worker: unregistered freelancer portal versus registered entrepreneur / sole proprietor, APR activity code, lump-sum eligibility, VAT / place-of-supply / reverse-charge handling, and compatibility with the self-employment or independent-professional single permit remain open.
+
+**Tax residence and scope.** PwC states that Serbian residents are taxable on worldwide income, while non-residents are taxed on Serbian-sourced income and worldwide income related to work in or for Serbia. Serbian tax residence can arise from residence / centre of business and vital interests in Serbia, 183+ days in a 12-month period beginning or ending in the tax year, or Serbian state assignment abroad. For this couple, a long-stay Serbia plan should assume eventual Serbian tax residence unless a Serbian tax adviser confirms a treaty outcome. [src-353]
+
+**Personal income tax baseline.** PwC's 2026 Serbia summary says individual income tax rates are flat and range from 10% to 20% depending on income type. Employment income is taxed at 10% after a RSD 34,221 non-taxable salary cap. For the relevant freelancer/entrepreneur analysis, PwC classifies income from agriculture/forestry, business activity, and professional or intellectual services as self-employment / entrepreneurial income; it also notes that a VAT-registered individual is treated as a self-employment-income taxpayer and that a sole proprietor may fall under a lump-sum tax where bookkeeping is not feasible or in certain other cases. [src-354]
+
+**Official freelancer portal baseline.** Serbia's official freelancer portal says it is intended for natural persons receiving copyright/related-rights income or agreed-fee income for performed work. Its FAQ covers a Serbian-resident natural person working in Serbia with income paid by a foreign payer, and also says adult residents and non-residents can register, including students, employed persons for side income, owners/co-owners, and entrepreneurs for income outside self-employment under specified PIT-law conditions. Registration on the portal does not create a status; it lets the person submit a tax application and payment slip for self-taxation. This is highly relevant for foreign-client IT screening, but it may not by itself satisfy the immigration single-permit requirement if MUP expects registered self-employment / independent-professional documentation. [src-355]
+
+**Social contributions and filing.** PwC lists employee social-security contributions of 14% pension/disability, 5.15% health, and 0.75% unemployment, and employer contributions of 10% pension/disability and 5.15% health; for other income types, contributions depend on the type of income. The contribution base has a minimum of 35.05% of average monthly salary and a maximum of five average monthly salaries. Tax returns are submitted electronically; offshore income returns are due within 30 days after receipt, and supplementary annual PIT applies above three times the average annual wage with a generated return by 1 April and taxpayer checking/amendment by 15 May. [src-356]
+
+**VAT / foreign-client caveat.** PwC's corporate VAT page gives the Serbia VAT headline: 20% standard rate, 10% reduced rate, 0% with input deduction for certain exports / export-related services, and a VAT-taxpayer definition covering independent business activity by service providers and self-employed activities. It also says some foreign entities making Serbian taxable supplies must register regardless of turnover, with an exception pattern for supplies exclusively to VAT payers / public entities. This is only VAT context; the profile still needs Serbian Tax Administration / accountant confirmation for foreign-client IT services, B2B place of supply, invoicing, and reverse-charge treatment. [src-357]
+
+**Worked example at USD 3,000/month.** Using the captured XE mid-market snapshot of about **1 USD = RSD 100.72**, USD 3,000/month is about **RSD 302,160/month**. Because the exact Serbian classification is unresolved, use a conservative gross-base stress test rather than a favourable lump-sum assumption. [src-358]
+
+| Scenario | Monthly result | Screening meaning |
+|---|---:|---|
+| Gross-base self-employment stress test: 10% PIT + 35.05% combined SSC sensitivity on all gross | net about **RSD 166,037/month** (~**USD 1,649**) | Very conservative; useful if no expense deduction / lump-sum result is confirmed. |
+| 20% expense-base sensitivity, then 10% PIT + 35.05% SSC on the reduced base | net about **RSD 193,262/month** (~**USD 1,919**) | Still conservative; not a verified Serbian entrepreneur/freelancer answer. |
+| Employee-style benchmark only: 19.9% employee SSC plus 10% PIT after the RSD 34,221 salary cap | net about **RSD 215,236/month** (~**USD 2,137**) | A salary benchmark, not the expected foreign-client freelancer route. |
+
+**Marriage / partner effect.** Captured tax sources do not show ordinary joint filing for the couple's routine PIT. PwC does mention dependent-family deductions for supplementary annual taxation, but at USD 3,000/month the main planning question is route classification and contribution base, not family deductions. Treat marriage as mainly an immigration/family-reunification simplifier for Serbia, not a tax optimization assumption. [src-356]
+
+**Planning baseline for the couple.** Serbia may be workable on a USD 3,000/month gross income if the immigration route accepts a registered entrepreneur / self-employment file and if the accountant confirms a better-than-gross-base tax model. The official freelancer portal is promising for foreign-payer income, but it explicitly does not create a status; therefore do not assume it is enough for a single permit. Before marking §5.3 passed, verify the exact APR/tax registration path, whether IT services can use lump-sum or freelancer self-taxation while holding the relevant residence/single permit, social-contribution bases, VAT / e-invoicing / foreign-client treatment, and accountant cost.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -235,9 +257,14 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 - [src-136] Law on Foreigners, consolidated through 2023 amendments.
 - [src-137] Welcome to Serbia government residence-and-work page.
 - [src-138] Serbia MFA citizenship page.
+- [src-355] Serbia official freelancer portal / Tax Administration cooperation pages for foreign-payer freelancer self-taxation.
 
 ### 7b. Reputable secondary
 - [src-139] Visa Free Nomads 2026 Serbia guide (used only as a medium-confidence placeholder for self-employment / digital-nomad operational details).
+- [src-353] PwC Serbia individual residence summary.
+- [src-354] PwC Serbia individual taxes on personal income and income determination.
+- [src-356] PwC Serbia individual other taxes / social security contributions and tax administration.
+- [src-357] PwC Serbia corporate VAT context.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -246,14 +273,17 @@ _(none yet)_
 - [src-140] Climate to Travel — Belgrade.
 - [src-141] Climate to Travel — Novi Sad.
 - [src-142] Climate to Travel — Niš.
+- [src-358] XE USD/RSD exchange-rate snapshot used only for the Serbia tax worked example.
 
 ### 7e. Not found
 - Current official implementing act / checklist for a separate Serbia digital-nomad special category, if already active.
 - Direct annual sunny/clear-day counts for Belgrade, Novi Sad, and Niš.
 - Explicit Serbia-specific post-TP ordinary-residence bridge for Ukrainians.
+- Serbian Tax Administration / APR / accountant confirmation of the exact foreign-client IT route: freelancer portal versus registered entrepreneur, activity code, lump-sum eligibility, social-contribution base, VAT / reverse-charge / e-invoicing, and single-permit compatibility.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-044` — resolved in run-026: official MUP/Welcome to Serbia sources confirm self-employment / independent-professional single-permit electronic filing and family mechanics, including common-law partnership evidence; treat a separate DN special category as a later route-specific detail rather than a core blocker.
 - `vq-045` — resolved in run-026: no captured Serbian ordinary-residence bridge from TP; Polish residence/TP does not substitute for Serbian status, and Serbian TP should be treated only as a protection layer while ordinary residence is built.
 - `vq-046` — direct annual sunny/clear-day counts for Belgrade, Novi Sad, and Niš.
+- `vq-102` — Serbia foreign-client IT tax / APR registration / VAT / contribution-base / single-permit compatibility remains open before §5.3 can be marked passed.

@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-08
 ---
 
+## 2026-06-08 — run-072
+- Serbia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
+- Added Serbia tax / FX sources `src-353` through `src-358` and `claim-serbia-011` through `claim-serbia-015`.
+- Main finding: USD 3,000/month is about RSD 302,160; a conservative gross-base PIT + SSC stress test leaves about RSD 166,037 / USD 1,649 net, while a 20% expense-base sensitivity leaves about RSD 193,262 / USD 1,919.
+- Added `vq-102` for freelancer / entrepreneur classification, APR, contribution-base, VAT, and single-permit compatibility; queue 7 -> 8, below the active verification threshold.
+
 ## 2026-06-08 — run-071
 - Montenegro: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial.
 - Added Montenegro tax sources `src-349` through `src-352`, reused `src-348` ECB FX, and added `claim-montenegro-012` through `claim-montenegro-016`.

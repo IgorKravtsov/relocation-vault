@@ -1,25 +1,25 @@
 {
   "version": 2,
-  "iteration": 71,
+  "iteration": 72,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-08T02:42:16Z",
+  "last_run_timestamp": "2026-06-08T05:48:14Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Montenegro",
+    "country": "Serbia",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Serbia",
+    "suggested_country": "Turkey",
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Pending/open verification queue remains below the active threshold; continue low-depth Tier-2-hint practical tax coverage without clustering after Montenegro."
+    "reason": "Pending/open verification queue remains below the active threshold; continue low-depth Tier-2-hint practical tax coverage without clustering after Serbia."
   },
   "countries": {
     "Spain": {
@@ -472,15 +472,15 @@
     "Serbia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -492,9 +492,11 @@
       ],
       "risk_flags": [
         "no-captured-post-2027-tp-bridge",
-        "digital-nomad-implementing-rules-need-primary-check"
+        "digital-nomad-implementing-rules-need-primary-check",
+        "serbia-freelancer-tax-and-single-permit-fit-gap"
       ],
-      "last_iteration": 32
+      "last_iteration": 72,
+      "unverified_count": 1
     },
     "Turkey": {
       "tier": null,
@@ -985,8 +987,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 7,
-  "sources_count": 351,
-  "claims_count": 308,
+  "verification_queue_size": 8,
+  "sources_count": 357,
+  "claims_count": 313,
   "proposals_pending": 0
 }

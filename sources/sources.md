@@ -4241,3 +4241,75 @@ Each source entry:
 - **Facts supporting**: Montenegro VAT context, including standard 21% VAT rate and reduced 15%, 7%, and 0% rates; used as VAT background for foreign-client IT tax checks (claim-montenegro-015)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-03-27
+
+## src-353
+- **Title**: PwC Worldwide Tax Summaries — Serbia individual residence
+- **URL**: https://taxsummaries.pwc.com/serbia/individual/residence
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-25
+- **Date accessed**: 2026-06-08
+- **Used by**: Serbia
+- **Facts supporting**: Serbia tax-residence tests and resident worldwide-income / non-resident Serbian-source and Serbia-related worldwide-income baseline (claim-serbia-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-25
+
+## src-354
+- **Title**: PwC Worldwide Tax Summaries — Serbia individual taxes on personal income and income determination
+- **URL**: https://taxsummaries.pwc.com/serbia/individual/taxes-on-personal-income ; https://taxsummaries.pwc.com/serbia/individual/income-determination
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-25
+- **Date accessed**: 2026-06-08
+- **Used by**: Serbia
+- **Facts supporting**: Serbia PIT range, 10% employment PIT after RSD 34,221 salary cap, self-employment / entrepreneurial-income categories, VAT-registered individual as self-employment taxpayer, and lump-sum sole-proprietor caveat (claim-serbia-012, claim-serbia-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-25
+
+## src-355
+- **Title**: Serbia freelancer portal — FAQ and home page for foreign-payer self-taxation
+- **URL**: https://frilenseri.purs.gov.rs/en/ ; https://frilenseri.purs.gov.rs/en/faq.html
+- **Archive**: stable gov domain — snapshot not required; direct HTTPS blocked by legacy TLS, Jina text mirror used for extraction while citing original URLs
+- **Type**: official-primary
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-08
+- **Used by**: Serbia
+- **Facts supporting**: official freelancer portal scope for natural persons with foreign-payer income, resident/non-resident adult registration baseline, and warning that portal registration enables tax application/payment but does not create a legal status (claim-serbia-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-08
+
+## src-356
+- **Title**: PwC Worldwide Tax Summaries — Serbia individual other taxes and tax administration
+- **URL**: https://taxsummaries.pwc.com/serbia/individual/other-taxes ; https://taxsummaries.pwc.com/serbia/individual/tax-administration
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-25
+- **Date accessed**: 2026-06-08
+- **Used by**: Serbia
+- **Facts supporting**: Serbia social-security contribution rates and min/max base baseline, electronic tax returns, offshore-income return timing, supplementary annual PIT filing mechanics, and dependent-family deductions for supplementary annual tax (claim-serbia-014, claim-serbia-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-25
+
+## src-357
+- **Title**: PwC Worldwide Tax Summaries — Serbia corporate other taxes / VAT
+- **URL**: https://taxsummaries.pwc.com/serbia/corporate/other-taxes
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-25
+- **Date accessed**: 2026-06-08
+- **Used by**: Serbia
+- **Facts supporting**: Serbia VAT context, including 20% standard rate, 10% reduced rate, 0% export-related context, VAT-taxpayer definition for independent business/service/self-employed activities, and foreign-entity VAT-registration caveat (claim-serbia-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-25
+
+## src-358
+- **Title**: XE Currency Converter — USD to Serbian dinar snapshot
+- **URL**: https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=RSD
+- **Archive**: [archive: failed 2026-06-08; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: live rate snapshot, no static publication date
+- **Date accessed**: 2026-06-08
+- **Used by**: Serbia
+- **Facts supporting**: USD/RSD rate snapshot of about 1 USD = RSD 100.72 used only for Serbia section 5.3 worked example (claim-serbia-015)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-08

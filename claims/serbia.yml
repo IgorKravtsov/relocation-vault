@@ -87,3 +87,48 @@
   confidence: high
   tags: [family-reunification, common-law-partner, spouse, serbia]
   notes: "This closes the unmarried-partner mechanic at the checklist level, but practical acceptance still benefits from Serbian legal review."
+
+- id: claim-serbia-011
+  topic: tax_residence_scope
+  value: "PwC Serbia states that residents are taxable on worldwide income, while non-residents are taxable on Serbian-sourced income and worldwide income related to work in or for Serbia; residence can arise from residence / centre of business and vital interests, 183+ days in a 12-month period, or Serbian state assignment abroad."
+  source: src-353
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [tax-residence, worldwide-income, serbia]
+  notes: "Use as first-pass screening; treaty tie-breaker and exact resident start date require Serbian tax advice."
+
+- id: claim-serbia-012
+  topic: pit_self_employment_baseline
+  value: "PwC Serbia states that individual income-tax rates are flat from 10% to 20% depending on income type; employment income is taxed at 10% after a RSD 34,221 non-taxable salary cap, and income from business activity or professional/intellectual services falls under self-employment / entrepreneurial income."
+  source: src-354
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [taxes, pit, self-employment, serbia]
+  notes: "Exact entrepreneur, freelancer-portal, or lump-sum treatment for foreign-client IT remains open."
+
+- id: claim-serbia-013
+  topic: freelancer_portal_foreign_payer_scope
+  value: "Serbia's official freelancer portal covers natural persons with foreign-payer agreed-fee or copyright/related-rights income; adult residents and non-residents can register, but portal registration does not create a status and only enables tax application / payment-slip self-taxation."
+  source: src-355
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [freelancer, foreign-client, tax-filing, serbia]
+  notes: "Important for tax filing, but not proof that the portal alone satisfies a self-employment or independent-professional single permit."
+
+- id: claim-serbia-014
+  topic: social_contribution_and_filing_baseline
+  value: "PwC Serbia lists employee SSC rates of 14% pension/disability, 5.15% health, and 0.75% unemployment, employer SSC rates of 10% pension/disability and 5.15% health, type-specific contribution treatment for other income, a contribution base minimum of 35.05% of average monthly salary, electronic tax returns, and a 30-day deadline for offshore-income returns."
+  source: src-356
+  date_verified: 2026-06-08
+  confidence: medium-high
+  tags: [social-contributions, filing, offshore-income, serbia]
+  notes: "Used for a conservative screening stress test; exact self-employed / freelancer contribution base must be verified."
+
+- id: claim-serbia-015
+  topic: usd3000_tax_stress_test
+  value: "At a captured XE rate of about 1 USD = RSD 100.72, USD 3,000/month is about RSD 302,160/month. A conservative gross-base stress test using 10% PIT plus a 35.05% combined SSC sensitivity leaves about RSD 166,037/month (about USD 1,649); a 20% expense-base sensitivity leaves about RSD 193,262/month (about USD 1,919)."
+  source: src-358
+  date_verified: 2026-06-08
+  confidence: medium
+  tags: [tax-worked-example, foreign-client-it, serbia, fx]
+  notes: "Also relies on src-354, src-356, and src-357 for tax/VAT context; not a final Serbian entrepreneur/freelancer answer."

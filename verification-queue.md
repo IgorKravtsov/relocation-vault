@@ -184,6 +184,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+## vq-102 [medium priority]
+- **Fact**: "Serbia foreign-client IT route classification: freelancer portal versus registered entrepreneur / APR activity, lump-sum or expense treatment, social-contribution base, VAT / reverse-charge / e-invoicing, and compatibility with the self-employment or independent-professional single permit"
+- **Country**: Serbia
+- **Section**: 5.3
+- **Current source**: src-353, src-354, src-355, src-356, src-357, src-358
+- **Why uncertain**: This tax pass captured tax residence, PIT/self-employment baselines, the official freelancer portal scope for foreign-payer income, SSC/VAT context, and a conservative USD 3,000/month stress test, but did not prove whether the best tax route is unregistered freelancer self-taxation, registered entrepreneur / sole proprietor, or another structure accepted by MUP for a single permit.
+- **Suggested verification**: Capture Serbian Tax Administration / APR / accountant guidance for IT activity classification, lump-sum eligibility or deductible-expense model, exact self-employed/freelancer contribution base, VAT / reverse-charge / e-invoicing treatment for foreign B2B clients, and whether the structure supports a self-employment or independent-professional single permit before marking §5.3 passed.
+- **Created**: 2026-06-08 (run-072)
+- **Status**: pending
+
 ## vq-101 [medium priority]
 - **Fact**: "Montenegro entrepreneur/self-employed registration, exact SSC base/rates, VAT / reverse-charge handling, and DN/ordinary-residence tax compatibility for a Ukrainian foreign-client IT freelancer"
 - **Country**: Montenegro
