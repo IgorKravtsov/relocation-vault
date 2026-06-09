@@ -4818,3 +4818,75 @@ Each source entry:
 - **Facts supporting**: Palermo cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
+
+## src-401
+- **Title**: PwC Worldwide Tax Summaries — Portugal, Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/portugal/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-05
+- **Date accessed**: 2026-06-09
+- **Used by**: Portugal
+- **Facts supporting**: 2026 Portuguese resident PIT brackets, worldwide-income baseline, non-resident 25% note, joint-rate mechanics for married / de facto-married taxpayers
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-05
+
+## src-402
+- **Title**: PwC Worldwide Tax Summaries — Portugal, Individual: Residence / Tax administration
+- **URL**: https://taxsummaries.pwc.com/portugal/individual/residence ; https://taxsummaries.pwc.com/portugal/individual/tax-administration
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-05
+- **Date accessed**: 2026-06-09
+- **Used by**: Portugal
+- **Facts supporting**: Portuguese tax-residence baseline, 30 June PIT filing deadline, joint return option, foreign-account reporting context
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-05
+
+## src-403
+- **Title**: PwC Worldwide Tax Summaries — Portugal, Individual: Income determination
+- **URL**: https://taxsummaries.pwc.com/portugal/individual/income-determination
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-05
+- **Date accessed**: 2026-06-09
+- **Used by**: Portugal
+- **Facts supporting**: 2026 simplified-regime EUR 200,000 turnover cap, 75% / 35% service coefficients, and expense-evidence adjustment mechanics
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-05
+
+## src-404
+- **Title**: PwC Worldwide Tax Summaries — Portugal, Individual other taxes / Corporate other taxes
+- **URL**: https://taxsummaries.pwc.com/portugal/individual/other-taxes ; https://taxsummaries.pwc.com/portugal/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-05
+- **Date accessed**: 2026-06-09
+- **Used by**: Portugal
+- **Facts supporting**: 21.4% self-employed social-security rate, 70% service-income relevant remuneration, contribution-base mechanics, 2026 minimum wage, and 23% mainland VAT headline
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-05
+
+## src-405
+- **Title**: ePortugal — File the self-employment registration
+- **URL**: https://eportugal.gov.pt/en/servicos/abrir-atividade-nas-financas
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: official-primary
+- **Date published**: not stated
+- **Date accessed**: 2026-06-09
+- **Used by**: Portugal
+- **Facts supporting**: self-employed workers must register with the Tax Office before starting activity; Finances Portal beginning-of-activity filing path; online filing cost
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-09
+
+## src-406
+- **Title**: PwC Worldwide Tax Summaries — Portugal, Individual: Significant developments
+- **URL**: https://taxsummaries.pwc.com/portugal/individual/significant-developments
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-05
+- **Date accessed**: 2026-06-09
+- **Used by**: Portugal
+- **Facts supporting**: IFICI new-resident incentive outline and former-tax-residents relief caveat
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-05

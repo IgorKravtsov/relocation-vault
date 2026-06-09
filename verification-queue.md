@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # Verification Queue
@@ -255,6 +255,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Status**: resolved
 - **Resolved**: 2026-06-08 (run-075)
 - **Resolution note**: Closed for country screening only. Normirani s.p. eligibility, exact contribution bases, VAT/reverse-charge reporting, and DN/single-permit compatibility remain application-prep checks. [src-344][src-345][src-346][src-347][src-348]
+
+## vq-105 [medium priority]
+- **Fact**: "Portugal Article 151 activity-code / simplified-regime coefficient, VAT place-of-supply / reverse-charge handling, first-year social-security timing, and D8 / ordinary-residence compatibility for a Ukrainian foreign-client IT freelancer"
+- **Country**: Portugal
+- **Section**: 5.3
+- **Current source**: src-401, src-402, src-403, src-404, src-405, src-406
+- **Why uncertain**: This tax pass captured a conservative ordinary simplified-regime stress test, registration route, PIT / social-security mechanics, and new-resident relief caveats, but did not confirm the exact Portuguese activity code, VAT reporting, first-year contribution timing, deductible-expense evidence, or immigration-status fit for the couple's foreign-client IT file.
+- **Suggested verification**: Check AT / Seguranca Social / Portuguese accountant guidance for Article 151 IT classification, simplified-regime expense-evidence treatment, foreign-client B2B VAT / reverse-charge reporting, social-security exemption/timing/base mechanics, and compatibility with D8 or another ordinary residence route.
+- **Created**: 2026-06-09 (run-082)
+- **Status**: pending
 
 ## vq-098 [medium priority]
 - **Fact**: "Hungary individual-entrepreneur tax regime, exact 2026 contribution bases, KATA / flat-rate eligibility, VAT / reverse-charge treatment, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer"

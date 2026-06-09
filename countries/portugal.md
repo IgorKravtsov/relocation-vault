@@ -1,14 +1,14 @@
 ---
 country: Portugal
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-02T04:01:45Z
+depth_score: 3.5
+last_updated: 2026-06-09T13:31:41Z
 sections_completed: ["5.4", "5.5"]
-sections_partial: ["5.1","5.2"]
-sections_pending: ["5.3","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure"]
-sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189"]
-unverified_count: 1
+sections_partial: ["5.1","5.2","5.3"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap"]
+sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-02T04:01:45Z
+- **depth_score**: 3.5
+- **Last updated**: 2026-06-09T13:31:41Z
 - **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
 
 ## Block 2 — Scoring
@@ -29,7 +29,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | 5 | medium | Portugal offers a real TP shelter path and a known D8 remote-work track, but the D8 threshold looks too high for the current household budget, the official-primary D8 checklist still needs capture, and no clean TP→ordinary-residence bridge for after 04 March 2027 was documented in this pass. | §5.1 |
 | Climate | 8 | medium | Lisbon and especially Faro fit the warm-climate preference well, while Porto is cooler and much wetter; direct sunny-day counts still need a dedicated source. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | 4 | medium | Ordinary Portuguese self-employment at the current income is materially heavy: the conservative simplified-regime stress test leaves about EUR 1,862/month (USD 2,148) net if filed singly, or about EUR 1,949/month (USD 2,249) if joint taxation is available with no second income. Exact Article 151 activity mapping, VAT/place-of-supply, and immigration-status compatibility remain accountant/application-prep checks. | §5.3 |
 | Cost of living | 6 | medium | A $3,000/month household can work in Porto/Faro with disciplined rent and no car-heavy lifestyle, but Lisbon leaves little buffer once rent is included. | §5.4 |
 | Rent (decent 2BR) | 4 | medium | Current 2025-2026 T2 bands confirm Lisbon is rent-stressed, Porto is more workable, and Faro/Algarve is seasonal but possible with a year-round lease. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -93,11 +93,41 @@ schema_version: 2.0.0
 - Practical comfort read: **Faro / Algarve** looks best for warmth and light; **Lisbon** is the best large-city compromise; **Porto** is the least aligned climate-wise even if it may later score well on other dimensions. [src-022][src-023][src-024]
 - The remaining climate gap is a clean source for direct annual **sunny-day counts** in **Faro** (Lisbon and Porto are now covered by percentage-possible-sunshine data). [verification required; vq-010 partial]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-09, dod: partial}
 
-> **DoD**: effective rate at $3000/mo computed; registration procedure for applicable regime; gross→net example; new-resident reliefs; marriage tax effect.
+> **DoD status**: partial. Covered: tax residence, 2026 resident PIT brackets, simplified self-employment mechanics, self-employed social-security rate/base, start-of-activity filing route, VAT headline, filing / joint-return mechanics, new-resident reliefs, and a USD 3,000/month gross->net stress test. Missing for full DoD: Portuguese accountant / AT confirmation of the exact Article 151 activity code for foreign-client IT, VAT/place-of-supply and reverse-charge reporting, first-year social-security timing, deductible-expense evidence, and D8 / ordinary-status compatibility.
 
-[verification required]
+#### Tax-residence and baseline regime
+
+- PwC's 2026 Portugal summary says Portuguese tax residents are taxed on worldwide income at progressive PIT rates from **12.50% to 48%**; non-residents are taxed only on Portuguese-source income, with a 25% flat rate on taxable remuneration such as employment, self-employment, and pension income. For a relocation/D8-style plan where the couple lives in Portugal, the conservative screening model should therefore assume Portuguese tax residence and worldwide-income reporting rather than non-resident treatment. [src-401][src-402]
+- For sole-trader / business and professional income, PwC says income may be taxed under the **simplified regime** or based on organised accounts. The simplified regime applies when the taxpayer has not opted for organised accounts and previous-year turnover / gross business and professional income is below **EUR 200,000** for 2026. [src-403]
+- Under the simplified regime, listed Article 151 business/professional services are generally taxed on **75% of gross service income**; services not expressly listed use a 35% coefficient. The 75%/35% deduction is partly conditioned by evidence of activity expenses, and the computed taxable income can be increased if verified expenses are below the required baseline. For screening, use the 75% service coefficient as a conservative IT-freelancer placeholder until an accountant maps the exact activity. [src-403]
+
+#### Social security, VAT, and registration mechanics
+
+- PwC says the self-employed social-security contribution rate is **21.4%**. For self-employed people under the simplified tax regime, the monthly contribution basis is based on the relevant remuneration from the previous three months; relevant remuneration is **70% of service income** and **20% of production/sales income**, with a monthly base cap of 12 times IAS. This creates a simple service-income screening formula of about 21.4% x 70% = **14.98% of gross service receipts** before timing/exemption nuances. [src-404]
+- ePortugal's official service page says self-employed workers must register themselves with the Tax Office by submitting a self-employment registration certificate **before starting activity**. Online filing is through the Finances Portal: search for "beginning of activity", choose "Services > Activity > Beginning of Activity", and deliver the certificate. Online delivery is free; at a desk, electronic filing is free and paper filing costs EUR 0.35. [src-405]
+- PwC's corporate VAT summary gives Portugal's VAT standard rate as **23%** on the mainland, with lower regional rates in Madeira and the Azores. This tax pass did not verify whether the couple's foreign-client IT invoices are outside the Portuguese VAT charge, reverse-charged, exempt, or require VAT registration / recapitulative statements; treat VAT as an accountant/application-prep check, not a favorable assumption. [src-404]
+
+#### New-resident reliefs and marriage effect
+
+- PwC reports an IFICI / research-and-innovation incentive for certain new Portuguese tax residents who were not resident in Portugal during the previous five years and carry out eligible activities within eligible entities; in general terms it can give a **20% special rate** on net employment or category-B business/professional income from eligible activities and exemption for many foreign-sourced categories. This is not a default for the couple's freelance foreign-client IT file because eligibility depends on the activity and eligible entity criteria. [src-406]
+- PwC also describes a former-tax-residents return regime with 50% relief for some returning Portuguese emigrants, but it requires prior Portuguese tax residence and therefore is not a default assumption for this Ukrainian couple. [src-406]
+- Marriage or a de facto marriage can matter for rate mechanics: PwC says that, if married / de facto-married taxpayers opt for joint taxation, taxable income is divided by two for applying the PIT rate. PwC's administration page also says PIT returns are normally filed by **30 June** of the following year, and married couples may opt to file a joint return disclosing the total income of both. [src-401][src-402]
+
+#### Worked USD 3,000/month stress test
+
+Assumptions for this screening calculation: USD 3,000/month gross foreign-client service receipts; ECB snapshot **EUR 1 = USD 1.1540**, so USD 3,000 ~= **EUR 2,600/month**; simplified-regime service coefficient 75%; self-employed social security estimated as 21.4% x 70% of monthly gross service receipts; no IFICI/NHR-style relief, no VAT cash cost, no accountant fee, no first-year social-security exemption, and no deductible-expense uplift beyond the simplified-regime baseline. [src-401][src-403][src-404][src-406]
+
+| Item | Single filing stress test | Joint-rate sensitivity if no second income |
+|---|---:|---:|
+| Gross receipts | EUR 2,600/mo (EUR 31,196/yr) | same |
+| PIT taxable base before any expense-evidence adjustment | EUR 23,397/yr | same household base divided by two for rate application |
+| Estimated annual PIT from 2026 bands | ~EUR 4,184/yr | ~EUR 3,139/yr |
+| Estimated social security | ~EUR 389/mo | ~EUR 389/mo |
+| Approximate net before accountant/VAT/immigration costs | **EUR 1,862/mo (~USD 2,148)** | **EUR 1,949/mo (~USD 2,249)** |
+
+**Screening conclusion**: Portugal is not tax-light for the current one-income budget under ordinary self-employment. The simplified-regime model may still be livable in Porto/Faro if rent is controlled, but Lisbon becomes fragile. Do **not** mark §5.3 passed until a Portuguese accountant / AT source confirms the exact IT activity code, simplified-regime coefficient and expense-evidence position, VAT/place-of-supply for foreign B2B clients, social-security timing/base nuances, and compatibility with the D8 / ordinary residence file. [verification required; vq-105]
 
 ### 5.4. Cost of Living {status: completed, depth: 1, last_updated: 2026-06-01, dod: passed}
 
@@ -190,9 +220,15 @@ TBD — will be developed as sections 5.3–5.11 are completed.
 - [src-019] AIMA — Aviso n.º 7035/2024 — Extensão da proteção temporária até 2027.
 - [src-021] Diário da República — Decreto-Lei n.º 63/2026 (19 May 2026) — Alteração do regime de aquisição da nacionalidade portuguesa (7/10-year residence periods).
 - [src-026] AIMA — Autorização de residência para trabalho remoto (post-visa filing route, documents, validity).
+- [src-405] ePortugal — File the self-employment registration (official start-of-activity filing route and cost).
 
 ### 7b. Reputable secondary
 - [src-020] Portugalist — Portugal Digital Nomad Visa (D8) 2026 Guide (income threshold, family requirements, NIF/bank/accountancy setup).
+- [src-401] PwC Portugal — Individual taxes on personal income (2026 PIT brackets, worldwide-income baseline, joint-rate mechanics).
+- [src-402] PwC Portugal — Individual residence / tax administration (tax-residence baseline, annual PIT filing and joint-return mechanics).
+- [src-403] PwC Portugal — Individual income determination (simplified-regime turnover cap, 75% / 35% service coefficients, expense-evidence mechanics).
+- [src-404] PwC Portugal — Individual other taxes / corporate VAT summary (self-employed social security and VAT headline context).
+- [src-406] PwC Portugal — Individual significant developments (IFICI and former-tax-residents reliefs).
 - [src-077] Wikipedia — Climate of Lisbon (Percentage possible sunshine data, WMO/NOAA sourced).
 - [src-078] Wikipedia — Climate of Porto (Percentage possible sunshine data, WMO/NOAA sourced).
 - [src-176] Movingto — Cost of Living in Portugal 2026 (national budget, utilities, groceries, transport, and housing orientation).
@@ -212,8 +248,10 @@ _(none yet)_
 ### 7e. Not found
 - Official-primary D8 visa checklist (pre-visa document list, health-insurance minimum, processing time) from a Portuguese consulate or AIMA circular.
 - Direct annual sunny-day counts for Faro.
+- Portugal self-employed tax fit: exact Article 151 activity code / coefficient, VAT place-of-supply or reverse-charge reporting, first-year social-security timing, expense-evidence treatment, and D8 / ordinary-status compatibility for a Ukrainian foreign-client IT freelancer.
 
 ## Block 8 — Open questions and verification markers
 
 - [verification required] Portugal TP time-counting toward long-term residence. → `vq-008`
 - [verification required] Direct annual sunny-day counts for Faro. → `vq-010 partial`
+- [verification required] Portugal self-employed tax fit for foreign-client IT: Article 151 code, VAT/place-of-supply, social-security timing, deductible-expense evidence, and immigration-status compatibility. → `vq-105`

@@ -1,26 +1,25 @@
 {
   "version": 2,
-  "iteration": 81,
+  "iteration": 82,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-09T10:21:08Z",
+  "last_run_timestamp": "2026-06-09T13:31:41Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Italy",
+    "country": "Portugal",
     "sections": [
-      "5.4",
-      "5.5"
+      "5.3"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Portugal",
+    "suggested_country": "Albania",
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Pending/open verification queue remains below the active threshold after run-081; continue Tier-1-hint depth work without repeating Italy by moving to Portugal, the remaining lower-depth Tier-1-hint country with taxes still pending."
+    "reason": "Pending/open verification queue remains below the active threshold after run-082; anti-clustering points away from repeating Tier-1 tax work, so move to the lowest-depth Tier-2-hint country with taxes still pending."
   },
   "countries": {
     "Spain": {
@@ -57,17 +56,17 @@
     "Portugal": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 3.0,
+      "depth_score": 3.5,
       "sections_completed": [
         "5.4",
         "5.5"
       ],
       "sections_partial": [
         "5.1",
-        "5.2"
+        "5.2",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.6",
         "5.7",
         "5.8",
@@ -79,9 +78,12 @@
         "no-clear-post-2027-tp-bridge",
         "climate-sunny-days-gap",
         "d8-income-above-current-budget",
-        "lisbon-rent-pressure"
+        "lisbon-rent-pressure",
+        "portugal-self-employed-tax-burden",
+        "portugal-foreign-client-vat-fit-gap"
       ],
-      "last_iteration": 35
+      "last_iteration": 82,
+      "unverified_count": 2
     },
     "Italy": {
       "tier": null,
@@ -1001,8 +1003,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 5,
-  "sources_count": 399,
-  "claims_count": 323,
+  "verification_queue_size": 6,
+  "sources_count": 405,
+  "claims_count": 328,
   "proposals_pending": 0
 }

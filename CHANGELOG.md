@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-09
 ---
 
+## 2026-06-09 — run-082
+- Portugal: depth_score 3.0 -> 3.5; section 5.3 taxes moved from pending to partial with a conservative ordinary self-employment screen.
+- Added Portugal tax sources `src-401` through `src-406` and claims `claim-portugal-006` through `claim-portugal-010`.
+- Main finding: at USD 3,000/month, ordinary simplified-regime self-employment leaves about EUR 1,862/month singly or EUR 1,949/month under joint-rate sensitivity before accountant/VAT/immigration costs.
+- Added `vq-105` for Article 151 activity mapping, VAT/place-of-supply, social-security timing, and D8 / ordinary-status compatibility.
+
 ## 2026-06-09 — run-081
 - Italy: depth_score 2.5 -> 4.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
 - Added Italy cost/rent sources `src-396` through `src-400` from Livingcost country and city pages.

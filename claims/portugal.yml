@@ -44,3 +44,48 @@
   confidence: high
   tags: [portugal, citizenship, naturalization, ukraine]
   notes: "Portugal's justice ministry says that from 19 May 2026 the naturalization residence period is ten years for nationals of states outside the EU and outside the Portuguese-speaking-country bucket."
+
+- id: claim-portugal-006
+  topic: resident_pit_brackets_2026
+  value: "Portuguese resident PIT rates range from 12.50% to 48% in 2026"
+  source: src-401
+  date_verified: 2026-06-09
+  confidence: medium-high
+  tags: [portugal, taxes, pit, 2026]
+  notes: "PwC Portugal individual tax summary; use official AT confirmation before final filing."
+
+- id: claim-portugal-007
+  topic: simplified_regime_service_coefficient
+  value: "Simplified regime applies below EUR 200,000 previous-year turnover; listed professional services generally use a 0.75 taxable coefficient"
+  source: src-403
+  date_verified: 2026-06-09
+  confidence: medium-high
+  tags: [portugal, taxes, self-employed, simplified-regime]
+  notes: "Exact Article 151 mapping for foreign-client IT remains accountant/application-prep verification."
+
+- id: claim-portugal-008
+  topic: self_employed_social_security_rate
+  value: "21.4% contribution rate; relevant remuneration is 70% of service income under the simplified regime"
+  source: src-404
+  date_verified: 2026-06-09
+  confidence: medium-high
+  tags: [portugal, taxes, social-security, self-employed]
+  notes: "Timing, first-year exemptions, and base adjustments need Portuguese accountant / Segurança Social confirmation before filing."
+
+- id: claim-portugal-009
+  topic: self_employed_start_activity_registration
+  value: "Self-employed workers must file a beginning-of-activity registration with the Tax Office before starting activity; online filing through the Finances Portal is free"
+  source: src-405
+  date_verified: 2026-06-09
+  confidence: high
+  tags: [portugal, taxes, registration, self-employed]
+  notes: "Official ePortugal service page."
+
+- id: claim-portugal-010
+  topic: portugal_usd3000_self_employed_net_screening
+  value: "At USD 3,000/month gross, ordinary simplified-regime self-employment stress test leaves about EUR 1,862/month (USD 2,148) net singly, or about EUR 1,949/month (USD 2,249) with joint-rate sensitivity"
+  source: src-401
+  date_verified: 2026-06-09
+  confidence: medium
+  tags: [portugal, taxes, worked-example, self-employed, budget]
+  notes: "Uses src-401 PIT brackets, src-403 75% coefficient, src-404 21.4% x 70% social-security model, and ECB EUR/USD 1.1540 snapshot; excludes accountant/VAT/immigration costs and first-year timing nuances."
