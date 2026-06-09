@@ -1,13 +1,13 @@
 ---
 country: Spain
 tier: null
-depth_score: 2.5
-last_updated: 2026-06-06T00:17:44Z
-sections_completed: ["5.2","5.3"]
+depth_score: 4.0
+last_updated: 2026-06-09T07:12:59Z
+sections_completed: ["5.2","5.3","5.4","5.5"]
 sections_partial: ["5.1"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight","autonomo-tax-social-security-burden"]
-sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025","src-280","src-281","src-282","src-283","src-284","src-285","src-286"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight","autonomo-tax-social-security-burden","madrid-barcelona-rent-pressure","malaga-tourist-rent-pressure"]
+sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025","src-280","src-281","src-282","src-283","src-284","src-285","src-286","src-391","src-392","src-393","src-394","src-395"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -19,9 +19,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
-- **depth_score**: 2.5
-- **Last updated**: 2026-06-06T00:17:44Z
-- **Tier rationale**: Spain already has a strong remote-work legalization route, a mature temporary-protection system for Ukrainians, passed climate coverage, and now a practical ordinary freelancer-tax baseline. The main remaining caveats are no captured post-04 March 2027 TP-to-ordinary-residence bridge, tight couple-income math for the digital nomad route, and a heavy autonomous-worker tax/social-security burden at the couple's current income.
+- **depth_score**: 4.0
+- **Last updated**: 2026-06-09T07:12:59Z
+- **Tier rationale**: Spain already has a strong remote-work legalization route, a mature temporary-protection system for Ukrainians, passed climate coverage, a practical ordinary freelancer-tax baseline, and now first-pass cost/rent screening. The main remaining caveats are no captured post-04 March 2027 TP-to-ordinary-residence bridge, tight couple-income math for the digital nomad route, heavy autonomous-worker tax/social-security burden at the couple's current income, and rent pressure in Madrid/Barcelona/Malaga.
 
 ## Block 2 — Scoring
 
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | 6 | medium-high | Strong because Spain has a documented TP process and an official digital nomad route with spouse/unmarried-partner coverage; weakened by no clear official TP→ordinary-residence bridge found in this iteration and by tight couple-income math. | §5.1 |
 | Climate | 8 | medium | Warm, sunny profile in Valencia and Málaga, with Madrid less winter-friendly but still bright; direct clear-day counts are captured for all three target cities. | §5.2 |
 | Taxes | 5 | medium | Ordinary autonomous-worker planning at about USD 3,000/month leaves roughly EUR 1,800/month after estimated IRPF and RETA social-security contributions; the 24% inpatriate / Beckham-style route may help some employee-style DN files but is not a safe default for a foreign-client freelancer. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | 5 | medium | Valencia and Malaga look plausible on gross USD 3,000/month but tight after the Spain autonomo tax baseline; Madrid and Barcelona are poor fits unless income rises or tax structure improves. | §5.4 |
+| Rent (decent 2BR) | 4 | medium | Livingcost 40 m2 1BR proxies run about USD 848-1,174 in Valencia/Malaga and USD 1,000-1,395 in Madrid/Barcelona; larger 80 m2 stress tests are too expensive for one taxed income. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -147,17 +147,30 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 3. If applying as DN with the partner included, model the tax net **and** the DN income threshold together; the Spain DN couple threshold is already tight at the current budget. [src-013]
 4. Do not assume the 24% special regime until an adviser confirms eligibility for the exact contract structure.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 2, last_updated: 2026-06-09, dod: passed}
 
-> **DoD**: monthly expenses for 2+ cities; explicit verdict on $3000/mo sufficiency.
+> **DoD status**: passed for first-pass screening. Covered: national baseline, Madrid, Valencia, Malaga, Barcelona stress test, utilities/internet, food, transport, and explicit USD 3,000/month budget verdict. Uses Livingcost as a medium-confidence commercial screening source; live listings and city-specific healthcare/accountant costs remain later-section/application-prep work.
 
-[verification required]
+- Spain's national Livingcost page gives a broad 2026 benchmark: **USD 1,642/month for one person** and **USD 3,717/month for a family of four**, with rent/utilities at **USD 935 / USD 1,515**, food at **USD 472 / USD 1,247**, and transport at **USD 96 / USD 268**. This supports a medium-confidence read that a two-adult household can be feasible in Spain, but not comfortably after Spanish self-employment taxes unless rent is controlled. [src-391]
+- **Madrid** is service-rich but expensive: one-person total with rent is **USD 2,089/month**, family-of-four total is **USD 4,820**, rent/utilities are **USD 1,219 / USD 2,088**, food is **USD 518 / USD 1,374**, and transport is **USD 197 / USD 545**. On the earlier Spain tax section's conservative **~EUR 1,800/month net** ordinary-autonomo baseline, Madrid is not a safe default city; it requires either higher income, savings, confirmed special-tax treatment, or very cheap housing. [src-392][src-281][src-285]
+- **Valencia** is the best first-pass balance among the screened cities: one-person total with rent is **USD 1,797/month**, family-of-four total is **USD 4,071**, rent/utilities are **USD 1,035 / USD 1,655**, food is **USD 503 / USD 1,369**, and transport is **USD 118 / USD 329**. It still looks tight after taxes, but it is more plausible than Madrid/Barcelona while keeping a coastal warm-climate profile. [src-393]
+- **Malaga** is climate-favorable but rent-sensitive: one-person total with rent is **USD 1,727/month**, family-of-four total is **USD 3,948**, rent/utilities are **USD 1,025 / USD 1,729**, food is **USD 478 / USD 1,277**, and transport is **USD 98 / USD 277**. The city screens as plausible only with disciplined rent search and caution about tourist/coastal pressure. [src-394]
+- **Barcelona** is a useful negative control: one-person total with rent is **USD 2,116/month**, family-of-four total is **USD 4,761**, rent/utilities are **USD 1,285 / USD 2,102**, food is **USD 515 / USD 1,342**, and transport is **USD 161 / USD 459**. It should not be the default Spain landing city on the current one-income budget. [src-395]
+- Budget verdict: gross **USD 3,000/month** may pass as a Spanish DN threshold only narrowly for a couple, but the tax section's conservative ordinary-autonomo model leaves around **EUR 1,800/month** after IRPF + RETA before rent and living costs. That makes Spain a **tight / low-margin** budget country unless the couple chooses Valencia or a lower-cost Malaga-area option, raises income, uses savings, or receives adviser-confirmed special-regime / employee-structure treatment. [src-013][src-281][src-285][src-393][src-394]
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.5. Rent {status: deep, depth: 2, last_updated: 2026-06-09, dod: passed}
 
-> **DoD**: 2BR prices in 3+ cities with ranges; % of $3000; 2+ search platforms; landlord requirements.
+> **DoD status**: passed for first-pass screening. Livingcost's 40 m2 1BR line is used as the closest available modest two-room proxy; 80 m2 3BR is included only as an upper-size stress test. Exact live listings, landlord requirements for foreigners, deposit/agency-fee practice, and platform-by-platform checks remain application-prep or a later housing deep dive.
 
-[verification required]
+| City | 40 m2 1BR proxy | 80 m2 3BR stress test | Share of USD 3,000 gross | Screening read |
+|---|---:|---:|---:|---|
+| Madrid | USD 1,000 cheap / USD 1,380 centre | USD 1,720 cheap / USD 2,540 centre | 33%-46% for 40 m2; 57%-85% for 80 m2 | Too expensive as default after Spain autonomo tax; only consider with higher income or exceptional rent. [src-392] |
+| Valencia | USD 848 cheap / USD 1,127 centre | USD 1,347 cheap / USD 1,971 centre | 28%-38% for 40 m2; 45%-66% for 80 m2 | Best first-pass city: coastal, warm, and the least bad rent-to-budget fit among the main targets. [src-393] |
+| Malaga | USD 845 cheap / USD 1,174 centre | USD 1,448 cheap / USD 2,042 centre | 28%-39% for 40 m2; 48%-68% for 80 m2 | Climate-strong but tourist/coastal rent risk; feasible only with disciplined search outside the most pressured zones. [src-394] |
+| Barcelona | USD 1,073 cheap / USD 1,395 centre | USD 1,768 cheap / USD 2,392 centre | 36%-47% for 40 m2; 59%-80% for 80 m2 | Avoid as default on one income; similar pressure to Madrid without enough budget advantage. [src-395] |
+
+- Practical interpretation: the vault's "normal two-room apartment" definition is closer to a modest separate-bedroom apartment than to Livingcost's 80 m2 3BR. Even using the 40 m2 proxy, rent consumes roughly **28%-39% of gross income** in Valencia/Malaga and **33%-47%** in Madrid/Barcelona; against the tax-section net, those shares are much more painful. [src-392][src-393][src-394][src-395]
+- First-pass city order for Spain: **Valencia first**, **Malaga second with tourist-rent caution**, **Madrid only for services/network if income rises**, and **Barcelona avoid by default** until the household has a larger post-tax budget.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -214,17 +227,19 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 - **Best legalization path for the woman**: Inclusion as spouse or unmarried partner on the DN route looks plausible on current official evidence, but exact partner-work consequences and tax-family effects still need follow-up.
 - **Does marriage change the picture**: Less dramatically than in Greece, because Spain explicitly mentions the unmarried partner; still, marriage can simplify documentary proof and may open joint-tax filing later.
 - **Realism of staying after 03.2027**: Medium, but only if the couple is already on a standard residence track rather than depending on an unknown TP transition.
-- **Budget/tax read**: Caution. A conservative ordinary autonomo file at USD 3,000/month leaves roughly EUR 1,800/month after IRPF + RETA before rent and living costs.
+- **Budget/tax read**: Caution. A conservative ordinary autonomo file at USD 3,000/month leaves roughly EUR 1,800/month after IRPF + RETA before rent and living costs; first-pass rent/cost screening points to Valencia first and Malaga second, while Madrid and Barcelona are poor default fits on one taxed income.
 
 **Pros**:
 - Official digital nomad checklist is concrete and family-aware.
 - Spain's TP process for Ukrainians is mature and fast.
 - Málaga and Valencia fit the warm-climate preference well.
+- Valencia gives the best first-pass cost/rent balance among the screened Spanish cities.
 
 **Cons / risks**:
 - No clear official TP→ordinary-residence bridge found yet.
 - Two-person DN income threshold is tight for a $3,000/month household.
 - Ordinary Spanish autonomo taxation / RETA social security is heavy at this income; special-regime eligibility is not confirmed for a pure foreign-client freelancer.
+- Madrid and Barcelona are rent-heavy; Malaga is plausible but tourist/coastal rent pressure must be managed.
 - Polish `karta pobytu` interaction still needs explicit confirmation.
 - PR/citizenship path still needs a dedicated official-source pass.
 

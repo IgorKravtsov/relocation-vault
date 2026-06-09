@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-09
 ---
 
+## 2026-06-09 — run-080
+- Spain: depth_score 2.5 -> 4.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
+- Added Spain cost/rent sources `src-391` through `src-395` from Livingcost country and city pages.
+- Main finding: Valencia is the best first-pass Spain budget city, Malaga is plausible but tourist-rent-sensitive, and Madrid/Barcelona are poor default fits on one taxed income.
+- Verification queue remains 5 pending/open items; next suggested focus: Italy 5.4/5.5.
+
 ## 2026-06-09 — run-079
 - Greece: depth_score 2.0 -> 4.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
 - Added Greece cost/rent sources `src-386` through `src-390` from Livingcost country and city pages.

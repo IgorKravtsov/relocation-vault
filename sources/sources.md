@@ -4698,3 +4698,63 @@ Each source entry:
 - **Facts supporting**: Patras cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
+
+## src-391
+- **Title**: Livingcost — Cost of living in Spain
+- **URL**: https://livingcost.org/cost/spain
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Spain
+- **Facts supporting**: Spain national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-392
+- **Title**: Livingcost — Cost of living in Madrid
+- **URL**: https://livingcost.org/cost/spain/madrid
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Spain
+- **Facts supporting**: Madrid cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-393
+- **Title**: Livingcost — Cost of living in Valencia, Spain
+- **URL**: https://livingcost.org/cost/spain/valencia
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Spain
+- **Facts supporting**: Valencia cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-394
+- **Title**: Livingcost — Cost of living in Malaga
+- **URL**: https://livingcost.org/cost/spain/malaga
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Spain
+- **Facts supporting**: Malaga cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-395
+- **Title**: Livingcost — Cost of living in Barcelona, Spain
+- **URL**: https://livingcost.org/cost/spain/barcelona
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Spain
+- **Facts supporting**: Barcelona cost/rent stress test: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
