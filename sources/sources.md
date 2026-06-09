@@ -4758,3 +4758,63 @@ Each source entry:
 - **Facts supporting**: Barcelona cost/rent stress test: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
+
+## src-396
+- **Title**: Livingcost — Cost of living in Italy
+- **URL**: https://livingcost.org/cost/italy
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Italy
+- **Facts supporting**: Italy national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-397
+- **Title**: Livingcost — Cost of living in Rome, Italy
+- **URL**: https://livingcost.org/cost/italy/lz/rome
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Italy
+- **Facts supporting**: Rome cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-398
+- **Title**: Livingcost — Cost of living in Milan, Italy
+- **URL**: https://livingcost.org/cost/italy/lo/milan
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Italy
+- **Facts supporting**: Milan cost/rent stress test: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-399
+- **Title**: Livingcost — Cost of living in Naples, Italy
+- **URL**: https://livingcost.org/cost/italy/cm/naples
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Italy
+- **Facts supporting**: Naples cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-400
+- **Title**: Livingcost — Cost of living in Palermo, Italy
+- **URL**: https://livingcost.org/cost/italy/si/palermo
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Italy
+- **Facts supporting**: Palermo cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09

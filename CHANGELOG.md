@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-09
 ---
 
+## 2026-06-09 — run-081
+- Italy: depth_score 2.5 -> 4.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
+- Added Italy cost/rent sources `src-396` through `src-400` from Livingcost country and city pages.
+- Main finding: Palermo is the best first-pass Italy budget/climate city, Naples is plausible, Rome is tight, and Milan is a poor default fit on one taxed income.
+- Verification queue remains 5 pending/open items; next suggested focus: Portugal 5.3 taxes.
+
 ## 2026-06-09 — run-080
 - Spain: depth_score 2.5 -> 4.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
 - Added Spain cost/rent sources `src-391` through `src-395` from Livingcost country and city pages.

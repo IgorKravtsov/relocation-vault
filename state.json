@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 80,
+  "iteration": 81,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-09T07:12:59Z",
+  "last_run_timestamp": "2026-06-09T10:21:08Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Spain",
+    "country": "Italy",
     "sections": [
       "5.4",
       "5.5"
@@ -16,12 +16,11 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Italy",
+    "suggested_country": "Portugal",
     "suggested_sections": [
-      "5.4",
-      "5.5"
+      "5.3"
     ],
-    "reason": "Pending/open verification queue remains below the active threshold after run-080; continue Tier-1-hint depth work without repeating Spain by moving to the remaining low-depth Tier-1-hint country with sections 5.4/5.5 still pending."
+    "reason": "Pending/open verification queue remains below the active threshold after run-081; continue Tier-1-hint depth work without repeating Italy by moving to Portugal, the remaining lower-depth Tier-1-hint country with taxes still pending."
   },
   "countries": {
     "Spain": {
@@ -87,17 +86,17 @@
     "Italy": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 2.5,
+      "depth_score": 4.0,
       "sections_completed": [
         "5.2",
-        "5.3"
+        "5.3",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -109,9 +108,11 @@
         "no-clear-post-2027-tp-bridge",
         "dn-income-source-2024",
         "unmarried-partner-not-covered-by-dn-family-sponsorship",
-        "italy-worldwide-tax-and-reporting"
+        "italy-worldwide-tax-and-reporting",
+        "rome-milan-rent-pressure",
+        "southern-services-tradeoff"
       ],
-      "last_iteration": 56,
+      "last_iteration": 81,
       "unverified_count": 0
     },
     "Greece": {
@@ -1001,7 +1002,7 @@
     }
   },
   "verification_queue_size": 5,
-  "sources_count": 394,
+  "sources_count": 399,
   "claims_count": 323,
   "proposals_pending": 0
 }

@@ -1,13 +1,13 @@
 ---
 country: Italy
 tier: null
-depth_score: 2.5
-last_updated: 2026-06-06T03:29:02Z
-sections_completed: ["5.2", "5.3"]
+depth_score: 4.0
+last_updated: 2026-06-09T10:21:08Z
+sections_completed: ["5.2", "5.3", "5.4", "5.5"]
 sections_partial: ["5.1"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-source-2024", "unmarried-partner-not-covered-by-dn-family-sponsorship", "italy-worldwide-tax-and-reporting"]
-sources_used: ["src-002", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033", "src-034", "src-287", "src-288", "src-289", "src-290", "src-291", "src-292", "src-293"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-source-2024", "unmarried-partner-not-covered-by-dn-family-sponsorship", "italy-worldwide-tax-and-reporting", "rome-milan-rent-pressure", "southern-services-tradeoff"]
+sources_used: ["src-002", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033", "src-034", "src-287", "src-288", "src-289", "src-290", "src-291", "src-292", "src-293", "src-396", "src-397", "src-398", "src-399", "src-400"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Italy has a usable temporary-protection framework through 4 March 2027 and a formal digital-nomad / remote-worker visa, but the first pass did not find an Italy-specific TP-to-ordinary-residence bridge after March 2027, and the digital-nomad family route clearly covers a spouse and minor children, not an unmarried partner. Tier remains unassigned until taxes, rent, partner status, and post-2027 fallback mechanics are researched.
-- **depth_score**: 2.5
-- **Last updated**: 2026-06-06T03:29:02Z
+- **depth_score**: 4.0
+- **Last updated**: 2026-06-09T10:21:08Z
 - **Tier rationale**: Italy looks operationally plausible for a married couple if the IT worker can prove a highly specialized remote-work profile and stable income, but long-term stay after TP still depends on switching to an ordinary permit rather than relying on TP.
 
 ## Block 2 — Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | TP is extended to 04 March 2027 and DN route exists, but the safe post-TP baseline is now explicit: no captured conversion bridge; ordinary status required. | §5.1 |
 | Climate | — | medium | Strong climate range: cold/damp Milan, mild Rome, very mild Palermo; clear-day counts captured. | §5.2 |
 | Taxes | 7 | medium | For a small IT freelancer, Italy's `regime forfetario` can keep the first-pass burden moderate, but Italian tax residence means worldwide-income reporting and INPS contributions are material. At run-date FX, USD 3,000/month gross is about EUR 31.2k/year; simplified forfetario + Gestione Separata gives about EUR 1,950/month net at the ordinary 15% substitute-tax rate, or about EUR 2,078/month if the 5% startup rate truly applies. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | 6 | medium | Palermo and Naples look manageable on gross USD 3,000 and tighter but plausible against the conservative forfetario net; Rome is tight and Milan is poor by default. | §5.4 |
+| Rent (decent 2BR) | 5 | medium | The modest 40 m2 1BR proxy is acceptable in Palermo/Naples but Rome and especially Milan consume too much of the one taxed income; 80 m2 3BR is a stress test, not the default. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -158,13 +158,41 @@ Italy also has special new-resident / impatriate-style regimes, but the captured
 
 At USD 3,000/month, Italy's tax system is workable only if the IT worker can use forfetario and keep rent under control. The tax result is not the main blocker compared with legalization/rent: net around EUR 1,950/month at the ordinary forfetario rate may be enough in cheaper cities but tight for Rome/Milan with a dependent partner. Marriage does not create a major freelancer-tax saving in this baseline; PwC notes joint filing for Modello 730, but VAT-number taxpayers use `Modello Redditi PF`, where married couples cannot file jointly [src-291]. If the partner later works, her income should be modelled separately.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-09, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. Livingcost is commercial data, so confidence is medium and live-listing checks remain application-prep, but it gives a consistent city-level budget baseline for Rome, Milan, Naples, and Palermo.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Italy is not a uniform budget country. The north/service hubs are significantly harder on one remote-IT income than the south.
 
-[verification required]
+| City | Total with rent, one person / family of 4 | Food, one person / family of 4 | Transport, one person / family of 4 | Budget verdict for this couple |
+|---|---:|---:|---:|---|
+| National baseline | $1,656 / $3,941 | $553 / $1,463 | $104 / $290 | Useful only as a broad benchmark; national family-of-four costs exceed the couple's gross, but the couple is two adults rather than a family of four [src-396]. |
+| Rome | $2,082 / $4,816 | $543 / $1,432 | $186 / $518 | Service-rich and balanced climatically, but tight on the conservative Italy tax net; workable only with disciplined rent and no large legal/medical surprises [src-397]. |
+| Milan | $2,370 / $5,666 | $655 / $1,732 | $193 / $544 | Poor default fit: cold-climate penalty plus high rent/cost pressure; keep only as a services/jobs hub, not a budget base [src-398]. |
+| Naples | $1,615 / $3,721 | $507 / $1,323 | $131 / $359 | Better first-pass budget fit than Rome/Milan; warmer south, but quality-of-life / bureaucracy / local-services tradeoffs need later sections [src-399]. |
+| Palermo | $1,308 / $3,151 | $479 / $1,260 | $101 / $277 | Best first-pass budget/climate fit among screened cities; rent is meaningfully lower, but island/southern-services tradeoffs must be checked later [src-400]. |
+
+**Budget interpretation.** The tax section's conservative forfetario model leaves roughly EUR 1,950/month net before rent and living costs, about USD 2,250 at the run-056 FX baseline [src-293]. On that net, Milan is not a realistic default and Rome is tight; Palermo and Naples are the practical first screens. Against the gross USD 3,000/month income, Palermo leaves the most buffer for immigration, accountant, insurance, and travel costs.
+
+**Practical monthly baseline for two adults.** Livingcost does not give a two-adult line, so use the one-person line plus a conservative add-on for the non-working partner's food/transport/variable costs rather than the family-of-four line. For screening: Palermo/Naples can plausibly fit if rent is controlled; Rome needs careful apartment selection; Milan should be avoided unless income rises.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-09, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. The vault uses Livingcost's 40 m2 1BR as the closest proxy for the modest two-room-apartment definition; 80 m2 3BR is recorded only as an upper-size stress test. Exact listings, lease registration, deposits, agency fees, and landlord requirements remain application-prep.
+
+| City | 40 m2 1BR centre / cheap | 80 m2 3BR centre / cheap | 40 m2 proxy as % of $3,000 gross | Screening verdict |
+|---|---:|---:|---:|---|
+| National baseline | $873 / $627 | $1,607 / $1,114 | 21%-29% | Broad benchmark; not enough to choose a city [src-396]. |
+| Rome | $1,430 / $899 | $2,479 / $1,607 | 30%-48% | A cheap 40 m2 unit may be workable; central/default rent is too high for a one-income couple after Italian taxes [src-397]. |
+| Milan | $1,522 / $1,068 | $2,800 / $1,958 | 36%-51% | Rent-pressure flag: even the cheap 40 m2 proxy strains the budget, while 80 m2 is incompatible with the current income [src-398]. |
+| Naples | $941 / $616 | $1,689 / $1,032 | 21%-31% | Plausible first-pass rent fit if the couple accepts Naples/local-quality tradeoffs; better than Rome/Milan for budget [src-399]. |
+| Palermo | $630 / $399 | $1,025 / $678 | 13%-21% | Best screened rent fit; 40 m2 proxy leaves room for tax, insurance, and immigration costs [src-400]. |
+
+**Utilities and internet.** Livingcost's family utility lines are broadly similar across the screened cities: Rome $227/month, Milan $228, Naples $187, Palermo $188; internet is about $27-$32/month [src-397][src-398][src-399][src-400]. This means the main housing variable is rent, not utilities.
+
+**Search platforms and process.** For a later application-prep pass, search on Immobiliare.it, Idealista Italy, Casa.it, local agencies, and city Facebook groups. The DN route makes housing unusually important because the captured consular checklist requires a registered Italian lease / rental contract / deed and does not accept hotel stay or third-party hospitality [src-028]. Therefore, the couple should treat lease formality and landlord willingness to register the contract as a legal-route constraint, not only a comfort preference.
+
+**Landlord requirements to verify before filing.** Expect deposit / agency-fee variation, preference for Italian work contracts or local guarantors in stronger markets, and reluctance to register short leases for newcomers. These are not yet sourced enough for DoD beyond first-pass screening, so they remain application-prep checks rather than new vault blockers.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -208,17 +236,19 @@ At USD 3,000/month, Italy's tax system is workable only if the IT worker can use
 - **Best legalization path for the man**: Digital nomad / remote-worker visa if he can document highly specialized IT work, income, insurance, and registered lodging.
 - **Best legalization path for the woman**: Temporary protection separately if eligible; for DN-dependent planning, marriage likely matters because the captured consular guidance names spouse and minor children, not an unmarried partner.
 - **Does marriage change the picture**: Yes. It likely improves DN family sponsorship options and reduces partner-status uncertainty.
-- **Realism of staying after 03.2027**: Medium but not yet proven; ordinary-status switch needed.
+- **Realism of staying after 03.2027**: Medium but not yet proven; ordinary-status switch needed, and the budget only works cleanly in lower-rent cities.
 
 **Pros**:
 - TP horizon currently matches the EU 04 March 2027 deadline.
 - Formal DN / remote-worker route exists for highly specialized remote workers.
 - Rome and southern/coastal Italy are strong climate fits.
+- Palermo and Naples are materially cheaper than Rome/Milan for first-pass rent and living-cost screening.
 
 **Cons / risks**:
 - No captured Italy-specific post-TP bridge to ordinary residence.
 - DN route requires a registered lease before/for the visa package, which can be hard before relocation.
 - Unmarried partner is not clearly covered in the captured DN family sponsorship guidance.
+- Rome and Milan are rent-pressure cities on one taxed Italy income.
 - Northern Italy is much less attractive on winter climate.
 
 ## Block 6 — Practical playbook (working relocation guide)
@@ -232,7 +262,7 @@ At USD 3,000/month, Italy's tax system is workable only if the IT worker can use
 ### 6b. First month after arrival
 - TP path: contact the local Questura, get the application receipt with tax number, then register for SSN via ASL [src-034].
 - DN path: apply for `permesso di soggiorno` at the local Questura within eight working days after entry [src-028].
-- Choose city carefully: Rome first for balance; Palermo for winter comfort; avoid Milan if climate is a major filter.
+- Choose city carefully: Palermo first for budget/climate, Naples as a cheaper mainland south option, Rome only with strict rent control, and avoid Milan unless income rises.
 
 ### 6c. First 3–6 months
 - Keep income, accommodation, and insurance evidence continuously updated for DN renewal [src-028].
@@ -253,8 +283,8 @@ At USD 3,000/month, Italy's tax system is workable only if the IT worker can use
 | Visa / residence permit fees | — | National visa fee varies quarterly [src-028]. |
 | Apostilles and translations | — | TBD |
 | Flights for two | — | TBD |
-| Rental deposit | — | Registered Italian lease is key for DN [src-028]. |
-| First month rent | — | TBD |
+| Rental deposit | — | Registered Italian lease is key for DN [src-028]; exact deposit / agency practice still needs live-listing checks. |
+| First month rent | $399-$630 Palermo cheap/central 40 m2 proxy; $616-$941 Naples; $899-$1,430 Rome; $1,068-$1,522 Milan | Livingcost 40 m2 proxy, not a guaranteed listing [src-397][src-398][src-399][src-400]. |
 | Health insurance (one year) | ≥€30,000 coverage requirement | Coverage amount, not premium [src-028]. |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
@@ -286,11 +316,13 @@ _(none yet)_
 - Climate to Travel: Rome, Milan, Palermo [src-030][src-031][src-032]
 - Current Results: annual sunshine in Italy [src-033]
 - Forfetario IT/communications profitability-coefficient table and run-date USD/EUR FX feed: [src-292][src-293]
+- Livingcost Italy cost/rent pages: national, Rome, Milan, Naples, Palermo [src-396][src-397][src-398][src-399][src-400]
 
 ### 7e. Not found
 - Official-primary DN checklist from an Italy-in-Ukraine consular page.
 - More favorable evidence, if any, that unmarried partners can be sponsored under Italy's DN family route; current operational baseline is spouse/minor children only.
 - Commercialista confirmation of the exact ATECO code, forfetario eligibility, 5% startup-rate eligibility, and invoice/VAT treatment for the IT worker's actual client setup.
+- Live-listing confirmation for Rome/Milan/Naples/Palermo rents, registered-lease availability for DN filing, deposits, agency fees, and landlord requirements for foreign remote workers.
 
 ## Block 8 — Open questions and verification markers
 
