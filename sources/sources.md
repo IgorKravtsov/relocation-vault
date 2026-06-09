@@ -5023,3 +5023,75 @@ Each source entry:
 - **Facts supporting**: run-084 USD/MKD conversion for the North Macedonia USD 3,000/month tax worked example: USD 1 = MKD 52.983164
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-09
+
+## src-418
+- **Title**: PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/bosnia-and-herzegovina/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-09
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: entity-based personal income tax scope, FBiH resident worldwide-income baseline, FBiH 10% PIT, RS 8% PIT, RS small-entrepreneur 2% revenue note, and Brcko 10% PIT (claim-bosnia-herzegovina-008)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-419
+- **Title**: PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Individual: Residence / Tax administration
+- **URL**: https://taxsummaries.pwc.com/bosnia-and-herzegovina/individual/residence ; https://taxsummaries.pwc.com/bosnia-and-herzegovina/individual/tax-administration
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-09
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: FBiH / RS / Brcko tax-residence tests, annual-return deadlines, and entity-specific payroll reporting/payment timing (claim-bosnia-herzegovina-007)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-420
+- **Title**: PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Individual: Other taxes / Deductions
+- **URL**: https://taxsummaries.pwc.com/bosnia-and-herzegovina/individual/other-taxes ; https://taxsummaries.pwc.com/bosnia-and-herzegovina/individual/deductions
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-09
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: FBiH employee/employer social-contribution rates, RS employee contribution rates, Brcko pension-fund choice context, and FBiH / RS personal and dependent allowances for the worked screening sensitivity (claim-bosnia-herzegovina-009)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-421
+- **Title**: PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Corporate: Other taxes
+- **URL**: https://taxsummaries.pwc.com/bosnia-and-herzegovina/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-09
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: countrywide 17% VAT, no reduced VAT rate, taxable-person baseline, BAM 100,000 VAT registration threshold, and payroll-tax context (claim-bosnia-herzegovina-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-422
+- **Title**: PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Individual: Foreign tax relief and tax treaties
+- **URL**: https://taxsummaries.pwc.com/bosnia-and-herzegovina/individual/foreign-tax-relief-and-tax-treaties
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-09
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: foreign-tax-credit baseline and DTT applicability for FBiH / RS / Brcko residents
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-423
+- **Title**: ExchangeRate-API open rates — USD to BAM snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: not captured; API snapshot]
+- **Type**: commercial
+- **Date published**: 2026-06-09T00:02:31Z
+- **Date accessed**: 2026-06-09
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: run-085 USD/BAM conversion for the Bosnia and Herzegovina USD 3,000/month tax worked example: USD 1 = BAM 1.69618
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-09

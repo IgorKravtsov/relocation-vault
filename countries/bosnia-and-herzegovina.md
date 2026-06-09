@@ -1,14 +1,14 @@
 ---
 country: Bosnia and Herzegovina
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-04T19:46:13Z
+depth_score: 2.0
+last_updated: 2026-06-09T22:57:50Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-dedicated-digital-nomad-visa", "company-founder-route-high-burden", "no-captured-ukraine-protection-bridge", "cold-inland-winters"]
-sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-dedicated-digital-nomad-visa", "company-founder-route-high-burden", "no-captured-ukraine-protection-bridge", "cold-inland-winters", "bosnia-entity-tax-and-ssc-fit-gap", "bosnia-foreign-client-vat-fit-gap"]
+sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218", "src-418", "src-419", "src-420", "src-421", "src-422", "src-423"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint retained until tax / cost / ordinary-residence viability is researched).
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-04T19:46:13Z
-- **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and needs official / lawyer verification. [src-214][src-215]
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-09T22:57:50Z
+- **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and now also has entity-specific tax / social-contribution uncertainty. [src-214][src-215][src-418][src-420]
 
 ## Block 2 — Scoring
 
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | Visa-free entry is a medium-confidence placeholder; residence is possible through ordinary grounds but no DN route or Ukraine-specific bridge was captured. | §5.1 |
 | Climate | — | medium | Mostar is warm and low-muggy; Sarajevo/Tuzla have cold winters; clearer-sky proxies are moderate. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | First-pass PwC screen: PIT is 10% in FBiH/Brcko and 8% in RS; employee-style contribution sensitivities leave about USD 1,878-1,881/month at USD 3,000 gross, but the exact freelancer/company-manager base remains unverified. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -89,9 +89,43 @@ Bosnia and Herzegovina has three relevant climate bands: a small Mediterranean c
 
 Sunny-day DoD is met with WeatherSpark clearer-sky day-equivalent proxies, not official sunny-day counts: Sarajevo ~191, Tuzla ~189, Mostar ~205 days/year with clear / mostly clear / partly cloudy sky-equivalent conditions. Mostar is the most climate-fit option for the couple's warm-weather preference; Sarajevo and Tuzla are livable but have winters that may feel too cold compared with Mediterranean alternatives. [src-217]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-09, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This is a first-pass tax screen, not a filing model. Bosnia and Herzegovina is entity-based: Federation of BiH (FBiH), Republika Srpska (RS), and Brcko District have different PIT / allowance / contribution mechanics. The exact route for a Ukrainian foreign-client IT worker (sole entrepreneur, company manager, or employee of a local company), contribution base, VAT place-of-supply, and immigration-status compatibility remain `vq-108`.
+
+#### Tax residence and scope
+
+PwC's 2026 Bosnia and Herzegovina individual summary treats FBiH residents as taxable on worldwide income, while RS and Brcko also tax residents and certain non-resident Bosnia-source income. Residence tests differ by entity: FBiH uses residence or 183+ days in a calendar year; RS uses permanent residence, 183+ days in a 12-month period, or centre of vital interests; Brcko uses residence / dwelling / 183+ days and related tests. [src-418][src-419]
+
+#### PIT and contribution baseline
+
+- **PIT**: FBiH has a flat 10% PIT; RS has an 8% PIT; Brcko has a flat 10% PIT. PwC also notes an RS small-entrepreneur 2% rate on total annual revenue, but this pass did **not** prove that a Ukrainian foreign-client IT worker using a residence/company route can use that regime. [src-418]
+- **Social contributions**: employee-style mandatory rates are heavy. FBiH lists employee contributions of 17% pension/invalidity, 12.5% health, and 1.5% unemployment (31% total), plus employer contributions of 2.5%, 2.0%, and 0.5%. RS lists employee-side 18.5% pension/invalidity, 12% health, 0.6% unemployment, and 1.7% child protection (32.8% total), with no employer contributions. These are employee/payroll mechanics, so they are used only as conservative sensitivities until self-employed/company-manager rules are confirmed. [src-420]
+- **Allowances**: FBiH has a monthly personal allowance of BAM 300 and spouse allowance of BAM 150; RS has an annual personal allowance of BAM 6,000 and BAM 900 per dependent family member. Marriage can matter for allowances, but the immigration-dependent route remains the bigger unresolved issue. [src-420]
+
+#### VAT / business registration context
+
+Bosnia and Herzegovina has a countrywide 17% VAT system with no reduced rate. PwC states that individuals and legal entities must register for VAT if taxable supplies exceed, or are likely to exceed, BAM 100,000; exports of goods are zero-rated, but this pass did not capture the service place-of-supply / reverse-charge treatment for foreign B2B IT services. [src-421]
+
+#### Filing / payment mechanics
+
+FBiH and RS annual individual tax returns are generally due by 31 March for the previous year. Brcko does not require an annual return when all PIT is covered by monthly withholding; otherwise the annual return is due by 28 February. Payroll-style monthly reporting/payment timing differs by entity. [src-419]
+
+#### Worked screening example at USD 3,000/month
+
+Run-085 FX snapshot: USD 1 = BAM 1.69618, so USD 3,000/month is about **BAM 5,088.54/month**. [src-423]
+
+| Scenario | Calculation | Approx net | Interpretation |
+|---|---:|---:|---|
+| FBiH / Brcko PIT-only | BAM 5,088.54 - 10% PIT | BAM 4,579.69 / USD 2,700 | Optimistic floor if no SSC-like base applies; not safe as default. |
+| RS PIT-only | BAM 5,088.54 - 8% PIT | BAM 4,681.46 / USD 2,760 | Optimistic floor; RS small-entrepreneur 2% not assumed. |
+| FBiH employee-style stress test | 31% employee SSC, then 10% PIT after SSC and BAM 300 allowance | BAM 3,189.98 / USD 1,881 | Conservative screening downside before accountant/VAT/immigration costs. |
+| RS employee-style stress test | 32.8% employee SSC, then 8% PIT after SSC and BAM 500 monthly allowance | BAM 3,185.94 / USD 1,878 | Similar conservative downside for RS. |
+
+#### Practical tax conclusion for the couple
+
+Bosnia and Herzegovina does not yet have a clean DN-style tax route for this profile. PIT rates look low on paper, but the combination of entity-specific rules, heavy employee-style contributions, local-company immigration burden, and uncaptured VAT/place-of-supply mechanics means the safe screening answer is **partial / high-burden**. Do not score Bosnia as tax-positive until a Bosnia accountant confirms the exact legal form, contribution base, VAT reporting, and whether that structure supports the residence file. [src-418][src-420][src-421]
+
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -209,6 +243,11 @@ Sunny-day DoD is met with WeatherSpark clearer-sky day-equivalent proxies, not o
 
 ### 7b. Reputable secondary
 - [src-218] UNHCR Help Bosnia and Herzegovina — asylum / international protection.
+- [src-418] PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Individual: Taxes on personal income.
+- [src-419] PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Individual: Residence / Tax administration.
+- [src-420] PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Individual: Other taxes / Deductions.
+- [src-421] PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Corporate: Other taxes.
+- [src-422] PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Individual: Foreign tax relief and tax treaties.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -217,6 +256,7 @@ _(none yet)_
 - [src-204] VisaGuide.World Ukrainian passport visa-free list (aggregator placeholder for entry only).
 - [src-216] Climate to Travel Bosnia and Herzegovina climate page.
 - [src-217] WeatherSpark Bosnia and Herzegovina country climate comparison.
+- [src-423] ExchangeRate-API open rates — USD to BAM snapshot.
 
 ### 7e. Not found
 - Official Bosnia and Herzegovina MFA / Decision on Visas country table confirming Ukraine passport visa-free entry remains useful before travel; `vq-066` is closed for screening.
@@ -225,7 +265,9 @@ _(none yet)_
 - Official self-employment / foreign-client IT route that avoids the heavy company-founder employee obligation.
 - Family-reunification checklist for spouse vs unmarried partner, sponsor income, and timing.
 - Citizenship / dual-citizenship operational requirements.
+- Exact entity/legal-form tax fit for a foreign-client IT worker: sole entrepreneur vs company-manager vs employee model, social-contribution base, VAT place-of-supply / reverse-charge handling, and compatibility with the residence route (`vq-108`).
 
 ## Block 8 — Open questions and verification markers
 
-_(none for current screening depth; Ukraine-specific entry/protection can be rechecked before travel or application prep.)
+- `vq-108`: Bosnia and Herzegovina foreign-client IT tax structure: exact entity, contribution base, VAT/place-of-supply, and residence-route compatibility.
+- Ukraine-specific entry/protection can be rechecked before travel or application prep.

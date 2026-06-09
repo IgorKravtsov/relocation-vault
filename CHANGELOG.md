@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-09
 ---
 
+## 2026-06-09 — run-085
+- Bosnia and Herzegovina: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with an entity-based first-pass tax screen.
+- Added Bosnia and Herzegovina tax / FX sources `src-418` through `src-423` and claims `claim-bosnia-herzegovina-007` through `claim-bosnia-herzegovina-011`.
+- Main finding: at USD 3,000/month (about BAM 5,089), PIT-only leaves about USD 2,700-2,760, but FBiH/RS employee-style contribution stress tests leave about USD 1,878-1,881 before accountant/VAT/immigration costs.
+- Added `vq-108` for legal-form, contribution-base, VAT/place-of-supply, and residence-route compatibility; queue 8 -> 9, below the active verification threshold.
+
 ## 2026-06-09 — run-084
 - North Macedonia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative foreign-client IT tax screen.
 - Added North Macedonia tax / FX sources `src-413` through `src-417` and claims `claim-north-macedonia-007` through `claim-north-macedonia-011`.

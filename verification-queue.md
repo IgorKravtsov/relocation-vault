@@ -184,6 +184,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+## vq-108 [medium priority]
+- **Fact**: "Bosnia and Herzegovina foreign-client IT tax structure: exact legal form (sole entrepreneur, company manager, or local company employee), social-contribution base, VAT/place-of-supply or reverse-charge handling, and compatibility with the ordinary residence/company route"
+- **Country**: Bosnia and Herzegovina
+- **Section**: 5.3
+- **Current source**: src-418, src-419, src-420, src-421, src-422, src-423
+- **Why uncertain**: This tax pass captured entity-level PIT, residence tests, employee-style contributions, allowances, VAT threshold/rate, and USD 3,000/month screening sensitivities, but did not prove the exact legal form and contribution/VAT treatment for a Ukrainian foreign-client IT worker or whether the tax structure works with the high-burden residence route.
+- **Suggested verification**: Check FBiH/RS/Brcko tax authority guidance, Indirect Taxation Authority VAT guidance, and a Bosnia accountant / immigration lawyer for self-employed or company-manager IT classification and residence compatibility.
+- **Created**: 2026-06-09 (run-085)
+- **Status**: pending
+
 ## vq-107 [medium priority]
 - **Fact**: "North Macedonia self-employed / company-manager tax fit for a Ukrainian foreign-client IT worker: exact registration category, contribution base and ordering, VAT/place-of-supply or export-service treatment, and compatibility with the ordinary self-employment/company-backed residence route"
 - **Country**: North Macedonia
