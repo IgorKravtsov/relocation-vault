@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-09
 ---
 
+## 2026-06-09 — run-084
+- North Macedonia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative foreign-client IT tax screen.
+- Added North Macedonia tax / FX sources `src-413` through `src-417` and claims `claim-north-macedonia-007` through `claim-north-macedonia-011`.
+- Main finding: at USD 3,000/month (about MKD 158,949), PIT-only 10% leaves about MKD 143,055 / USD 2,700, but a conservative gross-base 10% PIT + 28% contribution stress test leaves about MKD 98,549 / USD 1,860 before accountant/VAT/immigration costs.
+- Added `vq-107` for registration category, contribution base/order, VAT/place-of-supply, and residence-route compatibility; queue 7 -> 8, below the active verification threshold.
+
 ## 2026-06-09 — run-083
 - Albania: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative self-employed small-business screen.
 - Added Albania tax / FX sources `src-407` through `src-412` and claims `claim-albania-008` through `claim-albania-012`.

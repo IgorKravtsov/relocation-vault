@@ -1,25 +1,25 @@
 {
   "version": 2,
-  "iteration": 83,
+  "iteration": 84,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-09T16:41:06Z",
+  "last_run_timestamp": "2026-06-09T19:49:41Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Albania",
+    "country": "North Macedonia",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "North Macedonia",
+    "suggested_country": "Bosnia and Herzegovina",
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Pending/open verification queue remains below the active threshold after run-083; continue Tier-3-hint / low-depth tax passes with a fresh country rather than clustering on Albania."
+    "reason": "Pending/open verification queue remains below the active threshold after run-084; continue fresh low-depth Tier-3-hint tax passes rather than clustering on North Macedonia."
   },
   "countries": {
     "Spain": {
@@ -601,15 +601,15 @@
     "North Macedonia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -622,9 +622,13 @@
       "risk_flags": [
         "official-ukraine-entry-table-gap",
         "no-dedicated-digital-nomad-visa",
-        "ordinary-residence-route-needs-fit-check"
+        "ordinary-residence-route-needs-fit-check",
+        "no-captured-ukraine-protection-bridge",
+        "north-macedonia-self-employed-contribution-base-gap",
+        "north-macedonia-foreign-client-vat-fit-gap"
       ],
-      "last_iteration": 46
+      "last_iteration": 84,
+      "unverified_count": 1
     },
     "Bosnia and Herzegovina": {
       "tier": null,
@@ -1006,8 +1010,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 7,
-  "sources_count": 411,
-  "claims_count": 333,
+  "verification_queue_size": 8,
+  "sources_count": 416,
+  "claims_count": 338,
   "proposals_pending": 0
 }

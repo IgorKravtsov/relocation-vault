@@ -184,6 +184,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+## vq-107 [medium priority]
+- **Fact**: "North Macedonia self-employed / company-manager tax fit for a Ukrainian foreign-client IT worker: exact registration category, contribution base and ordering, VAT/place-of-supply or export-service treatment, and compatibility with the ordinary self-employment/company-backed residence route"
+- **Country**: North Macedonia
+- **Section**: 5.3
+- **Current source**: src-413, src-414, src-415, src-416, src-417
+- **Why uncertain**: This tax pass captured tax residence, 10% PIT, employee-style 28% contribution rates, VAT threshold/rate, filing mechanics, and a USD 3,000/month stress test, but did not prove the exact self-employed / company-manager structure for foreign-client IT, the actual mandatory contribution base, VAT place-of-supply / reverse-charge handling, or whether the tax structure is compatible with the residence route.
+- **Suggested verification**: Check Public Revenue Office / Central Register / Macedonian accountant guidance, plus immigration counsel for the self-employment/company-backed residence file.
+- **Created**: 2026-06-09 (run-084)
+- **Status**: pending
+
 ## vq-104 [medium priority]
 - **Fact**: "Georgia individual-entrepreneur / small-business tax route fit for a Ukrainian foreign-client IT worker using the IT residence permit, including activity code, VAT/place-of-supply, pension registration, and residence-renewal evidence"
 - **Country**: Georgia

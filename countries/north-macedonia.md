@@ -1,14 +1,14 @@
 ---
 country: North Macedonia
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-04T19:46:13Z
+depth_score: 2.0
+last_updated: 2026-06-09T19:49:41Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-dedicated-digital-nomad-visa", "ordinary-residence-route-needs-fit-check", "no-captured-ukraine-protection-bridge"]
-sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["official-ukraine-entry-table-gap", "no-dedicated-digital-nomad-visa", "ordinary-residence-route-needs-fit-check", "no-captured-ukraine-protection-bridge", "north-macedonia-self-employed-contribution-base-gap", "north-macedonia-foreign-client-vat-fit-gap"]
+sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212", "src-413", "src-414", "src-415", "src-416", "src-417"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to an ordinary-residence / work-or-self-employment file rather than a dedicated digital-nomad route. The country is promising as a low-cost Balkan base, but the post-2027 Ukrainian protection baseline and foreign-client IT residence fit still need primary-source verification.
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-04T19:46:13Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-09T19:49:41Z
 - **Tier rationale**: Not assigned yet; legalization remains partial.
 
 ## Block 2 — Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | Entry / ordinary residence baseline opened, but Ukraine-specific current entry and 2026 protection / remote-worker mechanics require verification. | §5.1 |
 | Climate | 7 | medium | Hot dry summers, cold winters, low muggy-day burden, and ~219-228 clearer-sky day-equivalent proxies in Skopje/Ohrid/Bitola; Ohrid/Bitola are milder than Skopje. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | First-pass tax stress test captured 10% flat PIT, 28% employee-style social-contribution burden, 18% VAT headline / MKD 2m registration threshold, filing mechanics, and a USD 3,000/month MKD calculation; exact self-employed registration, contribution base, VAT/place-of-supply, and immigration-status fit remain unresolved. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -84,9 +84,51 @@ North Macedonia has a continental climate: cold winters, hot summers in lower va
 
 The clearer-sky values are WeatherSpark-derived proxies, not official sunny-day counts: Skopje and Ohrid use the country comparison table; Bitola uses the city cloud-cover table, converted month-by-month with month lengths [src-211][src-212]. Humidity comfort is favorable for the couple: WeatherSpark records almost no muggy days in Ohrid and Bitola, and the climate is drier than Albania/Panama-type humid profiles. Main risks are Skopje summer heat and winter cold / air-stagnation comfort rather than persistent rain.
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-09, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This pass gives a conservative planning baseline for a Ukrainian foreign-client IT worker at about USD 3,000/month, but it does not prove the exact North Macedonian self-employed / sole-proprietor route, whether foreign-client IT revenue is treated as self-employment or company income, the mandatory contribution base for that structure, VAT place-of-supply / reverse-charge treatment, or compatibility with the ordinary self-employment / company-backed residence file.
+
+#### Tax residence and income scope
+
+PwC's 2026 North Macedonia individual guide states that tax residents are taxed on worldwide income, while non-residents are taxed on income derived in North Macedonian territory. Individuals are treated as Macedonian tax residents if they have permanent or temporary residence in the country; temporary residence for tax purposes includes staying continuously or intermittently for at least 183 days in any 12-month period, subject to treaty rules [src-413][src-414]. For a couple actually living there on a residence route, the safe planning baseline is therefore North Macedonian tax residence and reporting of the IT partner's worldwide / foreign-client income unless an adviser proves a narrower treaty outcome.
+
+#### PIT and self-employment baseline
+
+As of the current PwC review, North Macedonia applies a flat 10% personal income tax rate to work income, self-employment income, royalties / IP-related income, rental income, capital income, capital gains, insurance income, and other taxable income not separately categorised. Games-of-chance gains are a separate 15% category; unexplained-origin income can be taxed at 70% [src-413].
+
+For screening, the PIT-only model is simple: USD 3,000/month is about MKD 158,949/month at the run-084 FX snapshot, and 10% PIT alone would leave about MKD 143,055/month / USD 2,700 before social contributions, accountant fees, VAT compliance, and immigration costs [src-413][src-417]. Do **not** treat this as the likely final net until contribution treatment is confirmed.
+
+#### Social contributions and healthcare
+
+PwC's individual other-taxes page states that employee-style mandatory social contributions are calculated on salary / employment remuneration, with a minimum monthly base of 50% of the average salary and a maximum monthly base of 16 average salaries. Current contribution rates on gross salary are 18.8% pension and disability insurance, 7.5% health insurance, 1.2% employment insurance, and 0.5% additional health insurance, or 28.0% combined [src-415].
+
+This is a strong warning flag for a local self-employed/company file, but not a final freelancer answer: the pass did not capture the exact contribution base for a foreign sole proprietor, company manager, or self-employed IT worker. A conservative gross-base stress test subtracting both 10% PIT and 28% contributions from the USD 3,000/MKD 158,949 gross leaves about MKD 98,549/month / USD 1,860; if PIT is applied after contributions, the sensitivity is about MKD 102,999/month / USD 1,944. Use the lower figure for budget stress until a North Macedonian accountant confirms the actual base and ordering [src-415][src-417].
+
+#### VAT, filing, and marriage effects
+
+PwC's corporate other-taxes page gives an 18% standard VAT rate, reduced 5% and 10% categories, and a VAT registration rule for taxpayers whose total annual turnover exceeds MKD 2 million, or is projected at the start of activity to exceed that amount. VAT returns are monthly by default, but quarterly when prior-year turnover does not exceed MKD 25 million; returns are due within 25 days after the tax period and VAT is payable within 30 days [src-416]. The couple's USD 36,000/year gross is well above MKD 2 million at the run-084 FX snapshot, so VAT registration/reporting is a core issue unless export-of-services / place-of-supply rules remove local VAT chargeability for foreign B2B clients. This pass did not verify that point.
+
+For PIT administration, PwC says the tax year is the calendar year; the Public Revenue Office prepares a draft annual return by 30 April, taxpayers confirm/correct it by 31 May, and individuals who realise business income and keep accounting records submit annual accounts and an annual tax return by 15 March. Taxable income generally needs advance reporting and payment; in cases outside domestic payer withholding, the taxpayer reports and pays PIT in advance monthly [src-414]. No useful joint-filing benefit was captured; assume each partner is assessed separately until a Macedonian adviser says otherwise.
+
+#### USD 3,000/month stress test
+
+| Scenario | Monthly net, MKD | Monthly net, USD | Notes |
+|---|---:|---:|---|
+| Gross revenue | 158,949 | 3,000 | ExchangeRate-API snapshot: USD 1 = MKD 52.983164 [src-417]. |
+| PIT-only at 10% | 143,055 | 2,700 | Useful optimistic floor if no social contributions are due on the chosen structure; not the default planning case [src-413]. |
+| PIT + 28% contributions, gross-base stress | 98,549 | 1,860 | Conservative screening model using PwC's captured employee-style contribution rates; exact self-employed base unverified [src-415]. |
+| 28% contributions then 10% PIT on post-contribution base | 102,999 | 1,944 | Ordering sensitivity only; do not use as final advice without accountant confirmation. |
+
+#### Tax fit verdict
+
+North Macedonia is not obviously tax-negative at the 10% PIT headline level, but the real result depends on the legal/tax structure. If a local self-employed or company-manager file triggers near-full social contributions and VAT administration, the practical net may be closer to USD 1,860-1,944/month before accountant, bank, and immigration costs. If an adviser confirms a lighter self-employed contribution base and export-service VAT treatment, the tax picture could be substantially better, but that is not proven enough to score §5.3 as passed.
+
+**Application-prep checks before relying on North Macedonia**:
+- Confirm the exact registration category for a Ukrainian foreign-client IT worker: sole proprietor, company owner/manager, employee of own company, or another structure.
+- Confirm whether the self-employment/company route used for residence permits allows mostly foreign-client remote IT revenue.
+- Confirm mandatory pension/health/employment contribution base, minimums, maximums, and whether contributions are deductible before PIT.
+- Confirm VAT registration, place-of-supply / export-of-services, reverse-charge, and invoicing rules for non-Macedonian clients.
+- Confirm whether marriage changes tax filing, allowances, or health-insurance coverage for the non-working partner.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -202,6 +244,8 @@ The clearer-sky values are WeatherSpark-derived proxies, not official sunny-day 
 ### 7b. Reputable secondary
 - Karanovic & Partners 2025 Law on Foreigners amendments explainer [src-208]
 - UNHCR North Macedonia fact sheet, September 2024 [src-209]
+- PwC North Macedonia individual tax pages: PIT / residence / administration / other taxes [src-413][src-414][src-415]
+- PwC North Macedonia corporate VAT / other taxes page [src-416]
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -211,13 +255,16 @@ _(none yet)_
 - Climate to Travel North Macedonia climate [src-210]
 - WeatherSpark North Macedonia country climate comparison [src-211]
 - WeatherSpark Bitola city climate [src-212]
+- ExchangeRate-API USD/MKD snapshot for run-084 tax calculation [src-417]
 
 ### 7e. Not found
 - Official North Macedonia country-specific Ukraine visa table was not cleanly captured; recheck before travel, but `vq-064` is closed for screening.
 - Current 2026 government temporary-protection extension / rights page for Ukrainians was not captured; safe baseline is no reliance on a protection bridge.
 - Detailed Ministry of Interior / Employment Agency self-employment checklist, income/capital sufficiency, and family filing remain application-prep items; the screening baseline is a real local self-employment/company file, not a DN-style foreign-client permit.
+- Exact tax registration category, self-employed / company-manager social-contribution base, VAT place-of-supply / reverse-charge treatment for foreign IT clients, and immigration-status compatibility remain application-prep checks; see `vq-107`.
 - Official PR/citizenship counting rules were not extracted.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-064` — North Macedonia Ukrainian entry / temporary-protection current status and any post-2027 bridge.
+- `vq-107` — North Macedonia self-employed / company-manager tax fit for a Ukrainian foreign-client IT worker.

@@ -51,3 +51,48 @@
   confidence: medium
   tags: [climate, temperature, comfort]
   notes: "Skopje and Ohrid climate comparison is supported by src-211; Bitola city detail by src-212."
+
+- id: claim-north-macedonia-007
+  topic: tax_residence_scope
+  value: "PwC states that Macedonian tax residents are taxed on worldwide income; tax residence can arise from permanent or temporary residence in the country, including 183 days or more in any 12-month period."
+  source: src-413
+  date_verified: 2026-06-09
+  confidence: medium-high
+  tags: [tax-residence, worldwide-income, 183-days]
+  notes: "Residence mechanics are cross-supported by src-414; treaty tie-breakers require adviser review if relevant."
+
+- id: claim-north-macedonia-008
+  topic: personal_income_tax_rate
+  value: "As of the current PwC review, North Macedonia applies a 10% flat PIT rate to work, self-employment, royalties/IP, rent, capital, capital gains, insurance, and other taxable income not categorised separately."
+  source: src-413
+  date_verified: 2026-06-09
+  confidence: medium-high
+  tags: [tax, pit, self-employment]
+  notes: "Games of chance and unexplained-origin income have separate rates and are not relevant to the IT screening model."
+
+- id: claim-north-macedonia-009
+  topic: social_contribution_rates
+  value: "PwC lists employee-style compulsory social contribution rates of 18.8% pension/disability, 7.5% health, 1.2% employment, and 0.5% additional health, or 28.0% combined, with minimum and maximum salary bases."
+  source: src-415
+  date_verified: 2026-06-09
+  confidence: medium-high
+  tags: [social-security, healthcare, contributions]
+  notes: "Exact self-employed / company-manager base and ordering remain unverified and are tracked in vq-107."
+
+- id: claim-north-macedonia-010
+  topic: vat_threshold_and_rate
+  value: "PwC lists an 18% standard VAT rate and a mandatory VAT registration threshold when total annual turnover exceeds MKD 2 million or projected turnover at business start will exceed that amount."
+  source: src-416
+  date_verified: 2026-06-09
+  confidence: medium-high
+  tags: [vat, threshold, foreign-client-fit]
+  notes: "Foreign-client IT place-of-supply / export-service treatment remains unverified and is tracked in vq-107."
+
+- id: claim-north-macedonia-011
+  topic: tax_screening_usd3000
+  value: "At the run-084 FX snapshot, USD 3,000/month equals about MKD 158,949; a PIT-only 10% model leaves about MKD 143,055 / USD 2,700, while a conservative gross-base PIT plus 28% contribution stress test leaves about MKD 98,549 / USD 1,860."
+  source: src-417
+  date_verified: 2026-06-09
+  confidence: medium
+  tags: [tax, worked-example, fx]
+  notes: "Tax rates are from src-413 and src-415; the contribution model is a screening stress test, not final tax advice."

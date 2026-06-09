@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
 
 # Sources Registry
@@ -4961,5 +4961,65 @@ Each source entry:
 - **Date accessed**: 2026-06-09
 - **Used by**: Albania
 - **Facts supporting**: run-083 USD/ALL conversion for the Albania USD 3,000/month tax worked example: USD 1 = ALL 82.543185
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-09
+
+## src-413
+- **Title**: PwC Worldwide Tax Summaries — North Macedonia, Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/north-macedonia/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-08
+- **Date accessed**: 2026-06-09
+- **Used by**: North Macedonia
+- **Facts supporting**: North Macedonian resident worldwide-income baseline, non-resident Macedonian-source baseline, 10% flat PIT for work/self-employment/royalties/rent/capital/other income, 15% games-of-chance rate, and 70% unexplained-origin income rate
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-08
+
+## src-414
+- **Title**: PwC Worldwide Tax Summaries — North Macedonia, Individual: Residence / Tax administration
+- **URL**: https://taxsummaries.pwc.com/north-macedonia/individual/residence ; https://taxsummaries.pwc.com/north-macedonia/individual/tax-administration
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-08
+- **Date accessed**: 2026-06-09
+- **Used by**: North Macedonia
+- **Facts supporting**: tax-residence tests including permanent/temporary residence and 183 days in any 12-month period, calendar-year taxable period, Public Revenue Office draft annual return by 30 April, confirmation/correction by 31 May, business-income annual accounts / return by 15 March, and monthly advance PIT reporting/payment for cases outside domestic withholding
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-08
+
+## src-415
+- **Title**: PwC Worldwide Tax Summaries — North Macedonia, Individual: Other taxes
+- **URL**: https://taxsummaries.pwc.com/north-macedonia/individual/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-08
+- **Date accessed**: 2026-06-09
+- **Used by**: North Macedonia
+- **Facts supporting**: employee-style mandatory social-contribution base, 50% average-salary minimum base, 16-average-salary maximum base, 18.8% pension/disability, 7.5% health, 1.2% employment, 0.5% additional health, and 28.0% combined contribution-rate screening sensitivity
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-08
+
+## src-416
+- **Title**: PwC Worldwide Tax Summaries — North Macedonia, Corporate: Other taxes
+- **URL**: https://taxsummaries.pwc.com/north-macedonia/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-08
+- **Date accessed**: 2026-06-09
+- **Used by**: North Macedonia
+- **Facts supporting**: 18% standard VAT, 5% and 10% reduced rates, MKD 2m VAT registration threshold / projected-turnover rule, optional voluntary registration, monthly or quarterly VAT period, and 25-day return / 30-day payment timing
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-08
+
+## src-417
+- **Title**: ExchangeRate-API open rates — USD to MKD snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: not captured; API snapshot]
+- **Type**: commercial
+- **Date published**: 2026-06-09T00:02:31Z
+- **Date accessed**: 2026-06-09
+- **Used by**: North Macedonia
+- **Facts supporting**: run-084 USD/MKD conversion for the North Macedonia USD 3,000/month tax worked example: USD 1 = MKD 52.983164
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-09
