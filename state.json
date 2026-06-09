@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 77,
+  "iteration": 78,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-08T21:49:49Z",
+  "last_run_timestamp": "2026-06-09T00:57:36Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Malta",
+    "country": "Croatia",
     "sections": [
       "5.4",
       "5.5"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Croatia",
+    "suggested_country": "Greece",
     "suggested_sections": [
       "5.4",
       "5.5"
     ],
-    "reason": "Pending/open verification queue remains below the active threshold after run-077; continue Tier-1-hint depth work without clustering by moving from Malta to another low-depth country."
+    "reason": "Pending/open verification queue remains below the active threshold after run-078; continue Tier-1-hint depth work without clustering by moving from Croatia to another low-depth country."
   },
   "countries": {
     "Spain": {
@@ -173,17 +173,17 @@
     "Croatia": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 2.0,
+      "depth_score": 4.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -195,9 +195,10 @@
         "no-clear-post-2027-tp-bridge",
         "dn-income-above-current-budget",
         "croatia-self-employed-contribution-base-gap",
-        "croatia-lump-sum-obrt-fit-gap"
+        "croatia-lump-sum-obrt-fit-gap",
+        "coastal-rent-pressure"
       ],
-      "last_iteration": 59,
+      "last_iteration": 78,
       "unverified_count": 2
     },
     "Malta": {
@@ -996,7 +997,7 @@
     }
   },
   "verification_queue_size": 5,
-  "sources_count": 379,
+  "sources_count": 384,
   "claims_count": 323,
   "proposals_pending": 0
 }

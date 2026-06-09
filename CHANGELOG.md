@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-08
+last_updated: 2026-06-09
 ---
+
+## 2026-06-09 — run-078
+- Croatia: depth_score 2.0 -> 4.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
+- Added Croatia cost/rent sources `src-381` through `src-385` from Livingcost country and city pages.
+- Main finding: Rijeka is the best first-pass cost/coastal compromise; Zagreb is serviceable but colder, Split is a stretch, and Dubrovnik is too rent-heavy by default on one income.
+- Verification queue remains 5 pending/open items; next suggested focus: Greece 5.4/5.5.
 
 ## 2026-06-08 — run-077
 - Malta: depth_score 2.0 -> 4.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.

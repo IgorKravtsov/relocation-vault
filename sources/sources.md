@@ -4578,3 +4578,63 @@ Each source entry:
 - **Facts supporting**: Marsaskala cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-08
+
+## src-381
+- **Title**: Livingcost — Cost of living in Croatia
+- **URL**: https://livingcost.org/cost/croatia
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Croatia
+- **Facts supporting**: Croatia national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-382
+- **Title**: Livingcost — Cost of living in Zagreb
+- **URL**: https://livingcost.org/cost/croatia/zagreb
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Croatia
+- **Facts supporting**: Zagreb cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-383
+- **Title**: Livingcost — Cost of living in Split
+- **URL**: https://livingcost.org/cost/croatia/split
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Croatia
+- **Facts supporting**: Split cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-384
+- **Title**: Livingcost — Cost of living in Dubrovnik
+- **URL**: https://livingcost.org/cost/croatia/dubrovnik
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Croatia
+- **Facts supporting**: Dubrovnik cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-385
+- **Title**: Livingcost — Cost of living in Rijeka
+- **URL**: https://livingcost.org/cost/croatia/rijeka
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Croatia
+- **Facts supporting**: Rijeka cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09

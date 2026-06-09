@@ -1,13 +1,13 @@
 ---
 country: Croatia
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-06T12:56:27Z
-sections_completed: ["5.2"]
+depth_score: 4.0
+last_updated: 2026-06-09T00:57:36Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "croatia-self-employed-contribution-base-gap", "croatia-lump-sum-obrt-fit-gap"]
-sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045", "src-293", "src-306", "src-307", "src-308", "src-309", "src-310"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "croatia-self-employed-contribution-base-gap", "croatia-lump-sum-obrt-fit-gap", "coastal-rent-pressure"]
+sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045", "src-293", "src-306", "src-307", "src-308", "src-309", "src-310", "src-381", "src-382", "src-383", "src-384", "src-385"]
 unverified_count: 2
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Croatia has EU temporary protection, a formal digital-nomad temporary-stay route, and an attractive Adriatic climate, but the digital-nomad income floor is above the couple's current ~$3,000/month budget and no Croatia-specific post-04 March 2027 TP-to-ordinary-residence bridge was captured in this first pass.
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-06T12:56:27Z
-- **Tier rationale**: Keep unranked until rent, partner mechanics, ordinary residence after TP, and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the first legalization, climate, and tax passes.
+- **depth_score**: 4.0
+- **Last updated**: 2026-06-09T00:57:36Z
+- **Tier rationale**: Keep unranked until healthcare, education, partner mechanics, ordinary residence after TP, and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the first legalization, climate, tax, and cost/rent passes.
 
 ## Block 2 — Scoring
 
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | TP is covered at EU level through 04 March 2027 and Croatia DN exists, but DN income is too high for the current budget and no post-TP bridge was found. | §5.1 |
 | Climate | — | N/A | Strong coastal climate fit in Split / Dubrovnik; Zagreb has colder continental winters. Direct sunshine-day counts are now captured from Current Results. | §5.2 |
 | Taxes | — | N/A | Croatia tax residents are taxed on worldwide income; ordinary self-employment has local-rate PIT and social contributions, while lump-sum craft taxation may be better but needs exact 2026 contribution / activity-fit verification. First conservative ordinary example at $3,000/month leaves about EUR 1,407-1,491/month before accountant/VAT edge cases. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | N/A | First-pass Livingcost data suggests Croatia is manageable only with city discipline: Rijeka and Zagreb screen better than Split / Dubrovnik, and the conservative Croatian tax net makes coastal choices tight. | §5.4 |
+| Rent (decent 2BR) | — | N/A | Rent is the key practical filter: cheap 40 m2 1BR proxy is about $495 in Rijeka, $571 in Zagreb, $711 in Split, and $867 in Dubrovnik; 80 m2 3BR ranges are much heavier. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -146,13 +146,36 @@ Croatia has no joint annual PIT return [src-310]. A dependent-family-member allo
 4. Avoid basing the relocation budget on the optimistic lump-sum route until the 2026 contribution table and activity fit are documented.
 5. For current-income planning, use the conservative ordinary-stress net of about EUR 1,407-1,491/month after Croatian tax/social contributions, before accountant fees and living costs.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-09, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. This section uses Livingcost national and city pages as medium-confidence commercial baselines for utilities, food, transport, internet, and total monthly cost. It is sufficient for country screening, but not a replacement for live listings, exact health insurance, accountant fees, or relocation-budget quotes.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost's 2026 Croatia page gives a national average monthly cost of **$1,413 for one person with rent** and **$3,292 for a family of four**, with one-person / family-of-four components of $743 / $1,244 for rent and utilities, $464 / $1,226 for food, and $85.60 / $230 for transport [src-381]. For a two-adult couple, this implies Croatia is not automatically cheap once rent is included, especially because the conservative Croatia tax section leaves only about EUR 1,407-1,491/month net from USD 3,000 gross if the ordinary self-employment stress test applies [src-293][src-306][src-310].
 
-[verification required]
+City-level screen:
+
+| City | Total with rent | Without rent | Rent + utilities | Food | Transport | Practical read for the couple |
+|---|---:|---:|---:|---:|---|
+| Zagreb | $1,485 one person / $3,493 family of four | $700 / $2,163 | $785 / $1,331 | $464 / $1,222 | $115 / $308 | Best administrative / job-services base, but colder climate; family-of-four proxy is above gross income, so a couple must budget below the family proxy. [src-382] |
+| Split | $1,673 / $3,797 | $720 / $2,166 | $953 / $1,631 | $523 / $1,379 | $65.90 / $184 | Strong climate fit but materially pricier; feasible only with careful housing and/or a better tax structure than the conservative ordinary model. [src-383] |
+| Dubrovnik | $1,744 / $3,607 | $658 / $1,886 | $1,086 / $1,721 | $496 / $1,307 | $57.20 / $154 | Warmest coastal screen but tourist-market costs and rent pressure make it a weak default on one income. [src-384] |
+| Rijeka | $1,360 / $3,268 | $664 / $2,072 | $697 / $1,196 | $484 / $1,283 | $60.20 / $164 | Best first-pass budget compromise among screened coastal cities; still needs live-listing and neighborhood checks. [src-385] |
+
+**Budget conclusion.** On the gross USD 3,000/month budget, Croatia can screen as workable only if rent is controlled and the tax setup is not the worst-case ordinary self-employment model. Rijeka is the strongest first-pass cost/climate compromise, Zagreb is the safer services/administration base but weaker on winter comfort, Split is a stretch, and Dubrovnik should be treated as a high-cost / tourist-market option rather than the default base.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-09, dod: passed}
+
+> **DoD status**: passed for first-pass screening. The vault's preferred two-room-apartment proxy is closest to Livingcost's 40 m2 1BR line; 80 m2 3BR lines are included as an upper-size stress test. Confidence is medium because Livingcost is a commercial aggregator and does not replace live Croatian listing checks.
+
+| City | 40 m2 1BR city-center | 40 m2 cheap 1BR | 80 m2 3BR city-center | 80 m2 cheap 3BR | Rent pressure vs $3,000 gross |
+|---|---:|---:|---:|---:|---|
+| Zagreb | $765 | $571 | $1,378 | $1,006 | Cheap 1BR proxy is about 19% of gross income; 3BR stress is 34%-46%. [src-382] |
+| Split | $980 | $711 | $1,809 | $1,252 | Cheap 1BR proxy is about 24% of gross; center 1BR is 33%; coastal premium is material. [src-383] |
+| Dubrovnik | $1,222 | $867 | $2,108 | $1,360 | Cheap 1BR proxy is about 29% of gross; city-center 1BR already consumes 41% of gross. Avoid as default unless income rises or a below-market long lease is found. [src-384] |
+| Rijeka | $659 | $495 | $1,210 | $892 | Best screened rent fit: cheap 1BR proxy is about 17% of gross and city-center 1BR about 22%. [src-385] |
+| Croatia national | $745 | $546 | $1,379 | $982 | National baseline sits close to Zagreb; coastal hotspots exceed it. [src-381] |
+
+**Rental strategy.** Use the 40 m2 1BR line as the first-pass proxy for a modest two-room apartment; require a live-listing check before choosing a city. For this couple, target Rijeka first, Zagreb if services / bureaucracy matter more than winter climate, Split only with a strict rent cap, and Dubrovnik only as a later high-income or short-term scenario. Budget at least first month's rent plus a deposit in the relocation budget; exact deposit / agency-fee practice remains for a later practical-budget iteration.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -192,7 +215,7 @@ Croatia has no joint annual PIT return [src-310]. A dependent-family-member allo
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Possibly via TP if eligible; DN only if income rises above €3,622.50/month plus partner uplift. Tax planning is not yet a positive reason to choose Croatia: ordinary self-employment looks tight at current income unless lump-sum craft optimization is confirmed.
+- **Can relocate now**: Possibly via TP if eligible; DN only if income rises above €3,622.50/month plus partner uplift. Tax planning is not yet a positive reason to choose Croatia: ordinary self-employment looks tight at current income unless lump-sum craft optimization is confirmed. Cost/rent screening points to Rijeka or Zagreb rather than Split / Dubrovnik for a one-income couple.
 - **Best legalization path for the man**: TP as temporary bridge; DN only after income increase; ordinary self-employment / craft tax setup requires accountant verification before treating it as affordable.
 - **Best legalization path for the woman**: TP independently if eligible; as DN family member if marriage or provable common-law partnership fits MUP criteria.
 - **Does marriage change the picture**: Yes for immigration proof. Tax benefit is unverified: Croatia has no joint annual PIT return, but a dependent-family-member allowance may matter if eligibility is documented [src-309][src-310].
@@ -209,7 +232,7 @@ Croatia has no joint annual PIT return [src-310]. A dependent-family-member allo
 - Ordinary self-employment tax/social-contribution stress test leaves only about EUR 1,407-1,491/month from USD 3,000/month gross unless lump-sum craft optimization applies [src-293][src-306][src-310].
 - Exact 2026 lump-sum craft / IT freelancer contribution and VAT treatment is not verified.
 - No Croatia-specific post-04 March 2027 TP bridge captured.
-- Coastal rent / seasonality risk is likely material but unresearched.
+- Coastal rent / seasonality risk is material: Rijeka screens as the best coastal budget compromise, Split is a stretch, and Dubrovnik is too rent-heavy by default at current income [src-383][src-384][src-385].
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -226,7 +249,7 @@ Croatia has no joint annual PIT return [src-310]. A dependent-family-member allo
 - Submitting residence application: online or at the competent police administration/station if legally in Croatia [src-041].
 - Bank account opening: [verification required]
 - Tax ID / social security number: tax-resident / self-employed setup will require Croatian Tax Administration treatment; exact OIB / craft registration steps remain pending.
-- Long-term housing: [verification required]
+- Long-term housing: screen Rijeka and Zagreb first; Split only with a strict rent cap; Dubrovnik only if income rises or a below-market long lease is found [src-382][src-383][src-384][src-385].
 - Health insurance / public health registration: private/travel insurance covering Croatia is needed for DN; ordinary self-employed social-insurance registration and contribution base remain pending [src-041][src-310].
 - SIM card, internet, utilities: [verification required]
 
@@ -251,8 +274,8 @@ Croatia has no joint annual PIT return [src-310]. A dependent-family-member allo
 | Visa / residence permit fees | — | DN fee extraction pending. |
 | Apostilles and translations | — | Criminal-record proof must be legalized; translations must be by authorised translator where needed [src-041]. |
 | Flights for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | — | Exact Croatian deposit / agency-fee practice pending; use at least one month rent as a conservative placeholder until live listings are checked. |
+| First month rent | $495-$867+ | Cheap 40 m2 1BR proxy: Rijeka $495, Zagreb $571, Split $711, Dubrovnik $867 [src-382][src-383][src-384][src-385]. |
 | Health insurance (one year) | — | Required for DN, must cover Croatia [src-041]. |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | €43,470+ | If proving funds for 12-month DN instead of monthly income, base amount is €43,470 before partner uplift [src-041]. |
@@ -285,6 +308,11 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - [src-043] Climates to Travel — Croatia climate.
 - [src-045] Current Results — annual sunshine-day counts for Croatia.
+- [src-381] Livingcost — Croatia cost of living.
+- [src-382] Livingcost — Zagreb cost of living.
+- [src-383] Livingcost — Split cost of living.
+- [src-384] Livingcost — Dubrovnik cost of living.
+- [src-385] Livingcost — Rijeka cost of living.
 
 ### 7e. Not found
 - Croatia-specific official TP-to-ordinary-residence bridge for the period after 04 March 2027.
@@ -292,6 +320,7 @@ _(none yet)_
 - Croatia-specific explanation of how an existing Polish residence title affects TP or DN planning.
 - Exact 2026 Croatian self-employed / craft social-contribution base for a foreign-client IT worker.
 - Official or accountant-confirmed fit of lump-sum craft taxation, VAT/reverse-charge mechanics, and dependent allowance for the couple's exact facts.
+- Live Croatian rental listing validation, deposit / agency-fee practice, and exact neighborhood-level long-lease availability for Rijeka, Zagreb, Split, and Dubrovnik.
 
 ## Block 8 — Open questions and verification markers
 
