@@ -4638,3 +4638,63 @@ Each source entry:
 - **Facts supporting**: Rijeka cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
+
+## src-386
+- **Title**: Livingcost — Cost of living in Greece
+- **URL**: https://livingcost.org/cost/greece
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Greece
+- **Facts supporting**: Greece national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-387
+- **Title**: Livingcost — Cost of living in Athens
+- **URL**: https://livingcost.org/cost/greece/athens
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Greece
+- **Facts supporting**: Athens cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-388
+- **Title**: Livingcost — Cost of living in Thessaloniki
+- **URL**: https://livingcost.org/cost/greece/thessaloniki
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Greece
+- **Facts supporting**: Thessaloniki cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-389
+- **Title**: Livingcost — Cost of living in Heraklion
+- **URL**: https://livingcost.org/cost/greece/heraklion
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Greece
+- **Facts supporting**: Heraklion cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09
+
+## src-390
+- **Title**: Livingcost — Cost of living in Patras
+- **URL**: https://livingcost.org/cost/greece/patras
+- **Archive**: [archive: failed 2026-06-09; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-09
+- **Used by**: Greece
+- **Facts supporting**: Patras cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-09

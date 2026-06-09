@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 78,
+  "iteration": 79,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-09T00:57:36Z",
+  "last_run_timestamp": "2026-06-09T04:06:03Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Croatia",
+    "country": "Greece",
     "sections": [
       "5.4",
       "5.5"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Greece",
+    "suggested_country": "Spain",
     "suggested_sections": [
       "5.4",
       "5.5"
     ],
-    "reason": "Pending/open verification queue remains below the active threshold after run-078; continue Tier-1-hint depth work without clustering by moving from Croatia to another low-depth country."
+    "reason": "Pending/open verification queue remains below the active threshold after run-079; continue Tier-1-hint depth work without repeating Greece by moving to a low-depth Tier-1-hint country with sections 5.4/5.5 still pending."
   },
   "countries": {
     "Spain": {
@@ -115,17 +115,17 @@
     "Greece": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 2.0,
+      "depth_score": 4.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -134,9 +134,11 @@
         "5.11"
       ],
       "risk_flags": [
-        "greece-article-5c-foreign-client-fit-gap"
+        "greece-article-5c-foreign-client-fit-gap",
+        "athens-rent-pressure",
+        "crete-tourist-rent-pressure"
       ],
-      "last_iteration": 67,
+      "last_iteration": 79,
       "unverified_count": 1
     },
     "Cyprus": {
@@ -997,7 +999,7 @@
     }
   },
   "verification_queue_size": 5,
-  "sources_count": 384,
+  "sources_count": 389,
   "claims_count": 323,
   "proposals_pending": 0
 }

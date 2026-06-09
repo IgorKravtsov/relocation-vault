@@ -1,13 +1,13 @@
 ---
 country: Greece
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-07T15:45:00Z
-sections_completed: ["5.2"]
+depth_score: 4.0
+last_updated: 2026-06-09T04:06:03Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["greece-article-5c-foreign-client-fit-gap"]
-sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300", "src-337"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["greece-article-5c-foreign-client-fit-gap", "athens-rent-pressure", "crete-tourist-rent-pressure"]
+sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300", "src-337", "src-386", "src-387", "src-388", "src-389", "src-390"]
 unverified_count: 1
 schema_version: 2.0.0
 ---
@@ -19,9 +19,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, and partner-path research are added.
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-07T15:45:00Z
-- **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP→Immigration Code bridge) plus a documented digital nomad route. The tax pass now has an official 2026 EFKA self-employed minimum, so the conservative ordinary PIT + minimum social-insurance stress test is usable; Article 5C fit for foreign-client IT work still needs current specialist/official verification.
+- **depth_score**: 4.0
+- **Last updated**: 2026-06-09T04:06:03Z
+- **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP->Immigration Code bridge) plus a documented digital nomad route. The tax pass now has an official 2026 EFKA self-employed minimum, so the conservative ordinary PIT + minimum social-insurance stress test is usable; Article 5C fit for foreign-client IT work still needs current specialist/official verification. Cost/rent screening is workable on gross USD 3,000/month only with housing discipline; Patras and Thessaloniki screen cheaper than Athens/Heraklion.
 
 ## Block 2 — Scoring
 
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | 7 | medium-high | Strong because Greece explicitly allows TP holders to switch into Immigration Code permits without an entry visa before 04 March 2027, and a DN route exists; weakened by unresolved Polish-karta and DN-checklist gaps. | §5.1 |
 | Climate | 8 | medium | Warm Mediterranean profile with strong sun in Athens and Heraklion, cooler winter in Thessaloniki; exact sunny-day counts still need a source that exposes day totals directly. | §5.2 |
 | Taxes | 6 | medium | Ordinary business-profit PIT on USD 3,000/month is roughly EUR 491/month before social insurance; Article 5C could improve the result if the foreign-client IT file qualifies, but current EFKA/self-employed contribution and 5C route-fit details are still open. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | 6 | medium | Livingcost 2026 city screens put one-person totals around $1,104-$1,462 and family-of-four proxies around $2,672-$3,581; workable gross, but tight after the conservative Greek tax/EFKA baseline. | §5.4 |
+| Rent (decent 2BR) | 6 | medium | Modest 40 m2 1BR proxies are affordable in Patras/Thessaloniki and manageable in Athens/Heraklion; larger 80 m2 3BR stress tests and tourist-market Crete/Athens pressure require live-listing checks. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -126,17 +126,36 @@ schema_version: 2.0.0
 - **Article 5C upside scenario**: if 50% of the business income is exempt and only about EUR 15,576 is taxable, PIT is about **EUR 2,015/year** and PIT-only net rises to about **EUR 2,428/month**, again before EFKA and accountant/VAT mechanics. This scenario is not yet safe for scoring until Article 5C fit is verified for a foreign-client IT file. [src-300]
 - **Budget read**: Greece remains tax-promising after adding the official minimum EFKA baseline, but it is not tax-closed until `vq-090` is resolved. The conservative default should be ordinary PIT plus minimum EFKA; Article 5C remains only an upside scenario requiring Greek tax-adviser confirmation.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-09, dod: passed}
 
-> **DoD**: monthly expenses for 2+ cities; explicit verdict on $3000/mo sufficiency.
+> **DoD status**: passed for first-pass screening. This section uses Livingcost national and city pages as medium-confidence commercial baselines for utilities, food, transport, internet, and total monthly cost. It is sufficient for country screening, but not a replacement for live listings, health-insurance quotes, accountant fees, or a full relocation-budget pass.
 
-[verification required]
+Livingcost's 2026 Greece page gives a national average monthly cost of **$1,267 for one person with rent** and **$3,028 for a family of four**, with one-person / family-of-four components of $610 / $1,033 for rent and utilities, $468 / $1,223 for food, and $70.90 / $194 for transport [src-386]. For a two-adult couple on USD 3,000/month gross, Greece screens as easier than Malta/Croatia at the national level, but the conservative Greek tax section leaves only about **EUR 1,844/month / USD 2,131/month** after ordinary PIT and minimum EFKA before accountant/VAT/rent costs, so the after-tax budget remains tight unless Article 5C or another tax optimisation is confirmed [src-293][src-295][src-337].
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+City-level screen:
 
-> **DoD**: 2BR prices in 3+ cities with ranges; % of $3000; 2+ search platforms; landlord requirements.
+| City | Total with rent | Without rent | Rent + utilities | Food | Transport | Practical read for the couple |
+|---|---:|---:|---:|---:|---:|---|
+| Athens | $1,462 one person / $3,581 family of four | $740 / $2,321 | $722 / $1,260 | $510 / $1,330 | $95.10 / $265 | Best bureaucracy / services base, but the family proxy is above gross income; use only with a strict housing cap and summer-heat tolerance. [src-387] |
+| Thessaloniki | $1,272 / $3,078 | $681 / $2,065 | $591 / $1,013 | $483 / $1,253 | $71.20 / $202 | Stronger budget fit than Athens; winter is cooler, but rent and total-cost pressure are materially lower. [src-388] |
+| Heraklion | $1,329 / $3,071 | $663 / $1,942 | $666 / $1,129 | $482 / $1,253 | $65.40 / $172 | Best climate fit from the earlier climate pass, but Crete/tourist-market housing needs live listing checks before relying on this baseline. [src-389] |
+| Patras | $1,104 / $2,672 | $584 / $1,784 | $521 / $888 | $423 / $1,113 | $66.30 / $176 | Cheapest screened city; useful budget fallback if the couple can accept a smaller labor/expat-services market than Athens/Thessaloniki. [src-390] |
 
-[verification required]
+**Budget conclusion.** On gross USD 3,000/month, Greece screens as workable in Patras or Thessaloniki and possible in Heraklion/Athens only with rent control. On the conservative after-tax model from section 5.3, the budget is tight: housing, accountant/VAT filing, health insurance, and relocation buffers must be validated before Greece can be called comfortable. For first-pass city choice, use **Thessaloniki or Patras** as budget baselines, **Heraklion** as the climate-favorable but rent-sensitive option, and **Athens** only when bureaucracy/services outweigh cost and heat concerns.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-09, dod: passed}
+
+> **DoD status**: passed for first-pass screening. The vault's preferred two-room-apartment proxy is closest to Livingcost's 40 m2 1BR line; 80 m2 3BR lines are included as an upper-size stress test. Confidence is medium because Livingcost is a commercial aggregator and does not replace live Greek listing checks.
+
+| City | 40 m2 1BR city-center | 40 m2 cheap 1BR | 80 m2 3BR city-center | 80 m2 cheap 3BR | Rent pressure vs $3,000 gross |
+|---|---:|---:|---:|---:|---|
+| Athens | $676 | $533 | $1,248 | $976 | Cheap 1BR proxy is about 18% of gross; center 1BR about 23%; 3BR stress is 33%-42%. [src-387] |
+| Thessaloniki | $534 | $417 | $970 | $752 | Best large-city rent fit: cheap 1BR proxy is about 14% of gross and city-center 1BR about 18%. [src-388] |
+| Heraklion | $606 | $474 | $1,106 | $843 | Climate-friendly; cheap 1BR proxy is about 16% of gross, but island/tourist seasonality should be checked live. [src-389] |
+| Patras | $468 | $369 | $837 | $667 | Cheapest screened rent fit: cheap 1BR proxy is about 12% of gross and center 1BR about 16%. [src-390] |
+| Greece national | $550 | $427 | $1,055 | $847 | National baseline sits between Patras/Thessaloniki and Heraklion/Athens. [src-386] |
+
+**Rental strategy.** Use the 40 m2 1BR line as the modest two-room proxy, not the 80 m2 3BR stress test. For this couple, target Thessaloniki first for a services/cost balance, Patras as the cheapest fallback, Heraklion only after live-listing checks outside peak tourist periods, and Athens only with a strict cap near the cheap-1BR band. Search live listings through Spitogatos, XE, Spiti24, and local Facebook/Telegram rental groups before committing. Budget at least first month's rent plus deposit; exact deposit, agency-fee practice, and landlord requirements for foreigners remain for a later practical-budget iteration.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -193,18 +212,21 @@ schema_version: 2.0.0
 - **Best legalization path for the woman**: Not fully resolved; spouse/cohabitant uplift is documented for DN, but unmarried-partner treatment is still open.
 - **Does marriage change the picture**: Yes, materially, because the documented DN threshold explicitly accounts for spouse/cohabitant dependants.
 - **Realism of staying after 03.2027**: Medium-high if Greek TP is obtained and converted before 04 March 2027, or if the couple qualifies for a standard Immigration Code permit independently of TP.
+- **Cost/rent budget read**: Workable but not comfortable on the conservative tax baseline. Thessaloniki and Patras are the best first-pass budget cities; Heraklion is the climate-favorable but rent-sensitive option; Athens is service-rich but cost/heat pressured. [src-386][src-387][src-388][src-389][src-390]
 - **Tax budget read**: Promising but incomplete. Ordinary business-profit PIT plus EFKA's 2026 minimum category leaves about EUR 1,844/month before accountant/VAT filing costs; Article 5C could improve the result, but 5C route fit still needs verification before using it as a default. [src-295][src-300][src-337]
 
 **Pros**:
 - Greece has an explicit TP→Immigration Code bridge before 04 March 2027.
 - DN route is documented and designed for remote workers without a Greek employer.
 - Warm, sunny climate with especially soft winters in Crete and mild winters in Athens.
+- Patras and Thessaloniki give lower-rent alternatives to Athens while keeping Greece in budget-screening range.
 
 **Cons / risks**:
 - Exact consular DN primary checklist is now anchored by the MFA digital-nomad page; final appointment/payment/localisation details should be checked before filing. [src-152]
 - Unmarried second-partner positioning is still unclear.
 - Polish `karta pobytu` interaction is not yet cleanly verified.
 - Athens summer heat can be severe.
+- Athens and Heraklion require live rent checks; the first-pass aggregator numbers may understate tourist-season and neighborhood pressure.
 - Article 5C fit for foreign-client IT income is not yet closed; EFKA category-1 minimum is now captured, but exact category choice should still be confirmed with a Greek accountant before filing.
 
 ## Block 6 — Practical playbook (working relocation guide)
@@ -290,6 +312,11 @@ _(none yet)_
 - [src-010] Wikipedia — Heraklion climate table (aggregated from observatory/WMO sources).
 - [src-044] Current Results — annual sunshine and clear-sky percentages for Greece.
 - [src-293] open.er-api.com — USD/EUR exchange-rate feed reused for the Greece tax example.
+- [src-386] Livingcost — Cost of living in Greece.
+- [src-387] Livingcost — Cost of living in Athens.
+- [src-388] Livingcost — Cost of living in Thessaloniki.
+- [src-389] Livingcost — Cost of living in Heraklion.
+- [src-390] Livingcost — Cost of living in Patras.
 
 ### 7e. Not found
 - DN consular micro-details (appointment slot mechanics, payment channel, document-localisation instructions) still need checking against the serving consulate immediately before filing, but the core official-primary route/checklist blocker is closed.

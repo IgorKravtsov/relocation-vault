@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-09
 ---
 
+## 2026-06-09 — run-079
+- Greece: depth_score 2.0 -> 4.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
+- Added Greece cost/rent sources `src-386` through `src-390` from Livingcost country and city pages.
+- Main finding: Thessaloniki and Patras are the best first-pass budget cities; Heraklion is climate-favorable but rent-sensitive, and Athens is service-rich but cost/heat pressured.
+- Verification queue remains 5 pending/open items; next suggested focus: Spain 5.4/5.5.
+
 ## 2026-06-09 — run-078
 - Croatia: depth_score 2.0 -> 4.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
 - Added Croatia cost/rent sources `src-381` through `src-385` from Livingcost country and city pages.
