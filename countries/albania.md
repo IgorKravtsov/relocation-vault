@@ -1,14 +1,14 @@
 ---
 country: Albania
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-06T19:13:35Z
+depth_score: 2.0
+last_updated: 2026-06-09T16:41:06Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["official-primary-capture-gaps", "remote-worker-route-application-prep-gap"]
-sources_used: ["src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-188"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["official-primary-capture-gaps", "remote-worker-route-application-prep-gap", "albania-tax-regime-2029-sunset", "albania-self-employed-contribution-base-gap", "albania-foreign-client-vat-fit-gap"]
+sources_used: ["src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-188", "src-407", "src-408", "src-409", "src-410", "src-411", "src-412"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Albania has an attractive remote-worker / Unique Permit narrative and a warm Adriatic/Ionian climate, but this first pass could not capture clean official-primary route pages because several Albanian government sites were blocked or unreachable. Treat the digital-nomad route as promising but medium-confidence until the official e-Albania / State Police / law-text checklist is extracted.
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-06T19:13:35Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-09T16:41:06Z
 - **Tier rationale**: Not assigned until taxes, rent, healthcare, and full practical costs are verified. Run-061 closes the remote-worker Unique Permit blocker to a conservative screening baseline: Albania remains a promising ordinary-residence candidate for a foreign-client IT worker, but exact official checklist / fees / PR-counting should be treated as application-prep or deeper-country work, not as a current queue blocker.
 
 ## Block 2 — Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | Visa-free entry, Ukraine temporary-protection placeholder, and remote-worker Unique Permit baseline opened; official-primary route pages still need capture. | §5.1 |
 | Climate | — | medium | Tirana, Durrës, and Vlorë temperature/rain/sunshine baselines captured; WeatherSpark clearer-sky proxies now close the sunny-day blocker. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium-high | First-pass self-employed screen: current law/PwC summaries show 0% PIT for self-employed / commercial individuals under ALL 14m gross until 31 Dec 2029, plus minimum self-employed social/health contributions of about ALL 14,900/month; exact activity classification, contribution base, VAT/place-of-supply, and residence-permit fit remain accountant/application-prep checks. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -90,9 +90,44 @@ schema_version: 2.0.0
 
 **Climate verdict for first pass**: Albania is a strong warm-climate candidate for the couple: coastal Durrës/Vlorë are mild in winter and sunny in summer, while Tirana is practical but hotter inland. The main comfort caveats are hot summer peaks and wet autumn/winter periods rather than a long cold winter. [src-168][src-169][src-170][src-188]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-09, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. This is a conservative first-pass screening model for a Ukrainian foreign-client IT worker at about USD 3,000/month. It captures tax residence, the self-employed PIT screen, minimum self-employed social/health contributions, filing deadlines, VAT threshold, marriage/dependent-child notes, and a worked gross-to-net example. It is **not** DoD-passed until an Albanian accountant / General Directorate of Taxes / National Business Center check confirms the exact IT activity code, contribution base, VAT / place-of-supply treatment for foreign clients, and compatibility with the Type D + Unique Permit remote-worker file.
+
+#### Tax residence and scope
+- Albania taxes residents on worldwide income and non-residents only on Albanian-source income. An individual is Albanian tax resident if they have a permanent home in Albania or stay in Albania for more than 183 days in a calendar year; the tax year is the calendar year. [src-407][src-408] Confidence: medium-high.
+- For a couple relocating under an ordinary residence strategy, assume the working partner can become Albanian tax resident once living there full-time. Do not assume foreign-client income is outside the Albanian tax base after tax residence begins. [src-407][src-408] Confidence: medium-high.
+
+#### Applicable self-employed / small-business model
+- PwC's 2026 Albania summary says net taxable business income of commercial individuals and the self-employed is generally taxed at 15% up to ALL 14 million and 23% above ALL 14 million, but also notes that for commercial individuals and self-employed persons with annual gross income up to ALL 14 million, the PIT rate is **0% until 31 December 2029**. The couple's USD 3,000/month at the run-083 FX snapshot is about ALL 247,630/month or ALL 2.97m/year, well below ALL 14m. [src-407][src-412] Confidence: medium-high.
+- Natural persons / individual traders / self-employed individuals with annual turnover up to ALL 10m may choose a special regime with automatic business-expense deductions depending on activity, locked for three years once chosen. This is likely relevant only if the 0% small-business PIT sunset ends or if an accountant recommends a specific expense model; do not rely on the exact deduction percentage until the IT activity category is mapped. [src-407] Confidence: medium-high.
+- Social/health contributions are still material: PwC reports that self-employed persons (excluding agriculture) must pay for themselves mandatory social insurance of no less than 23% of the monthly minimum salary of ALL 50,000, plus health insurance of 3.4% on no less than double the minimum salary (ALL 100,000). Minimum modeled contribution: ALL 11,500 social + ALL 3,400 health = ALL 14,900/month. The wording is a minimum, so accountant confirmation is needed before treating this as the final contribution base for a high-earning IT freelancer. [src-409] Confidence: medium-high.
+
+#### VAT, registration, and filing mechanics
+- VAT: PwC's corporate VAT summary gives a 20% standard VAT rate and says a taxable person is not required to register when annual turnover does not exceed ALL 10m, although voluntary registration is possible. At about ALL 2.97m/year, the current income is below that threshold. However, foreign-client B2B place-of-supply / export-service treatment was not verified for the Albanian individual entrepreneur model, so VAT / reverse-charge handling remains an application-prep check. [src-410] Confidence: medium-high for threshold, medium for foreign-client fit.
+- Registration cost: PwC records a business-entity registration fee of ALL 120, reduced to ALL 0 if registration is made online. This supports a low state-fee baseline, but the exact National Business Center / e-Albania flow for a foreign self-employed IT worker still needs official extraction because those sites were WAF-blocked in this pass. [src-410] Confidence: medium.
+- Filing: tax resident individuals with worldwide income and every natural person carrying out self-employed or trader economic activity must submit the annual return by 31 March following the tax year. Monthly tax payment / declaration mechanics use the 20th day of the month after income is received; payroll/social-health reporting is electronic by the 20th day of the following month. [src-408][src-409] Confidence: medium-high.
+
+#### Deductions, incentives, and family effects
+- PwC lists no significant individual tax credits or incentives beyond foreign-tax relief / treaty mechanics. Albania has DTTs with many countries, but Ukraine is not listed in the captured treaty table. [src-411] Confidence: medium-high.
+- Social and health contributions and voluntary pension contributions are deductible for taxable-income calculation. From 2025, personal yearly allowances for employment/business income are ALL 600,000 up to ALL 600,000 annual income, ALL 420,000 above ALL 600,000 to ALL 720,000, and ALL 360,000 above ALL 720,000. These allowances are not material to the 0% small-business PIT screen but may matter after the 2029 sunset or in an employment-style fallback. [src-409] Confidence: medium-high.
+- Marriage / partner effect: captured sources do not show joint filing as a major tax advantage. Child-related deductions exist later (ALL 48,000 per dependent child under 18 and ALL 100,000/year for children's education under income conditions), but there is no current child in the scenario. [src-409] Confidence: medium-high.
+
+#### Worked USD 3,000/month example (run-083 FX)
+- FX snapshot: ExchangeRate-API reported USD 1 = ALL 82.543185 on 2026-06-09. USD 3,000/month = about **ALL 247,630/month** and **ALL 2,971,555/year**. [src-412]
+- Screening model if the self-employed small-business 0% PIT regime applies and only minimum self-employed contributions are due:
+  - Gross receipts: ALL 247,630/month.
+  - PIT: ALL 0/month while annual gross stays below ALL 14m and the 0% regime remains in force through 31 Dec 2029.
+  - Minimum modeled self-employed contributions: ALL 14,900/month.
+  - Net before accountant, banking, VAT administration, insurance, and immigration costs: **about ALL 232,730/month**, or **about USD 2,819/month** at the run-083 FX snapshot.
+- Downside / sensitivity: if an accountant or authority requires contributions on a higher base, if the route is treated differently for foreign-client IT, or after the 0% PIT sunset, net can be lower. Keep Albania 5.3 partial and do not score it as a final low-tax answer until the activity-code / contribution-base / VAT / immigration-status fit is confirmed.
+
+#### Practical tax playbook for the couple
+1. Before relocating, get accountant confirmation that foreign-client software / IT services can be registered as a self-employed / individual-trader activity compatible with the Type D + Unique Permit file.
+2. Confirm whether the 0% PIT small-business regime applies to the exact activity and foreign-client contract structure, and calendar the 31 Dec 2029 sunset as a medium-term risk.
+3. Confirm the mandatory contribution base: minimum ALL 14,900/month is the screening model, not a final filing instruction.
+4. Confirm VAT / place-of-supply treatment for foreign B2B clients and whether voluntary VAT registration is useful or harmful below the ALL 10m threshold.
+5. Budget for accountant support even though state registration fees look low, because the main risk is classification / reporting rather than the headline PIT rate.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -155,7 +190,7 @@ schema_version: 2.0.0
 - Key official Albanian government pages were WAF-blocked or unreachable in this pass.
 - Exact route category, checklist, fees, and dependent mechanics need primary-source verification.
 - No captured Ukraine-specific post-2027 protection bridge.
-- Direct sunny/clear-day counts remain open.
+- Direct sunny/clear-day counts were replaced by WeatherSpark clearer-sky proxies for screening in run-061; official meteorological sunny-day counts remain optional later evidence.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -219,6 +254,7 @@ _(none yet)_
 - [src-188] WeatherSpark — Albania country and Vlorë city cloud-cover pages.
 
 ### 7e. Not found
+- Albanian accountant / General Directorate of Taxes / National Business Center confirmation of the exact foreign-client IT self-employed activity code, mandatory contribution base, VAT/place-of-supply handling, and immigration-status compatibility for the Type D + Unique Permit route.
 - Clean official-primary extraction of Albania's current visa regime for Ukrainian citizens remains useful before travel, but `vq-054` is closed for screening.
 - Current official Ukraine temporary-protection extension / post-2027 bridge page remains uncaptured; safe baseline is no reliance on a TP bridge.
 - Official e-Albania / State Police / law-text page for the Type D + Unique Permit remote-worker checklist, fees, exact income threshold, dependent mechanics, and PR-counting rules remains a pre-filing / later deep-dive item; `vq-055` is closed for screening because the route is promising but not yet fully application-ready.
@@ -227,3 +263,4 @@ _(none yet)_
 ## Block 8 — Open questions and verification markers
 
 - `vq-055` resolved in run-061: Type D + Unique Permit remote-worker route remains a promising medium-confidence screening baseline; exact official checklist/fees/dependent/PR-counting mechanics are application-prep or later deep-dive checks, not current queue blockers. [src-166][src-167]
+- `vq-106` added in run-083: Albania self-employed / individual-trader tax fit for a Ukrainian foreign-client IT worker, including activity code, contribution base, VAT/place-of-supply, and Type D + Unique Permit compatibility.

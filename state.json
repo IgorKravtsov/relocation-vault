@@ -1,25 +1,25 @@
 {
   "version": 2,
-  "iteration": 82,
+  "iteration": 83,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-09T13:31:41Z",
+  "last_run_timestamp": "2026-06-09T16:41:06Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Portugal",
+    "country": "Albania",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Albania",
+    "suggested_country": "North Macedonia",
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Pending/open verification queue remains below the active threshold after run-082; anti-clustering points away from repeating Tier-1 tax work, so move to the lowest-depth Tier-2-hint country with taxes still pending."
+    "reason": "Pending/open verification queue remains below the active threshold after run-083; continue Tier-3-hint / low-depth tax passes with a fresh country rather than clustering on Albania."
   },
   "countries": {
     "Spain": {
@@ -570,15 +570,15 @@
     "Albania": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -590,10 +590,13 @@
       ],
       "risk_flags": [
         "official-primary-capture-gaps",
-        "remote-worker-route-application-prep-gap"
+        "remote-worker-route-application-prep-gap",
+        "albania-tax-regime-2029-sunset",
+        "albania-self-employed-contribution-base-gap",
+        "albania-foreign-client-vat-fit-gap"
       ],
-      "last_iteration": 61,
-      "unverified_count": 0
+      "last_iteration": 83,
+      "unverified_count": 1
     },
     "North Macedonia": {
       "tier": null,
@@ -1003,8 +1006,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 6,
-  "sources_count": 405,
-  "claims_count": 328,
+  "verification_queue_size": 7,
+  "sources_count": 411,
+  "claims_count": 333,
   "proposals_pending": 0
 }

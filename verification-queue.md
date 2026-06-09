@@ -256,6 +256,17 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolved**: 2026-06-08 (run-075)
 - **Resolution note**: Closed for country screening only. Normirani s.p. eligibility, exact contribution bases, VAT/reverse-charge reporting, and DN/single-permit compatibility remain application-prep checks. [src-344][src-345][src-346][src-347][src-348]
 
+
+## vq-106 [medium priority]
+- **Fact**: "Albania self-employed / individual-trader route fit for a Ukrainian foreign-client IT worker, including activity code, contribution base, VAT/place-of-supply, and Type D + Unique Permit compatibility"
+- **Country**: Albania
+- **Section**: 5.3
+- **Current source**: src-407, src-408, src-409, src-410, src-411, src-412
+- **Why uncertain**: This tax pass captured a favorable 0% PIT small-business screen, minimum self-employed social/health contribution model, VAT threshold, and filing mechanics, but did not confirm the exact Albanian activity classification, whether contributions stay at the minimum base for this income, foreign-client VAT/export-service treatment, or whether the tax registration structure cleanly matches the Type D + Unique Permit remote-worker residence file.
+- **Suggested verification**: Check Albanian General Directorate of Taxes / National Business Center / accountant guidance for IT self-employed activity registration, mandatory contribution base, VAT/place-of-supply for foreign B2B clients, and Unique Permit compatibility.
+- **Created**: 2026-06-09 (run-083)
+- **Status**: pending
+
 ## vq-105 [medium priority]
 - **Fact**: "Portugal Article 151 activity-code / simplified-regime coefficient, VAT place-of-supply / reverse-charge handling, first-year social-security timing, and D8 / ordinary-residence compatibility for a Ukrainian foreign-client IT freelancer"
 - **Country**: Portugal

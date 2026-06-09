@@ -4890,3 +4890,76 @@ Each source entry:
 - **Facts supporting**: IFICI new-resident incentive outline and former-tax-residents relief caveat
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-01-05
+
+
+## src-407
+- **Title**: PwC Worldwide Tax Summaries — Albania, Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/albania/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-09
+- **Used by**: Albania
+- **Facts supporting**: Albanian resident worldwide-income baseline, employment/business income categories, 2025+ employment brackets, self-employed/commercial-individual 0% PIT for gross income up to ALL 14m until 31 Dec 2029, and special expense-deduction regime for turnover up to ALL 10m
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-408
+- **Title**: PwC Worldwide Tax Summaries — Albania, Individual: Residence / Tax administration
+- **URL**: https://taxsummaries.pwc.com/albania/individual/residence ; https://taxsummaries.pwc.com/albania/individual/tax-administration
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-09
+- **Used by**: Albania
+- **Facts supporting**: Albanian tax-residence tests, calendar-year tax year, annual PIT / business-income return obligations, 31 March filing deadline, and monthly payment deadline by the 20th day of the following month
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-409
+- **Title**: PwC Worldwide Tax Summaries — Albania, Individual: Other taxes / Deductions
+- **URL**: https://taxsummaries.pwc.com/albania/individual/other-taxes ; https://taxsummaries.pwc.com/albania/individual/deductions
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-09
+- **Used by**: Albania
+- **Facts supporting**: self-employed social and health contribution minimums, employee/employer SHC context, electronic monthly reporting timing, deductibility of social/health contributions, personal allowances, and child/education deduction context
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-410
+- **Title**: PwC Worldwide Tax Summaries — Albania, Corporate: Other taxes
+- **URL**: https://taxsummaries.pwc.com/albania/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-09
+- **Used by**: Albania
+- **Facts supporting**: Albania 20% standard VAT, ALL 10m VAT registration threshold, VAT monthly deadlines, and business-entity registration fee ALL 120 / ALL 0 online
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-411
+- **Title**: PwC Worldwide Tax Summaries — Albania, Individual: Foreign tax relief and tax treaties / Other tax credits and incentives
+- **URL**: https://taxsummaries.pwc.com/albania/individual/foreign-tax-relief-and-tax-treaties ; https://taxsummaries.pwc.com/albania/individual/other-tax-credits-and-incentives
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-19
+- **Date accessed**: 2026-06-09
+- **Used by**: Albania
+- **Facts supporting**: foreign-tax-credit mechanics, treaty table context, absence of Ukraine in captured Albania DTT list, social-security agreement context, and no other significant individual tax credits/incentives
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-19
+
+## src-412
+- **Title**: ExchangeRate-API open rates — USD to ALL snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: not captured; API snapshot]
+- **Type**: commercial
+- **Date published**: 2026-06-09T00:02:31Z
+- **Date accessed**: 2026-06-09
+- **Used by**: Albania
+- **Facts supporting**: run-083 USD/ALL conversion for the Albania USD 3,000/month tax worked example: USD 1 = ALL 82.543185
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-09

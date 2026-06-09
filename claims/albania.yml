@@ -60,3 +60,49 @@
   confidence: medium
   tags: [climate, tirana, durres, vlore, albania]
   notes: "Composite first-pass climate claim using src-168, src-169, src-170, and src-188. WeatherSpark values are clearer-sky day-equivalent planning proxies, not official sunny-day counts."
+
+
+- id: claim-albania-008
+  topic: albania_tax_residence_worldwide_income
+  value: "Albanian tax residents are taxed on worldwide income; residence can arise from a permanent home in Albania or more than 183 days of stay in a calendar year."
+  source: src-408
+  date_verified: 2026-06-09
+  confidence: medium-high
+  tags: [tax-residence, worldwide-income, albania]
+  notes: "Use this as the baseline for a full-time relocation; do not assume foreign-client income is outside the Albanian tax base after residence begins."
+
+- id: claim-albania-009
+  topic: self_employed_small_business_pit_zero_until_2029
+  value: "For commercial individuals and self-employed persons with annual gross income up to ALL 14 million, PwC reports a 0% PIT rate applicable until 31 December 2029."
+  source: src-407
+  date_verified: 2026-06-09
+  confidence: medium-high
+  tags: [tax, self-employed, pit, small-business, albania]
+  notes: "Accountant / authority confirmation is needed for the exact foreign-client IT activity classification and immigration-status compatibility."
+
+- id: claim-albania-010
+  topic: self_employed_social_health_minimum
+  value: "Self-employed persons are liable for mandatory social insurance of no less than 23% of the ALL 50,000 monthly minimum salary and health insurance of 3.4% on no less than ALL 100,000, modelled as ALL 14,900/month minimum contributions."
+  source: src-409
+  date_verified: 2026-06-09
+  confidence: medium-high
+  tags: [social-contributions, health-contributions, self-employed, albania]
+  notes: "This is a screening minimum; the exact contribution base for a high-earning IT freelancer needs accountant confirmation."
+
+- id: claim-albania-011
+  topic: vat_threshold_registration
+  value: "Albania's standard VAT rate is 20%; a taxable person is not required to register if annual turnover does not exceed ALL 10 million, although voluntary registration is possible."
+  source: src-410
+  date_verified: 2026-06-09
+  confidence: medium-high
+  tags: [vat, threshold, self-employed, albania]
+  notes: "Foreign-client B2B place-of-supply / export-service treatment remains application-prep verification."
+
+- id: claim-albania-012
+  topic: usd3000_self_employed_tax_screen
+  value: "At USD 1 = ALL 82.543185, USD 3,000/month is about ALL 247,630/month; if the self-employed 0% PIT regime applies and only the minimum ALL 14,900/month contributions are due, screening net is about ALL 232,730/month or USD 2,819 before accountant/VAT/immigration costs."
+  source: src-412
+  date_verified: 2026-06-09
+  confidence: medium
+  tags: [worked-example, tax-net, self-employed, albania]
+  notes: "Composite worked example using src-407, src-409, and src-412; keep section partial until contribution-base, activity-code, VAT, and residence-route fit are confirmed."

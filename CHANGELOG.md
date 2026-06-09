@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-09
 ---
 
+## 2026-06-09 — run-083
+- Albania: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative self-employed small-business screen.
+- Added Albania tax / FX sources `src-407` through `src-412` and claims `claim-albania-008` through `claim-albania-012`.
+- Main finding: if Albania's 0% PIT small-business self-employed regime applies and only minimum contributions are due, USD 3,000/month screens at about ALL 232,730 / USD 2,819 net before accountant/VAT/immigration costs.
+- Added `vq-106` for activity classification, contribution base, VAT/place-of-supply, and Type D + Unique Permit compatibility; queue 6 -> 7, below the active verification threshold.
+
 ## 2026-06-09 — run-082
 - Portugal: depth_score 3.0 -> 3.5; section 5.3 taxes moved from pending to partial with a conservative ordinary self-employment screen.
 - Added Portugal tax sources `src-401` through `src-406` and claims `claim-portugal-006` through `claim-portugal-010`.
