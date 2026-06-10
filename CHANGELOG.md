@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-10
 ---
 
+## 2026-06-10 — run-087
+- Verification mode: closed five recent §5.3 tax-fit queue items (`vq-105` through `vq-109`) to conservative screening baselines.
+- Countries touched: Portugal, Albania, North Macedonia, Bosnia and Herzegovina, and Moldova; depths unchanged, §5.3 remains partial in each profile.
+- Main finding: no favorable assumptions were added; exact activity classification, VAT/place-of-supply, contribution bases, and immigration-status fit are now explicitly application-prep checks rather than screening blockers.
+- Verification queue: 10 -> 5 pending/open; next iteration can resume country-deep-dive.
+
 ## 2026-06-10 — run-086
 - Moldova: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a 12% PIT plus contribution-sensitivity first-pass screen.
 - Added Moldova tax / FX sources `src-424` through `src-429` and claims `claim-moldova-007` through `claim-moldova-011`.

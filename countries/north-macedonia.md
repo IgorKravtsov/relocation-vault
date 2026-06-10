@@ -2,13 +2,13 @@
 country: North Macedonia
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-09T19:49:41Z
+last_updated: 2026-06-10T05:13:27Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["official-ukraine-entry-table-gap", "no-dedicated-digital-nomad-visa", "ordinary-residence-route-needs-fit-check", "no-captured-ukraine-protection-bridge", "north-macedonia-self-employed-contribution-base-gap", "north-macedonia-foreign-client-vat-fit-gap"]
 sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212", "src-413", "src-414", "src-415", "src-416", "src-417"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence points to an ordinary-residence / work-or-self-employment file rather than a dedicated digital-nomad route. The country is promising as a low-cost Balkan base, but the post-2027 Ukrainian protection baseline and foreign-client IT residence fit still need primary-source verification.
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-09T19:49:41Z
+- **Last updated**: 2026-06-10T05:13:27Z
 - **Tier rationale**: Not assigned yet; legalization remains partial.
 
 ## Block 2 — Scoring
@@ -84,7 +84,7 @@ North Macedonia has a continental climate: cold winters, hot summers in lower va
 
 The clearer-sky values are WeatherSpark-derived proxies, not official sunny-day counts: Skopje and Ohrid use the country comparison table; Bitola uses the city cloud-cover table, converted month-by-month with month lengths [src-211][src-212]. Humidity comfort is favorable for the couple: WeatherSpark records almost no muggy days in Ohrid and Bitola, and the climate is drier than Albania/Panama-type humid profiles. Main risks are Skopje summer heat and winter cold / air-stagnation comfort rather than persistent rain.
 
-### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-09, dod: partial}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-10, dod: partial}
 
 > **DoD status**: partial. This pass gives a conservative planning baseline for a Ukrainian foreign-client IT worker at about USD 3,000/month, but it does not prove the exact North Macedonian self-employed / sole-proprietor route, whether foreign-client IT revenue is treated as self-employment or company income, the mandatory contribution base for that structure, VAT place-of-supply / reverse-charge treatment, or compatibility with the ordinary self-employment / company-backed residence file.
 
@@ -121,7 +121,7 @@ For PIT administration, PwC says the tax year is the calendar year; the Public R
 
 #### Tax fit verdict
 
-North Macedonia is not obviously tax-negative at the 10% PIT headline level, but the real result depends on the legal/tax structure. If a local self-employed or company-manager file triggers near-full social contributions and VAT administration, the practical net may be closer to USD 1,860-1,944/month before accountant, bank, and immigration costs. If an adviser confirms a lighter self-employed contribution base and export-service VAT treatment, the tax picture could be substantially better, but that is not proven enough to score §5.3 as passed.
+North Macedonia is not obviously tax-negative at the 10% PIT headline level, but the real result depends on the legal/tax structure. If a local self-employed or company-manager file triggers near-full social contributions and VAT administration, the practical net may be closer to USD 1,860-1,944/month before accountant, bank, and immigration costs. If an adviser confirms a lighter self-employed contribution base and export-service VAT treatment, the tax picture could be substantially better, but that is not proven enough to score §5.3 as passed. `vq-107` is closed for screening: the profile already has the conservative PIT-only and employee-style contribution stress tests needed for country comparison, while registration category, contribution base/order, VAT/place-of-supply, and immigration-status fit remain accountant/application-prep checks before filing. [src-413][src-415][src-416][src-417]
 
 **Application-prep checks before relying on North Macedonia**:
 - Confirm the exact registration category for a Ukrainian foreign-client IT worker: sole proprietor, company owner/manager, employee of own company, or another structure.
@@ -261,10 +261,10 @@ _(none yet)_
 - Official North Macedonia country-specific Ukraine visa table was not cleanly captured; recheck before travel, but `vq-064` is closed for screening.
 - Current 2026 government temporary-protection extension / rights page for Ukrainians was not captured; safe baseline is no reliance on a protection bridge.
 - Detailed Ministry of Interior / Employment Agency self-employment checklist, income/capital sufficiency, and family filing remain application-prep items; the screening baseline is a real local self-employment/company file, not a DN-style foreign-client permit.
-- Exact tax registration category, self-employed / company-manager social-contribution base, VAT place-of-supply / reverse-charge treatment for foreign IT clients, and immigration-status compatibility remain application-prep checks; see `vq-107`.
+- Exact tax registration category, self-employed / company-manager social-contribution base, VAT place-of-supply / reverse-charge treatment for foreign IT clients, and immigration-status compatibility remain application-prep checks; `vq-107` is closed for screening.
 - Official PR/citizenship counting rules were not extracted.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-064` — North Macedonia Ukrainian entry / temporary-protection current status and any post-2027 bridge.
-- `vq-107` — North Macedonia self-employed / company-manager tax fit for a Ukrainian foreign-client IT worker.
+- `vq-107` resolved in run-087: North Macedonia self-employed / company-manager tax fit is closed for screening using the existing PIT-only and contribution-stress baselines; exact registration, contribution, VAT, and immigration fit remain application-prep checks.

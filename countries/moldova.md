@@ -2,13 +2,13 @@
 country: Moldova
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-10T02:06:06Z
+last_updated: 2026-06-10T05:13:27Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1","5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["digital-nomad-threshold-current-year-gap", "pr-counting-for-digital-nomad-unclear", "post-2027-tp-bridge-gap", "transnistria-practical-risk", "moldova-entrepreneur-contribution-category-gap", "moldova-foreign-client-vat-fit-gap"]
 sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225, src-424, src-425, src-426, src-427, src-428, src-429]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence shows Moldova has an official digital-nomad residence route and temporary protection for displaced Ukrainians until 01 March 2027, but long-term usefulness for this couple depends on the current average-salary threshold, whether digital-nomad residence counts toward permanent residence, and post-TP transition mechanics. [src-220][src-222]
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-10T02:06:06Z
+- **Last updated**: 2026-06-10T05:13:27Z
 - **Tier rationale**: Not assigned. Treat Moldova as a potentially practical nearby bridge/base, not yet a proven long-term route to PR/citizenship for a foreign-client IT worker.
 
 ## Block 2 — Scoring
@@ -128,7 +128,7 @@ schema_version: 2.0.0
   - Fixed health contribution: MDL 12,636/year = MDL 1,053/month. [src-426]
   - If treated as paid after PIT, net is about **MDL 42,786/month** / **USD 2,469/month**.
   - If deductible before PIT, net is about **MDL 43,141/month** / **USD 2,490/month**.
-- Downside / sensitivity: if authorities require employee-style 24% employer SSC plus 9% health, a local-company/payroll structure, higher health-insurance costs, VAT registration, or a different immigration-compatible business form, net can be lower. Keep Moldova §5.3 partial until the exact registration and contribution base are confirmed.
+- Downside / sensitivity (`vq-109` closure): if authorities require employee-style 24% employer SSC plus 9% health, a local-company/payroll structure, higher health-insurance costs, VAT registration, or a different immigration-compatible business form, net can be lower. For country screening, the existing PIT-only and fixed-contribution sensitivities are enough: use the fixed-contribution model as the safer budget baseline, do not assume a DN tax holiday, and leave exact registration category, contribution base, VAT/place-of-supply or export-service reporting, and DN/provisional-stay compatibility as Moldovan accountant / GIM / STS / CNAS / CNAM application-prep checks. Keep §5.3 partial until confirmed, but no additional queue item is needed for screening. [src-424][src-426][src-428][src-429]
 
 #### Practical tax playbook for the couple
 1. Before relocating or invoicing through Moldova, ask a Moldovan accountant whether foreign-client software/IT services under the DN / provisional-stay route should be registered as individual entrepreneur, professional activity, company, or kept under foreign contracts.
@@ -286,4 +286,4 @@ _(none yet)_
 
 - `vq-068` — official Ukraine entry / TP transition / citizenship baseline.
 - `vq-069` — DN current threshold, dependent mechanics, and PR-counting for DN/IT residence.
-- `vq-109` — Moldova foreign-client IT tax registration, fixed-contribution, VAT/place-of-supply, and DN/provisional-stay compatibility.
+- `vq-109` resolved in run-087: Moldova foreign-client IT tax fit is closed for screening using the existing PIT-only and fixed-contribution sensitivities; exact registration, contribution, VAT/place-of-supply, and DN/provisional-stay compatibility remain application-prep checks.

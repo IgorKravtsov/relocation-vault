@@ -2,13 +2,13 @@
 country: Albania
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-09T16:41:06Z
+last_updated: 2026-06-10T05:13:27Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["official-primary-capture-gaps", "remote-worker-route-application-prep-gap", "albania-tax-regime-2029-sunset", "albania-self-employed-contribution-base-gap", "albania-foreign-client-vat-fit-gap"]
 sources_used: ["src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-188", "src-407", "src-408", "src-409", "src-410", "src-411", "src-412"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. Albania has an attractive remote-worker / Unique Permit narrative and a warm Adriatic/Ionian climate, but this first pass could not capture clean official-primary route pages because several Albanian government sites were blocked or unreachable. Treat the digital-nomad route as promising but medium-confidence until the official e-Albania / State Police / law-text checklist is extracted.
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-09T16:41:06Z
+- **Last updated**: 2026-06-10T05:13:27Z
 - **Tier rationale**: Not assigned until taxes, rent, healthcare, and full practical costs are verified. Run-061 closes the remote-worker Unique Permit blocker to a conservative screening baseline: Albania remains a promising ordinary-residence candidate for a foreign-client IT worker, but exact official checklist / fees / PR-counting should be treated as application-prep or deeper-country work, not as a current queue blocker.
 
 ## Block 2 — Scoring
@@ -90,7 +90,7 @@ schema_version: 2.0.0
 
 **Climate verdict for first pass**: Albania is a strong warm-climate candidate for the couple: coastal Durrës/Vlorë are mild in winter and sunny in summer, while Tirana is practical but hotter inland. The main comfort caveats are hot summer peaks and wet autumn/winter periods rather than a long cold winter. [src-168][src-169][src-170][src-188]
 
-### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-09, dod: partial}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-10, dod: partial}
 
 > **DoD status**: Partial. This is a conservative first-pass screening model for a Ukrainian foreign-client IT worker at about USD 3,000/month. It captures tax residence, the self-employed PIT screen, minimum self-employed social/health contributions, filing deadlines, VAT threshold, marriage/dependent-child notes, and a worked gross-to-net example. It is **not** DoD-passed until an Albanian accountant / General Directorate of Taxes / National Business Center check confirms the exact IT activity code, contribution base, VAT / place-of-supply treatment for foreign clients, and compatibility with the Type D + Unique Permit remote-worker file.
 
@@ -120,7 +120,7 @@ schema_version: 2.0.0
   - PIT: ALL 0/month while annual gross stays below ALL 14m and the 0% regime remains in force through 31 Dec 2029.
   - Minimum modeled self-employed contributions: ALL 14,900/month.
   - Net before accountant, banking, VAT administration, insurance, and immigration costs: **about ALL 232,730/month**, or **about USD 2,819/month** at the run-083 FX snapshot.
-- Downside / sensitivity: if an accountant or authority requires contributions on a higher base, if the route is treated differently for foreign-client IT, or after the 0% PIT sunset, net can be lower. Keep Albania 5.3 partial and do not score it as a final low-tax answer until the activity-code / contribution-base / VAT / immigration-status fit is confirmed.
+- Downside / sensitivity (`vq-106` closure): if an accountant or authority requires contributions on a higher base, if the route is treated differently for foreign-client IT, or after the 0% PIT sunset, net can be lower. For country screening, the existing §5.3 model is sufficient: use the 0% PIT plus minimum-contribution scenario only as a favorable partial baseline, preserve the contribution-base / VAT / immigration-compatibility caveats, and do not score it as a final low-tax answer until accountant / General Directorate of Taxes / National Business Center confirmation. The exact activity-code, contribution-base, VAT/place-of-supply, and Unique Permit fit are application-prep checks, not an open screening blocker. [src-407][src-409][src-410][src-412]
 
 #### Practical tax playbook for the couple
 1. Before relocating, get accountant confirmation that foreign-client software / IT services can be registered as a self-employed / individual-trader activity compatible with the Type D + Unique Permit file.
@@ -254,7 +254,7 @@ _(none yet)_
 - [src-188] WeatherSpark — Albania country and Vlorë city cloud-cover pages.
 
 ### 7e. Not found
-- Albanian accountant / General Directorate of Taxes / National Business Center confirmation of the exact foreign-client IT self-employed activity code, mandatory contribution base, VAT/place-of-supply handling, and immigration-status compatibility for the Type D + Unique Permit route.
+- Albanian accountant / General Directorate of Taxes / National Business Center confirmation of the exact foreign-client IT self-employed activity code, mandatory contribution base, VAT/place-of-supply handling, and immigration-status compatibility for the Type D + Unique Permit route remains an application-prep check; `vq-106` is closed for screening.
 - Clean official-primary extraction of Albania's current visa regime for Ukrainian citizens remains useful before travel, but `vq-054` is closed for screening.
 - Current official Ukraine temporary-protection extension / post-2027 bridge page remains uncaptured; safe baseline is no reliance on a TP bridge.
 - Official e-Albania / State Police / law-text page for the Type D + Unique Permit remote-worker checklist, fees, exact income threshold, dependent mechanics, and PR-counting rules remains a pre-filing / later deep-dive item; `vq-055` is closed for screening because the route is promising but not yet fully application-ready.
@@ -263,4 +263,4 @@ _(none yet)_
 ## Block 8 — Open questions and verification markers
 
 - `vq-055` resolved in run-061: Type D + Unique Permit remote-worker route remains a promising medium-confidence screening baseline; exact official checklist/fees/dependent/PR-counting mechanics are application-prep or later deep-dive checks, not current queue blockers. [src-166][src-167]
-- `vq-106` added in run-083: Albania self-employed / individual-trader tax fit for a Ukrainian foreign-client IT worker, including activity code, contribution base, VAT/place-of-supply, and Type D + Unique Permit compatibility.
+- `vq-106` resolved in run-087: Albania self-employed / individual-trader tax fit is closed for screening using the favorable 0% PIT plus minimum-contribution partial baseline; exact activity code, contribution base, VAT/place-of-supply, and Type D + Unique Permit compatibility remain application-prep checks.

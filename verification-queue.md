@@ -190,9 +190,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-424, src-425, src-426, src-427, src-428, src-429
 - **Why uncertain**: This tax pass captured tax residence, 12% PIT, 2026 fixed SSC/health contribution placeholders, VAT threshold/rate, filing mechanics, and USD 3,000/month screening sensitivities, but did not prove the exact legal/tax category for a Ukrainian foreign-client IT worker or whether the fixed contribution and VAT assumptions apply to a DN / provisional-stay file.
-- **Suggested verification**: Check Moldovan State Tax Service / CNAS / CNAM guidance and a Moldovan accountant / immigration lawyer for IT individual-entrepreneur registration, contribution base, VAT/export-service treatment, and DN/provisional-stay compatibility.
+- **Suggested verification**: none for screening; Moldovan State Tax Service / CNAS / CNAM / accountant confirmation remains application-prep before filing or marking §5.3 passed.
 - **Created**: 2026-06-10 (run-086)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-10 (run-087)
+- **Resolution note**: Closed for country screening only. Moldova §5.3 now explicitly uses the PIT-only and fixed-contribution sensitivities as partial planning baselines, does not assume a DN tax holiday, and leaves exact registration category, contribution base, VAT/place-of-supply or export-service reporting, and DN/provisional-stay compatibility as application-prep checks. [src-424][src-426][src-428][src-429]
 
 ## vq-108 [medium priority]
 - **Fact**: "Bosnia and Herzegovina foreign-client IT tax structure: exact legal form (sole entrepreneur, company manager, or local company employee), social-contribution base, VAT/place-of-supply or reverse-charge handling, and compatibility with the ordinary residence/company route"
@@ -200,9 +202,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-418, src-419, src-420, src-421, src-422, src-423
 - **Why uncertain**: This tax pass captured entity-level PIT, residence tests, employee-style contributions, allowances, VAT threshold/rate, and USD 3,000/month screening sensitivities, but did not prove the exact legal form and contribution/VAT treatment for a Ukrainian foreign-client IT worker or whether the tax structure works with the high-burden residence route.
-- **Suggested verification**: Check FBiH/RS/Brcko tax authority guidance, Indirect Taxation Authority VAT guidance, and a Bosnia accountant / immigration lawyer for self-employed or company-manager IT classification and residence compatibility.
+- **Suggested verification**: none for screening; FBiH/RS/Brcko tax authority / Bosnia accountant / immigration-counsel confirmation remains application-prep before filing or marking §5.3 passed.
 - **Created**: 2026-06-09 (run-085)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-10 (run-087)
+- **Resolution note**: Closed for country screening only. Bosnia and Herzegovina §5.3 now uses the PIT-only and employee-style contribution sensitivities as sufficient comparison baselines, preserves the high-burden company/residence caveat, and demotes legal form, contribution base/order, VAT reporting, and residence compatibility to application-prep checks. [src-418][src-420][src-421]
 
 ## vq-107 [medium priority]
 - **Fact**: "North Macedonia self-employed / company-manager tax fit for a Ukrainian foreign-client IT worker: exact registration category, contribution base and ordering, VAT/place-of-supply or export-service treatment, and compatibility with the ordinary self-employment/company-backed residence route"
@@ -210,9 +214,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-413, src-414, src-415, src-416, src-417
 - **Why uncertain**: This tax pass captured tax residence, 10% PIT, employee-style 28% contribution rates, VAT threshold/rate, filing mechanics, and a USD 3,000/month stress test, but did not prove the exact self-employed / company-manager structure for foreign-client IT, the actual mandatory contribution base, VAT place-of-supply / reverse-charge handling, or whether the tax structure is compatible with the residence route.
-- **Suggested verification**: Check Public Revenue Office / Central Register / Macedonian accountant guidance, plus immigration counsel for the self-employment/company-backed residence file.
+- **Suggested verification**: none for screening; Public Revenue Office / Central Register / Macedonian accountant / immigration-counsel confirmation remains application-prep before filing or marking §5.3 passed.
 - **Created**: 2026-06-09 (run-084)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-10 (run-087)
+- **Resolution note**: Closed for country screening only. North Macedonia §5.3 now treats the PIT-only and employee-style contribution stress tests as the conservative comparison baseline, while exact registration category, contribution base/order, VAT/place-of-supply, and residence-route compatibility remain application-prep checks. [src-413][src-415][src-416][src-417]
 
 ## vq-104 [medium priority]
 - **Fact**: "Georgia individual-entrepreneur / small-business tax route fit for a Ukrainian foreign-client IT worker using the IT residence permit, including activity code, VAT/place-of-supply, pension registration, and residence-renewal evidence"
@@ -293,9 +299,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-407, src-408, src-409, src-410, src-411, src-412
 - **Why uncertain**: This tax pass captured a favorable 0% PIT small-business screen, minimum self-employed social/health contribution model, VAT threshold, and filing mechanics, but did not confirm the exact Albanian activity classification, whether contributions stay at the minimum base for this income, foreign-client VAT/export-service treatment, or whether the tax registration structure cleanly matches the Type D + Unique Permit remote-worker residence file.
-- **Suggested verification**: Check Albanian General Directorate of Taxes / National Business Center / accountant guidance for IT self-employed activity registration, mandatory contribution base, VAT/place-of-supply for foreign B2B clients, and Unique Permit compatibility.
+- **Suggested verification**: none for screening; Albanian General Directorate of Taxes / National Business Center / accountant confirmation remains application-prep before filing or marking §5.3 passed.
 - **Created**: 2026-06-09 (run-083)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-10 (run-087)
+- **Resolution note**: Closed for country screening only. Albania §5.3 now uses the 0% PIT plus minimum-contribution scenario as a favorable partial baseline, flags the 2029 sunset and contribution/VAT/immigration caveats, and demotes exact activity code, contribution base, VAT/place-of-supply, and Unique Permit tax-structure fit to application-prep checks. [src-407][src-409][src-410][src-412]
 
 ## vq-105 [medium priority]
 - **Fact**: "Portugal Article 151 activity-code / simplified-regime coefficient, VAT place-of-supply / reverse-charge handling, first-year social-security timing, and D8 / ordinary-residence compatibility for a Ukrainian foreign-client IT freelancer"
@@ -303,9 +311,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-401, src-402, src-403, src-404, src-405, src-406
 - **Why uncertain**: This tax pass captured a conservative ordinary simplified-regime stress test, registration route, PIT / social-security mechanics, and new-resident relief caveats, but did not confirm the exact Portuguese activity code, VAT reporting, first-year contribution timing, deductible-expense evidence, or immigration-status fit for the couple's foreign-client IT file.
-- **Suggested verification**: Check AT / Seguranca Social / Portuguese accountant guidance for Article 151 IT classification, simplified-regime expense-evidence treatment, foreign-client B2B VAT / reverse-charge reporting, social-security exemption/timing/base mechanics, and compatibility with D8 or another ordinary residence route.
+- **Suggested verification**: none for screening; AT / Seguranca Social / Portuguese accountant confirmation remains application-prep before filing or marking §5.3 passed.
 - **Created**: 2026-06-09 (run-082)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-10 (run-087)
+- **Resolution note**: Closed for country screening only. Portugal §5.3 now uses the ordinary simplified-regime stress test as the safe baseline, does not assume IFICI/NHR-style relief or VAT/social-security optimisation, and leaves Article 151 activity code, expense-evidence, VAT/place-of-supply, first-year social-security timing, and D8 / ordinary-status compatibility as application-prep checks. [src-401][src-403][src-404][src-405][src-406]
 
 ## vq-098 [medium priority]
 - **Fact**: "Hungary individual-entrepreneur tax regime, exact 2026 contribution bases, KATA / flat-rate eligibility, VAT / reverse-charge treatment, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer"
@@ -670,16 +680,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
 ## Recently resolved (last 10)
-- `vq-055` — 2026-06-06 (run-061)
-- `vq-088` — 2026-06-06 (run-061)
-- `vq-087` — 2026-06-06 (run-061)
-- `vq-086` — 2026-06-06 (run-061)
-- `vq-072` — 2026-06-06 (run-061)
-- `vq-085` — 2026-06-05 (run-052)
-- `vq-084` — 2026-06-05 (run-052)
-- `vq-083` — 2026-06-05 (run-052)
-- `vq-082` — 2026-06-05 (run-052)
-- `vq-081` — 2026-06-05 (run-052)
+- `vq-109` — 2026-06-10 (run-087)
+- `vq-108` — 2026-06-10 (run-087)
+- `vq-107` — 2026-06-10 (run-087)
+- `vq-106` — 2026-06-10 (run-087)
+- `vq-105` — 2026-06-10 (run-087)
+- `vq-104` — 2026-06-08 (run-075)
+- `vq-103` — 2026-06-08 (run-075)
+- `vq-102` — 2026-06-08 (run-075)
+- `vq-101` — 2026-06-08 (run-075)
+- `vq-100` — 2026-06-08 (run-075)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_

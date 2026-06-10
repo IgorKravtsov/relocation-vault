@@ -2,13 +2,13 @@
 country: Bosnia and Herzegovina
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-09T22:57:50Z
+last_updated: 2026-06-10T05:13:27Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-dedicated-digital-nomad-visa", "company-founder-route-high-burden", "no-captured-ukraine-protection-bridge", "cold-inland-winters", "bosnia-entity-tax-and-ssc-fit-gap", "bosnia-foreign-client-vat-fit-gap"]
 sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218", "src-418", "src-419", "src-420", "src-421", "src-422", "src-423"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (Tier-3 hint retained until tax / cost / ordinary-residence viability is researched).
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-09T22:57:50Z
+- **Last updated**: 2026-06-10T05:13:27Z
 - **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and now also has entity-specific tax / social-contribution uncertainty. [src-214][src-215][src-418][src-420]
 
 ## Block 2 — Scoring
@@ -89,9 +89,9 @@ Bosnia and Herzegovina has three relevant climate bands: a small Mediterranean c
 
 Sunny-day DoD is met with WeatherSpark clearer-sky day-equivalent proxies, not official sunny-day counts: Sarajevo ~191, Tuzla ~189, Mostar ~205 days/year with clear / mostly clear / partly cloudy sky-equivalent conditions. Mostar is the most climate-fit option for the couple's warm-weather preference; Sarajevo and Tuzla are livable but have winters that may feel too cold compared with Mediterranean alternatives. [src-217]
 
-### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-09, dod: partial}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-10, dod: partial}
 
-> **DoD status**: partial. This is a first-pass tax screen, not a filing model. Bosnia and Herzegovina is entity-based: Federation of BiH (FBiH), Republika Srpska (RS), and Brcko District have different PIT / allowance / contribution mechanics. The exact route for a Ukrainian foreign-client IT worker (sole entrepreneur, company manager, or employee of a local company), contribution base, VAT place-of-supply, and immigration-status compatibility remain `vq-108`.
+> **DoD status**: partial. This is a first-pass tax screen, not a filing model. Bosnia and Herzegovina is entity-based: Federation of BiH (FBiH), Republika Srpska (RS), and Brcko District have different PIT / allowance / contribution mechanics. `vq-108` is closed for screening, but the exact route for a Ukrainian foreign-client IT worker (sole entrepreneur, company manager, or employee of a local company), contribution base, VAT place-of-supply, and immigration-status compatibility remain application-prep checks before filing or marking §5.3 passed.
 
 #### Tax residence and scope
 
@@ -124,7 +124,7 @@ Run-085 FX snapshot: USD 1 = BAM 1.69618, so USD 3,000/month is about **BAM 5,08
 
 #### Practical tax conclusion for the couple
 
-Bosnia and Herzegovina does not yet have a clean DN-style tax route for this profile. PIT rates look low on paper, but the combination of entity-specific rules, heavy employee-style contributions, local-company immigration burden, and uncaptured VAT/place-of-supply mechanics means the safe screening answer is **partial / high-burden**. Do not score Bosnia as tax-positive until a Bosnia accountant confirms the exact legal form, contribution base, VAT reporting, and whether that structure supports the residence file. [src-418][src-420][src-421]
+Bosnia and Herzegovina does not yet have a clean DN-style tax route for this profile. PIT rates look low on paper, but the combination of entity-specific rules, heavy employee-style contributions, local-company immigration burden, and uncaptured VAT/place-of-supply mechanics means the safe screening answer is **partial / high-burden**. `vq-108` is closed for screening: the existing PIT-only and employee-style contribution sensitivities are enough for country comparison, while exact legal form, contribution base/order, VAT reporting, and whether that structure supports the high-burden residence file remain Bosnia accountant / immigration-counsel application-prep checks. Do not score Bosnia as tax-positive or mark §5.3 passed until that confirmation exists. [src-418][src-420][src-421]
 
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
@@ -265,9 +265,9 @@ _(none yet)_
 - Official self-employment / foreign-client IT route that avoids the heavy company-founder employee obligation.
 - Family-reunification checklist for spouse vs unmarried partner, sponsor income, and timing.
 - Citizenship / dual-citizenship operational requirements.
-- Exact entity/legal-form tax fit for a foreign-client IT worker: sole entrepreneur vs company-manager vs employee model, social-contribution base, VAT place-of-supply / reverse-charge handling, and compatibility with the residence route (`vq-108`).
+- Exact entity/legal-form tax fit for a foreign-client IT worker: sole entrepreneur vs company-manager vs employee model, social-contribution base, VAT place-of-supply / reverse-charge handling, and compatibility with the residence route remain application-prep checks; `vq-108` is closed for screening.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-108`: Bosnia and Herzegovina foreign-client IT tax structure: exact entity, contribution base, VAT/place-of-supply, and residence-route compatibility.
+- `vq-108` resolved in run-087: Bosnia and Herzegovina foreign-client IT tax structure is closed for screening using the existing PIT-only and contribution-stress baselines; exact entity, contribution base, VAT/place-of-supply, and residence-route compatibility remain application-prep checks.
 - Ukraine-specific entry/protection can be rechecked before travel or application prep.

@@ -11,7 +11,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Country | Group | Tier hint | Tier | depth_score | Sections done | Last iter | Profile |
 |---------|-------|----------:|------|------------:|---------------|----------:|---------|
 | Spain | eu-schengen | 1 | — | 4.0 | done: 5.2, 5.3, 5.4, 5.5; partial: 5.1 | 80 | `countries/spain.md` |
-| Portugal | eu-schengen | 1 | — | 3.5 | done: 5.4, 5.5; partial: 5.1, 5.2, 5.3 | 82 | `countries/portugal.md` |
+| Portugal | eu-schengen | 1 | — | 3.5 | done: 5.4, 5.5; partial: 5.1, 5.2, 5.3 | 87 | `countries/portugal.md` |
 | Italy | eu-schengen | 1 | — | 4.0 | done: 5.2, 5.3, 5.4, 5.5; partial: 5.1 | 81 | `countries/italy.md` |
 | Greece | eu-schengen | 1 | — | 4.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 79 | `countries/greece.md` |
 | Cyprus | eu-schengen | 1 | — | 4.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 76 | `countries/cyprus.md` |
@@ -28,10 +28,10 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Serbia | europe-non-eu | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 75 | `countries/serbia.md` |
 | Turkey | europe-non-eu | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 75 | `countries/turkey.md` |
 | Georgia | europe-non-eu | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 75 | `countries/georgia.md` |
-| Albania | balkans-east | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 83 | `countries/albania.md` |
-| North Macedonia | balkans-east | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 84 | `countries/north-macedonia.md` |
-| Bosnia and Herzegovina | balkans-east | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 85 | `countries/bosnia-and-herzegovina.md` |
-| Moldova | balkans-east | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 86 | `countries/moldova.md` |
+| Albania | balkans-east | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 87 | `countries/albania.md` |
+| North Macedonia | balkans-east | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 87 | `countries/north-macedonia.md` |
+| Bosnia and Herzegovina | balkans-east | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 87 | `countries/bosnia-and-herzegovina.md` |
+| Moldova | balkans-east | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 87 | `countries/moldova.md` |
 | Uruguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 35 | `countries/uruguay.md` |
 | Paraguay | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 39 | `countries/paraguay.md` |
 | Panama | latin-america | 2 | — | 1.5 | done: 5.2; partial: 5.1 | 46 | `countries/panama.md` |

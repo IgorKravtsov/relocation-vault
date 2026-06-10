@@ -2,13 +2,13 @@
 country: Portugal
 tier: null
 depth_score: 3.5
-last_updated: 2026-06-09T13:31:41Z
+last_updated: 2026-06-10T05:13:27Z
 sections_completed: ["5.4", "5.5"]
 sections_partial: ["5.1","5.2","5.3"]
 sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap"]
 sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406"]
-unverified_count: 2
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -20,7 +20,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
 - **depth_score**: 3.5
-- **Last updated**: 2026-06-09T13:31:41Z
+- **Last updated**: 2026-06-10T05:13:27Z
 - **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
 
 ## Block 2 — Scoring
@@ -93,7 +93,7 @@ schema_version: 2.0.0
 - Practical comfort read: **Faro / Algarve** looks best for warmth and light; **Lisbon** is the best large-city compromise; **Porto** is the least aligned climate-wise even if it may later score well on other dimensions. [src-022][src-023][src-024]
 - The remaining climate gap is a clean source for direct annual **sunny-day counts** in **Faro** (Lisbon and Porto are now covered by percentage-possible-sunshine data). [verification required; vq-010 partial]
 
-### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-09, dod: partial}
+### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-10, dod: partial}
 
 > **DoD status**: partial. Covered: tax residence, 2026 resident PIT brackets, simplified self-employment mechanics, self-employed social-security rate/base, start-of-activity filing route, VAT headline, filing / joint-return mechanics, new-resident reliefs, and a USD 3,000/month gross->net stress test. Missing for full DoD: Portuguese accountant / AT confirmation of the exact Article 151 activity code for foreign-client IT, VAT/place-of-supply and reverse-charge reporting, first-year social-security timing, deductible-expense evidence, and D8 / ordinary-status compatibility.
 
@@ -127,7 +127,7 @@ Assumptions for this screening calculation: USD 3,000/month gross foreign-client
 | Estimated social security | ~EUR 389/mo | ~EUR 389/mo |
 | Approximate net before accountant/VAT/immigration costs | **EUR 1,862/mo (~USD 2,148)** | **EUR 1,949/mo (~USD 2,249)** |
 
-**Screening conclusion**: Portugal is not tax-light for the current one-income budget under ordinary self-employment. The simplified-regime model may still be livable in Porto/Faro if rent is controlled, but Lisbon becomes fragile. Do **not** mark §5.3 passed until a Portuguese accountant / AT source confirms the exact IT activity code, simplified-regime coefficient and expense-evidence position, VAT/place-of-supply for foreign B2B clients, social-security timing/base nuances, and compatibility with the D8 / ordinary residence file. [verification required; vq-105]
+**Screening conclusion (`vq-105` closure)**: Portugal is not tax-light for the current one-income budget under ordinary self-employment. The simplified-regime model may still be livable in Porto/Faro if rent is controlled, but Lisbon becomes fragile. For country screening, the existing §5.3 model is sufficient: use the ordinary simplified-regime stress test as the safe baseline, do not assume IFICI/NHR-style relief or VAT/social-security optimisations, and keep Article 151 activity-code, expense-evidence, VAT/place-of-supply, first-year social-security timing, and D8 / ordinary-status compatibility as accountant/application-prep checks before filing. Do **not** mark §5.3 passed until those details are confirmed, but no additional queue item is needed for screening. [src-401][src-403][src-404][src-405][src-406]
 
 ### 5.4. Cost of Living {status: completed, depth: 1, last_updated: 2026-06-01, dod: passed}
 
@@ -248,10 +248,10 @@ _(none yet)_
 ### 7e. Not found
 - Official-primary D8 visa checklist (pre-visa document list, health-insurance minimum, processing time) from a Portuguese consulate or AIMA circular.
 - Direct annual sunny-day counts for Faro.
-- Portugal self-employed tax fit: exact Article 151 activity code / coefficient, VAT place-of-supply or reverse-charge reporting, first-year social-security timing, expense-evidence treatment, and D8 / ordinary-status compatibility for a Ukrainian foreign-client IT freelancer.
+- Portugal self-employed tax fit: exact Article 151 activity code / coefficient, VAT place-of-supply or reverse-charge reporting, first-year social-security timing, expense-evidence treatment, and D8 / ordinary-status compatibility for a Ukrainian foreign-client IT freelancer remain accountant/application-prep checks; `vq-105` is closed for screening.
 
 ## Block 8 — Open questions and verification markers
 
 - [verification required] Portugal TP time-counting toward long-term residence. → `vq-008`
 - [verification required] Direct annual sunny-day counts for Faro. → `vq-010 partial`
-- [verification required] Portugal self-employed tax fit for foreign-client IT: Article 151 code, VAT/place-of-supply, social-security timing, deductible-expense evidence, and immigration-status compatibility. → `vq-105`
+- Application-prep check (screening blocker closed): Portugal self-employed tax fit for foreign-client IT — Article 151 code, VAT/place-of-supply, social-security timing, deductible-expense evidence, and immigration-status compatibility. → `vq-105 resolved for screening`
