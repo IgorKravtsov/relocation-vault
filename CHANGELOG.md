@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-10
 ---
 
+## 2026-06-10 — run-092
+- Argentina: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative self-employed PIT screen.
+- Added Argentina tax / FX sources `src-456` through `src-461` and claims `claim-argentina-007` through `claim-argentina-011`.
+- Main finding: at USD 3,000/month (about ARS 4.34m), PIT-only leaves about ARS 3.30m / USD 2,280; an employee-style contribution stress test leaves about USD 1,928 before accountant/VAT/Ingresos Brutos/banking/immigration costs.
+- Added `vq-114` for ARCA registration, monotributo/autonomous-worker fit, VAT/export-service handling, Ingresos Brutos, social-security/health, banking/invoice, and residence compatibility; queue 9 -> 10, meeting the active verification threshold.
+
 ## 2026-06-10 — run-091
 - Mexico: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative ordinary-resident PIT screen.
 - Added Mexico tax / FX sources `src-449` through `src-455` and claims `claim-mexico-007` through `claim-mexico-011`.

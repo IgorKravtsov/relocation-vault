@@ -51,3 +51,49 @@
   confidence: medium
   tags: [climate, clear-sky, temperature, buenos-aires, cordoba, mendoza]
   notes: "Clearer-sky values are broader WeatherSpark proxies, not official sunny-day counts. Cordoba climate temperatures/rainfall are anchored by src-241; WeatherSpark country table lacks Cordoba, so San Miguel de Tucuman is not used as a city-specific Cordoba claim."
+
+
+- id: claim-argentina-007
+  topic: argentina_tax_residence_worldwide_income
+  value: "Argentine tax residents are taxable on worldwide income with foreign-tax-credit relief; foreign individuals residing in Argentina for reasons other than work become tax resident after more than 12 months, from the 13th month of presence."
+  source: src-457
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax-residence, worldwide-income, argentina]
+  notes: "DN bridge use and durable residence may differ; adviser confirmation needed for the couple's exact file."
+
+- id: claim-argentina-008
+  topic: argentina_self_employed_pit_scale
+  value: "PwC's self-employed PIT table applicable as of 30 Dec 2025 ranges from 5% on the first ARS 1,749,902 of annual taxable income to 35% above ARS 53,153,257; 2026 thresholds are adjusted semiannually by CPI and the top rate remains 35%."
+  source: src-456
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [pit, self-employed, argentina, tax-rates]
+  notes: "Used as a screening table only because second-semester 2026 thresholds will update with inflation."
+
+- id: claim-argentina-009
+  topic: argentina_vat_and_gross_income_tax_risk
+  value: "Argentina's VAT is generally 21% and applies to most services and self-employed activity; provincial gross income tax generally ranges from 0.5% to 6%, with CABA's 2026 general services rate at 3% but a professional-not-company exemption noted by PwC."
+  source: src-459
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [vat, gross-income-tax, ingresos-brutos, argentina]
+  notes: "Exact export-service treatment for an Argentina-located IT contractor invoicing foreign clients remains unverified."
+
+- id: claim-argentina-010
+  topic: argentina_spouse_separate_taxation_and_filing
+  value: "Each spouse's earnings from employment and business activities are assessed separately and individually; self-employed workers must register with the tax authorities, file an annual PIT return in June, and make advance payments."
+  source: src-460
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [marriage, filing, self-employed, argentina]
+  notes: "Marriage may help immigration/dependent planning but does not create a joint-return tax shelter in this first-pass model."
+
+- id: claim-argentina-011
+  topic: argentina_usd3000_tax_screen
+  value: "At USD 1 = ARS 1,446.1668, USD 3,000/month is about ARS 4,338,500/month; applying the captured self-employed PIT table with no optimisation gives PIT-only net of about ARS 3,296,882/month, roughly USD 2,280."
+  source: src-461
+  date_verified: 2026-06-10
+  confidence: medium
+  tags: [worked-example, fx, pit, argentina]
+  notes: "Before accountant, VAT, Ingresos Brutos, self-employed social-security/health, banking, and immigration costs; not a final Argentine freelance answer."

@@ -184,6 +184,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+## vq-114 [medium priority]
+- **Fact**: "Argentina foreign-client IT tax structure: exact ARCA registration category, monotributo versus autonomous-worker eligibility, VAT/export-service treatment, provincial Ingresos Brutos exposure, self-employed social-security/health obligations, banking/invoice settlement, and DN/temporary-residence compatibility"
+- **Country**: Argentina
+- **Section**: 5.3
+- **Current source**: src-456, src-457, src-458, src-459, src-460, src-461
+- **Why uncertain**: This tax pass captured resident worldwide-income scope, self-employed PIT brackets, VAT and gross-income-tax risk, separate-spouse filing, social-security sensitivity, and a USD 3,000/month PIT-only screening calculation, but did not prove the exact Argentine registration and indirect-tax/contribution structure for a Ukrainian foreign-client IT worker using a DN bridge or later temporary-residence file.
+- **Suggested verification**: ARCA guidance or Argentine accountant / immigration-counsel confirmation for CUIT/self-employed or monotributo category, foreign-client export-service VAT treatment, Ingresos Brutos by city/province, social-security/health contribution class, invoice/banking settlement, and whether the structure supports DN extension or any durable temporary residence route.
+- **Created**: 2026-06-10 (run-092)
+- **Status**: pending
+
 ## vq-110 [medium priority]
 - **Fact**: "Uruguay foreign-client IT tax structure: exact DGI registration category, BPS self-employed contribution base, VAT/export-service treatment, and compatibility with the permanent-residence means-of-life certificate"
 - **Country**: Uruguay

@@ -5479,3 +5479,76 @@ Each source entry:
 - **Facts supporting**: run-091 USD/MXN conversion for the Mexico USD 3,000/month tax worked example: USD 1 = MXN 17.430625 (claim-mexico-011)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-10
+
+
+## src-456
+- **Title**: PwC Worldwide Tax Summaries — Argentina, Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/argentina/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-04-01
+- **Date accessed**: 2026-06-10
+- **Used by**: Argentina
+- **Facts supporting**: Argentina resident worldwide-income baseline, 2026 PIT update mechanics, self-employed PIT rates, provincial gross-income-tax ranges and CABA 2026 services / professional-exemption context, and foreign-beneficiary caveat (claim-argentina-008, claim-argentina-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-04-01
+
+## src-457
+- **Title**: PwC Worldwide Tax Summaries — Argentina, Individual: Residence
+- **URL**: https://taxsummaries.pwc.com/argentina/individual/residence
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-04-01
+- **Date accessed**: 2026-06-10
+- **Used by**: Argentina
+- **Facts supporting**: Argentina individual tax-residence categories, foreign individuals becoming residents after more than 12 months / from the 13th month for non-work reasons, and non-resident / foreign-beneficiary caveats (claim-argentina-007)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-04-01
+
+## src-458
+- **Title**: PwC Worldwide Tax Summaries — Argentina, Individual: Deductions
+- **URL**: https://taxsummaries.pwc.com/argentina/individual/deductions
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-04-01
+- **Date accessed**: 2026-06-10
+- **Used by**: Argentina
+- **Facts supporting**: self-employed pension and social-security contributions deductible from PIT, personal allowances and deduction context, and social-security sensitivity caveat (claim-argentina-009, claim-argentina-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-04-01
+
+## src-459
+- **Title**: PwC Worldwide Tax Summaries — Argentina, Individual: Other taxes
+- **URL**: https://taxsummaries.pwc.com/argentina/individual/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-04-01
+- **Date accessed**: 2026-06-10
+- **Used by**: Argentina
+- **Facts supporting**: employer and employee social-security rate context, June 2026 employee contribution cap, VAT 21% general rate, VAT on self-employed activity, monthly VAT returns, and digital-services / reverse-charge caveats (claim-argentina-009, claim-argentina-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-04-01
+
+## src-460
+- **Title**: PwC Worldwide Tax Summaries — Argentina, Individual tax administration and corporate VAT context
+- **URL**: https://taxsummaries.pwc.com/argentina/individual/tax-administration and https://taxsummaries.pwc.com/argentina/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-04-01
+- **Date accessed**: 2026-06-10
+- **Used by**: Argentina
+- **Facts supporting**: separate spouse taxation, self-employed tax registration / annual PIT return / advance-payment mechanics, calendar-year tax period, monthly VAT returns, 21% VAT on services, and foreign-beneficiary reverse-charge caveats (claim-argentina-009, claim-argentina-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-04-01
+
+## src-461
+- **Title**: ExchangeRate-API open rates — USD to ARS snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: not captured; API snapshot]
+- **Type**: commercial
+- **Date published**: 2026-06-10T00:02:31Z
+- **Date accessed**: 2026-06-10
+- **Used by**: Argentina
+- **Facts supporting**: run-092 USD/ARS conversion for the Argentina USD 3,000/month tax worked example: USD 1 = ARS 1,446.1668 (claim-argentina-011)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-10

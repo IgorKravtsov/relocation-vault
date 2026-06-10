@@ -1,25 +1,23 @@
 {
   "version": 2,
-  "iteration": 91,
+  "iteration": 92,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-10T17:48:07Z",
+  "last_run_timestamp": "2026-06-10T20:58:40Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Mexico",
+    "country": "Argentina",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "country-deep-dive",
-    "suggested_country": "Argentina",
-    "suggested_sections": [
-      "5.3"
-    ],
-    "reason": "Pending/open verification queue is 9 after run-091, below the active threshold; continue rotating through low-depth countries with taxes still pending."
+    "suggested_mode": "verification",
+    "suggested_country": null,
+    "suggested_sections": null,
+    "reason": "Pending/open verification queue is 10 after run-092, meeting the active threshold; run verification before adding more country-specific blockers."
   },
   "countries": {
     "Spain": {
@@ -822,15 +820,15 @@
     "Argentina": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -844,10 +842,13 @@
         "digital-nomad-bridge-only",
         "tourist-entry-before-travel-check",
         "citizenship-continuous-no-exit-rule",
-        "inflation-currency-risk"
+        "inflation-currency-risk",
+        "argentina-pit-vat-gross-income-tax-risk",
+        "argentina-social-security-category-gap",
+        "argentina-monotributo-export-fit-gap"
       ],
-      "last_iteration": 61,
-      "unverified_count": 0
+      "last_iteration": 92,
+      "unverified_count": 1
     },
     "UAE": {
       "tier": null,
@@ -1028,8 +1029,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 9,
-  "sources_count": 454,
-  "claims_count": 368,
+  "verification_queue_size": 10,
+  "sources_count": 460,
+  "claims_count": 373,
   "proposals_pending": 0
 }
