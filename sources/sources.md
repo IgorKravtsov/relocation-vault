@@ -5167,3 +5167,87 @@ Each source entry:
 - **Facts supporting**: run-086 USD/MDL conversion for the Moldova USD 3,000/month tax worked example: USD 1 = MDL 17.327661
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-10
+
+## src-430
+- **Title**: PwC Worldwide Tax Summaries — Uruguay, Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/uruguay/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-09
+- **Date accessed**: 2026-06-10
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguayan-source principle, IRPF work-income progressive rates, 2025 bracket table, family-unit bracket mechanics, and warning not to treat foreign-client services performed from Uruguay as automatically tax-free (claim-uruguay-008)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-09
+
+## src-431
+- **Title**: PwC Worldwide Tax Summaries — Uruguay, Individual: Residence
+- **URL**: https://taxsummaries.pwc.com/uruguay/individual/residence
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-09
+- **Date accessed**: 2026-06-10
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguay tax-residence tests: more than 183 days, base of activities, economic/vital interests, spouse and dependent-child presumption, and investment-based residence context (claim-uruguay-007)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-09
+
+## src-432
+- **Title**: PwC Worldwide Tax Summaries — Uruguay, Individual: Deductions
+- **URL**: https://taxsummaries.pwc.com/uruguay/individual/deductions
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-09
+- **Date accessed**: 2026-06-10
+- **Used by**: Uruguay
+- **Facts supporting**: self-employed 30% notional expense deduction, employee deduction limits, and deduction context for the run-088 tax screening model (claim-uruguay-009, claim-uruguay-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-09
+
+## src-433
+- **Title**: PwC Worldwide Tax Summaries — Uruguay, Individual: Other taxes
+- **URL**: https://taxsummaries.pwc.com/uruguay/individual/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-09
+- **Date accessed**: 2026-06-10
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguayan social-security contribution context, employee contribution band of 18.1%-23.1%, employer contribution 12.625%, retirement cap, health-insurance family variables, and downside contribution sensitivity (claim-uruguay-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-09
+
+## src-434
+- **Title**: PwC Worldwide Tax Summaries — Uruguay, Individual: Tax administration
+- **URL**: https://taxsummaries.pwc.com/uruguay/individual/tax-administration
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-09
+- **Date accessed**: 2026-06-10
+- **Used by**: Uruguay
+- **Facts supporting**: resident/non-resident return timing, self-employed tax-registration and advance-payment baseline, 7% withholding note for certain self-employed service income above about UYU 63,000, and payment/withholding mechanics
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-09
+
+## src-435
+- **Title**: PwC Worldwide Tax Summaries — Uruguay, Corporate: Other taxes
+- **URL**: https://taxsummaries.pwc.com/uruguay/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-03-09
+- **Date accessed**: 2026-06-10
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguay VAT headline context: 22% general rate and 10% reduced-rate context; used only as VAT-risk baseline pending DGI/accountant confirmation for foreign-client IT services
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-09
+
+## src-436
+- **Title**: ExchangeRate-API open rates — USD to UYU snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: not captured; API snapshot]
+- **Type**: commercial
+- **Date published**: 2026-06-10T00:02:31Z
+- **Date accessed**: 2026-06-10
+- **Used by**: Uruguay
+- **Facts supporting**: run-088 USD/UYU conversion for the Uruguay USD 3,000/month tax worked example: USD 1 = UYU 40.474288 (claim-uruguay-010)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-10

@@ -51,3 +51,48 @@
   confidence: medium
   tags: [climate, temperature, montevideo, salto, tacuarembo]
   notes: "Converted from WeatherSpark Fahrenheit tables with Python during run-034."
+
+- id: claim-uruguay-007
+  topic: tax_residence_test
+  value: "Uruguay tax residence can be triggered by more than 183 days in the country or by having the base of activities / economic or vital interests in Uruguay."
+  source: src-431
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, residence, irpf]
+  notes: "PwC summary reviewed 2026-03-09; re-check DGI/accountant before filing."
+
+- id: claim-uruguay-008
+  topic: irpf_progressive_rates_2025
+  value: "Uruguay resident work income is subject to progressive IRPF rates from 10% to 36%, with the 2025 table starting at 0% up to UYU 552,384/year and 36% above UYU 9,074,880/year."
+  source: src-430
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, irpf, rates]
+  notes: "Used for run-088 screening model; 2026 table should be checked before filing."
+
+- id: claim-uruguay-009
+  topic: self_employed_notional_expense_deduction
+  value: "PwC Uruguay states that self-employed individuals can reduce business income by 30% for expenses calculated on a notional basis."
+  source: src-432
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, self-employed, deductions]
+  notes: "Exact foreign-client IT activity classification and DGI/BPS implementation remain a verification item."
+
+- id: claim-uruguay-010
+  topic: uruguay_tax_worked_example_usd3000
+  value: "At USD 3,000/month and USD 1 = UYU 40.474288, the 30% notional-expense IRPF-only model leaves about UYU 116,565/month (USD 2,880) before BPS/VAT/accountant costs."
+  source: src-436
+  date_verified: 2026-06-10
+  confidence: medium
+  tags: [tax, worked-example, fx, self-employed]
+  notes: "IRPF brackets from src-430 and self-employed deduction from src-432; not final filing advice."
+
+- id: claim-uruguay-011
+  topic: uruguay_social_security_employee_stress_test
+  value: "PwC Uruguay lists employee social-security contributions of 18.1% to 23.1%; applying that band as a conservative stress test to the self-employed IRPF-only model lowers USD 3,000/month screening net to about USD 2,187-2,337."
+  source: src-433
+  date_verified: 2026-06-10
+  confidence: low-medium
+  tags: [tax, social-security, stress-test]
+  notes: "This is a downside sensitivity only; the exact self-employed BPS contribution category remains unverified."

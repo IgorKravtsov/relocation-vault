@@ -184,6 +184,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+## vq-110 [medium priority]
+- **Fact**: "Uruguay foreign-client IT tax structure: exact DGI registration category, BPS self-employed contribution base, VAT/export-service treatment, and compatibility with the permanent-residence means-of-life certificate"
+- **Country**: Uruguay
+- **Section**: 5.3
+- **Current source**: src-430, src-431, src-432, src-433, src-434, src-435, src-436
+- **Why uncertain**: This tax pass captured IRPF tax residence, the 30% self-employed notional-expense deduction, filing/advance-payment basics, employee-style social-security stress-test rates, VAT headline context, and USD 3,000/month screening calculations, but did not prove the exact DGI/BPS/VAT treatment for a Ukrainian foreign-client IT worker filing Uruguayan permanent residence.
+- **Suggested verification**: Uruguayan DGI / BPS guidance or Uruguay accountant confirmation for independent IT services exported to foreign clients, including VAT place-of-supply/export status and migration notary/accounting certificate alignment.
+- **Created**: 2026-06-10 (run-088)
+- **Status**: pending
+
 ## vq-109 [medium priority]
 - **Fact**: "Moldova foreign-client IT tax structure: exact registration category (individual entrepreneur, professional activity, company, or foreign-contract DN), fixed versus employee-style SSC/health contribution treatment, VAT/place-of-supply or export-service reporting, and compatibility with the digital-nomad / provisional-stay route"
 - **Country**: Moldova

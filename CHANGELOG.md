@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-10
 ---
 
+## 2026-06-10 — run-088
+- Uruguay: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative self-employed IRPF screen.
+- Added Uruguay tax / FX sources `src-430` through `src-436` and claims `claim-uruguay-007` through `claim-uruguay-011`.
+- Main finding: at USD 3,000/month (about UYU 121,423), the 30% notional-expense IRPF-only model leaves about UYU 116,565 / USD 2,880 before BPS/VAT/accountant costs; an employee-style contribution stress test leaves about USD 2,187-2,337.
+- Added `vq-110` for DGI registration, BPS contribution base, VAT/export-service treatment, and residence-file compatibility; queue 5 -> 6, below the active verification threshold.
+
 ## 2026-06-10 — run-087
 - Verification mode: closed five recent §5.3 tax-fit queue items (`vq-105` through `vq-109`) to conservative screening baselines.
 - Countries touched: Portugal, Albania, North Macedonia, Bosnia and Herzegovina, and Moldova; depths unchanged, §5.3 remains partial in each profile.

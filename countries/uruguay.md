@@ -1,14 +1,14 @@
 ---
 country: Uruguay
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-02T04:01:45Z
+depth_score: 2.0
+last_updated: 2026-06-10T08:22:00Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence"]
-sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence", "uruguay-self-employed-bps-gap", "uruguay-foreign-client-vat-fit-gap"]
+sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186", "src-430", "src-431", "src-432", "src-433", "src-434", "src-435", "src-436"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests a potentially strong long-term route because Uruguay allows ordinary legal residence for non-Mercosur foreigners and legal citizenship after 3 years with family constituted in Uruguay or 5 years without family, but the route depends on proving habitual residence and means of life rather than a simple remote-worker visa threshold. [src-181][src-182][src-184]
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-02T04:01:45Z
-- **Tier rationale**: keep as Tier-2 hint until taxes, cost, rent, healthcare, and practical residence approval mechanics for foreign-client IT income are checked.
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-10T08:22:00Z
+- **Tier rationale**: keep as Tier-2 hint until cost, rent, healthcare, and practical residence / tax approval mechanics for foreign-client IT income are checked.
 
 ## Block 2 - Scoring
 
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | Visa-free entry plus ordinary permanent residence and short DN/provisional identity route exist; operational baseline is PR via foreign-company/independent-worker evidence, with DN only as a bridge. | §5.1 |
 | Climate | — | medium | Mild humid-subtropical climate; no long cold winter; hotter north; clear-sky proxies are decent but not Mediterranean-dry. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | First-pass self-employed screen: USD 3,000/month is about UYU 121,423/month; 70% notional-expense IRPF model leaves about UYU 116,565 / USD 2,880 before BPS/VAT/accountant costs, while an employee-style social-security stress test leaves about USD 2,187-2,337. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -98,9 +98,43 @@ Uruguay has a humid subtropical climate: mild winters, hot summers, rain in all 
 
 **Household comfort verdict**: climate fit is promising for a couple avoiding long cold winters. The main caveats are humidity/rain throughout the year, windy unstable southern winters, and hot inland/northern summers. Montevideo / Ciudad de la Costa / Maldonado should feel milder than inland Uruguay; Salto is warmer but more heat-exposed. [src-185][src-186]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-10, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This pass covers tax residence, territorial-source PIT/IRPF, a conservative USD 3,000/month worked example, family-unit mechanics, filing/advance-payment basics, and VAT/social-security caveats. Missing before DoD-passed filing advice: DGI/BPS or Uruguayan accountant confirmation of the exact foreign-client IT registration category, BPS contribution base, whether the exported-service / VAT treatment applies, and compatibility with the permanent-residence means-of-life file.
+
+#### Tax-residence and source baseline
+
+- Uruguay taxes residents and non-residents primarily on Uruguayan-source income: income from activities developed in Uruguay, property in Uruguay, or rights economically used in Uruguay. Specific foreign-source income can be taxed in defined cases, but the first-pass rule for a remote IT worker physically working from Uruguay is **do not treat foreign-client service income as tax-free merely because the client is foreign**. [src-430]
+- An individual is tax resident if present in Uruguay for more than 183 days, or if the base of activities / economic or vital interests is in Uruguay. The law also presumes residence when a spouse and dependent minor children habitually reside in Uruguay, which matters if the couple later marries and settles there. [src-431]
+- PwC's 2026 Uruguay summary says employment/work income under IRPF uses progressive rates from 10% to 36%; for the 2025 table, the annual brackets start with 0% up to UYU 552,384, then 10% to UYU 789,120, 15% to UYU 1,183,680, 24% to UYU 2,367,360, 25% to UYU 3,945,600, 27% to UYU 5,918,400, 31% to UYU 9,074,880, and 36% above that. [src-430]
+
+#### Self-employed / foreign-client IT model
+
+- For an independent foreign-client IT file, the most useful captured rule is PwC's self-employment deduction: self-employed individuals can reduce business income by 30% on a notional basis. This gives a first-pass IRPF model, but it does **not** by itself prove the correct DGI registration, BPS category, VAT export-service treatment, or immigration-file fit. [src-432]
+- Self-employed workers must register with the tax authorities and make advance payments on account of current-year income tax liability. PwC also notes a 7% withholding rule for certain taxpayers where self-employed service income is above approximately UYU 63,000, but that may not map cleanly to foreign clients without a Uruguayan withholding agent. [src-434]
+- VAT remains a core application-prep gap. PwC's corporate VAT page gives Uruguay's general 22% VAT rate and 10% reduced rate context, but this pass did not capture official DGI guidance proving whether foreign-client software/IT services from a Uruguayan resident individual are treated as exported services, outside scope, zero-rated, or ordinary taxable services. [src-435]
+
+#### Worked example at USD 3,000/month
+
+FX snapshot for this pass: USD 1 = UYU 40.474288, so USD 3,000/month is about **UYU 121,423/month** or **UYU 1,457,074/year**. [src-436]
+
+| Scenario | Method | Approx monthly net | Confidence | Notes |
+|---|---:|---:|---|---|
+| Self-employed 30% notional-expense IRPF only | Tax 70% of gross through the captured progressive IRPF brackets | **UYU 116,565 / USD 2,880** | medium | Useful screening baseline before BPS/VAT/accountant costs; not final filing advice. [src-430][src-432][src-436] |
+| Gross IRPF sensitivity | Tax full gross through progressive IRPF brackets | UYU 109,050 / USD 2,694 | medium | Conservative if 30% notional deduction is unavailable for the chosen structure. [src-430][src-436] |
+| Employee-style social-security stress test | Self-employed IRPF-only model minus 18.1%-23.1% employee contribution band | **UYU 88,516-94,587 / USD 2,187-2,337** | low-medium | Not a claim that employee rates apply to the self-employed category; it stress-tests the unresolved BPS contribution risk. [src-433][src-436] |
+
+#### Social security, deductions, family-unit mechanics
+
+- PwC describes Uruguay's social-security system as comprehensive and compulsory for employment income, with employer contributions of 12.625% and employee contributions of 18.1%-23.1%; employee retirement contributions are capped at UYU 272,564/month until 31 December 2025, and employee health-insurance percentages vary by income and family situation. This is a strong warning that BPS treatment can materially change the net result, but it is **not** enough to mark the self-employed IT contribution answer as closed. [src-433]
+- Employee-style deductions are narrow, and PwC says social-security contributions plus a notional child-related amount are deductible only through an 8% or 14% rate depending on income. For self-employed income, the captured 30% notional expense deduction is more relevant to the screening model. [src-432]
+- Uruguay can tax as a family unit. PwC gives separate family-unit brackets depending on whether each member earns more or less than 12 minimum salaries; because this couple currently has one earner and one non-working student partner, marriage/family filing could change the rate table, but the exact benefit needs accountant modelling after the legal status and household facts are known. [src-430]
+
+#### Practical verdict for this couple
+
+- At the couple's current USD 3,000/month, Uruguay is **not obviously tax-negative** in the first-pass screen: the self-employed notional-expense IRPF-only model leaves close to USD 2,880/month before BPS/VAT/accountant/immigration costs. The downside is that unresolved BPS and VAT treatment can move the result materially; an employee-style contribution stress test lowers the screen to about USD 2,187-2,337/month. [src-430][src-432][src-433][src-436]
+- Do not assume a digital-nomad tax holiday. The DN/provisional-identity route in §5.1 is a short immigration bridge, while this tax section should be treated as ordinary Uruguay tax-residence / self-employment planning unless a Uruguayan accountant confirms a specific incentive. [src-183][src-430]
+- Before filing permanent residence on foreign-client IT income, get a Uruguayan accountant/notary package that aligns three files: DGI registration and invoicing, BPS contribution status, and the migration means-of-life certificate. Added `vq-110` for this tax-fit gap.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -225,7 +259,12 @@ Uruguay has a humid subtropical climate: mild winters, hot summers, rain in all 
 - [src-184] Uruguay legal citizenship letter procedure.
 
 ### 7b. Reputable secondary
-_(none yet)_
+- [src-430] PwC Uruguay individual taxes on personal income.
+- [src-431] PwC Uruguay individual tax residence.
+- [src-432] PwC Uruguay individual deductions / self-employment deduction.
+- [src-433] PwC Uruguay individual other taxes / social security.
+- [src-434] PwC Uruguay individual tax administration.
+- [src-435] PwC Uruguay corporate other taxes / VAT context.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -233,12 +272,13 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - [src-185] Climate to Travel Uruguay climate overview / normals.
 - [src-186] WeatherSpark Uruguay country climate comparison.
+- [src-436] ExchangeRate-API USD to UYU FX snapshot.
 
 ### 7e. Not found
 - Exact Uruguayan migration practice for accepting ~$3,000/month foreign-client IT income for a couple remains an application-prep check; operational planning should treat a notarial/accounting means-of-life package as mandatory.
 - Whether digital-nomad provisional identity time counts toward habitual residence for legal citizenship remains unproven; the safe baseline is not to rely on it without permanent legal residence evidence.
 - Partner/dependent mechanics for an unmarried Ukrainian partner remain unproven; the safe baseline is marriage or separate residence eligibility.
-- Uruguay tax treatment for foreign-client IT remote work.
+- Uruguay tax treatment for foreign-client IT remote work: first-pass §5.3 now covers IRPF/tax residence and screening calculations, but exact DGI/BPS/VAT/immigration-file alignment remains `vq-110`.
 
 ## Block 8 - Open questions and verification markers
 
