@@ -1,14 +1,14 @@
 ---
 country: Mexico
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-04T00:00:00Z
+depth_score: 2.0
+last_updated: 2026-06-10T17:48:07Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["ukrainian-entry-visa-likely-required", "temporary-residence-income-above-current-budget", "no-dedicated-digital-nomad-visa", "coastal-heat-humidity"]
-sources_used: ["src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["ukrainian-entry-visa-likely-required", "temporary-residence-income-above-current-budget", "no-dedicated-digital-nomad-visa", "coastal-heat-humidity", "mexico-resico-eligibility-gap", "mexico-vat-export-service-gap", "mexico-social-security-category-gap"]
+sources_used: ["src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232", "src-449", "src-450", "src-451", "src-452", "src-453", "src-454", "src-455"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests Mexico is a possible ordinary-residence fallback rather than a clean digital-nomad route: temporary residence can lead to permanent residence after four years, but 2026 economic-solvency thresholds appear above the couple's current ~$3,000/month income if they apply through the standard income route. [src-227][src-229]
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-04T00:00:00Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-10T17:48:07Z
 - **Tier rationale**: keep as Tier-3 hint until the exact serving-consulate threshold, entry mechanics for Ukrainian passports, taxes, rent, healthcare, and partner sponsorship are checked.
 
 ## Block 2 - Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | No EU TP dependency; ordinary temporary-residence ladder exists, but the standard solvency route appears above the couple's income and no dedicated DN visa was captured. | §5.1 |
 | Climate | — | medium | Huge regional spread: Mexico City is mild and dry-comfortable, while Caribbean / Pacific coasts are warm but humid and rainy in season. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | Progressive PIT is workable but not low-tax at USD 3,000/month: ordinary resident PIT-only net screens near USD 2,447/month before accountant, VAT, and any social-security/IMSS obligations. RESICO or export-service VAT treatment could improve the answer, but eligibility was not proven in this pass. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -88,9 +88,35 @@ Mexico's climate fit depends heavily on altitude and coast. The best first-pass 
 
 **Household comfort verdict**: Mexico can satisfy the no-long-cold-winter preference, but the comfortable regions are climate-specific. For daily comfort on one remote IT income, a highland city is likely easier than a humid tourist coast until rent, safety, and healthcare are researched. The coasts are warmer but carry heat, humidity, rainy-season, and storm risk. [src-230][src-231][src-232]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-10, dod: partial}
 
-[verification required]
+> **DoD status**: partial. A conservative ordinary-resident PIT screen is now available for a foreign-client IT worker at USD 3,000/month. The section remains partial until SAT / Mexican accountant evidence confirms the exact individual regime, RESICO eligibility, VAT/export-of-services treatment, IMSS or other social-security obligations, and compatibility with the temporary-residence / remote-work file.
+
+#### Tax residence and scope
+
+- **Residence baseline**: PwC says the Federal Tax Code treats a person as Mexican tax-resident when they establish a home in Mexico; if the person also has a home elsewhere, the centre of vital interests test applies. Resident individuals are taxed on worldwide income regardless of nationality, while non-residents are taxed only on Mexican-source income. [src-449][src-450]
+- **Planning implication**: if the couple actually settles in Mexico, the working partner should assume Mexican tax-resident filing and worldwide-income reporting rather than a visitor-only or non-resident model. This is especially important because Mexico is not a clean digital-nomad-tax-holiday jurisdiction in the captured sources. [src-449][src-450]
+
+#### Ordinary individual / professional-services screen
+
+- **2026 resident PIT table**: PwC's 2026 resident table is progressive up to 35%. At the run-091 FX snapshot, USD 3,000/month is about **MXN 52,292/month** or **MXN 627,503/year**. That falls in the MXN 424,353.98-668,840.14 annual bracket: MXN 67,981.92 basic tax plus 23.52% on the excess. [src-449][src-455]
+- **Worked example (ordinary PIT-only)**: gross MXN 627,503/year -> estimated PIT about **MXN 115,762/year** / **MXN 9,647/month** -> net about **MXN 42,645/month**, roughly **USD 2,447/month**, before accountant fees, e.firma / CFDI administration, VAT, and any IMSS / social-security treatment. [src-449][src-453][src-455]
+- **Business deductions**: PwC says business owners and independent professionals may deduct most of the same business expenses as corporations, while there is no standard deduction and professional/business losses are ring-fenced against professional/business income. This could improve the ordinary-regime net if the worker has deductible business costs, but this pass keeps the screening model conservative and does not assume a specific deduction percentage. [src-451]
+
+#### RESICO / simplified trust caveat
+
+- Mexico has a known simplified-trust regime for some individuals, but SAT pages were not captured cleanly in this cron pass and PwC's extracted pages did not provide enough regime mechanics to use it as the baseline. Treat **RESICO eligibility, foreign-client IT fit, and rate/table mechanics as verification-required** rather than assuming a 1%-2.5% low-tax outcome. [src-451]
+
+#### Social security, VAT, filing, and marriage
+
+- **Social security / IMSS**: PwC's individual page describes employee IMSS contributions withheld at source and employer contributions with annual employee maximums, but it does not answer whether a foreign-client independent IT contractor on a temporary-residence route must or may register with IMSS. The screening model therefore excludes IMSS and flags this as an accountant/SAT/IMSS check. [src-452]
+- **VAT / IVA**: PwC reports Mexico's VAT at **16%** on sales of goods and services, leases, and imports, with an 8% effective rate possible in the northern border region. Corporate VAT context confirms the same 16% general rate and lists exempt categories, but this pass did not verify whether foreign-client software/IT services can be zero-rated/exported or how invoices must be worded. [src-452][src-454]
+- **Filing**: the tax year is 1 January-31 December; residents receiving income generally file an annual return by **30 April** of the following year, usually electronically with an advanced electronic signature. [src-453]
+- **Marriage**: joint returns are not allowed. PwC notes a limited investment-income reporting rule for married couples, but personal service income should be declared by the spouse who earns it. Marriage helps immigration/dependency more than the captured tax model. [src-453]
+
+#### Conservative verdict for the couple
+
+At the current USD 3,000/month income, Mexico is not tax-prohibitive in the ordinary PIT-only model, but it is also not a low-tax answer: a conservative resident-professional screen leaves about **USD 2,447/month** before accountant, VAT, social-security/IMSS, health insurance, and immigration costs. Because the immigration solvency gate already appears above the couple's income, tax attractiveness alone does not fix Mexico's main route problem. Do not mark section 5.3 passed until a Mexican accountant or official SAT/IMSS guidance confirms RESICO/ordinary-regime registration, VAT/export-service handling, contribution duties, and compatibility with temporary residence. [src-449][src-451][src-452][src-453][src-454][src-455]
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -142,7 +168,7 @@ Mexico's climate fit depends heavily on altitude and coast. The best first-pass 
 - **Best legalization path for the man**: temporary resident visa based on economic solvency if income/savings meet the serving-consulate threshold; no dedicated DN route captured. [src-227][src-229]
 - **Best legalization path for the woman**: spouse/family-unity route if married and eligible, or independent file; do not assume an unmarried-partner or one-income dependent route until the serving consulate confirms it. [src-227][src-229]
 - **Does marriage change the picture**: probably yes for dependent/family-unity clarity, but the exact Mexican dependent evidence and solvency uplift were not captured.
-- **Realism of staying after 03.2027**: medium-low at current income until the solvency threshold is solved; ordinary temporary residence can lead to permanent residence after four years if obtained and maintained. [src-227]
+- **Realism of staying after 03.2027**: medium-low at current income until the solvency threshold is solved; ordinary temporary residence can lead to permanent residence after four years if obtained and maintained. Tax screening is workable under ordinary PIT but not enough to overcome the immigration income gate by itself. [src-227][src-449]
 
 **Pros**:
 - Ordinary non-EU residence ladder avoids EU temporary-protection uncertainty. [src-227]
@@ -152,7 +178,7 @@ Mexico's climate fit depends heavily on altitude and coast. The best first-pass 
 **Cons / risks**:
 - Standard 2026 temporary-residence income benchmark appears above the couple's current ~$3,000/month. [src-229]
 - Ukrainian entry / visa-waiver alternatives need a readable official country-list confirmation. [src-226]
-- Partner/dependent mechanics should be handled spouse-first for screening; remote-work tax compliance remains for the tax section.
+- Partner/dependent mechanics should be handled spouse-first for screening; remote-work tax compliance remains accountant-level, especially RESICO, VAT/export-service, and IMSS treatment. [src-451][src-452][src-454]
 - Coastal warmth comes with high humidity, rainy-season, and storm exposure. [src-231][src-232]
 
 ## Block 6 - Practical playbook (working relocation guide)
@@ -207,6 +233,12 @@ Mexico's climate fit depends heavily on altitude and coast. The best first-pass 
 
 ### 7b. Reliable secondary
 - [src-229] Mexperience 2026 financial-criteria guide for Mexican residency.
+- [src-449] PwC Mexico individual taxes on personal income.
+- [src-450] PwC Mexico individual residence.
+- [src-451] PwC Mexico individual deductions.
+- [src-452] PwC Mexico individual other taxes.
+- [src-453] PwC Mexico individual tax administration.
+- [src-454] PwC Mexico corporate other taxes.
 
 ### 7c. Community and forums
 - None used in this pass.
@@ -215,14 +247,16 @@ Mexico's climate fit depends heavily on altitude and coast. The best first-pass 
 - [src-230] Climate to Travel Mexico City.
 - [src-231] Climate to Travel Cancun / Puerto Vallarta / Mexico overview.
 - [src-232] WeatherSpark Mexico country climate comparison.
+- [src-455] ExchangeRate-API USD/MXN snapshot.
 
 ### 7e. Not found / not captured cleanly
 - Readable official OCR/text for Ukraine's exact placement in Mexico's visa-required / visa-free list.
 - Serving-consulate 2026 temporary-resident economic-solvency checklist and exact USD/EUR/UAH thresholds.
 - Dependent / family-unity mechanics for a spouse or unmarried partner of a temporary resident.
-- Remote-work tax / local registration treatment for foreign-client IT income.
+- Remote-work tax / local registration treatment for foreign-client IT income: ordinary PIT is screened, but exact SAT regime, RESICO eligibility, VAT/export-service handling, IMSS/social-security duty, and residence-file compatibility remain open.
 
 ## Block 8 - Open questions and verification notes
 
 - `vq-070` — Mexico Ukrainian entry / visa-waiver alternatives and Polish residence-card treatment from a readable official source.
 - `vq-071` — Mexico temporary-resident economic-solvency threshold, remote-work fit, dependent mechanics, PR counting, and naturalization details.
+- `vq-113` — Mexico foreign-client IT tax registration, RESICO eligibility, VAT/export-service treatment, IMSS/social-security position, and immigration-file fit.

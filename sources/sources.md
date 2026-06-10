@@ -5395,3 +5395,87 @@ Each source entry:
 - **Facts supporting**: Panama ITBMS/VAT 7% general rate, exports-not-taxed statement, and ITBMS credit/refund context used as a VAT/export-service risk baseline pending DGI/accountant confirmation for foreign-client IT (claim-panama-009)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-01-18
+
+## src-449
+- **Title**: PwC Worldwide Tax Summaries — Mexico, Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/mexico/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-30
+- **Date accessed**: 2026-06-10
+- **Used by**: Mexico
+- **Facts supporting**: Mexico resident worldwide-income scope, non-resident Mexican-source scope, 2026 resident PIT progressive brackets, and non-resident compensation brackets (claim-mexico-007, claim-mexico-008, claim-mexico-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-30
+
+## src-450
+- **Title**: PwC Worldwide Tax Summaries — Mexico, Individual: Residence
+- **URL**: https://taxsummaries.pwc.com/mexico/individual/residence
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-30
+- **Date accessed**: 2026-06-10
+- **Used by**: Mexico
+- **Facts supporting**: Mexican tax-residence home test and centre-of-vital-interests tie-breaker baseline (claim-mexico-007)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-30
+
+## src-451
+- **Title**: PwC Worldwide Tax Summaries — Mexico, Individual: Deductions
+- **URL**: https://taxsummaries.pwc.com/mexico/individual/deductions
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-30
+- **Date accessed**: 2026-06-10
+- **Used by**: Mexico
+- **Facts supporting**: no standard deduction, business/professional expense deduction baseline, and professional/business loss ring-fencing; used to keep the ordinary PIT worked example conservative pending exact regime confirmation
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-30
+
+## src-452
+- **Title**: PwC Worldwide Tax Summaries — Mexico, Individual: Other taxes
+- **URL**: https://taxsummaries.pwc.com/mexico/individual/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-30
+- **Date accessed**: 2026-06-10
+- **Used by**: Mexico
+- **Facts supporting**: employee IMSS contribution context, employer contribution context, employee maximum contribution, 16% VAT general rate, 8% northern-border-region VAT caveat, and no net wealth tax (claim-mexico-009)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-30
+
+## src-453
+- **Title**: PwC Worldwide Tax Summaries — Mexico, Individual: Tax administration
+- **URL**: https://taxsummaries.pwc.com/mexico/individual/tax-administration
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-30
+- **Date accessed**: 2026-06-10
+- **Used by**: Mexico
+- **Facts supporting**: calendar-year tax period, annual return due by 30 April, electronic filing / advanced electronic signature context, and no joint-return baseline for married couples (claim-mexico-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-30
+
+## src-454
+- **Title**: PwC Worldwide Tax Summaries — Mexico, Corporate: Other taxes
+- **URL**: https://taxsummaries.pwc.com/mexico/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-24
+- **Date accessed**: 2026-06-10
+- **Used by**: Mexico
+- **Facts supporting**: corporate VAT context, 16% general VAT rate, VAT-exempt transaction examples, payroll/social-security context, and profit-sharing context used as risk background pending exact foreign-client IT classification (claim-mexico-009)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-24
+
+## src-455
+- **Title**: ExchangeRate-API open rates — USD to MXN snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: not captured; API snapshot]
+- **Type**: commercial
+- **Date published**: 2026-06-10T00:02:31Z
+- **Date accessed**: 2026-06-10
+- **Used by**: Mexico
+- **Facts supporting**: run-091 USD/MXN conversion for the Mexico USD 3,000/month tax worked example: USD 1 = MXN 17.430625 (claim-mexico-011)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-10

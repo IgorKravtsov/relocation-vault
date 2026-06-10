@@ -1359,3 +1359,13 @@ _(none)_
 - **Status**: resolved
 - **Resolved**: 2026-06-05 (run-052)
 - **Resolution note**: Kazakhstan profile now records no captured PR/citizenship ladder for TRP / Neo Nomad / foreign-client IT, plus citizenship dual-nationality risk. [src-270][src-271]
+
+## vq-113 [high priority]
+- **Fact**: "Mexico tax registration, RESICO eligibility, VAT/export-service treatment, IMSS/social-security position, and immigration-file fit for a foreign-client IT worker on ordinary temporary residence"
+- **Country**: Mexico
+- **Section**: 5.3
+- **Current source**: src-449, src-451, src-452, src-453, src-454
+- **Why uncertain**: PwC supports a conservative ordinary resident PIT screen, but this pass did not capture official SAT/IMSS or accountant evidence for the exact individual regime, RESICO eligibility, VAT zero-rating/export-service classification, IMSS obligations, or whether the selected tax registration fits the temporary-residence file.
+- **Suggested verification**: Check SAT regime guidance, IMSS/SAT registration obligations, and a Mexican accountant or immigration-tax adviser for foreign-client software/IT services by a temporary resident.
+- **Created**: 2026-06-10 (run-091)
+- **Status**: pending

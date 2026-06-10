@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-10
 ---
 
+## 2026-06-10 — run-091
+- Mexico: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative ordinary-resident PIT screen.
+- Added Mexico tax / FX sources `src-449` through `src-455` and claims `claim-mexico-007` through `claim-mexico-011`.
+- Main finding: at USD 3,000/month (about MXN 52,292), ordinary resident PIT-only leaves about MXN 42,645 / USD 2,447 before accountant, VAT, IMSS/social-security, health-insurance, and immigration costs.
+- Added `vq-113` for SAT regime / RESICO eligibility, VAT/export-service handling, IMSS/social-security treatment, and temporary-residence compatibility; queue 8 -> 9, below the active verification threshold.
+
 ## 2026-06-10 — run-090
 - Panama: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a territorial-tax screening model for foreign-client IT.
 - Added Panama tax sources `src-444` through `src-448` and claims `claim-panama-007` through `claim-panama-011`.

@@ -51,3 +51,48 @@
   confidence: medium
   tags: [climate, temperature, mexico-city, cancun, puerto-vallarta]
   notes: "Converted from WeatherSpark Fahrenheit country-comparison tables during run-042."
+
+- id: claim-mexico-007
+  topic: tax_residence_and_worldwide_income
+  value: "PwC says a person is tax-resident in Mexico when they establish a home in Mexico, with centre-of-vital-interests tie-breaker if they also have a home elsewhere; resident individuals are taxed on worldwide income."
+  source: src-450
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax-residence, worldwide-income, mexico]
+  notes: "This supports using a resident-worldwide-income model if the couple settles in Mexico rather than a visitor-only model. Worldwide income scope is also stated in src-449."
+
+- id: claim-mexico-008
+  topic: resident_pit_rates_2026
+  value: "PwC's 2026 resident individual PIT table is progressive up to 35%; USD 36,000/year at the run-091 FX snapshot falls in the MXN 424,353.98-668,840.14 bracket, with MXN 67,981.92 basic tax plus 23.52% on the excess."
+  source: src-449
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, pit, rates, worked-example]
+  notes: "FX support is src-455."
+
+- id: claim-mexico-009
+  topic: vat_and_social_security_context
+  value: "PwC reports 16% Mexican VAT on sales of goods and services and describes employee IMSS contributions withheld at source with employer contributions, but this pass did not confirm the VAT export-service or IMSS position for a foreign-client independent IT contractor."
+  source: src-452
+  date_verified: 2026-06-10
+  confidence: medium
+  tags: [tax, vat, social-security, imss]
+  notes: "Corporate VAT context is in src-454; accountant/SAT/IMSS verification is still needed before treating either VAT or IMSS as closed."
+
+- id: claim-mexico-010
+  topic: filing_and_marriage_tax_mechanics
+  value: "PwC says Mexico's tax year is the calendar year, annual resident returns are generally due by 30 April of the following year, joint returns are not allowed, and personal service income should be declared by the spouse earning it."
+  source: src-453
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax-administration, filing, marriage]
+  notes: "Marriage is therefore more relevant to immigration/dependency than to splitting the remote IT income in the captured tax model."
+
+- id: claim-mexico-011
+  topic: usd3000_tax_screening_net
+  value: "At USD 3,000/month and USD 1 = MXN 17.430625, the conservative ordinary resident PIT-only model leaves about MXN 42,645/month, or about USD 2,447/month, before accountant, VAT, social-security/IMSS, health-insurance, and immigration costs."
+  source: src-449
+  date_verified: 2026-06-10
+  confidence: medium
+  tags: [tax, worked-example, remote-it, net-income]
+  notes: "Calculation uses src-455 FX. RESICO, VAT/export-service handling, and IMSS/social-security obligations remain open in vq-113."

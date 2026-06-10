@@ -1,25 +1,25 @@
 {
   "version": 2,
-  "iteration": 90,
+  "iteration": 91,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-10T14:40:09Z",
+  "last_run_timestamp": "2026-06-10T17:48:07Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Panama",
+    "country": "Mexico",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Mexico",
+    "suggested_country": "Argentina",
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Pending/open verification queue is 8 after run-090, below the active threshold; continue rotating through low-depth countries with taxes still pending."
+    "reason": "Pending/open verification queue is 9 after run-091, below the active threshold; continue rotating through low-depth countries with taxes still pending."
   },
   "countries": {
     "Spain": {
@@ -789,15 +789,15 @@
     "Mexico": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -811,9 +811,13 @@
         "ukrainian-entry-visa-likely-required",
         "temporary-residence-income-above-current-budget",
         "no-dedicated-digital-nomad-visa",
-        "coastal-heat-humidity"
+        "coastal-heat-humidity",
+        "mexico-resico-eligibility-gap",
+        "mexico-vat-export-service-gap",
+        "mexico-social-security-category-gap"
       ],
-      "last_iteration": 43
+      "last_iteration": 91,
+      "unverified_count": 1
     },
     "Argentina": {
       "tier": null,
@@ -1024,8 +1028,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 8,
-  "sources_count": 447,
-  "claims_count": 363,
+  "verification_queue_size": 9,
+  "sources_count": 454,
+  "claims_count": 368,
   "proposals_pending": 0
 }
