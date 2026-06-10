@@ -5095,3 +5095,75 @@ Each source entry:
 - **Facts supporting**: run-085 USD/BAM conversion for the Bosnia and Herzegovina USD 3,000/month tax worked example: USD 1 = BAM 1.69618
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-09
+
+## src-424
+- **Title**: PwC Worldwide Tax Summaries — Moldova, Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/moldova/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-14
+- **Date accessed**: 2026-06-10
+- **Used by**: Moldova
+- **Facts supporting**: Moldovan resident / non-resident PIT scope, 12% PIT for employment / professional / entrepreneurial / individual-entrepreneur income, and non-resident income categories
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-14
+
+## src-425
+- **Title**: PwC Worldwide Tax Summaries — Moldova, Individual: Residence
+- **URL**: https://taxsummaries.pwc.com/moldova/individual/residence
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-14
+- **Date accessed**: 2026-06-10
+- **Used by**: Moldova
+- **Facts supporting**: Moldovan tax-residence tests: permanent domicile or physical presence exceeding / at least 183 days during the fiscal year
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-14
+
+## src-426
+- **Title**: PwC Worldwide Tax Summaries — Moldova, Individual: Other taxes / Deductions
+- **URL**: https://taxsummaries.pwc.com/moldova/individual/other-taxes ; https://taxsummaries.pwc.com/moldova/individual/deductions
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-14
+- **Date accessed**: 2026-06-10
+- **Used by**: Moldova
+- **Facts supporting**: 2026 employer SSC and employee health-insurance context, fixed annual SSC / health contribution amounts for other taxpayer categories, optional private health insurance caveat for foreigners without local labour agreement, contribution deductibility, and 2026 personal / spouse / dependent allowances
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-14
+
+## src-427
+- **Title**: PwC Worldwide Tax Summaries — Moldova, Individual: Tax administration / Foreign tax relief and tax treaties
+- **URL**: https://taxsummaries.pwc.com/moldova/individual/tax-administration ; https://taxsummaries.pwc.com/moldova/individual/foreign-tax-relief-and-tax-treaties
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-14
+- **Date accessed**: 2026-06-10
+- **Used by**: Moldova
+- **Facts supporting**: calendar-year PIT period, 30 April annual PIT return/payment deadline, payroll reporting context, foreign-tax-credit baseline, and DTT precedence / fiscal-residence-certificate context
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-14
+
+## src-428
+- **Title**: PwC Worldwide Tax Summaries — Moldova, Corporate: Other taxes
+- **URL**: https://taxsummaries.pwc.com/moldova/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-14
+- **Date accessed**: 2026-06-10
+- **Used by**: Moldova
+- **Facts supporting**: 20% standard VAT, reduced VAT context, import-of-services reverse-charge baseline, B2C digital-service VAT context, 2026 MDL 1.5m VAT registration threshold, voluntary registration, and monthly VAT return/payment timing
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-14
+
+## src-429
+- **Title**: ExchangeRate-API open rates — USD to MDL snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: not captured; API snapshot]
+- **Type**: commercial
+- **Date published**: 2026-06-10T00:02:31Z
+- **Date accessed**: 2026-06-10
+- **Used by**: Moldova
+- **Facts supporting**: run-086 USD/MDL conversion for the Moldova USD 3,000/month tax worked example: USD 1 = MDL 17.327661
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-10

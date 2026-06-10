@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-09
+last_updated: 2026-06-10
 ---
 
 # Verification Queue
@@ -183,6 +183,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolution note**: Cyprus profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Nicosia ~295, Limassol ~296, Paphos ~294. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-119]
 
 ## Low priority
+
+## vq-109 [medium priority]
+- **Fact**: "Moldova foreign-client IT tax structure: exact registration category (individual entrepreneur, professional activity, company, or foreign-contract DN), fixed versus employee-style SSC/health contribution treatment, VAT/place-of-supply or export-service reporting, and compatibility with the digital-nomad / provisional-stay route"
+- **Country**: Moldova
+- **Section**: 5.3
+- **Current source**: src-424, src-425, src-426, src-427, src-428, src-429
+- **Why uncertain**: This tax pass captured tax residence, 12% PIT, 2026 fixed SSC/health contribution placeholders, VAT threshold/rate, filing mechanics, and USD 3,000/month screening sensitivities, but did not prove the exact legal/tax category for a Ukrainian foreign-client IT worker or whether the fixed contribution and VAT assumptions apply to a DN / provisional-stay file.
+- **Suggested verification**: Check Moldovan State Tax Service / CNAS / CNAM guidance and a Moldovan accountant / immigration lawyer for IT individual-entrepreneur registration, contribution base, VAT/export-service treatment, and DN/provisional-stay compatibility.
+- **Created**: 2026-06-10 (run-086)
+- **Status**: pending
 
 ## vq-108 [medium priority]
 - **Fact**: "Bosnia and Herzegovina foreign-client IT tax structure: exact legal form (sole entrepreneur, company manager, or local company employee), social-contribution base, VAT/place-of-supply or reverse-charge handling, and compatibility with the ordinary residence/company route"

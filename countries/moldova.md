@@ -1,14 +1,14 @@
 ---
 country: Moldova
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-04T00:00:00Z
+depth_score: 2.0
+last_updated: 2026-06-10T02:06:06Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["digital-nomad-threshold-current-year-gap", "pr-counting-for-digital-nomad-unclear", "post-2027-tp-bridge-gap", "transnistria-practical-risk"]
-sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225]
-unverified_count: 0
+sections_partial: ["5.1","5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["digital-nomad-threshold-current-year-gap", "pr-counting-for-digital-nomad-unclear", "post-2027-tp-bridge-gap", "transnistria-practical-risk", "moldova-entrepreneur-contribution-category-gap", "moldova-foreign-client-vat-fit-gap"]
+sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225, src-424, src-425, src-426, src-427, src-428, src-429]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence shows Moldova has an official digital-nomad residence route and temporary protection for displaced Ukrainians until 01 March 2027, but long-term usefulness for this couple depends on the current average-salary threshold, whether digital-nomad residence counts toward permanent residence, and post-TP transition mechanics. [src-220][src-222]
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-04T00:00:00Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-10T02:06:06Z
 - **Tier rationale**: Not assigned. Treat Moldova as a potentially practical nearby bridge/base, not yet a proven long-term route to PR/citizenship for a foreign-client IT worker.
 
 ## Block 2 — Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | N/A | Official DN and provisional-stay frameworks exist, but threshold/current-year salary and PR-counting details need verification. | §5.1 |
 | Climate | — | medium | Continental; sunny warm summers, low muggy burden, but cold/freezing winters. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium-high | 12% PIT baseline looks simple, but self-employed contribution category, VAT/export-service handling, and DN/ordinary-residence compatibility require accountant/authority confirmation. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -93,9 +93,49 @@ schema_version: 2.0.0
 
 **Comfort verdict**: Moldova is climatically acceptable but not warm-country comfortable. Summers are sunny and generally low-humidity; winters are the main downside, with freezing temperatures, snow, fog/gray skies, and wind. For this couple, Chisinau is the realistic default city if legalization/cost/tax checks pass; Balti is colder and less attractive; Tiraspol should not be treated as the default relocation base until broader security/practicality research is done. [src-223][src-224]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-10, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. This is a conservative first-pass screening model for a Ukrainian foreign-client IT worker at about USD 3,000/month. It captures tax residence, 12% PIT for professional/entrepreneurial income, filing deadlines, fixed-contribution placeholders for non-employee categories, VAT threshold/reverse-charge context, family allowances, and a worked gross-to-net example. It is **not** DoD-passed until the Moldovan State Tax Service / CNAS / CNAM or a Moldova accountant confirms the exact individual-entrepreneur or professional-services registration category, whether fixed annual SSC/health contributions apply to this foreign-client IT file, VAT/place-of-supply or export-service treatment, and compatibility with the digital-nomad / provisional-stay route.
+
+#### Tax residence and scope
+- Moldova treats a person as tax resident if they have permanent domicile in Moldova or are physically present for more than 183 days during the fiscal/calendar year; foreign citizens become residents if they stay in Moldova for at least 183 days in the fiscal year. [src-425] Confidence: medium-high.
+- PwC's 2026 Moldova summary says Moldovan residents, including foreigners, are taxed on income from Moldovan sources and on foreign-source income for work activity effectively performed in Moldova, while non-residents are taxed on Moldovan-source income. For a couple actually living and working remotely from Moldova, do not assume foreign-client income is outside the Moldovan PIT base after tax residence begins. [src-424][src-425] Confidence: medium-high.
+
+#### Applicable self-employed / professional model
+- The captured first-pass baseline is **12% PIT** on employment, professional, entrepreneurial, and individual-entrepreneur taxable income. PwC lists 12% for income from employment / professional or entrepreneurial activity and 12% for individual entrepreneurs. [src-424] Confidence: medium-high.
+- This pass did not prove whether a foreign-client software/IT contractor under the Moldovan DN route should register as an individual entrepreneur, another professional-services category, or keep foreign-client contracts without local entrepreneurial registration. Treat 12% PIT as the screening baseline, not a final filing instruction. [src-424][src-220] Confidence: medium.
+- Social/health contributions are the main unresolved point. PwC reports that employers pay 24% SSC on employee remuneration, while legislation also provides fixed annual SSC for other taxpayer categories, with **MDL 22,878** applicable in 2026. It also reports mandatory health insurance at 9% of wages for employees and a fixed annual health contribution for other categories, **MDL 12,636** in 2026. For foreign citizens without a local labour agreement, PwC says private optional health insurance can be used, but the exact treatment for a foreign individual entrepreneur / DN file was not captured. [src-426] Confidence: medium-high for rates, medium for fit.
+
+#### VAT, registration, and filing mechanics
+- VAT: Moldova's standard VAT rate is 20%. Starting in 2026, VAT registration is required if turnover in the last 12 consecutive months reaches **MDL 1.5 million**; voluntary registration is possible if the person intends to perform taxable supplies. At the run-086 FX snapshot, USD 3,000/month is about MDL 623,796/year, below the threshold. [src-428][src-429] Confidence: medium-high for threshold.
+- VAT caveat: PwC's corporate VAT page focuses on Moldovan local supplies, import of services, reverse charge, and B2C digital services supplied by non-residents to Moldovan individuals. It does not by itself settle foreign-client B2B export/service place-of-supply treatment for a Moldovan individual entrepreneur. Keep VAT/reverse-charge/export-service reporting as an accountant check before invoicing through Moldova. [src-428] Confidence: medium.
+- Filing: the PIT taxable period is the calendar year; annual PIT returns and PIT payment are due by **30 April** of the year following the reporting year. Employers report payroll taxes monthly by the 25th day of the following month, but the exact self-employed reporting cadence for this foreign-client IT structure needs confirmation. [src-426][src-427] Confidence: medium-high for annual PIT deadline.
+
+#### Deductions, incentives, and family effects
+- Mandatory health-insurance and social-security contributions are deductible in determining taxable income. Business expenses are deductible under corporate-like rules if the individual is registered as a private entrepreneur or farming enterprise. [src-426] Confidence: medium-high.
+- Personal allowances in 2026 include a MDL 29,700 personal allowance for Moldovan resident taxpayers whose annual taxable income does not exceed MDL 360,000. The couple's USD 3,000/month screens above that income cap, so the ordinary personal allowance should not be assumed in the worked model. [src-426][src-429] Confidence: medium-high.
+- Marriage / dependent effect: captured Moldovan sources include a spouse's major allowance and dependent allowances, but they are conditional and not a clear advantage for the current two-adult no-child scenario. Do not plan a major tax benefit from marriage; marriage remains primarily an immigration/documentation lever. [src-426] Confidence: medium.
+- Foreign tax relief: individuals may credit foreign income tax paid against Moldovan liabilities within Moldova's applicable tax limit, with official confirmation from the foreign tax authority required. Moldova has multiple DTTs and treaty provisions can prevail over domestic law, but treaty use requires a fiscal-residence certificate in the relevant cases. [src-427] Confidence: medium-high.
+
+#### Worked USD 3,000/month example (run-086 FX)
+- FX snapshot: ExchangeRate-API reported USD 1 = MDL 17.327661 on 2026-06-10. USD 3,000/month = about **MDL 51,983/month** and **MDL 623,796/year**. [src-429]
+- PIT-only screening model at 12%:
+  - Gross receipts: MDL 51,983/month.
+  - PIT: MDL 6,238/month.
+  - Net before SSC/health/accountant/VAT/immigration costs: **about MDL 45,745/month**, or **about USD 2,640/month**.
+- Fixed-contribution sensitivity if the 2026 non-employee fixed SSC and health contributions apply and are paid monthly equivalent:
+  - Fixed SSC: MDL 22,878/year = MDL 1,906.50/month. [src-426]
+  - Fixed health contribution: MDL 12,636/year = MDL 1,053/month. [src-426]
+  - If treated as paid after PIT, net is about **MDL 42,786/month** / **USD 2,469/month**.
+  - If deductible before PIT, net is about **MDL 43,141/month** / **USD 2,490/month**.
+- Downside / sensitivity: if authorities require employee-style 24% employer SSC plus 9% health, a local-company/payroll structure, higher health-insurance costs, VAT registration, or a different immigration-compatible business form, net can be lower. Keep Moldova §5.3 partial until the exact registration and contribution base are confirmed.
+
+#### Practical tax playbook for the couple
+1. Before relocating or invoicing through Moldova, ask a Moldovan accountant whether foreign-client software/IT services under the DN / provisional-stay route should be registered as individual entrepreneur, professional activity, company, or kept under foreign contracts.
+2. Confirm whether the 2026 fixed SSC (MDL 22,878/year) and fixed health contribution (MDL 12,636/year) apply to the chosen category, or whether employee-style 24% / 9% rules or private insurance apply instead.
+3. Confirm VAT registration and place-of-supply/export-service handling; current income is below the MDL 1.5m 12-month VAT threshold, but foreign-client service reporting still needs a local answer.
+4. Budget using the fixed-contribution sensitivity (about USD 2,470-2,490/month net before accountant and immigration costs) rather than the PIT-only figure until contribution treatment is verified.
+5. Do not assume the digital-nomad route creates a tax holiday; the captured tax baseline is ordinary Moldovan PIT once tax-resident / work-performed-in-Moldova conditions are met.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -220,6 +260,11 @@ schema_version: 2.0.0
 
 ### 7b. Reputable secondary
 - [src-222] UNHCR Moldova temporary protection.
+- [src-424] PwC Moldova individual PIT rates.
+- [src-425] PwC Moldova tax residence.
+- [src-426] PwC Moldova SSC / health / deductions.
+- [src-427] PwC Moldova tax administration and foreign-tax relief.
+- [src-428] PwC Moldova corporate VAT context.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -228,6 +273,7 @@ _(none yet)_
 - [src-223] Climate to Travel Moldova / Chisinau climate.
 - [src-224] WeatherSpark Chisinau, Balti, and Tiraspol climate pages.
 - [src-204] VisaGuide.World Ukrainian passport visa-free list (placeholder only).
+- [src-429] ExchangeRate-API USD/MDL snapshot.
 
 ### 7e. Not found
 - Official Moldovan MFA/eVisa country table confirming Ukrainian passport short-entry rules.
@@ -240,3 +286,4 @@ _(none yet)_
 
 - `vq-068` — official Ukraine entry / TP transition / citizenship baseline.
 - `vq-069` — DN current threshold, dependent mechanics, and PR-counting for DN/IT residence.
+- `vq-109` — Moldova foreign-client IT tax registration, fixed-contribution, VAT/place-of-supply, and DN/provisional-stay compatibility.

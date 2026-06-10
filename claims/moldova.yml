@@ -55,3 +55,59 @@
   confidence: medium
   tags: [climate, clearer-sky-proxy, sunny-days]
   notes: "Computed from WeatherSpark monthly percentages of clear / mostly clear / partly cloudy sky using month lengths; not official sunny-day counts."
+
+- id: claim-moldova-007
+  topic: tax_residence_baseline
+  value: "A foreign citizen becomes Moldovan tax resident if physically present in Moldova for at least / more than 183 days during the fiscal/calendar year; permanent domicile is also a tax-residence test."
+  source: src-425
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, tax-residence, 183-days]
+  notes: "Used for first-pass Moldova 5.3 screening."
+
+- id: claim-moldova-008
+  topic: pit_rate_professional_entrepreneurial_income
+  value: "Moldova's 2026 PIT baseline is 12% for employment income, professional or entrepreneurial activity, and individual entrepreneurs."
+  source: src-424
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, pit, self-employed, individual-entrepreneur]
+  notes: "Exact registration category for a Ukrainian foreign-client IT worker remains unverified; see vq-109."
+
+- id: claim-moldova-009
+  topic: fixed_social_health_contribution_sensitivity
+  value:
+    fixed_ssc_2026: 22878
+    fixed_health_2026: 12636
+  unit: MDL/year
+  source: src-426
+  date_verified: 2026-06-10
+  confidence: medium
+  tags: [tax, social-security, health-insurance, self-employed]
+  notes: "PwC lists these as fixed annual amounts for other taxpayer categories; exact applicability to a foreign DN / IT individual entrepreneur remains unverified."
+
+- id: claim-moldova-010
+  topic: vat_threshold_and_rate
+  value:
+    standard_vat_rate: 20
+    registration_threshold_12_months: 1500000
+  unit: percent / MDL turnover
+  source: src-428
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, vat, threshold, reverse-charge]
+  notes: "Foreign-client B2B place-of-supply / export-service treatment remains unverified; see vq-109."
+
+- id: claim-moldova-011
+  topic: tax_worked_example_usd3000
+  value:
+    gross_mdl_month: 51983
+    pit_only_net_mdl_month: 45745
+    pit_only_net_usd_month: 2640
+    fixed_contribution_sensitivity_net_mdl_month: "42786-43141"
+    fixed_contribution_sensitivity_net_usd_month: "2469-2490"
+  source: src-429
+  date_verified: 2026-06-10
+  confidence: medium
+  tags: [tax, worked-example, usd3000, moldovan-leu]
+  notes: "Computed from USD 1 = MDL 17.327661 and PwC tax/contribution figures; contribution treatment is a sensitivity, not a final filing answer."

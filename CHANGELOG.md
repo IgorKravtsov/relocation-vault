@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-09
+last_updated: 2026-06-10
 ---
+
+## 2026-06-10 — run-086
+- Moldova: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a 12% PIT plus contribution-sensitivity first-pass screen.
+- Added Moldova tax / FX sources `src-424` through `src-429` and claims `claim-moldova-007` through `claim-moldova-011`.
+- Main finding: at USD 3,000/month (about MDL 51,983), PIT-only leaves about MDL 45,745 / USD 2,640; if fixed 2026 SSC and health contributions apply, screening net is about MDL 42,786-43,141 / USD 2,469-2,490 before accountant/VAT/immigration costs.
+- Added `vq-109` for registration category, fixed-contribution treatment, VAT/place-of-supply, and DN/provisional-stay compatibility; queue 9 -> 10, meeting the active verification threshold.
 
 ## 2026-06-09 — run-085
 - Bosnia and Herzegovina: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with an entity-based first-pass tax screen.
