@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-10
 ---
 
+## 2026-06-10 — run-090
+- Panama: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a territorial-tax screening model for foreign-client IT.
+- Added Panama tax sources `src-444` through `src-448` and claims `claim-panama-007` through `claim-panama-011`.
+- Main finding: if foreign-client remote-work income is non-Panama-source, USD 3,000/month can screen near USD 3,000 before accountant/insurance/banking costs; Panama-source PIT downside is about USD 2,688, or about USD 2,358 with employee-style CSS/education-tax sensitivity.
+- Added `vq-112` for DGI/RUC registration, source classification, CSS/education tax, ITBMS/export-service handling, and remote-worker / residence-file compatibility; queue 7 -> 8, below the active verification threshold.
+
 ## 2026-06-10 — run-089
 - Paraguay: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative foreign-client IT tax screen.
 - Added Paraguay tax / FX sources `src-437` through `src-443` and claims `claim-paraguay-007` through `claim-paraguay-011`.

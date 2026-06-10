@@ -51,3 +51,48 @@
   confidence: medium
   tags: [climate, temperature, panama-city, david, boquete]
   notes: "Converted from WeatherSpark Fahrenheit tables with Python during run-037; Boquete/Guayabal source is src-203."
+
+- id: claim-panama-007
+  topic: territorial_income_tax_scope
+  value: "Panama uses a territorial income-tax system: citizens and residents are taxed on Panama-source income, and non-residents are taxed only on Panama-source income."
+  source: src-444
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, territorial, foreign-source]
+  notes: "This supports a tax-positive screening case for foreign-client remote IT, but exact source classification for services physically performed in Panama remains an accountant/DGI check."
+
+- id: claim-panama-008
+  topic: tax_residence_rule
+  value: "PwC describes Panama individual residence as being physically located and generating income in Panama for more than 183 days during the year."
+  source: src-445
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax-residence, residence, days-test]
+  notes: "The wording creates a source-classification question for a remote-worker visa holder earning foreign-source income while physically in Panama."
+
+- id: claim-panama-009
+  topic: itbms_and_payroll_tax_context
+  value: "Panama's ITBMS general rate is 7%; PwC also reports employee social-security tax of 9.75% from 1 April 2025 and employee educational-insurance tax of 1.25% on salaries and wages."
+  source: src-446
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, itbms, social-security, payroll]
+  notes: "The employee rates are used only as a downside sensitivity until a Panamanian accountant confirms the self-employed/remote-worker CSS position. Corporate ITBMS export context is in src-448."
+
+- id: claim-panama-010
+  topic: panama_source_pit_rates
+  value: "If income is taxable Panama-source income, PIT is 0% up to USD 11,000, 15% on the excess up to USD 50,000, and USD 5,850 plus 25% on income above USD 50,000."
+  source: src-444
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, pit, rates]
+  notes: "At USD 36,000/year, this produces USD 3,750/year or USD 312.50/month PIT before any contribution/VAT/accountant costs."
+
+- id: claim-panama-011
+  topic: usd3000_tax_screening_net
+  value: "At USD 3,000/month, Panama's screening net is about USD 3,000/month if foreign-client income is non-Panama-source, about USD 2,688/month if treated as Panama-source PIT-only income, and about USD 2,358/month with an employee-style CSS/education-tax stress test."
+  source: src-444
+  date_verified: 2026-06-10
+  confidence: medium
+  tags: [tax, worked-example, remote-it, net-income]
+  notes: "The zero-PIT case is provisional and depends on DGI/accountant confirmation of source classification, registration, CSS, ITBMS/export-service, and immigration-file compatibility; social-security sensitivity uses src-446."

@@ -5335,3 +5335,63 @@ Each source entry:
 - **Facts supporting**: run-089 USD/PYG conversion for the Paraguay USD 3,000/month tax worked example: USD 1 = PYG 6,152.887361 (claim-paraguay-011)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-10
+
+## src-444
+- **Title**: PwC Worldwide Tax Summaries — Panama, Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/panama/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-18
+- **Date accessed**: 2026-06-10
+- **Used by**: Panama
+- **Facts supporting**: Panama territorial personal-income-tax system, resident/non-resident Panama-source income scope, and PIT brackets of 0% up to USD 11,000, 15% on USD 11,000-50,000, and 25% above USD 50,000 (claim-panama-007, claim-panama-010, claim-panama-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-18
+
+## src-445
+- **Title**: PwC Worldwide Tax Summaries — Panama, Individual: Residence
+- **URL**: https://taxsummaries.pwc.com/panama/individual/residence
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-18
+- **Date accessed**: 2026-06-10
+- **Used by**: Panama
+- **Facts supporting**: Panama individual residence rule: physically located and generating income in Panama for more than 183 days during the year (claim-panama-008)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-18
+
+## src-446
+- **Title**: PwC Worldwide Tax Summaries — Panama, Individual: Other taxes
+- **URL**: https://taxsummaries.pwc.com/panama/individual/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-18
+- **Date accessed**: 2026-06-10
+- **Used by**: Panama
+- **Facts supporting**: employee social-security rate of 9.75% from 1 April 2025, employee educational-insurance tax of 1.25%, employer payroll-tax context, and individual ITBMS/VAT headline rate of 7% (claim-panama-009, claim-panama-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-18
+
+## src-447
+- **Title**: PwC Worldwide Tax Summaries — Panama, Individual: Tax administration
+- **URL**: https://taxsummaries.pwc.com/panama/individual/tax-administration
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-18
+- **Date accessed**: 2026-06-10
+- **Used by**: Panama
+- **Facts supporting**: calendar-year tax period, 15 March return deadline for taxpayers other than single-employer employees with withholding, and estimated-tax instalments on 30 June, 30 September, and 31 December
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-18
+
+## src-448
+- **Title**: PwC Worldwide Tax Summaries — Panama, Corporate: Other taxes
+- **URL**: https://taxsummaries.pwc.com/panama/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-01-18
+- **Date accessed**: 2026-06-10
+- **Used by**: Panama
+- **Facts supporting**: Panama ITBMS/VAT 7% general rate, exports-not-taxed statement, and ITBMS credit/refund context used as a VAT/export-service risk baseline pending DGI/accountant confirmation for foreign-client IT (claim-panama-009)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-18

@@ -204,6 +204,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-10 (run-089)
 - **Status**: pending
 
+## vq-112 [medium priority]
+- **Fact**: "Panama foreign-client IT tax structure: exact DGI/RUC registration category, source classification for services physically performed in Panama for foreign clients, CSS/education-tax treatment, ITBMS/export-service handling, and compatibility with the remote-worker visa / follow-on residence file"
+- **Country**: Panama
+- **Section**: 5.3
+- **Current source**: src-199, src-444, src-445, src-446, src-447, src-448
+- **Why uncertain**: This tax pass captured Panama's territorial income-tax baseline, tax-residence wording, PIT brackets, employee-style social-security and education-tax rates, ITBMS headline/export context, tax-return timing, and USD 3,000/month screening calculations, but did not prove whether foreign-client IT performed while physically in Panama is treated as foreign-source, Panama-source, exported, or otherwise reportable; nor did it prove self-employed CSS/education-tax or ITBMS duties for a remote-worker visa holder.
+- **Suggested verification**: DGI guidance or Panamanian accountant confirmation for a Ukrainian foreign-client IT contractor on the remote-worker visa, including RUC/registration, invoice wording, CSS/education-tax, ITBMS/export-service classification, return/nil-return duties, and whether the structure supports any later ordinary residence file.
+- **Created**: 2026-06-10 (run-090)
+- **Status**: pending
+
 ## vq-109 [medium priority]
 - **Fact**: "Moldova foreign-client IT tax structure: exact registration category (individual entrepreneur, professional activity, company, or foreign-contract DN), fixed versus employee-style SSC/health contribution treatment, VAT/place-of-supply or export-service reporting, and compatibility with the digital-nomad / provisional-stay route"
 - **Country**: Moldova

@@ -1,14 +1,14 @@
 ---
 country: Panama
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-04T19:46:13Z
+depth_score: 2.0
+last_updated: 2026-06-10T14:40:09Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season"]
-sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203"]
-unverified_count: 0
+sections_partial: ["5.1","5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season", "panama-territorial-tax-source-risk", "panama-itbms-export-service-gap"]
+sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203", "src-444", "src-445", "src-446", "src-447", "src-448"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests Panama is useful as a short-to-medium-term remote-work base because the official remote-worker visa fits exactly USD 3,000/month foreign-source income, but it is a non-resident short-stay route and not a clean permanent-residence/citizenship ladder by itself. [src-199]
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-04T19:46:13Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-10T14:40:09Z
 - **Tier rationale**: keep as Tier-2 hint only if a separate residence route can be made realistic. The likely long-term routes require a Panama employer/professional file, friendly-nations economic/professional activity, or investment/family facts not yet proven for this Ukrainian remote-IT couple. [src-198][src-200]
 
 ## Block 2 - Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | Remote-worker visa is official and income-fit at B/.36,000/year, but it is 9+9 months and non-resident; Ukraine-specific entry status and permanent-residence fit need verification. | §5.1 |
 | Climate | — | medium | No winter problem, but the lowland cities are hot, extremely humid, rainy, and cloudy for much of the year; Boquete/Guayabal is milder but still wet. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | Territorial-tax screening is attractive if foreign-client remote-work income is treated as foreign-source: USD 3,000/month could remain about USD 3,000 before accountant/ITBMS/registration costs. Downside if treated as Panama-source personal-service income is about USD 2,688/month after PIT, or USD 2,358/month with employee-style CSS/education-tax sensitivity. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -97,9 +97,38 @@ Panama is tropical: the core comfort problem is not winter but heat, humidity, r
 
 **Household comfort verdict**: Panama avoids cold winters entirely, but it is a poor fit for someone who strongly dislikes humidity and gray/rainy seasons. Panama City is practical but sticky and cloudy much of the year. David is hot and humid. Boquete/Guayabal is the likely comfort compromise if the couple can accept smaller-city/highland living and frequent rain. [src-202][src-203]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-10, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This pass establishes a conservative screening baseline for a foreign-client IT worker at USD 3,000/month, but it does **not** prove the exact DGI registration category, source-of-income treatment for services physically performed from Panama, ITBMS/export-service handling, CSS treatment, or compatibility with the short-stay remote-worker / later ordinary-residence file. `vq-112` tracks those application-prep gaps.
+
+#### Core tax-residence and source rules
+
+- **Territorial baseline**: PwC states that Panama uses a territorial concept of income: citizens and residents are taxed on income earned from Panamanian sources, and non-residents are taxed only on Panama-source income. This is the key reason Panama can screen well for foreign-client remote IT, but it also makes source classification the central risk. [src-444]
+- **Tax residence**: PwC describes an individual resident as a person physically located in Panama and generating income in Panama for more than 183 days during the year. This wording is awkward for the couple: the remote-worker visa requires foreign-source telework, while tax-residence analysis still needs adviser confirmation if the work is physically performed in Panama for foreign clients. [src-445][src-199]
+- **PIT rates if income is Panama-source**: taxable income up to USD 11,000 is taxed at 0%; USD 11,000-50,000 is taxed at 15% on the excess; above USD 50,000 the tax is USD 5,850 plus 25% on the excess. [src-444]
+
+#### USD 3,000/month worked example
+
+Because Panama's balboa is effectively USD-denominated in the captured sources and the couple's income is already in USD, no FX conversion is needed for this first-pass model.
+
+| Scenario | Monthly gross | PIT / tax mechanics | Approx. monthly net | Confidence | Notes |
+|---|---:|---|---:|---|---|
+| **Foreign-source territorial baseline** | USD 3,000 | 0% Panama PIT if the income is classified as non-Panama-source foreign-client revenue | **~USD 3,000** before accountant, banking, health-insurance, and any registration/ITBMS costs | medium | Attractive screening case, but do not treat as final until DGI/accountant confirms source classification and filing duties. [src-444][src-199] |
+| **Panama-source PIT downside** | USD 3,000 | Annual taxable income USD 36,000; first USD 11,000 at 0%, next USD 25,000 at 15% = USD 3,750/year / USD 312.50/month | **~USD 2,688** before social-security/ITBMS/accountant costs | medium | Conservative if DGI treats the service as Panama-source personal-service income. [src-444] |
+| **Employee-style contribution stress test** | USD 3,000 | PIT above plus 9.75% employee social security and 1.25% employee educational-insurance tax | **~USD 2,358** before accountant/ITBMS costs | low-medium | Stress test only: PwC's captured rates are employee/payroll rates, not proof that they apply to a foreign-client self-employed remote worker. [src-446] |
+
+#### Social security, education tax, and VAT / ITBMS
+
+- **Social security / education tax**: PwC reports 9.75% employee social-security tax from 1 April 2025, plus 1.25% employee educational-insurance tax on salaries/wages; employer rates also exist and rise over time. This pass did not prove a self-employed CSS contribution base for an independent foreign-client IT worker or remote-worker visa holder. [src-446]
+- **ITBMS / VAT context**: Panama's ITBMS is the VAT-equivalent tax. PwC gives a 7% general rate. For corporate context, PwC says exports are not taxed and ITBMS paid to generate exports may be refunded, but this pass did not prove whether foreign-client software/IT services performed from Panama qualify as exported services or are outside/inside ITBMS. [src-446][src-448]
+- **Tax return mechanics**: PwC says tax returns are filed on a calendar-year basis; taxpayers other than single-employer employees with withholding generally file by 15 March of the following year, and estimated tax is paid in three instalments on 30 June, 30 September, and 31 December. [src-447]
+
+#### Practical tax verdict for this couple
+
+- **Screening conclusion**: Panama is tax-positive on paper if the remote-worker structure is respected: foreign clients, foreign-source payment, no Panama customers, and no local employment. Under that baseline, the couple's USD 3,000/month gross could remain close to USD 3,000 before accountant/insurance/banking costs. [src-444][src-199]
+- **Main risk**: exact source classification is unresolved. The couple should not assume zero Panama PIT simply because clients are abroad; a Panamanian tax adviser should confirm whether services physically performed from Panama for foreign clients are treated as foreign-source, Panama-source, exported, or reportable in another way. [src-444][src-448]
+- **Immigration compatibility**: the official remote-worker checklist requires foreign-source income and no local job/service/business activity in Panama, which aligns with the tax-positive story but also limits any fallback to local Panama clients. [src-199]
+- **What to ask an accountant before filing**: DGI registration/RUC need, source classification for foreign-client IT, whether annual PIT return or nil return is required, CSS/education-tax obligations for a self-employed remote worker, ITBMS/export-service treatment, invoice wording, and whether the chosen structure still supports a later ordinary residence file. [src-444][src-446][src-447][src-448]
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -128,6 +157,7 @@ Panama is tropical: the core comfort problem is not winter but heat, humidity, r
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
 - **Currency/banking risk**: [verification required]
+- **Tax/source-classification risk**: Panama's territorial system is attractive only if the couple's foreign-client IT revenue is confirmed as non-Panama-source / export-style income; otherwise Panama-source PIT and possibly CSS/ITBMS mechanics need modelling. [src-444][src-446][src-448]
 - **Political risk**: [verification required]
 - **Ties to Ukraine**: [verification required]
 - **Diaspora and adaptation**: [verification required]
@@ -178,7 +208,7 @@ Panama is tropical: the core comfort problem is not winter but heat, humidity, r
 
 ### 6c. First 3-6 months
 - Use the remote-worker period to test the ordinary residence route: friendly-countries, foreign-professional, Panama company/employer, or another long-term category. [src-198][src-200]
-- Price tax registration and territorial-tax treatment for foreign-client IT work in a later tax pass. [verification required]
+- Price tax registration and territorial-tax treatment for foreign-client IT work with a Panamanian accountant before relying on the zero-PIT screening case; ask specifically about DGI/RUC registration, source classification, CSS/education tax, ITBMS/export-service treatment, and invoice wording. [src-444][src-446][src-447][src-448]
 
 ### 6d. Before March 2027 (critical deadline)
 - Have a Panama remote-worker or ordinary residence file approved/submitted before relying on Panama as the post-EU-TP fallback.
@@ -216,6 +246,11 @@ Panama is tropical: the core comfort problem is not winter but heat, humidity, r
 
 ### 7b. Reputable secondary
 - [src-197] VisaGuide Ukrainian passport visa-free list; used only as a medium-confidence placeholder for Ukrainian entry until official Panama table is captured.
+- [src-444] PwC Panama individual taxes on personal income: territorial system and PIT brackets.
+- [src-445] PwC Panama individual residence rule.
+- [src-446] PwC Panama individual other taxes: social security, educational insurance, and ITBMS headline.
+- [src-447] PwC Panama individual tax administration.
+- [src-448] PwC Panama corporate other taxes: ITBMS/export context.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -227,8 +262,9 @@ _(none yet)_
 ### 7e. Not found
 - Official Panama / consular country table showing the current Ukraine-specific entry rule and exact visa-free duration remains useful before travel; `vq-062` is closed for screening to the tourist-status-is-not-residence baseline.
 - Confirmed country list / lawyer opinion for whether Ukrainians can use friendly-countries residence and whether foreign-professional residence fits a foreign-client IT worker; the screening baseline is negative/unknown until proven.
+- Panama tax-source classification for foreign-client IT performed physically from Panama, plus DGI/RUC registration, CSS/education-tax, ITBMS/export-service, and residence-file compatibility; `vq-112` tracks this as an application-prep gap.
 - Route-specific remote-worker dependent checklist; the screening baseline is marriage for any later ordinary dependent file and no confirmed unmarried-partner route.
 
 ## Block 8 - Open questions and verification markers
 
-_(none for current screening depth; Ukraine-specific entry duration can be rechecked before travel.)
+- `vq-112`: DGI/accountant confirmation of foreign-client IT source classification, registration/RUC, CSS/education-tax, ITBMS/export-service handling, and immigration-file compatibility. For screening, use the zero-PIT territorial baseline only as a provisional upside case and preserve the Panama-source PIT / employee-style contribution downside sensitivities.
