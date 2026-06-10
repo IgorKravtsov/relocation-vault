@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-10
 ---
 
+## 2026-06-10 — run-089
+- Paraguay: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative foreign-client IT tax screen.
+- Added Paraguay tax / FX sources `src-437` through `src-443` and claims `claim-paraguay-007` through `claim-paraguay-011`.
+- Main finding: at USD 3,000/month (about PYG 18.46m), PIT-only leaves about PYG 16.78m / USD 2,727; a 9% employee-style social-security stress test leaves about USD 2,484 before accountant/VAT/immigration costs.
+- Added `vq-111` for DNIT/RUC category, IPS/private social-security treatment, VAT/place-of-supply, and lawful-activity residence compatibility; queue 6 -> 7, below the active verification threshold.
+
 ## 2026-06-10 — run-088
 - Uruguay: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative self-employed IRPF screen.
 - Added Uruguay tax / FX sources `src-430` through `src-436` and claims `claim-uruguay-007` through `claim-uruguay-011`.

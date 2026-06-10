@@ -5251,3 +5251,87 @@ Each source entry:
 - **Facts supporting**: run-088 USD/UYU conversion for the Uruguay USD 3,000/month tax worked example: USD 1 = UYU 40.474288 (claim-uruguay-010)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-10
+
+## src-437
+- **Title**: PwC Worldwide Tax Summaries — Paraguay, Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/paraguay/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-07
+- **Date accessed**: 2026-06-10
+- **Used by**: Paraguay
+- **Facts supporting**: Paraguay PIT source scope, personal-service income inclusion, progressive 8%/9%/10% personal-service income brackets, PYG 80m gross-income no-tax threshold, and 8% capital-gains baseline (claim-paraguay-008, claim-paraguay-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-07
+
+## src-438
+- **Title**: PwC Worldwide Tax Summaries — Paraguay, Individual: Residence
+- **URL**: https://taxsummaries.pwc.com/paraguay/individual/residence
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-07
+- **Date accessed**: 2026-06-10
+- **Used by**: Paraguay
+- **Facts supporting**: Paraguay tax-residence rule: more than 120 days in a year in Paraguay (claim-paraguay-007)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-07
+
+## src-439
+- **Title**: PwC Worldwide Tax Summaries — Paraguay, Individual: Deductions
+- **URL**: https://taxsummaries.pwc.com/paraguay/individual/deductions
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-07
+- **Date accessed**: 2026-06-10
+- **Used by**: Paraguay
+- **Facts supporting**: Paraguay deductible expense context for personal-service taxpayers, including local personal/family expenses, health/education expenses, and independent personal-service provider private social-security contributions (claim-paraguay-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-07
+
+## src-440
+- **Title**: PwC Worldwide Tax Summaries — Paraguay, Individual: Other taxes
+- **URL**: https://taxsummaries.pwc.com/paraguay/individual/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-07
+- **Date accessed**: 2026-06-10
+- **Used by**: Paraguay
+- **Facts supporting**: Paraguay social-security context: employer registration framework, commercial-entity employee 9% and employer 16.5% rates, and optional contribution caveat for some independent positions (claim-paraguay-009, claim-paraguay-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-07
+
+## src-441
+- **Title**: PwC Worldwide Tax Summaries — Paraguay, Individual: Tax administration
+- **URL**: https://taxsummaries.pwc.com/paraguay/individual/tax-administration
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-07
+- **Date accessed**: 2026-06-10
+- **Used by**: Paraguay
+- **Facts supporting**: Paraguay calendar-year taxable period, March PIT return deadline, and payment due with the return according to taxpayer-ID schedule
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-07
+
+## src-442
+- **Title**: PwC Worldwide Tax Summaries — Paraguay, Corporate: Other taxes
+- **URL**: https://taxsummaries.pwc.com/paraguay/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-07
+- **Date accessed**: 2026-06-10
+- **Used by**: Paraguay
+- **Facts supporting**: Paraguay VAT context for corporations and individuals/associations rendering personal services, 10% general VAT rate, 5% reduced-rate categories, and duplicate social-security context for employee/employer rates (claim-paraguay-009, claim-paraguay-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-07
+
+## src-443
+- **Title**: ExchangeRate-API open rates — USD to PYG snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: not captured; API snapshot]
+- **Type**: commercial
+- **Date published**: 2026-06-10T00:02:31Z
+- **Date accessed**: 2026-06-10
+- **Used by**: Paraguay
+- **Facts supporting**: run-089 USD/PYG conversion for the Paraguay USD 3,000/month tax worked example: USD 1 = PYG 6,152.887361 (claim-paraguay-011)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-10

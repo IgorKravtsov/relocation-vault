@@ -51,3 +51,48 @@
   confidence: medium
   tags: [climate, temperature, asuncion, ciudad-del-este, encarnacion]
   notes: "Converted from WeatherSpark Fahrenheit tables with Python during run-036."
+
+- id: claim-paraguay-007
+  topic: tax_residence_threshold
+  value: "An individual is deemed tax-resident in Paraguay if one spends more than 120 days in a year in the country."
+  source: src-438
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, residence, paraguay]
+  notes: "Use this as the conservative baseline for a couple living in Paraguay under a residence file."
+
+- id: claim-paraguay-008
+  topic: pit_personal_services_rates
+  value: "Paraguay personal-service income PIT uses progressive rates on net income: 8% up to PYG 50m, 9% from PYG 50,000,001 to PYG 150m, and 10% from PYG 150,000,001 upward; gross personal-service income not exceeding PYG 80m is not required to pay PIT."
+  source: src-437
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, pit, personal-services, paraguay]
+  notes: "The couple's USD 36,000/year screen is above the PYG 80m threshold at the run-089 FX snapshot."
+
+- id: claim-paraguay-009
+  topic: social_security_context
+  value: "PwC describes Paraguay social security mainly through employer registration, with commercial-entity employee contributions at 9% and employer contributions at 16.5%; some independent positions have optional social-security contribution treatment."
+  source: src-440
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, social-security, ips, paraguay]
+  notes: "This supports only a downside sensitivity; it does not prove the exact IPS/self-employed category for a foreign-client IT contractor."
+
+- id: claim-paraguay-010
+  topic: pit_deductions_context
+  value: "Paraguay PIT deductions can include certain local personal/family expenses, health and education expenses, and contributions by independent personal-service providers to a private social-security system approved by law."
+  source: src-439
+  date_verified: 2026-06-10
+  confidence: medium-high
+  tags: [tax, deductions, paraguay]
+  notes: "The run-089 screening example does not assume optimized deductions beyond rate-bracket mechanics."
+
+- id: claim-paraguay-011
+  topic: tax_worked_example_usd_3000
+  value: "At USD 3,000/month and USD 1 = PYG 6,152.887361, Paraguay PIT-only screening net is about PYG 16.78m/month (USD 2,727); an employee-style 9% social-security sensitivity leaves about PYG 15.28m/month (USD 2,484), before accountant/VAT/immigration costs."
+  source: src-443
+  date_verified: 2026-06-10
+  confidence: medium
+  tags: [tax, worked-example, usd-3000, paraguay]
+  notes: "Calculation also uses PIT brackets from src-437 and the social-security sensitivity from src-440; VAT/place-of-supply remains unresolved in vq-111."

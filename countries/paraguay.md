@@ -1,14 +1,14 @@
 ---
 country: Paraguay
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-03T00:00:00Z
+depth_score: 2.0
+last_updated: 2026-06-10T11:33:02Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers"]
-sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers", "paraguay-foreign-client-vat-fit-gap", "paraguay-social-security-category-gap"]
+sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-437", "src-438", "src-439", "src-440", "src-441", "src-442", "src-443"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests a potentially useful long-term route because Paraguay has a normal temporary residence -> permanent residence ladder and the Constitution gives a 3-year naturalization baseline, but the captured official route is generic "lawful activity" residence rather than a digital-nomad visa. [src-191][src-192][src-193]
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-03T00:00:00Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-10T11:33:02Z
 - **Tier rationale**: keep as Tier-2 hint until the visa-for-residence filing route, foreign-client IT income evidence, taxes, cost, rent, healthcare, and practical lawyer/accountant mechanics are checked.
 
 ## Block 2 - Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | Ukrainian tourist entry is visa-free for up to 90 days, but the same visa table says residence / lucrative activity requires a visa; temporary residence can run up to 2+2 years and is prerequisite to permanent residence. | §5.1 |
 | Climate | — | medium | Warm subtropical climate with mild winters, no long cold season, and decent clearer-sky proxies; major caveat is very hot, humid summer and heavy rain, especially east/south. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | First-pass PwC/FX screen: at USD 3,000/month (about PYG 18.46m), PIT-only net is about PYG 16.78m / USD 2,727 before accountant/VAT/residence costs; employee-style social-security sensitivity lowers this to about USD 2,484. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -98,9 +98,46 @@ Paraguay has a subtropical climate: very mild winters, hot summers, rapid temper
 
 **Household comfort verdict**: climate fit is mixed-positive. Paraguay clearly avoids a long cold winter and has many usable brighter days, but summer heat/humidity is a major comfort risk for the couple. Asuncion is practical but hot; Encarnacion may be the softer climate compromise; Ciudad del Este is useful for cross-border commerce but wetter. [src-194][src-195]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-10, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This is a first-pass screening model for a foreign-client IT worker, not filing advice. It covers tax residence, territorial/source scope, progressive PIT on personal-service income, deductions, social-security/VAT context, return timing, and a worked USD 3,000/month example. It remains partial until a Paraguayan accountant / DNIT or IPS guidance confirms the exact self-employed registration category, whether foreign-client IT services are Paraguayan-source and VAT-taxable, whether IPS or another social-security/private-pension route applies, and how the tax file aligns with the lawful-activity residence application. `vq-111` tracks this.
+
+#### Core tax-residence and source baseline
+
+- **Tax residence**: PwC states that an individual is deemed tax-resident in Paraguay after spending **more than 120 days** in the country in a year. For a couple trying to build a residence file, assume the working partner becomes Paraguayan tax-resident once living there rather than relying on non-resident treatment. [src-438]
+- **Territorial/source scope**: PwC describes PIT as applying to Paraguayan-source income and includes income from provision of personal services. It also says Paraguayan-source income includes activities carried out in Paraguay, and remuneration for services performed outside Paraguay by Paraguayan taxpayers when provided to IRE or IRP taxpayers. For the couple, the conservative screen should not assume that foreign-client IT work performed while living in Paraguay is tax-free; accountant confirmation is needed for source/place-of-performance treatment. [src-437]
+
+#### PIT for a USD 3,000/month IT worker
+
+- **Rates**: personal-service income uses progressive rates on net income: **8%** up to PYG 50m, **9%** from PYG 50,000,001 to PYG 150m, and **10%** from PYG 150,000,001 upward. If gross personal-service income does not exceed PYG 80m, no tax is required; the couple's USD 36,000/year screen is above that threshold at the run-089 FX snapshot. Capital gains are taxed separately at 8%. [src-437]
+- **Deductions**: PwC lists several deductible expense categories, including necessary travel/similar employment expenses, local personal/family expenses for food, clothing, housing lease/maintenance, furniture/appliances, local recreation, health/education expenses in Paraguay or abroad, and contributions by independent personal-service providers to a private social-security system approved by law. This can materially reduce the final PIT, but the screening model below is deliberately conservative and does not assume optimized deductions beyond the rate brackets. [src-439]
+- **Return timing**: tax liability closes with the calendar year; the PIT return and payment are due in March, with the exact due date tied to the taxpayer ID. [src-441]
+
+#### Social security, VAT, and registration caveats
+
+- **Social security**: PwC's individual and corporate summaries describe compulsory social security mainly through employer registration: commercial-entity employee rate **9%** and employer rate **16.5%**; for some independent positions such as administrators/directors/managers, contribution is optional. This does **not** prove the exact IPS/self-employed rule for a solo foreign-client IT contractor, so the 9% employee figure below is only a downside sensitivity, not the default model. [src-440][src-442]
+- **VAT**: PwC's corporate VAT page says VAT applies to corporations and to individuals/associations rendering personal services; the general rate is **10%**, with certain 5% reduced-rate categories. It does not settle whether exported foreign-client IT services by a resident individual are zero-rated, outside scope, reverse-charged, or locally VAT-taxable. Treat VAT/place-of-supply as the main Paraguay tax blocker before filing. [src-442]
+- **Registration route**: this pass did not capture DNIT/RUC registration steps for a foreign self-employed IT worker. For screening, assume local accountant support is needed before invoicing because the immigration file already depends on proving lawful professional activity. [src-191][src-441]
+
+#### Worked screening example at USD 3,000/month
+
+Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361**, so USD 3,000/month is about **PYG 18,458,662/month** or **PYG 221,503,945/year**. [src-443]
+
+| Scenario | Monthly gross | PIT / contributions model | Estimated monthly net | Interpretation |
+|---|---:|---|---:|---|
+| PIT-only, no optimized deductions | PYG 18.46m | Progressive PIT on full annual gross: about PYG 20.15m/year / PYG 1.68m/month | **PYG 16.78m / USD 2,727** | Conservative first-pass tax screen before accountant, VAT, private insurance, and immigration costs. [src-437][src-443] |
+| Employee-style 9% social-security stress test | PYG 18.46m | 9% employee-style contribution plus PIT on remaining base | **PYG 15.28m / USD 2,484** | Downside sensitivity only; not proof that a self-employed IT contractor owes IPS at this rate. [src-440][src-443] |
+| VAT-output stress test | PYG 18.46m | If 10% VAT is economically borne by the worker, PIT-only net would fall by another about PYG 1.85m/month | **about USD 2,427 PIT-only; USD 2,184 with 9% social-security sensitivity** | Not a final tax result; it shows why VAT/export-service classification must be checked before scoring §5.3 passed. [src-442][src-443] |
+
+#### Marriage / one-income effect
+
+- This pass did not capture a Paraguay joint-filing or spouse allowance mechanism comparable to some European systems. PwC deductions mention dependent-family expenses, but not a complete family-unit tax computation. For screening, do not assume marriage improves PIT materially; its stronger effect remains immigration-documentary clarity. [src-439]
+
+#### Current verdict for the couple
+
+- Paraguay taxes screen **potentially workable** on income alone: the PIT-only model leaves roughly USD 2,727/month before housing, healthcare, accountant, VAT, and immigration costs.
+- The two decisive caveats are not the headline PIT rate; they are (1) whether the lawful-activity residence file and DNIT/RUC category cleanly accept a Ukrainian foreign-client IT contractor, and (2) VAT/IPS/private social-security treatment.
+- Keep §5.3 partial and do not score Paraguay's taxes as passed until `vq-111` is resolved by DNIT/IPS guidance or a Paraguayan accountant.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -222,7 +259,12 @@ Paraguay has a subtropical climate: very mild winters, hot summers, rapid temper
 - [src-196] Paraguay Investor Pass announcement (not a couple baseline; high-capital route only).
 
 ### 7b. Reputable secondary
-_(none yet)_
+- [src-437] PwC Paraguay individual taxes on personal income.
+- [src-438] PwC Paraguay individual residence.
+- [src-439] PwC Paraguay individual deductions.
+- [src-440] PwC Paraguay individual other taxes.
+- [src-441] PwC Paraguay individual tax administration.
+- [src-442] PwC Paraguay corporate other taxes / VAT and social-security context.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -230,13 +272,15 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - [src-194] Climate to Travel Paraguay climate overview.
 - [src-195] WeatherSpark Paraguay country climate comparison.
+- [src-443] ExchangeRate-API USD/PYG snapshot.
 
 ### 7e. Not found
 - Detailed consular appointment/payment workflow and whether any exception permits tourist-entry-to-residence conversion for Ukrainian applicants; the screening baseline is to assume a residence / lucrative-activity visa is required.
-- Tax-registration/accountant mechanics and a worked lawful-activity package for foreign-client IT contractors.
+- Tax-registration/accountant mechanics and a worked lawful-activity package for foreign-client IT contractors; `vq-111` now tracks DNIT/RUC, IPS/private social-security, VAT/place-of-supply, and residence-file compatibility.
 - Detailed family/dependent filing checklist; the screening baseline is marriage or separate eligibility.
 - Direct official sunny-day counts; WeatherSpark clearer-sky proxies are used at medium confidence.
 
 ## Block 8 - Open questions and verification markers
 
-_(none for sections 5.1/5.2 after `vq-060` and `vq-061` operational-core closures; tax, family application details, and costs remain for later section passes.)_
+- `vq-111`: Paraguay foreign-client IT tax structure: DNIT/RUC category, IPS/private social-security treatment, VAT/place-of-supply/export-service classification, and compatibility with the lawful-activity temporary-residence file.
+- Family application details, cost/rent/healthcare/education, and lawyer/accountant contacts remain for later section passes.

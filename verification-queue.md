@@ -194,6 +194,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-10 (run-088)
 - **Status**: pending
 
+## vq-111 [medium priority]
+- **Fact**: "Paraguay foreign-client IT tax structure: exact DNIT/RUC self-employed category, IPS or private social-security treatment, VAT/place-of-supply or export-service handling, and compatibility with the lawful-activity temporary-residence file"
+- **Country**: Paraguay
+- **Section**: 5.3
+- **Current source**: src-437, src-438, src-439, src-440, src-441, src-442, src-443
+- **Why uncertain**: This tax pass captured tax residence, Paraguayan-source PIT scope, progressive personal-service PIT rates, deductions, employee-style social-security context, VAT headline context, return timing, and USD 3,000/month screening calculations, but did not prove the exact DNIT/RUC category, whether foreign-client IT performed from Paraguay is VAT-taxable or export/zero-rated, whether IPS/private social-security applies, or whether the tax structure matches the temporary-residence lawful-activity file.
+- **Suggested verification**: DNIT/RUC and IPS guidance or Paraguayan accountant confirmation for independent IT services exported to foreign clients, including VAT place-of-supply/export status, social-security/private-pension treatment, and migration-lawful-activity evidence alignment.
+- **Created**: 2026-06-10 (run-089)
+- **Status**: pending
+
 ## vq-109 [medium priority]
 - **Fact**: "Moldova foreign-client IT tax structure: exact registration category (individual entrepreneur, professional activity, company, or foreign-contract DN), fixed versus employee-style SSC/health contribution treatment, VAT/place-of-supply or export-service reporting, and compatibility with the digital-nomad / provisional-stay route"
 - **Country**: Moldova
