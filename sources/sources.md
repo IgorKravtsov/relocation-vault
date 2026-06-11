@@ -5855,3 +5855,63 @@ Each source entry:
 - **Facts supporting**: run-098 USD/KZT conversion for the Kazakhstan USD 3,000/month tax worked example: USD 1 = KZT 488.182834 (claim-kazakhstan-010)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-11
+
+## src-487
+- **Title**: PwC Worldwide Tax Summaries — Armenia Individual: Taxes on personal income / Residence
+- **URL**: https://taxsummaries.pwc.com/armenia/individual/taxes-on-personal-income ; https://taxsummaries.pwc.com/armenia/individual/residence
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-05
+- **Date accessed**: 2026-06-11
+- **Used by**: Armenia
+- **Facts supporting**: Armenian resident worldwide-income baseline, non-resident Armenian-source baseline, 183-day / centre-of-vital-interest tax-residence tests, and conservative 20% income-tax stress-test context (claim-armenia-006, claim-armenia-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-05
+
+## src-488
+- **Title**: PwC Worldwide Tax Summaries — Armenia Individual: Income determination
+- **URL**: https://taxsummaries.pwc.com/armenia/individual/income-determination
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-05
+- **Date accessed**: 2026-06-11
+- **Used by**: Armenia
+- **Facts supporting**: Armenian resident income scope including income received or credited in Armenia or abroad and business-activity income category (claim-armenia-007)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-05
+
+## src-489
+- **Title**: PwC Worldwide Tax Summaries — Armenia Individual: Other taxes / Tax administration / Deductions / Incentives
+- **URL**: https://taxsummaries.pwc.com/armenia/individual/other-taxes ; https://taxsummaries.pwc.com/armenia/individual/tax-administration ; https://taxsummaries.pwc.com/armenia/individual/deductions ; https://taxsummaries.pwc.com/armenia/individual/other-tax-credits-and-incentives
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-05
+- **Date accessed**: 2026-06-11
+- **Used by**: Armenia
+- **Facts supporting**: entrepreneur funded-pension formulas, mandatory health-insurance contribution, 20% VAT headline on individual page, personal tax declaration timing, no significant individual incentives, and worked-example contribution inputs (claim-armenia-008, claim-armenia-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-05
+
+## src-490
+- **Title**: PwC Worldwide Tax Summaries — Armenia Corporate: Other taxes / VAT and turnover tax
+- **URL**: https://taxsummaries.pwc.com/armenia/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-05
+- **Date accessed**: 2026-06-11
+- **Used by**: Armenia
+- **Facts supporting**: 20% VAT, export-services zero-rating context, reverse-charge VAT context, AMD 115m SME turnover-tax threshold, 1% rate for government-listed high-tech activities, and quarterly turnover-tax filing timing (claim-armenia-009)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-05
+
+## src-491
+- **Title**: e-register Armenia digital-services portal / ExchangeRate-API USD to AMD snapshot
+- **URL**: https://www.e-register.am/en/ ; https://open.er-api.com/v6/latest/USD
+- **Archive**: [stable government portal / API snapshot; direct extraction used]
+- **Type**: official-primary / commercial
+- **Date published**: e-register page no date captured; FX time_last_update_utc 2026-06-11T00:02:31Z
+- **Date accessed**: 2026-06-11
+- **Used by**: Armenia
+- **Facts supporting**: official digital-services portal entry point for sole-proprietor and LLC registration categories, plus run-099 USD/AMD conversion for the Armenia USD 3,000/month tax worked example: USD 1 = AMD 368.343288 (claim-armenia-010)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-11

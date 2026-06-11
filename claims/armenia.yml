@@ -42,3 +42,48 @@
   confidence: medium
   tags: [climate, yerevan, gyumri, sevan, clearer-sky-proxy]
   notes: "Climate to Travel source src-277 supports the country climate zones, city temperatures, sunshine hours, and comfort caveats; WeatherSpark source src-278 supports Yerevan/Gyumri clear-sky proxies and low muggy-day burden."
+
+- id: claim-armenia-006
+  topic: armenia_tax_residence_scope
+  value: "PwC Armenia says residents are taxed on worldwide income and non-residents only on Armenian-source income; individuals are tax resident if physically present in Armenia for 183+ days in the calendar tax year, have their centre of vital interests in Armenia, or are in Armenian civil service."
+  source: src-487
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax-residence, worldwide-income, 183-days]
+  notes: "Use for screening only; centre-of-vital-interest analysis needs adviser review if the couple keeps strong Poland/Ukraine ties."
+
+- id: claim-armenia-007
+  topic: armenia_business_income_scope
+  value: "PwC Armenia says resident taxpayers are liable on income received or credited in Armenia or abroad and lists income from business activity among taxable income categories."
+  source: src-488
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [business-income, foreign-client-it, worldwide-income]
+  notes: "Exact classification of foreign-client IT income as individual-entrepreneur, LLC, or another category remains unverified."
+
+- id: claim-armenia-008
+  topic: armenia_entrepreneur_contributions
+  value: "PwC Armenia says individual entrepreneurs born after 1 January 1974 participate in funded pension contributions; if annual gross/basic income exceeds AMD 6m, the annual entrepreneur social payment is 10% of income minus AMD 300,000, and entrepreneurs above AMD 2,400,001 annual gross income owe AMD 129,600/year mandatory health insurance for tax year 2025."
+  source: src-489
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [social-contributions, health-insurance, individual-entrepreneur]
+  notes: "Formula wording should be confirmed with an Armenian accountant for 2026 filing and for the exact IT activity category."
+
+- id: claim-armenia-009
+  topic: armenia_vat_turnover_tax_context
+  value: "PwC Armenia says standard VAT is 20%, exported goods and services are generally zero-rated, many data-processing and related services are zero-rated if the receiver is outside Armenia, and turnover tax can replace VAT for SMEs under the AMD 115m threshold with a 1% rate for government-listed high-tech activities."
+  source: src-490
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [vat, turnover-tax, export-services, high-tech]
+  notes: "Do not assume the 1% high-tech turnover-tax route for this couple until State Revenue Committee / accountant evidence confirms activity-code eligibility and immigration-status compatibility."
+
+- id: claim-armenia-010
+  topic: armenia_usd3000_tax_screen
+  value: "At run-099 FX of USD 1 = AMD 368.343288, USD 3,000/month is about AMD 1,105,030/month; a conservative 20% income-tax plus entrepreneur pension and health contribution stress test leaves about AMD 787,721/month, or about USD 2,139, before VAT/accountant/immigration costs."
+  source: src-491
+  date_verified: 2026-06-11
+  confidence: medium
+  tags: [worked-example, usd3000, net-income, tax-screen]
+  notes: "Inputs also cite src-487 and src-489. A favorable high-tech/turnover-tax sensitivity could be materially better but is not the default screening baseline."

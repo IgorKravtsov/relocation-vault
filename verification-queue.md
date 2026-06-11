@@ -758,6 +758,17 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolved**: 2026-05-27 (run-015)
 - **Resolution note**: OUG 194/2002 Art. 62 defines family reunification beneficiaries as spouse and minor children; unmarried partners are not explicitly covered. Conservative operational baseline: marriage or independent eligibility (e.g., DN visa) is required for the partner to obtain derived/family residence in Romania. [src-068]
 
+
+## vq-119 [medium priority]
+- **Fact**: "Armenia foreign-client IT tax structure: exact individual-entrepreneur vs LLC category, high-tech / turnover-tax eligibility, VAT export-service treatment, funded-pension and health contribution base, and compatibility with business-activity residence"
+- **Country**: Armenia
+- **Section**: 5.3
+- **Current source**: src-275, src-487, src-488, src-489, src-490, src-491
+- **Why uncertain**: This tax pass captured Armenian tax residence, worldwide-income scope, business-income inclusion, entrepreneur contribution formulas, VAT / export-service and turnover-tax context, a government e-register portal anchor, and a USD 3,000/month conservative worked example, but did not prove the exact State Revenue Committee treatment for a Ukrainian foreign-client IT worker using business-activity residence.
+- **Suggested verification**: State Revenue Committee guidance or Armenian accountant / immigration-lawyer confirmation for IE vs LLC category, high-tech / turnover-tax activity-code eligibility, exported-service VAT zero-rating, pension/health contribution base, and business-residence renewal compatibility.
+- **Created**: 2026-06-11 (run-099)
+- **Status**: pending
+
 ## Recently resolved (last 10)
 - `vq-109` — 2026-06-10 (run-087)
 - `vq-108` — 2026-06-10 (run-087)

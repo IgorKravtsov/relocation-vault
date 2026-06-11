@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-11
 ---
 
+## 2026-06-11 — run-099
+- Armenia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative ordinary income-tax plus entrepreneur-contribution screen.
+- Added Armenia tax / VAT / registration / FX sources `src-487` through `src-491` and claims `claim-armenia-006` through `claim-armenia-010`.
+- Main finding: at USD 3,000/month (about AMD 1.105m/month), conservative 20% income tax plus entrepreneur pension/health contributions leaves about AMD 787,721 / USD 2,139 before accountant, VAT, immigration, healthcare, and living costs.
+- Added `vq-119` for IE/LLC category, high-tech / turnover-tax eligibility, VAT export-service treatment, contribution base, and residence compatibility; queue 9 -> 10, meeting the active verification threshold.
+
 ## 2026-06-11 — run-098
 - Kazakhstan: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative PIT-only screen.
 - Added Kazakhstan tax / registration / FX sources `src-482` through `src-486` and claims `claim-kazakhstan-006` through `claim-kazakhstan-010`.

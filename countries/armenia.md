@@ -1,14 +1,14 @@
 ---
 country: Armenia
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-06T19:13:35Z
+depth_score: 2.0
+last_updated: 2026-06-11T18:48:17Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers"]
-sources_used: [src-274, src-275, src-276, src-277, src-278]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers", "armenia-foreign-client-it-tax-fit-gap"]
+sources_used: [src-274, src-275, src-276, src-277, src-278, src-487, src-488, src-489, src-490, src-491]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint). Armenia is easy for Ukrainian short entry and has official temporary/permanent residence categories, including business activity, but this first pass did not capture a dedicated digital-nomad route or a low-documentation foreign-client IT pathway. Long-term potential depends on whether the working partner can run a real Armenian business / individual-entrepreneur file that renews cleanly and supports later permanent residence and citizenship. [src-274][src-275][src-276]
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-06
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-11
 - **Tier rationale**: Not assigned yet; the current file is a first-pass legalization and climate baseline.
 
 ## Block 2 — Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | Visa-free short entry and ordinary temporary/permanent residence exist; foreign-client IT and partner baselines are conservative, with exact application mechanics still needing later deep-dive. | §5.1 |
 | Climate | — | medium | Sunny and dry in summer with low muggy burden, but Yerevan summers are very hot and much of the country has cold winters. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | Conservative first-pass: ordinary 20% income-tax plus entrepreneur pension/health contribution sensitivity leaves about AMD 787,721 / USD 2,139 per month at USD 3,000 gross; a favorable high-tech turnover-tax interpretation is not assumed. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -88,9 +88,42 @@ Armenia is continental and altitude-sensitive. Climate to Travel describes much 
 
 WeatherSpark country data also shows almost no muggy days for Yerevan or Gyumri, so humidity is not the main problem; the main climate trade-off is **hot, dry Yerevan summers vs cold inland/highland winters**. The best practical baseline is Yerevan or lower-altitude towns for services and winter moderation, with summer escapes to Sevan / higher elevations if heat is uncomfortable. [src-277][src-278]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-[verification required]
+> **DoD status**: first-pass tax baseline only. PwC Armenia gives a 2026 resident worldwide-income baseline, 183-day / centre-of-vital-interest residence tests, business-income inclusion, filing mechanics, individual-entrepreneur pension and health contribution rules, VAT / turnover-tax context, and no significant individual incentives. This is enough for a conservative screening calculation, but not filing advice. Missing: State Revenue Committee / Armenian accountant confirmation of the exact individual-entrepreneur or company route for foreign-client IT, whether the high-tech turnover-tax 1% category can apply, VAT zero-rating / place-of-supply treatment for exported IT services, and immigration-status compatibility.
+
+#### Tax residence and scope
+
+PwC classifies individuals as residents taxable on worldwide income and non-residents taxable only on Armenian-source income. Individual tax residence arises if the person is physically present in Armenia for 183 days or more during the calendar tax year, has a centre of vital interests in Armenia, or is in Armenian civil service. Resident taxpayers are liable on income received or credited in Armenia or abroad, and listed income categories include salaries, business activity, interest, leases, and royalties. [src-487][src-488]
+
+#### Rates and regimes relevant to foreign-client IT
+
+- **Conservative ordinary baseline**: PwC states that other income paid by a tax agent is generally withheld at a flat 20% and that undocumented purchases from individuals can trigger 20% withholding. For a foreign-client IT worker, use 20% income tax as the safe screening stress test unless an Armenian accountant confirms a more precise individual-entrepreneur regime. [src-487][src-489]
+- **Individual entrepreneur contributions**: PwC says foreign citizens born after 1 January 1974 are within the mandatory funded-pension system, and individual entrepreneurs participate under formulas tied to annual gross/basic income: if basic annual income does not exceed AMD 6m, monthly social payment is 5% of gross income; if annual gross income exceeds AMD 6m, the annual payment is 10% of income minus AMD 300,000. Entrepreneurs whose annual gross income for tax year 2025 exceeds AMD 2,400,001 also owe mandatory health insurance of AMD 129,600/year. [src-489]
+- **VAT / turnover-tax context**: Armenia's standard VAT is 20%. PwC says exported goods and services are generally zero-rated, and advertising, consulting, marketing, design, engineering, legal, accounting, audit, data-processing, and related services are zero-rated if the receiver is outside Armenia. It also says turnover tax can replace VAT for SMEs under a prior-year income threshold of AMD 115m, with a 1% rate for income from government-listed high-tech activities, but the exact fit for a foreign-client IT individual entrepreneur is unconfirmed. [src-490]
+- **Registration anchor**: Armenia's e-register portal exposes a government digital-services entry point for state registration of a sole proprietor and LLC registration. The detailed sole-proprietor service page was Radware/CAPTCHA-blocked in this pass, so use it only as the official portal anchor, not as a captured checklist. [src-491]
+
+#### Worked example at USD 3,000/month
+
+Run-099 FX snapshot: USD 1 = AMD 368.343288, so USD 3,000/month is about **AMD 1,105,030/month**. Conservative ordinary-resident / individual-entrepreneur stress test:
+
+| Component | Monthly AMD | Notes |
+|---|---:|---|
+| Gross revenue | 1,105,030 | USD 3,000 converted at run-099 FX. [src-491] |
+| 20% income-tax stress test | -221,006 | Conservative ordinary baseline; exact IE tax regime unconfirmed. [src-487] |
+| Entrepreneur pension formula | -85,503 | Annual income exceeds AMD 6m, so modelled as (10% of annual income - AMD 300,000) / 12. [src-489] |
+| Entrepreneur health contribution | -10,800 | AMD 129,600/year / 12 because annual income exceeds AMD 2,400,001. [src-489] |
+| **Estimated net before VAT/accountant/immigration costs** | **787,721** | About **USD 2,139/month**. |
+
+A more favorable scenario may exist if the working partner can register a qualifying Armenian high-tech / turnover-tax file and zero-rate exported services, but this pass does **not** assume that outcome. As a non-default sensitivity, 1% turnover-tax plus the captured entrepreneur pension/health contributions, without the 20% income-tax stress test, would leave about AMD 997,677 / USD 2,709/month; treat this as an upside to verify, not as the baseline. [src-489][src-490][src-491]
+
+#### Filing, incentives, and marriage effect
+
+Individuals with income not taxed at Armenian source must file a personal tax declaration; PwC states the declaration for calendar-year 2025 is due by 1 November 2026, and from 2027 the filing period is 2 March to 1 July of the following year. Tax due under personal declarations is paid by 1 November. PwC lists no other significant individual tax credits or incentives for Armenia. No captured joint-filing or spouse-rate benefit changes the screening model; treat marriage as an immigration/dependency tool first, not a tax optimization. [src-489]
+
+#### Screening conclusion for the couple
+
+Taxes are not the first Armenia blocker, but the tax/residence file is not yet filing-ready. Under the conservative 20% income-tax plus entrepreneur contribution stress test, USD 3,000 gross leaves roughly USD 2,139/month before accountant, VAT compliance, residence costs, healthcare, rent, and banking friction. Armenia remains a possible ordinary-business/IE route, not a proven DN-style low-tax route, until `vq-119` confirms the exact foreign-client IT tax category, high-tech/turnover eligibility, VAT export treatment, and residence-file compatibility.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -189,13 +222,16 @@ WeatherSpark country data also shows almost no muggy days for Yerevan or Gyumri,
 | Permanent resident card | AMD 140,000 | Later-stage fee. [src-275] |
 | Passport translation / medical certificate | TBD | Required document categories; costs not captured. |
 | Flights and first housing deposit | TBD | To be covered in cost/rent pass. |
-| Business/tax setup | TBD | Needs Armenia tax pass. |
+| Business/tax setup | TBD | Tax pass now has a conservative AMD 787,721 / USD 2,139 monthly net screen, but setup/accountant/VAT costs remain uncaptured. [src-487][src-489][src-490] |
 | Buffer / contingencies | TBD | Keep larger buffer until route proof is verified. |
 
 ### 6g. Contact points and communities
 - Migration and Citizenship Service, Department for Determination of the Legal Status of Foreigners, 14 Tairov Street, Yerevan. [src-275]
 - Citizenship electronic system from 2026: `mcs-citizenship.am`; MCS contacts listed by MFA: `mcs@gov.am`, `citizenship@e-gov.am`, +374 10 300159. [src-276]
 - Lawyers / diaspora communities: [verification required]
+
+### 6h. Tax setup checkpoint
+- Before relying on Armenia, ask an Armenian accountant to map the exact foreign-client IT file: individual entrepreneur vs LLC, high-tech / turnover-tax eligibility, exported-service VAT zero-rating, pension/health contributions, and whether the structure supports the business-activity residence card. [src-487][src-489][src-490][src-491]
 
 ## Block 7 — Sources
 
@@ -205,7 +241,10 @@ WeatherSpark country data also shows almost no muggy days for Yerevan or Gyumri,
 - [src-276] Armenia MFA — Citizenship.
 
 ### 7b. Reputable secondary
-_(none yet)_
+- [src-487] PwC Armenia — individual personal-income tax and residence.
+- [src-488] PwC Armenia — individual income determination.
+- [src-489] PwC Armenia — deductions, other taxes, tax administration, and individual incentives.
+- [src-490] PwC Armenia — corporate other taxes / VAT and turnover-tax context.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -215,6 +254,8 @@ _(none yet)_
 - [src-278] WeatherSpark — Armenia country climate comparison for Yerevan and Gyumri.
 
 ### 7e. Not found
+- Detailed e-register sole-proprietor checklist: public portal captured, but the detailed service page was CAPTCHA/WAF-blocked in this pass.
+- State Revenue Committee / accountant confirmation for foreign-client IT individual-entrepreneur or LLC tax category, high-tech / turnover-tax eligibility, exported-service VAT treatment, and business-residence compatibility.
 - Official Armenia Ukraine-specific temporary-protection or post-2027 bridge; screening baseline is no reliance on one.
 - Official digital-nomad / remote-worker route; screening baseline is ordinary business activity, not DN.
 - Official business-activity residence checklist for foreign-client IT / individual entrepreneur; screening baseline is real-business substance.
@@ -225,3 +266,4 @@ _(none yet)_
 - `vq-086` resolved in run-061: no captured Ukraine-specific protection / humanitarian / post-2027 bridge; use ordinary Armenian status for screening. [src-274][src-275]
 - `vq-087` resolved in run-061: business activity is the conservative route, but treat foreign-client IT as a real-business IE/LLC file requiring adviser/application-prep confirmation, not as DN. [src-275]
 - `vq-088` resolved in run-061: spouse/parent/child wording supports marriage-first dependent planning; unmarried partner sponsorship is not captured. [src-275]
+- `vq-119` added in run-099: exact Armenia foreign-client IT tax structure, high-tech / turnover-tax eligibility, VAT export treatment, entrepreneur contributions, and business-residence compatibility. [src-487][src-489][src-490][src-491]

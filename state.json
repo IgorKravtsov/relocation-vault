@@ -1,25 +1,21 @@
 {
   "version": 2,
-  "iteration": 98,
+  "iteration": 99,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-11T15:38:28Z",
+  "last_run_timestamp": "2026-06-11T18:48:17Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Kazakhstan",
+    "country": "Armenia",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "country-deep-dive",
-    "suggested_country": "Armenia",
-    "suggested_sections": [
-      "5.3"
-    ],
-    "reason": "Verification queue remains below the active threshold; Armenia is the remaining depth-1.5 post-USSR profile with taxes still pending."
+    "suggested_mode": "verification",
+    "reason": "Pending/open verification queue reached the active threshold after Armenia vq-119; run a tax-fit verification batch next."
   },
   "countries": {
     "Spain": {
@@ -1012,15 +1008,15 @@
     "Armenia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -1034,14 +1030,15 @@
         "ordinary-business-residence-not-dn",
         "settlement-ladder-needs-business-substance",
         "partner-baseline-marriage",
-        "cold-winters-hot-yerevan-summers"
+        "cold-winters-hot-yerevan-summers",
+        "armenia-foreign-client-it-tax-fit-gap"
       ],
-      "last_iteration": 61,
-      "unverified_count": 0
+      "last_iteration": 99,
+      "unverified_count": 1
     }
   },
-  "verification_queue_size": 9,
-  "sources_count": 485,
-  "claims_count": 396,
+  "verification_queue_size": 10,
+  "sources_count": 490,
+  "claims_count": 401,
   "proposals_pending": 0
 }
