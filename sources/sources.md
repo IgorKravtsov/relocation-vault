@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-09
+last_updated: 2026-06-11
 ---
 
 # Sources Registry
@@ -5552,3 +5552,39 @@ Each source entry:
 - **Facts supporting**: run-092 USD/ARS conversion for the Argentina USD 3,000/month tax worked example: USD 1 = ARS 1,446.1668 (claim-argentina-011)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-10
+
+## src-462
+- **Title**: PwC Worldwide Tax Summaries — United Arab Emirates Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/united-arab-emirates/individual/taxes-on-personal-income
+- **Archive**: [archive: failed 2026-06-11]
+- **Type**: reputable-secondary
+- **Date published**: 2026-03-12
+- **Date accessed**: 2026-06-11
+- **Used by**: UAE
+- **Facts supporting**: no UAE PIT / no individual registration or reporting obligations; natural-person corporate-tax turnover trigger above AED 1,000,000 (claim-uae-007)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-12
+
+## src-463
+- **Title**: PwC Worldwide Tax Summaries — United Arab Emirates Individual: Residence
+- **URL**: https://taxsummaries.pwc.com/united-arab-emirates/individual/residence
+- **Archive**: [archive: failed 2026-06-11]
+- **Type**: reputable-secondary
+- **Date published**: 2026-03-12
+- **Date accessed**: 2026-06-11
+- **Used by**: UAE
+- **Facts supporting**: UAE individual tax-residence tests: centre of interests, 183-day test, and 90-day residence-permit / permanent-home / employment-business test (claim-uae-008)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-12
+
+## src-464
+- **Title**: PwC Worldwide Tax Summaries — United Arab Emirates Corporate: Other taxes
+- **URL**: https://taxsummaries.pwc.com/united-arab-emirates/corporate/other-taxes
+- **Archive**: [archive: failed 2026-06-11]
+- **Type**: reputable-secondary
+- **Date published**: 2026-03-12
+- **Date accessed**: 2026-06-11
+- **Used by**: UAE
+- **Facts supporting**: 5% VAT baseline, export-services zero-rating subject to conditions, AED 375,000 mandatory VAT-registration threshold, AED 187,500 voluntary threshold, and non-GCC nationals outside UAE social security (claim-uae-009)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-12

@@ -53,3 +53,30 @@
   confidence: medium
   tags: [climate, clear-sky, temperature, dubai, abu-dhabi, al-fujayrah, al-ain]
   notes: "Clearer-sky values are WeatherSpark day-equivalent proxies, not official sunny-day counts; Climate to Travel confirms Dubai's oppressive humid summer heat."
+
+- id: claim-uae-007
+  topic: no_pit_and_natural_person_ct_threshold
+  value: "PwC states that the UAE currently has no personal income tax and no individual tax registration or reporting obligations; natural persons conducting UAE business are subject to 9% corporate tax only where business turnover exceeds AED 1,000,000."
+  source: src-462
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax, pit, corporate-tax, natural-person, threshold]
+  notes: "At USD 3,000/month, annual gross is about AED 132,210, far below the natural-person corporate-tax turnover trigger."
+
+- id: claim-uae-008
+  topic: tax_residence_tests
+  value: "UAE tax residence for an individual can be met through usual residence / centre of interests, 183+ days in 12 months, or 90+ days plus UAE nationality/GCC nationality/UAE residence permit and a permanent UAE home or UAE employment/business."
+  source: src-463
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax, residence, tax-residence]
+  notes: "Tax residence does not create UAE PIT in the captured baseline, but it matters for certificates and treaty positioning."
+
+- id: claim-uae-009
+  topic: vat_and_social_security_thresholds
+  value: "PwC gives a 5% UAE VAT rate, AED 375,000 mandatory resident-business VAT registration threshold, AED 187,500 voluntary threshold, zero-rating for exported services subject to conditions, and says non-GCC nationals are not subject to UAE social security."
+  source: src-464
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax, vat, social-security, threshold, non-gcc]
+  notes: "At USD 36,000/year, the couple's gross is below the mandatory and voluntary VAT-registration thresholds; exact export-service treatment remains an accountant/application-prep check if a UAE invoicing structure is used."

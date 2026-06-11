@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-11
 ---
 
+## 2026-06-11 — run-094
+- UAE: depth_score 1.5 -> 2.5; section 5.3 taxes moved from pending to completed for country screening.
+- Added UAE tax sources `src-462` through `src-464` and claims `claim-uae-007` through `claim-uae-009`.
+- Main finding: at USD 3,000/month (about AED 132,210/year), UAE PIT is 0, non-GCC social security is 0, and the income is below natural-person corporate-tax and VAT thresholds; screening net is about USD 3,000/month before insurance, residence fees, accountant/banking, and living costs.
+- New flag: `tax-status-threshold-monitoring`; verification queue remains 5.
+
 ## 2026-06-11 — run-093
 - Verification mode: closed five recent Latin America §5.3 tax-fit queue items (`vq-110` through `vq-114`) to conservative screening baselines.
 - Countries touched: Uruguay, Paraguay, Panama, Mexico, and Argentina; depths unchanged, §5.3 remains partial in each profile.

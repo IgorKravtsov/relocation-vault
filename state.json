@@ -1,25 +1,25 @@
 {
   "version": 2,
-  "iteration": 93,
+  "iteration": 94,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-11T00:04:17Z",
+  "last_run_timestamp": "2026-06-11T03:12:09Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
+    "mode": "country-deep-dive",
+    "country": "UAE",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "UAE",
+    "suggested_country": "Malaysia",
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Pending/open verification queue is now 5, below the active threshold; resume low-depth country-deep-dive work, starting with a Tier-3-hint profile that still has taxes pending."
+    "reason": "Verification queue remains below the active threshold; continue low-depth Tier-3-hint tax passes, rotating from UAE to another middle-east-asia profile with taxes still pending."
   },
   "countries": {
     "Spain": {
@@ -855,15 +855,15 @@
     "UAE": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 1.5,
+      "depth_score": 2.5,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.3"
       ],
       "sections_partial": [
         "5.1"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -877,9 +877,11 @@
         "virtual-work-bridge-only",
         "green-visa-income-above-current-budget",
         "no-ordinary-naturalization-route",
-        "extreme-summer-heat"
+        "extreme-summer-heat",
+        "tax-status-threshold-monitoring"
       ],
-      "last_iteration": 49
+      "last_iteration": 94,
+      "unverified_count": 0
     },
     "Malaysia": {
       "tier": null,
@@ -1032,7 +1034,7 @@
     }
   },
   "verification_queue_size": 5,
-  "sources_count": 460,
-  "claims_count": 373,
+  "sources_count": 463,
+  "claims_count": 376,
   "proposals_pending": 0
 }

@@ -1,13 +1,13 @@
 ---
 country: UAE
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-05T05:16:25Z
-sections_completed: ["5.2"]
+depth_score: 2.5
+last_updated: 2026-06-11T03:12:09Z
+sections_completed: ["5.2", "5.3"]
 sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["virtual-work-bridge-only", "green-visa-income-above-current-budget", "no-ordinary-naturalization-route", "extreme-summer-heat"]
-sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["virtual-work-bridge-only", "green-visa-income-above-current-budget", "no-ordinary-naturalization-route", "extreme-summer-heat", "tax-status-threshold-monitoring"]
+sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250", "src-462", "src-463", "src-464"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (early evidence points to a bridge/base jurisdiction rather than a settlement route for this couple).
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-05T05:16:25Z
-- **Tier rationale**: UAE has real short-stay and self-sponsored residence routes, but the best-fit virtual-work route is a one-year extendable bridge and the 5-year Green Residence freelancer threshold is above the couple's current income. Ordinary citizenship is nomination-based for exceptional categories, not a predictable residence-to-passport track. [src-244][src-245][src-248]
+- **depth_score**: 2.5
+- **Last updated**: 2026-06-11T03:12:09Z
+- **Tier rationale**: UAE has real short-stay and self-sponsored residence routes, and taxes are very favorable at the couple's current income level. The limiting factor remains immigration, not tax: the best-fit virtual-work route is a one-year extendable bridge above the couple's current USD 3,000/month income, the 5-year Green Residence freelancer threshold is much higher, and ordinary citizenship is nomination-based for exceptional categories rather than a predictable residence-to-passport track. [src-244][src-245][src-248][src-462]
 
 ## Block 2 - Scoring
 
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | Entry and virtual-work route are workable, but long-term settlement route is weak for a USD 3,000/month remote IT worker. | §5.1 |
 | Climate | — | medium | Winter is excellent; May-September heat/humidity is a major comfort risk. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium-high | At USD 3,000/month, the baseline screen is near-zero UAE tax: no PIT, no individual tax filing, non-GCC nationals outside UAE social security, and annual turnover far below the natural-person CT and VAT thresholds. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -89,11 +89,19 @@ schema_version: 2.0.0
 - **Humidity / muggy comfort**: WeatherSpark's UAE comparison shows a high coastal muggy-day burden, especially Dubai / Abu Dhabi / Al Fujayrah, while inland Al Ain is drier but hotter. Climate to Travel separately flags Dubai summer humidity as oppressive. [src-249][src-250]
 - **Practical comfort verdict**: UAE is excellent for winter sun and no cold winter, but May-September outdoor life is severely constrained by heat and, on the coast, humidity. For this couple's climate preferences, UAE passes the sunshine/winter criterion but carries an extreme-summer-heat comfort risk.
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: completed, depth: 1, last_updated: 2026-06-11, dod: passed}
 
 > **DoD**: effective rate at $3000/mo computed; registration procedure for applicable regime; gross->net example; new-resident reliefs; marriage tax effect.
 
-[verification required]
+- **Baseline tax-residence context**: PwC summarizes the domestic tax-residence tests introduced from March 2023: an individual can be UAE tax resident through usual/primary residence and centre of interests, 183+ days in any consecutive 12-month period, or 90+ days plus UAE nationality/GCC nationality/UAE residence permit and either a permanent UAE home or UAE employment/business. For this couple, a virtual-work residence could therefore create UAE tax-residence evidence, but the useful screening point is that UAE tax residence does not by itself create personal income tax on the remote IT income. [src-463]
+- **Personal income tax / filing**: PwC states that there is currently no personal income tax in the UAE and therefore no individual tax registration or reporting obligations. For a USD 3,000/month remote worker treated as an individual rather than a UAE company, the PIT screen is 0% and there is no UAE personal tax return. [src-462]
+- **Corporate tax exposure for a natural person**: PwC notes that natural persons conducting a business or business activity in the UAE are subject to UAE corporate tax at 9% only where total turnover from that business or activity exceeds AED 1,000,000; wages, personal investment income, and real-estate investment income are excluded for the turnover test. At USD 3,000/month, using the AED/USD 3.6725 screening peg, gross receipts are about AED 11,018/month and AED 132,210/year, only about 13% of the AED 1,000,000 natural-person turnover trigger. [src-462]
+- **VAT / invoices**: PwC's UAE VAT summary gives a 5% general VAT rate, zero-rating for exported goods/services outside the VAT-implementing GCC subject to conditions, and a mandatory UAE-resident business VAT-registration threshold of AED 375,000, with voluntary registration at AED 187,500. The couple's USD 36,000/year gross is about AED 132,210/year, around 35% of the mandatory threshold and below the voluntary threshold, so VAT should not be a screening-level tax cost; exact invoice wording / export-of-services status remains an application-prep accountant check if income rises or a UAE business is opened. [src-464]
+- **Social security / health contributions**: PwC states that UAE social security applies to qualifying UAE and other GCC national employees only; non-GCC nationals are not subject to UAE social security. A Ukrainian remote worker should therefore not model employee-style UAE social-security deductions. Health insurance is still an immigration / cost-of-living item, not a tax contribution. [src-464][src-244]
+- **New-resident reliefs / special regimes**: There is no need to rely on a tax holiday or new-resident relief for the current screening model: the ordinary individual baseline already has no PIT. Free-zone or company planning could matter at higher income, but it is not necessary for the USD 3,000/month screen and would require separate corporate-tax / accounting advice. [src-462][src-464]
+- **Marriage / second earner effect**: Because UAE has no personal income tax and no individual tax return in the captured PwC baseline, marriage does not create a joint-filing benefit or penalty for income tax. If the woman later works remotely too, each person's tax issue remains status/registration and threshold monitoring rather than spouse-based taxation; immigration sponsorship is separate and still likely spouse-first under the captured residence sources. [src-462][src-244]
+- **Worked example for the couple's current income**: USD 3,000/month gross (about AED 11,018/month; AED 132,210/year) -> UAE PIT: USD 0 -> UAE social security for a non-GCC national: USD 0 -> UAE corporate tax for natural-person business at this turnover: USD 0 -> VAT remittance assumed USD 0 because annual receipts are below AED 375,000 mandatory registration. **Screening net: about USD 3,000/month before health insurance, residence fees, accounting, banking, and living costs.** [src-462][src-464]
+- **Practical verdict**: UAE taxes are favorable and pass §5.3 for country screening. They do not solve the immigration income gate: the virtual-work route still requires at least USD 3,500/month and the Green Residence freelancer threshold remains far above the couple's current income. [src-244][src-245]
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -162,17 +170,20 @@ schema_version: 2.0.0
 - **Best legalization path for the woman**: Spouse/family sponsorship after the sponsor qualifies; unmarried-partner route not captured. [src-244][src-246]
 - **Does marriage change the picture**: Yes, likely important for spouse/family sponsorship, but it does not solve the sponsor income threshold.
 - **Realism of staying after 03.2027**: Medium-low for settlement; medium as a renewable bridge if income qualifies.
+- **Tax fit at USD 3,000/month**: Strong for screening; likely near-zero UAE tax before non-tax costs, but threshold monitoring is needed if income grows or a UAE company/free-zone structure is used. [src-462][src-464]
 
 **Pros**:
 - Official self-sponsored virtual-work route for foreign remote work. [src-244]
 - 5-year Green Residence exists for higher-income freelancers/self-employed applicants. [src-245][src-246]
 - Excellent winter sun and no cold winter. [src-249][src-250]
+- No UAE PIT or individual tax filing in the captured PwC baseline; current income is below natural-person corporate-tax and VAT thresholds. [src-462][src-464]
 
 **Cons / risks**:
 - Virtual-work threshold is USD 3,500/month, above the couple's current income. [src-244]
 - Green Residence freelancer threshold of AED 360,000 annual income is far above current income. [src-245]
 - No predictable ordinary citizenship route captured. [src-248]
 - Extreme summer heat/humidity. [src-249][src-250]
+- Tax remains favorable at current income, but a UAE business/free-zone setup or income growth could trigger corporate-tax, VAT, and accounting thresholds that need accountant confirmation before filing. [src-462][src-464]
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -188,13 +199,13 @@ schema_version: 2.0.0
 - Address registration: TBD.
 - Submitting residence application (if not done from abroad): file virtual-work / residence steps through GDRFA/ICP channels once entry and documents are ready. [src-244]
 - Bank account opening: TBD.
-- Tax ID / social security number: TBD.
+- Tax ID / social security number: no individual PIT registration or UAE social-security contribution is expected for a non-GCC individual at the current screening level; monitor CT/VAT thresholds if opening a UAE business or invoicing structure. [src-462][src-464]
 - Long-term housing: TBD.
 - Health insurance / public health registration: valid health insurance is required for the virtual-work file. [src-244]
 - SIM card, internet, utilities: TBD.
 
 ### 6c. First 3-6 months
-- Tax registration as self-employed / freelancer: TBD.
+- Tax registration as self-employed / freelancer: no UAE individual PIT filing is captured; at USD 36,000/year, natural-person CT and VAT thresholds are not reached, but any UAE company/free-zone setup or higher turnover needs accountant review. [src-462][src-464]
 - Transferring partner to dependent / partner / student status: only spouse/family sponsorship is safe in captured sources; unmarried partner mechanics are not captured. [src-244][src-246]
 - Marriage (if applicable to scenario): likely relevant if the partner needs dependent status.
 - Integration (language courses, communities): TBD.
@@ -240,6 +251,9 @@ schema_version: 2.0.0
 
 ### 7b. Reputable secondary
 - [src-243] Emirates - UAE visa information
+- [src-462] PwC UAE - Individual taxes on personal income
+- [src-463] PwC UAE - Individual residence
+- [src-464] PwC UAE - Corporate other taxes / VAT and social security
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
