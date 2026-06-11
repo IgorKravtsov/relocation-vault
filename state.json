@@ -1,23 +1,25 @@
 {
   "version": 2,
-  "iteration": 92,
+  "iteration": 93,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-10T20:58:40Z",
+  "last_run_timestamp": "2026-06-11T00:04:17Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Argentina",
+    "mode": "verification",
+    "country": null,
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": null,
-    "suggested_sections": null,
-    "reason": "Pending/open verification queue is 10 after run-092, meeting the active threshold; run verification before adding more country-specific blockers."
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "UAE",
+    "suggested_sections": [
+      "5.3"
+    ],
+    "reason": "Pending/open verification queue is now 5, below the active threshold; resume low-depth country-deep-dive work, starting with a Tier-3-hint profile that still has taxes pending."
   },
   "countries": {
     "Spain": {
@@ -719,8 +721,8 @@
         "uruguay-self-employed-bps-gap",
         "uruguay-foreign-client-vat-fit-gap"
       ],
-      "last_iteration": 88,
-      "unverified_count": 1
+      "last_iteration": 93,
+      "unverified_count": 0
     },
     "Paraguay": {
       "tier": null,
@@ -750,8 +752,8 @@
         "paraguay-foreign-client-vat-fit-gap",
         "paraguay-social-security-category-gap"
       ],
-      "last_iteration": 89,
-      "unverified_count": 1
+      "last_iteration": 93,
+      "unverified_count": 0
     },
     "Panama": {
       "tier": null,
@@ -781,8 +783,8 @@
         "panama-territorial-tax-source-risk",
         "panama-itbms-export-service-gap"
       ],
-      "last_iteration": 90,
-      "unverified_count": 1
+      "last_iteration": 93,
+      "unverified_count": 0
     },
     "Mexico": {
       "tier": null,
@@ -814,8 +816,8 @@
         "mexico-vat-export-service-gap",
         "mexico-social-security-category-gap"
       ],
-      "last_iteration": 91,
-      "unverified_count": 1
+      "last_iteration": 93,
+      "unverified_count": 0
     },
     "Argentina": {
       "tier": null,
@@ -847,8 +849,8 @@
         "argentina-social-security-category-gap",
         "argentina-monotributo-export-fit-gap"
       ],
-      "last_iteration": 92,
-      "unverified_count": 1
+      "last_iteration": 93,
+      "unverified_count": 0
     },
     "UAE": {
       "tier": null,
@@ -1029,7 +1031,7 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 10,
+  "verification_queue_size": 5,
   "sources_count": 460,
   "claims_count": 373,
   "proposals_pending": 0

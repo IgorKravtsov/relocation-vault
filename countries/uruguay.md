@@ -2,13 +2,13 @@
 country: Uruguay
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-10T08:22:00Z
+last_updated: 2026-06-11T00:04:17Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence", "uruguay-self-employed-bps-gap", "uruguay-foreign-client-vat-fit-gap"]
 sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186", "src-430", "src-431", "src-432", "src-433", "src-434", "src-435", "src-436"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests a potentially strong long-term route because Uruguay allows ordinary legal residence for non-Mercosur foreigners and legal citizenship after 3 years with family constituted in Uruguay or 5 years without family, but the route depends on proving habitual residence and means of life rather than a simple remote-worker visa threshold. [src-181][src-182][src-184]
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-10T08:22:00Z
+- **Last updated**: 2026-06-11T00:04:17Z
 - **Tier rationale**: keep as Tier-2 hint until cost, rent, healthcare, and practical residence / tax approval mechanics for foreign-client IT income are checked.
 
 ## Block 2 - Scoring
@@ -98,9 +98,9 @@ Uruguay has a humid subtropical climate: mild winters, hot summers, rain in all 
 
 **Household comfort verdict**: climate fit is promising for a couple avoiding long cold winters. The main caveats are humidity/rain throughout the year, windy unstable southern winters, and hot inland/northern summers. Montevideo / Ciudad de la Costa / Maldonado should feel milder than inland Uruguay; Salto is warmer but more heat-exposed. [src-185][src-186]
 
-### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-10, dod: partial}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-> **DoD status**: partial. This pass covers tax residence, territorial-source PIT/IRPF, a conservative USD 3,000/month worked example, family-unit mechanics, filing/advance-payment basics, and VAT/social-security caveats. Missing before DoD-passed filing advice: DGI/BPS or Uruguayan accountant confirmation of the exact foreign-client IT registration category, BPS contribution base, whether the exported-service / VAT treatment applies, and compatibility with the permanent-residence means-of-life file.
+> **DoD status**: partial. This pass covers tax residence, territorial-source PIT/IRPF, a conservative USD 3,000/month worked example, family-unit mechanics, filing/advance-payment basics, and VAT/social-security caveats. Run-093 resolved `vq-110` for country screening: the existing sources are enough for a conservative comparison baseline, while exact DGI/BPS registration, VAT/export-service treatment, and residence-file fit remain accountant/application-prep checks before DoD-passed filing advice.
 
 #### Tax-residence and source baseline
 
@@ -134,7 +134,7 @@ FX snapshot for this pass: USD 1 = UYU 40.474288, so USD 3,000/month is about **
 
 - At the couple's current USD 3,000/month, Uruguay is **not obviously tax-negative** in the first-pass screen: the self-employed notional-expense IRPF-only model leaves close to USD 2,880/month before BPS/VAT/accountant/immigration costs. The downside is that unresolved BPS and VAT treatment can move the result materially; an employee-style contribution stress test lowers the screen to about USD 2,187-2,337/month. [src-430][src-432][src-433][src-436]
 - Do not assume a digital-nomad tax holiday. The DN/provisional-identity route in §5.1 is a short immigration bridge, while this tax section should be treated as ordinary Uruguay tax-residence / self-employment planning unless a Uruguayan accountant confirms a specific incentive. [src-183][src-430]
-- Before filing permanent residence on foreign-client IT income, get a Uruguayan accountant/notary package that aligns three files: DGI registration and invoicing, BPS contribution status, and the migration means-of-life certificate. Added `vq-110` for this tax-fit gap.
+- Before filing permanent residence on foreign-client IT income, get a Uruguayan accountant/notary package that aligns three files: DGI registration and invoicing, BPS contribution status, and the migration means-of-life certificate. Run-093 closed `vq-110` for screening only; it is now an application-prep/accountant checklist, not a reason to withhold the country-level tax comparison.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -278,7 +278,7 @@ _(none yet)_
 - Exact Uruguayan migration practice for accepting ~$3,000/month foreign-client IT income for a couple remains an application-prep check; operational planning should treat a notarial/accounting means-of-life package as mandatory.
 - Whether digital-nomad provisional identity time counts toward habitual residence for legal citizenship remains unproven; the safe baseline is not to rely on it without permanent legal residence evidence.
 - Partner/dependent mechanics for an unmarried Ukrainian partner remain unproven; the safe baseline is marriage or separate residence eligibility.
-- Uruguay tax treatment for foreign-client IT remote work: first-pass §5.3 now covers IRPF/tax residence and screening calculations, but exact DGI/BPS/VAT/immigration-file alignment remains `vq-110`.
+- Uruguay tax treatment for foreign-client IT remote work: first-pass §5.3 now covers IRPF/tax residence and screening calculations. `vq-110` was resolved for screening in run-093; exact DGI/BPS/VAT/immigration-file alignment remains an application-prep/accountant check.
 
 ## Block 8 - Open questions and verification markers
 

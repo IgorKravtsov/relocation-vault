@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-10
+last_updated: 2026-06-11
 ---
 
 # Verification Queue
@@ -190,9 +190,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-456, src-457, src-458, src-459, src-460, src-461
 - **Why uncertain**: This tax pass captured resident worldwide-income scope, self-employed PIT brackets, VAT and gross-income-tax risk, separate-spouse filing, social-security sensitivity, and a USD 3,000/month PIT-only screening calculation, but did not prove the exact Argentine registration and indirect-tax/contribution structure for a Ukrainian foreign-client IT worker using a DN bridge or later temporary-residence file.
-- **Suggested verification**: ARCA guidance or Argentine accountant / immigration-counsel confirmation for CUIT/self-employed or monotributo category, foreign-client export-service VAT treatment, Ingresos Brutos by city/province, social-security/health contribution class, invoice/banking settlement, and whether the structure supports DN extension or any durable temporary residence route.
+- **Suggested verification**: none for country screening; keep exact registration / VAT / contribution / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-10 (run-092)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-093)
+- **Resolution note**: Resolved for screening: Argentina already has a conservative PIT-only screen, contribution sensitivity, VAT/Ingresos Brutos risk, and registration caveats; exact ARCA/monotributo/VAT/social-security/banking/residence fit is application-prep/accountant work.
 
 ## vq-110 [medium priority]
 - **Fact**: "Uruguay foreign-client IT tax structure: exact DGI registration category, BPS self-employed contribution base, VAT/export-service treatment, and compatibility with the permanent-residence means-of-life certificate"
@@ -200,9 +202,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-430, src-431, src-432, src-433, src-434, src-435, src-436
 - **Why uncertain**: This tax pass captured IRPF tax residence, the 30% self-employed notional-expense deduction, filing/advance-payment basics, employee-style social-security stress-test rates, VAT headline context, and USD 3,000/month screening calculations, but did not prove the exact DGI/BPS/VAT treatment for a Ukrainian foreign-client IT worker filing Uruguayan permanent residence.
-- **Suggested verification**: Uruguayan DGI / BPS guidance or Uruguay accountant confirmation for independent IT services exported to foreign clients, including VAT place-of-supply/export status and migration notary/accounting certificate alignment.
+- **Suggested verification**: none for country screening; keep exact registration / VAT / contribution / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-10 (run-088)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-093)
+- **Resolution note**: Resolved for screening: Uruguay already has a conservative IRPF-only model plus BPS/VAT downside caveats; exact DGI/BPS/VAT and residence-file alignment is application-prep/accountant work, not a country-screening blocker.
 
 ## vq-111 [medium priority]
 - **Fact**: "Paraguay foreign-client IT tax structure: exact DNIT/RUC self-employed category, IPS or private social-security treatment, VAT/place-of-supply or export-service handling, and compatibility with the lawful-activity temporary-residence file"
@@ -210,9 +214,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-437, src-438, src-439, src-440, src-441, src-442, src-443
 - **Why uncertain**: This tax pass captured tax residence, Paraguayan-source PIT scope, progressive personal-service PIT rates, deductions, employee-style social-security context, VAT headline context, return timing, and USD 3,000/month screening calculations, but did not prove the exact DNIT/RUC category, whether foreign-client IT performed from Paraguay is VAT-taxable or export/zero-rated, whether IPS/private social-security applies, or whether the tax structure matches the temporary-residence lawful-activity file.
-- **Suggested verification**: DNIT/RUC and IPS guidance or Paraguayan accountant confirmation for independent IT services exported to foreign clients, including VAT place-of-supply/export status, social-security/private-pension treatment, and migration-lawful-activity evidence alignment.
+- **Suggested verification**: none for country screening; keep exact registration / VAT / contribution / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-10 (run-089)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-093)
+- **Resolution note**: Resolved for screening: Paraguay already has a conservative PIT-only model plus IPS/VAT risk sensitivities; exact DNIT/RUC, VAT/place-of-supply, social-security/private-security, and residence-file alignment is application-prep/accountant work.
 
 ## vq-112 [medium priority]
 - **Fact**: "Panama foreign-client IT tax structure: exact DGI/RUC registration category, source classification for services physically performed in Panama for foreign clients, CSS/education-tax treatment, ITBMS/export-service handling, and compatibility with the remote-worker visa / follow-on residence file"
@@ -220,9 +226,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-199, src-444, src-445, src-446, src-447, src-448
 - **Why uncertain**: This tax pass captured Panama's territorial income-tax baseline, tax-residence wording, PIT brackets, employee-style social-security and education-tax rates, ITBMS headline/export context, tax-return timing, and USD 3,000/month screening calculations, but did not prove whether foreign-client IT performed while physically in Panama is treated as foreign-source, Panama-source, exported, or otherwise reportable; nor did it prove self-employed CSS/education-tax or ITBMS duties for a remote-worker visa holder.
-- **Suggested verification**: DGI guidance or Panamanian accountant confirmation for a Ukrainian foreign-client IT contractor on the remote-worker visa, including RUC/registration, invoice wording, CSS/education-tax, ITBMS/export-service classification, return/nil-return duties, and whether the structure supports any later ordinary residence file.
+- **Suggested verification**: none for country screening; keep exact registration / VAT / contribution / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-10 (run-090)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-093)
+- **Resolution note**: Resolved for screening: Panama already has a territorial foreign-source baseline, Panama-source PIT downside, and CSS/ITBMS caveats; exact DGI/RUC/source/ITBMS/CSS handling is application-prep/accountant work.
 
 ## vq-109 [medium priority]
 - **Fact**: "Moldova foreign-client IT tax structure: exact registration category (individual entrepreneur, professional activity, company, or foreign-contract DN), fixed versus employee-style SSC/health contribution treatment, VAT/place-of-supply or export-service reporting, and compatibility with the digital-nomad / provisional-stay route"
@@ -1376,6 +1384,8 @@ _(none)_
 - **Section**: 5.3
 - **Current source**: src-449, src-451, src-452, src-453, src-454
 - **Why uncertain**: PwC supports a conservative ordinary resident PIT screen, but this pass did not capture official SAT/IMSS or accountant evidence for the exact individual regime, RESICO eligibility, VAT zero-rating/export-service classification, IMSS obligations, or whether the selected tax registration fits the temporary-residence file.
-- **Suggested verification**: Check SAT regime guidance, IMSS/SAT registration obligations, and a Mexican accountant or immigration-tax adviser for foreign-client software/IT services by a temporary resident.
+- **Suggested verification**: none for country screening; keep exact registration / VAT / contribution / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-10 (run-091)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-093)
+- **Resolution note**: Resolved for screening: Mexico already has a conservative ordinary-resident PIT baseline plus explicit RESICO/VAT/IMSS caveats; exact SAT regime, RESICO, VAT/export, IMSS, and residence-file fit is application-prep/accountant work.

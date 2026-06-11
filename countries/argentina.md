@@ -2,13 +2,13 @@
 country: Argentina
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-10T20:58:40Z
+last_updated: 2026-06-11T00:04:17Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1","5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["digital-nomad-bridge-only", "tourist-entry-before-travel-check", "citizenship-continuous-no-exit-rule", "inflation-currency-risk", "argentina-pit-vat-gross-income-tax-risk", "argentina-social-security-category-gap", "argentina-monotributo-export-fit-gap"]
 sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242, src-456, src-457, src-458, src-459, src-460, src-461]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (Tier-3 hint retained until taxes/cost/rent and residence-to-citizenship practicality are verified).
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-10T20:58:40Z
+- **Last updated**: 2026-06-11T00:04:17Z
 - **Tier rationale**: First pass suggests Argentina is legally interesting because Ukrainian ordinary-passport holders have a usable 90-day tourist-entry screening baseline and Argentina has an official digital-nomad transitory residence plus a short legal naturalization horizon. However, the DN status is only 180 + 180 days and transitory, rentista excludes personal-work income, and 2025 citizenship changes require continuous legal residence with no exits during the two-year period. Treat as promising but high-verification until a durable ordinary residence route for foreign-client IT income is confirmed. [src-233][src-234][src-236][src-237]
 
 ## Block 2 — Scoring
@@ -100,9 +100,9 @@ Clearer-sky numbers are computed from WeatherSpark monthly percentages using mon
 
 **Comfort verdict.** Buenos Aires is mild and services-rich but humid heat waves are a real comfort risk. Cordoba offers a drier inland compromise with cold winter nights and summer storms. Mendoza looks best for sun and low humidity, but the couple must tolerate arid heat, winter frosts at night, and distance from the Atlantic / Buenos Aires ecosystem. Climate section passes at medium confidence because temperature, rain, muggy burden, and clear-sky proxies are captured for 3+ practical regions. [src-241][src-242]
 
-### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-10, dod: partial}
+### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-11, dod: partial}
 
-> **DoD**: effective tax rate for USD 3,000/month calculated in an applicable regime; concrete gross -> net example; registration procedure; new-resident / IT incentives; marriage effect.
+> **DoD status**: partial. The section has a conservative USD 3,000/month PIT screen, contribution sensitivity, VAT / provincial gross-income-tax caveats, registration baseline, and spouse-separate filing baseline. Run-093 resolved `vq-114` for country screening: the exact ARCA category, monotributo/autonomous-worker fit, VAT/export-service treatment, Ingresos Brutos, social-security/health, banking/invoice, and DN/temporary-residence compatibility remain accountant/application-prep checks before DoD-passed filing advice.
 
 **Tax-residence baseline.** PwC states that Argentine tax residents are taxable on worldwide income with foreign-tax-credit relief, while non-residents / foreign beneficiaries are generally taxable only on Argentine-source income. For foreign individuals residing in Argentina for reasons other than work, tax residence begins after more than 12 months, from the 13th month of presence; short DN bridge use may therefore differ from a durable-residence file, but this needs Argentine tax-adviser confirmation. [src-456][src-457]
 
@@ -120,7 +120,7 @@ Gross income tax (Ingresos Brutos) is provincial, generally 0.5%-6%; PwC gives C
 
 **Marriage / partner tax effect.** PwC states each spouse's earnings from employment and business activities are assessed separately and individually. For screening, marriage does not create a joint-return tax shelter; it may still matter for immigration / dependent planning. [src-460]
 
-**Screening verdict.** Argentina is tax-uncertain rather than clearly tax-negative: a PIT-only model leaves roughly USD 2,280/month, but VAT, provincial gross-income tax, self-employed contributions, exchange controls / banking, and the lack of a proven durable residence category could push usable net materially lower. Do not mark section 5.3 passed until Argentine accountant / ARCA guidance confirms the exact foreign-client IT structure, monotributo or autonomous-worker eligibility, VAT/export-service handling, Ingresos Brutos exposure by city, social-security/health obligations, invoice/banking requirements, and DN/temporary-residence compatibility.
+**Screening verdict.** Argentina is tax-uncertain rather than clearly tax-negative: a PIT-only model leaves roughly USD 2,280/month, but VAT, provincial gross-income tax, self-employed contributions, exchange controls / banking, and the lack of a proven durable residence category could push usable net materially lower. Run-093 closed `vq-114` for screening only; do not mark section 5.3 passed until Argentine accountant / ARCA guidance confirms the exact foreign-client IT structure, monotributo or autonomous-worker eligibility, VAT/export-service handling, Ingresos Brutos exposure by city, social-security/health obligations, invoice/banking requirements, and DN/temporary-residence compatibility.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -148,7 +148,7 @@ Gross income tax (Ingresos Brutos) is provincial, generally 0.5%-6%; PwC gives C
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
-- **Currency/banking risk**: High. Argentina's macro/currency controls, foreign-client payment settlement, VAT/export-service treatment, and provincial gross-income-tax exposure can dominate a USD 3,000/month plan; tax pass opened this as `vq-114`.
+- **Currency/banking risk**: High. Argentina's macro/currency controls, foreign-client payment settlement, VAT/export-service treatment, and provincial gross-income-tax exposure can dominate a USD 3,000/month plan; run-093 resolved `vq-114` for screening, but this remains an application-prep/accountant risk.
 - **Political risk**: [verification required]
 - **Ties to Ukraine**: [verification required]
 - **Diaspora and adaptation**: [verification required]
@@ -269,9 +269,9 @@ _(none yet)_
 ### 7e. Not found
 - Current official tourist-exemption PDF/table for Ukrainian ordinary passports was identified via secondary source but not directly captured; re-check before travel or DN filing.
 - Durable foreign-client IT residence and DN dependent mechanics were resolved for screening to a conservative baseline: not proven; use Argentina as a DN bridge only until a durable temporary category is confirmed.
-- Exact Argentine tax-registration category for a Ukrainian foreign-client IT worker, monotributo/export-service fit, VAT, Ingresos Brutos, self-employed social-security/health contributions, banking/invoice settlement, and DN/temporary-residence compatibility remain open.
+- Exact Argentine tax-registration category for a Ukrainian foreign-client IT worker, monotributo/export-service fit, VAT, Ingresos Brutos, self-employed social-security/health contributions, banking/invoice settlement, and DN/temporary-residence compatibility were resolved for screening in run-093 but remain application-prep/accountant checks.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-072` resolved in run-061: 90-day Ukrainian tourist-entry baseline is sufficient for screening; direct official exemption-table capture is a before-travel / DN-filing check, not a settlement-route blocker. [src-233][src-234][src-236]
-- `vq-114` pending: confirm Argentine foreign-client IT tax structure, monotributo/autonomous-worker eligibility, VAT/export-service handling, Ingresos Brutos exposure, social-security/health obligations, banking/invoice requirements, and DN/temporary-residence compatibility. [src-456][src-458][src-459][src-460][src-461]
+- `vq-114` resolved for screening in run-093: Argentina has a conservative PIT-only screen, contribution sensitivity, VAT/Ingresos Brutos risk, and registration caveats; monotributo/autonomous-worker eligibility, VAT/export-service handling, social-security/health obligations, banking/invoice requirements, and DN/temporary-residence compatibility remain application-prep/accountant checks. [src-456][src-458][src-459][src-460][src-461]

@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-10
+last_updated: 2026-06-11
 ---
+
+## 2026-06-11 — run-093
+- Verification mode: closed five recent Latin America §5.3 tax-fit queue items (`vq-110` through `vq-114`) to conservative screening baselines.
+- Countries touched: Uruguay, Paraguay, Panama, Mexico, and Argentina; depths unchanged, §5.3 remains partial in each profile.
+- Main finding: no favorable tax assumptions were added; exact registration categories, VAT/place-of-supply, contribution bases, banking/invoice mechanics, and immigration-status fit are now application-prep/accountant checks rather than screening blockers.
+- Verification queue: 10 -> 5; sources added: 0.
 
 ## 2026-06-10 — run-092
 - Argentina: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative self-employed PIT screen.

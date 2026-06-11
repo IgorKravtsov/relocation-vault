@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-10
+last_updated: 2026-06-11
 ---
 
 # INDEX
@@ -32,11 +32,11 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | North Macedonia | balkans-east | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 87 | `countries/north-macedonia.md` |
 | Bosnia and Herzegovina | balkans-east | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 87 | `countries/bosnia-and-herzegovina.md` |
 | Moldova | balkans-east | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 87 | `countries/moldova.md` |
-| Uruguay | latin-america | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 88 | `countries/uruguay.md` |
-| Paraguay | latin-america | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 89 | `countries/paraguay.md` |
-| Panama | latin-america | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 90 | `countries/panama.md` |
-| Mexico | latin-america | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 91 | `countries/mexico.md` |
-| Argentina | latin-america | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 92 | `countries/argentina.md` |
+| Uruguay | latin-america | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 93 | `countries/uruguay.md` |
+| Paraguay | latin-america | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 93 | `countries/paraguay.md` |
+| Panama | latin-america | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 93 | `countries/panama.md` |
+| Mexico | latin-america | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 93 | `countries/mexico.md` |
+| Argentina | latin-america | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 93 | `countries/argentina.md` |
 | UAE | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 49 | `countries/uae.md` |
 | Malaysia | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 54 | `countries/malaysia.md` |
 | Thailand | middle-east-asia | 3 | — | 1.5 | done: 5.2; partial: 5.1 | 48 | `countries/thailand.md` |

@@ -2,13 +2,13 @@
 country: Panama
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-10T14:40:09Z
+last_updated: 2026-06-11T00:04:17Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1","5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season", "panama-territorial-tax-source-risk", "panama-itbms-export-service-gap"]
 sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203", "src-444", "src-445", "src-446", "src-447", "src-448"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests Panama is useful as a short-to-medium-term remote-work base because the official remote-worker visa fits exactly USD 3,000/month foreign-source income, but it is a non-resident short-stay route and not a clean permanent-residence/citizenship ladder by itself. [src-199]
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-10T14:40:09Z
+- **Last updated**: 2026-06-11T00:04:17Z
 - **Tier rationale**: keep as Tier-2 hint only if a separate residence route can be made realistic. The likely long-term routes require a Panama employer/professional file, friendly-nations economic/professional activity, or investment/family facts not yet proven for this Ukrainian remote-IT couple. [src-198][src-200]
 
 ## Block 2 - Scoring
@@ -97,9 +97,9 @@ Panama is tropical: the core comfort problem is not winter but heat, humidity, r
 
 **Household comfort verdict**: Panama avoids cold winters entirely, but it is a poor fit for someone who strongly dislikes humidity and gray/rainy seasons. Panama City is practical but sticky and cloudy much of the year. David is hot and humid. Boquete/Guayabal is the likely comfort compromise if the couple can accept smaller-city/highland living and frequent rain. [src-202][src-203]
 
-### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-10, dod: partial}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-> **DoD status**: partial. This pass establishes a conservative screening baseline for a foreign-client IT worker at USD 3,000/month, but it does **not** prove the exact DGI registration category, source-of-income treatment for services physically performed from Panama, ITBMS/export-service handling, CSS treatment, or compatibility with the short-stay remote-worker / later ordinary-residence file. `vq-112` tracks those application-prep gaps.
+> **DoD status**: partial. This pass establishes a conservative screening baseline for a foreign-client IT worker at USD 3,000/month, but it does **not** prove the exact DGI registration category, source-of-income treatment for services physically performed from Panama, ITBMS/export-service handling, CSS treatment, or compatibility with the short-stay remote-worker / later ordinary-residence file. Run-093 resolved `vq-112` for country screening: those points are now accountant/application-prep checks rather than open screening blockers.
 
 #### Core tax-residence and source rules
 
@@ -262,9 +262,9 @@ _(none yet)_
 ### 7e. Not found
 - Official Panama / consular country table showing the current Ukraine-specific entry rule and exact visa-free duration remains useful before travel; `vq-062` is closed for screening to the tourist-status-is-not-residence baseline.
 - Confirmed country list / lawyer opinion for whether Ukrainians can use friendly-countries residence and whether foreign-professional residence fits a foreign-client IT worker; the screening baseline is negative/unknown until proven.
-- Panama tax-source classification for foreign-client IT performed physically from Panama, plus DGI/RUC registration, CSS/education-tax, ITBMS/export-service, and residence-file compatibility; `vq-112` tracks this as an application-prep gap.
+- Panama tax-source classification for foreign-client IT performed physically from Panama, plus DGI/RUC registration, CSS/education-tax, ITBMS/export-service, and residence-file compatibility; `vq-112` was resolved for screening in run-093 and remains an application-prep/accountant gap.
 - Route-specific remote-worker dependent checklist; the screening baseline is marriage for any later ordinary dependent file and no confirmed unmarried-partner route.
 
 ## Block 8 - Open questions and verification markers
 
-- `vq-112`: DGI/accountant confirmation of foreign-client IT source classification, registration/RUC, CSS/education-tax, ITBMS/export-service handling, and immigration-file compatibility. For screening, use the zero-PIT territorial baseline only as a provisional upside case and preserve the Panama-source PIT / employee-style contribution downside sensitivities.
+- `vq-112` resolved for screening in run-093: use the zero-PIT territorial baseline only as a provisional upside case and preserve the Panama-source PIT / employee-style contribution downside sensitivities. DGI/accountant confirmation of source classification, registration/RUC, CSS/education-tax, ITBMS/export-service handling, and immigration-file compatibility remains application-prep work.

@@ -2,13 +2,13 @@
 country: Paraguay
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-10T11:33:02Z
+last_updated: 2026-06-11T00:04:17Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers", "paraguay-foreign-client-vat-fit-gap", "paraguay-social-security-category-gap"]
 sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-437", "src-438", "src-439", "src-440", "src-441", "src-442", "src-443"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests a potentially useful long-term route because Paraguay has a normal temporary residence -> permanent residence ladder and the Constitution gives a 3-year naturalization baseline, but the captured official route is generic "lawful activity" residence rather than a digital-nomad visa. [src-191][src-192][src-193]
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-10T11:33:02Z
+- **Last updated**: 2026-06-11T00:04:17Z
 - **Tier rationale**: keep as Tier-2 hint until the visa-for-residence filing route, foreign-client IT income evidence, taxes, cost, rent, healthcare, and practical lawyer/accountant mechanics are checked.
 
 ## Block 2 - Scoring
@@ -98,9 +98,9 @@ Paraguay has a subtropical climate: very mild winters, hot summers, rapid temper
 
 **Household comfort verdict**: climate fit is mixed-positive. Paraguay clearly avoids a long cold winter and has many usable brighter days, but summer heat/humidity is a major comfort risk for the couple. Asuncion is practical but hot; Encarnacion may be the softer climate compromise; Ciudad del Este is useful for cross-border commerce but wetter. [src-194][src-195]
 
-### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-10, dod: partial}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-> **DoD status**: partial. This is a first-pass screening model for a foreign-client IT worker, not filing advice. It covers tax residence, territorial/source scope, progressive PIT on personal-service income, deductions, social-security/VAT context, return timing, and a worked USD 3,000/month example. It remains partial until a Paraguayan accountant / DNIT or IPS guidance confirms the exact self-employed registration category, whether foreign-client IT services are Paraguayan-source and VAT-taxable, whether IPS or another social-security/private-pension route applies, and how the tax file aligns with the lawful-activity residence application. `vq-111` tracks this.
+> **DoD status**: partial. This is a first-pass screening model for a foreign-client IT worker, not filing advice. It covers tax residence, territorial/source scope, progressive PIT on personal-service income, deductions, social-security/VAT context, return timing, and a worked USD 3,000/month example. Run-093 resolved `vq-111` for country screening: existing sources support a conservative PIT/VAT/social-security risk baseline, while exact DNIT/RUC, IPS/private-security, VAT/place-of-supply, and residence-file alignment remain accountant/application-prep checks before DoD-passed filing advice.
 
 #### Core tax-residence and source baseline
 
@@ -137,7 +137,7 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 
 - Paraguay taxes screen **potentially workable** on income alone: the PIT-only model leaves roughly USD 2,727/month before housing, healthcare, accountant, VAT, and immigration costs.
 - The two decisive caveats are not the headline PIT rate; they are (1) whether the lawful-activity residence file and DNIT/RUC category cleanly accept a Ukrainian foreign-client IT contractor, and (2) VAT/IPS/private social-security treatment.
-- Keep §5.3 partial and do not score Paraguay's taxes as passed until `vq-111` is resolved by DNIT/IPS guidance or a Paraguayan accountant.
+- Keep §5.3 partial and do not score Paraguay's taxes as passed until DNIT/IPS guidance or a Paraguayan accountant confirms the exact filing structure; run-093 resolved `vq-111` only for screening, not for filing advice.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -276,11 +276,11 @@ _(none yet)_
 
 ### 7e. Not found
 - Detailed consular appointment/payment workflow and whether any exception permits tourist-entry-to-residence conversion for Ukrainian applicants; the screening baseline is to assume a residence / lucrative-activity visa is required.
-- Tax-registration/accountant mechanics and a worked lawful-activity package for foreign-client IT contractors; `vq-111` now tracks DNIT/RUC, IPS/private social-security, VAT/place-of-supply, and residence-file compatibility.
+- Tax-registration/accountant mechanics and a worked lawful-activity package for foreign-client IT contractors; `vq-111` was resolved for screening in run-093, while DNIT/RUC, IPS/private social-security, VAT/place-of-supply, and residence-file compatibility remain application-prep/accountant checks.
 - Detailed family/dependent filing checklist; the screening baseline is marriage or separate eligibility.
 - Direct official sunny-day counts; WeatherSpark clearer-sky proxies are used at medium confidence.
 
 ## Block 8 - Open questions and verification markers
 
-- `vq-111`: Paraguay foreign-client IT tax structure: DNIT/RUC category, IPS/private social-security treatment, VAT/place-of-supply/export-service classification, and compatibility with the lawful-activity temporary-residence file.
+- `vq-111` resolved for screening in run-093: Paraguay foreign-client IT tax structure has a conservative PIT/VAT/social-security risk baseline; DNIT/RUC category, IPS/private social-security treatment, VAT/place-of-supply/export-service classification, and compatibility with the lawful-activity temporary-residence file remain application-prep/accountant checks.
 - Family application details, cost/rent/healthcare/education, and lawyer/accountant contacts remain for later section passes.
