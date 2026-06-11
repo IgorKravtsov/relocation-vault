@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-11
 ---
 
+## 2026-06-11 — run-096
+- Thailand: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative resident/remitted-income PIT screen.
+- Added Thailand tax / FX sources `src-471` through `src-476` and claims `claim-thailand-007` through `claim-thailand-011`.
+- Main finding: at USD 3,000/month (about THB 98,810), ordinary PIT using only the THB 60,000 personal allowance leaves about THB 86,607 / USD 2,630 before accountant, VAT, social-security, insurance, visa, and living costs.
+- Added `vq-116` for DTV foreign-client source/remittance classification, registration, deductions, VAT/export-service, social-security, and status compatibility; queue 6 -> 7, below the active verification threshold.
+
 ## 2026-06-11 — run-095
 - Malaysia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative resident PIT stress test.
 - Added Malaysia tax / FX sources `src-465` through `src-470` and claims `claim-malaysia-008` through `claim-malaysia-012`.

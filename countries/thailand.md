@@ -1,14 +1,14 @@
 ---
 country: Thailand
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-05T14:48:05Z
+depth_score: 2.0
+last_updated: 2026-06-11T09:26:52Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate"]
-sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261"]
-unverified_count: 0
+sections_partial: ["5.1","5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate", "thailand-remittance-tax-risk", "thailand-vat-social-security-fit-gap"]
+sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261", "src-471", "src-472", "src-473", "src-474", "src-475", "src-476"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (first pass suggests a strong medium-term bridge/base, not a proven settlement route for this couple).
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-05T14:48:05Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-11T09:26:52Z
 - **Tier rationale**: Ukrainian passport holders can use a 60-day visa exemption for tourism/scouting, and the Destination Thailand Visa (DTV) is a current official workcation route for remote workers/freelancers with a 500,000 THB savings threshold and 5-year multiple-entry validity. However, DTV is structured around 180-day stays and exits/re-entries, while the official LTR Work-from-Thailand route requires at least USD 80,000/year, or USD 40,000/year plus extra qualifications and a qualifying large overseas employer, above or awkward for the couple's current profile. [src-257][src-258][src-259]
 
 ## Block 2 - Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium-high | DTV is a real official remote-work route and the savings threshold may be feasible, but it is not captured as a PR/citizenship ladder; LTR is likely above the current income/profile. | §5.1 |
 | Climate | — | medium | No cold winter, but Bangkok/Phuket are hot and humid with monsoon rain; Chiang Mai is drier/cooler in winter but smoky-season risk needs a later comfort pass. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | Resident/remitted-income PIT is not fatal at USD 3,000/month, but DTV does not by itself create a tax holiday; exact foreign-client source/remittance, VAT, social-security, and DTV status fit need Thai adviser confirmation. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -87,11 +87,35 @@ schema_version: 2.0.0
 - **Chiang Mai**: Chiang Mai has the best winter comfort of the three: January about 59/86 F and July about 75/90 F, with around 1,100 mm/year rainfall and very rare rain from December to March. WeatherSpark's country table gives about **143 clearer-sky day-equivalent days/year**. Heat rises sharply March-April; smoke/air-quality season still needs a later comfort/risk pass. [src-260][src-261]
 - **Humidity and comfort**: Bangkok and Phuket are hot/humid most of the year and may feel oppressive for a couple seeking dry warmth. Chiang Mai is more comfortable in winter and drier, but has hot pre-monsoon months and likely air-quality concerns to verify later. Thailand has no cold-winter problem, but it is not a Mediterranean-style climate.
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
 > **DoD**: effective rate at $3000/mo computed; registration procedure for applicable regime; gross->net example; new-resident reliefs; marriage tax effect.
 
-[verification required]
+#### Tax-residence and taxable-income baseline
+
+- PwC Thailand says Thai tax residents are individuals residing in Thailand for an aggregate 180 days or more in a calendar tax year. For the couple, a DTV pattern that keeps the working partner in Thailand for 180+ days should be treated as potentially creating Thai tax residence. [src-472]
+- PwC's 2026 Thailand individual tax summary says Thailand taxes residents and non-residents on assessable income derived from employment or business carried on in Thailand, regardless of whether it is paid in or outside Thailand. It also says residents with assessable foreign-source income are taxable if that income is earned from 1 January 2024 onward and remitted to Thailand in the same or a later tax year. This makes "foreign clients pay me abroad" an unsafe zero-tax assumption for a DTV worker living in Thailand. [src-471]
+- The captured DTV sources do not provide a DTV-specific tax exemption. Safe screening baseline: assume ordinary Thai PIT can apply once the working partner is tax resident or remits current/post-2024 assessable income into Thailand, unless a Thai tax adviser confirms a different source/remittance treatment. [src-257][src-471][src-472]
+
+#### PIT rates and USD 3,000/month worked example
+
+- PwC lists progressive PIT brackets for Thailand: 0% on net income up to THB 150,000, then 5%, 10%, 15%, 20%, 25%, 30%, and 35% above THB 5,000,000. [src-471]
+- Run-096 FX snapshot: USD 1 = THB 32.936578, so USD 3,000/month is about **THB 98,810/month** or **THB 1,185,717/year**. [src-476]
+- Conservative PIT-only screen using only the captured THB 60,000 personal allowance: taxable net income is about THB 1,125,717/year; annual PIT is about THB 146,429; monthly after-PIT cash is about **THB 86,607 / USD 2,630** before accountant, VAT, social-security, insurance, visa, and living costs. [src-471][src-474][src-476]
+- A slightly less conservative sensitivity that also applies a THB 100,000-style income-expense deduction leaves about **THB 88,691 / USD 2,693** per month after PIT, but this is **not** used as the baseline until a Thai adviser confirms the correct deduction class for foreign-client IT freelancing or employment under DTV. [src-474][src-476]
+
+#### Filing, marriage, social security, and VAT/service-tax context
+
+- Filing/admin: PwC says the Thai tax year is the calendar year. Individuals generally file by 31 March of the following year for paper filing or 8 April online; individuals engaged in most forms of business also file a first-six-month return by 30 September. Each spouse earning income may file separately or jointly, whichever they prefer. [src-475]
+- Allowances: PwC lists a THB 60,000 personal allowance for the taxpayer and THB 60,000 for a spouse if the spouse does not file their own return. This may make marriage mildly useful for tax filing if the student partner has no income, but the immigration value of marriage is larger because DTV dependent language captured spouse/children rather than unmarried partners. [src-257][src-474][src-475]
+- Social security: PwC's corporate other-taxes page describes employee social-security contributions at 5% of monthly salary capped at THB 750/month each for employer and employee. It does not prove the exact contribution position for a foreign DTV freelancer/contractor with no Thai employer; treat this as an application-prep gap, not a solved cost line. [src-473]
+- VAT/service context: PwC says Thailand's VAT is levied on sales of goods and provision of services, with exports zero-rated and some services exempt. It also describes VAT registration for non-resident electronic-service providers above THB 1.8m/year to non-VAT-registered Thai customers. The profile does not yet prove whether foreign-client IT services performed while physically in Thailand are outside scope, exported/zero-rated, or otherwise reportable. [src-473]
+
+#### Practical tax verdict for the couple
+
+- Taxes are not the main Thailand blocker at the USD 3,000/month screening level: ordinary PIT-only modelling leaves roughly USD 2,630/month before non-tax costs, which is materially better than many high-contribution European self-employment stress tests.
+- However, Thailand should **not** be treated as a tax-free DTV base. The high-risk questions are source/remittance treatment for current foreign-client income, whether DTV permits/forces a particular tax registration posture, VAT/export-service treatment, social-security exposure, and whether tax filing evidence affects DTV extensions or future route changes.
+- Keep §5.3 partial. Do not mark taxes passed until Thai Revenue Department guidance or a Thai tax adviser confirms the exact foreign-client IT structure for a Ukrainian DTV holder.
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -182,8 +206,9 @@ schema_version: 2.0.0
 
 ### 6b. First month after arrival
 - Use visa exemption only for scouting if no DTV is in hand; keep onward-ticket and cash/solvency evidence.
-- If DTV is approved, monitor 180-day stay stamps, extension windows, reporting requirements, and re-entry plans.
+- If DTV is approved, monitor 180-day stay stamps, extension windows, reporting requirements, tax-residence days, and re-entry plans.
 - Avoid local Thai employment unless a separate work-authorized status allows it.
+- Before becoming Thai tax resident or remitting current foreign-client income into Thailand, get Thai tax advice on source/remittance, deductions, VAT/export-service treatment, and whether any filing registration is needed. [src-471][src-472][src-473]
 
 ### 6c. First 3-6 months
 - Verify Thai tax residency and foreign-income treatment for remote IT work.
@@ -224,7 +249,7 @@ schema_version: 2.0.0
 - BOI LTR official programme: [src-259].
 
 ### 7b. Reputable secondary
-_(none yet)_
+- PwC Worldwide Tax Summaries Thailand individual PIT / residence / deductions / tax administration and corporate other-taxes pages: [src-471][src-472][src-473][src-474][src-475].
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -232,6 +257,7 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - Climate to Travel Thailand / Bangkok / Phuket / Chiang Mai climate baselines: [src-260].
 - WeatherSpark Thailand country climate comparison: [src-261].
+- ExchangeRate-API USD/THB snapshot for the run-096 worked example: [src-476].
 
 ### 7e. Official secondary / consular
 - Royal Thai Embassy Warsaw visa exemption and DTV guidance for applicants in Poland/Ukraine: [src-257].
@@ -245,3 +271,4 @@ _(none yet)_
 
 - `vq-079` — resolved 2026-06-05 (run-052): screening baseline is DTV bridge/base only; no DTV settlement counting captured, unmarried partner not covered by captured dependent language, and tax details are later application-prep checks.
 - `vq-080` — resolved 2026-06-05 (run-052): no captured no-local-employer PR/citizenship route for the couple; LTR is above current income/profile.
+- `vq-116` — added 2026-06-11 (run-096): exact Thai foreign-client IT tax structure for a DTV holder, including source/remittance treatment, registration, deductions, VAT/export-service handling, social-security exposure, and DTV extension/status compatibility.

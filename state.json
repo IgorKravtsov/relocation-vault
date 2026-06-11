@@ -1,25 +1,25 @@
 {
   "version": 2,
-  "iteration": 95,
+  "iteration": 96,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-11T06:20:51Z",
+  "last_run_timestamp": "2026-06-11T09:26:52Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Malaysia",
+    "country": "Thailand",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Thailand",
+    "suggested_country": "Indonesia",
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Verification queue remains below the active threshold; continue low-depth Tier-3-hint tax passes, rotating from Malaysia to the next middle-east-asia profile with taxes still pending."
+    "reason": "Verification queue remains below the active threshold; continue low-depth Tier-3-hint tax passes, rotating from Thailand to the next middle-east-asia profile with taxes still pending."
   },
   "countries": {
     "Spain": {
@@ -917,15 +917,15 @@
     "Thailand": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -939,10 +939,12 @@
         "dtv-bridge-not-settlement",
         "ltr-income-above-current-budget",
         "marriage-needed-for-dependent-baseline",
-        "hot-humid-monsoon-climate"
+        "hot-humid-monsoon-climate",
+        "thailand-remittance-tax-risk",
+        "thailand-vat-social-security-fit-gap"
       ],
-      "last_iteration": 48,
-      "unverified_count": 0
+      "last_iteration": 96,
+      "unverified_count": 1
     },
     "Indonesia": {
       "tier": null,
@@ -1035,8 +1037,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 6,
-  "sources_count": 469,
-  "claims_count": 381,
+  "verification_queue_size": 7,
+  "sources_count": 475,
+  "claims_count": 386,
   "proposals_pending": 0
 }

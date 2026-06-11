@@ -5661,3 +5661,75 @@ Each source entry:
 - **Facts supporting**: run-095 USD/MYR conversion for the Malaysia USD 3,000/month tax worked example: USD 1 = MYR 4.06831 (claim-malaysia-012)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-11
+
+## src-471
+- **Title**: PwC Worldwide Tax Summaries — Thailand Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/thailand/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-02
+- **Date accessed**: 2026-06-11
+- **Used by**: Thailand
+- **Facts supporting**: Thailand PIT scope for resident/non-resident Thai-source employment or business income, post-2024 foreign-source remittance rule for residents, progressive PIT brackets, and USD 3,000/month PIT worked example (claim-thailand-007, claim-thailand-008, claim-thailand-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-02
+
+## src-472
+- **Title**: PwC Worldwide Tax Summaries — Thailand Individual: Residence
+- **URL**: https://taxsummaries.pwc.com/thailand/individual/residence
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-02
+- **Date accessed**: 2026-06-11
+- **Used by**: Thailand
+- **Facts supporting**: Thailand individual tax-residence threshold of 180+ aggregate days in a calendar tax year (claim-thailand-007)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-02
+
+## src-473
+- **Title**: PwC Worldwide Tax Summaries — Thailand Corporate: Other taxes
+- **URL**: https://taxsummaries.pwc.com/thailand/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-02
+- **Date accessed**: 2026-06-11
+- **Used by**: Thailand
+- **Facts supporting**: VAT on goods/services, export zero-rating context, electronic-services registration threshold, employee social-security contribution rate and cap, and unresolved DTV freelancer VAT/social-security fit (claim-thailand-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-02
+
+## src-474
+- **Title**: PwC Worldwide Tax Summaries — Thailand Individual: Deductions
+- **URL**: https://taxsummaries.pwc.com/thailand/individual/deductions
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-02
+- **Date accessed**: 2026-06-11
+- **Used by**: Thailand
+- **Facts supporting**: THB 60,000 personal allowance, spouse allowance if spouse does not file one's own return, and deduction inputs for the Thailand USD 3,000/month worked example (claim-thailand-009, claim-thailand-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-02
+
+## src-475
+- **Title**: PwC Worldwide Tax Summaries — Thailand Individual: Tax administration
+- **URL**: https://taxsummaries.pwc.com/thailand/individual/tax-administration
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-02
+- **Date accessed**: 2026-06-11
+- **Used by**: Thailand
+- **Facts supporting**: calendar-year tax period, annual paper/online filing deadlines, six-month business return, payment timing, and separate/joint spouse filing option (claim-thailand-009)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-02
+
+## src-476
+- **Title**: ExchangeRate-API open rates — USD to THB snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: not captured; API snapshot]
+- **Type**: commercial
+- **Date published**: 2026-06-11T00:02:31Z
+- **Date accessed**: 2026-06-11
+- **Used by**: Thailand
+- **Facts supporting**: run-096 USD/THB conversion for the Thailand USD 3,000/month tax worked example: USD 1 = THB 32.936578 (claim-thailand-011)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-11

@@ -184,6 +184,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+## vq-116 [medium priority]
+- **Fact**: "Thailand foreign-client IT tax structure for a DTV holder: exact source/remittance treatment, tax registration category, deductible-expense class, VAT/export-service handling, social-security exposure, and DTV extension/status compatibility"
+- **Country**: Thailand
+- **Section**: 5.3
+- **Current source**: src-257, src-471, src-472, src-473, src-474, src-475, src-476
+- **Why uncertain**: This tax pass captured ordinary Thai PIT scope, the 180-day residence rule, post-2024 foreign-source remittance risk, filing mechanics, social-security/VAT context, and a USD 3,000/month PIT-only worked example, but did not prove the exact Thai Revenue Department treatment for a Ukrainian DTV remote worker billing foreign clients.
+- **Suggested verification**: Thai Revenue Department guidance or Thai tax adviser confirmation for DTV / foreign-client IT source-remittance classification, registration, deductions, VAT/export-service treatment, social-security exposure, and immigration-status / extension-file compatibility.
+- **Created**: 2026-06-11 (run-096)
+- **Status**: pending
+
 ## vq-114 [medium priority]
 - **Fact**: "Argentina foreign-client IT tax structure: exact ARCA registration category, monotributo versus autonomous-worker eligibility, VAT/export-service treatment, provincial Ingresos Brutos exposure, self-employed social-security/health obligations, banking/invoice settlement, and DN/temporary-residence compatibility"
 - **Country**: Argentina
