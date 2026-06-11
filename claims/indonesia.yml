@@ -42,3 +42,49 @@
   confidence: medium
   tags: [climate, temperature, humidity, jakarta, surabaya, bandung, bali]
   notes: "No winter issue, but humidity, rainfall, and flooding/monsoon comfort risks require later city selection. WeatherSpark clearer-sky proxies add about 77 day-equivalent days for Jakarta, 96 for Surabaya, and 39 for Medan."
+
+
+- id: claim-indonesia-006
+  topic: indonesia_tax_residence_scope
+  value: "Indonesia treats an individual as tax resident if they reside in Indonesia, are present for more than 183 days in any 12-month period, or are present in a fiscal year and intend to reside; tax residents are generally taxed on worldwide income."
+  source: [src-477, src-478]
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax, residence, worldwide-income]
+  notes: "PwC also reports a conditional first-four-years territorial concession for some skilled foreign tax residents, but this is not assumed for scoring."
+
+- id: claim-indonesia-007
+  topic: indonesia_resident_pit_rates_2026
+  value: "Indonesia's resident individual PIT brackets are 5% up to IDR 60m, 15% above IDR 60m to IDR 250m, 25% above IDR 250m to IDR 500m, 30% above IDR 500m to IDR 5b, and 35% above IDR 5b."
+  source: src-477
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax, pit, brackets, 2026]
+  notes: "Non-resident Indonesian-source income is generally subject to 20% WHT, subject to treaty concessions."
+
+- id: claim-indonesia-008
+  topic: indonesia_personal_relief_marriage
+  value: "Indonesia's basic annual personal relief is IDR 54m, with IDR 4.5m spouse relief and IDR 4.5m per dependant up to three; relief is not available to non-residents."
+  source: src-479
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax, deductions, marriage, dependants]
+  notes: "At the couple's income level, spouse relief changes tax only modestly; immigration/dependent planning remains the larger marriage issue."
+
+- id: claim-indonesia-009
+  topic: indonesia_vat_bpjs_context
+  value: "PwC reports effective 11% VAT for most taxable goods/services, 12% for certain luxury goods, zero-rating for exported services subject to Ministry of Finance limits including some IT services, and BPJS/housing-savings rules that may touch expatriate independent workers but need route-specific confirmation."
+  source: src-480
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax, vat, bpjs, exported-services, social-security]
+  notes: "Exact E33G freelancer VAT/BPJS/housing-savings treatment remains a verification item."
+
+- id: claim-indonesia-010
+  topic: indonesia_usd3000_tax_worked_example
+  value: "At USD 3,000/month and USD 1 = IDR 17,916.976082, gross is about IDR 53.75m/month; conservative resident PIT-only modelling with IDR 54m personal relief leaves about IDR 43.64m/month, or about USD 2,436, before accountant, VAT, BPJS/housing-savings, insurance, visa, and living costs."
+  source: [src-477, src-479, src-481]
+  date_verified: 2026-06-11
+  confidence: medium
+  tags: [tax, worked-example, fx, indonesia, remote-it]
+  notes: "This is a screening calculation, not filing advice, and it does not solve the E33G USD 60,000/year immigration gate."

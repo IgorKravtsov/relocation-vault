@@ -1,14 +1,14 @@
 ---
 country: Indonesia
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-05T14:48:05Z
+depth_score: 2.0
+last_updated: 2026-06-11T12:33:59Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["remote-worker-income-above-current-budget","bridge-route-not-settlement","pr-ladder-unclear","hot-humid-rainy-climate"]
-sources_used: ["src-262","src-263","src-264","src-265","src-266"]
-unverified_count: 0
+sections_partial: ["5.1","5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["remote-worker-income-above-current-budget","bridge-route-not-settlement","pr-ladder-unclear","hot-humid-rainy-climate","indonesia-tax-residence-worldwide-income-risk","indonesia-vat-bpjs-fit-gap"]
+sources_used: ["src-262","src-263","src-264","src-265","src-266","src-477","src-478","src-479","src-480","src-481"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to Indonesia as a bridge/base rather than a proven settlement route for this couple: Ukraine is listed among Indonesia's VoA/e-VoA subject countries, and the official E33G remote-worker limited-stay visa exists, but its US$60,000/year income requirement is above the couple's current ~US$36,000/year income. [src-263][src-264]
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-05T14:48:05Z
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-11T12:33:59Z
 - **Tier rationale**: Do not classify yet. The core route is official but income-gated and the first pass did not capture a durable PR/citizenship ladder for a foreign-client IT worker using E33G.
 
 ## Block 2 — Scoring
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | medium | VoA/e-VoA can support scouting, and E33G exists for remote workers, but the US$60,000/year threshold is above current income and long-term settlement mechanics are not captured. | §5.1 |
 | Climate | — | medium | No cold winter; Java/Bali are warm year-round, but humidity, monsoon rain, flooding risk, and low clearer-sky proxies make comfort mixed. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | Indonesia is not a tax-free bridge by default: tax residents are generally taxed on worldwide income, with a skilled-foreigner territorial concession that needs adviser confirmation; PIT-only stress test leaves about USD 2,436/month. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -84,9 +84,38 @@ Indonesia has no cold-winter problem: the country is generally equatorial/tropic
 
 **Climate verdict**: section 5.2 passes at medium confidence. Indonesia is warm enough, but the couple should screen for humidity tolerance, flood exposure, air quality, and whether Bali/Bandung comfort offsets legal-route weakness.
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. This pass gives a conservative PIT screening model and core filing/VAT/social-security context, but does not prove the exact Indonesian tax category for an E33G remote worker or a foreign-client IT freelancer.
+
+#### Tax-residence and income-scope baseline
+
+PwC Indonesia says an individual is tax resident if they reside in Indonesia, are present in Indonesia for more than 183 days in any 12-month period, or are present during a fiscal year with an intention to reside. A tax resident is generally taxed on worldwide income, while non-residents are generally subject to 20% withholding tax on Indonesian-source income. [src-477][src-478]
+
+There is an important but not yet usable optimization: PwC notes that under the Omnibus Law, some foreign individuals who become Indonesian tax residents can be taxed only on Indonesian-sourced income, including offshore-paid Indonesian-source income, for their first four years if they meet skill requirements. Do **not** assume this shelters foreign-client IT income for the couple without Indonesian tax-adviser confirmation; treaty interaction and whether remote IT performed from Indonesia is Indonesian-source remain application-prep issues. [src-477]
+
+#### PIT rates, allowances, marriage effect
+
+For 2026, resident individual PIT brackets are 5% up to IDR 60m, 15% from IDR 60m to IDR 250m, 25% from IDR 250m to IDR 500m, 30% from IDR 500m to IDR 5b, and 35% above IDR 5b. The basic annual personal relief is IDR 54m, plus IDR 4.5m for a spouse and IDR 4.5m per dependent up to three; relief is not available to non-resident taxpayers. [src-477][src-479]
+
+Marriage has only a modest tax effect at the couple's income level if the second partner has no Indonesian taxable income: spouse relief would add IDR 4.5m/year of allowance, worth roughly IDR 1.35m/year in the 30% bracket, or only about USD 6/month at this run's FX. Marriage may matter much more for immigration/dependent planning than for tax. [src-479][src-481]
+
+#### Registration, social security, VAT, incentives
+
+PwC's tax-administration page gives the filing baseline: the tax year is the calendar year; individual annual income tax must be paid and filed by the end of the third month after year-end; monthly Article 25 individual-income-tax payments, where applicable, are due by the 15th of the following month with return filing by the 20th. [src-479]
+
+Indonesia has BPJS worker social-security programs and a housing-savings scheme, but the captured material is employee/employer-oriented and only partly addresses independent workers. PwC's corporate other-taxes page says housing-savings contributions can apply to employees and independent workers earning at least minimum wage, including expatriates with working visas who have worked at least six months in Indonesia, but the exact E33G freelancer/foreign-client BPJS and housing-savings treatment remains unverified. [src-480]
+
+VAT is a real follow-up risk rather than a solved blocker. PwC says VAT is effectively 11% for most taxable goods and services, with 12% for certain luxury goods; exported services can be zero-rated subject to Ministry of Finance limitations, including listed information and technology services where the output is utilised outside Indonesia. Whether a Ukrainian IT worker billing foreign clients from Indonesia can use this treatment, and whether any VAT registration/invoicing duties apply, needs Indonesian adviser or DGT confirmation. [src-480]
+
+PwC's individual incentive page says there are no other significant individual tax credits or incentives in Indonesia. The only captured favorable item is the skilled-foreigner territorial concession described above, but it is too conditional to score as default. [src-477]
+
+#### Worked example at USD 3,000/month
+
+FX snapshot: USD 1 = IDR 17,916.976082, so USD 3,000/month is about IDR 53.75m/month or IDR 645.0m/year. Conservative resident PIT-only model, using only the IDR 54m personal relief and no business-expense optimization: taxable income about IDR 591.0m/year; PIT about IDR 121.3m/year; net about IDR 43.64m/month, or about USD 2,436/month, before accountant, VAT, BPJS/housing-savings, insurance, visa, and living costs. [src-477][src-479][src-481]
+
+This is acceptable for a tax screen but does not rescue the route: the E33G immigration income threshold remains USD 60,000/year, above the couple's current income. If income rises enough to use E33G, tax planning must be done before staying long enough to trigger Indonesian residence. [src-264][src-477]
+
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -162,7 +191,7 @@ Indonesia has no cold-winter problem: the country is generally equatorial/tropic
 - If entering on E33G, confirm automatic limited-stay permit / re-entry permit issuance at admission and set up e-visa account access for extensions. [src-264]
 
 ### 6c. First 3–6 months
-- Verify tax residence and foreign-client income reporting before staying long enough to trigger Indonesian tax obligations if E33G becomes realistic.
+- Verify tax residence and foreign-client income reporting before staying long enough to trigger Indonesian tax obligations if E33G becomes realistic; conservative PIT-only screening at USD 3,000/month leaves about IDR 43.64m / USD 2,436 before VAT/BPJS/accountant/immigration costs. [src-477][src-479][src-481]
 - Verify dependent/family filing for spouse; do not assume unmarried-partner coverage.
 
 ### 6d. Before March 2027 (critical deadline)
@@ -200,7 +229,10 @@ Indonesia has no cold-winter problem: the country is generally equatorial/tropic
 - [src-264] Indonesia Immigration — E33G remote-worker / second-home limited-stay visa page
 
 ### 7b. Reputable secondary
-_(none yet)_
+- [src-477] PwC Indonesia — individual PIT scope and 2026 rates
+- [src-478] PwC Indonesia — individual tax residence
+- [src-479] PwC Indonesia — deductions, filing deadlines, and individual incentives
+- [src-480] PwC Indonesia — corporate other taxes / VAT / BPJS context
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -210,9 +242,11 @@ _(none yet)_
 - [src-266] WeatherSpark — Indonesia country climate comparison
 
 ### 7e. Not found
-- Exact E33G dependent/spouse mechanics, tax treatment, and ITAP/citizenship category-counting remain later application-prep / long-term-route checks; safe screening baseline is bridge-only and above current income.
+- Exact E33G dependent/spouse mechanics and ITAP/citizenship category-counting remain later application-prep / long-term-route checks; safe screening baseline is bridge-only and above current income.
+- Exact DGT / Indonesian tax-adviser treatment for E33G foreign-client IT source classification, skilled-foreigner territorial concession fit, NPWP/registration category, VAT/exported-service status, BPJS/housing-savings exposure, and immigration-status compatibility remains open (`vq-117`).
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-081` — resolved 2026-06-05 (run-052): E33G is above current income and should be treated as bridge-only; dependent/tax/conversion microdetails are later checks if income rises.
 - `vq-082` — resolved 2026-06-05 (run-052): no captured ITAP/PR/citizenship ladder for foreign-client remote IT without a local employer; do not score Indonesia as settlement.
+- `vq-117` — pending: exact Indonesian tax treatment for E33G / foreign-client IT source classification, skilled-foreigner territorial concession fit, registration, VAT/exported-service handling, BPJS/housing-savings, and immigration-status compatibility.

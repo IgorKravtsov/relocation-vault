@@ -5733,3 +5733,64 @@ Each source entry:
 - **Facts supporting**: run-096 USD/THB conversion for the Thailand USD 3,000/month tax worked example: USD 1 = THB 32.936578 (claim-thailand-011)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-11
+
+
+## src-477
+- **Title**: PwC Worldwide Tax Summaries — Indonesia Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/indonesia/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-06-11
+- **Date accessed**: 2026-06-11
+- **Used by**: Indonesia
+- **Facts supporting**: Indonesian resident worldwide-income baseline, skilled-foreigner territorial concession caveat, non-resident 20% WHT baseline, 2026 PIT brackets, and USD 3,000/month PIT worked example (claim-indonesia-006, claim-indonesia-007, claim-indonesia-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-11
+
+## src-478
+- **Title**: PwC Worldwide Tax Summaries — Indonesia Individual: Residence
+- **URL**: https://taxsummaries.pwc.com/indonesia/individual/residence
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-06-11
+- **Date accessed**: 2026-06-11
+- **Used by**: Indonesia
+- **Facts supporting**: Indonesian individual tax-residence tests: residence, more than 183 days in any 12-month period, or presence plus intention to reside (claim-indonesia-006)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-11
+
+## src-479
+- **Title**: PwC Worldwide Tax Summaries — Indonesia Individual: Deductions / Tax administration / Other tax credits and incentives
+- **URL**: https://taxsummaries.pwc.com/indonesia/individual/deductions ; https://taxsummaries.pwc.com/indonesia/individual/tax-administration ; https://taxsummaries.pwc.com/indonesia/individual/other-tax-credits-and-incentives
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-06-11
+- **Date accessed**: 2026-06-11
+- **Used by**: Indonesia
+- **Facts supporting**: IDR 54m personal relief, IDR 4.5m spouse/dependant reliefs, calendar-year tax period, annual and monthly filing/payment deadlines, absence of other significant individual tax incentives, and worked-example inputs (claim-indonesia-008, claim-indonesia-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-11
+
+## src-480
+- **Title**: PwC Worldwide Tax Summaries — Indonesia Corporate: Other taxes
+- **URL**: https://taxsummaries.pwc.com/indonesia/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-06-11
+- **Date accessed**: 2026-06-11
+- **Used by**: Indonesia
+- **Facts supporting**: effective 11% VAT / 12% luxury VAT context, exported-service zero-rating limits including IT services, BPJS and housing-savings context for employees / independent workers / expatriates, and unresolved E33G freelancer fit (claim-indonesia-009)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-11
+
+## src-481
+- **Title**: ExchangeRate-API open rates — USD to IDR snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: not captured; API snapshot]
+- **Type**: commercial
+- **Date published**: 2026-06-11T00:02:31Z
+- **Date accessed**: 2026-06-11
+- **Used by**: Indonesia
+- **Facts supporting**: run-097 USD/IDR conversion for the Indonesia USD 3,000/month tax worked example: USD 1 = IDR 17,916.976082 (claim-indonesia-010)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-11

@@ -184,6 +184,17 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Low priority
 
+
+## vq-117 [medium priority]
+- **Fact**: "Indonesia E33G / foreign-client IT tax structure: exact source classification, skilled-foreigner territorial concession fit, NPWP/registration category, VAT/exported-service handling, BPJS/housing-savings exposure, and immigration-status compatibility"
+- **Country**: Indonesia
+- **Section**: 5.3
+- **Current source**: src-264, src-477, src-478, src-479, src-480, src-481
+- **Why uncertain**: This tax pass captured Indonesian tax-residence scope, resident PIT brackets, personal reliefs, filing timing, VAT/exported-service context, BPJS/housing-savings context, and a USD 3,000/month PIT-only worked example, but did not prove whether a Ukrainian E33G remote worker billing foreign clients can use the skilled-foreigner territorial concession, whether the work is Indonesian-source, or exactly how VAT/BPJS/registration apply.
+- **Suggested verification**: Indonesian Directorate General of Taxes guidance or Indonesian tax adviser confirmation for E33G / foreign-client IT source classification, skilled-foreigner concession eligibility, NPWP/registration, VAT/exported-service treatment, BPJS/housing-savings exposure, and immigration-status compatibility.
+- **Created**: 2026-06-11 (run-097)
+- **Status**: pending
+
 ## vq-116 [medium priority]
 - **Fact**: "Thailand foreign-client IT tax structure for a DTV holder: exact source/remittance treatment, tax registration category, deductible-expense class, VAT/export-service handling, social-security exposure, and DTV extension/status compatibility"
 - **Country**: Thailand

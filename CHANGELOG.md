@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-11
 ---
 
+## 2026-06-11 — run-097
+- Indonesia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative resident PIT screen.
+- Added Indonesia tax / FX sources `src-477` through `src-481` and claims `claim-indonesia-006` through `claim-indonesia-010`.
+- Main finding: at USD 3,000/month (about IDR 53.75m/month), resident PIT-only modelling with IDR 54m personal relief leaves about IDR 43.64m / USD 2,436 before accountant, VAT, BPJS/housing-savings, insurance, visa, and living costs.
+- Added `vq-117` for E33G / foreign-client IT source classification, skilled-foreigner concession fit, NPWP/registration, VAT/exported-service, BPJS/housing-savings, and status compatibility; queue 7 -> 8, below the active verification threshold.
+
 ## 2026-06-11 — run-096
 - Thailand: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative resident/remitted-income PIT screen.
 - Added Thailand tax / FX sources `src-471` through `src-476` and claims `claim-thailand-007` through `claim-thailand-011`.
