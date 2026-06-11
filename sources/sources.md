@@ -5588,3 +5588,76 @@ Each source entry:
 - **Facts supporting**: 5% VAT baseline, export-services zero-rating subject to conditions, AED 375,000 mandatory VAT-registration threshold, AED 187,500 voluntary threshold, and non-GCC nationals outside UAE social security (claim-uae-009)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-03-12
+
+
+## src-465
+- **Title**: PwC Worldwide Tax Summaries — Malaysia Individual: Taxes on personal income
+- **URL**: https://taxsummaries.pwc.com/malaysia/individual/taxes-on-personal-income
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-19
+- **Date accessed**: 2026-06-11
+- **Used by**: Malaysia
+- **Facts supporting**: Malaysian-source / foreign-sourced income baseline, 2026 resident PIT rate table, non-resident 30% rate, no local personal income taxes, and USD 3,000/month PIT stress test (claim-malaysia-008, claim-malaysia-009, claim-malaysia-012)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-19
+
+## src-466
+- **Title**: PwC Worldwide Tax Summaries — Malaysia Individual: Residence
+- **URL**: https://taxsummaries.pwc.com/malaysia/individual/residence
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-19
+- **Date accessed**: 2026-06-11
+- **Used by**: Malaysia
+- **Facts supporting**: Malaysia individual tax residence threshold of 182+ days in a calendar year and resident/non-resident consequence for reliefs and graduated rates (claim-malaysia-008)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-19
+
+## src-467
+- **Title**: PwC Worldwide Tax Summaries — Malaysia Individual: Income determination
+- **URL**: https://taxsummaries.pwc.com/malaysia/individual/income-determination
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-19
+- **Date accessed**: 2026-06-11
+- **Used by**: Malaysia
+- **Facts supporting**: employment income taxed when work is performed in Malaysia regardless of payment location; foreign-sourced income received in Malaysia may be taxable with listed exemptions subject to conditions (claim-malaysia-008)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-19
+
+## src-468
+- **Title**: PwC Worldwide Tax Summaries — Malaysia Individual: Deductions
+- **URL**: https://taxsummaries.pwc.com/malaysia/individual/deductions
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-19
+- **Date accessed**: 2026-06-11
+- **Used by**: Malaysia
+- **Facts supporting**: YA 2026 personal reliefs including MYR 9,000 self relief and MYR 4,000 spouse relief under joint assessment; calculation inputs for the resident PIT worked example (claim-malaysia-011, claim-malaysia-012)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-19
+
+## src-469
+- **Title**: PwC Worldwide Tax Summaries — Malaysia Individual: Other taxes and tax administration
+- **URL**: https://taxsummaries.pwc.com/malaysia/individual/other-taxes and https://taxsummaries.pwc.com/malaysia/individual/tax-administration
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2025-12-19
+- **Date accessed**: 2026-06-11
+- **Used by**: Malaysia
+- **Facts supporting**: non-Malaysian employee EPF rates, SOCSO case-by-case warning for foreign workers, SST/service-tax context, calendar-year tax period, self-assessment, filing deadlines, e-filing, and separate/joint spouse assessment mechanics (claim-malaysia-010, claim-malaysia-011)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-19
+
+## src-470
+- **Title**: ExchangeRate-API open rates — USD to MYR snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: not captured; API snapshot]
+- **Type**: commercial
+- **Date published**: 2026-06-11T00:02:31Z
+- **Date accessed**: 2026-06-11
+- **Used by**: Malaysia
+- **Facts supporting**: run-095 USD/MYR conversion for the Malaysia USD 3,000/month tax worked example: USD 1 = MYR 4.06831 (claim-malaysia-012)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-11

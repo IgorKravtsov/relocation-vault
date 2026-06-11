@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-11
 ---
 
+## 2026-06-11 — run-095
+- Malaysia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative resident PIT stress test.
+- Added Malaysia tax / FX sources `src-465` through `src-470` and claims `claim-malaysia-008` through `claim-malaysia-012`.
+- Main finding: at USD 3,000/month (about MYR 12,205), resident-rate PIT after basic self relief leaves about MYR 10,641 / USD 2,616 before accountant, SST, social-security, healthcare, and immigration costs; a non-resident taxable-income downside leaves about USD 2,100.
+- Added `vq-115` for DE Rantau foreign-client source classification, tax registration, SST/e-invoice, EPF/SOCSO, and status compatibility; queue 5 -> 6, below the active verification threshold.
+
 ## 2026-06-11 — run-094
 - UAE: depth_score 1.5 -> 2.5; section 5.3 taxes moved from pending to completed for country screening.
 - Added UAE tax sources `src-462` through `src-464` and claims `claim-uae-007` through `claim-uae-009`.

@@ -1389,3 +1389,14 @@ _(none)_
 - **Status**: resolved
 - **Resolved**: 2026-06-11 (run-093)
 - **Resolution note**: Resolved for screening: Mexico already has a conservative ordinary-resident PIT baseline plus explicit RESICO/VAT/IMSS caveats; exact SAT regime, RESICO, VAT/export, IMSS, and residence-file fit is application-prep/accountant work.
+
+
+## vq-115 [medium priority]
+- **Fact**: "Malaysia DE Rantau / foreign-client IT tax structure: exact source classification for remote work performed in Malaysia, foreign-sourced-income exemption fit, tax-registration category, SST/e-invoice obligations, EPF/SOCSO exposure, and immigration-status compatibility"
+- **Country**: Malaysia
+- **Section**: 5.3
+- **Current source**: src-465, src-466, src-467, src-468, src-469, src-470
+- **Why uncertain**: This tax pass captured Malaysia's resident/non-resident PIT framework, tax-residence threshold, foreign-source and work-performed-in-Malaysia caveats, filing deadlines, reliefs, EPF/SOCSO/SST context, and a USD 3,000/month resident-rate stress test, but did not prove the exact DE Rantau foreign-client IT filing category or whether any foreign-sourced-income exemption, SST/e-invoice, EPF/SOCSO, or immigration-status constraint applies.
+- **Suggested verification**: Check Inland Revenue Board / Royal Malaysian Customs / EPF / SOCSO guidance or a Malaysian tax adviser for DE Rantau foreign-client freelancers; confirm source classification, registration form, SST/e-invoice exposure, EPF/SOCSO, and whether the tax posture is compatible with the Professional Visit Pass.
+- **Created**: 2026-06-11 (run-095)
+- **Status**: pending

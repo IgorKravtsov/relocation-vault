@@ -1,25 +1,25 @@
 {
   "version": 2,
-  "iteration": 94,
+  "iteration": 95,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-11T03:12:09Z",
+  "last_run_timestamp": "2026-06-11T06:20:51Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "UAE",
+    "country": "Malaysia",
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Malaysia",
+    "suggested_country": "Thailand",
     "suggested_sections": [
       "5.3"
     ],
-    "reason": "Verification queue remains below the active threshold; continue low-depth Tier-3-hint tax passes, rotating from UAE to another middle-east-asia profile with taxes still pending."
+    "reason": "Verification queue remains below the active threshold; continue low-depth Tier-3-hint tax passes, rotating from Malaysia to the next middle-east-asia profile with taxes still pending."
   },
   "countries": {
     "Spain": {
@@ -886,15 +886,15 @@
     "Malaysia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 1.5,
+      "depth_score": 2.0,
       "sections_completed": [
         "5.2"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.3"
       ],
       "sections_pending": [
-        "5.3",
         "5.4",
         "5.5",
         "5.6",
@@ -907,10 +907,12 @@
       "risk_flags": [
         "derantau-bridge-only",
         "pr-ladder-unclear",
-        "hot-humid-rainy-year-round"
+        "hot-humid-rainy-year-round",
+        "malaysia-foreign-client-tax-source-gap",
+        "malaysia-social-security-fit-gap"
       ],
-      "last_iteration": 54,
-      "unverified_count": 0
+      "last_iteration": 95,
+      "unverified_count": 1
     },
     "Thailand": {
       "tier": null,
@@ -1033,8 +1035,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 5,
-  "sources_count": 463,
-  "claims_count": 376,
+  "verification_queue_size": 6,
+  "sources_count": 469,
+  "claims_count": 381,
   "proposals_pending": 0
 }

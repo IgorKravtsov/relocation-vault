@@ -61,3 +61,49 @@
   confidence: medium
   tags: [climate, clearer-sky, sunny-days-proxy, weather-spark]
   notes: "Calculated as sum(month_length * monthly clearer-sky percentage / 100), rounded to whole days; these are broader clearer-sky proxies, not official sunny-day counts."
+
+
+- id: claim-malaysia-008
+  topic: malaysia_tax_residence_and_source_scope
+  value: "Malaysia generally treats an individual as tax resident at 182+ days in a calendar year; individuals are taxed on Malaysian-source income, and resident individuals are also subject to foreign-sourced income received in Malaysia."
+  source: src-465
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax-residence, source-scope, pit]
+  notes: "Residence threshold is from src-466; foreign-source and Malaysian-source baseline is from src-465. Exact DE Rantau foreign-client source classification remains application-prep/accountant work."
+
+- id: claim-malaysia-009
+  topic: malaysia_resident_pit_rates_2026
+  value: "Resident individual PIT rates are progressive from 0% / 1% in low brackets up to 25% above MYR 100,000 and 30% above MYR 2,000,000; non-residents are taxed at a flat 30% on total taxable income."
+  source: src-465
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax, pit, resident-rates, nonresident]
+  notes: "Used for the USD 3,000/month Malaysia resident and non-resident stress tests."
+
+- id: claim-malaysia-010
+  topic: malaysia_social_security_and_sst_context
+  value: "PwC lists non-Malaysian employee EPF contributions at 2% employee / 2% employer, says SOCSO applicability for foreign workers is case-by-case, and gives sales/service tax context including generally 8% service tax with 2025 scope expansion."
+  source: src-469
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [social-security, epf, socso, sst, vat]
+  notes: "This is employee/indirect-tax context only; exact DE Rantau freelancer obligations are not confirmed."
+
+- id: claim-malaysia-011
+  topic: malaysia_tax_filing_and_marriage_mechanics
+  value: "Malaysia uses calendar-year taxation, self-assessment, return deadlines of 30 April without business income and 30 June with business income, separate spouse returns by default, and possible joint assessment in specified husband/wife cases."
+  source: src-469
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax-filing, marriage, joint-assessment, reliefs]
+  notes: "Spouse/self relief details are also supported by src-468; exact foreign-spouse joint-assessment eligibility needs adviser confirmation."
+
+- id: claim-malaysia-012
+  topic: malaysia_usd3000_tax_screen
+  value: "At USD 3,000/month and USD 1 = MYR 4.06831, gross is about MYR 12,205/month; resident PIT stress test after MYR 9,000 self relief leaves about MYR 10,641/month (USD 2,616), while a non-resident 30% taxable-income downside leaves about MYR 8,544/month (USD 2,100)."
+  source: src-470
+  date_verified: 2026-06-11
+  confidence: medium
+  tags: [tax, worked-example, fx, net-income]
+  notes: "Tax bands from src-465 and self relief from src-468; this is a conservative screening calculation before accountant, SST, social-security, health-insurance, and immigration costs."
