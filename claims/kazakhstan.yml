@@ -42,3 +42,49 @@
   confidence: medium
   tags: [climate, astana, almaty, shymkent, clearer-sky-proxy]
   notes: "Climate to Travel source src-272 supports the broader continental-climate and winter-comfort caveats."
+
+
+- id: claim-kazakhstan-006
+  topic: kazakhstan_tax_residence_scope
+  value: "Kazakhstan residents are taxed on worldwide income; tax residence generally starts at 183 or more days in Kazakhstan in a rolling 12-month period, or under a centre-of-vital-interest test."
+  source: src-482
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax-residence, worldwide-income, 183-days]
+  notes: "Centre-of-vital-interest criteria include Kazakhstan citizenship or residence permit, family/close relatives in Kazakhstan, and available Kazakhstan real estate."
+
+- id: claim-kazakhstan-007
+  topic: kazakhstan_2026_pit_rates
+  value: "For 2026, individual taxable income is taxed at 10% up to 8,500 MCI and 15% above 8,500 MCI."
+  source: src-482
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax, pit, 2026, rates]
+  notes: "PwC corporate other-taxes context gives 1 MCI = KZT 4,325 for 2026, making the 8,500 MCI threshold KZT 36,762,500/year."
+
+- id: claim-kazakhstan-008
+  topic: kazakhstan_2026_deductions_and_filing
+  value: "From 1 January 2026 the basic deduction is 30 MCI per month; non-taxable-at-source individual income is declared annually by 15 September and self-assessed PIT is paid by 25 September."
+  source: src-483
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [tax, deduction, filing, individual-entrepreneur]
+  notes: "Business deductions are available only if the individual is registered as an entrepreneur; no significant individual tax incentives were captured."
+
+- id: claim-kazakhstan-009
+  topic: kazakhstan_vat_and_contribution_context
+  value: "PwC reports 2026 VAT at 16%, a VAT registration threshold of 10,000 MCI, employee OMIC at 2%, employee OPC at 10%, and employee/employer social-medical-pension rules that depend on status/residence/employment category."
+  source: src-484
+  date_verified: 2026-06-11
+  confidence: medium-high
+  tags: [vat, social-contributions, medical-insurance, pension, verification-required]
+  notes: "The exact contribution and VAT/place-of-supply fit for a Ukrainian foreign-client IT entrepreneur or Neo Nomad filer remains unresolved."
+
+- id: claim-kazakhstan-010
+  topic: kazakhstan_usd3000_tax_worked_example
+  value: "At USD 1 = KZT 488.182834, USD 3,000/month equals about KZT 1,464,549/month; after the 30 MCI/month basic deduction and 10% PIT, PIT-only net is about KZT 1,331,069/month (about USD 2,727)."
+  source: src-486
+  date_verified: 2026-06-11
+  confidence: medium
+  tags: [tax, worked-example, fx, usd3000]
+  notes: "This is a PIT-only screening calculation before accountant, VAT, health/social/pension contributions, residence costs, and banking friction; an employee-style 10% OPC + 2% OMIC sensitivity leaves about USD 2,403/month."

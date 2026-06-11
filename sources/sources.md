@@ -5794,3 +5794,64 @@ Each source entry:
 - **Facts supporting**: run-097 USD/IDR conversion for the Indonesia USD 3,000/month tax worked example: USD 1 = IDR 17,916.976082 (claim-indonesia-010)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-11
+
+
+## src-482
+- **Title**: PwC Worldwide Tax Summaries — Kazakhstan Individual: Taxes on personal income / Residence
+- **URL**: https://taxsummaries.pwc.com/kazakhstan/individual/taxes-on-personal-income ; https://taxsummaries.pwc.com/kazakhstan/individual/residence
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-02
+- **Date accessed**: 2026-06-11
+- **Used by**: Kazakhstan
+- **Facts supporting**: Kazakhstan resident worldwide-income scope, 183-day / centre-of-vital-interest tax-residence test, and 2026 PIT bands of 10% up to 8,500 MCI and 15% above (claim-kazakhstan-006, claim-kazakhstan-007)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-11
+
+## src-483
+- **Title**: PwC Worldwide Tax Summaries — Kazakhstan Individual: Deductions / Income determination / Tax administration / Other tax credits and incentives
+- **URL**: https://taxsummaries.pwc.com/kazakhstan/individual/deductions ; https://taxsummaries.pwc.com/kazakhstan/individual/income-determination ; https://taxsummaries.pwc.com/kazakhstan/individual/tax-administration ; https://taxsummaries.pwc.com/kazakhstan/individual/other-tax-credits-and-incentives
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-02
+- **Date accessed**: 2026-06-11
+- **Used by**: Kazakhstan
+- **Facts supporting**: 30 MCI/month basic deduction, business deductions only for registered entrepreneurs, individual-entrepreneur income determination, annual filing/payment deadlines, and no captured significant individual incentives (claim-kazakhstan-008, claim-kazakhstan-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-11
+
+## src-484
+- **Title**: PwC Worldwide Tax Summaries — Kazakhstan Individual: Other taxes; Corporate: Other taxes
+- **URL**: https://taxsummaries.pwc.com/kazakhstan/individual/other-taxes ; https://taxsummaries.pwc.com/kazakhstan/corporate/other-taxes
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: reviewed 2026-02-02 / 2026-04-03
+- **Date accessed**: 2026-06-11
+- **Used by**: Kazakhstan
+- **Facts supporting**: employee/employer social, medical, and pension contribution context; 2026 VAT rate of 16%; 10,000 MCI VAT threshold; quarterly VAT reporting; 1 MCI = KZT 4,325 for 2026 (claim-kazakhstan-009, claim-kazakhstan-010)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-11
+
+## src-485
+- **Title**: eGov Kazakhstan — Notification on start-up of individual entrepreneur business
+- **URL**: https://egov.kz/cms/en/services/reg_ip
+- **Archive**: [stable gov portal; direct HTML extraction used]
+- **Type**: official-primary
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-11
+- **Used by**: Kazakhstan
+- **Facts supporting**: official online entry point for individual-entrepreneur start-up notification through E-Licensing, free of charge, with EDS signature and personal-account tracking
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-11
+
+## src-486
+- **Title**: ExchangeRate-API open rates — USD to KZT snapshot
+- **URL**: https://open.er-api.com/v6/latest/USD
+- **Archive**: [archive: not captured; API snapshot]
+- **Type**: commercial
+- **Date published**: 2026-06-11T00:02:31Z
+- **Date accessed**: 2026-06-11
+- **Used by**: Kazakhstan
+- **Facts supporting**: run-098 USD/KZT conversion for the Kazakhstan USD 3,000/month tax worked example: USD 1 = KZT 488.182834 (claim-kazakhstan-010)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-07-11

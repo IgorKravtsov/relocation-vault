@@ -1,14 +1,14 @@
 ---
 country: Kazakhstan
 tier: null
-depth_score: 1.5
-last_updated: 2026-06-05T14:48:05Z
+depth_score: 2.0
+last_updated: 2026-06-11T15:38:28Z
 sections_completed: ["5.2"]
-sections_partial: ["5.1"]
-sections_pending: ["5.3","5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["ordinary-trp-not-settlement", "dn-route-secondary-sourced", "pr-citizenship-ladder-unclear", "cold-continental-winters"]
-sources_used: ["src-267", "src-268", "src-269", "src-270", "src-271", "src-272", "src-273"]
-unverified_count: 0
+sections_partial: ["5.1", "5.3"]
+sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["ordinary-trp-not-settlement", "dn-route-secondary-sourced", "pr-citizenship-ladder-unclear", "cold-continental-winters", "kazakhstan-foreign-client-tax-structure-gap"]
+sources_used: ["src-267", "src-268", "src-269", "src-270", "src-271", "src-272", "src-273", "src-482", "src-483", "src-484", "src-485", "src-486"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint until durable settlement mechanics are verified)
-- **depth_score**: 1.5
-- **Last updated**: 2026-06-05T14:48:05Z
-- **Tier rationale**: Kazakhstan is easy for Ukrainian short entry and can be a nearby CIS bridge, but this first pass did not capture a durable foreign-client IT residence ladder. The official TRP page lists one-year temporary-residence purposes for CIS citizens, including labor, business-immigrant, family, and study purposes, while the remote-work / Neo Nomad route is only secondary-sourced and must be confirmed against official visa-category rules before it can be used for scoring. Climate is a major comfort risk outside the south because winters are sharply continental. [src-267][src-268][src-269][src-272][src-273]
+- **depth_score**: 2.0
+- **Last updated**: 2026-06-11T15:38:28Z
+- **Tier rationale**: Kazakhstan is easy for Ukrainian short entry and can be a nearby CIS bridge, but this first pass did not capture a durable foreign-client IT residence ladder. The official TRP page lists one-year temporary-residence purposes for CIS citizens, including labor, business-immigrant, family, and study purposes, while the remote-work / Neo Nomad route is only secondary-sourced and must be confirmed against official visa-category rules before it can be used for scoring. Taxes screen moderately on PIT alone, but the exact foreign-client IT entrepreneur / VAT / contribution structure is unresolved. Climate is a major comfort risk outside the south because winters are sharply continental. [src-267][src-268][src-269][src-272][src-273][src-482][src-483][src-484]
 
 ## Block 2 — Scoring
 
@@ -27,7 +27,7 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | — | low-medium | Ukrainian ordinary passports are officially visa-free up to 90 days; TRP exists for CIS citizens but no self-contained settlement route for foreign-client IT is captured. | §5.1 |
 | Climate | — | medium | South has workable summers and many clear days, but Astana/north has severe winters; all target cities are strongly continental. | §5.2 |
-| Taxes | — | N/A | [verification required] | §5.3 |
+| Taxes | — | medium | PIT is 10% up to 8,500 MCI and 15% above; at USD 3,000/month, a PIT-only screen after the 30 MCI/month basic deduction leaves about KZT 1.33m / USD 2,727 before accountant, VAT, residence-status, and contribution uncertainty. | §5.3 |
 | Cost of living | — | N/A | [verification required] | §5.4 |
 | Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
@@ -85,11 +85,53 @@ Kazakhstan has a markedly continental climate: freezing to cold winters, warm to
 
 Climate verdict for first-pass scoring: **southern Kazakhstan only** is plausible for a warmth-preferring couple; Astana and northern/central areas are poor fits because of long severe winters. Almaty is the practical urban compromise if Kazakhstan remains legally interesting, while Shymkent is warmer and sunnier but needs later cost, healthcare, and comfort checks. [src-272][src-273]
 
-### 5.3. Taxes {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-11, dod: partial}
 
-> **DoD**: effective rate at $3000/mo computed; registration procedure for applicable regime; gross→net example; new-resident reliefs; marriage tax effect.
+> **DoD status**: partial. This pass captures tax residence, PIT rates, deductions, filing timing, individual-entrepreneur registration entry point, VAT threshold/context, and a USD 3,000/month screening calculation. It does not prove the exact Kazakhstan tax-registration / contribution / VAT treatment for a Ukrainian Neo Nomad or foreign-client IT entrepreneur.
 
-[verification required]
+#### Tax residence and taxable scope
+
+PwC says Kazakhstan tax residents are taxed on worldwide income, while non-residents are taxed only on Kazakhstan-source income. An individual becomes a Kazakhstan tax resident after 183 or more days in Kazakhstan in any rolling 12-month period ending in the reporting period, or with less time if the centre of vital interests is in Kazakhstan; the centre-of-vital-interest test requires Kazakhstan citizenship or a residence permit, family/close relatives in Kazakhstan, and available Kazakhstan real estate. For the couple, staying through a TRP / Neo Nomad-like status long enough to settle would likely make tax-residence advice necessary. [src-482]
+
+#### PIT rates and deductions
+
+For 2026, PwC reports individual PIT at 10% on taxable income up to 8,500 MCI and 15% above that threshold. PwC's corporate other-taxes page gives 1 MCI = KZT 4,325 for 2026, so 8,500 MCI is KZT 36,762,500/year. The couple's USD 3,000/month gross at the run-098 FX snapshot is about KZT 1,464,549/month or KZT 17.57m/year, below the 15% band. [src-482][src-484][src-486]
+
+PwC also states that, from 1 January 2026, the basic tax deduction is 30 MCI/month (KZT 129,750/month) with an annual 360 MCI cap, and that business deductions are available only if the individual is registered as an entrepreneur. Individual-entrepreneur taxable income is determined similarly to corporations. There are no other significant individual tax credits or incentives captured by PwC. [src-483]
+
+#### Social, medical, pension, and VAT context
+
+The captured PwC individual social-tax page is mostly employee/employer framed: social tax is 6% on top of remuneration, employer social insurance is 5%, employee medical insurance is 2%, and obligatory pension contributions are 10% for Kazakhstan citizens, foreigners holding Kazakhstan residence permits, and EAEU citizens with a local employment agreement. That does not prove the exact contribution base for a non-EAEU Ukrainian foreign-client entrepreneur or Neo Nomad filer, so contributions are a major application-prep/accountant gap. [src-484]
+
+VAT is a separate risk. PwC's corporate VAT page reports a 16% VAT rate in 2026, a VAT registration threshold of 10,000 MCI (KZT 43.25m/year, about USD 88,594 at the run-098 FX snapshot), and quarterly VAT reporting. The couple's current gross income is below this threshold, but foreign-client IT place-of-supply / e-invoice / export-service treatment was not captured. [src-484][src-486]
+
+#### Registration and filing mechanics
+
+Kazakhstan eGov has an official service page, "Notification on start-up of individual entrepreneur business", through the E-Licensing portal. The service is issued free of charge and the online workflow is: log in/register at e-license, choose the activity subtype, review required documents, fill the application, sign with EDS, and track the result in the personal account / notifications. This supports a concrete individual-entrepreneur registration entry point, but not whether it is compatible with the immigration route used by a Ukrainian remote worker. [src-485]
+
+For filing, PwC says non-taxable-at-source individual income is assessed on a calendar-year basis, annual individual income-tax declarations are due by 15 September of the year following the reporting year, and self-assessed tax is due by 25 September. Tax agents file quarterly payroll reports for employees / civil-contract workers and pay withheld tax by the 25th day of the following month. [src-483]
+
+#### USD 3,000/month worked example
+
+Using ExchangeRate-API's 2026-06-11 USD/KZT snapshot (USD 1 = KZT 488.182834), USD 3,000/month is about KZT 1,464,549/month. PIT-only screening model:
+
+| Step | KZT/month | USD/month equivalent | Notes |
+|---|---:|---:|---|
+| Gross income | 1,464,549 | 3,000 | Foreign-client IT income assumption. |
+| Basic deduction | 129,750 | 266 | 30 MCI/month. |
+| PIT base | 1,334,799 | 2,734 | Below the 15% annual band. |
+| PIT at 10% | 133,480 | 273 | PIT-only, no contribution optimization. |
+| **Net after PIT only** | **1,331,069** | **2,727** | Before accountant, VAT, health/social/pension contributions, residence costs, and banking friction. |
+
+Employee-style contribution sensitivity, if a residence-permit/local-contract structure made 10% OPC and 2% employee OMIC apply before PIT, leaves about KZT 1,172,897/month (about USD 2,403). This is not the default freelancer model; it is a downside stress test because the exact Ukrainian foreign-client entrepreneur contribution category is unresolved. [src-482][src-483][src-484][src-486]
+
+#### Marriage / partner effect
+
+No joint-filing or spouse-specific PIT benefit was captured in the sources used in this pass. Treat marriage as primarily an immigration/dependent tool for Kazakhstan, not a tax optimization, unless a Kazakhstan accountant identifies a family deduction or dependent treatment later. [src-483]
+
+#### Screening verdict
+
+Kazakhstan's tax screen is not obviously disqualifying on PIT alone: a conservative PIT-only model leaves about USD 2,727/month from USD 3,000 gross. The risk is structural rather than rate-based: whether a Ukrainian foreign-client IT worker can register as an individual entrepreneur under the chosen residence route, whether social/medical/pension contributions apply, and how VAT/place-of-supply/e-invoicing work. Keep section 5.3 partial until those points are confirmed by Kazakhstan State Revenue guidance or a Kazakhstan accountant. [src-482][src-483][src-484][src-485][src-486]
 
 ### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -157,19 +199,21 @@ Climate verdict for first-pass scoring: **southern Kazakhstan only** is plausibl
 - **Best legalization path for the man**: Potential Neo Nomad / remote-work route if official-primary checklist confirms the secondary baseline; otherwise investigate business-immigrant TRP / local company or local-employment file. [src-268][src-269]
 - **Best legalization path for the woman**: Marriage/spouse-dependent planning is safer than unmarried-partner assumptions; independent study TRP is also listed as a TRP purpose but not yet researched. [src-268]
 - **Does marriage change the picture**: Likely yes for family-reunion / spouse treatment; unmarried partner mechanics were not captured. [src-268]
-- **Realism of staying after 03.2027**: medium-low as a bridge/base, low as a settlement route until an official Neo Nomad/TRP fit and PR counting are captured. [src-270][src-271]
+- **Realism of staying after 03.2027**: medium-low as a bridge/base, low as a settlement route until an official Neo Nomad/TRP fit and PR counting are captured. Taxes are not an obvious rate blocker, but tax-registration / contribution / VAT fit remains unresolved. [src-270][src-271][src-482][src-483][src-484]
 
 **Pros**:
 - Official Ukrainian visa-free entry baseline makes scouting easy. [src-267]
 - CIS-citizen TRP framework exists for up to one year across several purposes. [src-268]
 - Secondary Neo Nomad baseline appears potentially close to the couple's US$3,000/month income profile. [src-269]
 - Almaty and Shymkent have many clearer-sky days and no humid tropical comfort problem. [src-270][src-271]
+- PIT-only taxation at USD 3,000/month screens around USD 2,727/month net before unresolved contributions/VAT/accountant costs. [src-482][src-483][src-486]
 
 **Cons / risks**:
 - Remote-work route is not official-primary in this vault yet; do not score Neo Nomad until official checklist is captured. [src-269]
 - TRP purposes do not prove a lightweight foreign-client IT route. [src-268]
 - PR/citizenship ladder is not captured, and citizenship has dual-nationality risk. [src-270][src-271]
 - Winters, especially outside the south, conflict with the couple's climate preference. [src-270][src-271]
+- Exact individual-entrepreneur / Neo Nomad tax structure, social-medical-pension contribution exposure, and VAT/place-of-supply treatment remain unresolved. [src-484][src-485]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -185,13 +229,13 @@ Climate verdict for first-pass scoring: **southern Kazakhstan only** is plausibl
 - Address registration: ensure receiving party/hotel submits arrival notification within 3 working days. [src-268]
 - Submitting residence application (if not done from abroad): TRP / Neo Nomad / business-immigrant mechanics [verification required].
 - Bank account opening: obtain IIN; eGov says IIN is needed for bank accounts and digital services. [src-268]
-- Tax ID / social security number: IIN captured; tax regime not yet researched. [src-268]
+- Tax ID / social security number: IIN captured; for taxes, confirm individual-entrepreneur notification / tax-cabinet setup and whether the chosen status allows foreign-client IT registration. [src-268][src-485]
 - Long-term housing: [verification required]
 - Health insurance / public health registration: Neo Nomad secondary baseline names health insurance; details [verification required]. [src-269]
 - SIM card, internet, utilities: [verification required]
 
 ### 6c. First 3–6 months
-- Tax registration as self-employed / freelancer: [verification required]
+- Tax registration as self-employed / freelancer: eGov provides an online individual-entrepreneur notification via the E-Licensing portal, issued free of charge and signed with EDS; confirm first that the chosen Neo Nomad / TRP status allows this structure for foreign-client IT. [src-485]
 - Transferring partner to dependent / partner / student status: spouse route likely safer; exact mechanics [verification required]. [src-268]
 - Marriage (if applicable to scenario): likely useful for family-reunion/dependent planning; confirm before filing. [src-268]
 - Integration (language courses, communities): [verification required]
@@ -233,9 +277,13 @@ Climate verdict for first-pass scoring: **southern Kazakhstan only** is plausibl
 - [src-268] eGov Kazakhstan entry/stay and TRP guidance.
 - [src-270] Adilet Law on Migration.
 - [src-271] Adilet Law on Citizenship.
+- [src-485] eGov notification on start-up of individual entrepreneur business.
 
 ### 7b. Reputable secondary
 - [src-269] Neo Nomad first-pass secondary baseline.
+- [src-482] PwC Kazakhstan individual PIT and residence pages.
+- [src-483] PwC Kazakhstan deductions, income determination, filing, and incentives pages.
+- [src-484] PwC Kazakhstan individual other taxes and corporate VAT context.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -243,6 +291,7 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - [src-272] Climate to Travel Kazakhstan/Almaty climate baselines.
 - [src-273] WeatherSpark Kazakhstan country climate comparison.
+- [src-486] ExchangeRate-API USD/KZT snapshot.
 
 ### 7e. Not found
 - Exact official Neo Nomad checklist / visa category / family mechanics remain needed only before application or if Kazakhstan becomes a serious bridge candidate.
@@ -253,3 +302,4 @@ _(none yet)_
 - `vq-083` - resolved 2026-06-05 (run-052): Neo Nomad remains secondary-sourced and bridge-only for screening; official checklist is application-prep before use.
 - `vq-084` - resolved 2026-06-05 (run-052): captured TRP/business-immigrant evidence does not prove a lightweight foreign-client IT route; require real business/counsel file.
 - `vq-085` - resolved 2026-06-05 (run-052): no captured PR/citizenship ladder for TRP / Neo Nomad / foreign-client IT; citizenship carries dual-nationality risk.
+- `vq-118` - pending: exact Kazakhstan foreign-client IT tax-registration, contribution, VAT/place-of-supply, e-invoice, and residence-status compatibility.

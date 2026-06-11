@@ -185,6 +185,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 ## Low priority
 
 
+## vq-118 [medium priority]
+- **Fact**: "Kazakhstan foreign-client IT tax structure: exact individual-entrepreneur / Neo Nomad registration fit, social-medical-pension contribution base, VAT/place-of-supply and e-invoice handling, and compatibility with the chosen residence-status file"
+- **Country**: Kazakhstan
+- **Section**: 5.3
+- **Current source**: src-269, src-482, src-483, src-484, src-485, src-486
+- **Why uncertain**: This tax pass captured Kazakhstan tax residence, PIT rates, deductions, filing, an official individual-entrepreneur notification entry point, VAT threshold/context, and a USD 3,000/month PIT-only worked example, but did not prove the exact Kazakhstan treatment for a Ukrainian foreign-client IT worker using Neo Nomad / TRP / individual-entrepreneur status.
+- **Suggested verification**: Kazakhstan State Revenue Committee guidance or Kazakhstan tax adviser confirmation for foreign-client IT registration category, contribution base, VAT/place-of-supply/e-invoice treatment, and immigration-status compatibility.
+- **Created**: 2026-06-11 (run-098)
+- **Status**: pending
+
 ## vq-117 [medium priority]
 - **Fact**: "Indonesia E33G / foreign-client IT tax structure: exact source classification, skilled-foreigner territorial concession fit, NPWP/registration category, VAT/exported-service handling, BPJS/housing-savings exposure, and immigration-status compatibility"
 - **Country**: Indonesia

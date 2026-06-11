@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-11
 ---
 
+## 2026-06-11 — run-098
+- Kazakhstan: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative PIT-only screen.
+- Added Kazakhstan tax / registration / FX sources `src-482` through `src-486` and claims `claim-kazakhstan-006` through `claim-kazakhstan-010`.
+- Main finding: at USD 3,000/month (about KZT 1.46m/month), PIT-only modelling after the 30 MCI/month basic deduction leaves about KZT 1.33m / USD 2,727 before accountant, VAT, contributions, residence costs, and banking friction.
+- Added `vq-118` for foreign-client IT registration, social-medical-pension contribution base, VAT/place-of-supply/e-invoice handling, and residence-status compatibility; queue 8 -> 9, below the active verification threshold.
+
 ## 2026-06-11 — run-097
 - Indonesia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative resident PIT screen.
 - Added Indonesia tax / FX sources `src-477` through `src-481` and claims `claim-indonesia-006` through `claim-indonesia-010`.
