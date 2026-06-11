@@ -2,13 +2,13 @@
 country: Indonesia
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-11T12:33:59Z
+last_updated: 2026-06-11T21:54:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1","5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["remote-worker-income-above-current-budget","bridge-route-not-settlement","pr-ladder-unclear","hot-humid-rainy-climate","indonesia-tax-residence-worldwide-income-risk","indonesia-vat-bpjs-fit-gap"]
 sources_used: ["src-262","src-263","src-264","src-265","src-266","src-477","src-478","src-479","src-480","src-481"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence points to Indonesia as a bridge/base rather than a proven settlement route for this couple: Ukraine is listed among Indonesia's VoA/e-VoA subject countries, and the official E33G remote-worker limited-stay visa exists, but its US$60,000/year income requirement is above the couple's current ~US$36,000/year income. [src-263][src-264]
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-11T12:33:59Z
+- **Last updated**: 2026-06-11
 - **Tier rationale**: Do not classify yet. The core route is official but income-gated and the first pass did not capture a durable PR/citizenship ladder for a foreign-client IT worker using E33G.
 
 ## Block 2 — Scoring
@@ -86,7 +86,7 @@ Indonesia has no cold-winter problem: the country is generally equatorial/tropic
 
 ### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-> **DoD status**: Partial. This pass gives a conservative PIT screening model and core filing/VAT/social-security context, but does not prove the exact Indonesian tax category for an E33G remote worker or a foreign-client IT freelancer.
+> **DoD status**: Partial. This pass gives a conservative PIT screening model and core filing/VAT/social-security context, but does not prove the exact Indonesian tax category for an E33G remote worker or a foreign-client IT freelancer. Run-100 resolved `vq-117` for country screening: use Indonesia resident PIT modelling as the baseline and do not assume tax-free E33G treatment; exact source classification, territorial concession, NPWP/VAT, BPJS, and status fit is application-prep/adviser work.
 
 #### Tax-residence and income-scope baseline
 
@@ -249,4 +249,4 @@ _(none yet)_
 
 - `vq-081` — resolved 2026-06-05 (run-052): E33G is above current income and should be treated as bridge-only; dependent/tax/conversion microdetails are later checks if income rises.
 - `vq-082` — resolved 2026-06-05 (run-052): no captured ITAP/PR/citizenship ladder for foreign-client remote IT without a local employer; do not score Indonesia as settlement.
-- `vq-117` — pending: exact Indonesian tax treatment for E33G / foreign-client IT source classification, skilled-foreigner territorial concession fit, registration, VAT/exported-service handling, BPJS/housing-savings, and immigration-status compatibility.
+- `vq-117` resolved for screening in run-100: use Indonesia resident PIT modelling as the baseline and do not assume tax-free E33G treatment; exact source classification, territorial concession, NPWP/VAT, BPJS, and status fit is application-prep/adviser work.

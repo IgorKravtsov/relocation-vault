@@ -2,13 +2,13 @@
 country: Malta
 tier: null
 depth_score: 4.0
-last_updated: 2026-06-08T21:49:49Z
+last_updated: 2026-06-11T21:54:00Z
 sections_completed: ["5.2","5.4","5.5"]
 sections_partial: ["5.1","5.3"]
 sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path", "malta-nrp-authorized-work-tax-fit-gap", "malta-rent-pressure"]
 sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052", "src-120", "src-293", "src-311", "src-312", "src-313", "src-314", "src-315", "src-376", "src-377", "src-378", "src-379", "src-380"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence makes Malta a mixed legalization candidate: it has EU temporary protection and a well-documented Nomad Residence Permit, but the nomad route requires EUR 42,000/year gross income and explicitly does not lead to long-term residence or citizenship by itself [src-047][src-049].
 - **depth_score**: 4.0
-- **Last updated**: 2026-06-08T21:49:49Z
+- **Last updated**: 2026-06-11
 - **Tier rationale**: Do not classify yet. Main current risks are that the couple's current USD 3,000/month is below the nomad threshold, the NRP does not lead to PR/citizenship, the ordinary fallback is tax/rent-tight, and the exact Maltese tax/social-security treatment of foreign-client IT work under the NRP still needs adviser confirmation [src-002][src-049][src-311][src-312][src-376].
 
 ## Block 2 — Scoring
@@ -89,9 +89,9 @@ For practical relocation comfort, Malta is very favorable against the couple's c
 
 Because Malta is geographically compact, the first pass used Valletta as the island-level climate anchor; WeatherSpark now adds city-level clearer-sky proxies for Valletta, Sliema, and Victoria/Gozo. Converting monthly percentages for clear / mostly clear / partly cloudy conditions gives **Valletta ~266**, **Sliema ~266**, and **Victoria ~265** clearer-sky day-equivalents/year [src-120]. This is a medium-confidence proxy rather than an official meteorological sunny-day count, but it is enough for practical climate screening and closes `vq-018`.
 
-### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-06, dod: partial}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-> **DoD status**: Partial. This pass captures tax residence / source-remittance scope, 2026 PIT bands, NRP authorized-work taxation, self-employed social-security and VAT baselines, filing mechanics, marriage effects, and first USD 3,000/month worked examples. Missing before passing DoD: official / adviser confirmation for how a Ukrainian foreign-client IT worker on the NRP is classified for Maltese source, remittance, social-security, and VAT purposes.
+> **DoD status**: Partial. This pass captures tax residence / source-remittance scope, 2026 PIT bands, NRP authorized-work taxation, self-employed social-security and VAT baselines, filing mechanics, marriage effects, and first USD 3,000/month worked examples. Missing before passing DoD: official / adviser confirmation for how a Ukrainian foreign-client IT worker on the NRP is classified for Maltese source, remittance, social-security, and VAT purposes. Run-100 resolved `vq-093` for country screening: Malta tax planning remains partial because NRP is income-gated; exact authorised-work, first-year relief, Class Two, VAT, and source/remittance treatment is application-prep/accountant work.
 
 #### Tax residence and scope
 
@@ -324,4 +324,4 @@ _(none yet)_
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-093`: exact Maltese tax / social-security / VAT treatment for a Ukrainian foreign-client IT worker using the NRP authorised-work rules, including first-year relief, 10% tax base, Class Two contributions, small-enterprise VAT, and source/remittance classification.
+- `vq-093` resolved for screening in run-100: Malta tax planning remains partial because NRP is income-gated; exact authorised-work, first-year relief, Class Two, VAT, and source/remittance treatment is application-prep/accountant work.

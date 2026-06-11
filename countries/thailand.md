@@ -2,13 +2,13 @@
 country: Thailand
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-11T09:26:52Z
+last_updated: 2026-06-11T21:54:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1","5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate", "thailand-remittance-tax-risk", "thailand-vat-social-security-fit-gap"]
 sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261", "src-471", "src-472", "src-473", "src-474", "src-475", "src-476"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (first pass suggests a strong medium-term bridge/base, not a proven settlement route for this couple).
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-11T09:26:52Z
+- **Last updated**: 2026-06-11
 - **Tier rationale**: Ukrainian passport holders can use a 60-day visa exemption for tourism/scouting, and the Destination Thailand Visa (DTV) is a current official workcation route for remote workers/freelancers with a 500,000 THB savings threshold and 5-year multiple-entry validity. However, DTV is structured around 180-day stays and exits/re-entries, while the official LTR Work-from-Thailand route requires at least USD 80,000/year, or USD 40,000/year plus extra qualifications and a qualifying large overseas employer, above or awkward for the couple's current profile. [src-257][src-258][src-259]
 
 ## Block 2 - Scoring
@@ -89,7 +89,7 @@ schema_version: 2.0.0
 
 ### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-> **DoD**: effective rate at $3000/mo computed; registration procedure for applicable regime; gross->net example; new-resident reliefs; marriage tax effect.
+> **DoD**: effective rate at $3000/mo computed; registration procedure for applicable regime; gross->net example; new-resident reliefs; marriage tax effect. Run-100 resolved `vq-116` for country screening: use Thailand ordinary PIT modelling as the baseline and do not assume DTV tax-free treatment; exact source/remittance, deductions, VAT/export, social-security, and DTV-status fit is application-prep/adviser work.
 
 #### Tax-residence and taxable-income baseline
 
@@ -271,4 +271,4 @@ _(none yet)_
 
 - `vq-079` — resolved 2026-06-05 (run-052): screening baseline is DTV bridge/base only; no DTV settlement counting captured, unmarried partner not covered by captured dependent language, and tax details are later application-prep checks.
 - `vq-080` — resolved 2026-06-05 (run-052): no captured no-local-employer PR/citizenship route for the couple; LTR is above current income/profile.
-- `vq-116` — added 2026-06-11 (run-096): exact Thai foreign-client IT tax structure for a DTV holder, including source/remittance treatment, registration, deductions, VAT/export-service handling, social-security exposure, and DTV extension/status compatibility.
+- `vq-116` resolved for screening in run-100: use Thailand ordinary PIT modelling as the baseline and do not assume DTV tax-free treatment; exact source/remittance, deductions, VAT/export, social-security, and DTV-status fit is application-prep/adviser work.

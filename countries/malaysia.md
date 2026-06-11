@@ -2,13 +2,13 @@
 country: Malaysia
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-11T06:20:51Z
+last_updated: 2026-06-11T21:54:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1","5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["derantau-bridge-only", "pr-ladder-unclear", "hot-humid-rainy-year-round", "malaysia-foreign-client-tax-source-gap", "malaysia-social-security-fit-gap"]
 sources_used: ["src-251", "src-252", "src-253", "src-254", "src-255", "src-256", "src-279", "src-465", "src-466", "src-467", "src-468", "src-469", "src-470"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (early evidence points to a useful remote-work bridge/base, not yet a proven settlement route).
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-11T06:20:51Z
+- **Last updated**: 2026-06-11
 - **Tier rationale**: Malaysia's DE Rantau pass is an official route for foreign digital nomads and the tech-professional threshold is below the couple's current income, but it is a Professional Visit Pass capped at 24 months total and no DE Rantau-to-PR ladder was captured. Entry Permit and citizenship pages show long-term mechanisms exist, but the fully foreign national / remote-worker fit remains a core verification gap. [src-253][src-254][src-255]
 
 ## Block 2 - Scoring
@@ -94,7 +94,7 @@ schema_version: 2.0.0
 
 ### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-> **DoD**: effective rate at $3000/mo computed; registration procedure for applicable regime; gross->net example; new-resident reliefs; marriage tax effect.
+> **DoD**: effective rate at $3000/mo computed; registration procedure for applicable regime; gross->net example; new-resident reliefs; marriage tax effect. Run-100 resolved `vq-115` for country screening: use Malaysia resident-rate / non-resident downside modelling as the tax baseline; exact DE Rantau source classification, registration, SST/e-invoice, EPF/SOCSO, and immigration-status fit is application-prep/adviser work.
 
 #### Tax-residence and source baseline
 
@@ -274,4 +274,4 @@ _(none yet)_
 ## Block 8 - Open questions and verification markers
 
 - `vq-078` resolved in run-054: WeatherSpark clearer-sky percentages now provide medium-confidence annual clearer-sky day-equivalent proxies for Kuala Lumpur, George Town, and Kuching.
-- `vq-115` pending from run-095: exact Malaysian tax category, source/exemption treatment, SST/e-invoice, EPF/SOCSO, and DE Rantau compatibility for a Ukrainian foreign-client IT worker.
+- `vq-115` resolved for screening in run-100: use Malaysia resident-rate / non-resident downside modelling as the tax baseline; exact DE Rantau source classification, registration, SST/e-invoice, EPF/SOCSO, and immigration-status fit is application-prep/adviser work.

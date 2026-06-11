@@ -2,13 +2,13 @@
 country: Czech Republic
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-06T22:23:33Z
+last_updated: 2026-06-11T21:54:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up", "czech-flat-tax-it-trade-fit-gap"]
 sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171", "src-293", "src-316", "src-317", "src-318", "src-319"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence suggests a strategically relevant Tier-2-hint profile: Czechia has an unusually explicit special long-term residence track for Ukrainian temporary-protection holders, but this pass captured it through UNHCR rather than an official-primary Czech page and the normal self-employed/business route has a high evidence burden.
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-06T22:23:33Z
+- **Last updated**: 2026-06-11
 - **Tier rationale**: Keep Tier unset until cost, rent, healthcare, partner mechanics, official-primary special-residence details, and flat-tax IT trade fit are researched.
 
 ## Block 2 — Scoring
@@ -87,9 +87,9 @@ Czechia is an inland temperate option, not a warm-climate option. For this coupl
 
 **Bottom line:** Czechia is workable if legalization dominates the decision, but it is a climate compromise. Expect cold winters, snow/frost risk, high winter humidity, short daylight, and much less sun than Greece/Spain/Portugal/Malta. Summer is generally comfortable and not excessively hot, with occasional heat waves and thunderstorms [src-058][src-059][src-060].
 
-### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-06, dod: partial}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-> **DoD status**: partial. This pass captures tax residence, ordinary PIT rates, lump-sum expense mechanics, the official 2026 flat-tax regime, social/health contribution baselines, VAT and filing deadlines, and a worked USD 3,000/month example. Missing: accountant-level confirmation that the exact foreign-client IT activity can safely use the Czech trade classification / 60% expense category and flat-tax band I, plus detailed social/health registration mechanics for a newly arrived Ukrainian self-employed resident.
+> **DoD status**: partial. This pass captures tax residence, ordinary PIT rates, lump-sum expense mechanics, the official 2026 flat-tax regime, social/health contribution baselines, VAT and filing deadlines, and a worked USD 3,000/month example. Missing: accountant-level confirmation that the exact foreign-client IT activity can safely use the Czech trade classification / 60% expense category and flat-tax band I, plus detailed social/health registration mechanics for a newly arrived Ukrainian self-employed resident. Run-100 resolved `vq-094` for country screening: use the Czech flat-tax / 60% expense scenario only as a conservative screening baseline; exact trade category, VAT/reverse-charge, social-health, and immigration-status fit is application-prep/accountant work.
 
 #### Tax residence and scope
 
@@ -267,4 +267,4 @@ _(none yet)_
 ## Block 8 — Open questions and verification markers
 
 - `vq-020`: direct annual sunny-day or clear-day counts for Prague, Brno, and Ostrava.
-- `vq-094`: Czech flat-tax / 60% expense-category / VAT / social-health fit for a Ukrainian foreign-client IT freelancer.
+- `vq-094` resolved for screening in run-100: use the Czech flat-tax / 60% expense scenario only as a conservative screening baseline; exact trade category, VAT/reverse-charge, social-health, and immigration-status fit is application-prep/accountant work.

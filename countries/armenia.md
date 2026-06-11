@@ -2,13 +2,13 @@
 country: Armenia
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-11T18:48:17Z
+last_updated: 2026-06-11T21:54:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers", "armenia-foreign-client-it-tax-fit-gap"]
 sources_used: [src-274, src-275, src-276, src-277, src-278, src-487, src-488, src-489, src-490, src-491]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -90,7 +90,7 @@ WeatherSpark country data also shows almost no muggy days for Yerevan or Gyumri,
 
 ### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-> **DoD status**: first-pass tax baseline only. PwC Armenia gives a 2026 resident worldwide-income baseline, 183-day / centre-of-vital-interest residence tests, business-income inclusion, filing mechanics, individual-entrepreneur pension and health contribution rules, VAT / turnover-tax context, and no significant individual incentives. This is enough for a conservative screening calculation, but not filing advice. Missing: State Revenue Committee / Armenian accountant confirmation of the exact individual-entrepreneur or company route for foreign-client IT, whether the high-tech turnover-tax 1% category can apply, VAT zero-rating / place-of-supply treatment for exported IT services, and immigration-status compatibility.
+> **DoD status**: first-pass tax baseline only. PwC Armenia gives a 2026 resident worldwide-income baseline, 183-day / centre-of-vital-interest residence tests, business-income inclusion, filing mechanics, individual-entrepreneur pension and health contribution rules, VAT / turnover-tax context, and no significant individual incentives. This is enough for a conservative screening calculation, but not filing advice. Missing: State Revenue Committee / Armenian accountant confirmation of the exact individual-entrepreneur or company route for foreign-client IT, whether the high-tech turnover-tax 1% category can apply, VAT zero-rating / place-of-supply treatment for exported IT services, and immigration-status compatibility. Run-100 resolved `vq-119` for country screening: use Armenia ordinary 20% income-tax plus contribution stress-test modelling as the baseline; exact IE vs LLC, high-tech / turnover-tax, VAT export, contribution base, and business-residence fit is application-prep/adviser work.
 
 #### Tax residence and scope
 
@@ -266,4 +266,4 @@ _(none yet)_
 - `vq-086` resolved in run-061: no captured Ukraine-specific protection / humanitarian / post-2027 bridge; use ordinary Armenian status for screening. [src-274][src-275]
 - `vq-087` resolved in run-061: business activity is the conservative route, but treat foreign-client IT as a real-business IE/LLC file requiring adviser/application-prep confirmation, not as DN. [src-275]
 - `vq-088` resolved in run-061: spouse/parent/child wording supports marriage-first dependent planning; unmarried partner sponsorship is not captured. [src-275]
-- `vq-119` added in run-099: exact Armenia foreign-client IT tax structure, high-tech / turnover-tax eligibility, VAT export treatment, entrepreneur contributions, and business-residence compatibility. [src-487][src-489][src-490][src-491]
+- `vq-119` resolved for screening in run-100: use Armenia ordinary 20% income-tax plus contribution stress-test modelling as the baseline; exact IE vs LLC, high-tech / turnover-tax, VAT export, contribution base, and business-residence fit is application-prep/adviser work.

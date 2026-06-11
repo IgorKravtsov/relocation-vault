@@ -2,13 +2,13 @@
 country: Croatia
 tier: null
 depth_score: 4.0
-last_updated: 2026-06-09T00:57:36Z
+last_updated: 2026-06-11T21:54:00Z
 sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "croatia-self-employed-contribution-base-gap", "croatia-lump-sum-obrt-fit-gap", "coastal-rent-pressure"]
 sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045", "src-293", "src-306", "src-307", "src-308", "src-309", "src-310", "src-381", "src-382", "src-383", "src-384", "src-385"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (do not assign yet). Croatia has EU temporary protection, a formal digital-nomad temporary-stay route, and an attractive Adriatic climate, but the digital-nomad income floor is above the couple's current ~$3,000/month budget and no Croatia-specific post-04 March 2027 TP-to-ordinary-residence bridge was captured in this first pass.
 - **depth_score**: 4.0
-- **Last updated**: 2026-06-09T00:57:36Z
+- **Last updated**: 2026-06-11
 - **Tier rationale**: Keep unranked until healthcare, education, partner mechanics, ordinary residence after TP, and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the first legalization, climate, tax, and cost/rent passes.
 
 ## Block 2 — Scoring
@@ -91,9 +91,9 @@ Croatia has a split climate profile: Mediterranean on the Adriatic coast and mor
 
 Climate caveats: the Adriatic coast has hot sunny summers but winter rain; the Bora can bring cold gusts, and coastal cities at the foot of mountains can have heavy rain [src-043]. Current Results confirms the direct annual sunshine-day counts needed for the climate DoD: 49 for Zagreb-Maksimir, 108 for Split-Marjan, and 127 for Dubrovnik [src-045]. The coast therefore remains the clear climate fit; Zagreb remains a weaker winter-comfort option.
 
-### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-06, dod: partial}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-> **DoD status**: Partial. This pass captures tax residence, ordinary self-employment PIT, personal allowances, social-security rates, VAT, filing mechanics, and a conservative USD 3,000/month worked example. Missing before passing DoD: exact 2026 self-employed contribution base for an IT freelancer / craft, whether the couple can safely use lump-sum craft taxation for foreign-client IT receipts, and accountant confirmation of VAT / reverse-charge treatment.
+> **DoD status**: Partial. This pass captures tax residence, ordinary self-employment PIT, personal allowances, social-security rates, VAT, filing mechanics, and a conservative USD 3,000/month worked example. Missing before passing DoD: exact 2026 self-employed contribution base for an IT freelancer / craft, whether the couple can safely use lump-sum craft taxation for foreign-client IT receipts, and accountant confirmation of VAT / reverse-charge treatment. Run-100 resolved `vq-092` for country screening: keep Croatia as incomplete/partial with conservative ordinary self-employment stress tests; exact `pausalni obrt`, contribution-band, VAT/reverse-charge, and family allowance fit is application-prep/accountant work.
 
 #### Tax residence and scope
 
@@ -326,4 +326,4 @@ _(none yet)_
 
 - `vq-015` — resolved in run-009 as a conservative no-bridge baseline: no Croatia-specific TP bridge is captured; plan on an ordinary Croatian route before TP expiry.
 - `vq-016` — resolved in run-009 with Current Results annual sunshine-day counts [src-045].
-- `vq-092` — pending: exact 2026 self-employed / craft contribution base, lump-sum craft fit for foreign-client IT, VAT/reverse-charge mechanics, and dependent allowance treatment for Croatia section 5.3.
+- `vq-092` resolved for screening in run-100: keep Croatia as incomplete/partial with conservative ordinary self-employment stress tests; exact `pausalni obrt`, contribution-band, VAT/reverse-charge, and family allowance fit is application-prep/accountant work.

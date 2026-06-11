@@ -2,13 +2,13 @@
 country: Greece
 tier: null
 depth_score: 4.0
-last_updated: 2026-06-09T04:06:03Z
+last_updated: 2026-06-11T21:54:00Z
 sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["greece-article-5c-foreign-client-fit-gap", "athens-rent-pressure", "crete-tourist-rent-pressure"]
 sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300", "src-337", "src-386", "src-387", "src-388", "src-389", "src-390"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -20,7 +20,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD after taxes, rent, healthcare, and partner-path research are added.
 - **depth_score**: 4.0
-- **Last updated**: 2026-06-09T04:06:03Z
+- **Last updated**: 2026-06-11
 - **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP->Immigration Code bridge) plus a documented digital nomad route. The tax pass now has an official 2026 EFKA self-employed minimum, so the conservative ordinary PIT + minimum social-insurance stress test is usable; Article 5C fit for foreign-client IT work still needs current specialist/official verification. Cost/rent screening is workable on gross USD 3,000/month only with housing discipline; Patras and Thessaloniki screen cheaper than Athens/Heraklion.
 
 ## Block 2 — Scoring
@@ -93,9 +93,9 @@ schema_version: 2.0.0
 - The climate is broadly favorable for a year-round relocation if the couple prefers sun and mild winters over cool summers. The main trade-off is that Athens can become intensely hot in July/August, while Thessaloniki brings the sharpest winter drop. [src-008][src-009][src-010]
 - **Sunny / clear-sky verification**: Current Results gives annual sunshine and clear-sky percentages: Athens **2,771 hours / 58% clear sky**, Thessaloniki **2,338 hours / 51% clear sky**, and Heraklion **2,760 hours / 59% clear sky**. As a planning proxy, those percentages equal roughly **212**, **186**, and **215** clear-sky day-equivalents per year respectively; this is enough to close the climate blocker at medium confidence. [src-044]
 
-### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-07, dod: partial}
+### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-11, dod: partial}
 
-> **DoD status**: partial. Covered: Greek tax residence, business-profit PIT scale, AADE/TIN and activity-commencement route, filing period, joint-return baseline, Article 5C new-tax-resident incentive, current EFKA 2026 self-employed contribution categories, and a USD 3,000/month ordinary-tax stress test. Missing for full DoD: a clean 2026 answer on whether foreign-client IT business activity qualifies for Article 5C.
+> **DoD status**: partial. Covered: Greek tax residence, business-profit PIT scale, AADE/TIN and activity-commencement route, filing period, joint-return baseline, Article 5C new-tax-resident incentive, current EFKA 2026 self-employed contribution categories, and a USD 3,000/month ordinary-tax stress test. Missing for full DoD: a clean 2026 answer on whether foreign-client IT business activity qualifies for Article 5C. Run-100 resolved `vq-090` for country screening: keep the ordinary PIT + EFKA baseline and treat Article 5C applicability to foreign-client IT / DN files as an application-prep tax-adviser check, not a scoring blocker.
 
 #### Baseline tax residence and income scope
 - AADE states that an individual becomes a Greek tax resident if they have permanent/principal residence, habitual abode, or centre of vital interests in Greece; separately, presence in Greece for more than **183 days cumulatively in any 12-month period** makes the person a Greek tax resident from the first day of presence, except for limited private/tourism/medical stays up to 365 days. [src-294]
@@ -330,4 +330,4 @@ _(none yet)_
 - `vq-002`: resolved in run-028 using the official MFA digital-nomad page as the core route/checklist anchor; consular micro-details remain application-prep checks. [src-152]
 - `vq-003`: resolved in run-009 using Current Results clear-sky percentages / day-equivalent proxy [src-044].
 - `vq-089`: pending; current official EFKA self-employed/freelancer contribution categories and monthly minimums need capture before the Greece tax example is final.
-- `vq-090`: pending; Article 5C applicability to a foreign-client IT business-activity file needs tax-adviser or official-practice verification.
+- `vq-090` resolved for screening in run-100: keep the ordinary PIT + EFKA baseline and treat Article 5C applicability to foreign-client IT / DN files as an application-prep tax-adviser check, not a scoring blocker.

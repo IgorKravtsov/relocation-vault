@@ -2,13 +2,13 @@
 country: Cyprus
 tier: null
 depth_score: 4.0
-last_updated: 2026-06-08T18:40:45Z
+last_updated: 2026-06-11T21:54:00Z
 sections_completed: ["5.2","5.4","5.5"]
 sections_partial: ["5.1","5.3"]
 sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "cyprus-social-insurance-category-gap", "limassol-rent-pressure"]
 sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119", "src-293", "src-301", "src-302", "src-303", "src-304", "src-305", "src-371", "src-372", "src-373", "src-374", "src-375"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (do not assign yet). Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the DN net-income floor is above the couple's current ~$3,000/month budget and this first pass did not find a Cyprus-specific ordinary-residence bridge after 04 March 2027.
 - **depth_score**: 4.0
-- **Last updated**: 2026-06-08T18:40:45Z
+- **Last updated**: 2026-06-11
 - **Tier rationale**: Keep unranked until healthcare, partner mechanics, and post-TP transition risk are researched beyond the first legalization/climate/tax/cost/rent passes.
 
 ## Block 2 — Scoring
@@ -90,9 +90,9 @@ Cyprus is a strong climate fit if the couple wants warm winters, long summers, a
 
 Climates to Travel says the sky is almost always clear in the long summer and that the coast generally has no long rain period from June to September, when the sun always shines [src-039]. WeatherSpark adds monthly clearer-sky percentages (clear, mostly clear, or partly cloudy). Converted to annual day-equivalent proxies, this gives **Nicosia ~295**, **Limassol ~296**, and **Paphos ~294** clearer-sky day-equivalents/year [src-119]. This is a practical medium-confidence proxy, not an official meteorological sunny-day count.
 
-### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-06, dod: partial}
+### 5.3. Taxes {status: partial, depth: 1, last_updated: 2026-06-11, dod: partial}
 
-> **DoD status**: Partial. This pass captured tax-residence rules, PIT bands, GHS and self-employed social-insurance rates, registration/filing anchors, marriage mechanics, and a USD 3,000/month worked example. Missing: official extraction of the current Social Insurance self-employed category table / lower and maximum insurable-earnings limits for an IT freelancer; therefore the net estimate is a planning baseline, not filing advice.
+> **DoD status**: Partial. This pass captured tax-residence rules, PIT bands, GHS and self-employed social-insurance rates, registration/filing anchors, marriage mechanics, and a USD 3,000/month worked example. Missing: official extraction of the current Social Insurance self-employed category table / lower and maximum insurable-earnings limits for an IT freelancer; therefore the net estimate is a planning baseline, not filing advice. Run-100 resolved `vq-091` for country screening: keep the captured Cyprus tax baseline and treat exact self-employed social-insurance category, contribution deductibility, and filing posture as application-prep/accountant checks.
 
 #### Tax residence and scope
 
@@ -327,4 +327,4 @@ _(none yet)_
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-091`: current Cyprus Social Insurance self-employed category / lower and maximum insurable-earnings table for a foreign-client IT freelancer, and whether the full 16.6% + 4.0% contribution is deductible in the couple's exact filing posture.
+- `vq-091` resolved for screening in run-100: keep the captured Cyprus tax baseline and treat exact self-employed social-insurance category, contribution deductibility, and filing posture as application-prep/accountant checks.

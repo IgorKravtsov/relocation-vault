@@ -2,13 +2,13 @@
 country: Kazakhstan
 tier: null
 depth_score: 2.0
-last_updated: 2026-06-11T15:38:28Z
+last_updated: 2026-06-11T21:54:00Z
 sections_completed: ["5.2"]
 sections_partial: ["5.1", "5.3"]
 sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["ordinary-trp-not-settlement", "dn-route-secondary-sourced", "pr-citizenship-ladder-unclear", "cold-continental-winters", "kazakhstan-foreign-client-tax-structure-gap"]
 sources_used: ["src-267", "src-268", "src-269", "src-270", "src-271", "src-272", "src-273", "src-482", "src-483", "src-484", "src-485", "src-486"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (Tier-3 hint until durable settlement mechanics are verified)
 - **depth_score**: 2.0
-- **Last updated**: 2026-06-11T15:38:28Z
+- **Last updated**: 2026-06-11
 - **Tier rationale**: Kazakhstan is easy for Ukrainian short entry and can be a nearby CIS bridge, but this first pass did not capture a durable foreign-client IT residence ladder. The official TRP page lists one-year temporary-residence purposes for CIS citizens, including labor, business-immigrant, family, and study purposes, while the remote-work / Neo Nomad route is only secondary-sourced and must be confirmed against official visa-category rules before it can be used for scoring. Taxes screen moderately on PIT alone, but the exact foreign-client IT entrepreneur / VAT / contribution structure is unresolved. Climate is a major comfort risk outside the south because winters are sharply continental. [src-267][src-268][src-269][src-272][src-273][src-482][src-483][src-484]
 
 ## Block 2 — Scoring
@@ -87,7 +87,7 @@ Climate verdict for first-pass scoring: **southern Kazakhstan only** is plausibl
 
 ### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-11, dod: partial}
 
-> **DoD status**: partial. This pass captures tax residence, PIT rates, deductions, filing timing, individual-entrepreneur registration entry point, VAT threshold/context, and a USD 3,000/month screening calculation. It does not prove the exact Kazakhstan tax-registration / contribution / VAT treatment for a Ukrainian Neo Nomad or foreign-client IT entrepreneur.
+> **DoD status**: partial. This pass captures tax residence, PIT rates, deductions, filing timing, individual-entrepreneur registration entry point, VAT threshold/context, and a USD 3,000/month screening calculation. It does not prove the exact Kazakhstan tax-registration / contribution / VAT treatment for a Ukrainian Neo Nomad or foreign-client IT entrepreneur. Run-100 resolved `vq-118` for country screening: use Kazakhstan PIT-only plus contribution stress-test modelling as the baseline; exact IE / Neo Nomad / TRP registration, contribution, VAT/place-of-supply, e-invoice, and status fit is application-prep/adviser work.
 
 #### Tax residence and taxable scope
 
@@ -302,4 +302,4 @@ _(none yet)_
 - `vq-083` - resolved 2026-06-05 (run-052): Neo Nomad remains secondary-sourced and bridge-only for screening; official checklist is application-prep before use.
 - `vq-084` - resolved 2026-06-05 (run-052): captured TRP/business-immigrant evidence does not prove a lightweight foreign-client IT route; require real business/counsel file.
 - `vq-085` - resolved 2026-06-05 (run-052): no captured PR/citizenship ladder for TRP / Neo Nomad / foreign-client IT; citizenship carries dual-nationality risk.
-- `vq-118` - pending: exact Kazakhstan foreign-client IT tax-registration, contribution, VAT/place-of-supply, e-invoice, and residence-status compatibility.
+- `vq-118` resolved for screening in run-100: use Kazakhstan PIT-only plus contribution stress-test modelling as the baseline; exact IE / Neo Nomad / TRP registration, contribution, VAT/place-of-supply, e-invoice, and status fit is application-prep/adviser work.

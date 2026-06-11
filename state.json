@@ -1,21 +1,25 @@
 {
   "version": 2,
-  "iteration": 99,
+  "iteration": 100,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-11T18:48:17Z",
+  "last_run_timestamp": "2026-06-11T21:54:00Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Armenia",
+    "mode": "verification",
+    "country": null,
     "sections": [
       "5.3"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "reason": "Pending/open verification queue reached the active threshold after Armenia vq-119; run a tax-fit verification batch next."
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Portugal",
+    "suggested_sections": [
+      "5.6"
+    ],
+    "reason": "Verification queue is cleared; rotate back to a Tier-1-hint country with comparatively low depth and open healthcare coverage."
   },
   "countries": {
     "Spain": {
@@ -140,7 +144,7 @@
         "crete-tourist-rent-pressure"
       ],
       "last_iteration": 79,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Cyprus": {
       "tier": null,
@@ -171,7 +175,7 @@
         "limassol-rent-pressure"
       ],
       "last_iteration": 76,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Croatia": {
       "tier": null,
@@ -202,7 +206,7 @@
         "coastal-rent-pressure"
       ],
       "last_iteration": 78,
-      "unverified_count": 2
+      "unverified_count": 0
     },
     "Malta": {
       "tier": null,
@@ -233,7 +237,7 @@
         "malta-rent-pressure"
       ],
       "last_iteration": 77,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Czech Republic": {
       "tier": null,
@@ -262,7 +266,7 @@
         "czech-flat-tax-it-trade-fit-gap"
       ],
       "last_iteration": 62,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Poland": {
       "tier": null,
@@ -908,7 +912,7 @@
         "malaysia-social-security-fit-gap"
       ],
       "last_iteration": 95,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Thailand": {
       "tier": null,
@@ -940,7 +944,7 @@
         "thailand-vat-social-security-fit-gap"
       ],
       "last_iteration": 96,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Indonesia": {
       "tier": null,
@@ -972,7 +976,7 @@
         "indonesia-vat-bpjs-fit-gap"
       ],
       "last_iteration": 97,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Kazakhstan": {
       "tier": null,
@@ -1003,7 +1007,7 @@
         "kazakhstan-foreign-client-tax-structure-gap"
       ],
       "last_iteration": 98,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Armenia": {
       "tier": null,
@@ -1034,10 +1038,10 @@
         "armenia-foreign-client-it-tax-fit-gap"
       ],
       "last_iteration": 99,
-      "unverified_count": 1
+      "unverified_count": 0
     }
   },
-  "verification_queue_size": 10,
+  "verification_queue_size": 0,
   "sources_count": 490,
   "claims_count": 401,
   "proposals_pending": 0

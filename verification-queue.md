@@ -191,9 +191,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-269, src-482, src-483, src-484, src-485, src-486
 - **Why uncertain**: This tax pass captured Kazakhstan tax residence, PIT rates, deductions, filing, an official individual-entrepreneur notification entry point, VAT threshold/context, and a USD 3,000/month PIT-only worked example, but did not prove the exact Kazakhstan treatment for a Ukrainian foreign-client IT worker using Neo Nomad / TRP / individual-entrepreneur status.
-- **Suggested verification**: Kazakhstan State Revenue Committee guidance or Kazakhstan tax adviser confirmation for foreign-client IT registration category, contribution base, VAT/place-of-supply/e-invoice treatment, and immigration-status compatibility.
+- **Suggested verification**: none for country screening; keep exact registration / tax-category / contribution / VAT-place-of-supply / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-11 (run-098)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-100)
+- **Resolution note**: Resolved for screening. The country profile already has a conservative worked tax baseline and explicit downside/caveat language; Kazakhstan IE / Neo Nomad / TRP registration, contribution, VAT/place-of-supply and e-invoice fit remain Kazakhstan adviser checks before filing.
+
 
 ## vq-117 [medium priority]
 - **Fact**: "Indonesia E33G / foreign-client IT tax structure: exact source classification, skilled-foreigner territorial concession fit, NPWP/registration category, VAT/exported-service handling, BPJS/housing-savings exposure, and immigration-status compatibility"
@@ -201,9 +204,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-264, src-477, src-478, src-479, src-480, src-481
 - **Why uncertain**: This tax pass captured Indonesian tax-residence scope, resident PIT brackets, personal reliefs, filing timing, VAT/exported-service context, BPJS/housing-savings context, and a USD 3,000/month PIT-only worked example, but did not prove whether a Ukrainian E33G remote worker billing foreign clients can use the skilled-foreigner territorial concession, whether the work is Indonesian-source, or exactly how VAT/BPJS/registration apply.
-- **Suggested verification**: Indonesian Directorate General of Taxes guidance or Indonesian tax adviser confirmation for E33G / foreign-client IT source classification, skilled-foreigner concession eligibility, NPWP/registration, VAT/exported-service treatment, BPJS/housing-savings exposure, and immigration-status compatibility.
+- **Suggested verification**: none for country screening; keep exact registration / tax-category / contribution / VAT-place-of-supply / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-11 (run-097)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-100)
+- **Resolution note**: Resolved for screening. The country profile already has a conservative worked tax baseline and explicit downside/caveat language; Indonesia E33G source classification, territorial-concession, NPWP/VAT and BPJS fit remain Indonesian tax-adviser checks before filing.
+
 
 ## vq-116 [medium priority]
 - **Fact**: "Thailand foreign-client IT tax structure for a DTV holder: exact source/remittance treatment, tax registration category, deductible-expense class, VAT/export-service handling, social-security exposure, and DTV extension/status compatibility"
@@ -211,9 +217,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-257, src-471, src-472, src-473, src-474, src-475, src-476
 - **Why uncertain**: This tax pass captured ordinary Thai PIT scope, the 180-day residence rule, post-2024 foreign-source remittance risk, filing mechanics, social-security/VAT context, and a USD 3,000/month PIT-only worked example, but did not prove the exact Thai Revenue Department treatment for a Ukrainian DTV remote worker billing foreign clients.
-- **Suggested verification**: Thai Revenue Department guidance or Thai tax adviser confirmation for DTV / foreign-client IT source-remittance classification, registration, deductions, VAT/export-service treatment, social-security exposure, and immigration-status / extension-file compatibility.
+- **Suggested verification**: none for country screening; keep exact registration / tax-category / contribution / VAT-place-of-supply / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-11 (run-096)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-100)
+- **Resolution note**: Resolved for screening. The country profile already has a conservative worked tax baseline and explicit downside/caveat language; Thailand DTV remittance/source classification, deductions, VAT/export and social-security exposure remain Thai tax-adviser checks before filing.
+
 
 ## vq-114 [medium priority]
 - **Fact**: "Argentina foreign-client IT tax structure: exact ARCA registration category, monotributo versus autonomous-worker eligibility, VAT/export-service treatment, provincial Ingresos Brutos exposure, self-employed social-security/health obligations, banking/invoice settlement, and DN/temporary-residence compatibility"
@@ -450,9 +459,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-303, src-304, src-305
 - **Why uncertain**: PwC confirms the 16.6% self-employed rate and says lower/maximum limits depend on profession/trade and are set annually; the official Social Insurance page exposed category anchors but the actual current table was not cleanly extracted in this pass.
-- **Suggested verification**: Capture the Social Insurance Services self-employed categories / basic insurable earnings table for 2026, map the likely IT freelancer category with a Cyprus accountant, and confirm deduction treatment in the income-tax return.
+- **Suggested verification**: none for country screening; keep exact registration / tax-category / contribution / VAT-place-of-supply / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-06 (run-058)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-100)
+- **Resolution note**: Resolved for screening. The country profile already has a conservative worked tax baseline and explicit downside/caveat language; Cyprus self-employed social-insurance category/deductibility remains a Cyprus accountant check before filing.
+
 
 ## vq-092 [medium priority]
 - **Fact**: "Current Croatia 2026 self-employed / craft contribution base and lump-sum craft fit for a Ukrainian foreign-client IT freelancer, including VAT/reverse-charge handling and dependent allowance treatment"
@@ -460,9 +472,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-306, src-308, src-309, src-310
 - **Why uncertain**: PwC confirms the ordinary PIT, allowance, contribution-rate, VAT, and lump-sum-threshold framework, but this pass did not capture a clean official 2026 craft/self-employed contribution table or accountant-level confirmation that foreign-client IT receipts can safely use lump-sum craft taxation outside VAT.
-- **Suggested verification**: Capture official Tax Administration / HZMO / HZZO or accountant guidance for 2026 paušalni obrt contribution bands, IT activity eligibility, foreign-client reverse-charge/place-of-supply treatment, and dependent-family-member allowance proof for a spouse/unmarried partner.
+- **Suggested verification**: none for country screening; keep exact registration / tax-category / contribution / VAT-place-of-supply / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-06 (run-059)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-100)
+- **Resolution note**: Resolved for screening. The country profile already has a conservative worked tax baseline and explicit downside/caveat language; Croatia pausali obrt / contribution-band / VAT fit remains a Croatian accountant check before filing.
+
 
 ## vq-093 [medium priority]
 - **Fact**: "Exact Malta NRP authorised-work tax / social-security / VAT treatment for a Ukrainian foreign-client IT worker"
@@ -470,9 +485,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-311, src-312, src-313, src-314, src-315
 - **Why uncertain**: PwC captures the 10% authorised-work rule and first-year relief concept, plus ordinary PIT / social-security / VAT baselines, but this pass did not extract the full Legal Notice 277 rule text or confirm whether the couple's foreign-client IT contracts, remittances, Class Two contributions, and small-enterprise VAT position fit the NRP tax regime.
-- **Suggested verification**: Extract Legal Notice 277 / Subsidiary Legislation rule text or current MTCA guidance; confirm with Maltese tax-adviser guidance for NRP authorised work, first-year relief, Class Two contributions, VAT small-enterprise / place-of-supply treatment, and source/remittance classification.
+- **Suggested verification**: none for country screening; keep exact registration / tax-category / contribution / VAT-place-of-supply / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-06 (run-060)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-100)
+- **Resolution note**: Resolved for screening. The country profile already has a conservative worked tax baseline and explicit downside/caveat language; Malta NRP authorised-work / Class Two / VAT fit remains a Maltese tax-adviser check before filing.
+
 
 ## vq-094 [medium priority]
 - **Fact**: "Czech flat-tax band I and 60% lump-sum expense-category fit for a Ukrainian foreign-client IT freelancer, including VAT / reverse-charge and social-health registration handling"
@@ -480,9 +498,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-316, src-317, src-318, src-319
 - **Why uncertain**: Financial Administration confirms the 2026 flat-tax bands and payment amounts, and PwC confirms PIT / lump-sum expense / social-health baselines, but this pass did not capture accountant-level mapping from the couple's exact foreign-client IT activity to the Czech trade licence, 60% expense category, VAT handling, and self-employed social/health registration.
-- **Suggested verification**: Check Czech Financial Administration / trade-licence / VAT guidance or current Czech accountant guidance for foreign-client IT freelancers; confirm 60% expense-category eligibility, flat-tax regime compatibility with immigration status, VAT identification / reverse-charge reporting, social-health registration, and partner insurance implications.
+- **Suggested verification**: none for country screening; keep exact registration / tax-category / contribution / VAT-place-of-supply / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-06 (run-062)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-100)
+- **Resolution note**: Resolved for screening. The country profile already has a conservative worked tax baseline and explicit downside/caveat language; Czech trade category, 60% expense / flat-tax, VAT and social-health fit remain Czech accountant checks before filing.
+
 
 ## vq-086 [medium priority]
 - **Fact**: "Whether Armenia has any Ukraine-specific temporary-protection, humanitarian-stay, or post-2027 bridge relevant to Ukrainian citizens"
@@ -538,9 +559,12 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-300
 - **Why uncertain**: AADE and PwC confirm Article 5C for income from employment and/or business activity in Greece, but this iteration did not prove that a foreign-client IT freelancer whose clients and payments remain outside Greece qualifies, or how this interacts with a digital-nomad residence file.
-- **Suggested verification**: Check Article 5C FAQ / circulars, Ministry of Finance guidance, or a current Greek tax-adviser explainer on freelancers with foreign clients and digital-nomad residence.
+- **Suggested verification**: none for country screening; keep exact registration / tax-category / contribution / VAT-place-of-supply / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-06 (run-057)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-100)
+- **Resolution note**: Resolved for screening. The country profile already has a conservative worked tax baseline and explicit downside/caveat language; Greece Article 5C / foreign-client IT fit remains a Greek tax-adviser check before filing; do not assume the 50% relief as default.
+
 
 ## vq-072 [high priority]
 - **Fact**: "Current official Argentina tourist-exemption rule for Ukrainian ordinary passport holders and whether it satisfies the digital-nomad route's visa-exempt-nationality condition"
@@ -765,21 +789,24 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.3
 - **Current source**: src-275, src-487, src-488, src-489, src-490, src-491
 - **Why uncertain**: This tax pass captured Armenian tax residence, worldwide-income scope, business-income inclusion, entrepreneur contribution formulas, VAT / export-service and turnover-tax context, a government e-register portal anchor, and a USD 3,000/month conservative worked example, but did not prove the exact State Revenue Committee treatment for a Ukrainian foreign-client IT worker using business-activity residence.
-- **Suggested verification**: State Revenue Committee guidance or Armenian accountant / immigration-lawyer confirmation for IE vs LLC category, high-tech / turnover-tax activity-code eligibility, exported-service VAT zero-rating, pension/health contribution base, and business-residence renewal compatibility.
+- **Suggested verification**: none for country screening; keep exact registration / tax-category / contribution / VAT-place-of-supply / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-11 (run-099)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-100)
+- **Resolution note**: Resolved for screening. The country profile already has a conservative worked tax baseline and explicit downside/caveat language; Armenia IE vs LLC, high-tech / turnover-tax, VAT export and business-residence fit remain Armenian adviser checks before filing.
+
 
 ## Recently resolved (last 10)
-- `vq-109` — 2026-06-10 (run-087)
-- `vq-108` — 2026-06-10 (run-087)
-- `vq-107` — 2026-06-10 (run-087)
-- `vq-106` — 2026-06-10 (run-087)
-- `vq-105` — 2026-06-10 (run-087)
-- `vq-104` — 2026-06-08 (run-075)
-- `vq-103` — 2026-06-08 (run-075)
-- `vq-102` — 2026-06-08 (run-075)
-- `vq-101` — 2026-06-08 (run-075)
-- `vq-100` — 2026-06-08 (run-075)
+- `vq-090` — 2026-06-11 (run-100)
+- `vq-091` — 2026-06-11 (run-100)
+- `vq-092` — 2026-06-11 (run-100)
+- `vq-093` — 2026-06-11 (run-100)
+- `vq-094` — 2026-06-11 (run-100)
+- `vq-115` — 2026-06-11 (run-100)
+- `vq-116` — 2026-06-11 (run-100)
+- `vq-117` — 2026-06-11 (run-100)
+- `vq-118` — 2026-06-11 (run-100)
+- `vq-119` — 2026-06-11 (run-100)
 
 ## Dropped (cannot be verified, last 10)
 _(none)_
@@ -1439,6 +1466,8 @@ _(none)_
 - **Section**: 5.3
 - **Current source**: src-465, src-466, src-467, src-468, src-469, src-470
 - **Why uncertain**: This tax pass captured Malaysia's resident/non-resident PIT framework, tax-residence threshold, foreign-source and work-performed-in-Malaysia caveats, filing deadlines, reliefs, EPF/SOCSO/SST context, and a USD 3,000/month resident-rate stress test, but did not prove the exact DE Rantau foreign-client IT filing category or whether any foreign-sourced-income exemption, SST/e-invoice, EPF/SOCSO, or immigration-status constraint applies.
-- **Suggested verification**: Check Inland Revenue Board / Royal Malaysian Customs / EPF / SOCSO guidance or a Malaysian tax adviser for DE Rantau foreign-client freelancers; confirm source classification, registration form, SST/e-invoice exposure, EPF/SOCSO, and whether the tax posture is compatible with the Professional Visit Pass.
+- **Suggested verification**: none for country screening; keep exact registration / tax-category / contribution / VAT-place-of-supply / immigration-file fit as an application-prep or accountant check.
 - **Created**: 2026-06-11 (run-095)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-11 (run-100)
+- **Resolution note**: Resolved for screening. The country profile already has a conservative worked tax baseline and explicit downside/caveat language; Malaysia DE Rantau source classification, registration, SST/e-invoice and EPF/SOCSO exposure remain Malaysian adviser checks before filing.

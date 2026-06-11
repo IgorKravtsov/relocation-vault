@@ -4,6 +4,11 @@ version: 1.0.0
 last_updated: 2026-06-11
 ---
 
+## 2026-06-11 — run-100
+- Verification: resolved 10 tax-fit queue items (`vq-090`-`vq-094`, `vq-115`-`vq-119`) to conservative country-screening baselines.
+- Sources added: none.
+- Verification queue: 10 → 0 pending/open.
+
 ## 2026-06-11 — run-099
 - Armenia: depth_score 1.5 -> 2.0; section 5.3 taxes moved from pending to partial with a conservative ordinary income-tax plus entrepreneur-contribution screen.
 - Added Armenia tax / VAT / registration / FX sources `src-487` through `src-491` and claims `claim-armenia-006` through `claim-armenia-010`.
