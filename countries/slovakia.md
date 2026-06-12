@@ -1,13 +1,13 @@
 ---
 country: Slovakia
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-07T22:15:00Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-12T19:43:03Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge", "slovakia-szco-tax-and-immigration-fit-gap"]
-sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173", "src-338", "src-339", "src-340", "src-341", "src-342", "src-343"]
+sections_pending: ["5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge", "slovakia-szco-tax-and-immigration-fit-gap", "bratislava-rent-pressure"]
+sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173", "src-338", "src-339", "src-340", "src-341", "src-342", "src-343", "src-517", "src-518", "src-519", "src-520"]
 unverified_count: 1
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to a practical but administratively heavy Tier-2-style profile rather than an obvious Tier-1 route: Slovakia has EU temporary protection through 04 March 2027 and an ordinary self-employed/business residence route, but no dedicated digital-nomad visa and no captured post-2027 TP-to-ordinary-residence bridge. [src-002][src-100][src-101]
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-07
-- **Tier rationale**: Keep unassigned until renewal economics, cost of living, and whether business/SZCO residence is operational for a foreign-client IT contractor are confirmed.
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-12
+- **Tier rationale**: Keep unassigned until healthcare, education, and whether business/SZCO residence is operational for a foreign-client IT contractor are confirmed. Cost/rent now looks manageable outside Bratislava but does not solve the legal-route burden.
 
 ## Block 2 — Scoring
 
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | TP and business/family routes opened; operational feasibility still needs primary-source checklist and ordinary-route planning. | §5.1 |
 | Climate | — | medium | Continental, colder than Mediterranean candidates; three-city temperature/sunshine baseline plus clearer-sky proxies now captured. | §5.2 |
 | Taxes | — | medium | First-pass SZCO/tax-resident model captured: 19% PIT under the current-income band, 60% lump-sum expenses up to EUR 20,000/year if not VAT payer, official 2026 social-insurance minimum EUR 303.11/month, health-insurance minimum EUR 121.92/month, and a USD 3,000/month stress test. Exact foreign-client IT trade fit, VAT/reverse-charge handling, and business-residence compatibility remain open. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | First-pass Livingcost screen suggests Slovakia is manageable on gross USD 3,000/month and on the tax-section net only in a disciplined smaller-city budget; family proxy exceeds gross income in Bratislava and Kosice. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 1BR proxy ranges from about USD 481/month cheap in Poprad to USD 921/month central in Bratislava; use Poprad/Kosice before Bratislava unless services/legal reasons dominate. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -89,7 +89,7 @@ Operational baseline: a Polish residence permit does not substitute for a Slovak
 
 ### 5.2. Climate {status: deep, depth: 1, last_updated: 2026-06-01, dod: passed}
 
-> **DoD status**: partial. Three-city temperature, sunshine-hour, humidity, and comfort baselines are captured, but direct sunny/clear-day counts are not yet verified.
+> **DoD status**: passed for first-pass screening. Three-city temperature, sunshine-hour, humidity, and comfort baselines are captured; WeatherSpark clearer-sky day-equivalent proxies close the sunny-day planning blocker at medium confidence.
 
 Slovakia is a moderately continental climate country, materially colder and less sunny than the Mediterranean candidates. It may be acceptable for a moderate-climate preference but is not a warm-climate fit.
 
@@ -152,13 +152,33 @@ PwC states that the individual tax year is the calendar year; a 2026 tax return 
 
 Slovakia's first-pass tax economics look workable **if** the man can operate as a genuine Slovak SZCO/trade entrepreneur using 60% lump-sum expenses and minimum contributions. At USD 3,000/month, the stress-test net of about EUR 2,050-2,147/month is not tax-negative. The bigger blocker is not arithmetic but route fit: the immigration section already warns that Slovakia business residence is evidence-heavy and scrutinises real Slovak business activity. Therefore, do not mark §5.3 passed until Slovak accountant / adviser evidence confirms IT trade classification, foreign-client invoicing/VAT treatment, first-year contribution timing, and compatibility with the self-employed/business residence route.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. This is a commercial Livingcost baseline, not a filing budget: it captures national and three-city monthly cost levels, but live rental listings, deposits, agency fees, health insurance, accountant costs, and immigration-lawyer costs remain later practical-budget items.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost's Slovakia country page screens the national average at about **USD 1,365/month for one person with rent** and **USD 3,140/month for a family-of-four proxy**. The one-person baseline without rent is about USD 592/month; rent and utilities average about USD 773/month; food about USD 415/month; transport about USD 60/month; utilities for one person about USD 162/month; and a 50 Mbps+ internet plan about USD 20/month. [src-517]
 
-[verification required]
+City-level first-pass screen:
+
+| City | One person with rent | Family-of-four proxy | Food | Transport | Practical read for this couple |
+|---|---:|---:|---:|---:|---|
+| Bratislava | USD 1,561 | USD 3,697 | USD 447 | USD 102 | Best services / capital access, but the family proxy is above gross USD 3,000 and rent is the pressure point. [src-518] |
+| Kosice | USD 1,558 | USD 3,320 | USD 439 | USD 56 | Similar one-person total to Bratislava but lower transport and a non-capital lifestyle; still tight if planning for future child / family-size spending. [src-519] |
+| Poprad | USD 1,309 | USD 3,092 | USD 438 | USD 49 | Cheapest captured screen and better rent fit, but smaller-city services, winter climate, and fewer professional/community options need later comfort checks. [src-520] |
+
+For the current two-adult household, Slovakia can be screened as **possible but not automatically comfortable**. Against gross USD 3,000/month, one-person-with-rent city totals leave room for a second adult's food, healthcare, insurance, accountant, immigration, travel, and contingency costs. Against the tax-section SZCO net band of about USD 2,386-2,499/month, Bratislava/Kosice require stricter rent discipline; Poprad is the affordability fallback if services and climate tradeoffs are acceptable. [src-343][src-518][src-519][src-520]
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
+
+> **DoD status**: passed for first-pass screening. The vault's modest two-room proxy is Livingcost's 40 m2 one-bedroom apartment line; the 80 m2 three-bedroom line is used only as an upper-size / future-family stress test. Live listings and foreigner-specific lease requirements remain for later practical work.
+
+| City | 40 m2 1BR center | 40 m2 1BR cheap | 80 m2 3BR center | 80 m2 3BR cheap | Screening interpretation |
+|---|---:|---:|---:|---:|---|
+| Bratislava | USD 921 | USD 664 | USD 1,639 | USD 1,149 | Capital convenience, but central 40 m2 rent is about 31% of gross USD 3,000 and about 37-39% of the conservative tax-section net band; use a strict housing cap. [src-518] |
+| Kosice | USD 861 | USD 673 | USD 1,396 | USD 1,003 | Not dramatically cheaper than Bratislava on the captured 40 m2 line, but the 80 m2 stress test is lower; good second-city screen if legal/accountant services are accessible. [src-519] |
+| Poprad | USD 733 | USD 481 | USD 1,070 | USD 853 | Best captured rent fit; cheap 40 m2 rent is about 16% of gross USD 3,000 and about 19-20% of tax-section net, but small-city tradeoffs are material. [src-520] |
+
+Practical housing baseline: for a Slovakia scenario, start with **Poprad for affordability** and **Kosice for services/cost balance**; treat **Bratislava as rent-pressured** unless the couple has a strict cheap-1BR cap or a legal/accountant/community reason to be in the capital. The 80 m2 line shows that a future-child / larger-flat budget would become tight quickly even before healthcare, childcare, and car costs. [src-518][src-519][src-520]
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -203,6 +223,7 @@ Slovakia's first-pass tax economics look workable **if** the man can operate as 
 - **Best legalization path for the woman**: Her own TP if eligible; otherwise marriage-dependent family reunification or her own independent status.
 - **Does marriage change the picture**: Yes. Captured family-reunification guidance covers a spouse aged at least 18; it does not list unmarried partners. [src-102]
 - **Realism of staying after 03.2027**: Medium-low. TP is officially extended to 04 March 2027, but no captured Slovakia-specific bridge converts it into ordinary residence; the practical ordinary fallback is business residence, which needs a real Slovak business file. [src-108][src-109]
+- **Budget/rent fit**: Possible but disciplined. Poprad is the best captured affordability screen; Kosice is the services/cost compromise; Bratislava needs a strict rent cap because capital 40 m2 rent and family-size cost proxies strain the USD 3,000/month one-income case. [src-518][src-519][src-520]
 
 **Pros**:
 - EU/Schengen country close to Ukraine with TP access through the EU horizon.
@@ -215,6 +236,7 @@ Slovakia's first-pass tax economics look workable **if** the man can operate as 
 - Tax result depends on SZCO/trade classification, VAT/reverse-charge treatment, contribution timing, and immigration compatibility; these are not yet verified for a Ukrainian foreign-client IT freelancer. [src-338][src-339][src-342]
 - No captured post-2027 TP bridge beyond automatic TP extension to 04 March 2027. [src-109]
 - Climate is continental and cold compared with Tier-1 Mediterranean hints.
+- Bratislava is rent-pressured on this budget; future-family or 80 m2 rent scenarios become tight quickly. [src-518]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -251,7 +273,7 @@ Slovakia's first-pass tax economics look workable **if** the man can operate as 
 | Family reunification fee | €132.50 / €135 | Foreign Police / embassy fee; children under 18 exempt. [src-102] |
 | Apostilles and translations | TBD | Slovak certified translation and authentication expected for foreign official documents. |
 | Flights / ground travel for two | TBD | Slovakia is reachable overland from Ukraine/Poland; price pass pending. |
-| Rental deposit + first month | TBD | Rent pass pending. |
+| Rental deposit + first month | USD 960-1,842+ | Rough first-pass proxy: one month deposit plus first month using the cheap/central 40 m2 range from Poprad cheap (USD 481) to Bratislava center (USD 921); agency fees and foreigner-specific requirements not captured. [src-518][src-520] |
 | Health insurance | TBD | Required quickly after ordinary residence document collection. |
 | Immigration/tax lawyer | TBD | Strongly recommended before relying on business residence. |
 | Buffer / contingencies | TBD | Pending cost-of-living pass. |
@@ -289,6 +311,10 @@ _(none yet)_
 - [src-173] — WeatherSpark Slovakia city cloud-cover climate pages.
 - [src-341] — VZP / Dovera 2026 SZCO health-insurance advance pages.
 - [src-343] — ECB EUR/USD reference rate used for the tax stress test.
+- [src-517] — Livingcost Slovakia national cost/rent baseline.
+- [src-518] — Livingcost Bratislava cost/rent baseline.
+- [src-519] — Livingcost Kosice cost/rent baseline.
+- [src-520] — Livingcost Poprad cost/rent baseline.
 
 ### 7e. Not found
 - Dedicated Slovakia digital-nomad visa: not captured in this pass.
@@ -296,6 +322,7 @@ _(none yet)_
 - Direct sunny/clear-day counts for Bratislava, Košice, Poprad: not captured.
 - Official Ministry of Interior citizenship page in English: not captured; aggregator placeholder used at low operational weight.
 - Slovak accountant / Financial Administration guidance mapping foreign-client IT freelancing to a specific SZCO trade, VAT/reverse-charge reporting, first-year contribution timing, and self-employed/business residence compatibility: not captured.
+- Live rental listings, landlord deposit/agency-fee requirements for foreigners, and city-specific health-insurance/accountant/lawyer costs: not captured.
 
 ## Block 8 — Open questions and verification markers
 

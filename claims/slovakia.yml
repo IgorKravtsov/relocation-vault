@@ -132,3 +132,40 @@
   confidence: medium
   tags: [worked-example, tax-net, usd3000, szco, slovakia]
   notes: "Uses src-338 through src-342 for tax/contribution mechanics; not a passed DoD result until SZCO/trade and immigration fit are confirmed."
+
+
+- id: claim-slovakia-016
+  topic: national_cost_of_living_first_pass
+  value: "Livingcost screens Slovakia at about USD 1,365/month for one person with rent and USD 3,140/month for a family-of-four proxy; one-person rent/utilities average about USD 773, food about USD 415, transport about USD 60, utilities about USD 162, and internet about USD 20."
+  source: src-517
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, utilities, slovakia, livingcost]
+  notes: "Commercial first-pass baseline; use for screening only until live local quotes are captured."
+
+- id: claim-slovakia-017
+  topic: bratislava_cost_rent_first_pass
+  value: "Livingcost screens Bratislava at about USD 1,561/month for one person with rent and USD 3,697/month for a family-of-four proxy; 40 m2 1BR rent is about USD 921 center or USD 664 cheap."
+  source: src-518
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, bratislava, slovakia, livingcost]
+  notes: "Rent-pressure flag for the couple's USD 3,000/month one-income case."
+
+- id: claim-slovakia-018
+  topic: kosice_cost_rent_first_pass
+  value: "Livingcost screens Kosice at about USD 1,558/month for one person with rent and USD 3,320/month for a family-of-four proxy; 40 m2 1BR rent is about USD 861 center or USD 673 cheap."
+  source: src-519
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, kosice, slovakia, livingcost]
+  notes: "Use as the services/cost balance city after Bratislava."
+
+- id: claim-slovakia-019
+  topic: poprad_cost_rent_first_pass
+  value: "Livingcost screens Poprad at about USD 1,309/month for one person with rent and USD 3,092/month for a family-of-four proxy; 40 m2 1BR rent is about USD 733 center or USD 481 cheap."
+  source: src-520
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, poprad, slovakia, livingcost]
+  notes: "Best captured affordability screen, with smaller-city and colder-climate tradeoffs."
