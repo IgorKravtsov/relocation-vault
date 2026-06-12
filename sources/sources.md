@@ -6264,3 +6264,51 @@ Each source entry:
 - **Facts supporting**: Poprad cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-12
+
+## src-521
+- **Title**: Livingcost — Cost of living in Slovenia
+- **URL**: https://livingcost.org/cost/slovenia
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Slovenia
+- **Facts supporting**: Slovenia national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-522
+- **Title**: Livingcost — Cost of living in Ljubljana
+- **URL**: https://livingcost.org/cost/slovenia/ljubljana
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Slovenia
+- **Facts supporting**: Ljubljana cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-523
+- **Title**: Livingcost — Cost of living in Maribor
+- **URL**: https://livingcost.org/cost/slovenia/maribor
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Slovenia
+- **Facts supporting**: Maribor cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-524
+- **Title**: Livingcost — Cost of living in Nova Gorica
+- **URL**: https://livingcost.org/cost/slovenia/nova-gorica
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Slovenia
+- **Facts supporting**: Nova Gorica cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12

@@ -114,3 +114,39 @@
   confidence: medium
   tags: [tax-example, self-employed, net-income, slovenia]
   notes: "Also relies on src-345, src-346, and src-348. This is not a passed DoD result because normirani s.p., exact contribution bases, VAT/reverse-charge, and immigration-status fit are unverified."
+
+- id: claim-slovenia-014
+  topic: national_cost_of_living_screen
+  value: "Livingcost screens Slovenia nationally at about USD 1,515/month for one person with rent and USD 3,570/month for a family-of-four proxy; one-person components include USD 663 without rent, USD 853 rent/utilities, USD 469 food, USD 56.70 transport, utilities around USD 183, and internet around USD 36.10."
+  source: src-521
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, screening, slovenia]
+  notes: "Commercial first-pass screen; not a live household budget quote."
+
+- id: claim-slovenia-015
+  topic: ljubljana_cost_rent_screen
+  value: "Livingcost screens Ljubljana at about USD 1,695/month for one person with rent and USD 3,957/month for a family-of-four proxy; the 40 m2 1BR proxy is about USD 735 cheap / USD 923 center, and the 80 m2 3BR proxy is about USD 1,344 cheap / USD 1,665 center."
+  source: src-522
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [rent, cost-of-living, ljubljana, slovenia]
+  notes: "Use as rent-pressure warning for the capital."
+
+- id: claim-slovenia-016
+  topic: maribor_cost_rent_screen
+  value: "Livingcost screens Maribor at about USD 1,317/month for one person with rent and USD 3,146/month for a family-of-four proxy; the 40 m2 1BR proxy is about USD 414 cheap / USD 536 center, and the 80 m2 3BR proxy is about USD 698 cheap / USD 989 center."
+  source: src-523
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [rent, cost-of-living, maribor, slovenia]
+  notes: "Best captured larger-city cost/services balance in this pass."
+
+- id: claim-slovenia-017
+  topic: nova_gorica_cost_rent_screen
+  value: "Livingcost screens Nova Gorica at about USD 1,158/month for one person with rent and USD 2,858/month for a family-of-four proxy; the 40 m2 1BR proxy is about USD 443 cheap / USD 634 center, and the 80 m2 3BR proxy is about USD 804 cheap / USD 1,136 center."
+  source: src-524
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [rent, cost-of-living, nova-gorica, slovenia]
+  notes: "Cheapest captured city screen; smaller-city services/community need later follow-up."

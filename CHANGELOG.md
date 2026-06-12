@@ -4,6 +4,11 @@ version: 1.0.0
 last_updated: 2026-06-12
 ---
 
+## 2026-06-12 — run-108
+- Slovenia: depth_score 2.0 -> 3.0; sections 5.4 and 5.5 completed for first-pass screening.
+- Added Slovenia cost/rent sources `src-521` through `src-524` and claims `claim-slovenia-014` through `claim-slovenia-017`.
+- New flag: `ljubljana-rent-pressure`; verification queue unchanged at 1 pending item.
+
 ## 2026-06-12 — run-107
 - Slovakia: depth_score 2.0 -> 3.0; sections 5.4 and 5.5 completed for first-pass screening.
 - Added Slovakia cost/rent sources `src-517` through `src-520` and claims `claim-slovakia-016` through `claim-slovakia-019`.

@@ -1,13 +1,13 @@
 ---
 country: Slovenia
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-08T15:18:10Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-12T22:51:32Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable", "slovenia-self-employed-tax-and-immigration-fit-gap"]
-sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187", "src-344", "src-345", "src-346", "src-347", "src-348"]
+sections_pending: ["5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable", "slovenia-self-employed-tax-and-immigration-fit-gap", "ljubljana-rent-pressure"]
+sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187", "src-344", "src-345", "src-346", "src-347", "src-348", "src-521", "src-522", "src-523", "src-524"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence is unusually interesting for the couple: Slovenia has official temporary protection for Ukrainians, an explicit post-temporary-protection filing window, and a new digital-nomad residence permit for non-EU remote workers. The route is capped at one year and the income formula likely sits near or above the couple's current budget, so do not assign a tier until the numeric threshold, taxes, renewal/permit-counting rules, and costs are researched. [src-110][src-111]
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-08T15:18:10Z
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-12T22:51:32Z
 - **Tier rationale**: Keep unassigned until PR/citizenship counting for DN/TP time, DN-to-ordinary status strategy, tax/business fit, and cost-of-living/rent passes are complete.
 
 ## Block 2 — Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | TP, DN, self-employed and family routes opened; the current salary screen indicates DN is above the couple's budget, and DN should be treated as a one-year bridge rather than a PR clock by itself. | §5.1 |
 | Climate | — | N/A | Continental/alpine overall, but the coast is much milder and sunnier; direct sunny-day counts missing. | §5.2 |
 | Taxes | — | medium | First-pass ordinary self-employed stress test is heavy: USD 3,000/month is about EUR 2,577/month, and applying the captured 38.2% social-contribution table plus progressive PIT leaves about EUR 1,364/month (~USD 1,587) before accountant/VAT/immigration costs. Normirani s.p. / exact foreign-client IT treatment is not verified. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | First-pass Livingcost screen: Nova Gorica / Maribor are the best affordability baselines; Ljubljana is noticeably tighter on the conservative tax net. | §5.4 |
+| Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy is about $443 cheap / $634 center in Nova Gorica, $414 / $536 in Maribor, and $735 / $923 in Ljubljana; use Ljubljana only with a strict cap. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -134,13 +134,37 @@ WeatherSpark provides monthly percentages for the broader clearer-sky categories
 
 **Bottom line for the couple.** At the current income, Slovenia's tax picture is not yet attractive under the conservative ordinary self-employed model: about EUR 1,364/month net would leave little room for Slovenian rent and DN income-threshold compliance. Verification run-075 closes the accountant-level tax-fit queue item only for screening: use this conservative model as the safe planning baseline, keep §5.3 partial, and treat normirani s.p. eligibility, exact contribution bases, VAT/reverse-charge reporting, and DN/single-permit compatibility as accountant/application-prep checks rather than country-screening blockers. [src-344][src-345][src-346][src-347][src-348]
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. Livingcost gives a national baseline and three city screens: Ljubljana, Maribor, and Nova Gorica. This is a commercial medium-confidence screen, not a live-listing or household-budget quote pass.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost screens Slovenia nationally at about **$1,515/month** for one person with rent and **$3,570/month** for a family-of-four proxy, with one-person components of $663 without rent, $853 rent/utilities, $469 food, $56.70 transport, utilities around $183, and internet around $36.10. [src-521]
 
-[verification required]
+For the couple, the family-of-four proxy is too large, but it is a useful stress test: Slovenia is not a low-cost country if the conservative tax section net of about **$1,587/month** applies. On gross $3,000/month, the cheaper cities can still screen as possible; on the conservative tax-net baseline, rent plus ordinary living costs become tight unless a better s.p. / normirani tax structure is confirmed. [src-344][src-345][src-521]
+
+| City | One person with rent | Family-of-four proxy | Food / transport screen | Fit for the couple |
+|---|---:|---:|---|---|
+| Ljubljana | $1,695/month | $3,957/month | $482 food; $68.80 transport | Best services and capital access, but tightest budget; use only with a strict rent cap or higher income. [src-522] |
+| Maribor | $1,317/month | $3,146/month | $469 food; $48.10 transport | Better cost/services balance; strongest inland affordability candidate among captured larger cities. [src-523] |
+| Nova Gorica | $1,158/month | $2,858/month | $395 food; $37 transport | Cheapest captured screen and closer to the warmer western/coastal-adjacent region, but smaller-city services/jobs/community need follow-up. [src-524] |
+
+**Budget conclusion.** Screen **Maribor first** for services/cost balance and **Nova Gorica** as the warmer/lower-cost fallback. Ljubljana is convenient but rent-sensitive; it should not be the default on a one-income file unless tax optimisation materially improves net income or the couple has savings. [src-522][src-523][src-524]
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
+
+> **DoD status**: passed for first-pass screening. Livingcost provides 40 m2 1BR and 80 m2 3BR city rent proxies for 3 cities; live listings, deposits, agency fees, and landlord requirements remain later application-prep work.
+
+Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy. The 80 m2 3BR line is an upper-size / future-family stress test, not the base requirement. [src-521]
+
+| City | 40 m2 1BR cheap | 40 m2 1BR center | 80 m2 3BR cheap | 80 m2 3BR center | Rent takeaways |
+|---|---:|---:|---:|---:|---|
+| Ljubljana | $735 | $923 | $1,344 | $1,665 | Capital rent pressure: even the cheap 40 m2 proxy is about 25% of gross $3,000 and about 46% of the conservative Slovenia tax-net baseline. [src-522] |
+| Maribor | $414 | $536 | $698 | $989 | Best larger-city rent fit: the 40 m2 proxy is about 14%-18% of gross and 26%-34% of the conservative tax-net baseline. [src-523] |
+| Nova Gorica | $443 | $634 | $804 | $1,136 | Affordable and western/warm-region-adjacent; center rents can still become heavy on the conservative tax net. [src-524] |
+
+**How to search later.** This pass did not capture Slovenian listing portals or landlord practices. Later live-listing work should check Nepremicnine.net, Bolha, Facebook/Telegram groups, agency fees, deposit norms, whether foreign remote income is accepted, and whether a registered lease is needed for the chosen residence filing.
+
+**Rent conclusion.** Avoid making Ljubljana the default base. For first relocation budgeting, screen **Maribor** as the practical services/cost compromise and **Nova Gorica** if warmer western Slovenia is worth smaller-city tradeoffs; keep `ljubljana-rent-pressure` as an active risk flag. [src-522][src-523][src-524]
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -196,7 +220,7 @@ WeatherSpark provides monthly percentages for the broader clearer-sky categories
 - DN permit is up to one year and cannot be extended; reapplication requires a six-month gap. [src-111]
 - DN income formula currently screens at about EUR 3,357.62/month using March 2026 average net earnings, above the couple's current ~$3,000/month budget. [src-111][src-187]
 - Ljubljana/Maribor winters are cold, humid and not Mediterranean.
-- Rent, healthcare, and practical application costs are still unresearched.
+- Healthcare and practical application costs are still unresearched; rent is now screened, with Ljubljana as the main rent-pressure risk.
 - Conservative ordinary self-employed tax stress test is heavy, with about EUR 1,364/month (~USD 1,587) net from USD 3,000/month before accountant/VAT/immigration costs; a potentially better Slovenian s.p. / normirani structure is unverified. [src-344][src-345][src-346][src-347][src-348]
 
 ## Block 6 — Practical playbook (working relocation guide)
@@ -234,10 +258,10 @@ WeatherSpark provides monthly percentages for the broader clearer-sky categories
 | DN / residence fees | TBD | Detailed fee/checklist not captured in this pass. |
 | Apostilles and translations | TBD | Application-prep pass needed. |
 | Flights / ground travel for two | TBD | Slovenia reachable overland/air via EU routes; price pass pending. |
-| Rental deposit + first month | TBD | Rent pass pending, especially Ljubljana vs coast. |
+| Rental deposit + first month | ~$828-$1,846 | First-pass proxy: one month of cheap 40 m2 rent plus one matching deposit in Maribor / Nova Gorica / Ljubljana; live-listing deposit norms pending. [src-522][src-523][src-524] |
 | Health insurance | TBD | Healthcare pass pending. |
 | Immigration/tax consultation | TBD | Recommended before relying on DN-to-ordinary transition or Slovenian s.p. / normirani tax planning. |
-| Buffer / contingencies | TBD | Pending cost-of-living pass. |
+| Buffer / contingencies | TBD | Use Maribor / Nova Gorica as the first budget screens; Ljubljana requires a stricter cap or better tax net. [src-522][src-523][src-524] |
 | **Total** | — | Not enough data yet. |
 
 ### 6g. Contact points and communities
@@ -271,6 +295,10 @@ _(none yet)_
 - [src-116] — Climate to Travel Maribor climate.
 - [src-117] — Climate to Travel Portorož climate.
 - [src-122] — WeatherSpark Slovenia cloud-cover pages for Ljubljana, Maribor, and Portorož clearer-sky day-equivalent proxies.
+- [src-521] — Livingcost Slovenia national cost/rent baseline.
+- [src-522] — Livingcost Ljubljana cost/rent screen.
+- [src-523] — Livingcost Maribor cost/rent screen.
+- [src-524] — Livingcost Nova Gorica cost/rent screen.
 
 ### 7e. Not found
 - Exact serving-administrative-unit DN checklist and fee schedule: not captured in this pass.
@@ -281,5 +309,5 @@ _(none yet)_
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-100`: Verify the exact Slovenian s.p. / normirani and VAT treatment for a Ukrainian foreign-client IT freelancer, including 2026 deemed-expense rules, contribution bases, VAT / reverse-charge reporting, and DN / single-permit immigration compatibility.
-- Later application-prep should still recheck DN forms, fees, and residence-type counting before filing.
+- Tax application-prep remains: confirm exact Slovenian s.p. / normirani and VAT treatment for a Ukrainian foreign-client IT freelancer, including 2026 deemed-expense rules, contribution bases, VAT / reverse-charge reporting, and DN / single-permit immigration compatibility.
+- Later application-prep should still recheck DN forms, fees, residence-type counting, live rents, deposits, agency fees, landlord requirements, and lease-registration needs before filing.
