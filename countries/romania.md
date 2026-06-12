@@ -1,26 +1,26 @@
 ---
 country: Romania
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-07T22:15:00Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-12T08:05:00Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["romania-dn-income-above-current-budget", "romania-pfa-registration-vat-fit-gap"]
-sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076, src-121, src-324, src-325, src-326, src-327]
+sections_pending: ["5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["romania-dn-income-above-current-budget", "romania-pfa-registration-vat-fit-gap", "cluj-rent-pressure"]
+sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076, src-121, src-324, src-325, src-326, src-327, src-505, src-506, src-507, src-508]
 unverified_count: 1
 schema_version: 2.0.0
 ---
 
 # Romania
 
-> First-pass country profile. Sections 5.1 and 5.2 opened at medium confidence. The digital-nomad checklist blocker is closed at the operational-core level; consular formatting remains an application-prep check.
+> First-pass country profile. Sections 5.2, 5.4, and 5.5 are completed for screening; sections 5.1 and 5.3 remain partial. The digital-nomad checklist blocker is closed at the operational-core level; consular formatting remains an application-prep check.
 
 ## Block 1 — Summary
 
 - **Tier**: TBD
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-07
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-12
 - **Tier rationale**: TBD. Romania offers a legislated digital-nomad route and low cost of living, but winters are cold and no post-2027 TP bridge has been captured.
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | [verification required] | §5.1 |
 | Climate | — | N/A | [verification required] | §5.2 |
 | Taxes | — | N/A | [verification required] | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Romania screens cheaper than many EU candidates, but tax/residence costs still need a full practical budget. | §5.4 |
+| Rent (decent 2BR) | — | medium | Timisoara and Bucharest can work with rent caps; Cluj-Napoca is rent-pressured. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -142,13 +142,33 @@ schema_version: 2.0.0
 **DoD status**
 - Section 5.3 remains **partial**. It now has a current-income calculation, residence/PIT/social-contribution/VAT/filing/marriage baselines, and ANAF filing-channel anchors, but it lacks Romanian accountant / authority confirmation for the exact PFA registration route, expense deductions, CAEN classification for foreign-client IT, VAT / reverse-charge treatment, and immigration-status compatibility.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. Livingcost is a commercial aggregator, so this is a medium-confidence budget screen rather than a replacement for live shopping / utility / insurance quotes. Healthcare, visa insurance, accountant fees, deposits, and legal costs remain outside this section.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost's Romania country page screens the national average at about **$973/month for one person with rent** and **$2,438/month for a family of four**, with one-person spending split roughly into $512 without rent, $461 rent/utilities, $361 food, and $47.70 transport [src-505]. For this couple, the family-of-four line is only a conservative household proxy; a two-adult couple in a 40 m2 one-bedroom should land between the one-person and family-of-four lines.
 
-[verification required]
+| City | One-person total with rent | Family-of-four total | Food / transport one-person | Screening read |
+|---|---:|---:|---:|---|
+| Bucharest | $1,138 | $2,971 | $389 / $84 | Best service depth and capital-city logistics, but not the cheapest default; viable only with disciplined rent and a clear residence/tax file [src-506]. |
+| Cluj-Napoca | $1,243 | $3,014 | $407 / $51 | Strong tech/student-city profile but the highest captured housing pressure; use only if network, jobs, or lifestyle justify the premium [src-507]. |
+| Timisoara | $1,029 | $2,581 | $382 / $50 | Best first-pass cost/services compromise among the three captured cities; warmer western location, lower rent, and still a major city [src-508]. |
+
+Budget verdict: against the couple's **$3,000 gross** income, Romania screens cheaper than Poland/Czechia on headline cost but the tax section's conservative PFA-style model leaves only about **$1,952-$2,027/month after tax/contribution stress testing** [src-324][src-325][src-327]. Timisoara looks most realistic for a one-income trial base; Bucharest is workable with a rent cap; Cluj-Napoca is fragile unless the legal/tax route is especially strong or income rises.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. The vault's "normal two-room apartment" definition is closest to Livingcost's 40 m2 1BR line (separate bedroom + living room), while 80 m2 3BR is included only as an upper-size / future-family stress test. Exact live listings, lease terms, deposit, agency-fee practice, and landlord requirements for foreigners remain application-prep.
+
+| City | 40 m2 1BR centre | 40 m2 cheap 1BR | 80 m2 3BR centre | 80 m2 cheap 3BR | Rent pressure vs $3,000 gross |
+|---|---:|---:|---:|---:|---|
+| Bucharest | $586 | $385 | $1,055 | $699 | 13%-20% for the 40 m2 proxy; manageable if the couple avoids premium central districts and budgets for service/legal costs [src-506]. |
+| Cluj-Napoca | $668 | $533 | $1,220 | $980 | 18%-22% for the 40 m2 proxy; highest captured rent burden, so add `cluj-rent-pressure` and require a strict cap [src-507]. |
+| Timisoara | $502 | $337 | $826 | $603 | 11%-17% for the 40 m2 proxy; best first-pass rent fit for the current income [src-508]. |
+
+Search/platform baseline for later housing work: start with Storia.ro, Imobiliare.ro, and OLX Romania for broad listing supply, then cross-check city Facebook / Ukrainian community groups for landlord practice and scam warnings. This iteration did not capture platform-specific listing samples, so the rent section should be treated as a city-selection screen, not a ready lease budget.
+
+Practical interpretation: for the current one-income couple, **Timisoara first, Bucharest second with a cap, Cluj-Napoca only if a specific work/community reason justifies the premium**. Budget planning should assume at least first month + deposit cash needs; exact deposit and agency-fee practice still belongs in a later application-prep pass.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -192,10 +212,13 @@ schema_version: 2.0.0
 - **Realism of staying after 03.2027**: Medium — depends on switching to an ordinary route before TP expiry; no captured automatic bridge.
 
 **Pros**:
-- TBD
+- Low headline cost and rent compared with many EU candidates; Timisoara and Bucharest can screen under the couple's gross income if the tax/residence file is solved.
+- EU location near Ukraine with a captured TP baseline through the EU horizon.
 
 **Cons / risks**:
-- TBD
+- Digital-nomad income threshold is above the couple's current income, and the ordinary PFA-style tax model is still an accountant/application-prep gap.
+- Winters are cold for the couple's climate preference, especially outside the south/west.
+- Cluj-Napoca is rent-pressured relative to the Romanian baseline.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -225,6 +248,10 @@ _(none yet)_
 - [src-075] Climate to Travel — Timișoara climate averages.
 - [src-121] WeatherSpark — Romania city cloud-cover climate pages.
 - [src-327] open.er-api.com — USD/RON exchange-rate feed used for the section 5.3 worked example.
+- [src-505] Livingcost — Cost of living in Romania: national cost and rent baseline.
+- [src-506] Livingcost — Cost of living in Bucharest.
+- [src-507] Livingcost — Cost of living in Cluj-Napoca.
+- [src-508] Livingcost — Cost of living in Timisoara.
 
 ### 7e. Not found
 - Serving-consulate digital-nomad appointment/payment/localisation details and exact processing-time practice; not a current core-route blocker after `vq-022` closure.

@@ -6072,3 +6072,51 @@ Each source entry:
 - **Facts supporting**: Wroclaw cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-12
+
+## src-505
+- **Title**: Livingcost — Cost of living in Romania
+- **URL**: https://livingcost.org/cost/romania
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Romania
+- **Facts supporting**: Romania national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-506
+- **Title**: Livingcost — Cost of living in Bucharest
+- **URL**: https://livingcost.org/cost/romania/bucharest
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Romania
+- **Facts supporting**: Bucharest cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-507
+- **Title**: Livingcost — Cost of living in Cluj-Napoca
+- **URL**: https://livingcost.org/cost/romania/cluj-napoca
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Romania
+- **Facts supporting**: Cluj-Napoca cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-508
+- **Title**: Livingcost — Cost of living in Timisoara
+- **URL**: https://livingcost.org/cost/romania/timisoara
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Romania
+- **Facts supporting**: Timisoara cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12

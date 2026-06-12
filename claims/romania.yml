@@ -148,3 +148,39 @@
   confidence: medium
   tags: [romania, taxes, worked-example, self-employed, budget]
   notes: "Calculation uses 1 USD = RON 4.517763. Do not mark section 5.3 passed until PFA registration, expense deductions, VAT/reverse-charge, and immigration-status compatibility are confirmed."
+
+- id: claim-romania-017
+  topic: national_cost_of_living_screen
+  value: "Livingcost screens Romania at about USD 973/month for one person with rent and USD 2,438/month for a family of four; one-person split is about USD 512 without rent, USD 461 rent/utilities, USD 361 food, and USD 47.70 transport"
+  source: src-505
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [romania, cost-of-living, budget]
+  notes: "Commercial aggregator first-pass screen; use for city selection, not live budget quoting."
+
+- id: claim-romania-018
+  topic: bucharest_cost_rent_screen
+  value: "Bucharest screens at about USD 1,138/month one-person total with rent, USD 2,971 family-of-four total, USD 586 center 40 m2 1BR, and USD 385 cheap 40 m2 1BR"
+  source: src-506
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [romania, bucharest, cost-of-living, rent]
+  notes: "Commercial aggregator first-pass screen; exact live listings and landlord requirements remain application-prep."
+
+- id: claim-romania-019
+  topic: cluj_napoca_cost_rent_screen
+  value: "Cluj-Napoca screens at about USD 1,243/month one-person total with rent, USD 3,014 family-of-four total, USD 668 center 40 m2 1BR, and USD 533 cheap 40 m2 1BR"
+  source: src-507
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [romania, cluj-napoca, cost-of-living, rent, rent-pressure]
+  notes: "Commercial aggregator first-pass screen; highest captured Romanian rent pressure in this pass."
+
+- id: claim-romania-020
+  topic: timisoara_cost_rent_screen
+  value: "Timisoara screens at about USD 1,029/month one-person total with rent, USD 2,581 family-of-four total, USD 502 center 40 m2 1BR, and USD 337 cheap 40 m2 1BR"
+  source: src-508
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [romania, timisoara, cost-of-living, rent]
+  notes: "Commercial aggregator first-pass screen; best captured Romania city balance for current one-income planning."
