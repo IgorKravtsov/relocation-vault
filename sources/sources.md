@@ -5915,3 +5915,64 @@ Each source entry:
 - **Facts supporting**: official digital-services portal entry point for sole-proprietor and LLC registration categories, plus run-099 USD/AMD conversion for the Armenia USD 3,000/month tax worked example: USD 1 = AMD 368.343288 (claim-armenia-010)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-07-11
+
+
+## src-492
+- **Title**: ePortugal — Obtain a National Health Service (SNS) user number
+- **URL**: https://eportugal.gov.pt/en/servicos/pedir-o-numero-de-utente-do-sns
+- **Archive**: [not captured]
+- **Type**: official-primary
+- **Date published**: [no date, verification required]
+- **Date accessed**: 2026-06-12
+- **Used by**: Portugal
+- **Facts supporting**: SNS user number allocation for non-nationals and access to SNS public facilities (claim-portugal-011)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-12
+
+## src-493
+- **Title**: ePortugal — Register at the health centre
+- **URL**: https://eportugal.gov.pt/en/servicos/inscrever-se-no-centro-de-saude
+- **Archive**: [not captured]
+- **Type**: official-primary
+- **Date published**: [no date, verification required]
+- **Date accessed**: 2026-06-12
+- **Used by**: Portugal
+- **Facts supporting**: free health-centre registration with SNS user number; user number can be obtained while registering (claim-portugal-012)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-12
+
+## src-494
+- **Title**: ePortugal — Book a consultation at the health centre
+- **URL**: https://eportugal.gov.pt/en/servicos/marcar-uma-consulta-no-centro-de-saude
+- **Archive**: [not captured]
+- **Type**: official-primary
+- **Date published**: [no date, verification required]
+- **Date accessed**: 2026-06-12
+- **Used by**: Portugal
+- **Facts supporting**: registered users can book general/family-medicine and nursing appointments online, by phone, or in person; booking is free
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-12
+
+## src-495
+- **Title**: Expatica — The healthcare system in Portugal
+- **URL**: https://www.expatica.com/pt/healthcare/healthcare-basics/healthcare-in-portugal-106770/
+- **Archive**: [not captured]
+- **Type**: reputable-secondary
+- **Date published**: 2026-04-28
+- **Date accessed**: 2026-06-12
+- **Used by**: Portugal
+- **Facts supporting**: SNS resident coverage baseline; public/private care split; most care free since 2022 with emergency-use exceptions; private doctor EUR 40-50 baseline (claim-portugal-013); private-insurance provider examples; maternity baseline (claim-portugal-014)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-12
+
+## src-496
+- **Title**: Portugalist — Portugal's Healthcare System: What Expats Need to Know About Public and Private
+- **URL**: https://www.portugalist.com/healthcare-portugal/
+- **Archive**: [not captured]
+- **Type**: reputable-secondary
+- **Date published**: [no date, verification required]
+- **Date accessed**: 2026-06-12
+- **Used by**: Portugal
+- **Facts supporting**: resident access to the public system; public-system safety-net role; waiting-list and family-doctor-shortage caveats; English-language availability caveats
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-12

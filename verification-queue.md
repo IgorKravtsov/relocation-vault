@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
 
 # Verification Queue
@@ -183,6 +183,17 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolution note**: Cyprus profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Nicosia ~295, Limassol ~296, Paphos ~294. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-119]
 
 ## Low priority
+
+
+## vq-120 [medium priority]
+- **Fact**: "Portugal healthcare application-prep details: exact D8 / residence-visa medical-insurance minimums, current private-insurance quotes for two young adults, and private-clinic specialist/lab price checks"
+- **Country**: Portugal
+- **Section**: 5.6
+- **Current source**: src-017, src-492, src-493, src-494, src-495, src-496
+- **Why uncertain**: This healthcare pass captured SNS onboarding and a practical public/private baseline, but did not capture the serving-consulate D8 insurance wording or live insurer/clinic prices needed for a filing budget.
+- **Suggested verification**: Check the serving Portugal consulate / VFS D8 checklist, two or three insurer quote pages for a young couple, and private hospital/clinic price lists in Porto/Faro/Lisbon.
+- **Created**: 2026-06-12 (run-101)
+- **Status**: pending
 
 
 ## vq-118 [medium priority]

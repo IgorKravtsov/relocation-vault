@@ -1,25 +1,26 @@
 {
   "version": 2,
-  "iteration": 100,
+  "iteration": 101,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-11T21:54:00Z",
+  "last_run_timestamp": "2026-06-12T01:00:47Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
+    "mode": "country-deep-dive",
+    "country": "Portugal",
     "sections": [
-      "5.3"
+      "5.6"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Portugal",
+    "suggested_country": "Czech Republic",
     "suggested_sections": [
-      "5.6"
+      "5.4",
+      "5.5"
     ],
-    "reason": "Verification queue is cleared; rotate back to a Tier-1-hint country with comparatively low depth and open healthcare coverage."
+    "reason": "Verification queue remains below threshold; rotate to the lowest-depth Tier-2-hint cohort and start cost/rent coverage."
   },
   "countries": {
     "Spain": {
@@ -56,7 +57,7 @@
     "Portugal": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 3.5,
+      "depth_score": 4.0,
       "sections_completed": [
         "5.4",
         "5.5"
@@ -64,10 +65,10 @@
       "sections_partial": [
         "5.1",
         "5.2",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
         "5.7",
         "5.8",
         "5.9",
@@ -80,10 +81,11 @@
         "d8-income-above-current-budget",
         "lisbon-rent-pressure",
         "portugal-self-employed-tax-burden",
-        "portugal-foreign-client-vat-fit-gap"
+        "portugal-foreign-client-vat-fit-gap",
+        "portugal-health-insurance-quote-gap"
       ],
-      "last_iteration": 87,
-      "unverified_count": 1
+      "last_iteration": 101,
+      "unverified_count": 2
     },
     "Italy": {
       "tier": null,
@@ -1041,8 +1043,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 0,
-  "sources_count": 490,
-  "claims_count": 401,
+  "verification_queue_size": 1,
+  "sources_count": 495,
+  "claims_count": 405,
   "proposals_pending": 0
 }

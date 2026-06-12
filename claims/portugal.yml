@@ -89,3 +89,40 @@
   confidence: medium
   tags: [portugal, taxes, worked-example, self-employed, budget]
   notes: "Uses src-401 PIT brackets, src-403 75% coefficient, src-404 21.4% x 70% social-security model, and ECB EUR/USD 1.1540 snapshot; excludes accountant/VAT/immigration costs and first-year timing nuances."
+
+
+- id: claim-portugal-011
+  topic: sns_user_number_for_non_nationals
+  value: "Non-nationals are allocated an SNS user number the first time they go to a public health facility such as a health centre or hospital"
+  source: src-492
+  date_verified: 2026-06-12
+  confidence: high
+  tags: [portugal, healthcare, sns, registration]
+  notes: "Official ePortugal SNS user-number service page."
+
+- id: claim-portugal-012
+  topic: health_centre_registration
+  value: "Health-centre registration is free, uses the SNS user number, and can also issue the user number if the person does not yet have one"
+  source: src-493
+  date_verified: 2026-06-12
+  confidence: high
+  tags: [portugal, healthcare, sns, primary-care]
+  notes: "Official ePortugal health-centre registration service page."
+
+- id: claim-portugal-013
+  topic: private_doctor_cost_baseline
+  value: "A private doctor appointment commonly costs around EUR 40-50"
+  source: src-495
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [portugal, healthcare, private-care, costs]
+  notes: "Reputable expat healthcare overview; live clinic prices should be checked before budgeting final application costs."
+
+- id: claim-portugal-014
+  topic: sns_maternity_baseline
+  value: "SNS coverage includes maternity care and birth; prenatal care takes place at the hospital and uses a Pregnancy Booklet"
+  source: src-495
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [portugal, healthcare, maternity, future-child]
+  notes: "Useful family-planning baseline; private maternity pricing and English-speaking OB/GYN access remain later checks."

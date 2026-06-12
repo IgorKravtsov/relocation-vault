@@ -1,14 +1,14 @@
 ---
 country: Portugal
 tier: null
-depth_score: 3.5
-last_updated: 2026-06-10T05:13:27Z
+depth_score: 4.0
+last_updated: 2026-06-12T01:00:47Z
 sections_completed: ["5.4", "5.5"]
-sections_partial: ["5.1","5.2","5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap"]
-sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406"]
-unverified_count: 1
+sections_partial: ["5.1","5.2","5.3","5.6"]
+sections_pending: ["5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap","portugal-health-insurance-quote-gap"]
+sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406","src-492","src-493","src-494","src-495","src-496"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
-- **depth_score**: 3.5
-- **Last updated**: 2026-06-10T05:13:27Z
+- **depth_score**: 4.0
+- **Last updated**: 2026-06-12T01:00:47Z
 - **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
 
 ## Block 2 — Scoring
@@ -32,7 +32,7 @@ schema_version: 2.0.0
 | Taxes | 4 | medium | Ordinary Portuguese self-employment at the current income is materially heavy: the conservative simplified-regime stress test leaves about EUR 1,862/month (USD 2,148) net if filed singly, or about EUR 1,949/month (USD 2,249) if joint taxation is available with no second income. Exact Article 151 activity mapping, VAT/place-of-supply, and immigration-status compatibility remain accountant/application-prep checks. | §5.3 |
 | Cost of living | 6 | medium | A $3,000/month household can work in Porto/Faro with disciplined rent and no car-heavy lifestyle, but Lisbon leaves little buffer once rent is included. | §5.4 |
 | Rent (decent 2BR) | 4 | medium | Current 2025-2026 T2 bands confirm Lisbon is rent-stressed, Porto is more workable, and Faro/Algarve is seasonal but possible with a year-round lease. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
+| Healthcare | 7 | medium | Legal residents can register for an SNS user number and local health-centre access, TP holders already have NHS access via the Portugal Ukraine mechanism, and private care is available for faster/English-speaking access. Remaining gaps: official D8 visa insurance minimums and live insurer quotes for two young adults. | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
@@ -161,9 +161,33 @@ Portugal-wide baseline: current 2026 guides place a single person's non-rent cos
 
 Verification note: `vq-057` is resolved at the operational-planning level. The captured source gives current 2025-2026 T2/two-bedroom bands rather than official medians, but that is sufficient to pass §5.5 DoD at medium confidence; application-prep should still recheck live listings before signing a lease. [src-189]
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 0.5, last_updated: 2026-06-12, dod: partial}
 
-[verification required]
+> **DoD status**: partial. Covered: SNS access mechanics for residents / TP holders, how to get an SNS user number and register with a local health centre, primary-care booking route, public/private care split, indicative private GP cost, maternity baseline, English-language caveat, and a budget read. Missing for full DoD: official D8 / residence-visa medical-insurance minimums from the serving consulate, current private-insurance quotes for two young adults, and live private-clinic price checks for common specialist/lab services.
+
+#### Public healthcare / SNS access
+
+- Portugal's Ukraine reception FAQ says the Temporary Protection Title automatically assigns a Social Security number and tax number and gives access to the National Health System, so TP is the cleanest healthcare-onboarding route if the couple uses Portugal as a pre-2027 shelter. [src-017]
+- ePortugal states that a National Health Service (SNS) user number is allocated to anyone who needs healthcare at SNS public facilities. Portuguese citizens receive it automatically with the Citizen Card; non-nationals are allocated a number the first time they go to a public health facility such as a health centre or hospital. [src-492]
+- ePortugal's health-centre registration service says a person can register at a healthcare centre by presenting the SNS user number, preferably at the centre for the area of residence; if the person does not yet have a user number, it can be obtained during health-centre registration. The service is free. [src-493]
+- After registration, ePortugal says general/family-medicine and nursing consultations can be booked online, by phone through the local health centre or SNS 24 (808 24 24 24), or in person. Booking itself is free, but the person must be registered at the target health centre. [src-494]
+
+#### Coverage, quality, and practical caveats
+
+- Expatica's 2026 healthcare overview describes Portugal's SNS as free and available to residents, including expats, with coverage across primary and secondary care such as doctor visits, maternity care and birth, some dental care, community healthcare, hospitals/specialists, and emergency services. It also notes that most medical treatment became free in 2022, with remaining non-free situations mainly tied to emergency use without SNS referral and no subsequent hospitalization. [src-495]
+- The same source characterizes healthcare quality as high, but warns about long wait times in the public system. For this couple, that means SNS is a real safety net, while routine specialist access may still require private appointments or insurance if speed matters. [src-495]
+- Portugalist gives a practical expat-oriented caveat: the public system is the main safety net and can treat serious conditions without showing private insurance once resident/onboarded, but waiting lists and family-doctor shortages are common; English is more likely in Lisbon and the Algarve but is not guaranteed in public settings. [src-496]
+
+#### Private care, insurance, and pregnancy
+
+- Expatica reports that a private-doctor appointment in Portugal is commonly around **EUR 40-50**, with shorter private waiting lists and a higher chance of English-speaking staff. Private insurance is therefore a budget-smoothing and access-speed tool rather than a substitute for SNS registration. [src-495]
+- Expatica names international/private insurance providers such as Allianz Care and Cigna Global, and a Portugal broker source listing Medis, Allianz Portugal, Fidelidade, Victoria, April, and DKV. This iteration did **not** capture live quotes for two young Ukrainian adults; keep the household budget model conservative until quotes are obtained. [src-495]
+- For pregnancy and future childbirth, Expatica says public maternity care is part of SNS coverage, prenatal care takes place at the hospital, and the mother-to-be receives a Pregnancy Booklet during the first appointment. This supports Portugal as a plausible family-healthcare environment, but private maternity package prices and English-speaking OB/GYN access remain later application-prep checks. [src-495]
+
+#### Budget conclusion for this couple
+
+- Healthcare is a **positive but not zero-friction** Portugal factor. Once legally resident / protected and registered with SNS, the couple has a credible public safety net and free health-centre onboarding. The practical monthly-budget risk is not routine public primary care; it is private insurance or out-of-pocket private appointments used to bypass waiting lists, secure English-speaking access, or satisfy visa-file insurance evidence before SNS registration is settled. [src-492][src-493][src-494][src-495]
+- Screening baseline: Portugal can remain workable for healthcare on a single USD 3,000/month income if rent is controlled in Porto/Faro and the couple budgets separately for private insurance / occasional private appointments. Do **not** mark healthcare DoD passed until current insurance quotes and the exact residence-visa medical-insurance requirement are captured. [src-495][src-496][vq-120]
 
 ### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -221,6 +245,9 @@ TBD — will be developed as sections 5.3–5.11 are completed.
 - [src-021] Diário da República — Decreto-Lei n.º 63/2026 (19 May 2026) — Alteração do regime de aquisição da nacionalidade portuguesa (7/10-year residence periods).
 - [src-026] AIMA — Autorização de residência para trabalho remoto (post-visa filing route, documents, validity).
 - [src-405] ePortugal — File the self-employment registration (official start-of-activity filing route and cost).
+- [src-492] ePortugal — Obtain a National Health Service (SNS) user number.
+- [src-493] ePortugal — Register at the health centre.
+- [src-494] ePortugal — Book a consultation at the health centre.
 
 ### 7b. Reputable secondary
 - [src-020] Portugalist — Portugal Digital Nomad Visa (D8) 2026 Guide (income threshold, family requirements, NIF/bank/accountancy setup).
@@ -229,6 +256,8 @@ TBD — will be developed as sections 5.3–5.11 are completed.
 - [src-403] PwC Portugal — Individual income determination (simplified-regime turnover cap, 75% / 35% service coefficients, expense-evidence mechanics).
 - [src-404] PwC Portugal — Individual other taxes / corporate VAT summary (self-employed social security and VAT headline context).
 - [src-406] PwC Portugal — Individual significant developments (IFICI and former-tax-residents reliefs).
+- [src-495] Expatica — The healthcare system in Portugal.
+- [src-496] Portugalist — Portugal's Healthcare System: What Expats Need to Know About Public and Private.
 - [src-077] Wikipedia — Climate of Lisbon (Percentage possible sunshine data, WMO/NOAA sourced).
 - [src-078] Wikipedia — Climate of Porto (Percentage possible sunshine data, WMO/NOAA sourced).
 - [src-176] Movingto — Cost of Living in Portugal 2026 (national budget, utilities, groceries, transport, and housing orientation).
@@ -249,9 +278,11 @@ _(none yet)_
 - Official-primary D8 visa checklist (pre-visa document list, health-insurance minimum, processing time) from a Portuguese consulate or AIMA circular.
 - Direct annual sunny-day counts for Faro.
 - Portugal self-employed tax fit: exact Article 151 activity code / coefficient, VAT place-of-supply or reverse-charge reporting, first-year social-security timing, expense-evidence treatment, and D8 / ordinary-status compatibility for a Ukrainian foreign-client IT freelancer remain accountant/application-prep checks; `vq-105` is closed for screening.
+- Portugal healthcare: official D8 / residence-visa medical-insurance minimums, live private-insurance quotes for two young adults, and private-clinic specialist/lab price checks remain open. → `vq-120`
 
 ## Block 8 — Open questions and verification markers
 
 - [verification required] Portugal TP time-counting toward long-term residence. → `vq-008`
 - [verification required] Direct annual sunny-day counts for Faro. → `vq-010 partial`
 - Application-prep check (screening blocker closed): Portugal self-employed tax fit for foreign-client IT — Article 151 code, VAT/place-of-supply, social-security timing, deductible-expense evidence, and immigration-status compatibility. → `vq-105 resolved for screening`
+- [verification required] Portugal D8 / residence-visa medical-insurance minimums and current private-insurance quotes for two young adults. → `vq-120`

@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-11
+last_updated: 2026-06-12
 ---
+
+## 2026-06-12 — run-101
+- Portugal: depth_score 3.5 -> 4.0; section 5.6 healthcare moved from pending to partial with an SNS onboarding and public/private-care baseline.
+- Added Portugal healthcare sources `src-492` through `src-496` and claims `claim-portugal-011` through `claim-portugal-014`.
+- Main finding: Portugal has a credible resident/TP public healthcare safety net via SNS user-number and health-centre registration, but private insurance / private appointments remain budget and visa-file checks.
+- Added `vq-120` for official D8 medical-insurance wording, live private-insurance quotes, and clinic price checks; queue 0 -> 1, below the verification threshold.
 
 ## 2026-06-11 — run-100
 - Verification: resolved 10 tax-fit queue items (`vq-090`-`vq-094`, `vq-115`-`vq-119`) to conservative country-screening baselines.
