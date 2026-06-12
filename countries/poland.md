@@ -1,13 +1,13 @@
 ---
 country: Poland
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-07T22:15:00Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-12T07:13:26Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["poland-zus-social-contribution-gap", "poland-ryczalt-it-rate-fit-gap"]
-sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091", "src-293", "src-320", "src-321", "src-322", "src-323"]
+sections_pending: ["5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["poland-zus-social-contribution-gap", "poland-ryczalt-it-rate-fit-gap", "warsaw-rent-pressure"]
+sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091", "src-293", "src-320", "src-321", "src-322", "src-323", "src-501", "src-502", "src-503", "src-504"]
 unverified_count: 4
 schema_version: 2.0.0
 ---
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (set after sufficient evidence; justify with sources)
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-07
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-12
 - **Tier rationale**: TBD. Poland is a uniquely relevant case because one partner already holds a Polish `karta pobytu` (residence permit), which creates a family-reunification path that does not exist for most other countries in the set. The new CUKR card (May 2026) also provides a clear post-2027 bridge for Ukrainian temporary-protection holders. If both paths hold, Poland could rate Tier 1 or Tier 2; the first tax pass suggests the self-employed tax answer can be workable, but exact ZUS and IT lump-sum classification require accountant confirmation.
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | [verification required] | §5.1 |
 | Climate | — | N/A | [verification required] | §5.2 |
 | Taxes | — | medium | First-pass self-employed model: 12% IT `ryczalt` may leave about PLN 8,777 / USD 2,412 per month before uncaptured ZUS social contributions; exact classification and ZUS table pending. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Livingcost first-pass screen: national one-person total with rent is about $1,393/month; Warsaw is expensive at about $2,026/month, while Krakow/Wroclaw screen around $1,662/month before healthcare, immigration, and accountant costs. | §5.4 |
+| Rent (decent 2BR) | — | medium | The 40 m2 1BR proxy is workable in Krakow/Wroclaw ($737-$973/month) but Warsaw is rent-pressured ($945 cheap / $1,304 center); 80 m2 3BR is an upper stress test, not the default. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -172,17 +172,33 @@ schema_version: 2.0.0
 #### DoD status
 - Section 5.3 is **partial**, not passed: core PIT / health / filing / marriage baselines are captured, but the official 2026 ZUS social-contribution table, exact IT classification for 12% `ryczalt`, VAT / reverse-charge handling for foreign B2B clients, and immigration-status compatibility still need verification.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
 
-> **DoD**: monthly expenses for 2+ cities; explicit verdict on $3000/mo sufficiency.
+> **DoD status**: Passed for first-pass screening. Livingcost is a commercial aggregator, so this is a medium-confidence budget screen rather than a replacement for live shopping / utility / insurance quotes. Healthcare, visa insurance, accountant fees, deposits, and legal costs remain outside this section.
 
-[verification required]
+Livingcost's Poland country page screens the national average at about **$1,393/month for one person with rent** and **$3,169/month for a family of four**, with one-person spending split roughly into $584 without rent, $809 rent/utilities, $388 food, and $71 transport [src-501]. For this couple, the family-of-four line is only a conservative household proxy; a two-adult couple with one bedroom should land between the one-person and family-of-four lines.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+| City | One-person total with rent | Family-of-four total | Food / transport one-person | Screening read |
+|---|---:|---:|---:|---|
+| Warsaw | $2,026 | $4,583 | $454 / $160 | Strong services and jobs, but too rent-heavy as the default on one income; keep only if the existing Polish status, work network, or Ukrainian community benefits outweigh the housing cost [src-502]. |
+| Krakow | $1,662 | $3,756 | $425 / $104 | Better balance than Warsaw with strong services and diaspora; still tourist/student-demand pressure in central districts [src-503]. |
+| Wroclaw | $1,662 | $3,671 | $420 / $85 | Similar cost to Krakow, milder climate than Warsaw, and a practical candidate if rent is controlled [src-504]. |
 
-> **DoD**: 2BR prices in 3+ cities with ranges; % of $3000; 2+ search platforms; landlord requirements.
+Budget verdict: against the couple's **$3,000 gross** income, Poland can work only with tax and rent discipline. The tax section's first-pass `ryczalt` model leaves about **$2,412/month before uncaptured ZUS social contributions** [src-293][src-320][src-321]. That makes Warsaw fragile after rent, health insurance, accountant costs, and visa/residence costs; Krakow or Wroclaw look more realistic first screens.
 
-[verification required]
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. The vault's "normal two-room apartment" definition is closest to Livingcost's 40 m2 1BR line (separate bedroom + living room), while 80 m2 3BR is included only as an upper-size / future-family stress test. Exact live listings, lease terms, deposit, agency-fee practice, and landlord requirements for foreigners remain application-prep.
+
+| City | 40 m2 1BR centre | 40 m2 cheap 1BR | 80 m2 3BR centre | 80 m2 cheap 3BR | Rent pressure vs $3,000 gross |
+|---|---:|---:|---:|---:|---|
+| Warsaw | $1,304 | $945 | $2,244 | $1,574 | 32%-43% for the 40 m2 proxy; high pressure after tax, so add `warsaw-rent-pressure` and use a strict housing cap [src-502]. |
+| Krakow | $973 | $741 | $1,660 | $1,306 | 25%-32% for the 40 m2 proxy; manageable if outside the most central / tourist districts [src-503]. |
+| Wroclaw | $910 | $737 | $1,581 | $1,195 | 25%-30% for the 40 m2 proxy; best first-pass balance among the three target cities [src-504]. |
+
+Search/platform baseline for later housing work: start with OTODOM and OLX Nieruchomosci for broad listing supply, then cross-check city Facebook groups / Ukrainian community groups for landlord practice and scam warnings. This iteration did not capture platform-specific listing samples, so the rent section should be treated as a city-selection screen, not a ready lease budget.
+
+Practical interpretation: for the current one-income couple, **Wroclaw first, Krakow second, Warsaw only with a strict cap or compelling legal/community reason**. Budget planning should assume at least first month + deposit cash needs; exact deposit and agency-fee rules still belong in a later application-prep pass.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -234,17 +250,21 @@ schema_version: 2.0.0
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: TBD
+- **Can relocate now**: Plausibly yes if the couple can rely on existing Polish status / CUKR / family reunification, but the exact residence-file strategy remains unfinished.
 - **Best legalization path for the man**: TBD (likely family reunification via partner's `karta pobytu` if married, or CUKR if eligible, or business-activity residence)
 - **Best legalization path for the woman**: TBD (likely family reunification via partner's `karta pobytu` if married, or CUKR if eligible, or student residence)
 - **Does marriage change the picture**: Yes — marriage would likely unlock family reunification under the partner's existing Polish `karta pobytu`, which is the strongest path.
-- **Realism of staying after 03.2027**: TBD
+- **Realism of staying after 03.2027**: Medium pending full legal-route verification; CUKR is a real post-TP bridge, but the next ordinary permit still needs a specific purpose.
 
 **Pros**:
-- TBD
+- Existing Polish `karta pobytu` / CUKR relevance makes Poland unusually practical compared with many countries in the set.
+- Krakow and Wroclaw screen as workable on the current income if rent is controlled.
+- Self-employed `ryczalt` tax may be workable if the 12% IT classification and ZUS assumptions are confirmed.
 
 **Cons / risks**:
-- TBD
+- Warsaw rent is too high as a default on one income.
+- Climate is colder/greyer than the couple's preference.
+- Full ZUS / VAT / business-residence fit is not yet verified.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -286,8 +306,8 @@ schema_version: 2.0.0
 | Visa / residence permit fees | — | TBD |
 | Apostilles and translations | — | TBD |
 | Flights for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | — | TBD; plan at least one month as a cash placeholder until Polish lease practice is captured. |
+| First month rent | $737-$973 Wroclaw/Krakow cheap-to-centre 40 m2 proxy; $945-$1,304 Warsaw | Livingcost first-pass proxy, not guaranteed live listings [src-502][src-503][src-504]. |
 | Health insurance (one year) | — | TBD |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
@@ -322,6 +342,10 @@ _(none yet)_
 - [src-065] Climate to Travel — Warsaw climate (accessed 2026-05-27)
 - [src-066] Climate to Travel — Krakow climate (accessed 2026-05-27)
 - [src-067] Climate to Travel — Wroclaw climate (accessed 2026-05-27)
+- [src-501] Livingcost — Poland cost of living (accessed 2026-06-12)
+- [src-502] Livingcost — Warsaw cost of living (accessed 2026-06-12)
+- [src-503] Livingcost — Krakow cost of living (accessed 2026-06-12)
+- [src-504] Livingcost — Wroclaw cost of living (accessed 2026-06-12)
 
 ### 7e. Not found
 - A safe Article 159 family-reunification basis for an unmarried partner of a Polish residence-permit holder.

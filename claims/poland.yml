@@ -152,3 +152,39 @@
   confidence: medium
   tags: [poland, taxes, worked-example, ryczalt, budget]
   notes: "Uses src-320 for the 12% IT rate and src-321 for health contribution; not a completed long-term net because ZUS social table / IT classification remain pending"
+
+- id: claim-poland-018
+  topic: poland_cost_living_national_screen
+  value: "Livingcost Poland baseline: $1,393/month one-person total with rent; $3,169/month family-of-four total; $584 one-person without rent; $809 rent/utilities; $388 food; $71 transport"
+  source: src-501
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [poland, cost-of-living, budget, livingcost]
+  notes: "Commercial aggregator first-pass screen; two-adult couple should land between one-person and family-of-four proxy"
+
+- id: claim-poland-019
+  topic: warsaw_cost_rent_screen
+  value: "Livingcost Warsaw baseline: $2,026/month one-person total with rent; $4,583 family-of-four total; 40 m2 1BR city-center $1,304 and cheap 1BR $945"
+  source: src-502
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [poland, warsaw, cost-of-living, rent, livingcost]
+  notes: "Used to add warsaw-rent-pressure screening flag"
+
+- id: claim-poland-020
+  topic: krakow_cost_rent_screen
+  value: "Livingcost Krakow baseline: $1,662/month one-person total with rent; $3,756 family-of-four total; 40 m2 1BR city-center $973 and cheap 1BR $741"
+  source: src-503
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [poland, krakow, cost-of-living, rent, livingcost]
+  notes: "Krakow screens as a better cost/services balance than Warsaw, with tourist/student rent caveat"
+
+- id: claim-poland-021
+  topic: wroclaw_cost_rent_screen
+  value: "Livingcost Wroclaw baseline: $1,662/month one-person total with rent; $3,671 family-of-four total; 40 m2 1BR city-center $910 and cheap 1BR $737"
+  source: src-504
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [poland, wroclaw, cost-of-living, rent, livingcost]
+  notes: "Wroclaw screens as the best first-pass balance among Warsaw, Krakow, and Wroclaw"

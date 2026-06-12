@@ -4,6 +4,11 @@ version: 1.0.0
 last_updated: 2026-06-12
 ---
 
+## 2026-06-12 — run-103
+- Poland: depth_score 2.0 → 3.0; sections 5.4 and 5.5 completed for first-pass screening.
+- Added Poland cost/rent sources `src-501` through `src-504` and claims `claim-poland-018` through `claim-poland-021`.
+- New flag: `warsaw-rent-pressure`; verification queue unchanged at 1 pending item.
+
 ## 2026-06-12 — run-102
 - Czech Republic: depth_score 2.0 -> 3.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
 - Added Czech cost/rent sources `src-497` through `src-500` and claims `claim-czech-012` through `claim-czech-015`.

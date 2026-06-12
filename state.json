@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 102,
+  "iteration": 103,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-12T07:00:00Z",
+  "last_run_timestamp": "2026-06-12T07:13:26Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Czech Republic",
+    "country": "Poland",
     "sections": [
       "5.4",
       "5.5"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Poland",
+    "suggested_country": "Romania",
     "suggested_sections": [
       "5.4",
       "5.5"
     ],
-    "reason": "Verification queue remains below threshold; rotate across the still-low-depth Tier-2-hint cohort and start cost/rent coverage without clustering Czechia."
+    "reason": "Verification queue remains below threshold; rotate across low-depth Tier-2-hint countries and continue cost/rent coverage without clustering Poland."
   },
   "countries": {
     "Spain": {
@@ -275,17 +275,17 @@
     "Poland": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -294,14 +294,11 @@
         "5.11"
       ],
       "risk_flags": [
-        "cukr-next-permit-needs-general-purpose",
-        "family-reunification-unmarried-partner-rules-unclear",
-        "no-dedicated-dn-visa",
-        "climate-sunny-days-gap",
         "poland-zus-social-contribution-gap",
-        "poland-ryczalt-it-rate-fit-gap"
+        "poland-ryczalt-it-rate-fit-gap",
+        "warsaw-rent-pressure"
       ],
-      "last_iteration": 69,
+      "last_iteration": 103,
       "unverified_count": 4
     },
     "Romania": {
@@ -1046,7 +1043,7 @@
     }
   },
   "verification_queue_size": 1,
-  "sources_count": 499,
-  "claims_count": 409,
+  "sources_count": 503,
+  "claims_count": 413,
   "proposals_pending": 0
 }
