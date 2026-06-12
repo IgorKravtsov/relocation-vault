@@ -17,7 +17,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Cyprus | eu-schengen | 1 | — | 4.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 76 | `countries/cyprus.md` |
 | Croatia | eu-schengen | 1 | — | 4.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 78 | `countries/croatia.md` |
 | Malta | eu-schengen | 1 | — | 4.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 77 | `countries/malta.md` |
-| Czech Republic | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 62 | `countries/czech-republic.md` |
+| Czech Republic | eu-schengen | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 102 | `countries/czech-republic.md` |
 | Poland | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 69 | `countries/poland.md` |
 | Romania | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 69 | `countries/romania.md` |
 | Bulgaria | eu-schengen | 2 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 69 | `countries/bulgaria.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 2.44
+- **Average depth_score**: 2.47

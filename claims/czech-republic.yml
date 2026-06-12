@@ -97,3 +97,39 @@
   confidence: medium
   tags: [taxes, worked-example, flat-tax, budget]
   notes: "Calculation uses 1 USD = CZK 20.891673 from src-293 and excludes accountant, banking, VAT-compliance, and immigration-lawyer costs."
+
+- id: claim-czech-012
+  topic: national_cost_screen_2026
+  value: "Livingcost national baseline: $1,490/month for one person with rent and $3,446/month for a family of four; rent/utilities $875 / $1,461; food $419 / $1,113; transport $73 / $206"
+  source: src-497
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, screening]
+  notes: "Commercial aggregator baseline, updated 2026-03-11; use for first-pass screening only, not as a live Czech relocation budget."
+
+- id: claim-czech-013
+  topic: prague_cost_rent_screen_2026
+  value: "Livingcost Prague baseline: $1,909/month one-person total with rent; $4,454 family-of-four total; 40 m2 1BR city-center $1,087 and cheap 1BR $914"
+  source: src-498
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, prague]
+  notes: "Prague is rent-pressured relative to the Czech flat-tax net screen; live listing and deposit checks remain necessary."
+
+- id: claim-czech-014
+  topic: brno_cost_rent_screen_2026
+  value: "Livingcost Brno baseline: $1,639/month one-person total with rent; $3,691 family-of-four total; 40 m2 1BR city-center $921 and cheap 1BR $744"
+  source: src-499
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, brno]
+  notes: "Brno is the first-pass services/cost balance city for Czechia, but still needs live listing and relocation-budget checks."
+
+- id: claim-czech-015
+  topic: ostrava_cost_rent_screen_2026
+  value: "Livingcost Ostrava baseline: $1,253/month one-person total with rent; $2,983 family-of-four total; 40 m2 1BR city-center $616 and cheap 1BR $454"
+  source: src-500
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, ostrava]
+  notes: "Ostrava is the strongest first-pass affordability fallback, with comfort / climate / services tradeoffs to verify later."

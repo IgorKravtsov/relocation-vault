@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-12
 ---
 
+## 2026-06-12 — run-102
+- Czech Republic: depth_score 2.0 -> 3.0; sections 5.4 cost of living and 5.5 rent moved from pending to completed for first-pass screening.
+- Added Czech cost/rent sources `src-497` through `src-500` and claims `claim-czech-012` through `claim-czech-015`.
+- Main finding: Prague is rent-pressured on one income, Brno is the first services/cost balance to screen, and Ostrava is the affordability fallback if comfort/services tradeoffs are acceptable.
+- Verification queue remains 1, below the active verification threshold.
+
 ## 2026-06-12 — run-101
 - Portugal: depth_score 3.5 -> 4.0; section 5.6 healthcare moved from pending to partial with an SNS onboarding and public/private-care baseline.
 - Added Portugal healthcare sources `src-492` through `src-496` and claims `claim-portugal-011` through `claim-portugal-014`.

@@ -1,13 +1,13 @@
 ---
 country: Czech Republic
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-11T21:54:00Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-12T07:00:00Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up", "czech-flat-tax-it-trade-fit-gap"]
-sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171", "src-293", "src-316", "src-317", "src-318", "src-319"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up", "czech-flat-tax-it-trade-fit-gap", "prague-rent-pressure"]
+sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171", "src-293", "src-316", "src-317", "src-318", "src-319", "src-497", "src-498", "src-499", "src-500"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence suggests a strategically relevant Tier-2-hint profile: Czechia has an unusually explicit special long-term residence track for Ukrainian temporary-protection holders, but this pass captured it through UNHCR rather than an official-primary Czech page and the normal self-employed/business route has a high evidence burden.
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-11
-- **Tier rationale**: Keep Tier unset until cost, rent, healthcare, partner mechanics, official-primary special-residence details, and flat-tax IT trade fit are researched.
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-12
+- **Tier rationale**: Keep Tier unset until healthcare, partner mechanics, official-primary special-residence future-round timing, and flat-tax IT trade fit are researched.
 
 ## Block 2 — Scoring
 
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | First-pass: TP plus a Czech special long-term residence route may be strong, but official-primary details and current round timing must be verified. | §5.1 |
 | Climate | — | medium | Temperate inland climate; winters are real and sunshine is modest compared with Mediterranean targets. Clearer-sky proxies now close the sunny-day blocker at medium confidence. | §5.2 |
 | Taxes | — | medium | First pass: Czech tax residence brings worldwide-income taxation; the promising route is the 2026 flat-tax regime, potentially CZK 9,984/month in band I if foreign-client IT activity qualifies as a 60% expense trade. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | First-pass Livingcost data shows Czechia is materially more expensive than the cheapest Balkans / Latin America screens, but Brno and especially Ostrava can still fit the couple's gross budget; Prague is tight on the conservative Czech after-tax baseline. | §5.4 |
+| Rent (decent 2BR) | — | medium | Use Livingcost's 40 m2 1BR as the modest two-room proxy: Prague is expensive, Brno is mid-high, and Ostrava is the budget fallback. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -124,13 +124,34 @@ PwC gives the standard Czech VAT rate as **21%** and notes a 12% reduced rate fo
 
 Czechia is potentially a strong tax fit **if** the IT partner can use the flat-tax band I regime: roughly CZK 52,700 / USD 2,520 monthly net from USD 3,000 gross before accounting and banking costs. The main risk is classification, not headline rates. Before relying on Czechia as a Tier-2 settlement route, get a Czech accountant to confirm the trade licence, 60% expense-category / flat-tax band, VAT treatment for foreign clients, social/health registration, and whether the student's dependency / marriage status affects insurance or tax filings [src-317][src-318][src-319].
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. This section uses Livingcost national and city pages as medium-confidence commercial baselines for total monthly cost, rent/utilities, food, transport, utilities, and internet. It is enough to compare Czechia against the vault's other country screens, but it is not a live-listing or relocation-budget substitute.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost's 2026 Czech Republic page gives a national average monthly cost of **$1,490 for one person with rent** and **$3,446 for a family of four**, with one-person / family-of-four components of $875 / $1,461 for rent and utilities, $419 / $1,113 for food, and $73 / $206 for transport [src-497]. For this two-adult couple on USD 3,000/month gross, the national family-of-four proxy is above gross income, but it overstates a childless two-adult setup; the key screening comparison is against the Czech tax section's conservative flat-tax-band-I net of about **$2,522/month** before accountant, VAT-compliance, immigration, and healthcare costs [src-293][src-319].
 
-[verification required]
+City-level screen:
+
+| City | Total with rent | Rent + utilities | Food | Transport | Utilities / internet notes | Practical read for the couple |
+|---|---:|---:|---:|---:|---|---|
+| Prague | $1,909 one person / $4,454 family of four | $1,181 / $1,992 | $456 / $1,217 | $127 / $359 | Utilities: $209 one person / $323 family; internet about $23.60 [src-498] | Best services / jobs / expat base, but the one-person total already consumes ~76% of the Czech flat-tax net; use only with a strict housing cap or higher income. |
+| Brno | $1,639 / $3,691 | $1,001 / $1,661 | $424 / $1,122 | $84.60 / $240 | Utilities: $199 one person / $307 family; internet about $21.60 [src-499] | Better budget/services balance than Prague; still not cheap after accountant, health, and immigration buffers. |
+| Ostrava | $1,253 / $2,983 | $658 / $1,131 | $421 / $1,115 | $65.80 / $185 | Utilities: $153 one person / $233 family; internet about $18.50 [src-500] | Strongest first-pass budget fit; tradeoff is weaker climate/comfort and likely smaller international-services ecosystem to verify later. |
+
+**Budget conclusion.** Czechia screens as viable only if the tax section's flat-tax / 60% expense-category scenario is confirmed or if income rises. On gross USD 3,000/month, Prague is cost-pressured; Brno is the practical middle option; Ostrava is the budget fallback. Because Czechia's main strategic attraction is legalization / special long-term residence rather than climate or cheap living, a later practical-budget pass should add live rent, health-insurance, accountant, translation, and immigration-lawyer costs before any filing decision.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
+
+> **DoD status**: passed for first-pass screening. The vault's preferred modest two-room proxy is closest to Livingcost's 40 m2 1BR line; 80 m2 3BR lines are included only as an upper-size stress test. Confidence is medium because Livingcost is a commercial aggregator and does not replace live Czech listing checks.
+
+| City | 40 m2 1BR city-center | 40 m2 cheap 1BR | 80 m2 3BR city-center | 80 m2 cheap 3BR | Rent pressure vs $3,000 gross / ~$2,522 Czech flat-tax net |
+|---|---:|---:|---:|---:|---|
+| Prague | $1,087 | $914 | $1,980 | $1,562 | Cheap 1BR proxy is ~30% of gross and ~36% of the Czech flat-tax net; center 1BR is ~36% of gross and ~43% of net. Prague is rent-pressured for one-income planning. [src-498] |
+| Brno | $921 | $744 | $1,586 | $1,269 | Cheap 1BR proxy is ~25% of gross / ~29% of net; center 1BR is ~31% of gross / ~37% of net. Brno is workable but not comfortable. [src-499] |
+| Ostrava | $616 | $454 | $1,091 | $826 | Cheap 1BR proxy is ~15% of gross / ~18% of net; center 1BR is ~21% of gross / ~24% of net. This is the best screened rent fit. [src-500] |
+| Czech national | $780 | $642 | $1,556 | $1,156 | National rent sits below Prague/Brno and above Ostrava; use only as a broad check. [src-497] |
+
+**Rental strategy.** Use the 40 m2 1BR line as the modest two-room proxy, not the 80 m2 3BR stress test. For this couple, screen **Brno first** for a services/cost balance, **Ostrava** as the affordability fallback, and **Prague** only if bureaucracy, job/network access, or Ukrainian community depth outweigh rent pressure. Before committing, search live listings on Sreality, Bezrealitky, RealityMix, UlovDomov, and local Ukrainian/Czech rental groups, and verify deposit, agency-fee, and foreigner-document requirements.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -175,18 +196,21 @@ Czechia is potentially a strong tax fit **if** the IT partner can use the flat-t
 - **Best legalization path for the woman**: Independent Czech TP if eligible; otherwise spouse/dependent strategy needs verification.
 - **Does marriage change the picture**: Likely yes for family-unit clarity, but exact unmarried-partner treatment remains unverified.
 - **Realism of staying after 03.2027**: Potentially medium-high if the special long-term residence route is available in future rounds and the couple meets income/insurance conditions; otherwise medium/uncertain.
+- **Cost/rent budget read**: Prague is rent-pressured on one income; Brno is the first budget/services balance to screen; Ostrava is the affordability fallback if the couple can accept weaker climate/comfort and a smaller international-services ecosystem. [src-497][src-498][src-499][src-500]
 
 **Pros**:
 - Captured special long-term residence concept for Ukrainian TP holders, unlike many countries with no clear bridge.
 - Long-term business/self-employed route exists in official channels.
 - PR anchor after 5 years temporary residence exists, subject to status-counting verification.
 - Large Ukrainian presence likely improves adaptation, to verify in §5.8.
+- Brno and especially Ostrava keep the rent screen within a plausible range if the Czech flat-tax scenario is confirmed.
 
 **Cons / risks**:
 - Special-residence route now has an official-primary anchor, but future-round timing and unmarried-partner mechanics remain unresolved.
 - Climate is a compromise: cold, gray winters and no sea/warm region.
 - Business/self-employed route may require a stronger Czech business file than simple foreign-client remote work.
 - Unmarried partner/dependent mechanics remain unresolved.
+- Prague rent is high relative to the couple's conservative Czech after-tax screen; live listings and deposits must be checked before relying on Prague.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -258,13 +282,18 @@ _(none yet)_
 - [src-171] WeatherSpark — Czechia city cloud-cover climate pages.
 - [src-060] Climates to Travel — Ostrava.
 - [src-293] USD exchange-rate feed used for the Czech tax worked example.
+- [src-497] Livingcost — Czech Republic national cost-of-living baseline.
+- [src-498] Livingcost — Prague cost/rent baseline.
+- [src-499] Livingcost — Brno cost/rent baseline.
+- [src-500] Livingcost — Ostrava cost/rent baseline.
 
 ### 7e. Not found
 - Later-round special-long-term-residence timing after the first registration cycle remains unresolved.
 - Direct annual sunny-day / clear-day counts for Prague, Brno, and Ostrava were not captured.
 - Accountant-level confirmation that foreign-client IT can use the Czech 60% expense trade category / flat-tax band I, plus exact VAT and social/health registration handling, was not captured.
+- Live Czech rental listings, deposit/agency-fee practice, and foreigner-document requirements were not captured.
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-020`: direct annual sunny-day or clear-day counts for Prague, Brno, and Ostrava.
+- `vq-020` resolved in run-032: WeatherSpark clearer-sky day-equivalent proxies close the climate blocker at medium confidence; direct official sunny-day counts were not captured.
 - `vq-094` resolved for screening in run-100: use the Czech flat-tax / 60% expense scenario only as a conservative screening baseline; exact trade category, VAT/reverse-charge, social-health, and immigration-status fit is application-prep/accountant work.

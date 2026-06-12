@@ -1,26 +1,27 @@
 {
   "version": 2,
-  "iteration": 101,
+  "iteration": 102,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-12T01:00:47Z",
+  "last_run_timestamp": "2026-06-12T07:00:00Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Portugal",
+    "country": "Czech Republic",
     "sections": [
-      "5.6"
+      "5.4",
+      "5.5"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Czech Republic",
+    "suggested_country": "Poland",
     "suggested_sections": [
       "5.4",
       "5.5"
     ],
-    "reason": "Verification queue remains below threshold; rotate to the lowest-depth Tier-2-hint cohort and start cost/rent coverage."
+    "reason": "Verification queue remains below threshold; rotate across the still-low-depth Tier-2-hint cohort and start cost/rent coverage without clustering Czechia."
   },
   "countries": {
     "Spain": {
@@ -244,17 +245,17 @@
     "Czech Republic": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -265,9 +266,10 @@
       "risk_flags": [
         "business-visa-evidence-burden",
         "special-residence-round-timing-needs-follow-up",
-        "czech-flat-tax-it-trade-fit-gap"
+        "czech-flat-tax-it-trade-fit-gap",
+        "prague-rent-pressure"
       ],
-      "last_iteration": 62,
+      "last_iteration": 102,
       "unverified_count": 0
     },
     "Poland": {
@@ -1044,7 +1046,7 @@
     }
   },
   "verification_queue_size": 1,
-  "sources_count": 495,
-  "claims_count": 405,
+  "sources_count": 499,
+  "claims_count": 409,
   "proposals_pending": 0
 }

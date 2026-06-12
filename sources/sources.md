@@ -5976,3 +5976,51 @@ Each source entry:
 - **Facts supporting**: resident access to the public system; public-system safety-net role; waiting-list and family-doctor-shortage caveats; English-language availability caveats
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-12
+
+## src-497
+- **Title**: Livingcost — Cost of living in the Czech Republic
+- **URL**: https://livingcost.org/cost/czech-republic
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech Republic national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-498
+- **Title**: Livingcost — Cost of living in Prague
+- **URL**: https://livingcost.org/cost/czech-republic/prague
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Czech Republic
+- **Facts supporting**: Prague cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-499
+- **Title**: Livingcost — Cost of living in Brno
+- **URL**: https://livingcost.org/cost/czech-republic/brno
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Czech Republic
+- **Facts supporting**: Brno cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-500
+- **Title**: Livingcost — Cost of living in Ostrava
+- **URL**: https://livingcost.org/cost/czech-republic/ostrava
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Czech Republic
+- **Facts supporting**: Ostrava cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
