@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 104,
+  "iteration": 105,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-12T10:24:03Z",
+  "last_run_timestamp": "2026-06-12T13:29:09Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Romania",
+    "country": "Bulgaria",
     "sections": [
       "5.4",
       "5.5"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Bulgaria",
+    "suggested_country": "Hungary",
     "suggested_sections": [
       "5.4",
       "5.5"
     ],
-    "reason": "Verification queue remains below threshold; rotate across low-depth Tier-2-hint EU countries and continue cost/rent coverage without clustering Romania."
+    "reason": "Verification queue remains below threshold; rotate to another low-depth Tier-2-hint EU country and continue cost/rent coverage without clustering Bulgaria."
   },
   "countries": {
     "Spain": {
@@ -333,17 +333,17 @@
     "Bulgaria": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -352,12 +352,13 @@
         "5.11"
       ],
       "risk_flags": [
-        "no-captured-post-2027-tp-bridge",
         "self-employment-permit-3-year-cap",
         "dual-citizenship-restriction-for-non-eu-naturalized",
-        "bulgaria-self-employed-contribution-and-status-fit-gap"
+        "self-employment-requirements-not-operational",
+        "bulgaria-self-employed-contribution-and-status-fit-gap",
+        "sofia-rent-pressure"
       ],
-      "last_iteration": 69,
+      "last_iteration": 105,
       "unverified_count": 1
     },
     "Hungary": {
@@ -1042,7 +1043,7 @@
     }
   },
   "verification_queue_size": 1,
-  "sources_count": 507,
-  "claims_count": 417,
+  "sources_count": 511,
+  "claims_count": 421,
   "proposals_pending": 0
 }

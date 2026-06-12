@@ -155,3 +155,39 @@
   confidence: medium
   tags: [tax, worked-example, freelance, bulgaria]
   notes: "Planning stress test only; exact contribution package, health-insurance obligation, VAT/reverse-charge, and immigration-status compatibility require confirmation"
+
+- id: claim-bulgaria-018
+  topic: national_cost_of_living_screen
+  value: "Livingcost screens Bulgaria at USD 1,018/month for one person with rent and USD 2,517/month for a family-of-four proxy; without-rent baselines are USD 534 and USD 1,686 respectively"
+  source: src-509
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, national-average, bulgaria]
+  notes: "Commercial first-pass screen; not a live couple budget and excludes application-prep costs"
+
+- id: claim-bulgaria-019
+  topic: sofia_cost_rent_screen
+  value: "Sofia screens at USD 1,329/month one-person total with rent and USD 3,277 family-of-four proxy; 40 m2 1BR rent proxy is USD 541 cheap / USD 702 center"
+  source: src-510
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, sofia, bulgaria, rent-pressure]
+  notes: "Sofia is the rent-pressure case; live listings, deposits, and landlord requirements remain later checks"
+
+- id: claim-bulgaria-020
+  topic: plovdiv_cost_rent_screen
+  value: "Plovdiv screens at USD 878/month one-person total with rent and USD 2,188 family-of-four proxy; 40 m2 1BR rent proxy is USD 297 cheap / USD 437 center"
+  source: src-511
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, plovdiv, bulgaria]
+  notes: "Best first-pass affordability screen among the captured Bulgaria cities"
+
+- id: claim-bulgaria-021
+  topic: varna_cost_rent_screen
+  value: "Varna screens at USD 1,099/month one-person total with rent and USD 2,660 family-of-four proxy; 40 m2 1BR rent proxy is USD 384 cheap / USD 526 center"
+  source: src-512
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, varna, bulgaria, coastal]
+  notes: "Coastal option; seasonal rental demand needs later live-listing verification"

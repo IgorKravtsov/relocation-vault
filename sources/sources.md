@@ -6120,3 +6120,51 @@ Each source entry:
 - **Facts supporting**: Timisoara cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-12
+
+## src-509
+- **Title**: Livingcost — Cost of living in Bulgaria
+- **URL**: https://livingcost.org/cost/bulgaria
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgaria national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-510
+- **Title**: Livingcost — Cost of living in Sofia
+- **URL**: https://livingcost.org/cost/bulgaria/sofia
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Bulgaria
+- **Facts supporting**: Sofia cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-511
+- **Title**: Livingcost — Cost of living in Plovdiv
+- **URL**: https://livingcost.org/cost/bulgaria/plovdiv
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Bulgaria
+- **Facts supporting**: Plovdiv cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-512
+- **Title**: Livingcost — Cost of living in Varna
+- **URL**: https://livingcost.org/cost/bulgaria/varna
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Bulgaria
+- **Facts supporting**: Varna cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12

@@ -1,13 +1,13 @@
 ---
 country: Bulgaria
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-07T22:15:00Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-12T13:29:09Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["self-employment-permit-3-year-cap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational", "bulgaria-self-employed-contribution-and-status-fit-gap"]
-sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118", "src-328", "src-329", "src-330", "src-331"]
+sections_pending: ["5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["self-employment-permit-3-year-cap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational", "bulgaria-self-employed-contribution-and-status-fit-gap", "sofia-rent-pressure"]
+sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118", "src-328", "src-329", "src-330", "src-331", "src-509", "src-510", "src-511", "src-512"]
 unverified_count: 1
 schema_version: 2.0.0
 ---
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (insufficient data for tier assignment after first pass)
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-07
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-12
 - **Tier rationale**: TBD. Bulgaria offers a self-employment residence route with a 3-year cap and a 5-year path to permanent residence, but the 3-year self-employment permit limitation and the absence of a captured TP-to-ordinary-residence bridge create operational constraints. Dual-citizenship restrictions for naturalized non-EU nationals are a further consideration. A tier will be assigned after deeper research.
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | [verification required] | §5.1 |
 | Climate | — | N/A | [verification required] | §5.2 |
 | Taxes | — | medium | First-pass 10% PIT / statutory-expense / social-insurance / VAT baseline; exact immigration-status and contribution package fit still needs verification | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Livingcost first pass: Plovdiv is the best captured cost screen, Varna is moderate, Sofia is workable only with rent discipline | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 1BR proxy ranges from about $297 cheap in Plovdiv to $702 center in Sofia; live listings / landlord practice still pending | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -161,13 +161,38 @@ Run-date FX from open.er-api is **1 USD = BGN 1.690673**, so USD 3,000/month is 
 
 If the fuller 31.3% contribution package applies, the sensitivity falls to about **BGN 3,528/month** or **USD 2,087/month**. Conservative conclusion: Bulgaria's first-pass tax math is potentially favorable relative to many EU routes, but section 5.3 remains partial until Bulgarian NRA / accountant evidence confirms exact self-insured status, foreign-client IT classification, health-insurance obligation for the couple's residence posture, VAT / reverse-charge handling, and whether this tax registration is compatible with the immigration route.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
 
-[verification required]
+> **DoD**: expenses for 2+ cities calculated; explicit conclusion for the USD 3,000/month budget. This is a first-pass screening baseline using Livingcost, not a live relocation budget; healthcare/insurance, accountant, immigration-lawyer, deposit, and application costs remain in later sections.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost's 2026 Bulgaria country page screens the national average at **$1,018/month** for one person with rent and **$2,517/month** for a family-of-four proxy; the without-rent baseline is **$534** for one person and **$1,686** for a family of four [src-509]. For this couple, the family-of-four figure is not a literal household model, but it is a useful upper-size stress test: it fits under the gross USD 3,000 budget and is above the run-065 conservative after-tax screening band of roughly **$2,087-$2,164/month**, so Bulgaria looks cost-workable only if rent and discretionary spending are kept disciplined.
 
-[verification required]
+City screen:
+
+| City | Livingcost one-person total with rent | Family-of-four proxy | Food proxy | Transport proxy | Screening conclusion |
+|---|---:|---:|---:|---:|---|
+| Sofia | $1,329/month | $3,277/month | $435 one person / $1,172 family | $88.70 one person / $243 family | Best services and jobs, but the family proxy exceeds gross income; use only with a strict rent cap and avoid center rents [src-510]. |
+| Plovdiv | $878/month | $2,188/month | $348 one person / $926 family | $44.70 one person / $121 family | Best first-pass cost fit among the captured cities; cheaper than Sofia while still a major city [src-511]. |
+| Varna | $1,099/month | $2,660/month | $427 one person / $1,135 family | $51.20 one person / $139 family | Coastal option; still within gross budget, but tighter against conservative after-tax income and likely exposed to seasonal coastal demand [src-512]. |
+
+Budget conclusion: **Plovdiv is the best first Bulgaria screen** for a one-income couple at about USD 3,000/month. Varna is plausible if the couple values the Black Sea and controls rent. Sofia remains operationally attractive for bureaucracy, airport, services, and professional networks, but the city-level family proxy and rents make it the rent-pressure case. This section does not include private insurance, state health contributions beyond the tax section, immigration counsel, accountant costs, or actual application fees.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
+
+> **DoD**: prices for 3+ cities with ranges; percent of USD 3,000 calculated; 2+ search platforms; landlord requirements described. This pass uses the Livingcost 40 m2 1BR line as the closest available modest two-room proxy and the 80 m2 3BR line only as an upper-size / future-family stress test.
+
+Livingcost's rent table gives the following 2026 screening rents [src-509][src-510][src-511][src-512]:
+
+| City | 40 m2 1BR cheap | 40 m2 1BR center | % of $3,000 gross | % of $2,087-$2,164 tax-section net | 80 m2 3BR cheap / center stress test |
+|---|---:|---:|---:|---:|---:|
+| Sofia | $541 | $702 | 18%-23% | 25%-34% | $971 / $1,253 |
+| Plovdiv | $297 | $437 | 10%-15% | 14%-21% | $542 / $765 |
+| Varna | $384 | $526 | 13%-18% | 18%-25% | $694 / $963 |
+| Bulgaria national average | $366 | $498 | 12%-17% | 17%-24% | $688 / $949 |
+
+Interpretation for the vault's "normal two-room apartment" definition: the 40 m2 1BR line is a proxy, not proof of a perfect layout with separate kitchen and second room. It is still the closest consistent cross-country indicator used in recent runs. Plovdiv is the clearest affordability screen. Varna is acceptable but should be checked outside peak season and with caution around coastal demand. Sofia is not impossible, but center rents consume roughly one-third of the conservative after-tax tax-section net and justify the `sofia-rent-pressure` flag.
+
+Practical search baseline: use **Imot.bg**, **Imoti.net**, **Alo.bg**, local Facebook rental groups, and larger agencies as discovery channels. For a foreign couple with one foreign-client income, expect landlords or agents to ask for identity documents, proof of legal stay or a pending permit, income evidence, and a deposit. Exact deposit norms, agency fees, lease registration practice, landlord acceptance of foreign remote income, and utility-transfer mechanics remain later practical-budget work; do not treat this first pass as an application-ready housing guide.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -204,17 +229,19 @@ If the fuller 31.3% contribution package applies, the sensitivity falls to about
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: TBD
+- **Can relocate now**: TBD; cost/rent screening is workable in Plovdiv and possible in Varna, but the legal route remains the gating issue.
 - **Best legalization path for the man**: TBD (self-employment route appears most relevant, but exact requirements unclear)
 - **Best legalization path for the woman**: TBD
 - **Does marriage change the picture**: TBD (marriage to a Bulgarian citizen reduces citizenship timeline from 5 to 3 years; marriage to the working partner may enable family reunification)
 - **Realism of staying after 03.2027**: TBD
 
 **Pros**:
-- TBD
+- Plovdiv and national-average rent proxies fit both gross USD 3,000/month and the conservative Bulgaria tax-section net.
+- Varna offers a coastal option with moderate first-pass rent, though seasonal demand needs live-listing verification.
 
 **Cons / risks**:
-- TBD
+- Sofia is the captured rent-pressure case; center rent can consume roughly one-third of the conservative after-tax screening net.
+- Cost/rent sections do not yet include private health insurance, accountant, immigration-lawyer, application, or deposit cash-flow costs.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -256,8 +283,8 @@ If the fuller 31.3% contribution package applies, the sensitivity falls to about
 | Visa / residence permit fees | — | TBD |
 | Apostilles and translations | — | TBD |
 | Flights for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | — | TBD; first-pass rent proxy suggests planning at least one to two months of target rent until local practice is verified |
+| First month rent | $297-$702 | 40 m2 1BR proxy range across Plovdiv cheap to Sofia center; 80 m2 stress-test rents are higher |
 | Health insurance (one year) | — | TBD |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
@@ -296,6 +323,10 @@ _(none yet)_
 - [src-087] Wikipedia — Varna, Bulgaria climate table (aggregator)
 - [src-118] WeatherSpark — Bulgaria city cloud-cover climate pages (commercial)
 - [src-331] open.er-api.com — USD exchange-rate feed (commercial)
+- [src-509] Livingcost — Bulgaria cost of living (commercial)
+- [src-510] Livingcost — Sofia cost of living (commercial)
+- [src-511] Livingcost — Plovdiv cost of living (commercial)
+- [src-512] Livingcost — Varna cost of living (commercial)
 
 ### 7e. Not found
 > Explicit list of resources searched for but not found. Signal for future iterations.
@@ -307,6 +338,7 @@ _(none yet)_
 - Bulgaria-Ukraine dual-citizenship reciprocity agreement status
 - Bulgarian NRA official 2026 self-insured contribution table / exact foreigner health-insurance obligation and self-employed IT classification. Direct NRA capture failed during run-065, so the tax worked example uses a PwC-backed planning stress test and remains partial.
 - Accountant-level VAT / reverse-charge and immigration-status compatibility for a Ukrainian foreign-client IT freelancer.
+- Live Bulgarian rental listings, exact deposit norms, agency fee practice, lease-registration mechanics, and landlord acceptance of foreign remote income for Sofia / Plovdiv / Varna.
 
 ## Block 8 — Open questions and verification markers
 
