@@ -1,13 +1,13 @@
 ---
 country: Hungary
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-07T22:15:00Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-12T16:35:49Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4", "5.5", "5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "hungary-self-employed-tax-and-immigration-fit-gap"]
-sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172", "src-332", "src-333", "src-334", "src-335", "src-336"]
+sections_pending: ["5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "hungary-self-employed-tax-and-immigration-fit-gap", "budapest-rent-pressure"]
+sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172", "src-332", "src-333", "src-334", "src-335", "src-336", "src-513", "src-514", "src-515", "src-516"]
 unverified_count: 1
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Hungary is usable as a legal short/medium-term base but not yet an obvious long-term fit for this couple: the White Card is clean for foreign remote work but requires at least EUR 3,000 net monthly income for 6 months, does not allow Hungarian gainful activity, and its holder cannot sponsor family reunification; guest self-employment has a heavier evidence burden and a 3-year cap before a new application. [src-093][src-094][src-095]
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-07
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-12
 - **Tier rationale**: Leave unassigned until taxes, cost, rent, healthcare, and ordinary self-employment feasibility are researched.
 
 ## Block 2 — Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | TP and White Card/guest self-employment routes identified, but the White Card income floor is above the couple's current budget and no Hungary-specific TP bridge after 04 March 2027 was captured. | §5.1 |
 | Climate | — | medium | Continental climate: warm/hot summers, cold winters, 1,928–2,058 annual sunshine hours in target cities; clearer-sky proxies now close the sunny-day blocker. | §5.2 |
 | Taxes | — | medium | First-pass tax stress test captured 15% PIT, 18.5% social security, 13% social tax, VAT headline, separate spouse filing, and a USD 3,000/month HUF calculation; exact self-employed registration / base rules and White Card vs local self-employment fit remain unresolved. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Livingcost first pass: Hungary screens around $1,197/month for one person with rent and $2,914/month family-of-four proxy; Pécs and Debrecen look more budget-compatible than Budapest. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 1BR proxy is about $405-$546 in Pécs/Debrecen and $593-$772 in Budapest; Budapest is the rent-pressure case on the conservative tax-section net. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -148,13 +148,38 @@ Minimum-base sensitivity: if contributions could instead be modelled on the 2026
 
 At current income, Hungary is tax-uncertain and likely contribution-heavy rather than obviously tax-attractive. White Card residence is also awkward because it forbids Hungarian gainful activity and Hungarian company shareholding, while guest self-employment is the route that most naturally points toward Hungarian tax/self-employed registration. Until the immigration-status fit is resolved, the safe planning answer is: Hungary may work as a legal/tax base only with a pre-filing Hungarian accountant plus immigration lawyer; do not rely on a low-tax small-entrepreneur regime or minimum-base contribution scenario in scoring. [src-093][src-094][src-332][src-333]
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
 
-[verification required]
+> **DoD**: expenses for 2+ cities calculated; explicit conclusion for the USD 3,000/month budget. This is a first-pass screening baseline using Livingcost, not a live relocation budget; healthcare/insurance, accountant, immigration-lawyer, deposit, and application costs remain in later sections.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost's 2026 Hungary country page screens the national average at **$1,197/month** for one person with rent and **$2,914/month** for a family-of-four proxy; without-rent baselines are **$607** for one person and **$1,916** for a family of four [src-513]. For this couple, the family-of-four figure is an upper-size stress test rather than a literal two-person budget. It fits just under gross USD 3,000/month, but it is above both Hungary tax-section net sensitivities of about **$1,745-$2,192/month**, so Hungary is not cost-comfortable if the heavier tax/contribution model applies.
 
-[verification required]
+City screen:
+
+| City | Livingcost one-person total with rent | Family-of-four proxy | Food proxy | Transport proxy | Screening conclusion |
+|---|---:|---:|---:|---:|---|
+| Budapest | $1,469/month | $3,612/month | $441 one person / $1,194 family | $126 one person / $354 family | Best services, airport, bureaucracy, and community depth, but the family proxy exceeds gross income and rent is tight against after-tax income [src-514]. |
+| Debrecen | $1,114/month | $2,681/month | $383 one person / $1,016 family | $57 one person / $161 family | Better budget fit than Budapest, with a university-city profile and lower transport/rent burden [src-515]. |
+| Pécs | $1,124/month | $2,615/month | $411 one person / $1,095 family | $45.90 one person / $130 family | Best first-pass affordability among the captured cities, but smaller-city job/services depth needs later comfort research [src-516]. |
+
+Budget conclusion: **Pécs and Debrecen are the first Hungary cost screens**, while Budapest should be used only if legal, healthcare, and community reasons outweigh the rent/budget pressure. Even in Pécs/Debrecen, the first-pass living-cost result is only comfortable against gross income; it is tight against the conservative tax-section stress test, so healthcare, accountant, immigration-lawyer, and application costs could make Hungary fragile on one income.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-12, dod: passed}
+
+> **DoD**: prices for 3+ cities with ranges; percent of USD 3,000 calculated; 2+ search platforms named; landlord requirements described. This pass uses the Livingcost 40 m2 1BR line as the closest available modest two-room proxy and the 80 m2 3BR line only as an upper-size / future-family stress test.
+
+Livingcost's rent table gives the following 2026 screening rents [src-513][src-514][src-515][src-516]:
+
+| City | 40 m2 1BR cheap | 40 m2 1BR center | % of $3,000 gross | % of $1,745-$2,192 tax-section net | 80 m2 3BR cheap / center stress test |
+|---|---:|---:|---:|---:|---:|
+| Budapest | $593 | $772 | 20%-26% | 27%-44% | $1,053 / $1,424 |
+| Debrecen | $446 | $546 | 15%-18% | 20%-31% | $811 / $990 |
+| Pécs | $405 | $546 | 14%-18% | 18%-31% | $654 / $802 |
+| Hungary national average | $448 | $582 | 15%-19% | 20%-33% | $879 / $1,131 |
+
+Interpretation for the vault's "normal two-room apartment" definition: the 40 m2 1BR line is a proxy, not proof of a perfect layout with a separate kitchen and second room. Pécs is the best captured rent fit, Debrecen is a workable university-city fallback, and Budapest is the `budapest-rent-pressure` case because center rent can approach 44% of the lower conservative tax-section net.
+
+Practical search baseline: use **Ingatlan.com**, **Alberlet.hu**, **Jofogas**, local Facebook rental groups, and larger agencies as discovery channels. For a foreign couple with one foreign-client income, expect landlords or agents to ask for passports, proof of legal stay or pending residence filing, proof of income/savings, and a deposit. Exact deposit norms, agency fees, lease-registration practice, landlord acceptance of foreign remote income, and utility-transfer mechanics remain later practical-budget work; do not treat this first pass as an application-ready housing guide.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -194,7 +219,7 @@ At current income, Hungary is tax-uncertain and likely contribution-heavy rather
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Possible, but Hungary is not yet a top-fit first-pass route. TP may work if eligible; White Card requires EUR 3,000 net/month, excludes local work, and cannot sponsor family reunification; guest self-employment needs deeper business/tax validation. [src-092][src-093][src-094][src-095]
+- **Can relocate now**: Possible, but Hungary remains fragile for this couple. Pécs/Debrecen rent screens are workable, but White Card income is above the current budget, White Card cannot sponsor the partner, and the tax/contribution stress test can make one-income affordability tight. [src-093][src-095][src-515][src-516]
 - **Best legalization path for the man**: White Card only if income is safely above EUR 3,000 net/month and the woman has her own status; otherwise investigate guest self-employment or another sponsor-eligible route.
 - **Best legalization path for the woman**: Temporary protection if independently eligible, or independent study/work/other status; family reunification is not available from a White Card sponsor, and unmarried dependency is not captured. [src-095]
 - **Does marriage change the picture**: It may help only if the sponsor holds a sponsor-eligible Hungarian status; marriage alone does not fix White Card family-reunification exclusion.
@@ -204,6 +229,7 @@ At current income, Hungary is tax-uncertain and likely contribution-heavy rather
 - Official White Card exists for foreign remote work. [src-093]
 - National Residence Card may be available after 3 years of legal uninterrupted residence for eligible permit holders. [src-096]
 - Budapest/Pécs/Debrecen have relatively sunny Central European climates by regional standards. [src-097][src-098][src-099]
+- Pécs and Debrecen have more workable first-pass rent/cost screens than Budapest. [src-515][src-516]
 
 **Cons / risks**:
 - White Card EUR 3,000 net/month requirement is above the couple's current budget assumption. [src-093]
@@ -211,6 +237,7 @@ At current income, Hungary is tax-uncertain and likely contribution-heavy rather
 - Guest self-employment has a material evidence burden and a 3-year cap before a new application. [src-094]
 - No Hungary-specific post-2027 TP bridge captured. [src-002][src-092]
 - Winters are cold compared with Tier-1 Mediterranean candidates. [src-097][src-098][src-099]
+- Budapest is rent-pressured on the conservative after-tax stress test, and the national family proxy is already close to gross income. [src-513][src-514]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -252,8 +279,8 @@ At current income, Hungary is tax-uncertain and likely contribution-heavy rather
 | Visa / residence permit fees | — | TBD |
 | Apostilles and translations | — | TBD |
 | Flights for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | — | TBD; first-pass rent proxy suggests planning at least one to two months of target rent until local practice is verified |
+| First month rent | $405-$772 | 40 m2 1BR proxy range across Pécs cheap to Budapest center; 80 m2 stress-test rents are higher |
 | Health insurance (one year) | — | TBD |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
@@ -290,11 +317,16 @@ _(none yet)_
 - [src-098] Wikipedia — Debrecen climate table.
 - [src-099] Wikipedia — Pécs climate table.
 - [src-172] WeatherSpark — Hungary city cloud-cover climate pages.
+- [src-513] Livingcost — Hungary cost of living (commercial)
+- [src-514] Livingcost — Budapest cost of living (commercial)
+- [src-515] Livingcost — Debrecen cost of living (commercial)
+- [src-516] Livingcost — Pécs cost of living (commercial)
 
 ### 7e. Not found
 - Direct annual sunny/clear-day counts for Budapest, Debrecen, and Pécs.
 - Consular jurisdiction-specific White Card checklist for Ukrainian citizens residing in Ukraine/Poland.
 - Current official NAV/accountant source mapping a Ukrainian foreign-client IT freelancer to a Hungarian individual-entrepreneur regime, exact 2026 contribution bases, KATA / flat-rate eligibility, VAT / reverse-charge reporting, and White Card / guest self-employment immigration-status compatibility.
+- Live Hungarian rental listings, exact deposit norms, agency fee practice, lease-registration mechanics, and landlord acceptance of foreign remote income for Budapest / Debrecen / Pécs.
 
 ## Block 8 — Open questions and verification markers
 

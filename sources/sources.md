@@ -6168,3 +6168,51 @@ Each source entry:
 - **Facts supporting**: Varna cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-12
+
+## src-513
+- **Title**: Livingcost — Cost of living in Hungary
+- **URL**: https://livingcost.org/cost/hungary
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Hungary
+- **Facts supporting**: Hungary national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-514
+- **Title**: Livingcost — Cost of living in Budapest
+- **URL**: https://livingcost.org/cost/hungary/budapest
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Hungary
+- **Facts supporting**: Budapest cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-515
+- **Title**: Livingcost — Cost of living in Debrecen
+- **URL**: https://livingcost.org/cost/hungary/debrecen
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Hungary
+- **Facts supporting**: Debrecen cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12
+
+## src-516
+- **Title**: Livingcost — Cost of living in Pécs
+- **URL**: https://livingcost.org/cost/hungary/pecs
+- **Archive**: [archive: failed 2026-06-12; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-12
+- **Used by**: Hungary
+- **Facts supporting**: Pécs cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-12

@@ -142,3 +142,40 @@
   confidence: medium
   tags: [tax-calculation, self-employed, remote-it, hungary]
   notes: "Not a passed-section result: exact individual-entrepreneur registration, contribution bases, VAT, and immigration-status compatibility need adviser / authority verification."
+
+
+- id: claim-hungary-017
+  topic: national_cost_of_living_screen
+  value: "Livingcost screens Hungary at USD 1,197/month for one person with rent and USD 2,914/month for a family-of-four proxy; without-rent baselines are USD 607 and USD 1,916 respectively"
+  source: src-513
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, national-average, hungary]
+  notes: "Commercial first-pass screen; not a live couple budget and excludes application-prep costs"
+
+- id: claim-hungary-018
+  topic: budapest_cost_rent_screen
+  value: "Budapest screens at USD 1,469/month one-person total with rent and USD 3,612 family-of-four proxy; 40 m2 1BR rent proxy is USD 593 cheap / USD 772 center"
+  source: src-514
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, budapest, hungary, rent-pressure]
+  notes: "Budapest is the rent-pressure case; live listings, deposits, and landlord requirements remain later checks"
+
+- id: claim-hungary-019
+  topic: debrecen_cost_rent_screen
+  value: "Debrecen screens at USD 1,114/month one-person total with rent and USD 2,681 family-of-four proxy; 40 m2 1BR rent proxy is USD 446 cheap / USD 546 center"
+  source: src-515
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, debrecen, hungary]
+  notes: "University-city fallback with lower rent and transport burden than Budapest"
+
+- id: claim-hungary-020
+  topic: pecs_cost_rent_screen
+  value: "Pécs screens at USD 1,124/month one-person total with rent and USD 2,615 family-of-four proxy; 40 m2 1BR rent proxy is USD 405 cheap / USD 546 center"
+  source: src-516
+  date_verified: 2026-06-12
+  confidence: medium
+  tags: [cost-of-living, rent, pecs, hungary]
+  notes: "Best first-pass affordability screen among the captured Hungary cities; smaller-city services need later comfort research"

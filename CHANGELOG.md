@@ -4,6 +4,11 @@ version: 1.0.0
 last_updated: 2026-06-12
 ---
 
+## 2026-06-12 — run-106
+- Hungary: depth_score 2.0 -> 3.0; sections 5.4 and 5.5 completed for first-pass screening.
+- Added Hungary cost/rent sources `src-513` through `src-516` and claims `claim-hungary-017` through `claim-hungary-020`.
+- New flag: `budapest-rent-pressure`; verification queue unchanged at 1 pending item.
+
 ## 2026-06-12 — run-105
 - Bulgaria: depth_score 2.0 -> 3.0; sections 5.4 and 5.5 completed for first-pass screening.
 - Added Bulgaria cost/rent sources `src-509` through `src-512` and claims `claim-bulgaria-018` through `claim-bulgaria-021`.
