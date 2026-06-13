@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-13
 ---
 
+## 2026-06-13 — run-116 — Panama cost/rent first pass
+
+- Opened Panama sections 5.4 and 5.5 with Livingcost national, Panama City, David, and Santiago de Veraguas baselines.
+- Added sources `src-553` through `src-556` and claims `claim-panama-012` through `claim-panama-015`.
+- Panama depth_score moved from 2.0 to 3.0; new flag `panama-city-rent-pressure`; next suggested focus is North Macedonia 5.4/5.5 while verification remains below threshold.
+
 ## 2026-06-13 — run-115 — Paraguay cost/rent first pass
 
 - Opened Paraguay sections 5.4 and 5.5 with Livingcost national, Asuncion, Ciudad del Este, and Encarnacion baselines.

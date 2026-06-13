@@ -96,3 +96,40 @@
   confidence: medium
   tags: [tax, worked-example, remote-it, net-income]
   notes: "The zero-PIT case is provisional and depends on DGI/accountant confirmation of source classification, registration, CSS, ITBMS/export-service, and immigration-file compatibility; social-security sensitivity uses src-446."
+
+
+- id: claim-panama-012
+  topic: panama_national_cost_baseline
+  value: "Livingcost reports Panama national average total monthly cost with rent of about USD 1,324 for one person and USD 3,050 for a family-of-four proxy, with rent-and-utilities at USD 742 / USD 1,185 and food at USD 427 / USD 1,139."
+  source: src-553
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, livingcost, panama]
+  notes: "Commercial/crowdsourced first-pass source; use for screening, not final lease or relocation budget."
+
+- id: claim-panama-013
+  topic: panama_city_cost_rent_baseline
+  value: "Livingcost reports Panama City total monthly cost with rent of about USD 1,583 for one person and USD 3,567 for a family-of-four proxy; 40 m2 1BR rent proxies are about USD 794 cheaper / USD 1,062 city-center."
+  source: src-554
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, panama-city, livingcost]
+  notes: "Capital services are useful, but the one-income budget needs a strict housing cap."
+
+- id: claim-panama-014
+  topic: david_cost_rent_baseline
+  value: "Livingcost reports David total monthly cost with rent of about USD 922 for one person and USD 2,086 for a family-of-four proxy; 40 m2 1BR rent proxies are about USD 302 cheaper / USD 332 city-center."
+  source: src-555
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, david, livingcost]
+  notes: "Best first-pass rent/budget fit among the captured Panama cities, with lower service-depth caveats."
+
+- id: claim-panama-015
+  topic: santiago_de_veraguas_cost_rent_baseline
+  value: "Livingcost reports Santiago de Veraguas total monthly cost with rent of about USD 1,122 for one person and USD 2,729 for a family-of-four proxy; 40 m2 1BR rent proxies are about USD 387 cheaper / USD 590 city-center."
+  source: src-556
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, santiago-de-veraguas, livingcost]
+  notes: "Middle-cost inland fallback between Panama City and David."

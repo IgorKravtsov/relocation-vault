@@ -1,13 +1,13 @@
 ---
 country: Panama
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-11T00:04:17Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-13T23:39:26Z
+sections_completed: ["5.2","5.4","5.5"]
 sections_partial: ["5.1","5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season", "panama-territorial-tax-source-risk", "panama-itbms-export-service-gap"]
-sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203", "src-444", "src-445", "src-446", "src-447", "src-448"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season", "panama-territorial-tax-source-risk", "panama-itbms-export-service-gap", "panama-city-rent-pressure"]
+sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203", "src-444", "src-445", "src-446", "src-447", "src-448", "src-553", "src-554", "src-555", "src-556"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests Panama is useful as a short-to-medium-term remote-work base because the official remote-worker visa fits exactly USD 3,000/month foreign-source income, but it is a non-resident short-stay route and not a clean permanent-residence/citizenship ladder by itself. [src-199]
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-11T00:04:17Z
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-13T23:39:26Z
 - **Tier rationale**: keep as Tier-2 hint only if a separate residence route can be made realistic. The likely long-term routes require a Panama employer/professional file, friendly-nations economic/professional activity, or investment/family facts not yet proven for this Ukrainian remote-IT couple. [src-198][src-200]
 
 ## Block 2 - Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | Remote-worker visa is official and income-fit at B/.36,000/year, but it is 9+9 months and non-resident; Ukraine-specific entry status and permanent-residence fit need verification. | §5.1 |
 | Climate | — | medium | No winter problem, but the lowland cities are hot, extremely humid, rainy, and cloudy for much of the year; Boquete/Guayabal is milder but still wet. | §5.2 |
 | Taxes | — | medium | Territorial-tax screening is attractive if foreign-client remote-work income is treated as foreign-source: USD 3,000/month could remain about USD 3,000 before accountant/ITBMS/registration costs. Downside if treated as Panama-source personal-service income is about USD 2,688/month after PIT, or USD 2,358/month with employee-style CSS/education-tax sensitivity. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Panama City is service-rich but expensive for one income; David is the budget fallback; Santiago is a middle-cost inland option. Livingcost gives Panama City about $1,583/month one-person total and $3,567 family proxy, David about $922/$2,086, and Santiago about $1,122/$2,729. | §5.4 |
+| Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxies are about $794-$1,062 in Panama City, $302-$332 in David, and $387-$590 in Santiago; Panama City needs a strict cap, while David/Santiago fit the $3,000 gross and tax-downside budgets more comfortably. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -130,13 +130,38 @@ Because Panama's balboa is effectively USD-denominated in the captured sources a
 - **Immigration compatibility**: the official remote-worker checklist requires foreign-source income and no local job/service/business activity in Panama, which aligns with the tax-positive story but also limits any fallback to local Panama clients. [src-199]
 - **What to ask an accountant before filing**: DGI registration/RUC need, source classification for foreign-client IT, whether annual PIT return or nil return is required, CSS/education-tax obligations for a self-employed remote worker, ITBMS/export-service treatment, invoice wording, and whether the chosen structure still supports a later ordinary residence file. [src-444][src-446][src-447][src-448]
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for first-pass screening. Livingcost provides national and city-level one-person / family-of-four cost totals, rent-and-utilities, food, transport, utilities, and internet for Panama, Panama City, David, and Santiago de Veraguas. Healthcare, insurance, immigration-lawyer, accountant, and live lease costs remain separate later checks.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Panama uses USD-denominated prices in the captured Livingcost pages, so the couple's USD 3,000/month gross can be compared directly. The country is not uniformly cheap: Panama City is close to the full one-income budget after realistic rent and private-service costs, while David and Santiago leave more room for insurance, accountant, migration, and travel costs. [src-553][src-554][src-555][src-556]
 
-[verification required]
+| Place | One-person total with rent | Family-of-4 proxy | Food | Transport | Utilities / internet | Budget fit for this couple |
+|---|---:|---:|---:|---:|---|---|
+| Panama national average | $1,324 | $3,050 | $427 one person / $1,139 family | $59.6 one person / $167 family | utilities $88.2 one person / $136 family; internet $46.3 | Borderline as a whole-country average: the family proxy already exceeds gross income before visa, insurance, accountant, and savings. [src-553] |
+| Panama City | $1,583 | $3,567 | $432 / $1,139 | $69.1 / $196 | utilities $82.5 / $128; internet $45.4 | Best bureaucracy, airport, legal/accounting, healthcare, and expat-service base, but weak one-income margin if rent is not capped. [src-554] |
+| David | $922 | $2,086 | $363 / $953 | $50.4 / $137 | utilities $84.9 / $129; internet $44.5 | Strongest budget fallback; lower rent and everyday costs leave room even under Panama-source PIT downside, but service depth is lower than the capital. [src-555] |
+| Santiago de Veraguas | $1,122 | $2,729 | $422 / $1,127 | $49.7 / $138 | utilities $85.1 / $130; internet $47.3 | Middle-cost inland option: more budget pressure than David but less than Panama City; useful if the couple wants lower capital-city rent without going as far west. [src-556] |
+
+**One-income interpretation**: under Panama's favorable foreign-source tax screen, the couple may keep close to USD 3,000/month before insurance/accountant/registration costs; Panama City remains tight because Livingcost's family proxy is above USD 3,500/month. Under the Panama-source PIT-only downside (~USD 2,688 net) or employee-style stress test (~USD 2,358), David is the only captured city with a comfortable first-pass cushion, while Santiago is workable with discipline and Panama City becomes a short-term / strict-rent-cap base. [src-444][src-553][src-554][src-555][src-556]
+
+**Practical cost caveats**: Livingcost is a medium-confidence commercial/crowdsourced source and does not replace live 2026 listings, lease terms, local health-insurance quotes, immigration-lawyer fees, accountant fees, or private-clinic costs. For Panama, those non-rent professional and insurance costs are route-critical because the remote-worker visa requires Panama-covering medical insurance and the long-term residence path needs counsel. [src-199]
+
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
+
+> **DoD status**: passed at medium confidence for first-pass screening. Livingcost gives 40 m2 1BR city-center and cheaper 1BR rent lines for three cities; this vault uses that 40 m2 1BR line as a modest two-room proxy. The 80 m2 3BR line is included only as an upper-size / future-family stress test, not the default requirement.
+
+| City | 40 m2 1BR city-center proxy | 40 m2 cheaper 1BR proxy | 80 m2 3BR stress-test band | Share of USD 3,000 gross | Share of Panama-source PIT-only net (~USD 2,688) | First-pass rent verdict |
+|---|---:|---:|---:|---:|---:|---|
+| Panama City | $1,062 | $794 | $1,347-$1,911 | 26%-35% for 40 m2 proxy | 30%-40% | Use only with a strict housing cap or if capital services are needed for filing, healthcare, banking, or accountants. The 3BR stress case is too high for one income. [src-554] |
+| David | $332 | $302 | $363-$603 | 10%-11% | 11%-12% | Best captured rent fit; strongest candidate if Panama is mainly a budget bridge and the couple can accept a smaller western city. [src-555] |
+| Santiago de Veraguas | $590 | $387 | $669-$1,091 | 13%-20% | 14%-22% | Middle option: materially cheaper than Panama City but less obviously service-rich; rent is workable if live listings match the proxy. [src-556] |
+
+**City screen**: start with Panama City for the first legal/accounting/banking and healthcare setup period only if a sub-$900 modest apartment can be found; otherwise David is the first budget screen. Santiago is the fallback compromise when the couple wants lower costs than the capital but easier central-country logistics than David. Because the remote-worker income threshold is exactly USD 3,000/month, a Panama City lease that consumes roughly one-third of gross income is risky unless the tax-positive foreign-source treatment is confirmed and insurance/accountant costs are known. [src-199][src-444][src-554][src-555][src-556]
+
+**Search and lease follow-up**: this iteration did not capture live portals or lease practices. Before treating section 5.5 as application-ready, check Encuentra24, Compreoalquile, local real-estate agencies / Facebook groups, deposit and commission norms, whether landlords accept foreign remote-worker income, whether a lease can support immigration/banking address evidence, and whether utilities/internet are separately billed. Keep these as practical-budget checks rather than country-screening blockers.
+
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -226,7 +251,7 @@ Because Panama's balboa is effectively USD-denominated in the captured sources a
 | Potential residence checks | B/.250 + B/.800 | Listed for friendly-countries / foreign-professional permanent-residence-style files; route fit unverified. [src-198][src-200] |
 | Apostilles and translations | — | Likely needed for police, diploma, marriage and other foreign documents. |
 | Health insurance | — | Policy covering Panama required for remote-worker visa; price pending. [src-199] |
-| Flights / rent / deposit | — | [verification required] |
+| Flights / rent / deposit | — | First-pass modest-rent proxy: Panama City $794-$1,062/month, David $302-$332/month, Santiago $387-$590/month; deposits, commissions, and live listings still need a practical-budget check. [src-554][src-555][src-556] |
 | Immigration lawyer | — | Strongly recommended because long-term route fit is unclear. |
 | **Total** | — | |
 
@@ -258,11 +283,16 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - [src-202] WeatherSpark Panama country comparison.
 - [src-203] WeatherSpark Boquete/Guayabal climate page.
+- [src-553] Livingcost Panama national cost/rent page.
+- [src-554] Livingcost Panama City cost/rent page.
+- [src-555] Livingcost David cost/rent page.
+- [src-556] Livingcost Santiago de Veraguas cost/rent page.
 
 ### 7e. Not found
 - Official Panama / consular country table showing the current Ukraine-specific entry rule and exact visa-free duration remains useful before travel; `vq-062` is closed for screening to the tourist-status-is-not-residence baseline.
 - Confirmed country list / lawyer opinion for whether Ukrainians can use friendly-countries residence and whether foreign-professional residence fits a foreign-client IT worker; the screening baseline is negative/unknown until proven.
 - Panama tax-source classification for foreign-client IT performed physically from Panama, plus DGI/RUC registration, CSS/education-tax, ITBMS/export-service, and residence-file compatibility; `vq-112` was resolved for screening in run-093 and remains an application-prep/accountant gap.
+- Live rental listings, deposits, commissions, landlord acceptance of foreign remote-worker income, registered-address support, medical-insurance quotes, accountant fees, and immigration-lawyer fees remain practical-budget / application-prep checks after this Livingcost screen.
 - Route-specific remote-worker dependent checklist; the screening baseline is marriage for any later ordinary dependent file and no confirmed unmarried-partner route.
 
 ## Block 8 - Open questions and verification markers

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 115,
+  "iteration": 116,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-13T20:34:24Z",
+  "last_run_timestamp": "2026-06-13T23:39:26Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Paraguay",
+    "country": "Panama",
     "sections": [
       "5.4",
       "5.5"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Panama",
+    "suggested_country": "North Macedonia",
     "suggested_sections": [
       "5.4",
       "5.5"
     ],
-    "reason": "Verification queue remains below threshold; Paraguay cost/rent is now opened, so rotate to the next low-depth Tier-2-hint Latin America country without clustering."
+    "reason": "Verification queue remains below threshold; Panama cost/rent is now opened, so rotate to the next low-depth country without clustering and continue first-pass cost/rent coverage."
   },
   "countries": {
     "Spain": {
@@ -770,17 +770,17 @@
     "Panama": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -793,9 +793,10 @@
         "panama-permanent-residence-route-needs-fit-check",
         "very-humid-rainy-season",
         "panama-territorial-tax-source-risk",
-        "panama-itbms-export-service-gap"
+        "panama-itbms-export-service-gap",
+        "panama-city-rent-pressure"
       ],
-      "last_iteration": 93,
+      "last_iteration": 116,
       "unverified_count": 0
     },
     "Mexico": {
@@ -1054,7 +1055,7 @@
     }
   },
   "verification_queue_size": 1,
-  "sources_count": 551,
-  "claims_count": 461,
+  "sources_count": 555,
+  "claims_count": 465,
   "proposals_pending": 0
 }

@@ -6650,3 +6650,52 @@ Each source entry:
 - **Facts supporting**: Encarnacion cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-13
+
+
+## src-553
+- **Title**: Livingcost — Cost of living in Panama
+- **URL**: https://livingcost.org/cost/panama
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Panama
+- **Facts supporting**: Panama national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-554
+- **Title**: Livingcost — Cost of living in Panama City
+- **URL**: https://livingcost.org/cost/panama/panama
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Panama
+- **Facts supporting**: Panama City cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-555
+- **Title**: Livingcost — Cost of living in David, Panama
+- **URL**: https://livingcost.org/cost/panama/david
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Panama
+- **Facts supporting**: David cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-556
+- **Title**: Livingcost — Cost of living in Santiago de Veraguas
+- **URL**: https://livingcost.org/cost/panama/santiago-de-veraguas
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Panama
+- **Facts supporting**: Santiago de Veraguas cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
