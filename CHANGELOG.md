@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-06-13
 ---
 
+## 2026-06-13 — run-111
+- Turkey: depth_score 2.0 -> 3.0 (sections 5.4, 5.5 completed for first-pass cost/rent screening)
+- Sources added: src-533, src-534, src-535, src-536
+- Claims added: claim-turkey-015, claim-turkey-016, claim-turkey-017, claim-turkey-018
+- New flags: istanbul-rent-pressure, turkey-one-income-margin-risk
+- Verification queue: 1 -> 1 (0 resolved)
+
 ## 2026-06-13 — run-110
 - Serbia: depth_score 2.0 -> 3.0; sections 5.4 and 5.5 completed for first-pass cost/rent screening.
 - Added Serbia Livingcost sources `src-529` through `src-532` and claims `claim-serbia-016` through `claim-serbia-019`.

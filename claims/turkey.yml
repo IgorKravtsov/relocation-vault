@@ -125,3 +125,39 @@
   confidence: medium
   tags: [worked-example, tax-net, turkey, usd3000]
   notes: "Calculation uses src-360 for PIT brackets, src-362 for social-security sensitivity, and src-364 for FX. It is partial, not a final Turkish self-employed answer."
+
+- id: claim-turkey-015
+  topic: turkey_cost_national_2026
+  value: "Livingcost screens Turkey at about USD 889/month for one person with rent and USD 2,252/month for a family-of-four proxy; one-person buckets include about USD 433 rent/utilities, USD 283 food, and USD 83.8 transport."
+  source: src-533
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, turkey, budget]
+  notes: "Commercial/crowdsourced first-pass screen; compare with tax net and live budget checks before filing."
+
+- id: claim-turkey-016
+  topic: istanbul_cost_rent_screen_2026
+  value: "Livingcost screens Istanbul at about USD 1,305/month one-person total and USD 3,329/month family-of-four proxy; 40 m2 1BR rent proxy is USD 896 center or USD 561 cheap, with 80 m2 3BR at USD 1,645 center or USD 1,007 cheap."
+  source: src-534
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, istanbul, turkey]
+  notes: "Used to add the Istanbul rent-pressure flag."
+
+- id: claim-turkey-017
+  topic: izmir_cost_rent_screen_2026
+  value: "Livingcost screens Izmir at about USD 1,040/month one-person total and USD 2,612/month family-of-four proxy; 40 m2 1BR rent proxy is USD 596 center or USD 422 cheap, with 80 m2 3BR at USD 1,080 center or USD 725 cheap."
+  source: src-535
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, izmir, turkey]
+  notes: "First balanced Turkey city screen for services/cost/climate."
+
+- id: claim-turkey-018
+  topic: antalya_cost_rent_screen_2026
+  value: "Livingcost screens Antalya at about USD 966/month one-person total and USD 2,392/month family-of-four proxy; 40 m2 1BR rent proxy is USD 489 center or USD 388 cheap, with 80 m2 3BR at USD 886 center or USD 676 cheap."
+  source: src-536
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, antalya, turkey]
+  notes: "Warm-coast first-pass option; tourist-season lease pressure remains a later live-listing check."

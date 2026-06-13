@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 110,
+  "iteration": 111,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-13T05:03:41Z",
+  "last_run_timestamp": "2026-06-13T08:11:06Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Serbia",
+    "country": "Turkey",
     "sections": [
       "5.4",
       "5.5"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Turkey",
+    "suggested_country": "Georgia",
     "suggested_sections": [
       "5.4",
       "5.5"
     ],
-    "reason": "Verification queue remains below threshold; Serbia cost/rent is now opened, so rotate to the next low-depth Tier-2-hint non-EU country without clustering."
+    "reason": "Verification queue remains below threshold; Turkey cost/rent is now opened, so rotate to the next low-depth Tier-2-hint non-EU country without clustering."
   },
   "countries": {
     "Spain": {
@@ -519,17 +519,17 @@
     "Turkey": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -540,9 +540,11 @@
       "risk_flags": [
         "dn-income-at-budget-edge",
         "family-route-likely-marriage-dependent",
-        "turkey-self-employment-and-sgk-fit-gap"
+        "turkey-self-employment-and-sgk-fit-gap",
+        "istanbul-rent-pressure",
+        "turkey-one-income-margin-risk"
       ],
-      "last_iteration": 75,
+      "last_iteration": 111,
       "unverified_count": 0
     },
     "Georgia": {
@@ -1048,7 +1050,7 @@
     }
   },
   "verification_queue_size": 1,
-  "sources_count": 531,
-  "claims_count": 441,
+  "sources_count": 535,
+  "claims_count": 445,
   "proposals_pending": 0
 }

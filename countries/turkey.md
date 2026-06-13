@@ -1,13 +1,13 @@
 ---
 country: Turkey
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-08T15:18:10Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-13T08:11:06Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent", "turkey-self-employment-and-sgk-fit-gap"]
-sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163", "src-359", "src-360", "src-361", "src-362", "src-363", "src-364"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent", "turkey-self-employment-and-sgk-fit-gap", "istanbul-rent-pressure", "turkey-one-income-margin-risk"]
+sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163", "src-359", "src-360", "src-361", "src-362", "src-363", "src-364", "src-533", "src-534", "src-535", "src-536"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Turkey is easy to enter for Ukrainians and has an official digital-nomad / remote-work channel, but the route sits exactly at the couple's current ~$3,000/month income and long-term settlement depends on ordinary Turkish residence rather than an EU-style Ukraine temporary-protection bridge.
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-08T15:18:10Z
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-13T08:11:06Z
 - **Tier rationale**: Not assigned until taxes, cost, healthcare, rent, and actual residence-renewal practice are researched.
 
 ## Block 2 — Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | Entry and DN/ordinary residence routes opened; long-term and Ukraine-specific protection baselines need verification. | §5.1 |
 | Climate | — | medium | Istanbul, Izmir, and Antalya climate baselines captured; WeatherSpark clearer-sky proxies close the sunny-day blocker for planning, with Antalya still represented by sunshine-hour evidence rather than a direct WeatherSpark page. | §5.2 |
 | Taxes | — | medium | First-pass resident / self-employed tax model added: ordinary progressive PIT is heavy at the couple's income, and SGK / VAT / immigration-status fit remain unresolved. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Livingcost 2026 screens Turkey as budget-plausible nationally and in Izmir/Antalya, but tax and inflation/currency risk make the one-income margin tight. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 1BR proxies are workable in Izmir/Antalya but Istanbul is rent-pressured; live listings and lease/address-registration support remain later checks. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -131,13 +131,36 @@ FX snapshot: XE showed **1 USD = TRY 46.0952** on 2026-06-08. Therefore USD 3,00
 
 Turkey is tax-heavy at the couple's current income if ordinary progressive PIT applies, especially because the DN income threshold already consumes the full USD 3,000/month budget. Verification run-075 closes the tax-fit queue item only for screening: use **TRY 99,700/month / USD 2,160 PIT-only** as the optimistic conservative baseline and **TRY 86,200/month / USD 1,870** as a social-contribution sensitivity, both before rent and professional costs. Keep §5.3 partial; correct registration route, self-employed premium base, VAT/export-of-services treatment, foreign-income exemption eligibility, and DN/ordinary-residence compatibility remain Turkish adviser / SGK / Revenue application-prep checks. [src-359][src-360][src-361][src-362][src-363]
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening at medium confidence. Livingcost provides comparable 2026 country / city cost buckets for one person and a family-of-four proxy, but it is commercial/crowdsourced and does not replace later live budget checks for health insurance, accountant costs, deposits, foreigner lease conditions, inflation, and immigration-lawyer costs.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+**National baseline.** Livingcost screens Turkey at about **$889/month** for one person with rent and **$2,252/month** for a family-of-four proxy. Its major monthly buckets are about $433 rent/utilities, $283 food, and $83.8 transport for one person; family buckets are about $741 rent/utilities, $727 food, and $223 transport. Against gross USD 3,000/month, Turkey looks affordable on a headline basis, but the Turkey tax pass leaves only about **$2,162/month PIT-only** or **$1,870/month** under an employee-style SGK sensitivity before rent, health insurance, accountant, VAT, and immigration costs. That makes the safe plan city-sensitive rather than automatically comfortable. [src-533][src-364]
 
-[verification required]
+**Istanbul.** Istanbul is the largest services/admin/diaspora screen but the clear rent-pressure case. Livingcost reports about **$1,305/month** for one person with rent and **$3,329/month** for a family-of-four proxy, with rent/utilities around $689 one-person / $1,222 family, food around $350 / $905, and transport around $152 / $391. Istanbul can work for two adults only with a strict housing cap and a confirmed tax/SGK answer; it should not be treated as the default budget city at the current income. [src-534]
+
+**Izmir.** Izmir is the first balanced city screen: Livingcost reports about **$1,040/month** one-person total and **$2,612/month** family proxy, with rent/utilities around $516 / $879, food around $306 / $784, and transport around $131 / $346. It keeps a large Aegean city profile and better climate than Istanbul while leaving more room under the couple's one-income budget. [src-535]
+
+**Antalya.** Antalya is the warm-coast affordability / climate compromise: Livingcost reports about **$966/month** one-person total and **$2,392/month** family proxy, with rent/utilities around $481 / $821, food around $319 / $825, and transport around $85.3 / $229. It is the best captured fit if the couple prioritizes mild winters and lower rent than Istanbul, but summer heat, tourist-season lease pressure, and live-listing quality need later checks. [src-536]
+
+**Budget verdict for the couple:** Turkey passes a first-pass cost screen only with discipline. Use **Izmir first** for services/cost/climate balance, **Antalya** as the warm-coast option with tourist-market caution, and **Istanbul** only for a specific legal/community reason plus a strict rent cap. The DN income gate at USD 3,000/month and the tax/SGK downside mean the couple should build a cash buffer before treating Turkey as comfortable.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
+
+> **DoD status**: passed for first-pass screening at medium confidence. The vault's target is a normal two-room apartment; Livingcost's **40 m2 1BR** line is the closest modest proxy, while the **80 m2 3BR** line is only an upper-size / future-family stress test.
+
+| City / geography | 40 m2 1BR center | 40 m2 1BR cheap | 80 m2 3BR center | 80 m2 3BR cheap | Screening note |
+|---|---:|---:|---:|---:|---|
+| Turkey national | $504 | $346 | $924 | $640 | National midpoint; use city pages for planning. [src-533] |
+| Istanbul | $896 | $561 | $1,645 | $1,007 | Strong services/admin depth but rent-pressured; avoid 3BR/family-size assumptions at current income. [src-534] |
+| Izmir | $596 | $422 | $1,080 | $725 | Best captured services/cost/climate balance for the first screen. [src-535] |
+| Antalya | $489 | $388 | $886 | $676 | Warmest captured option and cheaper than Istanbul, but tourist-season lease pressure needs checking. [src-536] |
+
+**Rent-to-income screen.** Against gross USD 3,000/month, the modest 40 m2 proxy is about **19%-30%** of income in Istanbul, **14%-20%** in Izmir, and **13%-16%** in Antalya. Against Turkey's conservative tax net band of about **$1,870-$2,162/month**, Istanbul's cheap/center 1BR proxy rises to roughly **26%-48%**, Izmir to **20%-32%**, and Antalya to **18%-26%**. Therefore Istanbul is the rent-pressure flag; Izmir and Antalya are the more plausible city screens if the immigration/tax route is otherwise acceptable. [src-364][src-534][src-535][src-536]
+
+**Foreigner practicality caveats.** This pass did not verify live listings, deposit norms, annual rent-increase rules, whether landlords will provide address-registration support for e-ikamet / residence files, agency fees, furnished-vs-unfurnished differences, or tourist-season lease restrictions in Antalya. Because Turkish residence filings depend on a usable address, housing must be checked as a legal-file input, not just a rent line. [src-145][src-147]
+
+**Rent verdict:** Turkey passes first-pass rent screening outside Istanbul. Add `istanbul-rent-pressure` and `turkey-one-income-margin-risk`: the modest apartment proxy can be manageable in Izmir/Antalya, but the DN threshold, tax downside, and Turkish inflation/currency volatility leave little margin at the current USD 3,000/month income.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -182,6 +205,7 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 - **Best legalization path for the woman**: likely dependent/family route after marriage, or independent education/residence route later; unmarried-partner status not confirmed.
 - **Does marriage change the picture**: likely yes; use marriage as the conservative baseline for dependent planning until official unmarried-partner treatment is verified.
 - **Realism of staying after 03.2027**: medium/uncertain; Turkey avoids EU TP expiry mechanics but depends on ordinary residence renewals and an eight-year long-term-residence clock. [src-154]
+- **Best cost/rent city screen**: Izmir first for services/cost/climate balance; Antalya if mild winters matter most and tourist-season lease risk is controlled; Istanbul only with a strict housing cap because it is the captured rent-pressure case. [src-534][src-535][src-536]
 
 **Pros**:
 - Easy regional access and likely simple entry baseline for Ukrainians.
@@ -199,7 +223,7 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 ### 6a. Before the move (what to prepare in Ukraine / Poland)
 - Documents: passports, proof of income, foreign work contract or freelance project contracts, university diploma, bank statements, photos; plan for apostille / notarized translation requirements after official checklist verification.
 - What to do with the Polish karta pobytu: keep it as a separate Polish status; do not treat it as Turkish residence.
-- Financial preparation: because the DN threshold is $3,000/month, build a buffer before relying on Turkey.
+- Financial preparation: because the DN threshold is $3,000/month and the first-pass tax/rent screen leaves a tight one-income margin, build a buffer before relying on Turkey.
 
 ### 6b. First month after arrival
 - Confirm legal stay clock and file through the official residence/e-ikamet or DN-related channel rather than overstaying visa-free entry.
@@ -222,8 +246,8 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 | Visa / residence permit fees | — | Fee schedule not captured yet. |
 | Apostilles and translations | — | Checklist verification required. |
 | Flights for two | — | TBD |
-| Rental deposit | — | Rent pass required. |
-| First month rent | — | Rent pass required. |
+| Rental deposit | — | Live-listing check required; plan at least one to two months as a placeholder until Turkish lease norms are verified. |
+| First month rent | $388-$596 modest Izmir/Antalya 40 m2 proxy; Istanbul $561-$896 | Livingcost first-pass proxy only; exact 2-room live listings remain application-prep. [src-534][src-535][src-536] |
 | Health insurance (one year) | — | Healthcare pass required. |
 | Immigration lawyer fees | — | Bureaucracy pass required. |
 | Buffer / contingencies | — | Important because income threshold is tight. |
@@ -258,6 +282,10 @@ _(none yet)_
 
 ### 7d. Statistical / commercial
 - [src-364] XE USD/TRY exchange-rate snapshot.
+- [src-533] Livingcost — Cost of living in Turkey.
+- [src-534] Livingcost — Cost of living in Istanbul.
+- [src-535] Livingcost — Cost of living in Izmir.
+- [src-536] Livingcost — Cost of living in Antalya.
 - [src-149] Climate to Travel — Istanbul.
 - [src-150] Climate to Travel — Izmir.
 - [src-151] Climate to Travel — Antalya.
@@ -274,4 +302,4 @@ _(none yet)_
 - `vq-048` — resolved in run-028: no Ukraine-specific Turkish TP bridge captured; use ordinary residence planning, and Polish residence/TP does not substitute for Turkish status. [src-146][src-154]
 - `vq-049` — resolved in run-028 for long-term residence counting: at least eight years continuous residence; student time half, other ordinary permit time full; TP/humanitarian residence does not transfer. Citizenship remains a later nationality pass. [src-154]
 - `vq-050` — resolved in run-030 at medium confidence: WeatherSpark clearer-sky day-equivalent proxies added for Istanbul (~231 days/year) and Izmir (~266 days/year); Antalya remains represented by a strong sunshine-hour proxy (~2,865 h/year) rather than an official sunny-day count. [src-151][src-162][src-163]
-- `vq-103` — pending: confirm the correct Turkish structure for a Ukrainian foreign-client IT worker, including self-employment permission under DN / ordinary residence, SGK / Bag-Kur premium base, VAT / export-of-services treatment, foreign-income exemption eligibility, and whether the PIT-only model is too optimistic. [src-359][src-360][src-361][src-362][src-363][src-364]
+- `vq-103` — resolved in run-075 for screening: use the PIT-only model and SGK sensitivity as conservative planning baselines; self-employment permission, SGK / Bag-Kur premium base, VAT/export treatment, foreign-income exemption eligibility, and DN/ordinary-residence tax fit remain Turkish adviser / application-prep checks before filing. [src-359][src-360][src-361][src-362][src-363][src-364]
