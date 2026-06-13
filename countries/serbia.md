@@ -1,13 +1,13 @@
 ---
 country: Serbia
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-08T15:18:10Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-13T05:03:41Z
+sections_completed: ["5.2","5.4","5.5"]
 sections_partial: ["5.1","5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check", "serbia-freelancer-tax-and-single-permit-fit-gap"]
-sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174", "src-353", "src-354", "src-355", "src-356", "src-357", "src-358"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check", "serbia-freelancer-tax-and-single-permit-fit-gap", "belgrade-rent-pressure"]
+sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174", "src-353", "src-354", "src-355", "src-356", "src-357", "src-358", "src-529", "src-530", "src-531", "src-532"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (likely Tier-2-hint until full legal/tax/cost evidence is gathered).
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-08T15:18:10Z
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-13T05:03:41Z
 - **Tier rationale**: Serbia is operationally attractive because Ukrainian citizens have visa-free entry, Serbia has a renewable temporary-protection framework for Ukrainians, MUP confirms electronic single-permit filing for self-employment / independent professional work, and the amended Law on Foreigners provides temporary residence / single permits up to 3 years plus permanent residence after 3 years of continuous temporary residence. The weak points are that no Serbia-specific post-TP ordinary-residence bridge was captured and climate sunny-day counts remain open. [src-132][src-133][src-135][src-136]
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | Multiple legal bases exist, but the best remote-work path still needs official implementing-rule verification. | §5.1 |
 | Climate | — | medium | Continental climate: cold/grey winters and hot summers; sunshine-hour baselines and clearer-sky proxies are now captured. | §5.2 |
 | Taxes | — | medium | Serbia has a workable but not-yet-passed freelancer / entrepreneur tax baseline; exact route fit with a single permit, APR status, and VAT/reverse-charge mechanics still need accountant/authority confirmation. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | First-pass Livingcost screen: Novi Sad and Niš fit the one-income budget more safely than Belgrade; Belgrade can still work only with rent discipline and tax-route upside. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 1BR proxy ranges from about $272 cheap in Niš to $780 center in Belgrade; Belgrade 3BR stress tests are high for the conservative tax net. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -130,13 +130,36 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 
 **Planning baseline for the couple.** Serbia may be workable on a USD 3,000/month gross income if the immigration route accepts a registered entrepreneur / self-employment file and if the accountant confirms a better-than-gross-base tax model. Verification run-075 closes the tax-fit queue item only for screening: use the conservative gross-base and 20% expense-base stress tests as the safe planning baseline, keep §5.3 partial, and do not assume the official freelancer portal alone is enough for a single permit because the portal explicitly does not create status. Exact APR/tax registration, lump-sum or freelancer self-taxation fit, contribution bases, VAT / e-invoicing / foreign-client treatment, and single-permit compatibility remain accountant/application-prep checks. [src-353][src-355][src-356][src-357]
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening at medium confidence. Livingcost provides comparable 2026 country / city cost buckets for one person and a family-of-four proxy, but it is commercial/crowdsourced and does not replace later live budget checks for health insurance, accountant costs, deposits, foreigner lease conditions, and immigration-lawyer costs.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+**National baseline.** Livingcost screens Serbia at about **$1,136/month** for one person with rent and **$2,681/month** for a family-of-four proxy. Its major monthly buckets are about $592 rent/utilities, $370 food, and $68 transport for one person; family buckets are about $999 rent/utilities, $976 food, and $190 transport. This suggests Serbia can be budget-plausible on the couple's USD 3,000 gross income, but the conservative Serbia tax stress tests leave only about **$1,649-$1,919/month** after tax/social-contribution sensitivities, so the safe plan requires either a confirmed better tax route or strict city/rent selection. [src-529][src-358]
 
-[verification required]
+**Belgrade.** Belgrade is the main services/admin/diaspora screen but also the rent-pressure case. Livingcost reports about **$1,378/month** for one person with rent and **$3,270/month** for a family-of-four proxy, with rent/utilities around $741 one-person / $1,282 family, food around $413 / $1,091, and transport around $100 / $280. Against gross USD 3,000, Belgrade can work for two adults if they choose modest housing and avoid family-sized/tourist-standard rents; against the conservative tax net, Belgrade becomes tight and should not be treated as the default low-risk budget choice. [src-530]
+
+**Novi Sad.** Novi Sad is the first balanced alternative: Livingcost reports about **$1,173/month** one-person total and **$2,759/month** family proxy, with rent/utilities around $613 / $1,027, food around $396 / $1,052, and transport around $47.7 / $132. It preserves a larger-city services profile while giving a materially safer rent level than Belgrade. For this couple, Novi Sad is the first captured Serbia city to screen if the legal/tax route is acceptable. [src-531]
+
+**Niš.** Niš is the affordability fallback: Livingcost reports about **$857/month** one-person total and **$1,973/month** family proxy, with rent/utilities around $420 / $657, food around $312 / $815, and transport around $36.3 / $99.3. It is the best captured fit against the conservative tax downside, but it comes with smaller-city tradeoffs, weaker international-service depth, and the same continental climate caveat already recorded in §5.2. [src-532]
+
+**Budget verdict for the couple:** Serbia's cost base is favorable compared with many EU options, but the tax uncertainty is binding. Use **Novi Sad first** for services/cost balance, **Niš** as the affordability fallback if the conservative tax model applies, and **Belgrade** only with a strict rent cap or if a Serbian accountant confirms a better entrepreneur/freelancer tax result. Healthcare/insurance, accountant fees, immigration-lawyer fees, lease deposits, and foreigner landlord requirements remain later practical-budget checks.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
+
+> **DoD status**: passed for first-pass screening at medium confidence. The vault's target is a normal two-room apartment; Livingcost's **40 m2 1BR** line is the closest modest proxy, while the **80 m2 3BR** line is only an upper-size / future-family stress test.
+
+| City / geography | 40 m2 1BR center | 40 m2 1BR cheap | 80 m2 3BR center | 80 m2 3BR cheap | Screening note |
+|---|---:|---:|---:|---:|---|
+| Serbia national | $577 | $410 | $1,139 | $781 | National midpoint; use city pages for planning. [src-529] |
+| Belgrade | $780 | $522 | $1,432 | $944 | Best services/admin depth but rent-pressured; avoid 3BR/family-size assumptions at current income. [src-530] |
+| Novi Sad | $501 | $418 | $921 | $738 | Best captured cost/services balance; modest 1BR proxy is workable if tax route is not worst-case. [src-531] |
+| Niš | $380 | $272 | $628 | $437 | Strong affordability fallback; smaller-city services tradeoff. [src-532] |
+
+**Rent-to-income screen.** Against gross USD 3,000/month, the modest 40 m2 proxy is about **17%-26%** of income in Belgrade, **14%-17%** in Novi Sad, and **9%-13%** in Niš. Against the conservative after-tax stress-test band of about **$1,649-$1,919/month**, Belgrade's cheap/center 1BR proxy rises to roughly **27%-47%**, Novi Sad to **22%-30%**, and Niš to **14%-23%**. Therefore the practical housing cap should be city-specific: keep Belgrade near the cheap 40 m2 proxy if chosen, use Novi Sad as the normal balance, and use Niš if tax or immigration costs are higher than expected. [src-358][src-530][src-531][src-532]
+
+**Foreigner practicality caveats.** This pass did not verify live listings, Serbian lease language, registration-of-address cooperation by landlords, deposits, agency fees, pet/child constraints, or whether a lease must be in a specific form for the MUP residence file. Because temporary residence requires registered address evidence, housing is not only a budget issue: landlord willingness to support address registration should be checked before deposit payment. [src-136]
+
+**Rent verdict:** Serbia passes first-pass rent screening, with the main risk concentrated in Belgrade and in larger-family-size units. Add `belgrade-rent-pressure` as the Serbia-specific rent flag; do not generalize Belgrade prices to all Serbia, and do not use Niš affordability to hide the possible services/legal-support tradeoff.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -181,17 +204,20 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 - **Best legalization path for the woman**: independent Serbian TP if eligible, or family route through marriage/common-law partnership evidence if attached to the man's Serbian permit.
 - **Does marriage change the picture**: yes for simplicity, but MUP also lists a common-law marriage checklist path with evidence requirements. [src-135]
 - **Realism of staying after 03.2027**: medium if an ordinary single-permit route is secured before any TP expiry; low if relying only on temporary protection.
+- **Best cost/rent city screen**: Novi Sad first for services/cost balance; Niš if the conservative tax downside binds; Belgrade only with a strict housing cap because it is the captured rent-pressure case. [src-530][src-531][src-532]
 
 **Pros**:
 - Ukrainian ordinary-passport holders have visa-free entry for up to 90/180 days. [src-132]
 - Temporary residence / single permits can run up to 3 years and PR can be available after 3 years continuous residence. [src-136]
 - Self-employment / independent-professional single-permit filing is officially electronic through the Foreign Nationals Portal. [src-135][src-137]
 - Serbia is outside Schengen, so it may offer a useful non-EU fallback geography.
+- Novi Sad and Niš screen as budget-plausible on one income, especially compared with many EU city options. [src-531][src-532]
 
 **Cons / risks**:
 - No captured post-TP bridge; ordinary route needed.
 - Exact self-employment/independent-professional tax cost and business-registration practicality still need a dedicated pass.
 - Climate is continental: cold winters and hot summers, not a warm coastal profile.
+- Belgrade rent is the first captured housing-pressure flag; registration-of-address cooperation and lease terms remain practical checks. [src-530][src-136]
 - Ordinary citizenship route may require release from foreign citizenship. [src-138]
 
 ## Block 6 — Practical playbook (working relocation guide)
@@ -234,8 +260,8 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 | Visa / residence permit fees | RSD 22,700 + RSD 420 placeholder | Secondary single-permit figure; verify official eUprava fee page. [src-139] |
 | Apostilles and translations | — | TBD |
 | Flights for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | — | TBD; budget at least 1-2 months once live lease practice is checked. |
+| First month rent | $272-$780 modest 40 m2 proxy | Niš cheap proxy to Belgrade center proxy; Novi Sad is about $418-$501. [src-530][src-531][src-532] |
 | Health insurance (one year) | — | TBD |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
@@ -274,12 +300,17 @@ _(none yet)_
 - [src-141] Climate to Travel — Novi Sad.
 - [src-142] Climate to Travel — Niš.
 - [src-358] XE USD/RSD exchange-rate snapshot used only for the Serbia tax worked example.
+- [src-529] Livingcost — Serbia national cost/rent baseline.
+- [src-530] Livingcost — Belgrade cost/rent baseline.
+- [src-531] Livingcost — Novi Sad cost/rent baseline.
+- [src-532] Livingcost — Niš cost/rent baseline.
 
 ### 7e. Not found
 - Current official implementing act / checklist for a separate Serbia digital-nomad special category, if already active.
 - Direct annual sunny/clear-day counts for Belgrade, Novi Sad, and Niš.
 - Explicit Serbia-specific post-TP ordinary-residence bridge for Ukrainians.
 - Serbian Tax Administration / APR / accountant confirmation of the exact foreign-client IT route: freelancer portal versus registered entrepreneur, activity code, lump-sum eligibility, social-contribution base, VAT / reverse-charge / e-invoicing, and single-permit compatibility.
+- Live rental listings, Serbian lease terms, deposits/agency fees, and landlord support for address registration in Belgrade, Novi Sad, and Niš.
 
 ## Block 8 — Open questions and verification markers
 

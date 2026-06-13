@@ -4,6 +4,11 @@ version: 1.0.0
 last_updated: 2026-06-13
 ---
 
+## 2026-06-13 — run-110
+- Serbia: depth_score 2.0 -> 3.0; sections 5.4 and 5.5 completed for first-pass cost/rent screening.
+- Added Serbia Livingcost sources `src-529` through `src-532` and claims `claim-serbia-016` through `claim-serbia-019`.
+- New flag: `belgrade-rent-pressure`; verification queue unchanged at 1 pending item.
+
 ## 2026-06-13 — run-109
 - Montenegro: depth_score 2.0 -> 3.0; sections 5.4 and 5.5 completed for first-pass screening.
 - Added Montenegro cost/rent sources `src-525` through `src-528` and claims `claim-montenegro-017` through `claim-montenegro-020`.

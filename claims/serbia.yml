@@ -132,3 +132,39 @@
   confidence: medium
   tags: [tax-worked-example, foreign-client-it, serbia, fx]
   notes: "Also relies on src-354, src-356, and src-357 for tax/VAT context; not a final Serbian entrepreneur/freelancer answer."
+
+- id: claim-serbia-016
+  topic: national_cost_rent_baseline
+  value: "Livingcost screens Serbia at about USD 1,136/month for one person with rent and USD 2,681/month for a family-of-four proxy; major one-person buckets are about USD 592 rent/utilities, USD 370 food, and USD 68 transport."
+  source: src-529
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, serbia, livingcost]
+  notes: "Commercial/crowdsourced first-pass screen; use city pages and live checks before committing to housing."
+
+- id: claim-serbia-017
+  topic: belgrade_cost_rent_baseline
+  value: "Livingcost reports Belgrade at about USD 1,378/month for one person with rent and USD 3,270/month for a family-of-four proxy; its 40 m2 1BR rent proxy is about USD 780 center or USD 522 cheap."
+  source: src-530
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, belgrade, serbia, livingcost]
+  notes: "Used to add the belgrade-rent-pressure flag; 80 m2 3BR rents are an upper-size stress test only."
+
+- id: claim-serbia-018
+  topic: novi_sad_cost_rent_baseline
+  value: "Livingcost reports Novi Sad at about USD 1,173/month for one person with rent and USD 2,759/month for a family-of-four proxy; its 40 m2 1BR rent proxy is about USD 501 center or USD 418 cheap."
+  source: src-531
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, novi-sad, serbia, livingcost]
+  notes: "First captured Serbia services/cost balance city for the couple."
+
+- id: claim-serbia-019
+  topic: nis_cost_rent_baseline
+  value: "Livingcost reports Niš at about USD 857/month for one person with rent and USD 1,973/month for a family-of-four proxy; its 40 m2 1BR rent proxy is about USD 380 center or USD 272 cheap."
+  source: src-532
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, nis, serbia, livingcost]
+  notes: "Affordability fallback; smaller-city services and legal-support tradeoffs remain."

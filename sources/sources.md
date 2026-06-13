@@ -6361,3 +6361,51 @@ Each source entry:
 - **Facts supporting**: Kotor cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-13
+
+## src-529
+- **Title**: Livingcost — Cost of living in Serbia
+- **URL**: https://livingcost.org/cost/serbia
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Serbia
+- **Facts supporting**: Serbia national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-530
+- **Title**: Livingcost — Cost of living in Belgrade
+- **URL**: https://livingcost.org/cost/serbia/belgrade
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Serbia
+- **Facts supporting**: Belgrade cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-531
+- **Title**: Livingcost — Cost of living in Novi Sad
+- **URL**: https://livingcost.org/cost/serbia/novi-sad
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Serbia
+- **Facts supporting**: Novi Sad cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-532
+- **Title**: Livingcost — Cost of living in Niš
+- **URL**: https://livingcost.org/cost/serbia/nis
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Serbia
+- **Facts supporting**: Niš cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
