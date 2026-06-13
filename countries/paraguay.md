@@ -1,13 +1,13 @@
 ---
 country: Paraguay
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-11T00:04:17Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-13T20:34:24Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers", "paraguay-foreign-client-vat-fit-gap", "paraguay-social-security-category-gap"]
-sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-437", "src-438", "src-439", "src-440", "src-441", "src-442", "src-443"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers", "paraguay-foreign-client-vat-fit-gap", "paraguay-social-security-category-gap", "asuncion-rent-pressure"]
+sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-437", "src-438", "src-439", "src-440", "src-441", "src-442", "src-443", "src-549", "src-550", "src-551", "src-552"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests a potentially useful long-term route because Paraguay has a normal temporary residence -> permanent residence ladder and the Constitution gives a 3-year naturalization baseline, but the captured official route is generic "lawful activity" residence rather than a digital-nomad visa. [src-191][src-192][src-193]
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-11T00:04:17Z
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-13T20:34:24Z
 - **Tier rationale**: keep as Tier-2 hint until the visa-for-residence filing route, foreign-client IT income evidence, taxes, cost, rent, healthcare, and practical lawyer/accountant mechanics are checked.
 
 ## Block 2 - Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | Ukrainian tourist entry is visa-free for up to 90 days, but the same visa table says residence / lucrative activity requires a visa; temporary residence can run up to 2+2 years and is prerequisite to permanent residence. | §5.1 |
 | Climate | — | medium | Warm subtropical climate with mild winters, no long cold season, and decent clearer-sky proxies; major caveat is very hot, humid summer and heavy rain, especially east/south. | §5.2 |
 | Taxes | — | medium | First-pass PwC/FX screen: at USD 3,000/month (about PYG 18.46m), PIT-only net is about PYG 16.78m / USD 2,727 before accountant/VAT/residence costs; employee-style social-security sensitivity lowers this to about USD 2,484. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Livingcost screens Paraguay as very affordable nationally and in the three target cities; the main budget caveats are health insurance, accountant/immigration costs, and avoiding Asuncion rent creep. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 proxy rents are manageable on gross income and the Paraguay tax-screen net, with Asuncion highest and Ciudad del Este / Encarnacion cheaper. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -139,13 +139,33 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 - The two decisive caveats are not the headline PIT rate; they are (1) whether the lawful-activity residence file and DNIT/RUC category cleanly accept a Ukrainian foreign-client IT contractor, and (2) VAT/IPS/private social-security treatment.
 - Keep §5.3 partial and do not score Paraguay's taxes as passed until DNIT/IPS guidance or a Paraguayan accountant confirms the exact filing structure; run-093 resolved `vq-111` only for screening, not for filing advice.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for first-pass screening. Livingcost gives comparable 2026 national and city baselines for total costs, rent/utilities, food, transport, utilities, and internet. It is still a commercial/statistical screen, not live shopping, health-insurance, accountant, or lease evidence.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+| Location | Livingcost monthly baseline | What it implies for the couple |
+|---|---:|---|
+| Paraguay national | $682/month for one person with rent; $1,633/month for a family-of-four proxy; rent/utilities $321 one person / $539 family; food $237 / $637; transport $49.7 / $133. [src-549] | A two-adult couple should be below the family-of-four proxy if health insurance, residence-lawyer/accountant costs, and housing are controlled. This is comfortably below the $3,000 gross income and below both §5.3 tax-screen net estimates. |
+| Asuncion | $752/month one-person total; $1,837 family-of-four proxy; rent/utilities $348 one person / $617 family; food $262 / $700; transport $59.3 / $160. [src-550] | Best administrative, consular, accountant, healthcare, and services base. Still affordable on paper, but it is the highest-rent Paraguay screen and should use a rent cap. |
+| Ciudad del Este | $649/month one-person total; $1,555 family-of-four proxy; rent/utilities $295 one person / $494 family; food $208 / $572; transport $72.2 / $187. [src-551] | Budget-friendly eastern trade/cross-border city; useful if the couple values cheaper rent and regional commerce, but later checks should cover safety, healthcare depth, and residence-file practicality. |
+| Encarnacion | $619/month one-person total; $1,479 family-of-four proxy; rent/utilities $290 one person / $477 family; food $231 / $618; transport $30.8 / $83.3. [src-552] | Cheapest and softer-climate screen among the three city pages; promising as the affordability/comfort fallback, with smaller-city service and community tradeoffs. |
 
-[verification required]
+**Budget verdict**: Paraguay screens as one of the more budget-forgiving options in the vault so far. Against the §5.3 PIT-only tax screen (~USD 2,727/month) and the employee-style social-security sensitivity (~USD 2,484/month), the national and city family proxies leave room before private healthcare, accountant/lawyer, immigration, flights, and setup costs. The budget risk is less day-to-day price level and more whether the lawful-activity residence, DNIT/RUC, VAT/IPS, and private-health setup are practically workable. [src-549][src-550][src-551][src-552]
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
+
+> **DoD status**: passed at medium confidence for first-pass screening. Livingcost's 40 m2 1BR line is used as the modest two-room proxy, and the 80 m2 3BR line is only an upper-size / future-family stress test. Live listings, deposits, agency fees, lease registration, foreigner acceptance, and registered-address support remain later practical checks.
+
+| Location | 40 m2 1BR proxy | 80 m2 3BR stress test | Rent share and notes |
+|---|---:|---:|---|
+| Paraguay national | $255 cheap / $372 city-center | $490 cheap / $701 city-center | 40 m2 proxy is about 9%-12% of $3,000 gross, about 9%-14% of the §5.3 PIT-only net, and about 10%-15% of the social-security stress-test net. [src-549] |
+| Asuncion | $268 cheap / $448 city-center | $493 cheap / $825 city-center | 40 m2 proxy is about 9%-15% of gross and about 10%-18% of the tax-screen net band. Flag Asuncion as services-first but rent-sensitive by Paraguay standards. [src-550] |
+| Ciudad del Este | $227 cheap / $347 city-center | $405 cheap / $558 city-center | 40 m2 proxy is about 8%-12% of gross and about 8%-14% of the tax-screen net band; good affordability if practical services/safety checks pass. [src-551] |
+| Encarnacion | $219 cheap / $355 city-center | $386 cheap / $557 city-center | 40 m2 proxy is about 7%-12% of gross and about 8%-14% of the tax-screen net band; strongest rent/climate compromise on this first pass. [src-552] |
+
+**How to search later**: For a filing-ready pass, check Clasipar, InfoCasas Paraguay, local inmobiliarias, and Facebook groups for 12-month leases, deposit/commission norms, utilities, furnished vs unfurnished pricing, foreigner acceptance, and whether the lease/address supports DNM residence filings. This run deliberately uses Livingcost only for first-pass comparability.
+
+**Rent verdict**: Screen Asuncion first for bureaucracy, healthcare, accountants/lawyers, and services, but keep a strict housing cap. Encarnacion is the strongest affordability/comfort fallback; Ciudad del Este is cheap but needs practical safety/service due diligence. Add `asuncion-rent-pressure` as a modest risk flag, not because rents are high globally, but because the capital can absorb the Paraguay budget advantage if housing quality and services needs creep upward.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -190,6 +210,7 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 - **Best legalization path for the woman**: marriage-based or separate temporary residence eligibility needs verification; do not assume an unmarried dependent route. [verification required]
 - **Does marriage change the picture**: likely yes for documentary clarity and family file strategy, but exact Paraguayan spouse/dependent mechanics were not captured.
 - **Realism of staying after 03.2027**: medium if the residence-visa and foreign-client income files are workable; not dependent on EU TP extension.
+- **Budget/rent first pass**: favorable on day-to-day costs. Asuncion is the services-first base with a rent cap; Encarnacion is the affordability/climate fallback; Ciudad del Este is cheap but needs safety/service due diligence. [src-550][src-551][src-552]
 
 **Pros**:
 - Ukrainian tourists are visa-free for up to 90 days. [src-190]
@@ -202,6 +223,7 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 - No captured digital-nomad route or fixed remote-income threshold; acceptance of foreign-client IT income needs lawyer/consular verification. [src-191]
 - Dual-nationality consequences are not safe to assume from Article 149. [src-193]
 - Summers are hot/humid; Paraguay is landlocked and far from Ukraine/Europe.
+- Asuncion can erode the budget advantage if the couple needs a higher-quality capital-city lease, private healthcare, and professional support at the same time. [src-550]
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -237,7 +259,7 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 | Permanent residence fee | Gs. 2,787,550 | Later category change; certificate of radication Gs. 223,004. [src-192] |
 | Apostilles and translations | — | Likely significant; Spanish translation required for foreign-language documents. [src-191] |
 | Flights for two | — | [verification required] |
-| Rental deposit / first month | — | [verification required] |
+| Rental deposit / first month | $219-$448+ | Use at least 1 month of the captured 40 m2 proxy as a first-pass reserve; exact deposit/commission norms and registered-address suitability need live-listing checks. [src-550][src-551][src-552] |
 | Health / INTERPOL / local certificates | — | Required categories captured, exact costs pending. [src-191] |
 | Immigration lawyer / accountant | — | Critical for residence-visa and lawful-activity proof. |
 | Buffer / contingencies | — | [verification required] |
@@ -283,4 +305,5 @@ _(none yet)_
 ## Block 8 - Open questions and verification markers
 
 - `vq-111` resolved for screening in run-093: Paraguay foreign-client IT tax structure has a conservative PIT/VAT/social-security risk baseline; DNIT/RUC category, IPS/private social-security treatment, VAT/place-of-supply/export-service classification, and compatibility with the lawful-activity temporary-residence file remain application-prep/accountant checks.
-- Family application details, cost/rent/healthcare/education, and lawyer/accountant contacts remain for later section passes.
+- Family application details, healthcare/education, and lawyer/accountant contacts remain for later section passes.
+- Live rental listings, deposits/agency fees, registered-address support, utilities-by-season, foreigner lease acceptance, and city safety/service tradeoffs remain application-prep checks.

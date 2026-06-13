@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-13
 ---
 
+## 2026-06-13 — run-115 — Paraguay cost/rent first pass
+
+- Opened Paraguay sections 5.4 and 5.5 with Livingcost national, Asuncion, Ciudad del Este, and Encarnacion baselines.
+- Added sources `src-549` through `src-552` and claims `claim-paraguay-012` through `claim-paraguay-015`.
+- Paraguay depth_score moved from 2.0 to 3.0; next suggested focus is Panama 5.4/5.5 while verification remains below threshold.
+
 ## 2026-06-13 — run-114
 - Uruguay: depth_score 2.0 -> 3.0 (sections 5.4, 5.5 completed for first-pass cost/rent screening)
 - Sources added: src-545, src-546, src-547, src-548

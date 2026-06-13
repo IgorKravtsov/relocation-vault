@@ -96,3 +96,39 @@
   confidence: medium
   tags: [tax, worked-example, usd-3000, paraguay]
   notes: "Calculation also uses PIT brackets from src-437 and the social-security sensitivity from src-440; VAT/place-of-supply remains unresolved in vq-111."
+
+- id: claim-paraguay-012
+  topic: national_cost_rent_baseline
+  value: "Livingcost screens Paraguay at $682/month for one person with rent and $1,633/month for a family-of-four proxy; national 40 m2 rent proxy is $255 cheap / $372 city-center."
+  source: src-549
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, paraguay, livingcost]
+  notes: "Commercial first-pass baseline; live listings and healthcare/accountant costs remain later checks."
+
+- id: claim-paraguay-013
+  topic: asuncion_cost_rent_baseline
+  value: "Livingcost screens Asuncion at $752/month one-person total and $1,837 family-of-four proxy, with a 40 m2 rent proxy of $268 cheap / $448 city-center."
+  source: src-550
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, asuncion, livingcost]
+  notes: "Use Asuncion as services/bureaucracy base but with a rent cap."
+
+- id: claim-paraguay-014
+  topic: ciudad_del_este_cost_rent_baseline
+  value: "Livingcost screens Ciudad del Este at $649/month one-person total and $1,555 family-of-four proxy, with a 40 m2 rent proxy of $227 cheap / $347 city-center."
+  source: src-551
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, ciudad-del-este, livingcost]
+  notes: "Affordability is strong; practical safety, healthcare, and residence-file logistics need later checks."
+
+- id: claim-paraguay-015
+  topic: encarnacion_cost_rent_baseline
+  value: "Livingcost screens Encarnacion at $619/month one-person total and $1,479 family-of-four proxy, with a 40 m2 rent proxy of $219 cheap / $355 city-center."
+  source: src-552
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, encarnacion, livingcost]
+  notes: "Strong first-pass affordability and climate compromise; smaller-city service/community tradeoffs remain."

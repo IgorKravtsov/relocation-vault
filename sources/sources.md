@@ -6602,3 +6602,51 @@ Each source entry:
 - **Facts supporting**: Salto cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-13
+
+## src-549
+- **Title**: Livingcost — Cost of living in Paraguay
+- **URL**: https://livingcost.org/cost/paraguay
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Paraguay
+- **Facts supporting**: Paraguay national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-550
+- **Title**: Livingcost — Cost of living in Asuncion
+- **URL**: https://livingcost.org/cost/paraguay/asuncion
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Paraguay
+- **Facts supporting**: Asuncion cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-551
+- **Title**: Livingcost — Cost of living in Ciudad del Este
+- **URL**: https://livingcost.org/cost/paraguay/ciudad-del-este
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Paraguay
+- **Facts supporting**: Ciudad del Este cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-552
+- **Title**: Livingcost — Cost of living in Encarnacion
+- **URL**: https://livingcost.org/cost/paraguay/encarnacion
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Paraguay
+- **Facts supporting**: Encarnacion cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
