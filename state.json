@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 113,
+  "iteration": 114,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-13T14:22:00Z",
+  "last_run_timestamp": "2026-06-13T17:28:57Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Albania",
+    "country": "Uruguay",
     "sections": [
       "5.4",
       "5.5"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Uruguay",
+    "suggested_country": "Paraguay",
     "suggested_sections": [
       "5.4",
       "5.5"
     ],
-    "reason": "Verification queue remains below threshold; Albania cost/rent is now opened, so rotate to the next low-depth Tier-2-hint country without clustering."
+    "reason": "Verification queue remains below threshold; Uruguay cost/rent is now opened, so rotate to the next low-depth Tier-2-hint Latin America country without clustering."
   },
   "countries": {
     "Spain": {
@@ -707,17 +707,17 @@
     "Uruguay": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -729,9 +729,10 @@
         "digital-nomad-not-long-term-route",
         "citizenship-requires-habitual-presence",
         "uruguay-self-employed-bps-gap",
-        "uruguay-foreign-client-vat-fit-gap"
+        "uruguay-foreign-client-vat-fit-gap",
+        "montevideo-punta-del-este-rent-pressure"
       ],
-      "last_iteration": 93,
+      "last_iteration": 114,
       "unverified_count": 0
     },
     "Paraguay": {
@@ -1052,7 +1053,7 @@
     }
   },
   "verification_queue_size": 1,
-  "sources_count": 543,
-  "claims_count": 453,
+  "sources_count": 547,
+  "claims_count": 457,
   "proposals_pending": 0
 }

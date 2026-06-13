@@ -1,13 +1,13 @@
 ---
 country: Uruguay
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-11T00:04:17Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-13T17:28:57Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence", "uruguay-self-employed-bps-gap", "uruguay-foreign-client-vat-fit-gap"]
-sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186", "src-430", "src-431", "src-432", "src-433", "src-434", "src-435", "src-436"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence", "uruguay-self-employed-bps-gap", "uruguay-foreign-client-vat-fit-gap", "montevideo-punta-del-este-rent-pressure"]
+sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186", "src-430", "src-431", "src-432", "src-433", "src-434", "src-435", "src-436", "src-545", "src-546", "src-547", "src-548"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests a potentially strong long-term route because Uruguay allows ordinary legal residence for non-Mercosur foreigners and legal citizenship after 3 years with family constituted in Uruguay or 5 years without family, but the route depends on proving habitual residence and means of life rather than a simple remote-worker visa threshold. [src-181][src-182][src-184]
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-11T00:04:17Z
-- **Tier rationale**: keep as Tier-2 hint until cost, rent, healthcare, and practical residence / tax approval mechanics for foreign-client IT income are checked.
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-13T17:28:57Z
+- **Tier rationale**: keep as Tier-2 hint until healthcare, practical residence / tax approval mechanics for foreign-client IT income, and habitual-residence/citizenship practice are checked; cost/rent now screens as workable outside the most expensive coastal/capital markets.
 
 ## Block 2 - Scoring
 
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | Visa-free entry plus ordinary permanent residence and short DN/provisional identity route exist; operational baseline is PR via foreign-company/independent-worker evidence, with DN only as a bridge. | §5.1 |
 | Climate | — | medium | Mild humid-subtropical climate; no long cold winter; hotter north; clear-sky proxies are decent but not Mediterranean-dry. | §5.2 |
 | Taxes | — | medium | First-pass self-employed screen: USD 3,000/month is about UYU 121,423/month; 70% notional-expense IRPF model leaves about UYU 116,565 / USD 2,880 before BPS/VAT/accountant costs, while an employee-style social-security stress test leaves about USD 2,187-2,337. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Livingcost first-pass screen: Uruguay national total is about $1,389/month for one person and $3,346 for a family-of-four proxy; Montevideo and Punta del Este are tight on one income, while Salto is the lower-cost warm inland fallback. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 rent proxies range from about $262-$412 in Salto to $499-$632 in Montevideo and $795-$1,013 in Punta del Este; use Montevideo/Punta only with strict housing caps. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -136,13 +136,33 @@ FX snapshot for this pass: USD 1 = UYU 40.474288, so USD 3,000/month is about **
 - Do not assume a digital-nomad tax holiday. The DN/provisional-identity route in §5.1 is a short immigration bridge, while this tax section should be treated as ordinary Uruguay tax-residence / self-employment planning unless a Uruguayan accountant confirms a specific incentive. [src-183][src-430]
 - Before filing permanent residence on foreign-client IT income, get a Uruguayan accountant/notary package that aligns three files: DGI registration and invoicing, BPS contribution status, and the migration means-of-life certificate. Run-093 closed `vq-110` for screening only; it is now an application-prep/accountant checklist, not a reason to withhold the country-level tax comparison.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for first-pass screening. Livingcost gives comparable 2026 national and city baselines for total costs, rent/utilities, food, transport, utilities, and internet. It is still a commercial/statistical screen, not live shopping, health-insurance, or lease evidence.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+| Location | Livingcost monthly baseline | What it implies for the couple |
+|---|---:|---|
+| Uruguay national | $1,389/month for one person with rent; $3,346/month for a family-of-four proxy; rent/utilities $603 one person / $950 family; food $520 / $1,364; transport $132 / $357. [src-545] | A two-adult couple should be below the family-of-four proxy if housing and healthcare are controlled, but the national family proxy is already above the $3,000 gross income and above the §5.3 conservative social-security stress-test net. Uruguay therefore needs city selection and tax/BPS clarity. |
+| Montevideo | $1,572/month one-person total; $3,766 family-of-four proxy; rent/utilities $680 one person / $1,076 family; food $557 / $1,457; transport $183 / $493. [src-546] | Best administrative, residence-file, healthcare, and services base, but one-income margin is tight after BPS/VAT/accountant/insurance costs. Use it as the first bureaucracy/services screen, not the default low-cost base. |
+| Punta del Este | $1,671/month one-person total; $3,888 family-of-four proxy; rent/utilities $945 one person / $1,673 family; food $520 / $1,367; transport $68.5 / $190. [src-547] | Warm/coastal lifestyle option but expensive and tourist-season exposed; unsuitable as the default one-income base unless a specific lease is secured below market. |
+| Salto | $1,055/month one-person total; $2,631 family-of-four proxy; rent/utilities $446 one person / $743 family; food $446 / $1,176; transport $50.9 / $139. [src-548] | Stronger budget screen and warmer inland climate, but with smaller-city service, healthcare, community, and travel tradeoffs to verify later. |
 
-[verification required]
+**Budget verdict**: Uruguay is workable but not cheap. On the favorable IRPF-only §5.3 tax screen (~USD 2,880/month before BPS/VAT/accountant costs), Salto leaves room and Montevideo can work with discipline; on the downside employee-style contribution stress test (~USD 2,187-$2,337/month), Montevideo and Punta del Este become tight while Salto remains the main affordability fallback. [src-545][src-546][src-547][src-548]
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
+
+> **DoD status**: passed at medium confidence for first-pass screening. Livingcost's 40 m2 1BR line is used as the modest two-room proxy, and the 80 m2 3BR line is only an upper-size / future-family stress test. Live listings, deposits, agency fees, lease registration, guarantor demands, and seasonality remain later practical checks.
+
+| Location | 40 m2 1BR proxy | 80 m2 3BR stress test | Rent share and notes |
+|---|---:|---:|---|
+| Uruguay national | $427 cheap / $560 city-center | $690 cheap / $1,097 city-center | 40 m2 proxy is about 14%-19% of $3,000 gross, about 15%-19% of favorable §5.3 net, and about 18%-26% of the downside tax-stress net. [src-545] |
+| Montevideo | $499 cheap / $632 city-center | $789 cheap / $1,137 city-center | 40 m2 proxy is about 17%-21% of gross and 17%-22% of favorable net; the 3BR stress test can absorb roughly one-third to one-half of the downside stress-test net. Flag Montevideo as services-first but rent-sensitive. [src-546] |
+| Punta del Este | $795 cheap / $1,013 city-center | $1,458 cheap / $1,833 city-center | 40 m2 proxy is about 27%-34% of gross and 28%-35% of favorable net; 3BR is not compatible with one-income screening. Treat as a strict-housing-cap / seasonal-risk coastal option. [src-547] |
+| Salto | $262 cheap / $412 city-center | $470 cheap / $738 city-center | 40 m2 proxy is about 9%-14% of gross and 9%-14% of favorable net; even under the downside tax-stress net, rent remains manageable. [src-548] |
+
+**How to search later**: For a filing-ready pass, check MercadoLibre Inmuebles, InfoCasas, Gallito, local inmobiliarias, and city Facebook groups for 12-month leases, deposit/guarantee products, registered-address support for residence, utilities, and whether landlords accept foreign remote-worker income evidence. This run deliberately uses Livingcost only for first-pass comparability.
+
+**Rent verdict**: Screen Montevideo first only for bureaucracy, healthcare, notary/accountant access, and diaspora/services; keep a strict rent cap. Use Salto as the affordability and warmer-inland fallback if smaller-city service tradeoffs are acceptable. Punta del Este / Maldonado should be a lifestyle exception, not the default budget plan. Add `montevideo-punta-del-este-rent-pressure` as a risk flag.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -187,6 +207,7 @@ FX snapshot for this pass: USD 1 = UYU 40.474288, so USD 3,000/month is about **
 - **Best legalization path for the woman**: separate ordinary residence file tied to family/spouse evidence if married, or independent ordinary residence evidence; do not rely on the DN bridge as a dependent route. [src-182][src-184]
 - **Does marriage change the picture**: yes for documentary clarity and possibly the family-constituted 3-year legal-citizenship timeline, but residence still needs a Uruguayan file and means/support evidence. [src-182][src-184]
 - **Realism of staying after 03.2027**: medium-positive if ordinary residence is filed early and habitual presence is maintained; not dependent on EU TP extension.
+- **Budget/rent first pass**: workable but city-sensitive. Salto screens as the affordability fallback; Montevideo is the services/bureaucracy base with rent discipline; Punta del Este is too rent-pressured for a default one-income plan. [src-546][src-547][src-548]
 
 **Pros**:
 - Visa-free entry for Ukrainians in the current official admission table. [src-180]
@@ -198,7 +219,7 @@ FX snapshot for this pass: USD 1 = UYU 40.474288, so USD 3,000/month is about **
 - DN/provisional identity is only 6+6 months and should not be treated as the long-term route. [src-183]
 - Official page uses "sufficient for maintenance" rather than a fixed remote-income threshold; approval practice needs notary/lawyer verification. [src-182]
 - Citizenship requires habitual residence, Spanish ability, and no absences over 6 consecutive months. [src-184]
-- Distance from Ukraine/Europe and cost/tax/rent not yet researched.
+- Distance from Ukraine/Europe, unresolved BPS/VAT/accountant costs, and rent pressure in Montevideo / Punta del Este.
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -236,8 +257,8 @@ FX snapshot for this pass: USD 1 = UYU 40.474288, so USD 3,000/month is about **
 | Visa / residence permit fees | — | [verification required] |
 | Apostilles and translations | — | Ukrainian/Polish documents likely needed. |
 | Flights for two | — | [verification required] |
-| Rental deposit | — | [verification required] |
-| First month rent | — | [verification required] |
+| Rental deposit | $262-$1,013+ | Use at least 1 month of the captured 40 m2 proxy as a first-pass reserve; exact deposit/guarantee and agency norms need live-listing checks. [src-546][src-547][src-548] |
+| First month rent | $262-$1,013 | Salto lower end, Montevideo mid-range, Punta del Este high/tourist-market range for the 40 m2 proxy. [src-546][src-547][src-548] |
 | Health insurance / health card | — | [verification required] |
 | Immigration lawyer / notary / accountant | — | Critical for means-of-life proof. |
 | Buffer / contingencies | — | [verification required] |
@@ -273,6 +294,10 @@ _(none yet)_
 - [src-185] Climate to Travel Uruguay climate overview / normals.
 - [src-186] WeatherSpark Uruguay country climate comparison.
 - [src-436] ExchangeRate-API USD to UYU FX snapshot.
+- [src-545] Livingcost — Uruguay national cost-of-living baseline.
+- [src-546] Livingcost — Montevideo cost/rent baseline.
+- [src-547] Livingcost — Punta del Este cost/rent baseline.
+- [src-548] Livingcost — Salto cost/rent baseline.
 
 ### 7e. Not found
 - Exact Uruguayan migration practice for accepting ~$3,000/month foreign-client IT income for a couple remains an application-prep check; operational planning should treat a notarial/accounting means-of-life package as mandatory.

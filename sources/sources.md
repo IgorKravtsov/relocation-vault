@@ -6553,3 +6553,52 @@ Each source entry:
 - **Facts supporting**: Vlorë cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-13
+
+
+## src-545
+- **Title**: Livingcost — Cost of living in Uruguay
+- **URL**: https://livingcost.org/cost/uruguay
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguay national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-546
+- **Title**: Livingcost — Cost of living in Montevideo
+- **URL**: https://livingcost.org/cost/uruguay/montevideo
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Uruguay
+- **Facts supporting**: Montevideo cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-547
+- **Title**: Livingcost — Cost of living in Punta del Este
+- **URL**: https://livingcost.org/cost/uruguay/punta-del-este
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Uruguay
+- **Facts supporting**: Punta del Este cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-548
+- **Title**: Livingcost — Cost of living in Salto, Uruguay
+- **URL**: https://livingcost.org/cost/uruguay/salto
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Uruguay
+- **Facts supporting**: Salto cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13

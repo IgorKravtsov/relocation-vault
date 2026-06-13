@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-06-13
 ---
 
+## 2026-06-13 — run-114
+- Uruguay: depth_score 2.0 -> 3.0 (sections 5.4, 5.5 completed for first-pass cost/rent screening)
+- Sources added: src-545, src-546, src-547, src-548
+- Claims added: claim-uruguay-012, claim-uruguay-013, claim-uruguay-014, claim-uruguay-015
+- New flag: montevideo-punta-del-este-rent-pressure
+- Verification queue: 1 -> 1 (0 resolved)
+
 ## 2026-06-13 — run-113
 - Albania: depth_score 2.0 -> 3.0 (sections 5.4, 5.5 completed for first-pass cost/rent screening)
 - Sources added: src-541, src-542, src-543, src-544

@@ -96,3 +96,40 @@
   confidence: low-medium
   tags: [tax, social-security, stress-test]
   notes: "This is a downside sensitivity only; the exact self-employed BPS contribution category remains unverified."
+
+
+- id: claim-uruguay-012
+  topic: cost_living_national_baseline
+  value: "Livingcost screens Uruguay at about USD 1,389/month for one person with rent and USD 3,346/month for a family-of-four proxy."
+  source: src-545
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, national, one-income]
+  notes: "Commercial/statistical first-pass baseline; not a live two-adult budget quote."
+
+- id: claim-uruguay-013
+  topic: montevideo_cost_rent_baseline
+  value: "Livingcost screens Montevideo at about USD 1,572/month for one person with rent, USD 3,766/month for a family-of-four proxy, and USD 499-632/month for a 40 m2 1BR rent proxy."
+  source: src-546
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, montevideo]
+  notes: "Use as a services/bureaucracy city screen; live listings and deposit/guarantee requirements remain later work."
+
+- id: claim-uruguay-014
+  topic: punta_del_este_rent_pressure
+  value: "Livingcost screens Punta del Este at about USD 795-1,013/month for a 40 m2 1BR proxy and USD 1,458-1,833/month for an 80 m2 3BR stress test."
+  source: src-547
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [rent, punta-del-este, coastal-rent-pressure]
+  notes: "Tourist/coastal market; not the default one-income base without a below-market lease."
+
+- id: claim-uruguay-015
+  topic: salto_affordability_baseline
+  value: "Livingcost screens Salto at about USD 1,055/month for one person with rent, USD 2,631/month for a family-of-four proxy, and USD 262-412/month for a 40 m2 1BR rent proxy."
+  source: src-548
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, salto, affordability]
+  notes: "Affordability fallback pending smaller-city healthcare, services, community, and travel checks."
