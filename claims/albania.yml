@@ -106,3 +106,39 @@
   confidence: medium
   tags: [worked-example, tax-net, self-employed, albania]
   notes: "Composite worked example using src-407, src-409, and src-412; keep section partial until contribution-base, activity-code, VAT, and residence-route fit are confirmed."
+
+- id: claim-albania-013
+  topic: national_cost_living_screen
+  value: "Livingcost's 2026 Albania national screen gives $1,037/month for one person with rent, $2,429/month for a family-of-four proxy, rent/utilities of $467/$738, food of $390/$1,034, and transport of $83/$241."
+  source: src-541
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, national, albania]
+  notes: "Commercial first-pass comparability source, not a live family budget."
+
+- id: claim-albania-014
+  topic: tirana_cost_rent_screen
+  value: "Livingcost's 2026 Tirana screen gives $1,256/month one-person total and $2,960 family-of-four proxy; 40 m2 1BR rent is $449 cheap / $703 city-center and 80 m2 3BR rent is $757 cheap / $1,205 city-center."
+  source: src-542
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, tirana, albania]
+  notes: "Use Tirana as the services-first option with a strict rent cap."
+
+- id: claim-albania-015
+  topic: durres_cost_rent_screen
+  value: "Livingcost's 2026 Durrës screen gives $940/month one-person total and $2,189 family-of-four proxy; 40 m2 1BR rent is $322 cheap / $449 city-center and 80 m2 3BR rent is about $584 cheap / $561 city-center."
+  source: src-543
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, durres, albania]
+  notes: "Durrës screens as the first coastal affordability/services balance, pending live lease seasonality checks."
+
+- id: claim-albania-016
+  topic: vlore_cost_rent_screen
+  value: "Livingcost's 2026 Vlorë screen gives $893/month one-person total and $1,983 family-of-four proxy; 40 m2 1BR rent is $326 cheap / $378 city-center and 80 m2 3BR rent is $416 cheap / $582 city-center."
+  source: src-544
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, vlore, albania]
+  notes: "Vlorë screens as the lower-rent warm-coast option, pending live listing quality and service-access checks."

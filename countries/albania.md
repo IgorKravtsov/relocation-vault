@@ -1,13 +1,13 @@
 ---
 country: Albania
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-10T05:13:27Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-13T14:22:00Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["official-primary-capture-gaps", "remote-worker-route-application-prep-gap", "albania-tax-regime-2029-sunset", "albania-self-employed-contribution-base-gap", "albania-foreign-client-vat-fit-gap"]
-sources_used: ["src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-188", "src-407", "src-408", "src-409", "src-410", "src-411", "src-412"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["official-primary-capture-gaps", "remote-worker-route-application-prep-gap", "albania-tax-regime-2029-sunset", "albania-self-employed-contribution-base-gap", "albania-foreign-client-vat-fit-gap", "tirana-rent-pressure"]
+sources_used: ["src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-188", "src-407", "src-408", "src-409", "src-410", "src-411", "src-412", "src-541", "src-542", "src-543", "src-544"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Albania has an attractive remote-worker / Unique Permit narrative and a warm Adriatic/Ionian climate, but this first pass could not capture clean official-primary route pages because several Albanian government sites were blocked or unreachable. Treat the digital-nomad route as promising but medium-confidence until the official e-Albania / State Police / law-text checklist is extracted.
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-10T05:13:27Z
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-13T14:22:00Z
 - **Tier rationale**: Not assigned until taxes, rent, healthcare, and full practical costs are verified. Run-061 closes the remote-worker Unique Permit blocker to a conservative screening baseline: Albania remains a promising ordinary-residence candidate for a foreign-client IT worker, but exact official checklist / fees / PR-counting should be treated as application-prep or deeper-country work, not as a current queue blocker.
 
 ## Block 2 — Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | Visa-free entry, Ukraine temporary-protection placeholder, and remote-worker Unique Permit baseline opened; official-primary route pages still need capture. | §5.1 |
 | Climate | — | medium | Tirana, Durrës, and Vlorë temperature/rain/sunshine baselines captured; WeatherSpark clearer-sky proxies now close the sunny-day blocker. | §5.2 |
 | Taxes | — | medium-high | First-pass self-employed screen: current law/PwC summaries show 0% PIT for self-employed / commercial individuals under ALL 14m gross until 31 Dec 2029, plus minimum self-employed social/health contributions of about ALL 14,900/month; exact activity classification, contribution base, VAT/place-of-supply, and residence-permit fit remain accountant/application-prep checks. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | First-pass Livingcost baseline captured for Albania, Tirana, Durrës, and Vlorë. A $3,000 gross / ~$2,819 favorable tax-screen net can cover modest Albania living costs, with Tirana tighter but still screenable. | §5.4 |
+| Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy is about $449-$703 in Tirana, $322-$449 in Durrës, and $326-$378 in Vlorë; use Tirana with a rent cap and screen coastal cities for seasonality. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -129,13 +129,33 @@ schema_version: 2.0.0
 4. Confirm VAT / place-of-supply treatment for foreign B2B clients and whether voluntary VAT registration is useful or harmful below the ALL 10m threshold.
 5. Budget for accountant support even though state registration fees look low, because the main risk is classification / reporting rather than the headline PIT rate.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for first-pass screening. Livingcost gives comparable 2026 national and city baselines for total costs, rent/utilities, food, transport, utilities, and internet. It is still a commercial/statistical screen, not a live lease or grocery basket quote.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+| Location | Livingcost monthly baseline | What it implies for the couple |
+|---|---:|---|
+| Albania national | $1,037/month for one person with rent; $2,429/month for a family-of-four proxy; rent/utilities $467 one person / $738 family; food $390 / $1,034; transport $83 / $241. [src-541] | A two-adult couple should be below the family-of-four proxy if housing is controlled, so Albania screens as workable against both $3,000 gross income and the favorable §5.3 tax-screen net of about $2,819/month. |
+| Tirana | $1,256/month one-person total; $2,960 family-of-four proxy; rent/utilities $600 one person / $991 family; food $434 / $1,148; transport $112 / $325. [src-542] | Best administrative/services base, but the family proxy nearly equals gross income and exceeds the §5.3 favorable net, so Tirana needs a strict apartment budget and no assumption of family-of-four spending. |
+| Durrës | $940/month one-person total; $2,189 family-of-four proxy; rent/utilities $415 one person / $673 family; food $390 / $1,009; transport $53 / $154. [src-543] | Strong coastal cost screen: materially cheaper than Tirana while still close to the capital. Seasonal and lease-quality checks remain later work. |
+| Vlorë | $893/month one-person total; $1,983 family-of-four proxy; rent/utilities $394 one person / $525 family; food $354 / $939; transport $62 / $180. [src-544] | Warm southern-coast affordability screen; lower total costs make it attractive if legal/accountant and healthcare/service access checks are acceptable. |
 
-[verification required]
+**Budget verdict**: Albania is one of the more comfortable budget screens at this stage. On the favorable current tax model (about USD 2,819/month before accountant, VAT administration, insurance, and immigration costs), Durrës and Vlorë leave meaningful monthly room, while Tirana is still possible but should be treated as the services-first / rent-controlled option. [src-541][src-542][src-543][src-544]
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
+
+> **DoD status**: passed at medium confidence for first-pass screening. Livingcost's 40 m2 1BR line is used as the modest two-room proxy, and the 80 m2 3BR line is only an upper-size / future-family stress test. Live listings, deposits, agency fees, registered-lease support, and seasonal coastal lease conditions remain later practical checks.
+
+| Location | 40 m2 1BR proxy | 80 m2 3BR stress test | Rent share and notes |
+|---|---:|---:|---|
+| Albania national | $351 cheap / $536 city-center | $580 cheap / $838 city-center | 40 m2 proxy is about 12%-18% of $3,000 gross, or about 12%-19% of the favorable §5.3 net. [src-541] |
+| Tirana | $449 cheap / $703 city-center | $757 cheap / $1,205 city-center | 40 m2 proxy is about 15%-23% of gross and about 16%-25% of favorable net; the 3BR stress test can consume 27%-43% of favorable net. Flag Tirana as the rent-pressure city. [src-542] |
+| Durrës | $322 cheap / $449 city-center | $584 cheap / $561 city-center | 40 m2 proxy is about 11%-15% of gross and favorable net; the coastal city screens as affordable but needs seasonality and landlord-registration checks. [src-543] |
+| Vlorë | $326 cheap / $378 city-center | $416 cheap / $582 city-center | 40 m2 proxy is about 11%-13% of gross and 12%-13% of favorable net; strongest warm-coast rent screen, pending live listing quality and services checks. [src-544] |
+
+**How to search later**: For a filing-ready pass, check MerrJep / local real-estate agencies, Facebook groups, and Albanian property portals for 12-month leases, registered address support, deposit norms, agency commission, utilities, and whether landlords accept foreign remote-worker documentation. This run deliberately uses Livingcost only for first-pass comparability.
+
+**Rent verdict**: Screen Durrës first for the balance of affordability, capital proximity, and coast; Vlorë second for the warm-coast / lower-rent case; Tirana only with a strict housing cap or if bureaucracy, healthcare, and community access outweigh the rent premium. Add `tirana-rent-pressure` as a risk flag.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -180,11 +200,13 @@ schema_version: 2.0.0
 - **Best legalization path for the woman**: likely dependent after marriage if family inclusion is confirmed; unmarried partner route not confirmed.
 - **Does marriage change the picture**: likely yes; use marriage as the conservative baseline.
 - **Realism of staying after 03.2027**: medium/uncertain; Albania may offer renewable ordinary residence, but no Ukraine-specific TP bridge was captured and PR-counting needs a later deep-dive.
+- **Budget/rent first pass**: workable. Durrës and Vlorë screen as the better one-income cost/rent fits; Tirana is still possible for services/bureaucracy but needs a strict rent cap. [src-542][src-543][src-544]
 
 **Pros**:
 - Warm Mediterranean climate with mild coastal winters.
 - Secondary evidence suggests a remote-worker residence path fitting foreign-client IT work.
 - Current income appears comfortably above secondary income thresholds.
+- Durrës and Vlorë rent/cost baselines leave more budget room than Tirana in the first-pass screen.
 
 **Cons / risks**:
 - Key official Albanian government pages were WAF-blocked or unreachable in this pass.
@@ -222,8 +244,8 @@ schema_version: 2.0.0
 | Visa / residence permit fees | — | Official fee schedule required. |
 | Apostilles and translations | — | Checklist verification required. |
 | Flights for two | — | TBD |
-| Rental deposit | — | Rent pass required. |
-| First month rent | — | Rent pass required. |
+| Rental deposit | $326-$703+ | Use at least 1 month of the captured 40 m2 proxy as a first-pass reserve; exact deposit/agency norms need live-listing checks. [src-542][src-543][src-544] |
+| First month rent | $326-$703 | Durrës/Vlorë lower end, Tirana higher end for the 40 m2 proxy. [src-542][src-543][src-544] |
 | Health insurance (one year) | — | Required in secondary route lists; pricing TBD. |
 | Immigration lawyer fees | — | Bureaucracy pass required. |
 | Buffer / contingencies | — | Important because official route capture is incomplete. |
@@ -252,6 +274,10 @@ _(none yet)_
 - [src-169] Climate to Travel — Durrës.
 - [src-170] Climate to Travel — Vlorë.
 - [src-188] WeatherSpark — Albania country and Vlorë city cloud-cover pages.
+- [src-541] Livingcost — Albania national cost-of-living baseline.
+- [src-542] Livingcost — Tirana cost/rent baseline.
+- [src-543] Livingcost — Durrës cost/rent baseline.
+- [src-544] Livingcost — Vlorë cost/rent baseline.
 
 ### 7e. Not found
 - Albanian accountant / General Directorate of Taxes / National Business Center confirmation of the exact foreign-client IT self-employed activity code, mandatory contribution base, VAT/place-of-supply handling, and immigration-status compatibility for the Type D + Unique Permit route remains an application-prep check; `vq-106` is closed for screening.

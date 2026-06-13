@@ -6505,3 +6505,51 @@ Each source entry:
 - **Facts supporting**: Kutaisi cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-13
+
+## src-541
+- **Title**: Livingcost — Cost of living in Albania
+- **URL**: https://livingcost.org/cost/albania
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Albania
+- **Facts supporting**: Albania national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-542
+- **Title**: Livingcost — Cost of living in Tirana
+- **URL**: https://livingcost.org/cost/albania/tirana
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Albania
+- **Facts supporting**: Tirana cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-543
+- **Title**: Livingcost — Cost of living in Durrës
+- **URL**: https://livingcost.org/cost/albania/durres
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Albania
+- **Facts supporting**: Durrës cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-544
+- **Title**: Livingcost — Cost of living in Vlorë
+- **URL**: https://livingcost.org/cost/albania/vlore
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Albania
+- **Facts supporting**: Vlorë cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13

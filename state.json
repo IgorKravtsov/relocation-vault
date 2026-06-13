@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 112,
+  "iteration": 113,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-13T11:16:37Z",
+  "last_run_timestamp": "2026-06-13T14:22:00Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Georgia",
+    "country": "Albania",
     "sections": [
       "5.4",
       "5.5"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Albania",
+    "suggested_country": "Uruguay",
     "suggested_sections": [
       "5.4",
       "5.5"
     ],
-    "reason": "Verification queue remains below threshold; Georgia cost/rent is now opened, so rotate to the next low-depth Tier-2-hint country without clustering."
+    "reason": "Verification queue remains below threshold; Albania cost/rent is now opened, so rotate to the next low-depth Tier-2-hint country without clustering."
   },
   "countries": {
     "Spain": {
@@ -579,17 +579,17 @@
     "Albania": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -602,9 +602,10 @@
         "remote-worker-route-application-prep-gap",
         "albania-tax-regime-2029-sunset",
         "albania-self-employed-contribution-base-gap",
-        "albania-foreign-client-vat-fit-gap"
+        "albania-foreign-client-vat-fit-gap",
+        "tirana-rent-pressure"
       ],
-      "last_iteration": 87,
+      "last_iteration": 113,
       "unverified_count": 0
     },
     "North Macedonia": {
@@ -1051,7 +1052,7 @@
     }
   },
   "verification_queue_size": 1,
-  "sources_count": 539,
-  "claims_count": 449,
+  "sources_count": 543,
+  "claims_count": 453,
   "proposals_pending": 0
 }
