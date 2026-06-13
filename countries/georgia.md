@@ -1,13 +1,13 @@
 ---
 country: Georgia
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-08T15:18:10Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-13T11:16:37Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["visa-free-not-residence", "georgia-small-business-tax-and-it-residence-fit-gap"]
-sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["visa-free-not-residence", "georgia-small-business-tax-and-it-residence-fit-gap", "tbilisi-rent-pressure"]
+sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370", "src-537", "src-538", "src-539", "src-540"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Georgia is easy to enter and has an official IT residence-permit category that may fit the male IT worker, but the route needs verification on the 2026 work-right / small-business mechanics and is not an EU temporary-protection bridge.
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-08T15:18:10Z
-- **Tier rationale**: Not assigned until taxes, cost of living, rent, healthcare, and practical permit-renewal experience are researched.
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-13T11:16:37Z
+- **Tier rationale**: Not assigned until healthcare, education, comfort, partner/student fit, risk dimensions, bureaucracy, and practical permit-renewal experience are researched.
 
 ## Block 2 — Scoring
 
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | Entry, ordinary residence, work/entrepreneur residence, IT residence, family residence, PR, and citizenship baselines opened; the IT route is usable as an operational planning baseline, while the official Ukraine-stay decree still needs capture. | §5.1 |
 | Climate | — | medium | Tbilisi, Batumi, and Kutaisi climate baselines captured; clearer-sky proxies now close the sunny-day blocker. | §5.2 |
 | Taxes | — | medium | First-pass tax baseline captured: 183-day residence, 20% ordinary PIT, 1%/3% small-business turnover regime, no social-security contributions, 4% self-employed pension contribution context, VAT threshold/place-of-supply caveats, and a USD 3,000/month worked example. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | First-pass Livingcost baseline captured for Georgia, Tbilisi, Batumi, and Kutaisi. A USD 3,000 gross / roughly USD 2,850-2,970 optimistic small-business net can work, but Tbilisi leaves a narrower one-income buffer than Batumi or Kutaisi. | §5.4 |
+| Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy ranges from about $398-$616 in Tbilisi, $310-$420 in Batumi, and $235-$301 in Kutaisi; 80 m2 stress-test units are materially higher. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -119,13 +119,38 @@ FX snapshot used only for screening: **1 USD = GEL 2.661955**. [src-370]
 
 **Tax verdict for first pass**: Georgia looks tax-attractive if the male partner can safely operate as a Georgian individual entrepreneur with small-business status: the screening net is roughly USD 2,850-2,970/month before accountant, VAT, bank, and immigration costs. Verification run-075 closes the tax-fit queue item only for screening: use the small-business tax-only / pension-sensitivity model as the optimistic conservative baseline, keep the 20% PIT fallback for downside screening, and keep §5.3 partial. Activity code, small-business status eligibility, VAT/place-of-supply or export-treatment reporting, pension registration, and IT-residence renewal evidence remain Revenue Service / accountant application-prep checks. [src-157][src-365][src-367][src-369][src-370]
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening at medium confidence. Livingcost is a commercial benchmark, not a live quote source, but it gives a consistent national and three-city baseline for food, transport, rent/utilities, utilities, internet, and one-income affordability. Healthcare/insurance, accountant, immigration-lawyer, deposits, and live rental-listing checks remain later practical-budget work.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Monthly cost baseline
 
-[verification required]
+| Geography | One person total with rent | Family-of-four proxy | Rent & utilities | Food | Transport | Practical note |
+|---|---:|---:|---:|---:|---:|---|
+| Georgia national | $923 | $2,205 | $444 / $763 family | $331 / $888 family | $44.8 / $126 family | Useful country baseline; not enough to choose a city. [src-537] |
+| Tbilisi | $1,028 | $2,453 | $511 / $902 family | $349 / $930 family | $59.1 / $166 family | Best services, agencies, and IT/immigration practicality, but highest captured rent pressure. [src-538] |
+| Batumi | $840 | $2,046 | $394 / $677 family | $307 / $837 family | $21.1 / $60.3 family | Warm/coastal option; cost is lower than Tbilisi but climate is wetter/humid and seasonal housing should be checked. [src-539] |
+| Kutaisi | $706 | $1,628 | $308 / $447 family | $299 / $815 family | $22.9 / $64.1 family | Cheapest captured city; screen as affordability fallback with weaker services/job/community depth than Tbilisi. [src-540] |
+
+#### Fit against the couple's budget
+
+- Against **USD 3,000 gross**, all three captured cities screen as workable before immigration/accounting/healthcare buffers: Tbilisi's family proxy is about 82% of gross, Batumi about 68%, and Kutaisi about 54%.
+- Against Georgia's optimistic small-business tax screen from §5.3 (**roughly USD 2,850-2,970/month net before accountant/VAT/immigration costs**), Tbilisi is still feasible but tight if the couple spends near the family proxy; Batumi and Kutaisi leave a more useful buffer. [src-365][src-367][src-370][src-538][src-539][src-540]
+- If the ordinary 20% PIT fallback applies (**about USD 2,400/month net**), Tbilisi's family proxy is at or above the safe budget line; the couple should either choose a cheaper Tbilisi flat, start in Batumi/Kutaisi, or wait until the tax/residence file is clarified. [src-370][src-538]
+
+**Cost verdict for first pass**: Georgia looks affordable relative to many EU options, especially outside Tbilisi. For this couple, screen **Tbilisi first for bureaucracy/services**, **Batumi as the warm-coast compromise**, and **Kutaisi as the affordability fallback**. Do not treat the Livingcost family-of-four number as a precise two-person budget; it is a conservative stress proxy until a later live grocery/healthcare/rental pass is done.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
+
+> **DoD status**: Passed for first-pass screening at medium confidence. Livingcost's 40 m2 one-bedroom line is used as the closest available modest two-room proxy; the 80 m2 three-bedroom line is only an upper-size / future-family stress test. Live listings, lease terms, deposits, agency fees, address-registration support, and seasonal coastal pricing remain later checks.
+
+| City | 40 m2 1BR city-center proxy | 40 m2 cheap 1BR proxy | 80 m2 3BR city-center stress test | 80 m2 cheap 3BR stress test | Budget implication |
+|---|---:|---:|---:|---:|---|
+| Tbilisi | $616 | $398 | $1,136 | $721 | Choose only with a strict rent cap; center 40 m2 rent is about 21% of USD 2,970 tax-only small-business net, while the 80 m2 stress test is too high for a one-income file. [src-538] |
+| Batumi | $420 | $310 | $743 | $551 | More comfortable rent-to-income ratio and warm coast; verify seasonal leases and humidity/rain tradeoff before committing. [src-539] |
+| Kutaisi | $301 | $235 | $503 | $327 | Best affordability fallback; likely weaker services/community depth than Tbilisi and fewer coastal/climate advantages than Batumi. [src-540] |
+
+**Rent verdict for first pass**: Use the modest 40 m2 proxy for screening. Tbilisi is manageable only if the couple avoids prime/large apartments and keeps the rent target near the cheap 40 m2 proxy; Batumi has the best captured warmth/rent compromise but needs seasonal listing checks; Kutaisi is the low-cost fallback if the tax file or one-income buffer becomes the binding constraint.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -169,25 +194,27 @@ FX snapshot used only for screening: **1 USD = GEL 2.661955**. [src-370]
 - **Best legalization path for the man**: likely Georgia IT residence permit if he can document IT experience, USD 25,000+ annual remuneration, and the 2026 work-right / small-business requirements.
 - **Best legalization path for the woman**: likely family reunification after marriage once the man has a Georgian permit; unmarried-partner route not confirmed.
 - **Does marriage change the picture**: likely yes; use marriage as the conservative baseline for derived residence.
-- **Realism of staying after 03.2027**: medium/uncertain; Georgia is outside EU TP and has ordinary residence routes, but the PR/citizenship clocks are long and route practice is not yet verified.
+- **Realism of staying after 03.2027**: medium/uncertain; Georgia is outside EU TP and has ordinary residence routes, and first-pass costs/rents look workable, but the PR/citizenship clocks are long and route practice is not yet verified.
 
 **Pros**:
 - Easy-entry baseline for Ukrainians compared with many visa regimes.
 - Official IT residence permit is potentially tailored to the male partner's remote-IT profile.
 - Tbilisi/Batumi/Kutaisi offer milder winters than most inland EU options.
+- First-pass cost/rent screening is workable on USD 3,000 gross, especially outside Tbilisi.
 
 **Cons / risks**:
 - Visa-free stay is not residence and appears to have been cut back to one year for Ukrainians.
 - IT route is promising but paperwork-heavy: foreign-client fit should be built around the official IT / small-business variant and ordinary family reunification, not a simple DN visa.
 - No EU-style temporary-protection bridge; long-term residence/citizenship clocks are about 10 years.
 - Climate is split: Tbilisi is hot/cold continental; Batumi is very rainy and humid.
+- Tbilisi rent can pressure the one-income budget if the tax file falls back to ordinary 20% PIT or if the couple needs a larger central apartment.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
 ### 6a. Before the move (what to prepare in Ukraine / Poland)
 - Documents: passports, proof of IT work/economic activity for at least 2 years, contracts/employer letters, bank statements showing USD 25,000+ annual remuneration, diplomas/certificates if useful, passport photos, and civil-status documents if using marriage/family reunification.
 - What to do with the Polish karta pobytu: keep it as a separate Polish/EU status; do not treat it as Georgian residence.
-- Financial preparation: build a cushion for residence filing, translations, local registration, and rent; costs not researched yet.
+- Financial preparation: build a cushion for residence filing, translations, local registration, deposits, and rent. First-pass rent targets: Tbilisi cheap 40 m2 around $398/month, Batumi around $310/month, Kutaisi around $235/month; larger/central units are materially higher. [src-538][src-539][src-540]
 
 ### 6b. First month after arrival
 - Verify lawful-stay deadline immediately and avoid treating visa-free presence as a long-term plan.
@@ -196,7 +223,7 @@ FX snapshot used only for screening: **1 USD = GEL 2.661955**. [src-370]
 ### 6c. First 3–6 months
 - Decide between IT residence and ordinary entrepreneurial/work residence.
 - Verify tax residency and small-business tax treatment before invoicing through Georgia.
-- Budget tax cautiously: if the small-business regime is confirmed, a USD 3,000/month file screens at about USD 2,850-2,970/month net before accountant/VAT/immigration costs; if not, ordinary 20% PIT leaves about USD 2,400/month. [src-365][src-367][src-370]
+- Budget tax and rent together: if the small-business regime is confirmed, a USD 3,000/month file screens at about USD 2,850-2,970/month net before accountant/VAT/immigration costs; Tbilisi is feasible with a strict rent cap, while Batumi/Kutaisi leave more buffer. If ordinary 20% PIT applies, Tbilisi becomes tight and a cheaper city or cheaper flat matters. [src-365][src-367][src-370][src-538][src-539][src-540]
 - If the woman needs dependent residence, prepare marriage / family documentation unless unmarried-partner coverage is confirmed.
 
 ### 6d. Before March 2027 (critical deadline)
@@ -248,6 +275,10 @@ _(none yet)_
 - [src-161] Climate to Travel — Kutaisi.
 - [src-175] WeatherSpark — Georgia city cloud-cover climate pages.
 - [src-370] ExchangeRate-API — USD/GEL snapshot.
+- [src-537] Livingcost — Cost of living in Georgia.
+- [src-538] Livingcost — Cost of living in Tbilisi.
+- [src-539] Livingcost — Cost of living in Batumi.
+- [src-540] Livingcost — Cost of living in Kutaisi.
 
 ### 7e. Not found
 - Clean official-primary text capture of the current Ukraine-specific visa-free stay decree / country table remains useful before travel, but `vq-051` is closed for country-screening because the safe operational baseline is one-year visa-free stay only, not residence.

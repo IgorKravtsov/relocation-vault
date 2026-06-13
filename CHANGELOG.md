@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-06-13
 ---
 
+## 2026-06-13 — run-112
+- Georgia: depth_score 2.0 -> 3.0 (sections 5.4, 5.5 completed for first-pass cost/rent screening)
+- Sources added: src-537, src-538, src-539, src-540
+- Claims added: claim-georgia-013, claim-georgia-014, claim-georgia-015, claim-georgia-016
+- New flag: tbilisi-rent-pressure
+- Verification queue: 1 -> 1 (0 resolved)
+
 ## 2026-06-13 — run-111
 - Turkey: depth_score 2.0 -> 3.0 (sections 5.4, 5.5 completed for first-pass cost/rent screening)
 - Sources added: src-533, src-534, src-535, src-536

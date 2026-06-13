@@ -105,3 +105,40 @@
   confidence: medium
   tags: [tax, worked-example, small-business, foreign-client-it, georgia]
   notes: "Worked example also relies on src-365 for PIT/small-business rates, src-367 for pension sensitivity, and src-369 for VAT caveat; not a passed DoD until fit with IT residence and VAT/place-of-supply is verified."
+
+
+- id: claim-georgia-013
+  topic: georgia_cost_of_living_first_pass
+  value: "Livingcost screens Georgia nationally at about USD 923/month for one person with rent and USD 2,205/month for a family-of-four proxy; Tbilisi is about USD 1,028 / USD 2,453, Batumi USD 840 / USD 2,046, and Kutaisi USD 706 / USD 1,628."
+  source: src-537
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, budget, georgia, tbilisi, batumi, kutaisi]
+  notes: "Composite claim uses src-537 through src-540; family-of-four proxy is a conservative stress proxy, not an exact two-person budget."
+
+- id: claim-georgia-014
+  topic: tbilisi_rent_proxy
+  value: "Livingcost lists Tbilisi 40 m2 1BR rent at about USD 616 in the city center and USD 398 for a cheaper 40 m2 unit; the 80 m2 3BR stress-test lines are about USD 1,136 center and USD 721 cheap."
+  source: src-538
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [rent, tbilisi, georgia]
+  notes: "40 m2 1BR is used as the closest modest two-room proxy; live listings and lease terms remain later checks."
+
+- id: claim-georgia-015
+  topic: batumi_rent_proxy
+  value: "Livingcost lists Batumi 40 m2 1BR rent at about USD 420 in the city center and USD 310 for a cheaper 40 m2 unit; the 80 m2 3BR stress-test lines are about USD 743 center and USD 551 cheap."
+  source: src-539
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [rent, batumi, georgia]
+  notes: "Seasonal coastal lease and humidity/rain tradeoffs need later practical checks."
+
+- id: claim-georgia-016
+  topic: kutaisi_rent_proxy
+  value: "Livingcost lists Kutaisi 40 m2 1BR rent at about USD 301 in the city center and USD 235 for a cheaper 40 m2 unit; the 80 m2 3BR stress-test lines are about USD 503 center and USD 327 cheap."
+  source: src-540
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [rent, kutaisi, georgia]
+  notes: "Kutaisi screens as the affordability fallback but needs later services/community checks."
