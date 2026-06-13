@@ -6312,3 +6312,52 @@ Each source entry:
 - **Facts supporting**: Nova Gorica cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-12
+
+
+## src-525
+- **Title**: Livingcost — Cost of living in Montenegro
+- **URL**: https://livingcost.org/cost/montenegro
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Montenegro
+- **Facts supporting**: Montenegro national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-526
+- **Title**: Livingcost — Cost of living in Podgorica
+- **URL**: https://livingcost.org/cost/montenegro/podgorica
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Montenegro
+- **Facts supporting**: Podgorica cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-527
+- **Title**: Livingcost — Cost of living in Budva
+- **URL**: https://livingcost.org/cost/montenegro/budva
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Montenegro
+- **Facts supporting**: Budva cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13
+
+## src-528
+- **Title**: Livingcost — Cost of living in Kotor
+- **URL**: https://livingcost.org/cost/montenegro/kotor
+- **Archive**: [archive: failed 2026-06-13; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-13
+- **Used by**: Montenegro
+- **Facts supporting**: Kotor cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-13

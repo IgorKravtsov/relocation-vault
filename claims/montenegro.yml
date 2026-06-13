@@ -141,3 +141,40 @@
   confidence: medium
   tags: [taxes, worked-example, foreign-client-it, montenegro]
   notes: "The PIT arithmetic is useful for screening, but the self-employed SSC base, VAT/reverse-charge handling, and DN/ordinary-status compatibility remain unverified."
+
+
+- id: claim-montenegro-017
+  topic: national_cost_living_screen
+  value: "Livingcost screens Montenegro nationally at about USD 1,090/month for one person with rent and USD 2,606/month for a family-of-four proxy, with one-person components of USD 533 without rent, USD 557 rent/utilities, USD 396 food, and USD 39.20 transport."
+  source: src-525
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, budget, montenegro]
+  notes: "Commercial first-pass screen; use for country screening, not as a live household budget."
+
+- id: claim-montenegro-018
+  topic: podgorica_cost_rent_screen
+  value: "Livingcost screens Podgorica at about USD 1,066/month for one person with rent and USD 2,549/month for a family-of-four proxy; the 40 m2 1BR proxy is about USD 416 cheap or USD 550 city-center."
+  source: src-526
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, podgorica, montenegro]
+  notes: "Use as the conservative budget/admin-city baseline; summer heat remains a separate comfort risk."
+
+- id: claim-montenegro-019
+  topic: budva_cost_rent_screen
+  value: "Livingcost screens Budva at about USD 1,206/month for one person with rent and USD 2,895/month for a family-of-four proxy; the 40 m2 1BR proxy is about USD 458 cheap or USD 676 city-center."
+  source: src-527
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, budva, montenegro, coastal-rent]
+  notes: "Warm-coast compromise; live listing and seasonality checks are still needed."
+
+- id: claim-montenegro-020
+  topic: kotor_cost_rent_screen
+  value: "Livingcost screens Kotor at about USD 1,288/month for one person with rent and USD 2,955/month for a family-of-four proxy; the 40 m2 1BR proxy is about USD 620 cheap or USD 634 city-center, with 80 m2 3BR proxies above USD 1,100/month."
+  source: src-528
+  date_verified: 2026-06-13
+  confidence: medium
+  tags: [cost-of-living, rent, kotor, montenegro, coastal-rent]
+  notes: "Use Kotor only with a strict housing cap in first-pass screening."

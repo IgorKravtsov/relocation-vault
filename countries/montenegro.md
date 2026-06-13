@@ -1,13 +1,13 @@
 ---
 country: Montenegro
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-08T15:18:10Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-13T01:58:26Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-income-threshold-needs-primary-check", "digital-nomad-long-term-counting-unclear", "montenegro-tax-registration-and-ssc-fit-gap"]
-sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-143", "src-348", "src-349", "src-350", "src-351", "src-352"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-income-threshold-needs-primary-check", "digital-nomad-long-term-counting-unclear", "montenegro-tax-registration-and-ssc-fit-gap", "kotor-budva-coastal-rent-pressure"]
+sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-143", "src-348", "src-349", "src-350", "src-351", "src-352", "src-525", "src-526", "src-527", "src-528"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass suggests a potentially useful non-EU fallback because Montenegro has extended temporary protection for Ukrainians to 04 March 2027 and advertises a digital-nomad residence framework, but the DN numeric income amount, long-term residence counting, and tax-registration / social-contribution fit for a foreign-client IT freelancer remain unresolved. [src-123][src-124][src-127][src-349]
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-08T15:18:10Z
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-13T01:58:26Z
 - **Tier rationale**: Do not classify yet. The official DN page now confirms filing route, document categories, duration, processing time, and spouse/minor-child family baseline; remaining classification blockers are the exact numeric income floor, tax/cost fit, and whether DN or other temporary-residence time can safely build a long-term PR clock.
 
 ## Block 2 — Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | TP is confirmed through 04 March 2027, and DN route exists, but official DN threshold/checklist and long-term bridge are unresolved. | §5.1 |
 | Climate | 8 | medium | Mild sunny coast and hot sunny Podgorica; coastal cities fit warm-climate preference better than inland summer heat. | §5.2 |
 | Taxes | — | medium | First-pass entrepreneur PIT baseline is relatively light at USD 3,000/month: PIT-only net is about EUR 2,314/month (~USD 2,693), with a conservative employee-rate SSC sensitivity around EUR 2,043/month (~USD 2,378). Exact self-employed registration, SSC base, VAT/reverse-charge, and DN-status tax fit remain unverified. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | First-pass Livingcost screen: Podgorica is the practical/admin affordability baseline; Budva and especially Kotor are more rent-sensitive coastal options. | §5.4 |
+| Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy is about $416 cheap / $550 center in Podgorica, $458 / $676 in Budva, and $620 / $634 in Kotor; keep coastal seasonal/rent pressure active. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -123,13 +123,37 @@ A Montenegro-focused weather guide gives direct sunny-day heuristics: Podgorica 
 
 **Bottom line for the couple.** Montenegro's first-pass tax screen looks more workable than many EU self-employed baselines if the entrepreneur PIT model applies: PIT-only net is about EUR 2,314/month (~USD 2,693), and even a conservative employee-rate SSC sensitivity remains around EUR 2,043/month (~USD 2,378). Verification run-075 closes the tax-fit queue item only for screening: use the PIT-plus-SSC-sensitivity model as the safe planning baseline, keep §5.3 partial, and treat self-employed registration category, exact SSC base/rates, VAT/reverse-charge, and DN/ordinary-residence compatibility as accountant/application-prep checks. [src-349][src-350][src-351][src-352]
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. Livingcost gives a national baseline and three city screens: Podgorica, Budva, and Kotor. This is a commercial medium-confidence screen, not a live-listing or household-budget quote pass.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost screens Montenegro nationally at about **$1,090/month** for one person with rent and **$2,606/month** for a family-of-four proxy, with one-person components of $533 without rent, $557 rent/utilities, $396 food, $39.20 transport, utilities around $77.30, and internet around $32.80. [src-525]
 
-[verification required]
+For the couple, the family-of-four proxy is too large, but it is a useful stress test: Montenegro can fit gross **$3,000/month** better than many EU baselines, and it still looks workable against the conservative tax-section net of about **$2,378/month** if Podgorica or a controlled coastal rent is used. The main budget caveat is not ordinary food/transport; it is coastal/tourist rent, deposits, insurance, accountant costs, and whether the DN / ordinary-status tax model remains close to the screening baseline. [src-350][src-525]
+
+| City | One person with rent | Family-of-four proxy | Food / transport screen | Fit for the couple |
+|---|---:|---:|---|---|
+| Podgorica | $1,066/month | $2,549/month | $383 food; $37.10 transport | Best practical/admin affordability baseline; summer heat is the tradeoff. [src-526] |
+| Budva | $1,206/month | $2,895/month | $417 food; $45.10 transport | Better warm-coast climate fit, but tourist-season housing risk needs live-listing follow-up. [src-527] |
+| Kotor | $1,288/month | $2,955/month | $408 food; $41.10 transport | Beautiful Bay-of-Kotor option but the tightest captured cost/rent screen; use only with a strict housing cap. [src-528] |
+
+**Budget conclusion.** Screen **Podgorica first** for cost/admin practicality and **Budva** as the first warm-coast compromise if rent can be controlled. Treat **Kotor** as a rent-pressured coastal lifestyle option rather than the default one-income base. [src-526][src-527][src-528]
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
+
+> **DoD status**: passed for first-pass screening. Livingcost provides 40 m2 1BR and 80 m2 3BR city rent proxies for 3 cities; live listings, deposits, agency fees, landlord requirements, and seasonal availability remain later application-prep work.
+
+Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy. The 80 m2 3BR line is an upper-size / future-family stress test, not the base requirement. [src-525]
+
+| City | 40 m2 1BR cheap | 40 m2 1BR center | 80 m2 3BR cheap | 80 m2 3BR center | Rent takeaways |
+|---|---:|---:|---:|---:|---|
+| Podgorica | $416 | $550 | $744 | $1,017 | Best rent fit: the 40 m2 proxy is about 14%-18% of gross $3,000 and about 17%-23% of the conservative Montenegro tax-net sensitivity. [src-526] |
+| Budva | $458 | $676 | $845 | $1,242 | Warm-coast option, but center rent is already about 23% of gross and 28% of conservative tax net before seasonal premiums. [src-527] |
+| Kotor | $620 | $634 | $1,101 | $1,139 | Coastal rent-pressure warning: even the cheap 40 m2 proxy is about 21% of gross and 26% of conservative tax net; 80 m2 stress-test rents are heavy. [src-528] |
+
+**How to search later.** This pass did not capture Montenegro listing portals or landlord practices. Later live-listing work should check local real-estate portals and agencies, Facebook/Telegram rental groups, deposit norms, seasonal lease restrictions on the coast, whether foreign remote income is accepted, and whether a registered lease is required for the chosen MIA residence filing.
+
+**Rent conclusion.** Do not make Kotor / prime coast the default base on one income. Use **Podgorica** as the conservative budget anchor, **Budva** as the coastal screen with a strict rent cap, and keep `kotor-budva-coastal-rent-pressure` active until live listings confirm year-round rents. [src-526][src-527][src-528]
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -175,6 +199,7 @@ A Montenegro-focused weather guide gives direct sunny-day heuristics: Podgorica 
 - **Does marriage change the picture**: Yes. Marriage is the safe baseline if she needs derived DN/family residence.
 - **Realism of staying after 03.2027**: Medium-unclear. DN exists and can cover up to 4 years, but the 6-month cooling-off rule and PR counting need legal confirmation.
 - **Tax fit at current income**: Potentially workable on the captured entrepreneur PIT baseline, but not passed; exact self-employed SSC/VAT/DN-status treatment needs accountant confirmation. [src-349][src-350]
+- **Cost/rent fit at current income**: First-pass cost/rent is workable if the couple avoids the most rent-pressured coastal stock: Podgorica screens best for budget/admin practicality, Budva is the warmer coastal compromise, and Kotor needs a strict housing cap. [src-526][src-527][src-528]
 
 **Pros**:
 - TP officially extended to 04 March 2027. [src-123]
@@ -186,7 +211,7 @@ A Montenegro-focused weather guide gives direct sunny-day heuristics: Podgorica 
 - DN numeric income amount remains not official-primary verified, even though the official page requires financial-means proof.
 - DN family baseline covers spouses/minor children; unmarried partner dependency is not captured. [src-143]
 - Self-employed tax registration, SSC base, VAT/reverse-charge, and DN-status tax compatibility are not yet verified. [src-349][src-350][src-352]
-- Podgorica can be very hot in summer; coastal areas may be seasonally expensive, but rent is not researched yet.
+- Podgorica can be very hot in summer; coastal Budva/Kotor fit climate preferences better but create seasonal rent pressure. [src-527][src-528]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -218,8 +243,8 @@ A Montenegro-focused weather guide gives direct sunny-day heuristics: Podgorica 
 | Visa / residence permit fees | ~EUR 67+ | Secondary DN guide; verify official amount. [src-127] |
 | Apostilles and translations | — | [verification required] |
 | Flights for two | — | [verification required] |
-| Rental deposit | — | [verification required] |
-| First month rent | — | [verification required] |
+| Rental deposit | — | Deposit norms and seasonal prepayment are still [verification required]. |
+| First month rent | ~$416-$676 | 40 m2 first-pass proxy: Podgorica cheap through Budva center; Kotor starts around $620. [src-526][src-527][src-528] |
 | Health insurance (one year) | — | Required for DN per secondary source; cost not researched. [src-127] |
 | Immigration lawyer fees | — | [verification required] |
 | Buffer / contingencies | — | TBD |
@@ -255,6 +280,10 @@ _(none yet)_
 - [src-130] Climate to Travel — Herceg Novi climate.
 - [src-131] Weather in Montenegro — sunny-day heuristics for Podgorica, Budva, Herceg Novi.
 - [src-348] ECB EUR/USD reference rate reused for the USD 3,000/month tax stress test.
+- [src-525] Livingcost — Montenegro national cost-of-living screen.
+- [src-526] Livingcost — Podgorica cost/rent screen.
+- [src-527] Livingcost — Budva cost/rent screen.
+- [src-528] Livingcost — Kotor cost/rent screen.
 
 ### 7e. Not found
 - Official-primary DN numeric income threshold and full fee schedule.
@@ -267,4 +296,4 @@ _(none yet)_
 - `vq-041` — resolved in run-026: official DN filing route, document categories, 40-day processing baseline, duration, and spouse/minor-child family baseline captured; numeric financial-means amount remains a later application-prep detail.
 - `vq-042` — resolved in run-026: no captured TP-to-ordinary-residence bridge; plan an ordinary status before TP expiry.
 - `vq-043` — resolved in run-026 to a conservative PR baseline: use 5 years as the planning target, but do not assume DN alone creates an uninterrupted PR clock because of the 2+2-year cap and 6-month cooling-off rule.
-- `vq-101` — pending: Montenegro entrepreneur/self-employed registration, exact SSC base/rates, VAT / reverse-charge handling, and DN/ordinary-residence tax compatibility for a Ukrainian foreign-client IT freelancer.
+- `vq-101` — resolved in run-075 for screening: Montenegro entrepreneur/self-employed registration, exact SSC base/rates, VAT / reverse-charge handling, and DN/ordinary-residence tax compatibility remain accountant/application-prep checks before filing.

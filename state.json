@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 108,
+  "iteration": 109,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-12T22:51:32Z",
+  "last_run_timestamp": "2026-06-13T01:58:26Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Slovenia",
+    "country": "Montenegro",
     "sections": [
       "5.4",
       "5.5"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Montenegro",
+    "suggested_country": "Serbia",
     "suggested_sections": [
       "5.4",
       "5.5"
     ],
-    "reason": "Verification queue remains below threshold; Slovenia cost/rent is now opened, so rotate to the next low-depth Tier-2-hint non-EU country without clustering."
+    "reason": "Verification queue remains below threshold; Montenegro cost/rent is now opened, so rotate to the next low-depth Tier-2-hint non-EU country without clustering."
   },
   "countries": {
     "Spain": {
@@ -458,17 +458,17 @@
     "Montenegro": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -480,9 +480,10 @@
         "no-captured-post-2027-tp-bridge",
         "digital-nomad-income-threshold-needs-primary-check",
         "digital-nomad-long-term-counting-unclear",
-        "montenegro-tax-registration-and-ssc-fit-gap"
+        "montenegro-tax-registration-and-ssc-fit-gap",
+        "kotor-budva-coastal-rent-pressure"
       ],
-      "last_iteration": 75,
+      "last_iteration": 109,
       "unverified_count": 0
     },
     "Serbia": {
@@ -1046,7 +1047,7 @@
     }
   },
   "verification_queue_size": 1,
-  "sources_count": 523,
-  "claims_count": 433,
+  "sources_count": 527,
+  "claims_count": 437,
   "proposals_pending": 0
 }
