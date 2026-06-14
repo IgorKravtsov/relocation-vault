@@ -1,13 +1,13 @@
 ---
 country: Bosnia and Herzegovina
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-10T05:13:27Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-14T05:50:50Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["no-dedicated-digital-nomad-visa", "company-founder-route-high-burden", "no-captured-ukraine-protection-bridge", "cold-inland-winters", "bosnia-entity-tax-and-ssc-fit-gap", "bosnia-foreign-client-vat-fit-gap"]
-sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218", "src-418", "src-419", "src-420", "src-421", "src-422", "src-423"]
+sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218", "src-418", "src-419", "src-420", "src-421", "src-422", "src-423", "src-561", "src-562", "src-563", "src-564", "src-565"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint retained until tax / cost / ordinary-residence viability is researched).
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-10T05:13:27Z
-- **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and now also has entity-specific tax / social-contribution uncertainty. [src-214][src-215][src-418][src-420]
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-14T05:50:50Z
+- **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and now also has entity-specific tax / social-contribution uncertainty. Cost/rent screening is comparatively affordable, especially outside Sarajevo / Banja Luka, but low rent does not solve the legal-route burden. [src-214][src-215][src-418][src-420][src-561][src-563][src-565]
 
 ## Block 2 — Scoring
 
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | Visa-free entry is a medium-confidence placeholder; residence is possible through ordinary grounds but no DN route or Ukraine-specific bridge was captured. | §5.1 |
 | Climate | — | medium | Mostar is warm and low-muggy; Sarajevo/Tuzla have cold winters; clearer-sky proxies are moderate. | §5.2 |
 | Taxes | — | medium | First-pass PwC screen: PIT is 10% in FBiH/Brcko and 8% in RS; employee-style contribution sensitivities leave about USD 1,878-1,881/month at USD 3,000 gross, but the exact freelancer/company-manager base remains unverified. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Livingcost screens Bosnia and Herzegovina at about $819/month for one person with rent and $1,926 for a family-of-four proxy; Tuzla and Mostar are lower-cost practical screens, while Sarajevo / Banja Luka cost more but remain below most EU alternatives. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 modest two-room proxies range from about $182-$244/month in Tuzla, $278-$300 in Mostar, $276-$391 in Sarajevo, and $298-$439 in Banja Luka; live listings and foreigner lease terms remain application-prep checks. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -127,13 +127,38 @@ Run-085 FX snapshot: USD 1 = BAM 1.69618, so USD 3,000/month is about **BAM 5,08
 Bosnia and Herzegovina does not yet have a clean DN-style tax route for this profile. PIT rates look low on paper, but the combination of entity-specific rules, heavy employee-style contributions, local-company immigration burden, and uncaptured VAT/place-of-supply mechanics means the safe screening answer is **partial / high-burden**. `vq-108` is closed for screening: the existing PIT-only and employee-style contribution sensitivities are enough for country comparison, while exact legal form, contribution base/order, VAT reporting, and whether that structure supports the high-burden residence file remain Bosnia accountant / immigration-counsel application-prep checks. Do not score Bosnia as tax-positive or mark §5.3 passed until that confirmation exists. [src-418][src-420][src-421]
 
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 2, last_updated: 2026-06-14, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. Livingcost is a commercial source, so confidence is medium and the numbers should be checked against live listings / grocery baskets before relocation. For country comparison, the core answer is usable: Bosnia and Herzegovina is cheap enough on a $3,000 gross income, and even the conservative tax stress-test net of about $1,878-$1,881/month is not automatically broken by ordinary monthly costs outside the most expensive capital-quality housing. [src-561][src-562][src-563][src-564][src-565]
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost's national Bosnia and Herzegovina page gives a March 2026 baseline of about **$819/month** for one person with rent and **$1,926/month** for a family-of-four proxy. The same national table splits monthly cost into rent/utilities about **$366** for one person / **$586** for a family, food about **$324** / **$860**, transport about **$42.60** / **$115**, utilities about **$105** one-person / **$161** family, and internet about **$28.30**. [src-561]
 
-[verification required]
+City screens:
+
+| City | One person with rent | Family-of-four proxy | Rent/utilities | Food | Transport | Fit for this couple |
+|---|---:|---:|---:|---:|---:|---|
+| Sarajevo | $956 | $2,264 | $451 / $763 | $356 / $945 | $51.90 / $141 | Best bureaucracy / services base, but the highest-cost FBiH screen in this pass; keep a rent cap if the tax downside applies. [src-562] |
+| Mostar | $819 | $1,908 | $388 / $641 | $310 / $831 | $33.10 / $88.80 | Best warm-climate / cost compromise from the existing climate set; service depth still needs comfort / healthcare research. [src-563] |
+| Banja Luka | $965 | $2,253 | $453 / $740 | $374 / $987 | $50.40 / $137 | Services / RS option but not cheaper than Sarajevo in this source; tax/entity choice needs counsel before treating RS as a cost advantage. [src-564] |
+| Tuzla | $721 | $1,694 | $307 / $468 | $291 / $791 | $40.10 / $104 | Cheapest city in this pass, but colder and likely lower service depth; good budget fallback only if legal/accountant support is adequate. [src-565] |
+
+Against gross income of **$3,000/month**, all four screens leave room before rent, utilities, and basic consumption. Against Bosnia's conservative tax-section employee-style stress-test net of about **$1,878-$1,881/month**, Sarajevo and Banja Luka family-proxy totals are too high, but that family-of-four proxy is deliberately larger than the current two-adult household; the practical two-person screen should still focus on modest 40 m2 housing, local utilities, health insurance, accountant/legal costs, and a cash buffer. [src-420][src-423][src-562][src-564]
+
+### 5.5. Rent {status: deep, depth: 2, last_updated: 2026-06-14, dod: passed}
+
+> **DoD status**: passed for first-pass screening. The vault uses Livingcost's 40 m2 1BR line as the closest available proxy for a modest two-room apartment (separate bedroom plus second room / living area), and the 80 m2 3BR line only as an upper-size / future-child stress test. Live listings, deposit norms, agency commissions, registered-address support, and landlord acceptance of foreign remote-worker / company-founder income remain later practical-budget checks. [src-561][src-562][src-563][src-564][src-565]
+
+| City | 40 m2 1BR city center | 40 m2 cheaper area | 80 m2 3BR city center | 80 m2 cheaper area | Screening read |
+|---|---:|---:|---:|---:|---|
+| National | $313 | $223 | $584 | $390 | Countrywide rent is low by European standards; national averages should not replace city choice. [src-561] |
+| Sarajevo | $391 | $276 | $704 | $501 | First administrative base; workable only if the couple keeps the modest-unit cap and avoids treating the 3BR stress line as default. [src-562] |
+| Mostar | $300 | $278 | $530 | $483 | Warmest practical climate target and a better rent fit than Sarajevo / Banja Luka; good first screen if healthcare/services later pass. [src-563] |
+| Banja Luka | $439 | $298 | $724 | $518 | Comparable to Sarajevo or slightly higher for central modest units; choose only for RS-specific legal/tax/service reasons, not pure rent. [src-564] |
+| Tuzla | $244 | $182 | $399 | $287 | Strongest affordability fallback, but colder climate and service-depth tradeoffs require later comfort / healthcare checks. [src-565] |
+
+Rent share at the conservative tax downside is still manageable for a modest unit: Sarajevo's $276-$391 proxy is about **15%-21%** of the $1,878-$1,881/month downside net, Mostar's $278-$300 is about **15%-16%**, Banja Luka's $298-$439 is about **16%-23%**, and Tuzla's $182-$244 is about **10%-13%**. On gross $3,000, all modest-unit proxies are below 15% except Banja Luka center at about 15%. This makes rent one of Bosnia's strengths; the bigger blockers remain the high-burden residence / company structure, contribution/VAT uncertainty, and whether a landlord will support address registration for a new foreign resident. [src-420][src-423][src-562][src-563][src-564][src-565]
+
+Practical first screen: **Mostar** first for warm-climate affordability, **Sarajevo** for bureaucracy / hospitals / legal and accountant access with a strict modest-rent cap, **Tuzla** as the affordability fallback if colder winters and smaller-city services are acceptable, and **Banja Luka** only if Republika Srpska-specific legal/tax advice creates a concrete advantage. Do not treat the low rent as enough to overcome the lack of a clean DN-style route.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -178,17 +203,20 @@ Bosnia and Herzegovina does not yet have a clean DN-style tax route for this pro
 - **Best legalization path for the woman**: Marriage or independent eligibility is the conservative screening baseline; no captured source supports an unmarried-partner dependent file for the heavy company/work route. [src-214][src-215]
 - **Does marriage change the picture**: Yes for conservative planning: if Bosnia is pursued, marriage is the safest relationship proof for any family/dependent file; exact sponsor timing and income rules can be checked in an application-prep pass. [src-214][src-215]
 - **Realism of staying after 03.2027**: Medium-low until the company / self-employment fit and Ukraine protection status are verified.
+- **Budget fit**: Cost/rent is one of Bosnia's strongest screens: modest 40 m2 rent proxies are roughly $182-$439/month across Tuzla / Mostar / Sarajevo / Banja Luka, and Mostar or Tuzla can fit even the conservative tax downside if legal/accountant/healthcare costs stay controlled. [src-562][src-563][src-564][src-565]
 
 **Pros**:
 - 90/180-style short stay appears plausible for scouting once Ukraine entry is officially verified. [src-204][src-214]
 - Permanent residence ladder after five years of temporary residence is captured from the Service for Foreigners' Affairs. [src-214]
 - Mostar offers a warmer, low-muggy climate profile. [src-216][src-217]
+- First-pass cost/rent is affordable: national Livingcost total is about $819/month for one person with rent and $1,926 for a family proxy; Mostar and Tuzla screen especially well for rent. [src-561][src-563][src-565]
 
 **Cons / risks**:
 - No dedicated digital-nomad / remote-worker route captured.
 - Company-founder route appears high-burden, including local employee obligations. [src-215]
 - No current Ukraine-specific temporary-protection / post-2027 bridge captured; ordinary residence is the only safe screening plan. [src-218]
 - Inland winters are cold relative to the couple's warm-climate preference. [src-216]
+- Low rent does not solve the core immigration issue: the visible company/founder route remains high-burden and may require local employees. [src-215]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -222,8 +250,8 @@ Bosnia and Herzegovina does not yet have a clean DN-style tax route for this pro
 | Permanent residence fee | BAM 200 | Later-stage permanent residence fee. [src-214][src-215] |
 | Apostilles and translations | — | All foreign documents need translation into an official BiH language. [src-215] |
 | Flights / transport for two | — | TBD |
-| Rental deposit | — | TBD in rent section |
-| First month rent | — | TBD in rent section |
+| Rental deposit | — | Live listings / landlord practice still TBD; budget at least 1-2 months as an application-prep placeholder until verified. |
+| First month rent | $182-$439 modest 40 m2 proxy | Livingcost city range across Tuzla / Mostar / Sarajevo / Banja Luka; 80 m2 stress range $287-$724. [src-562][src-563][src-564][src-565] |
 | Health insurance | — | Evidence required; cost TBD. [src-215] |
 | Immigration lawyer / accountant | — | Strongly recommended before any company-founder file. |
 | Buffer / contingencies | — | TBD |
@@ -257,6 +285,11 @@ _(none yet)_
 - [src-216] Climate to Travel Bosnia and Herzegovina climate page.
 - [src-217] WeatherSpark Bosnia and Herzegovina country climate comparison.
 - [src-423] ExchangeRate-API open rates — USD to BAM snapshot.
+- [src-561] Livingcost — Cost of living in Bosnia and Herzegovina.
+- [src-562] Livingcost — Cost of living in Sarajevo.
+- [src-563] Livingcost — Cost of living in Mostar.
+- [src-564] Livingcost — Cost of living in Banja Luka.
+- [src-565] Livingcost — Cost of living in Tuzla.
 
 ### 7e. Not found
 - Official Bosnia and Herzegovina MFA / Decision on Visas country table confirming Ukraine passport visa-free entry remains useful before travel; `vq-066` is closed for screening.
@@ -266,6 +299,7 @@ _(none yet)_
 - Family-reunification checklist for spouse vs unmarried partner, sponsor income, and timing.
 - Citizenship / dual-citizenship operational requirements.
 - Exact entity/legal-form tax fit for a foreign-client IT worker: sole entrepreneur vs company-manager vs employee model, social-contribution base, VAT place-of-supply / reverse-charge handling, and compatibility with the residence route remain application-prep checks; `vq-108` is closed for screening.
+- Live rental listings, deposits/agency commissions, registered-address support, foreigner lease acceptance, and private health-insurance / accountant / lawyer costs for the actual target city.
 
 ## Block 8 — Open questions and verification markers
 

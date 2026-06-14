@@ -6747,3 +6747,63 @@ Each source entry:
 - **Facts supporting**: Bitola cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-14
+
+## src-561
+- **Title**: Livingcost — Cost of living in Bosnia and Herzegovina
+- **URL**: https://livingcost.org/cost/bosnia-and-herzegovina
+- **Archive**: [archive: failed 2026-06-14; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Bosnia and Herzegovina national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-562
+- **Title**: Livingcost — Cost of living in Sarajevo
+- **URL**: https://livingcost.org/cost/bosnia-and-herzegovina/sarajevo
+- **Archive**: [archive: failed 2026-06-14; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Sarajevo cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-563
+- **Title**: Livingcost — Cost of living in Mostar
+- **URL**: https://livingcost.org/cost/bosnia-and-herzegovina/mostar
+- **Archive**: [archive: failed 2026-06-14; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Mostar cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-564
+- **Title**: Livingcost — Cost of living in Banja Luka
+- **URL**: https://livingcost.org/cost/bosnia-and-herzegovina/banja-luka
+- **Archive**: [archive: failed 2026-06-14; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Banja Luka cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-565
+- **Title**: Livingcost — Cost of living in Tuzla
+- **URL**: https://livingcost.org/cost/bosnia-and-herzegovina/tuzla
+- **Archive**: [archive: failed 2026-06-14; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Tuzla cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14

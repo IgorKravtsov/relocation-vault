@@ -112,3 +112,85 @@
   confidence: medium
   tags: [tax, worked-example, fx, conservative-screening]
   notes: "FX source only supports conversion; tax rates come from src-418 and src-420. The employee-style stress tests are not final self-employed tax answers."
+
+- id: claim-bosnia-herzegovina-012
+  topic: national_cost_of_living_screen
+  value:
+    one_person_with_rent_usd: 819
+    family_of_four_with_rent_usd: 1926
+    one_person_rent_utilities_usd: 366
+    family_rent_utilities_usd: 586
+    one_person_food_usd: 324
+    family_food_usd: 860
+    one_person_transport_usd: 42.6
+    family_transport_usd: 115
+  unit: USD/month
+  source: src-561
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, livingcost, first-pass]
+  notes: "Commercial-source screening baseline; family-of-four proxy is a stress test, not the couple's exact current household."
+
+- id: claim-bosnia-herzegovina-013
+  topic: sarajevo_cost_rent_screen
+  value:
+    one_person_with_rent_usd: 956
+    family_of_four_with_rent_usd: 2264
+    one_bedroom_center_40m2_usd: 391
+    one_bedroom_cheap_40m2_usd: 276
+    three_bedroom_center_80m2_usd: 704
+    three_bedroom_cheap_80m2_usd: 501
+  unit: USD/month
+  source: src-562
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, sarajevo, livingcost]
+  notes: "Best bureaucracy/services screen; keep a modest-rent cap if the tax downside applies."
+
+- id: claim-bosnia-herzegovina-014
+  topic: mostar_cost_rent_screen
+  value:
+    one_person_with_rent_usd: 819
+    family_of_four_with_rent_usd: 1908
+    one_bedroom_center_40m2_usd: 300
+    one_bedroom_cheap_40m2_usd: 278
+    three_bedroom_center_80m2_usd: 530
+    three_bedroom_cheap_80m2_usd: 483
+  unit: USD/month
+  source: src-563
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, mostar, livingcost, warm-climate]
+  notes: "Warmest practical climate/cost screen from this pass; services and healthcare remain to be researched."
+
+- id: claim-bosnia-herzegovina-015
+  topic: banja_luka_cost_rent_screen
+  value:
+    one_person_with_rent_usd: 965
+    family_of_four_with_rent_usd: 2253
+    one_bedroom_center_40m2_usd: 439
+    one_bedroom_cheap_40m2_usd: 298
+    three_bedroom_center_80m2_usd: 724
+    three_bedroom_cheap_80m2_usd: 518
+  unit: USD/month
+  source: src-564
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, banja-luka, republika-srpska, livingcost]
+  notes: "Not cheaper than Sarajevo in this screen; choose only if RS-specific legal/tax advice creates a concrete advantage."
+
+- id: claim-bosnia-herzegovina-016
+  topic: tuzla_cost_rent_screen
+  value:
+    one_person_with_rent_usd: 721
+    family_of_four_with_rent_usd: 1694
+    one_bedroom_center_40m2_usd: 244
+    one_bedroom_cheap_40m2_usd: 182
+    three_bedroom_center_80m2_usd: 399
+    three_bedroom_cheap_80m2_usd: 287
+  unit: USD/month
+  source: src-565
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, tuzla, livingcost, affordability]
+  notes: "Cheapest screen in this pass, with colder-climate and smaller-city service-depth tradeoffs."

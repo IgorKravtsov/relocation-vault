@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 117,
+  "iteration": 118,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-14T02:45:41Z",
+  "last_run_timestamp": "2026-06-14T05:50:50Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "North Macedonia",
+    "country": "Bosnia and Herzegovina",
     "sections": [
       "5.4",
       "5.5"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Bosnia and Herzegovina",
+    "suggested_country": "Moldova",
     "suggested_sections": [
       "5.4",
       "5.5"
     ],
-    "reason": "Verification queue remains below threshold; North Macedonia cost/rent is now opened, so rotate to the next low-depth country and continue first-pass cost/rent coverage."
+    "reason": "Verification queue remains below threshold; Bosnia and Herzegovina cost/rent is now opened, so rotate to the next low-depth country and continue first-pass cost/rent coverage."
   },
   "countries": {
     "Spain": {
@@ -644,17 +644,17 @@
     "Bosnia and Herzegovina": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -670,7 +670,7 @@
         "bosnia-entity-tax-and-ssc-fit-gap",
         "bosnia-foreign-client-vat-fit-gap"
       ],
-      "last_iteration": 87,
+      "last_iteration": 118,
       "unverified_count": 0
     },
     "Moldova": {
@@ -1056,7 +1056,7 @@
     }
   },
   "verification_queue_size": 1,
-  "sources_count": 559,
-  "claims_count": 469,
+  "sources_count": 564,
+  "claims_count": 474,
   "proposals_pending": 0
 }

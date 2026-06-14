@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-14
 ---
 
+## 2026-06-14 — run-118 — Bosnia and Herzegovina cost/rent first pass
+
+- Opened Bosnia and Herzegovina sections 5.4 and 5.5 with Livingcost national, Sarajevo, Mostar, Banja Luka, and Tuzla baselines.
+- Added sources `src-561` through `src-565` and claims `claim-bosnia-herzegovina-012` through `claim-bosnia-herzegovina-016`.
+- Bosnia and Herzegovina depth_score moved from 2.0 to 3.0; main finding is that rent is affordable but does not solve the high-burden company/founder residence route; next suggested focus is Moldova 5.4/5.5 while verification remains below threshold.
+
 ## 2026-06-14 — run-117 — North Macedonia cost/rent first pass
 
 - Opened North Macedonia sections 5.4 and 5.5 with Livingcost national, Skopje, Ohrid, and Bitola baselines.
