@@ -107,3 +107,48 @@
   confidence: medium
   tags: [tax, worked-example, fx, net-income]
   notes: "Tax bands from src-465 and self relief from src-468; this is a conservative screening calculation before accountant, SST, social-security, health-insurance, and immigration costs."
+
+- id: claim-malaysia-013
+  topic: malaysia_cost_of_living_national_2026
+  value: "Livingcost's 2026 Malaysia national screen gives about USD 824/month for one person with rent and USD 1,956/month for a family-of-four proxy, with one-person / family rent-and-utilities around USD 386 / USD 637."
+  source: src-580
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, malaysia, livingcost]
+  notes: "Commercial first-pass screening source; use for relative affordability, not as a household-specific budget."
+
+- id: claim-malaysia-014
+  topic: kuala_lumpur_cost_rent_screen_2026
+  value: "Livingcost gives Kuala Lumpur at about USD 981/month one-person total with rent and USD 2,371/month family proxy; the 40 m2 city-centre rent proxy is about USD 602/month and the cheap-area proxy about USD 350/month."
+  source: src-581
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, kuala-lumpur, livingcost]
+  notes: "Kuala Lumpur is the services-rich default but needs a strict housing cap because the resident-tax stress-test net is about USD 2,616/month before non-tax costs."
+
+- id: claim-malaysia-015
+  topic: george_town_cost_rent_screen_2026
+  value: "Livingcost gives George Town at about USD 792/month one-person total with rent and USD 1,767/month family proxy; the 40 m2 rent proxy is about USD 488/month centre or USD 333/month cheap area."
+  source: src-582
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, george-town, penang, livingcost]
+  notes: "First captured coastal/warm compromise; tourist-market and island-service constraints need live-listing and practical checks."
+
+- id: claim-malaysia-016
+  topic: johor_bahru_cost_rent_screen_2026
+  value: "Livingcost gives Johor Bahru at about USD 838/month one-person total with rent and USD 1,952/month family proxy; the 40 m2 rent proxy is about USD 451/month centre or USD 350/month cheap area."
+  source: src-583
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, johor-bahru, livingcost]
+  notes: "Workable rent share, but Singapore-border demand and neighbourhood/security/transport fit require later checks."
+
+- id: claim-malaysia-017
+  topic: ipoh_cost_rent_screen_2026
+  value: "Livingcost gives Ipoh at about USD 696/month one-person total with rent and USD 1,579/month family proxy; the 40 m2 rent proxy is about USD 330/month centre or USD 207/month cheap area."
+  source: src-584
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, ipoh, livingcost]
+  notes: "Affordable fallback only until healthcare depth, connectivity, English-language services, and remote-worker community fit are checked."

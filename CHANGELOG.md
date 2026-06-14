@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-14
 ---
 
+## 2026-06-14 - run-122 - Malaysia cost/rent first pass
+
+- Opened Malaysia sections 5.4 and 5.5 with Livingcost national, Kuala Lumpur, George Town, Johor Bahru, and Ipoh baselines.
+- Added sources `src-580` through `src-584` and claims `claim-malaysia-013` through `claim-malaysia-017`.
+- Malaysia depth_score moved from 2.0 to 3.0; new flags `kuala-lumpur-rent-pressure` and `malaysia-one-income-margin-risk`; next suggested focus is Thailand 5.4/5.5 while verification remains below threshold.
+
 ## 2026-06-14 - run-121 - Argentina cost/rent first pass
 
 - Opened Argentina sections 5.4 and 5.5 with Livingcost national, Buenos Aires, Cordoba, Mendoza, and Rosario baselines.

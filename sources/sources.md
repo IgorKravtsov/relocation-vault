@@ -6976,3 +6976,63 @@ Each source entry:
 - **Facts supporting**: Rosario cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as a cheap fallback pending safety and service-depth checks
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-14
+
+## src-580
+- **Title**: Livingcost - Cost of living in Malaysia
+- **URL**: https://livingcost.org/cost/malaysia
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Malaysia
+- **Facts supporting**: Malaysia national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, salary context, utilities, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-581
+- **Title**: Livingcost - Cost of living in Kuala Lumpur
+- **URL**: https://livingcost.org/cost/malaysia/kuala-lumpur
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Malaysia
+- **Facts supporting**: Kuala Lumpur cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-582
+- **Title**: Livingcost - Cost of living in George Town, Malaysia
+- **URL**: https://livingcost.org/cost/malaysia/george-town
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Malaysia
+- **Facts supporting**: George Town / Penang cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as the first captured warm/coastal compromise
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-583
+- **Title**: Livingcost - Cost of living in Johor Bahru
+- **URL**: https://livingcost.org/cost/malaysia/johor-bahru
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Malaysia
+- **Facts supporting**: Johor Bahru cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-584
+- **Title**: Livingcost - Cost of living in Ipoh
+- **URL**: https://livingcost.org/cost/malaysia/ipoh
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Malaysia
+- **Facts supporting**: Ipoh cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as an affordability fallback pending healthcare, connectivity, service-depth, and remote-worker community checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
