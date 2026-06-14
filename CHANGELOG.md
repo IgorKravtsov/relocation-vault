@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-14
 ---
 
+## 2026-06-14 — run-119 — Moldova cost/rent first pass
+
+- Opened Moldova sections 5.4 and 5.5 with Livingcost national, Chisinau, Balti, and Tiraspol baselines.
+- Added sources `src-566` through `src-569` and claims `claim-moldova-012` through `claim-moldova-015`.
+- Moldova depth_score moved from 2.0 to 3.0; main finding is that Chisinau/Balti rent is affordable on the conservative tax-net band, while Tiraspol remains non-default because of Transnistria practical risk; next suggested focus is Mexico 5.4/5.5 while verification remains below threshold.
+
 ## 2026-06-14 — run-118 — Bosnia and Herzegovina cost/rent first pass
 
 - Opened Bosnia and Herzegovina sections 5.4 and 5.5 with Livingcost national, Sarajevo, Mostar, Banja Luka, and Tuzla baselines.

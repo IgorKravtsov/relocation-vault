@@ -1,13 +1,13 @@
 ---
 country: Moldova
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-10T05:13:27Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-14T09:08:00Z
+sections_completed: ["5.2","5.4","5.5"]
 sections_partial: ["5.1","5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
 risk_flags: ["digital-nomad-threshold-current-year-gap", "pr-counting-for-digital-nomad-unclear", "post-2027-tp-bridge-gap", "transnistria-practical-risk", "moldova-entrepreneur-contribution-category-gap", "moldova-foreign-client-vat-fit-gap"]
-sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225, src-424, src-425, src-426, src-427, src-428, src-429]
+sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225, src-424, src-425, src-426, src-427, src-428, src-429, src-566, src-567, src-568, src-569]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence shows Moldova has an official digital-nomad residence route and temporary protection for displaced Ukrainians until 01 March 2027, but long-term usefulness for this couple depends on the current average-salary threshold, whether digital-nomad residence counts toward permanent residence, and post-TP transition mechanics. [src-220][src-222]
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-10T05:13:27Z
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-14T09:08:00Z
 - **Tier rationale**: Not assigned. Treat Moldova as a potentially practical nearby bridge/base, not yet a proven long-term route to PR/citizenship for a foreign-client IT worker.
 
 ## Block 2 — Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | Official DN and provisional-stay frameworks exist, but threshold/current-year salary and PR-counting details need verification. | §5.1 |
 | Climate | — | medium | Continental; sunny warm summers, low muggy burden, but cold/freezing winters. | §5.2 |
 | Taxes | — | medium-high | 12% PIT baseline looks simple, but self-employed contribution category, VAT/export-service handling, and DN/ordinary-residence compatibility require accountant/authority confirmation. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Livingcost screens Moldova as cheap nationally; Chisinau is workable on the conservative after-tax band, while Balti is the cheaper ordinary fallback and Tiraspol is discounted for practical/security reasons. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 1BR proxy is about $373-$538 in Chisinau and $265-$375 in Balti; rent is affordable, but live listings, registered-address support, and lease terms still need application-prep checks. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -137,13 +137,43 @@ schema_version: 2.0.0
 4. Budget using the fixed-contribution sensitivity (about USD 2,470-2,490/month net before accountant and immigration costs) rather than the PIT-only figure until contribution treatment is verified.
 5. Do not assume the digital-nomad route creates a tax holiday; the captured tax baseline is ordinary Moldovan PIT once tax-resident / work-performed-in-Moldova conditions are met.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-14, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening at medium confidence. Livingcost is a commercial source, so treat these as planning baselines rather than live quotes. The section covers Moldova nationally plus Chisinau, Balti, and Tiraspol, and compares the result against both gross USD 3,000/month and the run-086 conservative Moldovan tax net band of about USD 2,469-2,490/month before accountant / insurance / immigration costs. [src-566][src-567][src-568][src-569]
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Monthly baseline for a couple
 
-[verification required]
+| Location | Livingcost one-person total with rent | Family-of-four proxy | Food | Transport | Utilities / internet | Fit for this couple |
+|---|---:|---:|---:|---:|---|---|
+| Moldova national | $863 | $2,060 | $288 one person / $765 family | $28.9 one person / $80.9 family | utilities $108 one person / $166 family; internet $9.76 | Affordable on gross income and still workable on the conservative tax net; use as a country-level floor, not a filing budget. [src-566] |
+| Chisinau | $967 | $2,283 | $300 one person / $798 family | $37.4 one person / $104 family | utilities $124 one person / $192 family; internet $8.86 | Best default for bureaucracy, services, accountants, healthcare access, and community; budget remains workable but leaves less margin after private insurance, legal/accounting fees, and document costs. [src-567] |
+| Balti | $806 | $1,870 | $285 one person / $758 family | $21 one person / $57.7 family | utilities $122 one person / $190 family; internet $11.8 | Cheaper ordinary-city fallback if Chisinau rent or service costs rise; weaker services/community and colder northern climate make it a second screen. [src-568] |
+| Tiraspol | $561 | $1,493 | $276 one person / $730 family | $15.9 one person / $45.4 family | utilities $38.6 one person / $58.4 family; internet $9.91 | Numerically cheapest, but not a default relocation base because Transnistria practical/security/governance risk already exists in the profile. [src-569][src-224] |
+
+#### Budget verdict
+
+- **Chisinau first**: for Moldova, Chisinau should be the first practical base because it concentrates GIM access, embassies/NGOs, accountants, lawyers, healthcare, banks, and rental inventory. Livingcost's $2,283 family proxy is below gross USD 3,000 and close but still below the conservative tax-net band of about USD 2,469-2,490/month; however, that margin can be consumed by private insurance, accountant fees, residence filing costs, translations, and occasional travel. [src-567][src-429]
+- **Balti as fallback**: Balti's $1,870 family proxy and lower 40 m2 rents make it the better affordability fallback, but the couple would trade off service depth, community, and likely winter comfort. [src-568][src-223]
+- **Tiraspol as non-default**: the low $1,493 family proxy is not enough to override the Transnistria warning. Treat it only as a theoretical cost data point unless a later safety / legal-practicality pass specifically supports it. [src-569]
+- **One-income risk**: Moldova's daily costs are favorable, but the legal route still has the DN threshold, PR-counting, contribution-category, and VAT/place-of-supply gaps. Affordability does not by itself make Moldova a proven settlement route. [src-220][src-221][src-426][src-428]
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-14, dod: passed}
+
+> **DoD status**: Passed for first-pass screening at medium confidence. Livingcost's 40 m2 1BR line is used as the closest available proxy for the vault's modest two-room requirement; 80 m2 3BR is an upper-size / future-child stress test, not the default target. Live listings, deposits, agency fees, registered-address support, landlord acceptance of foreign-client income, and lease clauses remain later application-prep checks. [src-566][src-567][src-568][src-569]
+
+| Location | 40 m2 1BR city-center proxy | 40 m2 cheaper/outside proxy | 80 m2 3BR city-center stress test | 80 m2 cheaper stress test | Rent burden vs income | Practical reading |
+|---|---:|---:|---:|---:|---|---|
+| Moldova national | $422 | $304 | $854 | $558 | 40 m2 proxy is ~10%-14% of gross USD 3,000, or ~12%-17% of the conservative tax net band | Country-level rent looks very affordable for the couple, but city/legal-practicality matters more than the national average. [src-566] |
+| Chisinau | $538 | $373 | $963 | $660 | 40 m2 proxy is ~12%-18% of gross, or ~15%-22% of conservative tax net | Best first screen: rent is manageable if they cap housing near the lower/outer 40 m2 band and avoid oversizing into 80 m2 units before income rises. [src-567] |
+| Balti | $375 | $265 | $692 | $477 | 40 m2 proxy is ~9%-13% of gross, or ~11%-15% of conservative tax net | Strong affordability fallback; use only if the service/community tradeoff is acceptable. [src-568] |
+| Tiraspol | $156 | $152 | $286 | $243 | Rent is tiny relative to income | Do not let cheap rent override the existing Transnistria practical-risk flag. [src-569] |
+
+#### Search and lease caveats
+
+- Livingcost does not answer foreigner lease acceptance, deposit norms, agency commission, notarization / registered-address support, or whether landlords accept a foreign-service-contract income file. Those items should be checked with live Moldovan listing portals, local agents, and immigration counsel before filing a residence route.
+- For this couple, **Chisinau with a strict housing cap** is the safest first-pass assumption: target a modest one-bedroom / two-room equivalent around the lower-to-middle 40 m2 band, preserve cash for legal/accounting/insurance costs, and do not use the 80 m2 family-unit band as the default budget.
+- Balti can reduce rent pressure if Chisinau housing becomes noisy or if the conservative tax/contribution result binds; Tiraspol should remain outside the default city shortlist until security, banking, registration, and residence-file practicality are researched.
+- Add to later practical-budget work: live listings, deposits, agency fees, utilities seasonality, registered-address clauses, lease translation/notarization, landlord acceptance of Ukrainian passports / Moldovan TP / DN residence files, and whether a foreign-client IT contract satisfies landlord proof-of-income expectations.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -238,8 +268,8 @@ schema_version: 2.0.0
 | Visa / residence permit fees | — | TBD |
 | Apostilles and translations | — | Criminal-record and civil-status documents likely need legalization/apostille and translation. |
 | Flights / overland travel for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | — | Live deposit / agency-fee norms not captured; use Chisinau 40 m2 rent proxy of about $373-$538/month for first cash-buffer planning. [src-567] |
+| First month rent | ~$373-$538 in Chisinau; ~$265-$375 in Balti | 40 m2 1BR proxy used as modest two-room screening baseline; 80 m2 family-size stress test is much higher. [src-567][src-568] |
 | Health insurance (one year) | — | Insurance required for DN/residence file. |
 | Immigration lawyer fees | — | Strongly recommended before relying on PR-counting. |
 | Buffer / contingencies | — | TBD |
@@ -274,6 +304,10 @@ _(none yet)_
 - [src-224] WeatherSpark Chisinau, Balti, and Tiraspol climate pages.
 - [src-204] VisaGuide.World Ukrainian passport visa-free list (placeholder only).
 - [src-429] ExchangeRate-API USD/MDL snapshot.
+- [src-566] Livingcost Moldova national cost/rent baseline.
+- [src-567] Livingcost Chisinau cost/rent baseline.
+- [src-568] Livingcost Balti cost/rent baseline.
+- [src-569] Livingcost Tiraspol cost/rent baseline.
 
 ### 7e. Not found
 - Official Moldovan MFA/eVisa country table confirming Ukrainian passport short-entry rules.
@@ -281,6 +315,7 @@ _(none yet)_
 - Official explanation of whether digital-nomad / IT-specialist provisional residence counts toward permanent stay.
 - Citizenship / naturalization source.
 - Dependent spouse/unmarried-partner mechanics for a foreign digital-nomad sponsor.
+- Live Moldovan rental listings, deposits/agency fees, registered-address support, and landlord acceptance of foreign-client IT income.
 
 ## Block 8 — Open questions and verification markers
 

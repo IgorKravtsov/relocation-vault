@@ -6807,3 +6807,52 @@ Each source entry:
 - **Facts supporting**: Tuzla cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-14
+
+
+## src-566
+- **Title**: Livingcost — Cost of living in Moldova
+- **URL**: https://livingcost.org/cost/moldova
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-14
+- **Used by**: Moldova
+- **Facts supporting**: Moldova national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-567
+- **Title**: Livingcost — Cost of living in Chisinau
+- **URL**: https://livingcost.org/cost/moldova/chisinau
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-14
+- **Used by**: Moldova
+- **Facts supporting**: Chisinau cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-568
+- **Title**: Livingcost — Cost of living in Balti
+- **URL**: https://livingcost.org/cost/moldova/balti
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-14
+- **Used by**: Moldova
+- **Facts supporting**: Balti cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-569
+- **Title**: Livingcost — Cost of living in Tiraspol
+- **URL**: https://livingcost.org/cost/moldova/tiraspol
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-14
+- **Used by**: Moldova
+- **Facts supporting**: Tiraspol cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as a non-default city because of Transnistria practical risk
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
