@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-14
 ---
 
+## 2026-06-14 - run-120 - Mexico cost/rent first pass
+
+- Opened Mexico sections 5.4 and 5.5 with Livingcost national, Mexico City, Guadalajara, Cancun, and Merida baselines.
+- Added sources `src-570` through `src-574` and claims `claim-mexico-012` through `claim-mexico-016`.
+- Mexico depth_score moved from 2.0 to 3.0; new flags `mexico-city-rent-pressure` and `tourist-coast-cost-pressure`; next suggested focus is Argentina 5.4/5.5 while verification remains below threshold.
+
 ## 2026-06-14 — run-119 — Moldova cost/rent first pass
 
 - Opened Moldova sections 5.4 and 5.5 with Livingcost national, Chisinau, Balti, and Tiraspol baselines.

@@ -6856,3 +6856,63 @@ Each source entry:
 - **Facts supporting**: Tiraspol cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as a non-default city because of Transnistria practical risk
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-14
+
+## src-570
+- **Title**: Livingcost - Cost of living in Mexico
+- **URL**: https://livingcost.org/cost/mexico
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Mexico
+- **Facts supporting**: Mexico national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-571
+- **Title**: Livingcost - Cost of living in Mexico City
+- **URL**: https://livingcost.org/cost/mexico/mexico
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Mexico
+- **Facts supporting**: Mexico City cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-572
+- **Title**: Livingcost - Cost of living in Guadalajara
+- **URL**: https://livingcost.org/cost/mexico/guadalajara
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Mexico
+- **Facts supporting**: Guadalajara cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-573
+- **Title**: Livingcost - Cost of living in Cancun
+- **URL**: https://livingcost.org/cost/mexico/cancun
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Mexico
+- **Facts supporting**: Cancun cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-574
+- **Title**: Livingcost - Cost of living in Merida, Mexico
+- **URL**: https://livingcost.org/cost/mexico/merida
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Mexico
+- **Facts supporting**: Merida cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14

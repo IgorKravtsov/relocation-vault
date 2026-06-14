@@ -35,7 +35,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Uruguay | latin-america | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 114 | `countries/uruguay.md` |
 | Paraguay | latin-america | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 115 | `countries/paraguay.md` |
 | Panama | latin-america | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 116 | `countries/panama.md` |
-| Mexico | latin-america | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 93 | `countries/mexico.md` |
+| Mexico | latin-america | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 120 | `countries/mexico.md` |
 | Argentina | latin-america | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 93 | `countries/argentina.md` |
 | UAE | middle-east-asia | 3 | — | 2.5 | done: 5.2, 5.3; partial: 5.1 | 94 | `countries/uae.md` |
 | Malaysia | middle-east-asia | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 95 | `countries/malaysia.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 2.98
+- **Average depth_score**: 3.02

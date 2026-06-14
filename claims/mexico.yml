@@ -96,3 +96,48 @@
   confidence: medium
   tags: [tax, worked-example, remote-it, net-income]
   notes: "Calculation uses src-455 FX. RESICO, VAT/export-service handling, and IMSS/social-security obligations remain open in vq-113."
+
+- id: claim-mexico-012
+  topic: cost_of_living_national_screen
+  value: "Livingcost screens Mexico nationally at about USD 1,078/month for one person with rent and USD 2,555/month for a family-of-four proxy."
+  source: src-570
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, national-average, one-income]
+  notes: "Commercial/crowdsourced first-pass baseline; not a substitute for live city budgets, insurance, accountant, and immigration costs."
+
+- id: claim-mexico-013
+  topic: mexico_city_cost_rent_screen
+  value: "Livingcost screens Mexico City at about USD 1,428/month for one person with rent, USD 3,399/month for a family-of-four proxy, and USD 623-1,035/month for the 40 m2 rent proxy."
+  source: src-571
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, mexico-city, rent-pressure]
+  notes: "Main captured rent-pressure city; useful for services and setup but weak on one-income margin."
+
+- id: claim-mexico-014
+  topic: guadalajara_cost_rent_screen
+  value: "Livingcost screens Guadalajara at about USD 1,241/month for one person with rent, USD 2,983/month for a family-of-four proxy, and USD 492-776/month for the 40 m2 rent proxy."
+  source: src-572
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, guadalajara, city-screen]
+  notes: "Best first-pass services/cost compromise among captured Mexico cities."
+
+- id: claim-mexico-015
+  topic: cancun_cost_rent_screen
+  value: "Livingcost screens Cancun at about USD 1,232/month for one person with rent, USD 2,969/month for a family-of-four proxy, and USD 398-626/month for the 40 m2 rent proxy."
+  source: src-573
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, cancun, tourist-market]
+  notes: "Rent is workable on paper, but tourist-market seasonality and hot/humid climate require follow-up."
+
+- id: claim-mexico-016
+  topic: merida_cost_rent_screen
+  value: "Livingcost screens Merida at about USD 1,258/month for one person with rent, USD 3,028/month for a family-of-four proxy, and USD 461-579/month for the 40 m2 rent proxy."
+  source: src-574
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, merida, warm-inland]
+  notes: "Workable first-pass rent but heat, transport, healthcare, and community fit require later checks."
