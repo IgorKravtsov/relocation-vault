@@ -97,3 +97,48 @@
   confidence: medium
   tags: [worked-example, fx, pit, argentina]
   notes: "Before accountant, VAT, Ingresos Brutos, self-employed social-security/health, banking, and immigration costs; not a final Argentine freelance answer."
+
+- id: claim-argentina-012
+  topic: argentina_national_cost_living_screen
+  value: "Livingcost's 2026 Argentina country screen estimates USD 878/month for one person with rent and USD 2,136/month for a family-of-four proxy; 40 m2 rent proxies are USD 379 city-center and USD 259 cheaper."
+  source: src-575
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, argentina]
+  notes: "Commercial/crowdsourced first-pass baseline; live listings and current FX/banking checks still needed."
+
+- id: claim-argentina-013
+  topic: buenos_aires_cost_rent_screen
+  value: "Livingcost's 2026 Buenos Aires screen estimates USD 1,207/month for one person and USD 2,929/month for a family-of-four proxy; 40 m2 rent proxies are USD 578 city-center and USD 396 cheaper."
+  source: src-576
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, buenos-aires, rent-pressure]
+  notes: "Best services and bureaucracy base, but close to the conservative one-income tax-net margin."
+
+- id: claim-argentina-014
+  topic: cordoba_cost_rent_screen
+  value: "Livingcost's 2026 Cordoba screen estimates USD 972/month for one person and USD 2,392/month for a family-of-four proxy; 40 m2 rent proxies are USD 353 city-center and USD 245 cheaper."
+  source: src-577
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, cordoba]
+  notes: "First-pass cost/services compromise for Argentina if the legal/tax route is solved."
+
+- id: claim-argentina-015
+  topic: mendoza_cost_rent_screen
+  value: "Livingcost's 2026 Mendoza screen estimates USD 907/month for one person and USD 2,185/month for a family-of-four proxy; 40 m2 rent proxies are USD 344 city-center and USD 269 cheaper."
+  source: src-578
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, mendoza]
+  notes: "Attractive cost/climate screen, with smaller-city services and connectivity left for later verification."
+
+- id: claim-argentina-016
+  topic: rosario_cost_rent_screen
+  value: "Livingcost's 2026 Rosario screen estimates USD 766/month for one person and USD 1,943/month for a family-of-four proxy; 40 m2 rent proxies are USD 244 city-center and USD 161 cheaper."
+  source: src-579
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, rosario]
+  notes: "Cheap fallback only; safety and service-depth checks are needed before treating it as a default base."

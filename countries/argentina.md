@@ -1,13 +1,13 @@
 ---
 country: Argentina
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-11T00:04:17Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-14T15:13:27Z
+sections_completed: ["5.2","5.4","5.5"]
 sections_partial: ["5.1","5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["digital-nomad-bridge-only", "tourist-entry-before-travel-check", "citizenship-continuous-no-exit-rule", "inflation-currency-risk", "argentina-pit-vat-gross-income-tax-risk", "argentina-social-security-category-gap", "argentina-monotributo-export-fit-gap"]
-sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242, src-456, src-457, src-458, src-459, src-460, src-461]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["digital-nomad-bridge-only", "tourist-entry-before-travel-check", "citizenship-continuous-no-exit-rule", "inflation-currency-risk", "argentina-pit-vat-gross-income-tax-risk", "argentina-social-security-category-gap", "argentina-monotributo-export-fit-gap", "buenos-aires-rent-pressure", "argentina-one-income-margin-risk"]
+sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242, src-456, src-457, src-458, src-459, src-460, src-461, src-575, src-576, src-577, src-578, src-579]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint retained until taxes/cost/rent and residence-to-citizenship practicality are verified).
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-11T00:04:17Z
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-14T15:13:27Z
 - **Tier rationale**: First pass suggests Argentina is legally interesting because Ukrainian ordinary-passport holders have a usable 90-day tourist-entry screening baseline and Argentina has an official digital-nomad transitory residence plus a short legal naturalization horizon. However, the DN status is only 180 + 180 days and transitory, rentista excludes personal-work income, and 2025 citizenship changes require continuous legal residence with no exits during the two-year period. Treat as promising but high-verification until a durable ordinary residence route for foreign-client IT income is confirmed. [src-233][src-234][src-236][src-237]
 
 ## Block 2 — Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | DN route exists but is a bridge; durable residence route for foreign-client IT income needs verification. | §5.1 |
 | Climate | — | medium | Buenos Aires / Cordoba / Mendoza provide mild-to-warm options; humid-hot summers in Buenos Aires and cold nights inland are the main comfort caveats. | §5.2 |
 | Taxes | — | medium | Conservative PIT-only screen leaves about ARS 3.30m / USD 2,280 per month at USD 3,000 gross before accountant, VAT, gross-income tax, social-security, banking, and immigration costs; exact monotributo / export-service / social-security fit remains unverified. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Livingcost screens Argentina nationally at about USD 878/month for one person and USD 2,136/month for a family-of-four proxy; Buenos Aires is service-rich but close to the conservative tax-net margin, while Mendoza/Cordoba are cheaper practical screens. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 modest-rent proxies are about USD 578/396 in Buenos Aires, USD 353/245 in Cordoba, USD 344/269 in Mendoza, and USD 244/161 in Rosario; Buenos Aires needs a strict rent cap. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -122,13 +122,35 @@ Gross income tax (Ingresos Brutos) is provincial, generally 0.5%-6%; PwC gives C
 
 **Screening verdict.** Argentina is tax-uncertain rather than clearly tax-negative: a PIT-only model leaves roughly USD 2,280/month, but VAT, provincial gross-income tax, self-employed contributions, exchange controls / banking, and the lack of a proven durable residence category could push usable net materially lower. Run-093 closed `vq-114` for screening only; do not mark section 5.3 passed until Argentine accountant / ARCA guidance confirms the exact foreign-client IT structure, monotributo or autonomous-worker eligibility, VAT/export-service handling, Ingresos Brutos exposure by city, social-security/health obligations, invoice/banking requirements, and DN/temporary-residence compatibility.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: completed, depth: 1, last_updated: 2026-06-14, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. Livingcost is a commercial/crowdsourced baseline, so use medium confidence and verify live listings, deposits, health insurance, accountant costs, and current exchange/banking mechanics before committing.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost's Argentina country page screens the national average at about USD 878/month for one person with rent and USD 2,136/month for a family-of-four proxy; the one-person breakdown is about USD 531 without rent, USD 347 rent/utilities, USD 373 food, and USD 56.8 transport. This suggests the USD 3,000 gross income is enough for a basic first month outside luxury/tourist housing, but the relevant margin is the run-092 conservative tax screen: roughly USD 2,280/month PIT-only or about USD 1,928/month under an employee-style contribution sensitivity before VAT, Ingresos Brutos, banking, insurance, accountant, and immigration costs. [src-575][src-461]
 
-[verification required]
+| City | Livingcost one-person total | Family-of-four proxy | Food / transport signals | One-income fit |
+|---|---:|---:|---|---|
+| Buenos Aires | USD 1,207/month | USD 2,929/month | Food USD 450/1,179; transport USD 98.6/273 | Best services, bureaucracy, universities, clinics, and expat ecosystem, but too close to the conservative after-tax band unless rent is controlled. [src-576] |
+| Cordoba | USD 972/month | USD 2,392/month | Food USD 383/997; transport USD 137/369 | Drier inland compromise with lower rent than Buenos Aires; workable if the legal/tax route is solved and the couple accepts colder nights. [src-577] |
+| Mendoza | USD 907/month | USD 2,185/month | Food USD 397/1,027; transport USD 30.7/86 | Strong sun/low-humidity lifestyle screen and lower total cost; smaller-city services and distance from Buenos Aires need follow-up. [src-578] |
+| Rosario | USD 766/month | USD 1,943/month | Food USD 338/878; transport USD 90.1/240 | Cheapest captured large-city fallback, but quality-of-life/safety/service checks are needed before preferring it over Cordoba or Mendoza. [src-579] |
+
+**Budget verdict.** Argentina looks numerically affordable on gross USD 3,000 and on the favorable PIT-only tax model if the couple avoids expensive Buenos Aires housing. Under the downside contribution/VAT/gross-income-tax uncertainty, Buenos Aires becomes tight and Cordoba/Mendoza/Rosario become the safer screening cities. Do not let cheap rent override the gating issue: the DN route is still a 180+180-day bridge, and a durable residence/tax structure remains unverified. [src-576][src-577][src-578][src-579]
+
+### 5.5. Rent {status: completed, depth: 1, last_updated: 2026-06-14, dod: passed}
+
+> **DoD status**: passed for first-pass screening. Livingcost's 40 m2 one-bedroom line is used as the vault's modest two-room proxy; the 80 m2 three-bedroom line is only an upper-size/future-family stress test. Live listings, deposits, guarantees, lease indexation, and address-evidence acceptance remain later practical-budget checks.
+
+| City | 40 m2 city-center proxy | 40 m2 cheaper proxy | 80 m2 city-center stress test | Rent share of USD 3,000 gross | Rent share of USD 2,280 PIT-only net | Screening note |
+|---|---:|---:|---:|---:|---:|---|
+| Buenos Aires | USD 578 | USD 396 | USD 1,030 | 19%-34% | 17%-45% | Service-rich default, but the 80 m2 / better-neighborhood market can consume too much of the conservative net; flag `buenos-aires-rent-pressure`. [src-576] |
+| Cordoba | USD 353 | USD 245 | USD 625 | 8%-21% | 11%-27% | Best cost/services compromise in the captured set if tax/legal route works. [src-577] |
+| Mendoza | USD 344 | USD 269 | USD 612 | 9%-20% | 12%-27% | Strong warm/dry climate and affordable rent; check healthcare, flights, and community depth later. [src-578] |
+| Rosario | USD 244 | USD 161 | USD 447 | 5%-15% | 7%-20% | Very cheap, but safety/quality-of-life and service-depth checks should precede any recommendation. [src-579] |
+
+**How to search / landlord mechanics.** This pass did not capture live Argentine portals or lease-law mechanics, so use the Livingcost rows only as screening. Later practical work should check Zonaprop / Argenprop / MercadoLibre Inmuebles / local inmobiliarias, whether foreigners without Argentine payslips need garantia propietaria, seguro de caucion, higher deposits, or several months prepaid, and whether the lease/address is accepted for DNM, banking, and tax registration.
+
+**Rent verdict.** Start with Cordoba or Mendoza for budget/climate screening, use Buenos Aires for bureaucracy, healthcare, community, and professional services only with a strict rent cap, and keep Rosario as a cheap fallback rather than the default until safety/service evidence is collected. Rent is not the main blocker; legal durability, tax category, banking/FX, and one-income margin are. [src-576][src-577][src-578][src-579]
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -172,12 +194,14 @@ Gross income tax (Ingresos Brutos) is provincial, generally 0.5%-6%; PwC gives C
 - **Best legalization path for the man**: Digital-nomad transitory residence as a bridge; do not assume a durable foreign-client IT residence route until a specific temporary category is confirmed. [src-235][src-238][src-239]
 - **Best legalization path for the woman**: Conservative baseline is tourist/scouting entry plus independent eligibility, or family route only after the man has a durable sponsor category; do not assume DN dependent treatment.
 - **Does marriage change the picture**: Likely useful for future family-file planning, but it does not convert the DN bridge into a settlement route by itself.
+- **Budget/rent screen**: Workable outside expensive Buenos Aires housing: Cordoba and Mendoza are the best first-pass cost/rent screens; Buenos Aires is useful for services but needs a strict rent cap and tax-margin check. [src-576][src-577][src-578]
 - **Realism of staying after 03.2027**: Potentially interesting because Argentina has a short naturalization horizon, but only if a legal continuous temporary/permanent residence route can be secured and maintained without exits. [src-238][src-240]
 
 **Pros**:
 - Official DN bridge for foreign remote work; no local employer needed for the bridge route. [src-235][src-236]
 - Potentially short two-year naturalization horizon if strict legal continuous residence conditions can be met. [src-240]
 - Buenos Aires / Cordoba / Mendoza offer warm or mild-climate options with no long severe winter. [src-241][src-242]
+- Cordoba and Mendoza rent/cost baselines are materially easier than Buenos Aires on one income. [src-577][src-578]
 
 **Cons / risks**:
 - DN is transitory, up to 180 days and extendable, and the general overview says transitory residence does not enable DNI. [src-235][src-238]
@@ -185,6 +209,7 @@ Gross income tax (Ingresos Brutos) is provincial, generally 0.5%-6%; PwC gives C
 - Rentista excludes personal-work remuneration, so it is not a straightforward IT-freelancer fallback. [src-239]
 - Official Ukraine tourist-exemption table still needs direct capture. [src-233]
 - Citizenship law now includes a strict no-exit continuous-residence rule for the two years before applying. [src-240]
+- Buenos Aires can exceed the conservative after-tax margin once partner costs, insurance, accountant, and immigration costs are added; avoid treating capital-city lifestyle as affordable by default. [src-576]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -192,7 +217,7 @@ Gross income tax (Ingresos Brutos) is provincial, generally 0.5%-6%; PwC gives C
 - Documents (with apostille / notarized translation markers): passports; Ukrainian police certificates; remote-work contracts/client letters/invoices/income evidence; CV; education/training evidence; apostilles/legalizations for foreign documents; plan Argentine certified translations. [src-235][src-237]
 - Steps in Ukrainian government agencies: get fresh police certificates and civil-status documents before departure. [verification required]
 - What to do with the Polish karta pobytu: keep it for EU logistics; do not treat it as an Argentine status substitute. [verification required]
-- Financial preparation (USD cushion): TBD after tax/cost/rent pass.
+- Financial preparation (USD cushion): plan at least 4-6 months of expenses because Argentina has currency/banking risk and the legal route is still bridge-first; for Buenos Aires, budget around USD 1,200/month one-person baseline plus partner and filing costs before live-listing checks. [src-576]
 - For the student partner (academic certificates, translations): TBD.
 - Submitting visa/permit application from abroad: DN TIE can be initiated online for entry; in-country DN residence is semi-presential/in-person. [src-235][src-236]
 
@@ -226,8 +251,8 @@ Gross income tax (Ingresos Brutos) is provincial, generally 0.5%-6%; PwC gives C
 | Visa / residence permit fees | — | DN / tourist-visa fee table needs current DNM rate capture. |
 | Apostilles and translations | — | Required for foreign documents; translations by Argentine public translator. [src-235] |
 | Flights for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | — | Live lease mechanics not captured; budget at least 1-2 months rent until portals/lease-law checks prove otherwise. |
+| First month rent | USD 245-578 modest proxy | Cordoba/Mendoza cheaper proxies are around USD 245-269; Buenos Aires modest city-center proxy is about USD 578. [src-576][src-577][src-578] |
 | Health insurance (one year) | — | TBD |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
@@ -265,6 +290,11 @@ _(none yet)_
 - [src-241] Climate to Travel Argentina / Buenos Aires / Cordoba / Mendoza climate pages.
 - [src-242] WeatherSpark Argentina country climate comparison.
 - [src-461] ExchangeRate-API USD/ARS snapshot for the run-092 tax worked example.
+- [src-575] Livingcost Argentina country cost/rent page.
+- [src-576] Livingcost Buenos Aires cost/rent page.
+- [src-577] Livingcost Cordoba cost/rent page.
+- [src-578] Livingcost Mendoza cost/rent page.
+- [src-579] Livingcost Rosario cost/rent page.
 
 ### 7e. Not found
 - Current official tourist-exemption PDF/table for Ukrainian ordinary passports was identified via secondary source but not directly captured; re-check before travel or DN filing.

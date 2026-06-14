@@ -6916,3 +6916,63 @@ Each source entry:
 - **Facts supporting**: Merida cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-14
+
+## src-575
+- **Title**: Livingcost - Cost of living in Argentina
+- **URL**: https://livingcost.org/cost/argentina
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Argentina
+- **Facts supporting**: Argentina national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-576
+- **Title**: Livingcost - Cost of living in Buenos Aires
+- **URL**: https://livingcost.org/cost/argentina/buenos-aires
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Argentina
+- **Facts supporting**: Buenos Aires cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-577
+- **Title**: Livingcost - Cost of living in Cordoba, Argentina
+- **URL**: https://livingcost.org/cost/argentina/cordoba
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Argentina
+- **Facts supporting**: Cordoba cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-578
+- **Title**: Livingcost - Cost of living in Mendoza
+- **URL**: https://livingcost.org/cost/argentina/mendoza
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Argentina
+- **Facts supporting**: Mendoza cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-579
+- **Title**: Livingcost - Cost of living in Rosario
+- **URL**: https://livingcost.org/cost/argentina/rosario
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Argentina
+- **Facts supporting**: Rosario cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as a cheap fallback pending safety and service-depth checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14

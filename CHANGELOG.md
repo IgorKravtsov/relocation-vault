@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-14
 ---
 
+## 2026-06-14 - run-121 - Argentina cost/rent first pass
+
+- Opened Argentina sections 5.4 and 5.5 with Livingcost national, Buenos Aires, Cordoba, Mendoza, and Rosario baselines.
+- Added sources `src-575` through `src-579` and claims `claim-argentina-012` through `claim-argentina-016`.
+- Argentina depth_score moved from 2.0 to 3.0; new flags `buenos-aires-rent-pressure` and `argentina-one-income-margin-risk`; next suggested focus is Malaysia 5.4/5.5 while verification remains below threshold.
+
 ## 2026-06-14 - run-120 - Mexico cost/rent first pass
 
 - Opened Mexico sections 5.4 and 5.5 with Livingcost national, Mexico City, Guadalajara, Cancun, and Merida baselines.
