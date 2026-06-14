@@ -34,6 +34,7 @@
 - [`montenegro.md`](./montenegro.md) — Черногория.
 - [`romania.md`](./romania.md) — Румыния.
 - [`greece.md`](./greece.md) — Греция (лучший EU-вариант).
+- [`albania.md`](./albania.md) — Албания (не ЕС; «0%» для IT — миф, ~18%).
 - [`buying-property-in-eu.md`](./buying-property-in-eu.md) — чистый источник средств / AML при покупке.
 
 ## Открытые вопросы / дальше
