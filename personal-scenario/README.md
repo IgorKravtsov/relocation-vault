@@ -39,7 +39,7 @@
 - [`romania.md`](./romania.md) — Румыния.
 - [`greece.md`](./greece.md) — Греция (лучший EU-вариант).
 - [`albania.md`](./albania.md) — Албания (не ЕС; IT ≈ 0% до 2029, ~25 мес — топ скорости).
-- [`czech-republic.md`](./czech-republic.md) — Чехия (ЕС; paušál ~7–8%, стабильно, но холодно).
+- [`czech-republic.md`](./czech-republic.md) — Чехия (ЕС; paušál ~7–10%; СНЯТО: климат + брак для партнёрши + язык).
 - [`buying-property-in-eu.md`](./buying-property-in-eu.md) — чистый источник средств / AML при покупке.
 
 ## Открытые вопросы / дальше
