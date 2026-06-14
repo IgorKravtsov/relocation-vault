@@ -96,3 +96,48 @@
   confidence: medium
   tags: [tax, worked-example, fx, dtv, foreign-client-it]
   notes: "PIT rates from src-471 and personal allowance from src-474. A THB 100,000 additional deduction sensitivity would leave about THB 88,691/month (USD 2,693), but the conservative baseline does not assume the deduction class without Thai adviser confirmation."
+
+- id: claim-thailand-012
+  topic: thailand_livingcost_national_cost
+  value: "Livingcost screens Thailand at about USD 914/month for one person with rent and USD 2,348/month for a family-of-four proxy; national 40 m2 rent proxy is about USD 283-553/month."
+  source: src-585
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, national-baseline, livingcost]
+  notes: "Commercial first-pass screen only; use for country screening, not lease-level budgeting."
+
+- id: claim-thailand-013
+  topic: bangkok_cost_rent_screen
+  value: "Livingcost reports Bangkok at about USD 1,027/month for one person with rent and USD 2,622/month for a family-of-four proxy; 40 m2 rent proxy is about USD 319-632/month."
+  source: src-586
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, bangkok, livingcost]
+  notes: "Bangkok is services-rich but requires a strict housing cap on one income."
+
+- id: claim-thailand-014
+  topic: chiang_mai_cost_rent_screen
+  value: "Livingcost reports Chiang Mai at about USD 780/month for one person with rent and USD 2,112/month for a family-of-four proxy; 40 m2 rent proxy is about USD 253-444/month."
+  source: src-587
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, chiang-mai, livingcost]
+  notes: "Best captured budget screen, but smoke-season and service-depth checks remain."
+
+- id: claim-thailand-015
+  topic: phuket_cost_rent_screen
+  value: "Livingcost reports Phuket at about USD 1,059/month for one person with rent and USD 2,644/month for a family-of-four proxy; 40 m2 rent proxy is about USD 446-632/month."
+  source: src-588
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, phuket, livingcost]
+  notes: "Treat as tourist/coastal lifestyle exception rather than default one-income base."
+
+- id: claim-thailand-016
+  topic: pattaya_cost_rent_screen
+  value: "Livingcost reports Pattaya at about USD 874/month for one person with rent and USD 2,115/month for a family-of-four proxy; 40 m2 rent proxy is about USD 349-543/month."
+  source: src-589
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, pattaya, livingcost]
+  notes: "Potential budget/coastal compromise pending quality-of-life, family-friendliness, and service-depth checks."

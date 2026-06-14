@@ -7036,3 +7036,63 @@ Each source entry:
 - **Facts supporting**: Ipoh cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as an affordability fallback pending healthcare, connectivity, service-depth, and remote-worker community checks
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-14
+
+## src-585
+- **Title**: Livingcost - Cost of living in Thailand
+- **URL**: https://livingcost.org/cost/thailand
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Thailand
+- **Facts supporting**: Thailand national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, salary context, utilities, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-586
+- **Title**: Livingcost - Cost of living in Bangkok
+- **URL**: https://livingcost.org/cost/thailand/bangkok
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Thailand
+- **Facts supporting**: Bangkok cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as services-rich but margin-tight on one income
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-587
+- **Title**: Livingcost - Cost of living in Chiang Mai
+- **URL**: https://livingcost.org/cost/thailand/chiang-mai
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Thailand
+- **Facts supporting**: Chiang Mai cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as the first budget screen pending smoke-season and service-depth checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-588
+- **Title**: Livingcost - Cost of living in Phuket
+- **URL**: https://livingcost.org/cost/thailand/phuket
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Thailand
+- **Facts supporting**: Phuket cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as coastal/tourist-market lifestyle exception rather than default base
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-589
+- **Title**: Livingcost - Cost of living in Pattaya
+- **URL**: https://livingcost.org/cost/thailand/pattaya
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Thailand
+- **Facts supporting**: Pattaya cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as a budget/coastal compromise pending quality-of-life and family-fit checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14

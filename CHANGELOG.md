@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-14
 ---
 
+## 2026-06-14 - run-123 - Thailand cost/rent first pass
+
+- Opened Thailand sections 5.4 and 5.5 with Livingcost national, Bangkok, Chiang Mai, Phuket, and Pattaya baselines.
+- Added sources `src-585` through `src-589` and claims `claim-thailand-012` through `claim-thailand-016`.
+- Thailand depth_score moved from 2.0 to 3.0; new flags `bangkok-phuket-rent-pressure` and `thailand-one-income-margin-risk`; next suggested focus is Indonesia 5.4/5.5 while verification remains below threshold.
+
 ## 2026-06-14 - run-122 - Malaysia cost/rent first pass
 
 - Opened Malaysia sections 5.4 and 5.5 with Livingcost national, Kuala Lumpur, George Town, Johor Bahru, and Ipoh baselines.

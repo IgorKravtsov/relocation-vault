@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 122,
+  "iteration": 123,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-14T18:20:53Z",
+  "last_run_timestamp": "2026-06-14T21:29:15Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Malaysia",
+    "country": "Thailand",
     "sections": [
       "5.4",
       "5.5"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Thailand",
+    "suggested_country": "Indonesia",
     "suggested_sections": [
       "5.4",
       "5.5"
     ],
-    "reason": "Verification queue remains below threshold; Malaysia cost/rent is now opened, so continue first-pass cost/rent coverage on the remaining depth-2 Tier-3 countries."
+    "reason": "Verification queue remains below threshold; Thailand cost/rent is now opened, so continue first-pass cost/rent coverage on the remaining depth-2 Tier-3 countries."
   },
   "countries": {
     "Spain": {
@@ -937,17 +937,17 @@
     "Thailand": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -961,9 +961,11 @@
         "marriage-needed-for-dependent-baseline",
         "hot-humid-monsoon-climate",
         "thailand-remittance-tax-risk",
-        "thailand-vat-social-security-fit-gap"
+        "thailand-vat-social-security-fit-gap",
+        "bangkok-phuket-rent-pressure",
+        "thailand-one-income-margin-risk"
       ],
-      "last_iteration": 96,
+      "last_iteration": 123,
       "unverified_count": 0
     },
     "Indonesia": {
@@ -1062,7 +1064,7 @@
     }
   },
   "verification_queue_size": 1,
-  "sources_count": 583,
-  "claims_count": 493,
+  "sources_count": 588,
+  "claims_count": 498,
   "proposals_pending": 0
 }
