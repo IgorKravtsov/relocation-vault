@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-11
+last_updated: 2026-06-14
 ---
 
 # Sources Registry
@@ -6699,3 +6699,51 @@ Each source entry:
 - **Facts supporting**: Santiago de Veraguas cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-13
+
+## src-557
+- **Title**: Livingcost — Cost of living in North Macedonia
+- **URL**: https://livingcost.org/cost/north-macedonia
+- **Archive**: [archive: failed 2026-06-14; Wayback returned HTTP 429; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: North Macedonia
+- **Facts supporting**: North Macedonia national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-558
+- **Title**: Livingcost — Cost of living in Skopje
+- **URL**: https://livingcost.org/cost/north-macedonia/skopje
+- **Archive**: [archive: failed 2026-06-14; Wayback returned HTTP 429; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: North Macedonia
+- **Facts supporting**: Skopje cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-559
+- **Title**: Livingcost — Cost of living in Ohrid
+- **URL**: https://livingcost.org/cost/north-macedonia/ohrid
+- **Archive**: [archive: failed 2026-06-14; Wayback returned HTTP 429; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: North Macedonia
+- **Facts supporting**: Ohrid cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-560
+- **Title**: Livingcost — Cost of living in Bitola
+- **URL**: https://livingcost.org/cost/north-macedonia/bitola
+- **Archive**: [archive: failed 2026-06-14; Wayback returned HTTP 429; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: North Macedonia
+- **Facts supporting**: Bitola cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14

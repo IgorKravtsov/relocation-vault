@@ -96,3 +96,39 @@
   confidence: medium
   tags: [tax, worked-example, fx]
   notes: "Tax rates are from src-413 and src-415; the contribution model is a screening stress test, not final tax advice."
+
+- id: claim-north-macedonia-012
+  topic: north_macedonia_national_cost_baseline
+  value: "Livingcost reports North Macedonia national average total monthly cost with rent of about USD 775 for one person and USD 1,829 for a family-of-four proxy, with rent-and-utilities at USD 357 / USD 565 and food at USD 291 / USD 770."
+  source: src-557
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, livingcost, north-macedonia]
+  notes: "Commercial/crowdsourced first-pass source; use for screening, not final lease or relocation budget."
+
+- id: claim-north-macedonia-013
+  topic: skopje_cost_rent_baseline
+  value: "Livingcost reports Skopje total monthly cost with rent of about USD 887 for one person and USD 2,082 for a family-of-four proxy; 40 m2 1BR rent proxies are about USD 294 cheaper / USD 378 city-center."
+  source: src-558
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, skopje, livingcost]
+  notes: "Skopje is the practical first base for bureaucracy/services, but the tax downside net requires a strict housing cap."
+
+- id: claim-north-macedonia-014
+  topic: ohrid_cost_rent_baseline
+  value: "Livingcost reports Ohrid total monthly cost with rent of about USD 735 for one person and USD 1,838 for a family-of-four proxy; 40 m2 1BR rent proxies are about USD 161 cheaper / USD 242 city-center."
+  source: src-559
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, ohrid, livingcost]
+  notes: "Warm/lake lifestyle and budget fallback; tourist-season lease stability needs later verification."
+
+- id: claim-north-macedonia-015
+  topic: bitola_cost_rent_baseline
+  value: "Livingcost reports Bitola total monthly cost with rent of about USD 678 for one person and USD 1,613 for a family-of-four proxy; 40 m2 1BR rent proxies are about USD 180 cheaper / USD 251 city-center."
+  source: src-560
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, bitola, livingcost]
+  notes: "Cheapest captured practical city; service depth and immigration-support availability need later checks."

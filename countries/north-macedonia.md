@@ -1,13 +1,13 @@
 ---
 country: North Macedonia
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-10T05:13:27Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-14T02:45:41Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["official-ukraine-entry-table-gap", "no-dedicated-digital-nomad-visa", "ordinary-residence-route-needs-fit-check", "no-captured-ukraine-protection-bridge", "north-macedonia-self-employed-contribution-base-gap", "north-macedonia-foreign-client-vat-fit-gap"]
-sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212", "src-413", "src-414", "src-415", "src-416", "src-417"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["official-ukraine-entry-table-gap", "no-dedicated-digital-nomad-visa", "ordinary-residence-route-needs-fit-check", "no-captured-ukraine-protection-bridge", "north-macedonia-self-employed-contribution-base-gap", "north-macedonia-foreign-client-vat-fit-gap", "skopje-rent-pressure"]
+sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212", "src-413", "src-414", "src-415", "src-416", "src-417", "src-557", "src-558", "src-559", "src-560"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to an ordinary-residence / work-or-self-employment file rather than a dedicated digital-nomad route. The country is promising as a low-cost Balkan base, but the post-2027 Ukrainian protection baseline and foreign-client IT residence fit still need primary-source verification.
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-10T05:13:27Z
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-14T02:45:41Z
 - **Tier rationale**: Not assigned yet; legalization remains partial.
 
 ## Block 2 — Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | Entry / ordinary residence baseline opened, but Ukraine-specific current entry and 2026 protection / remote-worker mechanics require verification. | §5.1 |
 | Climate | 7 | medium | Hot dry summers, cold winters, low muggy-day burden, and ~219-228 clearer-sky day-equivalent proxies in Skopje/Ohrid/Bitola; Ohrid/Bitola are milder than Skopje. | §5.2 |
 | Taxes | — | medium | First-pass tax stress test captured 10% flat PIT, 28% employee-style social-contribution burden, 18% VAT headline / MKD 2m registration threshold, filing mechanics, and a USD 3,000/month MKD calculation; exact self-employed registration, contribution base, VAT/place-of-supply, and immigration-status fit remain unresolved. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | 8 | medium | Livingcost screens North Macedonia and the three captured cities as low-cost; Skopje is the services base but the tax stress-test net makes a strict full-budget cap important. | §5.4 |
+| Rent (decent 2BR) | 8 | medium | 40 m2 1BR proxies are about $378/$294 in Skopje, $242/$161 in Ohrid, and $251/$180 in Bitola; 80 m2 3BR stress proxies remain mostly below $700. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -130,13 +130,32 @@ North Macedonia is not obviously tax-negative at the 10% PIT headline level, but
 - Confirm VAT registration, place-of-supply / export-of-services, reverse-charge, and invoicing rules for non-Macedonian clients.
 - Confirm whether marriage changes tax filing, allowances, or health-insurance coverage for the non-working partner.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-14, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. Livingcost gives country, capital, lake-city, and inland-city monthly totals for one person and a family-of-four proxy. This is a commercial/crowdsourced baseline, not a final relocation budget; live rentals, health insurance, accountant fees, and immigration-lawyer costs remain later checks.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost reports North Macedonia nationally at about **$775/month for one person with rent** and **$1,829/month for a family-of-four proxy**, with rent/utilities around $357 / $565, food around $291 / $770, and transport around $39 / $105 [src-557]. This is favorable against the couple's **$3,000/month gross** and against the optimistic North Macedonia PIT-only tax screen of about **$2,700/month net** from section 5.3, but it becomes tighter against the conservative contribution stress-test net of about **$1,860-$1,944/month**.
 
-[verification required]
+| City | Total with rent, one person | Family-of-four proxy | Rent/utilities | Food | Transport | Screening use |
+|---|---:|---:|---:|---:|---:|---|
+| Skopje | $887 | $2,082 | $421 / $657 | $318 / $838 | $52 / $139 | Best bureaucracy, services, lawyers, and airport access; use with a strict rent cap because the family proxy can exceed the tax downside net [src-558]. |
+| Ohrid | $735 | $1,838 | $281 / $471 | $324 / $855 | $29 / $78 | Warmer/lake lifestyle and strong budget fit; smaller labor/service market and tourist-season housing follow-up needed [src-559]. |
+| Bitola | $678 | $1,613 | $302 / $494 | $273 / $725 | $24 / $67 | Cheapest captured practical city; good budget fallback, but weaker bureaucracy/airport/service depth than Skopje [src-560]. |
+
+**Budget verdict**: North Macedonia screens as one of the cheaper Balkan options. The couple should not anchor on the family-of-four proxy literally because there are two adults now, but it is useful as an upper-size/future-child stress test. At the ordinary PIT-only tax screen, all three captured cities leave workable room for food/utilities/transport. At the conservative contribution stress-test net, Skopje is the tightest and needs a housing cap, while Ohrid/Bitola preserve more breathing room.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-14, dod: passed}
+
+> **DoD status**: passed for first-pass screening. Livingcost's 40 m2 1BR line is used as the closest available modest two-room proxy; the 80 m2 3BR line is only an upper-size / future-family stress test. Live listing checks, deposits, agency fees, foreigner acceptance, address-registration support, and lease-term details remain later practical-budget work.
+
+| City | 40 m2 proxy: city-center / cheaper | Share of $3,000 gross | Share of tax downside net ($1,860) | 80 m2 3BR stress: city-center / cheaper | Screening verdict |
+|---|---:|---:|---:|---:|---|
+| Skopje | $378 / $294 | 13% / 10% | 20% / 16% | $679 / $452 | Most practical first landing base, but mark `skopje-rent-pressure` because good central stock plus bureaucracy/services can eat the one-income margin [src-558]. |
+| Ohrid | $242 / $161 | 8% / 5% | 13% / 9% | $440 / $294 | Strong warm/lake budget option; verify winter availability and tourist-season lease stability before relying on it [src-559]. |
+| Bitola | $251 / $180 | 8% / 6% | 13% / 10% | $420 / $311 | Cheapest captured larger-city fallback; better for budget stress than for immigration-service depth [src-560]. |
+| National average | $310 / $236 | 10% / 8% | 17% / 13% | $568 / $383 | Confirms the country-wide rent baseline is low, but city choice still matters [src-557]. |
+
+**How to search later**: start with Skopje for first filing / lawyer / accountant access, then compare Ohrid and Bitola if the tax structure leaves less than about $2,000/month net. Later application-prep should capture local listing platforms, Facebook groups, agency commission norms, deposit/prepayment, whether a lease can support residence/address registration, and whether landlords accept foreign-client IT income without a Macedonian employment contract.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -176,7 +195,7 @@ North Macedonia is not obviously tax-negative at the 10% PIT headline level, but
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Possibly for scouting / short stay, but current Ukrainian entry duration and ordinary residence mechanics must be verified before relocation.
+- **Can relocate now**: Possibly for scouting / short stay, but current Ukrainian entry duration and ordinary residence mechanics must be verified before relocation. Cost/rent now screens as favorable, with Skopje as the practical first base and Ohrid/Bitola as lower-cost fallbacks.
 - **Best legalization path for the man**: Candidate path is self-employment / company-backed ordinary temporary residence; not yet proven for foreign-client remote IT.
 - **Best legalization path for the woman**: Unknown; assume marriage or independent eligibility until family reunification / partner rules are verified.
 - **Does marriage change the picture**: Likely yes for conservative dependent planning, but exact family route still needs verification.
@@ -191,6 +210,7 @@ North Macedonia is not obviously tax-negative at the 10% PIT headline level, but
 - No captured dedicated digital-nomad visa.
 - No current Ukraine temporary-protection bridge is captured; ordinary residence must be the plan.
 - Self-employment route may require a real local business/employment-permit file rather than simple foreign-client remote work.
+- Skopje is still budget-manageable, but the conservative tax/contribution stress-test means the couple should cap housing and avoid assuming capital-city comfort on one income.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -223,8 +243,8 @@ North Macedonia is not obviously tax-negative at the 10% PIT headline level, but
 | Visa / residence permit fees | — | TBD |
 | Apostilles and translations | — | TBD |
 | Flights for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | — | TBD; live-listing pass needed. First-pass rent proxy: Skopje $294-$378 for 40 m2 / $452-$679 for 80 m2 stress; Ohrid/Bitola lower [src-558][src-559][src-560]. |
+| First month rent | $161-$378+ | First-pass 40 m2 proxy range across Ohrid/Bitola/Skopje; use Skopje for filing practicality, Ohrid/Bitola for budget fallback [src-558][src-559][src-560]. |
 | Health insurance (one year) | — | TBD |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
@@ -256,6 +276,7 @@ _(none yet)_
 - WeatherSpark North Macedonia country climate comparison [src-211]
 - WeatherSpark Bitola city climate [src-212]
 - ExchangeRate-API USD/MKD snapshot for run-084 tax calculation [src-417]
+- Livingcost North Macedonia country / Skopje / Ohrid / Bitola cost and rent pages [src-557][src-558][src-559][src-560]
 
 ### 7e. Not found
 - Official North Macedonia country-specific Ukraine visa table was not cleanly captured; recheck before travel, but `vq-064` is closed for screening.

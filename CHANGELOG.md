@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-13
+last_updated: 2026-06-14
 ---
+
+## 2026-06-14 — run-117 — North Macedonia cost/rent first pass
+
+- Opened North Macedonia sections 5.4 and 5.5 with Livingcost national, Skopje, Ohrid, and Bitola baselines.
+- Added sources `src-557` through `src-560` and claims `claim-north-macedonia-012` through `claim-north-macedonia-015`.
+- North Macedonia depth_score moved from 2.0 to 3.0; new flag `skopje-rent-pressure`; next suggested focus is Bosnia and Herzegovina 5.4/5.5 while verification remains below threshold.
 
 ## 2026-06-13 — run-116 — Panama cost/rent first pass
 

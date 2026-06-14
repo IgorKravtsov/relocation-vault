@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-13
+last_updated: 2026-06-14
 ---
 
 # INDEX
@@ -29,7 +29,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Turkey | europe-non-eu | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 111 | `countries/turkey.md` |
 | Georgia | europe-non-eu | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 112 | `countries/georgia.md` |
 | Albania | balkans-east | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 113 | `countries/albania.md` |
-| North Macedonia | balkans-east | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 87 | `countries/north-macedonia.md` |
+| North Macedonia | balkans-east | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 117 | `countries/north-macedonia.md` |
 | Bosnia and Herzegovina | balkans-east | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 87 | `countries/bosnia-and-herzegovina.md` |
 | Moldova | balkans-east | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 87 | `countries/moldova.md` |
 | Uruguay | latin-america | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 114 | `countries/uruguay.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 2.89
+- **Average depth_score**: 2.92
