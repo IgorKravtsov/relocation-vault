@@ -7443,3 +7443,40 @@ Each source entry:
 - **Facts supporting**: Italy ECEC split between 0-3 educational services and 3-6 pre-primary school, fee/free baseline, non-compulsory attendance, and nursery/pre-primary planning caveats (claim-italy-014)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2026-12-15
+
+
+## src-619
+- **Title**: UNHCR Greece — Access to Healthcare
+- **URL**: https://help.unhcr.org/greece/living-in-greece/access-to-healthcare/
+- **Archive**: stable UNHCR Help page via text mirror — snapshot not required
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-15
+- **Used by**: Greece
+- **Facts supporting**: free public healthcare access baseline for refugees/asylum seekers; PAAYPA and AMKA onboarding mechanics; emergency access number and vaccination-access baseline (claim-greece-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-15
+
+## src-620
+- **Title**: Eurydice — Greece organisation of the education system and its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/greece/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2025-09-24
+- **Date accessed**: 2026-06-15
+- **Used by**: Greece
+- **Facts supporting**: Greece formal education structure, compulsory two-year pre-primary from age 4, six-year primary school, lower/upper secondary structure, and public/private school baseline (claim-greece-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-09-24
+
+## src-621
+- **Title**: Eurydice — Greece early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/greece/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-15
+- **Used by**: Greece
+- **Facts supporting**: Greece ECEC split between under-age-4 municipal/private care and age-4/5 pre-primary school; compulsory two-year preschool from age 4; public nipiagogeia free-of-charge baseline (claim-greece-014)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-15

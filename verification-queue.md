@@ -218,6 +218,17 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Status**: pending
 
 
+## vq-123 [medium priority]
+- **Fact**: "Greece healthcare application-prep details: DN/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-city AMKA / health-unit registration workflow"
+- **Country**: Greece
+- **Section**: 5.6
+- **Current source**: src-003, src-152, src-619
+- **Why uncertain**: This healthcare pass captured protected-status public-health access and PAAYPA/AMKA mechanics, but did not capture live insurer quotes or the exact Athens / Thessaloniki / Heraklion / Patras onboarding workflow for the couple's final route.
+- **Suggested verification**: Check the serving Greek consulate / DN residence checklist, two or three Greece-compliant insurer quote pages for young adults, maternity waiting periods, and local AMKA / personal-doctor / health-unit registration steps after city selection.
+- **Created**: 2026-06-15 (run-131)
+- **Status**: pending
+
+
 ## vq-118 [medium priority]
 - **Fact**: "Kazakhstan foreign-client IT tax structure: exact individual-entrepreneur / Neo Nomad registration fit, social-medical-pension contribution base, VAT/place-of-supply and e-invoice handling, and compatibility with the chosen residence-status file"
 - **Country**: Kazakhstan

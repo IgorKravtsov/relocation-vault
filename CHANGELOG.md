@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-15
 ---
 
+## 2026-06-15 — run-131
+- Greece: depth_score 4.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
+- Sources added: src-619, src-620, src-621
+- Claims added: claim-greece-013, claim-greece-014, claim-greece-015
+- Verification queue: 3 -> 4 (added vq-123)
+
 ## 2026-06-15 - run-130 - Italy healthcare/education first pass
 
 - Opened Italy section 5.6 as partial and section 5.7 as completed with SSN/private-care, DN insurance, early-childhood, public-school, childcare, and international-school baselines.

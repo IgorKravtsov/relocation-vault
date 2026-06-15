@@ -1,14 +1,14 @@
 ---
 country: Greece
 tier: null
-depth_score: 4.0
-last_updated: 2026-06-11T21:54:00Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["greece-article-5c-foreign-client-fit-gap", "athens-rent-pressure", "crete-tourist-rent-pressure"]
-sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300", "src-337", "src-386", "src-387", "src-388", "src-389", "src-390"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-15T22:39:01Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["greece-article-5c-foreign-client-fit-gap", "athens-rent-pressure", "crete-tourist-rent-pressure", "greece-private-insurance-quote-gap", "greece-international-school-cost-risk"]
+sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300", "src-337", "src-386", "src-387", "src-388", "src-389", "src-390", "src-619", "src-620", "src-621"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -18,10 +18,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD after taxes, rent, healthcare, and partner-path research are added.
-- **depth_score**: 4.0
-- **Last updated**: 2026-06-11
-- **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP->Immigration Code bridge) plus a documented digital nomad route. The tax pass now has an official 2026 EFKA self-employed minimum, so the conservative ordinary PIT + minimum social-insurance stress test is usable; Article 5C fit for foreign-client IT work still needs current specialist/official verification. Cost/rent screening is workable on gross USD 3,000/month only with housing discipline; Patras and Thessaloniki screen cheaper than Athens/Heraklion.
+- **Tier**: TBD after taxes, rent, partner-path, comfort, risk, and bureaucracy research are added.
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-15
+- **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP->Immigration Code bridge) plus a documented digital nomad route. The tax pass now has an official 2026 EFKA self-employed minimum, so the conservative ordinary PIT + minimum social-insurance stress test is usable; Article 5C fit for foreign-client IT work still needs current specialist/official verification. Cost/rent screening is workable on gross USD 3,000/month only with housing discipline; Patras and Thessaloniki screen cheaper than Athens/Heraklion. Healthcare is structurally workable through public-system access for protected/resident statuses, while education is favorable if the couple accepts Greek-language public schooling and avoids international-school costs.
 
 ## Block 2 — Scoring
 
@@ -29,11 +29,11 @@ schema_version: 2.0.0
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | 7 | medium-high | Strong because Greece explicitly allows TP holders to switch into Immigration Code permits without an entry visa before 04 March 2027, and a DN route exists; weakened by unresolved Polish-karta and DN-checklist gaps. | §5.1 |
 | Climate | 8 | medium | Warm Mediterranean profile with strong sun in Athens and Heraklion, cooler winter in Thessaloniki; exact sunny-day counts still need a source that exposes day totals directly. | §5.2 |
-| Taxes | 6 | medium | Ordinary business-profit PIT on USD 3,000/month is roughly EUR 491/month before social insurance; Article 5C could improve the result if the foreign-client IT file qualifies, but current EFKA/self-employed contribution and 5C route-fit details are still open. | §5.3 |
+| Taxes | 6 | medium | Ordinary business-profit PIT plus the captured 2026 EFKA category-1 baseline leaves about EUR 1,844/month before accountant/VAT costs; Article 5C could improve the result if the foreign-client IT file qualifies, but 5C route-fit details remain an application-prep adviser check. | §5.3 |
 | Cost of living | 6 | medium | Livingcost 2026 city screens put one-person totals around $1,104-$1,462 and family-of-four proxies around $2,672-$3,581; workable gross, but tight after the conservative Greek tax/EFKA baseline. | §5.4 |
 | Rent (decent 2BR) | 6 | medium | Modest 40 m2 1BR proxies are affordable in Patras/Thessaloniki and manageable in Athens/Heraklion; larger 80 m2 3BR stress tests and tourist-market Crete/Athens pressure require live-listing checks. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | 6 | medium | Public healthcare access is structurally positive for refugees/asylum seekers and resident-status files, with PAAYPA/AMKA mechanics and emergency/vaccination access documented; DN-compliant private-insurance quotes and exact city onboarding remain application-prep gaps. | §5.6 |
+| Education (future child) | 7 | medium | Public schooling and two-year pre-primary from age 4 are strong if the family accepts Greek-language integration; private childcare and international school are the budget risks. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -157,17 +157,27 @@ City-level screen:
 
 **Rental strategy.** Use the 40 m2 1BR line as the modest two-room proxy, not the 80 m2 3BR stress test. For this couple, target Thessaloniki first for a services/cost balance, Patras as the cheapest fallback, Heraklion only after live-listing checks outside peak tourist periods, and Athens only with a strict cap near the cheap-1BR band. Search live listings through Spitogatos, XE, Spiti24, and local Facebook/Telegram rental groups before committing. Budget at least first month's rent plus deposit; exact deposit, agency-fee practice, and landlord requirements for foreigners remain for a later practical-budget iteration.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-15, dod: partial}
 
-> **DoD**: how to register after the move; private insurance cost for the couple; maternity / birth coverage.
+> **DoD status**: partial. Covered: free public-health access baseline for refugees/asylum seekers, PAAYPA/AMKA onboarding mechanics, emergency access, vaccination access, and first-pass private doctor-visit proxies. Missing for full DoD: DN/residence-file insurance wording, live private-insurance quotes for two young adults, maternity waiting-period/exclusion checks, and exact city-level family-doctor / local health-unit registration steps.
 
-[verification required]
+- UNHCR Greece states that every refugee and asylum seeker in Greece has the right to free access to primary, secondary, and tertiary healthcare. For a protected-status baseline, this is a strong signal that Greek TP/asylum-style statuses can plug into public care rather than relying only on private medicine. [src-619]
+- Practical onboarding depends on the health-number route. UNHCR says fully registered asylum seekers receive an asylum-seeker card with a temporary insurance/healthcare number for aliens (**PAAYPA**). For recognized refugee or subsidiary-protection status, PAAYPA is deactivated one month after the residence permit is received and the person must obtain **AMKA**; UNHCR lists an EFKA appointment plus valid residence permit, tax number, formal proof of residence, and employer recruitment statement among the AMKA documents. [src-619]
+- Emergency care is accessible through hospital emergency departments, and the emergency medical number is **166**. UNHCR also points to public hospitals / medical centers and Mother-Child centers for vaccinations when the person has active AMKA/PAAYPA, with NGOs such as Doctors of the World and the Hellenic Red Cross as additional vaccination-support points. [src-619]
+- For the couple's DN / ordinary-residence path, do not assume this public-access baseline is enough at filing. The Greek DN file still needs private medical-insurance evidence before or during the residence process, and this iteration did not capture two-adult insurer quotes or maternity exclusions. Keep a cash/insurance buffer until the exact visa route and city are selected. [src-003][src-152]
+- Private out-of-pocket care looks usable as an occasional fallback. Livingcost city pages show doctor-visit proxies of about **$55.1 in Athens**, **$52.9 in Thessaloniki**, **$38.3 in Heraklion**, and **$37.2 in Patras**. These are only commercial screening proxies, not clinic quotes, but they suggest routine private visits are not the main Greece budget blocker compared with rent, taxes, and insurance. [src-387][src-388][src-389][src-390]
+- **Healthcare read**: Greece is acceptable for screening if the couple lands in a status that enables AMKA/PAAYPA or maintains valid private insurance. Healthcare remains partial because the real filing budget still needs route-compliant private-insurance quotes for two young adults, maternity / childbirth coverage terms, and the local onboarding workflow in the final city.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-15, dod: passed}
 
-> **DoD**: kindergarten cost; public school quality for foreign kids; international school alternative with cost.
+> **DoD status**: passed for first-pass screening. Covered: compulsory age bands, preschool/kindergarten structure and cost baseline, public-school integration baseline, and international-school cost risk. Future city selection should still check school catchments, language support, and live private-school fee schedules.
 
-[verification required]
+- Eurydice's Greece education-system page says primary education includes **pre-primary school (nipiagogeio)** and six-year primary school, followed by lower-secondary gymnasio and optional upper-secondary lykeio. It also states that two-year attendance in pre-primary school is compulsory for **4-year-old children**. [src-620]
+- Eurydice's ECEC page gives the practical split: under age 4, care is through municipal infant/child-care centres and private settings; age 4-5 is pre-school (**nipiagogeia**) under the Ministry of Education. It states that compulsory pre-school starts at age 4 and that the two-year compulsory preschool provision has been effective nationwide since school year 2020-21. Public pre-primary school is free of charge. [src-621]
+- For a future child, the best budget baseline is therefore Greek public preschool/school from age 4 onward, plus Greek-language integration. This is favorable financially, but the couple should expect language adaptation work and should choose a city/neighborhood with practical access to public schools rather than treating international school as the default. [src-620][src-621]
+- The budget risk is the 0-3 childcare gap and private/international alternatives. Livingcost proxies show daycare/preschool around **$641/month in Athens**, **$458/month in Thessaloniki**, **$436/month in Heraklion**, and **$527/month in Patras**. International primary school proxies are about **$13,299/year in Athens**, **$8,751/year in Thessaloniki**, **$4,289/year in Heraklion**, and **$6,535/year in Patras**. [src-387][src-388][src-389][src-390]
+- **Education read**: Greece screens well if the family can use Greek public education and plan for language adaptation. International school would materially strain the single-income budget, especially in Athens/Thessaloniki, so it should be treated as an exception rather than the core plan.
+
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -214,6 +224,8 @@ City-level screen:
 - **Realism of staying after 03.2027**: Medium-high if Greek TP is obtained and converted before 04 March 2027, or if the couple qualifies for a standard Immigration Code permit independently of TP.
 - **Cost/rent budget read**: Workable but not comfortable on the conservative tax baseline. Thessaloniki and Patras are the best first-pass budget cities; Heraklion is the climate-favorable but rent-sensitive option; Athens is service-rich but cost/heat pressured. [src-386][src-387][src-388][src-389][src-390]
 - **Tax budget read**: Promising but incomplete. Ordinary business-profit PIT plus EFKA's 2026 minimum category leaves about EUR 1,844/month before accountant/VAT filing costs; Article 5C could improve the result, but 5C route fit still needs verification before using it as a default. [src-295][src-300][src-337]
+- **Healthcare read**: Public-system access is structurally workable for protected/resident statuses through PAAYPA/AMKA, but DN or ordinary-residence filing still needs route-compliant private-insurance evidence and city-specific registration details. [src-619]
+- **Education read**: Greek public education screens well from age 4 onward because compulsory pre-primary / school is public and free, but private childcare before age 4 and international-school fallback can become major budget items. [src-620][src-621][src-387][src-388][src-389][src-390]
 
 **Pros**:
 - Greece has an explicit TP→Immigration Code bridge before 04 March 2027.
@@ -228,6 +240,8 @@ City-level screen:
 - Athens summer heat can be severe.
 - Athens and Heraklion require live rent checks; the first-pass aggregator numbers may understate tourist-season and neighborhood pressure.
 - Article 5C fit for foreign-client IT income is not yet closed; EFKA category-1 minimum is now captured, but exact category choice should still be confirmed with a Greek accountant before filing.
+- DN-compliant private-insurance quotes and local AMKA/health-unit onboarding need a city/route-specific application-prep check.
+- International school is a budget risk; the core family plan should assume Greek public schooling and language integration unless income rises.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -245,7 +259,7 @@ City-level screen:
 - Bank account opening: [verification required]
 - Tax ID / social security number: [verification required]
 - Long-term housing: [verification required]
-- Health insurance / public health registration: [verification required]
+- Health insurance / public health registration: if on a protection/asylum-style route, confirm PAAYPA/AMKA status and book EFKA/local health registration as applicable; if on DN/ordinary residence, keep private insurance active until route-specific public access is confirmed. [src-619]
 - SIM card, internet, utilities: [verification required]
 
 ### 6c. First 3–6 months
@@ -271,7 +285,7 @@ City-level screen:
 | Flights for two | — | Pending cost pass |
 | Rental deposit | — | Pending rent pass |
 | First month rent | — | Pending rent pass |
-| Health insurance (one year) | — | Pending healthcare pass |
+| Health insurance (one year) | — | Route-compliant two-adult quotes still pending; do not assume public coverage before AMKA/PAAYPA or residence-file access is active. |
 | Immigration lawyer fees | — | Pending bureaucracy pass |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |
@@ -296,12 +310,15 @@ City-level screen:
 - [src-297] AADE — commencement of activities and changes to registry details.
 - [src-298] AADE — issuance of TIN and authentication key / tax representative.
 - [src-300] AADE — tax incentives to attract new tax residents.
+- [src-620] Eurydice — Greece organisation of the education system and its structure.
+- [src-621] Eurydice — Greece early childhood education and care.
 
 ### 7b. Reputable secondary
 - [src-004] Work From Greece FAQ (linked by MFA DN page; used for threshold and family-uplift details).
 - [src-295] PwC Worldwide Tax Summaries — Greece individual taxes on personal income.
 - [src-296] PwC Worldwide Tax Summaries — Greece individual income determination.
 - [src-299] PwC Worldwide Tax Summaries — Greece other taxes and tax administration.
+- [src-619] UNHCR Greece — access to healthcare.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -322,12 +339,14 @@ _(none yet)_
 - DN consular micro-details (appointment slot mechanics, payment channel, document-localisation instructions) still need checking against the serving consulate immediately before filing, but the core official-primary route/checklist blocker is closed.
 - Clean primary-source explanation of how a Polish `karta pobytu` interacts with a move to Greek residence.
 - Official meteorological sunny-day counts for Athens, Thessaloniki, and Heraklion; Current Results clear-sky percentages are used as the medium-confidence operational proxy.
-- Current official EFKA self-employed/freelancer insurance contribution category and monthly amount for the IT freelancer scenario.
+- Exact EFKA profession/category choice, branch add-ons, and deductibility for the final IT freelancer file; the current 2026 category-1 screening minimum is already captured in `src-337`.
 - Greek tax-adviser confirmation on Article 5C applicability for a Ukrainian foreign-client IT freelancer / sole proprietor.
+- DN-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-city AMKA / health-unit onboarding workflow.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-002`: resolved in run-028 using the official MFA digital-nomad page as the core route/checklist anchor; consular micro-details remain application-prep checks. [src-152]
 - `vq-003`: resolved in run-009 using Current Results clear-sky percentages / day-equivalent proxy [src-044].
-- `vq-089`: pending; current official EFKA self-employed/freelancer contribution categories and monthly minimums need capture before the Greece tax example is final.
+- `vq-089`: resolved in run-067; EFKA 2026 category-1 main pension + health plus unemployment is now the screening baseline, while exact profession/category choice remains an accountant check. [src-337]
 - `vq-090` resolved for screening in run-100: keep the ordinary PIT + EFKA baseline and treat Article 5C applicability to foreign-client IT / DN files as an application-prep tax-adviser check, not a scoring blocker.
+- `vq-123`: pending application-prep check for Greece private-insurance quotes, maternity exclusions, and selected-city AMKA / health-unit onboarding.
