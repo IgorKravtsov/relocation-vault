@@ -1,13 +1,13 @@
 ---
 country: Kazakhstan
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-11T21:54:00Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-15T03:45:03Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["ordinary-trp-not-settlement", "dn-route-secondary-sourced", "pr-citizenship-ladder-unclear", "cold-continental-winters", "kazakhstan-foreign-client-tax-structure-gap"]
-sources_used: ["src-267", "src-268", "src-269", "src-270", "src-271", "src-272", "src-273", "src-482", "src-483", "src-484", "src-485", "src-486"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["ordinary-trp-not-settlement", "dn-route-secondary-sourced", "pr-citizenship-ladder-unclear", "cold-continental-winters", "kazakhstan-foreign-client-tax-structure-gap", "almaty-rent-pressure", "kazakhstan-one-income-margin-risk"]
+sources_used: ["src-267", "src-268", "src-269", "src-270", "src-271", "src-272", "src-273", "src-482", "src-483", "src-484", "src-485", "src-486", "src-595", "src-596", "src-597", "src-598", "src-599"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint until durable settlement mechanics are verified)
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-11
-- **Tier rationale**: Kazakhstan is easy for Ukrainian short entry and can be a nearby CIS bridge, but this first pass did not capture a durable foreign-client IT residence ladder. The official TRP page lists one-year temporary-residence purposes for CIS citizens, including labor, business-immigrant, family, and study purposes, while the remote-work / Neo Nomad route is only secondary-sourced and must be confirmed against official visa-category rules before it can be used for scoring. Taxes screen moderately on PIT alone, but the exact foreign-client IT entrepreneur / VAT / contribution structure is unresolved. Climate is a major comfort risk outside the south because winters are sharply continental. [src-267][src-268][src-269][src-272][src-273][src-482][src-483][src-484]
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-15
+- **Tier rationale**: Kazakhstan is easy for Ukrainian short entry and can be a nearby CIS bridge, but this first pass did not capture a durable foreign-client IT residence ladder. The official TRP page lists one-year temporary-residence purposes for CIS citizens, including labor, business-immigrant, family, and study purposes, while the remote-work / Neo Nomad route is only secondary-sourced and must be confirmed against official visa-category rules before it can be used for scoring. Taxes screen moderately on PIT alone, but the exact foreign-client IT entrepreneur / VAT / contribution structure is unresolved. Cost and rent now screen affordable in Shymkent / Aktau and workable in Nur-Sultan, while Almaty requires a stricter rent cap on the conservative tax-net band. Climate is a major comfort risk outside the south because winters are sharply continental. [src-267][src-268][src-269][src-272][src-273][src-482][src-483][src-484][src-595][src-596][src-597][src-598][src-599]
 
 ## Block 2 — Scoring
 
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | low-medium | Ukrainian ordinary passports are officially visa-free up to 90 days; TRP exists for CIS citizens but no self-contained settlement route for foreign-client IT is captured. | §5.1 |
 | Climate | — | medium | South has workable summers and many clear days, but Astana/north has severe winters; all target cities are strongly continental. | §5.2 |
 | Taxes | — | medium | PIT is 10% up to 8,500 MCI and 15% above; at USD 3,000/month, a PIT-only screen after the 30 MCI/month basic deduction leaves about KZT 1.33m / USD 2,727 before accountant, VAT, residence-status, and contribution uncertainty. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Livingcost screens Kazakhstan at about USD 690/month for one person and USD 1,667/month for a family-of-four proxy; Almaty is materially more expensive, while Shymkent / Aktau are cheaper. | §5.4 |
+| Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxies run about USD 649/421 in Almaty, 412/285 in Nur-Sultan, 268/142 in Shymkent, and 244/163 in Aktau; use Almaty only with a strict rent cap. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -133,17 +133,33 @@ No joint-filing or spouse-specific PIT benefit was captured in the sources used 
 
 Kazakhstan's tax screen is not obviously disqualifying on PIT alone: a conservative PIT-only model leaves about USD 2,727/month from USD 3,000 gross. The risk is structural rather than rate-based: whether a Ukrainian foreign-client IT worker can register as an individual entrepreneur under the chosen residence route, whether social/medical/pension contributions apply, and how VAT/place-of-supply/e-invoicing work. Keep section 5.3 partial until those points are confirmed by Kazakhstan State Revenue guidance or a Kazakhstan accountant. [src-482][src-483][src-484][src-485][src-486]
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: completed, depth: 1, last_updated: 2026-06-15, dod: passed}
 
-> **DoD**: monthly expenses for 2+ cities; explicit verdict on $3000/mo sufficiency.
+> **DoD status**: passed for first-pass screening at medium confidence using Livingcost national and city pages. This is a cost-screen baseline, not a live lease / household-budget quote; healthcare, private insurance, accountant, visa, and residence-file costs remain in later sections.
 
-[verification required]
+Livingcost screens Kazakhstan nationally at about **USD 690/month for one person with rent** and **USD 1,667/month for a family-of-four proxy**. The national table breaks this into about USD 325/month rent and utilities for one person, USD 252 food, USD 39.50 transport, and an after-tax salary context of about USD 624. This suggests that the couple's USD 3,000/month gross income is not cost-of-living constrained by ordinary daily expenses; the binding questions remain immigration status, tax/contribution structure, winter comfort, and choosing a city where rent does not absorb the conservative tax-net band. [src-595]
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+| City | Livingcost one-person total with rent | Family-of-four proxy | Main cost signal | Fit for this couple |
+|---|---:|---:|---|---|
+| Almaty | USD 974/month | USD 2,342/month | Rent and utilities about USD 524 for one person; food about USD 293; transport about USD 61.50. | Best large-city / services screen, but the most expensive among the captured cities; use only with a strict housing cap and confirmed lease/address support. [src-596] |
+| Nur-Sultan / Astana | USD 732/month | USD 1,764/month | Rent and utilities about USD 357 for one person; food about USD 253; transport about USD 48.80. | Administrative-capital option with lower rent than Almaty, but climate is a poor fit because winters are severe; not the first comfort screen. [src-597] |
+| Shymkent | USD 562/month | USD 1,394/month | Rent and utilities about USD 215 for one person; food about USD 220; transport about USD 50.80. | First budget-and-climate screen: warmer southern city, low rent, and good one-income margin, pending healthcare, service-depth, and legal/accountant checks. [src-598] |
+| Aktau | USD 598/month | USD 1,471/month | Rent and utilities about USD 215 for one person; food about USD 302; transport about USD 22. | Caspian / warmer-coast-adjacent alternative; cheaper than Almaty but smaller and more service-depth dependent. Treat as an exploratory fallback, not the default administrative base. [src-599] |
 
-> **DoD**: 2BR prices in 3+ cities with ranges; % of $3000; 2+ search platforms; landlord requirements.
+Budget verdict: on gross USD 3,000/month, all captured Kazakhstan cities look affordable for ordinary cost-of-living screening. Against the run-098 tax section, the more conservative employee-style contribution sensitivity leaves about **USD 2,403/month**; that still supports Shymkent, Aktau, and likely Nur-Sultan, while Almaty's family proxy of USD 2,342/month leaves very little room for healthcare, visas, accountant, relocation costs, private insurance, and savings. For screening, **Shymkent is the first budget/climate option, Almaty is the services-rich but rent-sensitive option, Nur-Sultan is administratively useful but climate-negative, and Aktau is a smaller warm/Caspian fallback**. [src-596][src-597][src-598][src-599]
 
-[verification required]
+### 5.5. Rent {status: completed, depth: 1, last_updated: 2026-06-15, dod: passed}
+
+> **DoD status**: passed for first-pass screening at medium confidence. Livingcost's 40 m2 1BR line is used as the modest two-room proxy; 80 m2 3BR is included only as an upper-size / future-family stress test. Live listings, deposits, agency fees, registered-address support, and landlord acceptance of foreign tenants remain later practical-budget checks.
+
+| City | 40 m2 central 1BR proxy | 40 m2 cheap 1BR proxy | 80 m2 central 3BR stress test | 40 m2 central rent as % of USD 3,000 gross | Practical read |
+|---|---:|---:|---:|---:|---|
+| Almaty | USD 649 | USD 421 | USD 1,161 | 21.6% | Services-rich default if Kazakhstan is pursued, but rent is high relative to the conservative USD 2,403/month tax sensitivity; cap rent near the cheap/outer 40 m2 band unless income rises. [src-596] |
+| Nur-Sultan / Astana | USD 412 | USD 285 | USD 736 | 13.7% | Rent is manageable, but climate makes it a poor default for the couple; keep for bureaucracy / capital access rather than lifestyle. [src-597] |
+| Shymkent | USD 268 | USD 142 | USD 388 | 8.9% | Best first-pass rent fit: warmest major-city baseline, low 40 m2 and 80 m2 stress-test rents, and enough room for insurance/accountant/visa costs. [src-598] |
+| Aktau | USD 244 | USD 163 | USD 432 | 8.1% | Affordable Caspian fallback; small-city service depth, flights, and foreigner lease support need later checks. [src-599] |
+
+Rent verdict: Kazakhstan's rent problem is not national affordability; it is **city selection and legal-proof quality**. Shymkent and Aktau leave the best one-income margin. Nur-Sultan is affordable but winter-negative. Almaty is the practical large-city candidate for services, flights, healthcare, and professional support, but it earns an `almaty-rent-pressure` flag because a central 40 m2 proxy consumes about 27% of the conservative USD 2,403/month downside tax-net band and the family proxy nearly exhausts that downside band. Before any application-prep decision, verify live long-term leases, deposits / agent fees, whether landlords support address registration / migration paperwork, and whether foreign tenants can secure a lease acceptable for the chosen TRP / Neo Nomad / business file. [src-596][src-597][src-598][src-599]
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -199,21 +215,23 @@ Kazakhstan's tax screen is not obviously disqualifying on PIT alone: a conservat
 - **Best legalization path for the man**: Potential Neo Nomad / remote-work route if official-primary checklist confirms the secondary baseline; otherwise investigate business-immigrant TRP / local company or local-employment file. [src-268][src-269]
 - **Best legalization path for the woman**: Marriage/spouse-dependent planning is safer than unmarried-partner assumptions; independent study TRP is also listed as a TRP purpose but not yet researched. [src-268]
 - **Does marriage change the picture**: Likely yes for family-reunion / spouse treatment; unmarried partner mechanics were not captured. [src-268]
-- **Realism of staying after 03.2027**: medium-low as a bridge/base, low as a settlement route until an official Neo Nomad/TRP fit and PR counting are captured. Taxes are not an obvious rate blocker, but tax-registration / contribution / VAT fit remains unresolved. [src-270][src-271][src-482][src-483][src-484]
+- **Realism of staying after 03.2027**: medium-low as a bridge/base, low as a settlement route until an official Neo Nomad/TRP fit and PR counting are captured. Taxes are not an obvious rate blocker, and cost/rent is workable outside expensive Almaty scenarios, but tax-registration / contribution / VAT fit remains unresolved. [src-270][src-271][src-482][src-483][src-484][src-596][src-598]
 
 **Pros**:
 - Official Ukrainian visa-free entry baseline makes scouting easy. [src-267]
 - CIS-citizen TRP framework exists for up to one year across several purposes. [src-268]
 - Secondary Neo Nomad baseline appears potentially close to the couple's US$3,000/month income profile. [src-269]
-- Almaty and Shymkent have many clearer-sky days and no humid tropical comfort problem. [src-270][src-271]
+- Almaty and Shymkent have many clearer-sky days and no humid tropical comfort problem. [src-272][src-273]
 - PIT-only taxation at USD 3,000/month screens around USD 2,727/month net before unresolved contributions/VAT/accountant costs. [src-482][src-483][src-486]
+- Shymkent and Aktau rent/cost baselines leave good one-income margin, and Nur-Sultan is affordable if winter comfort is ignored. [src-597][src-598][src-599]
 
 **Cons / risks**:
 - Remote-work route is not official-primary in this vault yet; do not score Neo Nomad until official checklist is captured. [src-269]
 - TRP purposes do not prove a lightweight foreign-client IT route. [src-268]
 - PR/citizenship ladder is not captured, and citizenship has dual-nationality risk. [src-270][src-271]
-- Winters, especially outside the south, conflict with the couple's climate preference. [src-270][src-271]
+- Winters, especially outside the south, conflict with the couple's climate preference. [src-272][src-273]
 - Exact individual-entrepreneur / Neo Nomad tax structure, social-medical-pension contribution exposure, and VAT/place-of-supply treatment remain unresolved. [src-484][src-485]
+- Almaty can become margin-tight on the conservative tax-net band once private insurance, accountant, visa, lease deposit, and savings buffer are included. [src-596]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -255,8 +273,8 @@ Kazakhstan's tax screen is not obviously disqualifying on PIT alone: a conservat
 | Visa / residence permit fees | — | TRP/Neo Nomad fees [verification required] |
 | Apostilles and translations | — | [verification required] |
 | Flights for two | — | [verification required] |
-| Rental deposit | — | [verification required] |
-| First month rent | — | [verification required] |
+| Rental deposit | — | Live lease practice [verification required]; use 1-2 months' rent as a later budget stress test until verified. |
+| First month rent | USD 142-649 | Livingcost 40 m2 proxy range across Shymkent cheap 1BR to Almaty central 1BR; use city-specific lease checks before application. [src-596][src-598] |
 | Health insurance (one year) | — | Neo Nomad secondary baseline requires insurance; cost [verification required] |
 | Immigration lawyer fees | — | [verification required] |
 | Buffer / contingencies | — | [verification required] |
@@ -292,10 +310,16 @@ _(none yet)_
 - [src-272] Climate to Travel Kazakhstan/Almaty climate baselines.
 - [src-273] WeatherSpark Kazakhstan country climate comparison.
 - [src-486] ExchangeRate-API USD/KZT snapshot.
+- [src-595] Livingcost Kazakhstan national cost/rent screen.
+- [src-596] Livingcost Almaty cost/rent screen.
+- [src-597] Livingcost Nur-Sultan cost/rent screen.
+- [src-598] Livingcost Shymkent cost/rent screen.
+- [src-599] Livingcost Aktau cost/rent screen.
 
 ### 7e. Not found
 - Exact official Neo Nomad checklist / visa category / family mechanics remain needed only before application or if Kazakhstan becomes a serious bridge candidate.
 - Exact business-immigrant TRP checklist and PR/citizenship counting remain later specialist checks; safe screening baseline is no proven lightweight foreign-client IT settlement route.
+- Live rental listings, deposits/agency fees, foreigner lease acceptance, registered-address support, utilities seasonality, and city-level healthcare/service-depth checks remain later practical-budget work.
 
 ## Block 8 - Open questions and verification markers
 

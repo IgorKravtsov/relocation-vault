@@ -7155,3 +7155,63 @@ Each source entry:
 - **Facts supporting**: Denpasar cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as the Bali warm/coastal proxy pending live listing and tourist-season lease checks
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-15
+
+## src-595
+- **Title**: Livingcost - Cost of living in Kazakhstan
+- **URL**: https://livingcost.org/cost/kazakhstan
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Kazakhstan
+- **Facts supporting**: Kazakhstan national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, salary context, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-596
+- **Title**: Livingcost - Cost of living in Almaty
+- **URL**: https://livingcost.org/cost/kazakhstan/almaty
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Kazakhstan
+- **Facts supporting**: Almaty cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as services-rich but rent-sensitive
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-597
+- **Title**: Livingcost - Cost of living in Nur-Sultan
+- **URL**: https://livingcost.org/cost/kazakhstan/nur-sultan
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Kazakhstan
+- **Facts supporting**: Nur-Sultan / Astana cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as administratively useful but winter-negative
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-598
+- **Title**: Livingcost - Cost of living in Shymkent
+- **URL**: https://livingcost.org/cost/kazakhstan/shymkent
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Kazakhstan
+- **Facts supporting**: Shymkent cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as first budget-and-climate screen
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-599
+- **Title**: Livingcost - Cost of living in Aktau
+- **URL**: https://livingcost.org/cost/kazakhstan/aktau
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Kazakhstan
+- **Facts supporting**: Aktau cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as an affordable Caspian fallback pending service-depth checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15

@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-15
 ---
 
+## 2026-06-15 - run-125 - Kazakhstan cost/rent first pass
+
+- Opened Kazakhstan sections 5.4 and 5.5 with Livingcost national, Almaty, Nur-Sultan / Astana, Shymkent, and Aktau baselines.
+- Added sources `src-595` through `src-599` and claims `claim-kazakhstan-011` through `claim-kazakhstan-015`.
+- Kazakhstan depth_score moved from 2.0 to 3.0; new flags `almaty-rent-pressure` and `kazakhstan-one-income-margin-risk`; next suggested focus is Armenia 5.4/5.5 while verification remains below threshold.
+
 ## 2026-06-15 - run-124 - Indonesia cost/rent first pass
 
 - Opened Indonesia sections 5.4 and 5.5 with Livingcost national, Jakarta, Surabaya, Bandung, and Denpasar/Bali baselines.
