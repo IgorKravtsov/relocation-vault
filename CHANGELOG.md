@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-15
 ---
 
+## 2026-06-15 - run-128 - Portugal education/comfort first pass
+
+- Opened Portugal sections 5.7 and 5.8 with public-education, childcare/international-school cost, safety, English, and Ukraine-reception baselines.
+- Added sources `src-608` through `src-612` and claims `claim-portugal-015` through `claim-portugal-018`.
+- Portugal depth_score moved from 4.0 to 6.0; new flag `portugal-international-school-cost-risk`; next suggested focus is Spain 5.6/5.7 while verification remains below threshold.
+
 ## 2026-06-15 - run-127 - UAE cost/rent first pass
 
 - Opened UAE sections 5.4 and 5.5 with Livingcost national, Dubai, Abu Dhabi, and Sharjah baselines.

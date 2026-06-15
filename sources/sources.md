@@ -7311,3 +7311,63 @@ Each source entry:
 - **Facts supporting**: Sharjah cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as the first lower-cost UAE screen
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-15
+
+## src-608
+- **Title**: Eurydice — Portugal overview of the national education system
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/portugal/overview
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: official-secondary
+- **Date published**: updated 2026-03-18
+- **Date accessed**: 2026-06-15
+- **Used by**: Portugal
+- **Facts supporting**: Portugal public education structure, optional pre-primary education from age 3 to 6, compulsory basic-education cycles starting around age 6, and foreign-student diversity / teacher-shortage caveats
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-18
+
+## src-609
+- **Title**: Numbeo — Portugal cost of living / Lisbon / Porto childcare and school cost proxies
+- **URL**: https://www.numbeo.com/cost-of-living/country_result.jsp?country=Portugal ; https://www.numbeo.com/cost-of-living/in/Lisbon ; https://www.numbeo.com/cost-of-living/in/Porto
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: live crowd-sourced table, no static publication date
+- **Date accessed**: 2026-06-15
+- **Used by**: Portugal
+- **Facts supporting**: Private full-day preschool / kindergarten monthly fee proxies and international primary-school annual tuition proxies for Portugal, Lisbon, and Porto
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-610
+- **Title**: International Schools Database — List of international schools in Portugal
+- **URL**: https://www.international-schools-database.com/country/portugal
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: live directory, no static publication date captured
+- **Date accessed**: 2026-06-15
+- **Used by**: Portugal
+- **Facts supporting**: Portugal international-school availability baseline, including the directory count of 82 international schools
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-611
+- **Title**: Numbeo — Quality of Life and Crime / Safety in Portugal
+- **URL**: https://www.numbeo.com/quality-of-life/country_result.jsp?country=Portugal ; https://www.numbeo.com/crime/country_result.jsp?country=Portugal
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: live crowd-sourced table, last update displayed 2026-06
+- **Date accessed**: 2026-06-15
+- **Used by**: Portugal
+- **Facts supporting**: Portugal quality-of-life, safety, healthcare, climate, commute, pollution, and selected city-level safety-index proxies for comfort screening
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-612
+- **Title**: EF English Proficiency Index — Portugal country page
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/portugal/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 index page, no exact publication date captured
+- **Date accessed**: 2026-06-15
+- **Used by**: Portugal
+- **Facts supporting**: Portugal English-proficiency screening baseline, including global rank #6 and EF EPI score 612, plus main city score context
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-15

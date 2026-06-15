@@ -1,13 +1,13 @@
 ---
 country: Portugal
 tier: null
-depth_score: 4.0
-last_updated: 2026-06-12T01:00:47Z
-sections_completed: ["5.4", "5.5"]
+depth_score: 6.0
+last_updated: 2026-06-15T13:10:20Z
+sections_completed: ["5.4", "5.5", "5.7", "5.8"]
 sections_partial: ["5.1","5.2","5.3","5.6"]
-sections_pending: ["5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap","portugal-health-insurance-quote-gap"]
-sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406","src-492","src-493","src-494","src-495","src-496"]
+sections_pending: ["5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap","portugal-health-insurance-quote-gap","portugal-international-school-cost-risk"]
+sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406","src-492","src-493","src-494","src-495","src-496","src-608","src-609","src-610","src-611","src-612"]
 unverified_count: 2
 schema_version: 2.0.0
 ---
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
-- **depth_score**: 4.0
-- **Last updated**: 2026-06-12T01:00:47Z
+- **depth_score**: 6.0
+- **Last updated**: 2026-06-15T13:10:20Z
 - **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
 
 ## Block 2 — Scoring
@@ -33,8 +33,8 @@ schema_version: 2.0.0
 | Cost of living | 6 | medium | A $3,000/month household can work in Porto/Faro with disciplined rent and no car-heavy lifestyle, but Lisbon leaves little buffer once rent is included. | §5.4 |
 | Rent (decent 2BR) | 4 | medium | Current 2025-2026 T2 bands confirm Lisbon is rent-stressed, Porto is more workable, and Faro/Algarve is seasonal but possible with a year-round lease. | §5.5 |
 | Healthcare | 7 | medium | Legal residents can register for an SNS user number and local health-centre access, TP holders already have NHS access via the Portugal Ukraine mechanism, and private care is available for faster/English-speaking access. Remaining gaps: official D8 visa insurance minimums and live insurer quotes for two young adults. | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
+| Education (future child) | 6 | medium | Public schooling is structurally accessible and compulsory from age 6, with preschool from age 3; private preschool and international school costs are the budget risk. | §5.7 |
+| Comfort of life | 7 | medium | Portugal screens well on safety, climate, English exposure in main cities, healthcare access, and Ukraine reception, but rent pressure and slower public services reduce the score. | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
@@ -189,13 +189,43 @@ Verification note: `vq-057` is resolved at the operational-planning level. The c
 - Healthcare is a **positive but not zero-friction** Portugal factor. Once legally resident / protected and registered with SNS, the couple has a credible public safety net and free health-centre onboarding. The practical monthly-budget risk is not routine public primary care; it is private insurance or out-of-pocket private appointments used to bypass waiting lists, secure English-speaking access, or satisfy visa-file insurance evidence before SNS registration is settled. [src-492][src-493][src-494][src-495]
 - Screening baseline: Portugal can remain workable for healthcare on a single USD 3,000/month income if rent is controlled in Porto/Faro and the couple budgets separately for private insurance / occasional private appointments. Do **not** mark healthcare DoD passed until current insurance quotes and the exact residence-visa medical-insurance requirement are captured. [src-495][src-496][vq-120]
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.7. Education (future child) {status: completed, depth: 1, last_updated: 2026-06-15, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence. Covered: public system structure and compulsory-schooling baseline, preschool timing, private preschool cost proxy, international-school alternative and cost proxy, and a practical budget conclusion for a future child.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Public education baseline
 
-[verification required]
+- Eurydice's Portugal overview says pre-primary education is an optional attendance cycle from **age 3 to 6**, followed by basic education whose first cycle starts compulsory schooling at the expected age of **6-9**; basic education then continues through the 2nd cycle (10-11) and 3rd cycle (12-14), with upper-secondary options after that. This gives the couple a normal public-school ladder if they become settled residents before a future child reaches school age. [src-608]
+- Eurydice also frames Portuguese education around access and equal opportunities to quality education, while noting current system pressure from teacher shortages and increasing cultural / linguistic diversity. For a foreign child, the baseline is therefore usable public education, but the family should choose municipalities and schools carefully rather than assuming every local school has equal language-support capacity. [src-608]
+
+#### Kindergarten and private-school cost proxies
+
+- Numbeo's Portugal cost table gives a private full-day preschool / kindergarten monthly fee of about **EUR 448** nationally, with a broad **EUR 300-700** range; Lisbon is higher at about **EUR 558/month** and Porto about **EUR 514/month**. Treat this as a private-childcare budget proxy, not an official tariff. [src-609]
+- The same Numbeo table gives an international primary school annual tuition proxy of about **EUR 10,560/year** nationally; Lisbon is much higher at about **EUR 15,566/year**, while Porto is about **EUR 9,365/year**. This is well above the couple's current one-income comfort zone if rent and immigration costs are also present. [src-609]
+- International Schools Database lists **82 international schools in Portugal**, so the alternative exists in Lisbon / Porto / Algarve markets, but it is a premium fallback rather than the default plan for a USD 3,000/month household. [src-610]
+
+#### Practical education conclusion
+
+- For a future child, Portugal is acceptable if the family can use the public system and tolerate Portuguese-language adaptation. Private preschool can be a meaningful monthly add-on, and international school is a major risk to the budget. The practical planning baseline is therefore: settle in a municipality with good public-school access, budget a private-preschool buffer only if needed, and do not model international school as affordable on the current single income. [src-608][src-609][src-610]
+
+### 5.8. Comfort of life {status: completed, depth: 1, last_updated: 2026-06-15, dod: passed}
+
+> **DoD status**: passed at medium confidence. Covered: safety, English level, attitude / support baseline for Ukrainians, transport / daily-life comfort, and main caveats for Lisbon, Porto, and Faro.
+
+#### Safety and daily comfort
+
+- Numbeo's Portugal quality-of-life page gives Portugal a **Quality of Life Index of 170.14** and a **Safety Index of 66.68 (High)**, with high healthcare and very high climate subindices and low pollution / commute-time indices. Use this as crowd-sourced comfort evidence, not an official statistic. [src-611]
+- Numbeo's crime page shows city-level safety indices around **67.0 for Lisbon**, **66.3 for Porto**, **59.9 for Braga**, and **45.8 for Amadora**; this supports the practical baseline that Portugal is generally safe, but neighbourhood selection still matters. [src-611]
+- Earlier cost/rent and healthcare passes already show the main daily-life tradeoff: Porto and Faro are more budget-realistic than Lisbon, while Lisbon is the deepest-services option but rent-stressed; SNS is a credible safety net after registration, but waiting lists and family-doctor shortages can push the couple toward private appointments. [src-176][src-178][src-179][src-495][src-496]
+
+#### English, Ukrainians, and adaptation
+
+- EF's 2026 English Proficiency Index page ranks Portugal **#6 globally** with an EF EPI score of **612**, and lists strong city scores for Coimbra, Guimaraes, Aveiro, Braga, Porto, Lisbon, Leiria, and Setubal. For the couple, this supports an easier English fallback than in many Southern European options, especially in larger / internationalised cities. [src-612]
+- Portugal's official Ukraine reception FAQ documents a dedicated reception programme for Ukrainian citizens, visa-free entry into the programme, a Temporary Protection Title, and automatic assignment of NISS / NIF plus National Health System access. This is the strongest available attitude/support proxy: Portugal built a formal Ukraine reception channel rather than leaving Ukrainians only to tourist or ordinary-foreigner procedures. [src-017]
+
+#### Practical comfort conclusion
+
+- Portugal scores well for day-to-day comfort if the couple chooses the right city: Porto is the best large-city balance, Faro / Algarve is the climate option with seasonal/rent caveats, and Lisbon should be treated as a services-rich but budget-fragile base. Comfort is not the gating problem; the gating problems remain income-to-D8 fit, tax/rent margin, and the missing post-2027 TP bridge. [src-017][src-611][src-612]
 
 ### 5.9. Fit for couple with single income {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -216,7 +246,7 @@ Verification note: `vq-057` is resolved at the operational-planning level. The c
 | Currency / banking | — | [verification required] |
 | Political | — | [verification required] |
 | Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Diaspora / adaptation | medium-low | Ukraine reception is institutionally supported and English proficiency is comparatively strong, but public-service speed, Portuguese-language school adaptation, and rent-constrained city choice remain practical frictions. [src-017][src-608][src-612] |
 
 ## Block 5 — Practical verdict
 
@@ -227,10 +257,15 @@ Verification note: `vq-057` is resolved at the operational-planning level. The c
 - **Realism of staying after 03.2027**: Medium — depends on obtaining ordinary residence (D8 or other) before TP expires; no captured automatic bridge.
 
 **Pros**:
-- TBD
+- Formal Ukraine reception channel with TP, NISS/NIF, and SNS access.
+- Warm / mild climate, high crowd-sourced safety, and comparatively strong English exposure in main cities.
+- Public education ladder is available for a future child if the family accepts Portuguese-language integration.
 
 **Cons / risks**:
-- TBD
+- D8 income threshold remains above the couple's current one-income budget.
+- Lisbon rent pressure and ordinary self-employed tax/social-security burden can compress the budget.
+- International school is not realistic at the current income; public-school fit and Portuguese-language adaptation matter.
+- No captured automatic TP-to-ordinary-residence bridge after the 2027 horizon.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -248,6 +283,7 @@ TBD — will be developed as sections 5.3–5.11 are completed.
 - [src-492] ePortugal — Obtain a National Health Service (SNS) user number.
 - [src-493] ePortugal — Register at the health centre.
 - [src-494] ePortugal — Book a consultation at the health centre.
+- [src-608] Eurydice — Portugal overview of the national education system.
 
 ### 7b. Reputable secondary
 - [src-020] Portugalist — Portugal Digital Nomad Visa (D8) 2026 Guide (income threshold, family requirements, NIF/bank/accountancy setup).
@@ -258,6 +294,8 @@ TBD — will be developed as sections 5.3–5.11 are completed.
 - [src-406] PwC Portugal — Individual significant developments (IFICI and former-tax-residents reliefs).
 - [src-495] Expatica — The healthcare system in Portugal.
 - [src-496] Portugalist — Portugal's Healthcare System: What Expats Need to Know About Public and Private.
+- [src-610] International Schools Database — List of international schools in Portugal.
+- [src-612] EF English Proficiency Index — Portugal country page.
 - [src-077] Wikipedia — Climate of Lisbon (Percentage possible sunshine data, WMO/NOAA sourced).
 - [src-078] Wikipedia — Climate of Porto (Percentage possible sunshine data, WMO/NOAA sourced).
 - [src-176] Movingto — Cost of Living in Portugal 2026 (national budget, utilities, groceries, transport, and housing orientation).
@@ -273,6 +311,8 @@ _(none yet)_
 - [src-022] Climate to Travel — Lisbon climate averages (temperatures, sunshine hours, precipitation).
 - [src-023] Climate to Travel — Porto climate averages.
 - [src-024] Climate to Travel — Faro / Algarve climate averages.
+- [src-609] Numbeo — Cost of living in Portugal / Lisbon / Porto (childcare and international-school cost proxies).
+- [src-611] Numbeo — Quality of Life and Crime / Safety in Portugal.
 
 ### 7e. Not found
 - Official-primary D8 visa checklist (pre-visa document list, health-insurance minimum, processing time) from a Portuguese consulate or AIMA circular.

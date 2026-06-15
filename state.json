@@ -1,27 +1,27 @@
 {
   "version": 2,
-  "iteration": 127,
+  "iteration": 128,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-15T10:00:28Z",
+  "last_run_timestamp": "2026-06-15T13:10:20Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "UAE",
+    "country": "Portugal",
     "sections": [
-      "5.4",
-      "5.5"
+      "5.7",
+      "5.8"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Portugal",
+    "suggested_country": "Spain",
     "suggested_sections": [
-      "5.7",
-      "5.8"
+      "5.6",
+      "5.7"
     ],
-    "reason": "Verification queue remains below threshold; continue deepening Tier-1-hint countries after closing the UAE low-depth cost/rent gap."
+    "reason": "Verification queue remains below threshold; continue practical-section deepening across Tier-1-hint countries without clustering on Portugal."
   },
   "countries": {
     "Spain": {
@@ -58,10 +58,12 @@
     "Portugal": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 4.0,
+      "depth_score": 6.0,
       "sections_completed": [
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7",
+        "5.8"
       ],
       "sections_partial": [
         "5.1",
@@ -70,8 +72,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.7",
-        "5.8",
         "5.9",
         "5.10",
         "5.11"
@@ -83,9 +83,10 @@
         "lisbon-rent-pressure",
         "portugal-self-employed-tax-burden",
         "portugal-foreign-client-vat-fit-gap",
-        "portugal-health-insurance-quote-gap"
+        "portugal-health-insurance-quote-gap",
+        "portugal-international-school-cost-risk"
       ],
-      "last_iteration": 101,
+      "last_iteration": 128,
       "unverified_count": 2
     },
     "Italy": {
@@ -1072,7 +1073,7 @@
     }
   },
   "verification_queue_size": 1,
-  "sources_count": 606,
-  "claims_count": 516,
+  "sources_count": 611,
+  "claims_count": 520,
   "proposals_pending": 0
 }

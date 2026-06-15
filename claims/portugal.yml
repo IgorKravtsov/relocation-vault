@@ -126,3 +126,39 @@
   confidence: medium
   tags: [portugal, healthcare, maternity, future-child]
   notes: "Useful family-planning baseline; private maternity pricing and English-speaking OB/GYN access remain later checks."
+
+- id: claim-portugal-015
+  topic: education_structure_future_child
+  value: "Pre-primary education is optional from ages 3-6; compulsory basic education starts at expected age 6 and runs through three cycles before upper secondary"
+  source: src-608
+  date_verified: 2026-06-15
+  confidence: medium-high
+  tags: [portugal, education, future-child, public-school]
+  notes: "Eurydice overview; use local municipality/school confirmation before choosing a residence address."
+
+- id: claim-portugal-016
+  topic: private_childcare_and_international_school_cost_proxy
+  value: "Numbeo gives private preschool/kindergarten around EUR 448/month nationally and international primary school around EUR 10,560/year nationally; Lisbon and Porto are higher/lower respectively"
+  source: src-609
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [portugal, education, childcare, international-school, budget]
+  notes: "Crowd-sourced cost proxy; not an official fee schedule."
+
+- id: claim-portugal-017
+  topic: portugal_quality_of_life_safety_screen
+  value: "Numbeo gives Portugal a Quality of Life Index of 170.14 and Safety Index of 66.68 (High), with Lisbon and Porto city safety indices around 67 and 66"
+  source: src-611
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [portugal, comfort, safety, quality-of-life]
+  notes: "Crowd-sourced comfort indicator; use official crime statistics before neighbourhood-level decisions."
+
+- id: claim-portugal-018
+  topic: portugal_english_proficiency
+  value: "EF EPI ranks Portugal #6 globally with a score of 612 in 2026"
+  source: src-612
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [portugal, comfort, english, adaptation]
+  notes: "Useful for broad adaptation screening; not a guarantee of English in public schools or public offices."
