@@ -80,3 +80,39 @@
   confidence: medium-high
   tags: [tax, vat, social-security, threshold, non-gcc]
   notes: "At USD 36,000/year, the couple's gross is below the mandatory and voluntary VAT-registration thresholds; exact export-service treatment remains an accountant/application-prep check if a UAE invoicing structure is used."
+
+- id: claim-uae-010
+  topic: national_cost_and_rent_screen
+  value: "Livingcost screens the UAE at about USD 2,071/month for one person with rent and USD 4,510/month for a family-of-four proxy; national 40 m2 rent proxies are about USD 1,076-1,527/month."
+  source: src-604
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, budget, national]
+  notes: "Use as first-pass screening only; live listings and deposit / utility / insurance costs remain application-prep checks."
+
+- id: claim-uae-011
+  topic: dubai_cost_rent_pressure
+  value: "Livingcost screens Dubai at about USD 2,420/month for one person with rent and USD 5,315/month for a family-of-four proxy; the 40 m2 rent proxy is about USD 1,244-1,988/month."
+  source: src-605
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, dubai, one-income-margin-risk]
+  notes: "At the couple's USD 3,000/month income, Dubai is only viable with a strict housing cap and a bridge-route mindset."
+
+- id: claim-uae-012
+  topic: abu_dhabi_cost_rent_pressure
+  value: "Livingcost screens Abu Dhabi at about USD 2,070/month for one person with rent and USD 4,485/month for a family-of-four proxy; the 40 m2 rent proxy is about USD 1,151-1,520/month."
+  source: src-606
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, abu-dhabi, one-income-margin-risk]
+  notes: "Somewhat cheaper than Dubai in this source but still rent-sensitive for a one-income couple."
+
+- id: claim-uae-013
+  topic: sharjah_affordability_fallback
+  value: "Livingcost screens Sharjah at about USD 1,473/month for one person with rent and USD 3,212/month for a family-of-four proxy; the 40 m2 rent proxy is about USD 667/month."
+  source: src-607
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, sharjah, affordability-fallback]
+  notes: "Sharjah is the first UAE affordability screen, but commute, lease-registration, and residence-document fit need live checks."

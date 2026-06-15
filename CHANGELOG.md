@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-15
 ---
 
+## 2026-06-15 - run-127 - UAE cost/rent first pass
+
+- Opened UAE sections 5.4 and 5.5 with Livingcost national, Dubai, Abu Dhabi, and Sharjah baselines.
+- Added sources `src-604` through `src-607` and claims `claim-uae-010` through `claim-uae-013`.
+- UAE depth_score moved from 2.5 to 4.5; new flags `dubai-abu-dhabi-rent-pressure` and `uae-one-income-margin-risk`; next suggested focus is Portugal 5.7/5.8 while verification remains below threshold.
+
 ## 2026-06-15 - run-126 - Armenia cost/rent first pass
 
 - Opened Armenia sections 5.4 and 5.5 with Livingcost national, Yerevan, Gyumri, and Vanadzor baselines.

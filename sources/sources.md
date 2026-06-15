@@ -7263,3 +7263,51 @@ Each source entry:
 - **Facts supporting**: Vanadzor cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as an affordability fallback pending service-depth checks
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-15
+
+## src-604
+- **Title**: Livingcost - Cost of living in the United Arab Emirates
+- **URL**: https://livingcost.org/cost/united-arab-emirates
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: UAE
+- **Facts supporting**: UAE national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, salary context, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-605
+- **Title**: Livingcost - Cost of living in Dubai
+- **URL**: https://livingcost.org/cost/united-arab-emirates/dubai
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: UAE
+- **Facts supporting**: Dubai cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as services-rich but rent-sensitive
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-606
+- **Title**: Livingcost - Cost of living in Abu Dhabi
+- **URL**: https://livingcost.org/cost/united-arab-emirates/abu-dhabi
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: UAE
+- **Facts supporting**: Abu Dhabi cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as high-service but rent-sensitive
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-607
+- **Title**: Livingcost - Cost of living in Sharjah
+- **URL**: https://livingcost.org/cost/united-arab-emirates/sharjah
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: UAE
+- **Facts supporting**: Sharjah cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as the first lower-cost UAE screen
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15

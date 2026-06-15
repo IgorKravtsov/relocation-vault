@@ -1,24 +1,27 @@
 {
   "version": 2,
-  "iteration": 126,
+  "iteration": 127,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-15T06:52:06Z",
+  "last_run_timestamp": "2026-06-15T10:00:28Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Armenia",
+    "country": "UAE",
     "sections": [
       "5.4",
       "5.5"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": null,
-    "suggested_sections": null,
-    "reason": "All 33 countries now have first-pass legalization/climate/tax/cost/rent baselines; run a verification or consolidation-style pass next, even though the pending queue remains below the automatic threshold."
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Portugal",
+    "suggested_sections": [
+      "5.7",
+      "5.8"
+    ],
+    "reason": "Verification queue remains below threshold; continue deepening Tier-1-hint countries after closing the UAE low-depth cost/rent gap."
   },
   "countries": {
     "Spain": {
@@ -870,17 +873,17 @@
     "UAE": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 2.5,
+      "depth_score": 4.5,
       "sections_completed": [
         "5.2",
-        "5.3"
+        "5.3",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -893,9 +896,11 @@
         "green-visa-income-above-current-budget",
         "no-ordinary-naturalization-route",
         "extreme-summer-heat",
-        "tax-status-threshold-monitoring"
+        "tax-status-threshold-monitoring",
+        "dubai-abu-dhabi-rent-pressure",
+        "uae-one-income-margin-risk"
       ],
-      "last_iteration": 94,
+      "last_iteration": 127,
       "unverified_count": 0
     },
     "Malaysia": {
@@ -1067,7 +1072,7 @@
     }
   },
   "verification_queue_size": 1,
-  "sources_count": 602,
-  "claims_count": 512,
+  "sources_count": 606,
+  "claims_count": 516,
   "proposals_pending": 0
 }
