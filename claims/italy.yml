@@ -100,3 +100,39 @@
   confidence: medium
   tags: [italy, taxes, forfetario, budget, worked-example]
   notes: "Calculated at run-date FX 1 USD = EUR 0.865342, annual gross EUR 31,152, 67% deemed income, INPS 26.07%, and substitute tax after mandatory contributions."
+
+- id: claim-italy-012
+  topic: ssn_access_for_residents
+  value: "Italy's SSN provides free or very low-cost healthcare to citizens and non-citizens with residency status; coverage includes hospitalization, family doctors, specialists, discounted medication, laboratory services, and ambulance services."
+  source: src-616
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [italy, healthcare, ssn, residents]
+  notes: "TP-specific SSN access remains anchored separately in UNHCR Italy source src-034; DN applicants still need private insurance evidence before/for filing."
+
+- id: claim-italy-013
+  topic: compulsory_education_age_span
+  value: "10 years of compulsory education from ages 6 to 16: five years primary, three years lower secondary, and two years upper secondary or regional vocational education/training."
+  source: src-617
+  date_verified: 2026-06-15
+  confidence: medium-high
+  tags: [italy, education, compulsory-schooling, child-planning]
+  notes: "Use as the public-school baseline for future-child planning."
+
+- id: claim-italy-014
+  topic: ecec_fee_structure
+  value: "ECEC is split into 0-3 educational services, which charge fees, and 3-6 pre-primary school, which is free; attendance is not compulsory."
+  source: src-618
+  date_verified: 2026-06-15
+  confidence: medium-high
+  tags: [italy, education, early-childhood, childcare]
+  notes: "This makes private/public nursery availability and fees the main early-childhood budget risk before age 3."
+
+- id: claim-italy-015
+  topic: childcare_and_international_school_cost_proxy
+  value: "Livingcost national proxies: daycare/preschool about USD 582/month and international primary school about USD 11,511/year; screened cities range from about USD 403-867/month for daycare and USD 7,022-18,202/year for international primary school."
+  source: src-396
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [italy, education, childcare, international-school, budget]
+  notes: "City values come from existing Italy Livingcost city sources src-397 through src-400; use only as first-pass commercial proxies."

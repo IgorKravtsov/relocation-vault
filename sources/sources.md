@@ -4767,7 +4767,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Italy
-- **Facts supporting**: Italy national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, and national 1BR / 3BR rent bands
+- **Facts supporting**: Italy national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, national 1BR / 3BR rent bands, doctor-visit proxy, daycare/preschool proxy, and international-primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -4779,7 +4779,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Italy
-- **Facts supporting**: Rome cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Facts supporting**: Rome cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, internet, doctor-visit proxy, daycare/preschool proxy, and international-primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -4791,7 +4791,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Italy
-- **Facts supporting**: Milan cost/rent stress test: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Facts supporting**: Milan cost/rent stress test: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, internet, doctor-visit proxy, daycare/preschool proxy, and international-primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -4803,7 +4803,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Italy
-- **Facts supporting**: Naples cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Facts supporting**: Naples cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, internet, doctor-visit proxy, daycare/preschool proxy, and international-primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -4815,7 +4815,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Italy
-- **Facts supporting**: Palermo cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Facts supporting**: Palermo cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, internet, doctor-visit proxy, daycare/preschool proxy, and international-primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -7407,3 +7407,39 @@ Each source entry:
 - **Facts supporting**: Spain early-childhood education structure, voluntary 0-2 and 3-5 cycles, legal right to a place from age 3, free second cycle, and near-universal 3-5 attendance (claim-spain-013)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-01-20
+
+## src-616
+- **Title**: International Insurance — Health Insurance in Italy: Local, Private and Global Options
+- **URL**: https://www.internationalinsurance.com/health/europe/italy.php
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: updated 2026-02-02
+- **Date accessed**: 2026-06-15
+- **Used by**: Italy
+- **Facts supporting**: Italy public/private healthcare screening baseline, SSN access for non-citizens with residency status, scope of SSN-covered care, private-insurance need before residence is finalized, and general private-insurance caveats (claim-italy-012)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-02-02
+
+## src-617
+- **Title**: Eurydice — Italy organisation of the education system and its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/organisation-education-system-and-its-structure
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: official-secondary
+- **Date published**: updated 2026-01-23
+- **Date accessed**: 2026-06-15
+- **Used by**: Italy
+- **Facts supporting**: Italy education-system structure, compulsory education from 6 to 16, primary/lower-secondary/upper-secondary split, state/paritarie schooling baseline, and ECEC overview (claim-italy-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-23
+
+## src-618
+- **Title**: Eurydice — Italy early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/early-childhood-education-and-care
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: official-secondary
+- **Date published**: contents revised 2023-08
+- **Date accessed**: 2026-06-15
+- **Used by**: Italy
+- **Facts supporting**: Italy ECEC split between 0-3 educational services and 3-6 pre-primary school, fee/free baseline, non-compulsory attendance, and nursery/pre-primary planning caveats (claim-italy-014)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-15

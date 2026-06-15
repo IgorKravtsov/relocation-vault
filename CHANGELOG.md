@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-15
 ---
 
+## 2026-06-15 - run-130 - Italy healthcare/education first pass
+
+- Opened Italy section 5.6 as partial and section 5.7 as completed with SSN/private-care, DN insurance, early-childhood, public-school, childcare, and international-school baselines.
+- Added sources `src-616` through `src-618`, claims `claim-italy-012` through `claim-italy-015`, and verification item `vq-122` for DN-compliant insurance quotes / ASL registration details.
+- Italy depth_score moved from 4.0 to 5.5; new flags `italy-private-insurance-quote-gap` and `italy-international-school-cost-risk`; next suggested focus is Greece 5.6/5.7 while verification remains below threshold.
+
 ## 2026-06-15 - run-129 - Spain healthcare/education first pass
 
 - Opened Spain section 5.6 as partial and section 5.7 as completed with healthcare access, private-care price proxies, early-childhood, public-school, childcare, and international-school baselines.

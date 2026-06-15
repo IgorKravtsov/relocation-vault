@@ -207,6 +207,17 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Status**: pending
 
 
+## vq-122 [medium priority]
+- **Fact**: "Italy healthcare application-prep details: DN-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-city ASL / SSN registration steps"
+- **Country**: Italy
+- **Section**: 5.6
+- **Current source**: src-028, src-034, src-616
+- **Why uncertain**: This healthcare pass captured SSN access for TP/legal residents, the DN insurance-document requirement, and private doctor-visit proxies, but did not capture live insurer quotes or the exact Palermo / Naples / Rome ASL workflow after arrival.
+- **Suggested verification**: Check the serving Italian consulate DN insurance wording, two or three Italy-compliant insurer quote pages for young adults, maternity waiting periods, and selected-city ASL / family-doctor registration steps.
+- **Created**: 2026-06-15 (run-130)
+- **Status**: pending
+
+
 ## vq-118 [medium priority]
 - **Fact**: "Kazakhstan foreign-client IT tax structure: exact individual-entrepreneur / Neo Nomad registration fit, social-medical-pension contribution base, VAT/place-of-supply and e-invoice handling, and compatibility with the chosen residence-status file"
 - **Country**: Kazakhstan
