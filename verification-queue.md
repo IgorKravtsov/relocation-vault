@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-12
+last_updated: 2026-06-15
 ---
 
 # Verification Queue
@@ -193,6 +193,17 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured SNS onboarding and a practical public/private baseline, but did not capture the serving-consulate D8 insurance wording or live insurer/clinic prices needed for a filing budget.
 - **Suggested verification**: Check the serving Portugal consulate / VFS D8 checklist, two or three insurer quote pages for a young couple, and private hospital/clinic price lists in Porto/Faro/Lisbon.
 - **Created**: 2026-06-12 (run-101)
+- **Status**: pending
+
+
+## vq-121 [medium priority]
+- **Fact**: "Spain healthcare application-prep details: DN-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-region public health-card registration steps"
+- **Country**: Spain
+- **Section**: 5.6
+- **Current source**: src-011, src-013, src-284, src-613
+- **Why uncertain**: This healthcare pass captured TP medical access, the DN insurance requirement, public/private healthcare baseline, and private doctor/ER price proxies, but did not capture live insurer quotes or the exact Valencia / Andalusia / Madrid regional health-card workflow after arrival.
+- **Suggested verification**: Check the serving Spanish consulate / BLS DN insurance wording, two or three Spanish insurer quote pages for young adults, maternity waiting periods, and the regional SIP / Andalusia / Madrid health-card registration process after city selection.
+- **Created**: 2026-06-15 (run-129)
 - **Status**: pending
 
 

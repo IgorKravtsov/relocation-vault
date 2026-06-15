@@ -1,14 +1,14 @@
 ---
 country: Spain
 tier: null
-depth_score: 4.0
-last_updated: 2026-06-09T07:12:59Z
-sections_completed: ["5.2","5.3","5.4","5.5"]
-sections_partial: ["5.1"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight","autonomo-tax-social-security-burden","madrid-barcelona-rent-pressure","malaga-tourist-rent-pressure"]
-sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025","src-280","src-281","src-282","src-283","src-284","src-285","src-286","src-391","src-392","src-393","src-394","src-395"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-15T16:21:04Z
+sections_completed: ["5.2","5.3","5.4","5.5","5.7"]
+sections_partial: ["5.1","5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight","autonomo-tax-social-security-burden","madrid-barcelona-rent-pressure","malaga-tourist-rent-pressure","spain-private-insurance-quote-gap","spain-international-school-cost-risk"]
+sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025","src-280","src-281","src-282","src-283","src-284","src-285","src-286","src-391","src-392","src-393","src-394","src-395","src-613","src-614","src-615"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -19,9 +19,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
-- **depth_score**: 4.0
-- **Last updated**: 2026-06-09T07:12:59Z
-- **Tier rationale**: Spain already has a strong remote-work legalization route, a mature temporary-protection system for Ukrainians, passed climate coverage, a practical ordinary freelancer-tax baseline, and now first-pass cost/rent screening. The main remaining caveats are no captured post-04 March 2027 TP-to-ordinary-residence bridge, tight couple-income math for the digital nomad route, heavy autonomous-worker tax/social-security burden at the couple's current income, and rent pressure in Madrid/Barcelona/Malaga.
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-15T16:21:04Z
+- **Tier rationale**: Spain already has a strong remote-work legalization route, a mature temporary-protection system for Ukrainians, passed climate coverage, a practical ordinary freelancer-tax baseline, and now first-pass cost/rent plus healthcare/education screening. The main remaining caveats are no captured post-04 March 2027 TP-to-ordinary-residence bridge, tight couple-income math for the digital nomad route, heavy autonomous-worker tax/social-security burden at the couple's current income, rent pressure in Madrid/Barcelona/Malaga, and uncaptured live private-insurance quotes for a DN filing.
 
 ## Block 2 — Scoring
 
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Taxes | 5 | medium | Ordinary autonomous-worker planning at about USD 3,000/month leaves roughly EUR 1,800/month after estimated IRPF and RETA social-security contributions; the 24% inpatriate / Beckham-style route may help some employee-style DN files but is not a safe default for a foreign-client freelancer. | §5.3 |
 | Cost of living | 5 | medium | Valencia and Malaga look plausible on gross USD 3,000/month but tight after the Spain autonomo tax baseline; Madrid and Barcelona are poor fits unless income rises or tax structure improves. | §5.4 |
 | Rent (decent 2BR) | 4 | medium | Livingcost 40 m2 1BR proxies run about USD 848-1,174 in Valencia/Malaga and USD 1,000-1,395 in Madrid/Barcelona; larger 80 m2 stress tests are too expensive for one taxed income. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | 7 | medium | Strong public-health baseline for TP / social-security-covered residents and manageable private visit costs, but exact DN-compliant private-insurance quotes for two young adults remain an application-prep gap. | §5.6 |
+| Education (future child) | 7 | medium | Public schooling is structurally usable and free from primary/ESO; 3-5 early-childhood education is free, but 0-2 childcare and international schools are material private-budget risks. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -172,17 +172,29 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 - Practical interpretation: the vault's "normal two-room apartment" definition is closer to a modest separate-bedroom apartment than to Livingcost's 80 m2 3BR. Even using the 40 m2 proxy, rent consumes roughly **28%-39% of gross income** in Valencia/Malaga and **33%-47%** in Madrid/Barcelona; against the tax-section net, those shares are much more painful. [src-392][src-393][src-394][src-395]
 - First-pass city order for Spain: **Valencia first**, **Malaga second with tourist-rent caution**, **Madrid only for services/network if income rises**, and **Barcelona avoid by default** until the household has a larger post-tax budget.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-15, dod: partial}
 
-> **DoD**: how to register after the move; private insurance cost for the couple; maternity / birth coverage.
+> **DoD status**: partial. Covered: TP medical-access baseline, public/private system split, ordinary private-care price proxies, maternity planning baseline, and DN private-insurance requirement. Missing for full DoD: live DN-compliant insurance quotes for two young adults and region-specific health-card registration steps after choosing Valencia / Malaga / Madrid.
 
-[verification required]
+- Spain's Ukraine TP page already supports the legal baseline that temporary protection includes access to **medical assistance** as well as residence, work, and study. For a TP-first emergency route, healthcare is therefore not purely private-insurance-only. [src-011]
+- For a DN / international-telework route, the official consular checklist requires **health insurance** as part of the visa file. Treat this as a filing requirement even if later Spanish social-security registration may open public-system access through an autonomo / RETA structure. [src-013][src-284]
+- Spain's public National Health System is region-administered and social-security-funded; the practical after-arrival path should be checked in the selected autonomous community, but the working baseline is: secure residence/NIE/TIE, register an address locally, establish the Social Security / autonomo file if using self-employment, then apply for the regional health card at the local health centre. This needs a region-specific Valencia / Andalusia / Madrid checklist before filing. [src-013][src-280][src-284]
+- Private-care price proxies are manageable for occasional use: Livingcost lists a national doctor's visit around **USD 73**, Valencia around **USD 67**, and Malaga around **USD 47**. International Insurance's Spain guide gives a similar uninsured private baseline of about **EUR 100** for a doctor visit and **EUR 200** for an emergency-room visit. [src-391][src-393][src-394][src-613]
+- Public healthcare appears strong but not frictionless. International Insurance describes Spain's SNS as sophisticated and no-copay for doctor visits, while warning that specialist / non-urgent procedure waits are a practical reason many residents add private cover. [src-613]
+- Maternity / birth planning baseline: do not rely on a tourist-style policy. For a DN file or pregnancy planning, obtain a Spanish-compliant private medical policy that does not exclude maternity or pre-existing pregnancy, and verify waiting periods before conception/pregnancy planning. Exact insurer quotes and maternity waiting-period terms are not captured yet, so this remains an application-prep check. [src-013][src-613]
+- Budget interpretation: healthcare is a relative Spain strength compared with rent/tax, but the visa-file risk is documentary rather than medical quality. Keep `spain-private-insurance-quote-gap` until a selected insurer quote for two young adults is captured.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.7. Education (future child) {status: deep, depth: 2, last_updated: 2026-06-15, dod: passed}
 
-> **DoD**: kindergarten cost; public school quality for foreign kids; international school alternative with cost.
+> **DoD status**: passed for first-pass screening. Covered: early-childhood structure and cost proxies, public-school structure/free compulsory schooling, foreign-child adaptation baseline, and international-school fallback costs.
 
-[verification required]
+- Spain's education system includes early childhood education, primary education, compulsory secondary education (ESO), upper secondary, VET, language/arts/sports education, adult education, and university education. Basic education covers primary, ESO, and basic VET. [src-614]
+- Early childhood education is voluntary and split into two cycles: **0-2** and **3-5**. Eurydice says every child over 3 has a legal right to an early-childhood place, the second cycle is free of charge, and participation for ages 3-5 is practically universal. [src-615]
+- The private childcare risk is mainly the 0-2 / nursery stage or private convenience: Livingcost gives daycare/preschool proxies of about **USD 560/month nationally**, **USD 629/month in Valencia**, and **USD 616/month in Malaga**. For a one-income household already squeezed by Spanish taxes and rent, this is a real future-child budget item. [src-391][src-393][src-394]
+- Primary education and ESO form **ten years of free and compulsory schooling**; primary lasts six years from ages **6 to 12**, and ESO generally runs from **12 to 16**. This makes the default long-term child plan public/concertado schooling plus Spanish-language integration, not an international-school default. [src-614]
+- Public-school quality/adaptation baseline: Spain is a large decentralized system with public, publicly funded private, and private schools. For a Ukrainian child, the screening assumption is structurally usable public education, but school assignment, language-support resources, and Ukrainian/Russian-speaking community support must be checked by municipality once a city/neighbourhood is selected. [src-614][src-615]
+- International school is available but expensive: Livingcost lists international primary-school proxies around **USD 10,852/year nationally**, **USD 10,445/year in Valencia**, and **USD 10,911/year in Malaga**. That is not a default single-income plan while the tax section's ordinary-autonomo net is around EUR 1,800/month. [src-391][src-393][src-394]
+- Practical child-plan read: Spain is education-positive if the couple accepts Spanish-language public schooling and chooses Valencia/Malaga carefully. It becomes budget-negative if they require private nursery from age 0-2 or an international school on the current one-income budget.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -227,13 +239,14 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 - **Best legalization path for the woman**: Inclusion as spouse or unmarried partner on the DN route looks plausible on current official evidence, but exact partner-work consequences and tax-family effects still need follow-up.
 - **Does marriage change the picture**: Less dramatically than in Greece, because Spain explicitly mentions the unmarried partner; still, marriage can simplify documentary proof and may open joint-tax filing later.
 - **Realism of staying after 03.2027**: Medium, but only if the couple is already on a standard residence track rather than depending on an unknown TP transition.
-- **Budget/tax read**: Caution. A conservative ordinary autonomo file at USD 3,000/month leaves roughly EUR 1,800/month after IRPF + RETA before rent and living costs; first-pass rent/cost screening points to Valencia first and Malaga second, while Madrid and Barcelona are poor default fits on one taxed income.
+- **Budget/tax read**: Caution. A conservative ordinary autonomo file at USD 3,000/month leaves roughly EUR 1,800/month after IRPF + RETA before rent and living costs; first-pass rent/cost screening points to Valencia first and Malaga second, while Madrid and Barcelona are poor default fits on one taxed income. Future-child public schooling is workable, but private childcare / international school and DN private-insurance quotes can erode the margin.
 
 **Pros**:
 - Official digital nomad checklist is concrete and family-aware.
 - Spain's TP process for Ukrainians is mature and fast.
 - Málaga and Valencia fit the warm-climate preference well.
 - Valencia gives the best first-pass cost/rent balance among the screened Spanish cities.
+- Public education is a genuine medium-term advantage if the couple accepts Spanish-language schooling.
 
 **Cons / risks**:
 - No clear official TP→ordinary-residence bridge found yet.
@@ -242,6 +255,8 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 - Madrid and Barcelona are rent-heavy; Malaga is plausible but tourist/coastal rent pressure must be managed.
 - Polish `karta pobytu` interaction still needs explicit confirmation.
 - PR/citizenship path still needs a dedicated official-source pass.
+- Private health-insurance quote / maternity waiting-period checks are still needed before a DN filing.
+- International school is too expensive to assume on the current one-income plan.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -259,7 +274,7 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 - Bank account opening: [verification required]
 - Tax ID / social security number: NIE is part of the process; a freelancer should register the activity through AEAT Form 036 and RETA if operating habitually from Spain. [src-012][src-013][src-280][src-284]
 - Long-term housing: [verification required]
-- Health insurance / public health registration: DN requires insurance; TP includes access to medical assistance. [src-011][src-013]
+- Health insurance / public health registration: DN requires private health-insurance evidence; TP includes access to medical assistance. After choosing the region, verify the health-card pathway through the local health centre / regional health service and keep a private policy until the public-system route is active. [src-011][src-013][src-613]
 - SIM card, internet, utilities: [verification required]
 
 ### 6c. First 3–6 months
@@ -307,6 +322,9 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 
 ### 7b. Reputable secondary
 - [src-013] Spanish Consulate in London — Digital Nomad Visa checklist and procedure.
+- [src-613] International Insurance — Spain healthcare / private-care guide for foreigners.
+- [src-614] Eurydice — Spain organisation of the education system.
+- [src-615] Eurydice — Spain early childhood education and care.
 - [src-281] PwC Worldwide Tax Summaries — Spain personal income tax rates.
 - [src-282] PwC Worldwide Tax Summaries — Spain individual tax residence.
 - [src-283] PwC Worldwide Tax Summaries — Spain other taxes / social-security context and tax administration / joint filing.
@@ -321,11 +339,20 @@ _(none yet)_
 - [src-016] Climate to Travel — Málaga climate.
 - [src-025] Current Results — direct annual clear-day counts for Madrid, Valencia, and Málaga.
 - [src-286] open.er-api.com — USD/EUR run-date FX used for the worked tax example.
+- [src-391] Livingcost — Cost of living in Spain.
+- [src-392] Livingcost — Cost of living in Madrid.
+- [src-393] Livingcost — Cost of living in Valencia, Spain.
+- [src-394] Livingcost — Cost of living in Malaga, Spain.
+- [src-395] Livingcost — Cost of living in Barcelona, Spain.
 
-### 7e. Not found
+### 7e. Application-prep gaps
+- [vq-121] Spain DN-compliant private health-insurance quotes for two young adults, maternity waiting periods, and selected-region public health-card registration steps.
+
+### 7f. Not found
 - A clear official Spanish TP→ordinary-residence transition mechanism for after 04 March 2027; current operational baseline is “no captured bridge, plan an ordinary route before TP expiry.”
 - Primary-source PR and citizenship timeline map for this exact residence scenario.
 
 ## Block 8 — Open questions and verification markers
 
-_(No active Spain verification-queue items from the first-pass legalization/climate opening. PR/citizenship and other pending sections remain for later country-deep-dive work.)_
+- Active: `vq-121` for Spain healthcare application-prep details (DN-compliant private-insurance quotes for two young adults, maternity waiting periods, and region-specific health-card registration).
+- PR/citizenship and other pending sections remain for later country-deep-dive work.
