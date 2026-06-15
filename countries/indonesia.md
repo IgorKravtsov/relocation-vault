@@ -1,13 +1,13 @@
 ---
 country: Indonesia
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-11T21:54:00Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-15T00:35:50Z
+sections_completed: ["5.2","5.4","5.5"]
 sections_partial: ["5.1","5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["remote-worker-income-above-current-budget","bridge-route-not-settlement","pr-ladder-unclear","hot-humid-rainy-climate","indonesia-tax-residence-worldwide-income-risk","indonesia-vat-bpjs-fit-gap"]
-sources_used: ["src-262","src-263","src-264","src-265","src-266","src-477","src-478","src-479","src-480","src-481"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["remote-worker-income-above-current-budget","bridge-route-not-settlement","pr-ladder-unclear","hot-humid-rainy-climate","indonesia-tax-residence-worldwide-income-risk","indonesia-vat-bpjs-fit-gap","jakarta-rent-pressure","bali-lease-seasonality-risk"]
+sources_used: ["src-262","src-263","src-264","src-265","src-266","src-477","src-478","src-479","src-480","src-481","src-590","src-591","src-592","src-593","src-594"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to Indonesia as a bridge/base rather than a proven settlement route for this couple: Ukraine is listed among Indonesia's VoA/e-VoA subject countries, and the official E33G remote-worker limited-stay visa exists, but its US$60,000/year income requirement is above the couple's current ~US$36,000/year income. [src-263][src-264]
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-11
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-15
 - **Tier rationale**: Do not classify yet. The core route is official but income-gated and the first pass did not capture a durable PR/citizenship ladder for a foreign-client IT worker using E33G.
 
 ## Block 2 — Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | VoA/e-VoA can support scouting, and E33G exists for remote workers, but the US$60,000/year threshold is above current income and long-term settlement mechanics are not captured. | §5.1 |
 | Climate | — | medium | No cold winter; Java/Bali are warm year-round, but humidity, monsoon rain, flooding risk, and low clearer-sky proxies make comfort mixed. | §5.2 |
 | Taxes | — | medium | Indonesia is not a tax-free bridge by default: tax residents are generally taxed on worldwide income, with a skilled-foreigner territorial concession that needs adviser confirmation; PIT-only stress test leaves about USD 2,436/month. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Livingcost screens Indonesia as low-cost nationally, but private insurance, visa runs/extensions, accountant/tax costs, and Bali/Jakarta lifestyle inflation remain outside the first-pass table. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 city-centre proxies are cheap versus USD 3,000 gross and the PIT-only tax net, but Jakarta and Bali/Denpasar need live-listing and lease-seasonality checks. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -117,13 +117,39 @@ FX snapshot: USD 1 = IDR 17,916.976082, so USD 3,000/month is about IDR 53.75m/m
 This is acceptable for a tax screen but does not rescue the route: the E33G immigration income threshold remains USD 60,000/year, above the couple's current income. If income rises enough to use E33G, tax planning must be done before staying long enough to trigger Indonesian residence. [src-264][src-477]
 
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-15, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass country screening at medium confidence. Livingcost gives a national baseline plus Jakarta, Surabaya, Bandung, and Denpasar city screens. This is not yet an application budget: live leases, deposits, private insurance, tax/accountant, BPJS/VAT, E33G extension, and Bali/Jakarta lifestyle-inflation checks remain later practical-budget work.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Monthly cost baseline
 
-[verification required]
+| Location | Livingcost one-person total with rent | Family-of-four proxy | Without-rent baseline | Food | Transport | Planning note |
+|---|---:|---:|---:|---:|---:|---|
+| Indonesia national | USD 575 | USD 1,369 | USD 311 / USD 934 | USD 210 / USD 529 | USD 43 / USD 117 | Low-cost national screen; use only as a floor because visa, insurance, expat rent, accountant, and international travel are outside the table. [src-590] |
+| Jakarta | USD 684 | USD 1,643 | USD 369 / USD 1,108 | USD 232 / USD 583 | USD 68 / USD 179 | Main bureaucracy/services base; still cheap on Livingcost, but use a stricter housing and lifestyle cap because capital-quality housing and international services can run above the median. [src-591] |
+| Surabaya | USD 549 | USD 1,386 | USD 316 / USD 993 | USD 210 / USD 526 | USD 48 / USD 134 | First large-city affordability screen after Jakarta: lower rent than Jakarta with better urban depth than smaller alternatives. [src-592] |
+| Bandung | USD 536 | USD 1,297 | USD 309 / USD 939 | USD 198 / USD 490 | USD 54 / USD 153 | Cooler highland Java fallback; attractive for heat comfort, but connectivity, healthcare depth, and flood/traffic exposure need checking. [src-593] |
+| Denpasar / Bali | USD 496 | USD 1,226 | USD 293 / USD 881 | USD 210 / USD 541 | USD 29 / USD 78 | Warm/coastal and expat-heavy, but treat Livingcost as a low median: tourist-season leases, villa/foreign-market pricing, and address evidence can change the real budget. [src-594] |
+
+Budget screen: Livingcost's family-of-four proxies sit below both gross USD 3,000/month and Indonesia's conservative PIT-only tax screen of about USD 2,436/month. That means ordinary monthly costs do not disqualify Indonesia on paper. The binding problem remains legal/tax status: E33G requires USD 60,000/year income, and long stays can trigger Indonesian tax residence, VAT/BPJS questions, private insurance, and adviser costs. [src-264][src-477][src-590]
+
+Recommended first screens are Surabaya or Bandung for budget/urban-depth balance, with Jakarta only if the couple needs bureaucracy, embassies, specialist healthcare, or a larger expat/service ecosystem. Denpasar/Bali is a lifestyle exception rather than the default one-income base until live long-term lease pricing and address-registration support are checked.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-15, dod: passed}
+
+> **DoD status**: Passed for first-pass screening at medium confidence. Livingcost's 40 m2 1BR line is used as the modest two-room proxy; the 80 m2 3BR line is included only as an upper-size / future-family stress test. Exact 2BR listings, deposits, agency fees, registered-address support, lease language, and foreigner acceptance remain application-prep checks.
+
+| Location | 40 m2 1BR city-centre proxy | Cheap 40 m2 proxy | 80 m2 3BR city-centre stress test | Cheap 80 m2 stress test | Utilities / internet | Budget fit |
+|---|---:|---:|---:|---:|---:|---|
+| Indonesia national | USD 299 | USD 179 | USD 834 | USD 454 | utilities USD 40-61; internet USD 21 | Strong on median rent, but national figures hide Jakarta/Bali expat-market spreads. [src-590] |
+| Jakarta | USD 355 | USD 205 | USD 635 | USD 370 | utilities USD 59-91; internet USD 21 | Affordable versus gross income, but flag `jakarta-rent-pressure` because capital-quality apartments, address evidence, and private-service lifestyle can exceed the Livingcost median. [src-591] |
+| Surabaya | USD 264 | USD 135 | USD 476 | USD 248 | utilities USD 53-81; internet USD 19 | Best first large-city rent screen; enough margin remains even under the PIT-only tax net before insurance/adviser costs. [src-592] |
+| Bandung | USD 213 | USD 174 | USD 375 | USD 283 | utilities USD 24-37; internet USD 21 | Cheap and cooler; good affordability fallback if healthcare/connectivity checks pass. [src-593] |
+| Denpasar / Bali | USD 250 | USD 137 | USD 458 | USD 247 | utilities USD 24-37; internet USD 19 | Looks cheap in the median table, but use a Bali-specific live-listing check before relying on it; tourist-season, villa-market, and landlord address-support risks are material. [src-594] |
+
+Rent verdict: rent is not the first-pass blocker. Even Jakarta's 40 m2 proxy is only about 12% of gross USD 3,000/month and about 15% of the USD 2,436/month PIT-only tax screen; Surabaya, Bandung, and Denpasar proxies are lower. The real decision is whether the couple can legally and tax-efficiently use Indonesia at all, not whether median rent is affordable.
+
+For later application budgeting, verify: live 2BR/apartment listings in Jakarta, Surabaya, Bandung, and Denpasar; deposits and advance rent; agent fees; whether landlords support address evidence for stay-permit files; minimum lease term; utility setup for foreigners; flood/traffic/air-quality by district; and Bali seasonality / foreigner-price effects.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -163,11 +189,12 @@ This is acceptable for a tax screen but does not rescue the route: the E33G immi
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: only for scouting or if a qualifying long-stay route is secured; B1 visitor status is not a residence solution.
+- **Can relocate now**: only for scouting or if a qualifying long-stay route is secured; B1 visitor status is not a residence solution. Median living costs and rents are affordable, but they do not solve the E33G income gate.
 - **Best legalization path for the man**: E33G remote-worker visa only if income rises to at least US$60,000/year and foreign-employer contract evidence fits.
 - **Best legalization path for the woman**: unresolved for E33G; conservative baseline is marriage/spouse-dependent planning only if an official dependent file is confirmed, otherwise independent eligibility.
 - **Does marriage change the picture**: likely relevant for dependent planning, but not captured for E33G in this pass.
 - **Realism of staying after 03.2027**: low at current income; Indonesia is scouting/bridge-only unless income rises above E33G and a durable ITAP path is later confirmed.
+- **Budget fit after this pass**: monthly costs/rents are manageable on both gross USD 3,000 and the PIT-only tax screen, especially in Surabaya/Bandung; Jakarta and Bali need live-listing and lifestyle-inflation controls.
 
 **Pros**:
 - Official remote-worker limited-stay route exists.
@@ -178,6 +205,7 @@ This is acceptable for a tax screen but does not rescue the route: the E33G immi
 - E33G US$60,000/year income threshold exceeds current budget.
 - PR/citizenship ladder for E33G not captured; do not use Indonesia for settlement scoring now.
 - Hot, humid, rainy climate; flood and air-quality checks still needed.
+- Jakarta/Bali real leases may be higher than Livingcost medians once expat-quality housing, address evidence, deposits, and tourist seasonality are included.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -208,8 +236,8 @@ This is acceptable for a tax screen but does not rescue the route: the E33G immi
 | E33G government fees | Rp7,000,000 | one-year limited-stay package. [src-264] |
 | Apostilles and translations | — | TBD |
 | Flights for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | — | TBD; first-pass rent proxies are USD 213-355/month in Bandung/Jakarta for 40 m2 city-centre units, but deposits and foreigner lease terms need live checks. [src-591][src-593] |
+| First month rent | USD 213-355+ | 40 m2 city-centre proxy in Bandung/Jakarta; Denpasar and Surabaya screen around USD 250-264, but exact 2BR leases need live listings. [src-591][src-592][src-593][src-594] |
 | Health insurance (one year) | — | TBD |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
@@ -240,10 +268,16 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - [src-265] Climate to Travel — Indonesia, Jakarta, Bali, Bandung, Surabaya climate pages
 - [src-266] WeatherSpark — Indonesia country climate comparison
+- [src-590] Livingcost — Indonesia national cost/rent baseline
+- [src-591] Livingcost — Jakarta cost/rent baseline
+- [src-592] Livingcost — Surabaya cost/rent baseline
+- [src-593] Livingcost — Bandung cost/rent baseline
+- [src-594] Livingcost — Denpasar/Bali cost/rent baseline
 
 ### 7e. Not found
 - Exact E33G dependent/spouse mechanics and ITAP/citizenship category-counting remain later application-prep / long-term-route checks; safe screening baseline is bridge-only and above current income.
-- Exact DGT / Indonesian tax-adviser treatment for E33G foreign-client IT source classification, skilled-foreigner territorial concession fit, NPWP/registration category, VAT/exported-service status, BPJS/housing-savings exposure, and immigration-status compatibility remains open (`vq-117`).
+- Exact DGT / Indonesian tax-adviser treatment for E33G foreign-client IT source classification, skilled-foreigner territorial concession fit, NPWP/registration category, VAT/exported-service status, BPJS/housing-savings exposure, and immigration-status compatibility remains application-prep (`vq-117`, resolved for screening).
+- Live 2BR listings, deposits/advance rent, agency fees, landlord address-registration support, district-level flood/traffic/air-quality, and Bali tourist-season lease effects remain later practical-budget checks.
 
 ## Block 8 — Open questions and verification markers
 

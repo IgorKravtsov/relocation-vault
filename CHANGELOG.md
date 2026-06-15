@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-14
+last_updated: 2026-06-15
 ---
+
+## 2026-06-15 - run-124 - Indonesia cost/rent first pass
+
+- Opened Indonesia sections 5.4 and 5.5 with Livingcost national, Jakarta, Surabaya, Bandung, and Denpasar/Bali baselines.
+- Added sources `src-590` through `src-594` and claims `claim-indonesia-011` through `claim-indonesia-015`.
+- Indonesia depth_score moved from 2.0 to 3.0; new flags `jakarta-rent-pressure` and `bali-lease-seasonality-risk`; next suggested focus is Kazakhstan 5.4/5.5 while verification remains below threshold.
 
 ## 2026-06-14 - run-123 - Thailand cost/rent first pass
 

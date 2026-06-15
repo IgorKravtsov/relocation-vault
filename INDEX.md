@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-14
+last_updated: 2026-06-15
 ---
 
 # INDEX
@@ -40,7 +40,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | UAE | middle-east-asia | 3 | — | 2.5 | done: 5.2, 5.3; partial: 5.1 | 94 | `countries/uae.md` |
 | Malaysia | middle-east-asia | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 122 | `countries/malaysia.md` |
 | Thailand | middle-east-asia | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 123 | `countries/thailand.md` |
-| Indonesia | middle-east-asia | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 97 | `countries/indonesia.md` |
+| Indonesia | middle-east-asia | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 124 | `countries/indonesia.md` |
 | Kazakhstan | post-ussr | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 98 | `countries/kazakhstan.md` |
 | Armenia | post-ussr | 3 | — | 2.0 | done: 5.2; partial: 5.1, 5.3 | 99 | `countries/armenia.md` |
 
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 3.11
+- **Average depth_score**: 3.14

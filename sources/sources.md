@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-14
+last_updated: 2026-06-15
 ---
 
 # Sources Registry
@@ -7096,3 +7096,62 @@ Each source entry:
 - **Facts supporting**: Pattaya cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as a budget/coastal compromise pending quality-of-life and family-fit checks
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-14
+## src-590
+- **Title**: Livingcost - Cost of living in Indonesia
+- **URL**: https://livingcost.org/cost/indonesia
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Indonesia
+- **Facts supporting**: Indonesia national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, salary context, utilities, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-591
+- **Title**: Livingcost - Cost of living in Jakarta
+- **URL**: https://livingcost.org/cost/indonesia/jakarta
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Indonesia
+- **Facts supporting**: Jakarta cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-592
+- **Title**: Livingcost - Cost of living in Surabaya
+- **URL**: https://livingcost.org/cost/indonesia/surabaya
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Indonesia
+- **Facts supporting**: Surabaya cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-593
+- **Title**: Livingcost - Cost of living in Bandung
+- **URL**: https://livingcost.org/cost/indonesia/bandung
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Indonesia
+- **Facts supporting**: Bandung cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-594
+- **Title**: Livingcost - Cost of living in Denpasar
+- **URL**: https://livingcost.org/cost/indonesia/denpasar
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Indonesia
+- **Facts supporting**: Denpasar cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as the Bali warm/coastal proxy pending live listing and tourist-season lease checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
