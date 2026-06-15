@@ -87,3 +87,39 @@
   confidence: medium
   tags: [worked-example, usd3000, net-income, tax-screen]
   notes: "Inputs also cite src-487 and src-489. A favorable high-tech/turnover-tax sensitivity could be materially better but is not the default screening baseline."
+
+- id: claim-armenia-011
+  topic: armenia_cost_living_national_screen
+  value: "Livingcost's Armenia national page reports about USD 1,070/month for one person with rent and USD 2,543/month for a family-of-four proxy, with rent/utilities around USD 546/month for one person and USD 924/month for a family proxy."
+  source: src-600
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, national, rent-utilities, budget]
+  notes: "Commercial benchmark for first-pass screening; do not treat as a precise two-person budget or live quote."
+
+- id: claim-armenia-012
+  topic: yerevan_cost_rent_screen
+  value: "Livingcost's Yerevan page reports about USD 1,148/month for one person with rent and USD 2,725/month for a family-of-four proxy; 40 m2 one-bedroom rent proxies are about USD 657 city-centre and USD 461 cheap."
+  source: src-601
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, yerevan, budget]
+  notes: "Use Yerevan as the services-rich default but rent-sensitive screen for the couple's USD 3,000 gross / USD 2,139 conservative-tax-net profile."
+
+- id: claim-armenia-013
+  topic: gyumri_cost_rent_screen
+  value: "Livingcost's Gyumri page reports about USD 746/month for one person with rent and USD 1,718/month for a family-of-four proxy; 40 m2 one-bedroom rent proxies are about USD 406 city-centre and USD 253 cheap."
+  source: src-602
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, gyumri, budget]
+  notes: "Affordability is materially better than Yerevan, but Gyumri has a cold-winter and service-depth tradeoff."
+
+- id: claim-armenia-014
+  topic: vanadzor_cost_rent_screen
+  value: "Livingcost's Vanadzor page reports about USD 728/month for one person with rent and USD 1,880/month for a family-of-four proxy; 40 m2 one-bedroom rent proxies are about USD 240 city-centre and USD 224 cheap."
+  source: src-603
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, vanadzor, budget]
+  notes: "Vanadzor screens as cheap but needs city-service, healthcare, community, and landlord lease-evidence checks before being treated as a practical base."

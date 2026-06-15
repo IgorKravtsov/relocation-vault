@@ -1,13 +1,13 @@
 ---
 country: Armenia
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-11T21:54:00Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-15T06:52:06Z
+sections_completed: ["5.2", "5.4", "5.5"]
 sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers", "armenia-foreign-client-it-tax-fit-gap"]
-sources_used: [src-274, src-275, src-276, src-277, src-278, src-487, src-488, src-489, src-490, src-491]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers", "armenia-foreign-client-it-tax-fit-gap", "yerevan-rent-pressure", "armenia-one-income-margin-risk"]
+sources_used: [src-274, src-275, src-276, src-277, src-278, src-487, src-488, src-489, src-490, src-491, src-600, src-601, src-602, src-603]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint). Armenia is easy for Ukrainian short entry and has official temporary/permanent residence categories, including business activity, but this first pass did not capture a dedicated digital-nomad route or a low-documentation foreign-client IT pathway. Long-term potential depends on whether the working partner can run a real Armenian business / individual-entrepreneur file that renews cleanly and supports later permanent residence and citizenship. [src-274][src-275][src-276]
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-11
-- **Tier rationale**: Not assigned yet; the current file is a first-pass legalization and climate baseline.
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-15
+- **Tier rationale**: Not assigned yet; the current file has first-pass legalization, climate, tax, cost-of-living, and rent baselines.
 
 ## Block 2 — Scoring
 
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | Visa-free short entry and ordinary temporary/permanent residence exist; foreign-client IT and partner baselines are conservative, with exact application mechanics still needing later deep-dive. | §5.1 |
 | Climate | — | medium | Sunny and dry in summer with low muggy burden, but Yerevan summers are very hot and much of the country has cold winters. | §5.2 |
 | Taxes | — | medium | Conservative first-pass: ordinary 20% income-tax plus entrepreneur pension/health contribution sensitivity leaves about AMD 787,721 / USD 2,139 per month at USD 3,000 gross; a favorable high-tech turnover-tax interpretation is not assumed. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | First-pass Livingcost screen: Yerevan is workable but tight against conservative tax net, while Gyumri/Vanadzor preserve more buffer with service and winter tradeoffs. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 rent proxies: Yerevan about $461-657, Gyumri about $253-406, Vanadzor about $224-240; live listings and residence-address lease support still need checks. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -123,15 +123,40 @@ Individuals with income not taxed at Armenian source must file a personal tax de
 
 #### Screening conclusion for the couple
 
-Taxes are not the first Armenia blocker, but the tax/residence file is not yet filing-ready. Under the conservative 20% income-tax plus entrepreneur contribution stress test, USD 3,000 gross leaves roughly USD 2,139/month before accountant, VAT compliance, residence costs, healthcare, rent, and banking friction. Armenia remains a possible ordinary-business/IE route, not a proven DN-style low-tax route, until `vq-119` confirms the exact foreign-client IT tax category, high-tech/turnover eligibility, VAT export treatment, and residence-file compatibility.
+Taxes are not the first Armenia blocker, but the tax/residence file is not yet filing-ready. Under the conservative 20% income-tax plus entrepreneur contribution stress test, USD 3,000 gross leaves roughly USD 2,139/month before accountant, VAT compliance, residence costs, healthcare, rent, and banking friction. Armenia remains a possible ordinary-business/IE route, not a proven DN-style low-tax route; run-100 resolved `vq-119` for screening only, while exact foreign-client IT tax category, high-tech/turnover eligibility, VAT export treatment, and residence-file compatibility remain application-prep/adviser checks.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-15, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening at medium confidence. Livingcost is a commercial benchmark, not a live quote source, but it gives a consistent national and three-city baseline for food, transport, rent/utilities, utilities, internet, and one-income affordability. Healthcare/insurance, accountant, immigration-lawyer, deposits, and live rental-listing checks remain later practical-budget work.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Monthly cost baseline
 
-[verification required]
+| Geography | One person total with rent | Family-of-four proxy | Rent & utilities | Food | Transport | Practical note |
+|---|---:|---:|---:|---:|---:|---|
+| Armenia national | $1,070 | $2,543 | $546 / $924 family | $356 / $946 family | $47.6 / $127 family | Useful country baseline; high enough that the tax downside matters for a one-income file. [src-600] |
+| Yerevan | $1,148 | $2,725 | $597 / $1,030 family | $363 / $963 family | $57 / $153 family | Best bureaucracy, services, medical, accountant, and community screen; rent-sensitive against conservative tax net. [src-601] |
+| Gyumri | $746 | $1,718 | $364 / $532 family | $290 / $782 family | $22.9 / $59.2 family | Main affordability fallback, but winter cold and service depth are real tradeoffs. [src-602] |
+| Vanadzor | $728 | $1,880 | $289 / $474 family | $328 / $880 family | $16.7 / $45.7 family | Cheap fallback; needs healthcare, community, lease, and remote-work infrastructure checks before practical use. [src-603] |
+
+#### Fit against the couple's budget
+
+- Against **USD 3,000 gross**, all captured locations screen as workable before healthcare/accounting/immigration buffers: Yerevan's family proxy is about 91% of gross, Gyumri about 57%, and Vanadzor about 63%.
+- Against Armenia's conservative §5.3 tax screen (**about USD 2,139/month net before VAT/accountant/immigration costs**), Yerevan's family proxy is above the safe budget line; the couple would need a smaller flat, strict grocery/transport control, or a confirmed favorable tax regime before treating Yerevan as comfortable. [src-491][src-601]
+- Gyumri and Vanadzor preserve more budget headroom against the conservative-tax net, but they trade off winter comfort, service depth, healthcare choice, and immigration/accountant support. [src-602][src-603]
+
+**Cost verdict for first pass**: Armenia is not automatically cheap for this one-income couple if Yerevan is the default base and the conservative tax model applies. Screen **Yerevan first for administration/services with a strict rent cap**, **Gyumri as the first affordability fallback**, and **Vanadzor only as a cheap fallback pending service-depth checks**. Do not treat the Livingcost family-of-four number as a precise two-person budget; it is a conservative stress proxy until live grocery, insurance, accountant, and rental checks are done.
+
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-15, dod: passed}
+
+> **DoD status**: Passed for first-pass screening at medium confidence. Livingcost's 40 m2 one-bedroom line is used as the closest available modest two-room proxy; the 80 m2 three-bedroom line is only an upper-size / future-family stress test. Live listings, lease terms, deposits, agency fees, landlord willingness to support residence-address evidence, and winter heating costs remain later checks.
+
+| City | 40 m2 1BR city-center proxy | 40 m2 cheap 1BR proxy | 80 m2 3BR city-center stress test | 80 m2 cheap 3BR stress test | Budget implication |
+|---|---:|---:|---:|---:|---|
+| Yerevan | $657 | $461 | $1,170 | $823 | Choose only with a strict cap; the cheap 40 m2 proxy is about 22% of conservative tax net, while the center proxy is about 31% and larger units are too high for the downside budget. [src-601] |
+| Gyumri | $406 | $253 | $667 | $354 | Best first affordability fallback; rent is manageable, but severe winter and lower service/community depth need separate checks. [src-602] |
+| Vanadzor | $240 | $224 | $350 | $398 | Cheapest captured rent screen, though the 3BR data looks noisy; use only after confirming live listings, apartment quality, heating, and service depth. [src-603] |
+
+**Rent verdict for first pass**: Use the modest 40 m2 proxy for screening. Yerevan is the practical administrative base but should be capped near the cheap 40 m2 line if the conservative tax model applies; Gyumri offers a better rent-to-income balance with winter/service tradeoffs; Vanadzor is a budget fallback rather than a default settlement base until live listings and support services are checked.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -175,19 +200,21 @@ Taxes are not the first Armenia blocker, but the tax/residence file is not yet f
 - **Best legalization path for the man**: business-activity temporary residence, if foreign-client IT / Armenian IE or company evidence is accepted.
 - **Best legalization path for the woman**: likely spouse-dependent or independent student/work/business ground; unmarried partner not captured.
 - **Does marriage change the picture**: Likely yes, because the captured dependent wording names wife/husband, parent, and child of a temporary resident.
-- **Realism of staying after 03.2027**: Medium-low until business-substance and PR/citizenship counting are verified.
+- **Realism of staying after 03.2027**: Medium-low until business-substance and PR/citizenship counting are verified; cost/rent is workable only with a strict Yerevan rent cap or a cheaper secondary-city base.
 
 **Pros**:
 - Easy short entry for Ukrainians.
 - Official business-activity residence ground.
 - Potentially short citizenship baseline if residence qualifies.
 - Sunny, dry climate with low muggy burden.
+- First-pass cost/rent can work outside prime Yerevan, especially in Gyumri or Vanadzor.
 
 **Cons / risks**:
 - No captured dedicated DN route.
 - Ordinary business route may require real local business substance.
 - Partner dependency appears marriage-first in captured MFA wording.
 - Cold winters outside lower-altitude areas; Yerevan summers are very hot.
+- Yerevan cost/rent can consume the conservative tax net unless the couple keeps housing small or confirms a better tax route.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -221,9 +248,10 @@ Taxes are not the first Armenia blocker, but the tax/residence file is not yet f
 | Temporary resident card | AMD 105,000 | Government fee listed by MFA. [src-275] |
 | Permanent resident card | AMD 140,000 | Later-stage fee. [src-275] |
 | Passport translation / medical certificate | TBD | Required document categories; costs not captured. |
-| Flights and first housing deposit | TBD | To be covered in cost/rent pass. |
+| Flights and first housing deposit | TBD | First-pass rent targets: Yerevan 40 m2 cheap/city-centre proxy about $461-$657, Gyumri about $253-$406, Vanadzor about $224-$240; live deposits, agency fees, and residence-address lease support still need checks. [src-601][src-602][src-603] |
 | Business/tax setup | TBD | Tax pass now has a conservative AMD 787,721 / USD 2,139 monthly net screen, but setup/accountant/VAT costs remain uncaptured. [src-487][src-489][src-490] |
-| Buffer / contingencies | TBD | Keep larger buffer until route proof is verified. |
+| First-month living costs | TBD | Livingcost family proxy: Yerevan about $2,725, Gyumri about $1,718, Vanadzor about $1,880; use as conservative stress proxy, not exact two-person spending. [src-601][src-602][src-603] |
+| Buffer / contingencies | TBD | Keep larger buffer until route proof is verified and because Yerevan can be tight against conservative tax net. |
 
 ### 6g. Contact points and communities
 - Migration and Citizenship Service, Department for Determination of the Legal Status of Foreigners, 14 Tairov Street, Yerevan. [src-275]
@@ -252,12 +280,17 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - [src-277] Climate to Travel — Armenia climate, city climate tables for Yerevan, Gyumri, Sevan.
 - [src-278] WeatherSpark — Armenia country climate comparison for Yerevan and Gyumri.
+- [src-600] Livingcost — Armenia country cost-of-living and rent baseline.
+- [src-601] Livingcost — Yerevan cost-of-living and rent screen.
+- [src-602] Livingcost — Gyumri cost-of-living and rent screen.
+- [src-603] Livingcost — Vanadzor cost-of-living and rent screen.
 
 ### 7e. Not found
 - Detailed e-register sole-proprietor checklist: public portal captured, but the detailed service page was CAPTCHA/WAF-blocked in this pass.
 - State Revenue Committee / accountant confirmation for foreign-client IT individual-entrepreneur or LLC tax category, high-tech / turnover-tax eligibility, exported-service VAT treatment, and business-residence compatibility.
 - Official Armenia Ukraine-specific temporary-protection or post-2027 bridge; screening baseline is no reliance on one.
 - Official digital-nomad / remote-worker route; screening baseline is ordinary business activity, not DN.
+- Live apartment listings, lease deposits/agency fees, landlord residence-address support, and Yerevan/Gyumri/Vanadzor private-service depth; cost/rent pass used Livingcost only for first-pass screening.
 - Official business-activity residence checklist for foreign-client IT / individual entrepreneur; screening baseline is real-business substance.
 - Unmarried partner sponsorship evidence; screening baseline is spouse/marriage or independent status.
 

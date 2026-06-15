@@ -7215,3 +7215,51 @@ Each source entry:
 - **Facts supporting**: Aktau cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as an affordable Caspian fallback pending service-depth checks
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-15
+
+## src-600
+- **Title**: Livingcost - Cost of living in Armenia
+- **URL**: https://livingcost.org/cost/armenia
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Armenia
+- **Facts supporting**: Armenia national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, salary context, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-601
+- **Title**: Livingcost - Cost of living in Yerevan
+- **URL**: https://livingcost.org/cost/armenia/yerevan
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Armenia
+- **Facts supporting**: Yerevan cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as the services-rich but rent-sensitive default screen
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-602
+- **Title**: Livingcost - Cost of living in Gyumri
+- **URL**: https://livingcost.org/cost/armenia/gyumri
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Armenia
+- **Facts supporting**: Gyumri cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as a low-cost but cold-winter fallback
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-603
+- **Title**: Livingcost - Cost of living in Vanadzor
+- **URL**: https://livingcost.org/cost/armenia/vanadzor
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Armenia
+- **Facts supporting**: Vanadzor cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as an affordability fallback pending service-depth checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15

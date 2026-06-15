@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-15
 ---
 
+## 2026-06-15 - run-126 - Armenia cost/rent first pass
+
+- Opened Armenia sections 5.4 and 5.5 with Livingcost national, Yerevan, Gyumri, and Vanadzor baselines.
+- Added sources `src-600` through `src-603` and claims `claim-armenia-011` through `claim-armenia-014`.
+- Armenia depth_score moved from 2.0 to 3.0; new flags `yerevan-rent-pressure` and `armenia-one-income-margin-risk`; next suggested focus is verification/consolidation now that all countries have first-pass cost/rent coverage.
+
 ## 2026-06-15 - run-125 - Kazakhstan cost/rent first pass
 
 - Opened Kazakhstan sections 5.4 and 5.5 with Livingcost national, Almaty, Nur-Sultan / Astana, Shymkent, and Aktau baselines.
