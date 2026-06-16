@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-16
 ---
 
+## 2026-06-16 — run-138
+- Verification batch: resolved `vq-120`-`vq-129` for healthcare application-prep details across Portugal, Spain, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, and Romania.
+- Sources added: none
+- Claims added: none
+- Verification queue: 10 -> 0; healthcare quote/onboarding details remain before-filing checks, not country-screening blockers.
+
 ## 2026-06-16 — run-137
 - Romania: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
 - Sources added: src-642, src-643

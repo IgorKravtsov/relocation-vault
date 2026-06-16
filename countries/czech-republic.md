@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up", "czech-flat-tax-it-trade-fit-gap", "prague-rent-pressure", "czech-private-insurance-quote-gap", "czech-international-school-cost-risk"]
 sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171", "src-293", "src-316", "src-317", "src-318", "src-319", "src-497", "src-498", "src-499", "src-500", "src-635", "src-636", "src-637", "src-638"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -155,7 +155,7 @@ City-level screen:
 
 ### 5.6. Healthcare {status: partial, depth: 0.5, last_updated: 2026-06-16, dod: partial}
 
-> **DoD status**: partial. This pass opens a planning baseline for insurance and routine private-care costs. Missing: live visa/residence-compliant insurance quotes for two young adults, maternity waiting-period / exclusion wording from actual policies, and exact onboarding steps once the couple's final status and city are chosen (`vq-127`).
+> **DoD status**: partial. This pass opens a planning baseline for insurance and routine private-care costs. Missing before DoD passes: live visa/residence-compliant insurance quotes for two young adults, maternity waiting-period / exclusion wording from actual policies, and exact onboarding steps once the couple's final status and city are chosen; `vq-127` is resolved for screening and remains an application-prep check.
 
 Czechia is not a "show up uninsured" option for this couple. Existing special-long-term-residence evidence already makes health-insurance continuity and no insurance debt part of the Ukrainian TP-to-special-residence planning file [src-053][src-061]. A commercial Czech foreigner-insurance explainer states that health insurance is required for every foreigner intending to stay in Czechia and is a necessary condition for visa/residence; it distinguishes emergency-only products from comprehensive insurance [src-636]. For route planning, use **comprehensive foreigner insurance** as the conservative baseline until a Czech lawyer/insurer confirms whether public insurance, commercial comprehensive insurance, or employer/self-employed coverage applies to the final status.
 
@@ -329,4 +329,4 @@ _(none yet)_
 
 - `vq-020` resolved in run-032: WeatherSpark clearer-sky day-equivalent proxies close the climate blocker at medium confidence; direct official sunny-day counts were not captured.
 - `vq-094` resolved for screening in run-100: use the Czech flat-tax / 60% expense scenario only as a conservative screening baseline; exact trade category, VAT/reverse-charge, social-health, and immigration-status fit is application-prep/accountant work.
-- `vq-127` added in run-135: Czech residence-compliant insurance quotes, maternity exclusions/waiting periods, and status/city-specific healthcare onboarding remain application-prep checks.
+- `vq-127` resolved for screening in run-138: Czech residence-compliant insurance quotes, maternity exclusions/waiting periods, and status/city-specific healthcare onboarding remain application-prep checks.

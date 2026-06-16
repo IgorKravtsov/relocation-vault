@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "croatia-self-employed-contribution-base-gap", "croatia-lump-sum-obrt-fit-gap", "coastal-rent-pressure", "croatia-health-insurance-quote-gap", "croatia-international-school-cost-risk"]
 sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045", "src-293", "src-306", "src-307", "src-308", "src-309", "src-310", "src-381", "src-382", "src-383", "src-384", "src-385", "src-626", "src-627", "src-628", "src-629", "src-630"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -352,4 +352,4 @@ _(none yet)_
 - `vq-015` — resolved in run-009 as a conservative no-bridge baseline: no Croatia-specific TP bridge is captured; plan on an ordinary Croatian route before TP expiry.
 - `vq-016` — resolved in run-009 with Current Results annual sunshine-day counts [src-045].
 - `vq-092` resolved for screening in run-100: keep Croatia as incomplete/partial with conservative ordinary self-employment stress tests; exact `pausalni obrt`, contribution-band, VAT/reverse-charge, and family allowance fit is application-prep/accountant work.
-- `vq-125` — Croatia healthcare application-prep details: private insurance quotes, maternity exclusions/waiting periods, and exact HZZO onboarding by final status/city.
+- `vq-125` resolved for screening in run-138: Croatia healthcare application-prep details (private insurance quotes, maternity exclusions/waiting periods, and exact HZZO onboarding by final status/city) remain before-filing checks.

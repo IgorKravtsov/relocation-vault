@@ -8,7 +8,7 @@ sections_partial: ["5.1","5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight","autonomo-tax-social-security-burden","madrid-barcelona-rent-pressure","malaga-tourist-rent-pressure","spain-private-insurance-quote-gap","spain-international-school-cost-risk"]
 sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025","src-280","src-281","src-282","src-283","src-284","src-285","src-286","src-391","src-392","src-393","src-394","src-395","src-613","src-614","src-615"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -346,7 +346,7 @@ _(none yet)_
 - [src-395] Livingcost — Cost of living in Barcelona, Spain.
 
 ### 7e. Application-prep gaps
-- [vq-121] Spain DN-compliant private health-insurance quotes for two young adults, maternity waiting periods, and selected-region public health-card registration steps.
+- [vq-121 resolved for screening] Spain DN-compliant private health-insurance quotes for two young adults, maternity waiting periods, and selected-region public health-card registration steps remain application-prep checks.
 
 ### 7f. Not found
 - A clear official Spanish TP→ordinary-residence transition mechanism for after 04 March 2027; current operational baseline is “no captured bridge, plan an ordinary route before TP expiry.”
@@ -354,5 +354,5 @@ _(none yet)_
 
 ## Block 8 — Open questions and verification markers
 
-- Active: `vq-121` for Spain healthcare application-prep details (DN-compliant private-insurance quotes for two young adults, maternity waiting periods, and region-specific health-card registration).
+- `vq-121` resolved for screening in run-138: Spain healthcare application-prep details (DN-compliant private-insurance quotes for two young adults, maternity waiting periods, and region-specific health-card registration) remain before-filing checks.
 - PR/citizenship and other pending sections remain for later country-deep-dive work.

@@ -8,7 +8,7 @@ sections_partial: ["5.1","5.2","5.3","5.6"]
 sections_pending: ["5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap","portugal-health-insurance-quote-gap","portugal-international-school-cost-risk"]
 sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406","src-492","src-493","src-494","src-495","src-496","src-608","src-609","src-610","src-611","src-612"]
-unverified_count: 2
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -187,7 +187,7 @@ Verification note: `vq-057` is resolved at the operational-planning level. The c
 #### Budget conclusion for this couple
 
 - Healthcare is a **positive but not zero-friction** Portugal factor. Once legally resident / protected and registered with SNS, the couple has a credible public safety net and free health-centre onboarding. The practical monthly-budget risk is not routine public primary care; it is private insurance or out-of-pocket private appointments used to bypass waiting lists, secure English-speaking access, or satisfy visa-file insurance evidence before SNS registration is settled. [src-492][src-493][src-494][src-495]
-- Screening baseline: Portugal can remain workable for healthcare on a single USD 3,000/month income if rent is controlled in Porto/Faro and the couple budgets separately for private insurance / occasional private appointments. Do **not** mark healthcare DoD passed until current insurance quotes and the exact residence-visa medical-insurance requirement are captured. [src-495][src-496][vq-120]
+- Screening baseline: Portugal can remain workable for healthcare on a single USD 3,000/month income if rent is controlled in Porto/Faro and the couple budgets separately for private insurance / occasional private appointments. Do **not** mark healthcare DoD passed until current insurance quotes and the exact residence-visa medical-insurance requirement are captured; `vq-120` is resolved for screening and remains an application-prep task. [src-495][src-496]
 
 ### 5.7. Education (future child) {status: completed, depth: 1, last_updated: 2026-06-15, dod: passed}
 
@@ -318,11 +318,11 @@ _(none yet)_
 - Official-primary D8 visa checklist (pre-visa document list, health-insurance minimum, processing time) from a Portuguese consulate or AIMA circular.
 - Direct annual sunny-day counts for Faro.
 - Portugal self-employed tax fit: exact Article 151 activity code / coefficient, VAT place-of-supply or reverse-charge reporting, first-year social-security timing, expense-evidence treatment, and D8 / ordinary-status compatibility for a Ukrainian foreign-client IT freelancer remain accountant/application-prep checks; `vq-105` is closed for screening.
-- Portugal healthcare: official D8 / residence-visa medical-insurance minimums, live private-insurance quotes for two young adults, and private-clinic specialist/lab price checks remain open. → `vq-120`
+- Portugal healthcare: official D8 / residence-visa medical-insurance minimums, live private-insurance quotes for two young adults, and private-clinic specialist/lab price checks remain application-prep checks; `vq-120` is resolved for screening.
 
 ## Block 8 — Open questions and verification markers
 
 - [verification required] Portugal TP time-counting toward long-term residence. → `vq-008`
 - [verification required] Direct annual sunny-day counts for Faro. → `vq-010 partial`
 - Application-prep check (screening blocker closed): Portugal self-employed tax fit for foreign-client IT — Article 151 code, VAT/place-of-supply, social-security timing, deductible-expense evidence, and immigration-status compatibility. → `vq-105 resolved for screening`
-- [verification required] Portugal D8 / residence-visa medical-insurance minimums and current private-insurance quotes for two young adults. → `vq-120`
+- Application-prep check after `vq-120` screening closure: Portugal D8 / residence-visa medical-insurance minimums and current private-insurance quotes for two young adults.

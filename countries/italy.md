@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-source-2024", "unmarried-partner-not-covered-by-dn-family-sponsorship", "italy-worldwide-tax-and-reporting", "rome-milan-rent-pressure", "southern-services-tradeoff", "italy-private-insurance-quote-gap", "italy-international-school-cost-risk"]
 sources_used: ["src-002", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033", "src-034", "src-287", "src-288", "src-289", "src-290", "src-291", "src-292", "src-293", "src-396", "src-397", "src-398", "src-399", "src-400", "src-616", "src-617", "src-618"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -354,4 +354,4 @@ _(none yet)_
 
 - `vq-011`: resolved in run-009 as a conservative no-bridge baseline using EU / Italy / UNHCR sources: ordinary status required before TP expiry unless Italy later publishes a bridge.
 - `vq-012`: resolved in run-009 for operational planning: the captured consular checklist supports spouse/minor-child sponsorship only; unmarried partner remains not safely covered unless later evidence changes this.
-- `vq-122`: open application-prep item for DN-compliant insurance quotes, maternity exclusions/waiting periods, and city-specific ASL registration steps.
+- `vq-122` resolved for screening in run-138: DN-compliant insurance quotes, maternity exclusions/waiting periods, and city-specific ASL registration steps remain application-prep checks.

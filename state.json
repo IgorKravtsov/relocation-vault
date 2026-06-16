@@ -1,22 +1,26 @@
 {
   "version": 2,
-  "iteration": 137,
+  "iteration": 138,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-16T17:50:29Z",
+  "last_run_timestamp": "2026-06-16T20:56:27Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Romania",
+    "mode": "verification",
+    "country": null,
     "sections": [
-      "5.6",
-      "5.7"
+      "5.6"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "reason": "Pending verification queue has reached the >=10 threshold after adding Romania healthcare application-prep item vq-129."
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Bulgaria",
+    "suggested_sections": [
+      "5.6",
+      "5.7"
+    ],
+    "reason": "Pending verification queue is back below threshold; continue anti-clustered healthcare/education coverage with the next low-depth Tier-2-hint country."
   },
   "countries": {
     "Spain": {
@@ -50,7 +54,7 @@
         "spain-international-school-cost-risk"
       ],
       "last_iteration": 129,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Portugal": {
       "tier": null,
@@ -84,7 +88,7 @@
         "portugal-international-school-cost-risk"
       ],
       "last_iteration": 128,
-      "unverified_count": 2
+      "unverified_count": 1
     },
     "Italy": {
       "tier": null,
@@ -118,7 +122,7 @@
         "italy-international-school-cost-risk"
       ],
       "last_iteration": 130,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Greece": {
       "tier": null,
@@ -149,7 +153,7 @@
         "greece-international-school-cost-risk"
       ],
       "last_iteration": 131,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Cyprus": {
       "tier": null,
@@ -182,7 +186,7 @@
         "cyprus-international-school-cost-risk"
       ],
       "last_iteration": 132,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Croatia": {
       "tier": null,
@@ -215,7 +219,7 @@
         "croatia-international-school-cost-risk"
       ],
       "last_iteration": 133,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Malta": {
       "tier": null,
@@ -248,7 +252,7 @@
         "malta-international-school-cost-risk"
       ],
       "last_iteration": 134,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Czech Republic": {
       "tier": null,
@@ -280,7 +284,7 @@
         "czech-international-school-cost-risk"
       ],
       "last_iteration": 135,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Poland": {
       "tier": null,
@@ -311,7 +315,7 @@
         "poland-international-school-cost-risk"
       ],
       "last_iteration": 136,
-      "unverified_count": 5
+      "unverified_count": 4
     },
     "Romania": {
       "tier": null,
@@ -342,7 +346,7 @@
         "romania-international-school-cost-risk"
       ],
       "last_iteration": 137,
-      "unverified_count": 2
+      "unverified_count": 1
     },
     "Bulgaria": {
       "tier": null,
@@ -1085,7 +1089,7 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 10,
+  "verification_queue_size": 0,
   "sources_count": 642,
   "claims_count": 555,
   "proposals_pending": 0

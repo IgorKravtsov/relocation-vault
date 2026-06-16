@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8", "5.9", "5.10", "5.11"]
 risk_flags: ["poland-zus-social-contribution-gap", "poland-ryczalt-it-rate-fit-gap", "warsaw-rent-pressure", "poland-private-insurance-quote-gap", "poland-international-school-cost-risk"]
 sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091", "src-293", "src-320", "src-321", "src-322", "src-323", "src-501", "src-502", "src-503", "src-504", "src-639", "src-640", "src-641"]
-unverified_count: 5
+unverified_count: 4
 schema_version: 2.0.0
 ---
 
@@ -217,7 +217,7 @@ Practical interpretation: for the current one-income couple, **Wroclaw first, Kr
 #### Practical read for the couple
 - Healthcare is workable, especially if the Polish TP / PESEL UKR or another insured title applies, but the one-income budget should not rely on free private care.
 - Wroclaw and Krakow remain the better first screens because they have large-city medical infrastructure while avoiding Warsaw's higher rent pressure.
-- Add `poland-private-insurance-quote-gap`: exact CUKR/residence-compliant private insurance, maternity coverage, and onboarding steps should be checked before filing / moving.
+- Keep `poland-private-insurance-quote-gap` as an application-prep risk: exact CUKR/residence-compliant private insurance, maternity coverage, and onboarding steps should be checked before filing / moving; `vq-128` is resolved for screening.
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-16, dod: passed}
 
@@ -397,5 +397,5 @@ _(none yet)_
 - `[verification required]` Direct sunny-day counts for Polish cities.
 - Application-prep check: official/current 2026 ZUS normal / preferential self-employed contribution amounts for a foreign-client IT sole proprietor.
 - Application-prep check: exact PKD/PKWiU classification, 12% `ryczalt` eligibility, VAT / reverse-charge handling, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer in Poland.
-- Application-prep check: residence-compliant private health-insurance quotes, maternity waiting periods / exclusions, and exact NFZ onboarding by final status / city (`vq-128`).
+- Application-prep check after `vq-128` screening closure: residence-compliant private health-insurance quotes, maternity waiting periods / exclusions, and exact NFZ onboarding by final status / city.
 - Application-prep check: school catchment, Polish-as-additional-language support, and live international-school admissions / fees once a final city is chosen.

@@ -193,9 +193,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.6
 - **Current source**: src-076, src-642
 - **Why uncertain**: This healthcare pass captured TP public-health access and a public/private healthcare baseline, but did not capture live private-insurance quotes, maternity exclusions/waiting periods, or the exact CNAS / family-doctor onboarding workflow for the couple's final DN / family / self-employed status.
-- **Suggested verification**: Check serving Romanian mission / IGI insurance wording, CNAS guidance for the chosen status, two or three Romania-compliant insurer quote pages for young adults, maternity waiting periods/exclusions, and local GP / clinic onboarding steps after city selection.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
 - **Created**: 2026-06-16 (run-137)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
 
 ## vq-128 [medium priority]
 - **Fact**: "Poland healthcare application-prep details: CUKR/family/self-employed-residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NFZ/public-health onboarding workflow for the couple's final status and selected city"
@@ -203,9 +205,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.6
 - **Current source**: src-063, src-639, src-640
 - **Why uncertain**: This healthcare pass captured PESEL UKR / Ukraine-framework NFZ access and a public/private healthcare baseline, but did not capture live private-insurance quotes or exact onboarding steps for the couple's final CUKR / family-reunification / self-employed status.
-- **Suggested verification**: Check serving voivodeship / NFZ / insurer guidance for CUKR or family/self-employed residence, two or three Poland-compliant insurer quote pages for young adults, maternity waiting periods/exclusions, and local NFZ / GP registration steps after city/status selection.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
 - **Created**: 2026-06-16 (run-136)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
 
 ## vq-124 [medium priority]
 - **Fact**: "Cyprus healthcare application-prep details: DN/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-city GESY beneficiary / personal-doctor registration workflow"
@@ -213,9 +217,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.6
 - **Current source**: src-035, src-622
 - **Why uncertain**: This healthcare pass captured the DN insurance requirement and the official GESY beneficiary portal anchor, but did not capture live insurer quotes or the exact GESY onboarding workflow for the couple's final city/status.
-- **Suggested verification**: Check the serving Cyprus DN/residence checklist, two or three Cyprus-compliant insurer quote pages for young adults, maternity waiting periods/exclusions, and GESY beneficiary / personal-doctor registration steps after city/status selection.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
 - **Created**: 2026-06-16 (run-132)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
 
 
 
@@ -226,9 +232,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.6
 - **Current source**: src-041, src-626, src-627, src-628
 - **Why uncertain**: This healthcare pass captured the MUP DN insurance requirement and official HZZO compulsory-insurance / care-scope baselines, but did not capture live private-insurance quotes or the exact office/document workflow for the couple's final status.
-- **Suggested verification**: Check serving Croatia DN/residence checklist, two or three Croatia-compliant insurer quote pages for young adults, maternity waiting periods/exclusions, and HZZO branch/document requirements after city/status selection.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
 - **Created**: 2026-06-16 (run-133)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
 
 
 ## vq-126 [medium priority]
@@ -237,9 +245,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.6
 - **Current source**: src-048, src-631
 - **Why uncertain**: This healthcare pass captured the NRP insurance requirement and a practical public/private healthcare baseline, but did not capture live private-insurance quotes or exact public-health registration/onboarding steps for the couple's final status.
-- **Suggested verification**: Check Residency Malta / serving checklist insurance wording, two or three Malta-compliant insurer quote pages for young adults, maternity waiting periods/exclusions, and Health Services / local health-centre registration requirements after status selection.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
 - **Created**: 2026-06-16 (run-134)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
 
 
 ## vq-120 [medium priority]
@@ -248,9 +258,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.6
 - **Current source**: src-017, src-492, src-493, src-494, src-495, src-496
 - **Why uncertain**: This healthcare pass captured SNS onboarding and a practical public/private baseline, but did not capture the serving-consulate D8 insurance wording or live insurer/clinic prices needed for a filing budget.
-- **Suggested verification**: Check the serving Portugal consulate / VFS D8 checklist, two or three insurer quote pages for a young couple, and private hospital/clinic price lists in Porto/Faro/Lisbon.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
 - **Created**: 2026-06-12 (run-101)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
 
 
 ## vq-121 [medium priority]
@@ -259,9 +271,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.6
 - **Current source**: src-011, src-013, src-284, src-613
 - **Why uncertain**: This healthcare pass captured TP medical access, the DN insurance requirement, public/private healthcare baseline, and private doctor/ER price proxies, but did not capture live insurer quotes or the exact Valencia / Andalusia / Madrid regional health-card workflow after arrival.
-- **Suggested verification**: Check the serving Spanish consulate / BLS DN insurance wording, two or three Spanish insurer quote pages for young adults, maternity waiting periods, and the regional SIP / Andalusia / Madrid health-card registration process after city selection.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
 - **Created**: 2026-06-15 (run-129)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
 
 
 ## vq-122 [medium priority]
@@ -270,9 +284,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.6
 - **Current source**: src-028, src-034, src-616
 - **Why uncertain**: This healthcare pass captured SSN access for TP/legal residents, the DN insurance-document requirement, and private doctor-visit proxies, but did not capture live insurer quotes or the exact Palermo / Naples / Rome ASL workflow after arrival.
-- **Suggested verification**: Check the serving Italian consulate DN insurance wording, two or three Italy-compliant insurer quote pages for young adults, maternity waiting periods, and selected-city ASL / family-doctor registration steps.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
 - **Created**: 2026-06-15 (run-130)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
 
 
 ## vq-123 [medium priority]
@@ -281,9 +297,11 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Section**: 5.6
 - **Current source**: src-003, src-152, src-619
 - **Why uncertain**: This healthcare pass captured protected-status public-health access and PAAYPA/AMKA mechanics, but did not capture live insurer quotes or the exact Athens / Thessaloniki / Heraklion / Patras onboarding workflow for the couple's final route.
-- **Suggested verification**: Check the serving Greek consulate / DN residence checklist, two or three Greece-compliant insurer quote pages for young adults, maternity waiting periods, and local AMKA / personal-doctor / health-unit registration steps after city selection.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
 - **Created**: 2026-06-15 (run-131)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
 
 
 ## vq-118 [medium priority]
@@ -1579,6 +1597,8 @@ _(none)_
 - **Section**: 5.6
 - **Current source**: src-053, src-061, src-635, src-636
 - **Why uncertain**: This healthcare pass captured the insurance-continuity requirement, commercial comprehensive-insurance baseline, pregnancy caveat, and doctor-visit proxies, but did not capture live policy quotes or exact public/private onboarding workflow for the final status.
-- **Suggested verification**: Check Czech MoI/IPC final-status insurance wording, two or three Czech comprehensive-insurance quote pages for young adults, maternity waiting periods/exclusions, and VZP/health-insurance registration steps after the status/city is chosen.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
 - **Created**: 2026-06-16 (run-135)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.

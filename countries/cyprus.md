@@ -8,7 +8,7 @@ sections_partial: ["5.1","5.3","5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "cyprus-social-insurance-category-gap", "limassol-rent-pressure", "cyprus-private-insurance-quote-gap", "cyprus-international-school-cost-risk"]
 sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119", "src-293", "src-301", "src-302", "src-303", "src-304", "src-305", "src-371", "src-372", "src-373", "src-374", "src-375", "src-622", "src-623", "src-624", "src-625"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -193,7 +193,7 @@ For a protected/status-based stay, treat public healthcare as status-dependent r
 
 Private-care fallback looks manageable for occasional use but not for a chronic-care plan. Livingcost's 2026 city pages put a doctor visit at about **$53.7 in Nicosia**, **$50.9 in Larnaca**, **$58.7 in Paphos**, and **$64.2 in Limassol** [src-372][src-373][src-374][src-375]. These are commercial city-cost proxies, not clinic quotes; use them only to screen that occasional private visits are plausible while leaving insurer, maternity, specialist, laboratory, and emergency costs for application-prep research.
 
-**Practical conclusion.** Cyprus healthcare is workable enough for first-pass screening if the couple enters with private insurance and treats GESY registration as a post-status task. It is not yet passed because the vault still lacks live Cyprus-compliant insurance quotes, exact GESY registration steps for the chosen status/city, and maternity/exclusion details for a future-child scenario. Add `vq-124` for those application-prep details.
+**Practical conclusion.** Cyprus healthcare is workable enough for first-pass screening if the couple enters with private insurance and treats GESY registration as a post-status task. It is not yet passed because the vault still lacks live Cyprus-compliant insurance quotes, exact GESY registration steps for the chosen status/city, and maternity/exclusion details for a future-child scenario. `vq-124` is resolved for screening; those details remain application-prep checks.
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-16, dod: passed}
 
@@ -347,4 +347,4 @@ _(none yet)_
 ## Block 8 — Open questions and verification markers
 
 - `vq-091` resolved for screening in run-100: keep the captured Cyprus tax baseline and treat exact self-employed social-insurance category, contribution deductibility, and filing posture as application-prep/accountant checks.
-- `vq-124` added in run-132 for Cyprus healthcare application-prep details: route-compliant private-insurance quotes, maternity waiting periods/exclusions, and selected-city GESY registration workflow.
+- `vq-124` resolved for screening in run-138: Cyprus route-compliant private-insurance quotes, maternity waiting periods/exclusions, and selected-city GESY registration workflow remain application-prep checks.

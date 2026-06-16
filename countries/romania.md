@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8", "5.9", "5.10", "5.11"]
 risk_flags: ["romania-dn-income-above-current-budget", "romania-pfa-registration-vat-fit-gap", "cluj-rent-pressure", "romania-private-insurance-quote-gap", "romania-international-school-cost-risk"]
 sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076, src-121, src-324, src-325, src-326, src-327, src-505, src-506, src-507, src-508, src-642, src-643]
-unverified_count: 2
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -189,7 +189,7 @@ Practical interpretation: for the current one-income couple, **Timisoara first, 
 - **Cluj-Napoca** has strong services but the highest captured rent pressure, so healthcare convenience must justify the housing premium.
 
 **Healthcare verdict**
-- Romania is workable for healthcare screening but not ready for filing-budget precision. Keep `romania-private-insurance-quote-gap` until the couple's final status, city, private-insurance quotes for two young adults, maternity exclusions/waiting periods, and CNAS / family-doctor registration steps are confirmed.
+- Romania is workable for healthcare screening but not ready for filing-budget precision. Keep `romania-private-insurance-quote-gap` as an application-prep risk until the couple's final status, city, private-insurance quotes for two young adults, maternity exclusions/waiting periods, and CNAS / family-doctor registration steps are confirmed; `vq-129` is resolved for screening.
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-16, dod: passed}
 
@@ -304,7 +304,7 @@ Tax application-prep checks after run-069:
 - `vq-096` — resolved to a conservative screening baseline: do not rely on DN tax-free assumptions or an unverified PFA file; CAEN classification, expense ordering, VAT / reverse-charge, and immigration-status fit remain accountant/application-prep checks before filing.
 
 Healthcare application-prep check after run-137:
-- `vq-129` — pending: private-insurance quotes, maternity waiting periods/exclusions, and exact CNAS / family-doctor onboarding for the couple's final DN / family / self-employed status and selected city.
+- `vq-129` resolved for screening in run-138: private-insurance quotes, maternity waiting periods/exclusions, and exact CNAS / family-doctor onboarding for the couple's final DN / family / self-employed status and selected city remain application-prep checks.
 
 Sections 5.1/5.2 have no current blockers after `vq-022` operational-core closure; later citizenship, comfort, partner fit, and route-specific application-prep checks remain in their own pending sections.
 

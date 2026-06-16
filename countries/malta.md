@@ -8,7 +8,7 @@ sections_partial: ["5.1","5.3","5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path", "malta-nrp-authorized-work-tax-fit-gap", "malta-rent-pressure", "malta-health-insurance-quote-gap", "malta-international-school-cost-risk"]
 sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052", "src-120", "src-293", "src-311", "src-312", "src-313", "src-314", "src-315", "src-376", "src-377", "src-378", "src-379", "src-380", "src-631", "src-632", "src-633", "src-634"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -191,7 +191,7 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 
 ### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-16, dod: partial}
 
-> **DoD status**: Partial. This pass captures the NRP private-insurance requirement, a practical public/private healthcare baseline, health-centre / hospital structure, pharmacy and emergency-access notes, and doctor-visit price proxies. It remains partial because Malta-compliant private-insurance quotes for two young adults, maternity waiting periods / exclusions, and the exact public-health onboarding path for the couple's final status still need application-prep verification (`vq-126`).
+> **DoD status**: Partial. This pass captures the NRP private-insurance requirement, a practical public/private healthcare baseline, health-centre / hospital structure, pharmacy and emergency-access notes, and doctor-visit price proxies. It remains partial because Malta-compliant private-insurance quotes for two young adults, maternity waiting periods / exclusions, and the exact public-health onboarding path for the couple's final status still need application-prep checks; `vq-126` is resolved for screening.
 
 **Access baseline.** For the NRP file, Residency Malta's checklist says accommodation and Malta/international health insurance are submitted after Approval in Principle and must cover the permit period [src-048]. That means the couple should treat private health insurance as an up-front immigration cost, not an optional upgrade. Expat Arrivals' Malta healthcare guide says Maltese citizens and expats with work permits have access to free tax-funded healthcare, EU short-stay visitors can rely on EHIC/GHIC style arrangements, and non-EU/UK expats need private insurance [src-631]. Confidence: medium for the public/private access baseline because it is secondary; high that the NRP itself requires insurance because the NRP checklist is official.
 
@@ -309,7 +309,7 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 | Residence card fee | EUR 100/person | Paid to Identità [src-049] |
 | Police certificate / translations | — | Non-English documents need English translation [src-048] |
 | Accommodation | EUR 600-1,000/month target, plus deposit | Marsaskala / Birkirkara first; avoid Sliema at current income unless rent is unusually low [src-378][src-379][src-380]. |
-| Health insurance | — | Must cover Malta/international risks for one full year; exact quotes for two young adults are still `vq-126` [src-048] |
+| Health insurance | — | Must cover Malta/international risks for one full year; exact quotes for two young adults remain application-prep checks after `vq-126` screening closure [src-048] |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | Complete after healthcare / insurance / travel / live-listing checks |
 
@@ -361,4 +361,4 @@ _(none yet)_
 ## Block 8 — Open questions and verification markers
 
 - `vq-093` resolved for screening in run-100: Malta tax planning remains partial because NRP is income-gated; exact authorised-work, first-year relief, Class Two, VAT, and source/remittance treatment is application-prep/accountant work.
-- `vq-126` pending: Malta healthcare application-prep details, including NRP/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact public-health onboarding for the couple's final residence/work/NRP status.
+- `vq-126` resolved for screening in run-138: Malta healthcare application-prep details, including NRP/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact public-health onboarding for the couple's final residence/work/NRP status, remain before-filing checks.

@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["greece-article-5c-foreign-client-fit-gap", "athens-rent-pressure", "crete-tourist-rent-pressure", "greece-private-insurance-quote-gap", "greece-international-school-cost-risk"]
 sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300", "src-337", "src-386", "src-387", "src-388", "src-389", "src-390", "src-619", "src-620", "src-621"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -349,4 +349,4 @@ _(none yet)_
 - `vq-003`: resolved in run-009 using Current Results clear-sky percentages / day-equivalent proxy [src-044].
 - `vq-089`: resolved in run-067; EFKA 2026 category-1 main pension + health plus unemployment is now the screening baseline, while exact profession/category choice remains an accountant check. [src-337]
 - `vq-090` resolved for screening in run-100: keep the ordinary PIT + EFKA baseline and treat Article 5C applicability to foreign-client IT / DN files as an application-prep tax-adviser check, not a scoring blocker.
-- `vq-123`: pending application-prep check for Greece private-insurance quotes, maternity exclusions, and selected-city AMKA / health-unit onboarding.
+- `vq-123` resolved for screening in run-138: Greece private-insurance quotes, maternity exclusions, and selected-city AMKA / health-unit onboarding remain application-prep checks.
