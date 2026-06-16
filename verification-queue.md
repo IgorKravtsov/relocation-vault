@@ -185,6 +185,17 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 ## Low priority
 
 
+
+## vq-128 [medium priority]
+- **Fact**: "Poland healthcare application-prep details: CUKR/family/self-employed-residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NFZ/public-health onboarding workflow for the couple's final status and selected city"
+- **Country**: Poland
+- **Section**: 5.6
+- **Current source**: src-063, src-639, src-640
+- **Why uncertain**: This healthcare pass captured PESEL UKR / Ukraine-framework NFZ access and a public/private healthcare baseline, but did not capture live private-insurance quotes or exact onboarding steps for the couple's final CUKR / family-reunification / self-employed status.
+- **Suggested verification**: Check serving voivodeship / NFZ / insurer guidance for CUKR or family/self-employed residence, two or three Poland-compliant insurer quote pages for young adults, maternity waiting periods/exclusions, and local NFZ / GP registration steps after city/status selection.
+- **Created**: 2026-06-16 (run-136)
+- **Status**: pending
+
 ## vq-124 [medium priority]
 - **Fact**: "Cyprus healthcare application-prep details: DN/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-city GESY beneficiary / personal-doctor registration workflow"
 - **Country**: Cyprus

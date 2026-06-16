@@ -7688,3 +7688,40 @@ Each source entry:
 - **Facts supporting**: Czech education-system structure, compulsory/free final pre-primary year in public/state nursery schools, and 9-year basic education / compulsory schooling baseline (claim-czech-018)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-06-10
+
+
+## src-639
+- **Title**: Pacjent.gov.pl / NFZ — Medical assistance for Ukrainian citizens
+- **URL**: https://pacjent.gov.pl/aktualnosc/pomoc-medyczna-dla-obywateli-ukrainy
+- **Archive**: stable official patient/NFZ page via Jina text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2022-02-28; modified 2022-12-22
+- **Date accessed**: 2026-06-16
+- **Used by**: Poland
+- **Facts supporting**: Ukraine special-framework public medical-care baseline: medical services are settled like for Polish patients, Ukrainian citizens have an additional health-service entitlement, and NFZ pays from the state budget (claim-poland-022)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-16
+
+## src-640
+- **Title**: Expat Arrivals — Healthcare and health insurance for expats in Poland
+- **URL**: https://www.expatarrivals.com/europe/poland/healthcare-poland
+- **Archive**: stable page via Jina text mirror — direct extraction used
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Poland
+- **Facts supporting**: Poland public/private healthcare screening baseline, private-insurance usefulness, large-city facility baseline, waiting-list / GP-referral friction, and language-barrier caveat (claim-poland-023)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-641
+- **Title**: Eurydice — Poland: Overview / Early childhood education and care / Organisation of the education system
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/poland/overview ; https://eurydice.eacea.ec.europa.eu/national-education-systems/poland/early-childhood-education-and-care ; https://eurydice.eacea.ec.europa.eu/national-education-systems/poland/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice pages via Jina text mirror — snapshot not required
+- **Type**: official-secondary
+- **Date published**: accessed current 2026-06-16
+- **Date accessed**: 2026-06-16
+- **Used by**: Poland
+- **Facts supporting**: Poland education baseline: optional preschool for ages 3-5, obligatory preschool for 6-year-olds, entitlement to community pre-primary place, 8-year primary school usually ages 7-15, and education/training obligation to age 18 (claim-poland-024)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-16

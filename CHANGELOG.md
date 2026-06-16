@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-16
 ---
 
+## 2026-06-16 — run-136
+- Poland: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
+- Sources added: src-639, src-640, src-641
+- Claims added: claim-poland-022, claim-poland-023, claim-poland-024, claim-poland-025
+- Verification queue: 8 -> 9 (added vq-128)
+
 ## 2026-06-16 — run-135
 - Czech Republic: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 partial)
 - Sources added: src-635, src-636, src-637, src-638
