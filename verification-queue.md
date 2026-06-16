@@ -1550,3 +1550,13 @@ _(none)_
 - **Status**: resolved
 - **Resolved**: 2026-06-11 (run-100)
 - **Resolution note**: Resolved for screening. The country profile already has a conservative worked tax baseline and explicit downside/caveat language; Malaysia DE Rantau source classification, registration, SST/e-invoice and EPF/SOCSO exposure remain Malaysian adviser checks before filing.
+
+## vq-127 [medium priority]
+- **Fact**: "Czech healthcare application-prep details: residence-compliant comprehensive private-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact public/private health-insurance onboarding for the couple's final TP / special-long-term-residence / self-employed status and selected city"
+- **Country**: Czech Republic
+- **Section**: 5.6
+- **Current source**: src-053, src-061, src-635, src-636
+- **Why uncertain**: This healthcare pass captured the insurance-continuity requirement, commercial comprehensive-insurance baseline, pregnancy caveat, and doctor-visit proxies, but did not capture live policy quotes or exact public/private onboarding workflow for the final status.
+- **Suggested verification**: Check Czech MoI/IPC final-status insurance wording, two or three Czech comprehensive-insurance quote pages for young adults, maternity waiting periods/exclusions, and VZP/health-insurance registration steps after the status/city is chosen.
+- **Created**: 2026-06-16 (run-135)
+- **Status**: pending

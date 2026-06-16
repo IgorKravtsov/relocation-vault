@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-16
 ---
 
+## 2026-06-16 — run-135
+- Czech Republic: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 partial)
+- Sources added: src-635, src-636, src-637, src-638
+- Claims added: claim-czech-016, claim-czech-017, claim-czech-018, claim-czech-019
+- Verification queue: 7 -> 8 (added vq-127)
+
 ## 2026-06-16 — run-134
 - Malta: depth_score 4.0 -> 5.5 (section 5.7 completed; section 5.6 partial)
 - Sources added: src-631, src-632, src-633, src-634

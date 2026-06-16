@@ -133,3 +133,40 @@
   confidence: medium
   tags: [cost-of-living, rent, ostrava]
   notes: "Ostrava is the strongest first-pass affordability fallback, with comfort / climate / services tradeoffs to verify later."
+
+
+- id: claim-czech-016
+  topic: foreigner_health_insurance_residence_baseline
+  value: "Czech visa/residence planning requires health-insurance coverage for foreigners; comprehensive foreigner insurance is the conservative planning baseline until final status confirms public-insurance access"
+  source: [src-635, src-636]
+  date_verified: 2026-06-16
+  confidence: medium
+  tags: [healthcare, insurance, residence-planning]
+  notes: "Commercial/provider sources support the first-pass baseline; live quotes and final-status onboarding are queued as vq-127."
+
+- id: claim-czech-017
+  topic: pregnancy_insurance_gap
+  value: "Emergency-only foreigner insurance does not cover pregnancy-related expenses; comprehensive insurance with a pregnancy package is needed for pregnancy, birth, newborn care, and aftercare planning"
+  source: src-636
+  date_verified: 2026-06-16
+  confidence: medium
+  tags: [healthcare, pregnancy, insurance]
+  notes: "Use this as a screening caveat only; actual policy wording, waiting periods, and exclusions must be checked before family planning."
+
+- id: claim-czech-018
+  topic: compulsory_preprimary_basic_schooling
+  value: "Final pre-primary year after the child's fifth birthday is free and compulsory in public/state schools; basic education lasts 9 years and corresponds to compulsory schooling"
+  source: [src-637, src-638]
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [education, pre-primary, compulsory-school]
+  notes: "Eurydice Czechia provides the first-pass official-secondary education-system baseline."
+
+- id: claim-czech-019
+  topic: childcare_international_school_cost_screen_2026
+  value: "Livingcost proxies: daycare/preschool $1,061 Prague, $504 Brno, $447 Ostrava; international primary $17,389/year Prague, $13,363/year Brno, $10,148/year Ostrava"
+  source: [src-498, src-499, src-500]
+  date_verified: 2026-06-16
+  confidence: medium
+  tags: [education, childcare, international-school, budget]
+  notes: "Commercial first-pass screening only; city-level admissions, public nursery access, and language-support checks remain later practical work."

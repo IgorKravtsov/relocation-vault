@@ -1,14 +1,14 @@
 ---
 country: Czech Republic
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-12T07:00:00Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up", "czech-flat-tax-it-trade-fit-gap", "prague-rent-pressure"]
-sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171", "src-293", "src-316", "src-317", "src-318", "src-319", "src-497", "src-498", "src-499", "src-500"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-16T11:15:41Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up", "czech-flat-tax-it-trade-fit-gap", "prague-rent-pressure", "czech-private-insurance-quote-gap", "czech-international-school-cost-risk"]
+sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171", "src-293", "src-316", "src-317", "src-318", "src-319", "src-497", "src-498", "src-499", "src-500", "src-635", "src-636", "src-637", "src-638"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence suggests a strategically relevant Tier-2-hint profile: Czechia has an unusually explicit special long-term residence track for Ukrainian temporary-protection holders, but this pass captured it through UNHCR rather than an official-primary Czech page and the normal self-employed/business route has a high evidence burden.
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-12
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-16
 - **Tier rationale**: Keep Tier unset until healthcare, partner mechanics, official-primary special-residence future-round timing, and flat-tax IT trade fit are researched.
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | First pass: Czech tax residence brings worldwide-income taxation; the promising route is the 2026 flat-tax regime, potentially CZK 9,984/month in band I if foreign-client IT activity qualifies as a 60% expense trade. | §5.3 |
 | Cost of living | — | medium | First-pass Livingcost data shows Czechia is materially more expensive than the cheapest Balkans / Latin America screens, but Brno and especially Ostrava can still fit the couple's gross budget; Prague is tight on the conservative Czech after-tax baseline. | §5.4 |
 | Rent (decent 2BR) | — | medium | Use Livingcost's 40 m2 1BR as the modest two-room proxy: Prague is expensive, Brno is mid-high, and Ostrava is the budget fallback. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | First pass: foreigner health insurance is required for visa/residence planning, comprehensive coverage is the safer baseline, and pregnancy needs a dedicated comprehensive package; exact live quotes and status-specific onboarding remain application-prep gaps. | §5.6 |
+| Education (future child) | — | medium-high | Public education is structurally workable: compulsory last pre-primary year and 9-year basic school; private childcare and international primary are budget risks. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -153,13 +153,37 @@ City-level screen:
 
 **Rental strategy.** Use the 40 m2 1BR line as the modest two-room proxy, not the 80 m2 3BR stress test. For this couple, screen **Brno first** for a services/cost balance, **Ostrava** as the affordability fallback, and **Prague** only if bureaucracy, job/network access, or Ukrainian community depth outweigh rent pressure. Before committing, search live listings on Sreality, Bezrealitky, RealityMix, UlovDomov, and local Ukrainian/Czech rental groups, and verify deposit, agency-fee, and foreigner-document requirements.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 0.5, last_updated: 2026-06-16, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This pass opens a planning baseline for insurance and routine private-care costs. Missing: live visa/residence-compliant insurance quotes for two young adults, maternity waiting-period / exclusion wording from actual policies, and exact onboarding steps once the couple's final status and city are chosen (`vq-127`).
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+Czechia is not a "show up uninsured" option for this couple. Existing special-long-term-residence evidence already makes health-insurance continuity and no insurance debt part of the Ukrainian TP-to-special-residence planning file [src-053][src-061]. A commercial Czech foreigner-insurance explainer states that health insurance is required for every foreigner intending to stay in Czechia and is a necessary condition for visa/residence; it distinguishes emergency-only products from comprehensive insurance [src-636]. For route planning, use **comprehensive foreigner insurance** as the conservative baseline until a Czech lawyer/insurer confirms whether public insurance, commercial comprehensive insurance, or employer/self-employed coverage applies to the final status.
 
-[verification required]
+| Healthcare item | First-pass evidence | Budget / risk read |
+|---|---|---|
+| Insurance for residence planning | PVZP offers dedicated foreigners' medical-insurance products, including comprehensive variants, while InfoCizinci frames insurance as required for visa/residence and compares emergency vs comprehensive products [src-635][src-636]. | Do not rely on emergency-only coverage for residence or family planning. Get status-specific quotes before filing. |
+| Pregnancy / childbirth | InfoCizinci explicitly warns that acute/emergency insurance does not cover medical-care expenses connected with pregnancy, while comprehensive insurance with a pregnancy package covers pregnancy examination, birth, newborn care, and aftercare [src-636]. | Future-child planning requires policy wording, waiting periods, exclusions, and maternity package pricing, not just a generic visa-insurance certificate. |
+| Routine private care proxy | Livingcost's Czech pages give first-pass doctor-visit proxies: national about $35.70, Prague $44.40, Brno $34.90, Ostrava $28.50 [src-497][src-498][src-499][src-500]. | Useful only as a screening proxy; specialist, dental, lab, maternity, and prescription costs remain uncaptured. |
+
+**Bottom line:** healthcare is workable for screening but not yet filing-ready. Budget with comprehensive insurance for two adults, avoid gaps/debts if aiming for special long-term residence, and verify whether the IT partner's final tax/self-employed registration creates public health-insurance obligations before relying on the flat-tax budget.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-16, dod: passed}
+
+> **DoD status**: passed for first-pass screening. Czechia's public education structure, compulsory pre-primary/basic schooling, childcare baseline, and international-school cost risk are now covered at medium-high confidence. This does not replace later city-level school-language, catchment, admission, and Ukrainian-support checks.
+
+Czechia has a conventional public-school pathway that is workable if the couple accepts Czech-language integration. Eurydice says municipalities establish nursery schools and basic schools and ensure compulsory pre-primary education and compulsory schooling [src-637]. The organisation page states that the final nursery-school year after the child's fifth birthday is **free of charge and compulsory** in public/state schools, and that basic education lasts **9 years**, matching the length of compulsory schooling [src-638].
+
+Early-childhood provision is split between children's groups and nursery schools. Eurydice's ECEC page says children's groups serve children from **6 months** to the start of compulsory school, while nursery schools provide pre-primary education for ages **2-6** (7 in some cases), and the municipality must secure a nursery-school place for children who turned 3 before the school year starts [src-637]. This is a good structural baseline, but local availability, language support, and foreign-family paperwork should be checked by city.
+
+| City / baseline | Daycare or preschool proxy | International primary proxy | Practical read |
+|---|---:|---:|---|
+| Czech national | $666/month | $12,734/year | Private childcare and international school are meaningful one-income risks even outside Prague. [src-497] |
+| Prague | $1,061/month | $17,389/year | Strongest international-school market, but the budget hit is severe on the Czech flat-tax net screen. [src-498] |
+| Brno | $504/month | $13,363/year | Better balance if public Czech schooling is acceptable; international school still expensive. [src-499] |
+| Ostrava | $447/month | $10,148/year | Best first-pass cost fit, but international options and language-support depth need later comfort research. [src-500] |
+
+**Bottom line:** Czech education is a relative plus if the child can enter local public schooling and the family can handle Czech-language integration. It is a budget risk if the couple needs English/international schooling or full-time private childcare before public nursery / school access is secured.
+
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -197,6 +221,7 @@ City-level screen:
 - **Does marriage change the picture**: Likely yes for family-unit clarity, but exact unmarried-partner treatment remains unverified.
 - **Realism of staying after 03.2027**: Potentially medium-high if the special long-term residence route is available in future rounds and the couple meets income/insurance conditions; otherwise medium/uncertain.
 - **Cost/rent budget read**: Prague is rent-pressured on one income; Brno is the first budget/services balance to screen; Ostrava is the affordability fallback if the couple can accept weaker climate/comfort and a smaller international-services ecosystem. [src-497][src-498][src-499][src-500]
+- **Healthcare/education read**: workable for screening. Insurance must be mapped to the final status, pregnancy coverage is not safe under emergency-only products, and Czech public education has a strong compulsory-school baseline, but childcare and international school costs can hurt a one-income budget. [src-635][src-636][src-637][src-638]
 
 **Pros**:
 - Captured special long-term residence concept for Ukrainian TP holders, unlike many countries with no clear bridge.
@@ -204,6 +229,7 @@ City-level screen:
 - PR anchor after 5 years temporary residence exists, subject to status-counting verification.
 - Large Ukrainian presence likely improves adaptation, to verify in §5.8.
 - Brno and especially Ostrava keep the rent screen within a plausible range if the Czech flat-tax scenario is confirmed.
+- Public education has a clear compulsory-school structure and a free final pre-primary year in public/state nursery schools.
 
 **Cons / risks**:
 - Special-residence route now has an official-primary anchor, but future-round timing and unmarried-partner mechanics remain unresolved.
@@ -211,6 +237,7 @@ City-level screen:
 - Business/self-employed route may require a stronger Czech business file than simple foreign-client remote work.
 - Unmarried partner/dependent mechanics remain unresolved.
 - Prague rent is high relative to the couple's conservative Czech after-tax screen; live listings and deposits must be checked before relying on Prague.
+- Healthcare still needs live insurance quotes and status-specific onboarding checks; international schooling is costly if public Czech-language schooling is not acceptable.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -245,7 +272,7 @@ City-level screen:
 | Flights for two | TBD | §5.4 / §5.11 later. |
 | Rental deposit | TBD | §5.5 later. |
 | First month rent | TBD | §5.5 later. |
-| Health insurance | TBD | Special long-term residence may require private comprehensive insurance; exact cost pending [src-053]. |
+| Health insurance | TBD | Special long-term residence / visa planning needs insurance continuity; comprehensive foreigner insurance is the safer baseline, pregnancy needs a dedicated package, and live quotes remain pending [src-053][src-635][src-636]. |
 | Immigration lawyer fees | TBD | §5.11 later. |
 | Buffer / contingencies | TBD | Needs cost-of-living research. |
 | **Total** | — | Not yet computable. |
@@ -272,6 +299,8 @@ City-level screen:
 - [src-316] PwC Czech Republic tax residence and individual PIT rates.
 - [src-317] PwC Czech Republic deductions and tax administration.
 - [src-318] PwC Czech Republic other taxes, social/health, and VAT.
+- [src-637] Eurydice Czechia education overview / early-childhood baseline.
+- [src-638] Eurydice Czechia education-system structure and compulsory-schooling baseline.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -286,14 +315,18 @@ _(none yet)_
 - [src-498] Livingcost — Prague cost/rent baseline.
 - [src-499] Livingcost — Brno cost/rent baseline.
 - [src-500] Livingcost — Ostrava cost/rent baseline.
+- [src-635] PVZP foreigners medical-insurance product baseline.
+- [src-636] InfoCizinci Czech foreigner health-insurance calculator / explainer.
 
 ### 7e. Not found
 - Later-round special-long-term-residence timing after the first registration cycle remains unresolved.
 - Direct annual sunny-day / clear-day counts for Prague, Brno, and Ostrava were not captured.
 - Accountant-level confirmation that foreign-client IT can use the Czech 60% expense trade category / flat-tax band I, plus exact VAT and social/health registration handling, was not captured.
 - Live Czech rental listings, deposit/agency-fee practice, and foreigner-document requirements were not captured.
+- Live Czech residence-compliant insurance quotes, maternity exclusions/waiting periods, and final-status public/private health onboarding were not captured.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-020` resolved in run-032: WeatherSpark clearer-sky day-equivalent proxies close the climate blocker at medium confidence; direct official sunny-day counts were not captured.
 - `vq-094` resolved for screening in run-100: use the Czech flat-tax / 60% expense scenario only as a conservative screening baseline; exact trade category, VAT/reverse-charge, social-health, and immigration-status fit is application-prep/accountant work.
+- `vq-127` added in run-135: Czech residence-compliant insurance quotes, maternity exclusions/waiting periods, and status/city-specific healthcare onboarding remain application-prep checks.

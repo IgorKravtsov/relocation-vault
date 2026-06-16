@@ -7639,3 +7639,52 @@ Each source entry:
 - **Facts supporting**: Malta early-childhood education and care baseline, including the Free Childcare Scheme for parents in employment or furthering education
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-01-30
+
+
+## src-635
+- **Title**: PVZP — Foreigners' Medical Insurance
+- **URL**: https://www.pvzp.cz/en/products/foreigners-medical-insurance/
+- **Archive**: [archive: failed 2026-06-16; direct extraction used]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech foreigners' medical-insurance product baseline, including dedicated comprehensive foreigner-insurance product family (claim-czech-016)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-636
+- **Title**: InfoCizinci.cz — Health insurance calculator for foreigners in CZ
+- **URL**: https://infocizinci.cz/en/health-insurance-calculator/
+- **Archive**: [archive: failed 2026-06-16; direct extraction used]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech foreigner health-insurance requirement baseline, emergency vs comprehensive insurance distinction, indicative starting monthly price from CZK 1,000, and pregnancy-coverage caveat (claim-czech-016, claim-czech-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-637
+- **Title**: Eurydice — Czechia: Early childhood education and care / overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/czechia/early-childhood-education-and-care and https://eurydice.eacea.ec.europa.eu/national-education-systems/czechia/overview
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2026-06-10 for structure-linked page; ECEC page accessed current
+- **Date accessed**: 2026-06-16
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech ECEC baseline: children's groups from 6 months, nursery schools for ages 2-6/7, compulsory last pre-primary year, municipal nursery-place obligation for children aged 3+, and school-administration roles (claim-czech-018)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-10
+
+## src-638
+- **Title**: Eurydice — Czechia: Organisation of the education system and of its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/czechia/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2026-06-10
+- **Date accessed**: 2026-06-16
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech education-system structure, compulsory/free final pre-primary year in public/state nursery schools, and 9-year basic education / compulsory schooling baseline (claim-czech-018)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-10
