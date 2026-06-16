@@ -184,3 +184,40 @@
   confidence: medium
   tags: [romania, timisoara, cost-of-living, rent]
   notes: "Commercial aggregator first-pass screen; best captured Romania city balance for current one-income planning."
+
+
+- id: claim-romania-021
+  topic: tp_healthcare_baseline
+  value: "Romanian temporary-protection beneficiaries can receive free primary healthcare, appropriate treatment, emergency hospital care, care for acute or chronic imminently life-threatening illness, and special-needs medical assistance"
+  source: src-076
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [romania, healthcare, temporary-protection, ukraine]
+  notes: "Applies to TP/protected-status screening; final ordinary-status CNAS onboarding remains vq-129."
+
+- id: claim-romania-022
+  topic: public_private_healthcare_baseline
+  value: "Romania has public healthcare managed by the National Health Insurance House, but expats commonly need private medical insurance for visa issuance and should budget for private care because public facilities and wait times vary"
+  source: src-642
+  date_verified: 2026-06-16
+  confidence: medium
+  tags: [romania, healthcare, insurance, expat]
+  notes: "Reputable secondary screening source; live insurer quotes and final-status public onboarding remain vq-129."
+
+- id: claim-romania-023
+  topic: ecec_compulsory_free_baseline
+  value: "Romania ECEC covers 3 months to 6 years, is split into ante-preschool 3 months-3 years and preschool 3-6 years, attendance is compulsory from age 4, and ECEC is free of charge even full-time"
+  source: src-643
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [romania, education, early-childhood, compulsory-education]
+  notes: "Eurydice also notes planned compulsory start from age 3 from September 2030."
+
+- id: claim-romania-024
+  topic: primary_education_structure
+  value: "Romanian primary education is compulsory, starts at age 6, lasts 5 years including preparatory grade and grades I-IV, and lower secondary lasts 4 years (grades 5-8); public primary textbooks are free"
+  source: src-643
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [romania, education, primary-school, future-child]
+  notes: "Used for section 5.7 screening; local catchment and language support remain later city-level checks."

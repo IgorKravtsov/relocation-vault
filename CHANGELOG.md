@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-16
 ---
 
+## 2026-06-16 — run-137
+- Romania: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
+- Sources added: src-642, src-643
+- Claims added: claim-romania-021, claim-romania-022, claim-romania-023, claim-romania-024
+- Verification queue: 9 -> 10 (added vq-129); next mode should be verification
+
 ## 2026-06-16 — run-136
 - Poland: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
 - Sources added: src-639, src-640, src-641

@@ -1,27 +1,22 @@
 {
   "version": 2,
-  "iteration": 136,
+  "iteration": 137,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-16T14:41:19Z",
+  "last_run_timestamp": "2026-06-16T17:50:29Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Poland",
+    "country": "Romania",
     "sections": [
       "5.6",
       "5.7"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "country-deep-dive",
-    "suggested_country": "Romania",
-    "suggested_sections": [
-      "5.6",
-      "5.7"
-    ],
-    "reason": "Verification queue remains below threshold after Poland healthcare/education; rotate to the next lowest-depth Tier-2-hint country for practical sections."
+    "suggested_mode": "verification",
+    "reason": "Pending verification queue has reached the >=10 threshold after adding Romania healthcare application-prep item vq-129."
   },
   "countries": {
     "Spain": {
@@ -321,19 +316,19 @@
     "Romania": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -342,10 +337,12 @@
       "risk_flags": [
         "romania-dn-income-above-current-budget",
         "romania-pfa-registration-vat-fit-gap",
-        "cluj-rent-pressure"
+        "cluj-rent-pressure",
+        "romania-private-insurance-quote-gap",
+        "romania-international-school-cost-risk"
       ],
-      "last_iteration": 104,
-      "unverified_count": 1
+      "last_iteration": 137,
+      "unverified_count": 2
     },
     "Bulgaria": {
       "tier": null,
@@ -1088,8 +1085,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 9,
-  "sources_count": 640,
-  "claims_count": 551,
+  "verification_queue_size": 10,
+  "sources_count": 642,
+  "claims_count": 555,
   "proposals_pending": 0
 }

@@ -7725,3 +7725,27 @@ Each source entry:
 - **Facts supporting**: Poland education baseline: optional preschool for ages 3-5, obligatory preschool for 6-year-olds, entitlement to community pre-primary place, 8-year primary school usually ages 7-15, and education/training obligation to age 18 (claim-poland-024)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-06-16
+
+## src-642
+- **Title**: Expat Arrivals — Healthcare and health insurance for expats in Romania
+- **URL**: https://www.expatarrivals.com/europe/romania/healthcare-romania
+- **Archive**: stable page via Jina text mirror — direct extraction used
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Romania
+- **Facts supporting**: Romania public/private healthcare screening baseline, National Health Insurance House context, private medical-insurance need for expats / visa issuance, public-system waiting-time and facility-quality caveats (claim-romania-022)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-643
+- **Title**: Eurydice — Romania: Overview / Organisation of the education system / Early childhood education and care / Primary education
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/romania/overview ; https://eurydice.eacea.ec.europa.eu/national-education-systems/romania/organisation-education-system-and-its-structure ; https://eurydice.eacea.ec.europa.eu/national-education-systems/romania/early-childhood-education-and-care ; https://eurydice.eacea.ec.europa.eu/national-education-systems/romania/primary-education
+- **Archive**: stable EU/EACEA Eurydice pages via Jina text mirror — snapshot not required
+- **Type**: official-secondary
+- **Date published**: accessed current 2026-06-16
+- **Date accessed**: 2026-06-16
+- **Used by**: Romania
+- **Facts supporting**: Romania education baseline: Ministry / inspectorate governance, ECEC ages and free/compulsory baseline, primary education start and structure, lower-secondary structure, and free public primary textbooks (claim-romania-023, claim-romania-024)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-16

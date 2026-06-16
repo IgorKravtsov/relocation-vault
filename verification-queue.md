@@ -186,6 +186,17 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 
 
+
+## vq-129 [medium priority]
+- **Fact**: "Romania healthcare application-prep details: DN/family/self-employed-residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact CNAS / public-health onboarding workflow for the couple's final status and selected city"
+- **Country**: Romania
+- **Section**: 5.6
+- **Current source**: src-076, src-642
+- **Why uncertain**: This healthcare pass captured TP public-health access and a public/private healthcare baseline, but did not capture live private-insurance quotes, maternity exclusions/waiting periods, or the exact CNAS / family-doctor onboarding workflow for the couple's final DN / family / self-employed status.
+- **Suggested verification**: Check serving Romanian mission / IGI insurance wording, CNAS guidance for the chosen status, two or three Romania-compliant insurer quote pages for young adults, maternity waiting periods/exclusions, and local GP / clinic onboarding steps after city selection.
+- **Created**: 2026-06-16 (run-137)
+- **Status**: pending
+
 ## vq-128 [medium priority]
 - **Fact**: "Poland healthcare application-prep details: CUKR/family/self-employed-residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NFZ/public-health onboarding workflow for the couple's final status and selected city"
 - **Country**: Poland
