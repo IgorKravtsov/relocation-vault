@@ -7590,3 +7590,52 @@ Each source entry:
 - **Facts supporting**: Croatia ECEC baseline: kindergarten/other providers for ages 6 months to primary-school age, and mandatory one-year pre-primary programme before starting school (claim-croatia-015)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-05-14
+
+
+## src-631
+- **Title**: Expat Arrivals — Healthcare and health insurance for expats in Malta
+- **URL**: https://www.expatarrivals.com/europe/malta/healthcare-malta
+- **Archive**: stable page via Jina text mirror — direct extraction used
+- **Type**: reputable-secondary
+- **Date published**: 2026-06-16
+- **Date accessed**: 2026-06-16
+- **Used by**: Malta
+- **Facts supporting**: Malta public/private healthcare screening baseline, private-insurance need for non-EU/UK expats, public health-centre / hospital structure, pharmacy access, emergency number 112, and routine-vaccination caveat
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-632
+- **Title**: Eurydice — Malta: Overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/malta/overview
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2025-04-22
+- **Date accessed**: 2026-06-16
+- **Used by**: Malta
+- **Facts supporting**: Malta education-system overview, childcare / kindergarten age bands, compulsory education ages 5-16, primary and secondary cycle structure, and state/church/independent school baseline
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-04-22
+
+## src-633
+- **Title**: Eurydice — Malta: Organisation of the education system and of its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/malta/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2025-02-13
+- **Date accessed**: 2026-06-16
+- **Used by**: Malta
+- **Facts supporting**: Malta formal education structure, primary education as a six-year cycle for ages 5-11, and compulsory-education structure
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-13
+
+## src-634
+- **Title**: Eurydice — Malta: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/malta/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2024-01-30
+- **Date accessed**: 2026-06-16
+- **Used by**: Malta
+- **Facts supporting**: Malta early-childhood education and care baseline, including the Free Childcare Scheme for parents in employment or furthering education
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-30

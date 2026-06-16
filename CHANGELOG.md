@@ -3,6 +3,13 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-16
 ---
+
+## 2026-06-16 — run-134
+- Malta: depth_score 4.0 -> 5.5 (section 5.7 completed; section 5.6 partial)
+- Sources added: src-631, src-632, src-633, src-634
+- Claims added: claim-malta-012, claim-malta-013, claim-malta-014, claim-malta-015
+- Verification queue: 6 -> 7 (added vq-126)
+
 ## 2026-06-16 — run-133 Croatia healthcare/education
 - Opened Croatia §5.6 healthcare as partial with HZZO compulsory-insurance / registration / maternity-scope baselines and private doctor-cost proxies.
 - Completed Croatia §5.7 education for first-pass screening: 8-year compulsory public school, mandatory/free pre-primary year, childcare and international-school cost risks.

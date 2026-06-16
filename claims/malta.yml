@@ -97,3 +97,40 @@
   confidence: medium
   tags: [tax, worked-example, budget]
   notes: "This is a first-pass calculation, not advice. NRP examples exclude unresolved social-security / VAT / source-remittance classification."
+
+
+- id: claim-malta-012
+  topic: malta_healthcare_access_baseline
+  value: "NRP applicants must provide Malta/international health insurance after Approval in Principle; work-permit expats may access tax-funded public healthcare, while non-EU/UK expats should budget private insurance"
+  source: src-048
+  date_verified: 2026-06-16
+  confidence: medium
+  tags: [healthcare, insurance, digital-nomad]
+  notes: "The NRP insurance requirement is official-primary. The broader public/private access baseline uses Expat Arrivals and remains application-prep until the exact Malta status is selected."
+
+- id: claim-malta-013
+  topic: malta_healthcare_structure
+  value: "Public healthcare is delivered through health centres/clinics and hospitals; health centres include GPs, nurses, immunisation, gynaecology, physiotherapy, and mental-health services; emergency number is 112"
+  source: src-631
+  date_verified: 2026-06-16
+  confidence: medium
+  tags: [healthcare, public-health, emergency]
+  notes: "Used as a practical screening baseline; official Malta health pages were WAF-blocked in earlier attempts."
+
+- id: claim-malta-014
+  topic: malta_compulsory_education_structure
+  value: "Compulsory education lasts 11 years from ages 5 to 16: primary ages 5-11, then middle/secondary ages 11-16"
+  source: src-632
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [education, compulsory-schooling, public-school]
+  notes: "Eurydice Malta overview and organisation pages support the structure; used for first-pass future-child education screening."
+
+- id: claim-malta-015
+  topic: malta_childcare_and_school_cost_risk
+  value: "Free childcare exists for parents who work or study, but eligibility for this couple's future status needs confirmation; Livingcost daycare proxies range about USD 267-654/month and international primary about USD 7.2k-13.0k/year in screened cities"
+  source: src-634
+  date_verified: 2026-06-16
+  confidence: medium
+  tags: [education, childcare, international-school, budget]
+  notes: "Eurydice supports the free-childcare policy baseline; Livingcost city pages provide cost proxies. Treat international school as a major budget risk at USD 3,000/month gross."

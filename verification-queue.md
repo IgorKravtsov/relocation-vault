@@ -209,6 +209,17 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Status**: pending
 
 
+## vq-126 [medium priority]
+- **Fact**: "Malta healthcare application-prep details: NRP/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact public-health onboarding for the couple's final NRP/work/self-employment/family-member status"
+- **Country**: Malta
+- **Section**: 5.6
+- **Current source**: src-048, src-631
+- **Why uncertain**: This healthcare pass captured the NRP insurance requirement and a practical public/private healthcare baseline, but did not capture live private-insurance quotes or exact public-health registration/onboarding steps for the couple's final status.
+- **Suggested verification**: Check Residency Malta / serving checklist insurance wording, two or three Malta-compliant insurer quote pages for young adults, maternity waiting periods/exclusions, and Health Services / local health-centre registration requirements after status selection.
+- **Created**: 2026-06-16 (run-134)
+- **Status**: pending
+
+
 ## vq-120 [medium priority]
 - **Fact**: "Portugal healthcare application-prep details: exact D8 / residence-visa medical-insurance minimums, current private-insurance quotes for two young adults, and private-clinic specialist/lab price checks"
 - **Country**: Portugal
