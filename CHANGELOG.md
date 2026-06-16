@@ -3,6 +3,11 @@ document: changelog
 version: 1.0.0
 last_updated: 2026-06-16
 ---
+## 2026-06-16 — run-133 Croatia healthcare/education
+- Opened Croatia §5.6 healthcare as partial with HZZO compulsory-insurance / registration / maternity-scope baselines and private doctor-cost proxies.
+- Completed Croatia §5.7 education for first-pass screening: 8-year compulsory public school, mandatory/free pre-primary year, childcare and international-school cost risks.
+- Added `src-626`-`src-630`, `claim-croatia-012`-`claim-croatia-015`, and `vq-125`; Croatia depth_score 4.0 → 5.5.
+
 
 ## 2026-06-16 - run-132 - Cyprus healthcare/education first pass
 

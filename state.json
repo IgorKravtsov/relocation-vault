@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 132,
+  "iteration": 133,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-16T01:44:44Z",
+  "last_run_timestamp": "2026-06-16T04:53:48Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Cyprus",
+    "country": "Croatia",
     "sections": [
       "5.6",
       "5.7"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Croatia",
+    "suggested_country": "Malta",
     "suggested_sections": [
       "5.6",
       "5.7"
     ],
-    "reason": "Verification queue remains below threshold; continue practical-section deepening across fresh Tier-1-hint countries after Cyprus healthcare/education are opened."
+    "reason": "Verification queue remains below threshold after Croatia healthcare/education; continue rotating through Tier-1-hint countries with Malta practical sections."
   },
   "countries": {
     "Spain": {
@@ -192,19 +192,19 @@
     "Croatia": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 4.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -215,10 +215,12 @@
         "dn-income-above-current-budget",
         "croatia-self-employed-contribution-base-gap",
         "croatia-lump-sum-obrt-fit-gap",
-        "coastal-rent-pressure"
+        "coastal-rent-pressure",
+        "croatia-health-insurance-quote-gap",
+        "croatia-international-school-cost-risk"
       ],
-      "last_iteration": 78,
-      "unverified_count": 0
+      "last_iteration": 133,
+      "unverified_count": 1
     },
     "Malta": {
       "tier": null,
@@ -1080,8 +1082,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 5,
-  "sources_count": 624,
-  "claims_count": 535,
+  "verification_queue_size": 6,
+  "sources_count": 629,
+  "claims_count": 539,
   "proposals_pending": 0
 }

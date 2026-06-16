@@ -196,6 +196,19 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Status**: pending
 
 
+
+
+## vq-125 [medium priority]
+- **Fact**: "Croatia healthcare application-prep details: DN/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact HZZO onboarding workflow for the couple's final residence/self-employment/family-member status and selected city"
+- **Country**: Croatia
+- **Section**: 5.6
+- **Current source**: src-041, src-626, src-627, src-628
+- **Why uncertain**: This healthcare pass captured the MUP DN insurance requirement and official HZZO compulsory-insurance / care-scope baselines, but did not capture live private-insurance quotes or the exact office/document workflow for the couple's final status.
+- **Suggested verification**: Check serving Croatia DN/residence checklist, two or three Croatia-compliant insurer quote pages for young adults, maternity waiting periods/exclusions, and HZZO branch/document requirements after city/status selection.
+- **Created**: 2026-06-16 (run-133)
+- **Status**: pending
+
+
 ## vq-120 [medium priority]
 - **Fact**: "Portugal healthcare application-prep details: exact D8 / residence-visa medical-insurance minimums, current private-insurance quotes for two young adults, and private-clinic specialist/lab price checks"
 - **Country**: Portugal

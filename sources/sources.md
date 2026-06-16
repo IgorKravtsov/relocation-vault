@@ -7529,3 +7529,64 @@ Each source entry:
 - **Facts supporting**: Cyprus public primary education: six-year cycle, free and compulsory for children who have reached age 6
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-06-16
+
+
+## src-626
+- **Title**: HZZO — Tko su osigurane osobe HZZO-a
+- **URL**: https://hzzo.hr/obvezno-zdravstveno-osiguranje-0/tko-su-osigurane-osobe-hzzo
+- **Archive**: stable official HZZO page via direct HTML extraction — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Croatia
+- **Facts supporting**: Croatia compulsory-health-insurance insured-person categories, including permanent/long-term residents, employees/self-employed bases, children, family members, and some EU temporary-stay categories (claim-croatia-012)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-16
+
+## src-627
+- **Title**: HZZO — Prijava, promjena i odjava u obveznom zdravstvenom osiguranju
+- **URL**: https://hzzo.hr/obvezno-zdravstveno-osiguranje-0/prijava-promjena-i-odjava-u-obveznom-zdravstvenom-osiguranju
+- **Archive**: stable official HZZO page via direct HTML extraction — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Croatia
+- **Facts supporting**: HZZO application/change/deregistration filing at any regional office or branch within 8 days from status-triggering circumstances (claim-croatia-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-16
+
+## src-628
+- **Title**: HZZO — Opseg prava na zdravstvenu zastitu iz obveznoga zdravstvenog osiguranja
+- **URL**: https://hzzo.hr/obvezno-zdravstveno-osiguranje-0/opseg-prava-na-zdravstvenu-zastitu-iz-obveznoga-zdravstvenog
+- **Archive**: stable official HZZO page via direct HTML extraction — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Croatia
+- **Facts supporting**: compulsory-insurance healthcare scope including preventive student care and women's healthcare related to pregnancy monitoring and childbirth (claim-croatia-012)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-16
+
+## src-629
+- **Title**: Eurydice — Croatia: Overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/croatia/overview
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2025-09-24
+- **Date accessed**: 2026-06-16
+- **Used by**: Croatia
+- **Facts supporting**: Croatia education-system overview: compulsory 8-year primary/lower-secondary single structure from age 6-7 to 14-15, public/private primary baseline, and mandatory state-financed/free preschool year before elementary school (claim-croatia-014, claim-croatia-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-09-24
+
+## src-630
+- **Title**: Eurydice — Croatia: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/croatia/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2025-05-14
+- **Date accessed**: 2026-06-16
+- **Used by**: Croatia
+- **Facts supporting**: Croatia ECEC baseline: kindergarten/other providers for ages 6 months to primary-school age, and mandatory one-year pre-primary programme before starting school (claim-croatia-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-14

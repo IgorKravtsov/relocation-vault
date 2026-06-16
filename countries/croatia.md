@@ -1,14 +1,14 @@
 ---
 country: Croatia
 tier: null
-depth_score: 4.0
-last_updated: 2026-06-11T21:54:00Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "croatia-self-employed-contribution-base-gap", "croatia-lump-sum-obrt-fit-gap", "coastal-rent-pressure"]
-sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045", "src-293", "src-306", "src-307", "src-308", "src-309", "src-310", "src-381", "src-382", "src-383", "src-384", "src-385"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-16T04:53:48Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "croatia-self-employed-contribution-base-gap", "croatia-lump-sum-obrt-fit-gap", "coastal-rent-pressure", "croatia-health-insurance-quote-gap", "croatia-international-school-cost-risk"]
+sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045", "src-293", "src-306", "src-307", "src-308", "src-309", "src-310", "src-381", "src-382", "src-383", "src-384", "src-385", "src-626", "src-627", "src-628", "src-629", "src-630"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Croatia has EU temporary protection, a formal digital-nomad temporary-stay route, and an attractive Adriatic climate, but the digital-nomad income floor is above the couple's current ~$3,000/month budget and no Croatia-specific post-04 March 2027 TP-to-ordinary-residence bridge was captured in this first pass.
-- **depth_score**: 4.0
-- **Last updated**: 2026-06-11
-- **Tier rationale**: Keep unranked until healthcare, education, partner mechanics, ordinary residence after TP, and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the first legalization, climate, tax, and cost/rent passes.
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-16
+- **Tier rationale**: Keep unranked until healthcare insurance details, partner mechanics, ordinary residence after TP, risk/comfort, bureaucracy, and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the current first-pass sections.
 
 ## Block 2 — Scoring
 
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | N/A | Croatia tax residents are taxed on worldwide income; ordinary self-employment has local-rate PIT and social contributions, while lump-sum craft taxation may be better but needs exact 2026 contribution / activity-fit verification. First conservative ordinary example at $3,000/month leaves about EUR 1,407-1,491/month before accountant/VAT edge cases. | §5.3 |
 | Cost of living | — | N/A | First-pass Livingcost data suggests Croatia is manageable only with city discipline: Rijeka and Zagreb screen better than Split / Dubrovnik, and the conservative Croatian tax net makes coastal choices tight. | §5.4 |
 | Rent (decent 2BR) | — | N/A | Rent is the key practical filter: cheap 40 m2 1BR proxy is about $495 in Rijeka, $571 in Zagreb, $711 in Split, and $867 in Dubrovnik; 80 m2 3BR ranges are much heavier. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | N/A | Public/compulsory insurance is structurally available for covered residents, and maternity/pregnancy care is within the insured healthcare scope, but DN/residence-compliant private insurance quotes and exact HZZO onboarding by status remain application-prep gaps. | §5.6 |
+| Education (future child) | — | N/A | Croatia has an 8-year compulsory primary/lower-secondary single structure and a mandatory, state-financed/free pre-primary year; childcare and international schooling are the budget risks. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -177,13 +177,32 @@ City-level screen:
 
 **Rental strategy.** Use the 40 m2 1BR line as the first-pass proxy for a modest two-room apartment; require a live-listing check before choosing a city. For this couple, target Rijeka first, Zagreb if services / bureaucracy matter more than winter climate, Split only with a strict rent cap, and Dubrovnik only as a later high-income or short-term scenario. Budget at least first month's rent plus a deposit in the relocation budget; exact deposit / agency-fee practice remains for a later practical-budget iteration.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 0.5, last_updated: 2026-06-16, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. This pass captures the HZZO compulsory-insurance baseline, enrolment/change timing, covered-care scope including pregnancy/childbirth for insured persons, and private doctor-cost proxies. Missing before DoD passes: DN/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods/exclusions in private policies, and exact HZZO onboarding for the couple's final status and city (`vq-125`).
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Public / compulsory insurance baseline.** HZZO says compulsory health insurance in Croatia covers Croatian citizens with residence/stay and foreigners with approved permanent or long-term residence, unless EU rules, international agreements, or special laws provide otherwise [src-626]. The same HZZO page lists many insured-person categories, including employees, self-employed activity, children to age 18, family members of insured persons, and certain EU citizens with approved temporary stay [src-626]. For this couple, that means Croatia should be treated as an insurance-status planning problem: DN filing already requires health insurance covering Croatia [src-041], while ordinary/self-employed residence may later need HZZO registration once the exact legal basis is chosen.
 
-[verification required]
+**How to register / update status.** HZZO's registration page says compulsory-health-insurance application, change, or deregistration is filed at any HZZO regional office or branch within 8 days from the creation/change/end of the circumstances that create or end insured status [src-627]. Practical onboarding therefore belongs in the first-month checklist after the exact status is known: keep the residence decision, OIB/tax setup if self-employed, employment/self-employment evidence if applicable, passport/residence card, address proof, and relationship documents ready for the HZZO office.
+
+**Care scope and maternity.** HZZO's scope page includes preventive care for pupils/students in regular Croatian schooling and healthcare for women related to pregnancy monitoring and childbirth in the scope of compulsory-health-insurance healthcare [src-628]. This is a positive family-planning baseline once insured, but it is not a private-policy quote and does not prove waiting-period/exclusion terms for a DN/private-insurance file.
+
+**Private-care cost proxies.** Existing Livingcost city pages give doctor-visit proxies of about $45.2 in Rijeka, $48.2 in Zagreb, $56.3 in Split, and $45.3 in Dubrovnik [src-382][src-383][src-384][src-385]. These are usable first-pass private fallback prices, not insurance premiums or specialist/lab quotes.
+
+**Healthcare playbook.** Use private/travel insurance that explicitly covers Croatia for any DN-style filing; after residence/status selection, confirm whether the couple enters HZZO through self-employment, family-member status, or another basis. Do not budget maternity or chronic-care coverage from private insurance until policy waiting periods and exclusions are quoted.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-16, dod: passed}
+
+> **DoD status**: passed for first-pass screening. Croatia's compulsory/free public education baseline, one-year pre-primary requirement, childcare cost proxies, and international-school cost risk are covered. Confidence is medium-high for system structure and medium for commercial cost proxies.
+
+**Public school structure.** Eurydice describes Croatia's primary/lower-secondary education as a single-structure compulsory system lasting **8 years**, starting at age 6-7 and ending at 14-15 [src-629]. Primary education is carried out in public and private schools, with special programmes for disability, alternative pedagogy, minority-language/script education, and art education [src-629]. For a future child, this makes the public-school route structurally workable if the family accepts Croatian-language integration and local enrolment procedures.
+
+**Early childhood and pre-primary.** Eurydice's ECEC page says early-childhood education and care is provided by kindergartens and other legal entities for children from 6 months to primary-school age, and that all children must participate in a pre-primary programme for 1 year before starting school at age 6 [src-630]. The Eurydice overview adds that the preschool programme is mandatory, fully financed by the state, and free of charge for parents for children in the year before starting elementary school [src-629]. This closes the core DoD for a state-financed pre-primary baseline, but younger childcare remains city/local-provider dependent.
+
+**Childcare and international-school cost risk.** Existing Livingcost city pages give daycare/preschool proxies of about $488/month in Zagreb, $227 in Split, $93.9 in Dubrovnik, and $382 in Rijeka; the same pages give international primary-school proxies of about $12,339/year in Zagreb, $12,886 in Split, $7,253 in Dubrovnik, and $14,986 in Rijeka [src-382][src-383][src-384][src-385]. Treat these as medium-confidence commercial screening values: public Croatian schooling is the realistic one-income plan, while international schooling would be a major budget stress.
+
+**Education playbook.** If Croatia remains under consideration for a child, plan on Croatian public kindergarten/pre-primary/school rather than international school. Budget private/municipal childcare before the compulsory pre-primary year, verify city kindergarten availability after choosing Rijeka/Zagreb/Split, and treat international school as an exception requiring higher income or savings.
+
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -215,7 +234,7 @@ City-level screen:
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Possibly via TP if eligible; DN only if income rises above €3,622.50/month plus partner uplift. Tax planning is not yet a positive reason to choose Croatia: ordinary self-employment looks tight at current income unless lump-sum craft optimization is confirmed. Cost/rent screening points to Rijeka or Zagreb rather than Split / Dubrovnik for a one-income couple.
+- **Can relocate now**: Possibly via TP if eligible; DN only if income rises above €3,622.50/month plus partner uplift. Tax planning is not yet a positive reason to choose Croatia: ordinary self-employment looks tight at current income unless lump-sum craft optimization is confirmed. Cost/rent screening points to Rijeka or Zagreb rather than Split / Dubrovnik for a one-income couple. Healthcare is workable after exact insurance/status mapping; education is workable through Croatian public schooling, while international schools are a major cost risk.
 - **Best legalization path for the man**: TP as temporary bridge; DN only after income increase; ordinary self-employment / craft tax setup requires accountant verification before treating it as affordable.
 - **Best legalization path for the woman**: TP independently if eligible; as DN family member if marriage or provable common-law partnership fits MUP criteria.
 - **Does marriage change the picture**: Yes for immigration proof. Tax benefit is unverified: Croatia has no joint annual PIT return, but a dependent-family-member allowance may matter if eligibility is documented [src-309][src-310].
@@ -241,7 +260,7 @@ City-level screen:
 - Steps in Ukrainian government agencies: obtain criminal-record certificate and civil-status / relationship documents; exact apostille path still pending.
 - What to do with the Polish karta pobytu: keep it valid if possible; do not assume it grants Croatian residence.
 - Financial preparation (USD cushion): DN requires at least €3,622.50/month or €43,470 for 12 months before partner uplift [src-041].
-- For the student partner (academic certificates, translations): [verification required]
+- For the student partner (academic certificates, translations): keep education records/translations ready for later partner/student-status research; for future children, assume Croatian public schooling unless international-school costs are affordable [src-629][src-630].
 - Submitting visa/permit application from abroad: DN can be filed through a Croatian embassy/consulate outside Croatia or online; details depend on legal entry and intended address [src-041].
 
 ### 6b. First month after arrival
@@ -250,7 +269,7 @@ City-level screen:
 - Bank account opening: [verification required]
 - Tax ID / social security number: tax-resident / self-employed setup will require Croatian Tax Administration treatment; exact OIB / craft registration steps remain pending.
 - Long-term housing: screen Rijeka and Zagreb first; Split only with a strict rent cap; Dubrovnik only if income rises or a below-market long lease is found [src-382][src-383][src-384][src-385].
-- Health insurance / public health registration: private/travel insurance covering Croatia is needed for DN; ordinary self-employed social-insurance registration and contribution base remain pending [src-041][src-310].
+- Health insurance / public health registration: private/travel insurance covering Croatia is needed for DN; after exact status is selected, file HZZO application/change within 8 days if the status creates compulsory-insurance coverage [src-041][src-627].
 - SIM card, internet, utilities: [verification required]
 
 ### 6c. First 3–6 months
@@ -294,8 +313,13 @@ City-level screen:
 - [src-040] Croatia4Ukraine / MUP temporary-protection application form.
 - [src-041] Croatia MUP digital-nomad temporary-stay page.
 - [src-042] gov.hr Croatian citizenship page.
+- [src-626] HZZO — insured persons under compulsory health insurance.
+- [src-627] HZZO — compulsory health-insurance registration/change/deregistration.
+- [src-628] HZZO — scope of compulsory health-insurance healthcare.
 
-### 7b. Reputable secondary
+### 7b. Official secondary / reputable secondary
+- [src-629] Eurydice — Croatia education-system overview.
+- [src-630] Eurydice — Croatia early childhood education and care.
 - [src-306] PwC Croatia — individual taxes on personal income.
 - [src-307] PwC Croatia — individual residence.
 - [src-308] PwC Croatia — individual income determination.
@@ -321,9 +345,11 @@ _(none yet)_
 - Exact 2026 Croatian self-employed / craft social-contribution base for a foreign-client IT worker.
 - Official or accountant-confirmed fit of lump-sum craft taxation, VAT/reverse-charge mechanics, and dependent allowance for the couple's exact facts.
 - Live Croatian rental listing validation, deposit / agency-fee practice, and exact neighborhood-level long-lease availability for Rijeka, Zagreb, Split, and Dubrovnik.
+- DN/residence-compliant private health-insurance quotes, maternity waiting periods/exclusions, and exact HZZO onboarding workflow for the couple's final status/city.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-015` — resolved in run-009 as a conservative no-bridge baseline: no Croatia-specific TP bridge is captured; plan on an ordinary Croatian route before TP expiry.
 - `vq-016` — resolved in run-009 with Current Results annual sunshine-day counts [src-045].
 - `vq-092` resolved for screening in run-100: keep Croatia as incomplete/partial with conservative ordinary self-employment stress tests; exact `pausalni obrt`, contribution-band, VAT/reverse-charge, and family allowance fit is application-prep/accountant work.
+- `vq-125` — Croatia healthcare application-prep details: private insurance quotes, maternity exclusions/waiting periods, and exact HZZO onboarding by final status/city.
