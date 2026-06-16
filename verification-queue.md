@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-15
+last_updated: 2026-06-16
 ---
 
 # Verification Queue
@@ -183,6 +183,17 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolution note**: Cyprus profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Nicosia ~295, Limassol ~296, Paphos ~294. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-119]
 
 ## Low priority
+
+
+## vq-124 [medium priority]
+- **Fact**: "Cyprus healthcare application-prep details: DN/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-city GESY beneficiary / personal-doctor registration workflow"
+- **Country**: Cyprus
+- **Section**: 5.6
+- **Current source**: src-035, src-622
+- **Why uncertain**: This healthcare pass captured the DN insurance requirement and the official GESY beneficiary portal anchor, but did not capture live insurer quotes or the exact GESY onboarding workflow for the couple's final city/status.
+- **Suggested verification**: Check the serving Cyprus DN/residence checklist, two or three Cyprus-compliant insurer quote pages for young adults, maternity waiting periods/exclusions, and GESY beneficiary / personal-doctor registration steps after city/status selection.
+- **Created**: 2026-06-16 (run-132)
+- **Status**: pending
 
 
 ## vq-120 [medium priority]

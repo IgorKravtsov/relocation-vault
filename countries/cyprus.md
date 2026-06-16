@@ -1,14 +1,14 @@
 ---
 country: Cyprus
 tier: null
-depth_score: 4.0
-last_updated: 2026-06-11T21:54:00Z
-sections_completed: ["5.2","5.4","5.5"]
-sections_partial: ["5.1","5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "cyprus-social-insurance-category-gap", "limassol-rent-pressure"]
-sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119", "src-293", "src-301", "src-302", "src-303", "src-304", "src-305", "src-371", "src-372", "src-373", "src-374", "src-375"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-16T01:44:44Z
+sections_completed: ["5.2","5.4","5.5","5.7"]
+sections_partial: ["5.1","5.3","5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "cyprus-social-insurance-category-gap", "limassol-rent-pressure", "cyprus-private-insurance-quote-gap", "cyprus-international-school-cost-risk"]
+sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119", "src-293", "src-301", "src-302", "src-303", "src-304", "src-305", "src-371", "src-372", "src-373", "src-374", "src-375", "src-622", "src-623", "src-624", "src-625"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the DN net-income floor is above the couple's current ~$3,000/month budget and this first pass did not find a Cyprus-specific ordinary-residence bridge after 04 March 2027.
-- **depth_score**: 4.0
-- **Last updated**: 2026-06-11
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-16
 - **Tier rationale**: Keep unranked until healthcare, partner mechanics, and post-TP transition risk are researched beyond the first legalization/climate/tax/cost/rent passes.
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | N/A | Cyprus looks moderately tax-workable at USD 3,000/month if self-employment/GHS contributions are deductible: roughly EUR 1,974/month net after a first-pass PIT + social/GHS estimate; exact Social Insurance category floors/ceilings still need official extraction. | §5.3 |
 | Cost of living | — | N/A | First-pass 2026 Livingcost data suggests Cyprus is manageable only with careful city choice: Larnaca/Nicosia are the safer budget screens, Paphos is tighter, and Limassol is too rent-heavy for the couple's current after-tax band. | §5.4 |
 | Rent (decent 2BR) | — | N/A | A one-bedroom apartment with separate bedroom/living room is the practical first target; Livingcost's March 2026 city data puts cheap 1BR rent around $582 Nicosia, $699 Larnaca, $942 Paphos, and $1,231 Limassol. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | N/A | Partial first-pass baseline: GESY is the public-healthcare anchor and DN/residence planning should budget private insurance, but live quotes and city-level registration workflows remain application-prep checks. | §5.6 |
+| Education (future child) | — | N/A | Public education is free from compulsory pre-primary through upper secondary ages, but under-age childcare and international schools are material budget risks. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -183,13 +183,28 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 
 **City recommendation for housing search.** Start with **Larnaca** for the best climate/price compromise, then **Nicosia** if rent is the overriding constraint and summer heat is acceptable. Use **Paphos** only if a below-market long-term lease is found. Avoid making **Limassol** the default city at the current income level.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-16, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. This pass opens the Cyprus healthcare baseline with the official GESY beneficiary portal, DN insurance requirement, and private doctor-visit proxies. Missing: route-compliant private-insurance quotes for two young adults, maternity waiting periods / exclusions, and the exact local GESY personal-doctor / beneficiary registration workflow after the final city and residence status are chosen.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+Cyprus's public-healthcare anchor is the General Healthcare System (GESY/GHS). The official GESY beneficiary portal is the operational entry point for beneficiary services and should be treated as the first registration/checking portal once the couple has a Cyprus residence/status file and local identifiers [src-622]. The earlier DN route evidence also matters for healthcare: Cyprus Digital Nomad applicants must show medical-insurance coverage, so private insurance is not optional at filing time even if later GESY access becomes available [src-035].
 
-[verification required]
+For a protected/status-based stay, treat public healthcare as status-dependent rather than automatic on arrival. The country already has an official Cyprus TP application/extension anchor [src-036], but this healthcare pass did not capture a current English official page that maps Ukrainian TP, DN, tax/social-insurance registration, and GESY beneficiary eligibility in one place. Therefore, the safe first-month playbook is: (1) keep travel/private medical insurance active from arrival; (2) after residence filing, confirm whether the exact status allows GESY beneficiary registration; (3) register with GESY / a personal doctor if eligible; and (4) keep private cover for exclusions, waiting periods, and faster specialist access until the public pathway is confirmed.
+
+Private-care fallback looks manageable for occasional use but not for a chronic-care plan. Livingcost's 2026 city pages put a doctor visit at about **$53.7 in Nicosia**, **$50.9 in Larnaca**, **$58.7 in Paphos**, and **$64.2 in Limassol** [src-372][src-373][src-374][src-375]. These are commercial city-cost proxies, not clinic quotes; use them only to screen that occasional private visits are plausible while leaving insurer, maternity, specialist, laboratory, and emergency costs for application-prep research.
+
+**Practical conclusion.** Cyprus healthcare is workable enough for first-pass screening if the couple enters with private insurance and treats GESY registration as a post-status task. It is not yet passed because the vault still lacks live Cyprus-compliant insurance quotes, exact GESY registration steps for the chosen status/city, and maternity/exclusion details for a future-child scenario. Add `vq-124` for those application-prep details.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-16, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. Public compulsory/free education ages, pre-primary/primary anchors, childcare cost proxy, and international-school cost risk are covered. Later city selection should still check school-language fit and specific school availability.
+
+Cyprus is structurally positive for a future child if the couple accepts public schooling and the language transition. Eurydice's Cyprus overview says compulsory education lasts **10 years and 4 months**, from pre-primary age to age 15, and public education is free for students in the broad school-age range through upper secondary; textbooks are also free [src-623]. The early-childhood page gives the same public/free baseline and indicates that pre-primary is part of the compulsory pathway [src-624]. Public primary education is a six-year cycle, free and compulsory for children who have reached age 6 [src-625].
+
+The budget risk is before compulsory/public school and in any English/international-school strategy. Livingcost's Cyprus country page gives a 2026 daycare/preschool proxy of about **$506/month** and international primary school at about **$8,180/year** [src-371]. City proxies vary materially: daycare/preschool is about **$529 Nicosia**, **$386 Larnaca**, **$474 Paphos**, and **$644 Limassol** per month, while international primary school is about **$9,656 Nicosia**, **$10,510 Larnaca**, **$6,731 Paphos**, and **$10,595 Limassol** per year [src-372][src-373][src-374][src-375]. These are commercial proxies, not school quotes, but they are enough to flag international education as a major one-income risk.
+
+**Practical education baseline.** For a child at public-school age, Cyprus can screen as acceptable: public education is free, compulsory, and backed by an EU education-system source [src-623][src-625]. For a baby/toddler or an English-only schooling plan, the budget gets much tighter. Larnaca remains the best first-pass city balance because it combines the preferred housing/cost profile with the lowest captured daycare proxy; Limassol is again the worst budget fit. Before a real move with a child, check local school catchments, language-support practice, nursery availability, and exact international-school fees in the chosen city.
+
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -226,7 +241,7 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 - **Best legalization path for the woman**: TP independently if eligible; DN dependent only if spouse / civil-union partner or another confirmed family basis exists.
 - **Does marriage change the picture**: Yes. Official DN family coverage includes spouse / civil-union partner, not an informal girlfriend [src-035].
 - **Realism of staying after 03.2027**: Unclear / medium-low at current income until a Cyprus post-TP bridge or a feasible ordinary residence route is verified.
-- **Budget fit after rent pass**: Tight. Larnaca and Nicosia are the only first-pass cities that look potentially manageable on the current income; Paphos needs a low-rent lease, and Limassol is too expensive by default. [src-372][src-373][src-374][src-375]
+- **Budget fit after rent / healthcare / education passes**: Tight. Larnaca and Nicosia are the only first-pass cities that look potentially manageable on the current income; Paphos needs a low-rent lease, and Limassol is too expensive by default. Healthcare requires private-insurance budgeting before GESY status is confirmed, and international school would be a major one-income risk. [src-035][src-371][src-372][src-373][src-374][src-375][src-622][src-623]
 
 **Pros**:
 - Very strong warm-climate fit, especially coastal cities.
@@ -255,7 +270,7 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 - Bank account opening: [verification required]
 - Tax ID / social security number: use the Tax Department tax-registration route and Social Insurance employee/self-employed registration anchors; exact documents/portal flow still need accountant confirmation [src-305].
 - Long-term housing: start with Larnaca or Nicosia and screen 1BR / small two-room flats against a hard EUR 600-900/month target; avoid Limassol as the default city at current income [src-372][src-373][src-374].
-- Health insurance / public health registration: [verification required]
+- Health insurance / public health registration: keep private medical insurance active from arrival; after the residence/status file is clear, check GESY beneficiary registration and personal-doctor onboarding through the official portal [src-622].
 - SIM card, internet, utilities: [verification required]
 
 ### 6c. First 3–6 months
@@ -281,7 +296,7 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 | Flights for two | — | TBD |
 | Rental deposit | EUR 600-1,800+ | At least first month's rent plus one-month deposit for a budget 1BR; exact Cyprus deposit / agency practice still needs live lease verification. |
 | First month rent | EUR 600-900 target outside Limassol | Larnaca/Nicosia first; Paphos only with low-rent lease; Limassol usually exceeds the safe band [src-372][src-373][src-374][src-375]. |
-| Health insurance (one year) | — | TBD |
+| Health insurance (one year) | — | Required for DN filing; exact two-adult quote and maternity/exclusion wording remain an application-prep gap [src-035]. |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | Pending rent / insurance / travel research. |
@@ -303,10 +318,14 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 - [src-301] Cyprus Tax Department — Tax rates for income tax from 1991.
 - [src-304] Cyprus Tax Department — GHS/GESY contributions.
 - [src-305] Cyprus Tax Department and Social Insurance Services — registration anchors.
+- [src-622] GESY / Health Insurance Organisation — beneficiary portal.
 
 ### 7b. Reputable secondary
 - [src-302] PwC Worldwide Tax Summaries — Cyprus individual taxes and residence.
 - [src-303] PwC Worldwide Tax Summaries — Cyprus social contributions, deductions, and tax administration.
+- [src-623] Eurydice — Cyprus education-system overview.
+- [src-624] Eurydice — Cyprus early childhood education and care.
+- [src-625] Eurydice — Cyprus primary education.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -328,3 +347,4 @@ _(none yet)_
 ## Block 8 — Open questions and verification markers
 
 - `vq-091` resolved for screening in run-100: keep the captured Cyprus tax baseline and treat exact self-employed social-insurance category, contribution deductibility, and filing posture as application-prep/accountant checks.
+- `vq-124` added in run-132 for Cyprus healthcare application-prep details: route-compliant private-insurance quotes, maternity waiting periods/exclusions, and selected-city GESY registration workflow.

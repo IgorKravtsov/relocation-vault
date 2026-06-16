@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-15
+last_updated: 2026-06-16
 ---
+
+## 2026-06-16 - run-132 - Cyprus healthcare/education first pass
+
+- Opened Cyprus section 5.6 as partial and section 5.7 as completed with GESY/private-insurance, public education, childcare, and international-school baselines.
+- Added sources `src-622` through `src-625`, claims `claim-cyprus-012` through `claim-cyprus-015`, and verification item `vq-124` for insurance quotes / GESY onboarding details.
+- Cyprus depth_score moved from 4.0 to 5.5; new flags `cyprus-private-insurance-quote-gap` and `cyprus-international-school-cost-risk`; next suggested focus is Croatia 5.6/5.7 while verification remains below threshold.
 
 ## 2026-06-15 — run-131
 - Greece: depth_score 4.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)

@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-15
+last_updated: 2026-06-16
 ---
 
 # Sources Registry
@@ -7480,3 +7480,52 @@ Each source entry:
 - **Facts supporting**: Greece ECEC split between under-age-4 municipal/private care and age-4/5 pre-primary school; compulsory two-year preschool from age 4; public nipiagogeia free-of-charge baseline (claim-greece-014)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2026-12-15
+
+
+## src-622
+- **Title**: GESY / Health Insurance Organisation — Beneficiary portal
+- **URL**: https://www.gesy.org.cy/beneficiary/?lang=en
+- **Archive**: [stable official portal; direct HTML shell captured 2026-06-16]
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus healthcare baseline; official GESY beneficiary portal anchor for public-healthcare registration / beneficiary checks after status is established
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-623
+- **Title**: Eurydice — Cyprus: Overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/cyprus/overview
+- **Archive**: [stable EU education-system page; direct HTML captured 2026-06-16]
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus compulsory-education duration, public/free education baseline, and free textbooks for first-pass future-child education screening
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-16
+
+## src-624
+- **Title**: Eurydice — Cyprus: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/cyprus/early-childhood-education-and-care
+- **Archive**: [stable EU education-system page; direct HTML captured 2026-06-16]
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus pre-primary / early-childhood public education baseline and compulsory/free education context
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-16
+
+## src-625
+- **Title**: Eurydice — Cyprus: Primary education
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/cyprus/primary-education
+- **Archive**: [stable EU education-system page; direct HTML captured 2026-06-16]
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus public primary education: six-year cycle, free and compulsory for children who have reached age 6
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-16
