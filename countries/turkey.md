@@ -1,14 +1,14 @@
 ---
 country: Turkey
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-13T08:11:06Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent", "turkey-self-employment-and-sgk-fit-gap", "istanbul-rent-pressure", "turkey-one-income-margin-risk"]
-sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163", "src-359", "src-360", "src-361", "src-362", "src-363", "src-364", "src-533", "src-534", "src-535", "src-536"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-17T19:02:21Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent", "turkey-self-employment-and-sgk-fit-gap", "istanbul-rent-pressure", "turkey-one-income-margin-risk", "turkey-private-insurance-quote-gap", "turkey-international-school-cost-risk"]
+sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163", "src-359", "src-360", "src-361", "src-362", "src-363", "src-364", "src-533", "src-534", "src-535", "src-536", "src-671", "src-672", "src-673", "src-674", "src-675"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Turkey is easy to enter for Ukrainians and has an official digital-nomad / remote-work channel, but the route sits exactly at the couple's current ~$3,000/month income and long-term settlement depends on ordinary Turkish residence rather than an EU-style Ukraine temporary-protection bridge.
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-13T08:11:06Z
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-17T19:02:21Z
 - **Tier rationale**: Not assigned until taxes, cost, healthcare, rent, and actual residence-renewal practice are researched.
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | First-pass resident / self-employed tax model added: ordinary progressive PIT is heavy at the couple's income, and SGK / VAT / immigration-status fit remain unresolved. | §5.3 |
 | Cost of living | — | medium | Livingcost 2026 screens Turkey as budget-plausible nationally and in Izmir/Antalya, but tax and inflation/currency risk make the one-income margin tight. | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 1BR proxies are workable in Izmir/Antalya but Istanbul is rent-pressured; live listings and lease/address-registration support remain later checks. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | Public/SGK and health-insurance baselines opened, but exact private policy quotes, maternity/newborn exclusions, and route-specific SGK onboarding remain application-prep gaps. | §5.6 |
+| Education (future child) | — | medium | Public 12-year compulsory school structure, free public pre-primary institutions, and Istanbul international-school fee benchmarks captured; Turkish-language integration remains the practical issue. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -162,13 +162,27 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 
 **Rent verdict:** Turkey passes first-pass rent screening outside Istanbul. Add `istanbul-rent-pressure` and `turkey-one-income-margin-risk`: the modest apartment proxy can be manageable in Izmir/Antalya, but the DN threshold, tax downside, and Turkish inflation/currency volatility leave little margin at the current USD 3,000/month income.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 0.5, last_updated: 2026-06-17, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. Turkey now has a screenable healthcare baseline: residence filing requires health-insurance evidence, SGK / General Health Insurance is the public-insurance institution map, and the Ministry of Health is the public-system authority. Missing before DoD can pass: route-compliant private insurance quotes for two young adults, maternity/newborn exclusions and waiting periods, exact SGK/GSS onboarding for DN / ordinary residence / self-employed status, and city-specific private GP, pediatric, and maternity prices.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+- **Residence-file insurance baseline**: the ordinary residence / e-ikamet route already requires the couple to prepare health-insurance evidence as part of filing. Treat private health insurance as a required arrival-file input until a Turkish adviser confirms whether and when the chosen status can shift to SGK / General Health Insurance. [src-145][src-147] Confidence: medium-high.
+- **Public system map**: SGK is the public Social Security Institution and its public site exposes the General Health Insurance (GSS) area plus e-SGK / e-Devlet service links. The Ministry of Health is the public health authority. This is enough to know the public system is not a pure private-insurance-only environment, but it does not prove the exact foreign resident enrollment path for a DN / foreign-client freelancer. [src-671][src-672] Confidence: medium.
+- **Pregnancy / childbirth**: this pass did not capture an English official SGK benefit page proving maternity/newborn coverage for the couple's likely residence category. Do not budget pregnancy or childbirth on public coverage until SGK/GSS enrollment and coverage are confirmed for the final status. Confidence: low-to-medium; see `vq-137`.
+- **Private care / insurance gap**: Turkey has substantial private healthcare capacity, especially in Istanbul/Izmir/Antalya, but this pass did not capture comparable insurance quotes or clinic price lists. For screening, keep a cash buffer and assume a private-policy year is needed for both residence filing and early months.
 
-[verification required]
+**Healthcare verdict:** Turkey is not blocked by healthcare at the country-screening level, but the budget is still incomplete. Add `turkey-private-insurance-quote-gap`: the DN income threshold and tax downside mean private insurance, SGK/GSS contributions, and maternity exclusions can materially change the one-income budget.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-17, dod: passed}
+
+> **DoD status**: passed for first-pass screening at medium confidence. Public school structure, preschool access/cost baseline, and an international-school fee benchmark are captured. Later child-specific planning still needs Turkish-language integration, catchment/address rules, and non-Istanbul private-school checks.
+
+- **System structure / public schools**: Eurydice's Turkey overview says the Ministry of National Education carries pre-primary, primary, and upper-secondary education, and that compulsory education has been 12 years since 2012/2013: four years elementary, four years lower secondary, and four years upper secondary. The organisation page adds that primary/lower-secondary compulsory education covers roughly ages 6-14, with first grade generally starting for children who turn 69 months by the end of September. [src-673][src-674] Confidence: medium-high.
+- **Preschool / kindergarten**: pre-primary education is generally voluntary. MoNE is generally responsible for children aged 36 months and above, while MoFSS covers 0-36 months and shares the 36-68 month layer. Public institutions provide pre-primary education services free of charge, while private nurseries/daycare centers charge fees; private capacity also has a small free-care allocation for priority vulnerable groups. [src-674] Confidence: medium-high.
+- **Foreign-child practicality**: the captured official-secondary pages describe the Turkish system, not a tailored Ukrainian-language integration package. The safe planning baseline is Turkish-language public school unless the family budgets for private/international schooling. For a future child, choose a city and neighborhood based on school catchment and language support, not only rent.
+- **International-school alternative**: International Schools Database lists 34 international schools in Istanbul. Published 2026/2027 examples include Istanbul International School at about **TRY 949,548-1,446,405/year**, Keystone International Schools at about **TRY 966,587-2,349,344/year**, and Istanbul International Community School at about **TRY 1,801,805-2,138,550/year**. These fees are far above what the couple should treat as routine on one USD 3,000/month income. [src-675] Confidence: medium.
+
+**Education verdict:** public education is the only budget-realistic baseline for a future child. Turkey passes first-pass education screening, but add `turkey-international-school-cost-risk`: English-language international schooling in Istanbul can consume or exceed the entire annual disposable margin, so the family must be comfortable with Turkish-language integration or confirm a much cheaper city/private-school option.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -206,6 +220,7 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 - **Does marriage change the picture**: likely yes; use marriage as the conservative baseline for dependent planning until official unmarried-partner treatment is verified.
 - **Realism of staying after 03.2027**: medium/uncertain; Turkey avoids EU TP expiry mechanics but depends on ordinary residence renewals and an eight-year long-term-residence clock. [src-154]
 - **Best cost/rent city screen**: Izmir first for services/cost/climate balance; Antalya if mild winters matter most and tourist-season lease risk is controlled; Istanbul only with a strict housing cap because it is the captured rent-pressure case. [src-534][src-535][src-536]
+- **Healthcare/education screen**: healthcare is feasible but quote/onboarding-sensitive; public education is the budget baseline, while Istanbul international-school fees are not compatible with a one-income USD 3,000/month plan. [src-671][src-672][src-673][src-674][src-675]
 
 **Pros**:
 - Easy regional access and likely simple entry baseline for Ukrainians.
@@ -216,7 +231,7 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 - $3,000/month DN threshold is exactly at the couple's current income, leaving little margin.
 - No captured Ukraine-specific TP bridge or protection equivalent.
 - Long-term residence / citizenship pathway needs article-level verification.
-- Currency, inflation, rent, healthcare, and exact SGK/VAT tax impacts remain material unresolved risks.
+- Currency, inflation, rent, private-health-insurance / SGK onboarding, international-school costs, and exact SGK/VAT tax impacts remain material unresolved risks.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -248,7 +263,7 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 | Flights for two | — | TBD |
 | Rental deposit | — | Live-listing check required; plan at least one to two months as a placeholder until Turkish lease norms are verified. |
 | First month rent | $388-$596 modest Izmir/Antalya 40 m2 proxy; Istanbul $561-$896 | Livingcost first-pass proxy only; exact 2-room live listings remain application-prep. [src-534][src-535][src-536] |
-| Health insurance (one year) | — | Healthcare pass required. |
+| Health insurance (one year) | — | Private quote and SGK/GSS onboarding verification still required; assume a private-policy year until route-specific advice confirms otherwise. [src-671] |
 | Immigration lawyer fees | — | Bureaucracy pass required. |
 | Buffer / contingencies | — | Important because income threshold is tight. |
 | **Total** | — | |
@@ -269,6 +284,8 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 
 ### 7b. Official secondary
 - [src-148] GoTurkey digital-nomad application / tourism portal.
+- [src-673] Eurydice Turkey overview.
+- [src-674] Eurydice Turkey early childhood education and care / organisation of the education system.
 
 ### 7b. Reliable secondary tax sources
 - [src-359] PwC Turkey individual residence.
@@ -291,8 +308,13 @@ _(none yet)_
 - [src-151] Climate to Travel — Antalya.
 - [src-162] WeatherSpark — Istanbul cloud-cover / clearer-sky percentages.
 - [src-163] WeatherSpark — Izmir cloud-cover / clearer-sky percentages.
+- [src-675] International Schools Database — Istanbul international schools.
 
-### 7e. Not found
+### 7e. Official primary healthcare
+- [src-671] SGK Turkey Social Security Institution / General Health Insurance public site.
+- [src-672] Turkey Ministry of Health public site.
+
+### 7f. Not found
 - Official Ukraine-specific Turkish temporary-protection / post-2027 bridge page: not found; run-028 closed the operational baseline to ordinary residence planning because the captured official TP framework is Syria/mass-influx oriented and does not transfer to long-term residence. [src-146][src-154]
 - Direct official meteorological sunny-day counts for Antalya; current operational baseline uses Climate to Travel sunshine hours.
 
@@ -303,3 +325,4 @@ _(none yet)_
 - `vq-049` — resolved in run-028 for long-term residence counting: at least eight years continuous residence; student time half, other ordinary permit time full; TP/humanitarian residence does not transfer. Citizenship remains a later nationality pass. [src-154]
 - `vq-050` — resolved in run-030 at medium confidence: WeatherSpark clearer-sky day-equivalent proxies added for Istanbul (~231 days/year) and Izmir (~266 days/year); Antalya remains represented by a strong sunshine-hour proxy (~2,865 h/year) rather than an official sunny-day count. [src-151][src-162][src-163]
 - `vq-103` — resolved in run-075 for screening: use the PIT-only model and SGK sensitivity as conservative planning baselines; self-employment permission, SGK / Bag-Kur premium base, VAT/export treatment, foreign-income exemption eligibility, and DN/ordinary-residence tax fit remain Turkish adviser / application-prep checks before filing. [src-359][src-360][src-361][src-362][src-363][src-364]
+- `vq-137` — added in run-145: Turkey private health-insurance quotes, maternity/newborn coverage, SGK/GSS onboarding by residence route, and city-specific private healthcare prices.

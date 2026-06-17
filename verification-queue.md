@@ -68,6 +68,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-17 (run-144)
 - **Status**: pending
 
+## vq-137 [medium priority]
+- **Fact**: "Turkey private health-insurance quotes, maternity/newborn coverage, exact SGK/GSS onboarding by DN / ordinary residence / self-employed / family status, and Istanbul/Izmir/Antalya private GP, pediatric, and maternity prices"
+- **Country**: Turkey
+- **Section**: 5.6
+- **Current source**: src-145, src-147, src-671, src-672
+- **Why uncertain**: PMM/e-ikamet sources show health-insurance evidence is a residence-file input, and SGK / Ministry sources map the public system, but this pass did not capture private policy premiums, maternity/newborn exclusions, exact foreign-resident SGK/GSS enrollment by route, or city-specific private-care prices.
+- **Suggested verification**: Get insurer quotes for two young adults, ask a Turkish immigration/accounting adviser how DN / ordinary residence / self-employed / family statuses join SGK/GSS or satisfy PMM insurance evidence, and check Istanbul/Izmir/Antalya GP, pediatrician, maternity, and private clinic prices.
+- **Created**: 2026-06-17 (run-145)
+- **Status**: pending
+
 
 ## vq-003 [medium priority]
 - **Fact**: "Exact sunny days per year for Athens, Thessaloniki, and Heraklion"

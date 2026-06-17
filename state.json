@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 144,
+  "iteration": 145,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-17T15:51:27Z",
+  "last_run_timestamp": "2026-06-17T19:02:21Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Serbia",
+    "country": "Turkey",
     "sections": [
       "5.6",
       "5.7"
@@ -16,7 +16,7 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Turkey",
+    "suggested_country": "Georgia",
     "suggested_sections": [
       "5.6",
       "5.7"
@@ -550,19 +550,19 @@
     "Turkey": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -573,10 +573,12 @@
         "family-route-likely-marriage-dependent",
         "turkey-self-employment-and-sgk-fit-gap",
         "istanbul-rent-pressure",
-        "turkey-one-income-margin-risk"
+        "turkey-one-income-margin-risk",
+        "turkey-private-insurance-quote-gap",
+        "turkey-international-school-cost-risk"
       ],
-      "last_iteration": 111,
-      "unverified_count": 0
+      "last_iteration": 145,
+      "unverified_count": 1
     },
     "Georgia": {
       "tier": null,
@@ -1102,8 +1104,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 7,
-  "sources_count": 669,
-  "claims_count": 581,
+  "verification_queue_size": 8,
+  "sources_count": 674,
+  "claims_count": 585,
   "proposals_pending": 0
 }

@@ -8075,3 +8075,63 @@ Each source entry:
 - **Facts supporting**: Belgrade international-school market and fee benchmarks, including International School of Belgrade 2026/2027 yearly fees (claim-serbia-023)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-17
+
+## src-671
+- **Title**: SGK Turkey Social Security Institution / General Health Insurance public site
+- **URL**: https://www.sgk.gov.tr/ ; https://www.sgk.gov.tr/Content/Post/b8664248-0ed2-4d28-ae80-89df691fd21d/Ilave-Ucret-2022-05-14-09-21-06
+- **Archive**: stable official public site; text mirror extraction used where direct page text was dynamic
+- **Type**: official-primary
+- **Date published**: public pages, no single publication date captured
+- **Date accessed**: 2026-06-17
+- **Used by**: Turkey
+- **Facts supporting**: public SGK / General Health Insurance institution map and healthcare-provider extra-fee context used to open Turkey section 5.6 healthcare baseline (claim-turkey-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-17
+
+## src-672
+- **Title**: Turkey Ministry of Health public site
+- **URL**: https://www.saglik.gov.tr/
+- **Archive**: stable official public site; text mirror extraction used
+- **Type**: official-primary
+- **Date published**: current public site; no single publication date captured
+- **Date accessed**: 2026-06-17
+- **Used by**: Turkey
+- **Facts supporting**: public Ministry of Health authority/contact baseline for Turkey healthcare-system orientation (claim-turkey-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-17
+
+## src-673
+- **Title**: Eurydice - Turkey: Overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/turkey/overview
+- **Archive**: stable EU/EACEA Eurydice page; text mirror extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2025-12-09 in extracted page
+- **Date accessed**: 2026-06-17
+- **Used by**: Turkey
+- **Facts supporting**: Turkish education-system structure, MoNE role, and 12-year compulsory education split into 4+4+4 stages (claim-turkey-020)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-674
+- **Title**: Eurydice - Turkey: Early childhood education and care / organisation of the education system
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/turkey/early-childhood-education-and-care ; https://eurydice.eacea.ec.europa.eu/national-education-systems/turkey/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice pages; text mirror extraction used
+- **Type**: official-secondary
+- **Date published**: current public pages; 2026 extraction used
+- **Date accessed**: 2026-06-17
+- **Used by**: Turkey
+- **Facts supporting**: preschool age-band responsibilities, voluntary pre-primary baseline, free public pre-primary services, private nursery/daycare fee caveat, and primary/lower-secondary age rules (claim-turkey-020, claim-turkey-021)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-675
+- **Title**: International Schools Database - Istanbul international schools
+- **URL**: https://www.international-schools-database.com/in/istanbul
+- **Archive**: stable commercial directory page; text mirror extraction used
+- **Type**: commercial
+- **Date published**: 2026/2027 fee data shown where published
+- **Date accessed**: 2026-06-17
+- **Used by**: Turkey
+- **Facts supporting**: Istanbul international-school market and fee benchmarks for future-child budget risk (claim-turkey-022)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17

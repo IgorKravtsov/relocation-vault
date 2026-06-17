@@ -161,3 +161,39 @@
   confidence: medium
   tags: [cost-of-living, rent, antalya, turkey]
   notes: "Warm-coast first-pass option; tourist-season lease pressure remains a later live-listing check."
+
+- id: claim-turkey-019
+  topic: turkey_healthcare_public_system_baseline
+  value: "SGK is the public Social Security Institution / General Health Insurance map, while the Ministry of Health is the public health authority; this opens the public-system baseline but does not prove route-specific foreign-resident enrollment for a DN or self-employed IT worker."
+  source: src-671
+  date_verified: 2026-06-17
+  confidence: medium
+  tags: [healthcare, public-insurance, sgk, turkey]
+  notes: "Composite healthcare-screening claim using src-671 and src-672; exact SGK/GSS onboarding remains vq-137."
+
+- id: claim-turkey-020
+  topic: turkey_compulsory_school_structure
+  value: "Compulsory education in Turkey is 12 years: four years elementary, four years lower secondary, and four years upper secondary; primary/lower-secondary compulsory education covers roughly ages 6-14."
+  source: src-673
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, compulsory-school, turkey]
+  notes: "Composite claim using Eurydice overview and organisation pages (src-672 and src-674)."
+
+- id: claim-turkey-021
+  topic: turkey_preschool_access_cost_baseline
+  value: "Pre-primary education is generally voluntary; MoNE/MoFSS split responsibility by age band, and public pre-primary institutions provide services free of charge while private nurseries and daycare centers charge fees."
+  source: src-674
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, preschool, kindergarten, turkey]
+  notes: "Used to pass the education first-pass DoD for public preschool cost/access baseline."
+
+- id: claim-turkey-022
+  topic: istanbul_international_school_fee_risk
+  value: "International Schools Database lists 34 international schools in Istanbul, with published 2026/2027 examples including Istanbul International School at TRY 949,548-1,446,405/year, Keystone International Schools at TRY 966,587-2,349,344/year, and Istanbul International Community School at TRY 1,801,805-2,138,550/year."
+  source: src-675
+  date_verified: 2026-06-17
+  confidence: medium
+  tags: [education, international-school, istanbul, turkey]
+  notes: "Used to add turkey-international-school-cost-risk; international schooling is not the default budget baseline."

@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-17
 ---
 
+## 2026-06-17 — run-145
+- Turkey: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial).
+- Sources added: src-671 through src-675.
+- Claims added: claim-turkey-019 through claim-turkey-022.
+- Verification queue: 7 -> 8 pending/open items (added vq-137).
+
 ## 2026-06-17 — run-144
 - Serbia: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial).
 - Sources added: src-667 through src-670.
