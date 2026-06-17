@@ -7845,3 +7845,51 @@ Each source entry:
 - **Facts supporting**: Budapest international-school market and British International School Budapest 2025/2026 fee benchmark for future-child budget risk (claim-hungary-024)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-17
+
+## src-652
+- **Title**: IOM Migration Information Centre Slovakia — Health Care / Public health insurance / Insurance card and payments / Doctors and medical facilities
+- **URL**: https://www.mic.iom.sk/en/social-issues/health-care.html ; https://www.mic.iom.sk/en/social-issues/health-care/438-public-health-insurance.html ; https://www.mic.iom.sk/en/social-issues/health-care/440-insurance-card-and-payments-for-health-care.html ; https://www.mic.iom.sk/en/social-issues/health-care/442-doctors-and-medical-facilities-in-slovakia.html
+- **Archive**: stable IOM pages via Jina text mirror — direct extraction used
+- **Type**: reputable-secondary
+- **Date published**: public-health page last updated 2026-02-11; other subpages last updated 2021-03-08
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovakia
+- **Facts supporting**: healthcare screening baseline: public-health-insurance eligibility mechanics, insurance-card proof, doctor/facility lookup, and IOM consultation contact point (claim-slovakia-020, claim-slovakia-021)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-11
+
+## src-653
+- **Title**: Eurydice — Slovakia: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/slovakia/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page — direct extraction used
+- **Type**: official-secondary
+- **Date published**: accessed current 2026-06-17
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovakia
+- **Facts supporting**: Slovakia ECEC baseline: care for ages 6 months to 3 years, kindergarten ages 3-6, compulsory last kindergarten year from age 5, and free compulsory pre-primary education in public kindergartens (claim-slovakia-022)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-654
+- **Title**: Eurydice — Slovakia: Organisation of the education system and of its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/slovakia/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page — direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2025-08-20 in extracted page
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovakia
+- **Facts supporting**: Slovakia school-system baseline: compulsory school attendance duration, start age, primary-school stages, and state/private/church school choice (claim-slovakia-023)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-655
+- **Title**: International Schools Database — Bratislava international schools
+- **URL**: https://www.international-schools-database.com/in/bratislava
+- **Archive**: stable page — direct extraction used
+- **Type**: commercial
+- **Date published**: 2025/2026 fee data shown on page
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovakia
+- **Facts supporting**: Bratislava international-school market and 2025/2026 fee benchmarks for future-child budget risk (claim-slovakia-023)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17

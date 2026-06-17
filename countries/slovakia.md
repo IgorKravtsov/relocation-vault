@@ -1,14 +1,14 @@
 ---
 country: Slovakia
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-12T19:43:03Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge", "slovakia-szco-tax-and-immigration-fit-gap", "bratislava-rent-pressure"]
-sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173", "src-338", "src-339", "src-340", "src-341", "src-342", "src-343", "src-517", "src-518", "src-519", "src-520"]
-unverified_count: 1
+depth_score: 5.5
+last_updated: 2026-06-17T06:21:38Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge", "slovakia-szco-tax-and-immigration-fit-gap", "bratislava-rent-pressure", "slovakia-health-insurance-onboarding-gap", "slovakia-international-school-cost-risk"]
+sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173", "src-338", "src-339", "src-340", "src-341", "src-342", "src-343", "src-517", "src-518", "src-519", "src-520", "src-652", "src-653", "src-654", "src-655"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to a practical but administratively heavy Tier-2-style profile rather than an obvious Tier-1 route: Slovakia has EU temporary protection through 04 March 2027 and an ordinary self-employed/business residence route, but no dedicated digital-nomad visa and no captured post-2027 TP-to-ordinary-residence bridge. [src-002][src-100][src-101]
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-12
-- **Tier rationale**: Keep unassigned until healthcare, education, and whether business/SZCO residence is operational for a foreign-client IT contractor are confirmed. Cost/rent now looks manageable outside Bratislava but does not solve the legal-route burden.
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-17
+- **Tier rationale**: Keep unassigned until comfort, partner/student fit, risk dimensions, bureaucracy, and whether business/SZCO residence is operational for a foreign-client IT contractor are confirmed. Healthcare is screenable but status-sensitive, and cost/rent looks manageable outside Bratislava without solving the legal-route burden.
 
 ## Block 2 — Scoring
 
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | First-pass SZCO/tax-resident model captured: 19% PIT under the current-income band, 60% lump-sum expenses up to EUR 20,000/year if not VAT payer, official 2026 social-insurance minimum EUR 303.11/month, health-insurance minimum EUR 121.92/month, and a USD 3,000/month stress test. Exact foreign-client IT trade fit, VAT/reverse-charge handling, and business-residence compatibility remain open. | §5.3 |
 | Cost of living | — | medium | First-pass Livingcost screen suggests Slovakia is manageable on gross USD 3,000/month and on the tax-section net only in a disciplined smaller-city budget; family proxy exceeds gross income in Bratislava and Kosice. | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 1BR proxy ranges from about USD 481/month cheap in Poprad to USD 921/month central in Bratislava; use Poprad/Kosice before Bratislava unless services/legal reasons dominate. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | TP healthcare rights and public-health-insurance mechanics are screenable; ordinary business/family-route onboarding and live private-insurance details remain application-prep checks. | §5.6 |
+| Education (future child) | — | medium-high | Eurydice captures nursery / kindergarten / compulsory-school structure, and Bratislava international-school fees are high enough to flag a future-child budget risk. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -180,13 +180,33 @@ For the current two-adult household, Slovakia can be screened as **possible but 
 
 Practical housing baseline: for a Slovakia scenario, start with **Poprad for affordability** and **Kosice for services/cost balance**; treat **Bratislava as rent-pressured** unless the couple has a strict cheap-1BR cap or a legal/accountant/community reason to be in the capital. The 80 m2 line shows that a future-child / larger-flat budget would become tight quickly even before healthcare, childcare, and car costs. [src-518][src-519][src-520]
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-17, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This pass captures a screening baseline for TP healthcare rights, public-health-insurance eligibility mechanics, insurance cards, and doctor/facility lookup. It does not capture final-status private-insurance quotes, maternity exclusions / waiting periods, or exact insurer / GP onboarding steps for the couple's chosen ordinary route and city.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+For Ukrainians under temporary protection, the existing Slovakia TP source already states that TP gives access to the public healthcare system. This makes healthcare available for the near-term protection scenario, but TP should not be treated as the post-2027 ordinary-status plan. [src-100]
 
-[verification required]
+For ordinary residence, IOM Slovakia explains that the range and price of healthcare depend on the type of health insurance. Public health insurance is generally mandatory for people with permanent residence, and people without permanent residence can also fall into compulsory public insurance if they meet listed statutory conditions; a foreign national who obtains permanent residence must sign up within 8 days. This is enough for screening but not enough to assume that every business-residence / family-reunification scenario automatically enters the same public-insurance path on day one. [src-652]
+
+IOM also states that insured participation is proven by a health-insurance card, issued by the health insurance company and shown when visiting doctors or healthcare facilities. For ordinary business residence, the immigration section's existing filing baseline remains important: after collecting the residence document, the applicant must obtain health insurance within three working days and submit proof within 30 days. [src-652][src-101]
+
+Practical access baseline: IOM points foreigners to public catalogues for health facilities and doctors / clinics. For the couple, that means Bratislava and Kosice should be easier healthcare screens than Poprad; Poprad can still work as an affordability fallback, but specialist access and English-/Ukrainian-/Russian-speaking providers need city-specific checking before choosing it. [src-652]
+
+**Screening conclusion for the couple.** Slovakia healthcare is not a country-screening blocker, but it is status-sensitive. TP gives a public-system baseline now; ordinary business/self-employed residence requires route-compliant insurance quickly after the residence document and later public/private onboarding checks. Keep exact insurer choice, policy wording, maternity waiting periods, GP registration, and specialist/private-clinic pricing as application-prep work. Added `vq-132` for those details. [src-100][src-101][src-652]
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-17, dod: passed}
+
+> **DoD status**: passed for first-pass future-child screening. Eurydice provides the nursery / kindergarten / compulsory-school structure, and a Bratislava international-school fee benchmark captures the private-school budget risk.
+
+Eurydice describes care for children from 6 months to 3 years as facilities for children up to 3 years of age, formerly nurseries; these are organised as a social service rather than part of the education system. Pre-primary education is provided in kindergartens, which generally admit children aged 3-6, with 2-year-olds possible if capacity allows. [src-653][src-654]
+
+The last year of kindergarten is compulsory from age 5, and compulsory pre-primary education in public kindergartens is provided free of charge. This is the key public-system baseline for a future child before primary school. [src-653]
+
+Eurydice states that compulsory school attendance in Slovakia lasts 10 years and at most until the end of the school year in which the pupil reaches age 16. Schooling usually starts when the child reaches age 6, with a latest start at the beginning of the school year in which the child reaches age 7 if maturity requires continued pre-primary education. Primary and lower-secondary education are provided by primary school in two stages: grades 1-4 (ISCED 1) and grades 5-9 (ISCED 2). Parents can choose state, private, or church schools. [src-654]
+
+International schooling is the budget-risk branch, not the default. International Schools Database lists 12 international schools in Bratislava; The British International School Bratislava shows 2025/2026 yearly fees from EUR 12,640 to EUR 27,530, and QSI International School of Bratislava shows 2025/2026 fees from EUR 12,400 to EUR 28,000. Those fees are incompatible with a comfortable one-income USD 3,000/month plan unless income rises substantially or the public/Slovak-language path is acceptable. [src-655]
+
+**Education conclusion for the couple.** Slovakia is screenable for a future child if the family expects to use public/state or lower-cost local schooling with Slovak-language integration. The main education risk is not access to a basic public structure; it is whether the family needs international schooling in Bratislava, which would overwhelm the current one-income budget. [src-653][src-654][src-655]
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -224,6 +244,7 @@ Practical housing baseline: for a Slovakia scenario, start with **Poprad for aff
 - **Does marriage change the picture**: Yes. Captured family-reunification guidance covers a spouse aged at least 18; it does not list unmarried partners. [src-102]
 - **Realism of staying after 03.2027**: Medium-low. TP is officially extended to 04 March 2027, but no captured Slovakia-specific bridge converts it into ordinary residence; the practical ordinary fallback is business residence, which needs a real Slovak business file. [src-108][src-109]
 - **Budget/rent fit**: Possible but disciplined. Poprad is the best captured affordability screen; Kosice is the services/cost compromise; Bratislava needs a strict rent cap because capital 40 m2 rent and family-size cost proxies strain the USD 3,000/month one-income case. [src-518][src-519][src-520]
+- **Healthcare / education fit**: Healthcare is screenable but status-sensitive; TP gives access now, while ordinary residence needs route-compliant insurance and onboarding checks. Education is workable through public/state structures, but Bratislava international schools are a major future-child budget risk. [src-100][src-652][src-653][src-654][src-655]
 
 **Pros**:
 - EU/Schengen country close to Ukraine with TP access through the EU horizon.
@@ -237,6 +258,8 @@ Practical housing baseline: for a Slovakia scenario, start with **Poprad for aff
 - No captured post-2027 TP bridge beyond automatic TP extension to 04 March 2027. [src-109]
 - Climate is continental and cold compared with Tier-1 Mediterranean hints.
 - Bratislava is rent-pressured on this budget; future-family or 80 m2 rent scenarios become tight quickly. [src-518]
+- Healthcare onboarding depends on final status and insurer; private-insurance quotes and maternity exclusions remain application-prep checks. [src-652]
+- International schooling in Bratislava can cost EUR 12,400-28,000/year, which is a serious future-child risk on one USD 3,000/month income. [src-655]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -274,7 +297,7 @@ Practical housing baseline: for a Slovakia scenario, start with **Poprad for aff
 | Apostilles and translations | TBD | Slovak certified translation and authentication expected for foreign official documents. |
 | Flights / ground travel for two | TBD | Slovakia is reachable overland from Ukraine/Poland; price pass pending. |
 | Rental deposit + first month | USD 960-1,842+ | Rough first-pass proxy: one month deposit plus first month using the cheap/central 40 m2 range from Poprad cheap (USD 481) to Bratislava center (USD 921); agency fees and foreigner-specific requirements not captured. [src-518][src-520] |
-| Health insurance | TBD | Required quickly after ordinary residence document collection. |
+| Health insurance | TBD | Required quickly after ordinary residence document collection; exact public/private route and quotes remain application-prep checks. [src-101][src-652] |
 | Immigration/tax lawyer | TBD | Strongly recommended before relying on business residence. |
 | Buffer / contingencies | TBD | Pending cost-of-living pass. |
 | **Total** | — | Not enough data yet. |
@@ -282,6 +305,7 @@ Practical housing baseline: for a Slovakia scenario, start with **Poprad for aff
 ### 6g. Contact points and communities
 - Foreign Police / Ministry of Interior TP channels: via UNHCR Slovakia page. [src-100]
 - IOM Migration Information Centre: captured for permanent-residence guidance; use for future Slovakia residence/citizenship source expansion. [src-103]
+- IOM Migration Information Centre: healthcare and migration advice, with Ukrainian/Russian consultation channels listed on the IOM Slovakia healthcare page. [src-652]
 - Ukrainian / Russian-speaking diaspora and lawyers: pending.
 
 ## Block 7 — Sources
@@ -296,6 +320,9 @@ Practical housing baseline: for a Slovakia scenario, start with **Poprad for aff
 - [src-101] — EU Immigration Portal self-employed worker in Slovakia.
 - [src-102] — EU Immigration Portal family member in Slovakia.
 - [src-103] — IOM Slovakia permanent residence page.
+- [src-652] — IOM Slovakia healthcare pages: public insurance, insurance card, doctors/facilities.
+- [src-653] — Eurydice Slovakia early childhood education and care.
+- [src-654] — Eurydice Slovakia education-system structure.
 - [src-104] — Wikipedia Slovak nationality law (aggregator; citizenship placeholder only).
 - [src-338] — PwC Slovakia individual taxes / residence / tax administration.
 - [src-339] — PwC Slovakia individual deductions and SZCO lump-sum expense baseline.
@@ -315,6 +342,7 @@ _(none yet)_
 - [src-518] — Livingcost Bratislava cost/rent baseline.
 - [src-519] — Livingcost Kosice cost/rent baseline.
 - [src-520] — Livingcost Poprad cost/rent baseline.
+- [src-655] — International Schools Database Bratislava international-school fee benchmark.
 
 ### 7e. Not found
 - Dedicated Slovakia digital-nomad visa: not captured in this pass.
@@ -323,6 +351,8 @@ _(none yet)_
 - Official Ministry of Interior citizenship page in English: not captured; aggregator placeholder used at low operational weight.
 - Slovak accountant / Financial Administration guidance mapping foreign-client IT freelancing to a specific SZCO trade, VAT/reverse-charge reporting, first-year contribution timing, and self-employed/business residence compatibility: not captured.
 - Live rental listings, landlord deposit/agency-fee requirements for foreigners, and city-specific health-insurance/accountant/lawyer costs: not captured.
+- Exact business-residence / family-status-compliant private-insurance quotes, maternity waiting periods / exclusions, public-insurer registration steps, GP/pediatrician onboarding, and private-clinic prices: not captured.
+- Slovak-language integration support, local catchment school mechanics, and non-Bratislava international/private-school price options: not captured.
 
 ## Block 8 — Open questions and verification markers
 
@@ -330,3 +360,4 @@ _(none yet)_
 - `vq-037` — resolved in run-021: no captured TP-to-ordinary-residence bridge; official source confirms automatic TP extension only.
 - `vq-038` — resolved in run-032: WeatherSpark clearer-sky day-equivalent proxies now close the climate sunny/clear-day blocker for screening.
 - `vq-099` — resolved to a conservative screening baseline: keep the SZCO 60% lump-sum scenario as partial only; exact trade classification, VAT/reverse-charge handling, first-year contribution timing, and business-residence compatibility remain accountant/application-prep checks before filing.
+- `vq-132` — pending application-prep healthcare details: route-compliant private insurance, maternity exclusions, public-insurer / GP onboarding, and selected-city provider costs.

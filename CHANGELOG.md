@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-17
 ---
 
+## 2026-06-17 — run-141
+- Slovakia: depth_score 3.0 → 5.5 (section 5.7 completed; section 5.6 partial)
+- Sources added: src-652, src-653, src-654, src-655
+- Claims added: claim-slovakia-020, claim-slovakia-021, claim-slovakia-022, claim-slovakia-023
+- Verification queue: 2 → 3 (added vq-132)
+
 ## 2026-06-17 — run-140
 - Hungary: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
 - Sources added: src-648, src-649, src-650, src-651

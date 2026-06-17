@@ -169,3 +169,39 @@
   confidence: medium
   tags: [cost-of-living, rent, poprad, slovakia, livingcost]
   notes: "Best captured affordability screen, with smaller-city and colder-climate tradeoffs."
+
+- id: claim-slovakia-020
+  topic: healthcare_public_insurance_screening
+  value: "IOM Slovakia states that public health insurance is generally mandatory for people with permanent residence in Slovakia, that some people without permanent residence can also meet compulsory public-insurance conditions, and that a foreign national obtaining permanent residence must sign up within 8 days."
+  source: src-652
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [healthcare, public-health-insurance, ordinary-residence, slovakia]
+  notes: "Exact route-compliant insurance and onboarding for business/family residence remain application-prep checks."
+
+- id: claim-slovakia-021
+  topic: healthcare_insurance_card_doctor_lookup
+  value: "IOM Slovakia states that insured participation is proven by a health-insurance card shown when visiting doctors or healthcare facilities, and points foreigners to public catalogues for health facilities and doctors/clinics."
+  source: src-652
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [healthcare, insurance-card, doctors, slovakia]
+  notes: "Use for screening only; exact GP/pediatrician registration and English/Ukrainian/Russian-speaking provider availability remain city-specific checks."
+
+- id: claim-slovakia-022
+  topic: education_ecec_baseline
+  value: "Eurydice states that Slovakia care for children from 6 months to 3 years is provided by facilities for children up to 3 years of age, while kindergartens generally admit children aged 3-6; the last year of kindergarten is compulsory from age 5 and compulsory pre-primary education in public kindergartens is free of charge."
+  source: src-653
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, early-childhood, kindergarten, slovakia]
+  notes: "Local availability, language integration, and municipality-specific enrolment remain later practical checks."
+
+- id: claim-slovakia-023
+  topic: education_school_structure_and_international_fee_risk
+  value: "Eurydice states that Slovakia compulsory school attendance lasts 10 years, usually starts at age 6 and at latest at age 7, and primary school has grades 1-4 plus 5-9; International Schools Database lists Bratislava international-school 2025/2026 fee benchmarks around EUR 12,400-28,000/year."
+  source: src-654
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, school-structure, international-school, slovakia]
+  notes: "Fee range also uses src-655; international schooling is a future-child budget risk at USD 3,000/month one-income level."

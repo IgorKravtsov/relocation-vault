@@ -205,6 +205,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-17 (run-140)
 - **Status**: pending
 
+## vq-132 [medium priority]
+- **Fact**: "Slovakia healthcare application-prep details: business-residence / family-status-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, exact public-insurer registration / insurance-card workflow, and GP / pediatrician / private-clinic cost checks for the selected city"
+- **Country**: Slovakia
+- **Section**: 5.6
+- **Current source**: src-100, src-101, src-652
+- **Why uncertain**: This healthcare pass captured TP healthcare access, public-health-insurance eligibility mechanics, insurance-card proof, and doctor/facility lookup, but did not capture live private-insurance quotes, maternity exclusions, or final-status insurer / GP onboarding steps for the couple's business/family route and city.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, public-insurer registration, and local GP / specialist / private-clinic costs as application-prep checks before filing or city selection.
+- **Created**: 2026-06-17 (run-141)
+- **Status**: pending
+
 
 
 
