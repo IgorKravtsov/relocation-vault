@@ -1,14 +1,14 @@
 ---
 country: Slovenia
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-12T22:51:32Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable", "slovenia-self-employed-tax-and-immigration-fit-gap", "ljubljana-rent-pressure"]
-sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187", "src-344", "src-345", "src-346", "src-347", "src-348", "src-521", "src-522", "src-523", "src-524"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-17T09:32:42Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable", "slovenia-self-employed-tax-and-immigration-fit-gap", "ljubljana-rent-pressure", "slovenia-health-insurance-onboarding-gap", "slovenia-international-school-cost-risk"]
+sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187", "src-344", "src-345", "src-346", "src-347", "src-348", "src-521", "src-522", "src-523", "src-524", "src-656", "src-657", "src-658", "src-659", "src-660", "src-661"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence is unusually interesting for the couple: Slovenia has official temporary protection for Ukrainians, an explicit post-temporary-protection filing window, and a new digital-nomad residence permit for non-EU remote workers. The route is capped at one year and the income formula likely sits near or above the couple's current budget, so do not assign a tier until the numeric threshold, taxes, renewal/permit-counting rules, and costs are researched. [src-110][src-111]
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-12T22:51:32Z
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-17T09:32:42Z
 - **Tier rationale**: Keep unassigned until PR/citizenship counting for DN/TP time, DN-to-ordinary status strategy, tax/business fit, and cost-of-living/rent passes are complete.
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | First-pass ordinary self-employed stress test is heavy: USD 3,000/month is about EUR 2,577/month, and applying the captured 38.2% social-contribution table plus progressive PIT leaves about EUR 1,364/month (~USD 1,587) before accountant/VAT/immigration costs. Normirani s.p. / exact foreign-client IT treatment is not verified. | §5.3 |
 | Cost of living | — | medium | First-pass Livingcost screen: Nova Gorica / Maribor are the best affordability baselines; Ljubljana is noticeably tighter on the conservative tax net. | §5.4 |
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy is about $443 cheap / $634 center in Nova Gorica, $414 / $536 in Maribor, and $735 / $923 in Ljubljana; use Ljubljana only with a strict cap. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | TP gives emergency and pregnancy/childbirth healthcare access; ordinary residence/self-employed routes must still prove final-status insurance/onboarding, so keep this partial. | §5.6 |
+| Education (future child) | — | medium-high | Public kindergarten and basic-school baselines are clear, with means-tested kindergarten fees and expensive Ljubljana international-school alternatives. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -166,13 +166,33 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 
 **Rent conclusion.** Avoid making Ljubljana the default base. For first relocation budgeting, screen **Maribor** as the practical services/cost compromise and **Nova Gorica** if warmer western Slovenia is worth smaller-city tradeoffs; keep `ljubljana-rent-pressure` as an active risk flag. [src-522][src-523][src-524]
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-17, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This pass opens a safe screening baseline for healthcare: Ukrainian temporary-protection holders can use emergency healthcare with proof/card, and ordinary insured persons access care through Slovenia's compulsory health-insurance system. Missing before filing/city selection: final-status-compliant private insurance quotes, maternity waiting periods/exclusions, and exact ZZZS / GP onboarding for a DN, self-employed/single-permit, or family file.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Temporary-protection / Ukrainian baseline.** GOV.SI says Ukrainian nationals who are temporary-protection applicants / beneficiaries can access emergency healthcare by presenting proof of entitlement to temporary protection or the temporary-protection card issued by the administrative unit. The covered emergency-healthcare basket explicitly includes emergency medical aid, necessary emergency transport, medical necessities within specialist outpatient and hospital services, women's healthcare including contraceptives, pregnancy termination, and health services during pregnancy and childbirth, plus mandatory medical examinations before and during primary/secondary education. Healthcare costs in this framework are covered by the Government Office for the Support and Integration of Migrants. [src-656]
 
-[verification required]
+**Ordinary public-system baseline.** ZZZS explains that compulsory health insurance is the gateway to medical services and cash benefits in Slovenia; rights are exercised by registering for insurance and paying the relevant contribution/premium. Insured persons include the insured person and family members insured through them; family members can include spouse, extra-marital partner, registered/unregistered partnership partner, and children, but immediate family members need permanent residence or temporary residence in Slovenia for at least three months. The responsible payer/registrant depends on the route: employer, public body, self-employed person, or another statutory basis. [src-657]
+
+**Accessing care.** Insured persons use providers within the public healthcare service network: public healthcare institutions and concessioned private practitioners. ZZZS's benefit description covers primary care, dentistry, specialist outpatient care, hospital and tertiary services, medicines, medical devices, rehabilitation, ambulance transport, and other statutory rights. Preventive care includes family-planning counselling and preventive health examinations for pregnant women. [src-657]
+
+**Private insurance / maternity cost screen.** No live private-insurance quote was captured in this iteration. For country screening, Slovenia is not disqualified on healthcare because TP and compulsory-insurance baselines are usable. For filing, however, the couple still needs a status-specific insurance checklist: DN or ordinary-residence policy wording, whether pregnancy/maternity has waiting periods or exclusions, and whether self-employment/family-member status gives a clean ZZZS onboarding path. Add `vq-133` and keep exact quotes as application-prep rather than a country-screening blocker.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-17, dod: passed}
+
+> **DoD status**: passed for first-pass screening. This pass captures kindergarten access/cost mechanics, public basic-school structure for foreign / Ukrainian children, and an international-school cost alternative.
+
+**Ukrainian / foreign-child inclusion baseline.** GOV.SI says a person with temporary protection exercises the right to education by presenting a temporary-protection card, or the decision granting temporary protection before the card is issued. Slovenia describes its education approach for immigrant children as inclusive, aiming for fast inclusion in kindergartens and regular classes. Children with temporary protection under 18 are enrolled in primary education under the same conditions as Slovenian citizens. [src-658]
+
+**Kindergarten / childcare.** Kindergartens are open from age 11 months until primary school. Enrolment can happen throughout the year if the chosen kindergarten has a place; parents must provide a paediatrician certificate confirming vaccination against measles, mumps, and rubella before enrolment. Eurydice confirms preschool education is not compulsory, covers children from 11 months to 6 years / school entry, and is organised in two age groups: 1-3 and 3-6. [src-658][src-659]
+
+**Kindergarten costs.** Eurydice's 2 September 2025 average programme-price table gives about EUR 675.71/month for the first age group and EUR 525.32/month for the second age group before subsidy. Parents may apply through the social work centre for reduced payment, valid for 12 months; payment depends on household income and ranges from 0% to 77% of the programme price. The February 2025 bracket table reaches 77% at EUR 1,328.29+ average income per person/month. GOV.SI adds that parents with temporary protection may claim reduced kindergarten fee/subsidy under the foreigner rules, and temporary-protection parents receiving financial assistance or pocket money can be fully exempt for the duration of that right. [src-658][src-659]
+
+**Public school quality / structure.** Eurydice states that Slovenia's basic education is a single-structure system combining primary and lower secondary education. It is compulsory and publicly funded; children enrol in first year at age 6, the programme lasts nine years, and pupils typically complete it at age 15. Public basic schools are established by municipalities, and the public network guarantees every child a place in the local public school catchment area. This is a strong public-school baseline for a future child, though language adaptation into Slovenian remains the main practical issue. [src-660]
+
+**International-school fallback.** International Schools Database lists seven Ljubljana international schools. Its captured fee examples show Ljubljana School at about EUR 10,900-16,900/year for 2025/2026, Danila Kumar International School at about EUR 6,056-8,546/year for 2025/2026, Ecole Francaise Internationale de Ljubljana at about EUR 5,600-8,000/year for 2023/2024, and Erudio International School at EUR 15,313/year for 2025/2026; some schools, including British International School of Ljubljana, do not make fees public on the database page. Treat international school as a major one-income risk, not the default plan. [src-661]
+
+**Education conclusion.** Slovenia is acceptable for a future child if the family uses public kindergarten/school and plans for Slovenian-language integration. International schooling in Ljubljana can consume a large share of the couple's USD 3,000/month income, especially under the conservative Slovenia tax-net scenario, so keep `slovenia-international-school-cost-risk` active.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -220,7 +240,8 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 - DN permit is up to one year and cannot be extended; reapplication requires a six-month gap. [src-111]
 - DN income formula currently screens at about EUR 3,357.62/month using March 2026 average net earnings, above the couple's current ~$3,000/month budget. [src-111][src-187]
 - Ljubljana/Maribor winters are cold, humid and not Mediterranean.
-- Healthcare and practical application costs are still unresearched; rent is now screened, with Ljubljana as the main rent-pressure risk.
+- Healthcare is now screenable but still partial: TP emergency/pregnancy healthcare and ZZZS compulsory-insurance baselines exist, but exact private-insurance quotes and final-status onboarding remain application-prep. [src-656][src-657]
+- Public education is a relative strength, but Ljubljana international schools are expensive enough to be a future-child one-income risk. [src-658][src-659][src-661]
 - Conservative ordinary self-employed tax stress test is heavy, with about EUR 1,364/month (~USD 1,587) net from USD 3,000/month before accountant/VAT/immigration costs; a potentially better Slovenian s.p. / normirani structure is unverified. [src-344][src-345][src-346][src-347][src-348]
 
 ## Block 6 — Practical playbook (working relocation guide)
@@ -259,7 +280,7 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 | Apostilles and translations | TBD | Application-prep pass needed. |
 | Flights / ground travel for two | TBD | Slovenia reachable overland/air via EU routes; price pass pending. |
 | Rental deposit + first month | ~$828-$1,846 | First-pass proxy: one month of cheap 40 m2 rent plus one matching deposit in Maribor / Nova Gorica / Ljubljana; live-listing deposit norms pending. [src-522][src-523][src-524] |
-| Health insurance | TBD | Healthcare pass pending. |
+| Health insurance | TBD | TP emergency/pregnancy healthcare and compulsory-insurance baselines captured; live DN/self-employed/family private-insurance quotes and maternity exclusions remain application-prep. [src-656][src-657] |
 | Immigration/tax consultation | TBD | Recommended before relying on DN-to-ordinary transition or Slovenian s.p. / normirani tax planning. |
 | Buffer / contingencies | TBD | Use Maribor / Nova Gorica as the first budget screens; Ljubljana requires a stricter cap or better tax net. [src-522][src-523][src-524] |
 | **Total** | — | Not enough data yet. |
@@ -267,6 +288,8 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 ### 6g. Contact points and communities
 - Slovenian administrative units / police TP process: via GOV.SI Ukraine assistance page. [src-110]
 - Ministry of the Interior DN route announcement: [src-111]
+- Healthcare onboarding: ZZZS compulsory-health-insurance / public-service-provider pages. [src-657]
+- Education onboarding for Ukrainian children: GOV.SI education page and municipal kindergarten vacancy information point. [src-658]
 - Ukrainian / Russian-speaking diaspora, migration lawyers, and tax accountants: pending.
 
 ## Block 7 — Sources
@@ -277,6 +300,7 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 - [src-114] — GOV.SI Citizenship.
 - [src-187] — Statistical Office of Slovenia March 2026 average earnings release used to screen the DN income formula.
 - [src-348] — European Central Bank EUR/USD reference rate used for the Slovenia tax worked example.
+- [src-656] — GOV.SI healthcare for Ukrainian nationals / temporary-protection healthcare access.
 
 ### 7b. Official-secondary / reputable secondary
 - [src-002] — EU Council / EU temporary protection extension to 04 March 2027.
@@ -286,6 +310,10 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 - [src-345] — PwC Slovenia social-security contributions.
 - [src-346] — PwC Slovenia deductions / tax administration.
 - [src-347] — PwC Slovenia VAT / corporate other taxes.
+- [src-657] — ZZZS compulsory health insurance / accessing healthcare / rights baseline.
+- [src-658] — GOV.SI education for Ukrainian children in Slovenia.
+- [src-659] — Eurydice Slovenia ECEC access / kindergarten affordability.
+- [src-660] — Eurydice Slovenia school-system structure.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -299,6 +327,7 @@ _(none yet)_
 - [src-522] — Livingcost Ljubljana cost/rent screen.
 - [src-523] — Livingcost Maribor cost/rent screen.
 - [src-524] — Livingcost Nova Gorica cost/rent screen.
+- [src-661] — International Schools Database Ljubljana fee screen.
 
 ### 7e. Not found
 - Exact serving-administrative-unit DN checklist and fee schedule: not captured in this pass.
@@ -310,4 +339,5 @@ _(none yet)_
 ## Block 8 — Open questions and verification markers
 
 - Tax application-prep remains: confirm exact Slovenian s.p. / normirani and VAT treatment for a Ukrainian foreign-client IT freelancer, including 2026 deemed-expense rules, contribution bases, VAT / reverse-charge reporting, and DN / single-permit immigration compatibility.
-- Later application-prep should still recheck DN forms, fees, residence-type counting, live rents, deposits, agency fees, landlord requirements, and lease-registration needs before filing.
+- `vq-133`: healthcare application-prep remains: confirm DN/self-employed/single-permit/family-status-compliant private health-insurance quotes for two young adults, maternity waiting periods/exclusions, and exact ZZZS / GP onboarding for the final route and city.
+- Later application-prep should still recheck DN forms, fees, residence-type counting, live rents, deposits, agency fees, landlord requirements, lease-registration needs, and city-specific school/kindergarten availability before filing.

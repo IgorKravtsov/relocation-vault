@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-17
 ---
 
+## 2026-06-17 — run-142
+- Slovenia: depth_score 3.0 → 5.5 (section 5.7 completed; section 5.6 opened as partial)
+- Sources added: src-656, src-657, src-658, src-659, src-660, src-661
+- Claims added: claim-slovenia-018, claim-slovenia-019, claim-slovenia-020, claim-slovenia-021, claim-slovenia-022
+- Verification queue: 3 → 4 (added vq-133)
+
 ## 2026-06-17 — run-141
 - Slovakia: depth_score 3.0 → 5.5 (section 5.7 completed; section 5.6 partial)
 - Sources added: src-652, src-653, src-654, src-655

@@ -205,6 +205,17 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-17 (run-140)
 - **Status**: pending
 
+
+## vq-133 [medium priority]
+- **Fact**: "Slovenia healthcare application-prep details: DN/self-employed/single-permit/family-status-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, exact ZZZS registration / compulsory-insurance basis, GP / pediatrician onboarding, and private-clinic price checks for the selected city"
+- **Country**: Slovenia
+- **Section**: 5.6
+- **Current source**: src-656, src-657
+- **Why uncertain**: This healthcare pass captured TP healthcare access and the compulsory-health-insurance / public-provider baseline, but did not capture live private-insurance quotes, maternity exclusions, or final-status ZZZS / GP onboarding steps for the couple's DN, self-employed/single-permit, or family route.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, compulsory-insurance registration, GP / pediatrician onboarding, and city-specific private-clinic costs as application-prep checks before filing or city selection.
+- **Created**: 2026-06-17 (run-142)
+- **Status**: pending
+
 ## vq-132 [medium priority]
 - **Fact**: "Slovakia healthcare application-prep details: business-residence / family-status-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, exact public-insurer registration / insurance-card workflow, and GP / pediatrician / private-clinic cost checks for the selected city"
 - **Country**: Slovakia

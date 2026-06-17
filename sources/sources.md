@@ -7893,3 +7893,75 @@ Each source entry:
 - **Facts supporting**: Bratislava international-school market and 2025/2026 fee benchmarks for future-child budget risk (claim-slovakia-023)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-17
+
+## src-656
+- **Title**: GOV.SI — Healthcare for Ukrainian nationals
+- **URL**: https://www.gov.si/en/topics/slovenias-assistance-to-the-citizens-of-ukraine/healthcare-for-ukrainian-nationals/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovenia
+- **Facts supporting**: temporary-protection healthcare access for Ukrainian nationals, emergency healthcare rights, proof/card mechanics, pregnancy/childbirth healthcare, medicines procedure, GP request route, and coverage by the Government Office for the Support and Integration of Migrants (claim-slovenia-018)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-17
+
+## src-657
+- **Title**: ZZZS — Compulsory health insurance / accessing healthcare in Slovenia / extent and classes of rights
+- **URL**: https://www.zzzs.si/en/compulsory-health-insurance/inclusion-in-the-compulsory-health-insurance/ ; https://www.zzzs.si/en/accessing-healthcare-in-slovenia/ ; https://www.zzzs.si/en/compulsory-health-insurance/the-extent-of-rights-deriving-from-compulsory-health-insurance/ ; https://www.zzzs.si/en/compulsory-health-insurance/classes-of-rights-under-compulsory-health-insurance/
+- **Archive**: stable public health-insurance institute pages — direct extraction used
+- **Type**: official-primary
+- **Date published**: current public pages, no single publication date captured
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovenia
+- **Facts supporting**: Slovenia compulsory-health-insurance registration baseline, family-member insurance categories, temporary-residence requirement for immediate family members, public provider network, and statutory healthcare-rights basket including primary, specialist, hospital, pregnancy preventive care, medicines, devices, and transport (claim-slovenia-019)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-17
+
+## src-658
+- **Title**: GOV.SI — Providing education to Ukrainian children living in Slovenia
+- **URL**: https://www.gov.si/en/topics/slovenias-assistance-to-the-citizens-of-ukraine/izobrazevanje-ukrajinskih-otrok-v-sloveniji/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovenia
+- **Facts supporting**: temporary-protection education card/decision proof, inclusive kindergarten and regular-class baseline, kindergarten entry throughout year if places are available, vaccination certificate requirement, reduced/free kindergarten fee rules for temporary-protection families, and same-conditions primary enrolment for under-18 temporary-protection children
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-17
+
+## src-659
+- **Title**: Eurydice — Slovenia: Access to early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/slovenia/access
+- **Archive**: stable EU/EACEA Eurydice page — direct extraction used
+- **Type**: official-secondary
+- **Date published**: 2025-09-02 average-price table; 2026-01 payment-bracket table cited on page
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovenia
+- **Facts supporting**: kindergarten place guarantee, age/access baseline, average 2025 programme prices, parent-payment subsidy range from 0% to 77%, social-work-centre reduced-payment application, and foreign-parent / multi-child payment caveats (claim-slovenia-020)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-660
+- **Title**: Eurydice — Slovenia: Organisation of the education system and of its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/slovenia/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page — direct extraction used
+- **Type**: official-secondary
+- **Date published**: current public page, no single publication date captured
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovenia
+- **Facts supporting**: Slovenia compulsory publicly funded nine-year basic education from age 6 to about 15 and local public-school place guarantee (claim-slovenia-021)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-661
+- **Title**: International Schools Database — Ljubljana international schools
+- **URL**: https://www.international-schools-database.com/in/ljubljana
+- **Archive**: stable page — direct extraction used
+- **Type**: commercial
+- **Date published**: 2025/2026 fee data shown where published
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovenia
+- **Facts supporting**: Ljubljana international-school market and fee benchmarks for future-child budget risk (claim-slovenia-022)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
