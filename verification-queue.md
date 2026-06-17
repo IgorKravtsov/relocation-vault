@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-16
+last_updated: 2026-06-17
 ---
 
 # Verification Queue
@@ -183,6 +183,18 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolution note**: Cyprus profile now uses WeatherSpark monthly clearer-sky percentages as annual day-equivalent proxies: Nicosia ~295, Limassol ~296, Paphos ~294. These are labelled as medium-confidence clearer-sky proxies rather than official sunny-day counts. [src-119]
 
 ## Low priority
+
+
+## vq-130 [medium priority]
+- **Fact**: "Bulgaria healthcare application-prep details: self-employment/family-residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NHIF / GP onboarding workflow for the couple's final status and selected city"
+- **Country**: Bulgaria
+- **Section**: 5.6
+- **Current source**: src-089, src-644
+- **Why uncertain**: This healthcare pass captured TP medical-care rights and the NHIF public-system baseline, but did not capture live private-insurance quotes, maternity exclusions/waiting periods, or exact onboarding steps for the couple's final self-employment / family-reunification status.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
+- **Created**: 2026-06-17 (run-139)
+- **Status**: pending
+
 
 
 

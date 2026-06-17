@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-16
+last_updated: 2026-06-17
 ---
+
+## 2026-06-17 — run-139
+- Bulgaria: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
+- Sources added: src-644, src-645, src-646, src-647
+- Claims added: claim-bulgaria-022, claim-bulgaria-023, claim-bulgaria-024, claim-bulgaria-025
+- Verification queue: 0 -> 1 (added vq-130)
 
 ## 2026-06-16 — run-138
 - Verification batch: resolved `vq-120`-`vq-129` for healthcare application-prep details across Portugal, Spain, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, and Romania.

@@ -7749,3 +7749,51 @@ Each source entry:
 - **Facts supporting**: Romania education baseline: Ministry / inspectorate governance, ECEC ages and free/compulsory baseline, primary education start and structure, lower-secondary structure, and free public primary textbooks (claim-romania-023, claim-romania-024)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-06-16
+
+## src-644
+- **Title**: National Health Insurance Fund (NHIF) Bulgaria — Welcome / institutional overview
+- **URL**: https://www.nhif.bg/en
+- **Archive**: direct HTML extraction used; stable official page
+- **Type**: official-primary
+- **Date published**: no page date shown
+- **Date accessed**: 2026-06-17
+- **Used by**: Bulgaria
+- **Facts supporting**: NHIF public / compulsory health-insurance institutional baseline and regional fund structure (claim-bulgaria-022)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-645
+- **Title**: Eurydice — Bulgaria: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/bulgaria/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page via Jina text mirror — direct extraction used
+- **Type**: official-secondary
+- **Date published**: accessed current 2026-06-17
+- **Date accessed**: 2026-06-17
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgaria ECEC structure, nursery/kindergarten age bands, compulsory pre-primary from age 4, and free compulsory preschool in state/municipal kindergartens (claim-bulgaria-023)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-646
+- **Title**: Eurydice — Bulgaria: Overview of the education system
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/bulgaria/overview
+- **Archive**: stable EU/EACEA Eurydice page via Jina text mirror — direct extraction used
+- **Type**: official-secondary
+- **Date published**: 2026-06-16 page timestamp in extracted metadata
+- **Date accessed**: 2026-06-17
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgaria pre-school and school-system governance, state education standards, and public-school structure (claim-bulgaria-024)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-647
+- **Title**: International Schools Database — British School of Sofia fees
+- **URL**: https://www.international-schools-database.com/in/sofia/british-school-of-sofia
+- **Archive**: stable page via Jina text mirror — direct extraction used
+- **Type**: commercial
+- **Date published**: 2025/2026 fee data shown on page
+- **Date accessed**: 2026-06-17
+- **Used by**: Bulgaria
+- **Facts supporting**: Sofia international-school fee risk benchmark for the future-child budget (claim-bulgaria-025)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17

@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-16
+last_updated: 2026-06-17
 ---
 
 # INDEX
@@ -20,7 +20,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Czech Republic | eu-schengen | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 135 | `countries/czech-republic.md` |
 | Poland | eu-schengen | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 136 | `countries/poland.md` |
 | Romania | eu-schengen | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 137 | `countries/romania.md` |
-| Bulgaria | eu-schengen | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 105 | `countries/bulgaria.md` |
+| Bulgaria | eu-schengen | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 139 | `countries/bulgaria.md` |
 | Hungary | eu-schengen | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 106 | `countries/hungary.md` |
 | Slovakia | eu-schengen | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 107 | `countries/slovakia.md` |
 | Slovenia | eu-schengen | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 108 | `countries/slovenia.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 3.82
+- **Average depth_score**: 3.89
