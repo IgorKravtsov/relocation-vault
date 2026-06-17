@@ -8026,3 +8026,52 @@ Each source entry:
 - **Facts supporting**: international-school alternative in Donja Gorica, Podgorica, covering preschool, elementary, middle, and secondary levels; tuition remains uncaptured (claim-montenegro-025)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-17
+
+
+## src-667
+- **Title**: RFZO Serbia - insured-person rights / compulsory health-insurance baseline
+- **URL**: https://www.rfzo.rs/index.php/osiguranalica
+- **Archive**: text mirror extraction used; original RFZO URL cited
+- **Type**: official-primary
+- **Date published**: public page rendered 2026-06-17 in text mirror; no stable page date shown
+- **Date accessed**: 2026-06-17
+- **Used by**: Serbia
+- **Facts supporting**: Serbian compulsory health-insurance / insured-person rights baseline, contracted healthcare institutions, insurance-document requirement, covered-care categories including pregnancy/childbirth/children (claim-serbia-020, claim-serbia-021)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-668
+- **Title**: Eurydice - Serbia: Overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/serbia/overview
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2026-05-29 in extracted page
+- **Date accessed**: 2026-06-17
+- **Used by**: Serbia
+- **Facts supporting**: Serbian education-system structure, Ministry role, public/private institution baseline, compulsory preschool preparatory programme plus 8 years basic education, free public basic and secondary education (claim-serbia-022)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-29
+
+## src-669
+- **Title**: Eurydice - Serbia: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/serbia/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2025-09-21 in extracted page
+- **Date accessed**: 2026-06-17
+- **Used by**: Serbia
+- **Facts supporting**: ECEC age bands from 6 months to 6.5 years, nursery/kindergarten/preschool preparatory split, mandatory/free preschool preparatory programme, and ECEC care/preventive-health/social-protection role (claim-serbia-022)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-09-21
+
+## src-670
+- **Title**: International Schools Database - Belgrade international schools
+- **URL**: https://www.international-schools-database.com/in/belgrade
+- **Archive**: stable commercial directory page - direct extraction used
+- **Type**: commercial
+- **Date published**: 2026/2027 fee data shown where published
+- **Date accessed**: 2026-06-17
+- **Used by**: Serbia
+- **Facts supporting**: Belgrade international-school market and fee benchmarks, including International School of Belgrade 2026/2027 yearly fees (claim-serbia-023)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17

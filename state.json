@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 143,
+  "iteration": 144,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-17T12:44:12Z",
+  "last_run_timestamp": "2026-06-17T15:51:27Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Montenegro",
+    "country": "Serbia",
     "sections": [
       "5.6",
       "5.7"
@@ -16,7 +16,7 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Serbia",
+    "suggested_country": "Turkey",
     "suggested_sections": [
       "5.6",
       "5.7"
@@ -518,19 +518,19 @@
     "Serbia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -540,10 +540,12 @@
         "no-captured-post-2027-tp-bridge",
         "digital-nomad-implementing-rules-need-primary-check",
         "serbia-freelancer-tax-and-single-permit-fit-gap",
-        "belgrade-rent-pressure"
+        "belgrade-rent-pressure",
+        "serbia-private-insurance-quote-gap",
+        "serbia-international-school-cost-risk"
       ],
-      "last_iteration": 110,
-      "unverified_count": 0
+      "last_iteration": 144,
+      "unverified_count": 1
     },
     "Turkey": {
       "tier": null,
@@ -1100,8 +1102,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 6,
-  "sources_count": 665,
-  "claims_count": 577,
+  "verification_queue_size": 7,
+  "sources_count": 669,
+  "claims_count": 581,
   "proposals_pending": 0
 }

@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-17
 ---
 
+## 2026-06-17 — run-144
+- Serbia: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial).
+- Sources added: src-667 through src-670.
+- Claims added: claim-serbia-020 through claim-serbia-023.
+- Verification queue: 6 -> 7 pending/open items (added vq-136).
+
 ## 2026-06-17 — run-143
 - Montenegro: depth_score 3.0 -> 5.0; sections 5.6 and 5.7 moved from pending to partial.
 - Sources added: src-662 through src-666.

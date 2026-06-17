@@ -58,6 +58,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-17 (run-143)
 - **Status**: pending
 
+## vq-136 [medium priority]
+- **Fact**: "Serbia private health-insurance quotes, maternity/newborn coverage, RFZO/public-insurance onboarding by self-employed / independent-professional / family residence status, and city-specific private GP / pediatric / maternity prices"
+- **Country**: Serbia
+- **Section**: 5.6
+- **Current source**: src-136, src-667
+- **Why uncertain**: RFZO maps the public insured-person rights framework and temporary residence requires health-insurance evidence, but this pass did not capture private policy quotes, exclusions, public-insurance contribution/onboarding by route, or city-specific private-care prices.
+- **Suggested verification**: Get insurer quotes for two young adults, ask a Serbian immigration/accounting adviser how self-employed / independent-professional / family statuses join RFZO or satisfy MUP insurance evidence, and check Belgrade/Novi Sad/Nis GP, pediatrician, maternity, and private clinic prices.
+- **Created**: 2026-06-17 (run-144)
+- **Status**: pending
+
 
 ## vq-003 [medium priority]
 - **Fact**: "Exact sunny days per year for Athens, Thessaloniki, and Heraklion"

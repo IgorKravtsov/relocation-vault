@@ -1,14 +1,14 @@
 ---
 country: Serbia
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-13T05:03:41Z
-sections_completed: ["5.2","5.4","5.5"]
-sections_partial: ["5.1","5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check", "serbia-freelancer-tax-and-single-permit-fit-gap", "belgrade-rent-pressure"]
-sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174", "src-353", "src-354", "src-355", "src-356", "src-357", "src-358", "src-529", "src-530", "src-531", "src-532"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-17T15:51:27Z
+sections_completed: ["5.2","5.4","5.5","5.7"]
+sections_partial: ["5.1","5.3","5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check", "serbia-freelancer-tax-and-single-permit-fit-gap", "belgrade-rent-pressure", "serbia-private-insurance-quote-gap", "serbia-international-school-cost-risk"]
+sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174", "src-353", "src-354", "src-355", "src-356", "src-357", "src-358", "src-529", "src-530", "src-531", "src-532", "src-667", "src-668", "src-669", "src-670"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -19,9 +19,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (likely Tier-2-hint until full legal/tax/cost evidence is gathered).
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-13T05:03:41Z
-- **Tier rationale**: Serbia is operationally attractive because Ukrainian citizens have visa-free entry, Serbia has a renewable temporary-protection framework for Ukrainians, MUP confirms electronic single-permit filing for self-employment / independent professional work, and the amended Law on Foreigners provides temporary residence / single permits up to 3 years plus permanent residence after 3 years of continuous temporary residence. The weak points are that no Serbia-specific post-TP ordinary-residence bridge was captured and climate sunny-day counts remain open. [src-132][src-133][src-135][src-136]
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-17T15:51:27Z
+- **Tier rationale**: Serbia is operationally attractive because Ukrainian citizens have visa-free entry, Serbia has a renewable temporary-protection framework for Ukrainians, MUP confirms electronic single-permit filing for self-employment / independent professional work, and the amended Law on Foreigners provides temporary residence / single permits up to 3 years plus permanent residence after 3 years of continuous temporary residence. The weak points are that no Serbia-specific post-TP ordinary-residence bridge was captured, the foreign-client IT tax/single-permit fit is not yet accountant-confirmed, and healthcare remains filing-sensitive until private insurance / RFZO onboarding details are checked. [src-132][src-133][src-135][src-136][src-667]
 
 ## Block 2 — Scoring
 
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | Serbia has a workable but not-yet-passed freelancer / entrepreneur tax baseline; exact route fit with a single permit, APR status, and VAT/reverse-charge mechanics still need accountant/authority confirmation. | §5.3 |
 | Cost of living | — | medium | First-pass Livingcost screen: Novi Sad and Niš fit the one-income budget more safely than Belgrade; Belgrade can still work only with rent discipline and tax-route upside. | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 1BR proxy ranges from about $272 cheap in Niš to $780 center in Belgrade; Belgrade 3BR stress tests are high for the conservative tax net. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | Healthcare is screenable but status-sensitive: RFZO maps insured-person rights and temporary residence requires health-insurance evidence, but private quotes and ordinary-route public-insurance onboarding remain open. | §5.6 |
+| Education (future child) | — | medium | Public system basics are usable for planning: compulsory preparatory preschool plus 8 years of free basic education; international school in Belgrade is a major future-child budget risk. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -142,7 +142,7 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 
 **Niš.** Niš is the affordability fallback: Livingcost reports about **$857/month** one-person total and **$1,973/month** family proxy, with rent/utilities around $420 / $657, food around $312 / $815, and transport around $36.3 / $99.3. It is the best captured fit against the conservative tax downside, but it comes with smaller-city tradeoffs, weaker international-service depth, and the same continental climate caveat already recorded in §5.2. [src-532]
 
-**Budget verdict for the couple:** Serbia's cost base is favorable compared with many EU options, but the tax uncertainty is binding. Use **Novi Sad first** for services/cost balance, **Niš** as the affordability fallback if the conservative tax model applies, and **Belgrade** only with a strict rent cap or if a Serbian accountant confirms a better entrepreneur/freelancer tax result. Healthcare/insurance, accountant fees, immigration-lawyer fees, lease deposits, and foreigner landlord requirements remain later practical-budget checks.
+**Budget verdict for the couple:** Serbia's cost base is favorable compared with many EU options, but the tax uncertainty is binding. Use **Novi Sad first** for services/cost balance, **Niš** as the affordability fallback if the conservative tax model applies, and **Belgrade** only with a strict rent cap or if a Serbian accountant confirms a better entrepreneur/freelancer tax result. Healthcare/insurance, accountant fees, immigration-lawyer fees, lease deposits, and foreigner landlord requirements remain later practical-budget checks. RFZO/public-insurance onboarding by exact residence route and private insurance quotes remain open. [src-667]
 
 ### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-13, dod: passed}
 
@@ -161,13 +161,33 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 
 **Rent verdict:** Serbia passes first-pass rent screening, with the main risk concentrated in Belgrade and in larger-family-size units. Add `belgrade-rent-pressure` as the Serbia-specific rent flag; do not generalize Belgrade prices to all Serbia, and do not use Niš affordability to hide the possible services/legal-support tradeoff.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 0.5, last_updated: 2026-06-17, dod: partial}
 
-[verification required]
+> **DoD gap**: first-pass healthcare screening is open at medium confidence. RFZO confirms the insured-person rights / public-provider framework, and temporary residence requires health-insurance evidence, but this pass did not capture private insurance quotes for two young adults, public-insurance onboarding by single-permit / self-employed / family status, maternity/newborn coverage, or city-specific private-care prices.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Public insurance / healthcare-rights baseline.** Serbia's Republic Health Insurance Fund (RFZO) describes itself as the compulsory social-insurance organisation responsible for enabling insured persons to exercise healthcare rights under the Health Insurance Law and implementing by-laws. RFZO says insured persons use healthcare in contracted healthcare institutions, and rights are exercised based on a certified insurance document / health-insurance card or equivalent certificate. [src-667]
 
-[verification required]
+**Covered-care categories.** RFZO's insured-person page lists compulsory health insurance for illness / injury outside work and for work injury / occupational disease. The healthcare-rights list includes prevention and early disease detection, examinations and treatment connected with family planning, pregnancy, childbirth, and up to 12 months after childbirth, examinations and treatment for illness and injury, dental/oral disease treatment, medical rehabilitation, medicines, and medical devices. It also states that children under 18, pregnant women, and women up to 12 months after a live birth can exercise compulsory-insurance healthcare rights even with an issued but uncertified insurance document if their insured-person status has been established. [src-667]
+
+**Residence-file requirement.** Serbia's temporary-residence baseline already requires proof of health insurance as part of the ordinary temporary-residence evidence package. For this couple, that makes insurance not just a medical comfort issue but a residence-file requirement: before filing a self-employment / independent-professional single permit or family file, they should obtain route-compliant private insurance or adviser-confirmed public-insurance evidence. [src-136]
+
+**Practical city screen.** Belgrade should be treated as the first healthcare-services city because it concentrates private clinics, embassies, specialist care, and immigration/accounting advisers; Novi Sad is the likely cost/services compromise; Nis is the budget fallback but should be checked for English-speaking GP, gynecology, pediatric, and emergency-care access before choosing it as a future-child base. Exact private GP / specialist / maternity / pediatric prices were not captured in this pass.
+
+**Healthcare verdict for the couple:** Serbia is screenable but not yet ready for filing. Public-insurance rights are real once insured status is established, and pregnancy/childbirth/child protection is explicit in the RFZO rights list, but the couple should not assume automatic RFZO onboarding from a remote-work file. Add `serbia-private-insurance-quote-gap` and keep a verification item for private quotes, maternity/newborn coverage, and status-specific RFZO onboarding.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-17, dod: passed}
+
+> **DoD status**: passed for first-pass future-child screening at medium confidence. Eurydice captures the Serbian public education structure, compulsory/free preparatory and basic education, ECEC age bands, language caveats, and inclusion baseline; International Schools Database gives a Belgrade international-school fee risk proxy. Live kindergarten availability, foreign-child enrollment documents, and exact municipal/private preschool prices remain application-prep checks rather than blockers.
+
+**System structure and access.** Eurydice reports that Serbia's education system includes early childhood education and care, basic and secondary education, higher education, and adult education. The Ministry of Education has overall responsibility; institutions may be public or private; public institutions are mainly state-funded. The Serbian language is the most common language of instruction, but teaching can also be organised in a foreign language, sign language, or bilingually; national minorities have rights to mother-tongue, bilingual, or Serbian-language education. [src-668]
+
+**Early childhood / preschool.** Eurydice states that ECEC is intended for children from 6 months to 6.5 years, when they start primary education. It splits ECEC into nursery for ages 6 months to 3 years, kindergarten for ages 3 to 5.5 years, and preschool preparatory programme for children over 5.5 years. The preschool preparatory programme is mandatory for all children, lasts 9 months, and is free of charge when delivered by a public kindergarten or school. ECEC institutions also provide meals, care, preventive healthcare, and social-protection services for children. [src-669]
+
+**Basic school.** Eurydice's overview says children enter compulsory education at about age 5.5 through the preschool preparatory programme, followed by 8 years of basic education; basic education is compulsory and free of charge in public schools. Secondary education is not compulsory but is free in public institutions. For a future child, the conservative planning baseline is therefore Serbian public preschool-preparatory plus public basic school, with Serbian-language integration planning unless the family pays for an international track. [src-668]
+
+**International-school fallback / cost risk.** International Schools Database lists 12 international schools in Belgrade and reports the International School of Belgrade as an IB, English-language school for ages 3-18 with 2026/2027 yearly fees from about **RSD 1,413,269 to RSD 3,255,407**. It also shows other Belgrade international-school fees where public, for example one British school fee range of about **RSD 938,785 to RSD 1,701,548**. These amounts are a major future-child risk on a single USD 3,000/month income, especially if the conservative Serbia tax-net band applies. [src-670][src-358]
+
+**Education verdict for the couple:** Serbia passes first-pass future-child education screening if the family can accept Serbian-language public education and plans early integration. Belgrade has international-school fallback depth but at prices that can overwhelm the one-income budget; Novi Sad / Nis should be treated as public-school-first choices unless later live checks find affordable bilingual/private options. Add `serbia-international-school-cost-risk`, but no new screening blocker is needed because the public-school baseline is adequate for first-pass scoring.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -205,6 +225,8 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 - **Does marriage change the picture**: yes for simplicity, but MUP also lists a common-law marriage checklist path with evidence requirements. [src-135]
 - **Realism of staying after 03.2027**: medium if an ordinary single-permit route is secured before any TP expiry; low if relying only on temporary protection.
 - **Best cost/rent city screen**: Novi Sad first for services/cost balance; Niš if the conservative tax downside binds; Belgrade only with a strict housing cap because it is the captured rent-pressure case. [src-530][src-531][src-532]
+- **Healthcare / insurance readiness**: screenable but not filing-ready; temporary residence requires health-insurance evidence, and RFZO rights require established insured status. [src-136][src-667]
+- **Future-child education**: public compulsory education is usable for planning, but international schooling in Belgrade is expensive relative to one USD 3,000/month income. [src-668][src-670]
 
 **Pros**:
 - Ukrainian ordinary-passport holders have visa-free entry for up to 90/180 days. [src-132]
@@ -236,7 +258,7 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 - Bank account opening: [verification required]
 - Tax ID / social security number: [verification required]
 - Long-term housing: [verification required]
-- Health insurance / public health registration: health-insurance evidence is required for temporary residence. [src-136]
+- Health insurance / public health registration: health-insurance evidence is required for temporary residence; RFZO rights depend on established insured-person status / valid insurance evidence. [src-136][src-667]
 - SIM card, internet, utilities: [verification required]
 
 ### 6c. First 3–6 months
@@ -262,7 +284,7 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 | Flights for two | — | TBD |
 | Rental deposit | — | TBD; budget at least 1-2 months once live lease practice is checked. |
 | First month rent | $272-$780 modest 40 m2 proxy | Niš cheap proxy to Belgrade center proxy; Novi Sad is about $418-$501. [src-530][src-531][src-532] |
-| Health insurance (one year) | — | TBD |
+| Health insurance (one year) | — | Required for residence-file evidence; exact private quote and RFZO onboarding pending. [src-136][src-667] |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |
@@ -284,8 +306,11 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 - [src-137] Welcome to Serbia government residence-and-work page.
 - [src-138] Serbia MFA citizenship page.
 - [src-355] Serbia official freelancer portal / Tax Administration cooperation pages for foreign-payer freelancer self-taxation.
+- [src-667] RFZO insured-person rights / compulsory health-insurance page.
 
 ### 7b. Reputable secondary
+- [src-668] Eurydice Serbia overview / education-system structure.
+- [src-669] Eurydice Serbia early childhood education and care.
 - [src-139] Visa Free Nomads 2026 Serbia guide (used only as a medium-confidence placeholder for self-employment / digital-nomad operational details).
 - [src-353] PwC Serbia individual residence summary.
 - [src-354] PwC Serbia individual taxes on personal income and income determination.
@@ -304,6 +329,7 @@ _(none yet)_
 - [src-530] Livingcost — Belgrade cost/rent baseline.
 - [src-531] Livingcost — Novi Sad cost/rent baseline.
 - [src-532] Livingcost — Niš cost/rent baseline.
+- [src-670] International Schools Database — Belgrade international schools and 2026/2027 fee benchmarks.
 
 ### 7e. Not found
 - Current official implementing act / checklist for a separate Serbia digital-nomad special category, if already active.
@@ -311,10 +337,12 @@ _(none yet)_
 - Explicit Serbia-specific post-TP ordinary-residence bridge for Ukrainians.
 - Serbian Tax Administration / APR / accountant confirmation of the exact foreign-client IT route: freelancer portal versus registered entrepreneur, activity code, lump-sum eligibility, social-contribution base, VAT / reverse-charge / e-invoicing, and single-permit compatibility.
 - Live rental listings, Serbian lease terms, deposits/agency fees, and landlord support for address registration in Belgrade, Novi Sad, and Niš.
+- Private health-insurance quotes for two young adults, maternity/newborn coverage, exact RFZO onboarding by self-employed / independent-professional / family status, and city-specific private-care prices.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-044` — resolved in run-026: official MUP/Welcome to Serbia sources confirm self-employment / independent-professional single-permit electronic filing and family mechanics, including common-law partnership evidence; treat a separate DN special category as a later route-specific detail rather than a core blocker.
 - `vq-045` — resolved in run-026: no captured Serbian ordinary-residence bridge from TP; Polish residence/TP does not substitute for Serbian status, and Serbian TP should be treated only as a protection layer while ordinary residence is built.
-- `vq-046` — direct annual sunny/clear-day counts for Belgrade, Novi Sad, and Niš.
+- `vq-046` — resolved in run-032: WeatherSpark clearer-sky day-equivalent proxies for Belgrade, Novi Sad, and Niš close the §5.2 sunny/clear-day blocker for screening.
 - `vq-102` — Serbia foreign-client IT tax / APR registration / VAT / contribution-base / single-permit compatibility remains open before §5.3 can be marked passed.
+- `vq-136` — Serbia private health-insurance quotes, maternity/newborn coverage, RFZO/public-insurance onboarding by residence route, and city-specific private-care checks remain open before §5.6 can be marked passed.
