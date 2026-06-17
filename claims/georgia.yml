@@ -142,3 +142,39 @@
   confidence: medium
   tags: [rent, kutaisi, georgia]
   notes: "Kutaisi screens as the affordability fallback but needs later services/community checks."
+
+- id: claim-georgia-017
+  topic: georgia_healthcare_first_pass
+  value: "Trade.gov describes Georgia as a highly privatized healthcare system with about 86% of hospitals privately owned, citizen-focused Universal Healthcare Coverage for most emergency/outpatient/inpatient care, need-based coverage with out-of-pocket costs, and stronger Tbilisi capacity than rural areas."
+  source: src-676
+  date_verified: 2026-06-17
+  confidence: medium
+  tags: [healthcare, insurance, out-of-pocket, georgia, tbilisi]
+  notes: "First-pass screening baseline only; foreign-resident public/private onboarding and private-policy quotes remain queued in vq-138."
+
+- id: claim-georgia-018
+  topic: georgia_general_education_structure
+  value: "Eurydice states that complete general education in Georgia spans 12 years: primary grades I-VI, basic grades VII-X, and secondary grades XI-XII; children generally start primary school at age 6; primary and basic education are compulsory."
+  source: src-677
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, compulsory-schooling, georgia]
+  notes: "Public/private institutions follow the national curriculum; foreign-child enrollment and language-support mechanics remain later practical checks."
+
+- id: claim-georgia-019
+  topic: georgia_preschool_public_services
+  value: "Eurydice states that Georgian public early and preschool institutions provide services free of charge, including basic education/development programs and daily nutritional support funded by municipal budgets; preschool education is voluntary, while school-readiness is a compulsory component before formal schooling."
+  source: src-678
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, preschool, childcare, georgia]
+  notes: "City-specific public/private preschool availability and admission mechanics remain later practical checks."
+
+- id: claim-georgia-020
+  topic: tbilisi_international_school_market
+  value: "International Schools Database lists 16 international schools in Tbilisi; most do not publish fees, but Deutsche Internationale Schule Tbilissi shows 2025/2026 yearly fees from GEL 10,290 to GEL 19,670."
+  source: src-679
+  date_verified: 2026-06-17
+  confidence: medium
+  tags: [education, international-school, tbilisi, georgia]
+  notes: "Use as a budget-risk screen, not a full school-selection answer."

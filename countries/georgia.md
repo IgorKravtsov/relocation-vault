@@ -1,14 +1,14 @@
 ---
 country: Georgia
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-13T11:16:37Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["visa-free-not-residence", "georgia-small-business-tax-and-it-residence-fit-gap", "tbilisi-rent-pressure"]
-sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370", "src-537", "src-538", "src-539", "src-540"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-17T22:13:03Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["visa-free-not-residence", "georgia-small-business-tax-and-it-residence-fit-gap", "tbilisi-rent-pressure", "georgia-private-insurance-quote-gap", "georgia-international-school-cost-risk"]
+sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370", "src-537", "src-538", "src-539", "src-540", "src-676", "src-677", "src-678", "src-679"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Georgia is easy to enter and has an official IT residence-permit category that may fit the male IT worker, but the route needs verification on the 2026 work-right / small-business mechanics and is not an EU temporary-protection bridge.
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-13T11:16:37Z
-- **Tier rationale**: Not assigned until healthcare, education, comfort, partner/student fit, risk dimensions, bureaucracy, and practical permit-renewal experience are researched.
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-17T22:13:03Z
+- **Tier rationale**: Not assigned until comfort, partner/student fit, risk dimensions, bureaucracy, and practical permit-renewal experience are researched.
 
 ## Block 2 — Scoring
 
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | First-pass tax baseline captured: 183-day residence, 20% ordinary PIT, 1%/3% small-business turnover regime, no social-security contributions, 4% self-employed pension contribution context, VAT threshold/place-of-supply caveats, and a USD 3,000/month worked example. | §5.3 |
 | Cost of living | — | medium | First-pass Livingcost baseline captured for Georgia, Tbilisi, Batumi, and Kutaisi. A USD 3,000 gross / roughly USD 2,850-2,970 optimistic small-business net can work, but Tbilisi leaves a narrower one-income buffer than Batumi or Kutaisi. | §5.4 |
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy ranges from about $398-$616 in Tbilisi, $310-$420 in Batumi, and $235-$301 in Kutaisi; 80 m2 stress-test units are materially higher. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | First-pass healthcare baseline captured: Georgia has a highly privatized provider market, citizen-focused universal coverage with co-pays, and stronger Tbilisi capacity than rural areas; exact foreign-resident insurance/onboarding and private-care prices remain open. | §5.6 |
+| Education (future child) | — | medium | Public preschool/general-education structure captured; primary and basic education are compulsory, public preschool is free with catering, and Tbilisi has an international-school market but published fee data is sparse. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -152,13 +152,32 @@ FX snapshot used only for screening: **1 USD = GEL 2.661955**. [src-370]
 
 **Rent verdict for first pass**: Use the modest 40 m2 proxy for screening. Tbilisi is manageable only if the couple avoids prime/large apartments and keeps the rent target near the cheap 40 m2 proxy; Batumi has the best captured warmth/rent compromise but needs seasonal listing checks; Kutaisi is the low-cost fallback if the tax file or one-income buffer becomes the binding constraint.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-17, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. This pass opens a first-pass healthcare baseline for country screening, but it does not yet capture route-compliant private insurance quotes for two young adults, maternity/newborn exclusions, exact public-program eligibility for foreign IT / family residents, or city-specific GP, pediatric, maternity, and private-clinic prices. `vq-138` tracks those application-prep details.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Health-system baseline
+- **Provider structure and public coverage**: The U.S. International Trade Administration describes Georgia as a highly privatized healthcare market: about 86% of hospitals are privately owned and operated, while the government provides Universal Healthcare Coverage to most Georgian citizens. The coverage has expanded to most emergency, outpatient, and inpatient care, but the level is need-based and still requires out-of-pocket expenditure. For this couple, treat the citizen-focused universal system as a public-system map, not proof that a newly resident Ukrainian IT/family file is fully covered. [src-676] Confidence: medium.
+- **Tbilisi vs regions**: The same source says Georgia has relatively high but unevenly distributed healthcare; rural areas receive lower-quality care, outpatient use is lower than neighbouring/EU levels, and Tbilisi outpatient rates are adequate. For relocation screening, Tbilisi remains the first healthcare-practicality city, while Batumi/Kutaisi need clinic-specific checks before a pregnancy/newborn plan. [src-676] Confidence: medium.
+- **Private insurance and co-pay risk**: Trade.gov reports that private health insurance covers over 16% of the population and that out-of-pocket payments exceed public financing and private-insurance payments. Because prices charged to patients are not state-regulated and public reimbursements vary by service/facility/location, budget planning should include private insurance plus a cash buffer rather than assuming predictable low public costs. [src-676] Confidence: medium.
 
-[verification required]
+#### Practical healthcare verdict
+Georgia is screenable for young adults if the couple can budget private insurance and prefers Tbilisi for healthcare depth. The main unresolved issue is not whether healthcare exists, but whether the exact Georgian residence route gives access to public coverage or instead requires a private policy, and what maternity/newborn/private specialist costs look like in Tbilisi/Batumi/Kutaisi. Keep §5.6 partial until those prices and onboarding mechanics are verified.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-17, dod: passed}
+
+> **DoD status**: Passed for first-pass screening at medium confidence. Public preschool/general-education structure, age bands, compulsory stages, and the Tbilisi international-school fallback are captured. Exact school-by-school admissions, non-Georgian-language support, public-school enrollment mechanics for foreign children, and live private-preschool / international-school quotes remain later practical checks.
+
+#### Public preschool and general education
+- **Early and preschool education**: Eurydice states that Georgia's early and preschool system covers children from birth until primary school, is governed by the Law on Early and Preschool Education and Care, and is intended to provide universal accessibility. Public early and preschool institutions provide services free of charge, including basic education/development programs and daily nutritional support funded by municipal budgets. [src-678] Confidence: medium-high.
+- **Preschool age bands / school readiness**: Eurydice splits early upbringing/education for children under 2, preschool education from age 2 until first grade, and a school-readiness program before formal schooling. The school-readiness program is a compulsory component of preschool preparation, while participation in early/preschool programs overall is voluntary. [src-678] Confidence: medium-high.
+- **General education structure**: Eurydice says complete general education spans 12 years: primary grades I-VI, basic grades VII-X, and secondary grades XI-XII. Children generally enter primary education at age 6, with flexibility for children turning 6 by December 31. Primary and basic education are compulsory; public and private institutions follow the national curriculum developed by the Ministry of Education, Science and Youth. [src-677] Confidence: medium-high.
+
+#### International / private fallback
+- **Tbilisi international-school market**: International Schools Database lists 16 international schools in Tbilisi, with English used by 14 schools and Georgian by 5; curricula include American, Georgian, British, IB, German, international, French, and Finnish options. Most listed schools do not publish fees, but the Deutsche Internationale Schule Tbilissi entry shows 2025/2026 yearly fees from GEL 10,290 to GEL 19,670, proving that at least one published international option is materially cheaper than many Western European international-school baselines while still needing school-by-school verification. [src-679] Confidence: medium.
+
+#### Education verdict for first pass
+For a future child, Georgia is workable if the family accepts Georgian-language public education and starts in Tbilisi for the widest school choice. Public preschool is attractive on paper because municipal public institutions are free and include catering, but public-school enrollment for a foreign child, language support, and private/international fee quotes need a later family-prep pass. International schooling should be treated as a budget risk rather than the default one-income plan.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -194,13 +213,14 @@ FX snapshot used only for screening: **1 USD = GEL 2.661955**. [src-370]
 - **Best legalization path for the man**: likely Georgia IT residence permit if he can document IT experience, USD 25,000+ annual remuneration, and the 2026 work-right / small-business requirements.
 - **Best legalization path for the woman**: likely family reunification after marriage once the man has a Georgian permit; unmarried-partner route not confirmed.
 - **Does marriage change the picture**: likely yes; use marriage as the conservative baseline for derived residence.
-- **Realism of staying after 03.2027**: medium/uncertain; Georgia is outside EU TP and has ordinary residence routes, and first-pass costs/rents look workable, but the PR/citizenship clocks are long and route practice is not yet verified.
+- **Realism of staying after 03.2027**: medium/uncertain; Georgia is outside EU TP and has ordinary residence routes, and first-pass costs/rents plus public education look workable, but the PR/citizenship clocks are long and route practice / healthcare onboarding are not yet verified.
 
 **Pros**:
 - Easy-entry baseline for Ukrainians compared with many visa regimes.
 - Official IT residence permit is potentially tailored to the male partner's remote-IT profile.
 - Tbilisi/Batumi/Kutaisi offer milder winters than most inland EU options.
 - First-pass cost/rent screening is workable on USD 3,000 gross, especially outside Tbilisi.
+- Public preschool/general education is usable for family planning if Georgian-language schooling is acceptable.
 
 **Cons / risks**:
 - Visa-free stay is not residence and appears to have been cut back to one year for Ukrainians.
@@ -208,6 +228,8 @@ FX snapshot used only for screening: **1 USD = GEL 2.661955**. [src-370]
 - No EU-style temporary-protection bridge; long-term residence/citizenship clocks are about 10 years.
 - Climate is split: Tbilisi is hot/cold continental; Batumi is very rainy and humid.
 - Tbilisi rent can pressure the one-income budget if the tax file falls back to ordinary 20% PIT or if the couple needs a larger central apartment.
+- Healthcare costs are not yet quantified: private insurance, maternity/newborn coverage, and public-system eligibility for the exact residence route need verification.
+- International-school fees are sparsely published; treat English/private schooling as a budget risk, not the default plan.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -241,7 +263,7 @@ FX snapshot used only for screening: **1 USD = GEL 2.661955**. [src-370]
 | Flights for two | — | TBD |
 | Rental deposit | — | Rent pass required. |
 | First month rent | — | Rent pass required. |
-| Health insurance (one year) | — | Healthcare pass required. |
+| Health insurance (one year) | — | `vq-138` required; assume private-insurance quote plus cash buffer until public/private onboarding is verified. |
 | Immigration lawyer fees | — | Bureaucracy pass required. |
 | Buffer / contingencies | — | Important because visa-free stay is not residence. |
 | **Total** | — | |
@@ -258,8 +280,11 @@ FX snapshot used only for screening: **1 USD = GEL 2.661955**. [src-370]
 - [src-157] Georgia Public Service Development Agency — Migration / Residence Permits.
 - [src-158] Georgia Public Service Development Agency — Georgian citizenship.
 
-### 7b. Reputable secondary
+### 7b. Reputable / official-secondary
 - [src-156] Georgia Today — 2025 report on Ukrainian visa-free stay being cut from 3 years to 1 year.
+- [src-676] U.S. International Trade Administration — Healthcare Resource Guide: Georgia.
+- [src-677] Eurydice — Georgia education overview / general education structure.
+- [src-678] Eurydice — Georgia early childhood education and care.
 - [src-365] PwC Worldwide Tax Summaries — Georgia individual taxes on personal income.
 - [src-366] PwC Worldwide Tax Summaries — Georgia individual residence.
 - [src-367] PwC Worldwide Tax Summaries — Georgia individual other taxes.
@@ -279,12 +304,15 @@ _(none yet)_
 - [src-538] Livingcost — Cost of living in Tbilisi.
 - [src-539] Livingcost — Cost of living in Batumi.
 - [src-540] Livingcost — Cost of living in Kutaisi.
+- [src-679] International Schools Database — Tbilisi international schools.
 
 ### 7e. Not found
 - Clean official-primary text capture of the current Ukraine-specific visa-free stay decree / country table remains useful before travel, but `vq-051` is closed for country-screening because the safe operational baseline is one-year visa-free stay only, not residence.
 - A worked State Employment Support Agency / Revenue Service filing example for the IT small-business variant remains useful for application-prep, but the core route blocker is closed for planning.
 - Revenue Service / accountant confirmation of the exact small-business status, IT activity code, VAT / export-service handling, pension registration, and compatibility with the IT residence-permit file is required before treating Georgia §5.3 as passed.
+- Private insurance quotes, maternity/newborn exclusions, exact foreign-resident public-health onboarding, and city-specific private-care prices are required before treating Georgia §5.6 as passed.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-104`: Georgia small-business / IT residence tax fit, VAT / place-of-supply, pension registration, and residence-renewal compatibility.
+- `vq-138`: Georgia private insurance, public-health onboarding, maternity/newborn coverage, and city-specific private-care costs.

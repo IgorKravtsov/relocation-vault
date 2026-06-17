@@ -78,6 +78,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-17 (run-145)
 - **Status**: pending
 
+## vq-138 [medium priority]
+- **Fact**: "Georgia private health-insurance quotes, maternity/newborn coverage, exact public-health / Universal Healthcare eligibility for IT / small-business / family residents, and Tbilisi/Batumi/Kutaisi private GP, pediatric, maternity, and clinic prices"
+- **Country**: Georgia
+- **Section**: 5.6
+- **Current source**: src-676
+- **Why uncertain**: Trade.gov gives a usable health-system screen, but the pass did not capture route-compliant private policy premiums, exclusions, foreign-resident public-program onboarding, or city-specific private-care prices.
+- **Suggested verification**: Get insurer quotes for two young adults, ask a Georgian immigration/accounting adviser how IT residence / small-business / family statuses satisfy health-insurance and public-program access, and check Tbilisi/Batumi/Kutaisi GP, pediatrician, maternity, and private-clinic prices.
+- **Created**: 2026-06-17 (run-146)
+- **Status**: pending
+
 
 ## vq-003 [medium priority]
 - **Fact**: "Exact sunny days per year for Athens, Thessaloniki, and Heraklion"

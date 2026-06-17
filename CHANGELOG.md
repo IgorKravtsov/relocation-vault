@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-17
 ---
 
+## 2026-06-17 — run-146
+- Georgia: depth_score 3.0 → 5.5 (section 5.7 completed; section 5.6 moved to partial)
+- Sources added: src-676, src-677, src-678, src-679
+- Claims added: claim-georgia-017, claim-georgia-018, claim-georgia-019, claim-georgia-020
+- Verification queue: 8 → 9 (added vq-138)
+
 ## 2026-06-17 — run-145
 - Turkey: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial).
 - Sources added: src-671 through src-675.

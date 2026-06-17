@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 145,
+  "iteration": 146,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-17T19:02:21Z",
+  "last_run_timestamp": "2026-06-17T22:13:03Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Turkey",
+    "country": "Georgia",
     "sections": [
       "5.6",
       "5.7"
@@ -16,7 +16,7 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Georgia",
+    "suggested_country": "Albania",
     "suggested_sections": [
       "5.6",
       "5.7"
@@ -583,19 +583,19 @@
     "Georgia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -604,10 +604,12 @@
       "risk_flags": [
         "visa-free-not-residence",
         "georgia-small-business-tax-and-it-residence-fit-gap",
-        "tbilisi-rent-pressure"
+        "tbilisi-rent-pressure",
+        "georgia-private-insurance-quote-gap",
+        "georgia-international-school-cost-risk"
       ],
-      "last_iteration": 112,
-      "unverified_count": 0
+      "last_iteration": 146,
+      "unverified_count": 1
     },
     "Albania": {
       "tier": null,
@@ -1104,8 +1106,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 8,
-  "sources_count": 674,
-  "claims_count": 585,
+  "verification_queue_size": 9,
+  "sources_count": 678,
+  "claims_count": 589,
   "proposals_pending": 0
 }

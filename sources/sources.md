@@ -8135,3 +8135,51 @@ Each source entry:
 - **Facts supporting**: Istanbul international-school market and fee benchmarks for future-child budget risk (claim-turkey-022)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-17
+
+## src-676
+- **Title**: U.S. International Trade Administration - Healthcare Resource Guide: Georgia
+- **URL**: https://www.trade.gov/healthcare-resource-guide-georgia
+- **Archive**: direct HTML extraction used from official .gov page
+- **Type**: reputable-secondary
+- **Date published**: current public guide, no single page date captured
+- **Date accessed**: 2026-06-17
+- **Used by**: Georgia
+- **Facts supporting**: healthcare system structure, high private-hospital share, citizen-focused Universal Healthcare Coverage, out-of-pocket/co-pay risk, Tbilisi vs rural healthcare capacity, and private-insurance context (claim-georgia-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
+
+## src-677
+- **Title**: Eurydice - Georgia: Overview / general education structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/georgia/overview ; https://eurydice.eacea.ec.europa.eu/national-education-systems/georgia/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice pages - direct extraction used
+- **Type**: official-secondary
+- **Date published**: pages rendered 2026-06-17 in extraction
+- **Date accessed**: 2026-06-17
+- **Used by**: Georgia
+- **Facts supporting**: Georgia 12-year general-education structure, primary/basic/secondary grades, age-6 school-entry rule, compulsory primary and basic education, and national-curriculum baseline (claim-georgia-018)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-678
+- **Title**: Eurydice - Georgia: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/georgia/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: page rendered 2026-06-17 in extraction
+- **Date accessed**: 2026-06-17
+- **Used by**: Georgia
+- **Facts supporting**: early/preschool education age bands, free public preschool education and catering, municipal funding, voluntary participation, and school-readiness component (claim-georgia-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-679
+- **Title**: International Schools Database - Tbilisi international schools
+- **URL**: https://www.international-schools-database.com/in/tbilisi
+- **Archive**: stable commercial directory page - direct extraction used
+- **Type**: commercial
+- **Date published**: 2025/2026 fee data shown where published
+- **Date accessed**: 2026-06-17
+- **Used by**: Georgia
+- **Facts supporting**: Tbilisi international-school market, languages/curricula, and a published Deutsche Internationale Schule Tbilissi 2025/2026 fee range for budget-risk screening (claim-georgia-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
