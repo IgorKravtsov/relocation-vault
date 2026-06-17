@@ -179,3 +179,39 @@
   confidence: medium
   tags: [cost-of-living, rent, pecs, hungary]
   notes: "Best first-pass affordability screen among the captured Hungary cities; smaller-city services need later comfort research"
+
+- id: claim-hungary-021
+  topic: temporary_protection_healthcare_scope
+  value: "Hungarian temporary-protection applicants / beneficiaries can access listed healthcare categories when not otherwise socially insured, including primary care, urgent specialist and hospital care, prenatal / obstetric care, emergency dental care, maternity care, medicines, oncology, and chronic care."
+  source: src-092
+  date_verified: 2026-06-17
+  confidence: high
+  tags: [healthcare, temporary-protection, hungary, ukraine]
+  notes: "Used for the pre-2027 healthcare screening baseline; ordinary status onboarding remains separate."
+
+- id: claim-hungary-022
+  topic: neak_public_healthcare_baseline
+  value: "NEAK describes free-of-charge health-care services for insured persons, including screening, treatment, family-doctor / pediatric / dental basic care, school and youth healthcare, specialist care, and hospital care categories."
+  source: src-648
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [healthcare, public-system, neak, hungary]
+  notes: "Original official page is in Hungarian; use as an institutional/service baseline, not as final route-specific onboarding proof."
+
+- id: claim-hungary-023
+  topic: kindergarten_compulsory_free
+  value: "Hungary's early childhood system covers non-compulsory nursery care from birth to age 3 and mandatory free kindergarten education from age 3 until compulsory schooling, with exemptions possible."
+  source: src-649
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, kindergarten, early-childhood, hungary]
+  notes: "Eurydice official-secondary source; useful for future-child budget screening."
+
+- id: claim-hungary-024
+  topic: compulsory_school_structure_and_international_fee_risk
+  value: "Mandatory school age in Hungary is 6 to 16; basic education is an 8-grade structure, while Budapest international-school fees can reach HUF 5.16m-10.29m/year at a single benchmark school."
+  source: src-650
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, compulsory-schooling, international-school, budget-risk, hungary]
+  notes: "Fee benchmark also uses src-651; source field follows the main public-education structure source."

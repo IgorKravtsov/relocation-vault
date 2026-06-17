@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-16
+last_updated: 2026-06-17
 ---
 
 # Sources Registry
@@ -7795,5 +7795,53 @@ Each source entry:
 - **Date accessed**: 2026-06-17
 - **Used by**: Bulgaria
 - **Facts supporting**: Sofia international-school fee risk benchmark for the future-child budget (claim-bulgaria-025)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
+
+## src-648
+- **Title**: NEAK Hungary - Health-care services for insured persons
+- **URL**: https://www.neak.gov.hu/felso_menu/lakossagnak/ellatas_magyarorszagon/egeszsegugyi_ellatasok
+- **Archive**: stable official page via Jina text mirror - direct extraction used
+- **Type**: official-primary
+- **Date published**: no page date shown
+- **Date accessed**: 2026-06-17
+- **Used by**: Hungary
+- **Facts supporting**: public health-insurance service baseline for insured persons, including screening, treatment, family-doctor / pediatric / dental basic care, specialist care, and hospital care categories (claim-hungary-022)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-649
+- **Title**: Eurydice - Hungary: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/hungary/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page via Jina text mirror - direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2026-03-29 in extracted page
+- **Date accessed**: 2026-06-17
+- **Used by**: Hungary
+- **Facts supporting**: Hungary ECEC split between nursery birth-to-3 and mandatory free kindergarten from age 3 until compulsory schooling; ministry / municipal governance context (claim-hungary-023)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-29
+
+## src-650
+- **Title**: Eurydice - Hungary: Organisation of the education system and of its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/hungary/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page via Jina text mirror - direct extraction used
+- **Type**: official-secondary
+- **Date published**: 2026-06-16 page timestamp in extracted metadata
+- **Date accessed**: 2026-06-17
+- **Used by**: Hungary
+- **Facts supporting**: kindergarten from age 3, mandatory school age 6-16, and 8-grade basic education structure (claim-hungary-024)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-16
+
+## src-651
+- **Title**: International Schools Database - Budapest international schools
+- **URL**: https://www.international-schools-database.com/in/budapest
+- **Archive**: stable page via Jina text mirror - direct extraction used
+- **Type**: commercial
+- **Date published**: 2025/2026 fee data shown on page
+- **Date accessed**: 2026-06-17
+- **Used by**: Hungary
+- **Facts supporting**: Budapest international-school market and British International School Budapest 2025/2026 fee benchmark for future-child budget risk (claim-hungary-024)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-17

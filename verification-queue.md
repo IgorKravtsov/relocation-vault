@@ -195,6 +195,15 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-17 (run-139)
 - **Status**: pending
 
+## vq-131 [medium priority]
+- **Fact**: "Hungary healthcare application-prep details: White Card / guest-self-employment / family-status-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NEAK / TAJ / GP onboarding workflow for the couple's final status and selected city"
+- **Country**: Hungary
+- **Section**: 5.6
+- **Current source**: src-092, src-648
+- **Why uncertain**: This healthcare pass captured TP medical-care rights and the NEAK public-service baseline for insured persons, but did not capture live private-insurance quotes, maternity exclusions / waiting periods, or exact onboarding steps for the couple's final White Card / guest self-employment / family or independent status.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local NEAK / TAJ / GP onboarding workflow as application-prep checks before filing or city selection.
+- **Created**: 2026-06-17 (run-140)
+- **Status**: pending
 
 
 

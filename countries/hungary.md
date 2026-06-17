@@ -1,13 +1,13 @@
 ---
 country: Hungary
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-12T16:35:49Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "hungary-self-employed-tax-and-immigration-fit-gap", "budapest-rent-pressure"]
-sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172", "src-332", "src-333", "src-334", "src-335", "src-336", "src-513", "src-514", "src-515", "src-516"]
+depth_score: 5.5
+last_updated: 2026-06-17T03:11:20Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "hungary-self-employed-tax-and-immigration-fit-gap", "budapest-rent-pressure", "hungary-private-insurance-quote-gap", "hungary-international-school-cost-risk"]
+sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172", "src-332", "src-333", "src-334", "src-335", "src-336", "src-513", "src-514", "src-515", "src-516", "src-648", "src-649", "src-650", "src-651"]
 unverified_count: 1
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Hungary is usable as a legal short/medium-term base but not yet an obvious long-term fit for this couple: the White Card is clean for foreign remote work but requires at least EUR 3,000 net monthly income for 6 months, does not allow Hungarian gainful activity, and its holder cannot sponsor family reunification; guest self-employment has a heavier evidence burden and a 3-year cap before a new application. [src-093][src-094][src-095]
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-12
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-17
 - **Tier rationale**: Leave unassigned until taxes, cost, rent, healthcare, and ordinary self-employment feasibility are researched.
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | First-pass tax stress test captured 15% PIT, 18.5% social security, 13% social tax, VAT headline, separate spouse filing, and a USD 3,000/month HUF calculation; exact self-employed registration / base rules and White Card vs local self-employment fit remain unresolved. | §5.3 |
 | Cost of living | — | medium | Livingcost first pass: Hungary screens around $1,197/month for one person with rent and $2,914/month family-of-four proxy; Pécs and Debrecen look more budget-compatible than Budapest. | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 1BR proxy is about $405-$546 in Pécs/Debrecen and $593-$772 in Budapest; Budapest is the rent-pressure case on the conservative tax-section net. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | TP healthcare and NEAK public-service baseline captured; exact route-compliant private insurance quotes, maternity exclusions, and final-status onboarding remain application-prep checks | §5.6 |
+| Education (future child) | — | medium-high | Eurydice baseline: free mandatory kindergarten from age 3 to school start and 8-grade basic education; Budapest international-school fees create budget risk | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -181,13 +181,43 @@ Interpretation for the vault's "normal two-room apartment" definition: the 40 m2
 
 Practical search baseline: use **Ingatlan.com**, **Alberlet.hu**, **Jofogas**, local Facebook rental groups, and larger agencies as discovery channels. For a foreign couple with one foreign-client income, expect landlords or agents to ask for passports, proof of legal stay or pending residence filing, proof of income/savings, and a deposit. Exact deposit norms, agency fees, lease-registration practice, landlord acceptance of foreign remote income, and utility-transfer mechanics remain later practical-budget work; do not treat this first pass as an application-ready housing guide.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-17, dod: pending}
 
-[verification required]
+> **DoD**: how to register after arrival; cost of private insurance for two; pregnancy / childbirth conditions. This pass opens a screening baseline but does not pass DoD because live route-compliant insurance quotes, maternity exclusions / waiting periods, and exact final-status NEAK / GP onboarding workflow are still application-prep checks.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Public / compulsory healthcare baseline
 
-[verification required]
+For Ukrainians under Hungarian temporary protection, the captured OIF page already gives a strong pre-2027 safety baseline: a TP applicant / beneficiary can access listed healthcare categories if not otherwise socially insured, including primary care, urgent specialist and hospital care, expanded care for vulnerable persons, prenatal and obstetric care, emergency dental care, maternity care, public-health medicines, oncology and chronic care [src-092].
+
+For ordinary long-stay planning, the relevant public system is Hungary's health-insurance system administered through NEAK. NEAK's health-care services page describes which services insured persons may use free of charge, including screening, treatment, GP / family-doctor care, home pediatric care, dental basic care, school and youth healthcare, specialist care, and hospital care categories [src-648]. The practical question for this couple is therefore status-specific: White Card / guest self-employment / family or independent status must be mapped to a valid insurance route, TAJ / eligibility record, and local GP onboarding before filing.
+
+#### Private care and insurance planning
+
+For screening, assume a private-insurance buffer is needed until exact public eligibility is confirmed. The current vault evidence does not yet include a live Hungarian private-health-insurance quote for two young adults, maternity waiting periods / exclusions, or wording proving a policy is accepted for White Card / guest self-employment / family-style residence filings. Add the `hungary-private-insurance-quote-gap` flag and keep `vq-131` as an application-prep item.
+
+Operational city baseline: Budapest has the deepest private-clinic, specialist, English-speaking, and administrative ecosystem but is the rent-pressure case; Debrecen and Pecs are better budget screens but need local private-clinic / English-speaking GP checks before pregnancy or specialist-dependent planning.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-17, dod: passed}
+
+> **DoD**: kindergarten cost; quality of public schools for foreigners; international-school alternative with cost. This is a first-pass family-planning baseline, not school-selection advice.
+
+#### Early childhood and mandatory kindergarten
+
+Eurydice's Hungary profile says early childhood education and care is divided into two stages: birth to age 3 through non-compulsory nursery care, which may be fee-based or financially supported, and age 3 until compulsory schooling through kindergarten education, which is mandatory, separately regulated with possible exemption, and provided free of charge [src-649]. The organisation page similarly states that kindergarten prepares children from age 3 until compulsory schooling and that the Educational Authority monitors enrolment of children over age 3 [src-650].
+
+Screening implication: public kindergarten is not the main long-term budget blocker after age 3, but nursery availability before age 3, Hungarian-language integration, and municipal placement rules remain city-level checks.
+
+#### Public school structure and fit for foreigners
+
+Eurydice states that mandatory school age is between 6 and 16. Basic education is an 8-grade single structure covering primary grades 1-4 and lower-secondary grades 5-8, with some upper-secondary schools also offering 6- or 8-grade paths [src-650]. Governance is centralized for schools through the Klebelsberg Centre / school district centres, while kindergartens are a municipal task [src-649].
+
+For a Ukrainian family, the public-school fit is strongest where there are more services, language support, and international communities: Budapest for maximum school choice and services, Debrecen for university-city depth with lower rent, and Pecs as a lower-cost smaller-city option. Hungarian-language integration remains the key practical issue; no city-specific Ukrainian-language school-support evidence was captured in this pass.
+
+#### International-school budget risk
+
+International school is the downside scenario for a one-income family. International Schools Database lists 17 international schools in Budapest and shows The British International School Budapest with 2025/2026 yearly fees from **HUF 5,160,000 to HUF 10,290,000** for ages 3-18 [src-651]. This is a single-market benchmark, not a full fee survey, but it is enough to add `hungary-international-school-cost-risk`: even the low end is a major annual cost against the couple's current one-income profile, especially if the conservative Hungary tax-section net applies.
+
+Education conclusion: Hungary passes the first-pass education DoD for screening. Public kindergarten/school structure is clear and kindergarten from age 3 is mandatory/free, but private international schooling in Budapest would materially strain the one-income budget.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -219,7 +249,7 @@ Practical search baseline: use **Ingatlan.com**, **Alberlet.hu**, **Jofogas**, l
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Possible, but Hungary remains fragile for this couple. Pécs/Debrecen rent screens are workable, but White Card income is above the current budget, White Card cannot sponsor the partner, and the tax/contribution stress test can make one-income affordability tight. [src-093][src-095][src-515][src-516]
+- **Can relocate now**: Possible, but Hungary remains fragile for this couple. Debrecen/Pecs rent screens are workable, healthcare and education are screenable, but White Card income is above the current budget, White Card cannot sponsor the partner, and the tax/contribution stress test can make one-income affordability tight. [src-093][src-095][src-648][src-650][src-515][src-516]
 - **Best legalization path for the man**: White Card only if income is safely above EUR 3,000 net/month and the woman has her own status; otherwise investigate guest self-employment or another sponsor-eligible route.
 - **Best legalization path for the woman**: Temporary protection if independently eligible, or independent study/work/other status; family reunification is not available from a White Card sponsor, and unmarried dependency is not captured. [src-095]
 - **Does marriage change the picture**: It may help only if the sponsor holds a sponsor-eligible Hungarian status; marriage alone does not fix White Card family-reunification exclusion.
@@ -229,7 +259,8 @@ Practical search baseline: use **Ingatlan.com**, **Alberlet.hu**, **Jofogas**, l
 - Official White Card exists for foreign remote work. [src-093]
 - National Residence Card may be available after 3 years of legal uninterrupted residence for eligible permit holders. [src-096]
 - Budapest/Pécs/Debrecen have relatively sunny Central European climates by regional standards. [src-097][src-098][src-099]
-- Pécs and Debrecen have more workable first-pass rent/cost screens than Budapest. [src-515][src-516]
+- Pecs and Debrecen have more workable first-pass rent/cost screens than Budapest. [src-515][src-516]
+- Public kindergarten / school structure is clear, and kindergarten from age 3 is mandatory/free for screening purposes. [src-649][src-650]
 
 **Cons / risks**:
 - White Card EUR 3,000 net/month requirement is above the couple's current budget assumption. [src-093]
@@ -238,6 +269,7 @@ Practical search baseline: use **Ingatlan.com**, **Alberlet.hu**, **Jofogas**, l
 - No Hungary-specific post-2027 TP bridge captured. [src-002][src-092]
 - Winters are cold compared with Tier-1 Mediterranean candidates. [src-097][src-098][src-099]
 - Budapest is rent-pressured on the conservative after-tax stress test, and the national family proxy is already close to gross income. [src-513][src-514]
+- Exact private health insurance, final-status NEAK / GP onboarding, and Budapest international-school cost exposure remain application-prep / future-child budget risks. [src-648][src-651]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -255,7 +287,7 @@ Practical search baseline: use **Ingatlan.com**, **Alberlet.hu**, **Jofogas**, l
 - Bank account opening: TBD.
 - Tax ID / social security number: TBD.
 - Long-term housing: TBD.
-- Health insurance / public health registration: TBD.
+- Health insurance / public health registration: for TP, use the captured OIF healthcare-rights baseline; for ordinary status, map the final permit to NEAK eligibility / TAJ / GP onboarding and keep private insurance active until confirmed. [src-092][src-648]
 - SIM card, internet, utilities: TBD.
 
 ### 6c. First 3–6 months
@@ -281,7 +313,7 @@ Practical search baseline: use **Ingatlan.com**, **Alberlet.hu**, **Jofogas**, l
 | Flights for two | — | TBD |
 | Rental deposit | — | TBD; first-pass rent proxy suggests planning at least one to two months of target rent until local practice is verified |
 | First month rent | $405-$772 | 40 m2 1BR proxy range across Pécs cheap to Budapest center; 80 m2 stress-test rents are higher |
-| Health insurance (one year) | — | TBD |
+| Health insurance (one year) | — | TBD; private quote for two and maternity exclusions / waiting periods remain application-prep checks |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |
@@ -296,6 +328,7 @@ Practical search baseline: use **Ingatlan.com**, **Alberlet.hu**, **Jofogas**, l
 
 ### 7a. Official primary
 - [src-092] OIF — Provisions and benefits for persons applying for recognition as a beneficiary of temporary protection.
+- [src-648] NEAK Hungary — healthcare services for insured persons.
 - [src-093] OIF — White Card: residency for digital nomads.
 - [src-094] OIF — Residence permit for guest self-employment.
 - [src-095] OIF — Residence permit for the purpose of family reunification.
@@ -308,6 +341,8 @@ Practical search baseline: use **Ingatlan.com**, **Alberlet.hu**, **Jofogas**, l
 - [src-334] PwC Worldwide Tax Summaries — Hungary corporate other taxes / VAT.
 - [src-335] PwC Worldwide Tax Summaries — Hungary individual tax administration.
 - [src-336] open.er-api.com — USD/HUF exchange-rate feed.
+- [src-649] Eurydice — Hungary early childhood education and care.
+- [src-650] Eurydice — Hungary organisation of the education system and structure.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -320,14 +355,17 @@ _(none yet)_
 - [src-513] Livingcost — Hungary cost of living (commercial)
 - [src-514] Livingcost — Budapest cost of living (commercial)
 - [src-515] Livingcost — Debrecen cost of living (commercial)
-- [src-516] Livingcost — Pécs cost of living (commercial)
+- [src-516] Livingcost — Pecs cost of living (commercial)
+- [src-651] International Schools Database — Budapest international schools fee benchmark
 
 ### 7e. Not found
 - Direct annual sunny/clear-day counts for Budapest, Debrecen, and Pécs.
 - Consular jurisdiction-specific White Card checklist for Ukrainian citizens residing in Ukraine/Poland.
 - Current official NAV/accountant source mapping a Ukrainian foreign-client IT freelancer to a Hungarian individual-entrepreneur regime, exact 2026 contribution bases, KATA / flat-rate eligibility, VAT / reverse-charge reporting, and White Card / guest self-employment immigration-status compatibility.
+- Live private-health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NEAK / TAJ / GP onboarding steps for the couple's final White Card / guest self-employment / family or independent status.
 - Live Hungarian rental listings, exact deposit norms, agency fee practice, lease-registration mechanics, and landlord acceptance of foreign remote income for Budapest / Debrecen / Pécs.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-098` — resolved to a conservative screening baseline: do not assume KATA / flat-rate or White Card compatibility; individual-entrepreneur registration, exact contribution bases, VAT / reverse-charge, and immigration-status fit remain accountant/application-prep checks before filing.
+- `vq-131` — Hungary healthcare application-prep details: route-compliant private insurance quotes, maternity exclusions / waiting periods, and exact NEAK / TAJ / GP onboarding for the couple's final status and selected city.

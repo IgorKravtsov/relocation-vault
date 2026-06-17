@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-17
 ---
 
+## 2026-06-17 — run-140
+- Hungary: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
+- Sources added: src-648, src-649, src-650, src-651
+- Claims added: claim-hungary-021, claim-hungary-022, claim-hungary-023, claim-hungary-024
+- Verification queue: 1 -> 2 (added vq-131)
+
 ## 2026-06-17 — run-139
 - Bulgaria: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
 - Sources added: src-644, src-645, src-646, src-647
