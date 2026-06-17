@@ -7965,3 +7965,64 @@ Each source entry:
 - **Facts supporting**: Ljubljana international-school market and fee benchmarks for future-child budget risk (claim-slovenia-022)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-17
+
+
+## src-662
+- **Title**: FZOCG - Health Insurance Fund of Montenegro (institutional overview)
+- **URL**: https://fzocg.me/
+- **Archive**: direct HTML extraction used; official public site
+- **Type**: official-primary
+- **Date published**: no page date shown
+- **Date accessed**: 2026-06-17
+- **Used by**: Montenegro
+- **Facts supporting**: public health-insurance / insurer map, headquarters and regional units, contracted institutions/pharmacies, price lists, insured-person rights, medicines, and e-health links (claim-montenegro-021)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-663
+- **Title**: Montenegro Ministry of Health - ministry homepage / contact baseline
+- **URL**: https://www.gov.me/en/mzd
+- **Archive**: direct HTML extraction used; official government page
+- **Type**: official-primary
+- **Date published**: no page date shown
+- **Date accessed**: 2026-06-17
+- **Used by**: Montenegro
+- **Facts supporting**: Ministry of Health authority/contact baseline and Podgorica health-system contact point for later healthcare onboarding checks
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-664
+- **Title**: Eurydice - Montenegro: Access to early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/montenegro/access
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: current public page, no single publication date captured
+- **Date accessed**: 2026-06-17
+- **Used by**: Montenegro
+- **Facts supporting**: ECEC equal-access baseline, public/private preschool network, public-preschool parent fees of about EUR 50 full-day and EUR 25 half-day, reduced/free fee categories, and private-preschool fee caveat (claim-montenegro-023)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-665
+- **Title**: Eurydice - Montenegro: Organisation of the education system and of its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/montenegro/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2026-05-04 in extracted page
+- **Date accessed**: 2026-06-17
+- **Used by**: Montenegro
+- **Facts supporting**: education-system levels, nursery/kindergarten age bands, compulsory 9-year primary education, and free primary education from about age 6 to 15 (claim-montenegro-024)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-04
+
+## src-666
+- **Title**: QSI International School of Montenegro - school homepage
+- **URL**: https://www.qsi.org/montenegro/
+- **Archive**: direct HTML extraction used; tuition page not found
+- **Type**: commercial
+- **Date published**: no page date shown
+- **Date accessed**: 2026-06-17
+- **Used by**: Montenegro
+- **Facts supporting**: international-school alternative in Donja Gorica, Podgorica, covering preschool, elementary, middle, and secondary levels; tuition remains uncaptured (claim-montenegro-025)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17

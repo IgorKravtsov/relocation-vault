@@ -38,6 +38,27 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Medium priority
 
+## vq-134 [medium priority]
+- **Fact**: "Montenegro route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks"
+- **Country**: Montenegro
+- **Section**: 5.6
+- **Current source**: src-143, src-662, src-663
+- **Why uncertain**: Official sources map the public health system and require health insurance for DN filing, but do not give private insurance premiums, maternity/newborn exclusions, exact FZOCG onboarding by residence route, or city-specific private-care prices.
+- **Suggested verification**: Get insurer quotes for two young adults, ask Montenegro immigration/accounting adviser how DN/self-employed/family statuses join public coverage, and check Podgorica/Budva/Kotor GP, pediatrician, maternity, and private clinic prices.
+- **Created**: 2026-06-17 (run-143)
+- **Status**: pending
+
+## vq-135 [medium priority]
+- **Fact**: "Montenegro international-school tuition and private-preschool city quotes for Podgorica/coastal options"
+- **Country**: Montenegro
+- **Section**: 5.7
+- **Current source**: src-664, src-665, src-666
+- **Why uncertain**: Public preschool and school baselines are captured, and QSI confirms an international-school option in Podgorica, but exact international tuition and private-preschool city prices were not captured.
+- **Suggested verification**: Capture QSI Montenegro tuition/admissions quote and 2-3 private preschool/international-school fee quotes in Podgorica and one coastal option.
+- **Created**: 2026-06-17 (run-143)
+- **Status**: pending
+
+
 ## vq-003 [medium priority]
 - **Fact**: "Exact sunny days per year for Athens, Thessaloniki, and Heraklion"
 - **Country**: Greece

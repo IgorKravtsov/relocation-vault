@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-17
 ---
 
+## 2026-06-17 — run-143
+- Montenegro: depth_score 3.0 -> 5.0; sections 5.6 and 5.7 moved from pending to partial.
+- Sources added: src-662 through src-666.
+- Claims added: claim-montenegro-021 through claim-montenegro-025.
+- Verification queue: 4 -> 6 pending/open items (added vq-134 and vq-135).
+
 ## 2026-06-17 — run-142
 - Slovenia: depth_score 3.0 → 5.5 (section 5.7 completed; section 5.6 opened as partial)
 - Sources added: src-656, src-657, src-658, src-659, src-660, src-661
