@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 # Verification Queue
@@ -86,6 +86,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: Trade.gov gives a usable health-system screen, but the pass did not capture route-compliant private policy premiums, exclusions, foreign-resident public-program onboarding, or city-specific private-care prices.
 - **Suggested verification**: Get insurer quotes for two young adults, ask a Georgian immigration/accounting adviser how IT residence / small-business / family statuses satisfy health-insurance and public-program access, and check Tbilisi/Batumi/Kutaisi GP, pediatrician, maternity, and private-clinic prices.
 - **Created**: 2026-06-17 (run-146)
+- **Status**: pending
+
+## vq-139 [medium priority]
+- **Fact**: "Albania private health-insurance quotes, maternity/newborn coverage, exact Compulsory Healthcare Insurance Fund onboarding for remote-worker / Unique Permit / self-employed / family residents, and Tirana/Durres/Vlore private GP, pediatric, maternity, and clinic prices"
+- **Country**: Albania
+- **Section**: 5.6
+- **Current source**: src-166, src-680
+- **Why uncertain**: ITA maps the public/private healthcare system and secondary route sources require health insurance, but this pass did not capture route-compliant policy premiums, maternity/newborn exclusions, foreign-resident public-fund enrollment, or city-specific private-care prices.
+- **Suggested verification**: Get insurer quotes for two young adults, ask an Albanian immigration/accounting adviser how remote-worker / Unique Permit / self-employed / family statuses join public coverage or satisfy insurance evidence, and check Tirana/Durres/Vlore GP, pediatrician, maternity, and private-clinic prices.
+- **Created**: 2026-06-18 (run-147)
+- **Status**: pending
+
+## vq-140 [medium priority]
+- **Fact**: "Albania international-school tuition and private-preschool city quotes for Tirana plus coastal fallback cities"
+- **Country**: Albania
+- **Section**: 5.7
+- **Current source**: src-681, src-682, src-683
+- **Why uncertain**: Public preschool and compulsory-school baselines are captured, and Tirana International School confirms an English-language option, but exact international tuition and private-preschool fee quotes were not captured.
+- **Suggested verification**: Capture Tirana International School tuition/admissions quote, one additional Tirana international/private-school benchmark if available, and 2-3 private preschool quotes in Tirana plus Durres/Vlore if those remain candidate bases.
+- **Created**: 2026-06-18 (run-147)
 - **Status**: pending
 
 

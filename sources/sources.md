@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
 
 # Sources Registry
@@ -8183,3 +8183,51 @@ Each source entry:
 - **Facts supporting**: Tbilisi international-school market, languages/curricula, and a published Deutsche Internationale Schule Tbilissi 2025/2026 fee range for budget-risk screening (claim-georgia-020)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-17
+
+## src-680
+- **Title**: U.S. International Trade Administration - Albania Medical Equipment / healthcare system overview
+- **URL**: https://www.trade.gov/country-commercial-guides/albania-medical-equipment
+- **Archive**: direct HTML extraction used from official .gov page
+- **Type**: reputable-secondary
+- **Date published**: 2021-10-09
+- **Date accessed**: 2026-06-18
+- **Used by**: Albania
+- **Facts supporting**: healthcare system structure, Ministry of Health and Social Protection role, compulsory healthcare insurance fund baseline, public hospital capacity, Tirana private-hospital market, and private-sector growth (claim-albania-017, claim-albania-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-18
+
+## src-681
+- **Title**: Eurydice - Albania: Overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/albania/overview
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2025-09-15 in extracted page
+- **Date accessed**: 2026-06-18
+- **Used by**: Albania
+- **Facts supporting**: education governance, public/private institution baseline, obligatory education ages 6-16, basic/lower-secondary structure, optional upper secondary, and ministry contact baseline (claim-albania-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-09-15
+
+## src-682
+- **Title**: Eurydice - Albania: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/albania/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2026-03-30 in extracted page
+- **Date accessed**: 2026-06-18
+- **Used by**: Albania
+- **Facts supporting**: preschool age bands, nursery/kindergarten split, non-obligatory ECEC, public/private nursery fees, full-day public kindergarten local fees, and free half-day public kindergarten baseline (claim-albania-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-30
+
+## src-683
+- **Title**: Tirana International School (QSI) - admissions, preschool, and secondary school pages
+- **URL**: https://tirana.qsi.org/admissions ; https://tirana.qsi.org/academics/preschool ; https://tirana.qsi.org/academics/secondary-school
+- **Archive**: direct HTML extraction used from public school pages
+- **Type**: commercial
+- **Date published**: current public pages, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Albania
+- **Facts supporting**: Tirana English-language international-school option, no-prior-English admissions baseline through age 13 / U.S. grade 8, preschool from age 2, English instruction, secondary college-prep programme, and AP / IB-linked offerings (claim-albania-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18

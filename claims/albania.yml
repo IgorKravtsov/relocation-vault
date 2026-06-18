@@ -142,3 +142,39 @@
   confidence: medium
   tags: [cost-of-living, rent, vlore, albania]
   notes: "Vlorë screens as the lower-rent warm-coast option, pending live listing quality and service-access checks."
+
+- id: claim-albania-017
+  topic: healthcare_system_structure
+  value: "Albania's healthcare system focuses predominantly on public hospitals and public health services, with private healthcare increasingly popular; the Ministry of Health and Social Protection leads policy/budget and monitors state-owned health institutions."
+  source: src-680
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, public-system, private-care, albania]
+  notes: "Screening baseline from a U.S. ITA commercial guide; exact foreign-resident access and private insurance need application-prep verification."
+
+- id: claim-albania-018
+  topic: healthcare_capacity_tirana_private_market
+  value: "ITA lists 22 district hospitals, 11 regional hospitals, four university hospitals, one trauma university center, two psychiatric hospitals, and four major private hospitals in Tirana (American, Hygeia, German, and Salus), making Tirana the safest healthcare-practicality base."
+  source: src-680
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, tirana, private-hospitals, albania]
+  notes: "Durres/Vlore healthcare logistics remain city-specific application-prep checks."
+
+- id: claim-albania-019
+  topic: compulsory_school_and_preschool_baseline
+  value: "Eurydice records Albania obligatory education from ages 6 to 16, covering basic and lower-secondary education; preschool is non-obligatory, nurseries cover ages 0-3, kindergartens ages 3-5, full-day public kindergarten fees are set locally, and half-day public kindergartens are free."
+  source: src-681
+  date_verified: 2026-06-18
+  confidence: medium-high
+  tags: [education, compulsory-school, preschool, albania]
+  notes: "Composite claim using src-681 and src-682."
+
+- id: claim-albania-020
+  topic: tirana_international_school_option
+  value: "Tirana International School (QSI) offers an English-language international option: it accepts students with no prior English from preschool through age 13 / U.S. grade 8, accepts preschool children from age 2, and its secondary program prepares students for U.S. or global universities with AP / IB-linked offerings."
+  source: src-683
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [education, international-school, tirana, albania]
+  notes: "Tuition was not captured; exact fees remain a budget verification item."

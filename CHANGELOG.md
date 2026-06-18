@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-17
+last_updated: 2026-06-18
 ---
+
+## 2026-06-18 — run-147
+- Albania: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial).
+- Sources added: src-680 through src-683.
+- Claims added: claim-albania-017 through claim-albania-020.
+- Verification queue: 9 -> 11 pending/open items (added vq-139 and vq-140); next mode should be verification.
 
 ## 2026-06-17 — run-146
 - Georgia: depth_score 3.0 → 5.5 (section 5.7 completed; section 5.6 moved to partial)
