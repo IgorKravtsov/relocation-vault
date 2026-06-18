@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 152,
+  "iteration": 153,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-18T17:39:01Z",
+  "last_run_timestamp": "2026-06-18T20:47:07Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "North Macedonia",
+    "country": "Bosnia and Herzegovina",
     "sections": [
       "5.6",
       "5.7"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Bosnia and Herzegovina",
+    "suggested_country": "Moldova",
     "suggested_sections": [
       "5.6",
       "5.7"
     ],
-    "reason": "Verification queue remains below threshold after run-152; continue healthcare/education coverage with the next lowest-depth Tier-3-hint country."
+    "reason": "Verification queue remains below threshold after run-153; continue healthcare/education coverage with the next lowest-depth Tier-3-hint country."
   },
   "countries": {
     "Spain": {
@@ -683,19 +683,19 @@
     "Bosnia and Herzegovina": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -707,10 +707,12 @@
         "no-captured-ukraine-protection-bridge",
         "cold-inland-winters",
         "bosnia-entity-tax-and-ssc-fit-gap",
-        "bosnia-foreign-client-vat-fit-gap"
+        "bosnia-foreign-client-vat-fit-gap",
+        "bosnia-health-insurance-onboarding-gap",
+        "bosnia-international-school-cost-risk"
       ],
-      "last_iteration": 118,
-      "unverified_count": 0
+      "last_iteration": 153,
+      "unverified_count": 2
     },
     "Moldova": {
       "tier": null,
@@ -1116,8 +1118,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 5,
-  "sources_count": 699,
-  "claims_count": 609,
+  "verification_queue_size": 7,
+  "sources_count": 703,
+  "claims_count": 613,
   "proposals_pending": 0
 }

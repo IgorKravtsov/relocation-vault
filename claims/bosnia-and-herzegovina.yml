@@ -194,3 +194,39 @@
   confidence: medium
   tags: [cost-of-living, rent, tuzla, livingcost, affordability]
   notes: "Cheapest screen in this pass, with colder-climate and smaller-city service-depth tradeoffs."
+
+- id: claim-bosnia-herzegovina-017
+  topic: healthcare_system_screen
+  value: "Entity and cantonal Institutes of Health Insurance administer Bosnia and Herzegovina healthcare systems funded through compulsory employer/employee payroll contributions; the system is predominantly publicly funded, with growing private practices and private hospitals in Sarajevo."
+  source: src-701
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, health-insurance-funds, public-system, private-care]
+  notes: "Trade.gov is a reputable secondary overview; exact foreign-resident onboarding by route/entity remains vq-146."
+
+- id: claim-bosnia-herzegovina-018
+  topic: residence_health_insurance_requirement
+  value: "The ordinary residence checklist requires evidence of health insurance, so the couple should budget route-compliant private insurance before relying on public-fund access."
+  source: src-215
+  date_verified: 2026-06-18
+  confidence: high
+  tags: [healthcare, residence, insurance, application-prep]
+  notes: "Exact acceptable policy wording and public-fund enrollment by final status remain vq-146."
+
+- id: claim-bosnia-herzegovina-019
+  topic: public_education_structure
+  value: "Bosnia and Herzegovina has preschool, primary, secondary, and higher education; the year before primary is compulsory, primary education lasts nine years, is compulsory, starts when the child reaches age 6 by 1 April, and public primary education is free."
+  source: src-703
+  date_verified: 2026-06-18
+  confidence: medium-high
+  tags: [education, public-school, compulsory, primary-school]
+  notes: "Education governance is decentralized across RS, FBiH cantons, and Brcko District."
+
+- id: claim-bosnia-herzegovina-020
+  topic: international_school_anchor
+  value: "QSI International School of Sarajevo provides a direct international-school anchor with preschool, elementary, middle, secondary, AP, support, and health/safety sections; UWC Mostar provides an older-student IB/residential international anchor in Mostar."
+  source: src-704
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [education, international-school, sarajevo, mostar, qsi, uwc]
+  notes: "Exact tuition and private preschool prices remain vq-147."

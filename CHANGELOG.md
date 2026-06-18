@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-18
 ---
 
+## 2026-06-18 — run-153
+- Bosnia and Herzegovina: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-701, src-702, src-703, src-704.
+- Claims added: claim-bosnia-herzegovina-017 through claim-bosnia-herzegovina-020.
+- Verification queue: 5 -> 7 pending/open items (added vq-146 and vq-147).
+
 ## 2026-06-18 — run-152
 - North Macedonia: depth_score 3.0 -> 5.5; section 5.7 completed and section 5.6 opened as partial.
 - Added healthcare/education sources src-697 through src-700 and claims claim-north-macedonia-016 through claim-north-macedonia-019.

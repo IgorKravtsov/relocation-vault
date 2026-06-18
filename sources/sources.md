@@ -8437,3 +8437,51 @@ Each source entry:
 - **Facts supporting**: Skopje English/international-school anchors, including QSI preschool/elementary/middle/secondary and NOVA early-education/elementary/secondary programme and support-service availability (claim-north-macedonia-019)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-18
+
+## src-701
+- **Title**: Trade.gov — Bosnia and Herzegovina: Medical Equipment
+- **URL**: https://www.trade.gov/country-commercial-guides/bosnia-and-herzegovina-medical-equipment
+- **Archive**: direct HTML extraction used from public U.S. government page
+- **Type**: reputable-secondary
+- **Date published**: 2026-02-04
+- **Date accessed**: 2026-06-18
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Bosnia and Herzegovina public/private healthcare-system overview, entity/cantonal health-insurance fund structure, payroll-contribution funding, public clinical-center locations, and private-hospital/private-practice baseline (claim-bosnia-herzegovina-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-02-04
+
+## src-702
+- **Title**: Federation of Bosnia and Herzegovina Ministry of Health / Republika Srpska Ministry of Health and Social Welfare public websites
+- **URL**: https://fmoh.gov.ba/ ; https://www.vladars.rs/eng/vlada/ministries/MHSW/Pages/default.aspx
+- **Archive**: direct HTML extraction used from public ministry websites
+- **Type**: official-primary
+- **Date published**: current public websites, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: public health-authority anchors for FBiH / Republika Srpska healthcare-system and onboarding follow-up
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-703
+- **Title**: Eurydice — Bosnia and Herzegovina education system overview / organisation and structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/bosnia-and-herzegovina/overview ; https://eurydice.eacea.ec.europa.eu/national-education-systems/bosnia-and-herzegovina/organisation-education-system-and-its-structure
+- **Archive**: direct HTML extraction used from public EU/EACEA pages
+- **Type**: official-secondary
+- **Date published**: overview updated 2026-05-28; organisation page updated 2023-11-27
+- **Date accessed**: 2026-06-18
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: decentralized education governance, preschool/primary/secondary structure, compulsory pre-primary year, nine-year compulsory primary education, free public primary schooling, and secondary-school baseline (claim-bosnia-herzegovina-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-28
+
+## src-704
+- **Title**: QSI International School of Sarajevo and UWC Mostar public websites
+- **URL**: https://qsi.org/sarajevo/ ; https://www.uwcmostar.ba/
+- **Archive**: direct HTML extraction used from public school websites
+- **Type**: commercial
+- **Date published**: current public pages, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Sarajevo international-school anchor, QSI preschool/elementary/middle/secondary/AP/support baseline, and UWC Mostar older-student IB/residential international-school anchor (claim-bosnia-herzegovina-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18

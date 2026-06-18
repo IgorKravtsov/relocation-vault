@@ -88,6 +88,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-18 (run-152)
 - **Status**: pending
 
+## vq-146 [medium priority]
+- **Fact**: "Bosnia and Herzegovina route-compliant private health-insurance quotes, maternity/newborn coverage, exact FBiH / RS / canton / Brcko public-fund onboarding for company-founder/work/self-employed foreign residents, and Sarajevo / Mostar / Tuzla / Banja Luka private GP, pediatric, maternity, and clinic prices"
+- **Country**: Bosnia and Herzegovina
+- **Section**: 5.6
+- **Current source**: src-215, src-701, src-702
+- **Why uncertain**: This healthcare pass captured the public/insurance-fund structure, public clinical-center locations, Sarajevo private-care fallback, and residence-file insurance requirement, but did not capture acceptable private-policy wording, maternity/newborn exclusions, exact fund enrollment by final status/entity, or city-specific private-care prices.
+- **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, Service/lawyer confirmation of residence-file insurance acceptance, FBiH/RS/canton/Brcko onboarding steps by final residence/tax status, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-18 (run-153)
+- **Status**: pending
+
+## vq-147 [medium priority]
+- **Fact**: "Bosnia and Herzegovina exact QSI Sarajevo / UWC Mostar / other international-school tuition, registration fees, transport/meal costs, private-preschool prices, and English/bilingual availability outside Sarajevo and Mostar"
+- **Country**: Bosnia and Herzegovina
+- **Section**: 5.7
+- **Current source**: src-703, src-704
+- **Why uncertain**: This education pass captured the public-school structure and QSI/UWC anchors, but did not capture exact tuition/fees, private-preschool prices, or whether Mostar/Tuzla/Banja Luka have suitable English/bilingual options for a future young child.
+- **Suggested verification**: Get QSI Sarajevo and UWC Mostar fee schedules, any Sarajevo international-school alternatives, registration/transport/meal costs, private-preschool city quotes, and English/bilingual availability in Mostar/Tuzla/Banja Luka if those cities remain candidate bases.
+- **Created**: 2026-06-18 (run-153)
+- **Status**: pending
+
 ## vq-134 [medium priority]
 - **Fact**: "Montenegro route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks"
 - **Country**: Montenegro
