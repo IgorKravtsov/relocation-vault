@@ -132,3 +132,40 @@
   confidence: medium
   tags: [cost-of-living, rent, bitola, livingcost]
   notes: "Cheapest captured practical city; service depth and immigration-support availability need later checks."
+
+
+- id: claim-north-macedonia-016
+  topic: healthcare_public_fzo_baseline
+  value: "The North Macedonia healthcare screen uses the Ministry of Health as the official authority anchor and ExpatLife's 2026 guide for the FZO/public-insurance baseline: public healthcare is contribution-funded and covers basic services for registered residents, while exact onboarding by self-employed/company-backed status remains unverified."
+  source: src-697
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, public-system, fzo, screening]
+  notes: "Operational details and route-specific enrollment are tracked in vq-144; ExpatLife details are at src-698."
+
+- id: claim-north-macedonia-017
+  topic: healthcare_private_cost_proxy
+  value: "ExpatLife's 2026 North Macedonia healthcare guide screens private GP visits at about EUR 15-25, specialist visits at EUR 25-50, private/international insurance at EUR 50-120/month, and names Sistina, Acibadem, and Remedika as major Skopje private hospitals."
+  source: src-698
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, private-care, insurance, skopje]
+  notes: "Use as screening proxies only; two-adult quotes, maternity/newborn terms, and city-specific provider prices remain vq-144."
+
+- id: claim-north-macedonia-018
+  topic: education_public_and_international_baseline
+  value: "ExpatLife's 2026 North Macedonia education guide describes free public schooling primarily in Macedonian for ages 6-18 and Skopje international-school options, with international-school tuition broadly around EUR 4,000-8,000/year."
+  source: src-699
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [education, public-school, international-school, skopje]
+  notes: "The tuition range is a broad screening proxy; exact tuition/fees and private preschool are tracked in vq-145."
+
+- id: claim-north-macedonia-019
+  topic: skopje_international_school_anchors
+  value: "QSI International School of Skopje and NOVA International School Skopje public websites anchor English/international-school options in Skopje, with preschool/elementary/secondary coverage and support services."
+  source: src-700
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [education, international-school, skopje, qsi, nova]
+  notes: "Exact admissions, tuition, registration, transport, meal fees, and seat availability require direct school confirmation."

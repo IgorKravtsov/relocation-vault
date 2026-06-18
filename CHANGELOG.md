@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-18
 ---
 
+## 2026-06-18 — run-152
+- North Macedonia: depth_score 3.0 -> 5.5; section 5.7 completed and section 5.6 opened as partial.
+- Added healthcare/education sources src-697 through src-700 and claims claim-north-macedonia-016 through claim-north-macedonia-019.
+- Added vq-144 and vq-145 for North Macedonia healthcare insurance/onboarding and education fee/application-prep details.
+- Verification queue: 3 -> 5 pending/open items.
+
 ## 2026-06-18 — run-151
 - Panama: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
 - Sources added: src-693, src-694, src-695, src-696.

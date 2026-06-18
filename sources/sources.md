@@ -8388,3 +8388,52 @@ Each source entry:
 - **Facts supporting**: flagship international K-12 school option, admissions/placement/tuition-fees/legal-requirements page availability, and international-student practical anchor (claim-panama-019)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-18
+
+
+## src-697
+- **Title**: North Macedonia Ministry of Health - public website
+- **URL**: https://zdravstvo.gov.mk/
+- **Archive**: stable ministry website - direct HTML extraction used
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: North Macedonia
+- **Facts supporting**: official public-health authority anchor and public-system context for North Macedonia healthcare screening (claim-north-macedonia-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-698
+- **Title**: ExpatLife.AI - North Macedonia Healthcare 2026: insurance and hospitals guide
+- **URL**: https://expatlife.ai/north-macedonia/healthcare
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-15 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: North Macedonia
+- **Facts supporting**: FZO/public-healthcare baseline, private GP and specialist cost proxies, private/international insurance proxy, Skopje private-hospital examples, and healthcare application-prep gaps (claim-north-macedonia-016, claim-north-macedonia-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-699
+- **Title**: ExpatLife.AI - Schools in North Macedonia 2026: fees guide
+- **URL**: https://expatlife.ai/north-macedonia/education
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-15 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: North Macedonia
+- **Facts supporting**: public school age/language baseline, Skopje international-school ecosystem, international-school tuition proxy of EUR 4,000-8,000/year, and public-university fee context (claim-north-macedonia-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-700
+- **Title**: QSI International School of Skopje and NOVA International School Skopje - public websites
+- **URL**: https://qsi.org/skopje/ ; https://nova.edu.mk/
+- **Archive**: direct HTML extraction used from public school pages
+- **Type**: commercial
+- **Date published**: current public pages, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: North Macedonia
+- **Facts supporting**: Skopje English/international-school anchors, including QSI preschool/elementary/middle/secondary and NOVA early-education/elementary/secondary programme and support-service availability (claim-north-macedonia-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18

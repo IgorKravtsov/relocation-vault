@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 151,
+  "iteration": 152,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-18T14:30:50Z",
+  "last_run_timestamp": "2026-06-18T17:39:01Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Panama",
+    "country": "North Macedonia",
     "sections": [
       "5.6",
       "5.7"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "North Macedonia",
+    "suggested_country": "Bosnia and Herzegovina",
     "suggested_sections": [
       "5.6",
       "5.7"
     ],
-    "reason": "Verification queue remains below threshold after run-151; continue healthcare/education coverage with the next lowest-depth country, rotating away from recently touched Latin America Tier-2-hint countries."
+    "reason": "Verification queue remains below threshold after run-152; continue healthcare/education coverage with the next lowest-depth Tier-3-hint country."
   },
   "countries": {
     "Spain": {
@@ -648,19 +648,19 @@
     "North Macedonia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -673,10 +673,12 @@
         "no-captured-ukraine-protection-bridge",
         "north-macedonia-self-employed-contribution-base-gap",
         "north-macedonia-foreign-client-vat-fit-gap",
-        "skopje-rent-pressure"
+        "skopje-rent-pressure",
+        "north-macedonia-private-insurance-quote-gap",
+        "north-macedonia-international-school-cost-risk"
       ],
-      "last_iteration": 117,
-      "unverified_count": 0
+      "last_iteration": 152,
+      "unverified_count": 2
     },
     "Bosnia and Herzegovina": {
       "tier": null,
@@ -1114,8 +1116,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 3,
-  "sources_count": 695,
-  "claims_count": 605,
+  "verification_queue_size": 5,
+  "sources_count": 699,
+  "claims_count": 609,
   "proposals_pending": 0
 }

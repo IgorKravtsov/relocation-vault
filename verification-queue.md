@@ -68,6 +68,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-18 (run-151)
 - **Status**: pending
 
+## vq-144 [medium priority]
+- **Fact**: "North Macedonia route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZO/public-insurance onboarding for self-employed/company-backed foreign residents, and Skopje / Ohrid / Bitola private GP, pediatric, maternity, and clinic prices"
+- **Country**: North Macedonia
+- **Section**: 5.6
+- **Current source**: src-697, src-698
+- **Why uncertain**: This healthcare pass captured the Ministry authority anchor, FZO/public-system concept, and private-care / insurance cost proxies, but did not capture policy wording accepted for residence, maternity/newborn exclusions, exact FZO enrollment by final residence/tax status, or selected-city provider prices.
+- **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, migration/lawyer confirmation of residence-file insurance acceptance, FZO onboarding steps by self-employed/company-backed status, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-18 (run-152)
+- **Status**: pending
+
+## vq-145 [medium priority]
+- **Fact**: "North Macedonia exact QSI/NOVA/international-school tuition, registration fees, transport/meal costs, private-preschool prices, and school availability outside Skopje"
+- **Country**: North Macedonia
+- **Section**: 5.7
+- **Current source**: src-699, src-700
+- **Why uncertain**: This education pass captured public-school language/age structure and a broad international-school tuition proxy, plus QSI/NOVA as Skopje anchors, but did not capture exact current school fee schedules, private preschool costs, or non-Skopje English/bilingual availability.
+- **Suggested verification**: Get QSI and NOVA tuition/fee schedules, registration/transport/meal costs, age-placement and EAL terms, private-preschool city quotes, and school availability in Ohrid/Bitola if those cities remain candidate bases.
+- **Created**: 2026-06-18 (run-152)
+- **Status**: pending
+
 ## vq-134 [medium priority]
 - **Fact**: "Montenegro route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks"
 - **Country**: Montenegro
