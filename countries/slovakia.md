@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8", "5.9", "5.10", "5.11"]
 risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge", "slovakia-szco-tax-and-immigration-fit-gap", "bratislava-rent-pressure", "slovakia-health-insurance-onboarding-gap", "slovakia-international-school-cost-risk"]
 sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173", "src-338", "src-339", "src-340", "src-341", "src-342", "src-343", "src-517", "src-518", "src-519", "src-520", "src-652", "src-653", "src-654", "src-655"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -192,7 +192,7 @@ IOM also states that insured participation is proven by a health-insurance card,
 
 Practical access baseline: IOM points foreigners to public catalogues for health facilities and doctors / clinics. For the couple, that means Bratislava and Kosice should be easier healthcare screens than Poprad; Poprad can still work as an affordability fallback, but specialist access and English-/Ukrainian-/Russian-speaking providers need city-specific checking before choosing it. [src-652]
 
-**Screening conclusion for the couple.** Slovakia healthcare is not a country-screening blocker, but it is status-sensitive. TP gives a public-system baseline now; ordinary business/self-employed residence requires route-compliant insurance quickly after the residence document and later public/private onboarding checks. Keep exact insurer choice, policy wording, maternity waiting periods, GP registration, and specialist/private-clinic pricing as application-prep work. Added `vq-132` for those details. [src-100][src-101][src-652]
+**Screening conclusion for the couple.** Slovakia healthcare is not a country-screening blocker, but it is status-sensitive. TP gives a public-system baseline now; ordinary business/self-employed residence requires route-compliant insurance quickly after the residence document and later public/private onboarding checks. Run-148 resolves `vq-132` for screening; exact insurer choice, policy wording, maternity waiting periods, GP registration, and specialist/private-clinic pricing remain application-prep work. [src-100][src-101][src-652]
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-17, dod: passed}
 
@@ -360,4 +360,4 @@ _(none yet)_
 - `vq-037` — resolved in run-021: no captured TP-to-ordinary-residence bridge; official source confirms automatic TP extension only.
 - `vq-038` — resolved in run-032: WeatherSpark clearer-sky day-equivalent proxies now close the climate sunny/clear-day blocker for screening.
 - `vq-099` — resolved to a conservative screening baseline: keep the SZCO 60% lump-sum scenario as partial only; exact trade classification, VAT/reverse-charge handling, first-year contribution timing, and business-residence compatibility remain accountant/application-prep checks before filing.
-- `vq-132` — pending application-prep healthcare details: route-compliant private insurance, maternity exclusions, public-insurer / GP onboarding, and selected-city provider costs.
+- `vq-132` — resolved in run-148 for screening: route-compliant private insurance, maternity exclusions, public-insurer / GP onboarding, and selected-city provider costs remain application-prep checks.

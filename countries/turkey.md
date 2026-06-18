@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent", "turkey-self-employment-and-sgk-fit-gap", "istanbul-rent-pressure", "turkey-one-income-margin-risk", "turkey-private-insurance-quote-gap", "turkey-international-school-cost-risk"]
 sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163", "src-359", "src-360", "src-361", "src-362", "src-363", "src-364", "src-533", "src-534", "src-535", "src-536", "src-671", "src-672", "src-673", "src-674", "src-675"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -168,7 +168,7 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 
 - **Residence-file insurance baseline**: the ordinary residence / e-ikamet route already requires the couple to prepare health-insurance evidence as part of filing. Treat private health insurance as a required arrival-file input until a Turkish adviser confirms whether and when the chosen status can shift to SGK / General Health Insurance. [src-145][src-147] Confidence: medium-high.
 - **Public system map**: SGK is the public Social Security Institution and its public site exposes the General Health Insurance (GSS) area plus e-SGK / e-Devlet service links. The Ministry of Health is the public health authority. This is enough to know the public system is not a pure private-insurance-only environment, but it does not prove the exact foreign resident enrollment path for a DN / foreign-client freelancer. [src-671][src-672] Confidence: medium.
-- **Pregnancy / childbirth**: this pass did not capture an English official SGK benefit page proving maternity/newborn coverage for the couple's likely residence category. Do not budget pregnancy or childbirth on public coverage until SGK/GSS enrollment and coverage are confirmed for the final status. Confidence: low-to-medium; see `vq-137`.
+- **Pregnancy / childbirth**: this pass did not capture an English official SGK benefit page proving maternity/newborn coverage for the couple's likely residence category. Run-148 resolves `vq-137` for country screening, but do not budget pregnancy or childbirth on public coverage until SGK/GSS enrollment and coverage are confirmed for the final status. Confidence: low-to-medium.
 - **Private care / insurance gap**: Turkey has substantial private healthcare capacity, especially in Istanbul/Izmir/Antalya, but this pass did not capture comparable insurance quotes or clinic price lists. For screening, keep a cash buffer and assume a private-policy year is needed for both residence filing and early months.
 
 **Healthcare verdict:** Turkey is not blocked by healthcare at the country-screening level, but the budget is still incomplete. Add `turkey-private-insurance-quote-gap`: the DN income threshold and tax downside mean private insurance, SGK/GSS contributions, and maternity exclusions can materially change the one-income budget.
@@ -325,4 +325,4 @@ _(none yet)_
 - `vq-049` — resolved in run-028 for long-term residence counting: at least eight years continuous residence; student time half, other ordinary permit time full; TP/humanitarian residence does not transfer. Citizenship remains a later nationality pass. [src-154]
 - `vq-050` — resolved in run-030 at medium confidence: WeatherSpark clearer-sky day-equivalent proxies added for Istanbul (~231 days/year) and Izmir (~266 days/year); Antalya remains represented by a strong sunshine-hour proxy (~2,865 h/year) rather than an official sunny-day count. [src-151][src-162][src-163]
 - `vq-103` — resolved in run-075 for screening: use the PIT-only model and SGK sensitivity as conservative planning baselines; self-employment permission, SGK / Bag-Kur premium base, VAT/export treatment, foreign-income exemption eligibility, and DN/ordinary-residence tax fit remain Turkish adviser / application-prep checks before filing. [src-359][src-360][src-361][src-362][src-363][src-364]
-- `vq-137` — added in run-145: Turkey private health-insurance quotes, maternity/newborn coverage, SGK/GSS onboarding by residence route, and city-specific private healthcare prices.
+- `vq-137` — resolved in run-148 for screening: Turkey private health-insurance quotes, maternity/newborn coverage, SGK/GSS onboarding by residence route, and city-specific private healthcare prices remain application-prep checks.

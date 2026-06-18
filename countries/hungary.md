@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8", "5.9", "5.10", "5.11"]
 risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "hungary-self-employed-tax-and-immigration-fit-gap", "budapest-rent-pressure", "hungary-private-insurance-quote-gap", "hungary-international-school-cost-risk"]
 sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172", "src-332", "src-333", "src-334", "src-335", "src-336", "src-513", "src-514", "src-515", "src-516", "src-648", "src-649", "src-650", "src-651"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -193,7 +193,7 @@ For ordinary long-stay planning, the relevant public system is Hungary's health-
 
 #### Private care and insurance planning
 
-For screening, assume a private-insurance buffer is needed until exact public eligibility is confirmed. The current vault evidence does not yet include a live Hungarian private-health-insurance quote for two young adults, maternity waiting periods / exclusions, or wording proving a policy is accepted for White Card / guest self-employment / family-style residence filings. Add the `hungary-private-insurance-quote-gap` flag and keep `vq-131` as an application-prep item.
+For screening, assume a private-insurance buffer is needed until exact public eligibility is confirmed. Run-148 resolves `vq-131` for screening: live Hungarian private-health-insurance quotes, maternity waiting periods / exclusions, and policy wording for White Card / guest self-employment / family-style residence filings are application-prep checks, not country-screening blockers. Keep the `hungary-private-insurance-quote-gap` flag until filing quotes are captured.
 
 Operational city baseline: Budapest has the deepest private-clinic, specialist, English-speaking, and administrative ecosystem but is the rent-pressure case; Debrecen and Pecs are better budget screens but need local private-clinic / English-speaking GP checks before pregnancy or specialist-dependent planning.
 
@@ -368,4 +368,4 @@ _(none yet)_
 ## Block 8 — Open questions and verification markers
 
 - `vq-098` — resolved to a conservative screening baseline: do not assume KATA / flat-rate or White Card compatibility; individual-entrepreneur registration, exact contribution bases, VAT / reverse-charge, and immigration-status fit remain accountant/application-prep checks before filing.
-- `vq-131` — Hungary healthcare application-prep details: route-compliant private insurance quotes, maternity exclusions / waiting periods, and exact NEAK / TAJ / GP onboarding for the couple's final status and selected city.
+- `vq-131` — resolved in run-148 for screening: route-compliant private insurance quotes, maternity exclusions / waiting periods, and exact NEAK / TAJ / GP onboarding for the couple's final status and selected city remain application-prep checks.

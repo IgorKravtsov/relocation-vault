@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8", "5.9", "5.10", "5.11"]
 risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable", "slovenia-self-employed-tax-and-immigration-fit-gap", "ljubljana-rent-pressure", "slovenia-health-insurance-onboarding-gap", "slovenia-international-school-cost-risk"]
 sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187", "src-344", "src-345", "src-346", "src-347", "src-348", "src-521", "src-522", "src-523", "src-524", "src-656", "src-657", "src-658", "src-659", "src-660", "src-661"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -176,7 +176,7 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 
 **Accessing care.** Insured persons use providers within the public healthcare service network: public healthcare institutions and concessioned private practitioners. ZZZS's benefit description covers primary care, dentistry, specialist outpatient care, hospital and tertiary services, medicines, medical devices, rehabilitation, ambulance transport, and other statutory rights. Preventive care includes family-planning counselling and preventive health examinations for pregnant women. [src-657]
 
-**Private insurance / maternity cost screen.** No live private-insurance quote was captured in this iteration. For country screening, Slovenia is not disqualified on healthcare because TP and compulsory-insurance baselines are usable. For filing, however, the couple still needs a status-specific insurance checklist: DN or ordinary-residence policy wording, whether pregnancy/maternity has waiting periods or exclusions, and whether self-employment/family-member status gives a clean ZZZS onboarding path. Add `vq-133` and keep exact quotes as application-prep rather than a country-screening blocker.
+**Private insurance / maternity cost screen.** No live private-insurance quote was captured in this iteration. For country screening, Slovenia is not disqualified on healthcare because TP and compulsory-insurance baselines are usable. Run-148 resolves `vq-133` for screening; for filing, the couple still needs a status-specific insurance checklist: DN or ordinary-residence policy wording, whether pregnancy/maternity has waiting periods or exclusions, and whether self-employment/family-member status gives a clean ZZZS onboarding path. Add `vq-133` and keep exact quotes as application-prep rather than a country-screening blocker.
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-17, dod: passed}
 
@@ -339,5 +339,5 @@ _(none yet)_
 ## Block 8 — Open questions and verification markers
 
 - Tax application-prep remains: confirm exact Slovenian s.p. / normirani and VAT treatment for a Ukrainian foreign-client IT freelancer, including 2026 deemed-expense rules, contribution bases, VAT / reverse-charge reporting, and DN / single-permit immigration compatibility.
-- `vq-133`: healthcare application-prep remains: confirm DN/self-employed/single-permit/family-status-compliant private health-insurance quotes for two young adults, maternity waiting periods/exclusions, and exact ZZZS / GP onboarding for the final route and city.
+- `vq-133`: resolved in run-148 for screening; healthcare application-prep remains: confirm DN/self-employed/single-permit/family-status-compliant private health-insurance quotes for two young adults, maternity waiting periods/exclusions, and exact ZZZS / GP onboarding for the final route and city.
 - Later application-prep should still recheck DN forms, fees, residence-type counting, live rents, deposits, agency fees, landlord requirements, lease-registration needs, and city-specific school/kindergarten availability before filing.

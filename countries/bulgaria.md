@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8", "5.9", "5.10", "5.11"]
 risk_flags: ["self-employment-permit-3-year-cap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational", "bulgaria-self-employed-contribution-and-status-fit-gap", "sofia-rent-pressure", "bulgaria-private-insurance-quote-gap", "bulgaria-international-school-cost-risk"]
 sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118", "src-328", "src-329", "src-330", "src-331", "src-509", "src-510", "src-511", "src-512", "src-644", "src-645", "src-646", "src-647"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -206,7 +206,7 @@ For Ukrainians under temporary protection, the local baseline is stronger: UNHCR
 
 #### Private care and insurance planning
 
-For country screening, assume the couple needs a private insurance buffer until their exact NHIF status is confirmed. The current vault evidence does not yet include a live Bulgarian private-health-insurance quote for two young adults, maternity waiting periods / exclusions, or a route-compliant policy wording for a self-employment / family-reunification residence file. Add the `bulgaria-private-insurance-quote-gap` flag and keep `vq-130` as an application-prep item.
+For country screening, assume the couple needs a private insurance buffer until their exact NHIF status is confirmed. Run-148 resolves `vq-130` for screening: live Bulgarian private-health-insurance quotes, maternity waiting periods / exclusions, and route-compliant policy wording for a self-employment / family-reunification residence file are application-prep checks, not country-screening blockers. Keep the `bulgaria-private-insurance-quote-gap` flag until filing quotes are captured.
 
 Operational baseline: Plovdiv remains the best first Bulgaria cost screen, while Sofia has the deepest specialist / administrative ecosystem; Varna is the coastal option but should be checked for private clinic depth and seasonality before relying on it for pregnancy or specialist care.
 
@@ -380,4 +380,4 @@ _(none yet)_
 > All `[verification required]` items for this country. Links to the corresponding entries in `verification-queue.md` via item ID.
 
 - `vq-097` — resolved to a conservative screening baseline: keep the statutory-expense / contribution stress test as partial only; exact contribution package, foreigner health-insurance obligation, IT classification, VAT / reverse-charge handling, and migration-route fit remain accountant/application-prep checks before filing.
-- `vq-130` — healthcare application-prep details: route-compliant private insurance quotes, maternity exclusions / waiting periods, and final-status NHIF / GP onboarding workflow remain before-filing checks, not country-screening blockers.
+- `vq-130` — resolved in run-148 for screening: route-compliant private insurance quotes, maternity exclusions / waiting periods, and final-status NHIF / GP onboarding workflow remain before-filing checks, not country-screening blockers.

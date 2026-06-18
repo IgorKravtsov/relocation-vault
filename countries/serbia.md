@@ -8,7 +8,7 @@ sections_partial: ["5.1","5.3","5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check", "serbia-freelancer-tax-and-single-permit-fit-gap", "belgrade-rent-pressure", "serbia-private-insurance-quote-gap", "serbia-international-school-cost-risk"]
 sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174", "src-353", "src-354", "src-355", "src-356", "src-357", "src-358", "src-529", "src-530", "src-531", "src-532", "src-667", "src-668", "src-669", "src-670"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -32,7 +32,7 @@ schema_version: 2.0.0
 | Taxes | — | medium | Serbia has a workable but not-yet-passed freelancer / entrepreneur tax baseline; exact route fit with a single permit, APR status, and VAT/reverse-charge mechanics still need accountant/authority confirmation. | §5.3 |
 | Cost of living | — | medium | First-pass Livingcost screen: Novi Sad and Niš fit the one-income budget more safely than Belgrade; Belgrade can still work only with rent discipline and tax-route upside. | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 1BR proxy ranges from about $272 cheap in Niš to $780 center in Belgrade; Belgrade 3BR stress tests are high for the conservative tax net. | §5.5 |
-| Healthcare | — | medium | Healthcare is screenable but status-sensitive: RFZO maps insured-person rights and temporary residence requires health-insurance evidence, but private quotes and ordinary-route public-insurance onboarding remain open. | §5.6 |
+| Healthcare | — | medium | Healthcare is screenable but status-sensitive: RFZO maps insured-person rights and temporary residence requires health-insurance evidence; private quotes and ordinary-route public-insurance onboarding remain application-prep checks. | §5.6 |
 | Education (future child) | — | medium | Public system basics are usable for planning: compulsory preparatory preschool plus 8 years of free basic education; international school in Belgrade is a major future-child budget risk. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
@@ -345,4 +345,4 @@ _(none yet)_
 - `vq-045` — resolved in run-026: no captured Serbian ordinary-residence bridge from TP; Polish residence/TP does not substitute for Serbian status, and Serbian TP should be treated only as a protection layer while ordinary residence is built.
 - `vq-046` — resolved in run-032: WeatherSpark clearer-sky day-equivalent proxies for Belgrade, Novi Sad, and Niš close the §5.2 sunny/clear-day blocker for screening.
 - `vq-102` — Serbia foreign-client IT tax / APR registration / VAT / contribution-base / single-permit compatibility remains open before §5.3 can be marked passed.
-- `vq-136` — Serbia private health-insurance quotes, maternity/newborn coverage, RFZO/public-insurance onboarding by residence route, and city-specific private-care checks remain open before §5.6 can be marked passed.
+- `vq-136` — resolved in run-148 for screening: Serbia private health-insurance quotes, maternity/newborn coverage, RFZO/public-insurance onboarding by residence route, and city-specific private-care checks remain application-prep items before §5.6 can be marked passed.

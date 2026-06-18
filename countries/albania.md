@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["official-primary-capture-gaps", "remote-worker-route-application-prep-gap", "albania-tax-regime-2029-sunset", "albania-self-employed-contribution-base-gap", "albania-foreign-client-vat-fit-gap", "tirana-rent-pressure", "albania-private-insurance-quote-gap", "albania-international-school-cost-risk"]
 sources_used: ["src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-188", "src-407", "src-408", "src-409", "src-410", "src-411", "src-412", "src-541", "src-542", "src-543", "src-544", "src-680", "src-681", "src-682", "src-683"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -30,7 +30,7 @@ schema_version: 2.0.0
 | Taxes | — | medium-high | First-pass self-employed screen: current law/PwC summaries show 0% PIT for self-employed / commercial individuals under ALL 14m gross until 31 Dec 2029, plus minimum self-employed social/health contributions of about ALL 14,900/month; exact activity classification, contribution base, VAT/place-of-supply, and residence-permit fit remain accountant/application-prep checks. | §5.3 |
 | Cost of living | — | medium | First-pass Livingcost baseline captured for Albania, Tirana, Durrës, and Vlorë. A $3,000 gross / ~$2,819 favorable tax-screen net can cover modest Albania living costs, with Tirana tighter but still screenable. | §5.4 |
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy is about $449-$703 in Tirana, $322-$449 in Durrës, and $326-$378 in Vlorë; use Tirana with a rent cap and screen coastal cities for seasonality. | §5.5 |
-| Healthcare | — | medium | Public system and compulsory insurance fund map captured; Tirana has the main private-hospital market, but route-compliant private policy quotes, maternity/newborn cover, foreign-resident public onboarding, and city-specific private-care prices remain open. | §5.6 |
+| Healthcare | — | medium | Public system and compulsory insurance fund map captured; Tirana has the main private-hospital market; route-compliant private policy quotes, maternity/newborn cover, foreign-resident public onboarding, and city-specific private-care prices remain application-prep checks. | §5.6 |
 | Education (future child) | — | medium-high | Eurydice captures preschool, compulsory basic/lower-secondary structure, and public/private baseline; Tirana International School confirms an English-language international option, but tuition/private-preschool quotes remain application-prep budget checks. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
@@ -159,7 +159,7 @@ schema_version: 2.0.0
 
 ### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-18, dod: partial}
 
-> **DoD status**: Partial. This pass gives a screenable healthcare baseline from public-system and private-sector sources, but it does not close route-compliant private insurance, maternity/newborn exclusions, foreign-resident public-insurance onboarding, or city-specific private-care prices. `vq-139` tracks those application-prep details.
+> **DoD status**: Partial. This pass gives a screenable healthcare baseline from public-system and private-sector sources. Run-148 resolves `vq-139` for screening; route-compliant private insurance, maternity/newborn exclusions, foreign-resident public-insurance onboarding, and city-specific private-care prices remain application-prep checks.
 
 - **System structure**: U.S. ITA's Albania medical-equipment guide says Albania's healthcare system still focuses predominantly on public hospitals and public health services, while private healthcare has become increasingly popular. The Ministry of Health and Social Protection leads the public sector, develops policy and budget proposals, and monitors state-owned health institutions. [src-680] Confidence: medium.
 - **Insurance/public-fund baseline**: The same source describes the Compulsory Healthcare Insurance Fund as based on payroll contributions and government subsidy, with patients relying on it for reimbursement of prescription pharmaceuticals and approved services by private secondary/tertiary providers. This is enough to know that public coverage is contribution/status-dependent, not an automatic expat benefit; the exact onboarding path for a remote-worker / Unique Permit resident remains unverified. [src-680] Confidence: medium.
@@ -170,7 +170,7 @@ schema_version: 2.0.0
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-18, dod: passed}
 
-> **DoD status**: passed at medium-high confidence for first-pass family screening. Public/private school structure, preschool age bands, compulsory education, and one English-language international-school option are captured. Exact international tuition and private-preschool quotes remain application-prep budget checks (`vq-140`), not a blocker for section completion.
+> **DoD status**: passed at medium-high confidence for first-pass family screening. Public/private school structure, preschool age bands, compulsory education, and one English-language international-school option are captured. Run-148 resolves `vq-140` for screening; exact international tuition and private-preschool quotes remain application-prep budget checks, not a blocker for section completion.
 
 - **Governance and public/private baseline**: Eurydice's Albania overview says education is provided by both public and private institutions at all levels. The Ministry of Education is responsible for pre-university and higher education, while the Ministry of Finance shares vocational-education responsibilities. [src-681] Confidence: medium-high.
 - **Compulsory school structure**: Eurydice records obligatory education from ages 6 to 16, including basic education and lower secondary education. Basic education starts at age 6, lower secondary covers classes VI-IX, and upper secondary education is optional from about age 16. For a future child, the default low-cost plan is Albanian-language public schooling unless the family budgets for private/international education. [src-681] Confidence: medium-high.
@@ -308,12 +308,12 @@ _(none yet)_
 - Current official Ukraine temporary-protection extension / post-2027 bridge page remains uncaptured; safe baseline is no reliance on a TP bridge.
 - Official e-Albania / State Police / law-text page for the Type D + Unique Permit remote-worker checklist, fees, exact income threshold, dependent mechanics, and PR-counting rules remains a pre-filing / later deep-dive item; `vq-055` is closed for screening because the route is promising but not yet fully application-ready.
 - Official meteorological sunny-day counts for Tirana, Durrës, and Vlorë; WeatherSpark clearer-sky proxies are now sufficient for planning but not official statistics.
-- `vq-139`: private health-insurance quotes, maternity/newborn coverage, public-insurance onboarding by residence route, and Tirana/Durres/Vlore private-care prices.
-- `vq-140`: Tirana International School tuition and private-preschool city quotes.
+- `vq-139`: resolved in run-148 for screening; private health-insurance quotes, maternity/newborn coverage, public-insurance onboarding by residence route, and Tirana/Durres/Vlore private-care prices remain application-prep checks.
+- `vq-140`: resolved in run-148 for screening; Tirana International School tuition and private-preschool city quotes remain application-prep budget checks.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-055` resolved in run-061: Type D + Unique Permit remote-worker route remains a promising medium-confidence screening baseline; exact official checklist/fees/dependent/PR-counting mechanics are application-prep or later deep-dive checks, not current queue blockers. [src-166][src-167]
 - `vq-106` resolved in run-087: Albania self-employed / individual-trader tax fit is closed for screening using the favorable 0% PIT plus minimum-contribution partial baseline; exact activity code, contribution base, VAT/place-of-supply, and Type D + Unique Permit compatibility remain application-prep checks.
-- `vq-139` added in run-147: Albania healthcare is screenable, but route-compliant private insurance, maternity/newborn cover, exact foreign-resident public-fund onboarding, and city-specific private-care prices remain application-prep checks.
-- `vq-140` added in run-147: Albania education is screenable through the public system plus Tirana International School as an English-language option, but exact international tuition/private-preschool quotes remain application-prep budget checks.
+- `vq-139` resolved in run-148 for screening: Albania healthcare is screenable, but route-compliant private insurance, maternity/newborn cover, exact foreign-resident public-fund onboarding, and city-specific private-care prices remain application-prep checks.
+- `vq-140` resolved in run-148 for screening: Albania education is screenable through the public system plus Tirana International School as an English-language option, but exact international tuition/private-preschool quotes remain application-prep budget checks.

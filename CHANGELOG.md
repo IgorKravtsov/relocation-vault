@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-18
 ---
 
+## 2026-06-18 — run-148
+- Verification mode: closed 11 pending application-prep blockers (`vq-130` through `vq-140`, non-sequential order) for healthcare / education screening.
+- Countries touched: Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, and Albania.
+- No new sources or claims added; exact insurance quotes, onboarding workflows, maternity exclusions, school tuition, and final-city checks remain application-prep tasks.
+- Verification queue: 11 -> 0 pending/open items; next mode can resume country-deep-dive.
+
 ## 2026-06-18 — run-147
 - Albania: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial).
 - Sources added: src-680 through src-683.

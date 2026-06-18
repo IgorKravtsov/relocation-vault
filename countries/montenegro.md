@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6", "5.7"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-income-threshold-needs-primary-check", "digital-nomad-long-term-counting-unclear", "montenegro-tax-registration-and-ssc-fit-gap", "kotor-budva-coastal-rent-pressure", "montenegro-private-health-insurance-gap", "montenegro-international-school-fee-gap"]
 sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-143", "src-348", "src-349", "src-350", "src-351", "src-352", "src-525", "src-526", "src-527", "src-528", "src-662", "src-663", "src-664", "src-665", "src-666"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -324,5 +324,5 @@ _(none yet)_
 - `vq-043` — resolved in run-026 to a conservative PR baseline: use 5 years as the planning target, but do not assume DN alone creates an uninterrupted PR clock because of the 2+2-year cap and 6-month cooling-off rule.
 - `vq-101` — resolved in run-075 for screening: Montenegro entrepreneur/self-employed registration, exact SSC base/rates, VAT / reverse-charge handling, and DN/ordinary-residence tax compatibility remain accountant/application-prep checks before filing.
 
-- `vq-134` — Montenegro route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks.
-- `vq-135` — Montenegro international-school tuition and private-preschool city quotes for Podgorica/coastal options.
+- `vq-134` — resolved in run-148 for screening: route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks remain application-prep items.
+- `vq-135` — resolved in run-148 for screening: Montenegro international-school tuition and private-preschool city quotes for Podgorica/coastal options remain application-prep budget checks.

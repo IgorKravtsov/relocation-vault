@@ -1,22 +1,26 @@
 {
   "version": 2,
-  "iteration": 147,
+  "iteration": 148,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-18T01:20:48Z",
+  "last_run_timestamp": "2026-06-18T04:27:27Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Albania",
+    "mode": "verification",
+    "country": null,
     "sections": [
-      "5.6",
-      "5.7"
+      "healthcare-education application-prep queue"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "reason": "Pending verification queue is now at the >=10 automatic threshold after Albania healthcare/education added two application-prep items."
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "North Macedonia",
+    "suggested_sections": [
+      "5.6",
+      "5.7"
+    ],
+    "reason": "Verification queue is empty after run-148; resume anti-clustered healthcare/education coverage with the lowest-depth Tier-3-hint countries."
   },
   "countries": {
     "Spain": {
@@ -375,7 +379,7 @@
         "bulgaria-international-school-cost-risk"
       ],
       "last_iteration": 139,
-      "unverified_count": 2
+      "unverified_count": 0
     },
     "Hungary": {
       "tier": null,
@@ -410,7 +414,7 @@
         "hungary-international-school-cost-risk"
       ],
       "last_iteration": 140,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Slovakia": {
       "tier": null,
@@ -443,7 +447,7 @@
         "slovakia-international-school-cost-risk"
       ],
       "last_iteration": 141,
-      "unverified_count": 2
+      "unverified_count": 0
     },
     "Slovenia": {
       "tier": null,
@@ -475,7 +479,7 @@
         "slovenia-international-school-cost-risk"
       ],
       "last_iteration": 142,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Montenegro": {
       "tier": null,
@@ -508,7 +512,7 @@
         "montenegro-international-school-fee-gap"
       ],
       "last_iteration": 143,
-      "unverified_count": 2
+      "unverified_count": 0
     },
     "Serbia": {
       "tier": null,
@@ -540,7 +544,7 @@
         "serbia-international-school-cost-risk"
       ],
       "last_iteration": 144,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Turkey": {
       "tier": null,
@@ -573,7 +577,7 @@
         "turkey-international-school-cost-risk"
       ],
       "last_iteration": 145,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Georgia": {
       "tier": null,
@@ -604,7 +608,7 @@
         "georgia-international-school-cost-risk"
       ],
       "last_iteration": 146,
-      "unverified_count": 1
+      "unverified_count": 0
     },
     "Albania": {
       "tier": null,
@@ -638,7 +642,7 @@
         "albania-international-school-cost-risk"
       ],
       "last_iteration": 147,
-      "unverified_count": 2
+      "unverified_count": 0
     },
     "North Macedonia": {
       "tier": null,
@@ -1103,7 +1107,7 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 11,
+  "verification_queue_size": 0,
   "sources_count": 682,
   "claims_count": 593,
   "proposals_pending": 0

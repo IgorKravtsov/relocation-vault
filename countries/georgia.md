@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["visa-free-not-residence", "georgia-small-business-tax-and-it-residence-fit-gap", "tbilisi-rent-pressure", "georgia-private-insurance-quote-gap", "georgia-international-school-cost-risk"]
 sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370", "src-537", "src-538", "src-539", "src-540", "src-676", "src-677", "src-678", "src-679"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -30,7 +30,7 @@ schema_version: 2.0.0
 | Taxes | — | medium | First-pass tax baseline captured: 183-day residence, 20% ordinary PIT, 1%/3% small-business turnover regime, no social-security contributions, 4% self-employed pension contribution context, VAT threshold/place-of-supply caveats, and a USD 3,000/month worked example. | §5.3 |
 | Cost of living | — | medium | First-pass Livingcost baseline captured for Georgia, Tbilisi, Batumi, and Kutaisi. A USD 3,000 gross / roughly USD 2,850-2,970 optimistic small-business net can work, but Tbilisi leaves a narrower one-income buffer than Batumi or Kutaisi. | §5.4 |
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy ranges from about $398-$616 in Tbilisi, $310-$420 in Batumi, and $235-$301 in Kutaisi; 80 m2 stress-test units are materially higher. | §5.5 |
-| Healthcare | — | medium | First-pass healthcare baseline captured: Georgia has a highly privatized provider market, citizen-focused universal coverage with co-pays, and stronger Tbilisi capacity than rural areas; exact foreign-resident insurance/onboarding and private-care prices remain open. | §5.6 |
+| Healthcare | — | medium | First-pass healthcare baseline captured: Georgia has a highly privatized provider market, citizen-focused universal coverage with co-pays, and stronger Tbilisi capacity than rural areas; exact foreign-resident insurance/onboarding and private-care prices remain application-prep checks. | §5.6 |
 | Education (future child) | — | medium | Public preschool/general-education structure captured; primary and basic education are compulsory, public preschool is free with catering, and Tbilisi has an international-school market but published fee data is sparse. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
@@ -154,7 +154,7 @@ FX snapshot used only for screening: **1 USD = GEL 2.661955**. [src-370]
 
 ### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-17, dod: partial}
 
-> **DoD status**: Partial. This pass opens a first-pass healthcare baseline for country screening, but it does not yet capture route-compliant private insurance quotes for two young adults, maternity/newborn exclusions, exact public-program eligibility for foreign IT / family residents, or city-specific GP, pediatric, maternity, and private-clinic prices. `vq-138` tracks those application-prep details.
+> **DoD status**: Partial. This pass opens a first-pass healthcare baseline for country screening. Run-148 resolves `vq-138` for screening; route-compliant private insurance quotes for two young adults, maternity/newborn exclusions, exact public-program eligibility for foreign IT / family residents, and city-specific GP, pediatric, maternity, and private-clinic prices remain application-prep checks.
 
 #### Health-system baseline
 - **Provider structure and public coverage**: The U.S. International Trade Administration describes Georgia as a highly privatized healthcare market: about 86% of hospitals are privately owned and operated, while the government provides Universal Healthcare Coverage to most Georgian citizens. The coverage has expanded to most emergency, outpatient, and inpatient care, but the level is need-based and still requires out-of-pocket expenditure. For this couple, treat the citizen-focused universal system as a public-system map, not proof that a newly resident Ukrainian IT/family file is fully covered. [src-676] Confidence: medium.
@@ -263,7 +263,7 @@ For a future child, Georgia is workable if the family accepts Georgian-language 
 | Flights for two | — | TBD |
 | Rental deposit | — | Rent pass required. |
 | First month rent | — | Rent pass required. |
-| Health insurance (one year) | — | `vq-138` required; assume private-insurance quote plus cash buffer until public/private onboarding is verified. |
+| Health insurance (one year) | — | Run-148 resolves `vq-138` for screening; still assume a private-insurance quote plus cash buffer until public/private onboarding is verified before filing. |
 | Immigration lawyer fees | — | Bureaucracy pass required. |
 | Buffer / contingencies | — | Important because visa-free stay is not residence. |
 | **Total** | — | |
@@ -315,4 +315,4 @@ _(none yet)_
 ## Block 8 — Open questions and verification markers
 
 - `vq-104`: Georgia small-business / IT residence tax fit, VAT / place-of-supply, pension registration, and residence-renewal compatibility.
-- `vq-138`: Georgia private insurance, public-health onboarding, maternity/newborn coverage, and city-specific private-care costs.
+- `vq-138`: resolved in run-148 for screening; Georgia private insurance, public-health onboarding, maternity/newborn coverage, and city-specific private-care costs remain application-prep checks.
