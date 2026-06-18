@@ -108,6 +108,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-18 (run-153)
 - **Status**: pending
 
+## vq-148 [medium priority]
+- **Fact**: "Moldova route-compliant private health-insurance quotes, maternity/newborn coverage, exact CNAM/public-health onboarding for DN / TP / self-employed / family residents, and Chisinau / Balti private GP, pediatric, maternity, and clinic prices"
+- **Country**: Moldova
+- **Section**: 5.6
+- **Current source**: src-222, src-705, src-706
+- **Why uncertain**: This healthcare pass captured the Ministry authority anchor, TP primary/emergency healthcare rights, and a private-insurance / Chisinau-care screening proxy, but did not capture accepted residence-policy wording, maternity/newborn exclusions, exact CNAM enrollment by final status, or selected-city private-care prices.
+- **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, GIM/lawyer confirmation of DN/provisional-stay insurance acceptance, CNAM onboarding steps by final residence/tax status, and Chisinau/Balti GP/pediatric/maternity price samples.
+- **Created**: 2026-06-18 (run-154)
+- **Status**: pending
+
+## vq-149 [medium priority]
+- **Fact**: "Moldova exact QSI Chisinau / Heritage / other international-school tuition, registration fees, transport/meal costs, private-preschool prices, and English/bilingual availability outside Chisinau"
+- **Country**: Moldova
+- **Section**: 5.7
+- **Current source**: src-707, src-708
+- **Why uncertain**: This education pass captured the public compulsory-school baseline, QSI/Heritage Chisinau anchors, and broad international/private-kindergarten cost proxies, but did not capture exact current school fee schedules, private-preschool quotes, or non-Chisinau English/bilingual options.
+- **Suggested verification**: Get QSI Chisinau and Heritage tuition/fee schedules, registration/transport/meal costs, private-preschool city quotes, and school availability in Balti if it remains an affordability fallback.
+- **Created**: 2026-06-18 (run-154)
+- **Status**: pending
+
 ## vq-134 [medium priority]
 - **Fact**: "Montenegro route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks"
 - **Country**: Montenegro

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 153,
+  "iteration": 154,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-18T20:47:07Z",
+  "last_run_timestamp": "2026-06-18T23:54:50Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Bosnia and Herzegovina",
+    "country": "Moldova",
     "sections": [
       "5.6",
       "5.7"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Moldova",
+    "suggested_country": "Mexico",
     "suggested_sections": [
       "5.6",
       "5.7"
     ],
-    "reason": "Verification queue remains below threshold after run-153; continue healthcare/education coverage with the next lowest-depth Tier-3-hint country."
+    "reason": "Verification queue remains below the >=10 threshold after run-154; continue healthcare/education coverage with the next low-depth Tier-3-hint country."
   },
   "countries": {
     "Spain": {
@@ -717,19 +717,19 @@
     "Moldova": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -741,10 +741,12 @@
         "post-2027-tp-bridge-gap",
         "transnistria-practical-risk",
         "moldova-entrepreneur-contribution-category-gap",
-        "moldova-foreign-client-vat-fit-gap"
+        "moldova-foreign-client-vat-fit-gap",
+        "moldova-health-insurance-onboarding-gap",
+        "moldova-international-school-cost-risk"
       ],
-      "last_iteration": 119,
-      "unverified_count": 0
+      "last_iteration": 154,
+      "unverified_count": 2
     },
     "Uruguay": {
       "tier": null,
@@ -1118,8 +1120,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 7,
-  "sources_count": 703,
-  "claims_count": 613,
+  "verification_queue_size": 9,
+  "sources_count": 707,
+  "claims_count": 617,
   "proposals_pending": 0
 }

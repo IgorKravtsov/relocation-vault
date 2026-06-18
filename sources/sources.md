@@ -8485,3 +8485,51 @@ Each source entry:
 - **Facts supporting**: Sarajevo international-school anchor, QSI preschool/elementary/middle/secondary/AP/support baseline, and UWC Mostar older-student IB/residential international-school anchor (claim-bosnia-herzegovina-020)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-18
+
+## src-705
+- **Title**: Moldova Ministry of Health public website
+- **URL**: https://ms.gov.md/en/
+- **Archive**: stable gov domain - snapshot not required
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Moldova
+- **Facts supporting**: official public-health authority anchor for Moldova healthcare screening and CNAM/public-insurance follow-up (claim-moldova-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-706
+- **Title**: ExpatLife.AI - Moldova Healthcare 2026: insurance and hospitals guide
+- **URL**: https://expatlife.ai/moldova/healthcare
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-15 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: Moldova
+- **Facts supporting**: public/private healthcare baseline, Chisinau tertiary-care concentration, private-insurance proxy, emergency-care proxy, and healthcare application-prep gaps (claim-moldova-016, claim-moldova-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-707
+- **Title**: Eurydice - Moldova organisation of the education system and its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/moldova/organisation-education-system-and-its-structure
+- **Archive**: direct HTML extraction used from public EU/EACEA page
+- **Type**: official-secondary
+- **Date published**: current public page, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Moldova
+- **Facts supporting**: Moldova education levels, preschool/primary/secondary structure, and compulsory education through age 16 (claim-moldova-018)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-708
+- **Title**: ExpatLife.AI Moldova education 2026 guide plus QSI / Heritage public school websites
+- **URL**: https://expatlife.ai/moldova/education ; https://qsi.org/chisinau/ ; https://heritage.md/
+- **Archive**: direct HTML extraction used from public guide and school pages
+- **Type**: aggregator
+- **Date published**: ExpatLife data verified 2026-06-15; school pages current public pages, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Moldova
+- **Facts supporting**: Chisinau international-school anchors, QSI preschool-through-secondary baseline, Heritage all-through international-school baseline, tuition and private-kindergarten screening proxies, and education application-prep gaps (claim-moldova-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18

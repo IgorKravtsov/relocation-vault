@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-18
 ---
 
+## 2026-06-18 — run-154
+- Moldova: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-705, src-706, src-707, src-708.
+- Claims added: claim-moldova-016 through claim-moldova-019.
+- Verification queue: 7 -> 9 pending/open items (added vq-148 and vq-149).
+
 ## 2026-06-18 — run-153
 - Bosnia and Herzegovina: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
 - Sources added: src-701, src-702, src-703, src-704.

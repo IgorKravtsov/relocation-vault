@@ -171,3 +171,41 @@
   confidence: medium
   tags: [cost-of-living, rent, tiraspol, livingcost, transnistria]
   notes: "Cheap rent is not enough to make Tiraspol a default base because the country profile already flags Transnistria practical risk."
+
+- id: claim-moldova-016
+  topic: healthcare_public_private_screen
+  value: "Moldova has a Ministry of Health authority anchor and a public healthcare baseline for legal residents; temporary-protection beneficiaries have primary/emergency healthcare rights, while expats commonly supplement with private insurance and private clinics concentrated in Chisinau."
+  source: src-706
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, public-health, private-insurance, chisinau]
+  notes: "Cross-read with src-705 and src-222; route-specific CNAM/private-insurance onboarding remains unverified."
+
+- id: claim-moldova-017
+  topic: healthcare_private_insurance_proxy
+  value:
+    private_insurance_proxy_usd_month: "50-100"
+    emergency_care: "free for everyone (screening guide statement)"
+  source: src-706
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, insurance, private-care, screening-proxy]
+  notes: "Aggregator proxy only; exact residence-file policy, maternity/newborn wording, and city provider prices are vq-148."
+
+- id: claim-moldova-018
+  topic: education_public_structure_compulsory_age
+  value: "Moldova's education system includes early education, primary, lower/upper secondary, VET, post-secondary, and higher education; compulsory education begins with the preparatory preschool group and ends at secondary education / age 16."
+  source: src-707
+  date_verified: 2026-06-18
+  confidence: medium-high
+  tags: [education, public-school, compulsory-education, preschool]
+  notes: "Used to pass Moldova section 5.7 at first-pass screening confidence."
+
+- id: claim-moldova-019
+  topic: chisinau_international_school_screen
+  value: "Chisinau has international/private school anchors including QSI International School of Chisinau and Heritage International School; a broad 2026 screening proxy is USD 3,000-8,000/year for international school and USD 200-500/month for English-language private kindergarten."
+  source: src-708
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [education, international-school, kindergarten, chisinau, tuition]
+  notes: "Exact school fee schedules, registration, meals, transport, and non-Chisinau availability are vq-149."
