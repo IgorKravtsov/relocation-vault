@@ -1,14 +1,14 @@
 ---
 country: Paraguay
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-13T20:34:24Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers", "paraguay-foreign-client-vat-fit-gap", "paraguay-social-security-category-gap", "asuncion-rent-pressure"]
-sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-437", "src-438", "src-439", "src-440", "src-441", "src-442", "src-443", "src-549", "src-550", "src-551", "src-552"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-18T11:23:04Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers", "paraguay-foreign-client-vat-fit-gap", "paraguay-social-security-category-gap", "asuncion-rent-pressure", "paraguay-private-insurance-route-fit-gap", "paraguay-international-school-cost-risk"]
+sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-437", "src-438", "src-439", "src-440", "src-441", "src-442", "src-443", "src-549", "src-550", "src-551", "src-552", "src-689", "src-690", "src-691", "src-692"]
+unverified_count: 1
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests a potentially useful long-term route because Paraguay has a normal temporary residence -> permanent residence ladder and the Constitution gives a 3-year naturalization baseline, but the captured official route is generic "lawful activity" residence rather than a digital-nomad visa. [src-191][src-192][src-193]
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-13T20:34:24Z
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-18T11:23:04Z
 - **Tier rationale**: keep as Tier-2 hint until the visa-for-residence filing route, foreign-client IT income evidence, taxes, cost, rent, healthcare, and practical lawyer/accountant mechanics are checked.
 
 ## Block 2 - Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | First-pass PwC/FX screen: at USD 3,000/month (about PYG 18.46m), PIT-only net is about PYG 16.78m / USD 2,727 before accountant/VAT/residence costs; employee-style social-security sensitivity lowers this to about USD 2,484. | §5.3 |
 | Cost of living | — | medium | Livingcost screens Paraguay as very affordable nationally and in the three target cities; the main budget caveats are health insurance, accountant/immigration costs, and avoiding Asuncion rent creep. | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 proxy rents are manageable on gross income and the Paraguay tax-screen net, with Asuncion highest and Ciudad del Este / Encarnacion cheaper. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | First-pass screen: Ministry pages map a public hospital network; expat-facing 2026 data points to affordable private GP visits and insurance, but route-compliant policy wording, maternity/newborn terms, and public/IPS onboarding remain unresolved. | §5.6 |
+| Education (future child) | — | medium | Public schools are free but Spanish/Guarani and under-resourced; private bilingual schools and Asuncion international schools are available, but international-school fees are a major one-income budget risk. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -167,13 +167,49 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 
 **Rent verdict**: Screen Asuncion first for bureaucracy, healthcare, accountants/lawyers, and services, but keep a strict housing cap. Encarnacion is the strongest affordability/comfort fallback; Ciudad del Este is cheap but needs practical safety/service due diligence. Add `asuncion-rent-pressure` as a modest risk flag, not because rents are high globally, but because the capital can absorb the Paraguay budget advantage if housing quality and services needs creep upward.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-18, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This first-pass screen identifies the public/private system, practical private-care baseline, and insurance cost proxy, but it does not yet capture route-compliant policy wording, maternity/newborn exclusions, exact IPS / Ministry public-care onboarding for a self-employed foreign resident, or selected-city private clinic fee schedules. `vq-142` tracks those application-prep details.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+#### System structure and access baseline
 
-[verification required]
+- **Public network**: the Ministry of Public Health and Social Welfare site exposes the national health authority, regional health services, specialist hospitals, general hospitals, maternal-child hospitals, and health programmes. For the couple, this supports a basic public-system map but not a clean foreign-resident onboarding workflow. [src-689]
+- **IPS / formal-worker caveat**: the captured tax/social-security evidence already shows IPS-style social security mainly through formal employer registration, and the healthcare pass did not prove whether a foreign-client IT contractor on lawful-activity residence can or must join IPS. Treat public/IPS eligibility as a lawyer/accountant/onboarding check rather than an assumed benefit. [src-440][src-690]
+- **Private-care baseline**: a 2026 expat-facing healthcare guide describes Paraguay as using Ministry public hospitals, IPS for formal workers, and private hospitals/clinics commonly used by expats; it screens private GP consultations at about **USD 15-50** and private health insurance at about **USD 50-150/month**. Use these as medium-confidence budget proxies only, not filing-ready quotes. [src-690]
+
+#### Practical implications for the couple
+
+| Need | First-pass Paraguay baseline | What remains |
+|---|---|---|
+| Residence-file health insurance | Assume a private policy or prepaid medical plan is needed until DNM/counsel confirms the exact lawful-activity residence requirement. | Capture route-compliant insurer wording, minimum coverage, exclusions, and whether a local or international policy is accepted. [src-191][src-690] |
+| Routine care | Asuncion has the strongest private-care screen; Ciudad del Este and Encarnacion need local provider checks before choosing them as bases. | Get city-specific GP, pediatrician, lab, and maternity price samples. [src-690] |
+| Pregnancy / newborn planning | No safe maternity/newborn policy baseline captured. | Verify waiting periods, maternity caps, newborn enrollment, and public/private delivery costs before pregnancy planning. |
+| Budget | USD 50-150/month insurance plus USD 15-50 GP visit proxies look manageable against Paraguay's tax-screen net, but two-person premiums and maternity cover can change this. | Obtain quotes for two young adults tied to the actual residence status. [src-690] |
+
+**Healthcare verdict**: Paraguay is screenable but not DoD-passed. The first-pass picture is favorable for routine private affordability, especially in Asuncion, but the country remains route-sensitive because the lawful-activity residence file, tax/IPS category, insurance acceptance, and maternity/newborn coverage are not yet tied together. Add `paraguay-private-insurance-route-fit-gap`.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-18, dod: passed}
+
+> **DoD status**: passed at medium confidence for country screening. Public/private/international options, preschool/private-school cost proxies, language caveats, and one-income budget risk are covered. Exact admission slots, city-specific preschool quotes, and current tuition contracts remain application-prep checks.
+
+#### School structure and costs
+
+| Option | First-pass evidence | Couple impact |
+|---|---|---|
+| Public schools | ExpatLife's 2026 Paraguay education guide describes public schools as free, Spanish/Guarani-medium, and limited in resources. [src-691] | Viable only if the family accepts Spanish/Guarani integration and potentially uneven quality; not an English-language fallback. |
+| Private bilingual schools | Same guide screens private bilingual Spanish/English schools at about **USD 200-500/month**. [src-691] | Potentially feasible on the Paraguay budget if rent and healthcare are controlled; verify exact city and age-level fees before a child reaches school age. |
+| International schools | The guide screens Asuncion international options at about **USD 6,000-12,000/year** for IB/international schools and **USD 8,000-15,000/year** for the American School of Asuncion. [src-691] | Major one-income risk: USD 8,000/year is about USD 667/month, already a large share of the post-tax Paraguay budget. |
+| American School of Asuncion | ASA describes itself as a bilingual early-childhood through college-preparatory programme using U.S. and Paraguayan academic standards, with elementary, middle, and high school divisions. [src-692] | Strong English/bilingual anchor in Asuncion, but actual admission/tuition/fees and waiting lists must be checked directly. |
+
+#### Language and city implications
+
+- **Asuncion** is the safest education base because it has the clearest private/international-school ecosystem and the ASA anchor. [src-691][src-692]
+- **Encarnacion / Ciudad del Este** remain budget and climate/cross-border options, but a future-child plan would need a separate school availability check before choosing them over the capital.
+- Public-school integration likely requires Spanish and some Guarani exposure. For a Ukrainian family, this can be workable long-term but should not be treated as an English-language education plan. [src-691]
+
+**Education verdict**: Paraguay is acceptable for screening if the couple expects public/private bilingual schooling and keeps international school as an exceptional/high-cost option. Add `paraguay-international-school-cost-risk`; do not treat private international education as comfortably affordable on one USD 3,000/month income.
+
+
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -210,20 +246,21 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 - **Best legalization path for the woman**: marriage-based or separate temporary residence eligibility needs verification; do not assume an unmarried dependent route. [verification required]
 - **Does marriage change the picture**: likely yes for documentary clarity and family file strategy, but exact Paraguayan spouse/dependent mechanics were not captured.
 - **Realism of staying after 03.2027**: medium if the residence-visa and foreign-client income files are workable; not dependent on EU TP extension.
-- **Budget/rent first pass**: favorable on day-to-day costs. Asuncion is the services-first base with a rent cap; Encarnacion is the affordability/climate fallback; Ciudad del Este is cheap but needs safety/service due diligence. [src-550][src-551][src-552]
+- **Budget/rent first pass**: favorable on day-to-day costs. Asuncion is the services-first base with a rent cap and strongest healthcare/education access; Encarnacion is the affordability/climate fallback; Ciudad del Este is cheap but needs safety/service due diligence. [src-550][src-551][src-552][src-690][src-691]
 
 **Pros**:
 - Ukrainian tourists are visa-free for up to 90 days. [src-190]
 - Ordinary temporary residence is up to 2 years and extendable; it can lead to permanent residence. [src-191][src-192]
 - Constitutional naturalization baseline is 3 years of radication plus professional/economic activity and good conduct. [src-193]
 - Mild winters and no long cold season. [src-194][src-195]
+- Private routine healthcare and bilingual private-school proxies look budget-manageable if rent is controlled. [src-690][src-691]
 
 **Cons / risks**:
 - Same official visa table says Ukrainians require a visa for residence / lucrative activities. [src-190]
 - No captured digital-nomad route or fixed remote-income threshold; acceptance of foreign-client IT income needs lawyer/consular verification. [src-191]
 - Dual-nationality consequences are not safe to assume from Article 149. [src-193]
 - Summers are hot/humid; Paraguay is landlocked and far from Ukraine/Europe.
-- Asuncion can erode the budget advantage if the couple needs a higher-quality capital-city lease, private healthcare, and professional support at the same time. [src-550]
+- Asuncion can erode the budget advantage if the couple needs a higher-quality capital-city lease, private healthcare, international schooling, and professional support at the same time. [src-550][src-690][src-691]
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -266,6 +303,8 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 | **Total** | — | |
 
 ### 6g. Contact points and communities
+- Healthcare: use the Ministry hospital / regional-service directory as the public-system starting point; shortlist private clinics and insurers in the selected city before filing. [src-689][src-690]
+- Education: if a future child is a serious planning constraint, start with Asuncion bilingual/international schools such as ASA, then compare local private bilingual options. [src-691][src-692]
 - Immigration lawyers / accountants: [verification required]
 - Ukrainian / Russian-speaking diaspora: [verification required]
 - Expat blogs: [verification required]
@@ -279,6 +318,7 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 - [src-192] Paraguay DNM permanent residence for temporary-residence category change.
 - [src-193] Paraguay Constitution, Articles 148-150.
 - [src-196] Paraguay Investor Pass announcement (not a couple baseline; high-capital route only).
+- [src-689] Paraguay Ministry of Public Health and Social Welfare website / hospital directory baseline.
 
 ### 7b. Reputable secondary
 - [src-437] PwC Paraguay individual taxes on personal income.
@@ -287,11 +327,14 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 - [src-440] PwC Paraguay individual other taxes.
 - [src-441] PwC Paraguay individual tax administration.
 - [src-442] PwC Paraguay corporate other taxes / VAT and social-security context.
+- [src-690] ExpatLife.AI Paraguay healthcare 2026 guide.
+- [src-691] ExpatLife.AI Paraguay education 2026 guide.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
 
 ### 7d. Statistical / commercial
+- [src-692] American School of Asuncion public website.
 - [src-194] Climate to Travel Paraguay climate overview.
 - [src-195] WeatherSpark Paraguay country climate comparison.
 - [src-443] ExchangeRate-API USD/PYG snapshot.
@@ -305,5 +348,6 @@ _(none yet)_
 ## Block 8 - Open questions and verification markers
 
 - `vq-111` resolved for screening in run-093: Paraguay foreign-client IT tax structure has a conservative PIT/VAT/social-security risk baseline; DNIT/RUC category, IPS/private social-security treatment, VAT/place-of-supply/export-service classification, and compatibility with the lawful-activity temporary-residence file remain application-prep/accountant checks.
-- Family application details, healthcare/education, and lawyer/accountant contacts remain for later section passes.
+- `vq-142` pending: route-compliant private health-insurance quotes, maternity/newborn coverage, exact IPS / Ministry public-care onboarding, and selected-city private GP/pediatric/maternity prices.
+- Family application details and lawyer/accountant contacts remain for later section passes.
 - Live rental listings, deposits/agency fees, registered-address support, utilities-by-season, foreigner lease acceptance, and city safety/service tradeoffs remain application-prep checks.

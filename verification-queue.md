@@ -48,6 +48,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-18 (run-149)
 - **Status**: pending
 
+## vq-142 [medium priority]
+- **Fact**: "Paraguay private health-insurance quotes, maternity/newborn coverage, exact IPS / Ministry public-care onboarding for self-employed or lawful-activity foreign residents, and Asuncion / Encarnacion / Ciudad del Este private GP, pediatric, maternity, and clinic prices"
+- **Country**: Paraguay
+- **Section**: 5.6
+- **Current source**: src-191, src-440, src-689, src-690
+- **Why uncertain**: This healthcare pass captured the public Ministry network and a private-care / insurance cost proxy, but did not capture route-compliant policy wording, maternity/newborn exclusions, exact public/IPS eligibility by residence/tax status, or selected-city private-care prices.
+- **Suggested verification**: Get two to three insurer or prepaid medical quotes for two young adults, maternity/newborn terms, DNM/lawyer confirmation of residence-file insurance acceptance, IPS/Ministry onboarding steps by final status, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-18 (run-150)
+- **Status**: pending
+
 ## vq-134 [medium priority]
 - **Fact**: "Montenegro route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks"
 - **Country**: Montenegro

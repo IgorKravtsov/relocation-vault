@@ -132,3 +132,40 @@
   confidence: medium
   tags: [cost-of-living, rent, encarnacion, livingcost]
   notes: "Strong first-pass affordability and climate compromise; smaller-city service/community tradeoffs remain."
+
+
+- id: claim-paraguay-016
+  topic: healthcare_system_screen
+  value: "Paraguay's first-pass healthcare screen combines a Ministry public-hospital/regional-service network with IPS/formal-worker caveats and private clinics commonly used by expats; exact self-employed foreign-resident public/IPS onboarding is not yet verified."
+  source: src-689
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, public-system, ips, paraguay]
+  notes: "Also uses src-690 for expat-facing private-care context and src-440 for IPS/social-security caveats."
+
+- id: claim-paraguay-017
+  topic: private_healthcare_cost_proxy
+  value: "A 2026 expat-facing Paraguay healthcare guide screens private GP consultations at about USD 15-50 and comprehensive private health insurance at about USD 50-150/month."
+  source: src-690
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, private-insurance, gp-cost, paraguay]
+  notes: "Budget proxy only; route-compliant quotes, maternity/newborn exclusions, and city-specific fee schedules remain in vq-142."
+
+- id: claim-paraguay-018
+  topic: education_public_private_baseline
+  value: "Paraguay public schools screen as free but Spanish/Guarani and under-resourced, while private bilingual schools screen around USD 200-500/month."
+  source: src-691
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [education, public-school, bilingual-school, paraguay]
+  notes: "Use as a country-screening baseline; city-specific tuition/admission checks remain application prep."
+
+- id: claim-paraguay-019
+  topic: international_school_cost_risk
+  value: "Paraguay international-school options screen around USD 6,000-12,000/year, with the American School of Asuncion guide band around USD 8,000-15,000/year; ASA publicly describes a bilingual early-childhood through college-preparatory programme."
+  source: src-691
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [education, international-school, asa, budget-risk, paraguay]
+  notes: "ASA website is captured as src-692 for the programme anchor; exact tuition contracts and admissions need direct confirmation."

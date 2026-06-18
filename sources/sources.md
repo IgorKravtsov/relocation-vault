@@ -8291,3 +8291,52 @@ Each source entry:
 - **Facts supporting**: Montevideo international-school sector and broad annual fee screen of about USD 6,000-18,000/year for English/bilingual/IB options (claim-uruguay-019)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-18
+
+
+## src-689
+- **Title**: Paraguay Ministry of Public Health and Social Welfare - public website / services and hospitals baseline
+- **URL**: https://www.mspbs.gov.py/ ; https://www.mspbs.gov.py/portal/portal.html
+- **Archive**: stable ministry pages - direct HTML extraction used
+- **Type**: official-primary
+- **Date published**: current public pages, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Paraguay
+- **Facts supporting**: public health authority, regional health services, specialist/general/maternal-child hospital categories, and public-system entry map for the Paraguay healthcare screen (claim-paraguay-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-690
+- **Title**: ExpatLife.AI - Paraguay Healthcare 2026: insurance and hospitals guide
+- **URL**: https://expatlife.ai/paraguay/healthcare
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-18 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: Paraguay
+- **Facts supporting**: Paraguay public/IPS/private healthcare structure, private GP cost proxy of USD 15-50, private insurance proxy of USD 50-150/month, and Asuncion private-hospital baseline (claim-paraguay-016, claim-paraguay-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-691
+- **Title**: ExpatLife.AI - Schools in Paraguay 2026: fees guide
+- **URL**: https://expatlife.ai/paraguay/education
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-18 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: Paraguay
+- **Facts supporting**: public school free / Spanish-Guarani / resource caveat, private bilingual school proxy of USD 200-500/month, international-school proxy of USD 6,000-12,000/year, and American School of Asuncion proxy of USD 8,000-15,000/year (claim-paraguay-018, claim-paraguay-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-692
+- **Title**: American School of Asuncion - public website
+- **URL**: https://www.asa.edu.py
+- **Archive**: direct HTML extraction used from public school page
+- **Type**: commercial
+- **Date published**: current public page, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Paraguay
+- **Facts supporting**: Asuncion bilingual early-childhood through college-preparatory school option, U.S. and Paraguayan academic standards, and elementary/middle/high school programme anchor (claim-paraguay-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18

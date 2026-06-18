@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-18
 ---
 
+## 2026-06-18 — run-150
+- Paraguay: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-689, src-690, src-691, src-692.
+- Claims added: claim-paraguay-016 through claim-paraguay-019.
+- Verification queue: 1 -> 2 (added vq-142 for Paraguay healthcare application-prep details).
+
 ## 2026-06-18 — run-149
 - Uruguay: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial).
 - Sources added: src-684 through src-688.
