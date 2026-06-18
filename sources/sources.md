@@ -8340,3 +8340,51 @@ Each source entry:
 - **Facts supporting**: Asuncion bilingual early-childhood through college-preparatory school option, U.S. and Paraguayan academic standards, and elementary/middle/high school programme anchor (claim-paraguay-019)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-18
+
+## src-693
+- **Title**: Panama Ministry of Health (MINSA) - public website
+- **URL**: https://www.minsa.gob.pa/
+- **Archive**: stable ministry website - direct HTML extraction used
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Panama
+- **Facts supporting**: official public-health authority baseline and MINSA clinic/public-system context for Panama healthcare screening (claim-panama-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-694
+- **Title**: ExpatLife.AI - Panama Healthcare 2026: insurance and hospitals guide
+- **URL**: https://expatlife.ai/panama/healthcare
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-18 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: Panama
+- **Facts supporting**: Panama private healthcare system, Panama City hospital baseline, local/international insurance cost proxies, private GP proxy, CSS/public eligibility caveat, Boquete/David healthcare escalation baseline, and remote-worker insurance reminder (claim-panama-016, claim-panama-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-695
+- **Title**: ExpatLife.AI - Schools in Panama 2026: fees guide
+- **URL**: https://expatlife.ai/panama/education
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-18 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: Panama
+- **Facts supporting**: Panama public-school language/enrollment baseline, bilingual and international-school cost proxies, Panama City international-school ecosystem, and expat-child enrollment documents (claim-panama-018, claim-panama-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-696
+- **Title**: International School of Panama - public website
+- **URL**: https://www.isp.edu.pa/
+- **Archive**: direct HTML extraction used from public school page
+- **Type**: commercial
+- **Date published**: current public pages, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Panama
+- **Facts supporting**: flagship international K-12 school option, admissions/placement/tuition-fees/legal-requirements page availability, and international-student practical anchor (claim-panama-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18

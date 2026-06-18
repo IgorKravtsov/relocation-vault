@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-18
 ---
 
+## 2026-06-18 — run-151
+- Panama: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-693, src-694, src-695, src-696.
+- Claims added: claim-panama-016 through claim-panama-019.
+- Verification queue: 2 -> 3 (added vq-143 for Panama healthcare application-prep details).
+
 ## 2026-06-18 — run-150
 - Paraguay: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
 - Sources added: src-689, src-690, src-691, src-692.

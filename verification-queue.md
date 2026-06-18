@@ -58,6 +58,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-18 (run-150)
 - **Status**: pending
 
+## vq-143 [medium priority]
+- **Fact**: "Panama route-compliant private health-insurance quotes, maternity/newborn coverage, exact CSS/MINSA onboarding for remote-worker / ordinary-residence / tax status, and Panama City / David / Boquete private GP, pediatric, maternity, and clinic prices"
+- **Country**: Panama
+- **Section**: 5.6
+- **Current source**: src-199, src-693, src-694
+- **Why uncertain**: This healthcare pass captured the remote-worker insurance requirement, MINSA authority baseline, and private-care / insurance cost proxies, but did not capture policy wording accepted for the visa, maternity/newborn exclusions, exact public/CSS eligibility by residence/tax status, or selected-city private-care prices.
+- **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, migration/lawyer confirmation of remote-worker insurance acceptance, CSS/MINSA onboarding steps by final status, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-18 (run-151)
+- **Status**: pending
+
 ## vq-134 [medium priority]
 - **Fact**: "Montenegro route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks"
 - **Country**: Montenegro
