@@ -1,26 +1,27 @@
 {
   "version": 2,
-  "iteration": 148,
+  "iteration": 149,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-18T04:27:27Z",
+  "last_run_timestamp": "2026-06-18T07:54:44Z",
   "current_focus": {
-    "mode": "verification",
-    "country": null,
+    "mode": "country-deep-dive",
+    "country": "Uruguay",
     "sections": [
-      "healthcare-education application-prep queue"
+      "5.6",
+      "5.7"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "North Macedonia",
+    "suggested_country": "Paraguay",
     "suggested_sections": [
       "5.6",
       "5.7"
     ],
-    "reason": "Verification queue is empty after run-148; resume anti-clustered healthcare/education coverage with the lowest-depth Tier-3-hint countries."
+    "reason": "Verification queue remains below threshold after run-149; continue anti-clustered healthcare/education coverage across the lowest-depth Tier-2-hint countries."
   },
   "countries": {
     "Spain": {
@@ -744,19 +745,19 @@
     "Uruguay": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -767,10 +768,12 @@
         "citizenship-requires-habitual-presence",
         "uruguay-self-employed-bps-gap",
         "uruguay-foreign-client-vat-fit-gap",
-        "montevideo-punta-del-este-rent-pressure"
+        "montevideo-punta-del-este-rent-pressure",
+        "uruguay-private-insurance-quote-gap",
+        "uruguay-international-school-cost-risk"
       ],
-      "last_iteration": 114,
-      "unverified_count": 0
+      "last_iteration": 149,
+      "unverified_count": 1
     },
     "Paraguay": {
       "tier": null,
@@ -1107,8 +1110,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 0,
-  "sources_count": 682,
-  "claims_count": 593,
+  "verification_queue_size": 1,
+  "sources_count": 687,
+  "claims_count": 597,
   "proposals_pending": 0
 }

@@ -8231,3 +8231,63 @@ Each source entry:
 - **Facts supporting**: Tirana English-language international-school option, no-prior-English admissions baseline through age 13 / U.S. grade 8, preschool from age 2, English instruction, secondary college-prep programme, and AP / IB-linked offerings (claim-albania-020)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-18
+
+## src-684
+- **Title**: U.S. International Trade Administration - Uruguay Healthcare
+- **URL**: https://www.trade.gov/country-commercial-guides/uruguay-healthcare
+- **Archive**: direct HTML extraction used from official .gov page
+- **Type**: reputable-secondary
+- **Date published**: 2025-08-28
+- **Date accessed**: 2026-06-18
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguay SNIS/FONASA healthcare-system structure, public/private provider choice, mutualista baseline, and premium private-insurance context (claim-uruguay-016)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-685
+- **Title**: gub.uy - Carne de salud procedure
+- **URL**: https://www.gub.uy/tramites/carne-salud
+- **Archive**: stable government service page - direct extraction used
+- **Type**: official-primary
+- **Date published**: current public procedure page, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguayan health-card procedure anchor for healthcare/residence-file planning (claim-uruguay-017)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-686
+- **Title**: gub.uy - Education in Uruguay
+- **URL**: https://www.gub.uy/educacion-en-uruguay
+- **Archive**: stable government overview page - direct extraction used
+- **Type**: official-primary
+- **Date published**: current public overview page, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguay education structure: initial education ages 3-5, compulsory from age 4, public primary compulsory/free from age 6, secondary cycles from age 12 (claim-uruguay-018)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-18
+
+## src-687
+- **Title**: Uruguay Ministry of Education and Culture - Panorama of early childhood and initial education 2023
+- **URL**: https://www.gub.uy/ministerio-educacion-cultura/datos-y-estadisticas/estadisticas/panorama-educacion-primera-infancia-inicial-2023 ; https://www.gub.uy/ministerio-desarrollo-social/node/8839
+- **Archive**: stable government pages - direct extraction used
+- **Type**: official-primary
+- **Date published**: 2024-11-15 for MEC panorama page; MIDES page current, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Uruguay
+- **Facts supporting**: early-childhood and initial-education statistics/context, compulsory initial education from age 4, and age-3 coverage expansion context (claim-uruguay-018)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-688
+- **Title**: ExpatLife.AI - Schools in Uruguay 2026: fees guide
+- **URL**: https://expatlife.ai/uruguay/education
+- **Archive**: [archive: failed 2026-06-18, Wayback HTTP 429]; text mirror/direct HTML extraction used
+- **Type**: aggregator
+- **Date published**: data verified 2026-05-08 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: Uruguay
+- **Facts supporting**: Montevideo international-school sector and broad annual fee screen of about USD 6,000-18,000/year for English/bilingual/IB options (claim-uruguay-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18

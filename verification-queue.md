@@ -38,6 +38,16 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Medium priority
 
+## vq-141 [medium priority]
+- **Fact**: "Uruguay private health-insurance quotes, maternity/newborn terms, exact FONASA/ASSE/mutualista onboarding by residence/self-employed status, and selected-city private GP/pediatric/maternity prices"
+- **Country**: Uruguay
+- **Section**: 5.6
+- **Current source**: src-182, src-183, src-684, src-685
+- **Why uncertain**: SNIS/FONASA/mutualista structure and health-card requirement are captured, but this pass did not capture route-compliant private policy premiums, maternity/newborn exclusions, foreign-resident public/mutualista onboarding by BPS/DGI status, or Montevideo/Salto private-care prices.
+- **Suggested verification**: Get two to three private/mutualista quotes, policy maternity/newborn wording, official or provider onboarding steps for foreign residents/self-employed contributors, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-18 (run-149)
+- **Status**: pending
+
 ## vq-134 [medium priority]
 - **Fact**: "Montenegro route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks"
 - **Country**: Montenegro

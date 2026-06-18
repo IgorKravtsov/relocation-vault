@@ -32,7 +32,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | North Macedonia | balkans-east | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 117 | `countries/north-macedonia.md` |
 | Bosnia and Herzegovina | balkans-east | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 118 | `countries/bosnia-and-herzegovina.md` |
 | Moldova | balkans-east | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 119 | `countries/moldova.md` |
-| Uruguay | latin-america | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 114 | `countries/uruguay.md` |
+| Uruguay | latin-america | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 149 | `countries/uruguay.md` |
 | Paraguay | latin-america | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 115 | `countries/paraguay.md` |
 | Panama | latin-america | 2 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 116 | `countries/panama.md` |
 | Mexico | latin-america | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 120 | `countries/mexico.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 4.48
+- **Average depth_score**: 4.56

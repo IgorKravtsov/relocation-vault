@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-18
 ---
 
+## 2026-06-18 — run-149
+- Uruguay: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial).
+- Sources added: src-684 through src-688.
+- Claims added: claim-uruguay-016 through claim-uruguay-019.
+- Verification queue: 0 -> 1 pending/open item (added vq-141); continue country-deep-dive below the verification threshold.
+
 ## 2026-06-18 — run-148
 - Verification mode: closed 11 pending application-prep blockers (`vq-130` through `vq-140`, non-sequential order) for healthcare / education screening.
 - Countries touched: Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, and Albania.
