@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 ---
 
 # Sources Registry
@@ -8533,3 +8533,52 @@ Each source entry:
 - **Facts supporting**: Chisinau international-school anchors, QSI preschool-through-secondary baseline, Heritage all-through international-school baseline, tuition and private-kindergarten screening proxies, and education application-prep gaps (claim-moldova-019)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-18
+
+
+## src-709
+- **Title**: Trade.gov - Mexico Healthcare Products & Services
+- **URL**: https://www.trade.gov/country-commercial-guides/mexico-healthcare-products-services
+- **Archive**: direct HTML extraction used from public U.S. government page
+- **Type**: reputable-secondary
+- **Date published**: 2026-02-12
+- **Date accessed**: 2026-06-19
+- **Used by**: Mexico
+- **Facts supporting**: Mexico mixed public/private healthcare-system baseline, public institutions including IMSS/ISSSTE/IMSS-Bienestar, urban private-sector expansion, and healthcare provider-screening caveats (claim-mexico-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-02-12
+
+## src-710
+- **Title**: Mexico Secretariat of Health and IMSS public websites
+- **URL**: https://www.gob.mx/salud ; https://www.imss.gob.mx/
+- **Archive**: stable gov domains - snapshot not required
+- **Type**: official-primary
+- **Date published**: current public websites, no single publication date captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Mexico
+- **Facts supporting**: federal public-health authority anchor, IMSS public-insurance/service anchor, and onboarding follow-up for temporary/permanent/self-employed residents (claim-mexico-017)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-19
+
+## src-711
+- **Title**: ExpatLife.AI Mexico healthcare and education 2026 guides plus ASF / ASFG public school websites
+- **URL**: https://expatlife.ai/mexico/healthcare ; https://expatlife.ai/mexico/education ; https://www.asf.edu.mx/ ; https://www.asfg.mx/
+- **Archive**: direct HTML extraction used from public guide and school pages
+- **Type**: aggregator
+- **Date published**: 2026 guide pages, exact page update date not captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Mexico
+- **Facts supporting**: private health-insurance and serious-care cost proxies, Mexico City private-hospital examples, public-school / bilingual-private / international-school screening baseline, ASF / ASFG school anchors, and healthcare/education application-prep gaps (claim-mexico-018, claim-mexico-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-19
+
+## src-712
+- **Title**: Mexico Secretariat of Public Education (SEP) public website and basic-education links
+- **URL**: https://www.gob.mx/sep ; https://www.gob.mx/sep/acciones-y-programas/educacion-basica
+- **Archive**: stable gov domains - snapshot not required
+- **Type**: official-primary
+- **Date published**: current public websites, no single publication date captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Mexico
+- **Facts supporting**: federal public-education authority anchor, SEP purpose statement, basic-education resource link, and public-school follow-up baseline (claim-mexico-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-19

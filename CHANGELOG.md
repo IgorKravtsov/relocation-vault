@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 ---
+
+## 2026-06-19 — run-155
+- Mexico: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-709, src-710, src-711, src-712.
+- Claims added: claim-mexico-017 through claim-mexico-020.
+- Verification queue: 9 -> 11 pending/open items (added vq-150 and vq-151); next mode should be verification.
 
 ## 2026-06-18 — run-154
 - Moldova: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).

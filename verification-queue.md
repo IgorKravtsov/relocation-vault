@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-18
+last_updated: 2026-06-19
 ---
 
 # Verification Queue
@@ -126,6 +126,27 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured the public compulsory-school baseline, QSI/Heritage Chisinau anchors, and broad international/private-kindergarten cost proxies, but did not capture exact current school fee schedules, private-preschool quotes, or non-Chisinau English/bilingual options.
 - **Suggested verification**: Get QSI Chisinau and Heritage tuition/fee schedules, registration/transport/meal costs, private-preschool city quotes, and school availability in Balti if it remains an affordability fallback.
 - **Created**: 2026-06-18 (run-154)
+- **Status**: pending
+
+
+## vq-150 [medium priority]
+- **Fact**: "Mexico route-compliant private health-insurance quotes, maternity/newborn coverage, exact IMSS / IMSS-Bienestar / public-health onboarding for temporary or permanent residents with foreign-client self-employment, and Mexico City / Guadalajara / Merida / Cancun private GP, pediatric, maternity, and clinic prices"
+- **Country**: Mexico
+- **Section**: 5.6
+- **Current source**: src-709, src-710, src-711
+- **Why uncertain**: This healthcare pass captured the mixed public/private system, official health/IMSS anchors, and private-insurance/care cost proxies, but did not capture accepted policy wording, maternity/newborn exclusions, IMSS enrollment by final tax/residence status, or selected-city provider prices.
+- **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, INM/lawyer confirmation if insurance is expected for the residence file, IMSS / IMSS-Bienestar onboarding steps by final status, and city-specific GP/pediatric/maternity price samples.
+- **Created**: 2026-06-19 (run-155)
+- **Status**: pending
+
+## vq-151 [medium priority]
+- **Fact**: "Mexico exact ASF / ASFG / other international or bilingual school tuition, registration fees, transport/meal costs, private-preschool prices, waiting lists, and school availability outside Mexico City and Guadalajara"
+- **Country**: Mexico
+- **Section**: 5.7
+- **Current source**: src-711, src-712
+- **Why uncertain**: This education pass captured SEP as the public-school authority, public/Spanish-language baseline, broad bilingual/international tuition proxies, and ASF/ASFG anchors, but did not capture exact current fee schedules, private-preschool costs, waiting-list terms, or English/bilingual availability in Merida/Cancun.
+- **Suggested verification**: Get ASF and ASFG tuition/fee schedules, registration/transport/meal costs, private-preschool city quotes, waiting-list timing, and bilingual/international availability in Merida/Cancun if those cities remain candidates.
+- **Created**: 2026-06-19 (run-155)
 - **Status**: pending
 
 ## vq-134 [medium priority]

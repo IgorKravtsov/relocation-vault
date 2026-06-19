@@ -141,3 +141,40 @@
   confidence: medium
   tags: [cost-of-living, rent, merida, warm-inland]
   notes: "Workable first-pass rent but heat, transport, healthcare, and community fit require later checks."
+
+
+- id: claim-mexico-017
+  topic: healthcare_system_public_private_baseline
+  value: "Trade.gov describes Mexico's healthcare system as composed of public and private providers, with public institutions including IMSS, ISSSTE, and IMSS-Bienestar and an expanding urban private sector."
+  source: src-709
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [healthcare, public-system, private-care, imss, mexico]
+  notes: "Supports a screenable mixed-system baseline but not route-specific enrollment or insurance policy wording."
+
+- id: claim-mexico-018
+  topic: mexico_healthcare_private_insurance_proxy
+  value: "A 2026 expat healthcare guide gives Mexican private insurance as roughly USD 150-300/month for many long-term expats and warns that serious uninsured private care can cost USD 5,000-50,000."
+  source: src-711
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [healthcare, private-insurance, cost-proxy]
+  notes: "Aggregator/commercial proxy only; exact route-compliant quotes, maternity/newborn terms, and selected-city provider prices remain vq-150."
+
+- id: claim-mexico-019
+  topic: education_authority_public_school_baseline
+  value: "Mexico's Secretariat of Public Education is the federal education authority and presents its purpose as guaranteeing equitable, inclusive, intercultural, and comprehensive education for the population in Mexico."
+  source: src-712
+  date_verified: 2026-06-19
+  confidence: medium-high
+  tags: [education, public-school, sep, mexico]
+  notes: "Used as the official authority anchor; child enrollment documents and foreign-student administrative details need later city/school checks."
+
+- id: claim-mexico-020
+  topic: mexico_private_international_school_cost_proxy
+  value: "A 2026 expat education guide screens Mexico bilingual private schools around USD 2,000-6,000/year and Mexico City international schools around USD 8,000-18,000/year, with ASF Mexico City and ASFG as public school-site anchors for all-through international options."
+  source: src-711
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [education, international-school, tuition-proxy, mexico-city, guadalajara]
+  notes: "Exact current tuition, registration, transport, meal fees, waiting lists, and private-preschool prices remain vq-151."
