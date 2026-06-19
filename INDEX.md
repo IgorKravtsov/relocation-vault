@@ -38,7 +38,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Mexico | latin-america | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 155 | `countries/mexico.md` |
 | Argentina | latin-america | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 157 | `countries/argentina.md` |
 | UAE | middle-east-asia | 3 | — | 4.5 | done: 5.2, 5.3, 5.4, 5.5; partial: 5.1 | 127 | `countries/uae.md` |
-| Malaysia | middle-east-asia | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 122 | `countries/malaysia.md` |
+| Malaysia | middle-east-asia | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 158 | `countries/malaysia.md` |
 | Thailand | middle-east-asia | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 123 | `countries/thailand.md` |
 | Indonesia | middle-east-asia | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 124 | `countries/indonesia.md` |
 | Kazakhstan | post-ussr | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 125 | `countries/kazakhstan.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 5.10
+- **Average depth_score**: 5.18

@@ -1,27 +1,22 @@
 {
   "version": 2,
-  "iteration": 157,
+  "iteration": 158,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-19T09:10:43Z",
+  "last_run_timestamp": "2026-06-19T12:18:25Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Argentina",
+    "country": "Malaysia",
     "sections": [
       "5.6",
       "5.7"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "country-deep-dive",
-    "suggested_country": "UAE",
-    "suggested_sections": [
-      "5.6",
-      "5.7"
-    ],
-    "reason": "Continue low-depth Tier-3 healthcare/education coverage; queue remains below the automatic verification threshold after run-157."
+    "suggested_mode": "verification",
+    "reason": "Verification queue reached the automatic threshold (10 pending/open items) after adding Malaysia healthcare/education application-prep checks in run-158."
   },
   "countries": {
     "Spain": {
@@ -959,19 +954,19 @@
     "Malaysia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -984,10 +979,12 @@
         "malaysia-foreign-client-tax-source-gap",
         "malaysia-social-security-fit-gap",
         "kuala-lumpur-rent-pressure",
-        "malaysia-one-income-margin-risk"
+        "malaysia-one-income-margin-risk",
+        "malaysia-health-insurance-quote-gap",
+        "malaysia-international-school-cost-risk"
       ],
-      "last_iteration": 122,
-      "unverified_count": 0
+      "last_iteration": 158,
+      "unverified_count": 2
     },
     "Thailand": {
       "tier": null,
@@ -1124,8 +1121,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 8,
-  "sources_count": 715,
-  "claims_count": 625,
+  "verification_queue_size": 10,
+  "sources_count": 719,
+  "claims_count": 629,
   "proposals_pending": 0
 }

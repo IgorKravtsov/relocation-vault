@@ -8631,3 +8631,52 @@ Each source entry:
 - **Facts supporting**: public-school Spanish-language baseline, bilingual/private and top international-school cost proxies, Buenos Aires school anchors, Lincoln admissions/tuition-page anchor, and education application-prep gaps (claim-argentina-020)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-19
+
+
+## src-717
+- **Title**: Ministry of Health Malaysia public portal
+- **URL**: https://www.moh.gov.my/
+- **Archive**: stable gov domain - snapshot not required
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Malaysia
+- **Facts supporting**: official health-authority anchor, public hospital / appointment / health-service starting point, and healthcare follow-up baseline (claim-malaysia-018)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-19
+
+## src-718
+- **Title**: ExpatLife.AI - Malaysia Healthcare 2026: hospitals and insurance guide
+- **URL**: https://expatlife.ai/malaysia/healthcare
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: 2026 guide page, data verified 2026-06-15 on page; exact page update date not captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Malaysia
+- **Facts supporting**: private-care system baseline, GP / specialist / hospital / dental price proxies, DE Rantau / MM2H insurance coverage proxy, international insurance monthly proxy, hospital anchors, and healthcare application-prep gaps (claim-malaysia-018, claim-malaysia-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-19
+
+## src-719
+- **Title**: Ministry of Education Malaysia public portal
+- **URL**: https://www.moe.gov.my/en
+- **Archive**: stable gov domain - snapshot not required
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Malaysia
+- **Facts supporting**: official education-authority anchor, preschool / primary / secondary / private-institution portal links, and education follow-up baseline (claim-malaysia-020)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-19
+
+## src-720
+- **Title**: ExpatLife.AI - Schools in Malaysia 2026: Expat Guide
+- **URL**: https://expatlife.ai/malaysia/education
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: 2026 guide page, data verified 2026-06-15 on page; exact page update date not captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Malaysia
+- **Facts supporting**: public-school Bahasa Malaysia baseline, dependent-child school access proxy, international-school examples and tuition proxies, kindergarten fee proxies, waiting-list timing, and education application-prep gaps (claim-malaysia-020, claim-malaysia-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-19

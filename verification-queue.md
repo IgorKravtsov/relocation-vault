@@ -159,6 +159,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-19 (run-157)
 - **Status**: pending
 
+## vq-154 [medium priority]
+- **Fact**: "Malaysia exact DE Rantau-accepted health-insurance policy wording, current quotes for two young adults, maternity/newborn exclusions and waiting periods, public/private onboarding by DE Rantau / tax status, and Kuala Lumpur / Penang / Johor Bahru / Ipoh GP, pediatric, maternity, and clinic prices"
+- **Country**: Malaysia
+- **Section**: 5.6
+- **Current source**: src-253, src-717, src-718
+- **Why uncertain**: This healthcare pass captured the Ministry authority anchor, private-care cost proxies, and an insurance coverage / monthly-premium proxy, but did not capture route-compliant policy wording, maternity/newborn terms, final-status public/private onboarding, or selected-city provider prices.
+- **Suggested verification**: Get two to three DE Rantau-accepted insurer quotes for two young adults, maternity/newborn terms, MDEC/agent confirmation of accepted policy wording and minimum coverage, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-19 (run-158)
+- **Status**: pending
+
+## vq-155 [medium priority]
+- **Fact**: "Malaysia exact international-school tuition, registration fees, deposits, transport/meal costs, private-preschool quotes, waiting lists, and English/bilingual school availability outside Kuala Lumpur and Penang"
+- **Country**: Malaysia
+- **Section**: 5.7
+- **Current source**: src-719, src-720
+- **Why uncertain**: This education pass captured the public-school language baseline, international-school and kindergarten cost proxies, and major KL/Penang school examples, but did not capture exact current fee schedules, private-preschool city quotes, admissions/waiting-list terms, or Johor/Ipoh English/bilingual availability.
+- **Suggested verification**: Get current fee schedules and admissions terms for key KL/Penang schools, private-preschool quotes, transport/meal costs, and English/bilingual school availability in Johor Bahru and Ipoh if those remain candidate bases.
+- **Created**: 2026-06-19 (run-158)
+- **Status**: pending
+
 ## vq-150 [medium priority]
 - **Fact**: "Mexico route-compliant private health-insurance quotes, maternity/newborn coverage, exact IMSS / IMSS-Bienestar / public-health onboarding for temporary or permanent residents with foreign-client self-employment, and Mexico City / Guadalajara / Merida / Cancun private GP, pediatric, maternity, and clinic prices"
 - **Country**: Mexico

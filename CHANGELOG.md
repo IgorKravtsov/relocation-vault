@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-19
 ---
 
+## 2026-06-19 — run-158
+- Malaysia: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-717, src-718, src-719, src-720.
+- Claims added: claim-malaysia-018 through claim-malaysia-021.
+- Verification queue: 8 -> 10 pending/open items (added vq-154 and vq-155); next mode should be verification.
+
 ## 2026-06-19 — run-157
 - Argentina: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
 - Sources added: src-713, src-714, src-715, src-716.
