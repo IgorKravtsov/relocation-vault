@@ -133,3 +133,39 @@
   confidence: medium
   tags: [cost-of-living, rent, salto, affordability]
   notes: "Affordability fallback pending smaller-city healthcare, services, community, and travel checks."
+
+- id: claim-uruguay-016
+  topic: healthcare_system_snis_fonasa
+  value: "Uruguay has a mixed public/private healthcare system under SNIS, with universal coverage financed through FONASA; contributors can choose a public or private provider and many choose mutualista plans."
+  source: src-684
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, snis, fonasa, mutualista]
+  notes: "Used for screening only; exact foreign-resident onboarding and contribution/private-policy cost depend on residence and BPS/DGI status."
+
+- id: claim-uruguay-017
+  topic: health_card_residence_file
+  value: "Uruguay's residence checklist requires a Uruguayan health card and vaccination certificate, and the public Carné de salud page confirms the health card is a formal public procedure."
+  source: src-685
+  date_verified: 2026-06-18
+  confidence: medium-high
+  tags: [healthcare, residence, health-card]
+  notes: "Residence checklist support also comes from src-182 and src-183; this claim tracks the health-card procedure anchor."
+
+- id: claim-uruguay-018
+  topic: public_education_compulsory_structure
+  value: "Uruguay's official education portal states that initial education covers ages 3-5, attendance is compulsory from age 4, primary education starts from age 6 and is compulsory and free in the public system, and secondary education starts around age 12."
+  source: src-686
+  date_verified: 2026-06-18
+  confidence: high
+  tags: [education, public-school, preschool, compulsory]
+  notes: "Spanish-language public schooling is the low-cost default; school admissions and migrant-child practicalities remain later application-prep checks."
+
+- id: claim-uruguay-019
+  topic: international_school_fee_screen
+  value: "A 2026 Uruguay education guide screens Montevideo international schools with English, bilingual, and IB curricula at roughly USD 6,000-18,000 per year."
+  source: src-688
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [education, international-school, montevideo, budget-risk]
+  notes: "Aggregator-style fee range used only for screening; exact live tuition and admissions must be checked with selected schools."

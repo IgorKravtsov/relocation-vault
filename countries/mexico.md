@@ -1,14 +1,14 @@
 ---
 country: Mexico
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-11T00:04:17Z
-sections_completed: ["5.2"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["ukrainian-entry-visa-likely-required", "temporary-residence-income-above-current-budget", "no-dedicated-digital-nomad-visa", "coastal-heat-humidity", "mexico-resico-eligibility-gap", "mexico-vat-export-service-gap", "mexico-social-security-category-gap"]
-sources_used: ["src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232", "src-449", "src-450", "src-451", "src-452", "src-453", "src-454", "src-455"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-19T03:01:21Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["ukrainian-entry-visa-likely-required", "temporary-residence-income-above-current-budget", "no-dedicated-digital-nomad-visa", "coastal-heat-humidity", "mexico-resico-eligibility-gap", "mexico-vat-export-service-gap", "mexico-social-security-category-gap", "mexico-city-rent-pressure", "tourist-coast-cost-pressure", "mexico-health-insurance-quote-gap", "mexico-international-school-cost-risk"]
+sources_used: ["src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232", "src-449", "src-450", "src-451", "src-452", "src-453", "src-454", "src-455", "src-570", "src-571", "src-572", "src-573", "src-574", "src-709", "src-710", "src-711", "src-712"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests Mexico is a possible ordinary-residence fallback rather than a clean digital-nomad route: temporary residence can lead to permanent residence after four years, but 2026 economic-solvency thresholds appear above the couple's current ~$3,000/month income if they apply through the standard income route. [src-227][src-229]
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-11T00:04:17Z
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-19T03:01:21Z
 - **Tier rationale**: keep as Tier-3 hint until the exact serving-consulate threshold, entry mechanics for Ukrainian passports, taxes, rent, healthcare, and partner sponsorship are checked.
 
 ## Block 2 - Scoring
@@ -28,10 +28,10 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | No EU TP dependency; ordinary temporary-residence ladder exists, but the standard solvency route appears above the couple's income and no dedicated DN visa was captured. | §5.1 |
 | Climate | — | medium | Huge regional spread: Mexico City is mild and dry-comfortable, while Caribbean / Pacific coasts are warm but humid and rainy in season. | §5.2 |
 | Taxes | — | medium | Progressive PIT is workable but not low-tax at USD 3,000/month: ordinary resident PIT-only net screens near USD 2,447/month before accountant, VAT, and any social-security/IMSS obligations. RESICO or export-service VAT treatment could improve the answer, but eligibility was not proven in this pass. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Cost of living | — | medium | Mexico is not a low-cost fallback in the captured cities: Mexico City and tourist/coastal choices are tight on one income after tax, while Guadalajara is the best first-pass services/cost compromise. | §5.4 |
+| Rent (decent 2BR) | — | medium | A modest 40 m2 proxy is manageable in Guadalajara/Cancun/Merida but Mexico City is expensive and should require a strict rent cap. | §5.5 |
+| Healthcare | — | medium | Screenable but not application-ready: public and private providers exist, IMSS/IMSS-Bienestar are key public anchors, and private hospitals are strongest in major cities; exact insurance, IMSS enrollment, maternity/newborn terms, and city prices remain open. | §5.6 |
+| Education (future child) | — | medium | Public school is the Spanish-language baseline, while Mexico City / Guadalajara have international-school anchors; exact current tuition, preschool prices, and non-capital availability remain budget checks. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -118,21 +118,63 @@ Mexico's climate fit depends heavily on altitude and coast. The best first-pass 
 
 At the current USD 3,000/month income, Mexico is not tax-prohibitive in the ordinary PIT-only model, but it is also not a low-tax answer: a conservative resident-professional screen leaves about **USD 2,447/month** before accountant, VAT, social-security/IMSS, health insurance, and immigration costs. Because the immigration solvency gate already appears above the couple's income, tax attractiveness alone does not fix Mexico's main route problem. Run-093 closed `vq-113` for screening only; do not mark section 5.3 passed until a Mexican accountant or official SAT/IMSS guidance confirms RESICO/ordinary-regime registration, VAT/export-service handling, contribution duties, and compatibility with temporary residence. [src-449][src-451][src-452][src-453][src-454][src-455]
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-14, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for first-pass screening. Livingcost provides national and city-level one-person / family-of-four cost totals, rent-and-utilities, food, transport, utilities, and internet for Mexico, Mexico City, Guadalajara, Cancun, and Merida. Healthcare, insurance, accountant, immigration-lawyer, live lease, and tax-registration costs remain separate later checks.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+Livingcost screens Mexico as mid-cost rather than cheap for the couple's one-income file. The national family-of-four proxy is already about USD 2,555/month, and the practical city choices range from about USD 1,232-1,428/month for one person with rent to about USD 2,969-3,399/month for a family-of-four proxy. Compare these against both gross USD 3,000/month and Mexico's conservative ordinary PIT-only tax screen of about USD 2,447/month before accountant, VAT, IMSS/social-security, health-insurance, and immigration costs. [src-570][src-571][src-572][src-573][src-574][src-449]
 
-[verification required]
+| Place | One-person total with rent | Family-of-4 proxy | Food | Transport | Utilities / internet | Budget fit for this couple |
+|---|---:|---:|---:|---:|---|---|
+| Mexico national average | $1,078 | $2,555 | $395 one person / $1,031 family | $90 / $248 | utilities $45.1 / $69.3; internet $29.3 | Borderline after tax and professional costs: national averages look possible, but the PIT-only tax net leaves limited room for insurance, accountant, immigration, and savings. [src-570] |
+| Mexico City | $1,428 | $3,399 | $431 / $1,126 | $103 / $280 | utilities $34.6 / $53.1; internet $33.7 | Best bureaucracy, airport, healthcare, banking, and professional-services base, but the family proxy exceeds gross income and the 40 m2 rent line is high. Use only with a strict housing cap. [src-571] |
+| Guadalajara | $1,241 | $2,983 | $416 / $1,090 | $113 / $313 | utilities $27.2 / $42.5; internet $30.7 | Best first-pass balance among captured cities: large-city services, highland climate alternative, and lower rent than Mexico City, but still tight after tax/insurance/accountant costs. [src-572] |
+| Cancun | $1,232 | $2,969 | $441 / $1,191 | $149 / $426 | utilities $65 / $97.7; internet $37.3 | Warm coast/tourist-services option; numerically similar to Guadalajara but with higher transport/utilities and climate/tourism-season caveats. [src-573] |
+| Merida | $1,258 | $3,028 | $401 / $1,044 | $180 / $524 | utilities $57.2 / $88; internet $35.8 | Warm inland Yucatan option with moderate rent but higher transport in this dataset and heat/humidity follow-up needs. [src-574] |
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+**One-income interpretation**: Mexico City is weak on the current income unless the couple secures unusually cheap housing and confirms a favorable tax/compliance setup. Guadalajara is the first captured city to screen for services/cost balance. Cancun and Merida are lifestyle/climate alternatives rather than default budget bases; they need live listings, private insurance, safety, and seasonality checks before application planning. [src-571][src-572][src-573][src-574]
 
-[verification required]
+**Practical cost caveats**: Livingcost is a medium-confidence commercial/crowdsourced source and does not replace 2026 live rentals, landlord requirements, deposit/commission norms, private health-insurance quotes, accountant/SAT onboarding prices, immigration-lawyer fees, flights, or bilingual service costs. Because Mexico's immigration income gate already appears above the couple's current income, cost affordability does not by itself make Mexico route-ready. [src-229][src-449]
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-14, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for first-pass screening. Livingcost gives 40 m2 1BR city-center and cheaper 1BR rent lines for the captured cities; this vault uses that 40 m2 1BR line as a modest two-room proxy. The 80 m2 3BR line is included only as an upper-size / future-family stress test, not the default requirement.
+
+| City | 40 m2 1BR city-center proxy | 40 m2 cheaper 1BR proxy | 80 m2 3BR stress-test band | Share of USD 3,000 gross | Share of Mexico PIT-only net (~USD 2,447) | First-pass rent verdict |
+|---|---:|---:|---:|---:|---:|---|
+| Mexico City | $1,035 | $623 | $1,143-$1,886 | 21%-35% for 40 m2 proxy | 25%-42% | Main rent-pressure warning. Use only if capital services are essential and a cheaper-area modest apartment can be found. The 3BR stress case is incompatible with one income. [src-571] |
+| Guadalajara | $776 | $492 | $879-$1,418 | 16%-26% | 20%-32% | Best captured rent/services compromise; still requires a cap because tax, insurance, accountant, and immigration costs will reduce the usable budget. [src-572] |
+| Cancun | $626 | $398 | $710-$1,139 | 13%-21% | 16%-26% | Rent is workable on paper, but tourist-market seasonality, humidity/storm exposure, and service-cost markups need later checks. [src-573] |
+| Merida | $579 | $461 | $829-$1,041 | 15%-19% | 19%-24% | Workable first-pass rent; useful as a warmer inland alternative if heat, transport, healthcare, and community checks are acceptable. [src-574] |
+
+**City screen**: screen Guadalajara first for the services/cost/highland compromise; use Mexico City mainly for consular/legal/accounting/healthcare access or a short setup period with a strict rent cap. Cancun and Merida are second-stage checks if the couple deliberately prioritizes a warm region and can handle heat, humidity, tourist-season pricing, and hurricane/rainy-season planning. [src-571][src-572][src-573][src-574]
+
+**Search and lease follow-up**: this iteration did not capture live property portals or lease practice. Before treating section 5.5 as application-ready, check Inmuebles24, Vivanuncios, Facebook/WhatsApp groups, deposits/aval/fiador requirements, whether landlords accept foreign remote-worker income, whether the lease supports address evidence for INM/banking/SAT, and whether utilities/internet are billed separately. Keep these as practical-budget checks rather than country-screening blockers.
+
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
+
+> **DoD status**: partial. A first-pass healthcare screen is now available, but route-compliant private insurance, exact IMSS / IMSS-Bienestar / private-policy onboarding by residence and tax status, maternity/newborn coverage, and selected-city private-care prices remain application-prep gaps (`vq-150`).
+
+Mexico has a mixed healthcare system with large public institutions and a substantial urban private sector. Trade.gov describes public coverage through IMSS, ISSSTE, and the newer IMSS-Bienestar system, with private care expanding in urban areas because middle- and high-income patients seek higher-quality care. For the couple, this means Mexico City and Guadalajara are the safest first healthcare screens, while smaller or coastal bases need a private-clinic/hospital check before commitment. [src-709]
+
+The official public anchors are the Secretariat of Health and IMSS. The Secretariat of Health site is the federal health-authority reference point, while the IMSS site provides citizen-facing information, procedures, facilities, and online health services. This pass did not capture a clean official answer on whether a temporary resident with foreign-client self-employment can voluntarily enroll, what pre-existing-condition or maternity limits apply, or how IMSS-Bienestar access works in practice for foreign residents. [src-710]
+
+A 2026 expat healthcare guide gives a useful but medium-confidence private-market screen: it says Mexican private insurance is commonly around **USD 150-300/month** for long-term expats, serious uninsured private bills can reach **USD 5,000-50,000**, and top private hospitals in Mexico City include ABC Medical Center, Medica Sur, and Hospital Angeles. Treat those as budgeting proxies only, not visa-compliant quotes. [src-711]
+
+**Household verdict**: healthcare is not a reason to exclude Mexico at country-screening level, especially if the base is Mexico City or Guadalajara and the couple budgets for private insurance. It is still not application-ready: exact accepted policy wording, maternity/newborn coverage, IMSS eligibility/costs by final status, and city-specific GP/pediatric/maternity prices need verification before a move plan. [src-709][src-710][src-711]
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
+
+> **DoD status**: passed at medium confidence for first-pass screening. Public-school authority, Spanish-language public baseline, and international/private-school anchors are captured. Exact school fee schedules, private preschool prices, waiting lists, and non-capital / non-Guadalajara availability remain application-prep checks (`vq-151`).
+
+The official authority anchor is the Secretariat of Public Education (SEP), whose federal site describes its purpose as guaranteeing equitable, inclusive, intercultural, and comprehensive education for Mexico's population and links to basic-education resources. For a future child, the practical public-school baseline is Spanish-language integration through SEP/state schools, with bilingual/private options if the couple's budget allows. [src-712]
+
+A 2026 expat education guide supports the screening baseline that public school is free for resident children but Spanish-only, while bilingual private schools can be much cheaper than top international schools. It gives broad current proxies: bilingual private schools around **USD 2,000-6,000/year**, Mexico City international schools around **USD 8,000-18,000/year**, and warns that some leading schools can have early applications / waiting lists. [src-711]
+
+For city selection, Mexico City has the strongest international-school ecosystem: the American School Foundation states it was founded in Mexico City in 1888 and offers Early Childhood, Lower, Middle, and Upper School divisions; the same guide names ASF, Peterson, Westhill, The English School, and Edron as CDMX anchors. Guadalajara also has an international-school anchor via the American School Foundation of Guadalajara, but exact tuition and private-preschool costs were not captured. [src-711]
+
+**Household verdict**: Mexico is education-screenable if the family accepts Spanish public schooling or can budget for private/bilingual schooling. On one income after Mexico's conservative tax screen, top CDMX international-school tuition is a major risk; Guadalajara or Spanish public/private bilingual options are more realistic first-pass paths. [src-711][src-712]
+
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -168,18 +210,20 @@ At the current USD 3,000/month income, Mexico is not tax-prohibitive in the ordi
 - **Best legalization path for the man**: temporary resident visa based on economic solvency if income/savings meet the serving-consulate threshold; no dedicated DN route captured. [src-227][src-229]
 - **Best legalization path for the woman**: spouse/family-unity route if married and eligible, or independent file; do not assume an unmarried-partner or one-income dependent route until the serving consulate confirms it. [src-227][src-229]
 - **Does marriage change the picture**: probably yes for dependent/family-unity clarity, but the exact Mexican dependent evidence and solvency uplift were not captured.
-- **Realism of staying after 03.2027**: medium-low at current income until the solvency threshold is solved; ordinary temporary residence can lead to permanent residence after four years if obtained and maintained. Tax screening is workable under ordinary PIT but not enough to overcome the immigration income gate by itself. [src-227][src-449]
+- **Realism of staying after 03.2027**: medium-low at current income until the solvency threshold is solved; ordinary temporary residence can lead to permanent residence after four years if obtained and maintained. Tax screening plus cost/rent screening is workable only with a strict city and housing choice: Guadalajara/Merida/Cancun rent is manageable, while Mexico City is tight on the conservative PIT-only net. [src-227][src-449][src-571][src-572][src-573][src-574]
 
 **Pros**:
 - Ordinary non-EU residence ladder avoids EU temporary-protection uncertainty. [src-227]
 - Permanent-residence change after four years of temporary residence is a clear long-term concept. [src-227]
 - Highland climates can be mild year-round with very low muggy-day burden. [src-230][src-232]
+- Guadalajara, Cancun, and Merida show workable first-pass 40 m2 rent proxies under about $800/month, although non-rent costs still matter. [src-572][src-573][src-574]
 
 **Cons / risks**:
 - Standard 2026 temporary-residence income benchmark appears above the couple's current ~$3,000/month. [src-229]
 - Ukrainian entry / visa-waiver alternatives need a readable official country-list confirmation. [src-226]
 - Partner/dependent mechanics should be handled spouse-first for screening; remote-work tax compliance remains accountant-level, especially RESICO, VAT/export-service, and IMSS treatment. [src-451][src-452][src-454]
-- Coastal warmth comes with high humidity, rainy-season, and storm exposure. [src-231][src-232]
+- Coastal warmth comes with high humidity, rainy-season, storm exposure, tourist-market pricing, and seasonal lease risk. [src-231][src-232][src-573]
+- Mexico City rent is a budget-pressure flag: the captured 40 m2 city-center proxy is about $1,035/month, roughly 42% of the conservative PIT-only net. [src-571]
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -198,7 +242,7 @@ At the current USD 3,000/month income, Mexico is not tax-prohibitive in the ordi
 - Decide whether a highland city or coast is the realistic climate/cost fit; climate alone does not justify a tourist coast.
 
 ### 6d. Before March 2027 (critical deadline)
-- Mexico should only be treated as a post-EU-TP fallback if the resident-visa threshold and partner file are solved well before March 2027.
+- Mexico should only be treated as a post-EU-TP fallback if the resident-visa threshold, partner file, private insurance/IMSS plan, and school-language budget are solved well before March 2027.
 
 ### 6e. Long-term (4-6 years)
 - Maintain temporary residence and check eligibility for permanent-residence change after four years. [src-227]
@@ -211,9 +255,9 @@ At the current USD 3,000/month income, Mexico is not tax-prohibitive in the ordi
 | Visa / residence permit fees | — | [verification required] |
 | Apostilles and translations | — | [verification required] |
 | Flights for two | — | [verification required] |
-| Rental deposit | — | [verification required] |
-| First month rent | — | [verification required] |
-| Health insurance / healthcare entry costs | — | [verification required] |
+| Rental deposit | — | [verification required]; first-pass rent proxy is $492-$776 in Guadalajara, $398-$626 in Cancun, $461-$579 in Merida, and $623-$1,035 in Mexico City before deposits/fees. [src-571][src-572][src-573][src-574] |
+| First month rent | $398-$1,035 | First-pass 40 m2 cheaper-to-city-center proxy across the captured cities; Mexico City should be capped strictly. [src-571][src-572][src-573][src-574] |
+| Health insurance / healthcare entry costs | ~$150-$300/month private-insurance proxy | Medium-confidence expat guide proxy only; exact policy, maternity/newborn coverage, IMSS eligibility/costs, and city provider prices need `vq-150` follow-up. [src-711] |
 | Immigration lawyer / facilitator | — | Useful for consular threshold and dependent file. |
 | Buffer / contingencies | — | [verification required] |
 | **Total** | — | |
@@ -230,6 +274,8 @@ At the current USD 3,000/month income, Mexico is not tax-prohibitive in the ordi
 - [src-226] INM visa-required country / alternatives page.
 - [src-227] Gob.mx / INM migration-document exchange, renewal, and permanent-residence-after-four-years procedures.
 - [src-228] SRE carta de naturalizacion by residence procedure.
+- [src-710] Mexico Secretariat of Health / IMSS public websites.
+- [src-712] Mexico Secretariat of Public Education (SEP) public website and basic-education links.
 
 ### 7b. Reliable secondary
 - [src-229] Mexperience 2026 financial-criteria guide for Mexican residency.
@@ -239,6 +285,7 @@ At the current USD 3,000/month income, Mexico is not tax-prohibitive in the ordi
 - [src-452] PwC Mexico individual other taxes.
 - [src-453] PwC Mexico individual tax administration.
 - [src-454] PwC Mexico corporate other taxes.
+- [src-709] Trade.gov Mexico healthcare products/services market overview.
 
 ### 7c. Community and forums
 - None used in this pass.
@@ -248,15 +295,25 @@ At the current USD 3,000/month income, Mexico is not tax-prohibitive in the ordi
 - [src-231] Climate to Travel Cancun / Puerto Vallarta / Mexico overview.
 - [src-232] WeatherSpark Mexico country climate comparison.
 - [src-455] ExchangeRate-API USD/MXN snapshot.
+- [src-570] Livingcost Mexico national cost/rent page.
+- [src-571] Livingcost Mexico City cost/rent page.
+- [src-572] Livingcost Guadalajara cost/rent page.
+- [src-573] Livingcost Cancun cost/rent page.
+- [src-574] Livingcost Merida cost/rent page.
+- [src-711] ExpatLife.AI Mexico healthcare and education 2026 guides plus ASF/ASFG public school websites.
 
 ### 7e. Not found / not captured cleanly
 - Readable official OCR/text for Ukraine's exact placement in Mexico's visa-required / visa-free list.
 - Serving-consulate 2026 temporary-resident economic-solvency checklist and exact USD/EUR/UAH thresholds.
 - Dependent / family-unity mechanics for a spouse or unmarried partner of a temporary resident.
 - Remote-work tax / local registration treatment for foreign-client IT income: ordinary PIT is screened and `vq-113` was resolved for screening in run-093, but exact SAT regime, RESICO eligibility, VAT/export-service handling, IMSS/social-security duty, and residence-file compatibility remain application-prep/accountant checks.
+- Route-compliant private health-insurance quotes, maternity/newborn terms, IMSS / IMSS-Bienestar onboarding by final status, and selected-city private-care prices (`vq-150`).
+- Exact international/bilingual school tuition, private-preschool prices, waiting lists, and non-CDMX/non-Guadalajara options (`vq-151`).
 
 ## Block 8 - Open questions and verification notes
 
 - `vq-070` — Mexico Ukrainian entry / visa-waiver alternatives and Polish residence-card treatment from a readable official source.
 - `vq-071` — Mexico temporary-resident economic-solvency threshold, remote-work fit, dependent mechanics, PR counting, and naturalization details.
 - `vq-113` resolved for screening in run-093 — Mexico has a conservative ordinary-PIT tax baseline; exact tax registration, RESICO eligibility, VAT/export-service treatment, IMSS/social-security position, and immigration-file fit remain application-prep/accountant checks.
+- `vq-150` — Mexico healthcare insurance, public-system onboarding, maternity/newborn terms, and city-specific private-care prices.
+- `vq-151` — Mexico international/bilingual school fees, private-preschool prices, waiting lists, and non-capital options.

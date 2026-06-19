@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-12
+last_updated: 2026-06-19
 ---
 
 # Verification Queue
@@ -37,6 +37,231 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Resolution note**: Official MFA digital-nomad page now anchors the DN route/checklist baseline alongside the earlier Work From Greece threshold/family sources. [src-003][src-004][src-152]
 
 ## Medium priority
+
+## vq-141 [medium priority]
+- **Fact**: "Uruguay private health-insurance quotes, maternity/newborn terms, exact FONASA/ASSE/mutualista onboarding by residence/self-employed status, and selected-city private GP/pediatric/maternity prices"
+- **Country**: Uruguay
+- **Section**: 5.6
+- **Current source**: src-182, src-183, src-684, src-685
+- **Why uncertain**: SNIS/FONASA/mutualista structure and health-card requirement are captured, but this pass did not capture route-compliant private policy premiums, maternity/newborn exclusions, foreign-resident public/mutualista onboarding by BPS/DGI status, or Montevideo/Salto private-care prices.
+- **Suggested verification**: Get two to three private/mutualista quotes, policy maternity/newborn wording, official or provider onboarding steps for foreign residents/self-employed contributors, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-18 (run-149)
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-156)
+- **Resolution note**: Resolved for screening. Uruguay healthcare is screenable from the existing SNIS/FONASA/mutualista, health-card, and private-care evidence; exact private/mutualista quotes, maternity/newborn terms, foreign-resident onboarding by BPS/DGI/residence status, and city-specific provider prices remain application-prep checks before filing or city selection.
+
+## vq-142 [medium priority]
+- **Fact**: "Paraguay private health-insurance quotes, maternity/newborn coverage, exact IPS / Ministry public-care onboarding for self-employed or lawful-activity foreign residents, and Asuncion / Encarnacion / Ciudad del Este private GP, pediatric, maternity, and clinic prices"
+- **Country**: Paraguay
+- **Section**: 5.6
+- **Current source**: src-191, src-440, src-689, src-690
+- **Why uncertain**: This healthcare pass captured the public Ministry network and a private-care / insurance cost proxy, but did not capture route-compliant policy wording, maternity/newborn exclusions, exact public/IPS eligibility by residence/tax status, or selected-city private-care prices.
+- **Suggested verification**: Get two to three insurer or prepaid medical quotes for two young adults, maternity/newborn terms, DNM/lawyer confirmation of residence-file insurance acceptance, IPS/Ministry onboarding steps by final status, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-18 (run-150)
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-156)
+- **Resolution note**: Resolved for screening. Paraguay healthcare is screenable from the existing public/private network and private-care / insurance proxy evidence; exact route-compliant insurance wording, maternity/newborn terms, IPS/Ministry onboarding by final status, and selected-city provider prices remain application-prep checks.
+
+## vq-143 [medium priority]
+- **Fact**: "Panama route-compliant private health-insurance quotes, maternity/newborn coverage, exact CSS/MINSA onboarding for remote-worker / ordinary-residence / tax status, and Panama City / David / Boquete private GP, pediatric, maternity, and clinic prices"
+- **Country**: Panama
+- **Section**: 5.6
+- **Current source**: src-199, src-693, src-694
+- **Why uncertain**: This healthcare pass captured the remote-worker insurance requirement, MINSA authority baseline, and private-care / insurance cost proxies, but did not capture policy wording accepted for the visa, maternity/newborn exclusions, exact public/CSS eligibility by residence/tax status, or selected-city private-care prices.
+- **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, migration/lawyer confirmation of remote-worker insurance acceptance, CSS/MINSA onboarding steps by final status, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-18 (run-151)
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-156)
+- **Resolution note**: Resolved for screening. Panama healthcare is screenable because the remote-worker route already requires Panama-covering insurance and Panama City has strong private-care anchors; exact accepted policy wording, maternity/newborn terms, CSS/MINSA onboarding, and selected-city provider prices remain application-prep checks.
+
+## vq-144 [medium priority]
+- **Fact**: "North Macedonia route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZO/public-insurance onboarding for self-employed/company-backed foreign residents, and Skopje / Ohrid / Bitola private GP, pediatric, maternity, and clinic prices"
+- **Country**: North Macedonia
+- **Section**: 5.6
+- **Current source**: src-697, src-698
+- **Why uncertain**: This healthcare pass captured the Ministry authority anchor, FZO/public-system concept, and private-care / insurance cost proxies, but did not capture policy wording accepted for residence, maternity/newborn exclusions, exact FZO enrollment by final residence/tax status, or selected-city provider prices.
+- **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, migration/lawyer confirmation of residence-file insurance acceptance, FZO onboarding steps by self-employed/company-backed status, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-18 (run-152)
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-156)
+- **Resolution note**: Resolved for screening. North Macedonia healthcare is screenable from the captured Ministry/FZO/private-care affordability baseline; exact private-policy quotes, maternity/newborn terms, FZO onboarding by self-employed/company-backed status, and local pediatric/maternity provider checks remain application-prep checks.
+
+## vq-145 [medium priority]
+- **Fact**: "North Macedonia exact QSI/NOVA/international-school tuition, registration fees, transport/meal costs, private-preschool prices, and school availability outside Skopje"
+- **Country**: North Macedonia
+- **Section**: 5.7
+- **Current source**: src-699, src-700
+- **Why uncertain**: This education pass captured public-school language/age structure and a broad international-school tuition proxy, plus QSI/NOVA as Skopje anchors, but did not capture exact current school fee schedules, private preschool costs, or non-Skopje English/bilingual availability.
+- **Suggested verification**: Get QSI and NOVA tuition/fee schedules, registration/transport/meal costs, age-placement and EAL terms, private-preschool city quotes, and school availability in Ohrid/Bitola if those cities remain candidate bases.
+- **Created**: 2026-06-18 (run-152)
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-156)
+- **Resolution note**: Resolved for screening. North Macedonia education is screenable from the public-school language/age baseline plus Skopje QSI/NOVA/international-school cost bands; exact tuition/fees, private-preschool quotes, and non-Skopje English/bilingual availability remain application-prep or final-city checks.
+
+## vq-146 [medium priority]
+- **Fact**: "Bosnia and Herzegovina route-compliant private health-insurance quotes, maternity/newborn coverage, exact FBiH / RS / canton / Brcko public-fund onboarding for company-founder/work/self-employed foreign residents, and Sarajevo / Mostar / Tuzla / Banja Luka private GP, pediatric, maternity, and clinic prices"
+- **Country**: Bosnia and Herzegovina
+- **Section**: 5.6
+- **Current source**: src-215, src-701, src-702
+- **Why uncertain**: This healthcare pass captured the public/insurance-fund structure, public clinical-center locations, Sarajevo private-care fallback, and residence-file insurance requirement, but did not capture acceptable private-policy wording, maternity/newborn exclusions, exact fund enrollment by final status/entity, or city-specific private-care prices.
+- **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, Service/lawyer confirmation of residence-file insurance acceptance, FBiH/RS/canton/Brcko onboarding steps by final residence/tax status, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-18 (run-153)
+- **Status**: pending
+
+## vq-147 [medium priority]
+- **Fact**: "Bosnia and Herzegovina exact QSI Sarajevo / UWC Mostar / other international-school tuition, registration fees, transport/meal costs, private-preschool prices, and English/bilingual availability outside Sarajevo and Mostar"
+- **Country**: Bosnia and Herzegovina
+- **Section**: 5.7
+- **Current source**: src-703, src-704
+- **Why uncertain**: This education pass captured the public-school structure and QSI/UWC anchors, but did not capture exact tuition/fees, private-preschool prices, or whether Mostar/Tuzla/Banja Luka have suitable English/bilingual options for a future young child.
+- **Suggested verification**: Get QSI Sarajevo and UWC Mostar fee schedules, any Sarajevo international-school alternatives, registration/transport/meal costs, private-preschool city quotes, and English/bilingual availability in Mostar/Tuzla/Banja Luka if those cities remain candidate bases.
+- **Created**: 2026-06-18 (run-153)
+- **Status**: pending
+
+## vq-148 [medium priority]
+- **Fact**: "Moldova route-compliant private health-insurance quotes, maternity/newborn coverage, exact CNAM/public-health onboarding for DN / TP / self-employed / family residents, and Chisinau / Balti private GP, pediatric, maternity, and clinic prices"
+- **Country**: Moldova
+- **Section**: 5.6
+- **Current source**: src-222, src-705, src-706
+- **Why uncertain**: This healthcare pass captured the Ministry authority anchor, TP primary/emergency healthcare rights, and a private-insurance / Chisinau-care screening proxy, but did not capture accepted residence-policy wording, maternity/newborn exclusions, exact CNAM enrollment by final status, or selected-city private-care prices.
+- **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, GIM/lawyer confirmation of DN/provisional-stay insurance acceptance, CNAM onboarding steps by final residence/tax status, and Chisinau/Balti GP/pediatric/maternity price samples.
+- **Created**: 2026-06-18 (run-154)
+- **Status**: pending
+
+## vq-149 [medium priority]
+- **Fact**: "Moldova exact QSI Chisinau / Heritage / other international-school tuition, registration fees, transport/meal costs, private-preschool prices, and English/bilingual availability outside Chisinau"
+- **Country**: Moldova
+- **Section**: 5.7
+- **Current source**: src-707, src-708
+- **Why uncertain**: This education pass captured the public compulsory-school baseline, QSI/Heritage Chisinau anchors, and broad international/private-kindergarten cost proxies, but did not capture exact current school fee schedules, private-preschool quotes, or non-Chisinau English/bilingual options.
+- **Suggested verification**: Get QSI Chisinau and Heritage tuition/fee schedules, registration/transport/meal costs, private-preschool city quotes, and school availability in Balti if it remains an affordability fallback.
+- **Created**: 2026-06-18 (run-154)
+- **Status**: pending
+
+
+## vq-152 [medium priority]
+- **Fact**: "Argentina route-compliant private prepaga / international health-insurance quotes, maternity/newborn coverage, exact public/prepaga onboarding for DN / temporary-residence / self-employed foreign residents, and Buenos Aires / Cordoba / Mendoza private GP, pediatric, maternity, and clinic prices"
+- **Country**: Argentina
+- **Section**: 5.6
+- **Current source**: src-713, src-714
+- **Why uncertain**: This healthcare pass captured the Ministry authority anchor, public/private system baseline, and private prepaga proxy, but did not capture policy wording accepted for DN/temporary residence, maternity/newborn exclusions, exact onboarding by final status, or selected-city private-care prices.
+- **Suggested verification**: Get two to three OSDE / Swiss Medical / Medicus or international-policy quotes for two young adults, maternity/newborn terms, Migraciones/lawyer confirmation of residence-file insurance acceptance, public/prepaga onboarding steps by final status, and city-specific GP/pediatric/maternity price samples.
+- **Created**: 2026-06-19 (run-157)
+- **Status**: pending
+
+## vq-153 [medium priority]
+- **Fact**: "Argentina exact Lincoln / St. Andrew's / Northlands / American Community School tuition, registration fees, transport/meal costs, private-preschool prices, waiting lists, and bilingual/international availability outside Buenos Aires"
+- **Country**: Argentina
+- **Section**: 5.7
+- **Current source**: src-715, src-716
+- **Why uncertain**: This education pass captured the public-school authority baseline, Spanish-language public-school path, and broad bilingual/international-school cost proxies, but did not extract exact current school fee schedules, private-preschool costs, waiting-list terms, or Cordoba/Mendoza bilingual availability.
+- **Suggested verification**: Get current school fee schedules and admissions terms for the main Buenos Aires schools, registration/transport/meal costs, private-preschool city quotes, and bilingual/international-school availability in Cordoba and Mendoza if those cities remain candidates.
+- **Created**: 2026-06-19 (run-157)
+- **Status**: pending
+
+## vq-150 [medium priority]
+- **Fact**: "Mexico route-compliant private health-insurance quotes, maternity/newborn coverage, exact IMSS / IMSS-Bienestar / public-health onboarding for temporary or permanent residents with foreign-client self-employment, and Mexico City / Guadalajara / Merida / Cancun private GP, pediatric, maternity, and clinic prices"
+- **Country**: Mexico
+- **Section**: 5.6
+- **Current source**: src-709, src-710, src-711
+- **Why uncertain**: This healthcare pass captured the mixed public/private system, official health/IMSS anchors, and private-insurance/care cost proxies, but did not capture accepted policy wording, maternity/newborn exclusions, IMSS enrollment by final tax/residence status, or selected-city provider prices.
+- **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, INM/lawyer confirmation if insurance is expected for the residence file, IMSS / IMSS-Bienestar onboarding steps by final status, and city-specific GP/pediatric/maternity price samples.
+- **Created**: 2026-06-19 (run-155)
+- **Status**: pending
+
+## vq-151 [medium priority]
+- **Fact**: "Mexico exact ASF / ASFG / other international or bilingual school tuition, registration fees, transport/meal costs, private-preschool prices, waiting lists, and school availability outside Mexico City and Guadalajara"
+- **Country**: Mexico
+- **Section**: 5.7
+- **Current source**: src-711, src-712
+- **Why uncertain**: This education pass captured SEP as the public-school authority, public/Spanish-language baseline, broad bilingual/international tuition proxies, and ASF/ASFG anchors, but did not capture exact current fee schedules, private-preschool costs, waiting-list terms, or English/bilingual availability in Merida/Cancun.
+- **Suggested verification**: Get ASF and ASFG tuition/fee schedules, registration/transport/meal costs, private-preschool city quotes, waiting-list timing, and bilingual/international availability in Merida/Cancun if those cities remain candidates.
+- **Created**: 2026-06-19 (run-155)
+- **Status**: pending
+
+## vq-134 [medium priority]
+- **Fact**: "Montenegro route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks"
+- **Country**: Montenegro
+- **Section**: 5.6
+- **Current source**: src-143, src-662, src-663
+- **Why uncertain**: Official sources map the public health system and require health insurance for DN filing, but do not give private insurance premiums, maternity/newborn exclusions, exact FZOCG onboarding by residence route, or city-specific private-care prices.
+- **Suggested verification**: none for country screening; keep exact quotes, policy wording, onboarding workflow, fee schedules, and final-city checks as application-prep before filing or city selection.
+- **Created**: 2026-06-17 (run-143)
+- **Status**: resolved
+- **Resolved**: 2026-06-18 (run-148)
+- **Resolution note**: Resolved for screening. Existing Montenegro healthcare evidence already supports a safe country-screening baseline; route-compliant private-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-care checks remain application-prep checks before filing or city selection.
+
+## vq-135 [medium priority]
+- **Fact**: "Montenegro international-school tuition and private-preschool city quotes for Podgorica/coastal options"
+- **Country**: Montenegro
+- **Section**: 5.7
+- **Current source**: src-664, src-665, src-666
+- **Why uncertain**: Public preschool and school baselines are captured, and QSI confirms an international-school option in Podgorica, but exact international tuition and private-preschool city prices were not captured.
+- **Suggested verification**: none for country screening; keep exact quotes, policy wording, onboarding workflow, fee schedules, and final-city checks as application-prep before filing or city selection.
+- **Created**: 2026-06-17 (run-143)
+- **Status**: resolved
+- **Resolved**: 2026-06-18 (run-148)
+- **Resolution note**: Resolved for screening. Montenegro education remains screenable through public preschool/school plus a captured Podgorica international-school option; exact QSI tuition and private-preschool city quotes remain application-prep budget checks before choosing a base.
+
+## vq-136 [medium priority]
+- **Fact**: "Serbia private health-insurance quotes, maternity/newborn coverage, RFZO/public-insurance onboarding by self-employed / independent-professional / family residence status, and city-specific private GP / pediatric / maternity prices"
+- **Country**: Serbia
+- **Section**: 5.6
+- **Current source**: src-136, src-667
+- **Why uncertain**: RFZO maps the public insured-person rights framework and temporary residence requires health-insurance evidence, but this pass did not capture private policy quotes, exclusions, public-insurance contribution/onboarding by route, or city-specific private-care prices.
+- **Suggested verification**: none for country screening; keep exact quotes, policy wording, onboarding workflow, fee schedules, and final-city checks as application-prep before filing or city selection.
+- **Created**: 2026-06-17 (run-144)
+- **Status**: resolved
+- **Resolved**: 2026-06-18 (run-148)
+- **Resolution note**: Resolved for screening. Existing Serbia healthcare evidence already supports a safe country-screening baseline; private-insurance quotes, maternity/newborn coverage, RFZO/public-insurance onboarding by residence route, and city-specific private-care checks remain application-prep checks before filing or city selection.
+
+## vq-137 [medium priority]
+- **Fact**: "Turkey private health-insurance quotes, maternity/newborn coverage, exact SGK/GSS onboarding by DN / ordinary residence / self-employed / family status, and Istanbul/Izmir/Antalya private GP, pediatric, and maternity prices"
+- **Country**: Turkey
+- **Section**: 5.6
+- **Current source**: src-145, src-147, src-671, src-672
+- **Why uncertain**: PMM/e-ikamet sources show health-insurance evidence is a residence-file input, and SGK / Ministry sources map the public system, but this pass did not capture private policy premiums, maternity/newborn exclusions, exact foreign-resident SGK/GSS enrollment by route, or city-specific private-care prices.
+- **Suggested verification**: none for country screening; keep exact quotes, policy wording, onboarding workflow, fee schedules, and final-city checks as application-prep before filing or city selection.
+- **Created**: 2026-06-17 (run-145)
+- **Status**: resolved
+- **Resolved**: 2026-06-18 (run-148)
+- **Resolution note**: Resolved for screening. Existing Turkey healthcare evidence already supports a safe country-screening baseline; private-insurance quotes, maternity/newborn coverage, SGK/GSS onboarding by residence route, and city-specific private-care prices remain application-prep checks before filing or city selection.
+
+## vq-138 [medium priority]
+- **Fact**: "Georgia private health-insurance quotes, maternity/newborn coverage, exact public-health / Universal Healthcare eligibility for IT / small-business / family residents, and Tbilisi/Batumi/Kutaisi private GP, pediatric, maternity, and clinic prices"
+- **Country**: Georgia
+- **Section**: 5.6
+- **Current source**: src-676
+- **Why uncertain**: Trade.gov gives a usable health-system screen, but the pass did not capture route-compliant private policy premiums, exclusions, foreign-resident public-program onboarding, or city-specific private-care prices.
+- **Suggested verification**: none for country screening; keep exact quotes, policy wording, onboarding workflow, fee schedules, and final-city checks as application-prep before filing or city selection.
+- **Created**: 2026-06-17 (run-146)
+- **Status**: resolved
+- **Resolved**: 2026-06-18 (run-148)
+- **Resolution note**: Resolved for screening. Existing Georgia healthcare evidence already supports a safe country-screening baseline; private-insurance quotes, maternity/newborn coverage, public-program eligibility for foreign IT/family residents, and city-specific private-care prices remain application-prep checks before filing or city selection.
+
+## vq-139 [medium priority]
+- **Fact**: "Albania private health-insurance quotes, maternity/newborn coverage, exact Compulsory Healthcare Insurance Fund onboarding for remote-worker / Unique Permit / self-employed / family residents, and Tirana/Durres/Vlore private GP, pediatric, maternity, and clinic prices"
+- **Country**: Albania
+- **Section**: 5.6
+- **Current source**: src-166, src-680
+- **Why uncertain**: ITA maps the public/private healthcare system and secondary route sources require health insurance, but this pass did not capture route-compliant policy premiums, maternity/newborn exclusions, foreign-resident public-fund enrollment, or city-specific private-care prices.
+- **Suggested verification**: none for country screening; keep exact quotes, policy wording, onboarding workflow, fee schedules, and final-city checks as application-prep before filing or city selection.
+- **Created**: 2026-06-18 (run-147)
+- **Status**: resolved
+- **Resolved**: 2026-06-18 (run-148)
+- **Resolution note**: Resolved for screening. Existing Albania healthcare evidence already supports a safe country-screening baseline; route-compliant private-insurance quotes, maternity/newborn coverage, foreign-resident public-fund onboarding, and Tirana/Durres/Vlore private-care prices remain application-prep checks before filing or city selection.
+
+## vq-140 [medium priority]
+- **Fact**: "Albania international-school tuition and private-preschool city quotes for Tirana plus coastal fallback cities"
+- **Country**: Albania
+- **Section**: 5.7
+- **Current source**: src-681, src-682, src-683
+- **Why uncertain**: Public preschool and compulsory-school baselines are captured, and Tirana International School confirms an English-language option, but exact international tuition and private-preschool fee quotes were not captured.
+- **Suggested verification**: none for country screening; keep exact quotes, policy wording, onboarding workflow, fee schedules, and final-city checks as application-prep before filing or city selection.
+- **Created**: 2026-06-18 (run-147)
+- **Status**: resolved
+- **Resolved**: 2026-06-18 (run-148)
+- **Resolution note**: Resolved for screening. Albania education remains screenable through public preschool/basic education plus Tirana International School as an English-language option; exact international tuition and private-preschool quotes remain application-prep budget checks before choosing a base.
 
 ## vq-003 [medium priority]
 - **Fact**: "Exact sunny days per year for Athens, Thessaloniki, and Heraklion"
@@ -185,15 +410,169 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 ## Low priority
 
 
+## vq-130 [medium priority]
+- **Fact**: "Bulgaria healthcare application-prep details: self-employment/family-residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NHIF / GP onboarding workflow for the couple's final status and selected city"
+- **Country**: Bulgaria
+- **Section**: 5.6
+- **Current source**: src-089, src-644
+- **Why uncertain**: This healthcare pass captured TP medical-care rights and the NHIF public-system baseline, but did not capture live private-insurance quotes, maternity exclusions/waiting periods, or exact onboarding steps for the couple's final self-employment / family-reunification status.
+- **Suggested verification**: none for country screening; keep exact quotes, policy wording, onboarding workflow, fee schedules, and final-city checks as application-prep before filing or city selection.
+- **Created**: 2026-06-17 (run-139)
+- **Status**: resolved
+- **Resolved**: 2026-06-18 (run-148)
+- **Resolution note**: Resolved for screening. Existing Bulgaria healthcare evidence already supports a safe country-screening baseline; route-compliant private-insurance quotes, maternity exclusions/waiting periods, and final-status NHIF / GP onboarding remain application-prep checks before filing or city selection.
+
+## vq-131 [medium priority]
+- **Fact**: "Hungary healthcare application-prep details: White Card / guest-self-employment / family-status-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NEAK / TAJ / GP onboarding workflow for the couple's final status and selected city"
+- **Country**: Hungary
+- **Section**: 5.6
+- **Current source**: src-092, src-648
+- **Why uncertain**: This healthcare pass captured TP medical-care rights and the NEAK public-service baseline for insured persons, but did not capture live private-insurance quotes, maternity exclusions / waiting periods, or exact onboarding steps for the couple's final White Card / guest self-employment / family or independent status.
+- **Suggested verification**: none for country screening; keep exact quotes, policy wording, onboarding workflow, fee schedules, and final-city checks as application-prep before filing or city selection.
+- **Created**: 2026-06-17 (run-140)
+- **Status**: resolved
+- **Resolved**: 2026-06-18 (run-148)
+- **Resolution note**: Resolved for screening. Existing Hungary healthcare evidence already supports a safe country-screening baseline; route-compliant private-insurance quotes, maternity exclusions/waiting periods, and final-status NEAK / TAJ / GP onboarding remain application-prep checks before filing or city selection.
+
+## vq-133 [medium priority]
+- **Fact**: "Slovenia healthcare application-prep details: DN/self-employed/single-permit/family-status-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, exact ZZZS registration / compulsory-insurance basis, GP / pediatrician onboarding, and private-clinic price checks for the selected city"
+- **Country**: Slovenia
+- **Section**: 5.6
+- **Current source**: src-656, src-657
+- **Why uncertain**: This healthcare pass captured TP healthcare access and the compulsory-health-insurance / public-provider baseline, but did not capture live private-insurance quotes, maternity exclusions, or final-status ZZZS / GP onboarding steps for the couple's DN, self-employed/single-permit, or family route.
+- **Suggested verification**: none for country screening; keep exact quotes, policy wording, onboarding workflow, fee schedules, and final-city checks as application-prep before filing or city selection.
+- **Created**: 2026-06-17 (run-142)
+- **Status**: resolved
+- **Resolved**: 2026-06-18 (run-148)
+- **Resolution note**: Resolved for screening. Existing Slovenia healthcare evidence already supports a safe country-screening baseline; route-compliant private-insurance quotes, maternity exclusions/waiting periods, compulsory-insurance registration, GP onboarding, and selected-city private-clinic costs remain application-prep checks before filing or city selection.
+
+## vq-132 [medium priority]
+- **Fact**: "Slovakia healthcare application-prep details: business-residence / family-status-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, exact public-insurer registration / insurance-card workflow, and GP / pediatrician / private-clinic cost checks for the selected city"
+- **Country**: Slovakia
+- **Section**: 5.6
+- **Current source**: src-100, src-101, src-652
+- **Why uncertain**: This healthcare pass captured TP healthcare access, public-health-insurance eligibility mechanics, insurance-card proof, and doctor/facility lookup, but did not capture live private-insurance quotes, maternity exclusions, or final-status insurer / GP onboarding steps for the couple's business/family route and city.
+- **Suggested verification**: none for country screening; keep exact quotes, policy wording, onboarding workflow, fee schedules, and final-city checks as application-prep before filing or city selection.
+- **Created**: 2026-06-17 (run-141)
+- **Status**: resolved
+- **Resolved**: 2026-06-18 (run-148)
+- **Resolution note**: Resolved for screening. Existing Slovakia healthcare evidence already supports a safe country-screening baseline; route-compliant private-insurance quotes, maternity exclusions/waiting periods, public-insurer registration, GP onboarding, and selected-city provider costs remain application-prep checks before filing or city selection.
+
+## vq-129 [medium priority]
+- **Fact**: "Romania healthcare application-prep details: DN/family/self-employed-residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact CNAS / public-health onboarding workflow for the couple's final status and selected city"
+- **Country**: Romania
+- **Section**: 5.6
+- **Current source**: src-076, src-642
+- **Why uncertain**: This healthcare pass captured TP public-health access and a public/private healthcare baseline, but did not capture live private-insurance quotes, maternity exclusions/waiting periods, or the exact CNAS / family-doctor onboarding workflow for the couple's final DN / family / self-employed status.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
+- **Created**: 2026-06-16 (run-137)
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
+
+## vq-128 [medium priority]
+- **Fact**: "Poland healthcare application-prep details: CUKR/family/self-employed-residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NFZ/public-health onboarding workflow for the couple's final status and selected city"
+- **Country**: Poland
+- **Section**: 5.6
+- **Current source**: src-063, src-639, src-640
+- **Why uncertain**: This healthcare pass captured PESEL UKR / Ukraine-framework NFZ access and a public/private healthcare baseline, but did not capture live private-insurance quotes or exact onboarding steps for the couple's final CUKR / family-reunification / self-employed status.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
+- **Created**: 2026-06-16 (run-136)
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
+
+## vq-124 [medium priority]
+- **Fact**: "Cyprus healthcare application-prep details: DN/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-city GESY beneficiary / personal-doctor registration workflow"
+- **Country**: Cyprus
+- **Section**: 5.6
+- **Current source**: src-035, src-622
+- **Why uncertain**: This healthcare pass captured the DN insurance requirement and the official GESY beneficiary portal anchor, but did not capture live insurer quotes or the exact GESY onboarding workflow for the couple's final city/status.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
+- **Created**: 2026-06-16 (run-132)
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
+
+
+
+
+## vq-125 [medium priority]
+- **Fact**: "Croatia healthcare application-prep details: DN/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact HZZO onboarding workflow for the couple's final residence/self-employment/family-member status and selected city"
+- **Country**: Croatia
+- **Section**: 5.6
+- **Current source**: src-041, src-626, src-627, src-628
+- **Why uncertain**: This healthcare pass captured the MUP DN insurance requirement and official HZZO compulsory-insurance / care-scope baselines, but did not capture live private-insurance quotes or the exact office/document workflow for the couple's final status.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
+- **Created**: 2026-06-16 (run-133)
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
+
+
+## vq-126 [medium priority]
+- **Fact**: "Malta healthcare application-prep details: NRP/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact public-health onboarding for the couple's final NRP/work/self-employment/family-member status"
+- **Country**: Malta
+- **Section**: 5.6
+- **Current source**: src-048, src-631
+- **Why uncertain**: This healthcare pass captured the NRP insurance requirement and a practical public/private healthcare baseline, but did not capture live private-insurance quotes or exact public-health registration/onboarding steps for the couple's final status.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
+- **Created**: 2026-06-16 (run-134)
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
+
+
 ## vq-120 [medium priority]
 - **Fact**: "Portugal healthcare application-prep details: exact D8 / residence-visa medical-insurance minimums, current private-insurance quotes for two young adults, and private-clinic specialist/lab price checks"
 - **Country**: Portugal
 - **Section**: 5.6
 - **Current source**: src-017, src-492, src-493, src-494, src-495, src-496
 - **Why uncertain**: This healthcare pass captured SNS onboarding and a practical public/private baseline, but did not capture the serving-consulate D8 insurance wording or live insurer/clinic prices needed for a filing budget.
-- **Suggested verification**: Check the serving Portugal consulate / VFS D8 checklist, two or three insurer quote pages for a young couple, and private hospital/clinic price lists in Porto/Faro/Lisbon.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
 - **Created**: 2026-06-12 (run-101)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
+
+
+## vq-121 [medium priority]
+- **Fact**: "Spain healthcare application-prep details: DN-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-region public health-card registration steps"
+- **Country**: Spain
+- **Section**: 5.6
+- **Current source**: src-011, src-013, src-284, src-613
+- **Why uncertain**: This healthcare pass captured TP medical access, the DN insurance requirement, public/private healthcare baseline, and private doctor/ER price proxies, but did not capture live insurer quotes or the exact Valencia / Andalusia / Madrid regional health-card workflow after arrival.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
+- **Created**: 2026-06-15 (run-129)
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
+
+
+## vq-122 [medium priority]
+- **Fact**: "Italy healthcare application-prep details: DN-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-city ASL / SSN registration steps"
+- **Country**: Italy
+- **Section**: 5.6
+- **Current source**: src-028, src-034, src-616
+- **Why uncertain**: This healthcare pass captured SSN access for TP/legal residents, the DN insurance-document requirement, and private doctor-visit proxies, but did not capture live insurer quotes or the exact Palermo / Naples / Rome ASL workflow after arrival.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
+- **Created**: 2026-06-15 (run-130)
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
+
+
+## vq-123 [medium priority]
+- **Fact**: "Greece healthcare application-prep details: DN/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-city AMKA / health-unit registration workflow"
+- **Country**: Greece
+- **Section**: 5.6
+- **Current source**: src-003, src-152, src-619
+- **Why uncertain**: This healthcare pass captured protected-status public-health access and PAAYPA/AMKA mechanics, but did not capture live insurer quotes or the exact Athens / Thessaloniki / Heraklion / Patras onboarding workflow for the couple's final route.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
+- **Created**: 2026-06-15 (run-131)
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.
 
 
 ## vq-118 [medium priority]
@@ -1482,3 +1861,15 @@ _(none)_
 - **Status**: resolved
 - **Resolved**: 2026-06-11 (run-100)
 - **Resolution note**: Resolved for screening. The country profile already has a conservative worked tax baseline and explicit downside/caveat language; Malaysia DE Rantau source classification, registration, SST/e-invoice and EPF/SOCSO exposure remain Malaysian adviser checks before filing.
+
+## vq-127 [medium priority]
+- **Fact**: "Czech healthcare application-prep details: residence-compliant comprehensive private-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact public/private health-insurance onboarding for the couple's final TP / special-long-term-residence / self-employed status and selected city"
+- **Country**: Czech Republic
+- **Section**: 5.6
+- **Current source**: src-053, src-061, src-635, src-636
+- **Why uncertain**: This healthcare pass captured the insurance-continuity requirement, commercial comprehensive-insurance baseline, pregnancy caveat, and doctor-visit proxies, but did not capture live policy quotes or exact public/private onboarding workflow for the final status.
+- **Suggested verification**: none for country screening; keep exact quotes, policy exclusions, and local onboarding workflow as application-prep checks before filing or city selection.
+- **Created**: 2026-06-16 (run-135)
+- **Status**: resolved
+- **Resolved**: 2026-06-16 (run-138)
+- **Resolution note**: Resolved for screening. Existing country evidence already supports a safe healthcare planning baseline; exact route-compliant private-insurance quotes, maternity waiting periods/exclusions, and final-status public-health onboarding remain application-prep tasks rather than country-screening blockers.

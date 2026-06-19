@@ -191,3 +191,39 @@
   confidence: medium
   tags: [cost-of-living, rent, varna, bulgaria, coastal]
   notes: "Coastal option; seasonal rental demand needs later live-listing verification"
+
+- id: claim-bulgaria-022
+  topic: healthcare_public_nhif_baseline
+  value: "NHIF is Bulgaria's compulsory health-insurance payer, with a central office in Sofia and regional health-insurance funds in all 28 regional centres, intended to guarantee free and equal access to healthcare for insured persons"
+  source: src-644
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [healthcare, public-health, nhif, bulgaria]
+  notes: "Exact onboarding depends on the couple's final residence / insurance status"
+
+- id: claim-bulgaria-023
+  topic: preschool_compulsory_free_baseline
+  value: "Nurseries cover ages 3 months-3 years; kindergartens cover age 3 to first grade; compulsory pre-primary applies to 4-year-olds from 2023/2024 and compulsory preschool in state/municipal kindergartens is free of charge"
+  source: src-645
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, preschool, childcare, bulgaria]
+  notes: "Municipal availability and nursery places remain city-level practical checks"
+
+- id: claim-bulgaria-024
+  topic: school_structure_baseline
+  value: "Bulgarian non-specialized schools include primary I-IV, main I-VII, schools VIII-XII, united I-X, and secondary I-XII under state education standards"
+  source: src-646
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, public-school, bulgaria]
+  notes: "Language integration and Ukrainian-community support remain local fit checks"
+
+- id: claim-bulgaria-025
+  topic: sofia_international_school_fee_risk
+  value: "British School of Sofia yearly fees for 2025/2026 are listed at EUR 9,980 to EUR 17,900"
+  source: src-647
+  date_verified: 2026-06-17
+  confidence: medium
+  tags: [education, international-school, sofia, bulgaria, cost-risk]
+  notes: "Single-school benchmark, not a market average; sufficient for one-income budget risk flag"

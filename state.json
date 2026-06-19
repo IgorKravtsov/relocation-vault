@@ -1,45 +1,45 @@
 {
   "version": 2,
-  "iteration": 118,
+  "iteration": 157,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-14T05:50:50Z",
+  "last_run_timestamp": "2026-06-19T09:10:43Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Bosnia and Herzegovina",
+    "country": "Argentina",
     "sections": [
-      "5.4",
-      "5.5"
+      "5.6",
+      "5.7"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Moldova",
+    "suggested_country": "UAE",
     "suggested_sections": [
-      "5.4",
-      "5.5"
+      "5.6",
+      "5.7"
     ],
-    "reason": "Verification queue remains below threshold; Bosnia and Herzegovina cost/rent is now opened, so rotate to the next low-depth country and continue first-pass cost/rent coverage."
+    "reason": "Continue low-depth Tier-3 healthcare/education coverage; queue remains below the automatic verification threshold after run-157."
   },
   "countries": {
     "Spain": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 4.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.3",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -50,18 +50,22 @@
         "dn-threshold-for-couple-tight",
         "autonomo-tax-social-security-burden",
         "madrid-barcelona-rent-pressure",
-        "malaga-tourist-rent-pressure"
+        "malaga-tourist-rent-pressure",
+        "spain-private-insurance-quote-gap",
+        "spain-international-school-cost-risk"
       ],
-      "last_iteration": 80,
+      "last_iteration": 129,
       "unverified_count": 0
     },
     "Portugal": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 4.0,
+      "depth_score": 6.0,
       "sections_completed": [
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7",
+        "5.8"
       ],
       "sections_partial": [
         "5.1",
@@ -70,8 +74,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.7",
-        "5.8",
         "5.9",
         "5.10",
         "5.11"
@@ -83,27 +85,28 @@
         "lisbon-rent-pressure",
         "portugal-self-employed-tax-burden",
         "portugal-foreign-client-vat-fit-gap",
-        "portugal-health-insurance-quote-gap"
+        "portugal-health-insurance-quote-gap",
+        "portugal-international-school-cost-risk"
       ],
-      "last_iteration": 101,
-      "unverified_count": 2
+      "last_iteration": 128,
+      "unverified_count": 1
     },
     "Italy": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 4.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.3",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -115,27 +118,29 @@
         "unmarried-partner-not-covered-by-dn-family-sponsorship",
         "italy-worldwide-tax-and-reporting",
         "rome-milan-rent-pressure",
-        "southern-services-tradeoff"
+        "southern-services-tradeoff",
+        "italy-private-insurance-quote-gap",
+        "italy-international-school-cost-risk"
       ],
-      "last_iteration": 81,
+      "last_iteration": 130,
       "unverified_count": 0
     },
     "Greece": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 4.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -144,27 +149,29 @@
       "risk_flags": [
         "greece-article-5c-foreign-client-fit-gap",
         "athens-rent-pressure",
-        "crete-tourist-rent-pressure"
+        "crete-tourist-rent-pressure",
+        "greece-private-insurance-quote-gap",
+        "greece-international-school-cost-risk"
       ],
-      "last_iteration": 79,
+      "last_iteration": 131,
       "unverified_count": 0
     },
     "Cyprus": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 4.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -175,27 +182,29 @@
         "dn-income-above-current-budget",
         "civil-union-needed-for-partner-dependency",
         "cyprus-social-insurance-category-gap",
-        "limassol-rent-pressure"
+        "limassol-rent-pressure",
+        "cyprus-private-insurance-quote-gap",
+        "cyprus-international-school-cost-risk"
       ],
-      "last_iteration": 76,
+      "last_iteration": 132,
       "unverified_count": 0
     },
     "Croatia": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 4.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -206,27 +215,29 @@
         "dn-income-above-current-budget",
         "croatia-self-employed-contribution-base-gap",
         "croatia-lump-sum-obrt-fit-gap",
-        "coastal-rent-pressure"
+        "coastal-rent-pressure",
+        "croatia-health-insurance-quote-gap",
+        "croatia-international-school-cost-risk"
       ],
-      "last_iteration": 78,
+      "last_iteration": 133,
       "unverified_count": 0
     },
     "Malta": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 4.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -237,27 +248,29 @@
         "nomad-income-above-current-budget",
         "nomad-not-pr-citizenship-path",
         "malta-nrp-authorized-work-tax-fit-gap",
-        "malta-rent-pressure"
+        "malta-rent-pressure",
+        "malta-health-insurance-quote-gap",
+        "malta-international-school-cost-risk"
       ],
-      "last_iteration": 77,
+      "last_iteration": 134,
       "unverified_count": 0
     },
     "Czech Republic": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -267,27 +280,29 @@
         "business-visa-evidence-burden",
         "special-residence-round-timing-needs-follow-up",
         "czech-flat-tax-it-trade-fit-gap",
-        "prague-rent-pressure"
+        "prague-rent-pressure",
+        "czech-private-insurance-quote-gap",
+        "czech-international-school-cost-risk"
       ],
-      "last_iteration": 102,
+      "last_iteration": 135,
       "unverified_count": 0
     },
     "Poland": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -296,27 +311,29 @@
       "risk_flags": [
         "poland-zus-social-contribution-gap",
         "poland-ryczalt-it-rate-fit-gap",
-        "warsaw-rent-pressure"
+        "warsaw-rent-pressure",
+        "poland-private-insurance-quote-gap",
+        "poland-international-school-cost-risk"
       ],
-      "last_iteration": 103,
+      "last_iteration": 136,
       "unverified_count": 4
     },
     "Romania": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -325,27 +342,29 @@
       "risk_flags": [
         "romania-dn-income-above-current-budget",
         "romania-pfa-registration-vat-fit-gap",
-        "cluj-rent-pressure"
+        "cluj-rent-pressure",
+        "romania-private-insurance-quote-gap",
+        "romania-international-school-cost-risk"
       ],
-      "last_iteration": 104,
+      "last_iteration": 137,
       "unverified_count": 1
     },
     "Bulgaria": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -356,27 +375,29 @@
         "dual-citizenship-restriction-for-non-eu-naturalized",
         "self-employment-requirements-not-operational",
         "bulgaria-self-employed-contribution-and-status-fit-gap",
-        "sofia-rent-pressure"
+        "sofia-rent-pressure",
+        "bulgaria-private-insurance-quote-gap",
+        "bulgaria-international-school-cost-risk"
       ],
-      "last_iteration": 105,
-      "unverified_count": 1
+      "last_iteration": 139,
+      "unverified_count": 0
     },
     "Hungary": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -389,27 +410,29 @@
         "guest-self-employment-evidence-burden",
         "no-captured-post-2027-tp-bridge",
         "hungary-self-employed-tax-and-immigration-fit-gap",
-        "budapest-rent-pressure"
+        "budapest-rent-pressure",
+        "hungary-private-insurance-quote-gap",
+        "hungary-international-school-cost-risk"
       ],
-      "last_iteration": 106,
-      "unverified_count": 1
+      "last_iteration": 140,
+      "unverified_count": 0
     },
     "Slovakia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -420,27 +443,29 @@
         "business-residence-evidence-burden",
         "no-captured-post-2027-tp-bridge",
         "slovakia-szco-tax-and-immigration-fit-gap",
-        "bratislava-rent-pressure"
+        "bratislava-rent-pressure",
+        "slovakia-health-insurance-onboarding-gap",
+        "slovakia-international-school-cost-risk"
       ],
-      "last_iteration": 107,
-      "unverified_count": 1
+      "last_iteration": 141,
+      "unverified_count": 0
     },
     "Slovenia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -450,15 +475,17 @@
         "digital-nomad-income-above-current-budget",
         "digital-nomad-not-renewable",
         "slovenia-self-employed-tax-and-immigration-fit-gap",
-        "ljubljana-rent-pressure"
+        "ljubljana-rent-pressure",
+        "slovenia-health-insurance-onboarding-gap",
+        "slovenia-international-school-cost-risk"
       ],
-      "last_iteration": 108,
+      "last_iteration": 142,
       "unverified_count": 0
     },
     "Montenegro": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.0,
       "sections_completed": [
         "5.2",
         "5.4",
@@ -466,11 +493,11 @@
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6",
+        "5.7"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -481,27 +508,29 @@
         "digital-nomad-income-threshold-needs-primary-check",
         "digital-nomad-long-term-counting-unclear",
         "montenegro-tax-registration-and-ssc-fit-gap",
-        "kotor-budva-coastal-rent-pressure"
+        "kotor-budva-coastal-rent-pressure",
+        "montenegro-private-health-insurance-gap",
+        "montenegro-international-school-fee-gap"
       ],
-      "last_iteration": 109,
+      "last_iteration": 143,
       "unverified_count": 0
     },
     "Serbia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -511,27 +540,29 @@
         "no-captured-post-2027-tp-bridge",
         "digital-nomad-implementing-rules-need-primary-check",
         "serbia-freelancer-tax-and-single-permit-fit-gap",
-        "belgrade-rent-pressure"
+        "belgrade-rent-pressure",
+        "serbia-private-insurance-quote-gap",
+        "serbia-international-school-cost-risk"
       ],
-      "last_iteration": 110,
+      "last_iteration": 144,
       "unverified_count": 0
     },
     "Turkey": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -542,27 +573,29 @@
         "family-route-likely-marriage-dependent",
         "turkey-self-employment-and-sgk-fit-gap",
         "istanbul-rent-pressure",
-        "turkey-one-income-margin-risk"
+        "turkey-one-income-margin-risk",
+        "turkey-private-insurance-quote-gap",
+        "turkey-international-school-cost-risk"
       ],
-      "last_iteration": 111,
+      "last_iteration": 145,
       "unverified_count": 0
     },
     "Georgia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -571,27 +604,29 @@
       "risk_flags": [
         "visa-free-not-residence",
         "georgia-small-business-tax-and-it-residence-fit-gap",
-        "tbilisi-rent-pressure"
+        "tbilisi-rent-pressure",
+        "georgia-private-insurance-quote-gap",
+        "georgia-international-school-cost-risk"
       ],
-      "last_iteration": 112,
+      "last_iteration": 146,
       "unverified_count": 0
     },
     "Albania": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -603,27 +638,29 @@
         "albania-tax-regime-2029-sunset",
         "albania-self-employed-contribution-base-gap",
         "albania-foreign-client-vat-fit-gap",
-        "tirana-rent-pressure"
+        "tirana-rent-pressure",
+        "albania-private-insurance-quote-gap",
+        "albania-international-school-cost-risk"
       ],
-      "last_iteration": 113,
+      "last_iteration": 147,
       "unverified_count": 0
     },
     "North Macedonia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -636,27 +673,29 @@
         "no-captured-ukraine-protection-bridge",
         "north-macedonia-self-employed-contribution-base-gap",
         "north-macedonia-foreign-client-vat-fit-gap",
-        "skopje-rent-pressure"
+        "skopje-rent-pressure",
+        "north-macedonia-private-insurance-quote-gap",
+        "north-macedonia-international-school-cost-risk"
       ],
-      "last_iteration": 117,
+      "last_iteration": 156,
       "unverified_count": 0
     },
     "Bosnia and Herzegovina": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -668,27 +707,29 @@
         "no-captured-ukraine-protection-bridge",
         "cold-inland-winters",
         "bosnia-entity-tax-and-ssc-fit-gap",
-        "bosnia-foreign-client-vat-fit-gap"
+        "bosnia-foreign-client-vat-fit-gap",
+        "bosnia-health-insurance-onboarding-gap",
+        "bosnia-international-school-cost-risk"
       ],
-      "last_iteration": 118,
-      "unverified_count": 0
+      "last_iteration": 153,
+      "unverified_count": 2
     },
     "Moldova": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 2.0,
+      "depth_score": 5.5,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -700,27 +741,29 @@
         "post-2027-tp-bridge-gap",
         "transnistria-practical-risk",
         "moldova-entrepreneur-contribution-category-gap",
-        "moldova-foreign-client-vat-fit-gap"
+        "moldova-foreign-client-vat-fit-gap",
+        "moldova-health-insurance-onboarding-gap",
+        "moldova-international-school-cost-risk"
       ],
-      "last_iteration": 87,
-      "unverified_count": 0
+      "last_iteration": 154,
+      "unverified_count": 2
     },
     "Uruguay": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -731,27 +774,29 @@
         "citizenship-requires-habitual-presence",
         "uruguay-self-employed-bps-gap",
         "uruguay-foreign-client-vat-fit-gap",
-        "montevideo-punta-del-este-rent-pressure"
+        "montevideo-punta-del-este-rent-pressure",
+        "uruguay-private-insurance-quote-gap",
+        "uruguay-international-school-cost-risk"
       ],
-      "last_iteration": 114,
+      "last_iteration": 156,
       "unverified_count": 0
     },
     "Paraguay": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -763,27 +808,29 @@
         "hot-humid-summers",
         "paraguay-foreign-client-vat-fit-gap",
         "paraguay-social-security-category-gap",
-        "asuncion-rent-pressure"
+        "asuncion-rent-pressure",
+        "paraguay-private-insurance-route-fit-gap",
+        "paraguay-international-school-cost-risk"
       ],
-      "last_iteration": 115,
+      "last_iteration": 156,
       "unverified_count": 0
     },
     "Panama": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -795,27 +842,29 @@
         "very-humid-rainy-season",
         "panama-territorial-tax-source-risk",
         "panama-itbms-export-service-gap",
-        "panama-city-rent-pressure"
+        "panama-city-rent-pressure",
+        "panama-health-insurance-quote-gap",
+        "panama-international-school-cost-risk"
       ],
-      "last_iteration": 116,
+      "last_iteration": 156,
       "unverified_count": 0
     },
     "Mexico": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 2.0,
+      "depth_score": 5.5,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -828,27 +877,31 @@
         "coastal-heat-humidity",
         "mexico-resico-eligibility-gap",
         "mexico-vat-export-service-gap",
-        "mexico-social-security-category-gap"
+        "mexico-social-security-category-gap",
+        "mexico-city-rent-pressure",
+        "tourist-coast-cost-pressure",
+        "mexico-health-insurance-quote-gap",
+        "mexico-international-school-cost-risk"
       ],
-      "last_iteration": 93,
-      "unverified_count": 0
+      "last_iteration": 155,
+      "unverified_count": 2
     },
     "Argentina": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 2.0,
+      "depth_score": 5.5,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -861,25 +914,29 @@
         "inflation-currency-risk",
         "argentina-pit-vat-gross-income-tax-risk",
         "argentina-social-security-category-gap",
-        "argentina-monotributo-export-fit-gap"
+        "argentina-monotributo-export-fit-gap",
+        "buenos-aires-rent-pressure",
+        "argentina-one-income-margin-risk",
+        "argentina-health-insurance-quote-gap",
+        "argentina-international-school-cost-risk"
       ],
-      "last_iteration": 93,
-      "unverified_count": 0
+      "last_iteration": 157,
+      "unverified_count": 2
     },
     "UAE": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 2.5,
+      "depth_score": 4.5,
       "sections_completed": [
         "5.2",
-        "5.3"
+        "5.3",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -892,25 +949,27 @@
         "green-visa-income-above-current-budget",
         "no-ordinary-naturalization-route",
         "extreme-summer-heat",
-        "tax-status-threshold-monitoring"
+        "tax-status-threshold-monitoring",
+        "dubai-abu-dhabi-rent-pressure",
+        "uae-one-income-margin-risk"
       ],
-      "last_iteration": 94,
+      "last_iteration": 127,
       "unverified_count": 0
     },
     "Malaysia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -923,25 +982,27 @@
         "pr-ladder-unclear",
         "hot-humid-rainy-year-round",
         "malaysia-foreign-client-tax-source-gap",
-        "malaysia-social-security-fit-gap"
+        "malaysia-social-security-fit-gap",
+        "kuala-lumpur-rent-pressure",
+        "malaysia-one-income-margin-risk"
       ],
-      "last_iteration": 95,
+      "last_iteration": 122,
       "unverified_count": 0
     },
     "Thailand": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -955,25 +1016,27 @@
         "marriage-needed-for-dependent-baseline",
         "hot-humid-monsoon-climate",
         "thailand-remittance-tax-risk",
-        "thailand-vat-social-security-fit-gap"
+        "thailand-vat-social-security-fit-gap",
+        "bangkok-phuket-rent-pressure",
+        "thailand-one-income-margin-risk"
       ],
-      "last_iteration": 96,
+      "last_iteration": 123,
       "unverified_count": 0
     },
     "Indonesia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -987,25 +1050,27 @@
         "pr-ladder-unclear",
         "hot-humid-rainy-climate",
         "indonesia-tax-residence-worldwide-income-risk",
-        "indonesia-vat-bpjs-fit-gap"
+        "indonesia-vat-bpjs-fit-gap",
+        "jakarta-rent-pressure",
+        "bali-lease-seasonality-risk"
       ],
-      "last_iteration": 97,
+      "last_iteration": 124,
       "unverified_count": 0
     },
     "Kazakhstan": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -1018,25 +1083,27 @@
         "dn-route-secondary-sourced",
         "pr-citizenship-ladder-unclear",
         "cold-continental-winters",
-        "kazakhstan-foreign-client-tax-structure-gap"
+        "kazakhstan-foreign-client-tax-structure-gap",
+        "almaty-rent-pressure",
+        "kazakhstan-one-income-margin-risk"
       ],
-      "last_iteration": 98,
+      "last_iteration": 125,
       "unverified_count": 0
     },
     "Armenia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 2.0,
+      "depth_score": 3.0,
       "sections_completed": [
-        "5.2"
+        "5.2",
+        "5.4",
+        "5.5"
       ],
       "sections_partial": [
         "5.1",
         "5.3"
       ],
       "sections_pending": [
-        "5.4",
-        "5.5",
         "5.6",
         "5.7",
         "5.8",
@@ -1049,14 +1116,16 @@
         "settlement-ladder-needs-business-substance",
         "partner-baseline-marriage",
         "cold-winters-hot-yerevan-summers",
-        "armenia-foreign-client-it-tax-fit-gap"
+        "armenia-foreign-client-it-tax-fit-gap",
+        "yerevan-rent-pressure",
+        "armenia-one-income-margin-risk"
       ],
-      "last_iteration": 99,
+      "last_iteration": 126,
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 1,
-  "sources_count": 564,
-  "claims_count": 474,
+  "verification_queue_size": 8,
+  "sources_count": 715,
+  "claims_count": 625,
   "proposals_pending": 0
 }

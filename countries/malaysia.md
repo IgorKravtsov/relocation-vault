@@ -1,13 +1,13 @@
 ---
 country: Malaysia
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-11T21:54:00Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-14T18:20:53Z
+sections_completed: ["5.2","5.4","5.5"]
 sections_partial: ["5.1","5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["derantau-bridge-only", "pr-ladder-unclear", "hot-humid-rainy-year-round", "malaysia-foreign-client-tax-source-gap", "malaysia-social-security-fit-gap"]
-sources_used: ["src-251", "src-252", "src-253", "src-254", "src-255", "src-256", "src-279", "src-465", "src-466", "src-467", "src-468", "src-469", "src-470"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["derantau-bridge-only", "pr-ladder-unclear", "hot-humid-rainy-year-round", "malaysia-foreign-client-tax-source-gap", "malaysia-social-security-fit-gap", "kuala-lumpur-rent-pressure", "malaysia-one-income-margin-risk"]
+sources_used: ["src-251", "src-252", "src-253", "src-254", "src-255", "src-256", "src-279", "src-465", "src-466", "src-467", "src-468", "src-469", "src-470", "src-580", "src-581", "src-582", "src-583", "src-584"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (early evidence points to a useful remote-work bridge/base, not yet a proven settlement route).
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-11
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-14
 - **Tier rationale**: Malaysia's DE Rantau pass is an official route for foreign digital nomads and the tech-professional threshold is below the couple's current income, but it is a Professional Visit Pass capped at 24 months total and no DE Rantau-to-PR ladder was captured. Entry Permit and citizenship pages show long-term mechanisms exist, but the fully foreign national / remote-worker fit remains a core verification gap. [src-253][src-254][src-255]
 
 ## Block 2 - Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | DE Rantau fits a foreign-client IT worker and clears the income threshold, but is capped at 24 months and the PR ladder is not proven. | §5.1 |
 | Climate | — | medium | No winter, but year-round heat, humidity, thunderstorms, frequent rain, and very low clearer-sky proxies are major comfort constraints. | §5.2 |
 | Taxes | — | medium | Resident-rate stress test leaves about MYR 10,641 / USD 2,616 per month before accountant, SST, social-security, and immigration-fit costs; exact source classification is unresolved. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Malaysia screens affordable on gross income and still plausible on the resident-tax net, but private healthcare/insurance, DE Rantau fees, and tropical city tradeoffs remain uncaptured. | §5.4 |
+| Rent (decent 2BR) | — | medium | Kuala Lumpur is the main rent-pressure case; George Town/Johor Bahru are workable on paper; Ipoh is cheaper but weaker as a full relocation hub. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -121,17 +121,28 @@ schema_version: 2.0.0
 Malaysia is not a tax-free default for this couple. A conservative resident PIT stress test leaves roughly **USD 2,616/month** before non-tax costs, which is still plausible for a bridge country if rent and healthcare are moderate. The tax section stays partial because the key filing question is not the rate table; it is whether the couple's exact DE Rantau / foreign-client IT income is Malaysian-source employment/business income, exempt foreign-sourced income, or another category, and what social-security / SST / e-invoice obligations attach. Added `vq-115` for that application-prep tax-structure gap.
 
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-14, dod: passed}
 
 > **DoD**: monthly expenses for 2+ cities; explicit verdict on $3000/mo sufficiency.
 
-[verification required]
+- **National baseline**: Livingcost's Malaysia page (updated 2026-03-11) gives a national cost baseline of about **USD 824/month for one person with rent** and **USD 1,956/month for a family-of-four proxy**, with one-person / family rent-and-utilities around **USD 386 / USD 637**, food **USD 292 / USD 745**, and transport **USD 67.6 / USD 188**. This is a medium-confidence commercial screen, not a household-specific budget. [src-580]
+- **Kuala Lumpur**: Kuala Lumpur is the services-rich default city but not the cheapest. Livingcost gives about **USD 981/month one-person total with rent** and **USD 2,371/month family proxy**, with rent-and-utilities **USD 468 / USD 806**, food **USD 320 / USD 819**, and transport **USD 107 / USD 301**. On gross USD 3,000 this still screens possible; against the Malaysia resident-tax stress-test net of about **USD 2,616/month**, it leaves only a modest buffer after visas, insurance, flights, deposits, and adviser costs. [src-581][src-470]
+- **George Town / Penang**: George Town screens slightly cheaper than Kuala Lumpur for total cost and transport, at about **USD 792/month one-person total** and **USD 1,767/month family proxy**, with rent-and-utilities **USD 421 / USD 672**, food **USD 259 / USD 662**, and transport **USD 38.4 / USD 106**. It is the first captured warm/coastal compromise to test if the couple tolerates humidity and island/tourist-market pricing. [src-582]
+- **Johor Bahru**: Johor Bahru screens at about **USD 838/month one-person total** and **USD 1,952/month family proxy**, with rent-and-utilities **USD 429 / USD 747**, food **USD 285 / USD 733**, and transport **USD 46.2 / USD 130**. The city is cheaper than Kuala Lumpur on paper, but Singapore-border dynamics, commute-style demand, and exact healthcare/community/service fit need later practical checks. [src-583]
+- **Ipoh**: Ipoh is the low-cost captured fallback: about **USD 696/month one-person total** and **USD 1,579/month family proxy**, with rent-and-utilities **USD 301 / USD 442**, food **USD 269 / USD 676**, and transport **USD 61.6 / USD 170**. Treat it as an affordability screen, not the default, until healthcare depth, English-speaking services, expat/IT community, and DE Rantau practicalities are verified. [src-584]
+- **Budget verdict**: Malaysia's day-to-day cost looks workable for a one-income couple at gross USD 3,000/month and plausible against the resident-tax screen of about USD 2,616/month. The downside non-resident taxable-income sensitivity of about USD 2,100/month would make Kuala Lumpur tight but still leaves some room in George Town/Johor/Ipoh before healthcare, insurance, accountant, visa, and relocation costs. Malaysia's binding issue remains route durability, not baseline groceries/rent. [src-470][src-580]
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-14, dod: passed}
 
 > **DoD**: 2BR prices in 3+ cities with ranges; % of $3000; 2+ search platforms; landlord requirements.
 
-[verification required]
+- **Proxy method**: Livingcost exposes a 40 m2 one-bedroom and 80 m2 three-bedroom rent line. Use the **40 m2 one-bedroom** as the closest modest two-room proxy for the vault's first-pass rent screen, and the 80 m2 three-bedroom only as an upper-size / future-family stress test. Exact 2BR long-term listings, deposits, agent fees, tenancy-stamping rules, and landlord acceptance of foreign remote-worker income remain application-prep work. [src-580]
+- **Kuala Lumpur**: 40 m2 rent proxy is about **USD 602/month city-centre** or **USD 350/month cheap area**; 80 m2 is about **USD 1,058 / USD 631**. The centre proxy is about **20% of gross USD 3,000**, **23% of the resident-tax net screen**, and **29% of the non-resident downside net**. KL is therefore usable only with a firm housing cap, especially once health insurance, DE Rantau costs, utilities, deposits, and adviser costs are included. [src-581][src-470]
+- **George Town / Penang**: 40 m2 proxy is about **USD 488/month centre** or **USD 333/month cheap area**; 80 m2 is **USD 780 / USD 555**. This is about **16% of gross income** and **19% of resident-tax net** at the centre proxy, making George Town the first warm/coastal budget screen if tourist-season and island-service constraints are acceptable. [src-582][src-470]
+- **Johor Bahru**: 40 m2 proxy is about **USD 451/month centre** or **USD 350/month cheap area**; 80 m2 is **USD 819 / USD 635**. This is about **15% of gross income** and **17% of resident-tax net**, a workable rent share, but Singapore-border demand and exact neighborhood/security/transport fit should be checked before treating it as the default base. [src-583][src-470]
+- **Ipoh**: 40 m2 proxy is about **USD 330/month centre** or **USD 207/month cheap area**; 80 m2 is **USD 469 / USD 324**. Rent is very affordable even on the downside tax sensitivity, but Ipoh should remain an affordability fallback pending healthcare, airport/connectivity, English-language service depth, and remote-worker community checks. [src-584]
+- **How to search / practical caveats**: later live-listing work should check at least PropertyGuru Malaysia and iProperty / EdgeProp or local Facebook groups for Kuala Lumpur, Penang, Johor Bahru, and Ipoh. For the first pass, assume foreigners may face higher deposit requirements, requests for payslips / bank statements / passport and pass evidence, and reluctance around one foreign remote income. Budget conservatively for first month rent plus multiple months of deposit and utilities deposits until Malaysia-specific tenancy practice is captured.
+- **Rent verdict**: rent is not Malaysia's first blocker. The practical screen is: Kuala Lumpur only with a strict cap and if service depth matters; George Town/Penang as the first coastal compromise; Johor Bahru as the services/cost alternative; Ipoh only as the cheap fallback. Add `kuala-lumpur-rent-pressure` and `malaysia-one-income-margin-risk` because the DE Rantau route is time-limited and the one-income budget can be compressed by tax, insurance, relocation, and advisor costs even when base rent is affordable.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -189,6 +200,7 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 - **Does marriage change the picture**: yes, because captured dependent language names spouse and children.
 - **Realism of staying after 03.2027**: medium-low as a settlement plan; safe baseline is 3-24 month bridge only until a durable post-DE Rantau status is verified.
 - **Tax screening**: resident PIT stress test at USD 3,000/month leaves about USD 2,616/month before non-tax costs; do not assume a DE Rantau tax holiday. [src-465][src-470]
+- **Cost/rent screening**: day-to-day costs and rent look workable outside premium Kuala Lumpur housing, with George Town/Penang and Johor Bahru as the first practical screens and Ipoh as the affordability fallback. Kuala Lumpur needs a strict housing cap because the resident-tax net leaves only a modest buffer after insurance, visas, deposits, and adviser costs. [src-581][src-582][src-583][src-584]
 
 **Pros**:
 - Official digital-nomad pass with threshold that the current IT income can meet.
@@ -200,6 +212,7 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 - PR / citizenship ladder for foreign-client IT work is not yet proven.
 - Hot, humid, rainy climate may be uncomfortable year-round.
 - Ukrainian short-stay entry duration still needs before-travel capture, but it does not alter the bridge-vs-settlement route decision.
+- Kuala Lumpur and premium expat housing can compress the one-income budget once taxes, health insurance, deposits, and DE Rantau costs are included.
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -234,8 +247,8 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 | DE Rantau fee | MYR 1,000 main / MYR 500 dependent | MDEC page baseline; full government/service costs need verification. |
 | Apostilles and translations | — | TBD |
 | Flights for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | — | Live-listing check needed; assume multiple months plus utilities deposit until tenancy practice is captured. |
+| First month rent | USD 330-602 modest 40 m2 proxy | Ipoh at the low end; Kuala Lumpur centre at the high end. Use live 2BR listings before filing. [src-581][src-584] |
 | Health insurance | — | TBD |
 | Immigration lawyer / agent | — | TBD |
 | Buffer / contingencies | — | TBD |
@@ -264,12 +277,14 @@ _(none yet)_
 - ExchangeRate-API USD/MYR snapshot for the tax worked example: [src-470].
 - Climate to Travel Malaysia / Kuala Lumpur climate baselines: [src-256].
 - WeatherSpark Malaysia clearer-sky comparison: [src-279].
+- Livingcost Malaysia / Kuala Lumpur / George Town / Johor Bahru / Ipoh cost-and-rent screens: [src-580][src-581][src-582][src-583][src-584].
 
 ### 7e. Not found
 - Clean official Ukraine row / stay-duration extraction from Malaysia's visa table before travel.
 - Official meteorological sunny-day counts for Kuala Lumpur, George Town, and an East Malaysia comparator; WeatherSpark clearer-sky proxies are sufficient for first-pass screening but are not official sunny-day counts.
 - Official DE Rantau post-24-month transition / PR-counting guidance for a foreign-client IT worker is not captured; screening baseline is bridge-only.
 - Exact Malaysian tax classification for DE Rantau foreign-client IT income, including source/exemption treatment, registration form, SST/e-invoice, EPF/SOCSO and immigration-status fit; added `vq-115`.
+- Live 2BR listing bands, deposits, utilities-deposit and tenancy-stamping practice, landlord acceptance of DE Rantau / foreign remote-worker income, and private health-insurance costs for the target Malaysian city.
 
 ## Block 8 - Open questions and verification markers
 

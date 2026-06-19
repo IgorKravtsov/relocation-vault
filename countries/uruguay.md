@@ -1,13 +1,13 @@
 ---
 country: Uruguay
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-13T17:28:57Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence", "uruguay-self-employed-bps-gap", "uruguay-foreign-client-vat-fit-gap", "montevideo-punta-del-este-rent-pressure"]
-sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186", "src-430", "src-431", "src-432", "src-433", "src-434", "src-435", "src-436", "src-545", "src-546", "src-547", "src-548"]
+depth_score: 5.5
+last_updated: 2026-06-19T06:06:57Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence", "uruguay-self-employed-bps-gap", "uruguay-foreign-client-vat-fit-gap", "montevideo-punta-del-este-rent-pressure", "uruguay-private-insurance-quote-gap", "uruguay-international-school-cost-risk"]
+sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186", "src-430", "src-431", "src-432", "src-433", "src-434", "src-435", "src-436", "src-545", "src-546", "src-547", "src-548", "src-684", "src-685", "src-686", "src-687", "src-688"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests a potentially strong long-term route because Uruguay allows ordinary legal residence for non-Mercosur foreigners and legal citizenship after 3 years with family constituted in Uruguay or 5 years without family, but the route depends on proving habitual residence and means of life rather than a simple remote-worker visa threshold. [src-181][src-182][src-184]
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-13T17:28:57Z
-- **Tier rationale**: keep as Tier-2 hint until healthcare, practical residence / tax approval mechanics for foreign-client IT income, and habitual-residence/citizenship practice are checked; cost/rent now screens as workable outside the most expensive coastal/capital markets.
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-19T06:06:57Z
+- **Tier rationale**: keep as Tier-2 hint until practical residence / tax approval mechanics for foreign-client IT income, healthcare insurance/onboarding costs, and habitual-residence/citizenship practice are checked; cost/rent now screens as workable outside the most expensive coastal/capital markets, while education is screenable if Spanish-language public schooling is acceptable.
 
 ## Block 2 - Scoring
 
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | First-pass self-employed screen: USD 3,000/month is about UYU 121,423/month; 70% notional-expense IRPF model leaves about UYU 116,565 / USD 2,880 before BPS/VAT/accountant costs, while an employee-style social-security stress test leaves about USD 2,187-2,337. | §5.3 |
 | Cost of living | — | medium | Livingcost first-pass screen: Uruguay national total is about $1,389/month for one person and $3,346 for a family-of-four proxy; Montevideo and Punta del Este are tight on one income, while Salto is the lower-cost warm inland fallback. | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 rent proxies range from about $262-$412 in Salto to $499-$632 in Montevideo and $795-$1,013 in Punta del Este; use Montevideo/Punta only with strict housing caps. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | Public/private system baseline is strong and SNIS/FONASA/mutualista structure is captured; however private insurance quotes, maternity/newborn exclusions, and foreign-resident onboarding by residence/tax route remain application-prep checks. | §5.6 |
+| Education (future child) | — | medium | Public education is compulsory from age 4/primary age 6 and public primary is free; Montevideo has bilingual/international options, but international fees can be a major one-income budget risk. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -164,13 +164,31 @@ FX snapshot for this pass: USD 1 = UYU 40.474288, so USD 3,000/month is about **
 
 **Rent verdict**: Screen Montevideo first only for bureaucracy, healthcare, notary/accountant access, and diaspora/services; keep a strict rent cap. Use Salto as the affordability and warmer-inland fallback if smaller-city service tradeoffs are acceptable. Punta del Este / Maldonado should be a lifestyle exception, not the default budget plan. Add `montevideo-punta-del-este-rent-pressure` as a risk flag.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This pass captures Uruguay's public/private healthcare structure, SNIS/FONASA/mutualista baseline, the health-card requirement already linked to residence files, and a conservative private-care planning stance. Run-156 resolved `vq-141` for country screening: exact private insurance quotes, maternity/newborn exclusions, FONASA/ASSE/mutualista onboarding by residence/BPS status, and city-specific private-care prices remain application-prep checks rather than open screening blockers.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+Uruguay has a structured mixed healthcare system under the National Integrated Health System (SNIS). The U.S. International Trade Administration describes SNIS as integrating public and private providers, with universal coverage financed through the National Health Fund (FONASA). Contributors to FONASA can choose a public or private provider, and many choose one of the private mutualista plans; a smaller group additionally pays for premium private insurance. [src-684]
 
-[verification required]
+For the couple, this is a positive screening baseline but not a filing-ready answer. If the IT partner files residence through foreign-company or independent-worker means-of-life evidence, healthcare access and cost need to be aligned with the BPS/DGI answer in §5.3: whether he contributes into FONASA, uses ASSE, joins an IAMC/mutualista directly, or buys separate private insurance can change the monthly budget materially. [src-684]
+
+The migration checklist already makes healthcare operational rather than optional: permanent legal residence asks for a Uruguayan health card and vaccination certificate, and the digital-nomad renewal description also mentions a Uruguayan vaccination certificate. Uruguay's public `Carné de salud` service page confirms that the health card is a formal procedure, but this pass did not capture a foreign-resident step-by-step workflow or private clinic prices for obtaining it. [src-182][src-183][src-685]
+
+**Pregnancy / pediatrics**: use a conservative planning stance. Uruguay's system is relatively developed for the region and Montevideo is the safest first healthcare base, but pregnancy, childbirth, newborn coverage, waiting periods, and pediatric access must be checked in the exact mutualista/private policy before relying on Uruguay for family planning. This is especially important because the one-income budget has limited room if BPS/VAT or insurance costs land at the downside of §5.3. [src-684]
+
+**Healthcare verdict**: screen Uruguay as healthcare-practical in Montevideo and likely workable in Salto only after a final-city provider check. Do not treat healthcare as a blocker for country screening; keep `uruguay-private-insurance-quote-gap` as an application-prep flag until exact policy quotes, maternity/newborn terms, FONASA/ASSE/IAMC onboarding, and private-care price checks are captured.
+
+### 5.7. Education (future child) {status: deep, depth: 2, last_updated: 2026-06-19, dod: passed}
+
+> **DoD status**: passed at medium confidence for country screening. Public preschool/primary/secondary structure, compulsory ages, free public primary baseline, and a Montevideo international-school cost benchmark are captured. Exact school admissions, private preschool city quotes, and live tuition schedules remain later budget/application-prep checks.
+
+Uruguay's official education portal maps the system as follows: ages 3-5 are initial education, attendance is compulsory from age 4, primary education starts from age 6 and is compulsory and free in the public system, secondary education starts around age 12 in basic and upper cycles, and tertiary education follows from age 18. For a future child, this means the public route is viable only if the family is ready for Spanish-language integration from preschool/primary age. [src-686]
+
+The official early-childhood/inicial statistics page confirms that Uruguay tracks early childhood and initial-education indicators through the Ministry of Education and Culture, and MIDES material describes initial education as compulsory from age 4 while work continues to universalize age-3 coverage. For screening, treat public initial education from age 4 as the low-cost baseline and private/English preschool as a later city-budget quote. [src-687]
+
+International schooling is the budget risk. ExpatLife's 2026 Uruguay education guide gives a Montevideo international-school sector with English, bilingual, and IB curricula and a broad fee range of about **USD 6,000-18,000/year**; it lists examples such as GEMS World Academy, The British Schools, Ivy School, Crandon Institute, Liceo Frances, and Deutsche Schule Montevideo. Because this is an aggregator-style guide, use it for screening only, not as a final invoice. [src-688]
+
+**Education verdict**: Uruguay passes country screening if the family accepts Spanish-language public education as the default. International/private English-language schooling can consume roughly USD 500-1,500/month per child before extras, which is a major risk on a single USD 3,000/month income and especially under the §5.3 downside BPS/VAT stress test. Add `uruguay-international-school-cost-risk` and keep exact school admissions, tuition, and private-preschool quotes for later city selection.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -207,19 +225,22 @@ FX snapshot for this pass: USD 1 = UYU 40.474288, so USD 3,000/month is about **
 - **Best legalization path for the woman**: separate ordinary residence file tied to family/spouse evidence if married, or independent ordinary residence evidence; do not rely on the DN bridge as a dependent route. [src-182][src-184]
 - **Does marriage change the picture**: yes for documentary clarity and possibly the family-constituted 3-year legal-citizenship timeline, but residence still needs a Uruguayan file and means/support evidence. [src-182][src-184]
 - **Realism of staying after 03.2027**: medium-positive if ordinary residence is filed early and habitual presence is maintained; not dependent on EU TP extension.
-- **Budget/rent first pass**: workable but city-sensitive. Salto screens as the affordability fallback; Montevideo is the services/bureaucracy base with rent discipline; Punta del Este is too rent-pressured for a default one-income plan. [src-546][src-547][src-548]
+- **Healthcare / education first pass**: healthcare is screenable through the SNIS/FONASA/mutualista baseline but needs private insurance and onboarding quotes; education is workable through Spanish-language public schooling, while Montevideo international schools are a major budget risk. [src-684][src-686][src-688]
+- **Budget/rent first pass**: workable but city-sensitive. Salto screens as the affordability fallback; Montevideo is the services/bureaucracy/healthcare/school-option base with rent discipline; Punta del Este is too rent-pressured for a default one-income plan. [src-546][src-547][src-548]
 
 **Pros**:
 - Visa-free entry for Ukrainians in the current official admission table. [src-180]
 - Permanent-residence route explicitly recognizes foreign-company employment and independent-worker evidence. [src-182]
 - Legal citizenship timeline can be 3 years with family constituted in Uruguay or 5 years without family. [src-184]
 - Mild winters relative to Central/Eastern Europe. [src-185][src-186]
+- Public education from compulsory preschool/primary age gives a low-cost long-term family baseline if Spanish integration is acceptable. [src-686][src-687]
 
 **Cons / risks**:
 - DN/provisional identity is only 6+6 months and should not be treated as the long-term route. [src-183]
 - Official page uses "sufficient for maintenance" rather than a fixed remote-income threshold; approval practice needs notary/lawyer verification. [src-182]
 - Citizenship requires habitual residence, Spanish ability, and no absences over 6 consecutive months. [src-184]
 - Distance from Ukraine/Europe, unresolved BPS/VAT/accountant costs, and rent pressure in Montevideo / Punta del Este.
+- Private health-insurance and mutualista/FONASA onboarding costs are not yet captured; international schooling in Montevideo can be expensive relative to the single-income budget. [src-684][src-688]
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -259,7 +280,7 @@ FX snapshot for this pass: USD 1 = UYU 40.474288, so USD 3,000/month is about **
 | Flights for two | — | [verification required] |
 | Rental deposit | $262-$1,013+ | Use at least 1 month of the captured 40 m2 proxy as a first-pass reserve; exact deposit/guarantee and agency norms need live-listing checks. [src-546][src-547][src-548] |
 | First month rent | $262-$1,013 | Salto lower end, Montevideo mid-range, Punta del Este high/tourist-market range for the 40 m2 proxy. [src-546][src-547][src-548] |
-| Health insurance / health card | — | [verification required] |
+| Health insurance / health card | — | Health card is a residence-file input; private insurance / mutualista route and exact costs need quotes. [src-182][src-685] |
 | Immigration lawyer / notary / accountant | — | Critical for means-of-life proof. |
 | Buffer / contingencies | — | [verification required] |
 | **Total** | — | |
@@ -280,6 +301,7 @@ FX snapshot for this pass: USD 1 = UYU 40.474288, so USD 3,000/month is about **
 - [src-184] Uruguay legal citizenship letter procedure.
 
 ### 7b. Reputable secondary
+- [src-684] U.S. International Trade Administration Uruguay healthcare overview.
 - [src-430] PwC Uruguay individual taxes on personal income.
 - [src-431] PwC Uruguay individual tax residence.
 - [src-432] PwC Uruguay individual deductions / self-employment deduction.
@@ -298,13 +320,20 @@ _(none yet)_
 - [src-546] Livingcost — Montevideo cost/rent baseline.
 - [src-547] Livingcost — Punta del Este cost/rent baseline.
 - [src-548] Livingcost — Salto cost/rent baseline.
+- [src-688] ExpatLife.AI Uruguay education guide / international-school fee screen.
 
-### 7e. Not found
+### 7e. Official primary / public-service pages
+- [src-685] Uruguay gub.uy health-card procedure page.
+- [src-686] Uruguay official education portal.
+- [src-687] Uruguay MEC early-childhood / initial education statistics page.
+
+### 7f. Not found
 - Exact Uruguayan migration practice for accepting ~$3,000/month foreign-client IT income for a couple remains an application-prep check; operational planning should treat a notarial/accounting means-of-life package as mandatory.
 - Whether digital-nomad provisional identity time counts toward habitual residence for legal citizenship remains unproven; the safe baseline is not to rely on it without permanent legal residence evidence.
 - Partner/dependent mechanics for an unmarried Ukrainian partner remain unproven; the safe baseline is marriage or separate residence eligibility.
 - Uruguay tax treatment for foreign-client IT remote work: first-pass §5.3 now covers IRPF/tax residence and screening calculations. `vq-110` was resolved for screening in run-093; exact DGI/BPS/VAT/immigration-file alignment remains an application-prep/accountant check.
+- Healthcare application-prep details: exact route-compliant private insurance quotes, maternity/newborn exclusions, FONASA/ASSE/mutualista onboarding by residence/BPS status, and Montevideo/Salto private-care price checks are open in `vq-141`.
 
 ## Block 8 - Open questions and verification markers
 
-_(none for current partial-depth scope; later application-prep should still check DNM/notary practice before filing.)_
+- `vq-141`: Uruguay private health-insurance quotes, maternity/newborn terms, exact FONASA/ASSE/mutualista onboarding by residence/self-employed status, and selected-city private GP/pediatric/maternity prices.

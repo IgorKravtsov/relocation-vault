@@ -99,3 +99,39 @@
   confidence: medium
   tags: [spain, taxes, social-security, reta, autonomo]
   notes: "Infoautonomos cites the Social Security quota calculator; use a gestor / TGSS calculator before filing."
+
+- id: claim-spain-012
+  topic: healthcare_private_visit_cost_proxy
+  value: "Livingcost lists private doctor-visit proxies at about USD 73 nationally, USD 67 in Valencia, and USD 47 in Malaga; International Insurance gives an uninsured doctor-visit baseline around EUR 100 and ER visit around EUR 200."
+  source: src-613
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [spain, healthcare, private-care, budget]
+  notes: "Cross-supported by Livingcost city/national pages src-391, src-393, and src-394. Insurance premiums for two young adults remain vq-121."
+
+- id: claim-spain-013
+  topic: early_childhood_structure
+  value: "Early childhood education is voluntary, split into ages 0-2 and 3-5; the second cycle is free, and children over 3 have a legal right to a place."
+  source: src-615
+  date_verified: 2026-06-15
+  confidence: medium-high
+  tags: [spain, education, early-childhood, childcare]
+  notes: "Eurydice cites Spanish education-law and Royal Decree 95/2022 context; regional place allocation still varies by autonomous community."
+
+- id: claim-spain-014
+  topic: compulsory_schooling_structure
+  value: "Primary education and compulsory secondary education comprise ten years of free compulsory schooling; primary runs six years from ages 6 to 12 and ESO generally runs ages 12 to 16."
+  source: src-614
+  date_verified: 2026-06-15
+  confidence: medium-high
+  tags: [spain, education, public-school, compulsory-schooling]
+  notes: "Used for first-pass future-child planning; municipality/school assignment and language support should be checked after choosing a city."
+
+- id: claim-spain-015
+  topic: private_childcare_international_school_cost_proxy
+  value: "Livingcost lists daycare/preschool at about USD 560/month nationally, USD 629/month in Valencia, USD 616/month in Malaga; international primary school about USD 10.9k/year nationally and in the target cities."
+  source: src-391
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [spain, education, childcare, international-school, budget]
+  notes: "Cross-supported by city pages src-393 and src-394; use live school quotes before a real move."

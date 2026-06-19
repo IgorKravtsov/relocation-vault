@@ -168,3 +168,40 @@
   confidence: medium
   tags: [cost-of-living, rent, nis, serbia, livingcost]
   notes: "Affordability fallback; smaller-city services and legal-support tradeoffs remain."
+
+
+- id: claim-serbia-020
+  topic: healthcare_insured_person_rights
+  value: "Serbia's RFZO says insured persons exercise healthcare rights in contracted healthcare institutions based on a certified health-insurance document/card/certificate; compulsory health insurance covers illness/injury outside work and work injury/occupational disease."
+  source: src-667
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [healthcare, public-insurance, rfzo, serbia]
+  notes: "Direct RFZO page is in Serbian; used as public-insurance rights baseline, not proof of automatic onboarding for a single-permit holder."
+
+- id: claim-serbia-021
+  topic: healthcare_maternity_child_scope
+  value: "RFZO's insured-person rights list includes prevention, examinations and treatment connected with family planning, pregnancy, childbirth and up to 12 months after childbirth, illness/injury treatment, dental/oral care, rehabilitation, medicines and medical devices."
+  source: src-667
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [healthcare, maternity, children, rfzo, serbia]
+  notes: "Private insurance exclusions and route-specific public-insurance onboarding remain verification items."
+
+- id: claim-serbia-022
+  topic: education_public_compulsory_baseline
+  value: "Eurydice reports that children in Serbia enter compulsory education at about age 5.5 through the preschool preparatory programme, followed by 8 years of basic education; basic education is compulsory and free in public schools."
+  source: src-668
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, public-school, compulsory, serbia]
+  notes: "Also relies on src-669 for ECEC age bands and the mandatory/free preschool preparatory programme."
+
+- id: claim-serbia-023
+  topic: belgrade_international_school_fee_risk
+  value: "International Schools Database lists 12 international schools in Belgrade and reports the International School of Belgrade 2026/2027 yearly fees at about RSD 1,413,269 to RSD 3,255,407 for an IB English-language ages 3-18 school."
+  source: src-670
+  date_verified: 2026-06-17
+  confidence: medium
+  tags: [education, international-school, belgrade, school-fees, serbia]
+  notes: "Commercial directory benchmark; exact admissions/fees should be checked directly with schools before relying on an international track."

@@ -1,13 +1,13 @@
 ---
 country: Italy
 tier: null
-depth_score: 4.0
-last_updated: 2026-06-09T10:21:08Z
-sections_completed: ["5.2", "5.3", "5.4", "5.5"]
-sections_partial: ["5.1"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-source-2024", "unmarried-partner-not-covered-by-dn-family-sponsorship", "italy-worldwide-tax-and-reporting", "rome-milan-rent-pressure", "southern-services-tradeoff"]
-sources_used: ["src-002", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033", "src-034", "src-287", "src-288", "src-289", "src-290", "src-291", "src-292", "src-293", "src-396", "src-397", "src-398", "src-399", "src-400"]
+depth_score: 5.5
+last_updated: 2026-06-15T19:30:09Z
+sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-source-2024", "unmarried-partner-not-covered-by-dn-family-sponsorship", "italy-worldwide-tax-and-reporting", "rome-milan-rent-pressure", "southern-services-tradeoff", "italy-private-insurance-quote-gap", "italy-international-school-cost-risk"]
+sources_used: ["src-002", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033", "src-034", "src-287", "src-288", "src-289", "src-290", "src-291", "src-292", "src-293", "src-396", "src-397", "src-398", "src-399", "src-400", "src-616", "src-617", "src-618"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Italy has a usable temporary-protection framework through 4 March 2027 and a formal digital-nomad / remote-worker visa, but the first pass did not find an Italy-specific TP-to-ordinary-residence bridge after March 2027, and the digital-nomad family route clearly covers a spouse and minor children, not an unmarried partner. Tier remains unassigned until taxes, rent, partner status, and post-2027 fallback mechanics are researched.
-- **depth_score**: 4.0
-- **Last updated**: 2026-06-09T10:21:08Z
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-15T19:30:09Z
 - **Tier rationale**: Italy looks operationally plausible for a married couple if the IT worker can prove a highly specialized remote-work profile and stable income, but long-term stay after TP still depends on switching to an ordinary permit rather than relying on TP.
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | 7 | medium | For a small IT freelancer, Italy's `regime forfetario` can keep the first-pass burden moderate, but Italian tax residence means worldwide-income reporting and INPS contributions are material. At run-date FX, USD 3,000/month gross is about EUR 31.2k/year; simplified forfetario + Gestione Separata gives about EUR 1,950/month net at the ordinary 15% substitute-tax rate, or about EUR 2,078/month if the 5% startup rate truly applies. | §5.3 |
 | Cost of living | 6 | medium | Palermo and Naples look manageable on gross USD 3,000 and tighter but plausible against the conservative forfetario net; Rome is tight and Milan is poor by default. | §5.4 |
 | Rent (decent 2BR) | 5 | medium | The modest 40 m2 1BR proxy is acceptable in Palermo/Naples but Rome and especially Milan consume too much of the one taxed income; 80 m2 3BR is a stress test, not the default. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | Partial: SSN access looks strong for TP/legal residents and private care is usable, but DN-compliant private-insurance quotes / waiting periods are not yet captured. | §5.6 |
+| Education (future child) | 7 | medium | Public schooling is structurally usable and free through compulsory ages; 0-3 childcare and international schools are the main one-income budget risks. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -194,13 +194,27 @@ Italy is not a uniform budget country. The north/service hubs are significantly 
 
 **Landlord requirements to verify before filing.** Expect deposit / agency-fee variation, preference for Italian work contracts or local guarantors in stronger markets, and reluctance to register short leases for newcomers. These are not yet sourced enough for DoD beyond first-pass screening, so they remain application-prep checks rather than new vault blockers.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-15, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. Covered: TP/SSN access baseline, public/private system split, doctor-visit price proxies, DN insurance-document requirement, and maternity planning caveat. Missing for full DoD: Italy DN-compliant private-insurance quotes for two young adults, maternity waiting-period / exclusion checks, and selected-city ASL registration steps after choosing Palermo / Naples / Rome.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+- For a TP-first route, healthcare is a major operational strength: UNHCR Italy says temporary-protection beneficiaries can register with the National Health Service (`SSN`) from the moment of the request, alongside work and study rights. [src-034]
+- For a DN / remote-worker route, the captured consular checklist requires travel medical insurance with at least EUR 30,000 / USD 50,000 medical-expense coverage, or a plan to buy Italian insurance before Questura registration. Treat this as a visa-file requirement, not as a full healthcare budget quote. [src-028]
+- General public-system baseline: International Insurance describes Italy's SSN as a mixed public/private system that provides free or very low-cost care to citizens and non-citizens with residency status, including hospitalization, family doctors, specialists, discounted medication, laboratory services, and ambulance services. It also notes that non-EU expats generally need finalized residence status / identity documentation for SSN access and private insurance during the waiting period. [src-616]
+- Private-care price proxies are manageable for occasional use but higher than Spain/Portugal in the same dataset: Livingcost lists a doctor's visit around USD 99.6 nationally, USD 117 in Rome, USD 84.5 in Naples, USD 79.5 in Palermo, and USD 105 in Milan. [src-396][src-397][src-399][src-400][src-398]
+- Maternity / future-child planning baseline: do not rely on a tourist-style travel policy if using DN filing or pregnancy planning. Before filing, obtain an Italy-compliant private medical policy for both adults and verify maternity coverage, pre-existing pregnancy exclusions, waiting periods, and whether SSN registration timing differs between TP, DN, and self-employed tax files. This remains an application-prep check.
+- Budget interpretation: Italy healthcare is not the main country blocker if the couple has TP or ordinary residence, but the documentary gap matters for DN filing. Keep `italy-private-insurance-quote-gap` until insurer quotes and selected-city ASL steps are captured.
 
-[verification required]
+### 5.7. Education (future child) {status: deep, depth: 2, last_updated: 2026-06-15, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. Covered: early-childhood structure and fee risk, compulsory-school structure, public-school baseline, city/national childcare and international-school cost proxies, and adaptation caveats for a Ukrainian child.
+
+- Italy's education and training system covers early childhood through adult education. Education is compulsory for **10 years**, from ages **6 to 16**, covering five years of primary, three years of lower secondary, and two years of upper secondary or regional vocational education/training. [src-617]
+- Early childhood education and care is split into **0-3** educational services and **3-6** pre-primary school. Attendance is not compulsory. Eurydice states that 0-3 services charge fees, while pre-primary school for children over 3 is free. [src-617][src-618]
+- The private childcare risk is material before age 3 or when public places are unavailable: Livingcost gives daycare/preschool proxies of about USD 582/month nationally, USD 569/month in Rome, USD 421/month in Naples, USD 403/month in Palermo, and USD 867/month in Milan. [src-396][src-397][src-399][src-400][src-398]
+- The default future-child plan should be Italian public schooling, not an international-school budget. State schools and `paritarie` schools cover compulsory education; the State also guarantees the right to complete compulsory education. For a Ukrainian child, municipality/neighbourhood selection and Italian-language integration support should be checked once a city is chosen. [src-617]
+- International school is available but not a default one-income plan: Livingcost lists international primary-school proxies of about USD 11,511/year nationally, USD 12,431/year in Rome, USD 7,022/year in Naples, USD 10,956/year in Palermo, and USD 18,202/year in Milan. This is hard to combine with the tax section's conservative forfetario net of about EUR 1,950/month. [src-396][src-397][src-399][src-400][src-398]
+- Practical child-plan read: Italy is education-positive if the couple accepts Italian-language public schooling and screens Palermo/Naples/Rome by municipal school access. It becomes budget-negative if they need private nursery before age 3, a bilingual/international school, or Milan-level childcare costs on the current one-income plan.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -237,12 +251,14 @@ Italy is not a uniform budget country. The north/service hubs are significantly 
 - **Best legalization path for the woman**: Temporary protection separately if eligible; for DN-dependent planning, marriage likely matters because the captured consular guidance names spouse and minor children, not an unmarried partner.
 - **Does marriage change the picture**: Yes. It likely improves DN family sponsorship options and reduces partner-status uncertainty.
 - **Realism of staying after 03.2027**: Medium but not yet proven; ordinary-status switch needed, and the budget only works cleanly in lower-rent cities.
+- **Healthcare/education read**: Positive for public-system access once status is secure and for Italian-language public schooling, but DN private-insurance quotes, 0-3 childcare, and international-school costs can erode the one-income budget.
 
 **Pros**:
 - TP horizon currently matches the EU 04 March 2027 deadline.
 - Formal DN / remote-worker route exists for highly specialized remote workers.
 - Rome and southern/coastal Italy are strong climate fits.
 - Palermo and Naples are materially cheaper than Rome/Milan for first-pass rent and living-cost screening.
+- Public education is structurally usable if the couple accepts Italian-language schooling.
 
 **Cons / risks**:
 - No captured Italy-specific post-TP bridge to ordinary residence.
@@ -250,6 +266,8 @@ Italy is not a uniform budget country. The north/service hubs are significantly 
 - Unmarried partner is not clearly covered in the captured DN family sponsorship guidance.
 - Rome and Milan are rent-pressure cities on one taxed Italy income.
 - Northern Italy is much less attractive on winter climate.
+- DN private-insurance quotes / maternity exclusions and ASL registration steps still need city-specific application-prep checks.
+- Private nursery and international school are not safe default assumptions on the current one-income budget, especially in Milan/Rome.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -258,9 +276,11 @@ Italy is not a uniform budget country. The north/service hubs are significantly 
 - For TP: prepare Ukrainian identity and family documents; file with the Questura after arrival [src-034].
 - What to do with the Polish karta pobytu: keep it valid if possible, but do not rely on it as Italian residence authorization.
 - For the student partner: collect student-status documents and civil-status documents; marriage may be worth evaluating if DN family sponsorship is used.
+- For healthcare: collect DN-compliant private-insurance quotes for both adults and check maternity waiting periods / exclusions before filing.
 
 ### 6b. First month after arrival
 - TP path: contact the local Questura, get the application receipt with tax number, then register for SSN via ASL [src-034].
+- If planning a child later: prioritize municipalities/neighbourhoods where Italian public schools and 3-6 pre-primary places are practical, and avoid assuming an international-school budget.
 - DN path: apply for `permesso di soggiorno` at the local Questura within eight working days after entry [src-028].
 - Choose city carefully: Palermo first for budget/climate, Naples as a cheaper mainland south option, Rome only with strict rent control, and avoid Milan unless income rises.
 
@@ -294,6 +314,8 @@ Italy is not a uniform budget country. The north/service hubs are significantly 
 - Questura: local police headquarters for TP request and DN `permesso di soggiorno` [src-028][src-034].
 - ASL: local health authority for SSN doctor registration after TP request [src-034].
 - Immigration lawyers / Ukrainian communities: TBD.
+- ASL / SSN registration and family-doctor assignment: selected-city procedure still needs an application-prep check.
+- Schools / childcare: municipal nursery and pre-primary offices in the chosen city; exact waitlists and fees still need a city/neighbourhood check.
 
 ## Block 7 — Sources
 
@@ -307,6 +329,8 @@ Italy is not a uniform budget country. The north/service hubs are significantly 
 
 ### 7b. Reputable secondary
 - UNHCR Italy temporary-protection guide: [src-034]
+- Italy SSN / public-private healthcare guide for foreigners: [src-616]
+- Eurydice Italy education-system and early-childhood profiles: [src-617][src-618]
 - PwC Italy individual tax summaries for PIT, residence, social security, and filing: [src-291]
 
 ### 7c. Community and forums (mandatory date of original post)
@@ -316,15 +340,18 @@ _(none yet)_
 - Climate to Travel: Rome, Milan, Palermo [src-030][src-031][src-032]
 - Current Results: annual sunshine in Italy [src-033]
 - Forfetario IT/communications profitability-coefficient table and run-date USD/EUR FX feed: [src-292][src-293]
-- Livingcost Italy cost/rent pages: national, Rome, Milan, Naples, Palermo [src-396][src-397][src-398][src-399][src-400]
+- Livingcost Italy cost/rent, doctor-visit, childcare, and international-school price proxies: national, Rome, Milan, Naples, Palermo [src-396][src-397][src-398][src-399][src-400]
 
 ### 7e. Not found
 - Official-primary DN checklist from an Italy-in-Ukraine consular page.
 - More favorable evidence, if any, that unmarried partners can be sponsored under Italy's DN family route; current operational baseline is spouse/minor children only.
 - Commercialista confirmation of the exact ATECO code, forfetario eligibility, 5% startup-rate eligibility, and invoice/VAT treatment for the IT worker's actual client setup.
 - Live-listing confirmation for Rome/Milan/Naples/Palermo rents, registered-lease availability for DN filing, deposits, agency fees, and landlord requirements for foreign remote workers.
+- DN-compliant private-insurance premiums for two young adults, maternity waiting periods / exclusions, and selected-city ASL registration steps.
+- Municipal nursery waitlists/fees and school-language support in Palermo / Naples / Rome after city selection.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-011`: resolved in run-009 as a conservative no-bridge baseline using EU / Italy / UNHCR sources: ordinary status required before TP expiry unless Italy later publishes a bridge.
 - `vq-012`: resolved in run-009 for operational planning: the captured consular checklist supports spouse/minor-child sponsorship only; unmarried partner remains not safely covered unless later evidence changes this.
+- `vq-122` resolved for screening in run-138: DN-compliant insurance quotes, maternity exclusions/waiting periods, and city-specific ASL registration steps remain application-prep checks.

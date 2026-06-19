@@ -1,14 +1,14 @@
 ---
 country: Bosnia and Herzegovina
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-14T05:50:50Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-dedicated-digital-nomad-visa", "company-founder-route-high-burden", "no-captured-ukraine-protection-bridge", "cold-inland-winters", "bosnia-entity-tax-and-ssc-fit-gap", "bosnia-foreign-client-vat-fit-gap"]
-sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218", "src-418", "src-419", "src-420", "src-421", "src-422", "src-423", "src-561", "src-562", "src-563", "src-564", "src-565"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-18T20:47:07Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["no-dedicated-digital-nomad-visa", "company-founder-route-high-burden", "no-captured-ukraine-protection-bridge", "cold-inland-winters", "bosnia-entity-tax-and-ssc-fit-gap", "bosnia-foreign-client-vat-fit-gap", "bosnia-health-insurance-onboarding-gap", "bosnia-international-school-cost-risk"]
+sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218", "src-418", "src-419", "src-420", "src-421", "src-422", "src-423", "src-561", "src-562", "src-563", "src-564", "src-565", "src-701", "src-702", "src-703", "src-704"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint retained until tax / cost / ordinary-residence viability is researched).
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-14T05:50:50Z
-- **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and now also has entity-specific tax / social-contribution uncertainty. Cost/rent screening is comparatively affordable, especially outside Sarajevo / Banja Luka, but low rent does not solve the legal-route burden. [src-214][src-215][src-418][src-420][src-561][src-563][src-565]
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-18T20:47:07Z
+- **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and now also has entity-specific tax / social-contribution uncertainty. Cost/rent screening is comparatively affordable, and healthcare / education are screenable with Sarajevo as the safest services base; low rent and acceptable schools still do not solve the legal-route burden. [src-214][src-215][src-418][src-420][src-561][src-563][src-565][src-701][src-703][src-704]
 
 ## Block 2 — Scoring
 
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | First-pass PwC screen: PIT is 10% in FBiH/Brcko and 8% in RS; employee-style contribution sensitivities leave about USD 1,878-1,881/month at USD 3,000 gross, but the exact freelancer/company-manager base remains unverified. | §5.3 |
 | Cost of living | — | medium | Livingcost screens Bosnia and Herzegovina at about $819/month for one person with rent and $1,926 for a family-of-four proxy; Tuzla and Mostar are lower-cost practical screens, while Sarajevo / Banja Luka cost more but remain below most EU alternatives. | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 modest two-room proxies range from about $182-$244/month in Tuzla, $278-$300 in Mostar, $276-$391 in Sarajevo, and $298-$439 in Banja Luka; live listings and foreigner lease terms remain application-prep checks. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | Public healthcare is entity/canton based and predominantly publicly funded through insurance funds; Sarajevo has the strongest private-care fallback, but exact route-compliant insurance and onboarding remain unresolved. | §5.6 |
+| Education (future child) | — | medium | Public primary school is free/compulsory but local-language and administratively fragmented; Sarajevo has QSI, while Mostar has UWC for older students, creating an international-school budget risk. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -160,13 +160,51 @@ Rent share at the conservative tax downside is still manageable for a modest uni
 
 Practical first screen: **Mostar** first for warm-climate affordability, **Sarajevo** for bureaucracy / hospitals / legal and accountant access with a strict modest-rent cap, **Tuzla** as the affordability fallback if colder winters and smaller-city services are acceptable, and **Banja Luka** only if Republika Srpska-specific legal/tax advice creates a concrete advantage. Do not treat the low rent as enough to overcome the lack of a clean DN-style route.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-18, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This is enough for country screening but not for an application budget. The pass captured public-system structure and the main city-service baseline, but not route-compliant private insurance quotes, maternity/newborn wording, exact onboarding through entity/cantonal health-insurance funds for a foreign resident/company-founder/self-employed file, or city-specific private GP/pediatric/maternity prices. `vq-146` tracks those application-prep details.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Public / insured-system baseline
 
-[verification required]
+Bosnia and Herzegovina healthcare is fragmented by entity and canton rather than a single simple national system. Trade.gov's 2026 medical-equipment guide states that entity and cantonal Institutes of Health Insurance administer healthcare systems funded through compulsory payroll contributions from employers and employees, and that the health-care system is predominantly publicly funded. This matches the residence-file reality: the Service for Foreigners' Affairs checklist already requires health-insurance evidence for ordinary temporary-residence filings. [src-701][src-215]
+
+The Federal Ministry of Health and the Republika Srpska Ministry of Health and Social Welfare are the two practical public-authority anchors captured in this pass. For the couple, this means the final city/entity choice is not cosmetic: Sarajevo/Mostar/Tuzla in FBiH, Banja Luka in RS, and Brcko can imply different fund/onboarding workflows, contribution links, and provider networks. [src-702][src-701]
+
+#### Provider depth and private fallback
+
+Trade.gov names public clinical centers in **Sarajevo, Tuzla, Banja Luka, and Mostar** as locations with advanced diagnostic-imaging equipment, and also notes a growing number of private practices plus two newer private hospitals in Sarajevo. For country screening, Sarajevo is therefore the safest healthcare base because it combines bureaucracy, public clinical-center depth, and the strongest private-care fallback. Mostar is attractive for climate/cost but should be treated as a secondary-service city with escalation to Sarajevo or a larger regional center for complex care. Tuzla and Banja Luka have clinical-center anchors but colder/service-depth tradeoffs already visible elsewhere in the profile. [src-701][src-563][src-565]
+
+#### Insurance / cost screen for the couple
+
+No reliable 2026 quote for private insurance for two young Ukrainian adults was captured. Use a conservative planning posture: budget private insurance before/around residence filing, assume official proof of health insurance is mandatory for a residence file, and do not rely on public-fund access until the exact legal form and contribution route are confirmed by a Bosnia immigration lawyer/accountant. [src-215][src-701]
+
+#### Practical healthcare conclusion
+
+Healthcare does not disqualify Bosnia and Herzegovina at the screening level, but it reinforces Sarajevo as the safest first base if Bosnia is pursued. The open issue is not whether doctors/hospitals exist; it is whether the couple's high-burden company/work residence route gives clean health-insurance/fund access and whether private policy wording is acceptable to the Service. Keep §5.6 partial until `vq-146` is resolved.
+
+### 5.7. Education (future child) {status: deep, depth: 2, last_updated: 2026-06-18, dod: passed}
+
+> **DoD status**: passed for first-pass screening. Official-secondary Eurydice evidence covers the public system structure, compulsory/free primary baseline, and the fragmented governance model. Exact private/international-school tuition, registration/transport/meal fees, preschool city quotes, and availability outside Sarajevo/Mostar remain application-prep budget checks in `vq-147`, but they do not block country screening.
+
+#### Public school structure
+
+Eurydice describes Bosnia and Herzegovina education as highly decentralized: Republika Srpska, ten FBiH cantons/counties, and Brcko District have full and undivided education responsibilities, with thirteen education ministries plus the Brcko Department of Education. This is a practical relocation issue: school rules, enrollment offices, language, curriculum details, and support for a foreign child can differ by city/entity/canton. [src-703]
+
+The system has four main levels: preschool, primary, secondary, and higher education. Preschool education is part of the system and the year before primary school is compulsory. Primary education lasts nine years, is compulsory for all children, and starts in the calendar year in which the child reaches age 6 by 1 April. Eurydice also states that public primary education is free and that age is the only admission criterion for primary enrollment. Secondary education is accessible under equal conditions but is not compulsory; general secondary programmes last four years and vocational secondary programmes usually last three or four years. [src-703]
+
+#### Language and city implications
+
+For the couple's future child, the low-cost default is local public schooling in Bosnian/Croatian/Serbian-language environments depending on city and curriculum. This is workable for a young child with enough adaptation time, but it is not an English/Russian/Ukrainian support plan by default. Sarajevo is the safest education base because it has the largest international-school ecosystem and bureaucracy/service depth; Mostar is warmer and cheaper but has a narrower education market. [src-703][src-704]
+
+#### International / English-language options
+
+QSI International School of Sarajevo is a direct English/international anchor in Sarajevo: the public school site exposes preschool, elementary, middle school, secondary, AP programme, language, counseling, learning-support, health/safety, and child-protection sections. For older students, UWC Mostar is an International Baccalaureate / residential international option in Mostar, but it is not a normal low-cost primary-school substitute for a future young child. [src-704]
+
+No exact QSI/UWC tuition table was captured in this pass. Use a medium-confidence budget warning rather than a number: international schooling is likely a material one-income risk on USD 3,000/month, especially if the tax downside leaves around USD 1,878-1,881/month after employee-style contribution stress tests. Public schooling is the budget-safe baseline; international school should be treated as an exception or later-income scenario. [src-420][src-423][src-704]
+
+#### Practical education conclusion
+
+Education is screenable but city-dependent. For a future child, Bosnia and Herzegovina is viable if the couple accepts local-language public schooling or can afford Sarajevo international schooling later. Sarajevo is the first education base; Mostar is a warmer/lower-rent fallback with UWC as an older-student international anchor, not a full-family school ecosystem. Keep exact school fees and private-preschool quotes as application-prep checks under `vq-147`.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -203,13 +241,14 @@ Practical first screen: **Mostar** first for warm-climate affordability, **Saraj
 - **Best legalization path for the woman**: Marriage or independent eligibility is the conservative screening baseline; no captured source supports an unmarried-partner dependent file for the heavy company/work route. [src-214][src-215]
 - **Does marriage change the picture**: Yes for conservative planning: if Bosnia is pursued, marriage is the safest relationship proof for any family/dependent file; exact sponsor timing and income rules can be checked in an application-prep pass. [src-214][src-215]
 - **Realism of staying after 03.2027**: Medium-low until the company / self-employment fit and Ukraine protection status are verified.
-- **Budget fit**: Cost/rent is one of Bosnia's strongest screens: modest 40 m2 rent proxies are roughly $182-$439/month across Tuzla / Mostar / Sarajevo / Banja Luka, and Mostar or Tuzla can fit even the conservative tax downside if legal/accountant/healthcare costs stay controlled. [src-562][src-563][src-564][src-565]
+- **Budget fit**: Cost/rent is one of Bosnia's strongest screens: modest 40 m2 rent proxies are roughly $182-$439/month across Tuzla / Mostar / Sarajevo / Banja Luka, and Mostar or Tuzla can fit even the conservative tax downside if legal/accountant/healthcare costs stay controlled. Healthcare/education add uncertainty: Sarajevo is safest for services and schools, while international schooling can become a material one-income risk. [src-562][src-563][src-564][src-565][src-701][src-704]
 
 **Pros**:
 - 90/180-style short stay appears plausible for scouting once Ukraine entry is officially verified. [src-204][src-214]
 - Permanent residence ladder after five years of temporary residence is captured from the Service for Foreigners' Affairs. [src-214]
 - Mostar offers a warmer, low-muggy climate profile. [src-216][src-217]
 - First-pass cost/rent is affordable: national Livingcost total is about $819/month for one person with rent and $1,926 for a family proxy; Mostar and Tuzla screen especially well for rent. [src-561][src-563][src-565]
+- Healthcare and education are screenable: major clinical centers exist in Sarajevo/Tuzla/Banja Luka/Mostar, Sarajevo has the strongest private-care fallback, public primary school is free/compulsory, and Sarajevo has a direct QSI international-school option. [src-701][src-703][src-704]
 
 **Cons / risks**:
 - No dedicated digital-nomad / remote-worker route captured.
@@ -217,6 +256,7 @@ Practical first screen: **Mostar** first for warm-climate affordability, **Saraj
 - No current Ukraine-specific temporary-protection / post-2027 bridge captured; ordinary residence is the only safe screening plan. [src-218]
 - Inland winters are cold relative to the couple's warm-climate preference. [src-216]
 - Low rent does not solve the core immigration issue: the visible company/founder route remains high-burden and may require local employees. [src-215]
+- Exact health-insurance onboarding, route-compliant private policy wording, and international-school/private-preschool fees remain uncaptured application-prep costs. [src-215][src-701][src-704]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -252,7 +292,7 @@ Practical first screen: **Mostar** first for warm-climate affordability, **Saraj
 | Flights / transport for two | — | TBD |
 | Rental deposit | — | Live listings / landlord practice still TBD; budget at least 1-2 months as an application-prep placeholder until verified. |
 | First month rent | $182-$439 modest 40 m2 proxy | Livingcost city range across Tuzla / Mostar / Sarajevo / Banja Luka; 80 m2 stress range $287-$724. [src-562][src-563][src-564][src-565] |
-| Health insurance | — | Evidence required; cost TBD. [src-215] |
+| Health insurance | — | Evidence required for residence; exact private-policy quotes and public-fund onboarding by final status remain `vq-146`. [src-215][src-701] |
 | Immigration lawyer / accountant | — | Strongly recommended before any company-founder file. |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |
@@ -260,6 +300,8 @@ Practical first screen: **Mostar** first for warm-climate affordability, **Saraj
 ### 6g. Contact points and communities
 - Service for Foreigners' Affairs field offices: official competent body for residence filings. [src-213][src-214]
 - UNHCR Help Bosnia and Herzegovina: asylum / international-protection information and service navigation. [src-218]
+- Federal Ministry of Health / Republika Srpska Ministry of Health and Social Welfare: public health-system authority anchors for FBiH / RS onboarding checks. [src-702][src-701]
+- QSI International School of Sarajevo and UWC Mostar: international-school anchors for education follow-up. [src-704]
 - Immigration lawyers / diaspora communities: TBD.
 
 ## Block 7 — Sources
@@ -268,6 +310,7 @@ Practical first screen: **Mostar** first for warm-climate affordability, **Saraj
 - [src-213] Bosnia and Herzegovina Service for Foreigners' Affairs — Entry of Aliens to B&H / FAQ.
 - [src-214] Bosnia and Herzegovina Service for Foreigners' Affairs — Stay of aliens in Bosnia and Herzegovina.
 - [src-215] Bosnia and Herzegovina Service for Foreigners' Affairs — Required documents and residence checklist PDFs.
+- [src-702] Federation of Bosnia and Herzegovina Ministry of Health — public website / health-law and health-system anchor.
 
 ### 7b. Reputable secondary
 - [src-218] UNHCR Help Bosnia and Herzegovina — asylum / international protection.
@@ -276,12 +319,15 @@ Practical first screen: **Mostar** first for warm-climate affordability, **Saraj
 - [src-420] PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Individual: Other taxes / Deductions.
 - [src-421] PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Corporate: Other taxes.
 - [src-422] PwC Worldwide Tax Summaries — Bosnia and Herzegovina, Individual: Foreign tax relief and tax treaties.
+- [src-701] Trade.gov — Bosnia and Herzegovina Medical Equipment / healthcare-system overview.
+- [src-703] Eurydice — Bosnia and Herzegovina education-system overview / organisation and structure.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
 
 ### 7d. Statistical / commercial
 - [src-204] VisaGuide.World Ukrainian passport visa-free list (aggregator placeholder for entry only).
+- [src-704] QSI International School of Sarajevo and UWC Mostar — public school websites.
 - [src-216] Climate to Travel Bosnia and Herzegovina climate page.
 - [src-217] WeatherSpark Bosnia and Herzegovina country climate comparison.
 - [src-423] ExchangeRate-API open rates — USD to BAM snapshot.
@@ -300,8 +346,12 @@ _(none yet)_
 - Citizenship / dual-citizenship operational requirements.
 - Exact entity/legal-form tax fit for a foreign-client IT worker: sole entrepreneur vs company-manager vs employee model, social-contribution base, VAT place-of-supply / reverse-charge handling, and compatibility with the residence route remain application-prep checks; `vq-108` is closed for screening.
 - Live rental listings, deposits/agency commissions, registered-address support, foreigner lease acceptance, and private health-insurance / accountant / lawyer costs for the actual target city.
+- Route-compliant private health-insurance quotes, maternity/newborn wording, and exact FBiH/RS/canton/Brcko health-fund onboarding by the final residence/tax status (`vq-146`).
+- Exact QSI/UWC/international-school tuition, private preschool prices, registration/transport/meal costs, and English/bilingual availability outside Sarajevo/Mostar (`vq-147`).
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-108` resolved in run-087: Bosnia and Herzegovina foreign-client IT tax structure is closed for screening using the existing PIT-only and contribution-stress baselines; exact entity, contribution base, VAT/place-of-supply, and residence-route compatibility remain application-prep checks.
 - Ukraine-specific entry/protection can be rechecked before travel or application prep.
+- `vq-146` added in run-153: healthcare insurance/onboarding and city-specific private-care prices remain application-prep checks.
+- `vq-147` added in run-153: exact international-school/private-preschool fees and non-Sarajevo availability remain application-prep checks.

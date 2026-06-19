@@ -111,3 +111,101 @@
   confidence: medium
   tags: [tax, worked-example, usd3000, moldovan-leu]
   notes: "Computed from USD 1 = MDL 17.327661 and PwC tax/contribution figures; contribution treatment is a sensitivity, not a final filing answer."
+
+
+- id: claim-moldova-012
+  topic: cost_of_living_national_screen
+  value:
+    one_person_total_with_rent_usd: 863
+    family_four_total_with_rent_usd: 2060
+    rent_utilities_one_person_usd: 462
+    food_one_person_usd: 288
+    transport_one_person_usd: 28.9
+  source: src-566
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, livingcost, moldova]
+  notes: "Commercial first-pass baseline; use for screening only, not as a live relocation budget."
+
+- id: claim-moldova-013
+  topic: chisinau_cost_rent_screen
+  value:
+    one_person_total_with_rent_usd: 967
+    family_four_total_with_rent_usd: 2283
+    one_bedroom_center_40m2_usd: 538
+    cheap_one_bedroom_40m2_usd: 373
+    three_bedroom_center_80m2_usd: 963
+    cheap_three_bedroom_80m2_usd: 660
+  source: src-567
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, chisinau, livingcost]
+  notes: "Chisinau is the default practical base for Moldova despite a tighter one-income margin than Balti."
+
+- id: claim-moldova-014
+  topic: balti_cost_rent_screen
+  value:
+    one_person_total_with_rent_usd: 806
+    family_four_total_with_rent_usd: 1870
+    one_bedroom_center_40m2_usd: 375
+    cheap_one_bedroom_40m2_usd: 265
+    three_bedroom_center_80m2_usd: 692
+    cheap_three_bedroom_80m2_usd: 477
+  source: src-568
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, balti, livingcost]
+  notes: "Affordability fallback; service depth and climate comfort remain tradeoffs."
+
+- id: claim-moldova-015
+  topic: tiraspol_cost_rent_screen
+  value:
+    one_person_total_with_rent_usd: 561
+    family_four_total_with_rent_usd: 1493
+    one_bedroom_center_40m2_usd: 156
+    cheap_one_bedroom_40m2_usd: 152
+    three_bedroom_center_80m2_usd: 286
+    cheap_three_bedroom_80m2_usd: 243
+  source: src-569
+  date_verified: 2026-06-14
+  confidence: medium
+  tags: [cost-of-living, rent, tiraspol, livingcost, transnistria]
+  notes: "Cheap rent is not enough to make Tiraspol a default base because the country profile already flags Transnistria practical risk."
+
+- id: claim-moldova-016
+  topic: healthcare_public_private_screen
+  value: "Moldova has a Ministry of Health authority anchor and a public healthcare baseline for legal residents; temporary-protection beneficiaries have primary/emergency healthcare rights, while expats commonly supplement with private insurance and private clinics concentrated in Chisinau."
+  source: src-706
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, public-health, private-insurance, chisinau]
+  notes: "Cross-read with src-705 and src-222; route-specific CNAM/private-insurance onboarding remains unverified."
+
+- id: claim-moldova-017
+  topic: healthcare_private_insurance_proxy
+  value:
+    private_insurance_proxy_usd_month: "50-100"
+    emergency_care: "free for everyone (screening guide statement)"
+  source: src-706
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, insurance, private-care, screening-proxy]
+  notes: "Aggregator proxy only; exact residence-file policy, maternity/newborn wording, and city provider prices are vq-148."
+
+- id: claim-moldova-018
+  topic: education_public_structure_compulsory_age
+  value: "Moldova's education system includes early education, primary, lower/upper secondary, VET, post-secondary, and higher education; compulsory education begins with the preparatory preschool group and ends at secondary education / age 16."
+  source: src-707
+  date_verified: 2026-06-18
+  confidence: medium-high
+  tags: [education, public-school, compulsory-education, preschool]
+  notes: "Used to pass Moldova section 5.7 at first-pass screening confidence."
+
+- id: claim-moldova-019
+  topic: chisinau_international_school_screen
+  value: "Chisinau has international/private school anchors including QSI International School of Chisinau and Heritage International School; a broad 2026 screening proxy is USD 3,000-8,000/year for international school and USD 200-500/month for English-language private kindergarten."
+  source: src-708
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [education, international-school, kindergarten, chisinau, tuition]
+  notes: "Exact school fee schedules, registration, meals, transport, and non-Chisinau availability are vq-149."

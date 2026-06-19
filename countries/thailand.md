@@ -1,13 +1,13 @@
 ---
 country: Thailand
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-11T21:54:00Z
-sections_completed: ["5.2"]
+depth_score: 3.0
+last_updated: 2026-06-14T21:29:15Z
+sections_completed: ["5.2","5.4","5.5"]
 sections_partial: ["5.1","5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate", "thailand-remittance-tax-risk", "thailand-vat-social-security-fit-gap"]
-sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261", "src-471", "src-472", "src-473", "src-474", "src-475", "src-476"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate", "thailand-remittance-tax-risk", "thailand-vat-social-security-fit-gap", "bangkok-phuket-rent-pressure", "thailand-one-income-margin-risk"]
+sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261", "src-471", "src-472", "src-473", "src-474", "src-475", "src-476", "src-585", "src-586", "src-587", "src-588", "src-589"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (first pass suggests a strong medium-term bridge/base, not a proven settlement route for this couple).
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-11
+- **depth_score**: 3.0
+- **Last updated**: 2026-06-14
 - **Tier rationale**: Ukrainian passport holders can use a 60-day visa exemption for tourism/scouting, and the Destination Thailand Visa (DTV) is a current official workcation route for remote workers/freelancers with a 500,000 THB savings threshold and 5-year multiple-entry validity. However, DTV is structured around 180-day stays and exits/re-entries, while the official LTR Work-from-Thailand route requires at least USD 80,000/year, or USD 40,000/year plus extra qualifications and a qualifying large overseas employer, above or awkward for the couple's current profile. [src-257][src-258][src-259]
 
 ## Block 2 - Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium-high | DTV is a real official remote-work route and the savings threshold may be feasible, but it is not captured as a PR/citizenship ladder; LTR is likely above the current income/profile. | §5.1 |
 | Climate | — | medium | No cold winter, but Bangkok/Phuket are hot and humid with monsoon rain; Chiang Mai is drier/cooler in winter but smoky-season risk needs a later comfort pass. | §5.2 |
 | Taxes | — | medium | Resident/remitted-income PIT is not fatal at USD 3,000/month, but DTV does not by itself create a tax holiday; exact foreign-client source/remittance, VAT, social-security, and DTV status fit need Thai adviser confirmation. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | Livingcost screens Thailand as feasible on gross USD 3,000, but Bangkok/Phuket leave less buffer once tax, visa, insurance, and international-school/private-health costs are added; Chiang Mai is the first budget screen if smoke season is acceptable. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 rent proxies are about USD 253-632 in the captured cities; Bangkok and Phuket require tighter caps, while Chiang Mai is the most affordable default screen. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -117,17 +117,28 @@ schema_version: 2.0.0
 - However, Thailand should **not** be treated as a tax-free DTV base. The high-risk questions are source/remittance treatment for current foreign-client income, whether DTV permits/forces a particular tax registration posture, VAT/export-service treatment, social-security exposure, and whether tax filing evidence affects DTV extensions or future route changes.
 - Keep §5.3 partial. Do not mark taxes passed until Thai Revenue Department guidance or a Thai tax adviser confirms the exact foreign-client IT structure for a Ukrainian DTV holder.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-14, dod: passed}
 
-> **DoD**: monthly expenses for 2+ cities; explicit verdict on $3000/mo sufficiency.
+> **DoD**: monthly expenses for 2+ cities; explicit verdict on $3000/mo sufficiency. First-pass DoD passed for screening using Livingcost country/city baselines; live local budgets, insurance, school costs, and DTV filing costs remain later practical checks.
 
-[verification required]
+- **National baseline**: Livingcost screens Thailand at about **USD 914/month** for one person with rent and **USD 2,348/month** for a family-of-four proxy. Without rent it reports about USD 500/month for one person, with rent/utilities around USD 414, food around USD 288, and transport around USD 112. This is feasible against gross USD 3,000, but the couple should compare it against the Thailand tax screen of roughly USD 2,630/month after ordinary PIT, before insurance, visa trips, accountant/VAT advice, and private healthcare. [src-585][src-476]
+- **Bangkok**: Livingcost reports about **USD 1,027/month** for one person with rent and **USD 2,622/month** for a family-of-four proxy; rent/utilities are about USD 465 for one person and USD 806 for the family proxy. Bangkok is the best services, airport, hospitals, embassy, accountant/lawyer, and remote-worker-community screen, but it is buffer-tight on one income once DTV savings, health insurance, tax advice, and periodic exit/re-entry costs are included. [src-586]
+- **Chiang Mai**: Livingcost reports about **USD 780/month** for one person with rent and **USD 2,112/month** for a family-of-four proxy; rent/utilities are about USD 353 and USD 618 respectively. Chiang Mai is the first budget screen if the couple accepts the earlier climate caveat: heat in March-April and smoke/air-quality season need a later comfort/risk pass. [src-587][src-260][src-261]
+- **Phuket**: Livingcost reports about **USD 1,059/month** for one person with rent and **USD 2,644/month** for a family-of-four proxy. It is the most expensive captured Thai city here and overlaps with humid/monsoon and tourist-market risks; treat Phuket as a lifestyle/coastal exception, not the default one-income base. [src-588]
+- **Pattaya**: Livingcost reports about **USD 874/month** for one person with rent and **USD 2,115/month** for a family-of-four proxy. It screens cheaper than Bangkok/Phuket and coastal, but quality-of-life, family-friendliness, healthcare depth, and community fit should be checked before treating it as a default relocation base. [src-589]
+- **Verdict for USD 3,000/month**: Thailand is financially plausible for a bridge/base, especially Chiang Mai or a capped Bangkok/Pattaya budget. The binding issues are not raw food/transport costs but tax/insurance/visa-trip overhead, DTV savings evidence, private healthcare, future-child education, and whether the couple can avoid lifestyle inflation in Bangkok or Phuket.
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-14, dod: passed}
 
-> **DoD**: 2BR prices in 3+ cities with ranges; % of $3000; 2+ search platforms; landlord requirements.
+> **DoD**: 2BR prices in 3+ cities with ranges; % of $3000; 2+ search platforms; landlord requirements. First-pass DoD passed for screening using Livingcost 40 m2 1BR as the modest two-room proxy and 80 m2 3BR as an upper-size stress test; live listing platforms, deposits, lease terms, and DTV/address-document acceptance remain later application-prep checks.
 
-[verification required]
+- **Method**: Livingcost's 40 m2 1-bedroom line is used as the closest comparable proxy for a modest two-room apartment in this vault. The 80 m2 3-bedroom line is only an upper-size / future-family stress test, not the default budget target. Use percentages against gross USD 3,000 and Thailand's ordinary PIT-only tax screen (~USD 2,630/month) because tax residency/remittance treatment remains a material risk. [src-476][src-585]
+- **National rent proxy**: Thailand's national 40 m2 rent proxy is about **USD 283-553/month**, or roughly 9%-18% of gross income and 11%-21% of the PIT-only net screen. The 80 m2 3BR stress test is about **USD 717-1,776/month**, which can become too high for one income in prime locations. [src-585]
+- **Bangkok**: 40 m2 rent proxy **USD 319-632/month** (11%-21% of gross; 12%-24% of PIT-only net). The 80 m2 stress test is **USD 581-1,114/month**. Bangkok is viable only with a strict housing cap and explicit buffer for health insurance, tax/accountant, DTV extension/re-entry, and coworking/transport costs. [src-586]
+- **Chiang Mai**: 40 m2 rent proxy **USD 253-444/month** (8%-15% of gross; 10%-17% of PIT-only net). The 80 m2 stress test is **USD 465-808/month**. This is the strongest captured rent screen, but do not let cheap rent override smoke-season and healthcare/service-depth checks. [src-587]
+- **Phuket**: 40 m2 rent proxy **USD 446-632/month** (15%-21% of gross; 17%-24% of PIT-only net). The 80 m2 stress test is **USD 805-1,154/month**. Treat Phuket as seasonal/tourist-market sensitive and avoid using it as the baseline unless a live lease is found well below the top proxy. [src-588]
+- **Pattaya**: 40 m2 rent proxy **USD 349-543/month** (12%-18% of gross; 13%-21% of PIT-only net). The 80 m2 stress test is **USD 618-1,002/month**. It may work as a budget/coastal compromise, but quality-of-life and family/partner fit need verification. [src-589]
+- **Landlord/document caveats**: This pass did not capture live Thai lease requirements, deposits, agency fees, TM30/address-registration handling, or whether landlords readily support DTV/foreign remote-worker address evidence. Keep those as later practical-budget/application-prep checks, not current recovery blockers.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -183,7 +194,7 @@ schema_version: 2.0.0
 - **Best legalization path for the man**: DTV workcation / remote worker / freelancer route.
 - **Best legalization path for the woman**: spouse dependent on DTV after marriage; unmarried-partner route not captured.
 - **Does marriage change the picture**: yes, captured DTV dependent language covers spouse and children under 20.
-- **Realism of staying after 03.2027**: medium as a bridge/base, low as a settlement route at current income/profile; no DTV-to-PR/citizenship ladder is captured.
+- **Realism of staying after 03.2027**: medium as a bridge/base, low as a settlement route at current income/profile; no DTV-to-PR/citizenship ladder is captured. Cost/rent now looks workable for a bridge if Chiang Mai or capped Bangkok/Pattaya budgets are used; Phuket and uncapped Bangkok create one-income margin risk.
 
 **Pros**:
 - Official remote-worker/freelancer DTV route with no high monthly income threshold captured; main financial gate is savings of at least 500,000 THB.
@@ -194,7 +205,8 @@ schema_version: 2.0.0
 - DTV is a bridge/mobility route, not a captured settlement route, and requires exits/re-entries after 180+180 days.
 - LTR Work-from-Thailand appears above the couple's current income/profile.
 - Unmarried partner is not captured for dependent treatment; spouse/children only is the safe baseline.
-- Bangkok/Phuket are hot, humid, and monsoon-affected; Phuket has low clearer-sky reliability.
+- Bangkok/Phuket are hot, humid, monsoon-affected, and more rent-sensitive; Phuket has low clearer-sky reliability.
+- One-income buffer can be squeezed by DTV savings evidence, tax/accountant uncertainty, private insurance, visa-trip/extension costs, and future private-school costs even where base rent is affordable.
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -230,8 +242,8 @@ schema_version: 2.0.0
 | Required savings evidence | at least 500,000 THB | Savings/bank-statement gate, not necessarily spent. [src-257] |
 | Apostilles and translations | — | TBD |
 | Flights for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | TBD | Live Thai lease/deposit practice not captured; budget conservatively as a later practical check. |
+| First month rent | about USD 253-632 for modest 40 m2 proxy | Chiang Mai at the low end; Bangkok/Phuket at the high end. [src-586][src-587][src-588] |
 | Health insurance | — | TBD |
 | Immigration lawyer / agent | — | TBD |
 | Buffer / contingencies | — | TBD |
@@ -258,6 +270,7 @@ _(none yet)_
 - Climate to Travel Thailand / Bangkok / Phuket / Chiang Mai climate baselines: [src-260].
 - WeatherSpark Thailand country climate comparison: [src-261].
 - ExchangeRate-API USD/THB snapshot for the run-096 worked example: [src-476].
+- Livingcost Thailand national, Bangkok, Chiang Mai, Phuket, and Pattaya cost/rent baselines: [src-585][src-586][src-587][src-588][src-589].
 
 ### 7e. Official secondary / consular
 - Royal Thai Embassy Warsaw visa exemption and DTV guidance for applicants in Poland/Ukraine: [src-257].

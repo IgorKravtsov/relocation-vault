@@ -1,13 +1,13 @@
 ---
 country: Panama
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-13T23:39:26Z
-sections_completed: ["5.2","5.4","5.5"]
-sections_partial: ["5.1","5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season", "panama-territorial-tax-source-risk", "panama-itbms-export-service-gap", "panama-city-rent-pressure"]
-sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203", "src-444", "src-445", "src-446", "src-447", "src-448", "src-553", "src-554", "src-555", "src-556"]
+depth_score: 5.5
+last_updated: 2026-06-19T06:06:57Z
+sections_completed: ["5.2","5.4","5.5","5.7"]
+sections_partial: ["5.1","5.3","5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season", "panama-territorial-tax-source-risk", "panama-itbms-export-service-gap", "panama-city-rent-pressure", "panama-health-insurance-quote-gap", "panama-international-school-cost-risk"]
+sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203", "src-444", "src-445", "src-446", "src-447", "src-448", "src-553", "src-554", "src-555", "src-556", "src-693", "src-694", "src-695", "src-696"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests Panama is useful as a short-to-medium-term remote-work base because the official remote-worker visa fits exactly USD 3,000/month foreign-source income, but it is a non-resident short-stay route and not a clean permanent-residence/citizenship ladder by itself. [src-199]
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-13T23:39:26Z
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-19T06:06:57Z
 - **Tier rationale**: keep as Tier-2 hint only if a separate residence route can be made realistic. The likely long-term routes require a Panama employer/professional file, friendly-nations economic/professional activity, or investment/family facts not yet proven for this Ukrainian remote-IT couple. [src-198][src-200]
 
 ## Block 2 - Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | Territorial-tax screening is attractive if foreign-client remote-work income is treated as foreign-source: USD 3,000/month could remain about USD 3,000 before accountant/ITBMS/registration costs. Downside if treated as Panama-source personal-service income is about USD 2,688/month after PIT, or USD 2,358/month with employee-style CSS/education-tax sensitivity. | §5.3 |
 | Cost of living | — | medium | Panama City is service-rich but expensive for one income; David is the budget fallback; Santiago is a middle-cost inland option. Livingcost gives Panama City about $1,583/month one-person total and $3,567 family proxy, David about $922/$2,086, and Santiago about $1,122/$2,729. | §5.4 |
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxies are about $794-$1,062 in Panama City, $302-$332 in David, and $387-$590 in Santiago; Panama City needs a strict cap, while David/Santiago fit the $3,000 gross and tax-downside budgets more comfortably. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | Panama City screens well for private care: local private insurance proxy is about $100-$175/month, private GP visits about $40-$80, and top private hospitals have English-speaking international-patient support; Boquete/David need escalation planning for serious care. Route-compliant policy wording, maternity/newborn terms, and exact CSS/MINSA onboarding remain application-prep checks. | §5.6 |
+| Education (future child) | — | medium | Panama City has a strong international/bilingual school ecosystem but it is expensive: international K-12 proxies run about $8,000-$20,000/year, ISP is cited around $10,000-$22,000/year, and bilingual schools around $3,000-$8,000/year. Public schools are Spanish-medium with English as a required subject. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -163,13 +163,45 @@ Panama uses USD-denominated prices in the captured Livingcost pages, so the coup
 **Search and lease follow-up**: this iteration did not capture live portals or lease practices. Before treating section 5.5 as application-ready, check Encuentra24, Compreoalquile, local real-estate agencies / Facebook groups, deposit and commission norms, whether landlords accept foreign remote-worker income, whether a lease can support immigration/banking address evidence, and whether utilities/internet are separately billed. Keep these as practical-budget checks rather than country-screening blockers.
 
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-[verification required]
+> **DoD status**: partial. First-pass screening is strong enough to compare cities and budget risk: Panama City has high-end private hospitals, local private insurance cost proxies, GP cost proxies, and the remote-worker route already requires Panama-covering medical insurance. Run-156 resolved `vq-143` for country screening: route-compliant policy quotes/wording, maternity/newborn coverage, CSS/MINSA onboarding by final status, and selected-city private-care prices remain application-prep checks rather than open screening blockers.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+Panama healthcare is highly city-dependent. The Ministry of Health (MINSA) is the official public-health authority and the remote-worker visa checklist already requires a health-insurance policy covering Panama. For a foreign remote-worker couple, the safe operational baseline is therefore private insurance first, with public/CSS eligibility checked only after the final residence and tax structure is chosen. [src-199][src-693][src-694]
 
-[verification required]
+| City / base | Public / private access screen | Private-cost proxy | Practical fit for the couple |
+|---|---|---:|---|
+| Panama City | Best captured healthcare base. ExpatLife describes Punta Pacifica, Hospital Nacional, and San Fernando as the core private-hospital ecosystem, with English-speaking / international-patient support. [src-694] | Local private insurance proxy $100-$175/month; international plans $200-$500/month; private GP proxy $40-$80. [src-694] | Best first landing base for remote-worker filing, insurance selection, labs, specialists, pregnancy/maternity planning, and any complex care. Budget risk is rent plus insurance, not absence of care. |
+| David / Chiriqui | ExpatLife points to Hospital Chiriqui in David for specialist and surgical needs for the highland region. [src-694] | No city-specific quote captured; use Panama private-insurance proxy until verified. | Good budget fallback if ordinary care is enough; still verify specialists, pediatricians, maternity, and emergency transfer practice before choosing it with a future child. |
+| Boquete / highlands | Basic MINSA clinic and private GP practices are described, but serious needs may require David or Panama City. [src-694] | No local quote captured; evacuation/transfer coverage becomes important. | Climate-friendly but healthcare-light. Use only if the couple is comfortable travelling to David/Panama City for specialist care, maternity, and emergencies. |
+
+**Insurance and onboarding baseline**:
+- The remote-worker visa checklist already requires medical insurance covering Panama, so a policy is not optional for the bridge route. [src-199]
+- ExpatLife's 2026 guide gives a first-pass private local plan proxy of **$100-$175/month**, with international plans around **$200-$500/month**; treat this as a screening range, not a route-compliant quote for two young adults. [src-694]
+- CSS/public eligibility is not proven for this couple's final structure. ExpatLife says CSS is open to Panamanian workers and eligible residents, while expats typically prefer private coverage; for this profile, confirm CSS/MINSA access only after the remote-worker vs ordinary-residence/tax file is chosen. [src-694]
+- Maternity/newborn terms, exclusions, waiting periods, and whether a local policy satisfies the migration checklist remain application-prep checks. [src-199][src-694]
+
+**Healthcare verdict**: Panama is healthcare-positive for screening if the couple can budget private insurance and use Panama City for serious care. It is not yet application-ready because exact policy wording, maternity/newborn terms, public/CSS eligibility, and city-specific private prices were not captured; those checks are now application-prep items, not screening blockers. [src-694]
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
+
+> **DoD status**: passed at medium confidence for country screening. Public-school language / enrollment documents, bilingual and international-school cost proxies, and a named flagship international-school option are covered. Exact live tuition invoices and final-city preschool quotes remain later practical-budget checks, not blockers for screening.
+
+Panama is education-positive only if the couple accepts either Spanish-medium integration or a high private-school budget. Panama City has the strongest international-school ecosystem; David and Boquete are more budget/climate-oriented but have thinner captured English-language school options. [src-695][src-696]
+
+| Option | Cost / document baseline | Fit for future child |
+|---|---:|---|
+| Public school | ExpatLife says public school enrollment for expat children requires a birth certificate, vaccination records, and previous transcripts; foreign documents should be apostilled and translated into Spanish. National public schools teach in Spanish, with English as a required subject from kindergarten. [src-695] | Best budget route, but the child must integrate in Spanish. Good for long-term settlement only if the family is ready for Spanish-language schooling. |
+| Private bilingual school | Broad proxy **$3,000-$8,000/year** for bilingual Spanish-English schools. [src-695] | The likely one-income compromise if public Spanish-only schooling is too hard but full international schooling is unaffordable. Need final-city quotes. |
+| International school | Broad proxy **$8,000-$20,000/year** for international schools; Panama City top options cited include ISP, Balboa Academy, Oxford International School, Colegio Internacional de Maria Inmaculada, and College Einstein. ISP is cited around **$10,000-$22,000/year** and presents itself as an international K-12 school with admissions, placement guides, tuition/fees information, and legal requirements for international students. [src-695][src-696] | Strongest English-language continuity option, but it can consume roughly 22%-61% of gross USD 36,000/year income before rent, insurance, and tax/accountant costs. Treat as a major budget risk. |
+
+**City screen**:
+- **Panama City** is the safest future-child base for international/bilingual schooling, but it is also the rent and cost pressure point. [src-554][src-695]
+- **David** may be the better one-income base if public or local bilingual schooling is acceptable; international-school depth was not captured in this pass. [src-555][src-695]
+- **Boquete / highlands** remain climate-friendly but need a separate school availability check before family planning because captured education evidence is Panama City-heavy. [src-695]
+
+**Education verdict**: Panama passes the education screening DoD at medium confidence. Public schooling is budget-friendly but Spanish-medium; private bilingual schooling is the realistic paid compromise; full international schooling is available mainly around Panama City and is a material one-income risk. [src-695][src-696]
+
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -207,17 +239,20 @@ Panama uses USD-denominated prices in the captured Livingcost pages, so the coup
 - **Best legalization path for the woman**: unclear. Marriage is the conservative baseline for any dependent file; unmarried-partner treatment was not captured. [src-200]
 - **Does marriage change the picture**: likely yes for documentary clarity; captured dependent language uses spouse/child/guardianship evidence, not unmarried partner evidence. [src-200]
 - **Realism of staying after 03.2027**: medium-low until a permanent-residence-capable route is verified; remote-worker visa alone is only 9+9 months.
+- **Healthcare / education screen**: Panama City is strong for private healthcare and international/bilingual schooling, but both add budget pressure; David/Boquete are cheaper or more climate-friendly but need city-specific health and school checks before family planning. [src-694][src-695]
 
 **Pros**:
 - Official remote-worker route exactly targets foreign-source telework/self-employment. [src-199]
 - Income threshold is B/.36,000/year, roughly the couple's current USD 3,000/month gross. [src-199]
 - No cold winter; Boquete/Guayabal offers a cooler highland climate option. [src-203]
+- Panama City has strong private healthcare and English/bilingual school options for a future child. [src-694][src-695]
 
 **Cons / risks**:
 - Remote-worker visa is a short-stay non-resident bridge, not a proven PR route. [src-198][src-199]
 - Ukraine-specific official entry table should still be checked before travel, but this is no longer a core screening blocker because tourist status is not the long-term route.
 - The USD 3,000/month budget sits exactly at the remote-worker threshold, leaving little margin. [src-199]
 - Very humid/rainy/cloudy climate in the practical lowland cities. [src-202]
+- Private insurance and international schooling can materially erode the one-income budget, especially in Panama City. [src-694][src-695]
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -268,6 +303,7 @@ Panama uses USD-denominated prices in the captured Livingcost pages, so the coup
 - [src-199] Panama remote-worker short-stay visa checklist.
 - [src-200] Panama friendly/specific-countries provisional/permanent residence checklist.
 - [src-201] Panama tourist entry and tourist-visa requirements.
+- [src-693] Panama Ministry of Health (MINSA) public website.
 
 ### 7b. Reputable secondary
 - [src-197] VisaGuide Ukrainian passport visa-free list; used only as a medium-confidence placeholder for Ukrainian entry until official Panama table is captured.
@@ -276,6 +312,8 @@ Panama uses USD-denominated prices in the captured Livingcost pages, so the coup
 - [src-446] PwC Panama individual other taxes: social security, educational insurance, and ITBMS headline.
 - [src-447] PwC Panama individual tax administration.
 - [src-448] PwC Panama corporate other taxes: ITBMS/export context.
+- [src-694] ExpatLife Panama healthcare guide.
+- [src-695] ExpatLife Panama education guide.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -287,14 +325,18 @@ _(none yet)_
 - [src-554] Livingcost Panama City cost/rent page.
 - [src-555] Livingcost David cost/rent page.
 - [src-556] Livingcost Santiago de Veraguas cost/rent page.
+- [src-696] International School of Panama public website.
 
 ### 7e. Not found
 - Official Panama / consular country table showing the current Ukraine-specific entry rule and exact visa-free duration remains useful before travel; `vq-062` is closed for screening to the tourist-status-is-not-residence baseline.
 - Confirmed country list / lawyer opinion for whether Ukrainians can use friendly-countries residence and whether foreign-professional residence fits a foreign-client IT worker; the screening baseline is negative/unknown until proven.
 - Panama tax-source classification for foreign-client IT performed physically from Panama, plus DGI/RUC registration, CSS/education-tax, ITBMS/export-service, and residence-file compatibility; `vq-112` was resolved for screening in run-093 and remains an application-prep/accountant gap.
-- Live rental listings, deposits, commissions, landlord acceptance of foreign remote-worker income, registered-address support, medical-insurance quotes, accountant fees, and immigration-lawyer fees remain practical-budget / application-prep checks after this Livingcost screen.
+- Live rental listings, deposits, commissions, landlord acceptance of foreign remote-worker income, registered-address support, accountant fees, and immigration-lawyer fees remain practical-budget / application-prep checks after this Livingcost screen.
+- Route-compliant private health-insurance quotes and policy wording for two young adults, maternity/newborn coverage, exact CSS/MINSA onboarding by final residence/tax status, and selected-city private GP/pediatric/maternity prices remain application-prep checks (`vq-143`).
+- Live international-school tuition invoices, private-preschool / bilingual-school city quotes outside Panama City, and final enrollment-document checks remain family-planning practical-budget work.
 - Route-specific remote-worker dependent checklist; the screening baseline is marriage for any later ordinary dependent file and no confirmed unmarried-partner route.
 
 ## Block 8 - Open questions and verification markers
 
 - `vq-112` resolved for screening in run-093: use the zero-PIT territorial baseline only as a provisional upside case and preserve the Panama-source PIT / employee-style contribution downside sensitivities. DGI/accountant confirmation of source classification, registration/RUC, CSS/education-tax, ITBMS/export-service handling, and immigration-file compatibility remains application-prep work.
+- `vq-143` pending: route-compliant private health-insurance quotes, maternity/newborn coverage, exact CSS/MINSA onboarding by final residence/tax status, and selected-city private-care prices.

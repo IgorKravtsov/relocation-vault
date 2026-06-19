@@ -1,8 +1,242 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-14
+last_updated: 2026-06-19
 ---
+
+## 2026-06-19 — run-157
+- Argentina: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-713, src-714, src-715, src-716.
+- Claims added: claim-argentina-017 through claim-argentina-020.
+- Verification queue: 6 -> 8 pending/open items (added vq-152 and vq-153); continue country-deep-dive below the threshold.
+
+## 2026-06-19 — run-156
+- Verification mode: closed 5 healthcare/education application-prep blockers (`vq-141` through `vq-145`).
+- Countries touched: Uruguay, Paraguay, Panama, and North Macedonia.
+- No new sources or claims added; exact insurance quotes, onboarding workflows, maternity/newborn terms, school fees, and final-city checks remain application-prep tasks.
+- Verification queue: 11 -> 6 pending/open items; next mode can resume country-deep-dive.
+
+## 2026-06-19 — run-155
+- Mexico: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-709, src-710, src-711, src-712.
+- Claims added: claim-mexico-017 through claim-mexico-020.
+- Verification queue: 9 -> 11 pending/open items (added vq-150 and vq-151); next mode should be verification.
+
+## 2026-06-18 — run-154
+- Moldova: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-705, src-706, src-707, src-708.
+- Claims added: claim-moldova-016 through claim-moldova-019.
+- Verification queue: 7 -> 9 pending/open items (added vq-148 and vq-149).
+
+## 2026-06-18 — run-153
+- Bosnia and Herzegovina: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-701, src-702, src-703, src-704.
+- Claims added: claim-bosnia-herzegovina-017 through claim-bosnia-herzegovina-020.
+- Verification queue: 5 -> 7 pending/open items (added vq-146 and vq-147).
+
+## 2026-06-18 — run-152
+- North Macedonia: depth_score 3.0 -> 5.5; section 5.7 completed and section 5.6 opened as partial.
+- Added healthcare/education sources src-697 through src-700 and claims claim-north-macedonia-016 through claim-north-macedonia-019.
+- Added vq-144 and vq-145 for North Macedonia healthcare insurance/onboarding and education fee/application-prep details.
+- Verification queue: 3 -> 5 pending/open items.
+
+## 2026-06-18 — run-151
+- Panama: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-693, src-694, src-695, src-696.
+- Claims added: claim-panama-016 through claim-panama-019.
+- Verification queue: 2 -> 3 (added vq-143 for Panama healthcare application-prep details).
+
+## 2026-06-18 — run-150
+- Paraguay: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-689, src-690, src-691, src-692.
+- Claims added: claim-paraguay-016 through claim-paraguay-019.
+- Verification queue: 1 -> 2 (added vq-142 for Paraguay healthcare application-prep details).
+
+## 2026-06-18 — run-149
+- Uruguay: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial).
+- Sources added: src-684 through src-688.
+- Claims added: claim-uruguay-016 through claim-uruguay-019.
+- Verification queue: 0 -> 1 pending/open item (added vq-141); continue country-deep-dive below the verification threshold.
+
+## 2026-06-18 — run-148
+- Verification mode: closed 11 pending application-prep blockers (`vq-130` through `vq-140`, non-sequential order) for healthcare / education screening.
+- Countries touched: Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, and Albania.
+- No new sources or claims added; exact insurance quotes, onboarding workflows, maternity exclusions, school tuition, and final-city checks remain application-prep tasks.
+- Verification queue: 11 -> 0 pending/open items; next mode can resume country-deep-dive.
+
+## 2026-06-18 — run-147
+- Albania: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial).
+- Sources added: src-680 through src-683.
+- Claims added: claim-albania-017 through claim-albania-020.
+- Verification queue: 9 -> 11 pending/open items (added vq-139 and vq-140); next mode should be verification.
+
+## 2026-06-17 — run-146
+- Georgia: depth_score 3.0 → 5.5 (section 5.7 completed; section 5.6 moved to partial)
+- Sources added: src-676, src-677, src-678, src-679
+- Claims added: claim-georgia-017, claim-georgia-018, claim-georgia-019, claim-georgia-020
+- Verification queue: 8 → 9 (added vq-138)
+
+## 2026-06-17 — run-145
+- Turkey: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial).
+- Sources added: src-671 through src-675.
+- Claims added: claim-turkey-019 through claim-turkey-022.
+- Verification queue: 7 -> 8 pending/open items (added vq-137).
+
+## 2026-06-17 — run-144
+- Serbia: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial).
+- Sources added: src-667 through src-670.
+- Claims added: claim-serbia-020 through claim-serbia-023.
+- Verification queue: 6 -> 7 pending/open items (added vq-136).
+
+## 2026-06-17 — run-143
+- Montenegro: depth_score 3.0 -> 5.0; sections 5.6 and 5.7 moved from pending to partial.
+- Sources added: src-662 through src-666.
+- Claims added: claim-montenegro-021 through claim-montenegro-025.
+- Verification queue: 4 -> 6 pending/open items (added vq-134 and vq-135).
+
+## 2026-06-17 — run-142
+- Slovenia: depth_score 3.0 → 5.5 (section 5.7 completed; section 5.6 opened as partial)
+- Sources added: src-656, src-657, src-658, src-659, src-660, src-661
+- Claims added: claim-slovenia-018, claim-slovenia-019, claim-slovenia-020, claim-slovenia-021, claim-slovenia-022
+- Verification queue: 3 → 4 (added vq-133)
+
+## 2026-06-17 — run-141
+- Slovakia: depth_score 3.0 → 5.5 (section 5.7 completed; section 5.6 partial)
+- Sources added: src-652, src-653, src-654, src-655
+- Claims added: claim-slovakia-020, claim-slovakia-021, claim-slovakia-022, claim-slovakia-023
+- Verification queue: 2 → 3 (added vq-132)
+
+## 2026-06-17 — run-140
+- Hungary: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
+- Sources added: src-648, src-649, src-650, src-651
+- Claims added: claim-hungary-021, claim-hungary-022, claim-hungary-023, claim-hungary-024
+- Verification queue: 1 -> 2 (added vq-131)
+
+## 2026-06-17 — run-139
+- Bulgaria: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
+- Sources added: src-644, src-645, src-646, src-647
+- Claims added: claim-bulgaria-022, claim-bulgaria-023, claim-bulgaria-024, claim-bulgaria-025
+- Verification queue: 0 -> 1 (added vq-130)
+
+## 2026-06-16 — run-138
+- Verification batch: resolved `vq-120`-`vq-129` for healthcare application-prep details across Portugal, Spain, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, and Romania.
+- Sources added: none
+- Claims added: none
+- Verification queue: 10 -> 0; healthcare quote/onboarding details remain before-filing checks, not country-screening blockers.
+
+## 2026-06-16 — run-137
+- Romania: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
+- Sources added: src-642, src-643
+- Claims added: claim-romania-021, claim-romania-022, claim-romania-023, claim-romania-024
+- Verification queue: 9 -> 10 (added vq-129); next mode should be verification
+
+## 2026-06-16 — run-136
+- Poland: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
+- Sources added: src-639, src-640, src-641
+- Claims added: claim-poland-022, claim-poland-023, claim-poland-024, claim-poland-025
+- Verification queue: 8 -> 9 (added vq-128)
+
+## 2026-06-16 — run-135
+- Czech Republic: depth_score 3.0 -> 5.5 (section 5.7 completed; section 5.6 partial)
+- Sources added: src-635, src-636, src-637, src-638
+- Claims added: claim-czech-016, claim-czech-017, claim-czech-018, claim-czech-019
+- Verification queue: 7 -> 8 (added vq-127)
+
+## 2026-06-16 — run-134
+- Malta: depth_score 4.0 -> 5.5 (section 5.7 completed; section 5.6 partial)
+- Sources added: src-631, src-632, src-633, src-634
+- Claims added: claim-malta-012, claim-malta-013, claim-malta-014, claim-malta-015
+- Verification queue: 6 -> 7 (added vq-126)
+
+## 2026-06-16 — run-133 Croatia healthcare/education
+- Opened Croatia §5.6 healthcare as partial with HZZO compulsory-insurance / registration / maternity-scope baselines and private doctor-cost proxies.
+- Completed Croatia §5.7 education for first-pass screening: 8-year compulsory public school, mandatory/free pre-primary year, childcare and international-school cost risks.
+- Added `src-626`-`src-630`, `claim-croatia-012`-`claim-croatia-015`, and `vq-125`; Croatia depth_score 4.0 → 5.5.
+
+
+## 2026-06-16 - run-132 - Cyprus healthcare/education first pass
+
+- Opened Cyprus section 5.6 as partial and section 5.7 as completed with GESY/private-insurance, public education, childcare, and international-school baselines.
+- Added sources `src-622` through `src-625`, claims `claim-cyprus-012` through `claim-cyprus-015`, and verification item `vq-124` for insurance quotes / GESY onboarding details.
+- Cyprus depth_score moved from 4.0 to 5.5; new flags `cyprus-private-insurance-quote-gap` and `cyprus-international-school-cost-risk`; next suggested focus is Croatia 5.6/5.7 while verification remains below threshold.
+
+## 2026-06-15 — run-131
+- Greece: depth_score 4.0 -> 5.5 (section 5.7 completed; section 5.6 opened as partial)
+- Sources added: src-619, src-620, src-621
+- Claims added: claim-greece-013, claim-greece-014, claim-greece-015
+- Verification queue: 3 -> 4 (added vq-123)
+
+## 2026-06-15 - run-130 - Italy healthcare/education first pass
+
+- Opened Italy section 5.6 as partial and section 5.7 as completed with SSN/private-care, DN insurance, early-childhood, public-school, childcare, and international-school baselines.
+- Added sources `src-616` through `src-618`, claims `claim-italy-012` through `claim-italy-015`, and verification item `vq-122` for DN-compliant insurance quotes / ASL registration details.
+- Italy depth_score moved from 4.0 to 5.5; new flags `italy-private-insurance-quote-gap` and `italy-international-school-cost-risk`; next suggested focus is Greece 5.6/5.7 while verification remains below threshold.
+
+## 2026-06-15 - run-129 - Spain healthcare/education first pass
+
+- Opened Spain section 5.6 as partial and section 5.7 as completed with healthcare access, private-care price proxies, early-childhood, public-school, childcare, and international-school baselines.
+- Added sources `src-613` through `src-615`, claims `claim-spain-012` through `claim-spain-015`, and verification item `vq-121` for DN-compliant insurance quotes / regional health-card details.
+- Spain depth_score moved from 4.0 to 5.5; new flags `spain-private-insurance-quote-gap` and `spain-international-school-cost-risk`; next suggested focus is Italy 5.6/5.7 while verification remains below threshold.
+
+## 2026-06-15 - run-128 - Portugal education/comfort first pass
+
+- Opened Portugal sections 5.7 and 5.8 with public-education, childcare/international-school cost, safety, English, and Ukraine-reception baselines.
+- Added sources `src-608` through `src-612` and claims `claim-portugal-015` through `claim-portugal-018`.
+- Portugal depth_score moved from 4.0 to 6.0; new flag `portugal-international-school-cost-risk`; next suggested focus is Spain 5.6/5.7 while verification remains below threshold.
+
+## 2026-06-15 - run-127 - UAE cost/rent first pass
+
+- Opened UAE sections 5.4 and 5.5 with Livingcost national, Dubai, Abu Dhabi, and Sharjah baselines.
+- Added sources `src-604` through `src-607` and claims `claim-uae-010` through `claim-uae-013`.
+- UAE depth_score moved from 2.5 to 4.5; new flags `dubai-abu-dhabi-rent-pressure` and `uae-one-income-margin-risk`; next suggested focus is Portugal 5.7/5.8 while verification remains below threshold.
+
+## 2026-06-15 - run-126 - Armenia cost/rent first pass
+
+- Opened Armenia sections 5.4 and 5.5 with Livingcost national, Yerevan, Gyumri, and Vanadzor baselines.
+- Added sources `src-600` through `src-603` and claims `claim-armenia-011` through `claim-armenia-014`.
+- Armenia depth_score moved from 2.0 to 3.0; new flags `yerevan-rent-pressure` and `armenia-one-income-margin-risk`; next suggested focus is verification/consolidation now that all countries have first-pass cost/rent coverage.
+
+## 2026-06-15 - run-125 - Kazakhstan cost/rent first pass
+
+- Opened Kazakhstan sections 5.4 and 5.5 with Livingcost national, Almaty, Nur-Sultan / Astana, Shymkent, and Aktau baselines.
+- Added sources `src-595` through `src-599` and claims `claim-kazakhstan-011` through `claim-kazakhstan-015`.
+- Kazakhstan depth_score moved from 2.0 to 3.0; new flags `almaty-rent-pressure` and `kazakhstan-one-income-margin-risk`; next suggested focus is Armenia 5.4/5.5 while verification remains below threshold.
+
+## 2026-06-15 - run-124 - Indonesia cost/rent first pass
+
+- Opened Indonesia sections 5.4 and 5.5 with Livingcost national, Jakarta, Surabaya, Bandung, and Denpasar/Bali baselines.
+- Added sources `src-590` through `src-594` and claims `claim-indonesia-011` through `claim-indonesia-015`.
+- Indonesia depth_score moved from 2.0 to 3.0; new flags `jakarta-rent-pressure` and `bali-lease-seasonality-risk`; next suggested focus is Kazakhstan 5.4/5.5 while verification remains below threshold.
+
+## 2026-06-14 - run-123 - Thailand cost/rent first pass
+
+- Opened Thailand sections 5.4 and 5.5 with Livingcost national, Bangkok, Chiang Mai, Phuket, and Pattaya baselines.
+- Added sources `src-585` through `src-589` and claims `claim-thailand-012` through `claim-thailand-016`.
+- Thailand depth_score moved from 2.0 to 3.0; new flags `bangkok-phuket-rent-pressure` and `thailand-one-income-margin-risk`; next suggested focus is Indonesia 5.4/5.5 while verification remains below threshold.
+
+## 2026-06-14 - run-122 - Malaysia cost/rent first pass
+
+- Opened Malaysia sections 5.4 and 5.5 with Livingcost national, Kuala Lumpur, George Town, Johor Bahru, and Ipoh baselines.
+- Added sources `src-580` through `src-584` and claims `claim-malaysia-013` through `claim-malaysia-017`.
+- Malaysia depth_score moved from 2.0 to 3.0; new flags `kuala-lumpur-rent-pressure` and `malaysia-one-income-margin-risk`; next suggested focus is Thailand 5.4/5.5 while verification remains below threshold.
+
+## 2026-06-14 - run-121 - Argentina cost/rent first pass
+
+- Opened Argentina sections 5.4 and 5.5 with Livingcost national, Buenos Aires, Cordoba, Mendoza, and Rosario baselines.
+- Added sources `src-575` through `src-579` and claims `claim-argentina-012` through `claim-argentina-016`.
+- Argentina depth_score moved from 2.0 to 3.0; new flags `buenos-aires-rent-pressure` and `argentina-one-income-margin-risk`; next suggested focus is Malaysia 5.4/5.5 while verification remains below threshold.
+
+## 2026-06-14 - run-120 - Mexico cost/rent first pass
+
+- Opened Mexico sections 5.4 and 5.5 with Livingcost national, Mexico City, Guadalajara, Cancun, and Merida baselines.
+- Added sources `src-570` through `src-574` and claims `claim-mexico-012` through `claim-mexico-016`.
+- Mexico depth_score moved from 2.0 to 3.0; new flags `mexico-city-rent-pressure` and `tourist-coast-cost-pressure`; next suggested focus is Argentina 5.4/5.5 while verification remains below threshold.
+
+## 2026-06-14 — run-119 — Moldova cost/rent first pass
+
+- Opened Moldova sections 5.4 and 5.5 with Livingcost national, Chisinau, Balti, and Tiraspol baselines.
+- Added sources `src-566` through `src-569` and claims `claim-moldova-012` through `claim-moldova-015`.
+- Moldova depth_score moved from 2.0 to 3.0; main finding is that Chisinau/Balti rent is affordable on the conservative tax-net band, while Tiraspol remains non-default because of Transnistria practical risk; next suggested focus is Mexico 5.4/5.5 while verification remains below threshold.
 
 ## 2026-06-14 — run-118 — Bosnia and Herzegovina cost/rent first pass
 

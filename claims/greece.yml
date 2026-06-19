@@ -107,3 +107,31 @@
   confidence: high
   tags: [greece, taxes, efka, social-insurance, self-employed, 2026]
   notes: "Auxiliary insurance and lump-sum benefit categories are listed separately by EFKA and should be checked by profession/entitlement; ordinary IT freelancer screening uses the mandatory main pension + health baseline."
+
+
+- id: claim-greece-013
+  topic: public_healthcare_access_for_protected_statuses
+  value: "UNHCR Greece states that refugees and asylum seekers have free access to primary, secondary, and tertiary healthcare; fully registered asylum seekers receive PAAYPA, while recognized refugees / subsidiary-protection holders need AMKA after residence-permit issuance for full healthcare access."
+  source: src-619
+  date_verified: 2026-06-15
+  confidence: medium-high
+  tags: [greece, healthcare, refugees, asylum, amka, paaypa]
+  notes: "Used as a screening proxy for protected-status healthcare access; DN/private-insurance filing still needs a route-specific check."
+
+- id: claim-greece-014
+  topic: compulsory_preschool_age_4_free_public
+  value: "Greek pre-primary school starts as compulsory two-year provision at age 4; Eurydice states that public nipiagogeia pre-school education is free of charge."
+  source: src-621
+  date_verified: 2026-06-15
+  confidence: medium-high
+  tags: [greece, education, preschool, ecec, public-school]
+  notes: "Under-age-4 municipal/private childcare remains separate and may be paid / voucher-dependent."
+
+- id: claim-greece-015
+  topic: education_system_structure
+  value: "Greece's formal school sequence includes compulsory two-year pre-primary from age 4, six-year primary school, three-year lower secondary gymnasio, and optional upper secondary lykeio."
+  source: src-620
+  date_verified: 2026-06-15
+  confidence: medium-high
+  tags: [greece, education, school-system, compulsory-schooling]
+  notes: "Used to pass the first-pass education screening section; city-level school catchments and language support remain later practical checks."

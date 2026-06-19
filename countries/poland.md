@@ -1,13 +1,13 @@
 ---
 country: Poland
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-12T07:13:26Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["poland-zus-social-contribution-gap", "poland-ryczalt-it-rate-fit-gap", "warsaw-rent-pressure"]
-sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091", "src-293", "src-320", "src-321", "src-322", "src-323", "src-501", "src-502", "src-503", "src-504"]
+depth_score: 5.5
+last_updated: 2026-06-16T14:41:19Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["poland-zus-social-contribution-gap", "poland-ryczalt-it-rate-fit-gap", "warsaw-rent-pressure", "poland-private-insurance-quote-gap", "poland-international-school-cost-risk"]
+sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091", "src-293", "src-320", "src-321", "src-322", "src-323", "src-501", "src-502", "src-503", "src-504", "src-639", "src-640", "src-641"]
 unverified_count: 4
 schema_version: 2.0.0
 ---
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (set after sufficient evidence; justify with sources)
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-12
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-16
 - **Tier rationale**: TBD. Poland is a uniquely relevant case because one partner already holds a Polish `karta pobytu` (residence permit), which creates a family-reunification path that does not exist for most other countries in the set. The new CUKR card (May 2026) also provides a clear post-2027 bridge for Ukrainian temporary-protection holders. If both paths hold, Poland could rate Tier 1 or Tier 2; the first tax pass suggests the self-employed tax answer can be workable, but exact ZUS and IT lump-sum classification require accountant confirmation.
 
 ## Block 2 — Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | First-pass self-employed model: 12% IT `ryczalt` may leave about PLN 8,777 / USD 2,412 per month before uncaptured ZUS social contributions; exact classification and ZUS table pending. | §5.3 |
 | Cost of living | — | medium | Livingcost first-pass screen: national one-person total with rent is about $1,393/month; Warsaw is expensive at about $2,026/month, while Krakow/Wroclaw screen around $1,662/month before healthcare, immigration, and accountant costs. | §5.4 |
 | Rent (decent 2BR) | — | medium | The 40 m2 1BR proxy is workable in Krakow/Wroclaw ($737-$973/month) but Warsaw is rent-pressured ($945 cheap / $1,304 center); 80 m2 3BR is an upper stress test, not the default. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | Public healthcare for Ukrainians under the special-protection framework is NFZ-funded; ordinary resident/self-employed access depends on insured status, and private coverage should be budgeted until the final route is fixed. | §5.6 |
+| Education (future child) | — | medium | Eurydice supports a normal public-school baseline: compulsory one-year preschool preparation, primary school from age 7, and education/training obligation to 18; childcare/international-school costs are the budget risk. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -200,17 +200,44 @@ Search/platform baseline for later housing work: start with OTODOM and OLX Nieru
 
 Practical interpretation: for the current one-income couple, **Wroclaw first, Krakow second, Warsaw only with a strict cap or compelling legal/community reason**. Budget planning should assume at least first month + deposit cash needs; exact deposit and agency-fee rules still belong in a later application-prep pass.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-16, dod: pending}
 
-> **DoD**: how to register after the move; private insurance cost for the couple; maternity / birth coverage.
+> **DoD status**: Partial. Public/NFZ access is clear for Ukrainians under the special-protection framework, and a practical public/private care baseline is captured. The exact private-insurance quote set, maternity waiting periods/exclusions, and onboarding workflow for the couple's final CUKR / family-reunification / self-employed status remain application-prep checks.
 
-[verification required]
+#### Public / NFZ baseline
+- For Ukrainian citizens covered by the special Ukraine framework, the patient portal says medical-services rules and settlements are to be identical to Polish patients, Ukrainian citizens have an additional title entitling them to health services in Poland, and the National Health Fund pays for the services from the state budget. [src-639]
+- The captured earlier legalization baseline also treats Status UKR as giving access to medical care. For this couple, if one or both still use Polish TP / PESEL UKR, healthcare access can be treated as a real public-system baseline rather than only private insurance. [src-063][src-639]
+- For CUKR / family-reunification / business residence after the special-protection phase, do not assume automatic public coverage without the final status. The conservative planning baseline is: preserve PESEL / NFZ entitlement when available, and budget private medical insurance until the exact insured title is confirmed. [src-639][src-640]
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Private care / insurance screen
+- Expat Arrivals describes Poland as a mixed public/private system; many residents combine both, and private insurance is useful because private-care costs can become expensive out of pocket. It also flags better facilities in large cities such as Warsaw, Krakow, and Wroclaw, plus public waiting-list / GP-referral friction. [src-640]
+- Livingcost city pages give a rough private doctor-visit proxy of about **$88.5 in Warsaw**, **$70.5 in Krakow**, and **$71.1 in Wroclaw**. These are commercial screening proxies, not clinic quotes, but they are enough to budget occasional private GP/specialist visits. [src-502][src-503][src-504]
+- For the relocation budget, keep a private-insurance line open until current quotes for two young adults are captured. Pregnancy planning should also be quote-driven: do not assume maternity coverage until waiting periods, exclusions, and newborn coverage are checked in the chosen policy.
 
-> **DoD**: kindergarten cost; public school quality for foreign kids; international school alternative with cost.
+#### Practical read for the couple
+- Healthcare is workable, especially if the Polish TP / PESEL UKR or another insured title applies, but the one-income budget should not rely on free private care.
+- Wroclaw and Krakow remain the better first screens because they have large-city medical infrastructure while avoiding Warsaw's higher rent pressure.
+- Keep `poland-private-insurance-quote-gap` as an application-prep risk: exact CUKR/residence-compliant private insurance, maternity coverage, and onboarding steps should be checked before filing / moving; `vq-128` is resolved for screening.
 
-[verification required]
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-16, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. Public education structure and early-childhood access are captured from Eurydice; exact school catchments, Ukrainian-language support, and live international-school admissions/prices remain application-prep.
+
+#### Public school / compulsory education
+- Eurydice describes Polish pre-school education as optional for 3-, 4-, and 5-year-olds and obligatory for 6-year-olds; every 3-, 4-, and 5-year-old has an entitlement to a place in a pre-primary setting in the community. [src-641]
+- Primary school is an 8-year single-structure school, usually for ages 7-15, with compulsory grade 1 starting at age 7. The education obligation continues until age 18 through school or other education/training settings. [src-641]
+- For a future child, the safe default is local public schooling plus Polish-language adaptation. This is viable as a long-term integration path, but it makes Polish language learning for the parents and child a practical priority.
+
+#### Childcare / private and international options
+- ECEC structure: care for children up to age 3 can be provided by crèches, kids' clubs, day-care providers, or nannies; pre-school education covers children aged 3 to 6/7 in nursery schools, preschool classes in primary schools, or other preschool settings. [src-641]
+- Livingcost private childcare proxies are material but below the Tier-1 tourist-city extremes: daycare/preschool is about **$621/month in Warsaw**, **$480/month in Krakow**, and **$468/month in Wroclaw**. [src-502][src-503][src-504]
+- International primary school is a major one-income risk: Livingcost gives about **$16,711/year in Warsaw**, **$14,173/year in Krakow**, and **$9,548/year in Wroclaw**. Treat international school as an exception / fallback, not the base plan. [src-502][src-503][src-504]
+
+#### Practical read for the couple
+- Poland is education-workable if the couple accepts local public schooling and Polish-language integration.
+- Wroclaw screens best for the future-child budget: lower international-school and childcare proxies than Warsaw/Krakow, while still being a major city.
+- Add `poland-international-school-cost-risk`: if the family requires English-language international schooling, the current one-income budget becomes tight quickly.
+
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -259,12 +286,15 @@ Practical interpretation: for the current one-income couple, **Wroclaw first, Kr
 **Pros**:
 - Existing Polish `karta pobytu` / CUKR relevance makes Poland unusually practical compared with many countries in the set.
 - Krakow and Wroclaw screen as workable on the current income if rent is controlled.
+- Public education is a realistic future-child baseline if the family accepts Polish-language integration.
 - Self-employed `ryczalt` tax may be workable if the 12% IT classification and ZUS assumptions are confirmed.
 
 **Cons / risks**:
 - Warsaw rent is too high as a default on one income.
 - Climate is colder/greyer than the couple's preference.
 - Full ZUS / VAT / business-residence fit is not yet verified.
+- Private insurance quotes, maternity coverage, and exact NFZ onboarding for the final route remain application-prep gaps.
+- International schooling would be expensive relative to one income.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -308,7 +338,7 @@ Practical interpretation: for the current one-income couple, **Wroclaw first, Kr
 | Flights for two | — | TBD |
 | Rental deposit | — | TBD; plan at least one month as a cash placeholder until Polish lease practice is captured. |
 | First month rent | $737-$973 Wroclaw/Krakow cheap-to-centre 40 m2 proxy; $945-$1,304 Warsaw | Livingcost first-pass proxy, not guaranteed live listings [src-502][src-503][src-504]. |
-| Health insurance (one year) | — | TBD |
+| Health insurance (one year) | — | TBD; public/NFZ access may apply under PESEL UKR or insured resident status, but private-policy quotes for two adults are still uncaptured. |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |
@@ -327,12 +357,15 @@ Practical interpretation: for the current one-income couple, **Wroclaw first, Kr
 - [src-064] Poland Gov.pl — Temporary protection extension until March 4, 2027 (2025-08-13)
 - [src-091] Kujawsko-Pomorskie Voivodeship information portal — family reunification (2020-07-21, accessed 2026-05-28)
 - [src-323] Biznes.gov.pl — How to choose the best form of business activity taxation (accessed 2026-06-07)
+- [src-639] Pacjent.gov.pl / NFZ — Medical assistance for Ukrainian citizens (2022-12-22, accessed 2026-06-16)
 
 ### 7b. Reputable secondary
 - [src-002] Council Implementing Decision (EU) 2025/1460 extending temporary protection
 - [src-320] PwC Worldwide Tax Summaries — Poland individual taxes on personal income (accessed 2026-06-07)
 - [src-321] PwC Worldwide Tax Summaries — Poland individual other taxes / social and health contributions (accessed 2026-06-07)
 - [src-322] PwC Worldwide Tax Summaries — Poland individual residence and tax administration (accessed 2026-06-07)
+- [src-640] Expat Arrivals — Healthcare and health insurance for expats in Poland (accessed 2026-06-16)
+- [src-641] Eurydice — Poland education-system / early-childhood / structure pages (accessed 2026-06-16)
 - [src-293] NBP USD/PLN exchange-rate API reference reused for 2026-06-05 USD/PLN calculation
 
 ### 7c. Community and forums
@@ -353,6 +386,8 @@ _(none yet)_
 - Official-primary rules on whether remote work for a foreign employer qualifies for a Polish work or business residence permit.
 - Direct annual sunny-day counts for Warsaw, Krakow, and Wroclaw (only sunshine-hour totals captured).
 - Exact 2026 ZUS normal / preferential self-employed contribution table and accountant-level classification of foreign-client IT services for 12% `ryczalt`, VAT / reverse-charge, and immigration-status compatibility remain application-prep checks; the screening baseline should not assume these are verified.
+- Residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NFZ/public-health onboarding workflow for the final CUKR / family / self-employed status.
+- School catchment / Ukrainian-language support and live international-school admissions/fees for the final city.
 
 ## Block 8 — Open questions and verification markers
 
@@ -362,3 +397,5 @@ _(none yet)_
 - `[verification required]` Direct sunny-day counts for Polish cities.
 - Application-prep check: official/current 2026 ZUS normal / preferential self-employed contribution amounts for a foreign-client IT sole proprietor.
 - Application-prep check: exact PKD/PKWiU classification, 12% `ryczalt` eligibility, VAT / reverse-charge handling, and immigration-status compatibility for a Ukrainian foreign-client IT freelancer in Poland.
+- Application-prep check after `vq-128` screening closure: residence-compliant private health-insurance quotes, maternity waiting periods / exclusions, and exact NFZ onboarding by final status / city.
+- Application-prep check: school catchment, Polish-as-additional-language support, and live international-school admissions / fees once a final city is chosen.

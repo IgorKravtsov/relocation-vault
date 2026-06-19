@@ -178,3 +178,48 @@
   confidence: medium
   tags: [cost-of-living, rent, kotor, montenegro, coastal-rent]
   notes: "Use Kotor only with a strict housing cap in first-pass screening."
+
+- id: claim-montenegro-021
+  topic: healthcare_institutional_baseline
+  value: "Montenegro's Health Insurance Fund (FZOCG) public site identifies the Health Insurance Fund of Montenegro, Podgorica headquarters, regional units, contracted health institutions and pharmacies, price lists, insured-person rights, medicines, and e-health links."
+  source: src-662
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [healthcare, health-insurance, public-system, montenegro]
+  notes: "Use as the public-system map; not proof that a DN or self-employed foreigner is automatically publicly insured."
+
+- id: claim-montenegro-022
+  topic: dn_health_insurance_requirement
+  value: "Montenegro's official digital-nomad application baseline requires proof of health insurance in the residence application file."
+  source: src-143
+  date_verified: 2026-06-17
+  confidence: high
+  tags: [digital-nomad, health-insurance, application, montenegro]
+  notes: "Private-insurance quotes, coverage exclusions, and later public-insurance onboarding remain verification items."
+
+- id: claim-montenegro-023
+  topic: ecec_structure_and_public_fees
+  value: "Eurydice states that Montenegro ECEC covers children from birth to primary-school entry, with nursery groups under age 3 and kindergarten groups from age 3 to school entry; public preschool parent fees are about EUR 50/month for full-day programmes and EUR 25/month for half-day programmes."
+  source: src-664
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, kindergarten, preschool, fees, montenegro]
+  notes: "Private preschool fees are set independently and need city-specific checks."
+
+- id: claim-montenegro-024
+  topic: compulsory_free_primary_education
+  value: "Eurydice states that Montenegro primary education is compulsory, typically lasts 9 years, and is available/free for pupils from about age 6 to 15."
+  source: src-665
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, primary-school, compulsory, free, montenegro]
+  notes: "Language adaptation and enrolment mechanics for foreign children remain practical checks."
+
+- id: claim-montenegro-025
+  topic: international_school_presence_gap
+  value: "QSI International School of Montenegro is located in Donja Gorica, Podgorica, and advertises preschool, elementary, middle, and secondary school levels, but tuition was not captured in this pass."
+  source: src-666
+  date_verified: 2026-06-17
+  confidence: medium
+  tags: [education, international-school, podgorica, verification-required, montenegro]
+  notes: "Presence/availability anchor only; exact tuition remains a verification item."

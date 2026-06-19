@@ -1,13 +1,13 @@
 ---
 country: Malta
 tier: null
-depth_score: 4.0
-last_updated: 2026-06-11T21:54:00Z
-sections_completed: ["5.2","5.4","5.5"]
-sections_partial: ["5.1","5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path", "malta-nrp-authorized-work-tax-fit-gap", "malta-rent-pressure"]
-sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052", "src-120", "src-293", "src-311", "src-312", "src-313", "src-314", "src-315", "src-376", "src-377", "src-378", "src-379", "src-380"]
+depth_score: 5.5
+last_updated: 2026-06-16T08:03:20Z
+sections_completed: ["5.2","5.4","5.5","5.7"]
+sections_partial: ["5.1","5.3","5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path", "malta-nrp-authorized-work-tax-fit-gap", "malta-rent-pressure", "malta-health-insurance-quote-gap", "malta-international-school-cost-risk"]
+sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052", "src-120", "src-293", "src-311", "src-312", "src-313", "src-314", "src-315", "src-376", "src-377", "src-378", "src-379", "src-380", "src-631", "src-632", "src-633", "src-634"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence makes Malta a mixed legalization candidate: it has EU temporary protection and a well-documented Nomad Residence Permit, but the nomad route requires EUR 42,000/year gross income and explicitly does not lead to long-term residence or citizenship by itself [src-047][src-049].
-- **depth_score**: 4.0
-- **Last updated**: 2026-06-11
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-16
 - **Tier rationale**: Do not classify yet. Main current risks are that the couple's current USD 3,000/month is below the nomad threshold, the NRP does not lead to PR/citizenship, the ordinary fallback is tax/rent-tight, and the exact Maltese tax/social-security treatment of foreign-client IT work under the NRP still needs adviser confirmation [src-002][src-049][src-311][src-312][src-376].
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | N/A | Malta has favorable NRP-specific 10% authorized-work taxation after a first-year relief concept, but the route is income-blocked at the couple's current budget; ordinary resident self-employed modelling gives about EUR 1,867-1,963/month after PIT and capped Class Two-style contributions before accountant/VAT edge cases. | §5.3 |
 | Cost of living | — | N/A | First-pass 2026 Livingcost data suggests Malta is expensive for the current income: Marsaskala is the only screened city with a plausible low-rent path, while Sliema is too rent-heavy by default. | §5.4 |
 | Rent (decent 2BR) | — | N/A | A 40 m2 1BR is the closest proxy for a two-room starter apartment; cheap 1BR rent ranges from about $691 in Marsaskala to $1,141 in Sliema, before deposits / agency practice verification. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | N/A | Partial first-pass baseline: NRP requires Malta/international health insurance; work-permit expats can access tax-funded public care, while non-EU/UK expats should budget private insurance and status-specific public-health onboarding. | §5.6 |
+| Education (future child) | — | N/A | Malta has an English/Maltese public-school system with 11 years of compulsory education from ages 5-16 and free childcare only if parents work or study; international schooling is a major budget risk. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -189,13 +189,39 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 
 **City recommendation for housing search.** Start with **Marsaskala** for affordability, then **Birkirkara** if centrality matters and a cheap 1BR is found. Treat **Valletta** as a convenience/tourist-premium market and **Sliema** as too rent-heavy for the current income by default.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-16, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. This pass captures the NRP private-insurance requirement, a practical public/private healthcare baseline, health-centre / hospital structure, pharmacy and emergency-access notes, and doctor-visit price proxies. It remains partial because Malta-compliant private-insurance quotes for two young adults, maternity waiting periods / exclusions, and the exact public-health onboarding path for the couple's final status still need application-prep checks; `vq-126` is resolved for screening.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Access baseline.** For the NRP file, Residency Malta's checklist says accommodation and Malta/international health insurance are submitted after Approval in Principle and must cover the permit period [src-048]. That means the couple should treat private health insurance as an up-front immigration cost, not an optional upgrade. Expat Arrivals' Malta healthcare guide says Maltese citizens and expats with work permits have access to free tax-funded healthcare, EU short-stay visitors can rely on EHIC/GHIC style arrangements, and non-EU/UK expats need private insurance [src-631]. Confidence: medium for the public/private access baseline because it is secondary; high that the NRP itself requires insurance because the NRP checklist is official.
 
-[verification required]
+**Public healthcare structure.** Malta's public healthcare is described as two-level: public health centres / clinics and hospitals. Health centres provide general practitioners and nurses and selected specialised services such as immunisation, gynaecology, physiotherapy, and mental healthcare; residents are assigned to a public health centre based on residential address [src-631]. For planning, this means city choice matters less than residence-address registration and status eligibility.
+
+**Private healthcare and price proxies.** Private healthcare is accessible and often used for shorter waiting times, but in-hospital costs can add up [src-631]. Livingcost's March 2026 Malta pages give a low private doctor-visit proxy of about **$20** nationally and in Valletta / Sliema / Birkirkara / Marsaskala [src-376][src-377][src-378][src-379][src-380]. This is useful for GP-level screening only; it is not a specialist, laboratory, imaging, insurance, or maternity quote.
+
+**Pharmacies, emergency, vaccination.** Expat Arrivals states that every Maltese village has at least one pharmacy, many have more, and pharmacies can provide basic advice; the emergency number is **112** and operators can speak Maltese and English [src-631]. It also states that no special vaccinations are required for entry, but routine vaccinations such as MMR and diphtheria-tetanus-polio should be current [src-631].
+
+**Pregnancy / child healthcare caveat.** This pass did not capture official maternity coverage rules for the couple's likely status or private maternity waiting periods. Until that is verified, model Malta as requiring a private-insurance policy review before pregnancy planning, plus a public-eligibility check after the exact residence / work / NRP status is selected.
+
+**Healthcare playbook for the couple.**
+1. If filing NRP, budget a one-year Malta/international health-insurance policy before final permit issuance [src-048].
+2. Before selecting Malta, get two or three actual insurer quotes for two young adults and ask explicitly about maternity waiting periods, outpatient cover, pre-existing exclusions, dental, repatriation, and whether the policy wording satisfies Residency Malta.
+3. If moving under an ordinary work/self-employment route rather than NRP, verify whether the status creates public-health eligibility and what registration step assigns the local health centre.
+4. Keep a private clinic / GP cash buffer even if public access is available, because private care may be the practical way to avoid waits and because the current price evidence covers only a basic doctor-visit proxy.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-16, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. This section covers childcare, compulsory/public education structure, language/integration baseline, and international-school cost risk using Eurydice plus existing Livingcost cost proxies. It is not an application guide for school admissions.
+
+**System structure and language.** Eurydice's Malta overview describes a system where childcare is available from age 3 months to 2 years 9 months, kindergarten covers roughly ages 2 years 9 months to 5 years, and compulsory education lasts **11 years**, from ages **5 to 16** [src-632]. The compulsory phase consists of primary education from age 5 to 11 and secondary education from age 11 to 16, split between middle schools and secondary schools [src-632]. The organisation page confirms primary education lasts six years, for children aged 5 to 11 [src-633].
+
+**Public / church / independent school baseline.** Eurydice notes that kindergarten classes are operated by State, Church, and Independent schools, and that around half of students in compulsory education attend state schools while the rest attend church or independent schools [src-632]. Malta therefore looks more English-friendly than many EU options, but not friction-free: the child may still need Maltese/English integration support, and admissions depend on school type, address, and timing.
+
+**Childcare costs and availability.** Eurydice says Malta introduced a Free Childcare Scheme from April 2014, making childcare provision free for parents who are in employment or furthering their education [src-634]. For this couple, that is potentially helpful if the student partner is still studying or both parents later work, but it needs eligibility confirmation for non-citizen residents and the exact residence status. Livingcost gives first-pass daycare / preschool proxies of **$267/month in Valletta**, **$436/month in Birkirkara**, **$650/month in Sliema**, and **$654/month in Marsaskala** [src-377][src-378][src-379][src-380]. Treat those as private / out-of-pocket stress-test numbers, not the guaranteed cost after any public scheme.
+
+**International-school risk.** Livingcost international-primary proxies range from about **$7,201/year in Birkirkara** to **$12,962/year in Valletta**, with Sliema and Marsaskala around **$9,361-$9,341/year** [src-377][src-378][src-379][src-380]. At the couple's USD 3,000/month gross income and Malta's ordinary tax-net stress-test band, international school is a major budget risk. The workable baseline is public / state or possibly church schooling, not an international-school plan.
+
+**Education verdict for a future child.** Malta is a positive-to-moderate education fit if the family accepts local public / state schooling and bilingual English/Maltese adaptation. It is weaker if the plan requires private international education, because tuition can consume several months of the couple's net income. For childcare before age 5, verify free-childcare eligibility against the parents' exact status, work/study situation, and chosen locality before budgeting it as zero.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -233,6 +259,8 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 - **Does marriage change the picture**: Yes. Marriage makes dependent inclusion cleaner than relying on de facto partnership evidence.
 - **Realism of staying after 03.2027**: Low-to-uncertain on current evidence unless income rises and a separate long-term-countable route is found.
 - **Budget fit after rent pass**: Tight to negative. Marsaskala is the only screened city that looks potentially manageable on current income; Birkirkara / Valletta are tight and Sliema is too rent-heavy by default. [src-377][src-378][src-379][src-380]
+- **Healthcare baseline**: Private health insurance is a filing cost for NRP; public healthcare may be available under work-permit / contribution-linked routes, but exact onboarding and insurance quotes remain application-prep checks [src-048][src-631].
+- **Education baseline**: Public / state schooling can work because compulsory education runs ages 5-16 and Malta has English-language practicality, but childcare and international schooling can materially stress the budget [src-632][src-634].
 
 **Pros**:
 - Official, English-language NRP pages and checklist are unusually clear [src-047][src-048][src-049].
@@ -243,6 +271,8 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 - NRP threshold EUR 3,500/month gross is above current income (claim-malta-002).
 - NRP tax treatment looks favorable, but social-security / VAT / exact authorised-work classification for this couple's foreign-client IT file still needs adviser confirmation.
 - NRP explicitly does not lead to long-term residence or citizenship (claim-malta-005).
+- Private health-insurance quotes, maternity exclusions, and status-specific public-health onboarding are not yet captured.
+- International schooling is too expensive for the current one-income plan unless income rises or a public/local school path is acceptable.
 - No Malta-specific TP-to-ordinary-residence bridge captured for the post-04 March 2027 cliff.
 - Unmarried partner inclusion needs written confirmation despite de facto partnership evidence in the checklist.
 
@@ -255,7 +285,7 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 - For the student partner: collect relationship evidence; student-status impacts are unresearched.
 
 ### 6b. First month after arrival
-- If NRP was approved in principle, submit compliant accommodation and health-insurance proof, then proceed with biometrics / residence-card steps per Residency Malta instructions [src-048][src-049].
+- If NRP was approved in principle, submit compliant accommodation and health-insurance proof, then proceed with biometrics / residence-card steps per Residency Malta instructions [src-048][src-049]. Keep the insurer wording and coverage period in the filing pack.
 - If relying on TP, use official Malta IPA / Home Affairs guidance once captured; current local procedure still [verification required].
 
 ### 6c. First 3–6 months
@@ -279,13 +309,15 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 | Residence card fee | EUR 100/person | Paid to Identità [src-049] |
 | Police certificate / translations | — | Non-English documents need English translation [src-048] |
 | Accommodation | EUR 600-1,000/month target, plus deposit | Marsaskala / Birkirkara first; avoid Sliema at current income unless rent is unusually low [src-378][src-379][src-380]. |
-| Health insurance | — | Must cover Malta/international risks for one full year [src-048] |
+| Health insurance | — | Must cover Malta/international risks for one full year; exact quotes for two young adults remain application-prep checks after `vq-126` screening closure [src-048] |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | Complete after healthcare / insurance / travel / live-listing checks |
 
 ### 6g. Contact points and communities
 - Residency Malta Agency, Zentrum Business Centre, Level 2, Mdina Road, Qormi QRM 9010; clientrelations.residencymalta@gov.mt; +356 22034000 [src-047].
 - Malta TP application contact points: [verification required].
+- Healthcare: use the chosen insurer, local health centre, and emergency number 112; verify public-health registration only after the final residence status is known [src-631].
+- Education: start with Malta state-school / free-childcare eligibility checks before pricing international schools [src-632][src-634].
 
 ## Block 7 — Sources
 
@@ -299,11 +331,15 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 - [src-051] Komunità Malta citizenship by naturalisation.
 - [src-315] Legislation Malta Legal Notice 277 of 2023 (Nomad Residence Permits Income Tax Rules metadata).
 
-### 7b. Reputable secondary
+### 7b. Official secondary and reputable secondary
+- [src-632] Eurydice Malta overview.
+- [src-633] Eurydice Malta organisation of education system.
+- [src-634] Eurydice Malta early childhood education and care.
 - [src-311] PwC Malta individual taxes on personal income.
 - [src-312] PwC Malta individual residence.
 - [src-313] PwC Malta other taxes.
 - [src-314] PwC Malta deductions / tax administration.
+- [src-631] Expat Arrivals Malta healthcare guide.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -325,3 +361,4 @@ _(none yet)_
 ## Block 8 — Open questions and verification markers
 
 - `vq-093` resolved for screening in run-100: Malta tax planning remains partial because NRP is income-gated; exact authorised-work, first-year relief, Class Two, VAT, and source/remittance treatment is application-prep/accountant work.
+- `vq-126` resolved for screening in run-138: Malta healthcare application-prep details, including NRP/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact public-health onboarding for the couple's final residence/work/NRP status, remain before-filing checks.

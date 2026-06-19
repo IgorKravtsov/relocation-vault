@@ -133,3 +133,39 @@
   confidence: medium
   tags: [cost-of-living, rent, santiago-de-veraguas, livingcost]
   notes: "Middle-cost inland fallback between Panama City and David."
+
+- id: claim-panama-016
+  topic: healthcare_private_care_screen
+  value: "Panama City has a strong private-healthcare screen with private insurance proxies of USD 100-175/month for local plans, USD 200-500/month for international plans, and private GP visits around USD 40-80."
+  source: src-694
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, private-insurance, panama-city, cost-proxy]
+  notes: "MINSA is the official public-health authority at src-693; route-compliant policy wording and exact public/CSS onboarding remain verification work."
+
+- id: claim-panama-017
+  topic: healthcare_city_escalation_baseline
+  value: "For the Boquete/highland option, serious care may require David or Panama City; Hospital Chiriqui in David is the captured specialist/surgical fallback for the highland region."
+  source: src-694
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [healthcare, boquete, david, city-selection]
+  notes: "This supports screening Boquete as climate-friendly but healthcare-light."
+
+- id: claim-panama-018
+  topic: education_public_school_enrollment_language
+  value: "Panama public schools teach in Spanish with English as a required subject from kindergarten; expat-child public school enrollment requires apostilled/translated birth certificate and previous transcripts plus vaccination records."
+  source: src-695
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [education, public-school, enrollment, language]
+  notes: "Use as a medium-confidence screening baseline until official MEDUCA enrollment guidance is captured."
+
+- id: claim-panama-019
+  topic: education_private_international_cost_screen
+  value: "Panama education cost proxies are about USD 3,000-8,000/year for bilingual schools, USD 8,000-20,000/year for international schools, and about USD 10,000-22,000/year for International School of Panama as the flagship expat option."
+  source: src-695
+  date_verified: 2026-06-18
+  confidence: medium
+  tags: [education, international-school, bilingual-school, cost-proxy]
+  notes: "ISP public pages at src-696 confirm admissions/placement/tuition-fees/legal-requirements anchors; exact live invoices remain practical-budget work."

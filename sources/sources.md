@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-14
+last_updated: 2026-06-19
 ---
 
 # Sources Registry
@@ -4707,7 +4707,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Spain
-- **Facts supporting**: Spain national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, and national 1BR / 3BR rent bands
+- **Facts supporting**: Spain national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, national 1BR / 3BR rent bands, doctor-visit proxy, daycare/preschool proxy, and international primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -4731,7 +4731,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Spain
-- **Facts supporting**: Valencia cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Facts supporting**: Valencia cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, internet, doctor-visit proxy, daycare/preschool proxy, and international primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -4743,7 +4743,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Spain
-- **Facts supporting**: Malaga cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Facts supporting**: Malaga cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, internet, doctor-visit proxy, daycare/preschool proxy, and international primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -4767,7 +4767,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Italy
-- **Facts supporting**: Italy national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, and national 1BR / 3BR rent bands
+- **Facts supporting**: Italy national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, national 1BR / 3BR rent bands, doctor-visit proxy, daycare/preschool proxy, and international-primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -4779,7 +4779,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Italy
-- **Facts supporting**: Rome cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Facts supporting**: Rome cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, internet, doctor-visit proxy, daycare/preschool proxy, and international-primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -4791,7 +4791,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Italy
-- **Facts supporting**: Milan cost/rent stress test: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Facts supporting**: Milan cost/rent stress test: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, internet, doctor-visit proxy, daycare/preschool proxy, and international-primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -4803,7 +4803,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Italy
-- **Facts supporting**: Naples cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Facts supporting**: Naples cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, internet, doctor-visit proxy, daycare/preschool proxy, and international-primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -4815,7 +4815,7 @@ Each source entry:
 - **Date published**: updated 2026-03-11
 - **Date accessed**: 2026-06-09
 - **Used by**: Italy
-- **Facts supporting**: Palermo cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities and internet
+- **Facts supporting**: Palermo cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, internet, doctor-visit proxy, daycare/preschool proxy, and international-primary-school proxy
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-09
 
@@ -6807,3 +6807,1827 @@ Each source entry:
 - **Facts supporting**: Tuzla cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-14
+
+
+## src-566
+- **Title**: Livingcost — Cost of living in Moldova
+- **URL**: https://livingcost.org/cost/moldova
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-14
+- **Used by**: Moldova
+- **Facts supporting**: Moldova national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-567
+- **Title**: Livingcost — Cost of living in Chisinau
+- **URL**: https://livingcost.org/cost/moldova/chisinau
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-14
+- **Used by**: Moldova
+- **Facts supporting**: Chisinau cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-568
+- **Title**: Livingcost — Cost of living in Balti
+- **URL**: https://livingcost.org/cost/moldova/balti
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-14
+- **Used by**: Moldova
+- **Facts supporting**: Balti cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-569
+- **Title**: Livingcost — Cost of living in Tiraspol
+- **URL**: https://livingcost.org/cost/moldova/tiraspol
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-14
+- **Used by**: Moldova
+- **Facts supporting**: Tiraspol cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as a non-default city because of Transnistria practical risk
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-570
+- **Title**: Livingcost - Cost of living in Mexico
+- **URL**: https://livingcost.org/cost/mexico
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Mexico
+- **Facts supporting**: Mexico national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-571
+- **Title**: Livingcost - Cost of living in Mexico City
+- **URL**: https://livingcost.org/cost/mexico/mexico
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Mexico
+- **Facts supporting**: Mexico City cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-572
+- **Title**: Livingcost - Cost of living in Guadalajara
+- **URL**: https://livingcost.org/cost/mexico/guadalajara
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Mexico
+- **Facts supporting**: Guadalajara cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-573
+- **Title**: Livingcost - Cost of living in Cancun
+- **URL**: https://livingcost.org/cost/mexico/cancun
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Mexico
+- **Facts supporting**: Cancun cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-574
+- **Title**: Livingcost - Cost of living in Merida, Mexico
+- **URL**: https://livingcost.org/cost/mexico/merida
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Mexico
+- **Facts supporting**: Merida cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-575
+- **Title**: Livingcost - Cost of living in Argentina
+- **URL**: https://livingcost.org/cost/argentina
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Argentina
+- **Facts supporting**: Argentina national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-576
+- **Title**: Livingcost - Cost of living in Buenos Aires
+- **URL**: https://livingcost.org/cost/argentina/buenos-aires
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Argentina
+- **Facts supporting**: Buenos Aires cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-577
+- **Title**: Livingcost - Cost of living in Cordoba, Argentina
+- **URL**: https://livingcost.org/cost/argentina/cordoba
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Argentina
+- **Facts supporting**: Cordoba cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-578
+- **Title**: Livingcost - Cost of living in Mendoza
+- **URL**: https://livingcost.org/cost/argentina/mendoza
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Argentina
+- **Facts supporting**: Mendoza cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-579
+- **Title**: Livingcost - Cost of living in Rosario
+- **URL**: https://livingcost.org/cost/argentina/rosario
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Argentina
+- **Facts supporting**: Rosario cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as a cheap fallback pending safety and service-depth checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-580
+- **Title**: Livingcost - Cost of living in Malaysia
+- **URL**: https://livingcost.org/cost/malaysia
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Malaysia
+- **Facts supporting**: Malaysia national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, salary context, utilities, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-581
+- **Title**: Livingcost - Cost of living in Kuala Lumpur
+- **URL**: https://livingcost.org/cost/malaysia/kuala-lumpur
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Malaysia
+- **Facts supporting**: Kuala Lumpur cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-582
+- **Title**: Livingcost - Cost of living in George Town, Malaysia
+- **URL**: https://livingcost.org/cost/malaysia/george-town
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Malaysia
+- **Facts supporting**: George Town / Penang cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as the first captured warm/coastal compromise
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-583
+- **Title**: Livingcost - Cost of living in Johor Bahru
+- **URL**: https://livingcost.org/cost/malaysia/johor-bahru
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Malaysia
+- **Facts supporting**: Johor Bahru cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-584
+- **Title**: Livingcost - Cost of living in Ipoh
+- **URL**: https://livingcost.org/cost/malaysia/ipoh
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Malaysia
+- **Facts supporting**: Ipoh cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as an affordability fallback pending healthcare, connectivity, service-depth, and remote-worker community checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-585
+- **Title**: Livingcost - Cost of living in Thailand
+- **URL**: https://livingcost.org/cost/thailand
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Thailand
+- **Facts supporting**: Thailand national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, salary context, utilities, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-586
+- **Title**: Livingcost - Cost of living in Bangkok
+- **URL**: https://livingcost.org/cost/thailand/bangkok
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Thailand
+- **Facts supporting**: Bangkok cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as services-rich but margin-tight on one income
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-587
+- **Title**: Livingcost - Cost of living in Chiang Mai
+- **URL**: https://livingcost.org/cost/thailand/chiang-mai
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Thailand
+- **Facts supporting**: Chiang Mai cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as the first budget screen pending smoke-season and service-depth checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-588
+- **Title**: Livingcost - Cost of living in Phuket
+- **URL**: https://livingcost.org/cost/thailand/phuket
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Thailand
+- **Facts supporting**: Phuket cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as coastal/tourist-market lifestyle exception rather than default base
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+
+## src-589
+- **Title**: Livingcost - Cost of living in Pattaya
+- **URL**: https://livingcost.org/cost/thailand/pattaya
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-14
+- **Used by**: Thailand
+- **Facts supporting**: Pattaya cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as a budget/coastal compromise pending quality-of-life and family-fit checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-14
+## src-590
+- **Title**: Livingcost - Cost of living in Indonesia
+- **URL**: https://livingcost.org/cost/indonesia
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Indonesia
+- **Facts supporting**: Indonesia national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, salary context, utilities, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-591
+- **Title**: Livingcost - Cost of living in Jakarta
+- **URL**: https://livingcost.org/cost/indonesia/jakarta
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Indonesia
+- **Facts supporting**: Jakarta cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-592
+- **Title**: Livingcost - Cost of living in Surabaya
+- **URL**: https://livingcost.org/cost/indonesia/surabaya
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Indonesia
+- **Facts supporting**: Surabaya cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-593
+- **Title**: Livingcost - Cost of living in Bandung
+- **URL**: https://livingcost.org/cost/indonesia/bandung
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Indonesia
+- **Facts supporting**: Bandung cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-594
+- **Title**: Livingcost - Cost of living in Denpasar
+- **URL**: https://livingcost.org/cost/indonesia/denpasar
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Indonesia
+- **Facts supporting**: Denpasar cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as the Bali warm/coastal proxy pending live listing and tourist-season lease checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-595
+- **Title**: Livingcost - Cost of living in Kazakhstan
+- **URL**: https://livingcost.org/cost/kazakhstan
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Kazakhstan
+- **Facts supporting**: Kazakhstan national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, salary context, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-596
+- **Title**: Livingcost - Cost of living in Almaty
+- **URL**: https://livingcost.org/cost/kazakhstan/almaty
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Kazakhstan
+- **Facts supporting**: Almaty cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as services-rich but rent-sensitive
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-597
+- **Title**: Livingcost - Cost of living in Nur-Sultan
+- **URL**: https://livingcost.org/cost/kazakhstan/nur-sultan
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Kazakhstan
+- **Facts supporting**: Nur-Sultan / Astana cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as administratively useful but winter-negative
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-598
+- **Title**: Livingcost - Cost of living in Shymkent
+- **URL**: https://livingcost.org/cost/kazakhstan/shymkent
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Kazakhstan
+- **Facts supporting**: Shymkent cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as first budget-and-climate screen
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-599
+- **Title**: Livingcost - Cost of living in Aktau
+- **URL**: https://livingcost.org/cost/kazakhstan/aktau
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Kazakhstan
+- **Facts supporting**: Aktau cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as an affordable Caspian fallback pending service-depth checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-600
+- **Title**: Livingcost - Cost of living in Armenia
+- **URL**: https://livingcost.org/cost/armenia
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Armenia
+- **Facts supporting**: Armenia national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, salary context, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-601
+- **Title**: Livingcost - Cost of living in Yerevan
+- **URL**: https://livingcost.org/cost/armenia/yerevan
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Armenia
+- **Facts supporting**: Yerevan cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as the services-rich but rent-sensitive default screen
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-602
+- **Title**: Livingcost - Cost of living in Gyumri
+- **URL**: https://livingcost.org/cost/armenia/gyumri
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Armenia
+- **Facts supporting**: Gyumri cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as a low-cost but cold-winter fallback
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-603
+- **Title**: Livingcost - Cost of living in Vanadzor
+- **URL**: https://livingcost.org/cost/armenia/vanadzor
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: Armenia
+- **Facts supporting**: Vanadzor cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as an affordability fallback pending service-depth checks
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-604
+- **Title**: Livingcost - Cost of living in the United Arab Emirates
+- **URL**: https://livingcost.org/cost/united-arab-emirates
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: UAE
+- **Facts supporting**: UAE national cost-of-living screen, including one-person and family-of-four totals, rent/utilities, food, transport, salary context, utilities, internet, and national 1BR / 3BR rent bands
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-605
+- **Title**: Livingcost - Cost of living in Dubai
+- **URL**: https://livingcost.org/cost/united-arab-emirates/dubai
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: UAE
+- **Facts supporting**: Dubai cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as services-rich but rent-sensitive
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-606
+- **Title**: Livingcost - Cost of living in Abu Dhabi
+- **URL**: https://livingcost.org/cost/united-arab-emirates/abu-dhabi
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: UAE
+- **Facts supporting**: Abu Dhabi cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as high-service but rent-sensitive
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-607
+- **Title**: Livingcost - Cost of living in Sharjah
+- **URL**: https://livingcost.org/cost/united-arab-emirates/sharjah
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: updated 2026-03-11
+- **Date accessed**: 2026-06-15
+- **Used by**: UAE
+- **Facts supporting**: Sharjah cost/rent screen: total with rent, rent/utilities, food, transport, 1BR and 3BR rent bands, utilities, and internet; treated as the first lower-cost UAE screen
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-608
+- **Title**: Eurydice — Portugal overview of the national education system
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/portugal/overview
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: official-secondary
+- **Date published**: updated 2026-03-18
+- **Date accessed**: 2026-06-15
+- **Used by**: Portugal
+- **Facts supporting**: Portugal public education structure, optional pre-primary education from age 3 to 6, compulsory basic-education cycles starting around age 6, and foreign-student diversity / teacher-shortage caveats
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-18
+
+## src-609
+- **Title**: Numbeo — Portugal cost of living / Lisbon / Porto childcare and school cost proxies
+- **URL**: https://www.numbeo.com/cost-of-living/country_result.jsp?country=Portugal ; https://www.numbeo.com/cost-of-living/in/Lisbon ; https://www.numbeo.com/cost-of-living/in/Porto
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: live crowd-sourced table, no static publication date
+- **Date accessed**: 2026-06-15
+- **Used by**: Portugal
+- **Facts supporting**: Private full-day preschool / kindergarten monthly fee proxies and international primary-school annual tuition proxies for Portugal, Lisbon, and Porto
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-610
+- **Title**: International Schools Database — List of international schools in Portugal
+- **URL**: https://www.international-schools-database.com/country/portugal
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: live directory, no static publication date captured
+- **Date accessed**: 2026-06-15
+- **Used by**: Portugal
+- **Facts supporting**: Portugal international-school availability baseline, including the directory count of 82 international schools
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-611
+- **Title**: Numbeo — Quality of Life and Crime / Safety in Portugal
+- **URL**: https://www.numbeo.com/quality-of-life/country_result.jsp?country=Portugal ; https://www.numbeo.com/crime/country_result.jsp?country=Portugal
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: live crowd-sourced table, last update displayed 2026-06
+- **Date accessed**: 2026-06-15
+- **Used by**: Portugal
+- **Facts supporting**: Portugal quality-of-life, safety, healthcare, climate, commute, pollution, and selected city-level safety-index proxies for comfort screening
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-15
+
+## src-612
+- **Title**: EF English Proficiency Index — Portugal country page
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/portugal/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 index page, no exact publication date captured
+- **Date accessed**: 2026-06-15
+- **Used by**: Portugal
+- **Facts supporting**: Portugal English-proficiency screening baseline, including global rank #6 and EF EPI score 612, plus main city score context
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-15
+
+## src-613
+- **Title**: International Insurance — Health Insurance in Spain: Coverage Options for Foreigners
+- **URL**: https://www.internationalinsurance.com/health/europe/spain.php
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: live guide, no static publication date captured
+- **Date accessed**: 2026-06-15
+- **Used by**: Spain
+- **Facts supporting**: Spain public/private healthcare screening baseline, no-copay public doctor-visit context, private-care access caveats, uninsured private doctor / emergency-room visit proxies, and specialist-wait caveat (claim-spain-012)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-15
+
+## src-614
+- **Title**: Eurydice — Spain organisation of the education system and its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/spain/organisation-education-system-and-its-structure
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: official-secondary
+- **Date published**: updated 2026-01-20
+- **Date accessed**: 2026-06-15
+- **Used by**: Spain
+- **Facts supporting**: Spain education-system structure, free compulsory primary and ESO schooling, age bands for primary / ESO, and public-school planning baseline (claim-spain-014)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-20
+
+## src-615
+- **Title**: Eurydice — Spain early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/spain/early-childhood-education-and-care
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: official-secondary
+- **Date published**: updated 2026-01-20
+- **Date accessed**: 2026-06-15
+- **Used by**: Spain
+- **Facts supporting**: Spain early-childhood education structure, voluntary 0-2 and 3-5 cycles, legal right to a place from age 3, free second cycle, and near-universal 3-5 attendance (claim-spain-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-20
+
+## src-616
+- **Title**: International Insurance — Health Insurance in Italy: Local, Private and Global Options
+- **URL**: https://www.internationalinsurance.com/health/europe/italy.php
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: updated 2026-02-02
+- **Date accessed**: 2026-06-15
+- **Used by**: Italy
+- **Facts supporting**: Italy public/private healthcare screening baseline, SSN access for non-citizens with residency status, scope of SSN-covered care, private-insurance need before residence is finalized, and general private-insurance caveats (claim-italy-012)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-02-02
+
+## src-617
+- **Title**: Eurydice — Italy organisation of the education system and its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/organisation-education-system-and-its-structure
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: official-secondary
+- **Date published**: updated 2026-01-23
+- **Date accessed**: 2026-06-15
+- **Used by**: Italy
+- **Facts supporting**: Italy education-system structure, compulsory education from 6 to 16, primary/lower-secondary/upper-secondary split, state/paritarie schooling baseline, and ECEC overview (claim-italy-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-23
+
+## src-618
+- **Title**: Eurydice — Italy early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/italy/early-childhood-education-and-care
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: official-secondary
+- **Date published**: contents revised 2023-08
+- **Date accessed**: 2026-06-15
+- **Used by**: Italy
+- **Facts supporting**: Italy ECEC split between 0-3 educational services and 3-6 pre-primary school, fee/free baseline, non-compulsory attendance, and nursery/pre-primary planning caveats (claim-italy-014)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-15
+
+
+## src-619
+- **Title**: UNHCR Greece — Access to Healthcare
+- **URL**: https://help.unhcr.org/greece/living-in-greece/access-to-healthcare/
+- **Archive**: stable UNHCR Help page via text mirror — snapshot not required
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-15
+- **Used by**: Greece
+- **Facts supporting**: free public healthcare access baseline for refugees/asylum seekers; PAAYPA and AMKA onboarding mechanics; emergency access number and vaccination-access baseline (claim-greece-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-15
+
+## src-620
+- **Title**: Eurydice — Greece organisation of the education system and its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/greece/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2025-09-24
+- **Date accessed**: 2026-06-15
+- **Used by**: Greece
+- **Facts supporting**: Greece formal education structure, compulsory two-year pre-primary from age 4, six-year primary school, lower/upper secondary structure, and public/private school baseline (claim-greece-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-09-24
+
+## src-621
+- **Title**: Eurydice — Greece early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/greece/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-15
+- **Used by**: Greece
+- **Facts supporting**: Greece ECEC split between under-age-4 municipal/private care and age-4/5 pre-primary school; compulsory two-year preschool from age 4; public nipiagogeia free-of-charge baseline (claim-greece-014)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-15
+
+
+## src-622
+- **Title**: GESY / Health Insurance Organisation — Beneficiary portal
+- **URL**: https://www.gesy.org.cy/beneficiary/?lang=en
+- **Archive**: [stable official portal; direct HTML shell captured 2026-06-16]
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus healthcare baseline; official GESY beneficiary portal anchor for public-healthcare registration / beneficiary checks after status is established
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-623
+- **Title**: Eurydice — Cyprus: Overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/cyprus/overview
+- **Archive**: [stable EU education-system page; direct HTML captured 2026-06-16]
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus compulsory-education duration, public/free education baseline, and free textbooks for first-pass future-child education screening
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-16
+
+## src-624
+- **Title**: Eurydice — Cyprus: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/cyprus/early-childhood-education-and-care
+- **Archive**: [stable EU education-system page; direct HTML captured 2026-06-16]
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus pre-primary / early-childhood public education baseline and compulsory/free education context
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-16
+
+## src-625
+- **Title**: Eurydice — Cyprus: Primary education
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/cyprus/primary-education
+- **Archive**: [stable EU education-system page; direct HTML captured 2026-06-16]
+- **Type**: official-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus public primary education: six-year cycle, free and compulsory for children who have reached age 6
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-16
+
+
+## src-626
+- **Title**: HZZO — Tko su osigurane osobe HZZO-a
+- **URL**: https://hzzo.hr/obvezno-zdravstveno-osiguranje-0/tko-su-osigurane-osobe-hzzo
+- **Archive**: stable official HZZO page via direct HTML extraction — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Croatia
+- **Facts supporting**: Croatia compulsory-health-insurance insured-person categories, including permanent/long-term residents, employees/self-employed bases, children, family members, and some EU temporary-stay categories (claim-croatia-012)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-16
+
+## src-627
+- **Title**: HZZO — Prijava, promjena i odjava u obveznom zdravstvenom osiguranju
+- **URL**: https://hzzo.hr/obvezno-zdravstveno-osiguranje-0/prijava-promjena-i-odjava-u-obveznom-zdravstvenom-osiguranju
+- **Archive**: stable official HZZO page via direct HTML extraction — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Croatia
+- **Facts supporting**: HZZO application/change/deregistration filing at any regional office or branch within 8 days from status-triggering circumstances (claim-croatia-013)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-16
+
+## src-628
+- **Title**: HZZO — Opseg prava na zdravstvenu zastitu iz obveznoga zdravstvenog osiguranja
+- **URL**: https://hzzo.hr/obvezno-zdravstveno-osiguranje-0/opseg-prava-na-zdravstvenu-zastitu-iz-obveznoga-zdravstvenog
+- **Archive**: stable official HZZO page via direct HTML extraction — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Croatia
+- **Facts supporting**: compulsory-insurance healthcare scope including preventive student care and women's healthcare related to pregnancy monitoring and childbirth (claim-croatia-012)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-16
+
+## src-629
+- **Title**: Eurydice — Croatia: Overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/croatia/overview
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2025-09-24
+- **Date accessed**: 2026-06-16
+- **Used by**: Croatia
+- **Facts supporting**: Croatia education-system overview: compulsory 8-year primary/lower-secondary single structure from age 6-7 to 14-15, public/private primary baseline, and mandatory state-financed/free preschool year before elementary school (claim-croatia-014, claim-croatia-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-09-24
+
+## src-630
+- **Title**: Eurydice — Croatia: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/croatia/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2025-05-14
+- **Date accessed**: 2026-06-16
+- **Used by**: Croatia
+- **Facts supporting**: Croatia ECEC baseline: kindergarten/other providers for ages 6 months to primary-school age, and mandatory one-year pre-primary programme before starting school (claim-croatia-015)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-14
+
+
+## src-631
+- **Title**: Expat Arrivals — Healthcare and health insurance for expats in Malta
+- **URL**: https://www.expatarrivals.com/europe/malta/healthcare-malta
+- **Archive**: stable page via Jina text mirror — direct extraction used
+- **Type**: reputable-secondary
+- **Date published**: 2026-06-16
+- **Date accessed**: 2026-06-16
+- **Used by**: Malta
+- **Facts supporting**: Malta public/private healthcare screening baseline, private-insurance need for non-EU/UK expats, public health-centre / hospital structure, pharmacy access, emergency number 112, and routine-vaccination caveat
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-632
+- **Title**: Eurydice — Malta: Overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/malta/overview
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2025-04-22
+- **Date accessed**: 2026-06-16
+- **Used by**: Malta
+- **Facts supporting**: Malta education-system overview, childcare / kindergarten age bands, compulsory education ages 5-16, primary and secondary cycle structure, and state/church/independent school baseline
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-04-22
+
+## src-633
+- **Title**: Eurydice — Malta: Organisation of the education system and of its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/malta/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2025-02-13
+- **Date accessed**: 2026-06-16
+- **Used by**: Malta
+- **Facts supporting**: Malta formal education structure, primary education as a six-year cycle for ages 5-11, and compulsory-education structure
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-13
+
+## src-634
+- **Title**: Eurydice — Malta: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/malta/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2024-01-30
+- **Date accessed**: 2026-06-16
+- **Used by**: Malta
+- **Facts supporting**: Malta early-childhood education and care baseline, including the Free Childcare Scheme for parents in employment or furthering education
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-01-30
+
+
+## src-635
+- **Title**: PVZP — Foreigners' Medical Insurance
+- **URL**: https://www.pvzp.cz/en/products/foreigners-medical-insurance/
+- **Archive**: [archive: failed 2026-06-16; direct extraction used]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech foreigners' medical-insurance product baseline, including dedicated comprehensive foreigner-insurance product family (claim-czech-016)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-636
+- **Title**: InfoCizinci.cz — Health insurance calculator for foreigners in CZ
+- **URL**: https://infocizinci.cz/en/health-insurance-calculator/
+- **Archive**: [archive: failed 2026-06-16; direct extraction used]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech foreigner health-insurance requirement baseline, emergency vs comprehensive insurance distinction, indicative starting monthly price from CZK 1,000, and pregnancy-coverage caveat (claim-czech-016, claim-czech-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-637
+- **Title**: Eurydice — Czechia: Early childhood education and care / overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/czechia/early-childhood-education-and-care and https://eurydice.eacea.ec.europa.eu/national-education-systems/czechia/overview
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2026-06-10 for structure-linked page; ECEC page accessed current
+- **Date accessed**: 2026-06-16
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech ECEC baseline: children's groups from 6 months, nursery schools for ages 2-6/7, compulsory last pre-primary year, municipal nursery-place obligation for children aged 3+, and school-administration roles (claim-czech-018)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-10
+
+## src-638
+- **Title**: Eurydice — Czechia: Organisation of the education system and of its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/czechia/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page via direct extraction — snapshot not required
+- **Type**: official-secondary
+- **Date published**: updated 2026-06-10
+- **Date accessed**: 2026-06-16
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech education-system structure, compulsory/free final pre-primary year in public/state nursery schools, and 9-year basic education / compulsory schooling baseline (claim-czech-018)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-10
+
+
+## src-639
+- **Title**: Pacjent.gov.pl / NFZ — Medical assistance for Ukrainian citizens
+- **URL**: https://pacjent.gov.pl/aktualnosc/pomoc-medyczna-dla-obywateli-ukrainy
+- **Archive**: stable official patient/NFZ page via Jina text mirror — snapshot not required
+- **Type**: official-primary
+- **Date published**: 2022-02-28; modified 2022-12-22
+- **Date accessed**: 2026-06-16
+- **Used by**: Poland
+- **Facts supporting**: Ukraine special-framework public medical-care baseline: medical services are settled like for Polish patients, Ukrainian citizens have an additional health-service entitlement, and NFZ pays from the state budget (claim-poland-022)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-16
+
+## src-640
+- **Title**: Expat Arrivals — Healthcare and health insurance for expats in Poland
+- **URL**: https://www.expatarrivals.com/europe/poland/healthcare-poland
+- **Archive**: stable page via Jina text mirror — direct extraction used
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Poland
+- **Facts supporting**: Poland public/private healthcare screening baseline, private-insurance usefulness, large-city facility baseline, waiting-list / GP-referral friction, and language-barrier caveat (claim-poland-023)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-641
+- **Title**: Eurydice — Poland: Overview / Early childhood education and care / Organisation of the education system
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/poland/overview ; https://eurydice.eacea.ec.europa.eu/national-education-systems/poland/early-childhood-education-and-care ; https://eurydice.eacea.ec.europa.eu/national-education-systems/poland/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice pages via Jina text mirror — snapshot not required
+- **Type**: official-secondary
+- **Date published**: accessed current 2026-06-16
+- **Date accessed**: 2026-06-16
+- **Used by**: Poland
+- **Facts supporting**: Poland education baseline: optional preschool for ages 3-5, obligatory preschool for 6-year-olds, entitlement to community pre-primary place, 8-year primary school usually ages 7-15, and education/training obligation to age 18 (claim-poland-024)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-16
+
+## src-642
+- **Title**: Expat Arrivals — Healthcare and health insurance for expats in Romania
+- **URL**: https://www.expatarrivals.com/europe/romania/healthcare-romania
+- **Archive**: stable page via Jina text mirror — direct extraction used
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-16
+- **Used by**: Romania
+- **Facts supporting**: Romania public/private healthcare screening baseline, National Health Insurance House context, private medical-insurance need for expats / visa issuance, public-system waiting-time and facility-quality caveats (claim-romania-022)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-643
+- **Title**: Eurydice — Romania: Overview / Organisation of the education system / Early childhood education and care / Primary education
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/romania/overview ; https://eurydice.eacea.ec.europa.eu/national-education-systems/romania/organisation-education-system-and-its-structure ; https://eurydice.eacea.ec.europa.eu/national-education-systems/romania/early-childhood-education-and-care ; https://eurydice.eacea.ec.europa.eu/national-education-systems/romania/primary-education
+- **Archive**: stable EU/EACEA Eurydice pages via Jina text mirror — snapshot not required
+- **Type**: official-secondary
+- **Date published**: accessed current 2026-06-16
+- **Date accessed**: 2026-06-16
+- **Used by**: Romania
+- **Facts supporting**: Romania education baseline: Ministry / inspectorate governance, ECEC ages and free/compulsory baseline, primary education start and structure, lower-secondary structure, and free public primary textbooks (claim-romania-023, claim-romania-024)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-16
+
+## src-644
+- **Title**: National Health Insurance Fund (NHIF) Bulgaria — Welcome / institutional overview
+- **URL**: https://www.nhif.bg/en
+- **Archive**: direct HTML extraction used; stable official page
+- **Type**: official-primary
+- **Date published**: no page date shown
+- **Date accessed**: 2026-06-17
+- **Used by**: Bulgaria
+- **Facts supporting**: NHIF public / compulsory health-insurance institutional baseline and regional fund structure (claim-bulgaria-022)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-645
+- **Title**: Eurydice — Bulgaria: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/bulgaria/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page via Jina text mirror — direct extraction used
+- **Type**: official-secondary
+- **Date published**: accessed current 2026-06-17
+- **Date accessed**: 2026-06-17
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgaria ECEC structure, nursery/kindergarten age bands, compulsory pre-primary from age 4, and free compulsory preschool in state/municipal kindergartens (claim-bulgaria-023)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-646
+- **Title**: Eurydice — Bulgaria: Overview of the education system
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/bulgaria/overview
+- **Archive**: stable EU/EACEA Eurydice page via Jina text mirror — direct extraction used
+- **Type**: official-secondary
+- **Date published**: 2026-06-16 page timestamp in extracted metadata
+- **Date accessed**: 2026-06-17
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgaria pre-school and school-system governance, state education standards, and public-school structure (claim-bulgaria-024)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-647
+- **Title**: International Schools Database — British School of Sofia fees
+- **URL**: https://www.international-schools-database.com/in/sofia/british-school-of-sofia
+- **Archive**: stable page via Jina text mirror — direct extraction used
+- **Type**: commercial
+- **Date published**: 2025/2026 fee data shown on page
+- **Date accessed**: 2026-06-17
+- **Used by**: Bulgaria
+- **Facts supporting**: Sofia international-school fee risk benchmark for the future-child budget (claim-bulgaria-025)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
+
+## src-648
+- **Title**: NEAK Hungary - Health-care services for insured persons
+- **URL**: https://www.neak.gov.hu/felso_menu/lakossagnak/ellatas_magyarorszagon/egeszsegugyi_ellatasok
+- **Archive**: stable official page via Jina text mirror - direct extraction used
+- **Type**: official-primary
+- **Date published**: no page date shown
+- **Date accessed**: 2026-06-17
+- **Used by**: Hungary
+- **Facts supporting**: public health-insurance service baseline for insured persons, including screening, treatment, family-doctor / pediatric / dental basic care, specialist care, and hospital care categories (claim-hungary-022)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-649
+- **Title**: Eurydice - Hungary: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/hungary/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page via Jina text mirror - direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2026-03-29 in extracted page
+- **Date accessed**: 2026-06-17
+- **Used by**: Hungary
+- **Facts supporting**: Hungary ECEC split between nursery birth-to-3 and mandatory free kindergarten from age 3 until compulsory schooling; ministry / municipal governance context (claim-hungary-023)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-29
+
+## src-650
+- **Title**: Eurydice - Hungary: Organisation of the education system and of its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/hungary/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page via Jina text mirror - direct extraction used
+- **Type**: official-secondary
+- **Date published**: 2026-06-16 page timestamp in extracted metadata
+- **Date accessed**: 2026-06-17
+- **Used by**: Hungary
+- **Facts supporting**: kindergarten from age 3, mandatory school age 6-16, and 8-grade basic education structure (claim-hungary-024)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-16
+
+## src-651
+- **Title**: International Schools Database - Budapest international schools
+- **URL**: https://www.international-schools-database.com/in/budapest
+- **Archive**: stable page via Jina text mirror - direct extraction used
+- **Type**: commercial
+- **Date published**: 2025/2026 fee data shown on page
+- **Date accessed**: 2026-06-17
+- **Used by**: Hungary
+- **Facts supporting**: Budapest international-school market and British International School Budapest 2025/2026 fee benchmark for future-child budget risk (claim-hungary-024)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
+
+## src-652
+- **Title**: IOM Migration Information Centre Slovakia — Health Care / Public health insurance / Insurance card and payments / Doctors and medical facilities
+- **URL**: https://www.mic.iom.sk/en/social-issues/health-care.html ; https://www.mic.iom.sk/en/social-issues/health-care/438-public-health-insurance.html ; https://www.mic.iom.sk/en/social-issues/health-care/440-insurance-card-and-payments-for-health-care.html ; https://www.mic.iom.sk/en/social-issues/health-care/442-doctors-and-medical-facilities-in-slovakia.html
+- **Archive**: stable IOM pages via Jina text mirror — direct extraction used
+- **Type**: reputable-secondary
+- **Date published**: public-health page last updated 2026-02-11; other subpages last updated 2021-03-08
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovakia
+- **Facts supporting**: healthcare screening baseline: public-health-insurance eligibility mechanics, insurance-card proof, doctor/facility lookup, and IOM consultation contact point (claim-slovakia-020, claim-slovakia-021)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-02-11
+
+## src-653
+- **Title**: Eurydice — Slovakia: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/slovakia/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page — direct extraction used
+- **Type**: official-secondary
+- **Date published**: accessed current 2026-06-17
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovakia
+- **Facts supporting**: Slovakia ECEC baseline: care for ages 6 months to 3 years, kindergarten ages 3-6, compulsory last kindergarten year from age 5, and free compulsory pre-primary education in public kindergartens (claim-slovakia-022)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-654
+- **Title**: Eurydice — Slovakia: Organisation of the education system and of its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/slovakia/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page — direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2025-08-20 in extracted page
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovakia
+- **Facts supporting**: Slovakia school-system baseline: compulsory school attendance duration, start age, primary-school stages, and state/private/church school choice (claim-slovakia-023)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-655
+- **Title**: International Schools Database — Bratislava international schools
+- **URL**: https://www.international-schools-database.com/in/bratislava
+- **Archive**: stable page — direct extraction used
+- **Type**: commercial
+- **Date published**: 2025/2026 fee data shown on page
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovakia
+- **Facts supporting**: Bratislava international-school market and 2025/2026 fee benchmarks for future-child budget risk (claim-slovakia-023)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
+
+## src-656
+- **Title**: GOV.SI — Healthcare for Ukrainian nationals
+- **URL**: https://www.gov.si/en/topics/slovenias-assistance-to-the-citizens-of-ukraine/healthcare-for-ukrainian-nationals/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovenia
+- **Facts supporting**: temporary-protection healthcare access for Ukrainian nationals, emergency healthcare rights, proof/card mechanics, pregnancy/childbirth healthcare, medicines procedure, GP request route, and coverage by the Government Office for the Support and Integration of Migrants (claim-slovenia-018)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-17
+
+## src-657
+- **Title**: ZZZS — Compulsory health insurance / accessing healthcare in Slovenia / extent and classes of rights
+- **URL**: https://www.zzzs.si/en/compulsory-health-insurance/inclusion-in-the-compulsory-health-insurance/ ; https://www.zzzs.si/en/accessing-healthcare-in-slovenia/ ; https://www.zzzs.si/en/compulsory-health-insurance/the-extent-of-rights-deriving-from-compulsory-health-insurance/ ; https://www.zzzs.si/en/compulsory-health-insurance/classes-of-rights-under-compulsory-health-insurance/
+- **Archive**: stable public health-insurance institute pages — direct extraction used
+- **Type**: official-primary
+- **Date published**: current public pages, no single publication date captured
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovenia
+- **Facts supporting**: Slovenia compulsory-health-insurance registration baseline, family-member insurance categories, temporary-residence requirement for immediate family members, public provider network, and statutory healthcare-rights basket including primary, specialist, hospital, pregnancy preventive care, medicines, devices, and transport (claim-slovenia-019)
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-17
+
+## src-658
+- **Title**: GOV.SI — Providing education to Ukrainian children living in Slovenia
+- **URL**: https://www.gov.si/en/topics/slovenias-assistance-to-the-citizens-of-ukraine/izobrazevanje-ukrajinskih-otrok-v-sloveniji/
+- **Archive**: stable gov domain — snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovenia
+- **Facts supporting**: temporary-protection education card/decision proof, inclusive kindergarten and regular-class baseline, kindergarten entry throughout year if places are available, vaccination certificate requirement, reduced/free kindergarten fee rules for temporary-protection families, and same-conditions primary enrolment for under-18 temporary-protection children
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-17
+
+## src-659
+- **Title**: Eurydice — Slovenia: Access to early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/slovenia/access
+- **Archive**: stable EU/EACEA Eurydice page — direct extraction used
+- **Type**: official-secondary
+- **Date published**: 2025-09-02 average-price table; 2026-01 payment-bracket table cited on page
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovenia
+- **Facts supporting**: kindergarten place guarantee, age/access baseline, average 2025 programme prices, parent-payment subsidy range from 0% to 77%, social-work-centre reduced-payment application, and foreign-parent / multi-child payment caveats (claim-slovenia-020)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-660
+- **Title**: Eurydice — Slovenia: Organisation of the education system and of its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/slovenia/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page — direct extraction used
+- **Type**: official-secondary
+- **Date published**: current public page, no single publication date captured
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovenia
+- **Facts supporting**: Slovenia compulsory publicly funded nine-year basic education from age 6 to about 15 and local public-school place guarantee (claim-slovenia-021)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-661
+- **Title**: International Schools Database — Ljubljana international schools
+- **URL**: https://www.international-schools-database.com/in/ljubljana
+- **Archive**: stable page — direct extraction used
+- **Type**: commercial
+- **Date published**: 2025/2026 fee data shown where published
+- **Date accessed**: 2026-06-17
+- **Used by**: Slovenia
+- **Facts supporting**: Ljubljana international-school market and fee benchmarks for future-child budget risk (claim-slovenia-022)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
+
+
+## src-662
+- **Title**: FZOCG - Health Insurance Fund of Montenegro (institutional overview)
+- **URL**: https://fzocg.me/
+- **Archive**: direct HTML extraction used; official public site
+- **Type**: official-primary
+- **Date published**: no page date shown
+- **Date accessed**: 2026-06-17
+- **Used by**: Montenegro
+- **Facts supporting**: public health-insurance / insurer map, headquarters and regional units, contracted institutions/pharmacies, price lists, insured-person rights, medicines, and e-health links (claim-montenegro-021)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-663
+- **Title**: Montenegro Ministry of Health - ministry homepage / contact baseline
+- **URL**: https://www.gov.me/en/mzd
+- **Archive**: direct HTML extraction used; official government page
+- **Type**: official-primary
+- **Date published**: no page date shown
+- **Date accessed**: 2026-06-17
+- **Used by**: Montenegro
+- **Facts supporting**: Ministry of Health authority/contact baseline and Podgorica health-system contact point for later healthcare onboarding checks
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-664
+- **Title**: Eurydice - Montenegro: Access to early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/montenegro/access
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: current public page, no single publication date captured
+- **Date accessed**: 2026-06-17
+- **Used by**: Montenegro
+- **Facts supporting**: ECEC equal-access baseline, public/private preschool network, public-preschool parent fees of about EUR 50 full-day and EUR 25 half-day, reduced/free fee categories, and private-preschool fee caveat (claim-montenegro-023)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-665
+- **Title**: Eurydice - Montenegro: Organisation of the education system and of its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/montenegro/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2026-05-04 in extracted page
+- **Date accessed**: 2026-06-17
+- **Used by**: Montenegro
+- **Facts supporting**: education-system levels, nursery/kindergarten age bands, compulsory 9-year primary education, and free primary education from about age 6 to 15 (claim-montenegro-024)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-04
+
+## src-666
+- **Title**: QSI International School of Montenegro - school homepage
+- **URL**: https://www.qsi.org/montenegro/
+- **Archive**: direct HTML extraction used; tuition page not found
+- **Type**: commercial
+- **Date published**: no page date shown
+- **Date accessed**: 2026-06-17
+- **Used by**: Montenegro
+- **Facts supporting**: international-school alternative in Donja Gorica, Podgorica, covering preschool, elementary, middle, and secondary levels; tuition remains uncaptured (claim-montenegro-025)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
+
+
+## src-667
+- **Title**: RFZO Serbia - insured-person rights / compulsory health-insurance baseline
+- **URL**: https://www.rfzo.rs/index.php/osiguranalica
+- **Archive**: text mirror extraction used; original RFZO URL cited
+- **Type**: official-primary
+- **Date published**: public page rendered 2026-06-17 in text mirror; no stable page date shown
+- **Date accessed**: 2026-06-17
+- **Used by**: Serbia
+- **Facts supporting**: Serbian compulsory health-insurance / insured-person rights baseline, contracted healthcare institutions, insurance-document requirement, covered-care categories including pregnancy/childbirth/children (claim-serbia-020, claim-serbia-021)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-668
+- **Title**: Eurydice - Serbia: Overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/serbia/overview
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2026-05-29 in extracted page
+- **Date accessed**: 2026-06-17
+- **Used by**: Serbia
+- **Facts supporting**: Serbian education-system structure, Ministry role, public/private institution baseline, compulsory preschool preparatory programme plus 8 years basic education, free public basic and secondary education (claim-serbia-022)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-29
+
+## src-669
+- **Title**: Eurydice - Serbia: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/serbia/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2025-09-21 in extracted page
+- **Date accessed**: 2026-06-17
+- **Used by**: Serbia
+- **Facts supporting**: ECEC age bands from 6 months to 6.5 years, nursery/kindergarten/preschool preparatory split, mandatory/free preschool preparatory programme, and ECEC care/preventive-health/social-protection role (claim-serbia-022)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-09-21
+
+## src-670
+- **Title**: International Schools Database - Belgrade international schools
+- **URL**: https://www.international-schools-database.com/in/belgrade
+- **Archive**: stable commercial directory page - direct extraction used
+- **Type**: commercial
+- **Date published**: 2026/2027 fee data shown where published
+- **Date accessed**: 2026-06-17
+- **Used by**: Serbia
+- **Facts supporting**: Belgrade international-school market and fee benchmarks, including International School of Belgrade 2026/2027 yearly fees (claim-serbia-023)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
+
+## src-671
+- **Title**: SGK Turkey Social Security Institution / General Health Insurance public site
+- **URL**: https://www.sgk.gov.tr/ ; https://www.sgk.gov.tr/Content/Post/b8664248-0ed2-4d28-ae80-89df691fd21d/Ilave-Ucret-2022-05-14-09-21-06
+- **Archive**: stable official public site; text mirror extraction used where direct page text was dynamic
+- **Type**: official-primary
+- **Date published**: public pages, no single publication date captured
+- **Date accessed**: 2026-06-17
+- **Used by**: Turkey
+- **Facts supporting**: public SGK / General Health Insurance institution map and healthcare-provider extra-fee context used to open Turkey section 5.6 healthcare baseline (claim-turkey-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-17
+
+## src-672
+- **Title**: Turkey Ministry of Health public site
+- **URL**: https://www.saglik.gov.tr/
+- **Archive**: stable official public site; text mirror extraction used
+- **Type**: official-primary
+- **Date published**: current public site; no single publication date captured
+- **Date accessed**: 2026-06-17
+- **Used by**: Turkey
+- **Facts supporting**: public Ministry of Health authority/contact baseline for Turkey healthcare-system orientation (claim-turkey-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-12-17
+
+## src-673
+- **Title**: Eurydice - Turkey: Overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/turkey/overview
+- **Archive**: stable EU/EACEA Eurydice page; text mirror extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2025-12-09 in extracted page
+- **Date accessed**: 2026-06-17
+- **Used by**: Turkey
+- **Facts supporting**: Turkish education-system structure, MoNE role, and 12-year compulsory education split into 4+4+4 stages (claim-turkey-020)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-674
+- **Title**: Eurydice - Turkey: Early childhood education and care / organisation of the education system
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/turkey/early-childhood-education-and-care ; https://eurydice.eacea.ec.europa.eu/national-education-systems/turkey/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice pages; text mirror extraction used
+- **Type**: official-secondary
+- **Date published**: current public pages; 2026 extraction used
+- **Date accessed**: 2026-06-17
+- **Used by**: Turkey
+- **Facts supporting**: preschool age-band responsibilities, voluntary pre-primary baseline, free public pre-primary services, private nursery/daycare fee caveat, and primary/lower-secondary age rules (claim-turkey-020, claim-turkey-021)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-675
+- **Title**: International Schools Database - Istanbul international schools
+- **URL**: https://www.international-schools-database.com/in/istanbul
+- **Archive**: stable commercial directory page; text mirror extraction used
+- **Type**: commercial
+- **Date published**: 2026/2027 fee data shown where published
+- **Date accessed**: 2026-06-17
+- **Used by**: Turkey
+- **Facts supporting**: Istanbul international-school market and fee benchmarks for future-child budget risk (claim-turkey-022)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
+
+## src-676
+- **Title**: U.S. International Trade Administration - Healthcare Resource Guide: Georgia
+- **URL**: https://www.trade.gov/healthcare-resource-guide-georgia
+- **Archive**: direct HTML extraction used from official .gov page
+- **Type**: reputable-secondary
+- **Date published**: current public guide, no single page date captured
+- **Date accessed**: 2026-06-17
+- **Used by**: Georgia
+- **Facts supporting**: healthcare system structure, high private-hospital share, citizen-focused Universal Healthcare Coverage, out-of-pocket/co-pay risk, Tbilisi vs rural healthcare capacity, and private-insurance context (claim-georgia-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
+
+## src-677
+- **Title**: Eurydice - Georgia: Overview / general education structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/georgia/overview ; https://eurydice.eacea.ec.europa.eu/national-education-systems/georgia/organisation-education-system-and-its-structure
+- **Archive**: stable EU/EACEA Eurydice pages - direct extraction used
+- **Type**: official-secondary
+- **Date published**: pages rendered 2026-06-17 in extraction
+- **Date accessed**: 2026-06-17
+- **Used by**: Georgia
+- **Facts supporting**: Georgia 12-year general-education structure, primary/basic/secondary grades, age-6 school-entry rule, compulsory primary and basic education, and national-curriculum baseline (claim-georgia-018)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-678
+- **Title**: Eurydice - Georgia: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/georgia/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: page rendered 2026-06-17 in extraction
+- **Date accessed**: 2026-06-17
+- **Used by**: Georgia
+- **Facts supporting**: early/preschool education age bands, free public preschool education and catering, municipal funding, voluntary participation, and school-readiness component (claim-georgia-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-17
+
+## src-679
+- **Title**: International Schools Database - Tbilisi international schools
+- **URL**: https://www.international-schools-database.com/in/tbilisi
+- **Archive**: stable commercial directory page - direct extraction used
+- **Type**: commercial
+- **Date published**: 2025/2026 fee data shown where published
+- **Date accessed**: 2026-06-17
+- **Used by**: Georgia
+- **Facts supporting**: Tbilisi international-school market, languages/curricula, and a published Deutsche Internationale Schule Tbilissi 2025/2026 fee range for budget-risk screening (claim-georgia-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-17
+
+## src-680
+- **Title**: U.S. International Trade Administration - Albania Medical Equipment / healthcare system overview
+- **URL**: https://www.trade.gov/country-commercial-guides/albania-medical-equipment
+- **Archive**: direct HTML extraction used from official .gov page
+- **Type**: reputable-secondary
+- **Date published**: 2021-10-09
+- **Date accessed**: 2026-06-18
+- **Used by**: Albania
+- **Facts supporting**: healthcare system structure, Ministry of Health and Social Protection role, compulsory healthcare insurance fund baseline, public hospital capacity, Tirana private-hospital market, and private-sector growth (claim-albania-017, claim-albania-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-18
+
+## src-681
+- **Title**: Eurydice - Albania: Overview
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/albania/overview
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2025-09-15 in extracted page
+- **Date accessed**: 2026-06-18
+- **Used by**: Albania
+- **Facts supporting**: education governance, public/private institution baseline, obligatory education ages 6-16, basic/lower-secondary structure, optional upper secondary, and ministry contact baseline (claim-albania-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2026-09-15
+
+## src-682
+- **Title**: Eurydice - Albania: Early childhood education and care
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/albania/early-childhood-education-and-care
+- **Archive**: stable EU/EACEA Eurydice page - direct extraction used
+- **Type**: official-secondary
+- **Date published**: last update 2026-03-30 in extracted page
+- **Date accessed**: 2026-06-18
+- **Used by**: Albania
+- **Facts supporting**: preschool age bands, nursery/kindergarten split, non-obligatory ECEC, public/private nursery fees, full-day public kindergarten local fees, and free half-day public kindergarten baseline (claim-albania-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-03-30
+
+## src-683
+- **Title**: Tirana International School (QSI) - admissions, preschool, and secondary school pages
+- **URL**: https://tirana.qsi.org/admissions ; https://tirana.qsi.org/academics/preschool ; https://tirana.qsi.org/academics/secondary-school
+- **Archive**: direct HTML extraction used from public school pages
+- **Type**: commercial
+- **Date published**: current public pages, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Albania
+- **Facts supporting**: Tirana English-language international-school option, no-prior-English admissions baseline through age 13 / U.S. grade 8, preschool from age 2, English instruction, secondary college-prep programme, and AP / IB-linked offerings (claim-albania-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-684
+- **Title**: U.S. International Trade Administration - Uruguay Healthcare
+- **URL**: https://www.trade.gov/country-commercial-guides/uruguay-healthcare
+- **Archive**: direct HTML extraction used from official .gov page
+- **Type**: reputable-secondary
+- **Date published**: 2025-08-28
+- **Date accessed**: 2026-06-18
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguay SNIS/FONASA healthcare-system structure, public/private provider choice, mutualista baseline, and premium private-insurance context (claim-uruguay-016)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-685
+- **Title**: gub.uy - Carne de salud procedure
+- **URL**: https://www.gub.uy/tramites/carne-salud
+- **Archive**: stable government service page - direct extraction used
+- **Type**: official-primary
+- **Date published**: current public procedure page, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguayan health-card procedure anchor for healthcare/residence-file planning (claim-uruguay-017)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-686
+- **Title**: gub.uy - Education in Uruguay
+- **URL**: https://www.gub.uy/educacion-en-uruguay
+- **Archive**: stable government overview page - direct extraction used
+- **Type**: official-primary
+- **Date published**: current public overview page, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguay education structure: initial education ages 3-5, compulsory from age 4, public primary compulsory/free from age 6, secondary cycles from age 12 (claim-uruguay-018)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-06-18
+
+## src-687
+- **Title**: Uruguay Ministry of Education and Culture - Panorama of early childhood and initial education 2023
+- **URL**: https://www.gub.uy/ministerio-educacion-cultura/datos-y-estadisticas/estadisticas/panorama-educacion-primera-infancia-inicial-2023 ; https://www.gub.uy/ministerio-desarrollo-social/node/8839
+- **Archive**: stable government pages - direct extraction used
+- **Type**: official-primary
+- **Date published**: 2024-11-15 for MEC panorama page; MIDES page current, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Uruguay
+- **Facts supporting**: early-childhood and initial-education statistics/context, compulsory initial education from age 4, and age-3 coverage expansion context (claim-uruguay-018)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-688
+- **Title**: ExpatLife.AI - Schools in Uruguay 2026: fees guide
+- **URL**: https://expatlife.ai/uruguay/education
+- **Archive**: [archive: failed 2026-06-18, Wayback HTTP 429]; text mirror/direct HTML extraction used
+- **Type**: aggregator
+- **Date published**: data verified 2026-05-08 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: Uruguay
+- **Facts supporting**: Montevideo international-school sector and broad annual fee screen of about USD 6,000-18,000/year for English/bilingual/IB options (claim-uruguay-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+
+## src-689
+- **Title**: Paraguay Ministry of Public Health and Social Welfare - public website / services and hospitals baseline
+- **URL**: https://www.mspbs.gov.py/ ; https://www.mspbs.gov.py/portal/portal.html
+- **Archive**: stable ministry pages - direct HTML extraction used
+- **Type**: official-primary
+- **Date published**: current public pages, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Paraguay
+- **Facts supporting**: public health authority, regional health services, specialist/general/maternal-child hospital categories, and public-system entry map for the Paraguay healthcare screen (claim-paraguay-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-690
+- **Title**: ExpatLife.AI - Paraguay Healthcare 2026: insurance and hospitals guide
+- **URL**: https://expatlife.ai/paraguay/healthcare
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-18 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: Paraguay
+- **Facts supporting**: Paraguay public/IPS/private healthcare structure, private GP cost proxy of USD 15-50, private insurance proxy of USD 50-150/month, and Asuncion private-hospital baseline (claim-paraguay-016, claim-paraguay-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-691
+- **Title**: ExpatLife.AI - Schools in Paraguay 2026: fees guide
+- **URL**: https://expatlife.ai/paraguay/education
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-18 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: Paraguay
+- **Facts supporting**: public school free / Spanish-Guarani / resource caveat, private bilingual school proxy of USD 200-500/month, international-school proxy of USD 6,000-12,000/year, and American School of Asuncion proxy of USD 8,000-15,000/year (claim-paraguay-018, claim-paraguay-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-692
+- **Title**: American School of Asuncion - public website
+- **URL**: https://www.asa.edu.py
+- **Archive**: direct HTML extraction used from public school page
+- **Type**: commercial
+- **Date published**: current public page, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Paraguay
+- **Facts supporting**: Asuncion bilingual early-childhood through college-preparatory school option, U.S. and Paraguayan academic standards, and elementary/middle/high school programme anchor (claim-paraguay-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-693
+- **Title**: Panama Ministry of Health (MINSA) - public website
+- **URL**: https://www.minsa.gob.pa/
+- **Archive**: stable ministry website - direct HTML extraction used
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Panama
+- **Facts supporting**: official public-health authority baseline and MINSA clinic/public-system context for Panama healthcare screening (claim-panama-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-694
+- **Title**: ExpatLife.AI - Panama Healthcare 2026: insurance and hospitals guide
+- **URL**: https://expatlife.ai/panama/healthcare
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-18 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: Panama
+- **Facts supporting**: Panama private healthcare system, Panama City hospital baseline, local/international insurance cost proxies, private GP proxy, CSS/public eligibility caveat, Boquete/David healthcare escalation baseline, and remote-worker insurance reminder (claim-panama-016, claim-panama-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-695
+- **Title**: ExpatLife.AI - Schools in Panama 2026: fees guide
+- **URL**: https://expatlife.ai/panama/education
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-18 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: Panama
+- **Facts supporting**: Panama public-school language/enrollment baseline, bilingual and international-school cost proxies, Panama City international-school ecosystem, and expat-child enrollment documents (claim-panama-018, claim-panama-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-696
+- **Title**: International School of Panama - public website
+- **URL**: https://www.isp.edu.pa/
+- **Archive**: direct HTML extraction used from public school page
+- **Type**: commercial
+- **Date published**: current public pages, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Panama
+- **Facts supporting**: flagship international K-12 school option, admissions/placement/tuition-fees/legal-requirements page availability, and international-student practical anchor (claim-panama-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+
+## src-697
+- **Title**: North Macedonia Ministry of Health - public website
+- **URL**: https://zdravstvo.gov.mk/
+- **Archive**: stable ministry website - direct HTML extraction used
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: North Macedonia
+- **Facts supporting**: official public-health authority anchor and public-system context for North Macedonia healthcare screening (claim-north-macedonia-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-698
+- **Title**: ExpatLife.AI - North Macedonia Healthcare 2026: insurance and hospitals guide
+- **URL**: https://expatlife.ai/north-macedonia/healthcare
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-15 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: North Macedonia
+- **Facts supporting**: FZO/public-healthcare baseline, private GP and specialist cost proxies, private/international insurance proxy, Skopje private-hospital examples, and healthcare application-prep gaps (claim-north-macedonia-016, claim-north-macedonia-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-699
+- **Title**: ExpatLife.AI - Schools in North Macedonia 2026: fees guide
+- **URL**: https://expatlife.ai/north-macedonia/education
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-15 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: North Macedonia
+- **Facts supporting**: public school age/language baseline, Skopje international-school ecosystem, international-school tuition proxy of EUR 4,000-8,000/year, and public-university fee context (claim-north-macedonia-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-700
+- **Title**: QSI International School of Skopje and NOVA International School Skopje - public websites
+- **URL**: https://qsi.org/skopje/ ; https://nova.edu.mk/
+- **Archive**: direct HTML extraction used from public school pages
+- **Type**: commercial
+- **Date published**: current public pages, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: North Macedonia
+- **Facts supporting**: Skopje English/international-school anchors, including QSI preschool/elementary/middle/secondary and NOVA early-education/elementary/secondary programme and support-service availability (claim-north-macedonia-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-701
+- **Title**: Trade.gov — Bosnia and Herzegovina: Medical Equipment
+- **URL**: https://www.trade.gov/country-commercial-guides/bosnia-and-herzegovina-medical-equipment
+- **Archive**: direct HTML extraction used from public U.S. government page
+- **Type**: reputable-secondary
+- **Date published**: 2026-02-04
+- **Date accessed**: 2026-06-18
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Bosnia and Herzegovina public/private healthcare-system overview, entity/cantonal health-insurance fund structure, payroll-contribution funding, public clinical-center locations, and private-hospital/private-practice baseline (claim-bosnia-herzegovina-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-02-04
+
+## src-702
+- **Title**: Federation of Bosnia and Herzegovina Ministry of Health / Republika Srpska Ministry of Health and Social Welfare public websites
+- **URL**: https://fmoh.gov.ba/ ; https://www.vladars.rs/eng/vlada/ministries/MHSW/Pages/default.aspx
+- **Archive**: direct HTML extraction used from public ministry websites
+- **Type**: official-primary
+- **Date published**: current public websites, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: public health-authority anchors for FBiH / Republika Srpska healthcare-system and onboarding follow-up
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-703
+- **Title**: Eurydice — Bosnia and Herzegovina education system overview / organisation and structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/bosnia-and-herzegovina/overview ; https://eurydice.eacea.ec.europa.eu/national-education-systems/bosnia-and-herzegovina/organisation-education-system-and-its-structure
+- **Archive**: direct HTML extraction used from public EU/EACEA pages
+- **Type**: official-secondary
+- **Date published**: overview updated 2026-05-28; organisation page updated 2023-11-27
+- **Date accessed**: 2026-06-18
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: decentralized education governance, preschool/primary/secondary structure, compulsory pre-primary year, nine-year compulsory primary education, free public primary schooling, and secondary-school baseline (claim-bosnia-herzegovina-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-05-28
+
+## src-704
+- **Title**: QSI International School of Sarajevo and UWC Mostar public websites
+- **URL**: https://qsi.org/sarajevo/ ; https://www.uwcmostar.ba/
+- **Archive**: direct HTML extraction used from public school websites
+- **Type**: commercial
+- **Date published**: current public pages, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Sarajevo international-school anchor, QSI preschool/elementary/middle/secondary/AP/support baseline, and UWC Mostar older-student IB/residential international-school anchor (claim-bosnia-herzegovina-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-705
+- **Title**: Moldova Ministry of Health public website
+- **URL**: https://ms.gov.md/en/
+- **Archive**: stable gov domain - snapshot not required
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Moldova
+- **Facts supporting**: official public-health authority anchor for Moldova healthcare screening and CNAM/public-insurance follow-up (claim-moldova-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-706
+- **Title**: ExpatLife.AI - Moldova Healthcare 2026: insurance and hospitals guide
+- **URL**: https://expatlife.ai/moldova/healthcare
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: data verified 2026-06-15 on page
+- **Date accessed**: 2026-06-18
+- **Used by**: Moldova
+- **Facts supporting**: public/private healthcare baseline, Chisinau tertiary-care concentration, private-insurance proxy, emergency-care proxy, and healthcare application-prep gaps (claim-moldova-016, claim-moldova-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+## src-707
+- **Title**: Eurydice - Moldova organisation of the education system and its structure
+- **URL**: https://eurydice.eacea.ec.europa.eu/national-education-systems/moldova/organisation-education-system-and-its-structure
+- **Archive**: direct HTML extraction used from public EU/EACEA page
+- **Type**: official-secondary
+- **Date published**: current public page, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Moldova
+- **Facts supporting**: Moldova education levels, preschool/primary/secondary structure, and compulsory education through age 16 (claim-moldova-018)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-18
+
+## src-708
+- **Title**: ExpatLife.AI Moldova education 2026 guide plus QSI / Heritage public school websites
+- **URL**: https://expatlife.ai/moldova/education ; https://qsi.org/chisinau/ ; https://heritage.md/
+- **Archive**: direct HTML extraction used from public guide and school pages
+- **Type**: aggregator
+- **Date published**: ExpatLife data verified 2026-06-15; school pages current public pages, no single publication date captured
+- **Date accessed**: 2026-06-18
+- **Used by**: Moldova
+- **Facts supporting**: Chisinau international-school anchors, QSI preschool-through-secondary baseline, Heritage all-through international-school baseline, tuition and private-kindergarten screening proxies, and education application-prep gaps (claim-moldova-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-18
+
+
+## src-709
+- **Title**: Trade.gov - Mexico Healthcare Products & Services
+- **URL**: https://www.trade.gov/country-commercial-guides/mexico-healthcare-products-services
+- **Archive**: direct HTML extraction used from public U.S. government page
+- **Type**: reputable-secondary
+- **Date published**: 2026-02-12
+- **Date accessed**: 2026-06-19
+- **Used by**: Mexico
+- **Facts supporting**: Mexico mixed public/private healthcare-system baseline, public institutions including IMSS/ISSSTE/IMSS-Bienestar, urban private-sector expansion, and healthcare provider-screening caveats (claim-mexico-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-02-12
+
+## src-710
+- **Title**: Mexico Secretariat of Health and IMSS public websites
+- **URL**: https://www.gob.mx/salud ; https://www.imss.gob.mx/
+- **Archive**: stable gov domains - snapshot not required
+- **Type**: official-primary
+- **Date published**: current public websites, no single publication date captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Mexico
+- **Facts supporting**: federal public-health authority anchor, IMSS public-insurance/service anchor, and onboarding follow-up for temporary/permanent/self-employed residents (claim-mexico-017)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-19
+
+## src-711
+- **Title**: ExpatLife.AI Mexico healthcare and education 2026 guides plus ASF / ASFG public school websites
+- **URL**: https://expatlife.ai/mexico/healthcare ; https://expatlife.ai/mexico/education ; https://www.asf.edu.mx/ ; https://www.asfg.mx/
+- **Archive**: direct HTML extraction used from public guide and school pages
+- **Type**: aggregator
+- **Date published**: 2026 guide pages, exact page update date not captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Mexico
+- **Facts supporting**: private health-insurance and serious-care cost proxies, Mexico City private-hospital examples, public-school / bilingual-private / international-school screening baseline, ASF / ASFG school anchors, and healthcare/education application-prep gaps (claim-mexico-018, claim-mexico-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-19
+
+## src-712
+- **Title**: Mexico Secretariat of Public Education (SEP) public website and basic-education links
+- **URL**: https://www.gob.mx/sep ; https://www.gob.mx/sep/acciones-y-programas/educacion-basica
+- **Archive**: stable gov domains - snapshot not required
+- **Type**: official-primary
+- **Date published**: current public websites, no single publication date captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Mexico
+- **Facts supporting**: federal public-education authority anchor, SEP purpose statement, basic-education resource link, and public-school follow-up baseline (claim-mexico-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-19
+
+
+## src-713
+- **Title**: Argentina Ministry of Health public website
+- **URL**: https://www.argentina.gob.ar/salud
+- **Archive**: stable gov domain - snapshot not required
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Argentina
+- **Facts supporting**: official public-health authority anchor, national health programs/procedures, and public-hospital follow-up baseline for Argentina healthcare screening (claim-argentina-017)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-19
+
+## src-714
+- **Title**: ExpatLife.AI - Argentina Healthcare 2026: insurance and hospitals guide
+- **URL**: https://expatlife.ai/argentina/healthcare
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: 2026 guide page, exact page update date not captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Argentina
+- **Facts supporting**: private prepaga insurance proxy, public-hospital access caveat, Buenos Aires private-hospital anchors, and healthcare application-prep gaps (claim-argentina-017, claim-argentina-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-19
+
+## src-715
+- **Title**: Argentina national education public website
+- **URL**: https://www.argentina.gob.ar/educacion
+- **Archive**: stable gov domain - snapshot not required
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Argentina
+- **Facts supporting**: official education authority anchor, basic-education / school-calendar / statistics resource baseline, and public-school follow-up context (claim-argentina-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-19
+
+## src-716
+- **Title**: ExpatLife.AI Argentina education 2026 guide plus Lincoln School public website
+- **URL**: https://expatlife.ai/argentina/education ; https://www.lincoln.edu.ar/
+- **Archive**: direct HTML extraction used from public guide and school page
+- **Type**: aggregator
+- **Date published**: 2026 guide page, exact page update date not captured; school site current public page
+- **Date accessed**: 2026-06-19
+- **Used by**: Argentina
+- **Facts supporting**: public-school Spanish-language baseline, bilingual/private and top international-school cost proxies, Buenos Aires school anchors, Lincoln admissions/tuition-page anchor, and education application-prep gaps (claim-argentina-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-19

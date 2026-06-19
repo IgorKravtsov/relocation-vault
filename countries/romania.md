@@ -1,26 +1,26 @@
 ---
 country: Romania
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-12T08:05:00Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["romania-dn-income-above-current-budget", "romania-pfa-registration-vat-fit-gap", "cluj-rent-pressure"]
-sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076, src-121, src-324, src-325, src-326, src-327, src-505, src-506, src-507, src-508]
+depth_score: 5.5
+last_updated: 2026-06-16T17:50:29Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["romania-dn-income-above-current-budget", "romania-pfa-registration-vat-fit-gap", "cluj-rent-pressure", "romania-private-insurance-quote-gap", "romania-international-school-cost-risk"]
+sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076, src-121, src-324, src-325, src-326, src-327, src-505, src-506, src-507, src-508, src-642, src-643]
 unverified_count: 1
 schema_version: 2.0.0
 ---
 
 # Romania
 
-> First-pass country profile. Sections 5.2, 5.4, and 5.5 are completed for screening; sections 5.1 and 5.3 remain partial. The digital-nomad checklist blocker is closed at the operational-core level; consular formatting remains an application-prep check.
+> First-pass country profile. Sections 5.2, 5.4, 5.5, and 5.7 are completed for screening; sections 5.1, 5.3, and 5.6 remain partial. Healthcare is workable but final-status insurance / onboarding details remain application-prep checks.
 
 ## Block 1 — Summary
 
 - **Tier**: TBD
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-12
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-16
 - **Tier rationale**: TBD. Romania offers a legislated digital-nomad route and low cost of living, but winters are cold and no post-2027 TP bridge has been captured.
 
 ## Block 2 — Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Taxes | — | N/A | [verification required] | §5.3 |
 | Cost of living | — | medium | Romania screens cheaper than many EU candidates, but tax/residence costs still need a full practical budget. | §5.4 |
 | Rent (decent 2BR) | — | medium | Timisoara and Bucharest can work with rent caps; Cluj-Napoca is rent-pressured. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | TP gives a public-health baseline and Romania has public/private care, but private insurance and final-status onboarding remain application-prep gaps. | §5.6 |
+| Education (future child) | — | medium-high | ECEC and public-school structure are clear enough for screening; international-school and childcare costs are the main budget risk. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -170,13 +170,46 @@ Search/platform baseline for later housing work: start with Storia.ro, Imobiliar
 
 Practical interpretation: for the current one-income couple, **Timisoara first, Bucharest second with a cap, Cluj-Napoca only if a specific work/community reason justifies the premium**. Budget planning should assume at least first month + deposit cash needs; exact deposit and agency-fee practice still belongs in a later application-prep pass.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 0.5, last_updated: 2026-06-16, dod: partial}
 
-[verification required]
+> **DoD status**: Partial for screening. Temporary-protection healthcare access and the public/private healthcare baseline are captured, but live private-insurance quotes, maternity waiting periods/exclusions, and exact onboarding for the couple's final DN / family / self-employed status and selected city remain application-prep checks.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Public / protected-status baseline**
+- For Ukrainians who qualify for Romanian temporary protection, UNHCR records free-of-charge primary healthcare, appropriate treatment, emergency hospital care, medical care for acute or chronic imminently life-threatening illnesses, and special-needs medical assistance; the TP residence permit and CNP are the practical identifiers for procedures with Romanian authorities [src-076].
+- This is a strong safety-net baseline only while the couple is inside the Ukraine/TP framework. It should not be treated as proof that a later digital-nomad, family-reunification, or commercial/self-employed file automatically has the same public-health onboarding path.
 
-[verification required]
+**Public/private care and insurance baseline**
+- Expat Arrivals summarizes Romania as having public healthcare managed by the National Health Insurance House, with free or subsidised care for Romanian residents including expats, but also notes long waits, uneven public-facility quality, and better-equipped hospitals in larger cities such as Bucharest [src-642].
+- The same source says expats typically need private medical insurance for visa issuance and recommends thorough private coverage because public facilities may not meet expat expectations [src-642]. For this couple, budget planning should assume private insurance until the exact Romanian insured title is confirmed.
+- Livingcost's country page gives a commercial first-pass private doctor-visit proxy of about **$45** in Romania [src-505]. Use this only as an out-of-pocket screen, not as an insurer quote.
+
+**City interpretation**
+- **Timisoara** remains the first budget/service compromise: lower rent than Bucharest/Cluj and a major-city healthcare base, but specialist private-care depth should be checked before pregnancy planning.
+- **Bucharest** has the deepest hospital/private-clinic supply but higher all-in living costs.
+- **Cluj-Napoca** has strong services but the highest captured rent pressure, so healthcare convenience must justify the housing premium.
+
+**Healthcare verdict**
+- Romania is workable for healthcare screening but not ready for filing-budget precision. Keep `romania-private-insurance-quote-gap` as an application-prep risk until the couple's final status, city, private-insurance quotes for two young adults, maternity exclusions/waiting periods, and CNAS / family-doctor registration steps are confirmed; `vq-129` is resolved for screening.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-16, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. Romania's public education structure, ECEC age bands, compulsory/free ECEC baseline, and primary/lower-secondary structure are clear enough for country comparison. Exact school catchment, Romanian-language support, private nursery, and international-school quotes remain later city/application-prep work.
+
+**System structure**
+- Eurydice describes Romania's education system as nationally administered by the Ministry of Education, with county school inspectorates at local level [src-643].
+- The system includes early childhood education and care from **3 months to 6 years**, primary education of **5 years** including preparatory grade and grades 1-4, lower secondary of **4 years** (grades 5-8), and usually 4-year upper secondary education [src-643].
+- ECEC is split into ante-preschool education/care for children aged **3 months to 3 years** and preschool education/care for ages **3-6** [src-643].
+
+**Compulsory / free baseline**
+- Eurydice states that attendance is compulsory from **age 4** and that ECEC is free of charge, even full-time; primary education starts at age 6 [src-643]. The same page notes Romania is gradually lowering compulsory ECEC, with a planned age-3 start from September 2030 [src-643].
+- Primary education is part of compulsory education and can be organised in public and private schools; it includes the preparatory grade and grades I-IV, and public primary textbooks are provided free of charge [src-643].
+
+**Budget and future-child read**
+- Livingcost's Romania country page gives first-pass education cost proxies of about **$590/month** for daycare/preschool and **$10,186/year** for international primary school [src-505]. These are commercial averages, but they show the main one-income risk: international school could consume roughly one-third of gross annual income, while private daycare can be material even before rent.
+- For the couple, the practical baseline is local public/ECEC integration with Romanian-language planning. International school should be treated as a contingency, not the default budget path, unless income rises.
+
+**Education verdict**
+- Romania passes §5.7 for screening: the public pathway is structurally clear and relatively family-friendly on paper, but language integration and private/international costs need a later city-level pass. Add `romania-international-school-cost-risk` because private international schooling is too expensive for a one-income $3,000/month baseline.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -214,11 +247,14 @@ Practical interpretation: for the current one-income couple, **Timisoara first, 
 **Pros**:
 - Low headline cost and rent compared with many EU candidates; Timisoara and Bucharest can screen under the couple's gross income if the tax/residence file is solved.
 - EU location near Ukraine with a captured TP baseline through the EU horizon.
+- Education structure is clear and public/ECEC options are viable for future-child planning if the family accepts Romanian-language integration.
 
 **Cons / risks**:
 - Digital-nomad income threshold is above the couple's current income, and the ordinary PFA-style tax model is still an accountant/application-prep gap.
 - Winters are cold for the couple's climate preference, especially outside the south/west.
 - Cluj-Napoca is rent-pressured relative to the Romanian baseline.
+- Healthcare filing budget remains uncertain until private-insurance quotes, maternity terms, and final-status CNAS / family-doctor onboarding are confirmed.
+- International schooling is expensive relative to one $3,000/month income.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -235,7 +271,8 @@ TBD — will be developed as sections 5.3–5.11 are completed.
 
 ### 7b. Reputable secondary
 - [src-070] Nomad Girl — Romania Digital Nomad Visa & The 8 Best Cities To Stay (2022-01-11, updated 2024-03-05) — income threshold, duration, tax treatment, application route.
-- [src-076] UNHCR Romania — Temporary Protection page (help.unhcr.org/romania/information-for-people-from-ukraine/temporary-protection) — TP rights, registration procedure, permit validity, travel rules, Schengen-day counting.
+- [src-076] UNHCR Romania — Temporary Protection page (help.unhcr.org/romania/information-for-people-from-ukraine/temporary-protection) — TP rights, registration procedure, permit validity, travel rules, Schengen-day counting, healthcare, and education rights.
+- [src-642] Expat Arrivals — Healthcare and health insurance for expats in Romania — public/private healthcare screening baseline, private-insurance need, and public-system caveats.
 - [src-324] PwC Romania — individual personal income taxes, residence, and tax administration.
 - [src-325] PwC Romania — individual other taxes and social contributions.
 
@@ -252,17 +289,23 @@ _(none yet)_
 - [src-506] Livingcost — Cost of living in Bucharest.
 - [src-507] Livingcost — Cost of living in Cluj-Napoca.
 - [src-508] Livingcost — Cost of living in Timisoara.
+- [src-643] Eurydice — Romania education-system pages — ECEC, compulsory/free education, primary/lower-secondary structure, and governance baseline.
 
 ### 7e. Not found
 - Serving-consulate digital-nomad appointment/payment/localisation details and exact processing-time practice; not a current core-route blocker after `vq-022` closure.
 - Official meteorological annual sunny-day counts for Romanian cities. WeatherSpark clearer-sky day-equivalent proxies are now captured for §5.2 screening.
 - Romanian accountant / authority confirmation of the exact PFA or company route for foreign-client IT, CAEN classification, expense deductions, VAT / reverse-charge treatment, and compatibility with the couple's immigration file.
+- Private-insurance quotes, maternity waiting periods/exclusions, and CNAS / family-doctor onboarding for the couple's final Romanian status and selected city.
+- City-level school catchment, Romanian-language support, and live private nursery / international-school quotes.
 
 ## Block 8 — Open questions and verification markers
 
 Tax application-prep checks after run-069:
 - `vq-096` — resolved to a conservative screening baseline: do not rely on DN tax-free assumptions or an unverified PFA file; CAEN classification, expense ordering, VAT / reverse-charge, and immigration-status fit remain accountant/application-prep checks before filing.
 
-Sections 5.1/5.2 have no current blockers after `vq-022` operational-core closure; later citizenship, healthcare, rent, and application-prep checks remain in their own pending sections.
+Healthcare application-prep check after run-137:
+- `vq-129` resolved for screening in run-138: private-insurance quotes, maternity waiting periods/exclusions, and exact CNAS / family-doctor onboarding for the couple's final DN / family / self-employed status and selected city remain application-prep checks.
+
+Sections 5.1/5.2 have no current blockers after `vq-022` operational-core closure; later citizenship, comfort, partner fit, and route-specific application-prep checks remain in their own pending sections.
 
 

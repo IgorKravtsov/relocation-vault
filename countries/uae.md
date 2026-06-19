@@ -1,13 +1,13 @@
 ---
 country: UAE
 tier: null
-depth_score: 2.5
-last_updated: 2026-06-11T03:12:09Z
-sections_completed: ["5.2", "5.3"]
+depth_score: 4.5
+last_updated: 2026-06-15T10:00:28Z
+sections_completed: ["5.2", "5.3", "5.4", "5.5"]
 sections_partial: ["5.1"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["virtual-work-bridge-only", "green-visa-income-above-current-budget", "no-ordinary-naturalization-route", "extreme-summer-heat", "tax-status-threshold-monitoring"]
-sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250", "src-462", "src-463", "src-464"]
+sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
+risk_flags: ["virtual-work-bridge-only", "green-visa-income-above-current-budget", "no-ordinary-naturalization-route", "extreme-summer-heat", "tax-status-threshold-monitoring", "dubai-abu-dhabi-rent-pressure", "uae-one-income-margin-risk"]
+sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250", "src-462", "src-463", "src-464", "src-604", "src-605", "src-606", "src-607"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (early evidence points to a bridge/base jurisdiction rather than a settlement route for this couple).
-- **depth_score**: 2.5
-- **Last updated**: 2026-06-11T03:12:09Z
+- **depth_score**: 4.5
+- **Last updated**: 2026-06-15T10:00:28Z
 - **Tier rationale**: UAE has real short-stay and self-sponsored residence routes, and taxes are very favorable at the couple's current income level. The limiting factor remains immigration, not tax: the best-fit virtual-work route is a one-year extendable bridge above the couple's current USD 3,000/month income, the 5-year Green Residence freelancer threshold is much higher, and ordinary citizenship is nomination-based for exceptional categories rather than a predictable residence-to-passport track. [src-244][src-245][src-248][src-462]
 
 ## Block 2 - Scoring
@@ -28,8 +28,8 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | medium | Entry and virtual-work route are workable, but long-term settlement route is weak for a USD 3,000/month remote IT worker. | §5.1 |
 | Climate | — | medium | Winter is excellent; May-September heat/humidity is a major comfort risk. | §5.2 |
 | Taxes | — | medium-high | At USD 3,000/month, the baseline screen is near-zero UAE tax: no PIT, no individual tax filing, non-GCC nationals outside UAE social security, and annual turnover far below the natural-person CT and VAT thresholds. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
+| Cost of living | — | medium | High-cost bridge baseline: Dubai and Abu Dhabi are tight on USD 3,000/month, while Sharjah/outer-emirate living is the first affordability screen if commute and lease constraints work. | §5.4 |
+| Rent (decent 2BR) | — | medium | Livingcost 40 m2 rent proxies show Dubai and Abu Dhabi rent pressure; Sharjah is the first lower-cost screen, but live listing, deposit, chiller, Ejari/Tawtheeq, and family-sponsorship housing checks remain. | §5.5 |
 | Healthcare | — | N/A | [verification required] | §5.6 |
 | Education (future child) | — | N/A | [verification required] | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
@@ -103,17 +103,26 @@ schema_version: 2.0.0
 - **Worked example for the couple's current income**: USD 3,000/month gross (about AED 11,018/month; AED 132,210/year) -> UAE PIT: USD 0 -> UAE social security for a non-GCC national: USD 0 -> UAE corporate tax for natural-person business at this turnover: USD 0 -> VAT remittance assumed USD 0 because annual receipts are below AED 375,000 mandatory registration. **Screening net: about USD 3,000/month before health insurance, residence fees, accounting, banking, and living costs.** [src-462][src-464]
 - **Practical verdict**: UAE taxes are favorable and pass §5.3 for country screening. They do not solve the immigration income gate: the virtual-work route still requires at least USD 3,500/month and the Green Residence freelancer threshold remains far above the couple's current income. [src-244][src-245]
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: completed, depth: 1, last_updated: 2026-06-15, dod: passed}
 
 > **DoD**: monthly expenses for 2+ cities; explicit verdict on $3000/mo sufficiency.
 
-[verification required]
+- **National screen**: Livingcost puts the UAE at about USD 2,071/month for one person with rent and USD 4,510/month for a family-of-four proxy; without rent, the same table is about USD 681 / USD 2,130, with food around USD 419 / USD 1,084, transport around USD 128 / USD 325, and rent/utilities around USD 1,390 / USD 2,380. This is a high-cost baseline for a one-income couple, even before insurance, visa/residence fees, deposits, and summer utility swings. [src-604]
+- **Dubai**: about USD 2,420/month for one person with rent and USD 5,315/month for the family proxy; without rent about USD 785 / USD 2,480, food USD 459 / USD 1,191, transport USD 182 / USD 455, and rent/utilities USD 1,634 / USD 2,835. Dubai is the services-rich default for jobs, banking, flights, and Russian/Ukrainian-speaking communities, but it is not comfortable on USD 3,000/month unless the couple keeps housing unusually cheap and treats UAE as a short bridge. [src-605]
+- **Abu Dhabi**: about USD 2,070/month for one person with rent and USD 4,485/month for the family proxy; without rent about USD 652 / USD 2,085, food USD 439 / USD 1,135, transport USD 72 / USD 195, and rent/utilities USD 1,417 / USD 2,400. It is slightly cheaper than Dubai in the captured table but still tight for the current budget. [src-606]
+- **Sharjah**: about USD 1,473/month for one person with rent and USD 3,212/month for the family proxy; without rent about USD 561 / USD 1,669, food USD 338 / USD 873, transport USD 106 / USD 272, and rent/utilities USD 912 / USD 1,543. Sharjah is the first affordability screen, especially if the work/residence file does not require Dubai-specific housing; the tradeoff is commute/time, summer heat, and emirate-specific lease and utility details that must be checked in live listings. [src-607]
+- **USD 3,000/month verdict**: taxes screen near zero, but living costs make UAE fragile. Dubai/Abu Dhabi are poor fits at current income; Sharjah/outer-emirate living may be workable only with strict rent control, a cash buffer, and a clear residence-file income strategy. If the working partner raises income above the USD 3,500/month virtual-work threshold, the budget still needs a practical housing / insurance / fees check before treating UAE as comfortable. [src-244][src-604][src-607]
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.5. Rent {status: completed, depth: 1, last_updated: 2026-06-15, dod: passed}
 
 > **DoD**: 2BR prices in 3+ cities with ranges; % of $3000; 2+ search platforms; landlord requirements.
 
-[verification required]
+- **Proxy caveat**: Livingcost reports 40 m2 1BR and 80 m2 3BR lines rather than the vault's exact two-room-apartment definition. Use the 40 m2 line as the modest two-room proxy and the 80 m2 line only as a future-family / larger-unit stress test. Live Bayut / Property Finder / Dubizzle checks are still needed before filing or signing.
+- **Dubai**: 40 m2 rent proxy around USD 1,244-1,988/month, or about 41%-66% of USD 3,000 gross / near-zero-tax net. The 80 m2 stress line is about USD 2,237-3,617/month, which is not compatible with the current budget. Dubai should be used only with a strict housing cap, outer-neighbourhood search, and verified chiller/utility/deposit costs. [src-605]
+- **Abu Dhabi**: 40 m2 proxy around USD 1,151-1,520/month, about 38%-51% of USD 3,000; 80 m2 stress line around USD 2,026-2,679/month. Abu Dhabi is somewhat less expensive than Dubai in the captured rent line but still rent-sensitive for a one-income couple. [src-606]
+- **Sharjah**: 40 m2 proxy about USD 667/month in the captured table, about 22% of USD 3,000; 80 m2 stress line about USD 1,201-1,225/month, around 40%-41%. This is the first UAE rent screen for affordability, but live listings must verify whether the unit is acceptable, whether Dubai commuting is realistic, and whether the lease supports the relevant residence / family-sponsorship documentation. [src-607]
+- **National rent context**: UAE national 40 m2 rents screen around USD 1,076-1,527/month and 80 m2 around USD 2,271-3,122/month, confirming that Dubai/Abu Dhabi-style rent pressure is the core budget risk rather than tax. [src-604]
+- **Lease-practicality checks**: before application prep, verify Bayut / Property Finder / Dubizzle live listings, broker commission, deposit, chiller and utilities, Ejari/Tawtheeq or emirate-specific tenancy registration, landlord acceptance of new residents, and whether spouse/family sponsorship needs a minimum housing standard or registered lease. These are not recovery blockers, but they decide whether UAE is a usable bridge at this income.
 
 ### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -171,6 +180,7 @@ schema_version: 2.0.0
 - **Does marriage change the picture**: Yes, likely important for spouse/family sponsorship, but it does not solve the sponsor income threshold.
 - **Realism of staying after 03.2027**: Medium-low for settlement; medium as a renewable bridge if income qualifies.
 - **Tax fit at USD 3,000/month**: Strong for screening; likely near-zero UAE tax before non-tax costs, but threshold monitoring is needed if income grows or a UAE company/free-zone structure is used. [src-462][src-464]
+- **Cost/rent fit at USD 3,000/month**: Weak in Dubai / Abu Dhabi without higher income; Sharjah or another cheaper emirate is the first affordability screen, but the UAE remains a one-income-margin-risk country once health insurance, residence fees, deposits, and summer utilities are included. [src-604][src-605][src-606][src-607]
 
 **Pros**:
 - Official self-sponsored virtual-work route for foreign remote work. [src-244]
@@ -183,6 +193,7 @@ schema_version: 2.0.0
 - Green Residence freelancer threshold of AED 360,000 annual income is far above current income. [src-245]
 - No predictable ordinary citizenship route captured. [src-248]
 - Extreme summer heat/humidity. [src-249][src-250]
+- Dubai and Abu Dhabi rent/cost levels can consume too much of the current USD 3,000/month one-income budget; Sharjah improves rent but adds commute, emirate-specific lease, and practical-service tradeoffs. [src-605][src-606][src-607]
 - Tax remains favorable at current income, but a UAE business/free-zone setup or income growth could trigger corporate-tax, VAT, and accounting thresholds that need accountant confirmation before filing. [src-462][src-464]
 
 ## Block 6 - Practical playbook (working relocation guide)
@@ -225,8 +236,8 @@ schema_version: 2.0.0
 | Visa / residence permit fees | — | GDRFA virtual-work visa fee captured as AED 200 plus VAT, with possible inside-country AED 500 fee; full residence/medical/ID costs still need verification. [src-244] |
 | Apostilles and translations | — | TBD |
 | Flights for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
+| Rental deposit | — | Later live-listing check; model at least one to several months plus agency / utility setup until verified. |
+| First month rent | ~667-1,988 | Livingcost 40 m2 proxy: Sharjah around USD 667; Abu Dhabi around USD 1,151-1,520; Dubai around USD 1,244-1,988. [src-605][src-606][src-607] |
 | Health insurance (one year) | — | Required for virtual work; price TBD. [src-244] |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
@@ -261,10 +272,15 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - [src-249] Climate to Travel - Dubai climate
 - [src-250] WeatherSpark - UAE country climate comparison
+- [src-604] Livingcost - Cost of living in the United Arab Emirates
+- [src-605] Livingcost - Cost of living in Dubai
+- [src-606] Livingcost - Cost of living in Abu Dhabi
+- [src-607] Livingcost - Cost of living in Sharjah
 
 ### 7e. Application-prep checks
 - Official UAE nationality-selector confirmation for Ukrainian passports before travel.
 - Full virtual-work residence-permit issuance checklist after entry, including medical test, Emirates ID, dependent-document details, and final fees.
+- Live rental listings and lease mechanics: Bayut / Property Finder / Dubizzle prices, deposit, agency fee, chiller and utility setup, Ejari/Tawtheeq registration, landlord document support, and housing requirements for family sponsorship.
 
 ## Block 8 - Claims
 

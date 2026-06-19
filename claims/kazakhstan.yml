@@ -88,3 +88,48 @@
   confidence: medium
   tags: [tax, worked-example, fx, usd3000]
   notes: "This is a PIT-only screening calculation before accountant, VAT, health/social/pension contributions, residence costs, and banking friction; an employee-style 10% OPC + 2% OMIC sensitivity leaves about USD 2,403/month."
+
+- id: claim-kazakhstan-011
+  topic: kazakhstan_national_cost_rent_screen
+  value: "Livingcost screens Kazakhstan at about USD 690/month for one person with rent and USD 1,667/month for a family-of-four proxy; national 40 m2 1BR rent proxies are about USD 381 central and USD 249 cheap."
+  source: src-595
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, national, livingcost]
+  notes: "Commercial cost-screen baseline only; live lease, deposits, and address-registration support need later verification."
+
+- id: claim-kazakhstan-012
+  topic: kazakhstan_almaty_cost_rent_screen
+  value: "Livingcost screens Almaty at about USD 974/month for one person with rent and USD 2,342/month for a family-of-four proxy; 40 m2 1BR rent proxies are about USD 649 central and USD 421 cheap."
+  source: src-596
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, almaty, livingcost, rent-pressure]
+  notes: "Almaty is the services-rich option but rent-sensitive against Kazakhstan's conservative tax-net downside band."
+
+- id: claim-kazakhstan-013
+  topic: kazakhstan_nur_sultan_cost_rent_screen
+  value: "Livingcost screens Nur-Sultan / Astana at about USD 732/month for one person with rent and USD 1,764/month for a family-of-four proxy; 40 m2 1BR rent proxies are about USD 412 central and USD 285 cheap."
+  source: src-597
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, nur-sultan, astana, livingcost]
+  notes: "Rent is manageable, but climate remains a poor fit because winters are severe."
+
+- id: claim-kazakhstan-014
+  topic: kazakhstan_shymkent_cost_rent_screen
+  value: "Livingcost screens Shymkent at about USD 562/month for one person with rent and USD 1,394/month for a family-of-four proxy; 40 m2 1BR rent proxies are about USD 268 central and USD 142 cheap."
+  source: src-598
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, shymkent, livingcost, budget-fit]
+  notes: "Shymkent is the first budget-and-climate screen pending healthcare, services, lease, and legal/tax checks."
+
+- id: claim-kazakhstan-015
+  topic: kazakhstan_aktau_cost_rent_screen
+  value: "Livingcost screens Aktau at about USD 598/month for one person with rent and USD 1,471/month for a family-of-four proxy; 40 m2 1BR rent proxies are about USD 244 central and USD 163 cheap."
+  source: src-599
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, aktau, livingcost, caspian]
+  notes: "Aktau is an affordable Caspian fallback, but small-city service depth and foreigner lease support need later checks."

@@ -1,14 +1,14 @@
 ---
 country: Bulgaria
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-12T13:29:09Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6", "5.7", "5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["self-employment-permit-3-year-cap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational", "bulgaria-self-employed-contribution-and-status-fit-gap", "sofia-rent-pressure"]
-sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118", "src-328", "src-329", "src-330", "src-331", "src-509", "src-510", "src-511", "src-512"]
-unverified_count: 1
+depth_score: 5.5
+last_updated: 2026-06-17T00:00:26Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8", "5.9", "5.10", "5.11"]
+risk_flags: ["self-employment-permit-3-year-cap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational", "bulgaria-self-employed-contribution-and-status-fit-gap", "sofia-rent-pressure", "bulgaria-private-insurance-quote-gap", "bulgaria-international-school-cost-risk"]
+sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118", "src-328", "src-329", "src-330", "src-331", "src-509", "src-510", "src-511", "src-512", "src-644", "src-645", "src-646", "src-647"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (insufficient data for tier assignment after first pass)
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-12
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-17
 - **Tier rationale**: TBD. Bulgaria offers a self-employment residence route with a 3-year cap and a 5-year path to permanent residence, but the 3-year self-employment permit limitation and the absence of a captured TP-to-ordinary-residence bridge create operational constraints. Dual-citizenship restrictions for naturalized non-EU nationals are a further consideration. A tier will be assigned after deeper research.
 
 ## Block 2 — Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | First-pass 10% PIT / statutory-expense / social-insurance / VAT baseline; exact immigration-status and contribution package fit still needs verification | §5.3 |
 | Cost of living | — | medium | Livingcost first pass: Plovdiv is the best captured cost screen, Varna is moderate, Sofia is workable only with rent discipline | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 1BR proxy ranges from about $297 cheap in Plovdiv to $702 center in Sofia; live listings / landlord practice still pending | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | Public NHIF/TP baseline captured; exact route-compliant private insurance quotes and final-status onboarding remain application-prep checks | §5.6 |
+| Education (future child) | — | medium-high | Eurydice baseline: free compulsory pre-primary from age 4, public school structure clear; Sofia international school fees create budget risk | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -194,13 +194,43 @@ Interpretation for the vault's "normal two-room apartment" definition: the 40 m2
 
 Practical search baseline: use **Imot.bg**, **Imoti.net**, **Alo.bg**, local Facebook rental groups, and larger agencies as discovery channels. For a foreign couple with one foreign-client income, expect landlords or agents to ask for identity documents, proof of legal stay or a pending permit, income evidence, and a deposit. Exact deposit norms, agency fees, lease registration practice, landlord acceptance of foreign remote income, and utility-transfer mechanics remain later practical-budget work; do not treat this first pass as an application-ready housing guide.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-17, dod: pending}
 
-[verification required]
+> **DoD**: how to register after arrival; cost of private insurance for two; pregnancy / childbirth conditions. This pass opens a screening baseline but does not pass DoD because live route-compliant insurance quotes, maternity exclusions / waiting periods, and exact final-status NHIF / GP onboarding workflow are still application-prep checks.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Public / compulsory healthcare baseline
 
-[verification required]
+Bulgaria's National Health Insurance Fund (NHIF) is the statutory payer for the compulsory health-insurance system. Its own English page describes NHIF as a legal entity with a central office in Sofia and regional health-insurance funds in all 28 regional centres, with the goal of guaranteeing free and equal access to healthcare for insured persons through packages of health activities [src-644]. For a long-stay plan, this means the practical onboarding question is not whether a public system exists, but which legal route makes the couple insured and what office / family-doctor steps apply after the final residence status is issued.
+
+For Ukrainians under temporary protection, the local baseline is stronger: UNHCR Bulgaria states that TP beneficiaries have access to medical care, education, social support, residence, and work without a permit [src-089]. That is sufficient for a pre-2027 healthcare screen, but it should not be treated as proof that a later self-employment / family-residence file gives identical onboarding mechanics.
+
+#### Private care and insurance planning
+
+For country screening, assume the couple needs a private insurance buffer until their exact NHIF status is confirmed. Run-148 resolves `vq-130` for screening: live Bulgarian private-health-insurance quotes, maternity waiting periods / exclusions, and route-compliant policy wording for a self-employment / family-reunification residence file are application-prep checks, not country-screening blockers. Keep the `bulgaria-private-insurance-quote-gap` flag until filing quotes are captured.
+
+Operational baseline: Plovdiv remains the best first Bulgaria cost screen, while Sofia has the deepest specialist / administrative ecosystem; Varna is the coastal option but should be checked for private clinic depth and seasonality before relying on it for pregnancy or specialist care.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-17, dod: passed}
+
+> **DoD**: kindergarten cost; quality of public schools for foreigners; international-school alternative with cost. This is a first-pass family-planning baseline, not school-selection advice.
+
+#### Early childhood and compulsory pre-primary
+
+Eurydice's Bulgaria profile states that early childhood education and care is centre-based and provided through nurseries, kindergartens, and primary schools. Nurseries cover children from **3 months to 3 years** under the Ministry of Health; kindergartens cover children from **age 3 until first grade** under the Ministry of Education and Science [src-645]. The final two years of preschool education for children aged **5-7** have been compulsory since 2010, compulsory pre-primary applies to **4-year-olds** from 2023/2024, and compulsory preschool education in state and municipal kindergartens is **free of charge** [src-645].
+
+Screening implication: public preschool costs should not be the main budget blocker after the child reaches compulsory pre-primary age, but nursery places before age 3 and municipal availability by city remain local checks.
+
+#### Public school structure and fit for foreigners
+
+Eurydice describes Bulgaria's pre-school and school system as including kindergartens, schools, personal-development support centres, and specialized service units, with education delivered under state educational standards [src-646]. Non-specialized schools include primary schools covering grades I-IV, main schools covering I-VII, schools covering VIII-XII, united schools covering I-X, and secondary schools covering I-XII [src-646].
+
+For a Ukrainian family, the public-system fit is likely strongest where there are Ukrainian communities and administrative support: Sofia for services and more school choice, Plovdiv for the cost/service balance, and Varna for coastal lifestyle if the couple accepts a smaller international-school market. Bulgarian-language integration is the main practical issue; no evidence was captured in this pass for Ukrainian-language school support in the target cities.
+
+#### International-school budget risk
+
+International school is the clear downside scenario for a one-income family. International Schools Database lists the British School of Sofia with 2025/2026 yearly fees from **EUR 9,980 to EUR 17,900** and English-language IGCSE / IB Diploma pathways [src-647]. This single-school benchmark is not a market average, but it is enough to flag `bulgaria-international-school-cost-risk`: even the lower end would consume a large share of the couple's annual net if only one partner earns about USD 3,000/month.
+
+Education conclusion: Bulgaria passes the first-pass education DoD for screening. Public preschool/school is structurally available and compulsory/free at the key pre-primary stage, but Sofia-style international education would be a major future-child budget risk; if the family plans international schooling, Bulgaria's apparent rent/tax advantage can narrow quickly.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -229,7 +259,7 @@ Practical search baseline: use **Imot.bg**, **Imoti.net**, **Alo.bg**, local Fac
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: TBD; cost/rent screening is workable in Plovdiv and possible in Varna, but the legal route remains the gating issue.
+- **Can relocate now**: TBD; cost/rent screening is workable in Plovdiv and possible in Varna, healthcare/education are screenable, but the legal route remains the gating issue.
 - **Best legalization path for the man**: TBD (self-employment route appears most relevant, but exact requirements unclear)
 - **Best legalization path for the woman**: TBD
 - **Does marriage change the picture**: TBD (marriage to a Bulgarian citizen reduces citizenship timeline from 5 to 3 years; marriage to the working partner may enable family reunification)
@@ -241,7 +271,8 @@ Practical search baseline: use **Imot.bg**, **Imoti.net**, **Alo.bg**, local Fac
 
 **Cons / risks**:
 - Sofia is the captured rent-pressure case; center rent can consume roughly one-third of the conservative after-tax screening net.
-- Cost/rent sections do not yet include private health insurance, accountant, immigration-lawyer, application, or deposit cash-flow costs.
+- Exact private health insurance, accountant, immigration-lawyer, application, and deposit cash-flow costs remain application-prep checks.
+- International schooling in Sofia can materially erode the one-income budget.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -299,7 +330,7 @@ Practical search baseline: use **Imot.bg**, **Imoti.net**, **Alo.bg**, local Fac
 ## Block 7 — Sources
 
 ### 7a. Official primary
-_(none yet — Bulgarian Ministry of Interior and Employment Agency pages were WAF-protected or not directly capturable)_
+- [src-644] National Health Insurance Fund (NHIF) Bulgaria — institutional overview (official-primary)
 
 ### 7b. Reputable secondary
 - [src-079] EU Immigration Portal — Self-employed worker in Bulgaria (official-secondary)
@@ -310,6 +341,8 @@ _(none yet — Bulgarian Ministry of Interior and Employment Agency pages were W
 - [src-328] PwC Worldwide Tax Summaries — Bulgaria individual taxes and residence (reputable-secondary)
 - [src-329] PwC Worldwide Tax Summaries — Bulgaria other taxes, deductions, and tax administration (reputable-secondary)
 - [src-330] PwC Worldwide Tax Summaries — Bulgaria corporate VAT context (reputable-secondary)
+- [src-645] Eurydice — Bulgaria early childhood education and care (official-secondary)
+- [src-646] Eurydice — Bulgaria education-system overview (official-secondary)
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -327,6 +360,7 @@ _(none yet)_
 - [src-510] Livingcost — Sofia cost of living (commercial)
 - [src-511] Livingcost — Plovdiv cost of living (commercial)
 - [src-512] Livingcost — Varna cost of living (commercial)
+- [src-647] International Schools Database — British School of Sofia fees (commercial)
 
 ### 7e. Not found
 > Explicit list of resources searched for but not found. Signal for future iterations.
@@ -339,9 +373,11 @@ _(none yet)_
 - Bulgarian NRA official 2026 self-insured contribution table / exact foreigner health-insurance obligation and self-employed IT classification. Direct NRA capture failed during run-065, so the tax worked example uses a PwC-backed planning stress test and remains partial.
 - Accountant-level VAT / reverse-charge and immigration-status compatibility for a Ukrainian foreign-client IT freelancer.
 - Live Bulgarian rental listings, exact deposit norms, agency fee practice, lease-registration mechanics, and landlord acceptance of foreign remote income for Sofia / Plovdiv / Varna.
+- Live Bulgarian private-health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NHIF / GP onboarding workflow for the final self-employment / family-residence status.
 
 ## Block 8 — Open questions and verification markers
 
 > All `[verification required]` items for this country. Links to the corresponding entries in `verification-queue.md` via item ID.
 
 - `vq-097` — resolved to a conservative screening baseline: keep the statutory-expense / contribution stress test as partial only; exact contribution package, foreigner health-insurance obligation, IT classification, VAT / reverse-charge handling, and migration-route fit remain accountant/application-prep checks before filing.
+- `vq-130` — resolved in run-148 for screening: route-compliant private insurance quotes, maternity exclusions / waiting periods, and final-status NHIF / GP onboarding workflow remain before-filing checks, not country-screening blockers.

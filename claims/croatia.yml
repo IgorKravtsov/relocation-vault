@@ -97,3 +97,40 @@
   confidence: medium
   tags: [tax, budget, worked-example, self-employment]
   notes: "Uses src-306 PIT rates, src-309 EUR 600/month allowance, and src-310 contribution-rate baseline; result may be overly conservative if lump-sum craft taxation applies."
+
+
+- id: claim-croatia-012
+  topic: compulsory_health_insurance_scope
+  value: "HZZO compulsory insurance covers listed insured-person categories; maternity/pregnancy healthcare is within the compulsory-insurance healthcare scope for insured persons"
+  source: src-626
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [healthcare, compulsory-insurance, maternity]
+  notes: "Uses src-628 for pregnancy/childbirth scope; exact DN/private-insurance path and final-status onboarding remain application-prep checks."
+
+- id: claim-croatia-013
+  topic: hzzo_registration_timing
+  value: "Application/change/deregistration in compulsory health insurance is filed at any HZZO regional office or branch within 8 days of the relevant status circumstance"
+  source: src-627
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [healthcare, registration, onboarding]
+  notes: "Exact document package depends on the couple's final residence/self-employment/family-member basis."
+
+- id: claim-croatia-014
+  topic: compulsory_public_school_structure
+  value: "Croatia primary/lower-secondary education is a single-structure compulsory 8-year system, generally age 6-7 to 14-15"
+  source: src-629
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [education, compulsory-schooling, public-school]
+  notes: "Public Croatian schooling is the realistic one-income baseline; language integration and city enrolment remain practical checks."
+
+- id: claim-croatia-015
+  topic: pre_primary_requirement
+  value: "All children must participate in a pre-primary programme for 1 year before starting school; the preschool programme is state-financed and free for parents in the year before elementary school"
+  source: src-630
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [education, early-childhood, pre-primary]
+  notes: "Uses src-629 for the fully financed/free wording and src-630 for ECEC age/provider structure."

@@ -98,3 +98,40 @@
   confidence: medium
   tags: [tax-calculation, self-employed, budget]
   notes: "Planning estimate only until the current Social Insurance category floor/ceiling and deduction treatment are confirmed."
+
+
+- id: claim-cyprus-012
+  topic: cyprus_healthcare_gesy_portal_anchor
+  value: "GESY/GHS beneficiary services are the official portal anchor for public-healthcare registration/checking once the couple has the required Cyprus status and identifiers."
+  source: src-622
+  date_verified: 2026-06-16
+  confidence: medium
+  tags: [healthcare, gesy, public-healthcare]
+  notes: "Portal shell was accessible but detailed English eligibility workflow still needs application-prep verification; see vq-124."
+
+- id: claim-cyprus-013
+  topic: cyprus_compulsory_free_public_education
+  value: "Cyprus compulsory education lasts 10 years and 4 months from pre-primary age to age 15; public education is free through the school-age range and textbooks are free."
+  source: src-623
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [education, compulsory-schooling, public-school]
+  notes: "Eurydice overview used for first-pass screening; exact city/school catchments remain later practical checks."
+
+- id: claim-cyprus-014
+  topic: cyprus_primary_education_cycle
+  value: "Public primary education in Cyprus is a six-year cycle, free and compulsory for children who have reached age 6."
+  source: src-625
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [education, primary-school, public-school]
+  notes: "Used to pass the first-pass future-child education baseline."
+
+- id: claim-cyprus-015
+  topic: cyprus_childcare_international_school_cost_proxy
+  value: "Livingcost 2026 city proxies: daycare/preschool about USD 386-644/month across Larnaca, Paphos, Nicosia, and Limassol; international primary school about USD 6,731-10,595/year."
+  source: src-371; src-372; src-373; src-374; src-375
+  date_verified: 2026-06-16
+  confidence: medium
+  tags: [education-cost, childcare, international-school, budget]
+  notes: "Commercial cost proxies only; before moving with a child, verify live nursery/school fees and language-support options."

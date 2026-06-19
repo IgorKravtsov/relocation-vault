@@ -188,3 +188,40 @@
   confidence: medium
   tags: [poland, wroclaw, cost-of-living, rent, livingcost]
   notes: "Wroclaw screens as the best first-pass balance among Warsaw, Krakow, and Wroclaw"
+
+
+- id: claim-poland-022
+  topic: ukraine_special_healthcare_nfz_baseline
+  value: "Ukrainian citizens covered by the special Ukraine framework have an additional title entitling them to health services in Poland; NFZ pays for services from the state budget"
+  source: src-639
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [poland, healthcare, nfz, ukraine, temporary-protection]
+  notes: "Used as the public-health baseline while PESEL UKR / special-protection entitlement applies"
+
+- id: claim-poland-023
+  topic: private_healthcare_large_city_baseline
+  value: "Private healthcare is commonly combined with public healthcare; large cities such as Warsaw, Krakow, and Wroclaw have better facilities, while public referrals and waiting lists can slow specialist access"
+  source: src-640
+  date_verified: 2026-06-16
+  confidence: medium
+  tags: [poland, healthcare, private-care, large-cities]
+  notes: "Private insurance quotes and maternity coverage remain application-prep checks"
+
+- id: claim-poland-024
+  topic: education_compulsory_structure
+  value: "Pre-school is obligatory for 6-year-olds; every 3-, 4-, and 5-year-old has entitlement to a place in a community pre-primary setting; primary school is an 8-year single structure usually ages 7-15, with education/training obligation to 18"
+  source: src-641
+  date_verified: 2026-06-16
+  confidence: medium-high
+  tags: [poland, education, preschool, primary-school, compulsory-education]
+  notes: "Supports section 5.7 completion for first-pass screening"
+
+- id: claim-poland-025
+  topic: warsaw_childcare_international_school_cost_risk
+  value: "Livingcost Warsaw proxy: daycare/preschool about USD 621/month and international primary school about USD 16,711/year"
+  source: src-502
+  date_verified: 2026-06-16
+  confidence: medium
+  tags: [poland, warsaw, childcare, international-school, budget]
+  notes: "Krakow and Wroclaw proxies are lower but still material; international schooling is treated as a one-income budget risk"

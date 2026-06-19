@@ -1,14 +1,14 @@
 ---
 country: Moldova
 tier: null
-depth_score: 2.0
-last_updated: 2026-06-10T05:13:27Z
-sections_completed: ["5.2"]
-sections_partial: ["5.1","5.3"]
-sections_pending: ["5.4","5.5","5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["digital-nomad-threshold-current-year-gap", "pr-counting-for-digital-nomad-unclear", "post-2027-tp-bridge-gap", "transnistria-practical-risk", "moldova-entrepreneur-contribution-category-gap", "moldova-foreign-client-vat-fit-gap"]
-sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225, src-424, src-425, src-426, src-427, src-428, src-429]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-18T23:54:50Z
+sections_completed: ["5.2","5.4","5.5","5.7"]
+sections_partial: ["5.1","5.3","5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["digital-nomad-threshold-current-year-gap", "pr-counting-for-digital-nomad-unclear", "post-2027-tp-bridge-gap", "transnistria-practical-risk", "moldova-entrepreneur-contribution-category-gap", "moldova-foreign-client-vat-fit-gap", "moldova-health-insurance-onboarding-gap", "moldova-international-school-cost-risk"]
+sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225, src-424, src-425, src-426, src-427, src-428, src-429, src-566, src-567, src-568, src-569, src-705, src-706, src-707, src-708]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence shows Moldova has an official digital-nomad residence route and temporary protection for displaced Ukrainians until 01 March 2027, but long-term usefulness for this couple depends on the current average-salary threshold, whether digital-nomad residence counts toward permanent residence, and post-TP transition mechanics. [src-220][src-222]
-- **depth_score**: 2.0
-- **Last updated**: 2026-06-10T05:13:27Z
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-18T23:54:50Z
 - **Tier rationale**: Not assigned. Treat Moldova as a potentially practical nearby bridge/base, not yet a proven long-term route to PR/citizenship for a foreign-client IT worker.
 
 ## Block 2 — Scoring
@@ -28,10 +28,10 @@ schema_version: 2.0.0
 | Legalization (now + post-03.2027) | — | N/A | Official DN and provisional-stay frameworks exist, but threshold/current-year salary and PR-counting details need verification. | §5.1 |
 | Climate | — | medium | Continental; sunny warm summers, low muggy burden, but cold/freezing winters. | §5.2 |
 | Taxes | — | medium-high | 12% PIT baseline looks simple, but self-employed contribution category, VAT/export-service handling, and DN/ordinary-residence compatibility require accountant/authority confirmation. | §5.3 |
-| Cost of living | — | N/A | [verification required] | §5.4 |
-| Rent (decent 2BR) | — | N/A | [verification required] | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Cost of living | — | medium | Livingcost screens Moldova as cheap nationally; Chisinau is workable on the conservative after-tax band, while Balti is the cheaper ordinary fallback and Tiraspol is discounted for practical/security reasons. | §5.4 |
+| Rent (decent 2BR) | — | medium | 40 m2 1BR proxy is about $373-$538 in Chisinau and $265-$375 in Balti; rent is affordable, but live listings, registered-address support, and lease terms still need application-prep checks. | §5.5 |
+| Healthcare | — | medium | Public coverage exists for legal residents and TP includes primary/emergency healthcare, but route-compliant private policy wording, CNAM onboarding by final status, and city-specific private prices remain application-prep gaps. | §5.6 |
+| Education (future child) | — | medium | Public schooling is structured through compulsory education to age 16, but Romanian-language integration is the baseline; Chisinau has QSI/Heritage international options with tuition risk. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -137,21 +137,82 @@ schema_version: 2.0.0
 4. Budget using the fixed-contribution sensitivity (about USD 2,470-2,490/month net before accountant and immigration costs) rather than the PIT-only figure until contribution treatment is verified.
 5. Do not assume the digital-nomad route creates a tax holiday; the captured tax baseline is ordinary Moldovan PIT once tax-resident / work-performed-in-Moldova conditions are met.
 
-### 5.4. Cost of living {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.4. Cost of living {status: deep, depth: 1, last_updated: 2026-06-14, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening at medium confidence. Livingcost is a commercial source, so treat these as planning baselines rather than live quotes. The section covers Moldova nationally plus Chisinau, Balti, and Tiraspol, and compares the result against both gross USD 3,000/month and the run-086 conservative Moldovan tax net band of about USD 2,469-2,490/month before accountant / insurance / immigration costs. [src-566][src-567][src-568][src-569]
 
-### 5.5. Rent {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Monthly baseline for a couple
 
-[verification required]
+| Location | Livingcost one-person total with rent | Family-of-four proxy | Food | Transport | Utilities / internet | Fit for this couple |
+|---|---:|---:|---:|---:|---|---|
+| Moldova national | $863 | $2,060 | $288 one person / $765 family | $28.9 one person / $80.9 family | utilities $108 one person / $166 family; internet $9.76 | Affordable on gross income and still workable on the conservative tax net; use as a country-level floor, not a filing budget. [src-566] |
+| Chisinau | $967 | $2,283 | $300 one person / $798 family | $37.4 one person / $104 family | utilities $124 one person / $192 family; internet $8.86 | Best default for bureaucracy, services, accountants, healthcare access, and community; budget remains workable but leaves less margin after private insurance, legal/accounting fees, and document costs. [src-567] |
+| Balti | $806 | $1,870 | $285 one person / $758 family | $21 one person / $57.7 family | utilities $122 one person / $190 family; internet $11.8 | Cheaper ordinary-city fallback if Chisinau rent or service costs rise; weaker services/community and colder northern climate make it a second screen. [src-568] |
+| Tiraspol | $561 | $1,493 | $276 one person / $730 family | $15.9 one person / $45.4 family | utilities $38.6 one person / $58.4 family; internet $9.91 | Numerically cheapest, but not a default relocation base because Transnistria practical/security/governance risk already exists in the profile. [src-569][src-224] |
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Budget verdict
 
-[verification required]
+- **Chisinau first**: for Moldova, Chisinau should be the first practical base because it concentrates GIM access, embassies/NGOs, accountants, lawyers, healthcare, banks, and rental inventory. Livingcost's $2,283 family proxy is below gross USD 3,000 and close but still below the conservative tax-net band of about USD 2,469-2,490/month; however, that margin can be consumed by private insurance, accountant fees, residence filing costs, translations, and occasional travel. [src-567][src-429]
+- **Balti as fallback**: Balti's $1,870 family proxy and lower 40 m2 rents make it the better affordability fallback, but the couple would trade off service depth, community, and likely winter comfort. [src-568][src-223]
+- **Tiraspol as non-default**: the low $1,493 family proxy is not enough to override the Transnistria warning. Treat it only as a theoretical cost data point unless a later safety / legal-practicality pass specifically supports it. [src-569]
+- **One-income risk**: Moldova's daily costs are favorable, but the legal route still has the DN threshold, PR-counting, contribution-category, and VAT/place-of-supply gaps. Affordability does not by itself make Moldova a proven settlement route. [src-220][src-221][src-426][src-428]
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.5. Rent {status: deep, depth: 1, last_updated: 2026-06-14, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening at medium confidence. Livingcost's 40 m2 1BR line is used as the closest available proxy for the vault's modest two-room requirement; 80 m2 3BR is an upper-size / future-child stress test, not the default target. Live listings, deposits, agency fees, registered-address support, landlord acceptance of foreign-client income, and lease clauses remain later application-prep checks. [src-566][src-567][src-568][src-569]
+
+| Location | 40 m2 1BR city-center proxy | 40 m2 cheaper/outside proxy | 80 m2 3BR city-center stress test | 80 m2 cheaper stress test | Rent burden vs income | Practical reading |
+|---|---:|---:|---:|---:|---|---|
+| Moldova national | $422 | $304 | $854 | $558 | 40 m2 proxy is ~10%-14% of gross USD 3,000, or ~12%-17% of the conservative tax net band | Country-level rent looks very affordable for the couple, but city/legal-practicality matters more than the national average. [src-566] |
+| Chisinau | $538 | $373 | $963 | $660 | 40 m2 proxy is ~12%-18% of gross, or ~15%-22% of conservative tax net | Best first screen: rent is manageable if they cap housing near the lower/outer 40 m2 band and avoid oversizing into 80 m2 units before income rises. [src-567] |
+| Balti | $375 | $265 | $692 | $477 | 40 m2 proxy is ~9%-13% of gross, or ~11%-15% of conservative tax net | Strong affordability fallback; use only if the service/community tradeoff is acceptable. [src-568] |
+| Tiraspol | $156 | $152 | $286 | $243 | Rent is tiny relative to income | Do not let cheap rent override the existing Transnistria practical-risk flag. [src-569] |
+
+#### Search and lease caveats
+
+- Livingcost does not answer foreigner lease acceptance, deposit norms, agency commission, notarization / registered-address support, or whether landlords accept a foreign-service-contract income file. Those items should be checked with live Moldovan listing portals, local agents, and immigration counsel before filing a residence route.
+- For this couple, **Chisinau with a strict housing cap** is the safest first-pass assumption: target a modest one-bedroom / two-room equivalent around the lower-to-middle 40 m2 band, preserve cash for legal/accounting/insurance costs, and do not use the 80 m2 family-unit band as the default budget.
+- Balti can reduce rent pressure if Chisinau housing becomes noisy or if the conservative tax/contribution result binds; Tiraspol should remain outside the default city shortlist until security, banking, registration, and residence-file practicality are researched.
+- Add to later practical-budget work: live listings, deposits, agency fees, utilities seasonality, registered-address clauses, lease translation/notarization, landlord acceptance of Ukrainian passports / Moldovan TP / DN residence files, and whether a foreign-client IT contract satisfies landlord proof-of-income expectations.
+
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-18, dod: partial}
+
+> **DoD status**: Partial. This pass establishes a safe screening baseline: Moldova has a Ministry of Health authority anchor, legal residents can use the public health system, temporary-protection beneficiaries have primary and emergency healthcare rights, and Chisinau is the practical healthcare base. It is not DoD-passed because route-compliant private policy quotes, maternity/newborn exclusions, exact CNAM/public-insurance onboarding by DN/TP/self-employed/family status, and Chisinau/Balti private-care price samples remain uncaptured (`vq-148`).
+
+#### Public system and onboarding baseline
+- The Ministry of Health website is the official public-health authority anchor for Moldova; use it with the National Health Insurance Company / CNAM and final immigration counsel for exact public-insurance enrollment, because this pass could not capture a clean English CNAM onboarding page. [src-705]
+- UNHCR Moldova states that temporary-protection beneficiaries have access to primary and emergency healthcare, so TP can cover the safety-stage baseline before the couple chooses an ordinary residence route. [src-222]
+- ExpatLife's 2026 Moldova healthcare guide describes universal public healthcare for legal residents, notes that tertiary care is concentrated in Chisinau, and says expats commonly supplement public access with private insurance to reach higher-quality private clinics and reduce waiting-time risk. [src-706]
+
+#### Private care, insurance, and pregnancy/newborn caveats
+- For screening only, ExpatLife gives a private/international insurance proxy of about **USD 50-100/month** and frames emergency care as free for everyone. Treat that as a rough premium anchor, not a residence-file quote. [src-706]
+- Practical city baseline: **Chisinau first** for hospitals, tertiary care, international clinics, embassies/NGOs, and insurance/accountant/lawyer coordination; Balti is a cheaper fallback but should not be the default healthcare base until provider checks are done. [src-706][src-567][src-568]
+- Pregnancy, childbirth, newborn coverage, pediatric availability in the target district, and whether a private policy is accepted for the DN/provisional-stay file were not captured. Keep them as application-prep checks before choosing Moldova for a future-child plan.
+
+#### Healthcare playbook for this couple
+1. Before filing DN/provisional stay, buy medical insurance that is explicitly accepted by GIM for residence applications; do not rely on a generic travel policy without confirmation. [src-220]
+2. If entering under TP, use the captured TP healthcare rights for urgent/primary care, but still budget private insurance for faster private clinics and future residence filing. [src-222][src-706]
+3. Choose Chisinau as the first base unless a later comfort/risk pass proves Balti has adequate private pediatric, maternity, and English/Russian/Romanian navigation for the couple.
+4. Before pregnancy or long-term settlement planning, obtain two to three insurer quotes, maternity/newborn wording, CNAM enrollment advice by final status, and private maternity/pediatric price samples.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-18, dod: passed}
+
+> **DoD status**: Passed for first-pass screening at medium confidence. Moldova has an official education-system baseline through Eurydice: early/preschool, primary, lower/upper secondary, VET, and higher education are mapped, and compulsory education runs through age 16. Chisinau has identifiable international-school options. Exact current fee schedules, registration/transport/meal costs, private-preschool prices, and non-Chisinau English/bilingual availability remain application-prep checks (`vq-149`).
+
+#### Public preschool and school baseline
+- Eurydice describes Moldova's education system as organised under the Education Code by ISCED levels: early education, primary, lower secondary/gymnasium, upper secondary/lyceum, VET, post-secondary, and higher education. Compulsory education begins with the preparatory preschool group and ends with secondary education; the obligation to attend compulsory education ends at age 16. [src-707]
+- For a future child, the safe public-school assumption is **local-language integration**. Public schooling may be low-cost, but the couple should budget time for Romanian-language adaptation and should not assume English-language public schooling outside special/international programmes. [src-707][src-708]
+
+#### International/private options
+- ExpatLife's 2026 education guide lists Chisinau international-school options and gives a broad international-school tuition proxy of **USD 3,000-8,000/year**, with private English-language kindergarten proxies around **USD 200-500/month**. Treat these as screening ranges only until school fee schedules are captured. [src-708]
+- QSI International School of Chisinau is a concrete English/international anchor: its public site describes preschool through secondary programmes and a multinational student body. [src-708]
+- Heritage International School is another Chisinau anchor; its public site describes an all-through international school with primary, gymnasium, lyceum, pathway/exam, clubs, and safeguarding content. [src-708]
+
+#### Education playbook for this couple
+1. If Moldova remains a candidate by the time a child is relevant, screen **Chisinau first** because the known international/private options are concentrated there.
+2. Use public kindergarten/school only if the family is ready for Romanian-language integration and local bureaucracy; otherwise reserve an international/private-school budget line.
+3. Treat the USD 3,000-8,000/year international-school range as a material one-income risk: at the conservative Moldova tax-net band, school fees plus private healthcare can consume most of the margin. [src-429][src-708]
+4. Before final city selection, collect exact QSI/Heritage tuition, registration, transport, meals, private-preschool prices, and availability outside Chisinau.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -238,9 +299,9 @@ schema_version: 2.0.0
 | Visa / residence permit fees | — | TBD |
 | Apostilles and translations | — | Criminal-record and civil-status documents likely need legalization/apostille and translation. |
 | Flights / overland travel for two | — | TBD |
-| Rental deposit | — | TBD |
-| First month rent | — | TBD |
-| Health insurance (one year) | — | Insurance required for DN/residence file. |
+| Rental deposit | — | Live deposit / agency-fee norms not captured; use Chisinau 40 m2 rent proxy of about $373-$538/month for first cash-buffer planning. [src-567] |
+| First month rent | ~$373-$538 in Chisinau; ~$265-$375 in Balti | 40 m2 1BR proxy used as modest two-room screening baseline; 80 m2 family-size stress test is much higher. [src-567][src-568] |
+| Health insurance (one year) | screening proxy: ~$50-$100/month per ExpatLife, exact policy TBD | Insurance required for DN/residence file; exact accepted policy wording, maternity/newborn coverage, and CNAM/private-insurance fit remain application-prep checks. [src-220][src-706] |
 | Immigration lawyer fees | — | Strongly recommended before relying on PR-counting. |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |
@@ -257,6 +318,7 @@ schema_version: 2.0.0
 - [src-220] IGM digital-nomad residence document list.
 - [src-221] IGM permanent residence.
 - [src-225] IGM family reunification provisional stay.
+- [src-705] Moldova Ministry of Health public website.
 
 ### 7b. Reputable secondary
 - [src-222] UNHCR Moldova temporary protection.
@@ -265,6 +327,7 @@ schema_version: 2.0.0
 - [src-426] PwC Moldova SSC / health / deductions.
 - [src-427] PwC Moldova tax administration and foreign-tax relief.
 - [src-428] PwC Moldova corporate VAT context.
+- [src-707] Eurydice Moldova education-system structure.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -274,6 +337,12 @@ _(none yet)_
 - [src-224] WeatherSpark Chisinau, Balti, and Tiraspol climate pages.
 - [src-204] VisaGuide.World Ukrainian passport visa-free list (placeholder only).
 - [src-429] ExchangeRate-API USD/MDL snapshot.
+- [src-566] Livingcost Moldova national cost/rent baseline.
+- [src-567] Livingcost Chisinau cost/rent baseline.
+- [src-568] Livingcost Balti cost/rent baseline.
+- [src-569] Livingcost Tiraspol cost/rent baseline.
+- [src-706] ExpatLife.AI Moldova healthcare 2026 guide.
+- [src-708] ExpatLife.AI Moldova education 2026 guide plus QSI/Heritage school pages.
 
 ### 7e. Not found
 - Official Moldovan MFA/eVisa country table confirming Ukrainian passport short-entry rules.
@@ -281,9 +350,14 @@ _(none yet)_
 - Official explanation of whether digital-nomad / IT-specialist provisional residence counts toward permanent stay.
 - Citizenship / naturalization source.
 - Dependent spouse/unmarried-partner mechanics for a foreign digital-nomad sponsor.
+- Live Moldovan rental listings, deposits/agency fees, registered-address support, and landlord acceptance of foreign-client IT income.
+- Route-compliant private health-insurance quotes, maternity/newborn policy wording, CNAM/public-insurance onboarding by final status, and city-specific private GP/pediatric/maternity prices.
+- Exact QSI / Heritage / private preschool fee schedules, registration/transport/meal costs, and English/bilingual availability outside Chisinau.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-068` — official Ukraine entry / TP transition / citizenship baseline.
 - `vq-069` — DN current threshold, dependent mechanics, and PR-counting for DN/IT residence.
 - `vq-109` resolved in run-087: Moldova foreign-client IT tax fit is closed for screening using the existing PIT-only and fixed-contribution sensitivities; exact registration, contribution, VAT/place-of-supply, and DN/provisional-stay compatibility remain application-prep checks.
+- `vq-148` — Moldova healthcare insurance/onboarding/private-price details remain application-prep checks.
+- `vq-149` — Moldova international-school/private-preschool fee and non-Chisinau availability details remain application-prep checks.

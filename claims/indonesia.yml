@@ -88,3 +88,48 @@
   confidence: medium
   tags: [tax, worked-example, fx, indonesia, remote-it]
   notes: "This is a screening calculation, not filing advice, and it does not solve the E33G USD 60,000/year immigration gate."
+
+- id: claim-indonesia-011
+  topic: indonesia_cost_rent_national_baseline
+  value: "Livingcost's Indonesia national screen reports USD 575/month for one person with rent and USD 1369/month for a family-of-four proxy; the 40 m2 city-centre 1BR proxy is USD 299 and the cheap 40 m2 proxy is USD 179."
+  source: src-590
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, national, livingcost]
+  notes: "National median only; use as floor, not an expat/application budget."
+
+- id: claim-indonesia-012
+  topic: indonesia_jakarta_cost_rent_baseline
+  value: "Livingcost's Jakarta screen reports USD 684/month for one person with rent and USD 1643/month for a family-of-four proxy; the 40 m2 city-centre 1BR proxy is USD 355 and the cheap 40 m2 proxy is USD 205."
+  source: src-591
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, jakarta, livingcost]
+  notes: "First-pass commercial median; verify live 2BR listings, deposits, and foreigner lease/address support before application planning."
+
+- id: claim-indonesia-013
+  topic: indonesia_surabaya_cost_rent_baseline
+  value: "Livingcost's Surabaya screen reports USD 549/month for one person with rent and USD 1386/month for a family-of-four proxy; the 40 m2 city-centre 1BR proxy is USD 264 and the cheap 40 m2 proxy is USD 135."
+  source: src-592
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, surabaya, livingcost]
+  notes: "First-pass commercial median; verify live 2BR listings, deposits, and foreigner lease/address support before application planning."
+
+- id: claim-indonesia-014
+  topic: indonesia_bandung_cost_rent_baseline
+  value: "Livingcost's Bandung screen reports USD 536/month for one person with rent and USD 1297/month for a family-of-four proxy; the 40 m2 city-centre 1BR proxy is USD 213 and the cheap 40 m2 proxy is USD 174."
+  source: src-593
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, bandung, livingcost]
+  notes: "First-pass commercial median; verify live 2BR listings, deposits, and foreigner lease/address support before application planning."
+
+- id: claim-indonesia-015
+  topic: indonesia_denpasar_cost_rent_baseline
+  value: "Livingcost's Denpasar screen reports USD 496/month for one person with rent and USD 1226/month for a family-of-four proxy; the 40 m2 city-centre 1BR proxy is USD 250 and the cheap 40 m2 proxy is USD 137."
+  source: src-594
+  date_verified: 2026-06-15
+  confidence: medium
+  tags: [cost-of-living, rent, denpasar, livingcost]
+  notes: "First-pass commercial median; verify live 2BR listings, deposits, and foreigner lease/address support before application planning."

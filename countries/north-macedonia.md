@@ -1,13 +1,13 @@
 ---
 country: North Macedonia
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-14T02:45:41Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["official-ukraine-entry-table-gap", "no-dedicated-digital-nomad-visa", "ordinary-residence-route-needs-fit-check", "no-captured-ukraine-protection-bridge", "north-macedonia-self-employed-contribution-base-gap", "north-macedonia-foreign-client-vat-fit-gap", "skopje-rent-pressure"]
-sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212", "src-413", "src-414", "src-415", "src-416", "src-417", "src-557", "src-558", "src-559", "src-560"]
+depth_score: 5.5
+last_updated: 2026-06-19T06:06:57Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["official-ukraine-entry-table-gap", "no-dedicated-digital-nomad-visa", "ordinary-residence-route-needs-fit-check", "no-captured-ukraine-protection-bridge", "north-macedonia-self-employed-contribution-base-gap", "north-macedonia-foreign-client-vat-fit-gap", "skopje-rent-pressure", "north-macedonia-private-insurance-quote-gap", "north-macedonia-international-school-cost-risk"]
+sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212", "src-413", "src-414", "src-415", "src-416", "src-417", "src-557", "src-558", "src-559", "src-560", "src-697", "src-698", "src-699", "src-700"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to an ordinary-residence / work-or-self-employment file rather than a dedicated digital-nomad route. The country is promising as a low-cost Balkan base, but the post-2027 Ukrainian protection baseline and foreign-client IT residence fit still need primary-source verification.
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-14T02:45:41Z
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-19T06:06:57Z
 - **Tier rationale**: Not assigned yet; legalization remains partial.
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | First-pass tax stress test captured 10% flat PIT, 28% employee-style social-contribution burden, 18% VAT headline / MKD 2m registration threshold, filing mechanics, and a USD 3,000/month MKD calculation; exact self-employed registration, contribution base, VAT/place-of-supply, and immigration-status fit remain unresolved. | §5.3 |
 | Cost of living | 8 | medium | Livingcost screens North Macedonia and the three captured cities as low-cost; Skopje is the services base but the tax stress-test net makes a strict full-budget cap important. | §5.4 |
 | Rent (decent 2BR) | 8 | medium | 40 m2 1BR proxies are about $378/$294 in Skopje, $242/$161 in Ohrid, and $251/$180 in Bitola; 80 m2 3BR stress proxies remain mostly below $700. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | 6 | medium | Public FZO-linked coverage and low private-care price proxies screen positively, especially in Skopje, but exact route-compliant insurance, maternity/newborn wording, and public onboarding by residence/tax status remain open. | §5.6 |
+| Education (future child) | 6 | medium | Public schooling is free but Macedonian/Albanian-medium; Skopje has QSI/NOVA/international-school options around EUR 4,000-8,000/year, which is cheaper than Western Europe but still a one-income risk. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -157,13 +157,36 @@ Livingcost reports North Macedonia nationally at about **$775/month for one pers
 
 **How to search later**: start with Skopje for first filing / lawyer / accountant access, then compare Ohrid and Bitola if the tax structure leaves less than about $2,000/month net. Later application-prep should capture local listing platforms, Facebook groups, agency commission norms, deposit/prepayment, whether a lease can support residence/address registration, and whether landlords accept foreign-client IT income without a Macedonian employment contract.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-[verification required]
+> **DoD status**: partial. This pass establishes a screening baseline for public/FZO-linked healthcare and private-care affordability. Run-156 resolved `vq-144` for country screening: route-compliant private insurance quotes for two adults, maternity/newborn exclusions, exact FZO onboarding for a self-employed/company-backed foreign resident, and city-specific pediatric/maternity provider checks remain application-prep items rather than open screening blockers.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+North Macedonia screens as a healthcare-positive but Skopje-centered option. The Ministry of Health website is the official public-health authority anchor, and the 2026 ExpatLife healthcare guide describes a compulsory insurance-based system funded through the Health Insurance Fund (FZO), with basic public coverage for registered residents and a growing private sector for faster access. [src-697][src-698]
 
-[verification required]
+| Need | First-pass evidence | Practical screening verdict |
+|---|---|---|
+| Public/FZO baseline | ExpatLife describes FZO public insurance as mandatory for employed residents, funded through mandatory contributions, and covering GP visits, hospital stays, emergency care, and basic medications through a referral system. [src-698] | Useful safety-net concept, but the couple must verify whether their final self-employed/company-backed residence/tax structure gives FZO enrollment, what contribution base applies, and whether the non-working partner is covered. |
+| Private routine care | Private GP visits are screened at about EUR 15-25, specialist visits at EUR 25-50, dental cleaning at EUR 20-40, and private hospital stay at about EUR 50-150/day. [src-698] | Routine private care looks affordable against the cost/rent baseline, even under the tax downside net, but these are aggregator proxies rather than clinic quotes. |
+| Private hospitals | The guide names Sistina, Acibadem, and Remedika in Skopje as major private hospitals and notes shorter waits, newer equipment, and English-speaking doctors in private clinics. [src-698] | Skopje is the safest first base for serious care, specialists, maternity planning, and English-language navigation. Ohrid/Bitola remain budget/climate fallbacks but need provider checks. |
+| Insurance | ExpatLife gives a broad private/international insurance proxy of about EUR 50-120/month. [src-698] | Good for screening, not application-ready: capture two-adult quotes, minimum coverage accepted for residence filing, waiting periods, exclusions, and maternity/newborn terms before relying on it. |
+
+**Healthcare verdict**: North Macedonia passes a medium-confidence affordability screen for routine healthcare and has a plausible public/FZO safety net, but §5.6 remains partial because the exact insurance/onboarding answer depends on the final residence and tax structure. Use Skopje for first landing if healthcare access matters; use Ohrid/Bitola only after confirming local private clinics, pediatricians, maternity care, emergency transfer practice, and whether private insurance reimburses them; these are application-prep checks, not screening blockers. [src-697][src-698]
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
+
+> **DoD status**: passed for first-pass screening. This pass captures public-school language/age structure and Skopje international-school options/cost bands. Run-156 resolved `vq-145` for country screening: exact admissions, annual tuition schedules, private preschool prices, transport/meal fees, and mid-year availability remain application-prep checks rather than open screening blockers.
+
+North Macedonia is education-viable if the couple is comfortable with either local-language integration or a paid Skopje international-school budget. ExpatLife's 2026 education guide describes free public schooling in Macedonian from ages 6 to 18, with Albanian-language schools in some areas, and identifies Skopje as the main international-school base. [src-699]
+
+| Option | Evidence captured | Fit for the couple |
+|---|---|---|
+| Public school | Public schools are described as free for resident children, with primary education for ages 6-15 and secondary education for ages 15-18; instruction is primarily Macedonian, with Albanian-language schools in western regions. [src-699] | Budget-friendly and realistic for deep integration, but not an English-language fallback. A Ukrainian child would need Macedonian/Cyrillic support and possibly tutoring. |
+| International schools | ExpatLife lists QSI International School of Skopje, NOVA International Schools, and American School of Skopje, and screens international-school tuition around EUR 4,000-8,000/year. [src-699] | Cheaper than many Western European international schools, but still a material one-income risk: EUR 4,000/year is about EUR 333/month before transport, meals, trips, and fees. |
+| QSI Skopje | QSI's public site anchors a Skopje school with preschool, elementary, middle, secondary, intensive English, counseling, transportation, food services, and health services. [src-700] | Strong English-language anchor if the family wants international schooling; exact tuition, admissions, and seat availability need direct confirmation. |
+| NOVA Skopje | NOVA's public site shows a Skopje international school with early education / elementary PYP, secondary MYP/DP, EAL, tuition-and-fees pages, financial assistance, transport, meals, and support services. [src-700] | Second strong Skopje anchor and likely the other first shortlist option; exact tuition and scholarship availability remain checks. |
+| Ohrid / Bitola | No comparable international-school anchor was captured outside Skopje. [src-699] | Better cost/climate fallback cities, but future-child planning likely pushes the family toward Skopje unless public/local private schooling is acceptable. |
+
+**Education verdict**: §5.7 passes at medium confidence. Public education is cost-safe but local-language; private/international schooling is available mainly in Skopje and screens around EUR 4,000-8,000/year, which is feasible only if rent, tax, healthcare, and immigration costs stay controlled. If a future child becomes a near-term constraint, shortlist Skopje first, then verify QSI/NOVA tuition, registration fees, transport/meal costs, age placement, language support, and school-bus areas before choosing housing; these are application-prep checks, not screening blockers. [src-699][src-700]
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -195,7 +218,7 @@ Livingcost reports North Macedonia nationally at about **$775/month for one pers
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Possibly for scouting / short stay, but current Ukrainian entry duration and ordinary residence mechanics must be verified before relocation. Cost/rent now screens as favorable, with Skopje as the practical first base and Ohrid/Bitola as lower-cost fallbacks.
+- **Can relocate now**: Possibly for scouting / short stay, but current Ukrainian entry duration and ordinary residence mechanics must be verified before relocation. Cost/rent now screens as favorable; Skopje is the practical first base for bureaucracy, healthcare, and international schooling, while Ohrid/Bitola remain lower-cost fallbacks if healthcare/school needs are modest.
 - **Best legalization path for the man**: Candidate path is self-employment / company-backed ordinary temporary residence; not yet proven for foreign-client remote IT.
 - **Best legalization path for the woman**: Unknown; assume marriage or independent eligibility until family reunification / partner rules are verified.
 - **Does marriage change the picture**: Likely yes for conservative dependent planning, but exact family route still needs verification.
@@ -205,12 +228,14 @@ Livingcost reports North Macedonia nationally at about **$775/month for one pers
 - Low-humidity, sunny Balkan climate with warmer summers and milder lake/mountain options.
 - Potentially lower cost base than EU Tier-1 countries.
 - Ordinary work/self-employment residence exists conceptually.
+- Routine private healthcare and Skopje international-school options screen cheaper than many EU alternatives. [src-698][src-699]
 
 **Cons / risks**:
 - No captured dedicated digital-nomad visa.
 - No current Ukraine temporary-protection bridge is captured; ordinary residence must be the plan.
 - Self-employment route may require a real local business/employment-permit file rather than simple foreign-client remote work.
 - Skopje is still budget-manageable, but the conservative tax/contribution stress-test means the couple should cap housing and avoid assuming capital-city comfort on one income.
+- Private insurance, maternity/newborn coverage, and international-school fees can erode the budget if the tax downside model applies. [src-698][src-699]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -245,7 +270,7 @@ Livingcost reports North Macedonia nationally at about **$775/month for one pers
 | Flights for two | — | TBD |
 | Rental deposit | — | TBD; live-listing pass needed. First-pass rent proxy: Skopje $294-$378 for 40 m2 / $452-$679 for 80 m2 stress; Ohrid/Bitola lower [src-558][src-559][src-560]. |
 | First month rent | $161-$378+ | First-pass 40 m2 proxy range across Ohrid/Bitola/Skopje; use Skopje for filing practicality, Ohrid/Bitola for budget fallback [src-558][src-559][src-560]. |
-| Health insurance (one year) | — | TBD |
+| Health insurance (one year) | EUR 600-1,440+ | First-pass private/international insurance proxy at EUR 50-120/month; get route-compliant two-adult quotes and maternity/newborn wording before filing. [src-698] |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |
@@ -260,6 +285,7 @@ Livingcost reports North Macedonia nationally at about **$775/month for one pers
 - North Macedonia MFA entry rules [src-205]
 - Invest North Macedonia work visas and permits overview [src-206]
 - Invest North Macedonia permit / aftercare page [src-207]
+- North Macedonia Ministry of Health public website [src-697]
 
 ### 7b. Reputable secondary
 - Karanovic & Partners 2025 Law on Foreigners amendments explainer [src-208]
@@ -277,6 +303,8 @@ _(none yet)_
 - WeatherSpark Bitola city climate [src-212]
 - ExchangeRate-API USD/MKD snapshot for run-084 tax calculation [src-417]
 - Livingcost North Macedonia country / Skopje / Ohrid / Bitola cost and rent pages [src-557][src-558][src-559][src-560]
+- ExpatLife North Macedonia healthcare and education guides [src-698][src-699]
+- QSI International School of Skopje and NOVA International School Skopje public websites [src-700]
 
 ### 7e. Not found
 - Official North Macedonia country-specific Ukraine visa table was not cleanly captured; recheck before travel, but `vq-064` is closed for screening.
@@ -284,8 +312,12 @@ _(none yet)_
 - Detailed Ministry of Interior / Employment Agency self-employment checklist, income/capital sufficiency, and family filing remain application-prep items; the screening baseline is a real local self-employment/company file, not a DN-style foreign-client permit.
 - Exact tax registration category, self-employed / company-manager social-contribution base, VAT place-of-supply / reverse-charge treatment for foreign IT clients, and immigration-status compatibility remain application-prep checks; `vq-107` is closed for screening.
 - Official PR/citizenship counting rules were not extracted.
+- Healthcare application-prep gaps remain: route-compliant private insurance quotes, maternity/newborn terms, exact FZO onboarding by residence/tax status, and selected-city provider checks (`vq-144`).
+- Education application-prep gaps remain: exact QSI/NOVA/international-school tuition, registration/transport/meal fees, private preschool prices, and non-Skopje school availability (`vq-145`).
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-064` — North Macedonia Ukrainian entry / temporary-protection current status and any post-2027 bridge.
 - `vq-107` resolved in run-087: North Macedonia self-employed / company-manager tax fit is closed for screening using the existing PIT-only and contribution-stress baselines; exact registration, contribution, VAT, and immigration fit remain application-prep checks.
+- `vq-144` — North Macedonia route-compliant health-insurance quotes, maternity/newborn terms, exact FZO onboarding by final residence/tax status, and Skopje/Ohrid/Bitola private-care price/provider checks.
+- `vq-145` — North Macedonia exact QSI/NOVA/international-school tuition, registration/transport/meal fees, private preschool prices, and school availability outside Skopje.

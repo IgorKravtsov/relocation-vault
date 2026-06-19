@@ -150,3 +150,48 @@
   confidence: medium
   tags: [rent, cost-of-living, nova-gorica, slovenia]
   notes: "Cheapest captured city screen; smaller-city services/community need later follow-up."
+
+- id: claim-slovenia-018
+  topic: temporary_protection_healthcare_access
+  value: "GOV.SI states that Ukrainian nationals who are temporary-protection applicants / beneficiaries may access emergency healthcare by presenting proof of entitlement or a temporary-protection card; the covered basket includes emergency care, necessary transport, specialist outpatient/hospital necessities, women's healthcare including pregnancy and childbirth, and mandatory medical examinations connected with schooling."
+  source: src-656
+  date_verified: 2026-06-17
+  confidence: high
+  tags: [healthcare, temporary-protection, ukraine, slovenia]
+  notes: "Used as the near-term healthcare baseline; final ordinary-residence insurance/onboarding still needs application-prep verification."
+
+- id: claim-slovenia-019
+  topic: compulsory_health_insurance_baseline
+  value: "ZZZS explains that Slovenia compulsory health-insurance rights are exercised by registering for insurance and paying the corresponding contribution or premium; insured persons and qualifying family members then use public healthcare institutions and concessioned private providers within the public healthcare service network."
+  source: src-657
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [healthcare, compulsory-insurance, public-system, slovenia]
+  notes: "Exact route-specific ZZZS onboarding for DN, self-employed/single-permit, and family-member status remains application-prep."
+
+- id: claim-slovenia-020
+  topic: kindergarten_access_and_costs
+  value: "Slovenian kindergarten is open from age 11 months to primary-school entry; Eurydice's September 2025 average programme prices were about EUR 675.71/month for the first age group and EUR 525.32/month for the second age group before subsidy, while parent payment is income-based from 0% to 77% of programme price."
+  source: src-659
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, kindergarten, childcare-costs, slovenia]
+  notes: "GOV.SI also confirms temporary-protection parents may claim reduced kindergarten fees and, if receiving financial assistance/pocket money, full exemption during that entitlement."
+
+- id: claim-slovenia-021
+  topic: public_school_baseline
+  value: "Slovenia basic education is compulsory and publicly funded as a nine-year single-structure system from age 6 to about 15, and the public school network guarantees every child a place in the local public school catchment area."
+  source: src-660
+  date_verified: 2026-06-17
+  confidence: medium-high
+  tags: [education, public-school, compulsory-education, slovenia]
+  notes: "Public school is the screening default; language adaptation into Slovenian remains the practical issue."
+
+- id: claim-slovenia-022
+  topic: international_school_fee_baseline
+  value: "International Schools Database lists seven Ljubljana international schools, with sample published annual fees ranging roughly from EUR 6,056 to EUR 16,900 for 2025/2026 where current fees are shown; some schools do not publish fees on the database page."
+  source: src-661
+  date_verified: 2026-06-17
+  confidence: medium
+  tags: [education, international-school, fees, ljubljana, slovenia]
+  notes: "International school is a one-income budget risk, not the default plan."
