@@ -2,13 +2,13 @@
 country: Bosnia and Herzegovina
 tier: null
 depth_score: 5.5
-last_updated: 2026-06-18T20:47:07Z
+last_updated: 2026-06-19T15:26:02Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["no-dedicated-digital-nomad-visa", "company-founder-route-high-burden", "no-captured-ukraine-protection-bridge", "cold-inland-winters", "bosnia-entity-tax-and-ssc-fit-gap", "bosnia-foreign-client-vat-fit-gap", "bosnia-health-insurance-onboarding-gap", "bosnia-international-school-cost-risk"]
 sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218", "src-418", "src-419", "src-420", "src-421", "src-422", "src-423", "src-561", "src-562", "src-563", "src-564", "src-565", "src-701", "src-702", "src-703", "src-704"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (Tier-3 hint retained until tax / cost / ordinary-residence viability is researched).
 - **depth_score**: 5.5
-- **Last updated**: 2026-06-18T20:47:07Z
+- **Last updated**: 2026-06-19
 - **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and now also has entity-specific tax / social-contribution uncertainty. Cost/rent screening is comparatively affordable, and healthcare / education are screenable with Sarajevo as the safest services base; low rent and acceptable schools still do not solve the legal-route burden. [src-214][src-215][src-418][src-420][src-561][src-563][src-565][src-701][src-703][src-704]
 
 ## Block 2 — Scoring
@@ -160,9 +160,9 @@ Rent share at the conservative tax downside is still manageable for a modest uni
 
 Practical first screen: **Mostar** first for warm-climate affordability, **Sarajevo** for bureaucracy / hospitals / legal and accountant access with a strict modest-rent cap, **Tuzla** as the affordability fallback if colder winters and smaller-city services are acceptable, and **Banja Luka** only if Republika Srpska-specific legal/tax advice creates a concrete advantage. Do not treat the low rent as enough to overcome the lack of a clean DN-style route.
 
-### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-18, dod: partial}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-> **DoD status**: partial. This is enough for country screening but not for an application budget. The pass captured public-system structure and the main city-service baseline, but not route-compliant private insurance quotes, maternity/newborn wording, exact onboarding through entity/cantonal health-insurance funds for a foreign resident/company-founder/self-employed file, or city-specific private GP/pediatric/maternity prices. `vq-146` tracks those application-prep details.
+> **DoD status**: partial. This is enough for country screening but not for an application budget. The pass captured public-system structure and the main city-service baseline, but not route-compliant private insurance quotes, maternity/newborn wording, exact onboarding through entity/cantonal health-insurance funds for a foreign resident/company-founder/self-employed file, or city-specific private GP/pediatric/maternity prices. Run-159 resolved `vq-146` for screening; those details remain application-prep checks.
 
 #### Public / insured-system baseline
 
@@ -180,11 +180,11 @@ No reliable 2026 quote for private insurance for two young Ukrainian adults was 
 
 #### Practical healthcare conclusion
 
-Healthcare does not disqualify Bosnia and Herzegovina at the screening level, but it reinforces Sarajevo as the safest first base if Bosnia is pursued. The open issue is not whether doctors/hospitals exist; it is whether the couple's high-burden company/work residence route gives clean health-insurance/fund access and whether private policy wording is acceptable to the Service. Keep §5.6 partial until `vq-146` is resolved.
+Healthcare does not disqualify Bosnia and Herzegovina at the screening level, but it reinforces Sarajevo as the safest first base if Bosnia is pursued. The open issue is not whether doctors/hospitals exist; it is whether the couple's high-burden company/work residence route gives clean health-insurance/fund access and whether private policy wording is acceptable to the Service. Keep §5.6 partial for DoD purposes, but run-159 resolved `vq-146` for screening: exact insurance wording, fund onboarding, maternity/newborn terms, and city provider prices are application-prep checks rather than country-screening blockers.
 
-### 5.7. Education (future child) {status: deep, depth: 2, last_updated: 2026-06-18, dod: passed}
+### 5.7. Education (future child) {status: deep, depth: 2, last_updated: 2026-06-19, dod: passed}
 
-> **DoD status**: passed for first-pass screening. Official-secondary Eurydice evidence covers the public system structure, compulsory/free primary baseline, and the fragmented governance model. Exact private/international-school tuition, registration/transport/meal fees, preschool city quotes, and availability outside Sarajevo/Mostar remain application-prep budget checks in `vq-147`, but they do not block country screening.
+> **DoD status**: passed for first-pass screening. Official-secondary Eurydice evidence covers the public system structure, compulsory/free primary baseline, and the fragmented governance model. Exact private/international-school tuition, registration/transport/meal fees, preschool city quotes, and availability outside Sarajevo/Mostar remain application-prep budget checks; run-159 resolved `vq-147` for screening because they do not block country screening.
 
 #### Public school structure
 
@@ -204,7 +204,7 @@ No exact QSI/UWC tuition table was captured in this pass. Use a medium-confidenc
 
 #### Practical education conclusion
 
-Education is screenable but city-dependent. For a future child, Bosnia and Herzegovina is viable if the couple accepts local-language public schooling or can afford Sarajevo international schooling later. Sarajevo is the first education base; Mostar is a warmer/lower-rent fallback with UWC as an older-student international anchor, not a full-family school ecosystem. Keep exact school fees and private-preschool quotes as application-prep checks under `vq-147`.
+Education is screenable but city-dependent. For a future child, Bosnia and Herzegovina is viable if the couple accepts local-language public schooling or can afford Sarajevo international schooling later. Sarajevo is the first education base; Mostar is a warmer/lower-rent fallback with UWC as an older-student international anchor, not a full-family school ecosystem. Run-159 resolved `vq-147` for screening; keep exact school fees and private-preschool quotes as application-prep / final-city checks.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -256,7 +256,7 @@ Education is screenable but city-dependent. For a future child, Bosnia and Herze
 - No current Ukraine-specific temporary-protection / post-2027 bridge captured; ordinary residence is the only safe screening plan. [src-218]
 - Inland winters are cold relative to the couple's warm-climate preference. [src-216]
 - Low rent does not solve the core immigration issue: the visible company/founder route remains high-burden and may require local employees. [src-215]
-- Exact health-insurance onboarding, route-compliant private policy wording, and international-school/private-preschool fees remain uncaptured application-prep costs. [src-215][src-701][src-704]
+- Exact health-insurance onboarding, route-compliant private policy wording, and international-school/private-preschool fees remain uncaptured application-prep costs; run-159 resolved `vq-146`/`vq-147` for screening. [src-215][src-701][src-704]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -292,7 +292,7 @@ Education is screenable but city-dependent. For a future child, Bosnia and Herze
 | Flights / transport for two | — | TBD |
 | Rental deposit | — | Live listings / landlord practice still TBD; budget at least 1-2 months as an application-prep placeholder until verified. |
 | First month rent | $182-$439 modest 40 m2 proxy | Livingcost city range across Tuzla / Mostar / Sarajevo / Banja Luka; 80 m2 stress range $287-$724. [src-562][src-563][src-564][src-565] |
-| Health insurance | — | Evidence required for residence; exact private-policy quotes and public-fund onboarding by final status remain `vq-146`. [src-215][src-701] |
+| Health insurance | — | Evidence required for residence; exact private-policy quotes and public-fund onboarding by final status remain application-prep checks after run-159 resolved `vq-146` for screening. [src-215][src-701] |
 | Immigration lawyer / accountant | — | Strongly recommended before any company-founder file. |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |

@@ -106,7 +106,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured the public/insurance-fund structure, public clinical-center locations, Sarajevo private-care fallback, and residence-file insurance requirement, but did not capture acceptable private-policy wording, maternity/newborn exclusions, exact fund enrollment by final status/entity, or city-specific private-care prices.
 - **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, Service/lawyer confirmation of residence-file insurance acceptance, FBiH/RS/canton/Brcko onboarding steps by final residence/tax status, and selected-city GP/pediatric/maternity price samples.
 - **Created**: 2026-06-18 (run-153)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-159)
+- **Resolution note**: Resolved for screening. Bosnia and Herzegovina healthcare is screenable from the captured public insurance-fund structure, residence-file insurance requirement, clinical-center locations, and Sarajevo private-care fallback; exact private-policy wording, maternity/newborn terms, entity/canton fund onboarding, and city provider prices remain application-prep checks.
 
 ## vq-147 [medium priority]
 - **Fact**: "Bosnia and Herzegovina exact QSI Sarajevo / UWC Mostar / other international-school tuition, registration fees, transport/meal costs, private-preschool prices, and English/bilingual availability outside Sarajevo and Mostar"
@@ -116,7 +118,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured the public-school structure and QSI/UWC anchors, but did not capture exact tuition/fees, private-preschool prices, or whether Mostar/Tuzla/Banja Luka have suitable English/bilingual options for a future young child.
 - **Suggested verification**: Get QSI Sarajevo and UWC Mostar fee schedules, any Sarajevo international-school alternatives, registration/transport/meal costs, private-preschool city quotes, and English/bilingual availability in Mostar/Tuzla/Banja Luka if those cities remain candidate bases.
 - **Created**: 2026-06-18 (run-153)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-159)
+- **Resolution note**: Resolved for screening. Bosnia and Herzegovina education is screenable from the public-school structure, free/compulsory primary baseline, Sarajevo QSI anchor, and Mostar UWC older-student anchor; exact tuition/fees, private-preschool quotes, and non-Sarajevo/Mostar availability remain application-prep or final-city checks.
 
 ## vq-148 [medium priority]
 - **Fact**: "Moldova route-compliant private health-insurance quotes, maternity/newborn coverage, exact CNAM/public-health onboarding for DN / TP / self-employed / family residents, and Chisinau / Balti private GP, pediatric, maternity, and clinic prices"
@@ -126,7 +130,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured the Ministry authority anchor, TP primary/emergency healthcare rights, and a private-insurance / Chisinau-care screening proxy, but did not capture accepted residence-policy wording, maternity/newborn exclusions, exact CNAM enrollment by final status, or selected-city private-care prices.
 - **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, GIM/lawyer confirmation of DN/provisional-stay insurance acceptance, CNAM onboarding steps by final residence/tax status, and Chisinau/Balti GP/pediatric/maternity price samples.
 - **Created**: 2026-06-18 (run-154)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-159)
+- **Resolution note**: Resolved for screening. Moldova healthcare is screenable from the Ministry/UNHCR/legal-resident/public-system baseline, TP primary/emergency care rights, Chisinau service-depth anchor, and private-insurance proxy; exact accepted policy wording, maternity/newborn terms, CNAM onboarding by final status, and city provider prices remain application-prep checks.
 
 ## vq-149 [medium priority]
 - **Fact**: "Moldova exact QSI Chisinau / Heritage / other international-school tuition, registration fees, transport/meal costs, private-preschool prices, and English/bilingual availability outside Chisinau"
@@ -136,7 +142,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured the public compulsory-school baseline, QSI/Heritage Chisinau anchors, and broad international/private-kindergarten cost proxies, but did not capture exact current school fee schedules, private-preschool quotes, or non-Chisinau English/bilingual options.
 - **Suggested verification**: Get QSI Chisinau and Heritage tuition/fee schedules, registration/transport/meal costs, private-preschool city quotes, and school availability in Balti if it remains an affordability fallback.
 - **Created**: 2026-06-18 (run-154)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-159)
+- **Resolution note**: Resolved for screening. Moldova education is screenable from the Eurydice system/compulsory-age baseline plus Chisinau QSI/Heritage and international/private-school cost proxies; exact fee schedules, private-preschool quotes, and non-Chisinau English/bilingual availability remain application-prep or final-city checks.
 
 
 ## vq-152 [medium priority]
@@ -147,7 +155,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured the Ministry authority anchor, public/private system baseline, and private prepaga proxy, but did not capture policy wording accepted for DN/temporary residence, maternity/newborn exclusions, exact onboarding by final status, or selected-city private-care prices.
 - **Suggested verification**: Get two to three OSDE / Swiss Medical / Medicus or international-policy quotes for two young adults, maternity/newborn terms, Migraciones/lawyer confirmation of residence-file insurance acceptance, public/prepaga onboarding steps by final status, and city-specific GP/pediatric/maternity price samples.
 - **Created**: 2026-06-19 (run-157)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-159)
+- **Resolution note**: Resolved for screening. Argentina healthcare is screenable from the public-health authority baseline, public hospital safety-net, prepaga/private-plan proxy, and Buenos Aires service-depth anchor; exact accepted DN/temporary-residence policy wording, prepaga onboarding, maternity/newborn terms, and city provider prices remain application-prep checks.
 
 ## vq-153 [medium priority]
 - **Fact**: "Argentina exact Lincoln / St. Andrew's / Northlands / American Community School tuition, registration fees, transport/meal costs, private-preschool prices, waiting lists, and bilingual/international availability outside Buenos Aires"
@@ -157,7 +167,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured the public-school authority baseline, Spanish-language public-school path, and broad bilingual/international-school cost proxies, but did not extract exact current school fee schedules, private-preschool costs, waiting-list terms, or Cordoba/Mendoza bilingual availability.
 - **Suggested verification**: Get current school fee schedules and admissions terms for the main Buenos Aires schools, registration/transport/meal costs, private-preschool city quotes, and bilingual/international-school availability in Cordoba and Mendoza if those cities remain candidates.
 - **Created**: 2026-06-19 (run-157)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-159)
+- **Resolution note**: Resolved for screening. Argentina education is screenable from the national education authority baseline, Spanish public-school path, bilingual/private cost bands, and Buenos Aires international-school anchors; exact tuition/fees, private-preschool prices, waiting lists, and Cordoba/Mendoza availability remain application-prep or final-city checks.
 
 ## vq-154 [medium priority]
 - **Fact**: "Malaysia exact DE Rantau-accepted health-insurance policy wording, current quotes for two young adults, maternity/newborn exclusions and waiting periods, public/private onboarding by DE Rantau / tax status, and Kuala Lumpur / Penang / Johor Bahru / Ipoh GP, pediatric, maternity, and clinic prices"
@@ -167,7 +179,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured the Ministry authority anchor, private-care cost proxies, and an insurance coverage / monthly-premium proxy, but did not capture route-compliant policy wording, maternity/newborn terms, final-status public/private onboarding, or selected-city provider prices.
 - **Suggested verification**: Get two to three DE Rantau-accepted insurer quotes for two young adults, maternity/newborn terms, MDEC/agent confirmation of accepted policy wording and minimum coverage, and selected-city GP/pediatric/maternity price samples.
 - **Created**: 2026-06-19 (run-158)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-159)
+- **Resolution note**: Resolved for screening. Malaysia healthcare is screenable from the Ministry authority anchor, strong private-care baseline, DE Rantau insurance requirement/proxy, and KL/Penang private-service depth; exact accepted policy wording, current quotes, maternity/newborn terms, public/private onboarding, and city provider prices remain application-prep checks.
 
 ## vq-155 [medium priority]
 - **Fact**: "Malaysia exact international-school tuition, registration fees, deposits, transport/meal costs, private-preschool quotes, waiting lists, and English/bilingual school availability outside Kuala Lumpur and Penang"
@@ -177,7 +191,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured the public-school language baseline, international-school and kindergarten cost proxies, and major KL/Penang school examples, but did not capture exact current fee schedules, private-preschool city quotes, admissions/waiting-list terms, or Johor/Ipoh English/bilingual availability.
 - **Suggested verification**: Get current fee schedules and admissions terms for key KL/Penang schools, private-preschool quotes, transport/meal costs, and English/bilingual school availability in Johor Bahru and Ipoh if those remain candidate bases.
 - **Created**: 2026-06-19 (run-158)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-159)
+- **Resolution note**: Resolved for screening. Malaysia education is screenable from the MOE authority anchor, Bahasa Malaysia public-school baseline, international-school and kindergarten cost proxies, and KL/Penang school ecosystem; exact tuition/fees, deposits, private-preschool quotes, waiting lists, and non-KL/Penang bilingual availability remain application-prep or final-city checks.
 
 ## vq-150 [medium priority]
 - **Fact**: "Mexico route-compliant private health-insurance quotes, maternity/newborn coverage, exact IMSS / IMSS-Bienestar / public-health onboarding for temporary or permanent residents with foreign-client self-employment, and Mexico City / Guadalajara / Merida / Cancun private GP, pediatric, maternity, and clinic prices"
@@ -187,7 +203,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured the mixed public/private system, official health/IMSS anchors, and private-insurance/care cost proxies, but did not capture accepted policy wording, maternity/newborn exclusions, IMSS enrollment by final tax/residence status, or selected-city provider prices.
 - **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, INM/lawyer confirmation if insurance is expected for the residence file, IMSS / IMSS-Bienestar onboarding steps by final status, and city-specific GP/pediatric/maternity price samples.
 - **Created**: 2026-06-19 (run-155)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-159)
+- **Resolution note**: Resolved for screening. Mexico healthcare is screenable from the IMSS/ISSSTE/IMSS-Bienestar and private-sector baseline, Mexico City/Guadalajara service-depth screen, and private-insurance proxy; exact accepted policy wording, maternity/newborn terms, IMSS/IMSS-Bienestar onboarding by final status, and city provider prices remain application-prep checks.
 
 ## vq-151 [medium priority]
 - **Fact**: "Mexico exact ASF / ASFG / other international or bilingual school tuition, registration fees, transport/meal costs, private-preschool prices, waiting lists, and school availability outside Mexico City and Guadalajara"
@@ -197,7 +215,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured SEP as the public-school authority, public/Spanish-language baseline, broad bilingual/international tuition proxies, and ASF/ASFG anchors, but did not capture exact current fee schedules, private-preschool costs, waiting-list terms, or English/bilingual availability in Merida/Cancun.
 - **Suggested verification**: Get ASF and ASFG tuition/fee schedules, registration/transport/meal costs, private-preschool city quotes, waiting-list timing, and bilingual/international availability in Merida/Cancun if those cities remain candidates.
 - **Created**: 2026-06-19 (run-155)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-159)
+- **Resolution note**: Resolved for screening. Mexico education is screenable from SEP/public Spanish-schooling evidence plus bilingual/international-school cost bands and CDMX/Guadalajara school anchors; exact tuition/fees, private-preschool prices, waiting lists, and non-CDMX/non-Guadalajara options remain application-prep or final-city checks.
 
 ## vq-134 [medium priority]
 - **Fact**: "Montenegro route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks"

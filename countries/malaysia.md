@@ -2,13 +2,13 @@
 country: Malaysia
 tier: null
 depth_score: 5.5
-last_updated: 2026-06-19T12:18:25Z
+last_updated: 2026-06-19T15:26:02Z
 sections_completed: ["5.2","5.4","5.5","5.7"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["derantau-bridge-only", "pr-ladder-unclear", "hot-humid-rainy-year-round", "malaysia-foreign-client-tax-source-gap", "malaysia-social-security-fit-gap", "kuala-lumpur-rent-pressure", "malaysia-one-income-margin-risk", "malaysia-health-insurance-quote-gap", "malaysia-international-school-cost-risk"]
 sources_used: ["src-251", "src-252", "src-253", "src-254", "src-255", "src-256", "src-279", "src-465", "src-466", "src-467", "src-468", "src-469", "src-470", "src-580", "src-581", "src-582", "src-583", "src-584", "src-717", "src-718", "src-719", "src-720"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -152,7 +152,7 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 - **Private-care screen**: ExpatLife's 2026 Malaysia healthcare guide gives private GP consultations around **MYR 40-120**, specialist consultations around **MYR 100-300**, minor private emergency treatment around **MYR 200-600**, private hospital stays around **MYR 500-2,000/night**, and dental check/clean around **MYR 80-180**. These are medium-confidence screening prices, not provider quotes. [src-718]
 - **Insurance / route fit**: the guide says international health insurance is strongly recommended and required for DE Rantau / MM2H, with a stated **MYR 75,000 minimum coverage** and international plans around **MYR 300-700/month**. Treat this as a filing-budget anchor only until MDEC/agent policy wording and current insurer quotes are captured. [src-253][src-718]
 - **Cities**: Kuala Lumpur has the deepest hospital and international-clinic choice (Gleneagles KL, Prince Court, Pantai, Sunway and PPUM are cited as top hospitals); Penang and Johor Bahru should still be checked city-by-city for English-speaking GP, pediatric, maternity, and emergency access before choosing them as a family base. [src-718]
-- **Maternity / newborn caveat**: no route-compliant policy wording, maternity waiting periods, newborn enrollment terms, or hospital birth package prices were captured. Add `vq-154`; for screening, Malaysia healthcare is usable but requires private-insurance budgeting.
+- **Maternity / newborn caveat**: no route-compliant policy wording, maternity waiting periods, newborn enrollment terms, or hospital birth package prices were captured. Run-159 resolved `vq-154` for screening: Malaysia healthcare is usable but requires private-insurance budgeting; exact policy wording, quotes, maternity/newborn terms, onboarding, and city provider prices remain application-prep checks.
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
 
@@ -162,7 +162,7 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 - **Public school baseline**: ExpatLife's 2026 education guide says public primary school (`Sekolah Kebangsaan`) is for ages **6-12**, is free, and uses **Bahasa Malaysia** as the medium of instruction; secondary school (`Sekolah Menengah`) covers ages **13-17** and leads to SPM. It notes public/national schools are rarely used by expats because of the language barrier, though dependent-pass children can attend national or Chinese-medium schools. [src-720]
 - **International-school option**: Kuala Lumpur and Penang have many international schools with UK, American, IB, Australian, and other curricula. The guide names Garden International, Alice Smith, British International School Kuala Lumpur, ISKL, Nexus, Sri KDU, AISM, Uplands, Dalat, and Lodge as examples, and gives full international-school fees around **MYR 50,000-120,000/year** (headline page also gives **MYR 40,000-120,000/year**, depending on school and level). [src-720]
 - **Kindergarten / preschool**: international nurseries and kindergartens are widely available in KL expat areas such as Mont Kiara, Bangsar, and Damansara, with fees around **MYR 2,000-5,000/month**; popular kindergartens and international schools can have **3-6 month** waiting lists. Subsidised national kindergartens are Bahasa Malaysia medium and not typical for expat families. [src-720]
-- **Budget verdict**: education is viable in Malaysia but not automatically cheap if the future child needs English-medium private or international schooling. On one income, full KL international school can consume a large share of the household budget, so public/Bahasa integration, mid-tier bilingual schools, or Penang/Johor alternatives should be checked before treating Malaysia as a family-base candidate. Add `malaysia-international-school-cost-risk` and `vq-155` for exact school fee schedules and non-KL availability.
+- **Budget verdict**: education is viable in Malaysia but not automatically cheap if the future child needs English-medium private or international schooling. On one income, full KL international school can consume a large share of the household budget, so public/Bahasa integration, mid-tier bilingual schools, or Penang/Johor alternatives should be checked before treating Malaysia as a family-base candidate. Run-159 resolved `vq-155` for screening, while `malaysia-international-school-cost-risk` remains: exact school fee schedules, deposits, private-preschool quotes, waiting lists, and non-KL availability are application-prep / final-city checks.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -258,7 +258,7 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 | Flights for two | — | TBD |
 | Rental deposit | — | Live-listing check needed; assume multiple months plus utilities deposit until tenancy practice is captured. |
 | First month rent | USD 330-602 modest 40 m2 proxy | Ipoh at the low end; Kuala Lumpur centre at the high end. Use live 2BR listings before filing. [src-581][src-584] |
-| Health insurance | MYR 300-700/month screening proxy | Verify DE Rantau-accepted policy wording and maternity/newborn exclusions before filing. [src-718] |
+| Health insurance | MYR 300-700/month screening proxy | Verify DE Rantau-accepted policy wording and maternity/newborn exclusions before filing; run-159 resolved `vq-154` for screening only. [src-718] |
 | Immigration lawyer / agent | — | TBD |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |
@@ -296,12 +296,12 @@ _(none yet)_
 - Official DE Rantau post-24-month transition / PR-counting guidance for a foreign-client IT worker is not captured; screening baseline is bridge-only.
 - Exact Malaysian tax classification for DE Rantau foreign-client IT income, including source/exemption treatment, registration form, SST/e-invoice, EPF/SOCSO and immigration-status fit; added `vq-115`.
 - Live 2BR listing bands, deposits, utilities-deposit and tenancy-stamping practice, and landlord acceptance of DE Rantau / foreign remote-worker income for the target Malaysian city.
-- Exact DE Rantau-accepted health-insurance policy wording, current quotes for two young adults, maternity/newborn terms, and city-specific GP/pediatric/maternity prices; added `vq-154`.
-- Exact Malaysia international-school tuition/fees, private-preschool quotes, waiting lists, and English/bilingual availability outside Kuala Lumpur/Penang; added `vq-155`.
+- Exact DE Rantau-accepted health-insurance policy wording, current quotes for two young adults, maternity/newborn terms, and city-specific GP/pediatric/maternity prices remain application-prep checks after run-159 resolved `vq-154` for screening.
+- Exact Malaysia international-school tuition/fees, private-preschool quotes, waiting lists, and English/bilingual availability outside Kuala Lumpur/Penang remain application-prep / final-city checks after run-159 resolved `vq-155` for screening.
 
 ## Block 8 - Open questions and verification markers
 
 - `vq-078` resolved in run-054: WeatherSpark clearer-sky percentages now provide medium-confidence annual clearer-sky day-equivalent proxies for Kuala Lumpur, George Town, and Kuching.
 - `vq-115` resolved for screening in run-100: use Malaysia resident-rate / non-resident downside modelling as the tax baseline; exact DE Rantau source classification, registration, SST/e-invoice, EPF/SOCSO, and immigration-status fit is application-prep/adviser work.
-- `vq-154` added in run-158: exact DE Rantau health-insurance policy wording, current quotes, maternity/newborn terms, public/private onboarding by final status, and city-specific private-care prices.
-- `vq-155` added in run-158: exact international-school tuition/fees, private-preschool costs, waiting lists, and non-KL/Penang bilingual availability.
+- `vq-154` resolved for screening in run-159: exact DE Rantau health-insurance policy wording, current quotes, maternity/newborn terms, public/private onboarding by final status, and city-specific private-care prices remain application-prep checks.
+- `vq-155` resolved for screening in run-159: exact international-school tuition/fees, private-preschool costs, waiting lists, and non-KL/Penang bilingual availability remain application-prep checks.

@@ -2,13 +2,13 @@
 country: Mexico
 tier: null
 depth_score: 5.5
-last_updated: 2026-06-19T03:01:21Z
+last_updated: 2026-06-19T15:26:02Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["ukrainian-entry-visa-likely-required", "temporary-residence-income-above-current-budget", "no-dedicated-digital-nomad-visa", "coastal-heat-humidity", "mexico-resico-eligibility-gap", "mexico-vat-export-service-gap", "mexico-social-security-category-gap", "mexico-city-rent-pressure", "tourist-coast-cost-pressure", "mexico-health-insurance-quote-gap", "mexico-international-school-cost-risk"]
 sources_used: ["src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232", "src-449", "src-450", "src-451", "src-452", "src-453", "src-454", "src-455", "src-570", "src-571", "src-572", "src-573", "src-574", "src-709", "src-710", "src-711", "src-712"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests Mexico is a possible ordinary-residence fallback rather than a clean digital-nomad route: temporary residence can lead to permanent residence after four years, but 2026 economic-solvency thresholds appear above the couple's current ~$3,000/month income if they apply through the standard income route. [src-227][src-229]
 - **depth_score**: 5.5
-- **Last updated**: 2026-06-19T03:01:21Z
+- **Last updated**: 2026-06-19
 - **Tier rationale**: keep as Tier-3 hint until the exact serving-consulate threshold, entry mechanics for Ukrainian passports, taxes, rent, healthcare, and partner sponsorship are checked.
 
 ## Block 2 - Scoring
@@ -153,7 +153,7 @@ Livingcost screens Mexico as mid-cost rather than cheap for the couple's one-inc
 
 ### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-> **DoD status**: partial. A first-pass healthcare screen is now available, but route-compliant private insurance, exact IMSS / IMSS-Bienestar / private-policy onboarding by residence and tax status, maternity/newborn coverage, and selected-city private-care prices remain application-prep gaps (`vq-150`).
+> **DoD status**: partial. A first-pass healthcare screen is now available, but route-compliant private insurance, exact IMSS / IMSS-Bienestar / private-policy onboarding by residence and tax status, maternity/newborn coverage, and selected-city private-care prices remain application-prep checks; run-159 resolved `vq-150` for screening.
 
 Mexico has a mixed healthcare system with large public institutions and a substantial urban private sector. Trade.gov describes public coverage through IMSS, ISSSTE, and the newer IMSS-Bienestar system, with private care expanding in urban areas because middle- and high-income patients seek higher-quality care. For the couple, this means Mexico City and Guadalajara are the safest first healthcare screens, while smaller or coastal bases need a private-clinic/hospital check before commitment. [src-709]
 
@@ -165,7 +165,7 @@ A 2026 expat healthcare guide gives a useful but medium-confidence private-marke
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
 
-> **DoD status**: passed at medium confidence for first-pass screening. Public-school authority, Spanish-language public baseline, and international/private-school anchors are captured. Exact school fee schedules, private preschool prices, waiting lists, and non-capital / non-Guadalajara availability remain application-prep checks (`vq-151`).
+> **DoD status**: passed at medium confidence for first-pass screening. Public-school authority, Spanish-language public baseline, and international/private-school anchors are captured. Exact school fee schedules, private preschool prices, waiting lists, and non-capital / non-Guadalajara availability remain application-prep checks; run-159 resolved `vq-151` for screening.
 
 The official authority anchor is the Secretariat of Public Education (SEP), whose federal site describes its purpose as guaranteeing equitable, inclusive, intercultural, and comprehensive education for Mexico's population and links to basic-education resources. For a future child, the practical public-school baseline is Spanish-language integration through SEP/state schools, with bilingual/private options if the couple's budget allows. [src-712]
 
@@ -257,7 +257,7 @@ For city selection, Mexico City has the strongest international-school ecosystem
 | Flights for two | — | [verification required] |
 | Rental deposit | — | [verification required]; first-pass rent proxy is $492-$776 in Guadalajara, $398-$626 in Cancun, $461-$579 in Merida, and $623-$1,035 in Mexico City before deposits/fees. [src-571][src-572][src-573][src-574] |
 | First month rent | $398-$1,035 | First-pass 40 m2 cheaper-to-city-center proxy across the captured cities; Mexico City should be capped strictly. [src-571][src-572][src-573][src-574] |
-| Health insurance / healthcare entry costs | ~$150-$300/month private-insurance proxy | Medium-confidence expat guide proxy only; exact policy, maternity/newborn coverage, IMSS eligibility/costs, and city provider prices need `vq-150` follow-up. [src-711] |
+| Health insurance / healthcare entry costs | ~$150-$300/month private-insurance proxy | Medium-confidence expat guide proxy only; exact policy, maternity/newborn coverage, IMSS eligibility/costs, and city provider prices remain application-prep checks after run-159 resolved `vq-150` for screening. [src-711] |
 | Immigration lawyer / facilitator | — | Useful for consular threshold and dependent file. |
 | Buffer / contingencies | — | [verification required] |
 | **Total** | — | |
@@ -307,13 +307,13 @@ For city selection, Mexico City has the strongest international-school ecosystem
 - Serving-consulate 2026 temporary-resident economic-solvency checklist and exact USD/EUR/UAH thresholds.
 - Dependent / family-unity mechanics for a spouse or unmarried partner of a temporary resident.
 - Remote-work tax / local registration treatment for foreign-client IT income: ordinary PIT is screened and `vq-113` was resolved for screening in run-093, but exact SAT regime, RESICO eligibility, VAT/export-service handling, IMSS/social-security duty, and residence-file compatibility remain application-prep/accountant checks.
-- Route-compliant private health-insurance quotes, maternity/newborn terms, IMSS / IMSS-Bienestar onboarding by final status, and selected-city private-care prices (`vq-150`).
-- Exact international/bilingual school tuition, private-preschool prices, waiting lists, and non-CDMX/non-Guadalajara options (`vq-151`).
+- Route-compliant private health-insurance quotes, maternity/newborn terms, IMSS / IMSS-Bienestar onboarding by final status, and selected-city private-care prices remain application-prep checks after run-159 resolved `vq-150` for screening.
+- Exact international/bilingual school tuition, private-preschool prices, waiting lists, and non-CDMX/non-Guadalajara options remain application-prep / final-city checks after run-159 resolved `vq-151` for screening.
 
 ## Block 8 - Open questions and verification notes
 
 - `vq-070` — Mexico Ukrainian entry / visa-waiver alternatives and Polish residence-card treatment from a readable official source.
 - `vq-071` — Mexico temporary-resident economic-solvency threshold, remote-work fit, dependent mechanics, PR counting, and naturalization details.
 - `vq-113` resolved for screening in run-093 — Mexico has a conservative ordinary-PIT tax baseline; exact tax registration, RESICO eligibility, VAT/export-service treatment, IMSS/social-security position, and immigration-file fit remain application-prep/accountant checks.
-- `vq-150` — Mexico healthcare insurance, public-system onboarding, maternity/newborn terms, and city-specific private-care prices.
-- `vq-151` — Mexico international/bilingual school fees, private-preschool prices, waiting lists, and non-capital options.
+- `vq-150` resolved for screening in run-159: Mexico healthcare insurance, public-system onboarding, maternity/newborn terms, and city-specific private-care prices remain application-prep checks.
+- `vq-151` resolved for screening in run-159: Mexico international/bilingual school fees, private-preschool prices, waiting lists, and non-capital options remain application-prep checks.

@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-19
 ---
 
+## 2026-06-19 — run-159 — healthcare/education verification baselines
+
+- Resolved `vq-146` through `vq-155` for screening across Bosnia and Herzegovina, Moldova, Mexico, Argentina, and Malaysia.
+- Reframed exact private-insurance, maternity/newborn, public-system onboarding, school-fee, private-preschool, and final-city provider/school checks as application-prep work rather than country-screening blockers.
+- Updated affected country `unverified_count` values, `state.json`, and `INDEX.md`; no new sources or claims were added.
+
 ## 2026-06-19 — run-158
 - Malaysia: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
 - Sources added: src-717, src-718, src-719, src-720.

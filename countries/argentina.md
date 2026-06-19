@@ -2,13 +2,13 @@
 country: Argentina
 tier: null
 depth_score: 5.5
-last_updated: 2026-06-19T09:10:43Z
+last_updated: 2026-06-19T15:26:02Z
 sections_completed: ["5.2","5.4","5.5","5.7"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["digital-nomad-bridge-only", "tourist-entry-before-travel-check", "citizenship-continuous-no-exit-rule", "inflation-currency-risk", "argentina-pit-vat-gross-income-tax-risk", "argentina-social-security-category-gap", "argentina-monotributo-export-fit-gap", "buenos-aires-rent-pressure", "argentina-one-income-margin-risk", "argentina-health-insurance-quote-gap", "argentina-international-school-cost-risk"]
 sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242, src-456, src-457, src-458, src-459, src-460, src-461, src-575, src-576, src-577, src-578, src-579, src-713, src-714, src-715, src-716]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD (Tier-3 hint retained until taxes/cost/rent and residence-to-citizenship practicality are verified).
 - **depth_score**: 5.5
-- **Last updated**: 2026-06-19T09:10:43Z
+- **Last updated**: 2026-06-19
 - **Tier rationale**: First pass suggests Argentina is legally interesting because Ukrainian ordinary-passport holders have a usable 90-day tourist-entry screening baseline and Argentina has an official digital-nomad transitory residence plus a short legal naturalization horizon. However, the DN status is only 180 + 180 days and transitory, rentista excludes personal-work income, and 2025 citizenship changes require continuous legal residence with no exits during the two-year period. Treat as promising but high-verification until a durable ordinary residence route for foreign-client IT income is confirmed. [src-233][src-234][src-236][src-237]
 
 ## Block 2 — Scoring
@@ -154,7 +154,7 @@ Livingcost's Argentina country page screens the national average at about USD 87
 
 ### 5.6. Healthcare {status: partial, depth: 0.5, last_updated: 2026-06-19, dod: partial}
 
-> **DoD status**: partial. A first-pass healthcare screen is now available, but route-compliant private insurance, exact public/prepaga onboarding by DN / temporary-residence / tax status, maternity/newborn coverage, and Buenos Aires / Cordoba / Mendoza private-care price checks remain application-prep gaps (`vq-152`).
+> **DoD status**: partial. A first-pass healthcare screen is now available, but route-compliant private insurance, exact public/prepaga onboarding by DN / temporary-residence / tax status, maternity/newborn coverage, and Buenos Aires / Cordoba / Mendoza private-care price checks remain application-prep checks; run-159 resolved `vq-152` for screening.
 
 Argentina has a public-health safety-net and a substantial private sector. The national Ministry of Health site is the official public-health authority anchor and lists national programs, health procedures, and major public hospitals including Garrahan and high-complexity hospitals. For screening, this supports a baseline that public care exists, but it does not answer how a digital-nomad, temporary resident, or self-employed foreigner should enroll in any contributory scheme or which private policy a residence file will accept. [src-713]
 
@@ -166,7 +166,7 @@ A 2026 expat healthcare guide gives the practical private-market screen: it desc
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
 
-> **DoD status**: passed at medium confidence for first-pass screening. Public-education authority, Spanish public-school baseline, and Buenos Aires international/bilingual-school anchors are captured. Exact tuition/fees, registration, private-preschool prices, waiting lists, and non-Buenos-Aires bilingual availability remain application-prep or final-city checks (`vq-153`).
+> **DoD status**: passed at medium confidence for first-pass screening. Public-education authority, Spanish public-school baseline, and Buenos Aires international/bilingual-school anchors are captured. Exact tuition/fees, registration, private-preschool prices, waiting lists, and non-Buenos-Aires bilingual availability remain application-prep or final-city checks; run-159 resolved `vq-153` for screening.
 
 The official national education site is the public authority anchor for Argentina education. It frames the Ministry of Capital Humano / education area as working with provinces for inclusive education and links to basic education, educational statistics, school calendar, teacher training, scholarships, and credential-validity resources. For a future child, the practical public baseline is Spanish-language provincial/state schooling, with province and city choice mattering for quality and enrollment mechanics. [src-715]
 
@@ -322,11 +322,11 @@ _(none yet)_
 - Current official tourist-exemption PDF/table for Ukrainian ordinary passports was identified via secondary source but not directly captured; re-check before travel or DN filing.
 - Durable foreign-client IT residence and DN dependent mechanics were resolved for screening to a conservative baseline: not proven; use Argentina as a DN bridge only until a durable temporary category is confirmed.
 - Exact Argentine tax-registration category for a Ukrainian foreign-client IT worker, monotributo/export-service fit, VAT, Ingresos Brutos, self-employed social-security/health contributions, banking/invoice settlement, and DN/temporary-residence compatibility were resolved for screening in run-093 but remain application-prep/accountant checks.
-- Healthcare insurance, onboarding, maternity/newborn, and selected-city provider-price details are tracked in `vq-152`; education fee/private-preschool/non-capital availability details are tracked in `vq-153`.
+- Healthcare insurance, onboarding, maternity/newborn, and selected-city provider-price details remain application-prep checks after run-159 resolved `vq-152` for screening; education fee/private-preschool/non-capital availability details remain application-prep / final-city checks after run-159 resolved `vq-153` for screening.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-072` resolved in run-061: 90-day Ukrainian tourist-entry baseline is sufficient for screening; direct official exemption-table capture is a before-travel / DN-filing check, not a settlement-route blocker. [src-233][src-234][src-236]
 - `vq-114` resolved for screening in run-093: Argentina has a conservative PIT-only screen, contribution sensitivity, VAT/Ingresos Brutos risk, and registration caveats; monotributo/autonomous-worker eligibility, VAT/export-service handling, social-security/health obligations, banking/invoice requirements, and DN/temporary-residence compatibility remain application-prep/accountant checks. [src-456][src-458][src-459][src-460][src-461]
-- `vq-152` added in run-157: route-compliant healthcare insurance, onboarding, maternity/newborn, and selected-city private-care prices remain application-prep checks. [src-713][src-714]
-- `vq-153` added in run-157: exact international/bilingual school fees, private preschool, waiting lists, and Cordoba/Mendoza availability remain application-prep/final-city checks. [src-715][src-716]
+- `vq-152` resolved for screening in run-159: route-compliant healthcare insurance, onboarding, maternity/newborn, and selected-city private-care prices remain application-prep checks. [src-713][src-714]
+- `vq-153` resolved for screening in run-159: exact international/bilingual school fees, private preschool, waiting lists, and Cordoba/Mendoza availability remain application-prep/final-city checks. [src-715][src-716]

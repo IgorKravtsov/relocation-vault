@@ -2,13 +2,13 @@
 country: Moldova
 tier: null
 depth_score: 5.5
-last_updated: 2026-06-18T23:54:50Z
+last_updated: 2026-06-19T15:26:02Z
 sections_completed: ["5.2","5.4","5.5","5.7"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["digital-nomad-threshold-current-year-gap", "pr-counting-for-digital-nomad-unclear", "post-2027-tp-bridge-gap", "transnistria-practical-risk", "moldova-entrepreneur-contribution-category-gap", "moldova-foreign-client-vat-fit-gap", "moldova-health-insurance-onboarding-gap", "moldova-international-school-cost-risk"]
 sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225, src-424, src-425, src-426, src-427, src-428, src-429, src-566, src-567, src-568, src-569, src-705, src-706, src-707, src-708]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First-pass evidence shows Moldova has an official digital-nomad residence route and temporary protection for displaced Ukrainians until 01 March 2027, but long-term usefulness for this couple depends on the current average-salary threshold, whether digital-nomad residence counts toward permanent residence, and post-TP transition mechanics. [src-220][src-222]
 - **depth_score**: 5.5
-- **Last updated**: 2026-06-18T23:54:50Z
+- **Last updated**: 2026-06-19
 - **Tier rationale**: Not assigned. Treat Moldova as a potentially practical nearby bridge/base, not yet a proven long-term route to PR/citizenship for a foreign-client IT worker.
 
 ## Block 2 — Scoring
@@ -175,9 +175,9 @@ schema_version: 2.0.0
 - Balti can reduce rent pressure if Chisinau housing becomes noisy or if the conservative tax/contribution result binds; Tiraspol should remain outside the default city shortlist until security, banking, registration, and residence-file practicality are researched.
 - Add to later practical-budget work: live listings, deposits, agency fees, utilities seasonality, registered-address clauses, lease translation/notarization, landlord acceptance of Ukrainian passports / Moldovan TP / DN residence files, and whether a foreign-client IT contract satisfies landlord proof-of-income expectations.
 
-### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-18, dod: partial}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-> **DoD status**: Partial. This pass establishes a safe screening baseline: Moldova has a Ministry of Health authority anchor, legal residents can use the public health system, temporary-protection beneficiaries have primary and emergency healthcare rights, and Chisinau is the practical healthcare base. It is not DoD-passed because route-compliant private policy quotes, maternity/newborn exclusions, exact CNAM/public-insurance onboarding by DN/TP/self-employed/family status, and Chisinau/Balti private-care price samples remain uncaptured (`vq-148`).
+> **DoD status**: Partial. This pass establishes a safe screening baseline: Moldova has a Ministry of Health authority anchor, legal residents can use the public health system, temporary-protection beneficiaries have primary and emergency healthcare rights, and Chisinau is the practical healthcare base. It is not DoD-passed because route-compliant private policy quotes, maternity/newborn exclusions, exact CNAM/public-insurance onboarding by DN/TP/self-employed/family status, and Chisinau/Balti private-care price samples remain application-prep checks; run-159 resolved `vq-148` for screening.
 
 #### Public system and onboarding baseline
 - The Ministry of Health website is the official public-health authority anchor for Moldova; use it with the National Health Insurance Company / CNAM and final immigration counsel for exact public-insurance enrollment, because this pass could not capture a clean English CNAM onboarding page. [src-705]
@@ -195,9 +195,9 @@ schema_version: 2.0.0
 3. Choose Chisinau as the first base unless a later comfort/risk pass proves Balti has adequate private pediatric, maternity, and English/Russian/Romanian navigation for the couple.
 4. Before pregnancy or long-term settlement planning, obtain two to three insurer quotes, maternity/newborn wording, CNAM enrollment advice by final status, and private maternity/pediatric price samples.
 
-### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-18, dod: passed}
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
 
-> **DoD status**: Passed for first-pass screening at medium confidence. Moldova has an official education-system baseline through Eurydice: early/preschool, primary, lower/upper secondary, VET, and higher education are mapped, and compulsory education runs through age 16. Chisinau has identifiable international-school options. Exact current fee schedules, registration/transport/meal costs, private-preschool prices, and non-Chisinau English/bilingual availability remain application-prep checks (`vq-149`).
+> **DoD status**: Passed for first-pass screening at medium confidence. Moldova has an official education-system baseline through Eurydice: early/preschool, primary, lower/upper secondary, VET, and higher education are mapped, and compulsory education runs through age 16. Chisinau has identifiable international-school options. Exact current fee schedules, registration/transport/meal costs, private-preschool prices, and non-Chisinau English/bilingual availability remain application-prep checks; run-159 resolved `vq-149` for screening.
 
 #### Public preschool and school baseline
 - Eurydice describes Moldova's education system as organised under the Education Code by ISCED levels: early education, primary, lower secondary/gymnasium, upper secondary/lyceum, VET, post-secondary, and higher education. Compulsory education begins with the preparatory preschool group and ends with secondary education; the obligation to attend compulsory education ends at age 16. [src-707]
@@ -351,13 +351,13 @@ _(none yet)_
 - Citizenship / naturalization source.
 - Dependent spouse/unmarried-partner mechanics for a foreign digital-nomad sponsor.
 - Live Moldovan rental listings, deposits/agency fees, registered-address support, and landlord acceptance of foreign-client IT income.
-- Route-compliant private health-insurance quotes, maternity/newborn policy wording, CNAM/public-insurance onboarding by final status, and city-specific private GP/pediatric/maternity prices.
-- Exact QSI / Heritage / private preschool fee schedules, registration/transport/meal costs, and English/bilingual availability outside Chisinau.
+- Route-compliant private health-insurance quotes, maternity/newborn policy wording, CNAM/public-insurance onboarding by final status, and city-specific private GP/pediatric/maternity prices remain application-prep checks after run-159 resolved `vq-148` for screening.
+- Exact QSI / Heritage / private preschool fee schedules, registration/transport/meal costs, and English/bilingual availability outside Chisinau remain application-prep / final-city checks after run-159 resolved `vq-149` for screening.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-068` — official Ukraine entry / TP transition / citizenship baseline.
 - `vq-069` — DN current threshold, dependent mechanics, and PR-counting for DN/IT residence.
 - `vq-109` resolved in run-087: Moldova foreign-client IT tax fit is closed for screening using the existing PIT-only and fixed-contribution sensitivities; exact registration, contribution, VAT/place-of-supply, and DN/provisional-stay compatibility remain application-prep checks.
-- `vq-148` — Moldova healthcare insurance/onboarding/private-price details remain application-prep checks.
-- `vq-149` — Moldova international-school/private-preschool fee and non-Chisinau availability details remain application-prep checks.
+- `vq-148` resolved for screening in run-159: Moldova healthcare insurance/onboarding/private-price details remain application-prep checks.
+- `vq-149` resolved for screening in run-159: Moldova international-school/private-preschool fee and non-Chisinau availability details remain application-prep checks.
