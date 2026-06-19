@@ -2,13 +2,13 @@
 country: Panama
 tier: null
 depth_score: 5.5
-last_updated: 2026-06-18T14:30:50Z
+last_updated: 2026-06-19T06:06:57Z
 sections_completed: ["5.2","5.4","5.5","5.7"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season", "panama-territorial-tax-source-risk", "panama-itbms-export-service-gap", "panama-city-rent-pressure", "panama-health-insurance-quote-gap", "panama-international-school-cost-risk"]
 sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203", "src-444", "src-445", "src-446", "src-447", "src-448", "src-553", "src-554", "src-555", "src-556", "src-693", "src-694", "src-695", "src-696"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests Panama is useful as a short-to-medium-term remote-work base because the official remote-worker visa fits exactly USD 3,000/month foreign-source income, but it is a non-resident short-stay route and not a clean permanent-residence/citizenship ladder by itself. [src-199]
 - **depth_score**: 5.5
-- **Last updated**: 2026-06-18T14:30:50Z
+- **Last updated**: 2026-06-19T06:06:57Z
 - **Tier rationale**: keep as Tier-2 hint only if a separate residence route can be made realistic. The likely long-term routes require a Panama employer/professional file, friendly-nations economic/professional activity, or investment/family facts not yet proven for this Ukrainian remote-IT couple. [src-198][src-200]
 
 ## Block 2 - Scoring
@@ -163,9 +163,9 @@ Panama uses USD-denominated prices in the captured Livingcost pages, so the coup
 **Search and lease follow-up**: this iteration did not capture live portals or lease practices. Before treating section 5.5 as application-ready, check Encuentra24, Compreoalquile, local real-estate agencies / Facebook groups, deposit and commission norms, whether landlords accept foreign remote-worker income, whether a lease can support immigration/banking address evidence, and whether utilities/internet are separately billed. Keep these as practical-budget checks rather than country-screening blockers.
 
 
-### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-18, dod: partial}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-> **DoD status**: partial. First-pass screening is strong enough to compare cities and budget risk: Panama City has high-end private hospitals, local private insurance cost proxies, GP cost proxies, and the remote-worker route already requires Panama-covering medical insurance. Missing for DoD: route-compliant policy quotes/wording for two young adults, maternity/newborn coverage and waiting periods, exact CSS/MINSA onboarding by final residence/tax status, and selected-city private-care prices; see `vq-143`.
+> **DoD status**: partial. First-pass screening is strong enough to compare cities and budget risk: Panama City has high-end private hospitals, local private insurance cost proxies, GP cost proxies, and the remote-worker route already requires Panama-covering medical insurance. Run-156 resolved `vq-143` for country screening: route-compliant policy quotes/wording, maternity/newborn coverage, CSS/MINSA onboarding by final status, and selected-city private-care prices remain application-prep checks rather than open screening blockers.
 
 Panama healthcare is highly city-dependent. The Ministry of Health (MINSA) is the official public-health authority and the remote-worker visa checklist already requires a health-insurance policy covering Panama. For a foreign remote-worker couple, the safe operational baseline is therefore private insurance first, with public/CSS eligibility checked only after the final residence and tax structure is chosen. [src-199][src-693][src-694]
 
@@ -181,9 +181,9 @@ Panama healthcare is highly city-dependent. The Ministry of Health (MINSA) is th
 - CSS/public eligibility is not proven for this couple's final structure. ExpatLife says CSS is open to Panamanian workers and eligible residents, while expats typically prefer private coverage; for this profile, confirm CSS/MINSA access only after the remote-worker vs ordinary-residence/tax file is chosen. [src-694]
 - Maternity/newborn terms, exclusions, waiting periods, and whether a local policy satisfies the migration checklist remain application-prep checks. [src-199][src-694]
 
-**Healthcare verdict**: Panama is healthcare-positive for screening if the couple can budget private insurance and use Panama City for serious care. It is not yet application-ready because exact policy wording, maternity/newborn terms, public/CSS eligibility, and city-specific private prices were not captured. [src-694]
+**Healthcare verdict**: Panama is healthcare-positive for screening if the couple can budget private insurance and use Panama City for serious care. It is not yet application-ready because exact policy wording, maternity/newborn terms, public/CSS eligibility, and city-specific private prices were not captured; those checks are now application-prep items, not screening blockers. [src-694]
 
-### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-18, dod: passed}
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
 
 > **DoD status**: passed at medium confidence for country screening. Public-school language / enrollment documents, bilingual and international-school cost proxies, and a named flagship international-school option are covered. Exact live tuition invoices and final-city preschool quotes remain later practical-budget checks, not blockers for screening.
 

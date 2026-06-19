@@ -1,24 +1,27 @@
 {
   "version": 2,
-  "iteration": 155,
+  "iteration": 156,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-19T03:01:21Z",
+  "last_run_timestamp": "2026-06-19T06:06:57Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Mexico",
+    "mode": "verification",
+    "country": null,
     "sections": [
       "5.6",
       "5.7"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "verification",
-    "suggested_country": null,
-    "suggested_sections": null,
-    "reason": "Verification queue reached the >=10 threshold after run-155; run a verification batch before continuing country-deep-dives."
+    "suggested_mode": "country-deep-dive",
+    "suggested_country": "Argentina",
+    "suggested_sections": [
+      "5.6",
+      "5.7"
+    ],
+    "reason": "After run-156 verification queue dropped below threshold; resume low-depth Tier-3 healthcare/education coverage, with Argentina next by depth/age."
   },
   "countries": {
     "Spain": {
@@ -674,8 +677,8 @@
         "north-macedonia-private-insurance-quote-gap",
         "north-macedonia-international-school-cost-risk"
       ],
-      "last_iteration": 152,
-      "unverified_count": 2
+      "last_iteration": 156,
+      "unverified_count": 0
     },
     "Bosnia and Herzegovina": {
       "tier": null,
@@ -775,8 +778,8 @@
         "uruguay-private-insurance-quote-gap",
         "uruguay-international-school-cost-risk"
       ],
-      "last_iteration": 149,
-      "unverified_count": 1
+      "last_iteration": 156,
+      "unverified_count": 0
     },
     "Paraguay": {
       "tier": null,
@@ -809,8 +812,8 @@
         "paraguay-private-insurance-route-fit-gap",
         "paraguay-international-school-cost-risk"
       ],
-      "last_iteration": 150,
-      "unverified_count": 1
+      "last_iteration": 156,
+      "unverified_count": 0
     },
     "Panama": {
       "tier": null,
@@ -843,8 +846,8 @@
         "panama-health-insurance-quote-gap",
         "panama-international-school-cost-risk"
       ],
-      "last_iteration": 151,
-      "unverified_count": 1
+      "last_iteration": 156,
+      "unverified_count": 0
     },
     "Mexico": {
       "tier": null,
@@ -1119,7 +1122,7 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 11,
+  "verification_queue_size": 6,
   "sources_count": 711,
   "claims_count": 621,
   "proposals_pending": 0

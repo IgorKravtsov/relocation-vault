@@ -46,7 +46,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: SNIS/FONASA/mutualista structure and health-card requirement are captured, but this pass did not capture route-compliant private policy premiums, maternity/newborn exclusions, foreign-resident public/mutualista onboarding by BPS/DGI status, or Montevideo/Salto private-care prices.
 - **Suggested verification**: Get two to three private/mutualista quotes, policy maternity/newborn wording, official or provider onboarding steps for foreign residents/self-employed contributors, and selected-city GP/pediatric/maternity price samples.
 - **Created**: 2026-06-18 (run-149)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-156)
+- **Resolution note**: Resolved for screening. Uruguay healthcare is screenable from the existing SNIS/FONASA/mutualista, health-card, and private-care evidence; exact private/mutualista quotes, maternity/newborn terms, foreign-resident onboarding by BPS/DGI/residence status, and city-specific provider prices remain application-prep checks before filing or city selection.
 
 ## vq-142 [medium priority]
 - **Fact**: "Paraguay private health-insurance quotes, maternity/newborn coverage, exact IPS / Ministry public-care onboarding for self-employed or lawful-activity foreign residents, and Asuncion / Encarnacion / Ciudad del Este private GP, pediatric, maternity, and clinic prices"
@@ -56,7 +58,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured the public Ministry network and a private-care / insurance cost proxy, but did not capture route-compliant policy wording, maternity/newborn exclusions, exact public/IPS eligibility by residence/tax status, or selected-city private-care prices.
 - **Suggested verification**: Get two to three insurer or prepaid medical quotes for two young adults, maternity/newborn terms, DNM/lawyer confirmation of residence-file insurance acceptance, IPS/Ministry onboarding steps by final status, and selected-city GP/pediatric/maternity price samples.
 - **Created**: 2026-06-18 (run-150)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-156)
+- **Resolution note**: Resolved for screening. Paraguay healthcare is screenable from the existing public/private network and private-care / insurance proxy evidence; exact route-compliant insurance wording, maternity/newborn terms, IPS/Ministry onboarding by final status, and selected-city provider prices remain application-prep checks.
 
 ## vq-143 [medium priority]
 - **Fact**: "Panama route-compliant private health-insurance quotes, maternity/newborn coverage, exact CSS/MINSA onboarding for remote-worker / ordinary-residence / tax status, and Panama City / David / Boquete private GP, pediatric, maternity, and clinic prices"
@@ -66,7 +70,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured the remote-worker insurance requirement, MINSA authority baseline, and private-care / insurance cost proxies, but did not capture policy wording accepted for the visa, maternity/newborn exclusions, exact public/CSS eligibility by residence/tax status, or selected-city private-care prices.
 - **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, migration/lawyer confirmation of remote-worker insurance acceptance, CSS/MINSA onboarding steps by final status, and selected-city GP/pediatric/maternity price samples.
 - **Created**: 2026-06-18 (run-151)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-156)
+- **Resolution note**: Resolved for screening. Panama healthcare is screenable because the remote-worker route already requires Panama-covering insurance and Panama City has strong private-care anchors; exact accepted policy wording, maternity/newborn terms, CSS/MINSA onboarding, and selected-city provider prices remain application-prep checks.
 
 ## vq-144 [medium priority]
 - **Fact**: "North Macedonia route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZO/public-insurance onboarding for self-employed/company-backed foreign residents, and Skopje / Ohrid / Bitola private GP, pediatric, maternity, and clinic prices"
@@ -76,7 +82,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured the Ministry authority anchor, FZO/public-system concept, and private-care / insurance cost proxies, but did not capture policy wording accepted for residence, maternity/newborn exclusions, exact FZO enrollment by final residence/tax status, or selected-city provider prices.
 - **Suggested verification**: Get two to three private insurer quotes for two young adults, maternity/newborn terms, migration/lawyer confirmation of residence-file insurance acceptance, FZO onboarding steps by self-employed/company-backed status, and selected-city GP/pediatric/maternity price samples.
 - **Created**: 2026-06-18 (run-152)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-156)
+- **Resolution note**: Resolved for screening. North Macedonia healthcare is screenable from the captured Ministry/FZO/private-care affordability baseline; exact private-policy quotes, maternity/newborn terms, FZO onboarding by self-employed/company-backed status, and local pediatric/maternity provider checks remain application-prep checks.
 
 ## vq-145 [medium priority]
 - **Fact**: "North Macedonia exact QSI/NOVA/international-school tuition, registration fees, transport/meal costs, private-preschool prices, and school availability outside Skopje"
@@ -86,7 +94,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured public-school language/age structure and a broad international-school tuition proxy, plus QSI/NOVA as Skopje anchors, but did not capture exact current school fee schedules, private preschool costs, or non-Skopje English/bilingual availability.
 - **Suggested verification**: Get QSI and NOVA tuition/fee schedules, registration/transport/meal costs, age-placement and EAL terms, private-preschool city quotes, and school availability in Ohrid/Bitola if those cities remain candidate bases.
 - **Created**: 2026-06-18 (run-152)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-19 (run-156)
+- **Resolution note**: Resolved for screening. North Macedonia education is screenable from the public-school language/age baseline plus Skopje QSI/NOVA/international-school cost bands; exact tuition/fees, private-preschool quotes, and non-Skopje English/bilingual availability remain application-prep or final-city checks.
 
 ## vq-146 [medium priority]
 - **Fact**: "Bosnia and Herzegovina route-compliant private health-insurance quotes, maternity/newborn coverage, exact FBiH / RS / canton / Brcko public-fund onboarding for company-founder/work/self-employed foreign residents, and Sarajevo / Mostar / Tuzla / Banja Luka private GP, pediatric, maternity, and clinic prices"

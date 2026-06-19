@@ -2,13 +2,13 @@
 country: Uruguay
 tier: null
 depth_score: 5.5
-last_updated: 2026-06-18T07:54:44Z
+last_updated: 2026-06-19T06:06:57Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence", "uruguay-self-employed-bps-gap", "uruguay-foreign-client-vat-fit-gap", "montevideo-punta-del-este-rent-pressure", "uruguay-private-insurance-quote-gap", "uruguay-international-school-cost-risk"]
 sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186", "src-430", "src-431", "src-432", "src-433", "src-434", "src-435", "src-436", "src-545", "src-546", "src-547", "src-548", "src-684", "src-685", "src-686", "src-687", "src-688"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests a potentially strong long-term route because Uruguay allows ordinary legal residence for non-Mercosur foreigners and legal citizenship after 3 years with family constituted in Uruguay or 5 years without family, but the route depends on proving habitual residence and means of life rather than a simple remote-worker visa threshold. [src-181][src-182][src-184]
 - **depth_score**: 5.5
-- **Last updated**: 2026-06-18T07:54:44Z
+- **Last updated**: 2026-06-19T06:06:57Z
 - **Tier rationale**: keep as Tier-2 hint until practical residence / tax approval mechanics for foreign-client IT income, healthcare insurance/onboarding costs, and habitual-residence/citizenship practice are checked; cost/rent now screens as workable outside the most expensive coastal/capital markets, while education is screenable if Spanish-language public schooling is acceptable.
 
 ## Block 2 - Scoring
@@ -164,9 +164,9 @@ FX snapshot for this pass: USD 1 = UYU 40.474288, so USD 3,000/month is about **
 
 **Rent verdict**: Screen Montevideo first only for bureaucracy, healthcare, notary/accountant access, and diaspora/services; keep a strict rent cap. Use Salto as the affordability and warmer-inland fallback if smaller-city service tradeoffs are acceptable. Punta del Este / Maldonado should be a lifestyle exception, not the default budget plan. Add `montevideo-punta-del-este-rent-pressure` as a risk flag.
 
-### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-18, dod: partial}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-> **DoD status**: partial. This pass captures Uruguay's public/private healthcare structure, SNIS/FONASA/mutualista baseline, the health-card requirement already linked to residence files, and a conservative private-care planning stance. Missing for DoD: route-compliant private insurance quotes for two young adults, maternity/newborn exclusions, exact FONASA/ASSE/mutualista onboarding by residence and self-employed/BPS status, and city-specific private GP/pediatric/maternity prices.
+> **DoD status**: partial. This pass captures Uruguay's public/private healthcare structure, SNIS/FONASA/mutualista baseline, the health-card requirement already linked to residence files, and a conservative private-care planning stance. Run-156 resolved `vq-141` for country screening: exact private insurance quotes, maternity/newborn exclusions, FONASA/ASSE/mutualista onboarding by residence/BPS status, and city-specific private-care prices remain application-prep checks rather than open screening blockers.
 
 Uruguay has a structured mixed healthcare system under the National Integrated Health System (SNIS). The U.S. International Trade Administration describes SNIS as integrating public and private providers, with universal coverage financed through the National Health Fund (FONASA). Contributors to FONASA can choose a public or private provider, and many choose one of the private mutualista plans; a smaller group additionally pays for premium private insurance. [src-684]
 
@@ -176,9 +176,9 @@ The migration checklist already makes healthcare operational rather than optiona
 
 **Pregnancy / pediatrics**: use a conservative planning stance. Uruguay's system is relatively developed for the region and Montevideo is the safest first healthcare base, but pregnancy, childbirth, newborn coverage, waiting periods, and pediatric access must be checked in the exact mutualista/private policy before relying on Uruguay for family planning. This is especially important because the one-income budget has limited room if BPS/VAT or insurance costs land at the downside of §5.3. [src-684]
 
-**Healthcare verdict**: screen Uruguay as healthcare-practical in Montevideo and likely workable in Salto only after a final-city provider check. Do not treat healthcare as a blocker for country screening, but add `uruguay-private-insurance-quote-gap` until exact policy quotes, maternity/newborn terms, FONASA/ASSE/IAMC onboarding, and private-care price checks are captured.
+**Healthcare verdict**: screen Uruguay as healthcare-practical in Montevideo and likely workable in Salto only after a final-city provider check. Do not treat healthcare as a blocker for country screening; keep `uruguay-private-insurance-quote-gap` as an application-prep flag until exact policy quotes, maternity/newborn terms, FONASA/ASSE/IAMC onboarding, and private-care price checks are captured.
 
-### 5.7. Education (future child) {status: deep, depth: 2, last_updated: 2026-06-18, dod: passed}
+### 5.7. Education (future child) {status: deep, depth: 2, last_updated: 2026-06-19, dod: passed}
 
 > **DoD status**: passed at medium confidence for country screening. Public preschool/primary/secondary structure, compulsory ages, free public primary baseline, and a Montevideo international-school cost benchmark are captured. Exact school admissions, private preschool city quotes, and live tuition schedules remain later budget/application-prep checks.
 

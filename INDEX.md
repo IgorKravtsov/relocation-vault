@@ -29,12 +29,12 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Turkey | europe-non-eu | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 145 | `countries/turkey.md` |
 | Georgia | europe-non-eu | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 146 | `countries/georgia.md` |
 | Albania | balkans-east | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 147 | `countries/albania.md` |
-| North Macedonia | balkans-east | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 152 | `countries/north-macedonia.md` |
+| North Macedonia | balkans-east | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 156 | `countries/north-macedonia.md` |
 | Bosnia and Herzegovina | balkans-east | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 153 | `countries/bosnia-and-herzegovina.md` |
 | Moldova | balkans-east | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 154 | `countries/moldova.md` |
-| Uruguay | latin-america | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 149 | `countries/uruguay.md` |
-| Paraguay | latin-america | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 150 | `countries/paraguay.md` |
-| Panama | latin-america | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 151 | `countries/panama.md` |
+| Uruguay | latin-america | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 156 | `countries/uruguay.md` |
+| Paraguay | latin-america | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 156 | `countries/paraguay.md` |
+| Panama | latin-america | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 156 | `countries/panama.md` |
 | Mexico | latin-america | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 155 | `countries/mexico.md` |
 | Argentina | latin-america | 3 | — | 3.0 | done: 5.2, 5.4, 5.5; partial: 5.1, 5.3 | 121 | `countries/argentina.md` |
 | UAE | middle-east-asia | 3 | — | 4.5 | done: 5.2, 5.3, 5.4, 5.5; partial: 5.1 | 127 | `countries/uae.md` |

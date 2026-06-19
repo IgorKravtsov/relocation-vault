@@ -2,13 +2,13 @@
 country: Paraguay
 tier: null
 depth_score: 5.5
-last_updated: 2026-06-18T11:23:04Z
+last_updated: 2026-06-19T06:06:57Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers", "paraguay-foreign-client-vat-fit-gap", "paraguay-social-security-category-gap", "asuncion-rent-pressure", "paraguay-private-insurance-route-fit-gap", "paraguay-international-school-cost-risk"]
 sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-437", "src-438", "src-439", "src-440", "src-441", "src-442", "src-443", "src-549", "src-550", "src-551", "src-552", "src-689", "src-690", "src-691", "src-692"]
-unverified_count: 1
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -18,7 +18,7 @@ schema_version: 2.0.0
 
 - **Tier**: TBD. First pass suggests a potentially useful long-term route because Paraguay has a normal temporary residence -> permanent residence ladder and the Constitution gives a 3-year naturalization baseline, but the captured official route is generic "lawful activity" residence rather than a digital-nomad visa. [src-191][src-192][src-193]
 - **depth_score**: 5.5
-- **Last updated**: 2026-06-18T11:23:04Z
+- **Last updated**: 2026-06-19T06:06:57Z
 - **Tier rationale**: keep as Tier-2 hint until the visa-for-residence filing route, foreign-client IT income evidence, taxes, cost, rent, healthcare, and practical lawyer/accountant mechanics are checked.
 
 ## Block 2 - Scoring
@@ -167,9 +167,9 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 
 **Rent verdict**: Screen Asuncion first for bureaucracy, healthcare, accountants/lawyers, and services, but keep a strict housing cap. Encarnacion is the strongest affordability/comfort fallback; Ciudad del Este is cheap but needs practical safety/service due diligence. Add `asuncion-rent-pressure` as a modest risk flag, not because rents are high globally, but because the capital can absorb the Paraguay budget advantage if housing quality and services needs creep upward.
 
-### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-18, dod: partial}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-> **DoD status**: partial. This first-pass screen identifies the public/private system, practical private-care baseline, and insurance cost proxy, but it does not yet capture route-compliant policy wording, maternity/newborn exclusions, exact IPS / Ministry public-care onboarding for a self-employed foreign resident, or selected-city private clinic fee schedules. `vq-142` tracks those application-prep details.
+> **DoD status**: partial. This first-pass screen identifies the public/private system, practical private-care baseline, and insurance cost proxy. Run-156 resolved `vq-142` for country screening: route-compliant policy wording, maternity/newborn exclusions, exact IPS / Ministry public-care onboarding for a self-employed foreign resident, and selected-city private clinic fee schedules remain application-prep details rather than open screening blockers.
 
 #### System structure and access baseline
 
@@ -186,9 +186,9 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 | Pregnancy / newborn planning | No safe maternity/newborn policy baseline captured. | Verify waiting periods, maternity caps, newborn enrollment, and public/private delivery costs before pregnancy planning. |
 | Budget | USD 50-150/month insurance plus USD 15-50 GP visit proxies look manageable against Paraguay's tax-screen net, but two-person premiums and maternity cover can change this. | Obtain quotes for two young adults tied to the actual residence status. [src-690] |
 
-**Healthcare verdict**: Paraguay is screenable but not DoD-passed. The first-pass picture is favorable for routine private affordability, especially in Asuncion, but the country remains route-sensitive because the lawful-activity residence file, tax/IPS category, insurance acceptance, and maternity/newborn coverage are not yet tied together. Add `paraguay-private-insurance-route-fit-gap`.
+**Healthcare verdict**: Paraguay is screenable but not DoD-passed. The first-pass picture is favorable for routine private affordability, especially in Asuncion, but the country remains route-sensitive because the lawful-activity residence file, tax/IPS category, insurance acceptance, and maternity/newborn coverage are not yet tied together. Keep `paraguay-private-insurance-route-fit-gap` as an application-prep flag, not a screening blocker.
 
-### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-18, dod: passed}
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
 
 > **DoD status**: passed at medium confidence for country screening. Public/private/international options, preschool/private-school cost proxies, language caveats, and one-income budget risk are covered. Exact admission slots, city-specific preschool quotes, and current tuition contracts remain application-prep checks.
 
