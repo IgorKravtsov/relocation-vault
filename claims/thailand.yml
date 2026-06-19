@@ -141,3 +141,40 @@
   confidence: medium
   tags: [cost-of-living, rent, pattaya, livingcost]
   notes: "Potential budget/coastal compromise pending quality-of-life, family-friendliness, and service-depth checks."
+
+
+- id: claim-thailand-017
+  topic: thailand_healthcare_private_insurance_baseline
+  value: "Foreigners/expats in Thailand who are not eligible through a Thai employer should expect to use private insurance and pay related healthcare costs; private hospitals are a strong fallback for international residents."
+  source: src-722
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [healthcare, private-insurance, expats, dtv]
+  notes: "Use as screening baseline only; exact DTV-accepted policy wording, maternity/newborn terms, and public/private onboarding remain vq-156."
+
+- id: claim-thailand-018
+  topic: bangkok_private_hospital_cost_examples
+  value: "InternationalInsurance gives Bangkok private-hospital examples of about USD 272 for an MRI, USD 11,000 for a hip replacement, and USD 9,389 for a knee replacement."
+  source: src-722
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [healthcare, private-care, bangkok, cost-proxy]
+  notes: "Procedure-cost proxies only, not GP/pediatric/maternity quotes."
+
+- id: claim-thailand-019
+  topic: thailand_school_structure
+  value: "Thailand has two to three years of kindergarten followed by six years of primary school, three years of middle school, and upper-secondary or vocational tracks; Thai language remains a core subject."
+  source: src-724
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [education, public-school, kindergarten, language]
+  notes: "Scholaro is an aggregator summary; use for screening only."
+
+- id: claim-thailand-020
+  topic: thailand_international_school_cost_screen
+  value: "International Schools Database lists 103 international schools in Bangkok and 19 each in Chiang Mai and Phuket, with captured annual fee examples ranging from about THB 248,200-405,000 in Chiang Mai to more than THB 1,000,000 for premium Bangkok schools."
+  source: src-725
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [education, international-school, tuition, bangkok, chiang-mai, phuket]
+  notes: "Bangkok source is src-725; Chiang Mai and Phuket examples are from src-726."

@@ -38,6 +38,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 
 ## Medium priority
 
+## vq-156 [medium priority]
+- **Fact**: "Thailand exact DTV-accepted health-insurance policy wording, current quotes for two young adults, maternity/newborn exclusions and waiting periods, public/private onboarding by DTV / tax status, and Bangkok / Chiang Mai / Phuket GP, pediatric, maternity, and clinic prices"
+- **Country**: Thailand
+- **Section**: 5.6
+- **Current source**: src-257, src-258, src-721, src-722
+- **Why uncertain**: This healthcare pass captured the authority anchor, private-care baseline, and Bangkok procedure-cost proxies, but did not capture route-compliant policy wording, current two-adult premiums, maternity/newborn terms, public/private onboarding by final status, or selected-city provider prices.
+- **Suggested verification**: Get two to three DTV-acceptable insurer quotes, maternity/newborn terms, e-visa/immigration confirmation of policy wording and coverage requirements, and Bangkok/Chiang Mai/Phuket GP/pediatric/maternity price samples.
+- **Created**: 2026-06-19 (run-160)
+- **Status**: pending
+
+## vq-157 [medium priority]
+- **Fact**: "Thailand exact international-school tuition, deposits, registration fees, transport/meal costs, private-preschool quotes, waiting lists, and English/bilingual school availability outside Bangkok / Chiang Mai / Phuket"
+- **Country**: Thailand
+- **Section**: 5.7
+- **Current source**: src-723, src-724, src-725, src-726
+- **Why uncertain**: This education pass captured public-school language/structure and international-school cost bands in Bangkok, Chiang Mai, and Phuket, but did not capture exact current fee schedules, private-preschool standalone quotes, admissions deposits, meals/transport, waiting lists, or non-core-city options.
+- **Suggested verification**: Get current fee schedules and admissions terms for key Bangkok/Chiang Mai/Phuket schools, private-preschool quotes, transport/meal costs, waiting-list timing, and bilingual options in any final candidate city.
+- **Created**: 2026-06-19 (run-160)
+- **Status**: pending
+
 ## vq-141 [medium priority]
 - **Fact**: "Uruguay private health-insurance quotes, maternity/newborn terms, exact FONASA/ASSE/mutualista onboarding by residence/self-employed status, and selected-city private GP/pediatric/maternity prices"
 - **Country**: Uruguay

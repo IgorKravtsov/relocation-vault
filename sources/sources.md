@@ -8680,3 +8680,75 @@ Each source entry:
 - **Facts supporting**: public-school Bahasa Malaysia baseline, dependent-child school access proxy, international-school examples and tuition proxies, kindergarten fee proxies, waiting-list timing, and education application-prep gaps (claim-malaysia-020, claim-malaysia-021)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-19
+
+## src-721
+- **Title**: Thailand Ministry of Public Health official portal
+- **URL**: https://www.moph.go.th/
+- **Archive**: stable gov domain -- snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-19
+- **Used by**: Thailand
+- **Facts supporting**: official health authority anchor for Thailand healthcare section
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-19
+
+## src-722
+- **Title**: InternationalInsurance.com -- Healthcare in Thailand: How Expats and Visitors Can Access Care
+- **URL**: https://www.internationalinsurance.com/countries/thailand/healthcare/
+- **Archive**: [archive: failed 2026-06-19: Wayback save returned HTTP 429]
+- **Type**: commercial
+- **Date published**: 2021-11-15
+- **Date accessed**: 2026-06-19
+- **Used by**: Thailand
+- **Facts supporting**: expat private-insurance baseline; private-hospital quality and Bangkok procedure-cost proxies (claim-thailand-017, claim-thailand-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-19
+
+## src-723
+- **Title**: Thailand Ministry of Education official portal
+- **URL**: https://www.moe.go.th/
+- **Archive**: stable gov domain -- snapshot not required
+- **Type**: official-primary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-19
+- **Used by**: Thailand
+- **Facts supporting**: official education authority anchor for Thailand education section
+- **Confidence ceiling**: high
+- **Stale at**: 2026-12-19
+
+## src-724
+- **Title**: Scholaro -- Education System in Thailand
+- **URL**: https://www.scholaro.com/db/Countries/Thailand/Education-System
+- **Archive**: [archive: failed 2026-06-19: Wayback save returned HTTP 429]
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-06-19
+- **Used by**: Thailand
+- **Facts supporting**: kindergarten, primary, middle, secondary/vocational structure and Thai-language public-school baseline (claim-thailand-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-19
+
+## src-725
+- **Title**: International Schools Database -- International Schools in Bangkok, Thailand
+- **URL**: https://www.international-schools-database.com/in/bangkok
+- **Archive**: [archive: failed 2026-06-19: Wayback save returned HTTP 429]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-19
+- **Used by**: Thailand
+- **Facts supporting**: Bangkok international-school count and 2026/2027 fee examples (claim-thailand-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-19
+
+## src-726
+- **Title**: International Schools Database -- International Schools in Chiang Mai and Phuket, Thailand
+- **URL**: https://www.international-schools-database.com/in/chiang-mai ; https://www.international-schools-database.com/in/phuket
+- **Archive**: [archive: failed 2026-06-19: Wayback save returned HTTP 429]
+- **Type**: commercial
+- **Date published**: unknown
+- **Date accessed**: 2026-06-19
+- **Used by**: Thailand
+- **Facts supporting**: Chiang Mai and Phuket international-school counts and fee examples (claim-thailand-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-19

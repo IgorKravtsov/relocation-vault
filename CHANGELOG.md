@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-19
 ---
 
+## 2026-06-19 — run-160 — Thailand healthcare/education
+
+- Added Thailand first-pass healthcare and education coverage for sections 5.6 and 5.7.
+- Added six sources (`src-721` through `src-726`) and four Thailand claims (`claim-thailand-017` through `claim-thailand-020`).
+- Thailand section 5.7 moved to completed, section 5.6 moved to partial, depth_score moved from 3.0 to 5.5, and two application-prep verification items (`vq-156`, `vq-157`) were added.
+
 ## 2026-06-19 — run-159 — healthcare/education verification baselines
 
 - Resolved `vq-146` through `vq-155` for screening across Bosnia and Herzegovina, Moldova, Mexico, Argentina, and Malaysia.

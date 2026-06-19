@@ -1,14 +1,14 @@
 ---
 country: Thailand
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-14T21:29:15Z
-sections_completed: ["5.2","5.4","5.5"]
-sections_partial: ["5.1","5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate", "thailand-remittance-tax-risk", "thailand-vat-social-security-fit-gap", "bangkok-phuket-rent-pressure", "thailand-one-income-margin-risk"]
-sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261", "src-471", "src-472", "src-473", "src-474", "src-475", "src-476", "src-585", "src-586", "src-587", "src-588", "src-589"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-19T18:42:00Z
+sections_completed: ["5.2","5.4","5.5","5.7"]
+sections_partial: ["5.1","5.3","5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate", "thailand-remittance-tax-risk", "thailand-vat-social-security-fit-gap", "bangkok-phuket-rent-pressure", "thailand-one-income-margin-risk", "thailand-private-insurance-quote-gap", "thailand-international-school-cost-risk"]
+sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261", "src-471", "src-472", "src-473", "src-474", "src-475", "src-476", "src-585", "src-586", "src-587", "src-588", "src-589", "src-721", "src-722", "src-723", "src-724", "src-725", "src-726"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (first pass suggests a strong medium-term bridge/base, not a proven settlement route for this couple).
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-14
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-19
 - **Tier rationale**: Ukrainian passport holders can use a 60-day visa exemption for tourism/scouting, and the Destination Thailand Visa (DTV) is a current official workcation route for remote workers/freelancers with a 500,000 THB savings threshold and 5-year multiple-entry validity. However, DTV is structured around 180-day stays and exits/re-entries, while the official LTR Work-from-Thailand route requires at least USD 80,000/year, or USD 40,000/year plus extra qualifications and a qualifying large overseas employer, above or awkward for the couple's current profile. [src-257][src-258][src-259]
 
 ## Block 2 - Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | Resident/remitted-income PIT is not fatal at USD 3,000/month, but DTV does not by itself create a tax holiday; exact foreign-client source/remittance, VAT, social-security, and DTV status fit need Thai adviser confirmation. | §5.3 |
 | Cost of living | — | medium | Livingcost screens Thailand as feasible on gross USD 3,000, but Bangkok/Phuket leave less buffer once tax, visa, insurance, and international-school/private-health costs are added; Chiang Mai is the first budget screen if smoke season is acceptable. | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 rent proxies are about USD 253-632 in the captured cities; Bangkok and Phuket require tighter caps, while Chiang Mai is the most affordable default screen. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | Public care is not the default plan for DTV holders; private hospitals are strong in Bangkok/major cities and private insurance should be budgeted, but exact DTV-accepted wording, maternity/newborn terms, and city provider prices remain application-prep checks. | §5.6 |
+| Education (future child) | — | medium | Public schooling is Thai-language; international-school options are deep in Bangkok and present in Chiang Mai/Phuket, but fees can consume a large share of one income. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -140,17 +140,26 @@ schema_version: 2.0.0
 - **Pattaya**: 40 m2 rent proxy **USD 349-543/month** (12%-18% of gross; 13%-21% of PIT-only net). The 80 m2 stress test is **USD 618-1,002/month**. It may work as a budget/coastal compromise, but quality-of-life and family/partner fit need verification. [src-589]
 - **Landlord/document caveats**: This pass did not capture live Thai lease requirements, deposits, agency fees, TM30/address-registration handling, or whether landlords readily support DTV/foreign remote-worker address evidence. Keep those as later practical-budget/application-prep checks, not current recovery blockers.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-> **DoD**: how to register after the move; private insurance cost for the couple; maternity / birth coverage.
+> **DoD**: how to register after the move; private insurance cost for the couple; maternity / birth coverage. Healthcare is partial for screening: private-care access and insurance need are clear enough for a bridge/base decision, but exact DTV-accepted policy wording, maternity/newborn terms, public/private onboarding by final status, and city-specific provider prices remain open in `vq-156`.
 
-[verification required]
+- **System baseline**: Thailand has a strong public healthcare system and a large private-hospital sector. InternationalInsurance describes Thailand as a medical-tourism destination with modern private hospitals and says foreigners/expats who are not eligible through a Thai employer should expect to pay for private insurance and related healthcare costs rather than relying on free public coverage. [src-721][src-722]
+- **DTV / remote-worker baseline**: the captured DTV sources do not prove public-system enrollment or employer-style social security for a foreign DTV freelancer. Safe planning assumption: the couple should hold private/international health insurance with Thailand coverage for the whole stay, then confirm the serving e-visa / immigration policy wording before filing. [src-257][src-258][src-722]
+- **Private care quality and cities**: Bangkok has the deepest private-hospital ecosystem and is the safest first healthcare base. InternationalInsurance gives example Bangkok private-hospital price anchors such as about USD 272 for an MRI, USD 11,000 for a hip replacement, and USD 9,389 for a knee replacement; those are not GP/maternity quotes, but they confirm that private care is accessible and usually lower-cost than US/Western European private care. Chiang Mai and Phuket likely need final-city checks for English-speaking GP, pediatric, maternity, and emergency coverage before choosing them over Bangkok. [src-722]
+- **Maternity / future child**: no route-compliant maternity or newborn policy wording was captured in this pass. Treat maternity/newborn coverage, waiting periods, exclusions, and birth-hospital package prices as application-prep checks before pregnancy planning or relying on Thailand as a future-child base. [src-722]
+- **Budget verdict**: healthcare does not block Thailand at the country-screening level, but it is a one-income margin risk because the USD 3,000/month budget must carry private insurance, potential exclusions, and private-care out-of-pocket costs alongside tax, rent, visa trips, and DTV savings evidence. Keep Bangkok as the services-first screen, Chiang Mai as the budget screen with provider checks, and Phuket only with explicit insurance/private-hospital budgeting.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
 
-> **DoD**: kindergarten cost; public school quality for foreign kids; international school alternative with cost.
+> **DoD**: kindergarten cost; public school quality for foreign kids; international school alternative with cost. First-pass DoD passed for screening: public Thai-language schooling, kindergarten/primary structure, and international-school alternatives in Bangkok/Chiang Mai/Phuket are covered; exact current fee schedules, deposits, transport/meals, waiting lists, and non-core-city bilingual availability remain `vq-157` application-prep checks.
 
-[verification required]
+- **Public / local-school baseline**: Thailand education is Ministry-of-Education led. Scholaro summarizes two to three years of kindergarten followed by six years of primary school, then three years of middle school and upper-secondary / vocational tracks; core middle-school subjects include Thai language plus a foreign language. For a future foreign child, the safe baseline is that public/local school means Thai-language integration, not an English default. [src-723][src-724]
+- **Bangkok international-school depth**: International Schools Database lists 103 international schools in Bangkok. 2026/2027 fee examples show a broad range: lower-cost Invictus International Programme around THB 288,400-401,700/year, Lycée Francais around THB 297,750-434,800/year, mid/high-fee options around THB 400,700-873,800/year, and premium schools above THB 1,000,000/year. Bangkok is therefore the deepest school ecosystem but can easily become unaffordable on one USD 3,000 income if private schooling is required. [src-725]
+- **Chiang Mai international-school screen**: International Schools Database lists 19 international schools in Chiang Mai; captured examples include English/Thai or British-style options with 2026/2027 fees around THB 248,200-405,000/year. Chiang Mai is the best budget match if the family can accept the climate/air-quality tradeoff and a smaller school market than Bangkok. [src-726]
+- **Phuket international-school screen**: International Schools Database lists 19 international schools in Phuket. Captured examples include HeadStart around THB 347,000-491,000/year for 2025/2026, a French-English school around THB 300,000/year for 2026/2027, Glenalmond around THB 490,000-750,000/year for 2026/2027, and BCIS around THB 281,800-468,900/year for 2025/2026. Phuket has options but combines school fees with tourist-market rent/healthcare risks. [src-726]
+- **Kindergarten / preschool**: the captured system baseline includes two to three years of kindergarten, and the international-school examples start as young as ages 1-3 depending on school. Exact private-preschool standalone prices, deposits, meals, transport, and waiting-list terms were not captured; keep these as final-city budget checks. [src-724][src-725][src-726]
+- **Education verdict**: education is viable but not cheap. For screening, Thailand works only if the couple is comfortable with Thai-language public schooling or can reserve a substantial private-school buffer. Bangkok offers maximum choice at high cost; Chiang Mai is the best affordability screen; Phuket should not be the default future-child base on one income.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -194,7 +203,7 @@ schema_version: 2.0.0
 - **Best legalization path for the man**: DTV workcation / remote worker / freelancer route.
 - **Best legalization path for the woman**: spouse dependent on DTV after marriage; unmarried-partner route not captured.
 - **Does marriage change the picture**: yes, captured DTV dependent language covers spouse and children under 20.
-- **Realism of staying after 03.2027**: medium as a bridge/base, low as a settlement route at current income/profile; no DTV-to-PR/citizenship ladder is captured. Cost/rent now looks workable for a bridge if Chiang Mai or capped Bangkok/Pattaya budgets are used; Phuket and uncapped Bangkok create one-income margin risk.
+- **Realism of staying after 03.2027**: medium as a bridge/base, low as a settlement route at current income/profile; no DTV-to-PR/citizenship ladder is captured. Cost/rent now looks workable for a bridge if Chiang Mai or capped Bangkok/Pattaya budgets are used, but private insurance and international-school costs can quickly erase the buffer; Phuket and uncapped Bangkok create one-income margin risk.
 
 **Pros**:
 - Official remote-worker/freelancer DTV route with no high monthly income threshold captured; main financial gate is savings of at least 500,000 THB.
@@ -206,7 +215,7 @@ schema_version: 2.0.0
 - LTR Work-from-Thailand appears above the couple's current income/profile.
 - Unmarried partner is not captured for dependent treatment; spouse/children only is the safe baseline.
 - Bangkok/Phuket are hot, humid, monsoon-affected, and more rent-sensitive; Phuket has low clearer-sky reliability.
-- One-income buffer can be squeezed by DTV savings evidence, tax/accountant uncertainty, private insurance, visa-trip/extension costs, and future private-school costs even where base rent is affordable.
+- One-income buffer can be squeezed by DTV savings evidence, tax/accountant uncertainty, private insurance, visa-trip/extension costs, and future private-school costs; Bangkok has the best hospital/school depth, Chiang Mai the best cost fit, and Phuket should remain a lifestyle exception.
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -244,24 +253,28 @@ schema_version: 2.0.0
 | Flights for two | — | TBD |
 | Rental deposit | TBD | Live Thai lease/deposit practice not captured; budget conservatively as a later practical check. |
 | First month rent | about USD 253-632 for modest 40 m2 proxy | Chiang Mai at the low end; Bangkok/Phuket at the high end. [src-586][src-587][src-588] |
-| Health insurance | — | TBD |
+| Health insurance | TBD | Private/international policy likely needed for DTV-style planning; exact accepted wording and maternity/newborn terms remain `vq-156`. |
 | Immigration lawyer / agent | — | TBD |
 | Buffer / contingencies | — | TBD |
-| **Total cash to prepare** | — | Needs cost/rent pass. |
+| **Total cash to prepare** | — | Needs live DTV filing, insurance, school, lease/deposit, and flight quotes. |
 
 ### 6g. Contact points and communities
 - Royal Thai Embassy Warsaw visa information / e-visa route: [src-257].
 - Royal Thai Embassy Washington DTV page as checklist cross-check: [src-258].
 - BOI LTR official programme: [src-259].
+- Thailand Ministry of Public Health / Ministry of Education official authority anchors: [src-721][src-723].
+- Healthcare and school searches should start in Bangkok for service depth, then Chiang Mai for budget, then Phuket only if coastal lifestyle is worth the added one-income risk. [src-722][src-725][src-726]
 - Lawyers, tax advisers, Ukrainian/Russian-speaking communities: [verification required].
 
 ## Block 7 - Sources
 
 ### 7a. Official primary
 - BOI LTR official programme: [src-259].
+- Thailand Ministry of Public Health / Ministry of Education official authority anchors: [src-721][src-723].
 
 ### 7b. Reputable secondary
 - PwC Worldwide Tax Summaries Thailand individual PIT / residence / deductions / tax administration and corporate other-taxes pages: [src-471][src-472][src-473][src-474][src-475].
+- InternationalInsurance Thailand healthcare explainer and Scholaro Thailand education-system summary: [src-722][src-724].
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -271,6 +284,7 @@ _(none yet)_
 - WeatherSpark Thailand country climate comparison: [src-261].
 - ExchangeRate-API USD/THB snapshot for the run-096 worked example: [src-476].
 - Livingcost Thailand national, Bangkok, Chiang Mai, Phuket, and Pattaya cost/rent baselines: [src-585][src-586][src-587][src-588][src-589].
+- International Schools Database Bangkok, Chiang Mai, and Phuket fee/school-count pages: [src-725][src-726].
 
 ### 7e. Official secondary / consular
 - Royal Thai Embassy Warsaw visa exemption and DTV guidance for applicants in Poland/Ukraine: [src-257].
@@ -285,3 +299,5 @@ _(none yet)_
 - `vq-079` — resolved 2026-06-05 (run-052): screening baseline is DTV bridge/base only; no DTV settlement counting captured, unmarried partner not covered by captured dependent language, and tax details are later application-prep checks.
 - `vq-080` — resolved 2026-06-05 (run-052): no captured no-local-employer PR/citizenship route for the couple; LTR is above current income/profile.
 - `vq-116` resolved for screening in run-100: use Thailand ordinary PIT modelling as the baseline and do not assume DTV tax-free treatment; exact source/remittance, deductions, VAT/export, social-security, and DTV-status fit is application-prep/adviser work.
+- `vq-156` added in run-160 for exact DTV-accepted insurance wording, quotes, maternity/newborn terms, public/private onboarding, and city provider prices.
+- `vq-157` added in run-160 for exact international-school and private-preschool fees, deposits, transport/meals, waiting lists, and non-core-city bilingual options.
