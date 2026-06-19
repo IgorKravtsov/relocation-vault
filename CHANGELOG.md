@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-19
 ---
 
+## 2026-06-19 — run-157
+- Argentina: depth_score 3.0 -> 5.5 (5.6 healthcare partial, 5.7 education completed).
+- Sources added: src-713, src-714, src-715, src-716.
+- Claims added: claim-argentina-017 through claim-argentina-020.
+- Verification queue: 6 -> 8 pending/open items (added vq-152 and vq-153); continue country-deep-dive below the threshold.
+
 ## 2026-06-19 — run-156
 - Verification mode: closed 5 healthcare/education application-prep blockers (`vq-141` through `vq-145`).
 - Countries touched: Uruguay, Paraguay, Panama, and North Macedonia.

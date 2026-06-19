@@ -1,14 +1,14 @@
 ---
 country: Argentina
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-14T15:13:27Z
-sections_completed: ["5.2","5.4","5.5"]
-sections_partial: ["5.1","5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["digital-nomad-bridge-only", "tourist-entry-before-travel-check", "citizenship-continuous-no-exit-rule", "inflation-currency-risk", "argentina-pit-vat-gross-income-tax-risk", "argentina-social-security-category-gap", "argentina-monotributo-export-fit-gap", "buenos-aires-rent-pressure", "argentina-one-income-margin-risk"]
-sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242, src-456, src-457, src-458, src-459, src-460, src-461, src-575, src-576, src-577, src-578, src-579]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-19T09:10:43Z
+sections_completed: ["5.2","5.4","5.5","5.7"]
+sections_partial: ["5.1","5.3","5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["digital-nomad-bridge-only", "tourist-entry-before-travel-check", "citizenship-continuous-no-exit-rule", "inflation-currency-risk", "argentina-pit-vat-gross-income-tax-risk", "argentina-social-security-category-gap", "argentina-monotributo-export-fit-gap", "buenos-aires-rent-pressure", "argentina-one-income-margin-risk", "argentina-health-insurance-quote-gap", "argentina-international-school-cost-risk"]
+sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242, src-456, src-457, src-458, src-459, src-460, src-461, src-575, src-576, src-577, src-578, src-579, src-713, src-714, src-715, src-716]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint retained until taxes/cost/rent and residence-to-citizenship practicality are verified).
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-14T15:13:27Z
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-19T09:10:43Z
 - **Tier rationale**: First pass suggests Argentina is legally interesting because Ukrainian ordinary-passport holders have a usable 90-day tourist-entry screening baseline and Argentina has an official digital-nomad transitory residence plus a short legal naturalization horizon. However, the DN status is only 180 + 180 days and transitory, rentista excludes personal-work income, and 2025 citizenship changes require continuous legal residence with no exits during the two-year period. Treat as promising but high-verification until a durable ordinary residence route for foreign-client IT income is confirmed. [src-233][src-234][src-236][src-237]
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | Conservative PIT-only screen leaves about ARS 3.30m / USD 2,280 per month at USD 3,000 gross before accountant, VAT, gross-income tax, social-security, banking, and immigration costs; exact monotributo / export-service / social-security fit remains unverified. | §5.3 |
 | Cost of living | — | medium | Livingcost screens Argentina nationally at about USD 878/month for one person and USD 2,136/month for a family-of-four proxy; Buenos Aires is service-rich but close to the conservative tax-net margin, while Mendoza/Cordoba are cheaper practical screens. | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 modest-rent proxies are about USD 578/396 in Buenos Aires, USD 353/245 in Cordoba, USD 344/269 in Mendoza, and USD 244/161 in Rosario; Buenos Aires needs a strict rent cap. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | Public hospitals are available as a safety net and Buenos Aires has strong private prepaga options, but exact residence-compliant insurance, maternity/newborn terms, and city/provider prices remain open. | §5.6 |
+| Education (future child) | — | medium | Public schooling is a Spanish-language baseline; Buenos Aires has strong international/bilingual schools, but top international tuition is high for one income. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -152,13 +152,29 @@ Livingcost's Argentina country page screens the national average at about USD 87
 
 **Rent verdict.** Start with Cordoba or Mendoza for budget/climate screening, use Buenos Aires for bureaucracy, healthcare, community, and professional services only with a strict rent cap, and keep Rosario as a cheap fallback rather than the default until safety/service evidence is collected. Rent is not the main blocker; legal durability, tax category, banking/FX, and one-income margin are. [src-576][src-577][src-578][src-579]
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 0.5, last_updated: 2026-06-19, dod: partial}
 
-[verification required]
+> **DoD status**: partial. A first-pass healthcare screen is now available, but route-compliant private insurance, exact public/prepaga onboarding by DN / temporary-residence / tax status, maternity/newborn coverage, and Buenos Aires / Cordoba / Mendoza private-care price checks remain application-prep gaps (`vq-152`).
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+Argentina has a public-health safety-net and a substantial private sector. The national Ministry of Health site is the official public-health authority anchor and lists national programs, health procedures, and major public hospitals including Garrahan and high-complexity hospitals. For screening, this supports a baseline that public care exists, but it does not answer how a digital-nomad, temporary resident, or self-employed foreigner should enroll in any contributory scheme or which private policy a residence file will accept. [src-713]
 
-[verification required]
+A 2026 expat healthcare guide gives the practical private-market screen: it describes Argentina's private `prepaga` market as one of Latin America's stronger systems, names OSDE, Swiss Medical, and Medicus as common expat choices, and gives private-plan cost proxies around **USD 65-168/month**. It also says public hospitals are generally free to access, including for tourists/expats, but quality and wait times vary; many expats use public hospitals mainly for emergencies and maintain a private plan for routine and specialist care. [src-714]
+
+**City screen.** Buenos Aires is the safest first healthcare base because the guide names private anchors such as Hospital Aleman, Hospital Italiano, Swiss Medical Center, and Sanatorio Otamendi, plus public emergency options. Cordoba and Mendoza need a later provider/clinic check before city selection; they screen as possible cost/climate bases, not yet as equally strong healthcare bases. [src-714][src-577][src-578]
+
+**Household verdict.** Healthcare is not a country-screening blocker for Argentina if the couple budgets for private prepaga coverage and uses Buenos Aires as the service-depth benchmark. It is not application-ready: exact accepted insurance wording for DN/temporary residence, CUIL/CUIT or residence-status requirements for prepaga signup, maternity/newborn exclusions, and GP/pediatric/maternity private prices in shortlisted cities need verification before a move plan. [src-713][src-714]
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
+
+> **DoD status**: passed at medium confidence for first-pass screening. Public-education authority, Spanish public-school baseline, and Buenos Aires international/bilingual-school anchors are captured. Exact tuition/fees, registration, private-preschool prices, waiting lists, and non-Buenos-Aires bilingual availability remain application-prep or final-city checks (`vq-153`).
+
+The official national education site is the public authority anchor for Argentina education. It frames the Ministry of Capital Humano / education area as working with provinces for inclusive education and links to basic education, educational statistics, school calendar, teacher training, scholarships, and credential-validity resources. For a future child, the practical public baseline is Spanish-language provincial/state schooling, with province and city choice mattering for quality and enrollment mechanics. [src-715]
+
+A 2026 expat education guide supports the screening split: public schools are free for residents but instruction is in Spanish; young children can adapt more easily, while older children or families expecting an English-medium path may need private bilingual or international schooling. It gives broad private bilingual school proxies around **USD 3,000-8,000/year**, while top Buenos Aires international schools are much more expensive. [src-716]
+
+Buenos Aires has the strongest international-school ecosystem. The same guide names Asociacion Escuelas Lincoln at about **USD 20,000-27,000/year**, St. Andrew's at **USD 20,000-27,000/year**, Northlands above that range, and The American Community School at about **USD 15,000-22,000/year**. Lincoln's public site confirms a full admissions pathway, divisions, tuition/fees page, and financial-support information, but exact current fees were not extracted in this pass. [src-716]
+
+**Household verdict.** Argentina is education-screenable if the family accepts Spanish public schooling or a lower-cost bilingual private option. Top Buenos Aires international schools are probably not one-income-friendly under Argentina's conservative tax/rent screen, so they should be treated as a lifestyle exception rather than the default. Cordoba and Mendoza need separate bilingual-school and private-preschool checks before being treated as family-ready bases. [src-716][src-577][src-578]
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -231,6 +247,8 @@ Livingcost's Argentina country page screens the national average at about USD 87
 - SIM card, internet, utilities: TBD.
 
 ### 6c. First 3–6 months
+- Healthcare: budget for private prepaga coverage; verify accepted residence/DN policy wording, CUIL/CUIT requirements, maternity/newborn terms, and selected-city GP/pediatric/maternity prices before filing or choosing a base. [src-714]
+- Education planning: if a future child is part of the plan, decide early between Spanish public schooling, lower-cost bilingual private school, or expensive Buenos Aires international schools; top international schools are not the default on one income. [src-715][src-716]
 - Tax registration as self-employed / freelancer: get Argentine tax-adviser confirmation before relying on the DN bridge for invoicing; likely issues are CUIT/self-employed registration, PIT annual filing/advances, VAT/export-service treatment, provincial Ingresos Brutos, and whether monotributo can handle foreign-client IT at about ARS 52.1m/year. [src-456][src-459][src-460][src-461]
 - Transferring partner to dependent / partner / student status: TBD.
 - Marriage (if applicable to scenario): keep as a likely simplifier; verify before relying on it.
@@ -253,7 +271,7 @@ Livingcost's Argentina country page screens the national average at about USD 87
 | Flights for two | — | TBD |
 | Rental deposit | — | Live lease mechanics not captured; budget at least 1-2 months rent until portals/lease-law checks prove otherwise. |
 | First month rent | USD 245-578 modest proxy | Cordoba/Mendoza cheaper proxies are around USD 245-269; Buenos Aires modest city-center proxy is about USD 578. [src-576][src-577][src-578] |
-| Health insurance (one year) | — | TBD |
+| Health insurance (one year) | approx. USD 780-2,016 | Prepaga proxy: USD 65-168/month for one adult; exact couple quote, maternity/newborn terms, and visa/residence acceptance need verification. [src-714] |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |
@@ -274,6 +292,8 @@ Livingcost's Argentina country page screens the national average at about USD 87
 - [src-238] Argentina.gob.ar Migraciones residence categories overview and temporary-residence index.
 - [src-239] Argentina.gob.ar rentista temporary residence page.
 - [src-240] Argentina Law 346 / InfoLEG updated citizenship text.
+- [src-713] Argentina Ministry of Health public website.
+- [src-715] Argentina national education public website.
 
 ### 7b. Reputable secondary
 - [src-233] ArgentinaVisaLaw Ukraine nationality page, used as a medium-confidence screening placeholder for the Ukraine tourist-visa exemption; direct official table capture remains a before-travel / DN-filing check rather than a core blocker.
@@ -282,6 +302,8 @@ Livingcost's Argentina country page screens the national average at about USD 87
 - [src-458] PwC Argentina individual deductions.
 - [src-459] PwC Argentina individual other taxes.
 - [src-460] PwC Argentina individual tax administration and corporate VAT context.
+- [src-714] ExpatLife.AI Argentina healthcare 2026 guide.
+- [src-716] ExpatLife.AI Argentina education 2026 guide plus Lincoln School public website.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -300,8 +322,11 @@ _(none yet)_
 - Current official tourist-exemption PDF/table for Ukrainian ordinary passports was identified via secondary source but not directly captured; re-check before travel or DN filing.
 - Durable foreign-client IT residence and DN dependent mechanics were resolved for screening to a conservative baseline: not proven; use Argentina as a DN bridge only until a durable temporary category is confirmed.
 - Exact Argentine tax-registration category for a Ukrainian foreign-client IT worker, monotributo/export-service fit, VAT, Ingresos Brutos, self-employed social-security/health contributions, banking/invoice settlement, and DN/temporary-residence compatibility were resolved for screening in run-093 but remain application-prep/accountant checks.
+- Healthcare insurance, onboarding, maternity/newborn, and selected-city provider-price details are tracked in `vq-152`; education fee/private-preschool/non-capital availability details are tracked in `vq-153`.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-072` resolved in run-061: 90-day Ukrainian tourist-entry baseline is sufficient for screening; direct official exemption-table capture is a before-travel / DN-filing check, not a settlement-route blocker. [src-233][src-234][src-236]
 - `vq-114` resolved for screening in run-093: Argentina has a conservative PIT-only screen, contribution sensitivity, VAT/Ingresos Brutos risk, and registration caveats; monotributo/autonomous-worker eligibility, VAT/export-service handling, social-security/health obligations, banking/invoice requirements, and DN/temporary-residence compatibility remain application-prep/accountant checks. [src-456][src-458][src-459][src-460][src-461]
+- `vq-152` added in run-157: route-compliant healthcare insurance, onboarding, maternity/newborn, and selected-city private-care prices remain application-prep checks. [src-713][src-714]
+- `vq-153` added in run-157: exact international/bilingual school fees, private preschool, waiting lists, and Cordoba/Mendoza availability remain application-prep/final-city checks. [src-715][src-716]

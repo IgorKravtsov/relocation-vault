@@ -142,3 +142,39 @@
   confidence: medium
   tags: [cost-of-living, rent, rosario]
   notes: "Cheap fallback only; safety and service-depth checks are needed before treating it as a default base."
+
+- id: claim-argentina-017
+  topic: argentina_healthcare_public_private_baseline
+  value: "Argentina has an official Ministry of Health public system anchor and a private prepaga market; a 2026 guide gives OSDE / Swiss Medical / Medicus private-plan proxies around USD 65-168/month and says public hospitals are generally accessible but variable in wait times and comfort."
+  source: src-714
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [healthcare, private-insurance, public-health, argentina]
+  notes: "Used for country screening only; exact accepted policy wording, maternity/newborn terms, and onboarding by residence/tax status remain open."
+
+- id: claim-argentina-018
+  topic: buenos_aires_healthcare_service_depth
+  value: "Buenos Aires is the safest first healthcare screen because private anchors such as Hospital Aleman, Hospital Italiano, Swiss Medical Center, and Sanatorio Otamendi are identified; Cordoba and Mendoza still need city provider checks."
+  source: src-714
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [healthcare, buenos-aires, private-clinics, argentina]
+  notes: "Provider names are screening anchors, not a route-compliant insurance or price quote."
+
+- id: claim-argentina-019
+  topic: argentina_public_school_baseline
+  value: "Argentina's national education site is the official education authority anchor; the practical public-school baseline for a future child is Spanish-language provincial/state schooling, with province/city choice affecting quality and enrollment mechanics."
+  source: src-715
+  date_verified: 2026-06-19
+  confidence: medium-high
+  tags: [education, public-school, spanish-language, argentina]
+  notes: "Exact enrollment documents and local school quality are final-city checks."
+
+- id: claim-argentina-020
+  topic: argentina_private_bilingual_international_school_costs
+  value: "A 2026 guide gives Argentina private bilingual school proxies around USD 3,000-8,000/year, while top Buenos Aires international schools can be about USD 15,000-30,000+/year; Lincoln's public site confirms admissions and tuition/fee resources but exact current fees were not extracted."
+  source: src-716
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [education, international-schools, bilingual-schools, buenos-aires, argentina]
+  notes: "Top international schools are a major one-income budget risk; exact school fees and non-Buenos-Aires availability remain open."

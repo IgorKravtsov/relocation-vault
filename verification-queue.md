@@ -139,6 +139,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Status**: pending
 
 
+## vq-152 [medium priority]
+- **Fact**: "Argentina route-compliant private prepaga / international health-insurance quotes, maternity/newborn coverage, exact public/prepaga onboarding for DN / temporary-residence / self-employed foreign residents, and Buenos Aires / Cordoba / Mendoza private GP, pediatric, maternity, and clinic prices"
+- **Country**: Argentina
+- **Section**: 5.6
+- **Current source**: src-713, src-714
+- **Why uncertain**: This healthcare pass captured the Ministry authority anchor, public/private system baseline, and private prepaga proxy, but did not capture policy wording accepted for DN/temporary residence, maternity/newborn exclusions, exact onboarding by final status, or selected-city private-care prices.
+- **Suggested verification**: Get two to three OSDE / Swiss Medical / Medicus or international-policy quotes for two young adults, maternity/newborn terms, Migraciones/lawyer confirmation of residence-file insurance acceptance, public/prepaga onboarding steps by final status, and city-specific GP/pediatric/maternity price samples.
+- **Created**: 2026-06-19 (run-157)
+- **Status**: pending
+
+## vq-153 [medium priority]
+- **Fact**: "Argentina exact Lincoln / St. Andrew's / Northlands / American Community School tuition, registration fees, transport/meal costs, private-preschool prices, waiting lists, and bilingual/international availability outside Buenos Aires"
+- **Country**: Argentina
+- **Section**: 5.7
+- **Current source**: src-715, src-716
+- **Why uncertain**: This education pass captured the public-school authority baseline, Spanish-language public-school path, and broad bilingual/international-school cost proxies, but did not extract exact current school fee schedules, private-preschool costs, waiting-list terms, or Cordoba/Mendoza bilingual availability.
+- **Suggested verification**: Get current school fee schedules and admissions terms for the main Buenos Aires schools, registration/transport/meal costs, private-preschool city quotes, and bilingual/international-school availability in Cordoba and Mendoza if those cities remain candidates.
+- **Created**: 2026-06-19 (run-157)
+- **Status**: pending
+
 ## vq-150 [medium priority]
 - **Fact**: "Mexico route-compliant private health-insurance quotes, maternity/newborn coverage, exact IMSS / IMSS-Bienestar / public-health onboarding for temporary or permanent residents with foreign-client self-employment, and Mexico City / Guadalajara / Merida / Cancun private GP, pediatric, maternity, and clinic prices"
 - **Country**: Mexico

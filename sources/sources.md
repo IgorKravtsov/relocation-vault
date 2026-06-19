@@ -8582,3 +8582,52 @@ Each source entry:
 - **Facts supporting**: federal public-education authority anchor, SEP purpose statement, basic-education resource link, and public-school follow-up baseline (claim-mexico-019)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2027-06-19
+
+
+## src-713
+- **Title**: Argentina Ministry of Health public website
+- **URL**: https://www.argentina.gob.ar/salud
+- **Archive**: stable gov domain - snapshot not required
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Argentina
+- **Facts supporting**: official public-health authority anchor, national health programs/procedures, and public-hospital follow-up baseline for Argentina healthcare screening (claim-argentina-017)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-19
+
+## src-714
+- **Title**: ExpatLife.AI - Argentina Healthcare 2026: insurance and hospitals guide
+- **URL**: https://expatlife.ai/argentina/healthcare
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: 2026 guide page, exact page update date not captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Argentina
+- **Facts supporting**: private prepaga insurance proxy, public-hospital access caveat, Buenos Aires private-hospital anchors, and healthcare application-prep gaps (claim-argentina-017, claim-argentina-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-19
+
+## src-715
+- **Title**: Argentina national education public website
+- **URL**: https://www.argentina.gob.ar/educacion
+- **Archive**: stable gov domain - snapshot not required
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Argentina
+- **Facts supporting**: official education authority anchor, basic-education / school-calendar / statistics resource baseline, and public-school follow-up context (claim-argentina-019)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-19
+
+## src-716
+- **Title**: ExpatLife.AI Argentina education 2026 guide plus Lincoln School public website
+- **URL**: https://expatlife.ai/argentina/education ; https://www.lincoln.edu.ar/
+- **Archive**: direct HTML extraction used from public guide and school page
+- **Type**: aggregator
+- **Date published**: 2026 guide page, exact page update date not captured; school site current public page
+- **Date accessed**: 2026-06-19
+- **Used by**: Argentina
+- **Facts supporting**: public-school Spanish-language baseline, bilingual/private and top international-school cost proxies, Buenos Aires school anchors, Lincoln admissions/tuition-page anchor, and education application-prep gaps (claim-argentina-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-19
