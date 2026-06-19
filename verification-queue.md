@@ -58,6 +58,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-19 (run-160)
 - **Status**: pending
 
+## vq-158 [medium priority]
+- **Fact**: "Indonesia exact E33G/KITAS-accepted health-insurance policy wording, current quotes for two young adults, maternity/newborn exclusions and waiting periods, BPJS/public onboarding by E33G / KITAS / tax status, and Jakarta / Bali / Surabaya / Bandung GP, pediatric, maternity, and clinic prices"
+- **Country**: Indonesia
+- **Section**: 5.6
+- **Current source**: src-727, src-728
+- **Why uncertain**: This healthcare pass captured the Ministry health-authority anchor, BPJS/Puskesmas concept, private-care and insurance/evacuation proxies, and Jakarta/Bali service-depth caveats, but did not capture route-compliant policy wording, current two-adult premiums, maternity/newborn terms, final-status public/BPJS onboarding, or selected-city provider prices.
+- **Suggested verification**: Get two to three E33G/KITAS-acceptable insurer quotes for two young adults, maternity/newborn terms, immigration/agent confirmation of accepted policy wording, BPJS/public onboarding by final residence/tax status, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-19 (run-161)
+- **Status**: pending
+
+## vq-159 [medium priority]
+- **Fact**: "Indonesia exact international-school tuition, registration fees, deposits, transport/meal costs, private-preschool quotes, waiting lists, and English/bilingual school availability outside Jakarta and Bali"
+- **Country**: Indonesia
+- **Section**: 5.7
+- **Current source**: src-729, src-730, src-731
+- **Why uncertain**: This education pass captured the government education-portal anchor, public/local Indonesian-language baseline, local/private school cost proxy, and international-school supply/cost examples in Jakarta and Bali, but did not capture exact current school fee schedules, private-preschool standalone quotes, admissions deposits, meals/transport, waiting lists, or non-Jakarta/Bali options.
+- **Suggested verification**: Get current fee schedules and admissions terms for key Jakarta/Bali schools, private-preschool quotes, transport/meal costs, waiting-list timing, and English/bilingual options in Surabaya/Bandung if those remain candidate bases.
+- **Created**: 2026-06-19 (run-161)
+- **Status**: pending
+
 ## vq-141 [medium priority]
 - **Fact**: "Uruguay private health-insurance quotes, maternity/newborn terms, exact FONASA/ASSE/mutualista onboarding by residence/self-employed status, and selected-city private GP/pediatric/maternity prices"
 - **Country**: Uruguay

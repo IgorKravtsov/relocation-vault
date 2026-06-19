@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-19
 ---
 
+## 2026-06-19 — run-161 — Indonesia healthcare/education
+
+- Added Indonesia first-pass healthcare and education coverage for sections 5.6 and 5.7.
+- Added five sources (`src-727` through `src-731`) and four Indonesia claims (`claim-indonesia-016` through `claim-indonesia-019`).
+- Indonesia section 5.7 moved to completed, section 5.6 moved to partial, depth_score moved from 3.0 to 5.5, and two application-prep verification items (`vq-158`, `vq-159`) were added.
+
 ## 2026-06-19 — run-160 — Thailand healthcare/education
 
 - Added Thailand first-pass healthcare and education coverage for sections 5.6 and 5.7.

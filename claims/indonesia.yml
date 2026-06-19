@@ -133,3 +133,39 @@
   confidence: medium
   tags: [cost-of-living, rent, denpasar, livingcost]
   notes: "First-pass commercial median; verify live 2BR listings, deposits, and foreigner lease/address support before application planning."
+
+- id: claim-indonesia-016
+  topic: indonesia_healthcare_system_screen
+  value: "Indonesia has public Puskesmas/BPJS channels and private hospitals/clinics in Jakarta and Bali; for expat screening, private insurance with evacuation cover is the safe baseline rather than relying on public onboarding before final status is confirmed."
+  source: [src-727, src-728]
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [healthcare, public-health, private-care, bpjs, screening]
+  notes: "Exact BPJS onboarding by E33G/KITAS/tax status remains application-prep work."
+
+- id: claim-indonesia-017
+  topic: indonesia_private_insurance_care_cost_proxy
+  value: "ExpatLife's 2026 Indonesia healthcare guide gives screening proxies of USD 80-250/month for expat health insurance including evacuation cover, USD 5-30 for a private GP consultation, USD 50-150 for initial BIMC Bali emergency/basic treatment, and USD 5,000-20,000 for uninsured medical evacuation to Singapore."
+  source: src-728
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [healthcare, insurance, private-care, medical-evacuation, bali, jakarta]
+  notes: "Maternity/newborn policy wording and current two-adult quotes were not captured."
+
+- id: claim-indonesia-018
+  topic: indonesia_education_local_international_baseline
+  value: "Indonesia education screening should treat local/private Indonesian schools as low-cost but language-heavy, while international-school options in Jakarta and Bali are available but can range broadly from about USD 6,000/year to USD 35,000/year."
+  source: [src-729, src-730]
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [education, public-school, private-school, international-school, language]
+  notes: "Clean Ministry education-page extraction failed; use this as a screening baseline and verify exact school admissions later."
+
+- id: claim-indonesia-019
+  topic: indonesia_jakarta_bali_international_school_supply_costs
+  value: "International Schools Database lists 73 international schools in Jakarta and 35 in Bali, mostly English-language; captured examples range from Rp88m-210m/year in Bali to Rp158.5m-561.1m/year at British School Jakarta."
+  source: src-731
+  date_verified: 2026-06-19
+  confidence: medium
+  tags: [education, international-school, jakarta, bali, tuition]
+  notes: "Exact current fees, deposits, meals/transport, waiting lists, and non-Jakarta/Bali options remain application-prep checks."

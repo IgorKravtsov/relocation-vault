@@ -8752,3 +8752,63 @@ Each source entry:
 - **Facts supporting**: Chiang Mai and Phuket international-school counts and fee examples (claim-thailand-020)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-19
+
+## src-727
+- **Title**: Indonesia Ministry of Health official portal
+- **URL**: https://kemkes.go.id/
+- **Archive**: stable gov domain - direct HTML extraction used
+- **Type**: official-primary
+- **Date published**: current public website, no single publication date captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Indonesia
+- **Facts supporting**: official health authority anchor, public health-service and Ministry hospital starting point, and healthcare onboarding follow-up baseline (claim-indonesia-016)
+- **Confidence ceiling**: medium-high
+- **Stale at**: 2027-06-19
+
+## src-728
+- **Title**: ExpatLife.AI - Indonesia Healthcare 2026: insurance and hospitals guide
+- **URL**: https://expatlife.ai/indonesia/healthcare
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: 2026 guide page, data verified 2026-06-15 on page; exact page update date not captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Indonesia
+- **Facts supporting**: Indonesia public/private healthcare screen, BPJS/Puskesmas baseline, expat insurance monthly proxy, private GP / BIMC / evacuation cost proxies, insurer names, and healthcare application-prep gaps (claim-indonesia-016, claim-indonesia-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-19
+
+## src-729
+- **Title**: Indonesia.go.id education category / government information portal
+- **URL**: https://indonesia.go.id/kategori/pendidikan
+- **Archive**: stable gov domain - direct HTML extraction used
+- **Type**: official-primary
+- **Date published**: current public portal category, no single publication date captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Indonesia
+- **Facts supporting**: minimal official education-sector portal anchor and Ministry-page capture gap for Indonesia education screening (claim-indonesia-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-19
+
+## src-730
+- **Title**: ExpatLife.AI - Schools in Indonesia 2026: fees and expat guide
+- **URL**: https://expatlife.ai/indonesia/education
+- **Archive**: direct HTML extraction used from public guide
+- **Type**: aggregator
+- **Date published**: 2026 guide page, data verified 2026-06-15 on page; exact page update date not captured
+- **Date accessed**: 2026-06-19
+- **Used by**: Indonesia
+- **Facts supporting**: local/private school baseline, Bahasa Indonesia integration caveat, international-school cost bands, Jakarta/Bali school anchors, homeschooling note, and education application-prep gaps (claim-indonesia-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-19
+
+## src-731
+- **Title**: International Schools Database - International Schools in Jakarta and Bali, Indonesia
+- **URL**: https://www.international-schools-database.com/in/jakarta ; https://www.international-schools-database.com/in/bali
+- **Archive**: direct HTML extraction used from public school-list pages
+- **Type**: commercial
+- **Date published**: current public pages, no single publication date captured; fee rows include 2025/2026 and 2026/2027 labels
+- **Date accessed**: 2026-06-19
+- **Used by**: Indonesia
+- **Facts supporting**: Jakarta and Bali international-school counts, English-language availability, and selected annual-fee examples for education screening (claim-indonesia-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-19

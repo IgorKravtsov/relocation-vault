@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 160,
+  "iteration": 161,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-19T18:42:00Z",
+  "last_run_timestamp": "2026-06-19T21:41:23Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Thailand",
+    "country": "Indonesia",
     "sections": [
       "5.6",
       "5.7"
@@ -16,7 +16,7 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Indonesia",
+    "suggested_country": "Kazakhstan",
     "suggested_sections": [
       "5.6",
       "5.7"
@@ -1030,19 +1030,19 @@
     "Indonesia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -1056,10 +1056,12 @@
         "indonesia-tax-residence-worldwide-income-risk",
         "indonesia-vat-bpjs-fit-gap",
         "jakarta-rent-pressure",
-        "bali-lease-seasonality-risk"
+        "bali-lease-seasonality-risk",
+        "indonesia-health-insurance-evacuation-gap",
+        "indonesia-international-school-cost-risk"
       ],
-      "last_iteration": 124,
-      "unverified_count": 0
+      "last_iteration": 161,
+      "unverified_count": 2
     },
     "Kazakhstan": {
       "tier": null,
@@ -1128,8 +1130,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 2,
-  "sources_count": 725,
-  "claims_count": 633,
+  "verification_queue_size": 4,
+  "sources_count": 730,
+  "claims_count": 637,
   "proposals_pending": 0
 }

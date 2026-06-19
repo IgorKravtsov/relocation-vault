@@ -1,14 +1,14 @@
 ---
 country: Indonesia
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-15T00:35:50Z
-sections_completed: ["5.2","5.4","5.5"]
-sections_partial: ["5.1","5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["remote-worker-income-above-current-budget","bridge-route-not-settlement","pr-ladder-unclear","hot-humid-rainy-climate","indonesia-tax-residence-worldwide-income-risk","indonesia-vat-bpjs-fit-gap","jakarta-rent-pressure","bali-lease-seasonality-risk"]
-sources_used: ["src-262","src-263","src-264","src-265","src-266","src-477","src-478","src-479","src-480","src-481","src-590","src-591","src-592","src-593","src-594"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-19T21:41:23Z
+sections_completed: ["5.2","5.4","5.5","5.7"]
+sections_partial: ["5.1","5.3","5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["remote-worker-income-above-current-budget","bridge-route-not-settlement","pr-ladder-unclear","hot-humid-rainy-climate","indonesia-tax-residence-worldwide-income-risk","indonesia-vat-bpjs-fit-gap","jakarta-rent-pressure","bali-lease-seasonality-risk","indonesia-health-insurance-evacuation-gap","indonesia-international-school-cost-risk"]
+sources_used: ["src-262","src-263","src-264","src-265","src-266","src-477","src-478","src-479","src-480","src-481","src-590","src-591","src-592","src-593","src-594","src-727","src-728","src-729","src-730","src-731"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to Indonesia as a bridge/base rather than a proven settlement route for this couple: Ukraine is listed among Indonesia's VoA/e-VoA subject countries, and the official E33G remote-worker limited-stay visa exists, but its US$60,000/year income requirement is above the couple's current ~US$36,000/year income. [src-263][src-264]
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-15
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-19
 - **Tier rationale**: Do not classify yet. The core route is official but income-gated and the first pass did not capture a durable PR/citizenship ladder for a foreign-client IT worker using E33G.
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | Indonesia is not a tax-free bridge by default: tax residents are generally taxed on worldwide income, with a skilled-foreigner territorial concession that needs adviser confirmation; PIT-only stress test leaves about USD 2,436/month. | §5.3 |
 | Cost of living | — | medium | Livingcost screens Indonesia as low-cost nationally, but private insurance, visa runs/extensions, accountant/tax costs, and Bali/Jakarta lifestyle inflation remain outside the first-pass table. | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 city-centre proxies are cheap versus USD 3,000 gross and the PIT-only tax net, but Jakarta and Bali/Denpasar need live-listing and lease-seasonality checks. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | Public Puskesmas/BPJS and private hospitals are screenable, but the safe expat baseline is private insurance with evacuation cover; exact E33G/KITAS onboarding, maternity/newborn terms, and city provider prices remain application-prep checks. | §5.6 |
+| Education (future child) | — | medium | Public/local schools imply Indonesian-language integration, while Jakarta/Bali international schools are available but can be expensive; education is viable but budget-sensitive. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -151,13 +151,45 @@ Rent verdict: rent is not the first-pass blocker. Even Jakarta's 40 m2 proxy is 
 
 For later application budgeting, verify: live 2BR/apartment listings in Jakarta, Surabaya, Bandung, and Denpasar; deposits and advance rent; agent fees; whether landlords support address evidence for stay-permit files; minimum lease term; utility setup for foreigners; flood/traffic/air-quality by district; and Bali seasonality / foreigner-price effects.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-[verification required]
+> **DoD status**: Partial. This pass opens the healthcare baseline with an official Ministry of Health anchor and a current expat/private-care guide, but it does not pass full DoD because exact E33G/KITAS health-insurance wording, two-adult quotes, maternity/newborn terms, BPJS onboarding by final immigration/tax status, and selected-city provider prices remain application-prep checks (`vq-158`).
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Public system and onboarding baseline
 
-[verification required]
+Indonesia's Ministry of Health portal is the official health-authority anchor and points users toward public health-service units, integrated service units, and Ministry hospitals. For country screening, treat the public system as available for basic care but not as the couple's primary safety net until final residence status, BPJS eligibility, and city enrollment mechanics are confirmed. [src-727]
+
+The practical expat baseline is a layered system: Puskesmas community health centres for basic public/primary care, BPJS Kesehatan as the national insurance framework, and private hospitals/clinics in Jakarta and Bali for most foreigner-facing care. ExpatLife reports BPJS Kesehatan is technically available to KITAS holders at about Rp35,000-150,000/month, while Puskesmas is free or near-free for BPJS holders; however, this profile should not assume E33G remote workers can rely on BPJS until route-specific onboarding is verified. [src-728]
+
+#### Private care, insurance, and maternity
+
+For a remote-worker bridge country, the safe first-pass assumption is private or international insurance with medical-evacuation cover. ExpatLife's 2026 Indonesia healthcare guide gives screening proxies of about USD 80-250/month for expat health insurance including evacuation cover, USD 5-30 for a private GP consultation, USD 50-150 for an initial BIMC Bali emergency/basic-treatment consultation, and USD 5,000-20,000 for uninsured medical evacuation to Singapore. It lists AXA International, Pacific Cross, Cigna Global, Allianz Care, and BUPA International as standard provider names to quote later. [src-728]
+
+Private-care depth is strongest in Jakarta and Bali; BIMC Hospital Bali and Siloam-style private networks are useful routine-care anchors, but complex cases may still be evacuated to Singapore. This is a material planning caveat for pregnancy, newborn complications, and serious emergencies. Maternity/newborn policy wording was not captured in this pass, so pregnancy planning should require direct insurer quotes and hospital package checks before relying on Indonesia as a family base. [src-728]
+
+#### Screening verdict
+
+Healthcare is screenable at medium confidence but not DoD-passed. Indonesia is workable only if the couple budgets for private/international cover, keeps evacuation coverage, and prefers Jakarta or Bali for service depth. Surabaya/Bandung affordability should not be selected for a future-child plan until private maternity, pediatric, and specialist access are checked locally.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
+
+> **DoD status**: Passed for first-pass country screening at medium confidence. This section captures the public/local-school language baseline, private/local school cost proxy, and international-school options with Jakarta/Bali fee examples. Exact school fee schedules, deposits, transport/meals, private-preschool quotes, waiting lists, and options outside Jakarta/Bali remain application-prep/final-city checks (`vq-159`).
+
+#### Public and local-school baseline
+
+Indonesia's government information portal has an education category that can serve as a minimal official-public-sector anchor, but a clean Ministry education page was not captured in this iteration. For screening, use a conservative practical baseline: public/local schooling means Indonesian-language integration and is most realistic for a young child if the family is committed to long-term Indonesia and Bahasa Indonesia acquisition. [src-729][src-730]
+
+ExpatLife's 2026 education guide says local private schools (`sekolah swasta`) typically use the Indonesian national curriculum, may include some English, and screen around Rp5m-20m/year (about USD 315-1,265). It also says National Plus schools offer more English-medium instruction alongside the Indonesian curriculum. This is the low-cost path, but it carries a language/adaptation burden for a foreign child. [src-730]
+
+#### International-school alternatives
+
+International education is available but can dominate the budget. ExpatLife gives a broad Indonesia fee range of about USD 6,000-35,000/year, with Green School Bali around USD 8,000-16,000/year, Bali community/international schools around USD 6,000-12,000/year, and Jakarta International School around USD 22,000-35,000/year plus long waiting-list risk. On a one-income USD 3,000/month household, premium Jakarta international schools are not compatible without a major income increase or employer support. [src-730]
+
+International Schools Database strengthens the city screen: it lists 73 international schools in Jakarta, mostly English-language, with examples such as British School Jakarta charging Rp158.5m-561.1m/year for 2026/2027 and Nord Anglia School Jakarta charging Rp116.3m-351.2m/year for 2025/2026. It lists 35 international schools in Bali, mostly English-language, with examples such as The Garden Early Learning Centre / Garden School charging Rp170m-225m/year and ProEd Global School charging Rp88m-210m/year. [src-731]
+
+#### Screening verdict
+
+Education is viable but budget-sensitive. For a future child, Jakarta has the deepest school ecosystem but also the highest school-cost risk; Bali has many English-language alternatives but still needs exact fee and admissions checks. Local/private Indonesian schools are much cheaper but require Bahasa Indonesia integration. For this couple, education does not rescue Indonesia's core legal/income-gate problem: the E33G income threshold and bridge-only status remain the limiting factors.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -194,7 +226,7 @@ For later application budgeting, verify: live 2BR/apartment listings in Jakarta,
 - **Best legalization path for the woman**: unresolved for E33G; conservative baseline is marriage/spouse-dependent planning only if an official dependent file is confirmed, otherwise independent eligibility.
 - **Does marriage change the picture**: likely relevant for dependent planning, but not captured for E33G in this pass.
 - **Realism of staying after 03.2027**: low at current income; Indonesia is scouting/bridge-only unless income rises above E33G and a durable ITAP path is later confirmed.
-- **Budget fit after this pass**: monthly costs/rents are manageable on both gross USD 3,000 and the PIT-only tax screen, especially in Surabaya/Bandung; Jakarta and Bali need live-listing and lifestyle-inflation controls.
+- **Budget fit after this pass**: monthly costs/rents are manageable on both gross USD 3,000 and the PIT-only tax screen, especially in Surabaya/Bandung, but private insurance with evacuation cover and international-school tuition can erase the apparent low-cost advantage; Jakarta and Bali need live-listing and lifestyle-inflation controls.
 
 **Pros**:
 - Official remote-worker limited-stay route exists.
@@ -205,6 +237,8 @@ For later application budgeting, verify: live 2BR/apartment listings in Jakarta,
 - E33G US$60,000/year income threshold exceeds current budget.
 - PR/citizenship ladder for E33G not captured; do not use Indonesia for settlement scoring now.
 - Hot, humid, rainy climate; flood and air-quality checks still needed.
+- Healthcare planning needs private/international insurance with evacuation cover; maternity/newborn and BPJS onboarding remain application-prep checks.
+- International schools in Jakarta/Bali can be very expensive for a one-income USD 3,000/month family; local schools require Bahasa Indonesia integration.
 - Jakarta/Bali real leases may be higher than Livingcost medians once expat-quality housing, address evidence, deposits, and tourist seasonality are included.
 
 ## Block 6 — Practical playbook (working relocation guide)
@@ -238,7 +272,7 @@ For later application budgeting, verify: live 2BR/apartment listings in Jakarta,
 | Flights for two | — | TBD |
 | Rental deposit | — | TBD; first-pass rent proxies are USD 213-355/month in Bandung/Jakarta for 40 m2 city-centre units, but deposits and foreigner lease terms need live checks. [src-591][src-593] |
 | First month rent | USD 213-355+ | 40 m2 city-centre proxy in Bandung/Jakarta; Denpasar and Surabaya screen around USD 250-264, but exact 2BR leases need live listings. [src-591][src-592][src-593][src-594] |
-| Health insurance (one year) | — | TBD |
+| Health insurance (one year) | USD 960-3,000+ | first-pass expat insurance proxy at USD 80-250/month; exact E33G/KITAS acceptable policy wording, maternity/newborn terms, and evacuation cover need quotes. [src-728] |
 | Immigration lawyer fees | — | TBD |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | incomplete |
@@ -255,6 +289,8 @@ For later application budgeting, verify: live 2BR/apartment listings in Jakarta,
 - [src-262] Indonesia Immigration — Indonesian visa list
 - [src-263] Indonesia Immigration — VoA/BVK/calling-visa subject-country list and B1 VoA page
 - [src-264] Indonesia Immigration — E33G remote-worker / second-home limited-stay visa page
+- [src-727] Indonesia Ministry of Health — official health portal
+- [src-729] Indonesia.go.id — education category / government information portal
 
 ### 7b. Reputable secondary
 - [src-477] PwC Indonesia — individual PIT scope and 2026 rates
@@ -266,6 +302,9 @@ For later application budgeting, verify: live 2BR/apartment listings in Jakarta,
 _(none yet)_
 
 ### 7d. Statistical / commercial
+- [src-728] ExpatLife.AI — Indonesia Healthcare 2026 guide
+- [src-730] ExpatLife.AI — Indonesia education 2026 guide
+- [src-731] International Schools Database — Jakarta and Bali international-school lists
 - [src-265] Climate to Travel — Indonesia, Jakarta, Bali, Bandung, Surabaya climate pages
 - [src-266] WeatherSpark — Indonesia country climate comparison
 - [src-590] Livingcost — Indonesia national cost/rent baseline
@@ -278,9 +317,13 @@ _(none yet)_
 - Exact E33G dependent/spouse mechanics and ITAP/citizenship category-counting remain later application-prep / long-term-route checks; safe screening baseline is bridge-only and above current income.
 - Exact DGT / Indonesian tax-adviser treatment for E33G foreign-client IT source classification, skilled-foreigner territorial concession fit, NPWP/registration category, VAT/exported-service status, BPJS/housing-savings exposure, and immigration-status compatibility remains application-prep (`vq-117`, resolved for screening).
 - Live 2BR listings, deposits/advance rent, agency fees, landlord address-registration support, district-level flood/traffic/air-quality, and Bali tourist-season lease effects remain later practical-budget checks.
+- Exact E33G/KITAS-accepted health-insurance policy wording, two-adult quotes, maternity/newborn exclusions, BPJS onboarding by final status, and city-specific private GP/pediatric/maternity prices remain application-prep checks (`vq-158`).
+- Exact international-school fee schedules, deposits, meals/transport, private-preschool quotes, waiting lists, and English/bilingual options outside Jakarta/Bali remain application-prep or final-city checks (`vq-159`).
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-081` — resolved 2026-06-05 (run-052): E33G is above current income and should be treated as bridge-only; dependent/tax/conversion microdetails are later checks if income rises.
 - `vq-082` — resolved 2026-06-05 (run-052): no captured ITAP/PR/citizenship ladder for foreign-client remote IT without a local employer; do not score Indonesia as settlement.
 - `vq-117` resolved for screening in run-100: use Indonesia resident PIT modelling as the baseline and do not assume tax-free E33G treatment; exact source classification, territorial concession, NPWP/VAT, BPJS, and status fit is application-prep/adviser work.
+- `vq-158` — added 2026-06-19 (run-161): exact E33G/KITAS-accepted health-insurance policy wording, current quotes, maternity/newborn terms, BPJS onboarding, and selected-city provider prices.
+- `vq-159` — added 2026-06-19 (run-161): exact school tuition/fee schedules, deposits, transport/meals, private-preschool quotes, waiting lists, and English/bilingual availability outside Jakarta/Bali.
