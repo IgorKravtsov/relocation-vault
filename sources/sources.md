@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-19
+last_updated: 2026-06-20
 ---
 
 # Sources Registry
@@ -8812,3 +8812,52 @@ Each source entry:
 - **Facts supporting**: Jakarta and Bali international-school counts, English-language availability, and selected annual-fee examples for education screening (claim-indonesia-019)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-19
+
+
+## src-732
+- **Title**: eGov Kazakhstan — Mandatory Social Health Insurance (MSHI)
+- **URL**: https://egov.kz/cms/en/articles/health_care/osms
+- **Archive**: direct HTML extraction used from eGov public page
+- **Type**: official-primary
+- **Date published**: last update 2025-08-22 on page
+- **Date accessed**: 2026-06-20
+- **Used by**: Kazakhstan
+- **Facts supporting**: MSHI/SFMA eligibility baseline for citizens, candas, refugees, permanent-resident foreigners with residence permits, and temporarily staying foreigners' limited free-care rights for dangerous diseases (claim-kazakhstan-016)
+- **Confidence ceiling**: high
+- **Stale at**: 2027-08-22
+
+## src-733
+- **Title**: Numbeo — Health Care in Kazakhstan
+- **URL**: https://www.numbeo.com/health-care/country_result.jsp?country=Kazakhstan
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: current crowd-sourced survey page, no single publication date captured
+- **Date accessed**: 2026-06-20
+- **Used by**: Kazakhstan
+- **Facts supporting**: Kazakhstan private/public health-care quality proxy, overall health-care index, public/private waiting and equipment satisfaction comparison for healthcare screening (claim-kazakhstan-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-20
+
+## src-734
+- **Title**: Scholaro — Education System in Kazakhstan
+- **URL**: https://www.scholaro.com/db/Countries/Kazakhstan/Education-System
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-20
+- **Used by**: Kazakhstan
+- **Facts supporting**: mandatory-schooling baseline, primary/lower-secondary structure, Ministry-prescribed curriculum, and Kazakh/Russian public-school language baseline (claim-kazakhstan-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-20
+
+## src-735
+- **Title**: International Schools Database — International Schools in Kazakhstan, Almaty, and Astana
+- **URL**: https://www.international-schools-database.com/country/kazakhstan ; https://www.international-schools-database.com/in/almaty ; https://www.international-schools-database.com/in/astana
+- **Archive**: direct HTML extraction used from public school-list pages
+- **Type**: commercial
+- **Date published**: current public pages, no single publication date captured; fee rows include 2024/2025 and 2025/2026 labels
+- **Date accessed**: 2026-06-20
+- **Used by**: Kazakhstan
+- **Facts supporting**: Kazakhstan international-school count, Almaty/Astana school supply, English/IB/British/American/French curriculum examples, ages, and selected annual-fee examples (claim-kazakhstan-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-20

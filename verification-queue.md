@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-19
+last_updated: 2026-06-20
 ---
 
 # Verification Queue
@@ -76,6 +76,27 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured the government education-portal anchor, public/local Indonesian-language baseline, local/private school cost proxy, and international-school supply/cost examples in Jakarta and Bali, but did not capture exact current school fee schedules, private-preschool standalone quotes, admissions deposits, meals/transport, waiting lists, or non-Jakarta/Bali options.
 - **Suggested verification**: Get current fee schedules and admissions terms for key Jakarta/Bali schools, private-preschool quotes, transport/meal costs, waiting-list timing, and English/bilingual options in Surabaya/Bandung if those remain candidate bases.
 - **Created**: 2026-06-19 (run-161)
+- **Status**: pending
+
+
+## vq-160 [medium priority]
+- **Fact**: "Kazakhstan exact Neo Nomad/TRP-accepted private-health-insurance wording, current quotes for two young adults, maternity/newborn exclusions and waiting periods, MSHI/public onboarding by Neo Nomad / TRP / permanent-residence / tax status, and Almaty / Astana / Shymkent / Aktau GP, pediatric, maternity, and clinic prices"
+- **Country**: Kazakhstan
+- **Section**: 5.6
+- **Current source**: src-595, src-596, src-598, src-732, src-733
+- **Why uncertain**: This healthcare pass captured the official MSHI/SFMA eligibility baseline, private/public quality proxy, and doctor-visit cost proxies, but did not capture residence-route-compliant policy wording, current two-adult premiums, maternity/newborn terms, final-status public/MSHI onboarding, or selected-city provider prices.
+- **Suggested verification**: Get two to three Kazakhstan-covering private/international insurance quotes for two young adults, maternity/newborn terms, immigration/lawyer confirmation of accepted policy wording for Neo Nomad/TRP, MSHI onboarding by final status, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-20 (run-162)
+- **Status**: pending
+
+## vq-161 [medium priority]
+- **Fact**: "Kazakhstan exact international-school tuition, registration fees, deposits, transport/meal costs, private-preschool quotes, waiting lists, public-school enrollment documents for foreign children, and English/bilingual school availability outside Almaty and Astana"
+- **Country**: Kazakhstan
+- **Section**: 5.7
+- **Current source**: src-595, src-596, src-598, src-734, src-735
+- **Why uncertain**: This education pass captured the public-school language/structure baseline, daycare/preschool and international-primary cost proxies, and international-school supply/fee examples in Almaty and Astana, but did not capture exact current school fee schedules, admissions deposits, meals/transport, private-preschool quotes, waiting lists, public enrollment steps for foreign children, or non-Almaty/Astana English/bilingual options.
+- **Suggested verification**: Get current fee schedules and admissions terms for selected Almaty/Astana schools, private-preschool quotes, transport/meal costs, public-school enrollment document requirements for foreign children, waiting-list timing, and English/bilingual options in Shymkent/Aktau if those remain candidate bases.
+- **Created**: 2026-06-20 (run-162)
 - **Status**: pending
 
 ## vq-141 [medium priority]

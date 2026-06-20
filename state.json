@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 161,
+  "iteration": 162,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-19T21:41:23Z",
+  "last_run_timestamp": "2026-06-20T00:49:39Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Indonesia",
+    "country": "Kazakhstan",
     "sections": [
       "5.6",
       "5.7"
@@ -16,7 +16,7 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Kazakhstan",
+    "suggested_country": "Armenia",
     "suggested_sections": [
       "5.6",
       "5.7"
@@ -1066,19 +1066,19 @@
     "Kazakhstan": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -1091,10 +1091,12 @@
         "cold-continental-winters",
         "kazakhstan-foreign-client-tax-structure-gap",
         "almaty-rent-pressure",
-        "kazakhstan-one-income-margin-risk"
+        "kazakhstan-one-income-margin-risk",
+        "kazakhstan-private-insurance-gap",
+        "kazakhstan-international-school-cost-risk"
       ],
-      "last_iteration": 125,
-      "unverified_count": 0
+      "last_iteration": 162,
+      "unverified_count": 2
     },
     "Armenia": {
       "tier": null,
@@ -1130,8 +1132,8 @@
       "unverified_count": 0
     }
   },
-  "verification_queue_size": 4,
-  "sources_count": 730,
-  "claims_count": 637,
+  "verification_queue_size": 6,
+  "sources_count": 734,
+  "claims_count": 641,
   "proposals_pending": 0
 }

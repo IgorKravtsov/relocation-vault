@@ -1,14 +1,14 @@
 ---
 country: Kazakhstan
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-15T03:45:03Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["ordinary-trp-not-settlement", "dn-route-secondary-sourced", "pr-citizenship-ladder-unclear", "cold-continental-winters", "kazakhstan-foreign-client-tax-structure-gap", "almaty-rent-pressure", "kazakhstan-one-income-margin-risk"]
-sources_used: ["src-267", "src-268", "src-269", "src-270", "src-271", "src-272", "src-273", "src-482", "src-483", "src-484", "src-485", "src-486", "src-595", "src-596", "src-597", "src-598", "src-599"]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-20T00:49:39Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["ordinary-trp-not-settlement", "dn-route-secondary-sourced", "pr-citizenship-ladder-unclear", "cold-continental-winters", "kazakhstan-foreign-client-tax-structure-gap", "almaty-rent-pressure", "kazakhstan-one-income-margin-risk", "kazakhstan-private-insurance-gap", "kazakhstan-international-school-cost-risk"]
+sources_used: ["src-267", "src-268", "src-269", "src-270", "src-271", "src-272", "src-273", "src-482", "src-483", "src-484", "src-485", "src-486", "src-595", "src-596", "src-597", "src-598", "src-599", "src-732", "src-733", "src-734", "src-735"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint until durable settlement mechanics are verified)
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-15
-- **Tier rationale**: Kazakhstan is easy for Ukrainian short entry and can be a nearby CIS bridge, but this first pass did not capture a durable foreign-client IT residence ladder. The official TRP page lists one-year temporary-residence purposes for CIS citizens, including labor, business-immigrant, family, and study purposes, while the remote-work / Neo Nomad route is only secondary-sourced and must be confirmed against official visa-category rules before it can be used for scoring. Taxes screen moderately on PIT alone, but the exact foreign-client IT entrepreneur / VAT / contribution structure is unresolved. Cost and rent now screen affordable in Shymkent / Aktau and workable in Nur-Sultan, while Almaty requires a stricter rent cap on the conservative tax-net band. Climate is a major comfort risk outside the south because winters are sharply continental. [src-267][src-268][src-269][src-272][src-273][src-482][src-483][src-484][src-595][src-596][src-597][src-598][src-599]
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-20
+- **Tier rationale**: Kazakhstan is easy for Ukrainian short entry and can be a nearby CIS bridge, but this first pass did not capture a durable foreign-client IT residence ladder. The official TRP page lists one-year temporary-residence purposes for CIS citizens, including labor, business-immigrant, family, and study purposes, while the remote-work / Neo Nomad route is only secondary-sourced and must be confirmed against official visa-category rules before it can be used for scoring. Taxes screen moderately on PIT alone, but the exact foreign-client IT entrepreneur / VAT / contribution structure is unresolved. Cost and rent now screen affordable in Shymkent / Aktau and workable in Nur-Sultan, while Almaty requires a stricter rent cap on the conservative tax-net band. Healthcare is screenable only with private-insurance budgeting and status-specific public-system checks; education is viable in Almaty/Astana through public Kazakh/Russian schooling or international schools, but international-school fees can be a major one-income budget risk. Climate is a major comfort risk outside the south because winters are sharply continental. [src-267][src-268][src-269][src-272][src-273][src-482][src-483][src-484][src-595][src-596][src-597][src-598][src-599][src-732][src-733][src-734][src-735]
 
 ## Block 2 — Scoring
 
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | PIT is 10% up to 8,500 MCI and 15% above; at USD 3,000/month, a PIT-only screen after the 30 MCI/month basic deduction leaves about KZT 1.33m / USD 2,727 before accountant, VAT, residence-status, and contribution uncertainty. | §5.3 |
 | Cost of living | — | medium | Livingcost screens Kazakhstan at about USD 690/month for one person and USD 1,667/month for a family-of-four proxy; Almaty is materially more expensive, while Shymkent / Aktau are cheaper. | §5.4 |
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxies run about USD 649/421 in Almaty, 412/285 in Nur-Sultan, 268/142 in Shymkent, and 244/163 in Aktau; use Almaty only with a strict rent cap. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | MSHI/SFMA access is clear only for permanent residents / residence-permit holders and specified emergency cases for temporary stayers; private care is affordable by global standards but private insurance and final-status onboarding remain application-prep gaps. | §5.6 |
+| Education (future child) | — | medium | Public schooling is state-curriculum and Kazakh/Russian-language heavy; international schools exist mainly in Almaty and Astana, with examples from about KZT 4.7m to 18.0m/year, making premium options risky on one income. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -161,17 +161,45 @@ Budget verdict: on gross USD 3,000/month, all captured Kazakhstan cities look af
 
 Rent verdict: Kazakhstan's rent problem is not national affordability; it is **city selection and legal-proof quality**. Shymkent and Aktau leave the best one-income margin. Nur-Sultan is affordable but winter-negative. Almaty is the practical large-city candidate for services, flights, healthcare, and professional support, but it earns an `almaty-rent-pressure` flag because a central 40 m2 proxy consumes about 27% of the conservative USD 2,403/month downside tax-net band and the family proxy nearly exhausts that downside band. Before any application-prep decision, verify live long-term leases, deposits / agent fees, whether landlords support address registration / migration paperwork, and whether foreign tenants can secure a lease acceptable for the chosen TRP / Neo Nomad / business file. [src-596][src-597][src-598][src-599]
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 0.5, last_updated: 2026-06-20, dod: partial}
 
-> **DoD**: how to register after the move; private insurance cost for the couple; maternity / birth coverage.
+> **DoD status**: partial. This pass captures the official MSHI/SFMA eligibility baseline, a private-care quality proxy, and first-pass doctor-visit cost screening. It does not capture Neo Nomad/TRP-accepted insurance wording, two-adult premium quotes, maternity/newborn terms, or final-status public-system onboarding, so `vq-160` remains an application-prep blocker.
 
-[verification required]
+Kazakhstan's eGov MSHI page says state-guaranteed free medical assistance is provided to Kazakhstan citizens, candas, refugees, foreigners permanently residing in Kazakhstan with a residence permit, and stateless persons permanently residing with a residence permit. Foreigners and stateless persons temporarily staying in Kazakhstan, plus asylum seekers, have the right to free medical care for diseases that pose a danger to others; eGov separately frames MSHI as the mandatory insurance system. For this couple, the safe planning baseline is: do **not** assume full public-system access while scouting visa-free or before the final TRP / Neo Nomad / residence status is mapped to MSHI eligibility. [src-732]
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+Private care is the practical screening fallback. Numbeo's 2026 Kazakhstan health-care survey gives the overall health-care index around 60.65, with public services weaker on waiting/responsiveness and private services higher for speed and modern equipment. Livingcost's national cost table lists a doctor visit around **USD 13.20**, with Almaty around **USD 18.80** and Shymkent around **USD 12**. These are useful screening proxies only: they do not replace insurance quotes, maternity package quotes, or specialist/pediatric price sampling in the final city. [src-595][src-596][src-598][src-733]
 
-> **DoD**: kindergarten cost; public school quality for foreign kids; international school alternative with cost.
+City read for healthcare screening:
 
-[verification required]
+| City | Healthcare practicality | Budget signal | Caveat |
+|---|---|---:|---|
+| Almaty | Best first healthcare/services screen because it is the largest services city and private-care access should be deepest. | Livingcost doctor proxy about USD 18.80. | Most expensive rent/cost city; exact private insurance, maternity/newborn terms, and clinic quotes needed before application. [src-596][src-733] |
+| Astana / Nur-Sultan | Administrative capital with likely better private/public institutional access, but climate is a poor fit. | Use national doctor proxy until city-specific provider quotes are captured. | Good for bureaucracy and specialist access checks, not first lifestyle choice. [src-595][src-733] |
+| Shymkent | Warmest/budget-friendliest major-city screen. | Livingcost doctor proxy about USD 12. | Service depth and maternity/pediatric private-care quality need direct sampling before relying on it. [src-598] |
+| Aktau | Affordable Caspian fallback from cost/rent data. | No direct provider quote captured. | Smaller-city healthcare depth, evacuation/transfer options, and insurance networks are unresolved. |
+
+Healthcare verdict: Kazakhstan is **screenable but not closed** for healthcare. Budgeting should include private/international insurance plus private-care cash payments until a lawyer/insurer confirms whether the chosen residence file gives MSHI access. Almaty is the safest healthcare-first base, Shymkent is the budget/climate option only if provider depth checks pass, and Aktau remains exploratory. [src-732][src-733]
+
+### 5.7. Education (future child) {status: completed, depth: 1, last_updated: 2026-06-20, dod: passed}
+
+> **DoD status**: passed for first-pass screening at medium confidence. Public-school structure/language is covered by a secondary education-system source, kindergarten/daycare and international primary-school costs are covered by Livingcost proxies, and international-school alternatives are captured for Almaty and Astana. Exact admissions, registration fees, deposits, meals/transport, waiting lists, and non-Almaty/Astana English options remain `vq-161` application-prep checks.
+
+Scholaro's Kazakhstan education-system profile says schooling is mandatory, primary school starts at about age 6, the Ministry of Education prescribes the curriculum for both private and public schools, and lower secondary continues through grade 9. The general curriculum includes Russian or Kazakh depending on location plus core academic subjects and a foreign language. For a future child, the practical baseline is that public/local schooling is possible but language-heavy; it may work for a young child with enough integration time, but it is not an English-language plug-and-play option. [src-734]
+
+Livingcost gives first-pass child-cost proxies: nationally, daycare/preschool is about **USD 198/month** and international primary school about **USD 7,032/year**; Almaty is higher at about **USD 303/month** for daycare/preschool and **USD 11,415/year** for international primary school; Shymkent is much cheaper for daycare at about **USD 52/month** and lists international primary school around **USD 6,047/year**. Treat these as broad screening figures, not admissions quotes. [src-595][src-596][src-598]
+
+International-school supply is concentrated in Almaty and Astana. International Schools Database lists **22 international schools in Kazakhstan**, split across **13 in Astana** and **9 in Almaty**. Examples include Almaty schools with 2025/2026 fees such as Galaxy International School around **KZT 5.04m-5.71m/year**, Miras Almaty around **KZT 7.48m-14.49m/year**, Kazakhstan International School Almaty around **KZT 5.43m-14.63m/year**, Haileybury Almaty around **KZT 7.75m-16.99m/year**, and Tamos Education around **KZT 4.70m-6.20m/year**. Astana examples include Miras Astana around **KZT 4.67m-13.86m/year**, Haileybury Astana around **KZT 4.87m-17.97m/year**, Spectrum around **KZT 6.16m-8.95m/year**, and Ecole Francaise Internationale Charles de Gaulle-Miras around **KZT 4.34m-7.55m/year**. [src-735]
+
+Education verdict for this couple:
+
+| Path | Fit | Budget read | Caveat |
+|---|---|---:|---|
+| Public/local school | Best budget path if the child is young enough for Kazakh/Russian integration. | State-funded baseline; exact ancillary costs not captured. | Language and curriculum adaptation are the main risks for a foreign child. [src-734] |
+| Local private / bilingual school | Potential middle option. | Not directly priced in this pass. | Needs final-city school sampling; not enough evidence for scoring beyond "possible". |
+| International school in Almaty/Astana | Real alternative for English/IB/British/American/French curricula. | Roughly KZT 4.3m-18.0m/year in captured examples. | Premium schools can consume a large share of the USD 3,000/month one-income budget, especially after rent, insurance, tax, and relocation costs. [src-735] |
+| Shymkent/Aktau schooling | Budget/climate fallback. | Livingcost daycare proxy is low in Shymkent. | English/international-school availability outside Almaty/Astana is not proven; final-city checks needed. [src-598] |
+
+For screening, education does not disqualify Kazakhstan, but it reinforces the city tradeoff: **Almaty/Astana have the best international-school ecosystems; Shymkent/Aktau have better budget/climate margins but weaker captured English-school evidence**. If Kazakhstan becomes a serious candidate with a future child, the couple should collect exact fee schedules, deposits, transport/meal charges, preschool quotes, and admissions/waiting-list timing before choosing the city. [src-734][src-735]
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -215,7 +243,7 @@ Rent verdict: Kazakhstan's rent problem is not national affordability; it is **c
 - **Best legalization path for the man**: Potential Neo Nomad / remote-work route if official-primary checklist confirms the secondary baseline; otherwise investigate business-immigrant TRP / local company or local-employment file. [src-268][src-269]
 - **Best legalization path for the woman**: Marriage/spouse-dependent planning is safer than unmarried-partner assumptions; independent study TRP is also listed as a TRP purpose but not yet researched. [src-268]
 - **Does marriage change the picture**: Likely yes for family-reunion / spouse treatment; unmarried partner mechanics were not captured. [src-268]
-- **Realism of staying after 03.2027**: medium-low as a bridge/base, low as a settlement route until an official Neo Nomad/TRP fit and PR counting are captured. Taxes are not an obvious rate blocker, and cost/rent is workable outside expensive Almaty scenarios, but tax-registration / contribution / VAT fit remains unresolved. [src-270][src-271][src-482][src-483][src-484][src-596][src-598]
+- **Realism of staying after 03.2027**: medium-low as a bridge/base, low as a settlement route until an official Neo Nomad/TRP fit and PR counting are captured. Taxes are not an obvious rate blocker, cost/rent is workable outside expensive Almaty scenarios, healthcare is screenable with private-insurance budgeting, and education has workable public/international options mainly in Almaty/Astana; tax-registration / contribution / VAT fit and immigration status remain unresolved. [src-270][src-271][src-482][src-483][src-484][src-596][src-598][src-732][src-734][src-735]
 
 **Pros**:
 - Official Ukrainian visa-free entry baseline makes scouting easy. [src-267]
@@ -231,7 +259,9 @@ Rent verdict: Kazakhstan's rent problem is not national affordability; it is **c
 - PR/citizenship ladder is not captured, and citizenship has dual-nationality risk. [src-270][src-271]
 - Winters, especially outside the south, conflict with the couple's climate preference. [src-272][src-273]
 - Exact individual-entrepreneur / Neo Nomad tax structure, social-medical-pension contribution exposure, and VAT/place-of-supply treatment remain unresolved. [src-484][src-485]
-- Almaty can become margin-tight on the conservative tax-net band once private insurance, accountant, visa, lease deposit, and savings buffer are included. [src-596]
+- Almaty can become margin-tight on the conservative tax-net band once private insurance, accountant, visa, lease deposit, school fees, and savings buffer are included. [src-596][src-735]
+- Public healthcare access for temporary stayers is limited; full MSHI/SFMA planning requires final residence-status mapping, and private insurance quotes are still missing. [src-732]
+- International-school fees in Almaty/Astana can be high relative to a USD 3,000/month one-income budget, while Shymkent/Aktau English-school options are not proven. [src-735]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -275,7 +305,7 @@ Rent verdict: Kazakhstan's rent problem is not national affordability; it is **c
 | Flights for two | — | [verification required] |
 | Rental deposit | — | Live lease practice [verification required]; use 1-2 months' rent as a later budget stress test until verified. |
 | First month rent | USD 142-649 | Livingcost 40 m2 proxy range across Shymkent cheap 1BR to Almaty central 1BR; use city-specific lease checks before application. [src-596][src-598] |
-| Health insurance (one year) | — | Neo Nomad secondary baseline requires insurance; cost [verification required] |
+| Health insurance (one year) | — | Neo Nomad secondary baseline requires insurance; exact accepted policy wording and two-adult quotes remain `vq-160`; do not assume full MSHI access until final status is confirmed. [src-732] |
 | Immigration lawyer fees | — | [verification required] |
 | Buffer / contingencies | — | [verification required] |
 | **Total** | — | |
@@ -299,6 +329,7 @@ Rent verdict: Kazakhstan's rent problem is not national affordability; it is **c
 
 ### 7b. Reputable secondary
 - [src-269] Neo Nomad first-pass secondary baseline.
+- [src-734] Scholaro Kazakhstan education-system profile.
 - [src-482] PwC Kazakhstan individual PIT and residence pages.
 - [src-483] PwC Kazakhstan deductions, income determination, filing, and incentives pages.
 - [src-484] PwC Kazakhstan individual other taxes and corporate VAT context.
@@ -315,8 +346,12 @@ _(none yet)_
 - [src-597] Livingcost Nur-Sultan cost/rent screen.
 - [src-598] Livingcost Shymkent cost/rent screen.
 - [src-599] Livingcost Aktau cost/rent screen.
+- [src-733] Numbeo Kazakhstan health-care survey.
+- [src-735] International Schools Database Kazakhstan / Almaty / Astana school and fee listings.
 
 ### 7e. Not found
+- Exact E33G-style/Neo Nomad or TRP-accepted private-insurance wording, two-adult premiums, maternity/newborn terms, MSHI onboarding by final status, and city provider prices remain `vq-160`.
+- Exact international-school admissions fees, deposits, meals/transport, private-preschool quotes, waiting lists, and English/bilingual availability outside Almaty/Astana remain `vq-161`.
 - Exact official Neo Nomad checklist / visa category / family mechanics remain needed only before application or if Kazakhstan becomes a serious bridge candidate.
 - Exact business-immigrant TRP checklist and PR/citizenship counting remain later specialist checks; safe screening baseline is no proven lightweight foreign-client IT settlement route.
 - Live rental listings, deposits/agency fees, foreigner lease acceptance, registered-address support, utilities seasonality, and city-level healthcare/service-depth checks remain later practical-budget work.
@@ -327,3 +362,5 @@ _(none yet)_
 - `vq-084` - resolved 2026-06-05 (run-052): captured TRP/business-immigrant evidence does not prove a lightweight foreign-client IT route; require real business/counsel file.
 - `vq-085` - resolved 2026-06-05 (run-052): no captured PR/citizenship ladder for TRP / Neo Nomad / foreign-client IT; citizenship carries dual-nationality risk.
 - `vq-118` resolved for screening in run-100: use Kazakhstan PIT-only plus contribution stress-test modelling as the baseline; exact IE / Neo Nomad / TRP registration, contribution, VAT/place-of-supply, e-invoice, and status fit is application-prep/adviser work.
+- `vq-160` added in run-162: exact private-insurance wording, two-adult quotes, maternity/newborn terms, MSHI onboarding, and city provider prices.
+- `vq-161` added in run-162: exact school fees, admissions costs, private preschool, waiting lists, and English/bilingual options outside Almaty/Astana.

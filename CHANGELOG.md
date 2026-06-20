@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-19
+last_updated: 2026-06-20
 ---
+
+## 2026-06-20 — run-162 — Kazakhstan healthcare/education
+
+- Added Kazakhstan first-pass healthcare and education coverage for sections 5.6 and 5.7.
+- Added four sources (`src-732` through `src-735`) and four Kazakhstan claims (`claim-kazakhstan-016` through `claim-kazakhstan-019`).
+- Kazakhstan section 5.7 moved to completed, section 5.6 moved to partial, depth_score moved from 3.0 to 5.5, and two application-prep verification items (`vq-160`, `vq-161`) were added.
 
 ## 2026-06-19 — run-161 — Indonesia healthcare/education
 

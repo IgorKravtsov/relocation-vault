@@ -133,3 +133,40 @@
   confidence: medium
   tags: [cost-of-living, rent, aktau, livingcost, caspian]
   notes: "Aktau is an affordable Caspian fallback, but small-city service depth and foreigner lease support need later checks."
+
+
+- id: claim-kazakhstan-016
+  topic: kazakhstan_healthcare_mshi_foreigner_baseline
+  value: "Kazakhstan eGov says state-guaranteed free medical assistance covers citizens, candas, refugees, and foreigners/stateless persons permanently residing with a residence permit, while temporarily staying foreigners have free care for diseases dangerous to others."
+  source: src-732
+  date_verified: 2026-06-20
+  confidence: medium-high
+  tags: [healthcare, public-system, mshi, foreigners, residence-permit]
+  notes: "For screening, do not assume full public-system access during visa-free scouting or before the chosen TRP / Neo Nomad / residence status is mapped to MSHI eligibility."
+
+- id: claim-kazakhstan-017
+  topic: kazakhstan_private_healthcare_screening_proxy
+  value: "Numbeo's Kazakhstan healthcare survey gives an overall health-care index around 60.65 with stronger private-service scores than public waiting/responsiveness scores; Livingcost lists doctor-visit proxies around USD 13.20 nationally, USD 18.80 in Almaty, and USD 12 in Shymkent."
+  source: src-733
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [healthcare, private-care, doctor-cost, screening-proxy]
+  notes: "Livingcost source IDs src-595, src-596, and src-598 provide the doctor-visit cost proxies; exact insurance premiums and maternity/pediatric prices remain application-prep checks."
+
+- id: claim-kazakhstan-018
+  topic: kazakhstan_public_school_language_baseline
+  value: "Scholaro summarizes Kazakhstan schooling as mandatory, with primary school starting at about age 6, lower secondary through grade 9, a Ministry-prescribed curriculum for public and private schools, and Russian or Kazakh as core language depending on location."
+  source: src-734
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [education, public-school, language, kazakh, russian]
+  notes: "This supports the screening baseline that public/local schooling is possible but language-heavy for a foreign child."
+
+- id: claim-kazakhstan-019
+  topic: kazakhstan_international_school_supply_and_cost
+  value: "International Schools Database lists 22 international schools in Kazakhstan, including 13 in Astana and 9 in Almaty; captured 2025/2026 fee examples range roughly from KZT 4.34m to 17.97m per year."
+  source: src-735
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [education, international-school, tuition, almaty, astana]
+  notes: "This confirms an international-school alternative mainly in Almaty/Astana, but exact admissions fees, deposits, meals/transport, waiting lists, and non-core-city options remain verification items."
