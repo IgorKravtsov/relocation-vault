@@ -1,27 +1,22 @@
 {
   "version": 2,
-  "iteration": 163,
+  "iteration": 164,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-20T03:56:53Z",
+  "last_run_timestamp": "2026-06-20T07:07:51Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Armenia",
+    "country": "UAE",
     "sections": [
       "5.6",
       "5.7"
     ]
   },
   "next_iteration_hint": {
-    "suggested_mode": "country-deep-dive",
-    "suggested_country": "UAE",
-    "suggested_sections": [
-      "5.6",
-      "5.7"
-    ],
-    "reason": "Continue low-depth Tier-3 healthcare/education coverage; pending/open verification queue remains below the automatic threshold."
+    "suggested_mode": "verification",
+    "reason": "Pending/open verification queue is at the automatic threshold after adding UAE healthcare and education application-prep items."
   },
   "countries": {
     "Spain": {
@@ -926,19 +921,19 @@
     "UAE": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 4.5,
+      "depth_score": 6.0,
       "sections_completed": [
         "5.2",
         "5.3",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
-        "5.1"
+        "5.1",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -951,10 +946,12 @@
         "extreme-summer-heat",
         "tax-status-threshold-monitoring",
         "dubai-abu-dhabi-rent-pressure",
-        "uae-one-income-margin-risk"
+        "uae-one-income-margin-risk",
+        "uae-health-insurance-quote-gap",
+        "uae-international-school-cost-risk"
       ],
-      "last_iteration": 127,
-      "unverified_count": 0
+      "last_iteration": 164,
+      "unverified_count": 2
     },
     "Malaysia": {
       "tier": null,
@@ -1134,8 +1131,8 @@
       "unverified_count": 2
     }
   },
-  "verification_queue_size": 8,
-  "sources_count": 738,
-  "claims_count": 645,
+  "verification_queue_size": 10,
+  "sources_count": 742,
+  "claims_count": 649,
   "proposals_pending": 0
 }

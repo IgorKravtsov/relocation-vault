@@ -1,14 +1,14 @@
 ---
 country: UAE
 tier: null
-depth_score: 4.5
-last_updated: 2026-06-15T10:00:28Z
-sections_completed: ["5.2", "5.3", "5.4", "5.5"]
-sections_partial: ["5.1"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["virtual-work-bridge-only", "green-visa-income-above-current-budget", "no-ordinary-naturalization-route", "extreme-summer-heat", "tax-status-threshold-monitoring", "dubai-abu-dhabi-rent-pressure", "uae-one-income-margin-risk"]
-sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250", "src-462", "src-463", "src-464", "src-604", "src-605", "src-606", "src-607"]
-unverified_count: 0
+depth_score: 6.0
+last_updated: 2026-06-20T07:07:51Z
+sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["virtual-work-bridge-only", "green-visa-income-above-current-budget", "no-ordinary-naturalization-route", "extreme-summer-heat", "tax-status-threshold-monitoring", "dubai-abu-dhabi-rent-pressure", "uae-one-income-margin-risk", "uae-health-insurance-quote-gap", "uae-international-school-cost-risk"]
+sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250", "src-462", "src-463", "src-464", "src-604", "src-605", "src-606", "src-607", "src-740", "src-741", "src-742", "src-743"]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (early evidence points to a bridge/base jurisdiction rather than a settlement route for this couple).
-- **depth_score**: 4.5
-- **Last updated**: 2026-06-15T10:00:28Z
+- **depth_score**: 6.0
+- **Last updated**: 2026-06-20T07:07:51Z
 - **Tier rationale**: UAE has real short-stay and self-sponsored residence routes, and taxes are very favorable at the couple's current income level. The limiting factor remains immigration, not tax: the best-fit virtual-work route is a one-year extendable bridge above the couple's current USD 3,000/month income, the 5-year Green Residence freelancer threshold is much higher, and ordinary citizenship is nomination-based for exceptional categories rather than a predictable residence-to-passport track. [src-244][src-245][src-248][src-462]
 
 ## Block 2 - Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium-high | At USD 3,000/month, the baseline screen is near-zero UAE tax: no PIT, no individual tax filing, non-GCC nationals outside UAE social security, and annual turnover far below the natural-person CT and VAT thresholds. | §5.3 |
 | Cost of living | — | medium | High-cost bridge baseline: Dubai and Abu Dhabi are tight on USD 3,000/month, while Sharjah/outer-emirate living is the first affordability screen if commute and lease constraints work. | §5.4 |
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 rent proxies show Dubai and Abu Dhabi rent pressure; Sharjah is the first lower-cost screen, but live listing, deposit, chiller, Ejari/Tawtheeq, and family-sponsorship housing checks remain. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | Private healthcare is strong enough for screening and doctor-visit proxies are captured, but exact virtual-work accepted policy wording, two-adult premiums, maternity/newborn terms, and final public/private onboarding remain application-prep checks. | §5.6 |
+| Education (future child) | — | medium | Public-school structure and international-school alternatives are captured; English private/international schooling is available but can be expensive enough to break the one-income budget. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -124,17 +124,44 @@ schema_version: 2.0.0
 - **National rent context**: UAE national 40 m2 rents screen around USD 1,076-1,527/month and 80 m2 around USD 2,271-3,122/month, confirming that Dubai/Abu Dhabi-style rent pressure is the core budget risk rather than tax. [src-604]
 - **Lease-practicality checks**: before application prep, verify Bayut / Property Finder / Dubizzle live listings, broker commission, deposit, chiller and utilities, Ejari/Tawtheeq or emirate-specific tenancy registration, landlord acceptance of new residents, and whether spouse/family sponsorship needs a minimum housing standard or registered lease. These are not recovery blockers, but they decide whether UAE is a usable bridge at this income.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-20, dod: partial}
 
-> **DoD**: how to register after the move; private insurance cost for the couple; maternity / birth coverage.
+> **DoD status**: first-pass healthcare baseline only. UAE is screenable with mandatory private health insurance and a strong private-care market, but this pass did not capture the exact virtual-work / family-dependent accepted policy wording, current two-adult premiums, maternity/newborn exclusions, or final public/private onboarding by emirate and residence status. Added `vq-164` for application-prep closure.
 
-[verification required]
+#### Insurance and access baseline
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+- **Residence-file insurance requirement**: the captured GDRFA virtual-work service already requires valid health insurance for the residence file. Treat health cover as mandatory for the UAE plan, not optional travel insurance. Exact accepted policy wording, minimum coverage, emirate-specific network requirements, and dependent-policy rules still need filing-stage confirmation. [src-244]
+- **Market proxy**: Policybazaar's UAE health-insurance page says health insurance is mandatory for UAE residents and describes plan types from basic to comprehensive; it gives a broad premium range from about **AED 340/year** for basic plans to **AED 12,000+** for comprehensive cover, with maternity and emergency cover included in the page's at-a-glance description. This is a commercial quote proxy, not an official policy acceptance source. [src-741]
+- **Private-care quality proxy**: Numbeo's UAE healthcare page gives a healthcare system index of **70.79**, useful as a medium-confidence private/public quality proxy. Use Dubai/Abu Dhabi as the first healthcare-service bases and Sharjah as the budget base only after checking provider networks and commute-to-care practicality. [src-740]
+- **Doctor-cost proxy**: Livingcost reports doctor-visit proxies of about **USD 75.5** in Dubai, **USD 79.6** in Abu Dhabi, and **USD 47.1** in Sharjah. These support first-pass clinic budgeting but are not insurance premiums or maternity quotes. [src-605][src-606][src-607]
 
-> **DoD**: kindergarten cost; public school quality for foreign kids; international school alternative with cost.
+#### Pregnancy, newborn, and screening verdict
 
-[verification required]
+- **Maternity/newborn**: Policybazaar states maternity benefits can include prenatal/postnatal care, delivery expenses, and newborn healthcare, but this pass did not capture plan-specific waiting periods, sublimits, exclusions, or accepted dependent/newborn enrollment rules. Treat pregnancy as a before-filing insurance quote requirement. [src-741]
+- **Healthcare verdict**: UAE healthcare is not a screening deal-breaker if the couple can afford private cover and bases near Dubai/Abu Dhabi/Sharjah networks. Section 5.6 remains partial because exact immigration-accepted wording, two-adult premiums, maternity/newborn terms, and public/private onboarding are application-critical and still uncaptured.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-20, dod: passed}
+
+> **DoD status**: Passed for first-pass screening at medium confidence. Public/private school structure, daycare/preschool proxies, and international-school alternatives are captured. Exact school admissions documents for foreign children, private-nursery quotes, registration/deposit/transport/meal costs, waiting lists, and final school-zone choices remain application-prep / final-city checks (`vq-165`).
+
+#### Public school and language baseline
+
+Scholaro's UAE education-system profile describes six years of compulsory primary education followed by three years of compulsory preparatory/middle education; it also says education is a top priority and public provision is extensive. For this couple's future child, treat the public-school path as **Arabic/English integration work and emirate-specific eligibility checking**, not an automatic free English-first route for expatriates. [src-742]
+
+#### Cost and international alternatives
+
+| Option / city | Cost proxy | Planning implication |
+|---|---:|---|
+| Daycare or preschool, Dubai | about USD 829/month | Very high for a one-income USD 3,000/month household; only workable with higher income, cheap rent, or a short bridge horizon. [src-605] |
+| Daycare or preschool, Abu Dhabi | about USD 649/month | Still a major monthly cost; combine with Abu Dhabi rent pressure before choosing the capital. [src-606] |
+| Daycare or preschool, Sharjah | about USD 292/month | First affordability screen, but provider quality, commute, language mix, and school transport need live checks. [src-607] |
+| International primary-school proxy | Dubai about USD 16,876/year; Abu Dhabi about USD 13,889/year; Sharjah about USD 7,922/year | International schooling can consume roughly USD 660-1,406/month before registration, transport, uniform, and meal costs. [src-605][src-606][src-607] |
+| International Schools Database | 191 schools in Dubai-Sharjah-Ajman and 72 in Abu Dhabi; many English-language options | Supply is strong, especially in Dubai/Abu Dhabi, but fee ranges are broad and school choice is budget-defining. [src-743] |
+| Sample ISD fee ranges | Dubai/Sharjah examples in extracted page range from about AED 7,828-86,815/year; Abu Dhabi examples include about AED 15,300-36,230/year and other higher-cost schools | Useful for confirming real market spread; exact target-school fee schedules remain final-city checks. [src-743] |
+
+#### Education verdict
+
+For screening, UAE education is available and deep in Dubai/Abu Dhabi, but the likely English/international-school path is expensive for a one-income couple. Sharjah improves the daycare and school-cost screen, yet the family must verify transport, curriculum, admissions age, deposits, waiting lists, and whether a residence/lease in one emirate affects access to preferred schools in another.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -181,6 +208,7 @@ schema_version: 2.0.0
 - **Realism of staying after 03.2027**: Medium-low for settlement; medium as a renewable bridge if income qualifies.
 - **Tax fit at USD 3,000/month**: Strong for screening; likely near-zero UAE tax before non-tax costs, but threshold monitoring is needed if income grows or a UAE company/free-zone structure is used. [src-462][src-464]
 - **Cost/rent fit at USD 3,000/month**: Weak in Dubai / Abu Dhabi without higher income; Sharjah or another cheaper emirate is the first affordability screen, but the UAE remains a one-income-margin-risk country once health insurance, residence fees, deposits, and summer utilities are included. [src-604][src-605][src-606][src-607]
+- **Healthcare/education fit**: Healthcare and education are strong in absolute availability but expensive in private-market practice. Private insurance is mandatory for the residence file, and English/international schooling can become a major budget breaker; Sharjah is the first affordability screen for daycare/school costs. [src-244][src-741][src-743]
 
 **Pros**:
 - Official self-sponsored virtual-work route for foreign remote work. [src-244]
@@ -276,12 +304,20 @@ _(none yet)_
 - [src-605] Livingcost - Cost of living in Dubai
 - [src-606] Livingcost - Cost of living in Abu Dhabi
 - [src-607] Livingcost - Cost of living in Sharjah
+- [src-740] Numbeo - Health Care in United Arab Emirates
+- [src-741] Policybazaar UAE - Health Insurance in Dubai & UAE
+- [src-742] Scholaro - Education System in the United Arab Emirates
+- [src-743] International Schools Database - Dubai-Sharjah-Ajman and Abu Dhabi
 
 ### 7e. Application-prep checks
 - Official UAE nationality-selector confirmation for Ukrainian passports before travel.
 - Full virtual-work residence-permit issuance checklist after entry, including medical test, Emirates ID, dependent-document details, and final fees.
 - Live rental listings and lease mechanics: Bayut / Property Finder / Dubizzle prices, deposit, agency fee, chiller and utility setup, Ejari/Tawtheeq registration, landlord document support, and housing requirements for family sponsorship.
+- Health insurance: exact virtual-work / family-dependent accepted wording, two-adult premiums, maternity/newborn terms, public/private onboarding, and city provider prices (`vq-164`).
+- Education: exact international-school/nursery fee schedules, registration deposits, transport/meals, admissions documents, waiting lists, and cross-emirate school access (`vq-165`).
 
-## Block 8 - Claims
+## Block 8 - Claims and open verification
 
 See `claims/uae.yml` for atomic claims added in this pass.
+
+Open application-prep verification items: `vq-164` (health insurance/onboarding/provider prices) and `vq-165` (school/nursery fees and admissions details).

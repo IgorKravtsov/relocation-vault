@@ -120,6 +120,26 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-20 (run-163)
 - **Status**: pending
 
+## vq-164 [medium priority]
+- **Fact**: "UAE exact virtual-work / family-dependent accepted health-insurance policy wording, current quotes for two young adults, maternity/newborn exclusions and waiting periods, public/private onboarding by emirate / residence / tax status, and Dubai / Abu Dhabi / Sharjah GP, pediatric, maternity, and clinic prices"
+- **Country**: UAE
+- **Section**: 5.6
+- **Current source**: src-244, src-605, src-606, src-607, src-740, src-741
+- **Why uncertain**: This healthcare pass captured the residence-file insurance requirement, commercial premium range, healthcare-quality proxy, and doctor-visit proxies, but did not capture accepted policy wording, current two-adult quotes, maternity/newborn terms, final-status public/private onboarding, or selected-city provider prices.
+- **Suggested verification**: Get two to three UAE-covering private insurance quotes for two young adults, maternity/newborn terms, GDRFA/ICP or broker confirmation of accepted policy wording for virtual-work/family sponsorship, public/private onboarding by emirate, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-20 (run-164)
+- **Status**: pending
+
+## vq-165 [medium priority]
+- **Fact**: "UAE exact international-school and nursery tuition, registration fees, deposits, transport/meal costs, waiting lists, foreign-child public-school enrollment documents, and cross-emirate access constraints for Dubai / Abu Dhabi / Sharjah"
+- **Country**: UAE
+- **Section**: 5.7
+- **Current source**: src-605, src-606, src-607, src-742, src-743
+- **Why uncertain**: This education pass captured public-school structure, daycare/preschool and international-primary cost proxies, and international-school supply in Dubai-Sharjah-Ajman and Abu Dhabi, but did not capture exact current school fee schedules, private-nursery quotes, admissions deposits, meals/transport, waiting lists, public enrollment steps for foreign children, or cross-emirate access rules.
+- **Suggested verification**: Get current fee schedules and admissions terms for selected Dubai/Abu Dhabi/Sharjah schools and nurseries, registration/deposit/transport/meal costs, public-school enrollment document requirements for foreign children, waiting-list timing, and any school-access limits tied to emirate of residence.
+- **Created**: 2026-06-20 (run-164)
+- **Status**: pending
+
 ## vq-141 [medium priority]
 - **Fact**: "Uruguay private health-insurance quotes, maternity/newborn terms, exact FONASA/ASSE/mutualista onboarding by residence/self-employed status, and selected-city private GP/pediatric/maternity prices"
 - **Country**: Uruguay

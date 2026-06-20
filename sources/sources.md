@@ -8909,3 +8909,52 @@ Each source entry:
 - **Facts supporting**: UWC Dilijan fee baseline: USD 88,000 for the two-year IBDP from 2026/27, included items, excluded travel/pocket-money/holiday costs, and USD 300 deposit (claim-armenia-018)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-20
+
+
+## src-740
+- **Title**: Numbeo - Health Care in United Arab Emirates
+- **URL**: https://www.numbeo.com/health-care/country_result.jsp?country=United+Arab+Emirates
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: current crowd-sourced survey page, no single publication date captured
+- **Date accessed**: 2026-06-20
+- **Used by**: UAE
+- **Facts supporting**: UAE healthcare system index and private/public healthcare quality proxy; used with Livingcost doctor-visit proxies for the screening baseline (claim-uae-014)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-20
+
+## src-741
+- **Title**: Policybazaar UAE - Health Insurance in Dubai & UAE
+- **URL**: https://www.policybazaar.ae/health-insurance/
+- **Archive**: direct HTML extraction used from public commercial page
+- **Type**: commercial
+- **Date published**: 2026-06-17 page update shown in extracted text
+- **Date accessed**: 2026-06-20
+- **Used by**: UAE
+- **Facts supporting**: UAE resident health-insurance mandatory baseline, broad basic-to-comprehensive premium proxy, and maternity/emergency coverage caveat (claim-uae-015)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-20
+
+## src-742
+- **Title**: Scholaro - Education System in the United Arab Emirates
+- **URL**: https://www.scholaro.com/db/Countries/United-Arab-Emirates/Education-System
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-20
+- **Used by**: UAE
+- **Facts supporting**: UAE public-school structure baseline, compulsory primary/preparatory years, and public-school integration planning caveat (claim-uae-016)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-20
+
+## src-743
+- **Title**: International Schools Database - Dubai-Sharjah-Ajman and Abu Dhabi
+- **URL**: https://www.international-schools-database.com/in/dubai ; https://www.international-schools-database.com/in/abu-dhabi
+- **Archive**: direct HTML extraction used from public school-list pages
+- **Type**: commercial
+- **Date published**: current public pages, no single publication date captured; extracted fee rows include 2025/2026 and 2026/2027 labels
+- **Date accessed**: 2026-06-20
+- **Used by**: UAE
+- **Facts supporting**: international-school supply in Dubai-Sharjah-Ajman and Abu Dhabi, English-language availability, and selected fee-range examples; used with Livingcost childcare/school proxies (claim-uae-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-20

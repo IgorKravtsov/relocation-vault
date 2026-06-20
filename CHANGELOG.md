@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-20
 ---
 
+## 2026-06-20 — run-164 — UAE healthcare/education
+
+- Added UAE first-pass healthcare and education coverage for sections 5.6 and 5.7.
+- Added four sources (`src-740` through `src-743`) and four UAE claims (`claim-uae-014` through `claim-uae-017`).
+- UAE section 5.7 moved to completed, section 5.6 moved to partial, depth_score moved from 4.5 to 6.0, and two application-prep verification items (`vq-164`, `vq-165`) were added; pending/open queue reached the verification threshold.
+
 ## 2026-06-20 — run-163 — Armenia healthcare/education
 
 - Added Armenia first-pass healthcare and education coverage for sections 5.6 and 5.7.

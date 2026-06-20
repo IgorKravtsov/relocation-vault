@@ -116,3 +116,40 @@
   confidence: medium
   tags: [cost-of-living, rent, sharjah, affordability-fallback]
   notes: "Sharjah is the first UAE affordability screen, but commute, lease-registration, and residence-document fit need live checks."
+
+
+- id: claim-uae-014
+  topic: healthcare_quality_and_doctor_cost_proxy
+  value: "Numbeo gives the UAE a healthcare system index of 70.79; Livingcost doctor-visit proxies are about USD 75.5 in Dubai, USD 79.6 in Abu Dhabi, and USD 47.1 in Sharjah."
+  source: src-740
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [healthcare, private-care, doctor-cost, dubai, abu-dhabi, sharjah]
+  notes: "Doctor-visit values are supported by city Livingcost sources src-605 through src-607; use for first-pass clinic budgeting only."
+
+- id: claim-uae-015
+  topic: health_insurance_resident_premium_proxy
+  value: "Policybazaar states health insurance is mandatory for UAE residents and gives a broad premium range from about AED 340/year for basic plans to AED 12,000+ for comprehensive cover."
+  source: src-741
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [health-insurance, residence, premiums, maternity]
+  notes: "Commercial quote proxy only; exact virtual-work accepted policy wording, dependent cover, maternity/newborn terms, and emirate-specific rules remain application-prep checks."
+
+- id: claim-uae-016
+  topic: education_system_public_school_structure
+  value: "Scholaro describes UAE primary education as six compulsory years followed by three compulsory preparatory/middle years, with education a national priority."
+  source: src-742
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [education, public-school, primary, compulsory]
+  notes: "Use as a structure baseline only; public-school eligibility, language, fees, and admissions documents for expatriate children need final-city checks."
+
+- id: claim-uae-017
+  topic: international_school_and_childcare_cost_screen
+  value: "International Schools Database lists 191 schools in Dubai-Sharjah-Ajman and 72 in Abu Dhabi; Livingcost proxies put daycare/preschool at about USD 829 in Dubai, USD 649 in Abu Dhabi, and USD 292 in Sharjah, with international primary-school proxies of about USD 16,876/year, USD 13,889/year, and USD 7,922/year respectively."
+  source: src-743
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [education, international-school, daycare, preschool, budget, dubai, abu-dhabi, sharjah]
+  notes: "Livingcost city sources src-605 through src-607 support the cost proxies; exact target-school fees and admissions costs remain application-prep checks."
