@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["ordinary-trp-not-settlement", "dn-route-secondary-sourced", "pr-citizenship-ladder-unclear", "cold-continental-winters", "kazakhstan-foreign-client-tax-structure-gap", "almaty-rent-pressure", "kazakhstan-one-income-margin-risk", "kazakhstan-private-insurance-gap", "kazakhstan-international-school-cost-risk"]
 sources_used: ["src-267", "src-268", "src-269", "src-270", "src-271", "src-272", "src-273", "src-482", "src-483", "src-484", "src-485", "src-486", "src-595", "src-596", "src-597", "src-598", "src-599", "src-732", "src-733", "src-734", "src-735"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -163,7 +163,7 @@ Rent verdict: Kazakhstan's rent problem is not national affordability; it is **c
 
 ### 5.6. Healthcare {status: partial, depth: 0.5, last_updated: 2026-06-20, dod: partial}
 
-> **DoD status**: partial. This pass captures the official MSHI/SFMA eligibility baseline, a private-care quality proxy, and first-pass doctor-visit cost screening. It does not capture Neo Nomad/TRP-accepted insurance wording, two-adult premium quotes, maternity/newborn terms, or final-status public-system onboarding, so `vq-160` remains an application-prep blocker.
+> **DoD status**: partial. This pass captures the official MSHI/SFMA eligibility baseline, a private-care quality proxy, and first-pass doctor-visit cost screening. It does not capture Neo Nomad/TRP-accepted insurance wording, two-adult premium quotes, maternity/newborn terms, or final-status public-system onboarding, so `vq-160` is resolved for country screening while the exact insurance/onboarding details remain application-prep checks.
 
 Kazakhstan's eGov MSHI page says state-guaranteed free medical assistance is provided to Kazakhstan citizens, candas, refugees, foreigners permanently residing in Kazakhstan with a residence permit, and stateless persons permanently residing with a residence permit. Foreigners and stateless persons temporarily staying in Kazakhstan, plus asylum seekers, have the right to free medical care for diseases that pose a danger to others; eGov separately frames MSHI as the mandatory insurance system. For this couple, the safe planning baseline is: do **not** assume full public-system access while scouting visa-free or before the final TRP / Neo Nomad / residence status is mapped to MSHI eligibility. [src-732]
 
@@ -182,7 +182,7 @@ Healthcare verdict: Kazakhstan is **screenable but not closed** for healthcare. 
 
 ### 5.7. Education (future child) {status: completed, depth: 1, last_updated: 2026-06-20, dod: passed}
 
-> **DoD status**: passed for first-pass screening at medium confidence. Public-school structure/language is covered by a secondary education-system source, kindergarten/daycare and international primary-school costs are covered by Livingcost proxies, and international-school alternatives are captured for Almaty and Astana. Exact admissions, registration fees, deposits, meals/transport, waiting lists, and non-Almaty/Astana English options remain `vq-161` application-prep checks.
+> **DoD status**: passed for first-pass screening at medium confidence. Public-school structure/language is covered by a secondary education-system source, kindergarten/daycare and international primary-school costs are covered by Livingcost proxies, and international-school alternatives are captured for Almaty and Astana. Exact admissions, registration fees, deposits, meals/transport, waiting lists, and non-Almaty/Astana English options remain application-prep checks (`vq-161`, resolved for screening in run-165).
 
 Scholaro's Kazakhstan education-system profile says schooling is mandatory, primary school starts at about age 6, the Ministry of Education prescribes the curriculum for both private and public schools, and lower secondary continues through grade 9. The general curriculum includes Russian or Kazakh depending on location plus core academic subjects and a foreign language. For a future child, the practical baseline is that public/local schooling is possible but language-heavy; it may work for a young child with enough integration time, but it is not an English-language plug-and-play option. [src-734]
 
@@ -305,7 +305,7 @@ For screening, education does not disqualify Kazakhstan, but it reinforces the c
 | Flights for two | — | [verification required] |
 | Rental deposit | — | Live lease practice [verification required]; use 1-2 months' rent as a later budget stress test until verified. |
 | First month rent | USD 142-649 | Livingcost 40 m2 proxy range across Shymkent cheap 1BR to Almaty central 1BR; use city-specific lease checks before application. [src-596][src-598] |
-| Health insurance (one year) | — | Neo Nomad secondary baseline requires insurance; exact accepted policy wording and two-adult quotes remain `vq-160`; do not assume full MSHI access until final status is confirmed. [src-732] |
+| Health insurance (one year) | — | Neo Nomad secondary baseline requires insurance; exact accepted policy wording and two-adult quotes remain application-prep checks (`vq-160`, resolved for screening in run-165); do not assume full MSHI access until final status is confirmed. [src-732] |
 | Immigration lawyer fees | — | [verification required] |
 | Buffer / contingencies | — | [verification required] |
 | **Total** | — | |
@@ -350,8 +350,8 @@ _(none yet)_
 - [src-735] International Schools Database Kazakhstan / Almaty / Astana school and fee listings.
 
 ### 7e. Not found
-- Exact E33G-style/Neo Nomad or TRP-accepted private-insurance wording, two-adult premiums, maternity/newborn terms, MSHI onboarding by final status, and city provider prices remain `vq-160`.
-- Exact international-school admissions fees, deposits, meals/transport, private-preschool quotes, waiting lists, and English/bilingual availability outside Almaty/Astana remain `vq-161`.
+- Exact E33G-style/Neo Nomad or TRP-accepted private-insurance wording, two-adult premiums, maternity/newborn terms, MSHI onboarding by final status, and city provider prices remain application-prep checks (`vq-160`, resolved for screening in run-165).
+- Exact international-school admissions fees, deposits, meals/transport, private-preschool quotes, waiting lists, and English/bilingual availability outside Almaty/Astana remain application-prep checks (`vq-161`, resolved for screening in run-165).
 - Exact official Neo Nomad checklist / visa category / family mechanics remain needed only before application or if Kazakhstan becomes a serious bridge candidate.
 - Exact business-immigrant TRP checklist and PR/citizenship counting remain later specialist checks; safe screening baseline is no proven lightweight foreign-client IT settlement route.
 - Live rental listings, deposits/agency fees, foreigner lease acceptance, registered-address support, utilities seasonality, and city-level healthcare/service-depth checks remain later practical-budget work.
@@ -362,5 +362,5 @@ _(none yet)_
 - `vq-084` - resolved 2026-06-05 (run-052): captured TRP/business-immigrant evidence does not prove a lightweight foreign-client IT route; require real business/counsel file.
 - `vq-085` - resolved 2026-06-05 (run-052): no captured PR/citizenship ladder for TRP / Neo Nomad / foreign-client IT; citizenship carries dual-nationality risk.
 - `vq-118` resolved for screening in run-100: use Kazakhstan PIT-only plus contribution stress-test modelling as the baseline; exact IE / Neo Nomad / TRP registration, contribution, VAT/place-of-supply, e-invoice, and status fit is application-prep/adviser work.
-- `vq-160` added in run-162: exact private-insurance wording, two-adult quotes, maternity/newborn terms, MSHI onboarding, and city provider prices.
-- `vq-161` added in run-162: exact school fees, admissions costs, private preschool, waiting lists, and English/bilingual options outside Almaty/Astana.
+- `vq-160` resolved for screening in run-165: use the MSHI/SFMA eligibility and private-care cost/quality baseline for country screening; exact private-insurance wording, two-adult quotes, maternity/newborn terms, MSHI onboarding, and city provider prices remain application-prep checks.
+- `vq-161` resolved for screening in run-165: education is screenable from public Kazakh/Russian schooling and Almaty/Astana international-school examples; exact school fees, admissions costs, private preschool, waiting lists, and English/bilingual options outside Almaty/Astana remain application-prep/final-city checks.

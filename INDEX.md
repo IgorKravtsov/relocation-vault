@@ -37,12 +37,12 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Panama | latin-america | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 156 | `countries/panama.md` |
 | Mexico | latin-america | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 159 | `countries/mexico.md` |
 | Argentina | latin-america | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 159 | `countries/argentina.md` |
-| UAE | middle-east-asia | 3 | — | 6.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7; partial: 5.1, 5.6 | 164 | `countries/uae.md` |
+| UAE | middle-east-asia | 3 | — | 6.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7; partial: 5.1, 5.6 | 165 | `countries/uae.md` |
 | Malaysia | middle-east-asia | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 159 | `countries/malaysia.md` |
-| Thailand | middle-east-asia | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 160 | `countries/thailand.md` |
-| Indonesia | middle-east-asia | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 161 | `countries/indonesia.md` |
-| Kazakhstan | post-ussr | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 162 | `countries/kazakhstan.md` |
-| Armenia | post-ussr | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 163 | `countries/armenia.md` |
+| Thailand | middle-east-asia | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 165 | `countries/thailand.md` |
+| Indonesia | middle-east-asia | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 165 | `countries/indonesia.md` |
+| Kazakhstan | post-ussr | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 165 | `countries/kazakhstan.md` |
+| Armenia | post-ussr | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 165 | `countries/armenia.md` |
 
 ## Summary
 

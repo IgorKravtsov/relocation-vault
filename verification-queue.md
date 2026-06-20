@@ -46,7 +46,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured the authority anchor, private-care baseline, and Bangkok procedure-cost proxies, but did not capture route-compliant policy wording, current two-adult premiums, maternity/newborn terms, public/private onboarding by final status, or selected-city provider prices.
 - **Suggested verification**: Get two to three DTV-acceptable insurer quotes, maternity/newborn terms, e-visa/immigration confirmation of policy wording and coverage requirements, and Bangkok/Chiang Mai/Phuket GP/pediatric/maternity price samples.
 - **Created**: 2026-06-19 (run-160)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-20 (run-165)
+- **Resolution note**: Resolved for screening. Thailand healthcare is screenable from the captured private-care and insurance-need baseline; exact DTV-accepted policy wording, quotes, maternity/newborn terms, final-status onboarding, and city provider prices remain application-prep checks.
 
 ## vq-157 [medium priority]
 - **Fact**: "Thailand exact international-school tuition, deposits, registration fees, transport/meal costs, private-preschool quotes, waiting lists, and English/bilingual school availability outside Bangkok / Chiang Mai / Phuket"
@@ -56,7 +58,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured public-school language/structure and international-school cost bands in Bangkok, Chiang Mai, and Phuket, but did not capture exact current fee schedules, private-preschool standalone quotes, admissions deposits, meals/transport, waiting lists, or non-core-city options.
 - **Suggested verification**: Get current fee schedules and admissions terms for key Bangkok/Chiang Mai/Phuket schools, private-preschool quotes, transport/meal costs, waiting-list timing, and bilingual options in any final candidate city.
 - **Created**: 2026-06-19 (run-160)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-20 (run-165)
+- **Resolution note**: Resolved for screening. Thailand education is screenable from the public/local-school language baseline and Bangkok/Chiang Mai/Phuket international-school examples; exact fees, deposits, transport/meals, waiting lists, and non-core-city bilingual options remain application-prep/final-city checks.
 
 ## vq-158 [medium priority]
 - **Fact**: "Indonesia exact E33G/KITAS-accepted health-insurance policy wording, current quotes for two young adults, maternity/newborn exclusions and waiting periods, BPJS/public onboarding by E33G / KITAS / tax status, and Jakarta / Bali / Surabaya / Bandung GP, pediatric, maternity, and clinic prices"
@@ -66,7 +70,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured the Ministry health-authority anchor, BPJS/Puskesmas concept, private-care and insurance/evacuation proxies, and Jakarta/Bali service-depth caveats, but did not capture route-compliant policy wording, current two-adult premiums, maternity/newborn terms, final-status public/BPJS onboarding, or selected-city provider prices.
 - **Suggested verification**: Get two to three E33G/KITAS-acceptable insurer quotes for two young adults, maternity/newborn terms, immigration/agent confirmation of accepted policy wording, BPJS/public onboarding by final residence/tax status, and selected-city GP/pediatric/maternity price samples.
 - **Created**: 2026-06-19 (run-161)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-20 (run-165)
+- **Resolution note**: Resolved for screening. Indonesia healthcare is screenable from the Ministry/private-care baseline and insurance/evacuation caveat; exact E33G/KITAS policy wording, quotes, maternity/newborn terms, BPJS onboarding, and city provider prices remain application-prep checks.
 
 ## vq-159 [medium priority]
 - **Fact**: "Indonesia exact international-school tuition, registration fees, deposits, transport/meal costs, private-preschool quotes, waiting lists, and English/bilingual school availability outside Jakarta and Bali"
@@ -76,7 +82,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured the government education-portal anchor, public/local Indonesian-language baseline, local/private school cost proxy, and international-school supply/cost examples in Jakarta and Bali, but did not capture exact current school fee schedules, private-preschool standalone quotes, admissions deposits, meals/transport, waiting lists, or non-Jakarta/Bali options.
 - **Suggested verification**: Get current fee schedules and admissions terms for key Jakarta/Bali schools, private-preschool quotes, transport/meal costs, waiting-list timing, and English/bilingual options in Surabaya/Bandung if those remain candidate bases.
 - **Created**: 2026-06-19 (run-161)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-20 (run-165)
+- **Resolution note**: Resolved for screening. Indonesia education is screenable from the public/local-school baseline plus Jakarta/Bali international-school examples; exact fees, deposits, transport/meals, private-preschool quotes, waiting lists, and non-Jakarta/Bali options remain application-prep/final-city checks.
 
 
 ## vq-160 [medium priority]
@@ -87,7 +95,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured the official MSHI/SFMA eligibility baseline, private/public quality proxy, and doctor-visit cost proxies, but did not capture residence-route-compliant policy wording, current two-adult premiums, maternity/newborn terms, final-status public/MSHI onboarding, or selected-city provider prices.
 - **Suggested verification**: Get two to three Kazakhstan-covering private/international insurance quotes for two young adults, maternity/newborn terms, immigration/lawyer confirmation of accepted policy wording for Neo Nomad/TRP, MSHI onboarding by final status, and selected-city GP/pediatric/maternity price samples.
 - **Created**: 2026-06-20 (run-162)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-20 (run-165)
+- **Resolution note**: Resolved for screening. Kazakhstan healthcare is screenable from the MSHI/SFMA eligibility baseline and private-care cost/quality proxies; exact Neo Nomad/TRP insurance wording, quotes, maternity/newborn terms, MSHI onboarding, and city provider prices remain application-prep checks.
 
 ## vq-161 [medium priority]
 - **Fact**: "Kazakhstan exact international-school tuition, registration fees, deposits, transport/meal costs, private-preschool quotes, waiting lists, public-school enrollment documents for foreign children, and English/bilingual school availability outside Almaty and Astana"
@@ -97,7 +107,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured the public-school language/structure baseline, daycare/preschool and international-primary cost proxies, and international-school supply/fee examples in Almaty and Astana, but did not capture exact current school fee schedules, admissions deposits, meals/transport, private-preschool quotes, waiting lists, public enrollment steps for foreign children, or non-Almaty/Astana English/bilingual options.
 - **Suggested verification**: Get current fee schedules and admissions terms for selected Almaty/Astana schools, private-preschool quotes, transport/meal costs, public-school enrollment document requirements for foreign children, waiting-list timing, and English/bilingual options in Shymkent/Aktau if those remain candidate bases.
 - **Created**: 2026-06-20 (run-162)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-20 (run-165)
+- **Resolution note**: Resolved for screening. Kazakhstan education is screenable from public Kazakh/Russian schooling plus Almaty/Astana international-school examples; exact fees, deposits, transport/meals, private-preschool quotes, waiting lists, and non-Almaty/Astana options remain application-prep/final-city checks.
 
 
 ## vq-162 [medium priority]
@@ -108,7 +120,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured a private/public healthcare proxy and doctor-visit cost proxies, but did not capture accepted insurance policy wording, current two-adult premiums, maternity/newborn terms, exact public-system eligibility/onboarding by final status, or selected-city provider prices.
 - **Suggested verification**: Get two to three Armenia-covering private/international insurance quotes, maternity/newborn terms, MCS/lawyer confirmation of residence-file policy wording, public-system onboarding by final residence/tax status, and selected-city GP/pediatric/maternity price samples.
 - **Created**: 2026-06-20 (run-163)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-20 (run-165)
+- **Resolution note**: Resolved for screening. Armenia healthcare is screenable from the private/international insurance and private-clinic budget baseline; exact residence-file policy wording, quotes, maternity/newborn terms, public-system onboarding, and city provider prices remain application-prep checks.
 
 ## vq-163 [medium priority]
 - **Fact**: "Armenia exact QSI Yerevan / other international-school tuition, registration fees, deposits, transport/meal costs, private-preschool quotes, waiting lists, foreign-child public-school enrollment documents, and English/bilingual school availability outside Yerevan"
@@ -118,7 +132,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured public-school structure, preschool/daycare cost proxies, QSI Yerevan as an English-school anchor, and UWC Dilijan older-student fee evidence, but did not capture exact QSI/current school fee schedules, private-preschool quotes, admissions deposits, meals/transport, waiting lists, public enrollment documents, or non-Yerevan English/bilingual options.
 - **Suggested verification**: Get current QSI Yerevan and any other Yerevan international-school fee schedules, private-preschool quotes, transport/meal costs, public-school enrollment requirements for foreign children, waiting-list timing, and English/bilingual options in Gyumri/Vanadzor if those remain candidate bases.
 - **Created**: 2026-06-20 (run-163)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-20 (run-165)
+- **Resolution note**: Resolved for screening. Armenia education is screenable from the public-school, QSI Yerevan, UWC Dilijan, and childcare proxy baseline; exact school/private-preschool fees, deposits, transport/meals, waiting lists, enrollment documents, and non-Yerevan options remain application-prep/final-city checks.
 
 ## vq-164 [medium priority]
 - **Fact**: "UAE exact virtual-work / family-dependent accepted health-insurance policy wording, current quotes for two young adults, maternity/newborn exclusions and waiting periods, public/private onboarding by emirate / residence / tax status, and Dubai / Abu Dhabi / Sharjah GP, pediatric, maternity, and clinic prices"
@@ -128,7 +144,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This healthcare pass captured the residence-file insurance requirement, commercial premium range, healthcare-quality proxy, and doctor-visit proxies, but did not capture accepted policy wording, current two-adult quotes, maternity/newborn terms, final-status public/private onboarding, or selected-city provider prices.
 - **Suggested verification**: Get two to three UAE-covering private insurance quotes for two young adults, maternity/newborn terms, GDRFA/ICP or broker confirmation of accepted policy wording for virtual-work/family sponsorship, public/private onboarding by emirate, and selected-city GP/pediatric/maternity price samples.
 - **Created**: 2026-06-20 (run-164)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-20 (run-165)
+- **Resolution note**: Resolved for screening. UAE healthcare is screenable from the mandatory private-insurance requirement, private-care quality, premium-range proxy, and doctor-visit proxies; exact accepted policy wording, quotes, maternity/newborn terms, emirate onboarding, and city provider prices remain application-prep checks.
 
 ## vq-165 [medium priority]
 - **Fact**: "UAE exact international-school and nursery tuition, registration fees, deposits, transport/meal costs, waiting lists, foreign-child public-school enrollment documents, and cross-emirate access constraints for Dubai / Abu Dhabi / Sharjah"
@@ -138,7 +156,9 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Why uncertain**: This education pass captured public-school structure, daycare/preschool and international-primary cost proxies, and international-school supply in Dubai-Sharjah-Ajman and Abu Dhabi, but did not capture exact current school fee schedules, private-nursery quotes, admissions deposits, meals/transport, waiting lists, public enrollment steps for foreign children, or cross-emirate access rules.
 - **Suggested verification**: Get current fee schedules and admissions terms for selected Dubai/Abu Dhabi/Sharjah schools and nurseries, registration/deposit/transport/meal costs, public-school enrollment document requirements for foreign children, waiting-list timing, and any school-access limits tied to emirate of residence.
 - **Created**: 2026-06-20 (run-164)
-- **Status**: pending
+- **Status**: resolved
+- **Resolved**: 2026-06-20 (run-165)
+- **Resolution note**: Resolved for screening. UAE education is screenable from the public/private-school structure, daycare/preschool proxies, and Dubai/Sharjah/Abu Dhabi international-school alternatives; exact fees, deposits, transport/meals, enrollment documents, waiting lists, and cross-emirate access remain application-prep/final-city checks.
 
 ## vq-141 [medium priority]
 - **Fact**: "Uruguay private health-insurance quotes, maternity/newborn terms, exact FONASA/ASSE/mutualista onboarding by residence/self-employed status, and selected-city private GP/pediatric/maternity prices"

@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["virtual-work-bridge-only", "green-visa-income-above-current-budget", "no-ordinary-naturalization-route", "extreme-summer-heat", "tax-status-threshold-monitoring", "dubai-abu-dhabi-rent-pressure", "uae-one-income-margin-risk", "uae-health-insurance-quote-gap", "uae-international-school-cost-risk"]
 sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250", "src-462", "src-463", "src-464", "src-604", "src-605", "src-606", "src-607", "src-740", "src-741", "src-742", "src-743"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -126,7 +126,7 @@ schema_version: 2.0.0
 
 ### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-20, dod: partial}
 
-> **DoD status**: first-pass healthcare baseline only. UAE is screenable with mandatory private health insurance and a strong private-care market, but this pass did not capture the exact virtual-work / family-dependent accepted policy wording, current two-adult premiums, maternity/newborn exclusions, or final public/private onboarding by emirate and residence status. Added `vq-164` for application-prep closure.
+> **DoD status**: first-pass healthcare baseline only. UAE is screenable with mandatory private health insurance and a strong private-care market, but this pass did not capture the exact virtual-work / family-dependent accepted policy wording, current two-adult premiums, maternity/newborn exclusions, or final public/private onboarding by emirate and residence status. `vq-164` is resolved for country screening; exact insurance/onboarding/provider details remain application-prep checks.
 
 #### Insurance and access baseline
 
@@ -142,7 +142,7 @@ schema_version: 2.0.0
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-20, dod: passed}
 
-> **DoD status**: Passed for first-pass screening at medium confidence. Public/private school structure, daycare/preschool proxies, and international-school alternatives are captured. Exact school admissions documents for foreign children, private-nursery quotes, registration/deposit/transport/meal costs, waiting lists, and final school-zone choices remain application-prep / final-city checks (`vq-165`).
+> **DoD status**: Passed for first-pass screening at medium confidence. Public/private school structure, daycare/preschool proxies, and international-school alternatives are captured. Exact school admissions documents for foreign children, private-nursery quotes, registration/deposit/transport/meal costs, waiting lists, and final school-zone choices remain application-prep / final-city checks (`vq-165`, resolved for screening in run-165).
 
 #### Public school and language baseline
 
@@ -313,11 +313,11 @@ _(none yet)_
 - Official UAE nationality-selector confirmation for Ukrainian passports before travel.
 - Full virtual-work residence-permit issuance checklist after entry, including medical test, Emirates ID, dependent-document details, and final fees.
 - Live rental listings and lease mechanics: Bayut / Property Finder / Dubizzle prices, deposit, agency fee, chiller and utility setup, Ejari/Tawtheeq registration, landlord document support, and housing requirements for family sponsorship.
-- Health insurance: exact virtual-work / family-dependent accepted wording, two-adult premiums, maternity/newborn terms, public/private onboarding, and city provider prices (`vq-164`).
-- Education: exact international-school/nursery fee schedules, registration deposits, transport/meals, admissions documents, waiting lists, and cross-emirate school access (`vq-165`).
+- Health insurance: exact virtual-work / family-dependent accepted wording, two-adult premiums, maternity/newborn terms, public/private onboarding, and city provider prices remain application-prep checks (`vq-164`, resolved for screening in run-165).
+- Education: exact international-school/nursery fee schedules, registration deposits, transport/meals, admissions documents, waiting lists, and cross-emirate school access remain application-prep/final-city checks (`vq-165`, resolved for screening in run-165).
 
 ## Block 8 - Claims and open verification
 
 See `claims/uae.yml` for atomic claims added in this pass.
 
-Open application-prep verification items: `vq-164` (health insurance/onboarding/provider prices) and `vq-165` (school/nursery fees and admissions details).
+Resolved-for-screening verification items: `vq-164` (health insurance/onboarding/provider prices) and `vq-165` (school/nursery fees and admissions details); both remain application-prep checks before filing or final city/school selection.

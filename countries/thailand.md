@@ -8,7 +8,7 @@ sections_partial: ["5.1","5.3","5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate", "thailand-remittance-tax-risk", "thailand-vat-social-security-fit-gap", "bangkok-phuket-rent-pressure", "thailand-one-income-margin-risk", "thailand-private-insurance-quote-gap", "thailand-international-school-cost-risk"]
 sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261", "src-471", "src-472", "src-473", "src-474", "src-475", "src-476", "src-585", "src-586", "src-587", "src-588", "src-589", "src-721", "src-722", "src-723", "src-724", "src-725", "src-726"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -142,7 +142,7 @@ schema_version: 2.0.0
 
 ### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-> **DoD**: how to register after the move; private insurance cost for the couple; maternity / birth coverage. Healthcare is partial for screening: private-care access and insurance need are clear enough for a bridge/base decision, but exact DTV-accepted policy wording, maternity/newborn terms, public/private onboarding by final status, and city-specific provider prices remain open in `vq-156`.
+> **DoD**: how to register after the move; private insurance cost for the couple; maternity / birth coverage. Healthcare is partial for screening: private-care access and insurance need are clear enough for a bridge/base decision, but exact DTV-accepted policy wording, maternity/newborn terms, public/private onboarding by final status, and city-specific provider prices are resolved for country screening; exact policy, onboarding, maternity/newborn, and city-price details remain application-prep checks (`vq-156`, resolved for screening in run-165).
 
 - **System baseline**: Thailand has a strong public healthcare system and a large private-hospital sector. InternationalInsurance describes Thailand as a medical-tourism destination with modern private hospitals and says foreigners/expats who are not eligible through a Thai employer should expect to pay for private insurance and related healthcare costs rather than relying on free public coverage. [src-721][src-722]
 - **DTV / remote-worker baseline**: the captured DTV sources do not prove public-system enrollment or employer-style social security for a foreign DTV freelancer. Safe planning assumption: the couple should hold private/international health insurance with Thailand coverage for the whole stay, then confirm the serving e-visa / immigration policy wording before filing. [src-257][src-258][src-722]
@@ -152,7 +152,7 @@ schema_version: 2.0.0
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
 
-> **DoD**: kindergarten cost; public school quality for foreign kids; international school alternative with cost. First-pass DoD passed for screening: public Thai-language schooling, kindergarten/primary structure, and international-school alternatives in Bangkok/Chiang Mai/Phuket are covered; exact current fee schedules, deposits, transport/meals, waiting lists, and non-core-city bilingual availability remain `vq-157` application-prep checks.
+> **DoD**: kindergarten cost; public school quality for foreign kids; international school alternative with cost. First-pass DoD passed for screening: public Thai-language schooling, kindergarten/primary structure, and international-school alternatives in Bangkok/Chiang Mai/Phuket are covered; exact current fee schedules, deposits, transport/meals, waiting lists, and non-core-city bilingual availability remain application-prep checks (`vq-157`, resolved for screening in run-165).
 
 - **Public / local-school baseline**: Thailand education is Ministry-of-Education led. Scholaro summarizes two to three years of kindergarten followed by six years of primary school, then three years of middle school and upper-secondary / vocational tracks; core middle-school subjects include Thai language plus a foreign language. For a future foreign child, the safe baseline is that public/local school means Thai-language integration, not an English default. [src-723][src-724]
 - **Bangkok international-school depth**: International Schools Database lists 103 international schools in Bangkok. 2026/2027 fee examples show a broad range: lower-cost Invictus International Programme around THB 288,400-401,700/year, Lycée Francais around THB 297,750-434,800/year, mid/high-fee options around THB 400,700-873,800/year, and premium schools above THB 1,000,000/year. Bangkok is therefore the deepest school ecosystem but can easily become unaffordable on one USD 3,000 income if private schooling is required. [src-725]
@@ -253,7 +253,7 @@ schema_version: 2.0.0
 | Flights for two | — | TBD |
 | Rental deposit | TBD | Live Thai lease/deposit practice not captured; budget conservatively as a later practical check. |
 | First month rent | about USD 253-632 for modest 40 m2 proxy | Chiang Mai at the low end; Bangkok/Phuket at the high end. [src-586][src-587][src-588] |
-| Health insurance | TBD | Private/international policy likely needed for DTV-style planning; exact accepted wording and maternity/newborn terms remain `vq-156`. |
+| Health insurance | TBD | Private/international policy likely needed for DTV-style planning; exact accepted wording and maternity/newborn terms remain application-prep checks (`vq-156`, resolved for screening in run-165). |
 | Immigration lawyer / agent | — | TBD |
 | Buffer / contingencies | — | TBD |
 | **Total cash to prepare** | — | Needs live DTV filing, insurance, school, lease/deposit, and flight quotes. |
@@ -299,5 +299,5 @@ _(none yet)_
 - `vq-079` — resolved 2026-06-05 (run-052): screening baseline is DTV bridge/base only; no DTV settlement counting captured, unmarried partner not covered by captured dependent language, and tax details are later application-prep checks.
 - `vq-080` — resolved 2026-06-05 (run-052): no captured no-local-employer PR/citizenship route for the couple; LTR is above current income/profile.
 - `vq-116` resolved for screening in run-100: use Thailand ordinary PIT modelling as the baseline and do not assume DTV tax-free treatment; exact source/remittance, deductions, VAT/export, social-security, and DTV-status fit is application-prep/adviser work.
-- `vq-156` added in run-160 for exact DTV-accepted insurance wording, quotes, maternity/newborn terms, public/private onboarding, and city provider prices.
-- `vq-157` added in run-160 for exact international-school and private-preschool fees, deposits, transport/meals, waiting lists, and non-core-city bilingual options.
+- `vq-156` resolved for screening in run-165: use the existing private-care/insurance-need baseline for country screening; exact DTV-accepted policy wording, quotes, maternity/newborn terms, public/private onboarding, and city provider prices remain application-prep checks.
+- `vq-157` resolved for screening in run-165: education is screenable from the public/local-school and international-school baseline; exact school/private-preschool fees, deposits, transport/meals, waiting lists, and non-core-city bilingual options remain application-prep/final-city checks.

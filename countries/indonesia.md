@@ -8,7 +8,7 @@ sections_partial: ["5.1","5.3","5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["remote-worker-income-above-current-budget","bridge-route-not-settlement","pr-ladder-unclear","hot-humid-rainy-climate","indonesia-tax-residence-worldwide-income-risk","indonesia-vat-bpjs-fit-gap","jakarta-rent-pressure","bali-lease-seasonality-risk","indonesia-health-insurance-evacuation-gap","indonesia-international-school-cost-risk"]
 sources_used: ["src-262","src-263","src-264","src-265","src-266","src-477","src-478","src-479","src-480","src-481","src-590","src-591","src-592","src-593","src-594","src-727","src-728","src-729","src-730","src-731"]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -153,7 +153,7 @@ For later application budgeting, verify: live 2BR/apartment listings in Jakarta,
 
 ### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-19, dod: partial}
 
-> **DoD status**: Partial. This pass opens the healthcare baseline with an official Ministry of Health anchor and a current expat/private-care guide, but it does not pass full DoD because exact E33G/KITAS health-insurance wording, two-adult quotes, maternity/newborn terms, BPJS onboarding by final immigration/tax status, and selected-city provider prices remain application-prep checks (`vq-158`).
+> **DoD status**: Partial. This pass opens the healthcare baseline with an official Ministry of Health anchor and a current expat/private-care guide, but it does not pass full DoD because exact E33G/KITAS health-insurance wording, two-adult quotes, maternity/newborn terms, BPJS onboarding by final immigration/tax status, and selected-city provider prices remain application-prep checks (`vq-158`, resolved for screening in run-165).
 
 #### Public system and onboarding baseline
 
@@ -173,7 +173,7 @@ Healthcare is screenable at medium confidence but not DoD-passed. Indonesia is w
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-19, dod: passed}
 
-> **DoD status**: Passed for first-pass country screening at medium confidence. This section captures the public/local-school language baseline, private/local school cost proxy, and international-school options with Jakarta/Bali fee examples. Exact school fee schedules, deposits, transport/meals, private-preschool quotes, waiting lists, and options outside Jakarta/Bali remain application-prep/final-city checks (`vq-159`).
+> **DoD status**: Passed for first-pass country screening at medium confidence. This section captures the public/local-school language baseline, private/local school cost proxy, and international-school options with Jakarta/Bali fee examples. Exact school fee schedules, deposits, transport/meals, private-preschool quotes, waiting lists, and options outside Jakarta/Bali remain application-prep/final-city checks (`vq-159`, resolved for screening in run-165).
 
 #### Public and local-school baseline
 
@@ -318,12 +318,12 @@ _(none yet)_
 - Exact DGT / Indonesian tax-adviser treatment for E33G foreign-client IT source classification, skilled-foreigner territorial concession fit, NPWP/registration category, VAT/exported-service status, BPJS/housing-savings exposure, and immigration-status compatibility remains application-prep (`vq-117`, resolved for screening).
 - Live 2BR listings, deposits/advance rent, agency fees, landlord address-registration support, district-level flood/traffic/air-quality, and Bali tourist-season lease effects remain later practical-budget checks.
 - Exact E33G/KITAS-accepted health-insurance policy wording, two-adult quotes, maternity/newborn exclusions, BPJS onboarding by final status, and city-specific private GP/pediatric/maternity prices remain application-prep checks (`vq-158`).
-- Exact international-school fee schedules, deposits, meals/transport, private-preschool quotes, waiting lists, and English/bilingual options outside Jakarta/Bali remain application-prep or final-city checks (`vq-159`).
+- Exact international-school fee schedules, deposits, meals/transport, private-preschool quotes, waiting lists, and English/bilingual options outside Jakarta/Bali remain application-prep or final-city checks (`vq-159`, resolved for screening in run-165).
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-081` — resolved 2026-06-05 (run-052): E33G is above current income and should be treated as bridge-only; dependent/tax/conversion microdetails are later checks if income rises.
 - `vq-082` — resolved 2026-06-05 (run-052): no captured ITAP/PR/citizenship ladder for foreign-client remote IT without a local employer; do not score Indonesia as settlement.
 - `vq-117` resolved for screening in run-100: use Indonesia resident PIT modelling as the baseline and do not assume tax-free E33G treatment; exact source classification, territorial concession, NPWP/VAT, BPJS, and status fit is application-prep/adviser work.
-- `vq-158` — added 2026-06-19 (run-161): exact E33G/KITAS-accepted health-insurance policy wording, current quotes, maternity/newborn terms, BPJS onboarding, and selected-city provider prices.
-- `vq-159` — added 2026-06-19 (run-161): exact school tuition/fee schedules, deposits, transport/meals, private-preschool quotes, waiting lists, and English/bilingual availability outside Jakarta/Bali.
+- `vq-158` resolved for screening in run-165: use the existing Ministry/private-care and insurance/evacuation baseline for country screening; exact E33G/KITAS-accepted health-insurance policy wording, quotes, maternity/newborn terms, BPJS onboarding, and selected-city provider prices remain application-prep checks.
+- `vq-159` resolved for screening in run-165: education is screenable from the public/local-school baseline and Jakarta/Bali international-school examples; exact school fee schedules, deposits, transport/meals, private-preschool quotes, waiting lists, and English/bilingual availability outside Jakarta/Bali remain application-prep/final-city checks.

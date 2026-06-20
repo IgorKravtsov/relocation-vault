@@ -8,7 +8,7 @@ sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
 risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers", "armenia-foreign-client-it-tax-fit-gap", "yerevan-rent-pressure", "armenia-one-income-margin-risk", "armenia-private-insurance-quote-gap", "armenia-international-school-cost-risk"]
 sources_used: [src-274, src-275, src-276, src-277, src-278, src-487, src-488, src-489, src-490, src-491, src-600, src-601, src-602, src-603, src-736, src-737, src-738, src-739]
-unverified_count: 2
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -160,7 +160,7 @@ Taxes are not the first Armenia blocker, but the tax/residence file is not yet f
 
 ### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-20, dod: partial}
 
-> **DoD status**: first-pass healthcare baseline only. Armenia is screenable with private/international insurance and private-clinic budgeting, but this pass did not capture route-compliant policy wording for residence filing, current two-adult premiums, maternity/newborn exclusions, or exact public-system onboarding by temporary/permanent residence and tax status. Added `vq-162` for application-prep closure.
+> **DoD status**: first-pass healthcare baseline only. Armenia is screenable with private/international insurance and private-clinic budgeting, but this pass did not capture route-compliant policy wording for residence filing, current two-adult premiums, maternity/newborn exclusions, or exact public-system onboarding by temporary/permanent residence and tax status. `vq-162` is resolved for country screening; exact insurance/onboarding/provider details remain application-prep checks.
 
 #### Public and private access baseline
 
@@ -176,7 +176,7 @@ Taxes are not the first Armenia blocker, but the tax/residence file is not yet f
 
 ### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-20, dod: passed}
 
-> **DoD status**: Passed for first-pass screening at medium confidence. Public-school structure, preschool/daycare proxy cost, and international-school alternatives are captured. Exact admissions documents for foreign children, current QSI tuition, meals/transport/deposits, private-preschool quotes, waiting lists, and non-Yerevan English/bilingual availability remain application-prep / final-city checks (`vq-163`).
+> **DoD status**: Passed for first-pass screening at medium confidence. Public-school structure, preschool/daycare proxy cost, and international-school alternatives are captured. Exact admissions documents for foreign children, current QSI tuition, meals/transport/deposits, private-preschool quotes, waiting lists, and non-Yerevan English/bilingual availability remain application-prep / final-city checks (`vq-163`, resolved for screening in run-165).
 
 #### Public school and language baseline
 
@@ -341,5 +341,5 @@ _(none yet)_
 - `vq-087` resolved in run-061: business activity is the conservative route, but treat foreign-client IT as a real-business IE/LLC file requiring adviser/application-prep confirmation, not as DN. [src-275]
 - `vq-088` resolved in run-061: spouse/parent/child wording supports marriage-first dependent planning; unmarried partner sponsorship is not captured. [src-275]
 - `vq-119` resolved for screening in run-100: use Armenia ordinary 20% income-tax plus contribution stress-test modelling as the baseline; exact IE vs LLC, high-tech / turnover-tax, VAT export, contribution base, and business-residence fit is application-prep/adviser work.
-- `vq-162` added in run-163: exact Armenia private-health-insurance wording, quotes, maternity/newborn terms, public-system onboarding, and city provider prices remain application-prep checks.
-- `vq-163` added in run-163: exact international-school/private-preschool fees, deposits, meals/transport, waiting lists, public enrollment documents, and non-Yerevan English/bilingual availability remain application-prep checks.
+- `vq-162` resolved for screening in run-165: use the private/international insurance and private-clinic budget baseline for country screening; exact Armenia private-health-insurance wording, quotes, maternity/newborn terms, public-system onboarding, and city provider prices remain application-prep checks.
+- `vq-163` resolved for screening in run-165: education is screenable from the public-school, QSI Yerevan, UWC Dilijan, and childcare proxy baseline; exact international-school/private-preschool fees, deposits, meals/transport, waiting lists, public enrollment documents, and non-Yerevan English/bilingual availability remain application-prep/final-city checks.

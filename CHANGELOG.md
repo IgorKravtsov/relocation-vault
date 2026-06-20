@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-20
 ---
 
+## 2026-06-20 — run-165 — healthcare/education verification baselines
+
+- Resolved `vq-156` through `vq-165` for screening across Thailand, Indonesia, Kazakhstan, Armenia, and UAE.
+- Reframed exact health-insurance policy wording, quotes, maternity/newborn terms, public/private onboarding, provider prices, school fees, admissions, transport/meals, and final-city school availability as application-prep checks rather than country-screening blockers.
+- Updated affected country `unverified_count` values, `state.json`, and `INDEX.md`; no new sources or claims were added.
+
 ## 2026-06-20 — run-164 — UAE healthcare/education
 
 - Added UAE first-pass healthcare and education coverage for sections 5.6 and 5.7.
