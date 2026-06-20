@@ -1,13 +1,13 @@
 ---
 country: Spain
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-15T16:21:04Z
-sections_completed: ["5.2","5.3","5.4","5.5","5.7"]
+depth_score: 8.0
+last_updated: 2026-06-20T16:26:00Z
+sections_completed: ["5.2","5.3","5.4","5.5","5.7","5.8","5.9"]
 sections_partial: ["5.1","5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight","autonomo-tax-social-security-burden","madrid-barcelona-rent-pressure","malaga-tourist-rent-pressure","spain-private-insurance-quote-gap","spain-international-school-cost-risk"]
-sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025","src-280","src-281","src-282","src-283","src-284","src-285","src-286","src-391","src-392","src-393","src-394","src-395","src-613","src-614","src-615"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight","autonomo-tax-social-security-burden","madrid-barcelona-rent-pressure","malaga-tourist-rent-pressure","spain-private-insurance-quote-gap","spain-international-school-cost-risk","spanish-language-integration-needed"]
+sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025","src-280","src-281","src-282","src-283","src-284","src-285","src-286","src-391","src-392","src-393","src-394","src-395","src-613","src-614","src-615","src-745","src-746"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -18,10 +18,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-15T16:21:04Z
-- **Tier rationale**: Spain already has a strong remote-work legalization route, a mature temporary-protection system for Ukrainians, passed climate coverage, a practical ordinary freelancer-tax baseline, and now first-pass cost/rent plus healthcare/education screening. The main remaining caveats are no captured post-04 March 2027 TP-to-ordinary-residence bridge, tight couple-income math for the digital nomad route, heavy autonomous-worker tax/social-security burden at the couple's current income, rent pressure in Madrid/Barcelona/Malaga, and uncaptured live private-insurance quotes for a DN filing.
+- **Tier**: TBD after remaining legal long-term, risk-dimension, and bureaucracy / practicality research is added.
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-20T16:26:00Z
+- **Tier rationale**: Spain already has a strong remote-work legalization route, a mature temporary-protection system for Ukrainians, passed climate coverage, a practical ordinary freelancer-tax baseline, first-pass cost/rent plus healthcare/education screening, and now passed comfort and partner/student-fit screening. The main remaining caveats are no captured post-04 March 2027 TP-to-ordinary-residence bridge, tight couple-income math for the digital nomad route, heavy autonomous-worker tax/social-security burden at the couple's current income, rent pressure in Madrid/Barcelona/Malaga, uncaptured live private-insurance quotes for a DN filing, and Spanish-language integration needs for daily life / public schooling.
 
 ## Block 2 — Scoring
 
@@ -34,8 +34,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | 4 | medium | Livingcost 40 m2 1BR proxies run about USD 848-1,174 in Valencia/Malaga and USD 1,000-1,395 in Madrid/Barcelona; larger 80 m2 stress tests are too expensive for one taxed income. | §5.5 |
 | Healthcare | 7 | medium | Strong public-health baseline for TP / social-security-covered residents and manageable private visit costs, but exact DN-compliant private-insurance quotes for two young adults remain an application-prep gap. | §5.6 |
 | Education (future child) | 7 | medium | Public schooling is structurally usable and free from primary/ESO; 3-5 early-childhood education is free, but 0-2 childcare and international schools are material private-budget risks. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | 7 | medium | Spain screens well for safety and Ukrainian-reception infrastructure, with warm Valencia/Malaga city options; English is moderate rather than high, so Spanish-language integration is a practical requirement. | §5.8 |
+| Fit for couple with single income | 5 | medium-high | Legally workable because Spain's DN route covers a spouse or unmarried partner and TP includes work/study rights, but the two-person DN income formula and ordinary autonomo tax/rent math make the one-income budget tight. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -196,17 +196,26 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 - International school is available but expensive: Livingcost lists international primary-school proxies around **USD 10,852/year nationally**, **USD 10,445/year in Valencia**, and **USD 10,911/year in Malaga**. That is not a default single-income plan while the tax section's ordinary-autonomo net is around EUR 1,800/month. [src-391][src-393][src-394]
 - Practical child-plan read: Spain is education-positive if the couple accepts Spanish-language public schooling and chooses Valencia/Malaga carefully. It becomes budget-negative if they require private nursery from age 0-2 or an international school on the current one-income budget.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 2, last_updated: 2026-06-20, dod: passed}
 
-> **DoD**: safety data; attitude toward Ukrainians with sources; English level among locals.
+> **DoD status**: passed for first-pass screening. Covered: safety / peace baseline, official reception posture toward Ukrainians, practical city comfort, and English-proficiency baseline. Exact neighbourhood safety, municipality-level Ukrainian community support, and Spanish-language course/community contacts remain final-city checks.
 
-[verification required]
+- **Safety / public-order baseline**: Spain screens as a relatively safe developed-country destination. World Population Review's safest-countries table reports Spain with a **2025 Global Peace Index score of 1.578**, a **TravelSafe safety index of 83**, and **US News 2024 safest-country rank #21**. Treat this as a medium-confidence screening proxy rather than neighbourhood-level crime proof. [src-745]
+- **Practical city comfort**: Valencia remains the best fit for the couple's balance of climate, services, rent, and public infrastructure; Malaga is the warmer lifestyle option but needs tourist-rent discipline; Madrid / Barcelona provide deeper services and networks but are budget-negative on the current tax/rent baseline. [src-393][src-394][src-392][src-395]
+- **Attitude / institutional support for Ukrainians**: Spain's official Ukrainian temporary-protection infrastructure is a strong positive signal for reception. The Ministry page explicitly frames the status around displaced people from Ukraine and includes residence, work, medical assistance, and study rights; the procedure page adds CREADE / police filing points and a fast processing baseline. [src-011][src-012]
+- **English level**: EF EPI lists Spain at **global rank #36** with an **EF EPI score of 540**, in the moderate-proficiency band. The practical read is that English will help with international employers, expat circles, and some private services, but Spanish is needed for bureaucracy, public healthcare, schools, landlords, and normal daily life. [src-746]
+- **Comfort verdict**: Spain is comfortable enough to keep in the high-priority set if the legal/tax budget works. The comfort downside is not safety; it is language friction plus city-selection pressure under one income. Add / retain `spanish-language-integration-needed` as a practical risk flag.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.9. Partner (student) {status: deep, depth: 2, last_updated: 2026-06-20, dod: passed}
 
-> **DoD**: dependent/partner status with and without marriage; possibility of remote Ukrainian-university study; possibility of work; sponsor minimum income.
+> **DoD status**: passed for first-pass screening. Covered: dependent / partner status with and without marriage, Ukrainian remote-study baseline, work-right baseline by route, and sponsor income formula. Exact in-country dependent-card work wording and proof standards for an unmarried partnership remain application-prep checks.
 
-[verification required]
+- **Dependent / partner with marriage**: Spain's DN consular page explicitly allows the **spouse** to obtain the visa as a family member. Marriage is therefore the cleanest evidence path if the couple decides Spain is a serious filing target. [src-013]
+- **Dependent / partner without marriage**: The same official page also names the **unmarried partner** as an eligible family member, so Spain is better than jurisdictions that require marriage by default. Conservative filing practice still requires strong proof of the relationship; if evidence is weak, marriage remains the lower-friction route. [src-013]
+- **Sponsor income for the partner**: The captured formula is **200% of SMI for the main applicant**, plus **75% of SMI for the first family member** and **25% for each additional family member**. Using the SMI figure linked in the captured consular page, the profile's working couple threshold remains **about EUR 3,118.50/month**, which is tight or above the couple's nominal USD 3,000/month depending on FX and evidence. [src-013]
+- **Remote Ukrainian-university study**: Remote study at a Ukrainian university should be treated as compatible private activity once the partner has a Spanish status, but it is **not** an independent Spanish immigration basis. Under TP, Spain explicitly includes access to study; under DN-family residence, the student should rely on dependent status rather than claiming a Spanish student route based on a Ukrainian remote programme. [src-011][src-013]
+- **Possibility of work**: TP is clear: Spain's Ukrainian TP page says the status allows **work** as well as residence, medical assistance, and study. For the DN-family path, this pass confirms family-member eligibility but does not capture a clean official sentence on independent dependent work rights; plan conservatively that the partner's immediate baseline is dependent residence plus remote study / later independent work authorization if needed. [src-011][src-013]
+- **Partner verdict**: Spain is legally partner-friendly compared with many countries because it names unmarried partners, but budget math is the binding issue. If the partner is included from day one, the couple should either raise documented income above the two-person DN threshold, show a strong savings cushion, or file only after a Spanish lawyer / gestor confirms the exact income evidence and dependent-card consequences.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -236,14 +245,15 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 
 - **Can relocate now**: Potentially yes, especially through digital nomad residence if income and documents are strong enough, but the post-tax budget is tighter than the gross income suggests.
 - **Best legalization path for the man**: Digital nomad / international telework route, with tax structuring checked before filing.
-- **Best legalization path for the woman**: Inclusion as spouse or unmarried partner on the DN route looks plausible on current official evidence, but exact partner-work consequences and tax-family effects still need follow-up.
-- **Does marriage change the picture**: Less dramatically than in Greece, because Spain explicitly mentions the unmarried partner; still, marriage can simplify documentary proof and may open joint-tax filing later.
+- **Best legalization path for the woman**: Inclusion as spouse or unmarried partner on the DN route is a plausible first-pass route; if income/evidence is weak, marriage and/or an independent status should be considered before filing.
+- **Does marriage change the picture**: Less dramatically than in Greece, because Spain explicitly mentions the unmarried partner; still, marriage can simplify documentary proof, reduce relationship-evidence risk, and may open joint-tax filing later.
 - **Realism of staying after 03.2027**: Medium, but only if the couple is already on a standard residence track rather than depending on an unknown TP transition.
 - **Budget/tax read**: Caution. A conservative ordinary autonomo file at USD 3,000/month leaves roughly EUR 1,800/month after IRPF + RETA before rent and living costs; first-pass rent/cost screening points to Valencia first and Malaga second, while Madrid and Barcelona are poor default fits on one taxed income. Future-child public schooling is workable, but private childcare / international school and DN private-insurance quotes can erode the margin.
 
 **Pros**:
 - Official digital nomad checklist is concrete and family-aware.
 - Spain's TP process for Ukrainians is mature and fast.
+- Comfort screening is positive: Spain is a relatively safe country by GPI / safety-index proxies and has institutional support for Ukrainians.
 - Málaga and Valencia fit the warm-climate preference well.
 - Valencia gives the best first-pass cost/rent balance among the screened Spanish cities.
 - Public education is a genuine medium-term advantage if the couple accepts Spanish-language schooling.
@@ -253,10 +263,11 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 - Two-person DN income threshold is tight for a $3,000/month household.
 - Ordinary Spanish autonomo taxation / RETA social security is heavy at this income; special-regime eligibility is not confirmed for a pure foreign-client freelancer.
 - Madrid and Barcelona are rent-heavy; Malaga is plausible but tourist/coastal rent pressure must be managed.
-- Polish `karta pobytu` interaction still needs explicit confirmation.
+- Polish `karta pobytu` interaction is handled at the operational baseline level, but any filing-specific consular treatment should still be checked before application.
 - PR/citizenship path still needs a dedicated official-source pass.
 - Private health-insurance quote / maternity waiting-period checks are still needed before a DN filing.
 - International school is too expensive to assume on the current one-income plan.
+- English proficiency is only moderate; Spanish-language integration is needed for bureaucracy, healthcare, schools, landlords, and daily life.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -265,7 +276,7 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 - Steps in Ukrainian / Polish paperwork: confirm whether the plan is TP as an emergency shelter route or direct DN residence; do not assume a Polish `karta pobytu` is enough for living in Spain long term.
 - What to do with the Polish karta pobytu: keep it documented, but treat it as a separate residence history item until explicit Spanish guidance confirms how it affects TP or DN planning.
 - Financial preparation (USD cushion): DN route is more realistic with a cash buffer and income documentation stronger than the bare threshold.
-- For the student partner: prepare relationship proof plus any dependent-status evidence; remote Ukrainian study compatibility still needs country-specific education and partner research.
+- For the student partner: prepare relationship proof plus any dependent-status evidence; Spain's DN page covers spouses and unmarried partners, while remote Ukrainian study should be treated as compatible private activity rather than a Spanish immigration basis. [src-013]
 - Submitting visa/permit application from abroad: Spain's DN route is clearly documented at the consular level and requires a NIE before filing. [src-013]
 
 ### 6b. First month after arrival
@@ -279,9 +290,9 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 
 ### 6c. First 3–6 months
 - Tax registration as self-employed / freelancer: register activity with AEAT Form 036, confirm IAE/professional activity code, register / forecast the RETA contribution bracket, and set up invoices / VAT reporting with a gestor. [src-280][src-284][src-285]
-- Transferring partner to dependent / partner / student status: DN family path looks feasible, but exact in-country handling still needs follow-up. [src-013]
+- Transferring partner to dependent / partner / student status: DN family path covers both spouse and unmarried partner, but the couple should verify documentary proof and any dependent-work consequences before filing. [src-013]
 - Marriage (if applicable to scenario): optional but may simplify evidence if unmarried-partner documents are weak.
-- Integration (language courses, communities): [verification required]
+- Integration (language courses, communities): plan Spanish-language learning early; EF EPI's moderate English baseline means English will not remove the need for Spanish in bureaucracy, healthcare, school, landlord, and daily-life settings. [src-746]
 
 ### 6d. Before March 2027 (critical deadline)
 - What must be in hand by this date: ideally a standard Spanish residence basis not dependent on an unconfirmed TP extension mechanism after 04 March 2027.
@@ -339,6 +350,8 @@ _(none yet)_
 - [src-016] Climate to Travel — Málaga climate.
 - [src-025] Current Results — direct annual clear-day counts for Madrid, Valencia, and Málaga.
 - [src-286] open.er-api.com — USD/EUR run-date FX used for the worked tax example.
+- [src-745] World Population Review — safest countries / Global Peace Index and safety proxies for Spain.
+- [src-746] EF English Proficiency Index — Spain English-proficiency baseline.
 - [src-391] Livingcost — Cost of living in Spain.
 - [src-392] Livingcost — Cost of living in Madrid.
 - [src-393] Livingcost — Cost of living in Valencia, Spain.
@@ -351,8 +364,10 @@ _(none yet)_
 ### 7f. Not found
 - A clear official Spanish TP→ordinary-residence transition mechanism for after 04 March 2027; current operational baseline is “no captured bridge, plan an ordinary route before TP expiry.”
 - Primary-source PR and citizenship timeline map for this exact residence scenario.
+- Municipality-level Ukrainian community / language-course contacts and final-neighbourhood safety checks for Valencia / Malaga / Madrid.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-121` resolved for screening in run-138: Spain healthcare application-prep details (DN-compliant private-insurance quotes for two young adults, maternity waiting periods, and region-specific health-card registration) remain before-filing checks.
-- PR/citizenship and other pending sections remain for later country-deep-dive work.
+- PR/citizenship, risk dimensions, and bureaucracy remain for later country-deep-dive work.
+- Spain comfort and partner/student fit are now screenable; final filing still needs dependent-card work-right wording, unmarried-partner evidence standards, and city-level integration/community checks.

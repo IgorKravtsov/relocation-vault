@@ -8971,3 +8971,27 @@ Each source entry:
 - **Facts supporting**: QSI Montenegro 2025-26 registration fee, capital-fund fee, annual tuition for the 5-year-old through secondary programme, 3-4-year-old class fee, and late-enrollment fee; used for the international-school budget stress test (claim-montenegro-026)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-20
+
+## src-745
+- **Title**: World Population Review — Safest Countries in the World 2026
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world
+- **Archive**: direct HTML / embedded-data extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: unknown
+- **Date accessed**: 2026-06-20
+- **Used by**: Spain
+- **Facts supporting**: Spain comfort / safety screening proxy: 2025 Global Peace Index score, TravelSafe safety index, and US News safest-country rank (claim-spain-016)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-20
+
+## src-746
+- **Title**: EF English Proficiency Index — Spain
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/spain/
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: 2025-11-01
+- **Date accessed**: 2026-06-20
+- **Used by**: Spain
+- **Facts supporting**: Spain English-proficiency baseline: global rank #36, EF EPI score 540, moderate proficiency band (claim-spain-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-20

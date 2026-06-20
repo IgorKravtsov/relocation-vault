@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-20
 ---
 
+## 2026-06-20 — run-167 — Spain comfort/partner fit
+
+- Completed Spain sections 5.8 and 5.9 for screening by adding country-level safety, Ukrainian-reception, English-proficiency, dependent-partner, remote-study, work-right, and sponsor-income baselines.
+- Added two sources (`src-745`, `src-746`) and two Spain claims (`claim-spain-016`, `claim-spain-017`).
+- Spain depth_score moved from 5.5 to 8.0; added `spanish-language-integration-needed` as a practical comfort / public-services risk flag.
+
 ## 2026-06-20 — run-166 — Montenegro education
 
 - Completed Montenegro section 5.7 for screening by capturing QSI Montenegro 2025-26 registration, tuition, capital-fund, and preschool fee baselines.

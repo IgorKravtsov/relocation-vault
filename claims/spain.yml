@@ -135,3 +135,21 @@
   confidence: medium
   tags: [spain, education, childcare, international-school, budget]
   notes: "Cross-supported by city pages src-393 and src-394; use live school quotes before a real move."
+
+- id: claim-spain-016
+  topic: comfort_safety_screening_proxy
+  value: "World Population Review safest-countries table reports Spain with 2025 Global Peace Index score 1.578, TravelSafe safety index 83, and US News 2024 safest-country rank #21."
+  source: src-745
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [spain, comfort, safety, global-peace-index]
+  notes: "Use as a country-level screening proxy only; final city/neighbourhood safety checks remain needed."
+
+- id: claim-spain-017
+  topic: english_proficiency_baseline
+  value: "EF EPI lists Spain at global rank #36 with EF EPI score 540, in the moderate-proficiency band."
+  source: src-746
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [spain, comfort, english, integration]
+  notes: "Practical implication: English helps in expat/private contexts, but Spanish is needed for bureaucracy, public services, schooling, and daily life."
