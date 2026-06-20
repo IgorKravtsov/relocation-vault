@@ -1,13 +1,13 @@
 ---
 country: Greece
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-15T22:39:01Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-20T22:39:53Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["greece-article-5c-foreign-client-fit-gap", "athens-rent-pressure", "crete-tourist-rent-pressure", "greece-private-insurance-quote-gap", "greece-international-school-cost-risk"]
-sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300", "src-337", "src-386", "src-387", "src-388", "src-389", "src-390", "src-619", "src-620", "src-621"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["greece-article-5c-foreign-client-fit-gap", "athens-rent-pressure", "crete-tourist-rent-pressure", "greece-private-insurance-quote-gap", "greece-international-school-cost-risk", "greek-language-integration-needed", "greece-one-income-margin-risk"]
+sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300", "src-337", "src-386", "src-387", "src-388", "src-389", "src-390", "src-619", "src-620", "src-621", "src-749", "src-750"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -19,9 +19,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, partner-path, comfort, risk, and bureaucracy research are added.
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-15
-- **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP->Immigration Code bridge) plus a documented digital nomad route. The tax pass now has an official 2026 EFKA self-employed minimum, so the conservative ordinary PIT + minimum social-insurance stress test is usable; Article 5C fit for foreign-client IT work still needs current specialist/official verification. Cost/rent screening is workable on gross USD 3,000/month only with housing discipline; Patras and Thessaloniki screen cheaper than Athens/Heraklion. Healthcare is structurally workable through public-system access for protected/resident statuses, while education is favorable if the couple accepts Greek-language public schooling and avoids international-school costs.
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-20
+- **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP->Immigration Code bridge) plus a documented digital nomad route. The tax pass now has an official 2026 EFKA self-employed minimum, so the conservative ordinary PIT + minimum social-insurance stress test is usable; Article 5C fit for foreign-client IT work still needs current specialist/official verification. Cost/rent screening is workable on gross USD 3,000/month only with housing discipline; Patras and Thessaloniki screen cheaper than Athens/Heraklion. Healthcare is structurally workable through public-system access for protected/resident statuses, education is favorable if the couple accepts Greek-language public schooling and avoids international-school costs, and the comfort/partner pass now shows a safe but Greek-language-dependent environment with the DN family-income gate above the current one-income budget.
 
 ## Block 2 — Scoring
 
@@ -34,8 +34,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | 6 | medium | Modest 40 m2 1BR proxies are affordable in Patras/Thessaloniki and manageable in Athens/Heraklion; larger 80 m2 3BR stress tests and tourist-market Crete/Athens pressure require live-listing checks. | §5.5 |
 | Healthcare | 6 | medium | Public healthcare access is structurally positive for refugees/asylum seekers and resident-status files, with PAAYPA/AMKA mechanics and emergency/vaccination access documented; DN-compliant private-insurance quotes and exact city onboarding remain application-prep gaps. | §5.6 |
 | Education (future child) | 7 | medium | Public schooling and two-year pre-primary from age 4 are strong if the family accepts Greek-language integration; private childcare and international school are the budget risks. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | 7 | medium | Greece screens as safe by broad country-safety proxies and has real Ukrainian reception infrastructure; English proficiency is relatively strong by EF EPI, but Greek remains needed for bureaucracy, public services, schooling, and integration. | §5.8 |
+| Fit for couple with single income | 6 | medium | Good if the second partner can be a spouse/cohabitant dependent or use TP/work-study rights, but the DN family threshold is about EUR 4,200/month after tax and therefore above the couple's current USD 3,000/month gross income. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -179,17 +179,27 @@ City-level screen:
 - **Education read**: Greece screens well if the family can use Greek public education and plan for language adaptation. International school would materially strain the single-income budget, especially in Athens/Thessaloniki, so it should be treated as an exception rather than the core plan.
 
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-20, dod: passed}
 
-> **DoD**: safety data; attitude toward Ukrainians with sources; English level among locals.
+> **DoD status**: passed for first-pass screening. Covered: country-level safety proxies, Ukrainian reception infrastructure, English-proficiency baseline, and practical city-comfort read. This is not a replacement for final-neighborhood safety, landlord, or municipality checks.
 
-[verification required]
+- **Safety baseline**: World Population Review's 2026 safest-country page lists Greece with a 2025 Global Peace Index score of **1.764**, TravelSafe safety index **70**, TravelSafe risk label **Low**, and US News safest-country rank **53rd**. Treat this as a medium-confidence country-level proxy: it supports Greece as generally safe for screening, but final city/neighborhood choice still matters. [src-749]
+- **Attitude / reception toward Ukrainians**: Greece has an official Ukraine temporary-protection page, dedicated ministry contact emails for Ukraine/TP support, and a documented TP-to-ordinary-residence bridge before 04 March 2027; UNHCR Greece also maintains practical health/access guidance for protected people. That is enough to show institutional reception capacity for Ukrainians, even though this pass did not capture a public-opinion survey on attitudes toward Ukrainians. [src-001][src-619]
+- **English level**: EF EPI's Greece page gives **global rank #20** and **EF EPI score 592**; it also shows city scores of **Athens 616** and **Thessaloniki 611**. This is substantially better than many Mediterranean alternatives and helps with private services / expat life, but it does not remove the need for Greek in public offices, leases, healthcare administration, tax/EFKA, and public schooling. [src-750]
+- **City comfort read**: Athens is best for bureaucracy, flights, services, and English-facing professional help, but it has the strongest rent/heat pressure. Thessaloniki is the better services/cost balance, Patras is the budget fallback, and Heraklion is climate-positive but needs island/tourist-market rent checks. [src-387][src-388][src-389][src-390]
+- **Comfort conclusion**: Greece is comfort-positive for safety, climate, reception infrastructure, and relatively strong English proficiency. The main practical friction is not personal safety; it is Greek-language bureaucracy, summer heat in Athens, and keeping rent/tax/insurance costs aligned with a one-income budget.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-20, dod: passed}
 
-> **DoD**: dependent/partner status with and without marriage; possibility of remote Ukrainian-university study; possibility of work; sponsor minimum income.
+> **DoD status**: passed for first-pass screening. Covered: dependent position with marriage/cohabitation, current unmarried-partner caveat, remote Ukrainian-study practicality, work-right baseline by status, and sponsor-income pressure. Exact final dependent work rights and local document formatting remain application-prep checks.
 
-[verification required]
+- **DN dependent route**: the captured Greece DN FAQ explicitly increases the EUR 3,500/month after-tax threshold by **20% for a spouse/cohabitant** and by 15% for each child. For the current two-adult couple, the planning threshold is therefore about **EUR 4,200/month after tax**, above the couple's current roughly USD 3,000/month gross income. [src-004]
+- **Marriage / cohabitation effect**: Greece is more favorable than routes that name only a spouse, because the DN FAQ mentions spouse/cohabitant. However, for a real filing the couple should still prepare marriage or robust cohabitation/civil-status evidence and confirm the serving consulate's document-localisation rules. [src-004][src-152]
+- **Without marriage / formal cohabitation**: do not assume the student partner can be carried as an informal girlfriend/boyfriend on the DN file. The safe baseline is marriage, legally recognized cohabitation if accepted by the consulate, independent status, or Greek TP if independently eligible and not blocked by another Member State's TP file. [src-001][src-004]
+- **Study continuity**: no Greek source in this pass creates a barrier to continuing a remote Ukrainian university program while residing in Greece. Practically, she should keep enrollment/status proof, translations if needed, and enough schedule flexibility for Greek appointments and possible language study.
+- **Work possibility**: on Greek TP / protected-status planning, the profile already treats access to public systems and the TP bridge as the stronger Ukrainian-specific baseline; on DN, the primary holder cannot work for a Greek company under the captured FAQ, and dependent work rights still need filing-stage confirmation. For screening, do not count on local Greek income from the student partner unless a final status explicitly allows it. [src-001][src-004]
+- **One-income fit**: Greece is possible but tight on one USD 3,000/month income. The DN family-income threshold is above the current income, while the conservative tax section leaves about EUR 1,844/month before accountant/VAT/insurance costs; Thessaloniki or Patras are the safer budget cities than Athens/Heraklion. [src-004][src-295][src-337][src-388][src-390]
+- **Partner conclusion**: Greece is partner-workable if the route is Greek TP with a later Immigration Code switch, or if income rises enough for a DN family file and the relationship is documented as spouse/cohabitant. It is not yet a clean one-income DN solution at the couple's current income.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -219,13 +229,14 @@ City-level screen:
 
 - **Can relocate now**: Potentially yes, but only with a correctly chosen status (Greek TP if eligible and not already held elsewhere, or DN if income fits and paperwork closes).
 - **Best legalization path for the man**: Digital Nomad route if he can prove ≥€3,500/month after tax from non-Greek remote work.
-- **Best legalization path for the woman**: Not fully resolved; spouse/cohabitant uplift is documented for DN, but unmarried-partner treatment is still open.
-- **Does marriage change the picture**: Yes, materially, because the documented DN threshold explicitly accounts for spouse/cohabitant dependants.
+- **Best legalization path for the woman**: Greek TP if independently eligible, or spouse/cohabitant dependent status on a DN/ordinary file if the relationship documentation and income threshold work; do not rely on an informal unmarried-partner file without consular confirmation. [src-001][src-004]
+- **Does marriage change the picture**: Yes, materially. The documented DN threshold accounts for spouse/cohabitant dependants, but marriage or legally robust cohabitation evidence is the conservative way to carry the second partner. [src-004]
 - **Realism of staying after 03.2027**: Medium-high if Greek TP is obtained and converted before 04 March 2027, or if the couple qualifies for a standard Immigration Code permit independently of TP.
 - **Cost/rent budget read**: Workable but not comfortable on the conservative tax baseline. Thessaloniki and Patras are the best first-pass budget cities; Heraklion is the climate-favorable but rent-sensitive option; Athens is service-rich but cost/heat pressured. [src-386][src-387][src-388][src-389][src-390]
 - **Tax budget read**: Promising but incomplete. Ordinary business-profit PIT plus EFKA's 2026 minimum category leaves about EUR 1,844/month before accountant/VAT filing costs; Article 5C could improve the result, but 5C route fit still needs verification before using it as a default. [src-295][src-300][src-337]
 - **Healthcare read**: Public-system access is structurally workable for protected/resident statuses through PAAYPA/AMKA, but DN or ordinary-residence filing still needs route-compliant private-insurance evidence and city-specific registration details. [src-619]
 - **Education read**: Greek public education screens well from age 4 onward because compulsory pre-primary / school is public and free, but private childcare before age 4 and international-school fallback can become major budget items. [src-620][src-621][src-387][src-388][src-389][src-390]
+- **Comfort / partner read**: Greece is safe and relatively English-friendly for screening, with official Ukrainian reception infrastructure, but daily bureaucracy and public schooling still require Greek-language adaptation. The DN family threshold is about EUR 4,200/month after tax for two adults, so the current one-income budget does not cleanly pass the DN-dependent route. [src-001][src-004][src-749][src-750]
 
 **Pros**:
 - Greece has an explicit TP→Immigration Code bridge before 04 March 2027.
@@ -235,13 +246,14 @@ City-level screen:
 
 **Cons / risks**:
 - Exact consular DN primary checklist is now anchored by the MFA digital-nomad page; final appointment/payment/localisation details should be checked before filing. [src-152]
-- Unmarried second-partner positioning is still unclear.
+- Informal unmarried second-partner positioning remains unsafe; use marriage, recognized cohabitation if accepted, independent eligibility, or Greek TP. [src-001][src-004]
 - Polish `karta pobytu` interaction is not yet cleanly verified.
 - Athens summer heat can be severe.
 - Athens and Heraklion require live rent checks; the first-pass aggregator numbers may understate tourist-season and neighborhood pressure.
 - Article 5C fit for foreign-client IT income is not yet closed; EFKA category-1 minimum is now captured, but exact category choice should still be confirmed with a Greek accountant before filing.
 - DN-compliant private-insurance quotes and local AMKA/health-unit onboarding need a city/route-specific application-prep check.
 - International school is a budget risk; the core family plan should assume Greek public schooling and language integration unless income rises.
+- Greek-language bureaucracy, leases, healthcare administration, tax/EFKA, and public schooling remain practical integration frictions despite Greece's relatively strong EF EPI score. [src-750]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -250,7 +262,7 @@ City-level screen:
 - Steps in Ukrainian / Polish paperwork: confirm whether either partner currently holds TP in another EU state; if yes, do not assume Greece can open parallel TP.
 - What to do with the Polish karta pobytu: verify the legal basis and whether it coexists with the intended Greek route; do not rely on it as a substitute for a Greek residence title.
 - Financial preparation (USD cushion): enough to cover DN-proof period and relocation buffer; tax/rent modelling still pending.
-- For the student partner: keep enrollment/status evidence and translated civil-status records available.
+- For the student partner: keep enrollment/status evidence, translated civil-status records, and relationship evidence; if relying on DN dependency, prepare for spouse/cohabitant documentation and a higher two-adult income threshold. [src-004]
 - Submitting visa/permit application from abroad: DN is documented via Greek consular authority in the country of main residence.
 
 ### 6b. First month after arrival
@@ -264,7 +276,7 @@ City-level screen:
 
 ### 6c. First 3–6 months
 - Tax registration as self-employed / freelancer: obtain TIN/authentication key through myAADE if needed, then use myAADE / My Requests for natural-person activity commencement with Form D211 and headquarters/use-of-space evidence; verify EFKA and VAT setup with a Greek accountant before issuing invoices. [src-297][src-298]
-- Transferring partner to dependent / partner / student status: [verification required]
+- Transferring partner to dependent / partner / student status: use marriage or legally robust cohabitation evidence for a DN family file; if not married/cohabiting, plan independent Greek TP or another independent residence basis rather than assuming informal-partner sponsorship. [src-001][src-004]
 - Marriage (if applicable to scenario): likely materially useful on the currently documented DN route.
 - Integration (language courses, communities): [verification required]
 
@@ -319,6 +331,7 @@ City-level screen:
 - [src-296] PwC Worldwide Tax Summaries — Greece individual income determination.
 - [src-299] PwC Worldwide Tax Summaries — Greece other taxes and tax administration.
 - [src-619] UNHCR Greece — access to healthcare.
+- [src-750] EF English Proficiency Index — Greece.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -334,6 +347,7 @@ _(none yet)_
 - [src-388] Livingcost — Cost of living in Thessaloniki.
 - [src-389] Livingcost — Cost of living in Heraklion.
 - [src-390] Livingcost — Cost of living in Patras.
+- [src-749] World Population Review — Safest Countries in the World 2026.
 
 ### 7e. Not found
 - DN consular micro-details (appointment slot mechanics, payment channel, document-localisation instructions) still need checking against the serving consulate immediately before filing, but the core official-primary route/checklist blocker is closed.
@@ -342,6 +356,7 @@ _(none yet)_
 - Exact EFKA profession/category choice, branch add-ons, and deductibility for the final IT freelancer file; the current 2026 category-1 screening minimum is already captured in `src-337`.
 - Greek tax-adviser confirmation on Article 5C applicability for a Ukrainian foreign-client IT freelancer / sole proprietor.
 - DN-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-city AMKA / health-unit onboarding workflow.
+- Serving-consulate confirmation of spouse/cohabitant documentation and any dependent work-right wording for the final DN/residence route.
 
 ## Block 8 — Open questions and verification markers
 

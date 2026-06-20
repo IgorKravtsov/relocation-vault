@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 168,
+  "iteration": 169,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-20T19:35:38Z",
+  "last_run_timestamp": "2026-06-20T22:39:53Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Italy",
+    "country": "Greece",
     "sections": [
       "5.8",
       "5.9"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Greece",
+    "suggested_country": "Cyprus",
     "suggested_sections": [
       "5.8",
       "5.9"
     ],
-    "reason": "Pending/open verification queue is below threshold; Italy reached 5.8/5.9 screening coverage, so rotate to another Tier-1-hint country at the shared minimum depth_score for comfort/partner coverage."
+    "reason": "Pending/open verification queue is below threshold; Greece reached 5.8/5.9 screening coverage, so rotate to another Tier-1-hint country at the shared minimum depth_score for comfort/partner coverage."
   },
   "countries": {
     "Spain": {
@@ -130,12 +130,14 @@
     "Greece": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 5.5,
+      "depth_score": 8.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
-        "5.7"
+        "5.7",
+        "5.8",
+        "5.9"
       ],
       "sections_partial": [
         "5.1",
@@ -143,8 +145,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.8",
-        "5.9",
         "5.10",
         "5.11"
       ],
@@ -153,9 +153,11 @@
         "athens-rent-pressure",
         "crete-tourist-rent-pressure",
         "greece-private-insurance-quote-gap",
-        "greece-international-school-cost-risk"
+        "greece-international-school-cost-risk",
+        "greek-language-integration-needed",
+        "greece-one-income-margin-risk"
       ],
-      "last_iteration": 131,
+      "last_iteration": 169,
       "unverified_count": 0
     },
     "Cyprus": {
@@ -1139,7 +1141,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 747,
-  "claims_count": 654,
+  "sources_count": 749,
+  "claims_count": 656,
   "proposals_pending": 0
 }

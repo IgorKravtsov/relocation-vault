@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-20
 ---
 
+## 2026-06-20 — run-169 — Greece comfort/partner fit
+
+- Completed Greece sections 5.8 and 5.9 for screening by adding country-level safety, Ukrainian-reception, English-proficiency, city-comfort, spouse/cohabitant dependent, remote-study, and one-income partner baselines.
+- Added two sources (`src-749`, `src-750`) and two Greece claims (`claim-greece-016`, `claim-greece-017`).
+- Greece depth_score moved from 5.5 to 8.0; added `greek-language-integration-needed` and `greece-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-20 — run-168 — Italy comfort/partner fit
 
 - Completed Italy sections 5.8 and 5.9 for screening by adding country-level safety, Ukrainian-reception, English-proficiency, city-comfort, dependent-spouse, remote-study, and one-income partner baselines.

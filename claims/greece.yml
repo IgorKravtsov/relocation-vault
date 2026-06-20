@@ -135,3 +135,22 @@
   confidence: medium-high
   tags: [greece, education, school-system, compulsory-schooling]
   notes: "Used to pass the first-pass education screening section; city-level school catchments and language support remain later practical checks."
+
+
+- id: claim-greece-016
+  topic: comfort_safety_english_baseline
+  value: "Greece screens as generally safe at country level (2025 GPI 1.764; TravelSafe safety index 70 / Low risk; US News safest-country rank 53rd) and relatively English-friendly by EF EPI (rank #20, score 592), but Greek remains necessary for bureaucracy, public services, healthcare administration, tax/EFKA, and public schooling."
+  source: src-749
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [greece, comfort, safety, english, integration]
+  notes: "EF EPI source src-750 supports the English-proficiency portion; WPR is a medium-confidence aggregator safety proxy."
+
+- id: claim-greece-017
+  topic: dn_partner_income_threshold
+  value: "The Greek DN route's EUR 3,500/month after-tax threshold rises by 20% for a spouse/cohabitant, so a two-adult DN family file screens at about EUR 4,200/month after tax before any child uplift."
+  source: src-004
+  date_verified: 2026-06-20
+  confidence: medium-high
+  tags: [greece, partner, student, digital-nomad, income-threshold, cohabitant]
+  notes: "Use marriage or legally robust cohabitation evidence as the conservative dependent baseline; informal unmarried-partner sponsorship remains unsafe without consular confirmation."
