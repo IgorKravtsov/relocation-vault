@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-20
 ---
 
+## 2026-06-20 — run-166 — Montenegro education
+
+- Completed Montenegro section 5.7 for screening by capturing QSI Montenegro 2025-26 registration, tuition, capital-fund, and preschool fee baselines.
+- Added one source (`src-744`) and one Montenegro claim (`claim-montenegro-026`).
+- Montenegro depth_score moved from 5.0 to 5.5; education moved from partial to completed, with international-school cost retained as a budget risk rather than an evidence gap.
+
 ## 2026-06-20 — run-165 — healthcare/education verification baselines
 
 - Resolved `vq-156` through `vq-165` for screening across Thailand, Indonesia, Kazakhstan, Armenia, and UAE.

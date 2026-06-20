@@ -223,3 +223,13 @@
   confidence: medium
   tags: [education, international-school, podgorica, verification-required, montenegro]
   notes: "Presence/availability anchor only; exact tuition remains a verification item."
+
+
+- id: claim-montenegro-026
+  topic: qsi_montenegro_2025_26_fees
+  value: "QSI Montenegro's 2025-26 information packet gives a one-time USD 300 registration fee; USD 26,900 annual tuition plus a USD 1,600 capital-fund fee for the 5-year-old class through Secondary IV, for USD 28,500/year total; and USD 5,700/year total for the 3-4-year-old class, with no capital-fund fee."
+  source: src-744
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [education, international-school, tuition, podgorica, montenegro]
+  notes: "Use as a concrete international-school stress test; exact admissions deposits, meals/transport, waiting lists, and scholarship availability remain application-prep checks."

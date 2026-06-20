@@ -8958,3 +8958,16 @@ Each source entry:
 - **Facts supporting**: international-school supply in Dubai-Sharjah-Ajman and Abu Dhabi, English-language availability, and selected fee-range examples; used with Livingcost childcare/school proxies (claim-uae-017)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-20
+
+
+## src-744
+- **Title**: QSI International School of Montenegro - School Information Packet 2025-2026
+- **URL**: https://resources.finalsite.net/images/v1759316931/qsiorg/qxrtasif0flf67yw3ebj/QSIMontenegroInfoPacket2025-26.pdf
+- **Archive**: direct PDF extraction used from public QSI resource
+- **Type**: commercial
+- **Date published**: 2025-2026 school-year packet, no separate publication date captured
+- **Date accessed**: 2026-06-20
+- **Used by**: Montenegro
+- **Facts supporting**: QSI Montenegro 2025-26 registration fee, capital-fund fee, annual tuition for the 5-year-old through secondary programme, 3-4-year-old class fee, and late-enrollment fee; used for the international-school budget stress test (claim-montenegro-026)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-20

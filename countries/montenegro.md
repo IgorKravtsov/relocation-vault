@@ -1,13 +1,13 @@
 ---
 country: Montenegro
 tier: null
-depth_score: 5.0
-last_updated: 2026-06-17T12:44:12Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3", "5.6", "5.7"]
+depth_score: 5.5
+last_updated: 2026-06-20T13:21:03Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-income-threshold-needs-primary-check", "digital-nomad-long-term-counting-unclear", "montenegro-tax-registration-and-ssc-fit-gap", "kotor-budva-coastal-rent-pressure", "montenegro-private-health-insurance-gap", "montenegro-international-school-fee-gap"]
-sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-143", "src-348", "src-349", "src-350", "src-351", "src-352", "src-525", "src-526", "src-527", "src-528", "src-662", "src-663", "src-664", "src-665", "src-666"]
+risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-income-threshold-needs-primary-check", "digital-nomad-long-term-counting-unclear", "montenegro-tax-registration-and-ssc-fit-gap", "kotor-budva-coastal-rent-pressure", "montenegro-private-health-insurance-gap", "montenegro-international-school-budget-risk"]
+sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-143", "src-348", "src-349", "src-350", "src-351", "src-352", "src-525", "src-526", "src-527", "src-528", "src-662", "src-663", "src-664", "src-665", "src-666", "src-744"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass suggests a potentially useful non-EU fallback because Montenegro has extended temporary protection for Ukrainians to 04 March 2027 and advertises a digital-nomad residence framework, but the DN numeric income amount, long-term residence counting, and tax-registration / social-contribution fit for a foreign-client IT freelancer remain unresolved. [src-123][src-124][src-127][src-349]
-- **depth_score**: 5.0
-- **Last updated**: 2026-06-17T12:44:12Z
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-20T13:21:03Z
 - **Tier rationale**: Do not classify yet. The official DN page now confirms filing route, document categories, duration, processing time, and spouse/minor-child family baseline; remaining classification blockers are the exact numeric income floor, tax/cost fit, and whether DN or other temporary-residence time can safely build a long-term PR clock.
 
 ## Block 2 — Scoring
@@ -31,7 +31,7 @@ schema_version: 2.0.0
 | Cost of living | — | medium | First-pass Livingcost screen: Podgorica is the practical/admin affordability baseline; Budva and especially Kotor are more rent-sensitive coastal options. | §5.4 |
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy is about $416 cheap / $550 center in Podgorica, $458 / $676 in Budva, and $620 / $634 in Kotor; keep coastal seasonal/rent pressure active. | §5.5 |
 | Healthcare | — | medium | Public/Fund baseline is screenable, but route-compliant private insurance, maternity coverage, and ordinary-residence onboarding costs remain application-prep gaps. | §5.6 |
-| Education (future child) | — | medium | Public preschool/school structure is clear and public preschool fees are modest; international-school fee quotes are still missing, so keep partial. | §5.7 |
+| Education (future child) | — | medium | Public preschool/school structure is clear, public preschool fees are modest, and QSI Montenegro 2025-26 tuition gives a concrete international-school stress test; this passes for screening but remains budget-sensitive. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -167,9 +167,9 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 
 **City baseline.** Podgorica should be checked first for public-system access because the Ministry and FZOCG headquarters are in Podgorica; Budva/Kotor coastal living still needs local GP, pediatrician, maternity hospital, and private clinic checks. [src-662][src-663]
 
-### 5.7. Education (future child) {status: partial, depth: 1, last_updated: 2026-06-17, dod: partial}
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-20, dod: passed}
 
-> **DoD status**: partial. Public preschool / school structure and public preschool fees are screenable, but international-school tuition for Montenegro was not captured, so the section should not be marked passed.
+> **DoD status**: passed for screening. Public preschool / school structure, public preschool fees, compulsory/free primary education, and a concrete QSI Montenegro 2025-26 international-school fee schedule are now captured. Private preschool city quotes, exact admissions deposits, meals/transport, waiting lists, foreign-child public enrollment documents, and coastal English/bilingual alternatives remain application-prep/final-city checks rather than country-screening blockers.
 
 **Early childhood education.** Eurydice states that Montenegro's early childhood education and care covers children from birth until primary-school entry, typically up to age 6, and is provided in public and private preschool institutions. Children under age 3 attend nursery groups; children from age 3 to school entry attend kindergarten groups. Preschool access is guaranteed under equal conditions, with discrimination prohibited; public and private providers exist, with private providers mainly in larger urban areas. [src-664][src-665]
 
@@ -177,9 +177,11 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 
 **School system.** Montenegro's education system includes early childhood education, primary education, secondary education, higher education, and adult education/training. Primary education is compulsory, typically lasts **9 years**, and is available/free for pupils from about age 6 to 15. Educational programmes are provided by public and private institutions, with equal rights and obligations for children, pupils, and parents under national legislation. [src-665]
 
-**International / private alternative.** QSI International School of Montenegro is an English-language international school in Donja Gorica, Podgorica, with preschool, elementary, middle, and secondary school levels. This establishes an international-school alternative for a future child, but the public QSI page did not expose tuition in this pass; use it only as a presence/availability anchor and keep exact tuition as a verification item. [src-666]
+**International / private alternative.** QSI International School of Montenegro is an English-language international school in Donja Gorica, Podgorica, with preschool, elementary, middle, and secondary levels. The 2025-26 QSI Montenegro information packet gives a concrete fee schedule: a one-time non-refundable registration fee of **USD 300**; for the **5-year-old class through Secondary IV**, annual tuition of **USD 26,900** plus a **USD 1,600** annual capital-fund fee, for **USD 28,500/year** total; and for the **3-4-year-old class**, **USD 5,700/year** total with no capital-fund fee. QSI also notes a late-enrollment fee of **USD 2,700** for Term 2 or Term 3 starts. [src-666][src-744]
 
-**Practical education verdict for the couple.** Public education looks usable for a long stay if language adaptation is acceptable: preschool fees are modest by European standards and compulsory primary education is free. The budget risk is private/international schooling in Podgorica if the child needs English-language continuity; do not assume that international school fits a one-income USD 3,000/month budget until tuition is captured. [src-664][src-665][src-666]
+**Budget stress test.** QSI is usable as an English-language fallback but is not compatible with the current one-income baseline for primary/secondary schooling: USD 28,500/year is about **USD 2,375/month**, roughly 79% of gross USD 3,000/month and approximately the entire conservative Montenegro tax-net sensitivity before rent and living costs. The 3-4-year-old international-preschool figure, about **USD 475/month**, is much more plausible but still materially above public preschool fees. [src-744]
+
+**Practical education verdict for the couple.** Public education looks usable for a long stay if language adaptation into Montenegrin/Serbian-language schooling is acceptable: preschool fees are modest by European standards and compulsory primary education is free. QSI provides an English-language fallback in Podgorica, but primary/secondary tuition is a major budget risk on one USD 3,000/month income. Screen Montenegro as public-school-first; use international school only with materially higher income, employer support, scholarships, or a short-term bridge plan. [src-664][src-665][src-666][src-744]
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -218,7 +220,7 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 - **Realism of staying after 03.2027**: Medium-unclear. DN exists and can cover up to 4 years, but the 6-month cooling-off rule and PR counting need legal confirmation.
 - **Tax fit at current income**: Potentially workable on the captured entrepreneur PIT baseline, but not passed; exact self-employed SSC/VAT/DN-status treatment needs accountant confirmation. [src-349][src-350]
 - **Cost/rent fit at current income**: First-pass cost/rent is workable if the couple avoids the most rent-pressured coastal stock: Podgorica screens best for budget/admin practicality, Budva is the warmer coastal compromise, and Kotor needs a strict housing cap. [src-526][src-527][src-528]
-- **Healthcare/education fit**: First-pass public-system and public-education baselines are screenable. Healthcare remains status/insurance-sensitive, while education is promising for public schooling but incomplete on international-school tuition. [src-662][src-664][src-665][src-666]
+- **Healthcare/education fit**: First-pass public-system and public-education baselines are screenable. Healthcare remains status/insurance-sensitive; education now passes for screening, but the English-language fallback is expensive, with QSI primary/secondary total annual fees around USD 28,500/year. [src-662][src-664][src-665][src-666][src-744]
 
 **Pros**:
 - TP officially extended to 04 March 2027. [src-123]
@@ -307,7 +309,8 @@ _(none yet)_
 - [src-526] Livingcost — Podgorica cost/rent screen.
 - [src-527] Livingcost — Budva cost/rent screen.
 - [src-528] Livingcost — Kotor cost/rent screen.
-- [src-666] QSI International School of Montenegro — international-school presence in Podgorica (tuition not captured).
+- [src-666] QSI International School of Montenegro — international-school presence in Podgorica.
+- [src-744] QSI Montenegro Information Packet 2025-26 — registration, capital-fund, and tuition fee schedule.
 
 ### 7e. Not found
 - Official-primary DN numeric income threshold and full fee schedule.
@@ -315,7 +318,7 @@ _(none yet)_
 - Montenegro-specific guidance on Polish `karta pobytu` interaction.
 - Montenegro self-employed / entrepreneur registration, exact SSC base/rates, small-business VAT threshold, foreign-client reverse-charge handling, and DN-status tax compatibility.
 - Route-compliant private health-insurance quotes for two adults, maternity/newborn coverage, and exact public-insurance onboarding by residence status.
-- Montenegro international-school tuition and private-preschool city quotes.
+- Montenegro private-preschool city quotes, exact admissions deposits/meals/transport/waiting lists, public-school enrollment documents for foreign children, and non-Podgorica English/bilingual alternatives.
 
 ## Block 8 — Open questions and verification markers
 
@@ -325,4 +328,4 @@ _(none yet)_
 - `vq-101` — resolved in run-075 for screening: Montenegro entrepreneur/self-employed registration, exact SSC base/rates, VAT / reverse-charge handling, and DN/ordinary-residence tax compatibility remain accountant/application-prep checks before filing.
 
 - `vq-134` — resolved in run-148 for screening: route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks remain application-prep items.
-- `vq-135` — resolved in run-148 for screening: Montenegro international-school tuition and private-preschool city quotes for Podgorica/coastal options remain application-prep budget checks.
+- `vq-135` — resolved in run-148 for screening; run-166 captured QSI Montenegro 2025-26 tuition for the international-school stress test. Private-preschool city quotes, admissions deposits, meals/transport, waiting lists, public enrollment documents for foreign children, and coastal/non-Podgorica English/bilingual alternatives remain application-prep/final-city checks.
