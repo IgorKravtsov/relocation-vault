@@ -123,3 +123,39 @@
   confidence: medium
   tags: [cost-of-living, rent, vanadzor, budget]
   notes: "Vanadzor screens as cheap but needs city-service, healthcare, community, and landlord lease-evidence checks before being treated as a practical base."
+
+- id: claim-armenia-015
+  topic: armenia_healthcare_private_care_screen
+  value: "Armenia healthcare is screenable only with private/international insurance budgeting and Yerevan-first provider checks; this pass captured Numbeo healthcare proxies and Livingcost doctor-visit proxies of about USD 29 nationally and USD 32 in Yerevan, but not residence-status public onboarding or accepted policy wording."
+  source: src-736
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [healthcare, private-insurance, doctor-cost, yerevan]
+  notes: "Livingcost sources src-600 and src-601 support the doctor-visit cost proxies. Official Ministry pages were not cleanly capturable in this pass."
+
+- id: claim-armenia-016
+  topic: armenia_healthcare_application_prep_gaps
+  value: "Armenia section 5.6 remains partial because exact private/international insurance quotes for two young adults, maternity/newborn terms, accepted residence-file policy wording, and public-system onboarding by final residence/tax status were not captured."
+  source: src-736
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [healthcare, verification-queue, insurance, maternity]
+  notes: "Tracked as vq-162; this is an application-prep blocker rather than a country-screening blocker."
+
+- id: claim-armenia-017
+  topic: armenia_public_school_structure_language_baseline
+  value: "Scholaro describes Armenia education as starting with preschool, followed by primary education, grades 4-9 middle education, and secondary schooling; for foreign children, use an Armenian/Russian-language public-school integration baseline until exact enrollment and language-support rules are captured."
+  source: src-737
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [education, public-school, language-integration, preschool]
+  notes: "Use for screening only; official education ministry pages were WAF-blocked in this pass."
+
+- id: claim-armenia-018
+  topic: armenia_childcare_international_school_cost_screen
+  value: "Livingcost reports Armenia daycare/preschool around USD 370/month nationally and USD 388/month in Yerevan, with international primary-school proxies around USD 8.1k/year; QSI Yerevan is a captured English-school anchor and UWC Dilijan lists USD 88,000 for the two-year IBDP from 2026/27."
+  source: src-739
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [education, childcare, international-school, yerevan, dilijan]
+  notes: "Livingcost sources src-600 and src-601 support daycare/international-primary proxies; src-738 supports QSI Yerevan availability; src-739 supports UWC Dilijan fee details. Exact QSI fees remain open."

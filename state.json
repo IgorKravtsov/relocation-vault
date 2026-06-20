@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 162,
+  "iteration": 163,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-20T00:49:39Z",
+  "last_run_timestamp": "2026-06-20T03:56:53Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Kazakhstan",
+    "country": "Armenia",
     "sections": [
       "5.6",
       "5.7"
@@ -16,7 +16,7 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Armenia",
+    "suggested_country": "UAE",
     "suggested_sections": [
       "5.6",
       "5.7"
@@ -1101,19 +1101,19 @@
     "Armenia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 3.0,
+      "depth_score": 5.5,
       "sections_completed": [
         "5.2",
         "5.4",
-        "5.5"
+        "5.5",
+        "5.7"
       ],
       "sections_partial": [
         "5.1",
-        "5.3"
+        "5.3",
+        "5.6"
       ],
       "sections_pending": [
-        "5.6",
-        "5.7",
         "5.8",
         "5.9",
         "5.10",
@@ -1126,14 +1126,16 @@
         "cold-winters-hot-yerevan-summers",
         "armenia-foreign-client-it-tax-fit-gap",
         "yerevan-rent-pressure",
-        "armenia-one-income-margin-risk"
+        "armenia-one-income-margin-risk",
+        "armenia-private-insurance-quote-gap",
+        "armenia-international-school-cost-risk"
       ],
-      "last_iteration": 126,
-      "unverified_count": 0
+      "last_iteration": 163,
+      "unverified_count": 2
     }
   },
-  "verification_queue_size": 6,
-  "sources_count": 734,
-  "claims_count": 641,
+  "verification_queue_size": 8,
+  "sources_count": 738,
+  "claims_count": 645,
   "proposals_pending": 0
 }

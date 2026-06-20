@@ -1,14 +1,14 @@
 ---
 country: Armenia
 tier: null
-depth_score: 3.0
-last_updated: 2026-06-15T06:52:06Z
-sections_completed: ["5.2", "5.4", "5.5"]
-sections_partial: ["5.1", "5.3"]
-sections_pending: ["5.6","5.7","5.8","5.9","5.10","5.11"]
-risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers", "armenia-foreign-client-it-tax-fit-gap", "yerevan-rent-pressure", "armenia-one-income-margin-risk"]
-sources_used: [src-274, src-275, src-276, src-277, src-278, src-487, src-488, src-489, src-490, src-491, src-600, src-601, src-602, src-603]
-unverified_count: 0
+depth_score: 5.5
+last_updated: 2026-06-20T03:56:53Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+sections_partial: ["5.1", "5.3", "5.6"]
+sections_pending: ["5.8","5.9","5.10","5.11"]
+risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers", "armenia-foreign-client-it-tax-fit-gap", "yerevan-rent-pressure", "armenia-one-income-margin-risk", "armenia-private-insurance-quote-gap", "armenia-international-school-cost-risk"]
+sources_used: [src-274, src-275, src-276, src-277, src-278, src-487, src-488, src-489, src-490, src-491, src-600, src-601, src-602, src-603, src-736, src-737, src-738, src-739]
+unverified_count: 2
 schema_version: 2.0.0
 ---
 
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint). Armenia is easy for Ukrainian short entry and has official temporary/permanent residence categories, including business activity, but this first pass did not capture a dedicated digital-nomad route or a low-documentation foreign-client IT pathway. Long-term potential depends on whether the working partner can run a real Armenian business / individual-entrepreneur file that renews cleanly and supports later permanent residence and citizenship. [src-274][src-275][src-276]
-- **depth_score**: 3.0
-- **Last updated**: 2026-06-15
+- **depth_score**: 5.5
+- **Last updated**: 2026-06-20
 - **Tier rationale**: Not assigned yet; the current file has first-pass legalization, climate, tax, cost-of-living, and rent baselines.
 
 ## Block 2 — Scoring
@@ -30,8 +30,8 @@ schema_version: 2.0.0
 | Taxes | — | medium | Conservative first-pass: ordinary 20% income-tax plus entrepreneur pension/health contribution sensitivity leaves about AMD 787,721 / USD 2,139 per month at USD 3,000 gross; a favorable high-tech turnover-tax interpretation is not assumed. | §5.3 |
 | Cost of living | — | medium | First-pass Livingcost screen: Yerevan is workable but tight against conservative tax net, while Gyumri/Vanadzor preserve more buffer with service and winter tradeoffs. | §5.4 |
 | Rent (decent 2BR) | — | medium | 40 m2 rent proxies: Yerevan about $461-657, Gyumri about $253-406, Vanadzor about $224-240; live listings and residence-address lease support still need checks. | §5.5 |
-| Healthcare | — | N/A | [verification required] | §5.6 |
-| Education (future child) | — | N/A | [verification required] | §5.7 |
+| Healthcare | — | medium | First-pass screen: private/international insurance and private clinics should be budgeted; Livingcost doctor-visit proxies are low, but exact accepted policy wording, maternity/newborn terms, and residence-status public onboarding remain open. | §5.6 |
+| Education (future child) | — | medium | Public schooling exists but Armenian/Russian-language integration is the baseline; Yerevan has QSI and Dilijan has UWC, while international fees can strain a one-income budget. | §5.7 |
 | Comfort of life | — | N/A | [verification required] | §5.8 |
 | Fit for couple with single income | — | N/A | [verification required] | §5.9 |
 
@@ -158,13 +158,44 @@ Taxes are not the first Armenia blocker, but the tax/residence file is not yet f
 
 **Rent verdict for first pass**: Use the modest 40 m2 proxy for screening. Yerevan is the practical administrative base but should be capped near the cheap 40 m2 line if the conservative tax model applies; Gyumri offers a better rent-to-income balance with winter/service tradeoffs; Vanadzor is a budget fallback rather than a default settlement base until live listings and support services are checked.
 
-### 5.6. Healthcare {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.6. Healthcare {status: partial, depth: 1, last_updated: 2026-06-20, dod: partial}
 
-[verification required]
+> **DoD status**: first-pass healthcare baseline only. Armenia is screenable with private/international insurance and private-clinic budgeting, but this pass did not capture route-compliant policy wording for residence filing, current two-adult premiums, maternity/newborn exclusions, or exact public-system onboarding by temporary/permanent residence and tax status. Added `vq-162` for application-prep closure.
 
-### 5.7. Education (future child) {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Public and private access baseline
 
-[verification required]
+- **Official capture gap**: Armenia Ministry / government health pages were Radware/CAPTCHA-blocked in this cron pass, so healthcare is anchored on a commercial/crowd-sourced screen plus existing residence-file evidence. Do not assume state coverage from the temporary residence card alone until a lawyer/insurer confirms the route. [src-275][src-736]
+- **Private-care quality proxy**: Numbeo's Armenia health-care survey gives a medium-confidence practical proxy for system satisfaction and private/public differences, not an official entitlement map. Use Yerevan as the default healthcare base until Gyumri/Vanadzor provider depth is checked. [src-736]
+- **Doctor-cost proxy**: Livingcost reports a doctor's visit at about **USD 29** nationally, **USD 32** in Yerevan, **USD 19.1** in Gyumri, and **USD 12.9** in Vanadzor. These are useful first-pass private-visit proxies, not insured-care quotes. [src-600][src-601][src-602][src-603]
+
+#### Insurance, pregnancy, and screening verdict
+
+- **Insurance**: Budget for private/international health insurance before filing and during the first residence year. Exact Armenia-accepted policy wording, minimum coverage, local vs international insurer acceptance, and two-adult premiums were not captured. [verification required]
+- **Pregnancy/newborn**: No maternity package, childbirth price, newborn enrollment, or waiting-period evidence was captured. Treat pregnancy as a private-insurance/clinic quote requirement before choosing Armenia for a family-planning horizon. [verification required]
+- **Healthcare verdict**: Armenia is not a healthcare deal-breaker for screening if the couple is willing to base in Yerevan and carry private cover, but §5.6 remains partial because the legal/onboarding and maternity/insurance pieces are application-critical.
+
+### 5.7. Education (future child) {status: deep, depth: 1, last_updated: 2026-06-20, dod: passed}
+
+> **DoD status**: Passed for first-pass screening at medium confidence. Public-school structure, preschool/daycare proxy cost, and international-school alternatives are captured. Exact admissions documents for foreign children, current QSI tuition, meals/transport/deposits, private-preschool quotes, waiting lists, and non-Yerevan English/bilingual availability remain application-prep / final-city checks (`vq-163`).
+
+#### Public school and language baseline
+
+Scholaro's Armenia education-system profile describes preschool as the starting stage, followed by primary education, grades 4-9 middle education through about age 14, then secondary schooling and a certificate for full secondary education. For a future child, treat the public-school path as **Armenian-language / Russian-language integration work**, not an English-first route; exact enrollment documents for foreign residents were not captured. [src-737]
+
+#### Cost and international alternatives
+
+| Option / city | Cost proxy | Planning implication |
+|---|---:|---|
+| Daycare or preschool, Armenia national | about USD 370/month | Material but manageable only if rent and tax outcome are controlled. [src-600] |
+| Daycare or preschool, Yerevan | about USD 388/month | Use Yerevan for the first realistic preschool search; verify private-kindergarten quotes and language mix. [src-601] |
+| Daycare or preschool, Gyumri / Vanadzor | about USD 174 / USD 386 per month | Gyumri is cheaper; Vanadzor data looks high/noisy and needs live checks. [src-602][src-603] |
+| International primary-school proxy | about USD 8,060-8,233/year in Livingcost pages | This is roughly USD 672-686/month before deposits/transport/meals; affordable only with strict housing and tax control. [src-600][src-601][src-602][src-603] |
+| QSI International School of Yerevan | preschool through secondary / AP / intensive English services listed | Strong Yerevan English-school anchor, but tuition was not captured in this pass. [src-738] |
+| UWC Dilijan | USD 88,000 for the two-year IBDP from 2026/27 | Excellent older-student boarding option, but not a normal one-income-budget primary-school solution. [src-739] |
+
+#### Education verdict
+
+For screening, Armenia's education picture is viable but **Yerevan-centric** for English-language schooling. A young child could use local preschool/school with Armenian/Russian adaptation, while QSI Yerevan is the main captured international-school anchor and UWC Dilijan is an expensive later-stage IB boarding option. The practical budget risk is not absence of schools; it is international tuition plus Yerevan rent plus the conservative tax net.
 
 ### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -200,7 +231,7 @@ Taxes are not the first Armenia blocker, but the tax/residence file is not yet f
 - **Best legalization path for the man**: business-activity temporary residence, if foreign-client IT / Armenian IE or company evidence is accepted.
 - **Best legalization path for the woman**: likely spouse-dependent or independent student/work/business ground; unmarried partner not captured.
 - **Does marriage change the picture**: Likely yes, because the captured dependent wording names wife/husband, parent, and child of a temporary resident.
-- **Realism of staying after 03.2027**: Medium-low until business-substance and PR/citizenship counting are verified; cost/rent is workable only with a strict Yerevan rent cap or a cheaper secondary-city base.
+- **Realism of staying after 03.2027**: Medium-low until business-substance and PR/citizenship counting are verified; cost/rent is workable only with a strict Yerevan rent cap or a cheaper secondary-city base. Healthcare and education now screen as workable mainly from Yerevan, but private insurance and international-school costs need application-prep checks.
 
 **Pros**:
 - Easy short entry for Ukrainians.
@@ -215,6 +246,8 @@ Taxes are not the first Armenia blocker, but the tax/residence file is not yet f
 - Partner dependency appears marriage-first in captured MFA wording.
 - Cold winters outside lower-altitude areas; Yerevan summers are very hot.
 - Yerevan cost/rent can consume the conservative tax net unless the couple keeps housing small or confirms a better tax route.
+- Private-health-insurance wording, maternity/newborn terms, and public-system onboarding are still uncaptured.
+- International-school costs can strain the one-income budget if the child needs English-first schooling.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -250,12 +283,15 @@ Taxes are not the first Armenia blocker, but the tax/residence file is not yet f
 | Passport translation / medical certificate | TBD | Required document categories; costs not captured. |
 | Flights and first housing deposit | TBD | First-pass rent targets: Yerevan 40 m2 cheap/city-centre proxy about $461-$657, Gyumri about $253-$406, Vanadzor about $224-$240; live deposits, agency fees, and residence-address lease support still need checks. [src-601][src-602][src-603] |
 | Business/tax setup | TBD | Tax pass now has a conservative AMD 787,721 / USD 2,139 monthly net screen, but setup/accountant/VAT costs remain uncaptured. [src-487][src-489][src-490] |
+| Healthcare setup | TBD | Doctor-visit proxies are low, but private/international insurance, maternity/newborn terms, and residence-status public onboarding remain uncaptured. [src-736][src-600][src-601] |
+| Future childcare / school | USD 370-388/month preschool proxy; international primary proxy about USD 8.1k/year | Use for family-planning stress only; exact Yerevan preschool and QSI fees remain application-prep checks. [src-600][src-601][src-738] |
 | First-month living costs | TBD | Livingcost family proxy: Yerevan about $2,725, Gyumri about $1,718, Vanadzor about $1,880; use as conservative stress proxy, not exact two-person spending. [src-601][src-602][src-603] |
 | Buffer / contingencies | TBD | Keep larger buffer until route proof is verified and because Yerevan can be tight against conservative tax net. |
 
 ### 6g. Contact points and communities
 - Migration and Citizenship Service, Department for Determination of the Legal Status of Foreigners, 14 Tairov Street, Yerevan. [src-275]
 - Citizenship electronic system from 2026: `mcs-citizenship.am`; MCS contacts listed by MFA: `mcs@gov.am`, `citizenship@e-gov.am`, +374 10 300159. [src-276]
+- Healthcare / education anchors: verify Yerevan private insurers and clinics before filing; QSI International School of Yerevan is the main captured English-school anchor, and UWC Dilijan is a later-stage IB boarding-school reference. [src-738][src-739]
 - Lawyers / diaspora communities: [verification required]
 
 ### 6h. Tax setup checkpoint
@@ -280,12 +316,17 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - [src-277] Climate to Travel — Armenia climate, city climate tables for Yerevan, Gyumri, Sevan.
 - [src-278] WeatherSpark — Armenia country climate comparison for Yerevan and Gyumri.
-- [src-600] Livingcost — Armenia country cost-of-living and rent baseline.
-- [src-601] Livingcost — Yerevan cost-of-living and rent screen.
-- [src-602] Livingcost — Gyumri cost-of-living and rent screen.
-- [src-603] Livingcost — Vanadzor cost-of-living and rent screen.
+- [src-600] Livingcost — Armenia country cost-of-living, rent, doctor-visit, daycare, and international-primary cost baseline.
+- [src-601] Livingcost — Yerevan cost-of-living, rent, doctor-visit, daycare, and international-primary screen.
+- [src-602] Livingcost — Gyumri cost-of-living, rent, doctor-visit, daycare, and international-primary screen.
+- [src-603] Livingcost — Vanadzor cost-of-living, rent, doctor-visit, daycare, and international-primary screen.
+- [src-736] Numbeo — Armenia healthcare survey / private-public care proxy.
+- [src-737] Scholaro — Armenia education-system structure.
+- [src-738] QSI International School of Yerevan — school profile / English-school anchor.
+- [src-739] UWC Dilijan — 2026/27 IBDP fee page.
 
 ### 7e. Not found
+- Armenia Ministry / government health and education pages were WAF/CAPTCHA-blocked in this pass; healthcare and education use conservative commercial/aggregator sources for screening.
 - Detailed e-register sole-proprietor checklist: public portal captured, but the detailed service page was CAPTCHA/WAF-blocked in this pass.
 - State Revenue Committee / accountant confirmation for foreign-client IT individual-entrepreneur or LLC tax category, high-tech / turnover-tax eligibility, exported-service VAT treatment, and business-residence compatibility.
 - Official Armenia Ukraine-specific temporary-protection or post-2027 bridge; screening baseline is no reliance on one.
@@ -300,3 +341,5 @@ _(none yet)_
 - `vq-087` resolved in run-061: business activity is the conservative route, but treat foreign-client IT as a real-business IE/LLC file requiring adviser/application-prep confirmation, not as DN. [src-275]
 - `vq-088` resolved in run-061: spouse/parent/child wording supports marriage-first dependent planning; unmarried partner sponsorship is not captured. [src-275]
 - `vq-119` resolved for screening in run-100: use Armenia ordinary 20% income-tax plus contribution stress-test modelling as the baseline; exact IE vs LLC, high-tech / turnover-tax, VAT export, contribution base, and business-residence fit is application-prep/adviser work.
+- `vq-162` added in run-163: exact Armenia private-health-insurance wording, quotes, maternity/newborn terms, public-system onboarding, and city provider prices remain application-prep checks.
+- `vq-163` added in run-163: exact international-school/private-preschool fees, deposits, meals/transport, waiting lists, public enrollment documents, and non-Yerevan English/bilingual availability remain application-prep checks.

@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-20
 ---
 
+## 2026-06-20 — run-163 — Armenia healthcare/education
+
+- Added Armenia first-pass healthcare and education coverage for sections 5.6 and 5.7.
+- Added four sources (`src-736` through `src-739`) and four Armenia claims (`claim-armenia-015` through `claim-armenia-018`).
+- Armenia section 5.7 moved to completed, section 5.6 moved to partial, depth_score moved from 3.0 to 5.5, and two application-prep verification items (`vq-162`, `vq-163`) were added.
+
 ## 2026-06-20 — run-162 — Kazakhstan healthcare/education
 
 - Added Kazakhstan first-pass healthcare and education coverage for sections 5.6 and 5.7.

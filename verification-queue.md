@@ -99,6 +99,27 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-06-20 (run-162)
 - **Status**: pending
 
+
+## vq-162 [medium priority]
+- **Fact**: "Armenia exact temporary/permanent-residence-accepted private-health-insurance wording, current quotes for two young adults, maternity/newborn exclusions and waiting periods, public-system onboarding by temporary/permanent residence / business-activity / tax status, and Yerevan / Gyumri / Vanadzor GP, pediatric, maternity, and clinic prices"
+- **Country**: Armenia
+- **Section**: 5.6
+- **Current source**: src-600, src-601, src-602, src-603, src-736
+- **Why uncertain**: This healthcare pass captured a private/public healthcare proxy and doctor-visit cost proxies, but did not capture accepted insurance policy wording, current two-adult premiums, maternity/newborn terms, exact public-system eligibility/onboarding by final status, or selected-city provider prices.
+- **Suggested verification**: Get two to three Armenia-covering private/international insurance quotes, maternity/newborn terms, MCS/lawyer confirmation of residence-file policy wording, public-system onboarding by final residence/tax status, and selected-city GP/pediatric/maternity price samples.
+- **Created**: 2026-06-20 (run-163)
+- **Status**: pending
+
+## vq-163 [medium priority]
+- **Fact**: "Armenia exact QSI Yerevan / other international-school tuition, registration fees, deposits, transport/meal costs, private-preschool quotes, waiting lists, foreign-child public-school enrollment documents, and English/bilingual school availability outside Yerevan"
+- **Country**: Armenia
+- **Section**: 5.7
+- **Current source**: src-600, src-601, src-602, src-603, src-737, src-738, src-739
+- **Why uncertain**: This education pass captured public-school structure, preschool/daycare cost proxies, QSI Yerevan as an English-school anchor, and UWC Dilijan older-student fee evidence, but did not capture exact QSI/current school fee schedules, private-preschool quotes, admissions deposits, meals/transport, waiting lists, public enrollment documents, or non-Yerevan English/bilingual options.
+- **Suggested verification**: Get current QSI Yerevan and any other Yerevan international-school fee schedules, private-preschool quotes, transport/meal costs, public-school enrollment requirements for foreign children, waiting-list timing, and English/bilingual options in Gyumri/Vanadzor if those remain candidate bases.
+- **Created**: 2026-06-20 (run-163)
+- **Status**: pending
+
 ## vq-141 [medium priority]
 - **Fact**: "Uruguay private health-insurance quotes, maternity/newborn terms, exact FONASA/ASSE/mutualista onboarding by residence/self-employed status, and selected-city private GP/pediatric/maternity prices"
 - **Country**: Uruguay

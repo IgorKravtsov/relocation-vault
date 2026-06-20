@@ -8861,3 +8861,51 @@ Each source entry:
 - **Facts supporting**: Kazakhstan international-school count, Almaty/Astana school supply, English/IB/British/American/French curriculum examples, ages, and selected annual-fee examples (claim-kazakhstan-019)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-20
+
+## src-736
+- **Title**: Numbeo - Health Care in Armenia
+- **URL**: https://www.numbeo.com/health-care/country_result.jsp?country=Armenia
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: current crowd-sourced survey page, no single publication date captured
+- **Date accessed**: 2026-06-20
+- **Used by**: Armenia
+- **Facts supporting**: Armenia private/public healthcare quality proxy and healthcare screening baseline; used with Livingcost doctor-visit proxies to frame private-care budgeting (claim-armenia-015, claim-armenia-016)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-20
+
+## src-737
+- **Title**: Scholaro - Education System in Armenia
+- **URL**: https://www.scholaro.com/db/Countries/Armenia/Education-System
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-20
+- **Used by**: Armenia
+- **Facts supporting**: Armenia education-system structure: preschool, primary education, grades 4-9 middle education, secondary schooling, and public-school language/integration planning baseline (claim-armenia-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-20
+
+## src-738
+- **Title**: QSI International School of Yerevan - school profile
+- **URL**: https://www.qsi.org/yerevan/
+- **Archive**: direct HTML extraction used from public school page
+- **Type**: commercial
+- **Date published**: current public school page, no single publication date captured
+- **Date accessed**: 2026-06-20
+- **Used by**: Armenia
+- **Facts supporting**: QSI Yerevan as a captured English/international-school anchor with preschool, elementary, middle, secondary, AP, intensive English, and student-support services (claim-armenia-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-20
+
+## src-739
+- **Title**: UWC Dilijan - Fees
+- **URL**: https://www.uwcdilijan.org/admissions/fees
+- **Archive**: direct HTML extraction used from public fee page
+- **Type**: commercial
+- **Date published**: 2026/27 academic-year fee page, no separate publication date captured
+- **Date accessed**: 2026-06-20
+- **Used by**: Armenia
+- **Facts supporting**: UWC Dilijan fee baseline: USD 88,000 for the two-year IBDP from 2026/27, included items, excluded travel/pocket-money/holiday costs, and USD 300 deposit (claim-armenia-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-20
