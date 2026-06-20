@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-20
 ---
 
+## 2026-06-20 — run-168 — Italy comfort/partner fit
+
+- Completed Italy sections 5.8 and 5.9 for screening by adding country-level safety, Ukrainian-reception, English-proficiency, city-comfort, dependent-spouse, remote-study, and one-income partner baselines.
+- Added two sources (`src-747`, `src-748`) and two Italy claims (`claim-italy-016`, `claim-italy-017`).
+- Italy depth_score moved from 5.5 to 8.0; added `italian-language-integration-needed` as a comfort / bureaucracy risk flag.
+
 ## 2026-06-20 — run-167 — Spain comfort/partner fit
 
 - Completed Spain sections 5.8 and 5.9 for screening by adding country-level safety, Ukrainian-reception, English-proficiency, dependent-partner, remote-study, work-right, and sponsor-income baselines.

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 167,
+  "iteration": 168,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-20T16:26:00Z",
+  "last_run_timestamp": "2026-06-20T19:35:38Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Spain",
+    "country": "Italy",
     "sections": [
       "5.8",
       "5.9"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Italy",
+    "suggested_country": "Greece",
     "suggested_sections": [
       "5.8",
       "5.9"
     ],
-    "reason": "Pending/open verification queue is below threshold; Spain reached 5.8/5.9 screening coverage, so rotate to the next Tier-1-hint country sharing the previous minimum depth_score for comfort/partner coverage."
+    "reason": "Pending/open verification queue is below threshold; Italy reached 5.8/5.9 screening coverage, so rotate to another Tier-1-hint country at the shared minimum depth_score for comfort/partner coverage."
   },
   "countries": {
     "Spain": {
@@ -95,21 +95,21 @@
     "Italy": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 5.5,
+      "depth_score": 8.0,
       "sections_completed": [
         "5.2",
         "5.3",
         "5.4",
         "5.5",
-        "5.7"
+        "5.7",
+        "5.8",
+        "5.9"
       ],
       "sections_partial": [
         "5.1",
         "5.6"
       ],
       "sections_pending": [
-        "5.8",
-        "5.9",
         "5.10",
         "5.11"
       ],
@@ -121,9 +121,10 @@
         "rome-milan-rent-pressure",
         "southern-services-tradeoff",
         "italy-private-insurance-quote-gap",
-        "italy-international-school-cost-risk"
+        "italy-international-school-cost-risk",
+        "italian-language-integration-needed"
       ],
-      "last_iteration": 130,
+      "last_iteration": 168,
       "unverified_count": 0
     },
     "Greece": {
@@ -1138,7 +1139,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 745,
-  "claims_count": 652,
+  "sources_count": 747,
+  "claims_count": 654,
   "proposals_pending": 0
 }

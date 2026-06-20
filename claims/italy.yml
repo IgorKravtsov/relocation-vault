@@ -136,3 +136,22 @@
   confidence: medium
   tags: [italy, education, childcare, international-school, budget]
   notes: "City values come from existing Italy Livingcost city sources src-397 through src-400; use only as first-pass commercial proxies."
+
+
+- id: claim-italy-016
+  topic: comfort_safety_proxy
+  value: "World Population Review gives Italy a 2025 Global Peace Index score of 1.662, TravelSafe safety index 77 with medium risk, and US News safest-country rank 23rd."
+  source: src-747
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [italy, comfort, safety, screening]
+  notes: "Use only as a country-level screening proxy; final city/neighbourhood checks remain practical work."
+
+- id: claim-italy-017
+  topic: english_proficiency_environment
+  value: "EF EPI Italy page gives global rank #59 and EF EPI score 513, implying that Italian-language integration is needed for bureaucracy and daily life."
+  source: src-748
+  date_verified: 2026-06-20
+  confidence: medium
+  tags: [italy, comfort, language, integration]
+  notes: "Use as a practical friction signal, not as a legal or services guarantee."
