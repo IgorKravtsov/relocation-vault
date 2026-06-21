@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-21
 ---
 
+## 2026-06-21 — run-173 — Czech Republic comfort/partner fit
+
+- Completed Czech Republic sections 5.8 and 5.9 for screening by adding safety, Ukrainian-support infrastructure, English-proficiency, city-comfort, marriage/independent-TP partner, remote-study, work-right, and sponsor-income baselines.
+- Added two sources (`src-756`, `src-757`) and two Czech claims (`claim-czech-020`, `claim-czech-021`).
+- Czech Republic depth_score moved from 5.5 to 8.0; added `czech-language-integration-needed` and `czech-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-21 — run-172 — Malta comfort/partner fit
 
 - Completed Malta sections 5.8 and 5.9 for screening by adding safety, English-language practicality, Ukrainian/foreigner support, city-comfort, spouse/de facto partner, remote-study, local-work-right caution, and one-income partner baselines.

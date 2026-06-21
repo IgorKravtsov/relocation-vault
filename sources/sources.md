@@ -9105,3 +9105,27 @@ Each source entry:
 - **Facts supporting**: Malta safety screening baseline: TravelSafe safety index 78 / Low risk and Numbeo crime index 43.02 / safety index 56.98 (claim-malta-016)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-21
+
+## src-756
+- **Title**: World Population Review / TravelSafe safety proxies for Czechia
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world
+- **Archive**: direct HTML / embedded-data extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: WPR article 2026-06-16
+- **Date accessed**: 2026-06-21
+- **Used by**: Czech Republic
+- **Facts supporting**: Czechia safety screening baseline: 2025 Global Peace Index score 1.435, TravelSafe safety index 88 / Low risk, and US News 2024 safest-country rank #27 (claim-czech-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21
+
+## src-757
+- **Title**: EF English Proficiency Index - Czechia
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/czech-republic/
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: 2025-11-01
+- **Date accessed**: 2026-06-21
+- **Used by**: Czech Republic
+- **Facts supporting**: Czechia English-proficiency baseline: global rank #23, EF EPI score 582, high proficiency band, Brno score 620, and Prague score 576 (claim-czech-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21

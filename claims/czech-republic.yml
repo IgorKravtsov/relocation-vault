@@ -170,3 +170,21 @@
   confidence: medium
   tags: [education, childcare, international-school, budget]
   notes: "Commercial first-pass screening only; city-level admissions, public nursery access, and language-support checks remain later practical work."
+
+- id: claim-czech-020
+  topic: safety_comfort_screen_2026
+  value: "World Population Review / TravelSafe safety proxy for Czechia: 2025 Global Peace Index 1.435, TravelSafe safety index 88, Low risk label, and US News 2024 safest-country rank #27"
+  source: src-756
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [comfort, safety, screening]
+  notes: "Aggregator safety proxy; sufficient for comfort screening, not a substitute for city/neighborhood safety checks."
+
+- id: claim-czech-021
+  topic: english_proficiency_screen_2025
+  value: "EF EPI 2025 gives Czechia global rank #23, score 582, high proficiency; city scores include Brno 620 and Prague 576"
+  source: src-757
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [comfort, english, language-integration]
+  notes: "English is workable in larger-city private services and IT contexts, but Czech remains needed for public offices, leases, healthcare, schooling, and long-term integration."

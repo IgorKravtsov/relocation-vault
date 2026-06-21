@@ -1,13 +1,13 @@
 ---
 country: Czech Republic
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-16T11:15:41Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-21T11:04:40Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up", "czech-flat-tax-it-trade-fit-gap", "prague-rent-pressure", "czech-private-insurance-quote-gap", "czech-international-school-cost-risk"]
-sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171", "src-293", "src-316", "src-317", "src-318", "src-319", "src-497", "src-498", "src-499", "src-500", "src-635", "src-636", "src-637", "src-638"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up", "czech-flat-tax-it-trade-fit-gap", "prague-rent-pressure", "czech-private-insurance-quote-gap", "czech-international-school-cost-risk", "czech-language-integration-needed", "czech-one-income-margin-risk"]
+sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171", "src-293", "src-316", "src-317", "src-318", "src-319", "src-497", "src-498", "src-499", "src-500", "src-635", "src-636", "src-637", "src-638", "src-756", "src-757"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence suggests a strategically relevant Tier-2-hint profile: Czechia has an unusually explicit special long-term residence track for Ukrainian temporary-protection holders, but this pass captured it through UNHCR rather than an official-primary Czech page and the normal self-employed/business route has a high evidence burden.
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-16
-- **Tier rationale**: Keep Tier unset until healthcare, partner mechanics, official-primary special-residence future-round timing, and flat-tax IT trade fit are researched.
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-21
+- **Tier rationale**: Keep Tier unset until official-primary special-residence future-round timing, flat-tax IT trade fit, risk dimensions, and bureaucracy/practicality are researched.
 
 ## Block 2 — Scoring
 
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | Use Livingcost's 40 m2 1BR as the modest two-room proxy: Prague is expensive, Brno is mid-high, and Ostrava is the budget fallback. | §5.5 |
 | Healthcare | — | medium | First pass: foreigner health insurance is required for visa/residence planning, comprehensive coverage is the safer baseline, and pregnancy needs a dedicated comprehensive package; exact live quotes and status-specific onboarding remain application-prep gaps. | §5.6 |
 | Education (future child) | — | medium-high | Public education is structurally workable: compulsory last pre-primary year and 9-year basic school; private childcare and international primary are budget risks. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Czechia screens as safe and administratively practical by regional standards, with strong Ukrainian-support context and high English proficiency, but Czech remains important for bureaucracy, leases, public healthcare, public schooling, and long-term integration. | §5.8 |
+| Fit for couple with single income | — | medium | Marriage or independent Czech TP eligibility remains safer than an unmarried-partner file; remote Ukrainian study is feasible, local work depends on final status/Czech language, and Prague strains the one-income budget. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -185,13 +185,39 @@ Early-childhood provision is split between children's groups and nursery schools
 **Bottom line:** Czech education is a relative plus if the child can enter local public schooling and the family can handle Czech-language integration. It is a budget risk if the couple needs English/international schooling or full-time private childcare before public nursery / school access is secured.
 
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. This section covers safety, Ukraine-specific support / adaptation, English level, and practical city comfort. It does not replace a later final-city check for Czech-language bureaucracy, lease registration, GP access, school catchments, and local communities.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+Czechia screens as a relatively safe, orderly EU option. World Population Review's 2026 safety page lists Czechia with a 2025 Global Peace Index score of **1.435**, TravelSafe safety index **88**, TravelSafe risk level **Low**, and US News 2024 safest-country rank **#27** [src-756]. These are aggregator proxies, but they are enough for a first-pass comfort baseline: violent-crime and acute personal-safety concerns should not be the main blocker compared with legalization, taxes, housing, and winter climate.
 
-[verification required]
+Ukraine-specific adaptation is materially better than in many non-EU screens because Czechia already has official / semi-official Ukrainian TP and special-long-term-residence infrastructure. UNHCR Czechia documents the special long-term residence path for economically self-sufficient Ukrainian TP holders, and the Czech IPC page confirms special long-term residence as a distinct settlement-oriented status rather than a rumor [src-053][src-061]. This does not prove social acceptance in every city, but it does mean Ukrainian-specific administration, guidance, and service vocabulary are already embedded in the system.
+
+English practicality is decent for an EU inland country but not enough to avoid Czech. EF EPI 2025 gives Czechia **global rank #23**, **EF EPI score 582**, and the **high proficiency** band; city data show Brno **620** and Prague **576** [src-757]. For day-to-day IT work, private services, and larger-city onboarding, English should be workable. For public offices, health insurance, public schooling, lease disputes, trade registration, and citizenship integration, plan on Czech translation help and gradual Czech-language learning.
+
+**City comfort screen:**
+
+| City | Comfort strengths | Comfort risks |
+|---|---|---|
+| Prague | Best bureaucracy, lawyers/accountants, universities, airport, Ukrainian/expat networks, and private services. | Highest rent pressure, tourist/expat premium, and weaker one-income margin. |
+| Brno | Best first-pass services/cost balance: strong student/tech city, lower rent than Prague, high EF city score, and enough professional services for a Czech file. | Smaller international market than Prague; Czech still needed for public systems and leases. |
+| Ostrava | Best rent / cost fallback and close to the Polish border. | More industrial feel, weaker international-services depth, colder/less attractive climate profile, and smaller expat ecosystem. |
+
+**Bottom line:** Czechia is comfort-positive if the couple prioritizes safety, EU order, Ukrainian support infrastructure, and a realistic settlement bridge over warm climate. Brno is the first comfort/cost screen; Prague is the services-heavy but rent-stressed option; Ostrava is the budget fallback with service and lifestyle tradeoffs.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
+
+> **DoD status**: passed for first-pass screening. This section gives a conservative operational baseline for the non-working student partner: independent TP if eligible, marriage as the cleanest dependent route, remote Ukrainian study as practically feasible, and local work as status/language-dependent. Exact unmarried-partner handling remains application-prep legal work rather than a country-screening blocker.
+
+**Status as dependent / partner.** The safest Czech planning baseline is still **independent Czech temporary protection if eligible**, or **marriage before a family-unit / dependent residence filing** if the couple wants one partner to sponsor the other. UNHCR's special-long-term-residence page says spouses and minor children must apply together as a household, and gives the household income uplift logic (one person plus CZK 110,000 for each additional household member) [src-053]. It does not clearly confirm an unmarried partner / cohabitant path for a childless couple. Therefore, do not rely on an informal partnership file without Czech legal confirmation; marriage is the cleaner route if the partner needs to be included in a residence strategy.
+
+**Student status.** The woman's Ukrainian distance-study status is compatible with living in Czechia as a practical matter, but this pass found no evidence that remote enrollment in a Ukrainian university independently creates Czech residence rights. Treat it as a life-planning fact, not an immigration basis. If she does not qualify for Czech TP and the couple does not marry, she should have her own ordinary route rather than being assumed into the IT partner's file.
+
+**Right to work.** If she has Czech temporary protection, work access should be checked in the current Czech TP rules before arrival; if she is included under another family/dependent status, her work rights depend on the exact permit category. In practice, Czech-language ability will strongly affect realistic local work outside international companies, and English-only student jobs are more plausible in Prague/Brno than in smaller cities.
+
+**Sponsor-income and budget fit.** The Czech special-long-term-residence first-round household threshold captured by UNHCR is **CZK 550,000/year gross taxable income** for a two-person household baseline [src-053]. At the couple's current USD 3,000/month, the run-date tax example is about CZK 752,100/year gross and potentially about CZK 52,691/month net if flat-tax band I applies [src-293][src-319]. That clears the captured household-income threshold on paper, but the margin is not Prague-comfortable after rent, health insurance, accountant, translation, and immigration buffers. Brno is the better first screen; Ostrava is the affordability fallback.
+
+**Bottom line for the partner:** plan for either independent Czech TP or marriage if Czechia becomes serious. Do not treat remote Ukrainian study or informal partnership as enough for residence by itself. For daily life, the partner can continue Ukrainian online study, but should budget time for Czech language and status-specific work-right confirmation before relying on local earnings.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -217,27 +243,29 @@ Early-childhood provision is split between children's groups and nursery schools
 
 - **Can relocate now**: Possibly, if Czech TP eligibility is clean or if a business/self-employed visa file is built; not confirmed enough for action without legal review.
 - **Best legalization path for the man**: Potentially Czech TP → special long-term residence, or business/self-employed long-term visa as fallback.
-- **Best legalization path for the woman**: Independent Czech TP if eligible; otherwise spouse/dependent strategy needs verification.
-- **Does marriage change the picture**: Likely yes for family-unit clarity, but exact unmarried-partner treatment remains unverified.
+- **Best legalization path for the woman**: Independent Czech TP if eligible; otherwise marriage is the cleanest dependent/family-unit strategy before relying on the IT partner's file.
+- **Does marriage change the picture**: Yes. Marriage is the conservative baseline because captured special-residence household wording clearly covers spouses, while an unmarried childless partner file remains application-prep legal work.
 - **Realism of staying after 03.2027**: Potentially medium-high if the special long-term residence route is available in future rounds and the couple meets income/insurance conditions; otherwise medium/uncertain.
 - **Cost/rent budget read**: Prague is rent-pressured on one income; Brno is the first budget/services balance to screen; Ostrava is the affordability fallback if the couple can accept weaker climate/comfort and a smaller international-services ecosystem. [src-497][src-498][src-499][src-500]
-- **Healthcare/education read**: workable for screening. Insurance must be mapped to the final status, pregnancy coverage is not safe under emergency-only products, and Czech public education has a strong compulsory-school baseline, but childcare and international school costs can hurt a one-income budget. [src-635][src-636][src-637][src-638]
+- **Healthcare/education/comfort read**: workable for screening. Insurance must be mapped to the final status, pregnancy coverage is not safe under emergency-only products, Czech public education has a strong compulsory-school baseline, and Czechia screens safe / high-English by regional standards, but childcare, international school, Prague rent, and Czech-language bureaucracy can hurt a one-income household. [src-635][src-636][src-637][src-638][src-756][src-757]
 
 **Pros**:
 - Captured special long-term residence concept for Ukrainian TP holders, unlike many countries with no clear bridge.
 - Long-term business/self-employed route exists in official channels.
 - PR anchor after 5 years temporary residence exists, subject to status-counting verification.
-- Large Ukrainian presence likely improves adaptation, to verify in §5.8.
+- Ukrainian TP / special-long-term-residence infrastructure improves adaptation and gives country-specific guidance channels.
 - Brno and especially Ostrava keep the rent screen within a plausible range if the Czech flat-tax scenario is confirmed.
 - Public education has a clear compulsory-school structure and a free final pre-primary year in public/state nursery schools.
+- Safety and English-proficiency proxies are favorable enough for first-pass comfort screening, especially in Prague and Brno.
 
 **Cons / risks**:
 - Special-residence route now has an official-primary anchor, but future-round timing and unmarried-partner mechanics remain unresolved.
 - Climate is a compromise: cold, gray winters and no sea/warm region.
 - Business/self-employed route may require a stronger Czech business file than simple foreign-client remote work.
-- Unmarried partner/dependent mechanics remain unresolved.
+- Unmarried partner/dependent mechanics remain unresolved; marriage is the conservative family-unit baseline.
 - Prague rent is high relative to the couple's conservative Czech after-tax screen; live listings and deposits must be checked before relying on Prague.
 - Healthcare still needs live insurance quotes and status-specific onboarding checks; international schooling is costly if public Czech-language schooling is not acceptable.
+- Czech language remains important for public offices, leases, healthcare, public schooling, and long-term integration.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -253,7 +281,7 @@ Early-childhood provision is split between children's groups and nursery schools
 
 ### 6c. First 3–6 months
 - Keep a clean paper trail: taxable income, no humanitarian benefit dependency if aiming at special long-term residence, address notification, health insurance continuity, and Czech translations.
-- Decide whether marriage is worth doing for family-unit clarity before a residence application round.
+- Decide whether marriage is worth doing for family-unit clarity before a residence application round; do not rely on an informal unmarried-partner file without Czech legal confirmation.
 
 ### 6d. Before March 2027 (critical deadline)
 - Verify Czech official-primary extension/transition rules and special-long-term-residence rounds.
@@ -279,7 +307,7 @@ Early-childhood provision is split between children's groups and nursery schools
 
 ### 6g. Contact points and communities
 - Immigration lawyers: TBD.
-- Ukrainian / Russian-speaking diaspora: TBD.
+- Ukrainian / Russian-speaking diaspora: use UNHCR Czechia and official Czech special-long-term-residence / temporary-protection guidance as the first support layer; city-specific communities remain TBD.
 - Official portals captured: IPC / Czech Ministry of the Interior [src-054][src-055][src-056].
 - Support / guidance captured: UNHCR Czechia [src-053].
 
@@ -301,6 +329,7 @@ Early-childhood provision is split between children's groups and nursery schools
 - [src-318] PwC Czech Republic other taxes, social/health, and VAT.
 - [src-637] Eurydice Czechia education overview / early-childhood baseline.
 - [src-638] Eurydice Czechia education-system structure and compulsory-schooling baseline.
+- [src-757] EF English Proficiency Index — Czechia.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -317,6 +346,7 @@ _(none yet)_
 - [src-500] Livingcost — Ostrava cost/rent baseline.
 - [src-635] PVZP foreigners medical-insurance product baseline.
 - [src-636] InfoCizinci Czech foreigner health-insurance calculator / explainer.
+- [src-756] World Population Review / TravelSafe safety proxies for Czechia.
 
 ### 7e. Not found
 - Later-round special-long-term-residence timing after the first registration cycle remains unresolved.
@@ -324,9 +354,11 @@ _(none yet)_
 - Accountant-level confirmation that foreign-client IT can use the Czech 60% expense trade category / flat-tax band I, plus exact VAT and social/health registration handling, was not captured.
 - Live Czech rental listings, deposit/agency-fee practice, and foreigner-document requirements were not captured.
 - Live Czech residence-compliant insurance quotes, maternity exclusions/waiting periods, and final-status public/private health onboarding were not captured.
+- Exact unmarried-partner treatment for a childless couple under special long-term residence / ordinary residence was not captured; use marriage or independent TP as the conservative baseline.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-020` resolved in run-032: WeatherSpark clearer-sky day-equivalent proxies close the climate blocker at medium confidence; direct official sunny-day counts were not captured.
 - `vq-094` resolved for screening in run-100: use the Czech flat-tax / 60% expense scenario only as a conservative screening baseline; exact trade category, VAT/reverse-charge, social-health, and immigration-status fit is application-prep/accountant work.
 - `vq-127` resolved for screening in run-138: Czech residence-compliant insurance quotes, maternity exclusions/waiting periods, and status/city-specific healthcare onboarding remain application-prep checks.
+- Run-173 added comfort/partner screening baselines. Remaining Czech issues are application-prep checks: final-city community/service depth, Czech-language integration, and exact unmarried-partner legal treatment.
