@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-21
 ---
 
+## 2026-06-21 — run-174 — Poland comfort/partner fit
+
+- Completed Poland sections 5.8 and 5.9 for screening by adding safety, Ukraine-support infrastructure, English-proficiency, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-758`, `src-759`) and two Poland claims (`claim-poland-026`, `claim-poland-027`).
+- Poland depth_score moved from 5.5 to 8.0; added `poland-polish-language-integration-needed` and `poland-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-21 — run-173 — Czech Republic comfort/partner fit
 
 - Completed Czech Republic sections 5.8 and 5.9 for screening by adding safety, Ukrainian-support infrastructure, English-proficiency, city-comfort, marriage/independent-TP partner, remote-study, work-right, and sponsor-income baselines.

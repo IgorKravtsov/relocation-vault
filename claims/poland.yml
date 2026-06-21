@@ -225,3 +225,22 @@
   confidence: medium
   tags: [poland, warsaw, childcare, international-school, budget]
   notes: "Krakow and Wroclaw proxies are lower but still material; international schooling is treated as a one-income budget risk"
+
+
+- id: claim-poland-026
+  topic: poland_safety_comfort_screen
+  value: "Poland screens as low risk in WPR/TravelSafe proxies: GPI 2025 score 1.713, TravelSafe 84/Low, and US News safety rank #22"
+  source: src-758
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [poland, comfort, safety, screening]
+  notes: "English proficiency is cited separately in the profile from src-759; city comfort still depends on rent and Polish-language bureaucracy"
+
+- id: claim-poland-027
+  topic: poland_partner_student_baseline
+  value: "For the student partner, marriage-based family reunification or independent CUKR/PESEL UKR is the conservative residence baseline; remote Ukrainian study alone does not create Polish residence rights"
+  source: src-091
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [poland, partner, student, family-reunification, one-income]
+  notes: "Uses existing family-reunification source plus CUKR/Ukraine-status sources in the profile; exact voivode document practice remains application-prep"

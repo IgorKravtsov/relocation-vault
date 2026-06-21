@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 173,
+  "iteration": 174,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-21T11:04:40Z",
+  "last_run_timestamp": "2026-06-21T14:09:50Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Czech Republic",
+    "country": "Poland",
     "sections": [
       "5.8",
       "5.9"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Poland",
+    "suggested_country": "Romania",
     "suggested_sections": [
       "5.8",
       "5.9"
     ],
-    "reason": "Pending/open verification queue is below threshold; Czech Republic reached 5.8/5.9 screening coverage, so rotate to the next lowest-depth Tier-2-hint country for comfort/partner coverage."
+    "reason": "Pending/open verification queue is below threshold; Poland reached 5.8/5.9 screening coverage, so rotate to the next lowest-depth Tier-2-hint country for comfort/partner coverage."
   },
   "countries": {
     "Spain": {
@@ -301,12 +301,14 @@
     "Poland": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 5.5,
+      "depth_score": 8.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
-        "5.7"
+        "5.7",
+        "5.8",
+        "5.9"
       ],
       "sections_partial": [
         "5.1",
@@ -314,8 +316,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.8",
-        "5.9",
         "5.10",
         "5.11"
       ],
@@ -324,9 +324,11 @@
         "poland-ryczalt-it-rate-fit-gap",
         "warsaw-rent-pressure",
         "poland-private-insurance-quote-gap",
-        "poland-international-school-cost-risk"
+        "poland-international-school-cost-risk",
+        "poland-polish-language-integration-needed",
+        "poland-one-income-margin-risk"
       ],
-      "last_iteration": 136,
+      "last_iteration": 174,
       "unverified_count": 4
     },
     "Romania": {
@@ -1148,7 +1150,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 756,
-  "claims_count": 664,
+  "sources_count": 758,
+  "claims_count": 666,
   "proposals_pending": 0
 }

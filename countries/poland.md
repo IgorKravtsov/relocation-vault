@@ -1,13 +1,13 @@
 ---
 country: Poland
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-16T14:41:19Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-21T14:09:50Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["poland-zus-social-contribution-gap", "poland-ryczalt-it-rate-fit-gap", "warsaw-rent-pressure", "poland-private-insurance-quote-gap", "poland-international-school-cost-risk"]
-sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091", "src-293", "src-320", "src-321", "src-322", "src-323", "src-501", "src-502", "src-503", "src-504", "src-639", "src-640", "src-641"]
+sections_pending: ["5.10", "5.11"]
+risk_flags: ["poland-zus-social-contribution-gap", "poland-ryczalt-it-rate-fit-gap", "warsaw-rent-pressure", "poland-private-insurance-quote-gap", "poland-international-school-cost-risk", "poland-polish-language-integration-needed", "poland-one-income-margin-risk"]
+sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091", "src-293", "src-320", "src-321", "src-322", "src-323", "src-501", "src-502", "src-503", "src-504", "src-639", "src-640", "src-641", "src-758", "src-759"]
 unverified_count: 4
 schema_version: 2.0.0
 ---
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (set after sufficient evidence; justify with sources)
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-16
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-21
 - **Tier rationale**: TBD. Poland is a uniquely relevant case because one partner already holds a Polish `karta pobytu` (residence permit), which creates a family-reunification path that does not exist for most other countries in the set. The new CUKR card (May 2026) also provides a clear post-2027 bridge for Ukrainian temporary-protection holders. If both paths hold, Poland could rate Tier 1 or Tier 2; the first tax pass suggests the self-employed tax answer can be workable, but exact ZUS and IT lump-sum classification require accountant confirmation.
 
 ## Block 2 — Scoring
@@ -34,8 +34,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | The 40 m2 1BR proxy is workable in Krakow/Wroclaw ($737-$973/month) but Warsaw is rent-pressured ($945 cheap / $1,304 center); 80 m2 3BR is an upper stress test, not the default. | §5.5 |
 | Healthcare | — | medium | Public healthcare for Ukrainians under the special-protection framework is NFZ-funded; ordinary resident/self-employed access depends on insured status, and private coverage should be budgeted until the final route is fixed. | §5.6 |
 | Education (future child) | — | medium | Eurydice supports a normal public-school baseline: compulsory one-year preschool preparation, primary school from age 7, and education/training obligation to 18; childcare/international-school costs are the budget risk. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Poland screens comfort-positive for safety, EU/large-city infrastructure, Ukrainian support systems, and high English proficiency, but winters and Polish-language bureaucracy remain practical frictions. | §5.8 |
+| Fit for couple with single income | — | medium | Marriage or independent Ukrainian status is the conservative partner baseline; remote Ukrainian study is compatible in practice but gives no Polish residence rights, and the one-income margin depends on confirmed rent and ZUS/tax treatment. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -239,17 +239,45 @@ Practical interpretation: for the current one-income couple, **Wroclaw first, Kr
 - Add `poland-international-school-cost-risk`: if the family requires English-language international schooling, the current one-income budget becomes tight quickly.
 
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
 
-> **DoD**: safety data; attitude toward Ukrainians with sources; English level among locals.
+> **DoD status**: Passed for first-pass screening. Safety and English are supported by current aggregator / EF EPI evidence; attitude toward Ukrainians is inferred from Poland's captured Ukraine-specific legal, healthcare, education, and CUKR infrastructure rather than a fresh sentiment survey.
 
-[verification required]
+#### Safety / daily comfort
+- World Population Review / TravelSafe safety proxies screen Poland as a low-risk country: 2025 Global Peace Index score **1.713**, TravelSafe safety index **84 / Low risk**, and US News 2024 safest-country rank **#22**. Treat this as a medium-confidence country-level proxy, not a city-by-city crime audit. [src-758]
+- Practical city read: Warsaw is service-rich and has the broadest institutional / community infrastructure, but rent pressure makes it a non-default base on one income. Krakow has strong services and diaspora / student-community depth but tourist and student pressure. Wroclaw is the first comfort-cost screen because it combines a large-city base, milder winters than Warsaw/Krakow, and the best captured rent balance. [src-502][src-503][src-504]
+- Comfort caveat: Poland is colder and greyer than the couple's warm-climate preference. This is not disqualifying, but winter daylight, smog episodes in some cities, and heating / clothing needs should be budgeted. [src-065][src-066][src-067]
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Ukrainian support / social fit
+- Poland is unusually strong for Ukrainian practical support in this vault because the profile already captures PESEL UKR / temporary-protection rights, NFZ-funded healthcare access under the Ukraine framework, a dedicated CUKR post-TP bridge, and public-education access. [src-062][src-063][src-064][src-639][src-641]
+- Planning implication: for this couple, Poland is one of the easier countries for language-adjacent survival and Ukrainian-community support, especially if they already have Polish residence ties. The long-term integration burden still shifts toward Polish language for bureaucracy, leases, doctors, schools, and citizenship/PR planning.
 
-> **DoD**: dependent/partner status with and without marriage; possibility of remote Ukrainian-university study; possibility of work; sponsor minimum income.
+#### English / language friction
+- EF EPI 2025 places Poland at global rank **#15** with score **600**, i.e. a high English-proficiency screen. City snippets on the EF page show Krakow **605**, Wroclaw **599**, and Warsaw **591**, all supportive for initial services and IT/expat networks. [src-759]
+- This does not remove the Polish-language requirement for long-term life: public offices, medical pathways, school communication, leases, tax/ZUS, and any citizenship path should be treated as Polish-language dependent. Add `poland-polish-language-integration-needed` as a practical risk flag.
 
-[verification required]
+#### Comfort verdict
+Poland passes comfort screening at medium confidence. It is not climate-ideal, but safety, Ukraine-specific infrastructure, high English proficiency, and Wroclaw/Krakow service depth make it a practical base if the couple accepts Polish-language integration and avoids Warsaw-level rent pressure.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. The conservative partner baseline is marriage or independent Ukrainian status; unmarried-partner family sponsorship is still not captured as safe under the existing family-reunification source. Exact voivode practice remains application-prep.
+
+#### Dependent / partner status
+- The existing family-reunification evidence remains the controlling baseline: Article 159-style family reunification is built around family-tie evidence such as a marriage certificate, plus health insurance, accommodation, and stable regular income. The captured source does not list an unmarried partner as a beneficiary. [src-091]
+- For this couple, the safe plan is therefore: **marry before relying on family reunification via the existing Polish `karta pobytu`**, or keep the student partner on independent eligibility such as PESEL UKR / CUKR if she qualifies, student residence, work, or another ordinary status. [src-062][src-063][src-091]
+- Sponsor-income screen: the captured voivodeship guidance gives **PLN 600 net per family member** or **PLN 776 net for a single person** plus accommodation and insurance evidence. The couple's gross income can clear the low numeric threshold, but voivode document practice for foreign-client IT income should be confirmed before filing. [src-091]
+
+#### Remote Ukrainian study / work fit
+- Continuing a Ukrainian university remotely is compatible as a life arrangement but does **not** by itself create Polish residence rights. It should be paired with family reunification, CUKR / PESEL UKR, a Polish student permit, or another ordinary residence basis. [src-062][src-063][src-091]
+- If the student partner wants local work, Polish TP / CUKR status is strong because the captured CUKR baseline gives full labour-market access and the right to conduct economic activity; a family-reunification permit may also be workable, but exact work-right wording should be checked in the final permit type before relying on it. [src-062][src-063]
+
+#### One-income budget fit
+- Poland is better than many EU options for the one-income scenario, but it is not automatically comfortable. The current tax screen leaves about **USD 2,412/month before uncaptured ZUS social contributions** if 12% IT `ryczalt` and the captured health band apply, while Wroclaw/Krakow 40 m2 rent proxies run about **USD 737-973/month**. [src-293][src-320][src-321][src-503][src-504]
+- Planning baseline: Wroclaw first, Krakow second, Warsaw only for a specific legal/community reason with a strict rent cap. Add `poland-one-income-margin-risk` until ZUS, accountant, insurance, and final rent are confirmed.
+
+#### Partner verdict
+Poland passes partner/student screening at medium confidence. Marriage is the cleanest dependent strategy; independent CUKR / PESEL UKR eligibility can be even stronger if available. Remote study can continue, but the couple should not treat it as a residence basis, and the one-income budget needs tax/ZUS and rent discipline.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -278,14 +306,15 @@ Practical interpretation: for the current one-income couple, **Wroclaw first, Kr
 ## Block 5 — Practical verdict
 
 - **Can relocate now**: Plausibly yes if the couple can rely on existing Polish status / CUKR / family reunification, but the exact residence-file strategy remains unfinished.
-- **Best legalization path for the man**: TBD (likely family reunification via partner's `karta pobytu` if married, or CUKR if eligible, or business-activity residence)
-- **Best legalization path for the woman**: TBD (likely family reunification via partner's `karta pobytu` if married, or CUKR if eligible, or student residence)
+- **Best legalization path for the man**: Likely CUKR / existing Polish route if eligible, family reunification if the partner can sponsor after marriage, or business/self-employed residence only after legal-route verification.
+- **Best legalization path for the woman**: Marriage-based family reunification or independent CUKR / PESEL UKR if eligible; remote Ukrainian study alone is not a residence basis.
 - **Does marriage change the picture**: Yes — marriage would likely unlock family reunification under the partner's existing Polish `karta pobytu`, which is the strongest path.
 - **Realism of staying after 03.2027**: Medium pending full legal-route verification; CUKR is a real post-TP bridge, but the next ordinary permit still needs a specific purpose.
 
 **Pros**:
 - Existing Polish `karta pobytu` / CUKR relevance makes Poland unusually practical compared with many countries in the set.
 - Krakow and Wroclaw screen as workable on the current income if rent is controlled.
+- Comfort screening is positive for safety, high English proficiency, and Ukraine-specific support infrastructure.
 - Public education is a realistic future-child baseline if the family accepts Polish-language integration.
 - Self-employed `ryczalt` tax may be workable if the 12% IT classification and ZUS assumptions are confirmed.
 
@@ -295,6 +324,7 @@ Practical interpretation: for the current one-income couple, **Wroclaw first, Kr
 - Full ZUS / VAT / business-residence fit is not yet verified.
 - Private insurance quotes, maternity coverage, and exact NFZ onboarding for the final route remain application-prep gaps.
 - International schooling would be expensive relative to one income.
+- Polish-language bureaucracy, public healthcare, schooling, and long-term integration remain practical friction points.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -366,6 +396,7 @@ Practical interpretation: for the current one-income couple, **Wroclaw first, Kr
 - [src-322] PwC Worldwide Tax Summaries — Poland individual residence and tax administration (accessed 2026-06-07)
 - [src-640] Expat Arrivals — Healthcare and health insurance for expats in Poland (accessed 2026-06-16)
 - [src-641] Eurydice — Poland education-system / early-childhood / structure pages (accessed 2026-06-16)
+- [src-759] EF English Proficiency Index — Poland (2025-11-01, accessed 2026-06-21)
 - [src-293] NBP USD/PLN exchange-rate API reference reused for 2026-06-05 USD/PLN calculation
 
 ### 7c. Community and forums
@@ -379,6 +410,7 @@ _(none yet)_
 - [src-502] Livingcost — Warsaw cost of living (accessed 2026-06-12)
 - [src-503] Livingcost — Krakow cost of living (accessed 2026-06-12)
 - [src-504] Livingcost — Wroclaw cost of living (accessed 2026-06-12)
+- [src-758] World Population Review / TravelSafe safety proxies for Poland (accessed 2026-06-21)
 
 ### 7e. Not found
 - A safe Article 159 family-reunification basis for an unmarried partner of a Polish residence-permit holder.
@@ -388,6 +420,8 @@ _(none yet)_
 - Exact 2026 ZUS normal / preferential self-employed contribution table and accountant-level classification of foreign-client IT services for 12% `ryczalt`, VAT / reverse-charge, and immigration-status compatibility remain application-prep checks; the screening baseline should not assume these are verified.
 - Residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NFZ/public-health onboarding workflow for the final CUKR / family / self-employed status.
 - School catchment / Ukrainian-language support and live international-school admissions/fees for the final city.
+- Application-prep check: exact voivode practice for documenting foreign-client IT income in a family-reunification file, and exact work rights under the chosen family / CUKR / student status.
+- Application-prep check: Polish-language plan for offices, healthcare, leases, schooling, and long-term residence / citizenship requirements.
 
 ## Block 8 — Open questions and verification markers
 

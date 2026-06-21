@@ -9129,3 +9129,28 @@ Each source entry:
 - **Facts supporting**: Czechia English-proficiency baseline: global rank #23, EF EPI score 582, high proficiency band, Brno score 620, and Prague score 576 (claim-czech-021)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-21
+
+
+## src-758
+- **Title**: World Population Review / TravelSafe safety proxies for Poland
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world
+- **Archive**: direct HTML / embedded-data extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: WPR article 2026-06-16
+- **Date accessed**: 2026-06-21
+- **Used by**: Poland
+- **Facts supporting**: Poland comfort / safety screening proxy: 2025 Global Peace Index score 1.713, TravelSafe safety index 84 / Low risk, and US News 2024 safest-country rank #22 (claim-poland-026)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21
+
+## src-759
+- **Title**: EF English Proficiency Index - Poland
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/poland/
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: 2025-11-01
+- **Date accessed**: 2026-06-21
+- **Used by**: Poland
+- **Facts supporting**: Poland section 5.8 English-proficiency baseline: global rank #15, EF EPI score 600, high proficiency band, and city snippets for Krakow 605, Wroclaw 599, and Warsaw 591
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21
