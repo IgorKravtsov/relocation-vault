@@ -56,6 +56,7 @@ schema_version: 2.0.0
 ## What remains
 
 - Hungary still needs risk dimensions and bureaucracy/practicality coverage, plus later citizenship, ordinary-route, accountant/tax, insurance, and selected-city application-prep checks.
+- Git push to `origin/main` failed after commit because the remote received new work first; per protocol, no push retry was attempted in this iteration.
 
 ## Open questions added
 
