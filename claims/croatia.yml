@@ -134,3 +134,21 @@
   confidence: medium-high
   tags: [education, early-childhood, pre-primary]
   notes: "Uses src-629 for the fully financed/free wording and src-630 for ECEC age/provider structure."
+
+- id: claim-croatia-016
+  topic: comfort_safety_baseline
+  value: "Croatia screens low-risk for everyday safety: WPR lists 2025 GPI 1.519, TravelSafe safety index 83, low risk, and US News safest-country rank #28; Numbeo shows crime index 25.10 and safety index 74.90"
+  source: src-753
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [comfort, safety, crime]
+  notes: "Used as a screening proxy; city-specific petty theft, tourist-season, and housing-market checks remain later practical work."
+
+- id: claim-croatia-017
+  topic: english_proficiency_baseline
+  value: "EF EPI lists Croatia at global rank #2 with EF EPI score 617, above the global average score 488"
+  source: src-754
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [comfort, english, integration]
+  notes: "Supports a strong English-usability screen for private services and expat/IT life, but Croatian remains needed for administration, public services, leases, schooling, and long-term integration."

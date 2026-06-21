@@ -9069,3 +9069,27 @@ Each source entry:
 - **Facts supporting**: Cyprus English-proficiency baseline: global rank #40, EF EPI score 537, Limassol/Paphos/Nicosia city and regional scores, and Greek-language integration caveat (claim-cyprus-017)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-21
+
+## src-753
+- **Title**: World Population Review - Safest Countries in the World 2026; Numbeo - Crime in Croatia
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.numbeo.com/crime/country_result.jsp?country=Croatia
+- **Archive**: [archive: failed 2026-06-21]
+- **Type**: aggregator
+- **Date published**: WPR page metadata 2026-06-16T17:05:34.452Z; Numbeo last update 2026-06-04
+- **Date accessed**: 2026-06-21
+- **Used by**: Croatia
+- **Facts supporting**: Croatia comfort / safety screening proxy: 2025 Global Peace Index score, TravelSafe safety index / low-risk label, US News safest-country rank, Numbeo crime index, safety index, and walking-alone perception data (claim-croatia-016)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21
+
+## src-754
+- **Title**: EF English Proficiency Index - Croatia
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/croatia/
+- **Archive**: [archive: failed 2026-06-21]
+- **Type**: reputable-secondary
+- **Date published**: 2025-11-01
+- **Date accessed**: 2026-06-21
+- **Used by**: Croatia
+- **Facts supporting**: Croatia English-proficiency baseline: global rank #2, EF EPI score 617, global average score 488, and Croatian-language integration caveat for bureaucracy / public services (claim-croatia-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21

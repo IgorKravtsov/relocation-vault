@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-21
 ---
 
+## 2026-06-21 — run-171 — Croatia comfort/partner fit
+
+- Completed Croatia sections 5.8 and 5.9 for screening by adding country-level safety, Ukrainian-reception, English-proficiency, city-comfort, common-law/spouse dependent, remote-study, dependent-work-right, and one-income partner baselines.
+- Added two sources (`src-753`, `src-754`) and two Croatia claims (`claim-croatia-016`, `claim-croatia-017`).
+- Croatia depth_score moved from 5.5 to 8.0; added `croatian-language-integration-needed` and `croatia-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-21 — run-170 — Cyprus comfort/partner fit
 
 - Completed Cyprus sections 5.8 and 5.9 for screening by adding country-level safety, Ukrainian-reception, English-proficiency, city-comfort, spouse/civil-union dependent, remote-study, local-work-right, and one-income partner baselines.

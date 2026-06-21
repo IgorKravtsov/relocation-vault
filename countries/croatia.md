@@ -1,13 +1,13 @@
 ---
 country: Croatia
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-16T04:53:48Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-21T04:51:16Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "croatia-self-employed-contribution-base-gap", "croatia-lump-sum-obrt-fit-gap", "coastal-rent-pressure", "croatia-health-insurance-quote-gap", "croatia-international-school-cost-risk"]
-sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045", "src-293", "src-306", "src-307", "src-308", "src-309", "src-310", "src-381", "src-382", "src-383", "src-384", "src-385", "src-626", "src-627", "src-628", "src-629", "src-630"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "croatia-self-employed-contribution-base-gap", "croatia-lump-sum-obrt-fit-gap", "coastal-rent-pressure", "croatia-health-insurance-quote-gap", "croatia-international-school-cost-risk", "croatian-language-integration-needed", "croatia-one-income-margin-risk"]
+sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045", "src-293", "src-306", "src-307", "src-308", "src-309", "src-310", "src-381", "src-382", "src-383", "src-384", "src-385", "src-626", "src-627", "src-628", "src-629", "src-630", "src-753", "src-754"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Croatia has EU temporary protection, a formal digital-nomad temporary-stay route, and an attractive Adriatic climate, but the digital-nomad income floor is above the couple's current ~$3,000/month budget and no Croatia-specific post-04 March 2027 TP-to-ordinary-residence bridge was captured in this first pass.
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-16
-- **Tier rationale**: Keep unranked until healthcare insurance details, partner mechanics, ordinary residence after TP, risk/comfort, bureaucracy, and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the current first-pass sections.
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-21
+- **Tier rationale**: Keep unranked until risk dimensions, bureaucracy, ordinary residence after TP, and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the current first-pass sections. Comfort and partner/student fit are now screenable.
 
 ## Block 2 — Scoring
 
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | N/A | Rent is the key practical filter: cheap 40 m2 1BR proxy is about $495 in Rijeka, $571 in Zagreb, $711 in Split, and $867 in Dubrovnik; 80 m2 3BR ranges are much heavier. | §5.5 |
 | Healthcare | — | N/A | Public/compulsory insurance is structurally available for covered residents, and maternity/pregnancy care is within the insured healthcare scope, but DN/residence-compliant private insurance quotes and exact HZZO onboarding by status remain application-prep gaps. | §5.6 |
 | Education (future child) | — | N/A | Croatia has an 8-year compulsory primary/lower-secondary single structure and a mandatory, state-financed/free pre-primary year; childcare and international schooling are the budget risks. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | N/A | Croatia screens comfort-positive on safety, Adriatic climate, Ukrainian reception infrastructure, and very high English proficiency, but Croatian remains needed for administration, leases, public healthcare, schooling, and citizenship. | §5.8 |
+| Fit for couple with single income | — | N/A | Partner fit is formally better than spouse-only systems because MUP includes common-law partners, but the DN sponsor threshold is far above current income and the non-working partner increases the budget stress. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -204,13 +204,29 @@ City-level screen:
 **Education playbook.** If Croatia remains under consideration for a child, plan on Croatian public kindergarten/pre-primary/school rather than international school. Budget private/municipal childcare before the compulsory pre-primary year, verify city kindergarten availability after choosing Rijeka/Zagreb/Split, and treat international school as an exception requiring higher income or savings.
 
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
 
-[verification required]
+> **DoD status**: passed for screening. This section covers safety, attitude / infrastructure for Ukrainians, English proficiency, and city-comfort tradeoffs. Confidence is medium because the safety source is an aggregator and EF EPI is a language-proficiency proxy rather than a service-by-service English audit.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Safety.** Croatia screens as a low-risk everyday-safety jurisdiction. World Population Review's 2026 safest-country dataset lists Croatia with a 2025 Global Peace Index score of **1.519**, a TravelSafe safety index of **83**, a low TravelSafe risk label, and US News safest-country rank #28 [src-753]. Numbeo's live perception data is directionally similar: crime index **25.10**, safety index **74.90**, very-low perceived mugging / violent-crime worries, and high perceived safety walking alone at night (**76.44**) [src-753]. Treat petty theft, tourist-season scams, and housing-market pressure on the coast as normal city-specific checks rather than country-level blockers.
 
-[verification required]
+**Attitude to Ukrainians / support infrastructure.** Croatia maintains official Ukraine-focused reception and temporary-protection infrastructure through Croatia4Ukraine / MUP, and the EU temporary-protection framework remains the high-confidence legal horizon through 04 March 2027 [src-040][src-002]. This is a practical comfort positive for a Ukrainian couple: there is an official intake vocabulary and institutional path, even though the profile still does not capture a post-2027 Croatian TP bridge.
+
+**English and daily usability.** EF EPI lists Croatia at global rank **#2** with an EF EPI score of **617**, well above the global average score of 488 [src-754]. This supports a stronger English-usability screen than most nearby candidates for private services, expat communities, IT networking, and tourism-facing coastal cities. However, Croatian remains the default for police/MUP offices, HZZO, Tax Administration, leases, public schooling, local bureaucracy, and citizenship integration; keep `croatian-language-integration-needed` as a practical flag.
+
+**City-comfort read.** Rijeka is the first coastal budget/comfort screen because it combines Adriatic climate with the best rent proxy among covered coastal cities. Zagreb is the best administrative/services base but weaker for winter climate. Split gives a stronger lifestyle/climate fit but higher rent and tourist-season pressure. Dubrovnik is warm and attractive but too tourist-market-sensitive for the default one-income base [src-382][src-383][src-384][src-385].
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
+
+> **DoD status**: passed for screening. The section covers partner/dependent status with and without marriage, remote Ukrainian study, work-right baseline, sponsor-income pressure, and the one-income fit. Exact family-reunification document microdetails remain application-prep checks.
+
+**Dependent / partner status.** Croatia is better than spouse-only systems on paper: the MUP digital-nomad page says close family members of a digital nomad granted temporary stay may join through family reunification, and explicitly includes common-law partners. For a childless unmarried couple, the page describes common-law partners as an unmarried couple living together for more than 3 years [src-041]. For this couple, the conservative planning baseline is: prove long cohabitation if evidence is strong; otherwise marry before relying on the dependent route.
+
+**Remote Ukrainian student status.** Continuing Ukrainian university remotely is practical as an activity but is not, by itself, a Croatian residence basis captured in this profile. The partner should therefore plan on her own TP eligibility if available, or on the principal worker's family-member route if DN/ordinary residence becomes viable. If the final strategy uses a Croatian student route later, that needs a separate education/residence extraction.
+
+**Work rights and budget.** The profile has not captured a separate Croatian work authorization for the family member of a digital nomad, so do not assume local employment until MUP / police guidance or counsel confirms it. The household should be modelled as one-income unless the partner has independent remote income or a separate Croatian work basis. This is the main fit problem: Croatia's DN threshold is already **EUR 3,622.50/month** for the principal before adding the 10% family-member uplift [src-041], while the current income is about USD 3,000/month gross and the conservative Croatia tax stress test is tight [src-293][src-306][src-310].
+
+**Practical partner playbook.** Preserve evidence of cohabitation, shared address history, photos/travel records, transfers, and civil-status documents, but treat marriage as the lower-risk route if Croatia remains a candidate. Keep the partner's Ukrainian-study documents translated only if a later Croatian student route is researched; for the current screen, dependent or independent TP status matters more than Ukrainian enrollment. Do not choose Croatia on the assumption that the non-working partner can quickly work locally; plan first with Rijeka/Zagreb-level rents and one income.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -234,10 +250,10 @@ City-level screen:
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Possibly via TP if eligible; DN only if income rises above €3,622.50/month plus partner uplift. Tax planning is not yet a positive reason to choose Croatia: ordinary self-employment looks tight at current income unless lump-sum craft optimization is confirmed. Cost/rent screening points to Rijeka or Zagreb rather than Split / Dubrovnik for a one-income couple. Healthcare is workable after exact insurance/status mapping; education is workable through Croatian public schooling, while international schools are a major cost risk.
+- **Can relocate now**: Possibly via TP if eligible; DN only if income rises above €3,622.50/month plus partner uplift. Croatia now screens comfort-positive for safety, English proficiency, Ukrainian reception infrastructure, and Adriatic lifestyle, but tax planning is not yet a positive reason to choose it: ordinary self-employment looks tight at current income unless lump-sum craft optimization is confirmed. Cost/rent screening points to Rijeka or Zagreb rather than Split / Dubrovnik for a one-income couple. Healthcare is workable after exact insurance/status mapping; education is workable through Croatian public schooling, while international schools are a major cost risk.
 - **Best legalization path for the man**: TP as temporary bridge; DN only after income increase; ordinary self-employment / craft tax setup requires accountant verification before treating it as affordable.
-- **Best legalization path for the woman**: TP independently if eligible; as DN family member if marriage or provable common-law partnership fits MUP criteria.
-- **Does marriage change the picture**: Yes for immigration proof. Tax benefit is unverified: Croatia has no joint annual PIT return, but a dependent-family-member allowance may matter if eligibility is documented [src-309][src-310].
+- **Best legalization path for the woman**: TP independently if eligible; as DN family member if marriage or provable common-law partnership fits MUP criteria. Remote Ukrainian study is not a Croatian residence basis in this profile.
+- **Does marriage change the picture**: Yes for immigration proof. Croatia can recognize common-law partners in the DN family route, but the childless common-law benchmark is more than 3 years of living together; marriage is the cleaner dependent file if evidence is weak [src-041]. Tax benefit is unverified: Croatia has no joint annual PIT return, but a dependent-family-member allowance may matter if eligibility is documented [src-309][src-310].
 - **Realism of staying after 03.2027**: Unclear at current income until a Croatia post-TP bridge or another ordinary residence route is verified.
 
 **Pros**:
@@ -250,6 +266,8 @@ City-level screen:
 - DN stay is temporary and capped at 18 months before a cooling-off period.
 - Ordinary self-employment tax/social-contribution stress test leaves only about EUR 1,407-1,491/month from USD 3,000/month gross unless lump-sum craft optimization applies [src-293][src-306][src-310].
 - Exact 2026 lump-sum craft / IT freelancer contribution and VAT treatment is not verified.
+- Croatian remains needed for bureaucracy, HZZO/tax offices, leases, public schooling, and long-term integration despite Croatia's very high EF EPI score [src-754].
+- The one-income partner fit is tight because the DN threshold is above current income and rises for an accompanying partner [src-041].
 - No Croatia-specific post-04 March 2027 TP bridge captured.
 - Coastal rent / seasonality risk is material: Rijeka screens as the best coastal budget compromise, Split is a stretch, and Dubrovnik is too rent-heavy by default at current income [src-383][src-384][src-385].
 
@@ -276,7 +294,7 @@ City-level screen:
 - Tax registration as self-employed / freelancer: first-pass tax baseline captured. Ordinary self-employment is taxable through local-rate PIT and social contributions; lump-sum craft may be a better fit below EUR 60,000/year but exact 2026 contribution / VAT / IT-activity treatment requires accountant verification [src-306][src-308][src-310].
 - Transferring partner to dependent / partner / student status: use family reunification after the DN principal is granted; common-law proof or marriage may be required [src-041].
 - Marriage (if applicable to scenario): consider if common-law evidence is weak.
-- Integration (language courses, communities): [verification required]
+- Integration (language courses, communities): start Croatian basics early even though EF EPI indicates very high English proficiency; official offices, leases, public healthcare, public schooling, and citizenship integration remain Croatian-language environments [src-754].
 
 ### 6d. Before March 2027 (critical deadline)
 - What must be in hand by this date: an ordinary Croatian residence route or verified TP transition mechanism; do not rely only on TP.
@@ -302,7 +320,7 @@ City-level screen:
 
 ### 6g. Contact points and communities
 - Immigration lawyers (2–3 with contacts): [verification required]
-- Ukrainian / Russian-speaking diaspora (Telegram channels, FB groups): [verification required]
+- Ukrainian / Russian-speaking diaspora (Telegram channels, FB groups): official Croatia4Ukraine / MUP infrastructure is captured, but informal Ukrainian / Russian-speaking community channels remain a later application-prep search [src-040].
 - Expat blogs: [verification required]
 - NGOs / refugee help: [verification required]
 
@@ -325,6 +343,7 @@ City-level screen:
 - [src-308] PwC Croatia — individual income determination.
 - [src-309] PwC Croatia — individual deductions.
 - [src-310] PwC Croatia — individual other taxes and tax administration.
+- [src-754] EF English Proficiency Index — Croatia.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -337,6 +356,7 @@ _(none yet)_
 - [src-383] Livingcost — Split cost of living.
 - [src-384] Livingcost — Dubrovnik cost of living.
 - [src-385] Livingcost — Rijeka cost of living.
+- [src-753] World Population Review / Numbeo safety proxies for Croatia.
 
 ### 7e. Not found
 - Croatia-specific official TP-to-ordinary-residence bridge for the period after 04 March 2027.
@@ -346,6 +366,8 @@ _(none yet)_
 - Official or accountant-confirmed fit of lump-sum craft taxation, VAT/reverse-charge mechanics, and dependent allowance for the couple's exact facts.
 - Live Croatian rental listing validation, deposit / agency-fee practice, and exact neighborhood-level long-lease availability for Rijeka, Zagreb, Split, and Dubrovnik.
 - DN/residence-compliant private health-insurance quotes, maternity waiting periods/exclusions, and exact HZZO onboarding workflow for the couple's final status/city.
+- Informal Ukrainian / Russian-speaking community channels and city-specific Croatian-language-course options.
+- Exact MUP/police practice on digital-nomad family-member local work rights and common-law evidence package.
 
 ## Block 8 — Open questions and verification markers
 
@@ -353,3 +375,4 @@ _(none yet)_
 - `vq-016` — resolved in run-009 with Current Results annual sunshine-day counts [src-045].
 - `vq-092` resolved for screening in run-100: keep Croatia as incomplete/partial with conservative ordinary self-employment stress tests; exact `pausalni obrt`, contribution-band, VAT/reverse-charge, and family allowance fit is application-prep/accountant work.
 - `vq-125` resolved for screening in run-138: Croatia healthcare application-prep details (private insurance quotes, maternity exclusions/waiting periods, and exact HZZO onboarding by final status/city) remain before-filing checks.
+- Run-171 comfort/partner pass: safety, Ukrainian-reception infrastructure, English proficiency, common-law/spouse dependent baseline, remote-study posture, and one-income budget fit are screenable; exact city community channels, language-course choices, dependent work-right practice, and common-law evidence package remain application-prep checks.
