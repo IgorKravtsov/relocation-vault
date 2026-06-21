@@ -221,3 +221,21 @@
   confidence: medium-high
   tags: [romania, education, primary-school, future-child]
   notes: "Used for section 5.7 screening; local catchment and language support remain later city-level checks."
+
+- id: claim-romania-025
+  topic: safety_comfort_screen
+  value: "Romania safety proxy baseline: 2025 Global Peace Index score 1.721, TravelSafe safety index 80, Low risk label, and US News 2024 safest-country rank #40"
+  source: src-760
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [romania, comfort, safety]
+  notes: "Aggregator / travel-safety proxy; use for first-pass section 5.8 screening, not neighbourhood selection."
+
+- id: claim-romania-026
+  topic: english_proficiency_screen
+  value: "Romania ranks #11 globally in EF EPI 2025 with score 605; captured city scores include Bucharest 608, Cluj-Napoca 597, and Timisoara 593"
+  source: src-761
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [romania, comfort, english, integration]
+  notes: "Supports urban English-use screening while preserving Romanian-language integration caveat."

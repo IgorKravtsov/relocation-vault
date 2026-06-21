@@ -9154,3 +9154,27 @@ Each source entry:
 - **Facts supporting**: Poland section 5.8 English-proficiency baseline: global rank #15, EF EPI score 600, high proficiency band, and city snippets for Krakow 605, Wroclaw 599, and Warsaw 591
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-21
+
+## src-760
+- **Title**: World Population Review / TravelSafe safety proxies for Romania
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world
+- **Archive**: direct HTML / embedded-data extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: WPR article 2026-06-16
+- **Date accessed**: 2026-06-21
+- **Used by**: Romania
+- **Facts supporting**: Romania comfort / safety screening proxy: 2025 Global Peace Index score 1.721, TravelSafe safety index 80 / Low risk, and US News 2024 safest-country rank #40 (claim-romania-025)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21
+
+## src-761
+- **Title**: EF English Proficiency Index - Romania
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/romania/
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: 2025-11-01
+- **Date accessed**: 2026-06-21
+- **Used by**: Romania
+- **Facts supporting**: Romania section 5.8 English-proficiency baseline: global rank #11, EF EPI score 605, high proficiency band, and city snippets for Bucharest 608, Cluj-Napoca 597, and Timisoara 593 (claim-romania-026)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21

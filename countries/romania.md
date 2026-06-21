@@ -1,26 +1,26 @@
 ---
 country: Romania
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-16T17:50:29Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-21T17:16:11Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["romania-dn-income-above-current-budget", "romania-pfa-registration-vat-fit-gap", "cluj-rent-pressure", "romania-private-insurance-quote-gap", "romania-international-school-cost-risk"]
-sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076, src-121, src-324, src-325, src-326, src-327, src-505, src-506, src-507, src-508, src-642, src-643]
+sections_pending: ["5.10", "5.11"]
+risk_flags: ["romania-dn-income-above-current-budget", "romania-pfa-registration-vat-fit-gap", "cluj-rent-pressure", "romania-private-insurance-quote-gap", "romania-international-school-cost-risk", "romanian-language-integration-needed", "romania-one-income-margin-risk"]
+sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076, src-121, src-324, src-325, src-326, src-327, src-505, src-506, src-507, src-508, src-642, src-643, src-760, src-761]
 unverified_count: 1
 schema_version: 2.0.0
 ---
 
 # Romania
 
-> First-pass country profile. Sections 5.2, 5.4, 5.5, and 5.7 are completed for screening; sections 5.1, 5.3, and 5.6 remain partial. Healthcare is workable but final-status insurance / onboarding details remain application-prep checks.
+> First-pass country profile. Sections 5.2, 5.4, 5.5, 5.7, 5.8, and 5.9 are completed for screening; sections 5.1, 5.3, and 5.6 remain partial. Healthcare is workable but final-status insurance / onboarding details remain application-prep checks.
 
 ## Block 1 — Summary
 
 - **Tier**: TBD
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-16
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-21
 - **Tier rationale**: TBD. Romania offers a legislated digital-nomad route and low cost of living, but winters are cold and no post-2027 TP bridge has been captured.
 
 ## Block 2 — Scoring
@@ -34,8 +34,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | Timisoara and Bucharest can work with rent caps; Cluj-Napoca is rent-pressured. | §5.5 |
 | Healthcare | — | medium | TP gives a public-health baseline and Romania has public/private care, but private insurance and final-status onboarding remain application-prep gaps. | §5.6 |
 | Education (future child) | — | medium-high | ECEC and public-school structure are clear enough for screening; international-school and childcare costs are the main budget risk. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Safety, English, Ukraine-support infrastructure, and city-service depth are adequate for screening, but Romanian-language integration and cold winters remain practical frictions. | §5.8 |
+| Fit for couple with single income | — | medium | Marriage or independent TP/DN eligibility is the conservative partner baseline; remote Ukrainian study does not create Romanian residence rights, and the one-income margin is tight after PFA-style taxes. | §5.9 |
 
 **Weighted score**: —
 
@@ -211,13 +211,48 @@ Practical interpretation: for the current one-income couple, **Timisoara first, 
 **Education verdict**
 - Romania passes §5.7 for screening: the public pathway is structurally clear and relatively family-friendly on paper, but language integration and private/international costs need a later city-level pass. Add `romania-international-school-cost-risk` because private international schooling is too expensive for a one-income $3,000/month baseline.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. Safety and English-proficiency evidence is proxy-based, and city comfort still depends on live neighbourhood choice, Romanian-language tolerance, and final legal/tax status.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Safety / daily security**
+- World Population Review's 2026 safety table gives Romania a 2025 Global Peace Index score of **1.721**, a TravelSafe safety index of **80**, a **Low** risk label, and US News 2024 safest-country rank **#40** [src-760]. This supports a medium-confidence baseline that ordinary daily safety is acceptable for relocation screening, even if city-level petty-crime and scam checks remain practical due diligence.
+- For this couple, safety is not the gating issue. Timisoara and Bucharest screen as practical bases if rent/tax are controlled; Cluj-Napoca is service-rich but already rent-pressured in section 5.5.
 
-[verification required]
+**Attitude to Ukrainians / support infrastructure**
+- UNHCR Romania's temporary-protection page confirms that Romania still operates a formal TP framework for Ukrainians through GII registration, with residence permits, CNP identifiers, employment/self-employment rights, healthcare, education, and social-protection access [src-076]. That does not solve post-2027 residence, but it means the country has an established Ukrainian-displacement administrative channel.
+- Practical comfort read: Romania is close to Ukraine and useful for visits / family logistics, but the couple should not rely on TP goodwill as a settlement strategy after 04 March 2027 unless a later bridge appears.
+
+**English / language practicality**
+- EF EPI ranks Romania **#11 globally** with an EF EPI score of **605** in the 2025 index; captured city scores include Bucharest **608**, Cluj-Napoca **597**, and Timisoara **593** [src-761]. This is a strong screening signal that English is relatively usable in urban professional and private-service contexts.
+- Romanian remains important for leases, public offices, public healthcare, public schooling, tax/PFA administration, and long-term integration. Add `romanian-language-integration-needed` as a practical comfort/bureaucracy flag.
+
+**City comfort synthesis**
+- **Timisoara** is the first comfort/cost screen: lower captured rent, western location, warmer profile than Transylvania, good enough service depth, and EF West-region / city scores supportive of English use [src-508][src-761].
+- **Bucharest** has the deepest bureaucracy, airport, private healthcare, and international services, but the all-in cost and capital-city friction require a rent cap [src-506].
+- **Cluj-Napoca** is attractive for tech/student energy and services but is the weakest one-income fit among the captured cities because rent is highest [src-507].
+
+**Comfort verdict**
+- Romania passes §5.8 for screening. It is comparatively safe, administratively familiar with Ukrainian cases, and English is better than many regional alternatives, but cold winters and Romanian-language bureaucracy keep it below an effortless-comfort option.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. The dependent baseline is conservative: marriage or independent eligibility. Unmarried-partner residence, final DN-family mechanics, and student-status conversion remain application-prep/legal checks if Romania becomes a finalist.
+
+**Dependent / partner status**
+- OUG 194/2002 Art. 62 family reunification covers the **spouse** and minor children of a Romanian citizen or of a sponsor holding a Romanian residence permit; the sponsor must show maintenance means at least at the national minimum gross wage [src-068].
+- The captured family-reunification baseline does **not** clearly cover an unmarried girlfriend. Conservative planning baseline: if the woman needs a derived Romanian status from the man, the couple should plan on marriage, or she should hold an independent Romanian status such as TP if eligible.
+
+**Student posture**
+- Continuing distance study at a Ukrainian university does not itself create Romanian residence rights. It is compatible with living in Romania if she has another lawful basis, but it should not be counted as a Romanian student-residence route without a Romanian institution admission file.
+- If she independently qualifies for Romanian temporary protection, TP provides residence, CNP, education and employment-related rights under the current framework [src-076]. If she does not, the safer long-stay route is spouse/family reunification after marriage or a separate ordinary route.
+
+**Work rights and one-income budget**
+- Under TP, beneficiaries may work or be self-employed subject to profession rules [src-076]. Under family reunification / ordinary residence, exact labour-market access should be checked with GII or counsel before assuming she can work locally.
+- The couple's one-income margin is fragile under Romania's conservative PFA-style tax stress test: USD 3,000 gross screens to roughly **USD 1,952-2,027/month** net before accountant, visa, insurance, and private-health costs [src-324][src-325][src-327]. Timisoara is the best city fit; Bucharest needs a strict rent cap; Cluj-Napoca should be avoided unless there is a specific support/network reason. Add `romania-one-income-margin-risk`.
+
+**Partner verdict**
+- Romania passes §5.9 for screening: marriage materially improves the partner pathway, independent TP is a useful near-term alternative if available, and remote Ukrainian study can continue as a life-plan factor but not as a residence basis. The current budget can work only with disciplined city/rent choice and a confirmed tax/residence structure.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -240,12 +275,13 @@ Practical interpretation: for the current one-income couple, **Timisoara first, 
 
 - **Can relocate now**: TBD
 - **Best legalization path for the man**: Digital-nomad visa if the EUR 3,300/month income threshold is met; otherwise explore D/AC commercial-activity or employment routes. Tax planning for an ordinary PFA-style independent-activity file is possible but incomplete.
-- **Best legalization path for the woman**: TBD (TP if eligible, or family reunification if married).
+- **Best legalization path for the woman**: TP if independently eligible; otherwise family reunification after marriage is the conservative derived-status baseline. Remote Ukrainian study does not create Romanian residence rights.
 - **Does marriage change the picture**: Yes — family reunification becomes available under Art. 62 of OUG 194/2002.
 - **Realism of staying after 03.2027**: Medium — depends on switching to an ordinary route before TP expiry; no captured automatic bridge.
 
 **Pros**:
 - Low headline cost and rent compared with many EU candidates; Timisoara and Bucharest can screen under the couple's gross income if the tax/residence file is solved.
+- Safety and English-proficiency proxies are good enough for first-pass comfort screening, and Romania has an established Ukrainian temporary-protection administration.
 - EU location near Ukraine with a captured TP baseline through the EU horizon.
 - Education structure is clear and public/ECEC options are viable for future-child planning if the family accepts Romanian-language integration.
 
@@ -255,10 +291,16 @@ Practical interpretation: for the current one-income couple, **Timisoara first, 
 - Cluj-Napoca is rent-pressured relative to the Romanian baseline.
 - Healthcare filing budget remains uncertain until private-insurance quotes, maternity terms, and final-status CNAS / family-doctor onboarding are confirmed.
 - International schooling is expensive relative to one $3,000/month income.
+- Romanian-language bureaucracy, leases, healthcare, and schooling remain practical integration burdens.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
-TBD — will be developed as sections 5.3–5.11 are completed.
+Working sequence for Romania:
+1. Treat Romania as a low-cost EU fallback, not as a solved DN route at the current income. The DN threshold is above the couple's USD 3,000/month baseline, so ordinary PFA/company/employment planning needs accountant and immigration confirmation first.
+2. If using Romania before March 2027, keep TP as the short-term safety net only if each partner independently qualifies; do not assume TP converts automatically after 04 March 2027.
+3. For the woman, plan marriage if she needs derived residence from the man. Otherwise she needs independent TP or another ordinary status; Ukrainian remote study is compatible with residence but is not a Romanian residence basis.
+4. Screen cities in this order: Timisoara first for cost/comfort balance, Bucharest second for bureaucracy/services with a rent cap, Cluj-Napoca only for a specific tech/community reason.
+5. Before any filing, confirm PFA/company tax treatment, VAT/reverse-charge, CNAS/private-insurance onboarding, and GII family/work-right mechanics with Romanian professionals.
 
 ## Block 7 — Sources
 
@@ -273,6 +315,7 @@ TBD — will be developed as sections 5.3–5.11 are completed.
 - [src-070] Nomad Girl — Romania Digital Nomad Visa & The 8 Best Cities To Stay (2022-01-11, updated 2024-03-05) — income threshold, duration, tax treatment, application route.
 - [src-076] UNHCR Romania — Temporary Protection page (help.unhcr.org/romania/information-for-people-from-ukraine/temporary-protection) — TP rights, registration procedure, permit validity, travel rules, Schengen-day counting, healthcare, and education rights.
 - [src-642] Expat Arrivals — Healthcare and health insurance for expats in Romania — public/private healthcare screening baseline, private-insurance need, and public-system caveats.
+- [src-761] EF English Proficiency Index — Romania — English-proficiency screening baseline for Romania, Bucharest, Cluj-Napoca, and Timisoara.
 - [src-324] PwC Romania — individual personal income taxes, residence, and tax administration.
 - [src-325] PwC Romania — individual other taxes and social contributions.
 
@@ -290,6 +333,7 @@ _(none yet)_
 - [src-507] Livingcost — Cost of living in Cluj-Napoca.
 - [src-508] Livingcost — Cost of living in Timisoara.
 - [src-643] Eurydice — Romania education-system pages — ECEC, compulsory/free education, primary/lower-secondary structure, and governance baseline.
+- [src-760] World Population Review / TravelSafe safety proxies for Romania — Global Peace Index, TravelSafe safety index, risk label, and US News safest-country proxy.
 
 ### 7e. Not found
 - Serving-consulate digital-nomad appointment/payment/localisation details and exact processing-time practice; not a current core-route blocker after `vq-022` closure.
@@ -297,6 +341,7 @@ _(none yet)_
 - Romanian accountant / authority confirmation of the exact PFA or company route for foreign-client IT, CAEN classification, expense deductions, VAT / reverse-charge treatment, and compatibility with the couple's immigration file.
 - Private-insurance quotes, maternity waiting periods/exclusions, and CNAS / family-doctor onboarding for the couple's final Romanian status and selected city.
 - City-level school catchment, Romanian-language support, and live private nursery / international-school quotes.
+- Unmarried-partner residence treatment, final DN-family mechanics, and ordinary-status work rights for the partner if Romania becomes a finalist.
 
 ## Block 8 — Open questions and verification markers
 
@@ -306,6 +351,6 @@ Tax application-prep checks after run-069:
 Healthcare application-prep check after run-137:
 - `vq-129` resolved for screening in run-138: private-insurance quotes, maternity waiting periods/exclusions, and exact CNAS / family-doctor onboarding for the couple's final DN / family / self-employed status and selected city remain application-prep checks.
 
-Sections 5.1/5.2 have no current blockers after `vq-022` operational-core closure; later citizenship, comfort, partner fit, and route-specific application-prep checks remain in their own pending sections.
+Sections 5.1/5.2 have no current blockers after `vq-022` operational-core closure. Comfort and partner fit are now screenable; later citizenship, risk dimensions, bureaucracy, and route-specific application-prep checks remain in their own pending sections.
 
 

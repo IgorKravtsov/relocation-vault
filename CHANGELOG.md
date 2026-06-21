@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-21
 ---
 
+## 2026-06-21 — run-175 — Romania comfort/partner fit
+
+- Completed Romania sections 5.8 and 5.9 for screening by adding safety, Ukrainian-support infrastructure, English-proficiency, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-760`, `src-761`) and two Romania claims (`claim-romania-025`, `claim-romania-026`).
+- Romania depth_score moved from 5.5 to 8.0; added `romanian-language-integration-needed` and `romania-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-21 — run-174 — Poland comfort/partner fit
 
 - Completed Poland sections 5.8 and 5.9 for screening by adding safety, Ukraine-support infrastructure, English-proficiency, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
