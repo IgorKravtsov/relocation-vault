@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
 
 # Sources Registry
@@ -9045,3 +9045,27 @@ Each source entry:
 - **Facts supporting**: Greece English-proficiency baseline: global rank #20, EF EPI score 592, Athens 616, Thessaloniki 611, and language-integration friction for relocation planning (claim-greece-016)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-20
+
+## src-751
+- **Title**: World Population Review - Safest Countries in the World 2026
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world
+- **Archive**: direct HTML / embedded-data extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: 2026-06-16T17:05:34.452Z shown in page metadata
+- **Date accessed**: 2026-06-21
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus comfort / safety screening proxy: 2025 Global Peace Index score, TravelSafe safety index / risk label, and US News safest-country rank (claim-cyprus-016)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21
+
+## src-752
+- **Title**: EF English Proficiency Index - Cyprus
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/cyprus/
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: 2025-11-01
+- **Date accessed**: 2026-06-21
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus English-proficiency baseline: global rank #40, EF EPI score 537, Limassol/Paphos/Nicosia city and regional scores, and Greek-language integration caveat (claim-cyprus-017)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21

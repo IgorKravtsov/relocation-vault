@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-20
+last_updated: 2026-06-21
 ---
+
+## 2026-06-21 — run-170 — Cyprus comfort/partner fit
+
+- Completed Cyprus sections 5.8 and 5.9 for screening by adding country-level safety, Ukrainian-reception, English-proficiency, city-comfort, spouse/civil-union dependent, remote-study, local-work-right, and one-income partner baselines.
+- Added two sources (`src-751`, `src-752`) and two Cyprus claims (`claim-cyprus-016`, `claim-cyprus-017`).
+- Cyprus depth_score moved from 5.5 to 8.0; added `cyprus-greek-language-integration-needed` and `cyprus-one-income-margin-risk` as practical fit flags.
 
 ## 2026-06-20 — run-169 — Greece comfort/partner fit
 

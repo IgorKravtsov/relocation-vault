@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 169,
+  "iteration": 170,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-20T22:39:53Z",
+  "last_run_timestamp": "2026-06-21T01:44:50Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Greece",
+    "country": "Cyprus",
     "sections": [
       "5.8",
       "5.9"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Cyprus",
+    "suggested_country": "Croatia",
     "suggested_sections": [
       "5.8",
       "5.9"
     ],
-    "reason": "Pending/open verification queue is below threshold; Greece reached 5.8/5.9 screening coverage, so rotate to another Tier-1-hint country at the shared minimum depth_score for comfort/partner coverage."
+    "reason": "Pending/open verification queue is below threshold; Cyprus reached 5.8/5.9 screening coverage, so rotate to another Tier-1-hint country at the shared minimum depth_score for comfort/partner coverage."
   },
   "countries": {
     "Spain": {
@@ -163,12 +163,14 @@
     "Cyprus": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 5.5,
+      "depth_score": 8.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
-        "5.7"
+        "5.7",
+        "5.8",
+        "5.9"
       ],
       "sections_partial": [
         "5.1",
@@ -176,8 +178,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.8",
-        "5.9",
         "5.10",
         "5.11"
       ],
@@ -188,9 +188,11 @@
         "cyprus-social-insurance-category-gap",
         "limassol-rent-pressure",
         "cyprus-private-insurance-quote-gap",
-        "cyprus-international-school-cost-risk"
+        "cyprus-international-school-cost-risk",
+        "cyprus-greek-language-integration-needed",
+        "cyprus-one-income-margin-risk"
       ],
-      "last_iteration": 132,
+      "last_iteration": 170,
       "unverified_count": 0
     },
     "Croatia": {
@@ -1141,7 +1143,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 749,
-  "claims_count": 656,
+  "sources_count": 751,
+  "claims_count": 658,
   "proposals_pending": 0
 }

@@ -1,13 +1,13 @@
 ---
 country: Cyprus
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-16T01:44:44Z
-sections_completed: ["5.2","5.4","5.5","5.7"]
+depth_score: 8.0
+last_updated: 2026-06-21T01:44:50Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "cyprus-social-insurance-category-gap", "limassol-rent-pressure", "cyprus-private-insurance-quote-gap", "cyprus-international-school-cost-risk"]
-sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119", "src-293", "src-301", "src-302", "src-303", "src-304", "src-305", "src-371", "src-372", "src-373", "src-374", "src-375", "src-622", "src-623", "src-624", "src-625"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "cyprus-social-insurance-category-gap", "limassol-rent-pressure", "cyprus-private-insurance-quote-gap", "cyprus-international-school-cost-risk", "cyprus-greek-language-integration-needed", "cyprus-one-income-margin-risk"]
+sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119", "src-293", "src-301", "src-302", "src-303", "src-304", "src-305", "src-371", "src-372", "src-373", "src-374", "src-375", "src-622", "src-623", "src-624", "src-625", "src-751", "src-752"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the DN net-income floor is above the couple's current ~$3,000/month budget and this first pass did not find a Cyprus-specific ordinary-residence bridge after 04 March 2027.
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-16
-- **Tier rationale**: Keep unranked until healthcare, partner mechanics, and post-TP transition risk are researched beyond the first legalization/climate/tax/cost/rent passes.
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-21
+- **Tier rationale**: Keep unranked until risk dimensions, bureaucracy/practicality, healthcare application-prep details, and post-TP transition risk are researched beyond the current screening passes.
 
 ## Block 2 — Scoring
 
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | N/A | A one-bedroom apartment with separate bedroom/living room is the practical first target; Livingcost's March 2026 city data puts cheap 1BR rent around $582 Nicosia, $699 Larnaca, $942 Paphos, and $1,231 Limassol. | §5.5 |
 | Healthcare | — | N/A | Partial first-pass baseline: GESY is the public-healthcare anchor and DN/residence planning should budget private insurance, but live quotes and city-level registration workflows remain application-prep checks. | §5.6 |
 | Education (future child) | — | N/A | Public education is free from compulsory pre-primary through upper secondary ages, but under-age childcare and international schools are material budget risks. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | N/A | Medium safety baseline, Ukrainian reception infrastructure, warm coastal daily life, and moderate English proficiency are positive, but Greek remains needed for bureaucracy, healthcare, leases, and public schooling. | §5.8 |
+| Fit for couple with single income | — | N/A | Partner planning is the hard constraint: DN family coverage is spouse/civil-union based, family members cannot work locally, and the sponsor income floor is above the couple's current one-income profile. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -206,13 +206,33 @@ The budget risk is before compulsory/public school and in any English/internatio
 **Practical education baseline.** For a child at public-school age, Cyprus can screen as acceptable: public education is free, compulsory, and backed by an EU education-system source [src-623][src-625]. For a baby/toddler or an English-only schooling plan, the budget gets much tighter. Larnaca remains the best first-pass city balance because it combines the preferred housing/cost profile with the lowest captured daycare proxy; Limassol is again the worst budget fit. Before a real move with a child, check local school catchments, language-support practice, nursery availability, and exact international-school fees in the chosen city.
 
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. Safety, Ukrainian-reception infrastructure, city-comfort tradeoffs, and English-proficiency baseline are covered at medium confidence. Greek-language administration remains a practical integration risk, not an evidence blocker.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+Cyprus screens as a comfortable warm-climate base if the couple chooses the city carefully. The safety proxy is acceptable rather than exceptional: World Population Review's 2026 safety table lists Cyprus with a 2025 Global Peace Index score of **1.933**, a TravelSafe safety index of **75 / Low risk**, and a US News safest-country rank of **31st** [src-751]. Treat this as a medium-confidence screening proxy rather than a police-statistics dataset.
 
-[verification required]
+For daily life, the strongest comfort case is coastal: Larnaca and Paphos combine warm winters, sea access, and less severe summer heat than inland Nicosia, while Limassol has the best big-expat/service feel but is too rent-heavy for the current budget [src-039][src-373][src-374][src-375]. Nicosia is useful for government offices, immigration/tax tasks, and cheaper rents, but its July heat is the main comfort drawback [src-039][src-372].
+
+Cyprus also has a practical reception baseline for Ukrainians because the Asylum Service TP page gives local application/extension mechanics and Nicosia office access, even though the 2027 local-extension wording still needs monitoring [src-036]. That reduces first-arrival uncertainty compared with countries where Ukraine-specific processing is unclear, but it does not solve the post-TP ordinary-status gap.
+
+English is a moderate-positive but not enough to avoid Greek. EF EPI's Cyprus page gives **global rank #40**, **EF EPI score 537**, and regional/city scores including Limassol 551, Paphos 540, Nicosia region 523, Nicosia city 552, and Limassol city 549 [src-752]. This supports English for expat services, private rentals, and some private healthcare/schooling. For public administration, GESY, tax/social-insurance, leases, and eventual citizenship, Greek remains a real integration requirement; citizenship already requires Greek B1 [src-037].
+
+**Comfort conclusion.** Cyprus is comfort-positive for climate, safety, sea access, English usability, and Ukrainian reception infrastructure. The main comfort risks are heat in Nicosia, Limassol rent pressure, car-dependence / island logistics to verify later, and Greek-language friction in public systems.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. Dependent coverage with and without formalization, remote-study fit, work-right limitations, and sponsor-income constraints are explicit. The section is not application advice; final route filing still needs a lawyer/serving-authority check.
+
+For the girlfriend/student partner, Cyprus is workable only if her status is planned deliberately. The captured DN route defines family members as spouse, partner in a civil union, and underage children; it does **not** safely cover an informal unmarried girlfriend [src-035]. Therefore the conservative baseline is: if the man later qualifies for Cyprus DN, formal marriage or civil union is needed before relying on dependent residence.
+
+The dependent work-right limitation is important. Cyprus DN family members receive residence for the same period as the sponsor, but they are not allowed to be employed or perform economic activity in Cyprus [src-035]. This is acceptable while she remains a remote Ukrainian-university student, but it makes Cyprus weak if the couple expects her to add local income. If she starts remote work for foreign clients, the exact tax/residence/permit posture would need separate analysis rather than assuming it fits under the sponsor's dependent status.
+
+The sponsor-income requirement is the binding constraint. The main DN applicant must show at least **EUR 3,500/month net after contributions and taxes**; the profile's tax pass estimates the current USD 3,000/month gross income at only about EUR 1,850-1,975/month net under Cyprus self-employed assumptions [src-035][src-293][src-301][src-303][src-304]. In practical terms, marriage/civil union fixes the family-definition problem but does not fix the income gate.
+
+Her independent options are also limited at first-pass level. Temporary protection may be available to her independently if she qualifies, using the Cyprus TP mechanics captured for Ukrainian applicants [src-036], but TP alone should not be treated as a post-04 March 2027 settlement plan. A student residence route based only on remote enrollment in a Ukrainian university was not captured; local university transfer could be explored later, but this iteration does not treat it as the default plan.
+
+**Partner playbook.** Keep her Ukrainian remote study as a practical daily-life activity, but do not rely on it as a Cyprus residence basis. If Cyprus remains a candidate, decide early whether marriage/civil union is acceptable, raise/verify sponsor income before any DN plan, and keep an independent TP/ordinary-status fallback before the 2027 cliff. For one-income budgeting, use Larnaca or Nicosia first and avoid Limassol unless income rises materially [src-035][src-036][src-372][src-373][src-374].
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -241,7 +261,7 @@ The budget risk is before compulsory/public school and in any English/internatio
 - **Best legalization path for the woman**: TP independently if eligible; DN dependent only if spouse / civil-union partner or another confirmed family basis exists.
 - **Does marriage change the picture**: Yes. Official DN family coverage includes spouse / civil-union partner, not an informal girlfriend [src-035].
 - **Realism of staying after 03.2027**: Unclear / medium-low at current income until a Cyprus post-TP bridge or a feasible ordinary residence route is verified.
-- **Budget fit after rent / healthcare / education passes**: Tight. Larnaca and Nicosia are the only first-pass cities that look potentially manageable on the current income; Paphos needs a low-rent lease, and Limassol is too expensive by default. Healthcare requires private-insurance budgeting before GESY status is confirmed, and international school would be a major one-income risk. [src-035][src-371][src-372][src-373][src-374][src-375][src-622][src-623]
+- **Budget and comfort fit after rent / healthcare / education / partner passes**: Tight but livable only with discipline. Larnaca and Nicosia are the first city screens; Paphos needs low rent, and Limassol is too expensive by default. Comfort is helped by safety, English usability, and Ukrainian reception infrastructure, but Greek-language administration, the DN income gate, dependent work limits, private-insurance budgeting, and international-school costs remain binding risks. [src-035][src-036][src-371][src-372][src-373][src-374][src-375][src-622][src-623][src-751][src-752]
 
 **Pros**:
 - Very strong warm-climate fit, especially coastal cities.
@@ -252,7 +272,8 @@ The budget risk is before compulsory/public school and in any English/internatio
 - DN income threshold (€3,500/month net) is above current income.
 - No Cyprus-specific post-04 March 2027 TP bridge captured.
 - Partner dependency likely requires marriage or civil union.
-- Nicosia summer heat is severe.
+- DN family members cannot work locally, so the second partner cannot easily solve budget pressure from inside dependent status.
+- Greek-language administration and Nicosia summer heat are practical comfort risks.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -277,7 +298,7 @@ The budget risk is before compulsory/public school and in any English/internatio
 - Tax registration as self-employed / freelancer: register/activate the Tax Department profile and Social Insurance self-employed position if the foreign-client IT structure is treated as Cyprus self-employment; map contribution category before filing [src-305].
 - Transferring partner to dependent / partner / student status: only safe first-pass route is spouse / civil-union partner under DN family coverage [src-035].
 - Marriage (if applicable to scenario): likely important if DN is the route.
-- Integration (language courses, communities): Greek B1 is required for naturalization [src-037].
+- Integration (language courses, communities): English is usable at a moderate level in expat/private-service contexts, but Greek is needed for administration and citizenship; Greek B1 is required for naturalization [src-037][src-752].
 
 ### 6d. Before March 2027 (critical deadline)
 - What must be in hand by this date: an ordinary residence route or a verified TP transition mechanism; do not rely on TP alone.
@@ -326,6 +347,7 @@ The budget risk is before compulsory/public school and in any English/internatio
 - [src-623] Eurydice — Cyprus education-system overview.
 - [src-624] Eurydice — Cyprus early childhood education and care.
 - [src-625] Eurydice — Cyprus primary education.
+- [src-752] EF English Proficiency Index — Cyprus.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -338,6 +360,7 @@ _(none yet)_
 - [src-373] Livingcost — Limassol cost of living.
 - [src-374] Livingcost — Larnaca cost of living.
 - [src-375] Livingcost — Paphos cost of living.
+- [src-751] World Population Review — Safest Countries in the World 2026.
 
 ### 7e. Not found
 - Cyprus-specific official TP-to-ordinary-residence bridge after 04 March 2027; current operational baseline is “no captured bridge, plan an ordinary route before TP expiry.”

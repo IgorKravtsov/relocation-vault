@@ -135,3 +135,21 @@
   confidence: medium
   tags: [education-cost, childcare, international-school, budget]
   notes: "Commercial cost proxies only; before moving with a child, verify live nursery/school fees and language-support options."
+
+- id: claim-cyprus-016
+  topic: cyprus_comfort_safety_proxy
+  value: "World Population Review 2026 lists Cyprus with 2025 Global Peace Index score 1.933, TravelSafe safety index 75 / Low risk, and US News safest-country rank 31st."
+  source: src-751
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [comfort, safety, global-peace-index]
+  notes: "Aggregator screening proxy only; use local crime/police data later if Cyprus becomes a finalist."
+
+- id: claim-cyprus-017
+  topic: cyprus_english_proficiency_baseline
+  value: "EF EPI Cyprus page gives global rank #40, EF EPI score 537, Limassol 551, Paphos 540, Nicosia region 523, Nicosia city 552, and Limassol city 549."
+  source: src-752
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [comfort, english-proficiency, integration]
+  notes: "Supports English usability for screening, but Greek remains important for public administration, GESY/tax/social-insurance, leases, public schooling, and citizenship."
