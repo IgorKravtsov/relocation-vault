@@ -1,13 +1,13 @@
 ---
 country: Bulgaria
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-17T00:00:26Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-21T20:20:39Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["self-employment-permit-3-year-cap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational", "bulgaria-self-employed-contribution-and-status-fit-gap", "sofia-rent-pressure", "bulgaria-private-insurance-quote-gap", "bulgaria-international-school-cost-risk"]
-sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118", "src-328", "src-329", "src-330", "src-331", "src-509", "src-510", "src-511", "src-512", "src-644", "src-645", "src-646", "src-647"]
+sections_pending: ["5.10", "5.11"]
+risk_flags: ["self-employment-permit-3-year-cap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational", "bulgaria-self-employed-contribution-and-status-fit-gap", "sofia-rent-pressure", "bulgaria-private-insurance-quote-gap", "bulgaria-international-school-cost-risk", "bulgarian-language-integration-needed", "bulgaria-one-income-margin-risk"]
+sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118", "src-328", "src-329", "src-330", "src-331", "src-509", "src-510", "src-511", "src-512", "src-644", "src-645", "src-646", "src-647", "src-762", "src-763"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (insufficient data for tier assignment after first pass)
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-17
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-21
 - **Tier rationale**: TBD. Bulgaria offers a self-employment residence route with a 3-year cap and a 5-year path to permanent residence, but the 3-year self-employment permit limitation and the absence of a captured TP-to-ordinary-residence bridge create operational constraints. Dual-citizenship restrictions for naturalized non-EU nationals are a further consideration. A tier will be assigned after deeper research.
 
 ## Block 2 — Scoring
@@ -34,8 +34,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | 40 m2 1BR proxy ranges from about $297 cheap in Plovdiv to $702 center in Sofia; live listings / landlord practice still pending | §5.5 |
 | Healthcare | — | medium | Public NHIF/TP baseline captured; exact route-compliant private insurance quotes and final-status onboarding remain application-prep checks | §5.6 |
 | Education (future child) | — | medium-high | Eurydice baseline: free compulsory pre-primary from age 4, public school structure clear; Sofia international school fees create budget risk | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Safety and English proxies are positive enough for screening; Bulgarian remains important for bureaucracy, leases, healthcare, schooling, and long-term integration | §5.8 |
+| Fit for couple with single income | — | medium | Marriage or independent TP/ordinary status is the conservative partner baseline; Plovdiv is the safest one-income city screen, while legal/tax fit remains gating | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -232,13 +232,48 @@ International school is the clear downside scenario for a one-income family. Int
 
 Education conclusion: Bulgaria passes the first-pass education DoD for screening. Public preschool/school is structurally available and compulsory/free at the key pre-primary stage, but Sofia-style international education would be a major future-child budget risk; if the family plans international schooling, Bulgaria's apparent rent/tax advantage can narrow quickly.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. Safety and English-proficiency evidence is proxy-based, and city comfort still depends on live neighbourhood choice, Bulgarian-language tolerance, and final legal/tax status.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Safety / daily security**
+- World Population Review's 2026 safety table gives Bulgaria a 2025 Global Peace Index score of **1.610**, a TravelSafe safety index of **80**, a **Low** risk label, and US News 2024 safest-country rank **#37** [src-762]. This supports a medium-confidence baseline that ordinary daily safety is acceptable for relocation screening, while city-level petty-crime, road-safety, and neighbourhood checks remain practical due diligence.
+- For this couple, safety is not the gating issue. Plovdiv and Varna screen as practical bases if the legal/tax route is solved; Sofia is service-rich but already rent-pressured in section 5.5.
 
-[verification required]
+**Attitude to Ukrainians / support infrastructure**
+- UNHCR Bulgaria's Ukraine page confirms an active temporary-protection framework with PFN / registration-document issuance, address-card mechanics, medical care, education, social support, and work without a permit for TP beneficiaries [src-089]. UNHCR also confirms the Bulgarian TP card-renewal baseline through **04 March 2027** [src-090].
+- Practical comfort read: Bulgaria is geographically close to Ukraine and has an established Ukrainian-displacement support channel, but that comfort should not be confused with a post-2027 settlement bridge. The couple still needs an ordinary route before TP expiry unless later official transition rules appear.
+
+**English / language practicality**
+- EF EPI ranks Bulgaria **#18 globally** with an EF EPI score of **594** in the 2025 index; captured city scores include Sofia **616** and Varna **553** [src-763]. This is a good screening signal for urban professional, private-service, and expat-facing contexts, especially in Sofia.
+- Bulgarian remains important for leases, public offices, public healthcare / NHIF steps, public schooling, tax and self-employment administration, and long-term integration. Add `bulgarian-language-integration-needed` as a practical comfort/bureaucracy flag.
+
+**City comfort synthesis**
+- **Plovdiv** is the first comfort/cost screen: it has the best captured affordability profile, warmer southern climate than Sofia, and enough major-city services for a first relocation base [src-511]. English evidence is not city-specific in EF's captured Bulgaria page, so local-language tolerance should be checked before choosing neighbourhoods.
+- **Varna** is the coastal lifestyle option: rent is still moderate in the first pass, winters are milder than Sofia, EF gives a captured city score of 553, and the Black Sea location fits the climate preference better than inland Bulgaria [src-512][src-763]. Seasonal rental demand and private-service depth remain live checks.
+- **Sofia** has the deepest bureaucracy, airport, private healthcare, schools, and professional services, and EF's captured Sofia score of 616 is strong; however, rent and international-school costs make it the strict-rent-cap option [src-510][src-763].
+
+**Comfort verdict**
+- Bulgaria passes §5.8 for screening. Daily safety and urban English are workable, Ukraine-related support infrastructure exists through TP, and Plovdiv / Varna provide plausible lifestyle options. The main comfort downsides are Bulgarian-language bureaucracy, colder inland winters, Sofia rent pressure, and the unresolved ordinary residence / self-employment route.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. The dependent baseline is conservative: marriage or independent eligibility. Unmarried-partner residence, exact family-reunification filing mechanics, and post-TP status conversion remain application-prep/legal checks if Bulgaria becomes a finalist.
+
+**Dependent / partner status**
+- The EU Immigration Portal family-member page for Bulgaria covers family members of a legally residing third-country national, with the captured profile baseline limited to **spouse and minor children** [src-080]. The existing sources do not clearly prove an unmarried girlfriend route.
+- Conservative planning baseline: if the woman needs a derived Bulgarian status from the man, the couple should plan on marriage before relying on family reunification, or she should hold an independent Bulgarian status such as TP if eligible.
+
+**Student posture**
+- Continuing distance study at a Ukrainian university does not itself create Bulgarian residence rights. It is compatible with living in Bulgaria if she has another lawful basis, but it should not be counted as a Bulgarian student-residence route without admission to a Bulgarian institution.
+- If she independently qualifies for Bulgarian temporary protection, TP provides residence, education access, medical care, social support, and work without a permit under the captured UNHCR baseline [src-089]. If she does not, the safer long-stay route is spouse/family reunification after marriage or a separate ordinary route.
+
+**Work rights and one-income budget**
+- Under TP, UNHCR states beneficiaries may work without a permit [src-089]. Under family reunification / ordinary residence, exact labour-market access should be checked with the Migration Directorate or counsel before assuming she can work locally.
+- The couple's one-income margin is better than many EU alternatives only if the legal and tax files are solved. Bulgaria's conservative tax-section stress test leaves roughly **USD 2,087-2,164/month** net before accountant, immigration-lawyer, insurance, deposits, and filing costs [src-328][src-329][src-331]. Plovdiv is the safest city fit; Varna is plausible with seasonal-rent caution; Sofia should be used only with a strict rent cap. Add `bulgaria-one-income-margin-risk` because the route uncertainty and one-earner budget still leave little room for legal/insurance surprises.
+
+**Partner verdict**
+- Bulgaria passes §5.9 for screening: marriage materially improves the partner pathway, independent TP is a useful near-term alternative if available, and remote Ukrainian study can continue as a life-plan factor but not as a residence basis. The budget can work most plausibly in Plovdiv, but only after confirming the self-employment / residence / tax package.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -259,30 +294,33 @@ Education conclusion: Bulgaria passes the first-pass education DoD for screening
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: TBD; cost/rent screening is workable in Plovdiv and possible in Varna, healthcare/education are screenable, but the legal route remains the gating issue.
-- **Best legalization path for the man**: TBD (self-employment route appears most relevant, but exact requirements unclear)
-- **Best legalization path for the woman**: TBD
-- **Does marriage change the picture**: TBD (marriage to a Bulgarian citizen reduces citizenship timeline from 5 to 3 years; marriage to the working partner may enable family reunification)
-- **Realism of staying after 03.2027**: TBD
+- **Can relocate now**: Potentially for screening via TP / scouting, but long-stay relocation remains gated by the self-employment / ordinary-residence route.
+- **Best legalization path for the man**: Self-employment route remains the closest captured ordinary route, but it is not application-ready until Employment Agency / Migration Directorate requirements and tax registration fit are confirmed.
+- **Best legalization path for the woman**: Independent TP if eligible; otherwise spouse/family reunification after marriage is the conservative derived-status baseline.
+- **Does marriage change the picture**: Yes — the captured family-member route covers spouse/minor-child logic, while unmarried-partner coverage is not proven. Marriage to a Bulgarian citizen also changes citizenship timing, but that is not the couple's base scenario.
+- **Realism of staying after 03.2027**: Medium-low until the self-employment route is made operational; no captured automatic TP-to-ordinary-status bridge.
 
 **Pros**:
 - Plovdiv and national-average rent proxies fit both gross USD 3,000/month and the conservative Bulgaria tax-section net.
 - Varna offers a coastal option with moderate first-pass rent, though seasonal demand needs live-listing verification.
+- Safety and English-proficiency proxies are good enough for first-pass comfort screening, and Bulgaria has an active Ukrainian TP support framework through the EU horizon.
+- Education structure is clear and public preschool/school can work if the family accepts Bulgarian-language integration.
 
 **Cons / risks**:
+- The ordinary self-employment residence route is still the gating issue; without counsel/authority confirmation Bulgaria is not a solved post-2027 plan.
 - Sofia is the captured rent-pressure case; center rent can consume roughly one-third of the conservative after-tax screening net.
+- Bulgarian-language bureaucracy, leases, healthcare, schooling, and tax/self-employment administration remain practical integration burdens.
 - Exact private health insurance, accountant, immigration-lawyer, application, and deposit cash-flow costs remain application-prep checks.
 - International schooling in Sofia can materially erode the one-income budget.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
-### 6a. Before the move (what to prepare in Ukraine / Poland)
-- Documents (with apostille / notarized translation markers): TBD
-- Steps in Ukrainian government agencies: TBD
-- What to do with the Polish karta pobytu: TBD
-- Financial preparation (USD cushion): TBD
-- For the student partner (academic certificates, translations): TBD
-- Submitting visa/permit application from abroad: TBD
+Working sequence for Bulgaria:
+1. Treat Bulgaria as a potentially cost-efficient EU base, not as a solved remote-worker route. Before committing, get Bulgarian counsel / Employment Agency confirmation that a foreign-client IT self-employment file can support the Type D + residence sequence.
+2. If using Bulgaria before March 2027, keep TP as the short-term safety net only if each partner independently qualifies; do not assume TP converts automatically after 04 March 2027.
+3. For the woman, plan marriage if she needs derived residence from the man. Otherwise she needs independent TP or another ordinary status; Ukrainian remote study is compatible with residence but is not a Bulgarian residence basis.
+4. Screen cities in this order: Plovdiv first for cost/comfort balance, Varna second for the warmer/coastal option with seasonal-rent caution, Sofia only for bureaucracy/services with a strict rent cap.
+5. Before any filing, confirm self-employment permit documents, business-plan practice, tax/social-health contribution package, VAT/reverse-charge handling, NHIF/private-insurance onboarding, and family/work-right mechanics with Bulgarian professionals.
 
 ### 6b. First month after arrival
 - Address registration: TBD
@@ -342,6 +380,7 @@ Education conclusion: Bulgaria passes the first-pass education DoD for screening
 - [src-329] PwC Worldwide Tax Summaries — Bulgaria other taxes, deductions, and tax administration (reputable-secondary)
 - [src-330] PwC Worldwide Tax Summaries — Bulgaria corporate VAT context (reputable-secondary)
 - [src-645] Eurydice — Bulgaria early childhood education and care (official-secondary)
+- [src-763] EF English Proficiency Index — Bulgaria — English-proficiency screening baseline for Bulgaria, Sofia, and Varna.
 - [src-646] Eurydice — Bulgaria education-system overview (official-secondary)
 
 ### 7c. Community and forums (mandatory date of original post)
@@ -361,6 +400,7 @@ _(none yet)_
 - [src-511] Livingcost — Plovdiv cost of living (commercial)
 - [src-512] Livingcost — Varna cost of living (commercial)
 - [src-647] International Schools Database — British School of Sofia fees (commercial)
+- [src-762] World Population Review / TravelSafe safety proxies for Bulgaria — Global Peace Index, TravelSafe safety index, risk label, and US News safest-country proxy.
 
 ### 7e. Not found
 > Explicit list of resources searched for but not found. Signal for future iterations.
@@ -381,3 +421,5 @@ _(none yet)_
 
 - `vq-097` — resolved to a conservative screening baseline: keep the statutory-expense / contribution stress test as partial only; exact contribution package, foreigner health-insurance obligation, IT classification, VAT / reverse-charge handling, and migration-route fit remain accountant/application-prep checks before filing.
 - `vq-130` — resolved in run-148 for screening: route-compliant private insurance quotes, maternity exclusions / waiting periods, and final-status NHIF / GP onboarding workflow remain before-filing checks, not country-screening blockers.
+
+Sections 5.1/5.2 have no current blockers after prior operational-core closures. Comfort and partner fit are now screenable; later citizenship, risk dimensions, bureaucracy, and route-specific application-prep checks remain in their own pending sections.

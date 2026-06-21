@@ -227,3 +227,22 @@
   confidence: medium
   tags: [education, international-school, sofia, bulgaria, cost-risk]
   notes: "Single-school benchmark, not a market average; sufficient for one-income budget risk flag"
+
+
+- id: claim-bulgaria-026
+  topic: comfort_safety_screen
+  value: "World Population Review 2026 safety table gives Bulgaria a 2025 Global Peace Index score of 1.610, TravelSafe safety index 80, Low risk label, and US News 2024 safest-country rank #37"
+  source: src-762
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [comfort, safety, gpi, bulgaria]
+  notes: "Aggregator safety proxy for section 5.8; city-level neighbourhood checks remain practical due diligence"
+
+- id: claim-bulgaria-027
+  topic: english_proficiency_screen
+  value: "EF EPI 2025 ranks Bulgaria #18 globally with score 594; captured city scores include Sofia 616 and Varna 553"
+  source: src-763
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [comfort, english, language, sofia, varna, bulgaria]
+  notes: "Supports urban English-practicality screening; Bulgarian remains needed for bureaucracy and long-term integration"

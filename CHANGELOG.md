@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-21
 ---
 
+## 2026-06-21 — run-176 — Bulgaria comfort/partner fit
+
+- Completed Bulgaria sections 5.8 and 5.9 for screening by adding safety, Ukrainian-support infrastructure, English-proficiency, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-762`, `src-763`) and two Bulgaria claims (`claim-bulgaria-026`, `claim-bulgaria-027`).
+- Bulgaria depth_score moved from 5.5 to 8.0; added `bulgarian-language-integration-needed` and `bulgaria-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-21 — run-175 — Romania comfort/partner fit
 
 - Completed Romania sections 5.8 and 5.9 for screening by adding safety, Ukrainian-support infrastructure, English-proficiency, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.

@@ -9178,3 +9178,28 @@ Each source entry:
 - **Facts supporting**: Romania section 5.8 English-proficiency baseline: global rank #11, EF EPI score 605, high proficiency band, and city snippets for Bucharest 608, Cluj-Napoca 597, and Timisoara 593 (claim-romania-026)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-21
+
+
+## src-762
+- **Title**: World Population Review / TravelSafe safety proxies for Bulgaria
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world
+- **Archive**: direct HTML / embedded-data extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: WPR article 2026-06-16
+- **Date accessed**: 2026-06-21
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgaria comfort / safety screening proxy: 2025 Global Peace Index score 1.610, TravelSafe safety index 80 / Low risk, and US News 2024 safest-country rank #37 (claim-bulgaria-026)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21
+
+## src-763
+- **Title**: EF English Proficiency Index - Bulgaria
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/bulgaria/
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: 2025-11-01
+- **Date accessed**: 2026-06-21
+- **Used by**: Bulgaria
+- **Facts supporting**: Bulgaria section 5.8 English-proficiency baseline: global rank #18, EF EPI score 594, high proficiency band implied by score display, and city snippets for Sofia 616 and Varna 553 (claim-bulgaria-027)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21

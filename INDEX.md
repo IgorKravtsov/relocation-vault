@@ -20,7 +20,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Czech Republic | eu-schengen | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 173 | `countries/czech-republic.md` |
 | Poland | eu-schengen | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 174 | `countries/poland.md` |
 | Romania | eu-schengen | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 175 | `countries/romania.md` |
-| Bulgaria | eu-schengen | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 139 | `countries/bulgaria.md` |
+| Bulgaria | eu-schengen | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 176 | `countries/bulgaria.md` |
 | Hungary | eu-schengen | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 140 | `countries/hungary.md` |
 | Slovakia | eu-schengen | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 141 | `countries/slovakia.md` |
 | Slovenia | eu-schengen | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 142 | `countries/slovenia.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 6.21
+- **Average depth_score**: 6.29
