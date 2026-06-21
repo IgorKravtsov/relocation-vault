@@ -1,13 +1,13 @@
 ---
 country: Malta
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-16T08:03:20Z
-sections_completed: ["5.2","5.4","5.5","5.7"]
+depth_score: 8.0
+last_updated: 2026-06-21T07:57:44Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path", "malta-nrp-authorized-work-tax-fit-gap", "malta-rent-pressure", "malta-health-insurance-quote-gap", "malta-international-school-cost-risk"]
-sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052", "src-120", "src-293", "src-311", "src-312", "src-313", "src-314", "src-315", "src-376", "src-377", "src-378", "src-379", "src-380", "src-631", "src-632", "src-633", "src-634"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path", "malta-nrp-authorized-work-tax-fit-gap", "malta-rent-pressure", "malta-health-insurance-quote-gap", "malta-international-school-cost-risk", "malta-one-income-margin-risk"]
+sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052", "src-120", "src-293", "src-311", "src-312", "src-313", "src-314", "src-315", "src-376", "src-377", "src-378", "src-379", "src-380", "src-631", "src-632", "src-633", "src-634", "src-755"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence makes Malta a mixed legalization candidate: it has EU temporary protection and a well-documented Nomad Residence Permit, but the nomad route requires EUR 42,000/year gross income and explicitly does not lead to long-term residence or citizenship by itself [src-047][src-049].
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-16
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-21
 - **Tier rationale**: Do not classify yet. Main current risks are that the couple's current USD 3,000/month is below the nomad threshold, the NRP does not lead to PR/citizenship, the ordinary fallback is tax/rent-tight, and the exact Maltese tax/social-security treatment of foreign-client IT work under the NRP still needs adviser confirmation [src-002][src-049][src-311][src-312][src-376].
 
 ## Block 2 — Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | N/A | A 40 m2 1BR is the closest proxy for a two-room starter apartment; cheap 1BR rent ranges from about $691 in Marsaskala to $1,141 in Sliema, before deposits / agency practice verification. | §5.5 |
 | Healthcare | — | N/A | Partial first-pass baseline: NRP requires Malta/international health insurance; work-permit expats can access tax-funded public care, while non-EU/UK expats should budget private insurance and status-specific public-health onboarding. | §5.6 |
 | Education (future child) | — | N/A | Malta has an English/Maltese public-school system with 11 years of compulsory education from ages 5-16 and free childcare only if parents work or study; international schooling is a major budget risk. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | N/A | Malta is comfort-positive for English-language practicality, warm island lifestyle, official NRP materials, and moderate safety, but it is crowded, expensive, and administratively small-island / rent-sensitive. | §5.8 |
+| Fit for couple with single income | — | N/A | Partner inclusion is plausible through spouse or documented de facto partnership, but the NRP EUR 42,000/year gross threshold and Malta rent/tax pressure make the one-income fit weak at the current USD 3,000/month profile. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -223,13 +223,29 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 
 **Education verdict for a future child.** Malta is a positive-to-moderate education fit if the family accepts local public / state schooling and bilingual English/Maltese adaptation. It is weaker if the plan requires private international education, because tuition can consume several months of the couple's net income. For childcare before age 5, verify free-childcare eligibility against the parents' exact status, work/study situation, and chosen locality before budgeting it as zero.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
 
-[verification required]
+> **DoD status**: passed for screening. This section covers everyday safety, English-language practicality, Ukrainian/foreigner support context, and city-comfort tradeoffs. Confidence is medium because the safety evidence combines WPR / TravelSafe and Numbeo perception data rather than a Malta police statistical series.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Safety.** Malta screens as a moderate-to-good everyday-safety jurisdiction rather than a zero-risk island. World Population Review's 2026 safest-country dataset lists Malta with a TravelSafe safety index of **78** and a **Low** risk label [src-755]. Numbeo's live perception page is more cautious but still not high-risk: crime index **43.02** and safety index **56.98** [src-755]. Operational baseline: normal urban precautions, rental-scam caution, nightlife caution, and tourist-area petty-theft awareness are needed, but safety is not a country-level blocker.
 
-[verification required]
+**English and daily usability.** Malta is unusually English-practical for an EU relocation screen: official NRP pages, the application checklist, tax summaries used in this profile, health/education secondary sources, and much of the private-service economy are available in English [src-047][src-048][src-049][src-311][src-631][src-632]. The future-child education profile also treats Malta as an English/Maltese school environment [src-632][src-633]. Caveat: Maltese remains relevant for deeper local integration, some public-school/social contexts, local landlords, long-term citizenship belonging, and non-tourism bureaucracy.
+
+**Attitude to Ukrainians / support infrastructure.** Malta has EU temporary-protection legal coverage through 04 March 2027 and official legal framework evidence, but this profile still lacks a clean current Malta TP procedure page and any Malta-specific post-2027 bridge [src-002][src-046]. Comfort baseline: Ukrainians are not route-invisible, but Malta should not be treated like a large diaspora hub until city/community channels and current IPA/Home Affairs procedures are captured.
+
+**City-comfort read.** Malta's compact geography reduces long-distance travel complexity but makes housing and crowding the practical comfort constraint. Marsaskala is the first affordability / warm-coast screen; Birkirkara is the central practical fallback; Valletta is convenient but tourist/capital priced; Sliema is the strongest private-service / English-comfort market but too rent-heavy for the current one-income case [src-377][src-378][src-379][src-380].
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
+
+> **DoD status**: passed for screening. The section covers dependent/partner handling with and without marriage, remote Ukrainian study, local work-right caution, sponsor-income pressure, and the one-income fit. Exact NRP dependent microdocuments and programme confirmation remain application-prep checks.
+
+**Dependent / partner status.** Malta is not strictly spouse-only on paper. The NRP FAQ lists family-member inclusion for a spouse, minor children, principally dependent unmarried adult children, and adult children unable to cope independently [src-049]. The checklist also includes a de facto partnership route for unmarried couples in a stable relationship for more than two consecutive years, supported by a declaration and evidence such as dated photographs, utility bills, leases, bank statements / joint accounts, flight tickets, or affidavits [src-048]. For this couple, marriage remains the cleaner dependent file; de facto partnership is plausible only if evidence is strong and Residency Malta confirms fit before filing.
+
+**Remote Ukrainian student status.** Continuing Ukrainian university remotely is practical as an activity in Malta, but this profile has not captured a Maltese residence basis built on studying at a Ukrainian remote university. The partner should therefore plan on her own TP eligibility if available or on dependent inclusion under the principal worker's NRP/ordinary route. Transferring to a local Maltese institution may help integration later, but it is not the default budget or legalization solution in this screening pass.
+
+**Work rights and budget.** The NRP is already income-blocked for the principal at the current profile: Malta requires **EUR 42,000/year gross** (EUR 3,500/month gross) while the couple's income is about USD 3,000/month [src-047][src-293]. The profile has not captured a separate local-work authorization for an NRP family member, so model the partner as non-working locally unless Residency Malta / Identita or counsel confirms otherwise. Malta's ordinary self-employed tax stress test and rent bands make this a weak one-income country unless income rises or Marsaskala-level housing is secured [src-311][src-313][src-380].
+
+**Practical partner playbook.** If Malta remains a candidate, prepare passports, police certificates, relationship documents, and English translations for both partners; collect two years of cohabitation evidence if not marrying; and ask Residency Malta in writing whether the partner can be included as a de facto partner in the exact scenario. Do not rely on remote Ukrainian student status as residence grounds. Treat marriage as the lower-risk file, and do not choose Malta unless the principal's documented gross income reaches the NRP threshold or another countable ordinary route is verified.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -253,10 +269,10 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Possibly via TP if eligible, or via NRP only if the income threshold is met; NRP is currently income-blocked for the stated USD 3,000/month budget.
+- **Can relocate now**: Possibly via TP if eligible, or via NRP only if the income threshold is met; NRP is currently income-blocked for the stated USD 3,000/month budget. Malta now screens comfort-positive for English-language practicality, warm island life, and moderate safety, but rent/crowding and small-island bureaucracy are practical constraints.
 - **Best legalization path for the man**: NRP conceptually fits foreign-client IT work and has a favorable 10% authorised-work tax rule after a first-year relief concept, but it requires EUR 42,000/year gross and does not lead to PR/citizenship [src-047][src-049][src-311].
-- **Best legalization path for the woman**: Dependent route under NRP may be possible as spouse or de facto partner, but unmarried-partner treatment needs confirmation; TP may be independent if eligible.
-- **Does marriage change the picture**: Yes. Marriage makes dependent inclusion cleaner than relying on de facto partnership evidence.
+- **Best legalization path for the woman**: TP independently if eligible, or dependent inclusion under NRP if the principal qualifies; marriage is cleaner, while de facto partnership needs strong two-year evidence and programme confirmation [src-048][src-049].
+- **Does marriage change the picture**: Yes. Marriage makes dependent inclusion cleaner than relying on de facto partnership evidence and may also improve the Maltese one-income tax computation via married bands / responsible-spouse mechanics [src-311][src-314].
 - **Realism of staying after 03.2027**: Low-to-uncertain on current evidence unless income rises and a separate long-term-countable route is found.
 - **Budget fit after rent pass**: Tight to negative. Marsaskala is the only screened city that looks potentially manageable on current income; Birkirkara / Valletta are tight and Sliema is too rent-heavy by default. [src-377][src-378][src-379][src-380]
 - **Healthcare baseline**: Private health insurance is a filing cost for NRP; public healthcare may be available under work-permit / contribution-linked routes, but exact onboarding and insurance quotes remain application-prep checks [src-048][src-631].
@@ -273,6 +289,7 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 - NRP explicitly does not lead to long-term residence or citizenship (claim-malta-005).
 - Private health-insurance quotes, maternity exclusions, and status-specific public-health onboarding are not yet captured.
 - International schooling is too expensive for the current one-income plan unless income rises or a public/local school path is acceptable.
+- One-income partner fit is weak: the NRP threshold is above current income, and Sliema / Valletta rents can consume too much of the ordinary tax-net band.
 - No Malta-specific TP-to-ordinary-residence bridge captured for the post-04 March 2027 cliff.
 - Unmarried partner inclusion needs written confirmation despite de facto partnership evidence in the checklist.
 
@@ -282,7 +299,7 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 - Documents: passports, police conduct certificates, CV, foreign-client / employer contracts, three months of official bank statements, relationship documents, and English translations for non-English documents [src-048].
 - What to do with the Polish karta pobytu: keep it as a logistics asset if valid, but do not assume it grants Maltese residence rights.
 - Financial preparation: NRP requires documented gross income of EUR 42,000/year plus application fees, one-year health insurance, and accommodation proof [src-047][src-048][src-049]. For housing, start live-listing checks in Marsaskala and Birkirkara and keep the first small-apartment target around EUR 600-850/month if possible [src-379][src-380].
-- For the student partner: collect relationship evidence; student-status impacts are unresearched.
+- For the student partner: collect relationship evidence; remote Ukrainian study is practical but not a captured Maltese residence basis, so plan on TP eligibility or dependent inclusion rather than student status alone.
 
 ### 6b. First month after arrival
 - If NRP was approved in principle, submit compliant accommodation and health-insurance proof, then proceed with biometrics / residence-card steps per Residency Malta instructions [src-048][src-049]. Keep the insurer wording and coverage period in the filing pack.
@@ -353,6 +370,7 @@ _(none yet)_
 - [src-378] Livingcost — Sliema cost of living.
 - [src-379] Livingcost — Birkirkara cost of living.
 - [src-380] Livingcost — Marsaskala cost of living.
+- [src-755] World Population Review / Numbeo safety proxies for Malta.
 
 ### 7e. Not found
 - Capturable Malta International Protection Agency / Home Affairs current TP procedure page. Obvious official pages were public in search results but blocked by security verification during extraction. Current operational baseline is “no captured post-2027 TP bridge, plan an ordinary route before TP expiry.”
@@ -362,3 +380,4 @@ _(none yet)_
 
 - `vq-093` resolved for screening in run-100: Malta tax planning remains partial because NRP is income-gated; exact authorised-work, first-year relief, Class Two, VAT, and source/remittance treatment is application-prep/accountant work.
 - `vq-126` resolved for screening in run-138: Malta healthcare application-prep details, including NRP/residence-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact public-health onboarding for the couple's final residence/work/NRP status, remain before-filing checks.
+- Run-172 comfort/partner pass: safety, English-language practicality, Ukrainian/foreigner support context, spouse/de facto partner dependency, remote-study posture, and one-income budget fit are screenable; exact city community channels, dependent local work-right practice, programme confirmation for de facto partners, and language-course choices remain application-prep checks.

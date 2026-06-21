@@ -9093,3 +9093,15 @@ Each source entry:
 - **Facts supporting**: Croatia English-proficiency baseline: global rank #2, EF EPI score 617, global average score 488, and Croatian-language integration caveat for bureaucracy / public services (claim-croatia-017)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-21
+
+## src-755
+- **Title**: World Population Review / Numbeo safety proxies for Malta
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.numbeo.com/crime/country_result.jsp?country=Malta
+- **Archive**: WPR direct extraction used; Numbeo direct extraction used
+- **Type**: aggregator
+- **Date published**: WPR article 2026-06-16; Numbeo live page
+- **Date accessed**: 2026-06-21
+- **Used by**: Malta
+- **Facts supporting**: Malta safety screening baseline: TravelSafe safety index 78 / Low risk and Numbeo crime index 43.02 / safety index 56.98 (claim-malta-016)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-21

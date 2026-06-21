@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-21
 ---
 
+## 2026-06-21 — run-172 — Malta comfort/partner fit
+
+- Completed Malta sections 5.8 and 5.9 for screening by adding safety, English-language practicality, Ukrainian/foreigner support, city-comfort, spouse/de facto partner, remote-study, local-work-right caution, and one-income partner baselines.
+- Added one source (`src-755`) and two Malta claims (`claim-malta-016`, `claim-malta-017`).
+- Malta depth_score moved from 5.5 to 8.0; added `malta-one-income-margin-risk` as a practical fit flag.
+
 ## 2026-06-21 — run-171 — Croatia comfort/partner fit
 
 - Completed Croatia sections 5.8 and 5.9 for screening by adding country-level safety, Ukrainian-reception, English-proficiency, city-comfort, common-law/spouse dependent, remote-study, dependent-work-right, and one-income partner baselines.

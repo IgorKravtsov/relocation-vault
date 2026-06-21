@@ -134,3 +134,21 @@
   confidence: medium
   tags: [education, childcare, international-school, budget]
   notes: "Eurydice supports the free-childcare policy baseline; Livingcost city pages provide cost proxies. Treat international school as a major budget risk at USD 3,000/month gross."
+
+- id: claim-malta-016
+  topic: malta_safety_screening_baseline
+  value: "WPR / TravelSafe lists Malta with a safety index of 78 and Low risk; Numbeo reports crime index 43.02 and safety index 56.98"
+  source: src-755
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [comfort, safety, crime]
+  notes: "Used for section 5.8 screening. This combines aggregator and perception data, not an official Malta police statistical series."
+
+- id: claim-malta-017
+  topic: malta_partner_one_income_fit
+  value: "NRP dependent inclusion is plausible for spouse or documented de facto partner, but the EUR 42,000/year gross principal threshold and Malta rent/tax pressure make the one-income fit weak at the couple's current income"
+  source: src-048
+  date_verified: 2026-06-21
+  confidence: medium-high
+  tags: [partner, dependent, digital-nomad, one-income]
+  notes: "NRP checklist supports de facto-partner evidence; FAQ supports family-member inclusion. Budget weakness is based on existing Malta tax and rent sections."
