@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-21
 ---
 
+## 2026-06-21 — run-177 — Hungary comfort/partner fit
+
+- Completed Hungary sections 5.8 and 5.9 for screening by adding safety, Ukraine/TP support, English-proficiency, city-comfort, White Card sponsor-exclusion, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-764`, `src-765`) and two Hungary claims (`claim-hungary-025`, `claim-hungary-026`).
+- Hungary depth_score moved from 5.5 to 8.0; added `hungarian-language-integration-needed` and `hungary-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-21 — run-176 — Bulgaria comfort/partner fit
 
 - Completed Bulgaria sections 5.8 and 5.9 for screening by adding safety, Ukrainian-support infrastructure, English-proficiency, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.

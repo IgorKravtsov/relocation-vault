@@ -9203,3 +9203,28 @@ Each source entry:
 - **Facts supporting**: Bulgaria section 5.8 English-proficiency baseline: global rank #18, EF EPI score 594, high proficiency band implied by score display, and city snippets for Sofia 616 and Varna 553 (claim-bulgaria-027)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-21
+
+
+## src-764
+- **Title**: World Population Review / TravelSafe safety proxies for Hungary
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world
+- **Archive**: direct HTML / embedded-data extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: WPR article 2026-06-16
+- **Date accessed**: 2026-06-21
+- **Used by**: Hungary
+- **Facts supporting**: Hungary comfort / safety screening proxy: 2025 Global Peace Index score 1.500, TravelSafe safety index 83 / Low risk, and US News 2024 safest-country rank #26 (claim-hungary-025)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21
+
+## src-765
+- **Title**: EF English Proficiency Index - Hungary
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/hungary/
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: 2025-11-01
+- **Date accessed**: 2026-06-21
+- **Used by**: Hungary
+- **Facts supporting**: Hungary section 5.8 English-proficiency baseline: global rank #22, EF EPI score 590, and Budapest city score 613 (claim-hungary-026)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-21

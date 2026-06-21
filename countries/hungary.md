@@ -1,13 +1,13 @@
 ---
 country: Hungary
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-17T03:11:20Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-21T23:27:55Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "hungary-self-employed-tax-and-immigration-fit-gap", "budapest-rent-pressure", "hungary-private-insurance-quote-gap", "hungary-international-school-cost-risk"]
-sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172", "src-332", "src-333", "src-334", "src-335", "src-336", "src-513", "src-514", "src-515", "src-516", "src-648", "src-649", "src-650", "src-651"]
+sections_pending: ["5.10", "5.11"]
+risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "hungary-self-employed-tax-and-immigration-fit-gap", "budapest-rent-pressure", "hungary-private-insurance-quote-gap", "hungary-international-school-cost-risk", "hungarian-language-integration-needed", "hungary-one-income-margin-risk"]
+sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172", "src-332", "src-333", "src-334", "src-335", "src-336", "src-513", "src-514", "src-515", "src-516", "src-648", "src-649", "src-650", "src-651", "src-764", "src-765"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Hungary is usable as a legal short/medium-term base but not yet an obvious long-term fit for this couple: the White Card is clean for foreign remote work but requires at least EUR 3,000 net monthly income for 6 months, does not allow Hungarian gainful activity, and its holder cannot sponsor family reunification; guest self-employment has a heavier evidence burden and a 3-year cap before a new application. [src-093][src-094][src-095]
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-17
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-21
 - **Tier rationale**: Leave unassigned until taxes, cost, rent, healthcare, and ordinary self-employment feasibility are researched.
 
 ## Block 2 — Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | 40 m2 1BR proxy is about $405-$546 in Pécs/Debrecen and $593-$772 in Budapest; Budapest is the rent-pressure case on the conservative tax-section net. | §5.5 |
 | Healthcare | — | medium | TP healthcare and NEAK public-service baseline captured; exact route-compliant private insurance quotes, maternity exclusions, and final-status onboarding remain application-prep checks | §5.6 |
 | Education (future child) | — | medium-high | Eurydice baseline: free mandatory kindergarten from age 3 to school start and 8-grade basic education; Budapest international-school fees create budget risk | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Safety proxies are acceptable, Ukraine/TP support infrastructure exists, and EF EPI shows high English proficiency, but Hungarian remains important for bureaucracy, healthcare, leases, schooling, and long-term integration. | §5.8 |
+| Fit for couple with single income | — | medium | Partner fit is fragile: White Card cannot sponsor family reunification, so marriage only helps under another sponsor-eligible status; independent TP/status is the safer baseline, and one-income affordability is tight after tax/rent/insurance. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -219,13 +219,48 @@ International school is the downside scenario for a one-income family. Internati
 
 Education conclusion: Hungary passes the first-pass education DoD for screening. Public kindergarten/school structure is clear and kindergarten from age 3 is mandatory/free, but private international schooling in Budapest would materially strain the one-income budget.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. Safety and English-proficiency evidence is proxy-based, and city comfort still depends on live neighbourhood choice, Hungarian-language tolerance, and final White Card / guest-self-employment / TP status.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Safety / daily security**
+- World Population Review's 2026 safety table gives Hungary a 2025 Global Peace Index score of **1.500**, a TravelSafe safety index of **83**, a **Low** risk label, and US News 2024 safest-country rank **#26** [src-764]. This supports a medium-confidence baseline that ordinary daily safety is acceptable for relocation screening, while city-level petty-crime, road-safety, neighbourhood, and political-protest checks remain practical due diligence.
+- Safety is not the gating issue for this couple. Pecs and Debrecen screen better on rent/cost, while Budapest has the deepest services but is the rent-pressure case.
 
-[verification required]
+**Attitude to Ukrainians / support infrastructure**
+- OIF confirms the captured temporary-protection framework for Ukrainians, including work without a specific work permit and access to listed healthcare categories for TP applicants / beneficiaries who are not otherwise socially insured [src-092].
+- Practical comfort read: Hungary has an institutional Ukraine/TP channel through the EU horizon, but the same profile baseline still has no captured post-2027 TP-to-ordinary-status bridge. Do not confuse short-term protection/support with a durable settlement solution.
+
+**English / language practicality**
+- EF EPI ranks Hungary **#22 globally** with an EF EPI score of **590** in the 2025 index; the captured city score for Budapest is **613** [src-765]. This is a good screening signal for Budapest professional, private-service, and expat-facing contexts.
+- Hungarian remains important for OIF/Enter Hungary paperwork, leases, public healthcare / TAJ / GP steps, public schooling, tax and self-employment administration, and long-term integration. Add `hungarian-language-integration-needed` as a practical comfort/bureaucracy flag.
+
+**City comfort synthesis**
+- **Debrecen** is the first balanced screen: it has university-city services, lower rent than Budapest, and a better budget fit on the Livingcost pass [src-515]. English evidence is not city-specific in EF's captured Hungary page, so Hungarian-language tolerance and English-speaking healthcare/provider checks remain important.
+- **Pecs** is the affordability / warmer-southwest option: captured rent and family-proxy costs are among the best Hungary screens, and climate is slightly milder than Debrecen/Budapest, but smaller-city services and English-speaking private-care depth need local checks [src-516][src-099].
+- **Budapest** has the deepest bureaucracy, airport, private healthcare, schools, international community, and EF city score of 613, but it is already the rent-pressure and international-school-cost-risk case [src-514][src-651][src-765]. Use it only with a strict rent cap or if services/legal support outweigh budget pressure.
+
+**Comfort verdict**
+- Hungary passes §5.8 for screening. Daily safety and Budapest English are workable, Ukraine-related support infrastructure exists through TP, and Debrecen / Pecs are plausible lower-cost bases. The main comfort downsides are Hungarian-language bureaucracy, cold winters versus Mediterranean candidates, Budapest rent pressure, and the unresolved ordinary residence / tax route.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-21, dod: passed}
+
+> **DoD status**: Passed for first-pass screening. The dependent baseline is conservative: independent TP/status, or marriage only if the sponsor has a sponsor-eligible Hungarian status. White Card family sponsorship is expressly unavailable, so exact family filing mechanics remain application-prep/legal checks if Hungary becomes a finalist.
+
+**Dependent / partner status**
+- OIF's captured family-reunification page defines family-member categories around spouse / registered partner, minor children, and limited dependent relatives; it does not prove an unmarried-girlfriend route. More importantly, OIF states family reunification may not be granted if the sponsor is a White Card holder [src-095].
+- Conservative planning baseline: if the man uses a White Card, the woman needs her own Hungarian status (for example TP if independently eligible, study/work/other status, or another country plan). Marriage helps only if the man holds a different sponsor-eligible status; it does not overcome the White Card sponsor exclusion.
+
+**Student posture**
+- Continuing distance study at a Ukrainian university does not itself create Hungarian residence rights. It is compatible with living in Hungary if she has another lawful basis, but should not be counted as a Hungarian student-residence route without admission to a Hungarian institution.
+- If she independently qualifies for Hungarian temporary protection, TP provides the strongest near-term baseline because OIF confirms work without a specific permit and healthcare categories for TP applicants / beneficiaries [src-092]. If she does not, the safer long-stay route is a separate ordinary status or marriage plus a sponsor-eligible permit held by the man.
+
+**Work rights and one-income budget**
+- Under TP, OIF says applicants / beneficiaries can work without a specific work permit [src-092]. Under family reunification or another ordinary residence route, exact labour-market access should be checked with OIF / counsel before assuming she can work locally.
+- The couple's one-income margin is fragile in Hungary. Livingcost screens Debrecen and Pecs better than Budapest [src-515][src-516], but the conservative Hungary tax-section stress test leaves only about **USD 1,745-2,192/month** net before accountant, insurance, immigration-lawyer, deposits, and filing costs [src-332][src-333][src-336]. Add `hungary-one-income-margin-risk` because legal-route uncertainty plus tax/contribution downside can erase the apparent rent advantage.
+
+**Partner verdict**
+- Hungary passes §5.9 for screening, but the partner route is a weakness rather than a strength. White Card is awkward for a couple because it cannot sponsor family reunification; the woman needs independent TP/status, or the man must qualify for a different sponsor-eligible route before marriage/family reunification becomes useful. Remote Ukrainian study can continue as a life-plan factor, not as a residence basis.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -249,17 +284,18 @@ Education conclusion: Hungary passes the first-pass education DoD for screening.
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Possible, but Hungary remains fragile for this couple. Debrecen/Pecs rent screens are workable, healthcare and education are screenable, but White Card income is above the current budget, White Card cannot sponsor the partner, and the tax/contribution stress test can make one-income affordability tight. [src-093][src-095][src-648][src-650][src-515][src-516]
+- **Can relocate now**: Possible, but Hungary remains fragile for this couple. Debrecen/Pecs rent screens are workable and comfort/healthcare/education are screenable, but White Card income is above the current budget, White Card cannot sponsor the partner, and the tax/contribution stress test can make one-income affordability tight. [src-093][src-095][src-648][src-650][src-515][src-516][src-764][src-765]
 - **Best legalization path for the man**: White Card only if income is safely above EUR 3,000 net/month and the woman has her own status; otherwise investigate guest self-employment or another sponsor-eligible route.
-- **Best legalization path for the woman**: Temporary protection if independently eligible, or independent study/work/other status; family reunification is not available from a White Card sponsor, and unmarried dependency is not captured. [src-095]
+- **Best legalization path for the woman**: Temporary protection if independently eligible, or independent study/work/other status; family reunification is not available from a White Card sponsor, and unmarried dependency is not captured. Remote Ukrainian study does not create Hungarian residence rights. [src-092][src-095]
 - **Does marriage change the picture**: It may help only if the sponsor holds a sponsor-eligible Hungarian status; marriage alone does not fix White Card family-reunification exclusion.
 - **Realism of staying after 03.2027**: Unclear/medium-low until ordinary route feasibility is verified; no captured TP bridge.
 
 **Pros**:
 - Official White Card exists for foreign remote work. [src-093]
 - National Residence Card may be available after 3 years of legal uninterrupted residence for eligible permit holders. [src-096]
-- Budapest/Pécs/Debrecen have relatively sunny Central European climates by regional standards. [src-097][src-098][src-099]
+- Budapest/Pecs/Debrecen have relatively sunny Central European climates by regional standards. [src-097][src-098][src-099]
 - Pecs and Debrecen have more workable first-pass rent/cost screens than Budapest. [src-515][src-516]
+- Safety and English-proficiency proxies are acceptable for screening, especially in Budapest professional/private-service contexts. [src-764][src-765]
 - Public kindergarten / school structure is clear, and kindergarten from age 3 is mandatory/free for screening purposes. [src-649][src-650]
 
 **Cons / risks**:
@@ -270,6 +306,7 @@ Education conclusion: Hungary passes the first-pass education DoD for screening.
 - Winters are cold compared with Tier-1 Mediterranean candidates. [src-097][src-098][src-099]
 - Budapest is rent-pressured on the conservative after-tax stress test, and the national family proxy is already close to gross income. [src-513][src-514]
 - Exact private health insurance, final-status NEAK / GP onboarding, and Budapest international-school cost exposure remain application-prep / future-child budget risks. [src-648][src-651]
+- Hungarian-language bureaucracy, leases, healthcare, schooling, tax/self-employment administration, and OIF paperwork remain practical integration burdens. [src-765]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -294,7 +331,7 @@ Education conclusion: Hungary passes the first-pass education DoD for screening.
 - Tax registration as self-employed / freelancer: required research for guest self-employment; not completed.
 - Transferring partner to dependent / partner / student status: White Card cannot sponsor family reunification; use TP/independent eligibility, or switch the man to a different sponsor-eligible status before attempting family reunification. [src-095]
 - Marriage (if applicable to scenario): useful only with a sponsor-eligible status; it does not overcome the White Card sponsor exclusion.
-- Integration (language courses, communities): TBD.
+- Integration (language courses, communities): budget time for Hungarian-language help for OIF/Enter Hungary, leases, healthcare, school, and tax administration; Budapest is easiest for English-facing services, while Debrecen/Pecs need local checks. [src-765]
 
 ### 6d. Before March 2027 (critical deadline)
 - What must be in hand by this date: ordinary Hungarian status independent of TP if planning to stay past the EU TP horizon.
@@ -343,6 +380,7 @@ Education conclusion: Hungary passes the first-pass education DoD for screening.
 - [src-336] open.er-api.com — USD/HUF exchange-rate feed.
 - [src-649] Eurydice — Hungary early childhood education and care.
 - [src-650] Eurydice — Hungary organisation of the education system and structure.
+- [src-765] EF English Proficiency Index — Hungary — English-proficiency screening baseline for Hungary and Budapest.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -357,6 +395,7 @@ _(none yet)_
 - [src-515] Livingcost — Debrecen cost of living (commercial)
 - [src-516] Livingcost — Pecs cost of living (commercial)
 - [src-651] International Schools Database — Budapest international schools fee benchmark
+- [src-764] World Population Review / TravelSafe safety proxies for Hungary — Global Peace Index, TravelSafe safety index, risk label, and US News safest-country proxy.
 
 ### 7e. Not found
 - Direct annual sunny/clear-day counts for Budapest, Debrecen, and Pécs.
@@ -369,3 +408,5 @@ _(none yet)_
 
 - `vq-098` — resolved to a conservative screening baseline: do not assume KATA / flat-rate or White Card compatibility; individual-entrepreneur registration, exact contribution bases, VAT / reverse-charge, and immigration-status fit remain accountant/application-prep checks before filing.
 - `vq-131` — resolved in run-148 for screening: route-compliant private insurance quotes, maternity exclusions / waiting periods, and exact NEAK / TAJ / GP onboarding for the couple's final status and selected city remain application-prep checks.
+
+Comfort and partner fit are now screenable. Remaining gaps are risk dimensions, bureaucracy/practicality, citizenship, exact ordinary-route application prep, and route-specific tax/insurance/legal checks.

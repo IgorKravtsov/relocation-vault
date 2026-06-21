@@ -215,3 +215,22 @@
   confidence: medium-high
   tags: [education, compulsory-schooling, international-school, budget-risk, hungary]
   notes: "Fee benchmark also uses src-651; source field follows the main public-education structure source."
+
+
+- id: claim-hungary-025
+  topic: comfort_safety_screen
+  value: "World Population Review / TravelSafe screens Hungary with 2025 Global Peace Index score 1.500, TravelSafe safety index 83, Low risk label, and US News 2024 safest-country rank #26."
+  source: src-764
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [comfort, safety, daily-security, hungary]
+  notes: "Aggregator/proxy source; use for screening only, with city/neighbourhood checks before relocation."
+
+- id: claim-hungary-026
+  topic: english_proficiency_screen
+  value: "EF EPI ranks Hungary #22 globally with EF EPI score 590 in the 2025 index; Budapest's captured city score is 613."
+  source: src-765
+  date_verified: 2026-06-21
+  confidence: medium
+  tags: [comfort, english, language-integration, hungary, budapest]
+  notes: "Supports Budapest/private-service English practicality, but Hungarian remains important for bureaucracy, healthcare, leases, schooling, and tax/self-employment administration."
