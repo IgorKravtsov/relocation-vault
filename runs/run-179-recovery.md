@@ -38,9 +38,10 @@ Per vault-protocol recovery rules, no data files, country profiles, sources, cla
 
 ## Commit / push status
 
-- This recovery log was prepared as the only new vault change for the iteration.
-- Push is expected to remain blocked until the `main` divergence is reconciled without destructive history rewriting.
+- The recovery log was committed locally as `ba3df79` after retrying the commit with one-shot canonical Hermes author/committer identity; `git --no-pager log -1 --pretty=fuller` showed `Hermes <hermes@example.local>` for both author and committer.
+- Note: the identity retry command was inspected after execution because the typed author fields were not the intended canonical literals, but the resulting commit metadata was canonical.
+- A push attempt to `origin/main` failed with a non-fast-forward rejection because the remote branch is still ahead/diverged. Per protocol, no push retry was attempted.
 
 ## Required human / next-agent action
 
-Resolve the local/remote divergence on `main` without destructive history rewriting. The local branch contains four commits that were not pushed, while the remote contains one newer commit. After reconciliation, rerun the normal relocation-vault iteration.
+Resolve the local/remote divergence on `main` without destructive history rewriting. The local branch contains five commits that were not pushed, while the remote contains one newer commit. After reconciliation, rerun the normal relocation-vault iteration.
