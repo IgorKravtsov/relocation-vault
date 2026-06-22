@@ -205,3 +205,21 @@
   confidence: medium-high
   tags: [education, school-structure, international-school, slovakia]
   notes: "Fee range also uses src-655; international schooling is a future-child budget risk at USD 3,000/month one-income level."
+
+- id: claim-slovakia-024
+  topic: comfort_safety_screening_proxy
+  value: "World Population Review's 2026 safest-countries table reports Slovakia with a 2025 Global Peace Index score of 1.609, TravelSafe safety index 80 / Low risk, and US News 2024 safest-country rank 34th."
+  source: src-766
+  date_verified: 2026-06-22
+  confidence: medium
+  tags: [comfort, safety, global-peace-index, slovakia]
+  notes: "Use as a country-screening proxy only; neighborhood-level crime and lease/provider experience still need city checks."
+
+- id: claim-slovakia-025
+  topic: english_proficiency_screening
+  value: "EF EPI lists Slovakia at global rank #10 with score 606, including regional/city scores of Kosice 605, Trnava 604, Presov 601, Bratislava 600, Nitra 600, Zilina 592, and Banska Bystrica 578."
+  source: src-767
+  date_verified: 2026-06-22
+  confidence: medium
+  tags: [comfort, english-proficiency, adaptation, slovakia]
+  notes: "Supports English-facing screening in larger cities, but Slovak remains important for administration, healthcare, leases, schooling, tax, and long-term integration."

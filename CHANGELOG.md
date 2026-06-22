@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-21
+last_updated: 2026-06-22
 ---
+
+## 2026-06-22 — run-181 — Slovakia comfort/partner fit
+
+- Completed Slovakia sections 5.8 and 5.9 for screening by adding safety, English-proficiency, city-comfort, marriage/independent-status partner, remote-study, and one-income baselines.
+- Added two sources (`src-766`, `src-767`) and two Slovakia claims (`claim-slovakia-024`, `claim-slovakia-025`).
+- Slovakia depth_score moved from 5.5 to 8.0; added `slovak-language-integration-needed` and `slovakia-one-income-margin-risk` as practical fit flags.
 
 ## 2026-06-21 — run-177 — Hungary comfort/partner fit
 

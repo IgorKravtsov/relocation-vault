@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-21
+last_updated: 2026-06-22
 ---
 
 # Sources Registry
@@ -9228,3 +9228,27 @@ Each source entry:
 - **Facts supporting**: Hungary section 5.8 English-proficiency baseline: global rank #22, EF EPI score 590, and Budapest city score 613 (claim-hungary-026)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-21
+
+## src-766
+- **Title**: World Population Review / TravelSafe safety proxies for Slovakia
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world
+- **Archive**: direct HTML / embedded-data extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: WPR article 2026-06-16
+- **Date accessed**: 2026-06-22
+- **Used by**: Slovakia
+- **Facts supporting**: Slovakia comfort / safety screening proxy: 2025 Global Peace Index score 1.609, TravelSafe safety index 80 / Low risk, and US News 2024 safest-country rank #34 (claim-slovakia-024)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-22
+
+## src-767
+- **Title**: EF English Proficiency Index - Slovakia
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/slovakia/
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: 2025-11-01
+- **Date accessed**: 2026-06-22
+- **Used by**: Slovakia
+- **Facts supporting**: Slovakia section 5.8 English-proficiency baseline: global rank #10, EF EPI score 606, and regional/city scores for Kosice 605, Trnava 604, Presov 601, Bratislava 600, Nitra 600, Zilina 592, and Banska Bystrica 578 (claim-slovakia-025)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-22

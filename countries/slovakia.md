@@ -1,13 +1,13 @@
 ---
 country: Slovakia
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-17T06:21:38Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-22T11:40:00Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge", "slovakia-szco-tax-and-immigration-fit-gap", "bratislava-rent-pressure", "slovakia-health-insurance-onboarding-gap", "slovakia-international-school-cost-risk"]
-sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173", "src-338", "src-339", "src-340", "src-341", "src-342", "src-343", "src-517", "src-518", "src-519", "src-520", "src-652", "src-653", "src-654", "src-655"]
+sections_pending: ["5.10", "5.11"]
+risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge", "slovakia-szco-tax-and-immigration-fit-gap", "bratislava-rent-pressure", "slovakia-health-insurance-onboarding-gap", "slovakia-international-school-cost-risk", "slovak-language-integration-needed", "slovakia-one-income-margin-risk"]
+sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173", "src-338", "src-339", "src-340", "src-341", "src-342", "src-343", "src-517", "src-518", "src-519", "src-520", "src-652", "src-653", "src-654", "src-655", "src-766", "src-767"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to a practical but administratively heavy Tier-2-style profile rather than an obvious Tier-1 route: Slovakia has EU temporary protection through 04 March 2027 and an ordinary self-employed/business residence route, but no dedicated digital-nomad visa and no captured post-2027 TP-to-ordinary-residence bridge. [src-002][src-100][src-101]
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-17
-- **Tier rationale**: Keep unassigned until comfort, partner/student fit, risk dimensions, bureaucracy, and whether business/SZCO residence is operational for a foreign-client IT contractor are confirmed. Healthcare is screenable but status-sensitive, and cost/rent looks manageable outside Bratislava without solving the legal-route burden.
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-22
+- **Tier rationale**: Keep unassigned until risk dimensions, bureaucracy, and whether business/SZCO residence is operational for a foreign-client IT contractor are confirmed. Healthcare, education, comfort, and partner/student fit are screenable; cost/rent looks manageable outside Bratislava, but language and one-income margin risks remain without solving the legal-route burden.
 
 ## Block 2 — Scoring
 
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | 40 m2 1BR proxy ranges from about USD 481/month cheap in Poprad to USD 921/month central in Bratislava; use Poprad/Kosice before Bratislava unless services/legal reasons dominate. | §5.5 |
 | Healthcare | — | medium | TP healthcare rights and public-health-insurance mechanics are screenable; ordinary business/family-route onboarding and live private-insurance details remain application-prep checks. | §5.6 |
 | Education (future child) | — | medium-high | Eurydice captures nursery / kindergarten / compulsory-school structure, and Bratislava international-school fees are high enough to flag a future-child budget risk. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Safety proxies and English-proficiency evidence are favorable for screening, especially in Bratislava/Kosice; Slovak language, cold winters, and smaller-city service depth remain practical constraints. | §5.8 |
+| Fit for couple with single income | — | medium | Marriage or independent status is the safe partner baseline; remote Ukrainian study does not create residence rights, and the one-income margin depends on business-residence and SZCO tax fit. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -208,13 +208,37 @@ International schooling is the budget-risk branch, not the default. Internationa
 
 **Education conclusion for the couple.** Slovakia is screenable for a future child if the family expects to use public/state or lower-cost local schooling with Slovak-language integration. The main education risk is not access to a basic public structure; it is whether the family needs international schooling in Bratislava, which would overwhelm the current one-income budget. [src-653][src-654][src-655]
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-22, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. This pass adds safety and English-proficiency proxies, then combines them with existing cost/rent, climate, healthcare, and education evidence. It is not a final city-selection guide; exact neighborhoods, leases, provider access, and Slovak-language support remain practical checks.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+Slovakia screens as a generally safe EU base. World Population Review's 2026 safest-countries table reports Slovakia with a 2025 Global Peace Index score of **1.609**, TravelSafe safety index **80 / Low risk**, and US News 2024 safest-country rank **34th**. Treat this as a screening proxy rather than a neighborhood-level crime analysis, but it supports an ordinary daily-safety baseline for Bratislava, Kosice, and smaller-city options. [src-766]
 
-[verification required]
+English is better than in many practical-bureaucracy-heavy countries. EF EPI lists Slovakia at **global rank #10**, EF EPI score **606**, and regional/city scores including Kosice **605**, Trnava **604**, Presov **601**, Bratislava **600**, Nitra **600**, Zilina **592**, and Banska Bystrica **578**. For the couple, this supports English-facing services and IT/community access in larger cities, while Slovak remains necessary for immigration offices, leases, public healthcare, school integration, tax/SZCO administration, and long-term residence/citizenship. [src-767]
+
+City comfort synthesis:
+
+| City | Comfort read | Main tradeoff |
+|---|---|---|
+| Bratislava | Best capital access to lawyers, accountants, embassies, healthcare depth, international schools, English-facing services, and cross-border links to Vienna / Czechia / Hungary. | Rent pressure: captured central 40 m2 proxy is USD 921/month and family-size cost proxy exceeds gross USD 3,000/month. [src-518] |
+| Kosice | Best services/cost compromise after Bratislava: university/second-city services, strong EF regional score, lower family proxy than Bratislava, and likely deeper healthcare/professional access than Poprad. | Still not dramatically cheap on captured 40 m2 rent; colder eastern-inland winter and fewer capital-level services. [src-519][src-767] |
+| Poprad | Best affordability screen and access to mountains/outdoor lifestyle; cheap 40 m2 proxy is USD 481/month. | Small-city service depth, colder high-altitude climate, fewer international/community options, and more need to verify healthcare/accountant/language support before choosing it. [src-520] |
+
+Practical comfort conclusion: Slovakia is **comfortable enough for screening** if the couple accepts a Central-European climate, Slovak-language learning, and a disciplined non-Bratislava budget. It is not a warm-climate lifestyle win and not administratively lightweight; its comfort case is strongest for safety, EU proximity, and predictable services, not for ease of legalization.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-22, dod: passed}
+
+> **DoD status**: passed for first-pass screening. The partner plan is anchored in already captured Slovakia legal evidence plus the current one-income budget. It does not prove exact student-residence or university-transfer options; those remain optional application-prep paths if she wants Slovak study later.
+
+For the woman as a Ukrainian remote student, the safe baseline is **independent temporary protection if eligible**, or **marriage-based family reunification** if the man moves onto ordinary Slovak temporary residence and she needs derived status. Captured family-reunification guidance lists the spouse aged at least 18 and child/dependent-relative categories; it does not list an unmarried partner. Remote study at a Ukrainian university does not itself create Slovak residence rights. [src-100][src-102]
+
+The Polish `karta pobytu` should be treated as filing/logistics evidence only, not a substitute for Slovak status. If it is temporary protection, the EU one-Member-State TP rule remains the conservative baseline; if it is another Polish residence title, it may help with where to file, but the couple still needs Slovak TP, business, family, study, work, or another Slovak status. [src-002][src-100][src-101]
+
+One-income fit is possible but fragile. Slovakia's tax pass leaves about **EUR 2,050-2,147/month** under the favorable SZCO screening model, before accountant, VAT/reporting, insurance, immigration, travel, and contingency costs. Rent/cost data point to Poprad for affordability and Kosice for services/cost balance; Bratislava is usable only with a strict rent cap or a strong legal/accountant/community reason. [src-343][src-518][src-519][src-520]
+
+Education and future-child fit are acceptable only if the family can use the Slovak public/local path. Bratislava international-school fees around EUR 12,400-28,000/year are incompatible with a comfortable one-income USD 3,000/month plan, so international schooling should be treated as a later income-growth option rather than the default. [src-653][src-654][src-655]
+
+Partner/student conclusion: Slovakia does **not** solve the unmarried-partner problem automatically. It is workable for the couple if (1) both can use TP now, or (2) they marry before relying on family reunification, and (3) the man proves a viable ordinary business/SZCO route before TP expiry. The woman can continue remote Ukrainian study operationally, but the residence plan should not depend on that study unless a separate Slovak student route is intentionally pursued.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -240,16 +264,17 @@ International schooling is the budget-risk branch, not the default. Internationa
 
 - **Can relocate now**: Yes for a current protection/base-status layer via temporary protection, assuming eligibility and no conflicting active TP status elsewhere. [src-100]
 - **Best legalization path for the man**: TP now if appropriate; ordinary fallback to investigate is temporary residence for business/self-employment, not a dedicated DN visa. The tax pass suggests an SZCO model could be economically workable at USD 3,000/month, but the route still needs adviser confirmation because business residence is evidence-heavy and scrutinises real Slovak activity. [src-101][src-108][src-339][src-340]
-- **Best legalization path for the woman**: Her own TP if eligible; otherwise marriage-dependent family reunification or her own independent status.
-- **Does marriage change the picture**: Yes. Captured family-reunification guidance covers a spouse aged at least 18; it does not list unmarried partners. [src-102]
+- **Best legalization path for the woman**: Her own TP if eligible; otherwise marriage-dependent family reunification or her own independent status. Remote Ukrainian study is compatible as a life plan but does not create Slovak residence rights by itself. [src-100][src-102]
+- **Does marriage change the picture**: Yes. Captured family-reunification guidance covers a spouse aged at least 18; it does not list unmarried partners, so marriage is the conservative dependent-status baseline. [src-102]
 - **Realism of staying after 03.2027**: Medium-low. TP is officially extended to 04 March 2027, but no captured Slovakia-specific bridge converts it into ordinary residence; the practical ordinary fallback is business residence, which needs a real Slovak business file. [src-108][src-109]
 - **Budget/rent fit**: Possible but disciplined. Poprad is the best captured affordability screen; Kosice is the services/cost compromise; Bratislava needs a strict rent cap because capital 40 m2 rent and family-size cost proxies strain the USD 3,000/month one-income case. [src-518][src-519][src-520]
-- **Healthcare / education fit**: Healthcare is screenable but status-sensitive; TP gives access now, while ordinary residence needs route-compliant insurance and onboarding checks. Education is workable through public/state structures, but Bratislava international schools are a major future-child budget risk. [src-100][src-652][src-653][src-654][src-655]
+- **Healthcare / education / comfort fit**: Healthcare is screenable but status-sensitive; TP gives access now, while ordinary residence needs route-compliant insurance and onboarding checks. Education is workable through public/state structures, but Bratislava international schools are a major future-child budget risk. Comfort is acceptable for safety, English-facing urban services, and EU proximity, but Slovak language and colder climate matter. [src-100][src-652][src-653][src-654][src-655][src-766][src-767]
 
 **Pros**:
 - EU/Schengen country close to Ukraine with TP access through the EU horizon.
 - Business/self-employed residence exists and may fit a genuine freelancer/business setup; the first-pass SZCO tax model can leave roughly EUR 2,050-2,147/month net from USD 3,000/month if 60% lump-sum expenses and minimum contributions apply. [src-339][src-340][src-341][src-342]
 - Long-term residence anchor after 5 years of uninterrupted legal residence is captured. [src-103]
+- Safety and English-proficiency proxies are favorable for screening, with EF EPI especially strong in Slovakia and city/region scores around 600 for Kosice and Bratislava. [src-766][src-767]
 
 **Cons / risks**:
 - No captured dedicated digital-nomad visa.
@@ -258,6 +283,7 @@ International schooling is the budget-risk branch, not the default. Internationa
 - No captured post-2027 TP bridge beyond automatic TP extension to 04 March 2027. [src-109]
 - Climate is continental and cold compared with Tier-1 Mediterranean hints.
 - Bratislava is rent-pressured on this budget; future-family or 80 m2 rent scenarios become tight quickly. [src-518]
+- Slovak language is still important for bureaucracy, leases, healthcare, school integration, tax/SZCO administration, and long-term integration despite strong English-proficiency proxies. [src-767]
 - Healthcare onboarding depends on final status and insurer; private-insurance quotes and maternity exclusions remain application-prep checks. [src-652]
 - International schooling in Bratislava can cost EUR 12,400-28,000/year, which is a serious future-child risk on one USD 3,000/month income. [src-655]
 
@@ -327,6 +353,7 @@ International schooling is the budget-risk branch, not the default. Internationa
 - [src-338] — PwC Slovakia individual taxes / residence / tax administration.
 - [src-339] — PwC Slovakia individual deductions and SZCO lump-sum expense baseline.
 - [src-342] — PwC Slovakia corporate VAT context.
+- [src-767] — EF English Proficiency Index Slovakia.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -343,6 +370,7 @@ _(none yet)_
 - [src-519] — Livingcost Kosice cost/rent baseline.
 - [src-520] — Livingcost Poprad cost/rent baseline.
 - [src-655] — International Schools Database Bratislava international-school fee benchmark.
+- [src-766] — World Population Review / TravelSafe Slovakia safety proxies.
 
 ### 7e. Not found
 - Dedicated Slovakia digital-nomad visa: not captured in this pass.
@@ -353,6 +381,7 @@ _(none yet)_
 - Live rental listings, landlord deposit/agency-fee requirements for foreigners, and city-specific health-insurance/accountant/lawyer costs: not captured.
 - Exact business-residence / family-status-compliant private-insurance quotes, maternity waiting periods / exclusions, public-insurer registration steps, GP/pediatrician onboarding, and private-clinic prices: not captured.
 - Slovak-language integration support, local catchment school mechanics, and non-Bratislava international/private-school price options: not captured.
+- Neighborhood-level crime, lease discrimination, English-/Ukrainian-/Russian-speaking provider depth outside Bratislava/Kosice, and exact student-residence options for the woman: not captured.
 
 ## Block 8 — Open questions and verification markers
 
