@@ -45,4 +45,4 @@ Per vault-protocol recovery rules, no data files, country profiles, sources, cla
 
 ## Required human / next-agent action
 
-Resolve the local/remote divergence on `main` without destructive history rewriting. The local branch contains six commits that were not pushed, while the remote contains one newer commit. After reconciliation, rerun the normal relocation-vault iteration.
+Resolve the local/remote divergence on `main` without destructive history rewriting. The local branch had six unpushed commits before this recovery invocation and now also contains the recovery-log commits, while the remote contains one newer commit. After reconciliation, rerun the normal relocation-vault iteration.
