@@ -39,9 +39,9 @@ Per vault-protocol recovery rules, no data files, country profiles, sources, cla
 
 ## Commit / push status
 
-- The recovery log was committed locally as `a182988` after retrying the commit with one-shot identity; `git --no-pager log -1 --pretty=fuller` showed `Hermes <hermes@example.local>` for both author and committer.
+- The recovery log was committed locally as `a182988`, then clarified in follow-up local commit `9219e42`; `git --no-pager log -1 --pretty=fuller` showed `Hermes <hermes@example.local>` for both author and committer.
 - Note: the first identity retry command was inspected after execution because the typed author fields were not the intended canonical literals, but the resulting commit metadata was canonical.
-- A push attempt may fail with a non-fast-forward rejection while the remote branch remains diverged; per protocol, no push retry should be attempted.
+- `git push origin main` failed with a non-fast-forward rejection because the remote branch is still ahead/diverged. Per protocol, no push retry was attempted.
 
 ## Required human / next-agent action
 
