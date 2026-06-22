@@ -1,13 +1,13 @@
 ---
 country: Montenegro
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-20T13:21:03Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-22T17:54:04Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-income-threshold-needs-primary-check", "digital-nomad-long-term-counting-unclear", "montenegro-tax-registration-and-ssc-fit-gap", "kotor-budva-coastal-rent-pressure", "montenegro-private-health-insurance-gap", "montenegro-international-school-budget-risk"]
-sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-143", "src-348", "src-349", "src-350", "src-351", "src-352", "src-525", "src-526", "src-527", "src-528", "src-662", "src-663", "src-664", "src-665", "src-666", "src-744"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-income-threshold-needs-primary-check", "digital-nomad-long-term-counting-unclear", "montenegro-tax-registration-and-ssc-fit-gap", "kotor-budva-coastal-rent-pressure", "montenegro-private-health-insurance-gap", "montenegro-international-school-budget-risk", "montenegrin-serbian-language-integration-needed", "montenegro-one-income-margin-risk"]
+sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-143", "src-348", "src-349", "src-350", "src-351", "src-352", "src-525", "src-526", "src-527", "src-528", "src-662", "src-663", "src-664", "src-665", "src-666", "src-744", "src-769", "src-770"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass suggests a potentially useful non-EU fallback because Montenegro has extended temporary protection for Ukrainians to 04 March 2027 and advertises a digital-nomad residence framework, but the DN numeric income amount, long-term residence counting, and tax-registration / social-contribution fit for a foreign-client IT freelancer remain unresolved. [src-123][src-124][src-127][src-349]
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-20T13:21:03Z
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-22T17:54:04Z
 - **Tier rationale**: Do not classify yet. The official DN page now confirms filing route, document categories, duration, processing time, and spouse/minor-child family baseline; remaining classification blockers are the exact numeric income floor, tax/cost fit, and whether DN or other temporary-residence time can safely build a long-term PR clock.
 
 ## Block 2 — Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy is about $416 cheap / $550 center in Podgorica, $458 / $676 in Budva, and $620 / $634 in Kotor; keep coastal seasonal/rent pressure active. | §5.5 |
 | Healthcare | — | medium | Public/Fund baseline is screenable, but route-compliant private insurance, maternity coverage, and ordinary-residence onboarding costs remain application-prep gaps. | §5.6 |
 | Education (future child) | — | medium | Public preschool/school structure is clear, public preschool fees are modest, and QSI Montenegro 2025-26 tuition gives a concrete international-school stress test; this passes for screening but remains budget-sensitive. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Low safety risk by travel/safety proxies; strongest day-to-day comfort is a tradeoff between Podgorica services/admin and Budva/Kotor coastal climate, with summer crowds and local-language friction active. | §5.8 |
+| Fit for couple with single income | — | medium | Workable only with controlled rent and public/local services: spouse/minor-child family route is captured for DN, unmarried partner is not, and one-income margin tightens if coastal rent, private healthcare, QSI, or tax/SSC downside applies. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -183,13 +183,31 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 
 **Practical education verdict for the couple.** Public education looks usable for a long stay if language adaptation into Montenegrin/Serbian-language schooling is acceptable: preschool fees are modest by European standards and compulsory primary education is free. QSI provides an English-language fallback in Podgorica, but primary/secondary tuition is a major budget risk on one USD 3,000/month income. Screen Montenegro as public-school-first; use international school only with materially higher income, employer support, scholarships, or a short-term bridge plan. [src-664][src-665][src-666][src-744]
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-22, dod: passed}
 
-[verification required]
+> **DoD status**: passed for screening. This is a first-pass comfort baseline using safety proxies, expat-practicality evidence, and the already captured city cost/rent/climate screens. It does not replace later bureaucracy, live-neighbourhood, lease, language-school, or community checks.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Safety and daily-risk baseline.** World Population Review's 2026 safest-countries table gives Montenegro a **2025 Global Peace Index score of 1.685**, a TravelSafe safety index of **70**, and a **Low** risk label. TravelSafe's Montenegro page also labels overall risk low, violent crime and mugging risk low, terrorism risk very low, but flags medium transport/taxi, pickpocketing, and tourist-scam risks. Practical takeaway: Montenegro is screenable for daily personal safety, but the couple should be more careful with coastal summer crowds, taxis, narrow/winding roads, and tourist-zone overcharging than with violent-crime risk. [src-769]
 
-[verification required]
+**Language and integration.** Expat Arrivals notes that younger Montenegrins often speak English, German, or French, but recommends learning basic Serbian or Montenegrin to interact with locals and understand the culture; TravelSafe similarly warns that English may not be guaranteed in police/emergency interactions and is less reliable in rural areas. Operational baseline: Podgorica and tourist/coastal areas are more manageable in English, but immigration offices, leases, public healthcare, school administration, tax/accountant work, and non-tourist services should be planned as Montenegrin/Serbian-first. [src-769][src-770]
+
+**City comfort tradeoff.** Podgorica is the best administrative and services anchor and has the most plausible public/international-school fallback, but it is hotter in summer and less attractive climatically than the coast. Budva and Kotor Bay fit the warm-coast preference better, but the same sources already show higher rent/cost pressure and summer crowd/tourist-friction risk. For a one-income remote-work base, screen **Podgorica first** for admin, services, healthcare, school and rent control; screen **Budva** as the first coastal compromise; treat **Kotor/prime bay** as a lifestyle exception unless rent and seasonal-crowd exposure are controlled. [src-128][src-129][src-526][src-527][src-528][src-769]
+
+**Comfort verdict.** Montenegro passes comfort screening at medium confidence: it is small, safe enough, warm/coastal, and comparatively affordable versus Western Europe, but not frictionless. The recurring practical constraints are local-language reliance outside tourist settings, coastal summer crowding and prices, road/driving risk, health-insurance/onboarding uncertainty, and the need to keep a strict rent cap. [src-769][src-770]
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-22, dod: passed}
+
+> **DoD status**: passed for screening. The partner fit is screenable from the captured TP and DN family-baseline evidence, the education/healthcare/cost sections, and the remote-study / one-income scenario. Exact unmarried-partner recognition, residence-file proof standards, public-health onboarding, and future-child school admissions remain application-prep checks.
+
+**Legal status for the student partner.** The safest baseline is independent temporary protection/status if she qualifies, or marriage before relying on derived residence. The official DN family baseline captured in §5.1 covers **spouses** and minor children; it does not list unmarried partners. Therefore, if the working partner uses DN and she cannot or should not rely on her own TP/ordinary status, marriage is the conservative dependent-route assumption. [src-123][src-143]
+
+**Remote Ukrainian study.** Montenegro can support remote study practically if housing and internet are chosen carefully: Livingcost lists national internet around **USD 32.80/month**, and the country/city screens keep ordinary living costs workable outside the most expensive coastal stock. For exams, Ukrainian documents, or consular tasks, the couple should still plan around travel to Ukraine/Poland or consular services; no Montenegro-specific Ukrainian-student support pathway was captured in this section. [src-525][src-526][src-527]
+
+**One-income household fit.** The current USD 3,000/month income is plausible only under a controlled-cost model. Montenegro's conservative tax screen leaves about **USD 2,378/month** after PIT plus an illustrative SSC sensitivity; Podgorica and controlled Budva rents can still fit that, but Kotor/prime coast, private insurance, accountant/immigration costs, and international-school fees can consume the margin quickly. QSI primary/secondary tuition of about **USD 28,500/year** is not compatible with one income; public/local schooling is the realistic future-child baseline unless income rises. [src-350][src-526][src-527][src-528][src-744]
+
+**Partner comfort and work flexibility.** Expat Arrivals' language and small-expat-community caveats matter for the non-working partner: social adaptation will be easier in Podgorica and tourist/coastal communities than in smaller inland towns, but long-term integration still needs Montenegrin/Serbian basics. If she later starts working, the legal/tax route must be checked before any local employment or freelancing; this pass does not prove her independent work rights outside TP or another ordinary status. [src-143][src-770]
+
+**Partner verdict.** Montenegro is workable for the couple at screening level, but only if the partner has an independent status or the couple is ready to marry for derived residence, and only if the household chooses a budget-controlled base. The best first plan is Podgorica for administration/services and budget control, with Budva/coast considered only after live-rent and insurance checks. [src-123][src-143][src-526][src-527]
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -221,6 +239,7 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 - **Tax fit at current income**: Potentially workable on the captured entrepreneur PIT baseline, but not passed; exact self-employed SSC/VAT/DN-status treatment needs accountant confirmation. [src-349][src-350]
 - **Cost/rent fit at current income**: First-pass cost/rent is workable if the couple avoids the most rent-pressured coastal stock: Podgorica screens best for budget/admin practicality, Budva is the warmer coastal compromise, and Kotor needs a strict housing cap. [src-526][src-527][src-528]
 - **Healthcare/education fit**: First-pass public-system and public-education baselines are screenable. Healthcare remains status/insurance-sensitive; education now passes for screening, but the English-language fallback is expensive, with QSI primary/secondary total annual fees around USD 28,500/year. [src-662][src-664][src-665][src-666][src-744]
+- **Comfort / partner fit**: Passes for screening at medium confidence. Montenegro is low-risk and warm/coastal, but local-language friction, coastal summer crowds/prices, and one-income margin risk mean Podgorica should be the conservative first base and marriage/independent status is the safe partner baseline. [src-769][src-770][src-143]
 
 **Pros**:
 - TP officially extended to 04 March 2027. [src-123]
@@ -233,6 +252,8 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 - DN family baseline covers spouses/minor children; unmarried partner dependency is not captured. [src-143]
 - Self-employed tax registration, SSC base, VAT/reverse-charge, and DN-status tax compatibility are not yet verified. [src-349][src-350][src-352]
 - Podgorica can be very hot in summer; coastal Budva/Kotor fit climate preferences better but create seasonal rent pressure. [src-527][src-528]
+- Montenegrin/Serbian language remains important for bureaucracy, leases, public healthcare, schools, tax/accountant work, and non-tourist services. [src-769][src-770]
+- One-income household margin is sensitive to coastal rent, private insurance, accountant/immigration costs, tax/SSC downside, and any international-school use. [src-350][src-528][src-744]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -311,6 +332,8 @@ _(none yet)_
 - [src-528] Livingcost — Kotor cost/rent screen.
 - [src-666] QSI International School of Montenegro — international-school presence in Podgorica.
 - [src-744] QSI Montenegro Information Packet 2025-26 — registration, capital-fund, and tuition fee schedule.
+- [src-769] World Population Review / TravelSafe safety proxies — Montenegro GPI / safety-index / risk baseline.
+- [src-770] Expat Arrivals — moving to Montenegro / expat-language / small-expat-community practical baseline.
 
 ### 7e. Not found
 - Official-primary DN numeric income threshold and full fee schedule.
@@ -319,6 +342,7 @@ _(none yet)_
 - Montenegro self-employed / entrepreneur registration, exact SSC base/rates, small-business VAT threshold, foreign-client reverse-charge handling, and DN-status tax compatibility.
 - Route-compliant private health-insurance quotes for two adults, maternity/newborn coverage, and exact public-insurance onboarding by residence status.
 - Montenegro private-preschool city quotes, exact admissions deposits/meals/transport/waiting lists, public-school enrollment documents for foreign children, and non-Podgorica English/bilingual alternatives.
+- Exact live-neighbourhood, lease, language-school, community, and partner-proof checks for the final Montenegro city/status choice.
 
 ## Block 8 — Open questions and verification markers
 
@@ -329,3 +353,4 @@ _(none yet)_
 
 - `vq-134` — resolved in run-148 for screening: route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks remain application-prep items.
 - `vq-135` — resolved in run-148 for screening; run-166 captured QSI Montenegro 2025-26 tuition for the international-school stress test. Private-preschool city quotes, admissions deposits, meals/transport, waiting lists, public enrollment documents for foreign children, and coastal/non-Podgorica English/bilingual alternatives remain application-prep/final-city checks.
+- Run-183 completed sections 5.8 and 5.9 for screening: comfort is acceptable at medium confidence, but Montenegrin/Serbian language, coastal seasonality, one-income margin, and marriage/independent-status partner baselines remain practical planning constraints.

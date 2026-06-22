@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 182,
+  "iteration": 183,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-22T14:47:46Z",
+  "last_run_timestamp": "2026-06-22T17:54:04Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Slovenia",
+    "country": "Montenegro",
     "sections": [
       "5.8",
       "5.9"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Montenegro",
+    "suggested_country": "Serbia",
     "suggested_sections": [
       "5.8",
       "5.9"
     ],
-    "reason": "Pending/open verification queue is below threshold; Slovenia reached 5.8/5.9 screening coverage, so rotate to the next low-depth Tier-2-hint country for comfort/partner coverage."
+    "reason": "Pending/open verification queue is below threshold; Montenegro reached 5.8/5.9 screening coverage, so rotate to the next low-depth Tier-2-hint country for comfort/partner coverage."
   },
   "countries": {
     "Spain": {
@@ -508,12 +508,14 @@
     "Montenegro": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 5.5,
+      "depth_score": 8.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
-        "5.7"
+        "5.7",
+        "5.8",
+        "5.9"
       ],
       "sections_partial": [
         "5.1",
@@ -521,8 +523,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.8",
-        "5.9",
         "5.10",
         "5.11"
       ],
@@ -533,9 +533,11 @@
         "montenegro-tax-registration-and-ssc-fit-gap",
         "kotor-budva-coastal-rent-pressure",
         "montenegro-private-health-insurance-gap",
-        "montenegro-international-school-budget-risk"
+        "montenegro-international-school-budget-risk",
+        "montenegrin-serbian-language-integration-needed",
+        "montenegro-one-income-margin-risk"
       ],
-      "last_iteration": 166,
+      "last_iteration": 183,
       "unverified_count": 0
     },
     "Serbia": {
@@ -1160,7 +1162,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 767,
-  "claims_count": 676,
+  "sources_count": 769,
+  "claims_count": 678,
   "proposals_pending": 0
 }

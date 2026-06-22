@@ -233,3 +233,22 @@
   confidence: medium
   tags: [education, international-school, tuition, podgorica, montenegro]
   notes: "Use as a concrete international-school stress test; exact admissions deposits, meals/transport, waiting lists, and scholarship availability remain application-prep checks."
+
+
+- id: claim-montenegro-027
+  topic: comfort_safety_language_screen
+  value: "World Population Review / TravelSafe proxies give Montenegro a 2025 Global Peace Index score of 1.685, TravelSafe safety index 70, and Low risk label; TravelSafe rates overall, mugging, terrorism, women-traveler, and tap-water risks low but flags medium transport/taxi, pickpocket, and scam risks, while Expat Arrivals and TravelSafe both indicate English is easier among younger/tourist-facing people but local-language basics matter."
+  source: src-769
+  date_verified: 2026-06-22
+  confidence: medium
+  tags: [comfort, safety, language, montenegro]
+  notes: "Also uses src-770 for expat-language and small-community context; use as screening, not a final neighbourhood/security assessment."
+
+- id: claim-montenegro-028
+  topic: partner_one_income_fit
+  value: "Montenegro is workable for the student partner at screening level if she has independent TP/ordinary status or the couple is ready to marry for derived DN/family residence; one-income fit depends on controlled Podgorica/Budva rent, public/local services, private-insurance budgeting, and avoiding QSI primary/secondary tuition at the current USD 3,000/month income."
+  source: src-143
+  date_verified: 2026-06-22
+  confidence: medium
+  tags: [partner-fit, single-income, digital-nomad, spouse, montenegro]
+  notes: "Also relies on src-123, src-350, src-526, src-527, src-528, src-744, and src-770 for TP, budget, education, and adaptation constraints."

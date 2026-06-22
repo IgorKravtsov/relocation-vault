@@ -9265,3 +9265,27 @@ Each source entry:
 - **Facts supporting**: Slovenia comfort / safety screening proxy: 2025 Global Peace Index score 1.409, TravelSafe safety index 87 / Low risk, and US News 2024 safest-country rank #32 (claim-slovenia-023)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-22
+
+## src-769
+- **Title**: World Population Review / TravelSafe safety proxies for Montenegro
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/montenegro/
+- **Archive**: direct HTML / text-mirror extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: WPR article 2026-06-16; TravelSafe page accessed current
+- **Date accessed**: 2026-06-22
+- **Used by**: Montenegro
+- **Facts supporting**: Montenegro comfort / safety screening proxy: 2025 Global Peace Index score 1.685, TravelSafe safety index 70 / Low risk, low overall risk, and medium transport/pickpocket/scam caveats (claim-montenegro-027)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-22
+
+## src-770
+- **Title**: Expat Arrivals — Moving to and living in Montenegro
+- **URL**: https://www.expatarrivals.com/europe/montenegro/moving-montenegro
+- **Archive**: stable page via Jina text mirror — direct extraction used
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-22
+- **Used by**: Montenegro
+- **Facts supporting**: Montenegro comfort / adaptation baseline: small expat community mostly in Podgorica, younger people often speak foreign languages, basic Serbian/Montenegrin recommended, low cost relative to Western Europe, Podgorica international-school concentration, private healthcare caveat, and low-crime practical baseline (claim-montenegro-027, claim-montenegro-028)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-22
