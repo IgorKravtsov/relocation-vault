@@ -1,0 +1,47 @@
+---
+run_id: 180
+date: 2026-06-22T08:36:07Z
+agent: hermes
+mode: recovery
+target_country: null
+target_sections: []
+target_criterion: null
+duration_minutes: 2
+sources_added: []
+facts_added: 0
+facts_verified: 0
+claims_added: []
+files_modified:
+  - runs/run-180-recovery.md
+proposals_created: []
+completed_at: 2026-06-22T08:36:07Z
+status: aborted
+schema_version: 2.0.0
+---
+
+# Run 180 - recovery
+
+## Trigger
+
+Pre-flight repository synchronization failed before any normal research work began.
+
+## Health check details
+
+- `git fetch origin` succeeded.
+- `git status --short --branch` reported `## main...origin/main [ahead 6, behind 1]`, meaning the local `main` branch and `origin/main` have diverged.
+- `git pull --ff-only origin main` failed with `fatal: Not possible to fast-forward, aborting.`
+- The current branch is `main`.
+- `state.json` was readable and has top-level `version: 2`, but the repository synchronization failure occurred first and forced recovery mode.
+
+## Action taken
+
+Per vault-protocol recovery rules, no data files, country profiles, sources, claims, state, index, changelog, proposals, or verification queue entries were modified. This recovery run log is the only intended vault change.
+
+## Commit / push status
+
+- This run log should be committed locally as the sole new change for this invocation.
+- A push may fail with a non-fast-forward rejection while the remote branch remains diverged; per protocol, no push retry should be attempted.
+
+## Required human / next-agent action
+
+Resolve the local/remote divergence on `main` without destructive history rewriting. The local branch contains six commits that were not pushed, while the remote contains one newer commit. After reconciliation, rerun the normal relocation-vault iteration.
