@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-22
 ---
 
+## 2026-06-22 — run-184 — Serbia comfort/partner fit
+
+- Completed Serbia sections 5.8 and 5.9 for screening by adding safety, English/Serbian-language integration, city-comfort, common-law/marriage partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-771`, `src-772`) and two Serbia claims (`claim-serbia-024`, `claim-serbia-025`).
+- Serbia depth_score moved from 5.5 to 8.0; added `serbian-language-integration-needed` and `serbia-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-22 — run-183 — Montenegro comfort/partner fit
 
 - Completed Montenegro sections 5.8 and 5.9 for screening by adding safety, local-language/integration, city-comfort, marriage/independent-status partner, remote-study, and one-income baselines.

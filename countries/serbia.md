@@ -1,13 +1,13 @@
 ---
 country: Serbia
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-17T15:51:27Z
-sections_completed: ["5.2","5.4","5.5","5.7"]
+depth_score: 8.0
+last_updated: 2026-06-22T21:00:08Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check", "serbia-freelancer-tax-and-single-permit-fit-gap", "belgrade-rent-pressure", "serbia-private-insurance-quote-gap", "serbia-international-school-cost-risk"]
-sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174", "src-353", "src-354", "src-355", "src-356", "src-357", "src-358", "src-529", "src-530", "src-531", "src-532", "src-667", "src-668", "src-669", "src-670"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check", "serbia-freelancer-tax-and-single-permit-fit-gap", "belgrade-rent-pressure", "serbia-private-insurance-quote-gap", "serbia-international-school-cost-risk", "serbian-language-integration-needed", "serbia-one-income-margin-risk"]
+sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174", "src-353", "src-354", "src-355", "src-356", "src-357", "src-358", "src-529", "src-530", "src-531", "src-532", "src-667", "src-668", "src-669", "src-670", "src-771", "src-772"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (likely Tier-2-hint until full legal/tax/cost evidence is gathered).
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-17T15:51:27Z
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-22T21:00:08Z
 - **Tier rationale**: Serbia is operationally attractive because Ukrainian citizens have visa-free entry, Serbia has a renewable temporary-protection framework for Ukrainians, MUP confirms electronic single-permit filing for self-employment / independent professional work, and the amended Law on Foreigners provides temporary residence / single permits up to 3 years plus permanent residence after 3 years of continuous temporary residence. The weak points are that no Serbia-specific post-TP ordinary-residence bridge was captured, the foreign-client IT tax/single-permit fit is not yet accountant-confirmed, and healthcare remains filing-sensitive until private insurance / RFZO onboarding details are checked. [src-132][src-133][src-135][src-136][src-667]
 
 ## Block 2 — Scoring
@@ -34,8 +34,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | 40 m2 1BR proxy ranges from about $272 cheap in Niš to $780 center in Belgrade; Belgrade 3BR stress tests are high for the conservative tax net. | §5.5 |
 | Healthcare | — | medium | Healthcare is screenable but status-sensitive: RFZO maps insured-person rights and temporary residence requires health-insurance evidence; private quotes and ordinary-route public-insurance onboarding remain application-prep checks. | §5.6 |
 | Education (future child) | — | medium | Public system basics are usable for planning: compulsory preparatory preschool plus 8 years of free basic education; international school in Belgrade is a major future-child budget risk. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Safety is acceptable for screening, English is relatively workable in Belgrade/Novi Sad, and daily life is practical, but protests, Kosovo-border sensitivity, taxi/pickpocket scams, Serbian/Cyrillic paperwork, and continental winters remain caveats. | §5.8 |
+| Fit for couple with single income | — | medium | Partner fit is stronger than in many countries because MUP recognises both marriage and common-law family evidence; the binding risks are tax-route uncertainty, Belgrade rent, private-insurance costs, and future-child international-school costs. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -189,13 +189,39 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 
 **Education verdict for the couple:** Serbia passes first-pass future-child education screening if the family can accept Serbian-language public education and plans early integration. Belgrade has international-school fallback depth but at prices that can overwhelm the one-income budget; Novi Sad / Nis should be treated as public-school-first choices unless later live checks find affordable bilingual/private options. Add `serbia-international-school-cost-risk`, but no new screening blocker is needed because the public-school baseline is adequate for first-pass scoring.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-22, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening at medium confidence. Safety, English/Serbian-language practicality, city-comfort tradeoffs, transport/scam caveats, and one-income daily-life implications are captured, but final city selection still needs live housing, address-registration, lawyer/accountant, and community checks.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Safety and public-order baseline.** World Population Review's 2026 safest-countries table places Serbia in a medium-risk band, with 2025 Global Peace Index score **1.914**, Global Terrorism Index **0.582**, safety index **77**, and US News safest-country rank **66th**. TravelSafe also gives Serbia a **77** safety index and **medium** overall risk, noting that most visits are trouble-free but that political protests, Kosovo/border sensitivity, and sports-event unrest justify normal alertness. [src-771]
 
-[verification required]
+**Everyday safety caveats.** TravelSafe rates transport/taxis, pickpockets, and scams as medium risks: official taxis are generally safe but unlicensed taxis may overcharge; pickpocketing is more relevant in crowded markets, public transport, and Belgrade tourist areas; and scams include taxi overcharging, fake guides, and weak exchange-rate offers. It rates mugging, natural disasters, terrorism, women-traveler risk, and tap water as low risk. For the couple, this is a normal urban-safety profile rather than a blocker. [src-771]
+
+**Language and adaptation.** EF's Serbia page gives a 2025 EF EPI score of **578**, global rank **#25**, and regional/city scores including Vojvodina 587, Southern and Eastern Serbia 554, Sumadija and Western Serbia 520, Belgrade 594, and Novi Sad 580. Expat Arrivals says English is widely spoken as a second language, but Serbian is the official language and learning Serbian plus basic Cyrillic is useful for everyday activities. Add `serbian-language-integration-needed`, especially for MUP, RFZO, leases, schools, and tax/accounting paperwork. [src-772]
+
+**City comfort screen.** Belgrade is the services, embassy, private-clinic, international-school, adviser, nightlife, and expat-community hub, but it is also the captured rent-pressure case. Novi Sad is the best comfort/cost compromise: large enough for services and English exposure, cheaper than Belgrade, and in the region with the strongest EF regional score. Nis is the affordability fallback but needs stronger live checks for English-speaking doctors, accountants, childcare, and community before being chosen as a long-term base. [src-531][src-532][src-772]
+
+**Climate and daily life caveat.** Serbia is practical, relatively safe, and budget-plausible, but it is not a warm coastal comfort match. Winters are cold/grey, summers can be hot, and any Belgrade-centered lifestyle can erode the budget once private insurance, accountant support, and family-size housing are included. [src-140][src-530]
+
+**Comfort verdict for the couple:** Serbia passes first-pass comfort screening. It is neither as winter-mild as Mediterranean options nor as frictionless linguistically as English-heavy jurisdictions, but Belgrade/Novi Sad provide enough services, safety, internet-era work practicality, and expat/IT context to remain viable if the legal/tax file is confirmed.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-22, dod: passed}
+
+> **DoD status**: passed for first-pass screening at medium confidence. The section captures partner legal attachment, common-law vs marriage evidence, remote-study practicality, future work/tax constraints, healthcare/education implications, and one-income budget stress.
+
+**Legal attachment baseline.** Serbia is relatively partner-friendly for planning because MUP family-reunification guidance covers both marriage and common-law marriage evidence. Legal marriage remains the simpler filing baseline, but the captured common-law checklist gives a documented alternative using single-status certificates, partner declarations, certified witness statements, shared-address proof, or a register extract where available. [src-135]
+
+**Independent-status baseline.** The student partner should still keep an independent fallback: visa-free stay for reconnaissance, Serbian temporary protection if eligible, study status if she later uses Serbian education, or her own work/self-employment route if she starts earning. If attached to the man's file, the couple should prepare relationship evidence before arrival rather than trying to assemble it after a lease/residence deadline. [src-132][src-133][src-135]
+
+**Remote study and daily setup.** Remote Ukrainian university study is operationally plausible from Serbia if the couple prioritises stable housing, internet, and a quiet study/work setup. Belgrade and Novi Sad are the safer first screens for connectivity, coworking, libraries/cafes, public transport, private clinics, advisers, and social life; Nis is financially attractive but should be tested for student isolation, English-speaking services, and community fit before a long lease. [src-531][src-532][src-772]
+
+**Work-right and future-income caveat.** If the woman later works locally or freelances, she should not assume that dependent/family status automatically gives the same work scope as a single permit. The tax section also warns that freelancer-portal/self-employment classification is not yet fully matched to immigration status. Treat any second-income plan as a separate MUP/tax-adviser check before relying on it for the household budget. [src-135][src-355]
+
+**One-income budget fit.** Serbia can screen as a one-income option if the couple avoids Belgrade rent creep and confirms a better-than-worst-case tax route. Novi Sad is the first balanced base; Nis is the defensive budget fallback; Belgrade should be chosen only with a strict housing cap or clear legal/community need. The conservative Serbia tax net band of roughly **USD 1,649-1,919/month** leaves little room for private insurance, accountant/legal support, international-school savings, and repeated travel if housing is not controlled. [src-358][src-530][src-531][src-532]
+
+**Future-child implications.** Serbia is acceptable for a future child only if the family can plan around Serbian-language public education or a much higher income for international school. Public compulsory education is usable, but Belgrade international-school fees remain a major risk relative to one USD 3,000/month income. [src-668][src-670]
+
+**Partner verdict for the couple:** Serbia passes first-pass partner-fit screening. Its official common-law-family evidence path is useful, but marriage is still the cleaner conservative option. The main partner risks are not relationship recognition itself; they are the household's one-income margin, tax-route uncertainty, private-insurance/healthcare setup, Serbian-language administration, and future-child education cost.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -227,6 +253,8 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 - **Best cost/rent city screen**: Novi Sad first for services/cost balance; Niš if the conservative tax downside binds; Belgrade only with a strict housing cap because it is the captured rent-pressure case. [src-530][src-531][src-532]
 - **Healthcare / insurance readiness**: screenable but not filing-ready; temporary residence requires health-insurance evidence, and RFZO rights require established insured status. [src-136][src-667]
 - **Future-child education**: public compulsory education is usable for planning, but international schooling in Belgrade is expensive relative to one USD 3,000/month income. [src-668][src-670]
+- **Comfort**: passes screening at medium confidence; Belgrade/Novi Sad are practical services bases, while safety is acceptable but protests, Kosovo-border sensitivity, taxis/pickpockets/scams, Serbian/Cyrillic bureaucracy, and continental winters remain caveats. [src-771][src-772]
+- **Partner/student fit**: stronger than many options because Serbia recognises both marriage and common-law evidence for family reunification; still prepare marriage or strong relationship documentation and keep an independent-status fallback. [src-135]
 
 **Pros**:
 - Ukrainian ordinary-passport holders have visa-free entry for up to 90/180 days. [src-132]
@@ -241,6 +269,8 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 - Climate is continental: cold winters and hot summers, not a warm coastal profile.
 - Belgrade rent is the first captured housing-pressure flag; registration-of-address cooperation and lease terms remain practical checks. [src-530][src-136]
 - Ordinary citizenship route may require release from foreign citizenship. [src-138]
+- Serbian-language / Cyrillic administration will matter for leases, MUP, RFZO, taxes, and school interactions even though English is relatively workable in Belgrade and Novi Sad. [src-772]
+- One-income margin can tighten quickly if the tax route lands near the conservative stress test, housing drifts toward Belgrade center, or private insurance / accountant / future-child international-school costs are needed. [src-358][src-530][src-670]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -249,7 +279,7 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 - Steps in Ukrainian government agencies: gather civil-status and police/tax documents before travel. [verification required]
 - What to do with the Polish karta pobytu: keep it as evidence of legal residence/travel history, but do not treat it as Serbian residence authorization.
 - Financial preparation (USD cushion): enough for 3–6 months living costs plus permit fees, translations, insurance, and possible entrepreneur setup; exact budget pending §5.4/§5.5.
-- For the student partner (academic certificates, translations): pending partner/student pass.
+- For the student partner (academic certificates, translations): keep Ukrainian university enrollment/remote-study proof, civil-status documents, relationship evidence, and translations ready; marriage is simplest for attachment, but common-law evidence is a captured alternative. [src-135]
 - Submitting visa/permit application from abroad: official sources indicate electronic filing may be possible from abroad for visa-exempt nationals; for a single residence-and-work permit, MUP says the application is filed exclusively electronically through the Foreign Nationals Portal. [src-135][src-136][src-137]
 
 ### 6b. First month after arrival
@@ -265,7 +295,7 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 - Tax registration as self-employed / freelancer: likely central if using the entrepreneur route; verify APR/tax steps.
 - Transferring partner to dependent / partner / student status: MUP supports marriage and common-law marriage checklist paths for family reunification; gather relationship evidence early if not legally married.
 - Marriage (if applicable to scenario): still the cleanest evidentiary path, but not the only captured family route.
-- Integration (language courses, communities): [verification required]
+- Integration (language courses, communities): prioritize Serbian basics and Cyrillic for administration; Belgrade and Novi Sad are the first screens for English exposure, advisers, clinics, and expat/IT community depth. [src-772]
 
 ### 6d. Before March 2027 (critical deadline)
 - What must be in hand by this date: ordinary Serbian temporary residence or single permit if the couple wants Serbia as the long-term plan; do not wait for a TP bridge.
@@ -309,6 +339,7 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 - [src-667] RFZO insured-person rights / compulsory health-insurance page.
 
 ### 7b. Reputable secondary
+- [src-772] EF English Proficiency Index Serbia country page plus Expat Arrivals moving-to-Serbia adaptation overview.
 - [src-668] Eurydice Serbia overview / education-system structure.
 - [src-669] Eurydice Serbia early childhood education and care.
 - [src-139] Visa Free Nomads 2026 Serbia guide (used only as a medium-confidence placeholder for self-employment / digital-nomad operational details).
@@ -321,6 +352,7 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 _(none yet)_
 
 ### 7d. Statistical / commercial
+- [src-771] World Population Review / TravelSafe Serbia safety proxies.
 - [src-140] Climate to Travel — Belgrade.
 - [src-141] Climate to Travel — Novi Sad.
 - [src-142] Climate to Travel — Niš.
@@ -338,6 +370,7 @@ _(none yet)_
 - Serbian Tax Administration / APR / accountant confirmation of the exact foreign-client IT route: freelancer portal versus registered entrepreneur, activity code, lump-sum eligibility, social-contribution base, VAT / reverse-charge / e-invoicing, and single-permit compatibility.
 - Live rental listings, Serbian lease terms, deposits/agency fees, and landlord support for address registration in Belgrade, Novi Sad, and Niš.
 - Private health-insurance quotes for two young adults, maternity/newborn coverage, exact RFZO onboarding by self-employed / independent-professional / family status, and city-specific private-care prices.
+- Exact Serbian-language course/community options, lease/address-registration support, and city-specific adviser/doctor/community shortlists for Belgrade, Novi Sad, and Nis.
 
 ## Block 8 — Open questions and verification markers
 

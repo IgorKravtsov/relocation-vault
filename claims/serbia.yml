@@ -205,3 +205,21 @@
   confidence: medium
   tags: [education, international-school, belgrade, school-fees, serbia]
   notes: "Commercial directory benchmark; exact admissions/fees should be checked directly with schools before relying on an international track."
+
+- id: claim-serbia-024
+  topic: comfort_safety_language_baseline
+  value: "Serbia passes first-pass comfort screening at medium confidence: World Population Review gives Serbia a 2025 Global Peace Index score of 1.914, safety index 77, medium risk band, and US News safest-country rank 66th; TravelSafe gives safety index 77 and medium overall risk; EF gives Serbia EF EPI score 578 and global rank #25, while Expat Arrivals says English is widely spoken as a second language but Serbian/Cyrillic help daily administration."
+  source: src-771
+  date_verified: 2026-06-22
+  confidence: medium
+  tags: [comfort, safety, language, serbia]
+  notes: "Also relies on src-772 for English/Serbian adaptation; city-specific live checks still needed."
+
+- id: claim-serbia-025
+  topic: partner_student_one_income_fit
+  value: "Serbia is partner-workable for screening because MUP recognises both marriage and common-law family-reunification evidence, remote Ukrainian study is practical from Belgrade/Novi Sad if housing and internet are stable, and the one-income plan is plausible only with rent discipline and a confirmed tax route better than the conservative stress test."
+  source: src-135
+  date_verified: 2026-06-22
+  confidence: medium
+  tags: [partner-fit, common-law, student, one-income, serbia]
+  notes: "Also relies on src-358 and Livingcost city sources for one-income stress; marriage remains the cleaner conservative filing path."

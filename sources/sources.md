@@ -9289,3 +9289,27 @@ Each source entry:
 - **Facts supporting**: Montenegro comfort / adaptation baseline: small expat community mostly in Podgorica, younger people often speak foreign languages, basic Serbian/Montenegrin recommended, low cost relative to Western Europe, Podgorica international-school concentration, private healthcare caveat, and low-crime practical baseline (claim-montenegro-027, claim-montenegro-028)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-22
+
+## src-771
+- **Title**: World Population Review / TravelSafe Serbia safety proxies
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/serbia/
+- **Archive**: stable pages via Jina text mirror — direct extraction used
+- **Type**: commercial
+- **Date published**: WPR 2026 table current; TravelSafe published 2026-06-11
+- **Date accessed**: 2026-06-22
+- **Used by**: Serbia
+- **Facts supporting**: Serbia comfort / safety screening proxy: 2025 Global Peace Index score 1.914, Global Terrorism Index 0.582, safety index 77, medium risk band, US News safest-country rank 66th, TravelSafe safety index 77 / medium overall risk, and transport / pickpocket / scam caveats (claim-serbia-024)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-22
+
+## src-772
+- **Title**: EF English Proficiency Index Serbia / Expat Arrivals moving-to-Serbia adaptation overview
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/serbia/ ; https://www.expatarrivals.com/europe/serbia/moving-serbia
+- **Archive**: stable pages via Jina text mirror — direct extraction used
+- **Type**: reputable-secondary
+- **Date published**: EF 2025 index; Expat Arrivals current page, no explicit page date shown
+- **Date accessed**: 2026-06-22
+- **Used by**: Serbia
+- **Facts supporting**: Serbia English-proficiency / language-adaptation baseline: EF EPI score 578, global rank #25, regional and city scores, English as widely spoken second language, and Serbian / Cyrillic usefulness for everyday activities (claim-serbia-024)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-22
