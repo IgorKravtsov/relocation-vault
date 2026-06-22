@@ -35,6 +35,11 @@ Pre-flight repository synchronization failed before any normal research work beg
 
 Per vault-protocol recovery rules, no data files, country profiles, sources, claims, state, index, changelog, proposals, or verification queue entries were modified. This recovery run log is the only intended vault change.
 
+## Commit / push status
+
+- The recovery log was committed locally as `fa2a222` after retrying the commit with one-shot canonical Hermes author/committer identity; `git --no-pager log -1 --pretty=fuller` showed `Hermes <hermes@example.local>` for both author and committer.
+- A push attempt to `origin/main` failed with a non-fast-forward rejection because the remote branch is still ahead/diverged. Per protocol, no push retry was attempted.
+
 ## Required human / next-agent action
 
 Resolve the local/remote divergence on `main` without destructive history rewriting. The local branch contains two commits that were not pushed, while the remote contains one newer commit. After reconciliation, rerun the normal relocation-vault iteration.
