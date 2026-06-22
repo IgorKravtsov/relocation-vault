@@ -9252,3 +9252,16 @@ Each source entry:
 - **Facts supporting**: Slovakia section 5.8 English-proficiency baseline: global rank #10, EF EPI score 606, and regional/city scores for Kosice 605, Trnava 604, Presov 601, Bratislava 600, Nitra 600, Zilina 592, and Banska Bystrica 578 (claim-slovakia-025)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-22
+
+
+## src-768
+- **Title**: World Population Review / TravelSafe safety proxies for Slovenia
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world
+- **Archive**: direct HTML / embedded-data extraction used; archive not captured
+- **Type**: aggregator
+- **Date published**: WPR article 2026-06-16
+- **Date accessed**: 2026-06-22
+- **Used by**: Slovenia
+- **Facts supporting**: Slovenia comfort / safety screening proxy: 2025 Global Peace Index score 1.409, TravelSafe safety index 87 / Low risk, and US News 2024 safest-country rank #32 (claim-slovenia-023)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-22

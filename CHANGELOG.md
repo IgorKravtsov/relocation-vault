@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-22
 ---
 
+## 2026-06-22 — run-182 — Slovenia comfort/partner fit
+
+- Completed Slovenia sections 5.8 and 5.9 for screening by adding safety, infrastructure/city-comfort, Slovenian-language integration, family/partner route, remote-study, and one-income baselines.
+- Added one source (`src-768`) and two Slovenia claims (`claim-slovenia-023`, `claim-slovenia-024`).
+- Slovenia depth_score moved from 5.5 to 8.0; added `slovenian-language-integration-needed` and `slovenia-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-22 — run-181 — Slovakia comfort/partner fit
 
 - Completed Slovakia sections 5.8 and 5.9 for screening by adding safety, English-proficiency, city-comfort, marriage/independent-status partner, remote-study, and one-income baselines.

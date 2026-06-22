@@ -195,3 +195,21 @@
   confidence: medium
   tags: [education, international-school, fees, ljubljana, slovenia]
   notes: "International school is a one-income budget risk, not the default plan."
+
+- id: claim-slovenia-023
+  topic: comfort_safety_screen
+  value: "World Population Review's embedded Slovenia safety table gives a 2025 Global Peace Index score of 1.409, a TravelSafe safety index of 87 / Low risk, and a US News 2024 safest-country rank of #32, supporting Slovenia as a strong daily-safety screen."
+  source: src-768
+  date_verified: 2026-06-22
+  confidence: medium
+  tags: [comfort, safety, slovenia]
+  notes: "Use as a country-level screening proxy, not neighbourhood-level crime evidence."
+
+- id: claim-slovenia-024
+  topic: partner_fit_baseline
+  value: "For the student partner, Slovenia is workable for screening if she uses her own temporary protection / ordinary status or a family route; digital nomads may reunite with family members immediately and general family reunification covers spouse, civil partner / civil-union partner, and long-term relationship partner, but the one-income budget remains tight."
+  source: src-113
+  date_verified: 2026-06-22
+  confidence: medium-high
+  tags: [partner, family-reunification, digital-nomad, one-income, slovenia]
+  notes: "Also relies on src-110, src-111, src-187, and the tax sources for the budget caveat."

@@ -1,13 +1,13 @@
 ---
 country: Slovenia
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-17T09:32:42Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-22T14:47:46Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8", "5.9", "5.10", "5.11"]
-risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable", "slovenia-self-employed-tax-and-immigration-fit-gap", "ljubljana-rent-pressure", "slovenia-health-insurance-onboarding-gap", "slovenia-international-school-cost-risk"]
-sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187", "src-344", "src-345", "src-346", "src-347", "src-348", "src-521", "src-522", "src-523", "src-524", "src-656", "src-657", "src-658", "src-659", "src-660", "src-661"]
+sections_pending: ["5.10", "5.11"]
+risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable", "slovenia-self-employed-tax-and-immigration-fit-gap", "ljubljana-rent-pressure", "slovenia-health-insurance-onboarding-gap", "slovenia-international-school-cost-risk", "slovenian-language-integration-needed", "slovenia-one-income-margin-risk"]
+sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187", "src-344", "src-345", "src-346", "src-347", "src-348", "src-521", "src-522", "src-523", "src-524", "src-656", "src-657", "src-658", "src-659", "src-660", "src-661", "src-768"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence is unusually interesting for the couple: Slovenia has official temporary protection for Ukrainians, an explicit post-temporary-protection filing window, and a new digital-nomad residence permit for non-EU remote workers. The route is capped at one year and the income formula likely sits near or above the couple's current budget, so do not assign a tier until the numeric threshold, taxes, renewal/permit-counting rules, and costs are researched. [src-110][src-111]
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-17T09:32:42Z
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-22T14:47:46Z
 - **Tier rationale**: Keep unassigned until PR/citizenship counting for DN/TP time, DN-to-ordinary status strategy, tax/business fit, and cost-of-living/rent passes are complete.
 
 ## Block 2 — Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy is about $443 cheap / $634 center in Nova Gorica, $414 / $536 in Maribor, and $735 / $923 in Ljubljana; use Ljubljana only with a strict cap. | §5.5 |
 | Healthcare | — | medium | TP gives emergency and pregnancy/childbirth healthcare access; ordinary residence/self-employed routes must still prove final-status insurance/onboarding, so keep this partial. | §5.6 |
 | Education (future child) | — | medium-high | Public kindergarten and basic-school baselines are clear, with means-tested kindergarten fees and expensive Ljubljana international-school alternatives. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Very strong safety screen (GPI 1.409, TravelSafe 87 / Low risk, US News #32) and good EU services/infrastructure; Slovenian remains important for offices, healthcare, leases, and school integration. | §5.8 |
+| Fit for couple with single income | — | medium | Partner can rely on own TP or family routes; DN family reunion is immediate, and general family reunification includes spouse/civil or long-term partner, but one-income fit is tight because DN threshold and conservative tax net are binding. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -194,13 +194,31 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 
 **Education conclusion.** Slovenia is acceptable for a future child if the family uses public kindergarten/school and plans for Slovenian-language integration. International schooling in Ljubljana can consume a large share of the couple's USD 3,000/month income, especially under the conservative Slovenia tax-net scenario, so keep `slovenia-international-school-cost-risk` active.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-22, dod: passed}
 
-[verification required]
+> **DoD status**: passed for screening. This pass covers safety, infrastructure / daily-services fit, English-facing practicality, and city-comfort tradeoffs. It is not a final neighbourhood or service-provider check.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Safety.** Slovenia screens as one of the safer countries in the current European set: World Population Review's embedded safety table gives a 2025 Global Peace Index score of **1.409**, a TravelSafe safety index of **87 / Low risk**, and a US News 2024 safest-country rank of **#32**. Treat this as a medium-confidence comfort proxy, not a local-crime audit; city/neighbourhood checks still belong in final-city planning. [src-768]
 
-[verification required]
+**Infrastructure and daily services.** Slovenia is an EU / eurozone country with practical access to EU banking, SEPA transfers, public healthcare infrastructure after status-specific insurance/onboarding, compulsory public schooling for a future child, and overland access to Italy, Austria, Croatia, and the wider Schengen area. For this couple, **Ljubljana** is the strongest bureaucracy / healthcare / school / accountant base but has the worst rent pressure; **Maribor** is the best services-cost compromise; **Nova Gorica** is the warmer western / lower-cost fallback but needs a smaller-city service and community check. [src-522][src-523][src-524][src-657][src-660]
+
+**Language and integration.** Do not treat Slovenia as English-only. English will be easier in Ljubljana, tourism-facing coastal/western areas, universities, and international-facing private services, but Slovenian is the default for administrative units, leases, public healthcare, kindergarten/school integration, tax / s.p. administration, and long-term residence. Keep `slovenian-language-integration-needed` active for bureaucracy, public services, and future-child integration.
+
+**Comfort conclusion.** Slovenia is comfortable and safe enough for screening, especially if the budget can support Maribor or a western fallback. The main comfort downsides are winter/cloud comfort inland, Ljubljana rent pressure, Slovenian-language dependence in public systems, and the one-income financial margin if the conservative tax model applies.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-22, dod: passed}
+
+> **DoD status**: passed for screening. This pass sets the operational partner baseline using existing TP, digital-nomad family, family-reunification, education, healthcare, and budget evidence. Exact evidence standards for unmarried long-term partners remain application-prep.
+
+**Independent status first.** The safest planning baseline is that the woman has her own lawful status where possible: temporary protection if eligible and not already relying on an incompatible TP file elsewhere, or a separate ordinary purpose if later needed. Slovenia TP gives a residence-card baseline and practical access to emergency / pregnancy / education support, but TP should not be treated as the whole post-2027 plan. [src-110][src-656][src-658]
+
+**Dependent / partner route.** Slovenia's DN announcement is unusually partner-friendly for screening because digital nomads may reunite with family members immediately. General family-reunification guidance also covers a spouse, civil partner / civil-union partner, or a partner in a long-term relationship, plus listed children/dependent relatives. For this unmarried couple, the conservative rule is: marriage or civil-union evidence is the cleanest route; an unmarried long-term partner may be possible, but proof standards should be checked before filing. [src-111][src-113]
+
+**Remote Ukrainian study.** Her ongoing Ukrainian remote study does not by itself create a Slovenian student residence path. If the couple chooses Slovenia long-term, a later education pass should test Slovenian university transfer/admission only if she wants a local degree; for residence planning, rely on TP / family / independent ordinary status rather than Ukrainian distance study. [src-110][src-113]
+
+**Work and one-income fit.** Slovenia is one-income sensitive. The DN threshold screen is about EUR 3,357.62/month, above the couple's current USD 3,000/month, and the conservative self-employed tax stress test leaves only about EUR 1,364/month net if a better s.p. / normirani structure is not confirmed. That means her non-working / student status is manageable only with strict city selection, savings, or tax/immigration optimisation. If she later works, accountant and residence-status advice should confirm work rights and tax treatment first. [src-111][src-187][src-344][src-345][src-346][src-348]
+
+**Partner conclusion.** Slovenia is workable for a partner on paper because the family categories are broader than spouse-only and DN family reunion is immediate, but the practical plan should still be marriage/civil documentation or strong long-term-partner proof, plus an independent TP/status fallback. The core risk is not legal concept alone; it is the combined DN-income threshold, heavy conservative tax net, and rent/health-insurance margin on one income.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -233,7 +251,8 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 **Pros**:
 - Official DN route tailored to foreign remote work, launched in late 2025. [src-111]
 - Official post-TP filing window after temporary protection ends. [src-110]
-- Family rules appear more flexible than countries that list only spouses.
+- Family rules appear more flexible than countries that list only spouses; general guidance includes spouse/civil partner/civil-union partner and long-term relationship partner. [src-113]
+- Slovenia has a strong safety screen for daily comfort. [src-768]
 - Coastal Slovenia is materially warmer and sunnier than inland Central Europe. [src-117]
 
 **Cons / risks**:
@@ -243,6 +262,7 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 - Healthcare is now screenable but still partial: TP emergency/pregnancy healthcare and ZZZS compulsory-insurance baselines exist, but exact private-insurance quotes and final-status onboarding remain application-prep. [src-656][src-657]
 - Public education is a relative strength, but Ljubljana international schools are expensive enough to be a future-child one-income risk. [src-658][src-659][src-661]
 - Conservative ordinary self-employed tax stress test is heavy, with about EUR 1,364/month (~USD 1,587) net from USD 3,000/month before accountant/VAT/immigration costs; a potentially better Slovenian s.p. / normirani structure is unverified. [src-344][src-345][src-346][src-347][src-348]
+- Slovenian-language integration remains important for public offices, healthcare, leases, schooling, and long-term residence even if English is usable in larger cities / international-facing services.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -328,6 +348,7 @@ _(none yet)_
 - [src-523] — Livingcost Maribor cost/rent screen.
 - [src-524] — Livingcost Nova Gorica cost/rent screen.
 - [src-661] — International Schools Database Ljubljana fee screen.
+- [src-768] — World Population Review / TravelSafe safety proxies for Slovenia.
 
 ### 7e. Not found
 - Exact serving-administrative-unit DN checklist and fee schedule: not captured in this pass.
@@ -340,4 +361,4 @@ _(none yet)_
 
 - Tax application-prep remains: confirm exact Slovenian s.p. / normirani and VAT treatment for a Ukrainian foreign-client IT freelancer, including 2026 deemed-expense rules, contribution bases, VAT / reverse-charge reporting, and DN / single-permit immigration compatibility.
 - `vq-133`: resolved in run-148 for screening; healthcare application-prep remains: confirm DN/self-employed/single-permit/family-status-compliant private health-insurance quotes for two young adults, maternity waiting periods/exclusions, and exact ZZZS / GP onboarding for the final route and city.
-- Later application-prep should still recheck DN forms, fees, residence-type counting, live rents, deposits, agency fees, landlord requirements, lease-registration needs, and city-specific school/kindergarten availability before filing.
+- Later application-prep should still recheck DN forms, fees, residence-type counting, exact unmarried long-term partner evidence standards, live rents, deposits, agency fees, landlord requirements, lease-registration needs, and city-specific school/kindergarten availability before filing.
