@@ -57,6 +57,11 @@ schema_version: 2.0.0
 
 - Slovakia still needs risk dimensions and bureaucracy/practicality coverage, plus later citizenship, ordinary-route, accountant/tax, insurance, and selected-city application-prep checks.
 
+## Commit / push status
+
+- Main research commit `c041168` pushed to `origin/main` successfully.
+- Post-commit metadata inspection showed the repository/default Git identity was `hermes <hermes@vmi3071242.contaboserver.net>` rather than the canonical Hermes identity. Per protocol, history was not amended; this note records the issue for human follow-up, and this follow-up note commit is made with one-shot canonical identity.
+
 ## Open questions added
 
 - None.
