@@ -9362,3 +9362,28 @@ Each source entry:
 - **Facts supporting**: Georgia section 5.8 English-proficiency baseline: global rank #35, EF EPI score 541, Tbilisi score 550, and Batumi score 544 (claim-georgia-021)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-23
+
+
+## src-777
+- **Title**: World Population Review / TravelSafe Albania safety proxies
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/albania/
+- **Archive**: stable pages via direct HTML extraction; archive not captured
+- **Type**: commercial
+- **Date published**: WPR 2026 table current; TravelSafe updated 2025-12-25
+- **Date accessed**: 2026-06-23
+- **Used by**: Albania
+- **Facts supporting**: Albania comfort / safety screening proxy: 2025 Global Peace Index score 1.812, TravelSafe safety index 75 / Low risk, low overall / transport / pickpocket / mugging / terrorism / women-traveler risks, medium scam and natural-disaster caveats, and public-transport / road caution (claim-albania-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-23
+
+## src-778
+- **Title**: EF English Proficiency Index Albania / Expat Arrivals moving-to-Albania adaptation overview
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/albania/ ; https://www.expatarrivals.com/europe/albania/moving-albania
+- **Archive**: stable pages via direct HTML / Jina text-mirror extraction; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: EF 2025 index; Expat Arrivals current page, no explicit page date shown
+- **Date accessed**: 2026-06-23
+- **Used by**: Albania
+- **Facts supporting**: Albania English-proficiency / adaptation baseline: EF EPI global rank #42, score 532, Tirana score 557; Expat Arrivals notes Albania is not a major expat hotspot, has lower living costs, cheap housing, unreliable public transport / road caveats, private healthcare / international-school cost pressure, and Albanian-language schooling (claim-albania-021, claim-albania-022)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-23

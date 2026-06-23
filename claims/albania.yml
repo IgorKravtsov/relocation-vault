@@ -178,3 +178,22 @@
   confidence: medium
   tags: [education, international-school, tirana, albania]
   notes: "Tuition was not captured; exact fees remain a budget verification item."
+
+
+- id: claim-albania-021
+  topic: comfort_safety_english_baseline
+  value: "Albania screens as comfort-usable: WPR gives a 2025 Global Peace Index score of 1.812, TravelSafe gives a 75 / Low risk safety index with low overall and petty-crime risks but medium scam/natural-disaster caveats, and EF EPI ranks Albania #42 with score 532 and Tirana 557."
+  source: src-777
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [comfort, safety, english, tirana, albania]
+  notes: "Composite screening claim using src-777 and src-778. Not a neighborhood-level safety assessment."
+
+- id: claim-albania-022
+  topic: partner_student_one_income_fit
+  value: "For the student partner, marriage remains the conservative dependent baseline because captured route evidence mentions spouse/immediate-family inclusion but not unmarried partners; remote Ukrainian study is practically compatible but not a residence basis, and the one-income plan is plausible only if the remote-worker route and favorable tax model hold."
+  source: src-167
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [partner, dependent, student, one-income, albania]
+  notes: "Composite claim using src-166, src-167, src-412, src-541 through src-544, and src-778."

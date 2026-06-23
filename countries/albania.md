@@ -1,13 +1,13 @@
 ---
 country: Albania
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-18T01:20:48Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-23T06:22:25Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["official-primary-capture-gaps", "remote-worker-route-application-prep-gap", "albania-tax-regime-2029-sunset", "albania-self-employed-contribution-base-gap", "albania-foreign-client-vat-fit-gap", "tirana-rent-pressure", "albania-private-insurance-quote-gap", "albania-international-school-cost-risk"]
-sources_used: ["src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-188", "src-407", "src-408", "src-409", "src-410", "src-411", "src-412", "src-541", "src-542", "src-543", "src-544", "src-680", "src-681", "src-682", "src-683"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["official-primary-capture-gaps", "remote-worker-route-application-prep-gap", "albania-tax-regime-2029-sunset", "albania-self-employed-contribution-base-gap", "albania-foreign-client-vat-fit-gap", "tirana-rent-pressure", "albania-private-insurance-quote-gap", "albania-international-school-cost-risk", "albanian-language-integration-needed", "albania-road-and-transport-risk", "albania-one-income-margin-risk"]
+sources_used: ["src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-188", "src-407", "src-408", "src-409", "src-410", "src-411", "src-412", "src-541", "src-542", "src-543", "src-544", "src-680", "src-681", "src-682", "src-683", "src-777", "src-778"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Albania has an attractive remote-worker / Unique Permit narrative and a warm Adriatic/Ionian climate, but this first pass could not capture clean official-primary route pages because several Albanian government sites were blocked or unreachable. Treat the digital-nomad route as promising but medium-confidence until the official e-Albania / State Police / law-text checklist is extracted.
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-18T01:20:48Z
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-23T06:22:25Z
 - **Tier rationale**: Not assigned until taxes, rent, healthcare, and full practical costs are verified. Run-061 closes the remote-worker Unique Permit blocker to a conservative screening baseline: Albania remains a promising ordinary-residence candidate for a foreign-client IT worker, but exact official checklist / fees / PR-counting should be treated as application-prep or deeper-country work, not as a current queue blocker.
 
 ## Block 2 — Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy is about $449-$703 in Tirana, $322-$449 in Durrës, and $326-$378 in Vlorë; use Tirana with a rent cap and screen coastal cities for seasonality. | §5.5 |
 | Healthcare | — | medium | Public system and compulsory insurance fund map captured; Tirana has the main private-hospital market; route-compliant private policy quotes, maternity/newborn cover, foreign-resident public onboarding, and city-specific private-care prices remain application-prep checks. | §5.6 |
 | Education (future child) | — | medium-high | Eurydice captures preschool, compulsory basic/lower-secondary structure, and public/private baseline; Tirana International School confirms an English-language international option, but tuition/private-preschool quotes remain application-prep budget checks. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Safety screens well by regional standards (GPI 1.812, TravelSafe 75 / Low risk), but road safety, public-transport reliability, petty-crime caution, and Albanian-language friction remain practical constraints. | §5.8 |
+| Fit for couple with single income | — | medium | The one-income plan is plausible if the Type D + Unique Permit route and favorable tax screen hold; marriage is the conservative dependent baseline, remote Ukrainian study is practically compatible, and Tirana healthcare/schooling costs can narrow the budget. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -180,13 +180,30 @@ schema_version: 2.0.0
 
 **Education verdict**: Albania is usable for a future child if the family accepts Albanian-language public education and local preschool logistics. If English-language schooling is required, the practical base is Tirana and the budget remains unresolved until TIS / private-preschool tuition quotes are captured. [src-681][src-682][src-683]
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for screening. Safety, English/language friction, transport, city-comfort tradeoffs, and everyday adaptation baselines are captured; this is not a final neighborhood-by-neighborhood relocation guide.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+- **Safety baseline**: WPR's safety table places Albania at a 2025 Global Peace Index score of **1.812** and TravelSafe gives Albania a **75 / Low risk** safety index. TravelSafe describes Albania as generally safe with friendly locals and low overall, transport/taxi, pickpocket, mugging, terrorism, and women-traveler risks; it keeps scams and natural disasters at medium risk. For screening, Albania is comfort-usable, but normal urban caution still applies in Tirana and tourist/coastal areas. [src-777] Confidence: medium.
+- **Transport and road risk**: Both TravelSafe and Expat Arrivals warn that transport is a real friction point: public transport can be unreliable, drivers can be aggressive, road maintenance/signage can be weak, and defensive driving is advised. For the couple, this pushes the practical base toward Tirana or well-connected coastal areas rather than remote towns unless they are comfortable driving locally. [src-777][src-778] Confidence: medium.
+- **English / language adaptation**: EF EPI ranks Albania **#42** with score **532**, and lists Tirana at **557**. This is usable for private services and some expat-facing businesses, but the main language remains Albanian; leases, public offices, healthcare administration, tax/accountant work, school interactions, and local transport will still need Albanian-speaking help or paid professionals. [src-778] Confidence: medium.
+- **Expat / daily-life baseline**: Expat Arrivals describes Albania as not yet a major expat hotspot but attractive for lower costs, beaches, sunny weather, and foreign-currency income. It also says private healthcare and international schooling are likely the largest expat-specific costs, and that Tirana is the most expensive but strongest services base. [src-778] Confidence: medium.
+- **City comfort screen**: Tirana is the default administration, healthcare, accountant, private-school, and English-service base but has the highest rent/cost pressure. Durres is the first coast-plus-capital-access compromise. Vlore is the warm-coast / lower-rent option, but it needs healthcare, school, lease seasonality, and bureaucratic-access checks before becoming the default base. [src-542][src-543][src-544][src-680][src-683] Confidence: medium.
 
-[verification required]
+**Comfort verdict**: Albania is a good warm-climate, moderate-safety, lower-cost comfort screen, especially for a couple earning in USD/EUR. The practical downsides are not climate or headline crime; they are language friction, road/transport quality, official-page capture gaps, private healthcare/insurance dependence, and the need to keep Tirana access even if living on the coast. [src-777][src-778]
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
+
+> **DoD status**: passed at medium confidence for screening. The section now gives a conservative dependent/independent-status baseline, remote-study fit, work-right caution, income/budget screen, and one-income playbook. Exact official dependent checklist and PR-counting remain application-prep / later legal-route work.
+
+- **Dependent / family status**: Existing Albania route evidence says spouse / immediate family can be included, but it does not establish unmarried-partner recognition. Conservative baseline for this couple: marry before relying on the woman being included as a dependent, or have her qualify independently under another Albanian status. [src-166][src-167] Confidence: medium.
+- **Remote Ukrainian study**: Nothing captured suggests that continuing a Ukrainian university remotely conflicts with Albania's ordinary residence planning. However, remote Ukrainian study is not itself a captured Albanian residence basis. Treat it as compatible life logistics, not as a legal-status anchor. Confidence: medium.
+- **Work rights for the partner**: The remote-worker / Unique Permit material was captured around the principal foreign-client worker, not a spouse's local employment rights. Until the official dependent permit terms are extracted, assume the partner should not rely on Albanian local work rights without separate authorization; future remote foreign-client work may require her own tax/residence advice. [src-166][src-167] Confidence: medium.
+- **Income / one-income fit**: The USD 3,000/month gross income appears comfortably above the secondary remote-worker thresholds captured earlier, and the favorable tax screen leaves about USD 2,819/month before accountant, VAT administration, insurance, and immigration costs. Durrës and Vlorë fit this one-income screen better than Tirana; Tirana remains the services-first option but can become tight once private insurance, accountant support, international schooling, and route/legal costs are added. [src-166][src-167][src-412][src-541][src-542][src-543][src-544] Confidence: medium.
+- **Family/future child fit**: Albania can work if the family accepts Albanian-language public education and budgets for private healthcare. If English-language schooling or complex healthcare is required, Tirana becomes the practical base and the budget advantage narrows sharply. [src-680][src-681][src-682][src-683][src-778] Confidence: medium.
+- **Practical sequence**: First, verify official Type D + Unique Permit dependent mechanics and whether marriage is required. Second, keep the partner's Ukrainian study documentation but do not use it as the residence anchor. Third, model the working partner as the sponsor and preserve a monthly buffer for insurance/accounting/immigration costs. Fourth, if the partner later works, run a separate Albania tax/residence check before invoicing or accepting local work.
+
+**Partner verdict**: Albania is plausible for the student partner if the couple is willing to marry for dependent status and keep the male IT worker as the sponsor. It is not yet proven for an unmarried partner, and the one-income plan depends on preserving the favorable remote-worker/tax assumptions through official checklist and accountant checks. [src-166][src-167][src-778]
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -217,12 +234,14 @@ schema_version: 2.0.0
 - **Realism of staying after 03.2027**: medium/uncertain; Albania may offer renewable ordinary residence, but no Ukraine-specific TP bridge was captured and PR-counting needs a later deep-dive.
 - **Budget/rent first pass**: workable. Durrës and Vlorë screen as the better one-income cost/rent fits; Tirana is still possible for services/bureaucracy but needs a strict rent cap. [src-542][src-543][src-544]
 - **Healthcare/education first pass**: healthcare and English-language education both pull the practical default back toward Tirana. Use Tirana first for medical access and international-school optionality; use Durrës/Vlorë only if private insurance, emergency logistics, and school/preschool plans are confirmed. [src-680][src-683]
+- **Comfort/partner first pass**: Albania is screenable for everyday life: low/medium safety proxies, warm climate, moderate English in Tirana, and lower coastal costs help. Marriage remains the conservative dependent baseline, while the main stressors are Albanian-language administration, road/transport quality, private healthcare/insurance, and Tirana service-cost pressure. [src-777][src-778]
 
 **Pros**:
 - Warm Mediterranean climate with mild coastal winters.
 - Secondary evidence suggests a remote-worker residence path fitting foreign-client IT work.
 - Current income appears comfortably above secondary income thresholds.
 - Durrës and Vlorë rent/cost baselines leave more budget room than Tirana in the first-pass screen.
+- Safety and English-proficiency proxies are usable for screening, especially around Tirana and major coastal cities. [src-777][src-778]
 
 **Cons / risks**:
 - Key official Albanian government pages were WAF-blocked or unreachable in this pass.
@@ -231,6 +250,8 @@ schema_version: 2.0.0
 - Direct sunny/clear-day counts were replaced by WeatherSpark clearer-sky proxies for screening in run-061; official meteorological sunny-day counts remain optional later evidence.
 - Route-compliant private health-insurance quotes and exact foreign-resident public-insurance onboarding are not captured.
 - English-language/international schooling exists in Tirana, but current tuition and private-preschool city prices were not captured.
+- Albanian-language help is still needed for public offices, leases, healthcare administration, taxes, and school interactions.
+- Road safety, unreliable public transport, and scam/natural-disaster caveats require city/neighborhood due diligence. [src-777][src-778]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -243,6 +264,8 @@ schema_version: 2.0.0
 - Confirm lawful-stay deadline and whether Type D filing must be initiated abroad or can be handled after entry.
 - Open/prepare an Albanian bank account only after checking the current official filing sequence.
 - Avoid local Albanian employment or Albanian-market services until permit/tax authorization is clear.
+- If using dependent status, treat marriage as the conservative baseline until the official family/dependent checklist confirms otherwise.
+- Choose an initial base near Tirana or a well-connected coastal city; do not optimize only for rent before checking healthcare, transport, and filing logistics.
 
 ### 6c. First 3–6 months
 - Build the Unique Permit file with foreign-client income evidence and health insurance.
@@ -292,6 +315,7 @@ _(none yet)_
 - [src-681] Eurydice — Albania education-system overview.
 - [src-682] Eurydice — Albania early childhood education and care.
 - [src-683] Tirana International School (QSI) — admissions / preschool / secondary-school pages.
+- [src-778] EF English Proficiency Index Albania / Expat Arrivals moving-to-Albania adaptation overview.
 - [src-164] Wikipedia visa-requirements table for Ukrainian citizens (aggregator entry baseline).
 - [src-168] Climate to Travel — Tirana.
 - [src-169] Climate to Travel — Durrës.
@@ -301,6 +325,7 @@ _(none yet)_
 - [src-542] Livingcost — Tirana cost/rent baseline.
 - [src-543] Livingcost — Durrës cost/rent baseline.
 - [src-544] Livingcost — Vlorë cost/rent baseline.
+- [src-777] World Population Review / TravelSafe Albania safety proxies.
 
 ### 7e. Not found
 - Albanian accountant / General Directorate of Taxes / National Business Center confirmation of the exact foreign-client IT self-employed activity code, mandatory contribution base, VAT/place-of-supply handling, and immigration-status compatibility for the Type D + Unique Permit route remains an application-prep check; `vq-106` is closed for screening.
@@ -310,6 +335,7 @@ _(none yet)_
 - Official meteorological sunny-day counts for Tirana, Durrës, and Vlorë; WeatherSpark clearer-sky proxies are now sufficient for planning but not official statistics.
 - `vq-139`: resolved in run-148 for screening; private health-insurance quotes, maternity/newborn coverage, public-insurance onboarding by residence route, and Tirana/Durres/Vlore private-care prices remain application-prep checks.
 - `vq-140`: resolved in run-148 for screening; Tirana International School tuition and private-preschool city quotes remain application-prep budget checks.
+- Official dependent/partner checklist, dependent work-rights wording, and final city/neighborhood comfort checks remain application-prep items after the section 5.9 screening baseline.
 
 ## Block 8 — Open questions and verification markers
 
@@ -317,3 +343,4 @@ _(none yet)_
 - `vq-106` resolved in run-087: Albania self-employed / individual-trader tax fit is closed for screening using the favorable 0% PIT plus minimum-contribution partial baseline; exact activity code, contribution base, VAT/place-of-supply, and Type D + Unique Permit compatibility remain application-prep checks.
 - `vq-139` resolved in run-148 for screening: Albania healthcare is screenable, but route-compliant private insurance, maternity/newborn cover, exact foreign-resident public-fund onboarding, and city-specific private-care prices remain application-prep checks.
 - `vq-140` resolved in run-148 for screening: Albania education is screenable through the public system plus Tirana International School as an English-language option, but exact international tuition/private-preschool quotes remain application-prep budget checks.
+- Run-187 added comfort and partner screening baselines: Albania is usable for everyday life with language/transport caveats; marriage remains the conservative dependent route for the student partner. [src-777][src-778]
