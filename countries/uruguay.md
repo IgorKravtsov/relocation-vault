@@ -1,13 +1,13 @@
 ---
 country: Uruguay
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-19T06:06:57Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-23T09:27:59Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence", "uruguay-self-employed-bps-gap", "uruguay-foreign-client-vat-fit-gap", "montevideo-punta-del-este-rent-pressure", "uruguay-private-insurance-quote-gap", "uruguay-international-school-cost-risk"]
-sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186", "src-430", "src-431", "src-432", "src-433", "src-434", "src-435", "src-436", "src-545", "src-546", "src-547", "src-548", "src-684", "src-685", "src-686", "src-687", "src-688"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence", "uruguay-self-employed-bps-gap", "uruguay-foreign-client-vat-fit-gap", "montevideo-punta-del-este-rent-pressure", "uruguay-private-insurance-quote-gap", "uruguay-international-school-cost-risk", "uruguay-spanish-language-integration-needed", "uruguay-one-income-margin-risk"]
+sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186", "src-430", "src-431", "src-432", "src-433", "src-434", "src-435", "src-436", "src-545", "src-546", "src-547", "src-548", "src-684", "src-685", "src-686", "src-687", "src-688", "src-779", "src-780"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests a potentially strong long-term route because Uruguay allows ordinary legal residence for non-Mercosur foreigners and legal citizenship after 3 years with family constituted in Uruguay or 5 years without family, but the route depends on proving habitual residence and means of life rather than a simple remote-worker visa threshold. [src-181][src-182][src-184]
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-19T06:06:57Z
-- **Tier rationale**: keep as Tier-2 hint until practical residence / tax approval mechanics for foreign-client IT income, healthcare insurance/onboarding costs, and habitual-residence/citizenship practice are checked; cost/rent now screens as workable outside the most expensive coastal/capital markets, while education is screenable if Spanish-language public schooling is acceptable.
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-23T09:27:59Z
+- **Tier rationale**: keep as Tier-2 hint until practical residence / tax approval mechanics for foreign-client IT income, healthcare insurance/onboarding costs, and habitual-residence/citizenship practice are checked; cost/rent, education, comfort, and partner fit now screen as workable if Spanish-language integration and strict one-income budgeting are accepted.
 
 ## Block 2 - Scoring
 
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | 40 m2 rent proxies range from about $262-$412 in Salto to $499-$632 in Montevideo and $795-$1,013 in Punta del Este; use Montevideo/Punta only with strict housing caps. | §5.5 |
 | Healthcare | — | medium | Public/private system baseline is strong and SNIS/FONASA/mutualista structure is captured; however private insurance quotes, maternity/newborn exclusions, and foreign-resident onboarding by residence/tax route remain application-prep checks. | §5.6 |
 | Education (future child) | — | medium | Public education is compulsory from age 4/primary age 6 and public primary is free; Montevideo has bilingual/international options, but international fees can be a major one-income budget risk. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Uruguay screens as one of the safer Latin America options: WPR/TravelSafe proxies show GPI 1.784, TravelSafe 77 / Low risk, and Expat Arrivals notes quality-of-life, healthcare, and compact transport strengths, but Montevideo street crime and Spanish-language friction require caution. | §5.8 |
+| Fit for couple with single income | — | medium | Plausible if the permanent-residence means-of-life file and favorable tax/BPS answer hold; marriage is useful for documentary clarity and the student partner needs Spanish-language integration, health/education budgeting, and no local-work assumption. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -190,13 +190,31 @@ International schooling is the budget risk. ExpatLife's 2026 Uruguay education g
 
 **Education verdict**: Uruguay passes country screening if the family accepts Spanish-language public education as the default. International/private English-language schooling can consume roughly USD 500-1,500/month per child before extras, which is a major risk on a single USD 3,000/month income and especially under the §5.3 downside BPS/VAT stress test. Add `uruguay-international-school-cost-risk` and keep exact school admissions, tuition, and private-preschool quotes for later city selection.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for screening. Safety, language, transport/daily-life, city-comfort, healthcare/education lifestyle, and one-income caveats are covered. Exact neighborhood safety, lease-guarantee products, community depth, and final-city services remain later application-prep checks.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+- **Safety baseline**: World Population Review's 2026 safety table screens Uruguay with 2025 Global Peace Index 1.784, 2025 Global Terrorism Index 0.059, TravelSafe safety index 77, TravelSafe risk level Low, and US News safest-country rank #56. TravelSafe's Uruguay page also labels overall risk Low, transport/taxis Low, terrorism Low, and women travelers Low, while pickpockets, scams, natural disasters, and mugging are Medium. Use this as a medium-confidence safety proxy, not neighborhood due diligence. [src-779] Confidence: medium.
+- **Montevideo street-crime caveat**: TravelSafe and Expat Arrivals both caution that urban risk is concentrated in places such as Montevideo, crowded markets, bus stations, downtown areas, and some poorly lit neighborhoods after dark. This is not a country blocker, but it makes neighborhood choice, night transport, and valuables discipline part of the practical plan. [src-779][src-780] Confidence: medium.
+- **Language / service friction**: EF EPI screens Uruguay at global rank #34, score 542, with Montevideo at 544. Expat Arrivals says Spanish is the official language; many Uruguayans understand English well enough, but fluent conversations should not be expected everywhere, and even Spanish speakers may need time to adjust to the local dialect. Spanish learning is therefore a real integration requirement for leases, public offices, healthcare, schools, tax/accountant work, and citizenship. [src-780] Confidence: medium.
+- **Daily-life infrastructure**: Expat Arrivals describes public transport as largely accessible and reasonably priced because the country is compact; TravelSafe says registered taxis are generally reliable and ride-sharing apps such as Uber and DiDi are widely used in cities. This supports Montevideo and coastal/capital-access bases, while Salto remains a budget fallback that needs final-city service checks. [src-779][src-780] Confidence: medium.
+- **Healthcare / education comfort**: Uruguay's comfort upside is that healthcare is reported as high standard for the region and mutualista/private plans are common, while public education is free and Spanish-language by default. The comfort downside is budget: private healthcare, private/international schooling, and rising accommodation costs can quickly erase the one-income buffer. [src-684][src-686][src-688][src-780] Confidence: medium.
+- **City comfort screen**: Montevideo is the default services, notary/accountant, healthcare, school, transport, and English-support base but has higher rent/cost and street-crime vigilance needs. Salto is the warmer lower-cost fallback if smaller-city healthcare/community/service tradeoffs are acceptable. Punta del Este / Costa de Oro are lifestyle options with coastal cost and seasonality risk, not the default one-income base. [src-546][src-547][src-548][src-780] Confidence: medium.
 
-[verification required]
+**Comfort verdict**: Uruguay is comfort-screenable and relatively strong for Latin America: mild climate, medium-positive safety proxies, accessible transport, healthcare depth, and a high quality-of-life reputation help. The practical stressors are Spanish-language integration, Montevideo street-crime vigilance, rising accommodation costs, private healthcare/education budgeting, and distance from Ukraine/Europe. [src-779][src-780]
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
+
+> **DoD status**: passed at medium confidence for screening. The section now gives a conservative marriage/separate-file baseline, remote-study fit, work-right caution, budget/family screen, and one-income playbook. Exact unmarried-partner treatment, dependent filing practice, and partner work authorization remain application-prep / later legal-route checks.
+
+- **Dependent / family status**: Existing residence and citizenship evidence supports a conservative family-documentation baseline rather than a proven unmarried-partner route. For residence, each partner should be ready to file a Uruguayan residence package or use marriage/family evidence where accepted. For citizenship planning, marriage/family constituted in Uruguay may matter because the legal-citizenship timeline can be 3 years with family constituted versus 5 years without family. [src-182][src-184] Confidence: medium.
+- **Remote Ukrainian study**: Nothing captured suggests that continuing a Ukrainian university remotely conflicts with Uruguay residence planning. However, remote Ukrainian study is not itself a captured residence basis. Treat it as compatible life logistics, not as the partner's legal-status anchor. Confidence: medium.
+- **Work rights for the partner**: The captured means-of-life evidence focuses on the principal foreign-client worker and independent/foreign-company categories; it does not prove local employment rights or a simple dependent work permission for the student partner. Until a Uruguayan lawyer/notary confirms the residence category, assume she should not rely on local work rights and should get separate tax/residence advice before remote freelancing or local employment. [src-182] Confidence: medium.
+- **Income / one-income fit**: The USD 3,000/month plan is plausible only if the permanent-residence means-of-life file is accepted and the favorable IRPF/BPS/VAT answer is closer to the §5.3 upside. Under the favorable IRPF-only screen, Montevideo can work with discipline and Salto leaves more room; under the employee-style social-security stress test, Montevideo plus private insurance/accountant/school costs becomes tight and Salto becomes the safer budget fallback. [src-182][src-430][src-432][src-433][src-436][src-546][src-548] Confidence: medium.
+- **Family/future child fit**: Uruguay can work if the couple accepts Spanish-language public education and mutualista/private healthcare as likely practical layers. If they need English-language schooling, Montevideo becomes the practical base and the USD 6,000-18,000/year international-school screen is a major budget risk. [src-684][src-686][src-688][src-780] Confidence: medium.
+- **Practical sequence**: First, decide whether marriage is useful before filing or before setting the citizenship-clock strategy. Second, prepare both partners' civil-status and criminal-record documents with apostille/legalization and Spanish translation. Third, have a Uruguayan notary/accountant align the man's foreign-client income, DGI/BPS status, and residence means-of-life certificate. Fourth, choose Montevideo for the first administrative/healthcare phase unless the Salto budget case is strong and services are pre-checked.
+
+**Partner verdict**: Uruguay is plausible for the student partner if the couple treats marriage or separate residence files as the conservative baseline, accepts Spanish-language integration, and preserves a one-income buffer for healthcare, accountant/notary, and education costs. It is not yet proven as an unmarried-partner or low-friction dependent route. [src-182][src-184][src-780]
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -227,6 +245,7 @@ International schooling is the budget risk. ExpatLife's 2026 Uruguay education g
 - **Realism of staying after 03.2027**: medium-positive if ordinary residence is filed early and habitual presence is maintained; not dependent on EU TP extension.
 - **Healthcare / education first pass**: healthcare is screenable through the SNIS/FONASA/mutualista baseline but needs private insurance and onboarding quotes; education is workable through Spanish-language public schooling, while Montevideo international schools are a major budget risk. [src-684][src-686][src-688]
 - **Budget/rent first pass**: workable but city-sensitive. Salto screens as the affordability fallback; Montevideo is the services/bureaucracy/healthcare/school-option base with rent discipline; Punta del Este is too rent-pressured for a default one-income plan. [src-546][src-547][src-548]
+- **Comfort/partner first pass**: screenable. Uruguay has strong safety/quality-of-life proxies for the region, but Spanish-language integration, Montevideo street-crime vigilance, and a tight one-income buffer make marriage/separate-status planning and city selection important. [src-779][src-780]
 
 **Pros**:
 - Visa-free entry for Ukrainians in the current official admission table. [src-180]
@@ -234,6 +253,7 @@ International schooling is the budget risk. ExpatLife's 2026 Uruguay education g
 - Legal citizenship timeline can be 3 years with family constituted in Uruguay or 5 years without family. [src-184]
 - Mild winters relative to Central/Eastern Europe. [src-185][src-186]
 - Public education from compulsory preschool/primary age gives a low-cost long-term family baseline if Spanish integration is acceptable. [src-686][src-687]
+- Uruguay screens well for regional comfort and safety, with WPR/TravelSafe proxies at GPI 1.784 and TravelSafe 77 / Low risk, plus accessible urban transport and quality-of-life strengths. [src-779][src-780]
 
 **Cons / risks**:
 - DN/provisional identity is only 6+6 months and should not be treated as the long-term route. [src-183]
@@ -241,6 +261,7 @@ International schooling is the budget risk. ExpatLife's 2026 Uruguay education g
 - Citizenship requires habitual residence, Spanish ability, and no absences over 6 consecutive months. [src-184]
 - Distance from Ukraine/Europe, unresolved BPS/VAT/accountant costs, and rent pressure in Montevideo / Punta del Este.
 - Private health-insurance and mutualista/FONASA onboarding costs are not yet captured; international schooling in Montevideo can be expensive relative to the single-income budget. [src-684][src-688]
+- Spanish-language integration is unavoidable for bureaucracy, leases, healthcare, schools, tax/accountant work, and eventual citizenship; Montevideo also needs ordinary street-crime and night-transport caution. [src-779][src-780]
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -250,6 +271,7 @@ International schooling is the budget risk. ExpatLife's 2026 Uruguay education g
 - Birth certificates; marriage certificate if they marry; translations/apostilles where required. [src-182]
 - Employment/client contracts, bank statements, payment records, and a draft notarial/accounting explanation of foreign-client IT income. [src-182]
 - Check whether the Polish `karta pobytu` status imposes residence-absence or notification obligations outside the Uruguay file. [verification required]
+- Start Spanish study before the move; English is helpful in Montevideo/private services but not enough for official paperwork, school, health, tax, or citizenship planning. [src-780]
 
 ### 6b. First month after arrival
 - Enter visa-free if the official table remains unchanged. [src-180]
@@ -288,7 +310,7 @@ International schooling is the budget risk. ExpatLife's 2026 Uruguay education g
 ### 6g. Contact points and communities
 - Immigration lawyers / notaries: [verification required]
 - Ukrainian / Russian-speaking diaspora: [verification required]
-- Expat blogs: [verification required]
+- Expat blogs: Expat Arrivals moving-to-Uruguay overview is useful for high-level daily-life, language, healthcare, education, street-crime, and cost caveats. [src-780]
 - NGOs / refugee help: [verification required]
 
 ## Block 7 - Sources
@@ -321,6 +343,8 @@ _(none yet)_
 - [src-547] Livingcost — Punta del Este cost/rent baseline.
 - [src-548] Livingcost — Salto cost/rent baseline.
 - [src-688] ExpatLife.AI Uruguay education guide / international-school fee screen.
+- [src-779] World Population Review / TravelSafe Uruguay safety proxies.
+- [src-780] EF English Proficiency Index Uruguay / Expat Arrivals moving-to-Uruguay adaptation overview.
 
 ### 7e. Official primary / public-service pages
 - [src-685] Uruguay gub.uy health-card procedure page.
@@ -331,6 +355,7 @@ _(none yet)_
 - Exact Uruguayan migration practice for accepting ~$3,000/month foreign-client IT income for a couple remains an application-prep check; operational planning should treat a notarial/accounting means-of-life package as mandatory.
 - Whether digital-nomad provisional identity time counts toward habitual residence for legal citizenship remains unproven; the safe baseline is not to rely on it without permanent legal residence evidence.
 - Partner/dependent mechanics for an unmarried Ukrainian partner remain unproven; the safe baseline is marriage or separate residence eligibility.
+- Comfort/partner application-prep details: exact safe neighborhoods, lease-guarantee products, Spanish-support/community depth, final-city healthcare/school access, and partner work authorization remain later checks.
 - Uruguay tax treatment for foreign-client IT remote work: first-pass §5.3 now covers IRPF/tax residence and screening calculations. `vq-110` was resolved for screening in run-093; exact DGI/BPS/VAT/immigration-file alignment remains an application-prep/accountant check.
 - Healthcare application-prep details: exact route-compliant private insurance quotes, maternity/newborn exclusions, FONASA/ASSE/mutualista onboarding by residence/BPS status, and Montevideo/Salto private-care price checks are open in `vq-141`.
 

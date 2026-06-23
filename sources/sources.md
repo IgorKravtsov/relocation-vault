@@ -9387,3 +9387,27 @@ Each source entry:
 - **Facts supporting**: Albania English-proficiency / adaptation baseline: EF EPI global rank #42, score 532, Tirana score 557; Expat Arrivals notes Albania is not a major expat hotspot, has lower living costs, cheap housing, unreliable public transport / road caveats, private healthcare / international-school cost pressure, and Albanian-language schooling (claim-albania-021, claim-albania-022)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-23
+
+## src-779
+- **Title**: World Population Review / TravelSafe Uruguay safety proxies
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/uruguay/
+- **Archive**: stable pages via direct HTML extraction; archive not captured
+- **Type**: commercial
+- **Date published**: WPR 2026 table current; TravelSafe 2026 safety-rating page current
+- **Date accessed**: 2026-06-23
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguay comfort / safety screening proxy: 2025 Global Peace Index score 1.784, 2025 Global Terrorism Index 0.059, TravelSafe safety index 77 / Low risk, US News safest-country rank #56, overall/transport/terrorism/women-traveler low-risk labels, and pickpocket/scam/natural-disaster/mugging medium-risk caveats (claim-uruguay-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-23
+
+## src-780
+- **Title**: EF English Proficiency Index Uruguay / Expat Arrivals moving-to-Uruguay adaptation overview
+- **URL**: https://www.ef.com/wwen/epi/regions/latin-america/uruguay/ ; https://www.expatarrivals.com/americas/uruguay/moving-uruguay
+- **Archive**: stable pages via direct HTML / Jina text-mirror extraction; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: EF 2025 index; Expat Arrivals current page, no explicit page date shown
+- **Date accessed**: 2026-06-23
+- **Used by**: Uruguay
+- **Facts supporting**: Uruguay English-proficiency / adaptation baseline: EF EPI global rank #34, score 542, Montevideo score 544; Spanish-language integration caveat, English not fluent everywhere, Montevideo street-crime caution, accessible public transport, high-standard healthcare, mutualista route, public Spanish-language education, international-school concentration in Montevideo, and rising cost/accommodation caveats (claim-uruguay-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-23

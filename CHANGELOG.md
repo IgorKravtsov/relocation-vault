@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-23
 ---
 
+## 2026-06-23 — run-188 — Uruguay comfort/partner fit
+
+- Completed Uruguay sections 5.8 and 5.9 for screening by adding safety, Montevideo street-crime, English/Spanish-language integration, daily-life transport, city-comfort, marriage/separate-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-779`, `src-780`) and two Uruguay claims (`claim-uruguay-020`, `claim-uruguay-021`).
+- Uruguay depth_score moved from 5.5 to 8.0; added `uruguay-spanish-language-integration-needed` and `uruguay-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-23 — run-187 — Albania comfort/partner fit
 
 - Completed Albania sections 5.8 and 5.9 for screening by adding safety, road/transport, English/Albanian-language integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.

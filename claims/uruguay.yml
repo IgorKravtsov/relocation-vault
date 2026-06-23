@@ -169,3 +169,21 @@
   confidence: medium
   tags: [education, international-school, montevideo, budget-risk]
   notes: "Aggregator-style fee range used only for screening; exact live tuition and admissions must be checked with selected schools."
+
+- id: claim-uruguay-020
+  topic: comfort_safety_proxy
+  value: "World Population Review / TravelSafe screen Uruguay with 2025 Global Peace Index 1.784, Global Terrorism Index 0.059, TravelSafe safety index 77, Low risk, and US News safest-country rank #56; TravelSafe labels overall risk Low but pickpocket, scam, natural-disaster, and mugging risks Medium."
+  source: src-779
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [comfort, safety, travel-risk, montevideo]
+  notes: "Commercial safety proxies for screening only; neighborhood-level due diligence remains later work."
+
+- id: claim-uruguay-021
+  topic: english_spanish_integration_baseline
+  value: "EF EPI screens Uruguay at global rank #34, score 542, with Montevideo score 544; Expat Arrivals says Spanish is the official language and English is not enough for fluent everyday interaction everywhere."
+  source: src-780
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [comfort, language, english, spanish, integration]
+  notes: "Use as a practical integration baseline; Spanish remains necessary for bureaucracy, health, school, tax, and citizenship planning."
