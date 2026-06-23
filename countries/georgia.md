@@ -1,13 +1,13 @@
 ---
 country: Georgia
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-17T22:13:03Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-23T03:15:05Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["visa-free-not-residence", "georgia-small-business-tax-and-it-residence-fit-gap", "tbilisi-rent-pressure", "georgia-private-insurance-quote-gap", "georgia-international-school-cost-risk"]
-sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370", "src-537", "src-538", "src-539", "src-540", "src-676", "src-677", "src-678", "src-679"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["visa-free-not-residence", "georgia-small-business-tax-and-it-residence-fit-gap", "tbilisi-rent-pressure", "georgia-private-insurance-quote-gap", "georgia-international-school-cost-risk", "georgian-language-integration-needed", "georgia-occupied-territories-safety-risk", "georgia-one-income-margin-risk"]
+sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370", "src-537", "src-538", "src-539", "src-540", "src-676", "src-677", "src-678", "src-679", "src-775", "src-776"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Georgia is easy to enter and has an official IT residence-permit category that may fit the male IT worker, but the route needs verification on the 2026 work-right / small-business mechanics and is not an EU temporary-protection bridge.
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-17T22:13:03Z
-- **Tier rationale**: Not assigned until comfort, partner/student fit, risk dimensions, bureaucracy, and practical permit-renewal experience are researched.
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-23T03:15:05Z
+- **Tier rationale**: Not assigned until risk dimensions, bureaucracy, and practical permit-renewal experience are researched.
 
 ## Block 2 — Scoring
 
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxy ranges from about $398-$616 in Tbilisi, $310-$420 in Batumi, and $235-$301 in Kutaisi; 80 m2 stress-test units are materially higher. | §5.5 |
 | Healthcare | — | medium | First-pass healthcare baseline captured: Georgia has a highly privatized provider market, citizen-focused universal coverage with co-pays, and stronger Tbilisi capacity than rural areas; exact foreign-resident insurance/onboarding and private-care prices remain application-prep checks. | §5.6 |
 | Education (future child) | — | medium | Public preschool/general-education structure captured; primary and basic education are compulsory, public preschool is free with catering, and Tbilisi has an international-school market but published fee data is sparse. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Safety proxies are low/medium-risk but not risk-free; English is moderate, Tbilisi/Batumi help, and Georgian-language support is still needed for bureaucracy, leases, healthcare, and schools. | §5.8 |
+| Fit for couple with single income | — | medium | Marriage remains the conservative dependent baseline, remote Ukrainian study is practical but not a Georgian status, and the one-income budget works best if the IT/small-business tax route holds and Tbilisi rent is capped. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -179,13 +179,28 @@ Georgia is screenable for young adults if the couple can budget private insuranc
 #### Education verdict for first pass
 For a future child, Georgia is workable if the family accepts Georgian-language public education and starts in Tbilisi for the widest school choice. Public preschool is attractive on paper because municipal public institutions are free and include catering, but public-school enrollment for a foreign child, language support, and private/international fee quotes need a later family-prep pass. International schooling should be treated as a budget risk rather than the default one-income plan.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening at medium confidence. Safety proxies, English-proficiency data, city-comfort tradeoffs, and Georgian-language/adaptation caveats are now captured. This is not a final city-selection pass; current political/security advice, occupied-territory risk, neighborhood safety, and lease/healthcare service checks remain application-prep work.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+- **Safety baseline**: WPR / TravelSafe proxies put Georgia in a screenable but not ultra-low-risk band: the 2025 Global Peace Index score is **2.185**, TravelSafe safety index is **63**, and the WPR table's risk label is **Low**. TravelSafe also labels overall risk low for most of the country, including Tbilisi and Batumi, but explicitly says Abkhazia and South Ossetia should be fully avoided. [src-775] Confidence: medium.
+- **Practical safety caveats**: TravelSafe flags medium transport/taxi risk and says roads, lighting, and local driving habits can be difficult; city risk is friendlier by day but rises after dark. For this couple, the operational baseline is mainstream Tbilisi/Batumi/Kutaisi neighborhoods, no occupied-territory travel, careful taxi/road use, and live checks before mountain or border-region trips. [src-775] Confidence: medium.
+- **English and language**: EF's 2025 Georgia page gives **global rank #35** and **EF EPI score 541**, with Tbilisi 550 and Batumi 544. That is materially better than many lower-ranked options, but it still supports only a medium-confidence comfort baseline: private services and younger urban contacts are easier, while residence paperwork, leases, public healthcare, public schools, and tax/accounting should still be handled with Georgian-language help. [src-776] Confidence: medium.
+- **City comfort screen**: Tbilisi remains the services, healthcare, schooling, legal/accounting, and flight-connectivity hub, but it is also the captured rent-pressure case. Batumi is the warm/coastal lifestyle compromise, but rain/humidity and seasonal housing require checks. Kutaisi is the affordability fallback and airport/logistics option, but weaker specialist healthcare, school choice, and professional-service depth make it a second-step city rather than the first administrative base. [src-159][src-160][src-161][src-538][src-539][src-540][src-676][src-679]
 
-[verification required]
+**Comfort verdict:** Georgia passes first-pass comfort screening if the couple accepts Georgian-language help and avoids treating tourism-friendly entry as proof of easy administration. Start the screen in Tbilisi for filings, healthcare, schools, and accountants; use Batumi only if warm/coastal lifestyle outweighs wet climate and lease seasonality; keep Kutaisi as the budget fallback. Add `georgian-language-integration-needed` and `georgia-occupied-territories-safety-risk` to the risk map.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
+
+> **DoD status**: passed for first-pass screening at medium confidence. The partner baseline is now explicit: marriage / family reunification is the conservative dependent route after the main applicant obtains a Georgian permit; otherwise she needs her own lawful stay or residence basis. Ukrainian remote study can continue practically, but it does not by itself create Georgian residence in the captured evidence.
+
+- **Dependent / family baseline**: SDA family residence is for family members of an alien holding a residence permit and requires proof of kinship, lawful stay, income or bank funds. The profile has not captured unmarried-partner recognition, so the safe planning baseline remains marriage before relying on derived Georgian status. [src-157] Confidence: high for the family-permit concept, medium for the couple-specific implication.
+- **Main-applicant route interaction**: The male partner's likely route is the IT residence permit / Georgia small-business variant, not a simple digital-nomad stay. The route appears income-compatible because the IT page references at least **USD 25,000/year** remuneration and the tax pass suggests USD 3,000/month can fit the small-business screen, but work-right registration, activity code, VAT/export-service, and permit-renewal practice remain application-prep checks. [src-157][src-365][src-369][src-370] Confidence: medium.
+- **Student status / remote study**: Continuing a Ukrainian remote degree is practically compatible with living in Georgia, especially from Tbilisi or Batumi, but this pass did not capture a Georgian residence category based solely on foreign online study. If she needs independence from the male partner's file, plan her own residence route or maintain a lawful-stay fallback rather than treating Ukrainian remote study as a Georgian status. [src-157] Confidence: medium.
+- **Future work and integration**: EF's moderate English baseline helps with private services, but work, public services, and family life still become easier with Georgian-language support. If the woman later works locally or freelances through Georgia, the couple should check whether that changes tax registration, pension, health coverage, or her residence basis rather than assuming it is covered by family residence. [src-776]
+- **One-income budget fit**: Georgia is promising for one income only if the optimistic IT/small-business model holds. At USD 3,000/month, Georgia can screen near **USD 2,850-2,970/month net** under the small-business / pension-sensitivity model, but the 20% PIT fallback is about **USD 2,400/month**, where Tbilisi's family-of-four cost proxy and rent pressure become tight. Healthcare insurance, accountant, translation/legal, and future school costs still need buffers. [src-370][src-537][src-538][src-539][src-540][src-676][src-679]
+
+**Partner verdict:** Georgia can work for the couple if the man builds a credible IT/small-business residence file and the woman uses marriage-based family residence or an independent lawful status. Keep Tbilisi as the administrative/service base, cap rent tightly, and do not rely on visa-free stay or remote Ukrainian study as the long-term legal foundation. Add `georgia-one-income-margin-risk` to the risk map.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -213,7 +228,9 @@ For a future child, Georgia is workable if the family accepts Georgian-language 
 - **Best legalization path for the man**: likely Georgia IT residence permit if he can document IT experience, USD 25,000+ annual remuneration, and the 2026 work-right / small-business requirements.
 - **Best legalization path for the woman**: likely family reunification after marriage once the man has a Georgian permit; unmarried-partner route not confirmed.
 - **Does marriage change the picture**: likely yes; use marriage as the conservative baseline for derived residence.
-- **Realism of staying after 03.2027**: medium/uncertain; Georgia is outside EU TP and has ordinary residence routes, and first-pass costs/rents plus public education look workable, but the PR/citizenship clocks are long and route practice / healthcare onboarding are not yet verified.
+- **Realism of staying after 03.2027**: medium/uncertain; Georgia is outside EU TP and has ordinary residence routes, and first-pass cost/rent, education, comfort, and partner-fit screens look workable, but the PR/citizenship clocks are long and route practice / healthcare onboarding are not yet verified.
+- **Best cost/rent/comfort city screen**: Tbilisi first for residence filings, healthcare, schools, accountants, and services with a strict rent cap; Batumi as the warm/coastal compromise if wet climate and seasonal leases are acceptable; Kutaisi as the affordability fallback if service depth is less important. [src-538][src-539][src-540][src-775][src-776]
+- **Healthcare/education/partner screen**: healthcare is feasible but private-insurance/public-onboarding details remain application-prep; public Georgian-language education is the budget baseline, while international schooling is a budget risk; partner residence should be planned through marriage/family reunification or her own independent status. [src-157][src-676][src-677][src-678][src-679]
 
 **Pros**:
 - Easy-entry baseline for Ukrainians compared with many visa regimes.
@@ -221,6 +238,7 @@ For a future child, Georgia is workable if the family accepts Georgian-language 
 - Tbilisi/Batumi/Kutaisi offer milder winters than most inland EU options.
 - First-pass cost/rent screening is workable on USD 3,000 gross, especially outside Tbilisi.
 - Public preschool/general education is usable for family planning if Georgian-language schooling is acceptable.
+- Safety and English proxies are screenable for Tbilisi/Batumi/Kutaisi, especially compared with harder-language/lower-English options.
 
 **Cons / risks**:
 - Visa-free stay is not residence and appears to have been cut back to one year for Ukrainians.
@@ -230,6 +248,8 @@ For a future child, Georgia is workable if the family accepts Georgian-language 
 - Tbilisi rent can pressure the one-income budget if the tax file falls back to ordinary 20% PIT or if the couple needs a larger central apartment.
 - Healthcare costs are not yet quantified: private insurance, maternity/newborn coverage, and public-system eligibility for the exact residence route need verification.
 - International-school fees are sparsely published; treat English/private schooling as a budget risk, not the default plan.
+- Georgian-language bureaucracy and occupied-territory / road-safety caveats require practical support; do not treat tourist-friendliness as a full administrative-comfort answer.
+- The one-income budget is attractive under small-business tax assumptions but tight under the ordinary PIT fallback plus Tbilisi rent, private insurance, and family-prep costs.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -272,6 +292,7 @@ For a future child, Georgia is workable if the family accepts Georgian-language 
 - Official entry portal: Georgian MFA GeoConsul [src-155].
 - Official residence/citizenship authority: Public Service Development Agency / Public Service Hall [src-157][src-158].
 - Immigration lawyers and Ukrainian/Russian-speaking communities: TBD.
+- Practical city/language screen: use Tbilisi first for filings, healthcare, schools, lawyers, accountants, and English/private-service depth; use Batumi for warm/coastal lifestyle only after lease-seasonality checks; use Kutaisi as the affordability fallback. Budget for Georgian-language help for residence filings, leases, public healthcare, schools, and tax/accounting. [src-775][src-776]
 
 ## Block 7 — Sources
 
@@ -282,6 +303,7 @@ For a future child, Georgia is workable if the family accepts Georgian-language 
 
 ### 7b. Reputable / official-secondary
 - [src-156] Georgia Today — 2025 report on Ukrainian visa-free stay being cut from 3 years to 1 year.
+- [src-776] EF English Proficiency Index — Georgia.
 - [src-676] U.S. International Trade Administration — Healthcare Resource Guide: Georgia.
 - [src-677] Eurydice — Georgia education overview / general education structure.
 - [src-678] Eurydice — Georgia early childhood education and care.
@@ -305,6 +327,7 @@ _(none yet)_
 - [src-539] Livingcost — Cost of living in Batumi.
 - [src-540] Livingcost — Cost of living in Kutaisi.
 - [src-679] International Schools Database — Tbilisi international schools.
+- [src-775] World Population Review / TravelSafe — Georgia safety proxies.
 
 ### 7e. Not found
 - Clean official-primary text capture of the current Ukraine-specific visa-free stay decree / country table remains useful before travel, but `vq-051` is closed for country-screening because the safe operational baseline is one-year visa-free stay only, not residence.

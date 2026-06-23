@@ -178,3 +178,21 @@
   confidence: medium
   tags: [education, international-school, tbilisi, georgia]
   notes: "Use as a budget-risk screen, not a full school-selection answer."
+
+- id: claim-georgia-021
+  topic: georgia_comfort_safety_english_baseline
+  value: "WPR / TravelSafe safety proxies put Georgia at 2025 Global Peace Index 2.185, TravelSafe safety index 63, and low risk, while EF EPI 2025 gives Georgia global rank #35 and score 541 with Tbilisi 550 and Batumi 544."
+  source: src-775
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [comfort, safety, english, georgia, tbilisi, batumi]
+  notes: "Composite claim uses src-775 for safety and src-776 for English; use as a screening proxy, not a final city-security or language-support answer."
+
+- id: claim-georgia-022
+  topic: georgia_partner_one_income_baseline
+  value: "For the student partner, Georgia should be screened with marriage / family reunification or an independent status as the conservative baseline; remote Ukrainian study does not by itself create captured Georgian residence, and one-income feasibility depends on the IT/small-business route rather than the ordinary PIT fallback."
+  source: src-157
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [partner, family-reunification, one-income, remote-study, georgia]
+  notes: "Uses SDA family residence and IT residence evidence plus existing tax/cost/rent sources; no new verification queue item because this is an operational screening baseline."

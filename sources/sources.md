@@ -9338,3 +9338,27 @@ Each source entry:
 - **Facts supporting**: Turkey English-proficiency / adaptation baseline: EF EPI global rank #71, score 488, city scores Izmir 515, Antalya 510, Ankara 508, Istanbul 504; Expat Arrivals notes residence-closed neighborhoods, landlord upfront-rent demands, foreign-currency affordability with dollar inflation, private healthcare / insurance need, Turkish-language school barrier, and remote-worker / DN practicality (claim-turkey-023, claim-turkey-024)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-23
+
+## src-775
+- **Title**: World Population Review / TravelSafe Georgia safety proxies
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/georgia/
+- **Archive**: stable pages via direct HTML extraction; archive not captured
+- **Type**: commercial
+- **Date published**: WPR 2026 table current; TravelSafe updated 2025-12-13
+- **Date accessed**: 2026-06-23
+- **Used by**: Georgia
+- **Facts supporting**: Georgia comfort / safety screening proxy: 2025 Global Peace Index score 2.185, TravelSafe safety index 63, low risk labels, Tbilisi/Batumi generally safe, Abkhazia and South Ossetia avoidance, and transport/road/night caution (claim-georgia-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-23
+
+## src-776
+- **Title**: EF English Proficiency Index Georgia
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/georgia/
+- **Archive**: direct HTML extraction used; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: 2025-11-01
+- **Date accessed**: 2026-06-23
+- **Used by**: Georgia
+- **Facts supporting**: Georgia section 5.8 English-proficiency baseline: global rank #35, EF EPI score 541, Tbilisi score 550, and Batumi score 544 (claim-georgia-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-23
