@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
 
 # INDEX
@@ -26,7 +26,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Slovenia | eu-schengen | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 182 | `countries/slovenia.md` |
 | Montenegro | europe-non-eu | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 183 | `countries/montenegro.md` |
 | Serbia | europe-non-eu | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 184 | `countries/serbia.md` |
-| Turkey | europe-non-eu | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 145 | `countries/turkey.md` |
+| Turkey | europe-non-eu | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 185 | `countries/turkey.md` |
 | Georgia | europe-non-eu | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 146 | `countries/georgia.md` |
 | Albania | balkans-east | 2 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 147 | `countries/albania.md` |
 | North Macedonia | balkans-east | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 156 | `countries/north-macedonia.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 6.67
+- **Average depth_score**: 6.74

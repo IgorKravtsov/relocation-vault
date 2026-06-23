@@ -1,13 +1,13 @@
 ---
 country: Turkey
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-17T19:02:21Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-23T00:09:08Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent", "turkey-self-employment-and-sgk-fit-gap", "istanbul-rent-pressure", "turkey-one-income-margin-risk", "turkey-private-insurance-quote-gap", "turkey-international-school-cost-risk"]
-sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163", "src-359", "src-360", "src-361", "src-362", "src-363", "src-364", "src-533", "src-534", "src-535", "src-536", "src-671", "src-672", "src-673", "src-674", "src-675"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent", "turkey-self-employment-and-sgk-fit-gap", "istanbul-rent-pressure", "turkey-one-income-margin-risk", "turkey-private-insurance-quote-gap", "turkey-international-school-cost-risk", "turkish-language-integration-needed", "turkey-earthquake-and-border-security-risk"]
+sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163", "src-359", "src-360", "src-361", "src-362", "src-363", "src-364", "src-533", "src-534", "src-535", "src-536", "src-671", "src-672", "src-673", "src-674", "src-675", "src-773", "src-774"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Turkey is easy to enter for Ukrainians and has an official digital-nomad / remote-work channel, but the route sits exactly at the couple's current ~$3,000/month income and long-term settlement depends on ordinary Turkish residence rather than an EU-style Ukraine temporary-protection bridge.
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-17T19:02:21Z
-- **Tier rationale**: Not assigned until taxes, cost, healthcare, rent, and actual residence-renewal practice are researched.
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-23T00:09:08Z
+- **Tier rationale**: Not assigned until risk dimensions, bureaucracy/practicality, and actual residence-renewal / long-term practice are researched.
 
 ## Block 2 — Scoring
 
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | 40 m2 1BR proxies are workable in Izmir/Antalya but Istanbul is rent-pressured; live listings and lease/address-registration support remain later checks. | §5.5 |
 | Healthcare | — | medium | Public/SGK and health-insurance baselines opened, but exact private policy quotes, maternity/newborn exclusions, and route-specific SGK onboarding remain application-prep gaps. | §5.6 |
 | Education (future child) | — | medium | Public 12-year compulsory school structure, free public pre-primary institutions, and Istanbul international-school fee benchmarks captured; Turkish-language integration remains the practical issue. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Turkey is comfortable in Istanbul/Izmir/Antalya for services and infrastructure, but safety is uneven by region, English is limited outside tourist/business contexts, and earthquake/border risks matter. | §5.8 |
+| Fit for couple with single income | — | medium | Partner planning works best through marriage/family residence or independent status; one-income feasibility remains tight because the DN threshold, tax, rent, insurance, and future schooling all compete for the same USD 3,000/month. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -184,13 +184,29 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 
 **Education verdict:** public education is the only budget-realistic baseline for a future child. Turkey passes first-pass education screening, but add `turkey-international-school-cost-risk`: English-language international schooling in Istanbul can consume or exceed the entire annual disposable margin, so the family must be comfortable with Turkish-language integration or confirm a much cheaper city/private-school option.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening at medium confidence. Safety proxies, English-proficiency data, city-comfort tradeoffs, infrastructure notes, and Turkish-language/adaptation caveats are now captured. This is not a final city-selection pass; neighborhood security, earthquake exposure, current protest/security advice, and residence-open district lists remain application-prep checks.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+- **Safety baseline**: WPR / TravelSafe proxies make Turkey materially less quiet than the recent Balkan and EU screens: the 2025 Global Peace Index score is **2.852**, Global Terrorism Index is **3.968**, TravelSafe safety index is **45**, and risk level is **Medium**; US News safest-country rank is #43. TravelSafe's city/travel framing says Istanbul and the main tourist/service corridors are safer than areas near the Syria, Iraq, or Iran borders, but still treats the country as medium risk even in safer areas. [src-773] Confidence: medium.
+- **Practical safety caveats**: TravelSafe flags medium overall risk, border-region caution, transport/taxi and scam/pickpocket issues, and earthquake risk; it also says the unified emergency number is **112**. For this couple, the practical baseline is to live in a mainstream western/coastal city, avoid border-adjacent regions, check earthquake standards in rentals, and keep political/protest risk as a live check. [src-773] Confidence: medium.
+- **English and language**: EF's 2025 Turkey page gives **global rank #71** and **EF EPI score 488**, with city scores of Izmir 515, Antalya 510, Ankara 508, and Istanbul 504. This is enough English for tourism, some private services, and major-city expat contexts, but it is not enough to run bureaucracy, leases, public healthcare, or school integration comfortably without Turkish help. [src-774] Confidence: medium.
+- **Day-to-day adaptation**: Expat Arrivals describes Turkey as affordable for foreign-currency earners but increasingly pressured by inflation and dollar inflation, with imported goods, electronics, cars, alcohol, and fuel expensive. It also warns that more than 1,100 neighborhoods have been closed to new foreign residence permits and that many landlords demand six to twelve months of rent upfront from foreigners. Treat housing/address selection as both a comfort issue and a legal-file issue. [src-774] Confidence: medium.
+- **City comfort screen**: Izmir remains the first lifestyle screen because it combines lower rent than Istanbul, Aegean climate, and one of the highest captured EF city scores; Antalya is the warm-coast option but needs tourist-season lease caution; Istanbul is the services, airport, diaspora, and private-school hub, but is the rent/crowding/risk-pressure case. [src-535][src-536][src-773][src-774]
 
-[verification required]
+**Comfort verdict:** Turkey passes first-pass comfort screening only with city discipline. Choose Izmir first, Antalya second if warm winters dominate, and Istanbul only for a clear legal/community/service reason. Add `turkish-language-integration-needed` and `turkey-earthquake-and-border-security-risk` to the risk map.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
+
+> **DoD status**: passed for first-pass screening at medium confidence. The partner baseline is now explicit: marriage/family residence is the conservative dependent route; otherwise she needs her own entry/residence basis. Remote Ukrainian study can continue practically, but it does not by itself create a Turkish residence right in the captured evidence.
+
+- **Dependent / family baseline**: Turkey has a family-residence category under the official residence-permit framework, but the vault has not captured an unmarried-partner rule. For planning, assume the safest route is marriage before depending on family residence; without marriage, the woman should have her own lawful stay/residence plan. [src-145][src-147] Confidence: medium.
+- **Digital-nomad route interaction**: The male partner's DN path is exactly income-gated at **USD 3,000/month or USD 36,000/year** and requires a university-graduate document plus foreign employment or freelancer-project evidence. This can sponsor the overall plan only if the income is stable above threshold, bankable, and not eroded by tax, SGK/GSS, insurance, and rent. [src-148][src-360][src-362] Confidence: medium-high for the threshold, medium for household feasibility.
+- **Student status / remote study**: Continuing a Ukrainian remote degree is practically compatible with living in Turkey, but this pass did not capture a Turkish residence category based solely on foreign remote study. If she wants an independent Turkish status, the next realistic options are her own study/work/business route or ordinary residence advice; do not treat Ukrainian online study as a residence basis. [src-145] Confidence: medium.
+- **Work possibility**: Expat Arrivals notes that local employment is difficult because sponsorship normally involves Turkish-labor constraints, while remote workers can use the DN route if they meet the age/income/profile requirements; working without the correct permit is illegal and can create deportation risk. For the partner, any future local work should be checked as a work-permit case rather than assumed from family residence. [src-774] Confidence: medium.
+- **One-income budget fit**: The single-income plan is fragile. Turkey's rent/cost screen can work in Izmir or Antalya, but the DN gate consumes the full stated USD 3,000/month gross, the conservative tax section leaves roughly **USD 2,162/month PIT-only** or **USD 1,870/month with SGK sensitivity**, private health insurance is still unpriced, and international schooling is not budget-realistic. [src-364][src-535][src-536][src-671][src-675]
+
+**Partner verdict:** Turkey can work for the couple only if the male partner clearly qualifies for DN/ordinary residence and the woman uses marriage-based family residence or an independent status. Keep marriage as the conservative planning baseline, keep Izmir/Antalya as the budget cities, and treat the one-income margin as tight rather than comfortable.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -216,11 +232,11 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 
 - **Can relocate now**: likely yes for entry and first filing, but only with a verified residence strategy; do not rely on tourism stay alone.
 - **Best legalization path for the man**: Turkey digital-nomad / remote-work route if he can document at least $3,000/month or $36,000/year; otherwise ordinary residence/self-employment requires a legal/tax pass.
-- **Best legalization path for the woman**: likely dependent/family route after marriage, or independent education/residence route later; unmarried-partner status not confirmed.
-- **Does marriage change the picture**: likely yes; use marriage as the conservative baseline for dependent planning until official unmarried-partner treatment is verified.
+- **Best legalization path for the woman**: dependent/family route after marriage, or an independent Turkish status; Ukrainian remote study alone is not a captured residence basis. [src-145]
+- **Does marriage change the picture**: yes for conservative planning; use marriage before relying on dependent/family residence because unmarried-partner treatment was not captured. [src-145]
 - **Realism of staying after 03.2027**: medium/uncertain; Turkey avoids EU TP expiry mechanics but depends on ordinary residence renewals and an eight-year long-term-residence clock. [src-154]
 - **Best cost/rent city screen**: Izmir first for services/cost/climate balance; Antalya if mild winters matter most and tourist-season lease risk is controlled; Istanbul only with a strict housing cap because it is the captured rent-pressure case. [src-534][src-535][src-536]
-- **Healthcare/education screen**: healthcare is feasible but quote/onboarding-sensitive; public education is the budget baseline, while Istanbul international-school fees are not compatible with a one-income USD 3,000/month plan. [src-671][src-672][src-673][src-674][src-675]
+- **Healthcare/education/comfort screen**: healthcare is feasible but quote/onboarding-sensitive; public education is the budget baseline, while Istanbul international-school fees are not compatible with a one-income USD 3,000/month plan. Comfort is best screened through Izmir or Antalya; Istanbul is services-rich but rent/crowding-pressured, and Turkish language support is important. [src-671][src-672][src-673][src-674][src-675][src-773][src-774]
 
 **Pros**:
 - Easy regional access and likely simple entry baseline for Ukrainians.
@@ -231,7 +247,7 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 - $3,000/month DN threshold is exactly at the couple's current income, leaving little margin.
 - No captured Ukraine-specific TP bridge or protection equivalent.
 - Long-term residence / citizenship pathway needs article-level verification.
-- Currency, inflation, rent, private-health-insurance / SGK onboarding, international-school costs, and exact SGK/VAT tax impacts remain material unresolved risks.
+- Turkish-language bureaucracy, earthquake/border-region risk, currency, inflation, rent, private-health-insurance / SGK onboarding, international-school costs, and exact SGK/VAT tax impacts remain material unresolved risks.
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -246,7 +262,7 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 
 ### 6c. First 3–6 months
 - Verify tax residency, SGK / Bag-Kur registration, VAT / export-of-services treatment, and whether the DN or ordinary-residence status permits the chosen foreign-client IT tax structure. [src-359][src-361][src-362][src-363]
-- Decide whether marriage is needed for dependent residence.
+- Decide whether marriage is needed for dependent residence; current conservative baseline is marriage or a separate independent status for the woman. [src-145]
 
 ### 6d. Before March 2027 (critical deadline)
 - Turkey should be treated as an ordinary-residence plan, not as EU TP continuation. Have a Turkish residence route active before relying on Turkey long-term.
@@ -272,6 +288,7 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 - Immigration lawyers: TBD.
 - Ukrainian / Russian-speaking diaspora: TBD.
 - Official filing portals: Presidency of Migration Management / e-ikamet [src-145][src-147]; GoTurkey digital-nomad portal [src-148].
+- Practical city/language screen: use Izmir or Antalya first unless Istanbul services are needed; budget for Turkish-language help for leases, immigration appointments, public services, healthcare, and school enrollment. [src-774]
 
 ## Block 7 — Sources
 
@@ -309,6 +326,8 @@ _(none yet)_
 - [src-162] WeatherSpark — Istanbul cloud-cover / clearer-sky percentages.
 - [src-163] WeatherSpark — Izmir cloud-cover / clearer-sky percentages.
 - [src-675] International Schools Database — Istanbul international schools.
+- [src-773] World Population Review / TravelSafe Turkey safety proxies.
+- [src-774] EF EPI Turkey and Expat Arrivals Turkey adaptation overview.
 
 ### 7e. Official primary healthcare
 - [src-671] SGK Turkey Social Security Institution / General Health Insurance public site.

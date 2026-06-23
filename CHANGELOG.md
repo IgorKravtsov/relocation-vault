@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
+
+## 2026-06-23 — run-185 — Turkey comfort/partner fit
+
+- Completed Turkey sections 5.8 and 5.9 for screening by adding safety, earthquake/border-risk, English/Turkish-language integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-773`, `src-774`) and two Turkey claims (`claim-turkey-023`, `claim-turkey-024`).
+- Turkey depth_score moved from 5.5 to 8.0; added `turkish-language-integration-needed` and `turkey-earthquake-and-border-security-risk` as practical fit flags.
 
 ## 2026-06-22 — run-184 — Serbia comfort/partner fit
 

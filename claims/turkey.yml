@@ -197,3 +197,22 @@
   confidence: medium
   tags: [education, international-school, istanbul, turkey]
   notes: "Used to add turkey-international-school-cost-risk; international schooling is not the default budget baseline."
+
+
+- id: claim-turkey-023
+  topic: turkey_comfort_safety_english_screen
+  value: "Turkey comfort screening is mixed: WPR / TravelSafe proxies give 2025 Global Peace Index 2.852, Global Terrorism Index 3.968, TravelSafe safety index 45 / Medium risk, and EF EPI score 488 / global rank #71, with Izmir 515, Antalya 510, Ankara 508, and Istanbul 504."
+  source: src-773
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [comfort, safety, english, turkey]
+  notes: "Composite comfort claim using src-773 for safety and src-774 for EF EPI / adaptation context; used to pass section 5.8 for screening."
+
+- id: claim-turkey-024
+  topic: turkey_partner_one_income_screen
+  value: "For the student partner, marriage/family residence is the conservative dependent baseline because unmarried-partner treatment was not captured; Ukrainian remote study is not a captured Turkish residence basis, and the one-income plan remains tight due to the DN threshold, tax/SGK sensitivity, rent, insurance, and schooling costs."
+  source: src-145
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [partner, family-residence, one-income, turkey]
+  notes: "Composite partner-fit claim using official residence framework plus existing Turkey DN, tax, rent, healthcare, education, and Expat Arrivals context."

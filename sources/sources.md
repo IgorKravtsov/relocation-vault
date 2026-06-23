@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-22
+last_updated: 2026-06-23
 ---
 
 # Sources Registry
@@ -9313,3 +9313,28 @@ Each source entry:
 - **Facts supporting**: Serbia English-proficiency / language-adaptation baseline: EF EPI score 578, global rank #25, regional and city scores, English as widely spoken second language, and Serbian / Cyrillic usefulness for everyday activities (claim-serbia-024)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-22
+
+
+## src-773
+- **Title**: World Population Review / TravelSafe Turkey safety proxies
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/turkey/
+- **Archive**: stable pages via direct HTML / Jina text-mirror extraction; archive not captured
+- **Type**: commercial
+- **Date published**: WPR 2026 table current; TravelSafe published 2025-08-27
+- **Date accessed**: 2026-06-23
+- **Used by**: Turkey
+- **Facts supporting**: Turkey comfort / safety screening proxy: 2025 Global Peace Index score 2.852, Global Terrorism Index 3.968, TravelSafe safety index 45 / Medium risk, US News safest-country rank #43, 112 emergency number, Istanbul/main tourist corridors safer than Syria/Iraq/Iran border areas, and earthquake / transport / scam caveats (claim-turkey-023)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-23
+
+## src-774
+- **Title**: EF English Proficiency Index Turkey / Expat Arrivals moving-to-Turkey adaptation overview
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/turkey/ ; https://www.expatarrivals.com/europe/turkey/moving-turkey
+- **Archive**: stable pages via Jina text mirror / direct extraction; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: EF page published 2026-06-16; Expat Arrivals current page, no explicit page date shown
+- **Date accessed**: 2026-06-23
+- **Used by**: Turkey
+- **Facts supporting**: Turkey English-proficiency / adaptation baseline: EF EPI global rank #71, score 488, city scores Izmir 515, Antalya 510, Ankara 508, Istanbul 504; Expat Arrivals notes residence-closed neighborhoods, landlord upfront-rent demands, foreign-currency affordability with dollar inflation, private healthcare / insurance need, Turkish-language school barrier, and remote-worker / DN practicality (claim-turkey-023, claim-turkey-024)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-23
