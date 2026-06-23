@@ -1,26 +1,27 @@
 {
   "version": 2,
-  "iteration": 191,
+  "iteration": 192,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-23T19:03:25Z",
+  "last_run_timestamp": "2026-06-23T22:09:00Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Portugal",
+    "country": "North Macedonia",
     "sections": [
+      "5.8",
       "5.9"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "North Macedonia",
+    "suggested_country": "Bosnia and Herzegovina",
     "suggested_sections": [
       "5.8",
       "5.9"
     ],
-    "reason": "Verification queue remains below threshold; Portugal reached depth 7.0, so rotate to the next lowest-depth country in INDEX order and continue comfort/partner coverage."
+    "reason": "Verification queue remains below threshold; North Macedonia reached depth 8.0, so rotate to the next lowest-depth country in INDEX order and continue comfort/partner coverage."
   },
   "countries": {
     "Spain": {
@@ -683,12 +684,14 @@
     "North Macedonia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 5.5,
+      "depth_score": 8.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
-        "5.7"
+        "5.7",
+        "5.8",
+        "5.9"
       ],
       "sections_partial": [
         "5.1",
@@ -696,8 +699,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.8",
-        "5.9",
         "5.10",
         "5.11"
       ],
@@ -710,9 +711,11 @@
         "north-macedonia-foreign-client-vat-fit-gap",
         "skopje-rent-pressure",
         "north-macedonia-private-insurance-quote-gap",
-        "north-macedonia-international-school-cost-risk"
+        "north-macedonia-international-school-cost-risk",
+        "macedonian-language-integration-needed",
+        "north-macedonia-one-income-margin-risk"
       ],
-      "last_iteration": 156,
+      "last_iteration": 192,
       "unverified_count": 0
     },
     "Bosnia and Herzegovina": {
@@ -1180,7 +1183,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 783,
-  "claims_count": 694,
+  "sources_count": 785,
+  "claims_count": 696,
   "proposals_pending": 0
 }

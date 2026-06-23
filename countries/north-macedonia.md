@@ -1,13 +1,13 @@
 ---
 country: North Macedonia
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-19T06:06:57Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-23T22:09:00Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["official-ukraine-entry-table-gap", "no-dedicated-digital-nomad-visa", "ordinary-residence-route-needs-fit-check", "no-captured-ukraine-protection-bridge", "north-macedonia-self-employed-contribution-base-gap", "north-macedonia-foreign-client-vat-fit-gap", "skopje-rent-pressure", "north-macedonia-private-insurance-quote-gap", "north-macedonia-international-school-cost-risk"]
-sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212", "src-413", "src-414", "src-415", "src-416", "src-417", "src-557", "src-558", "src-559", "src-560", "src-697", "src-698", "src-699", "src-700"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["official-ukraine-entry-table-gap", "no-dedicated-digital-nomad-visa", "ordinary-residence-route-needs-fit-check", "no-captured-ukraine-protection-bridge", "north-macedonia-self-employed-contribution-base-gap", "north-macedonia-foreign-client-vat-fit-gap", "skopje-rent-pressure", "north-macedonia-private-insurance-quote-gap", "north-macedonia-international-school-cost-risk", "macedonian-language-integration-needed", "north-macedonia-one-income-margin-risk"]
+sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212", "src-413", "src-414", "src-415", "src-416", "src-417", "src-557", "src-558", "src-559", "src-560", "src-697", "src-698", "src-699", "src-700", "src-785", "src-786"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to an ordinary-residence / work-or-self-employment file rather than a dedicated digital-nomad route. The country is promising as a low-cost Balkan base, but the post-2027 Ukrainian protection baseline and foreign-client IT residence fit still need primary-source verification.
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-19T06:06:57Z
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-23T22:09:00Z
 - **Tier rationale**: Not assigned yet; legalization remains partial.
 
 ## Block 2 — Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | 8 | medium | 40 m2 1BR proxies are about $378/$294 in Skopje, $242/$161 in Ohrid, and $251/$180 in Bitola; 80 m2 3BR stress proxies remain mostly below $700. | §5.5 |
 | Healthcare | 6 | medium | Public FZO-linked coverage and low private-care price proxies screen positively, especially in Skopje, but exact route-compliant insurance, maternity/newborn wording, and public onboarding by residence/tax status remain open. | §5.6 |
 | Education (future child) | 6 | medium | Public schooling is free but Macedonian/Albanian-medium; Skopje has QSI/NOVA/international-school options around EUR 4,000-8,000/year, which is cheaper than Western Europe but still a one-income risk. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | 6 | medium | Safety screens as manageable rather than carefree: WPR gives a 2025 GPI of 1.799 and TravelSafe-derived index 55 / Low, while local-language bureaucracy, Skopje service concentration, and winter/air-quality comfort keep the score moderate. | §5.8 |
+| Fit for couple with single income | 6 | medium | Low rent/costs help, but the main route is an unproven real self-employment/company-backed file; marriage is the conservative partner baseline, remote Ukrainian study is not a residence basis, and the tax downside net leaves little room for Skopje international school/private insurance. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -188,13 +188,36 @@ North Macedonia is education-viable if the couple is comfortable with either loc
 
 **Education verdict**: §5.7 passes at medium confidence. Public education is cost-safe but local-language; private/international schooling is available mainly in Skopje and screens around EUR 4,000-8,000/year, which is feasible only if rent, tax, healthcare, and immigration costs stay controlled. If a future child becomes a near-term constraint, shortlist Skopje first, then verify QSI/NOVA tuition, registration fees, transport/meal costs, age placement, language support, and school-bus areas before choosing housing; these are application-prep checks, not screening blockers. [src-699][src-700]
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. This pass uses WPR / TravelSafe-derived safety proxies, EF English-proficiency data, and existing cost/rent/healthcare/education evidence. It is not a final city-selection pass; live neighborhood safety, winter air quality, road practice, community depth, and landlord/provider checks remain application-prep work.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+North Macedonia is a manageable but local-language Balkan base rather than an English-first relocation environment. World Population Review's 2026 safety table gives North Macedonia a 2025 Global Peace Index score of **1.799** and a TravelSafe-derived safety index of **55 / Low** [src-785]. This screens better than many Latin America or high-crime options, but it does not remove ordinary urban risks, road-safety friction, or bureaucracy/language burdens.
 
-[verification required]
+| Dimension | Evidence captured | Practical meaning for the couple |
+|---|---|---|
+| Safety / security | WPR reports GPI 1.799 for 2025, versus 1.764 in 2024 and 1.713 in 2023, plus a TravelSafe-derived index of 55 / Low [src-785]. | Safe enough for screening, especially in Skopje/Ohrid/Bitola, but not a zero-risk country. Use neighborhood checks, avoid assuming tourist-area safety equals long-term residential safety, and keep normal Balkan road/street-crime caution. |
+| Language | EF EPI gives North Macedonia an English score of **595**, above the global average **488**, and shows a European ranking of **#17** on the captured country page [src-786]. | English is a useful asset in younger/professional circles, private healthcare, international schools, and some business services, but Macedonian remains essential for government offices, leases, tax/accountant work, public schools, and daily integration. |
+| Infrastructure and cities | Existing cost/rent and healthcare evidence makes Skopje the practical filing/service base; Ohrid and Bitola are lower-cost climate/budget fallbacks but have weaker international-school, specialist healthcare, lawyer/accountant, and airport depth [src-558][src-559][src-560][src-698][src-699]. | Start screening in Skopje for bureaucracy, banking, healthcare, and schools; use Ohrid/Bitola only if the legal/tax structure is already solved and smaller-city service limits are acceptable. |
+| Climate comfort | Section 5.2 already shows low muggy-day burden and strong clearer-sky proxies, but cold winters, Skopje summer heat, and winter air-stagnation comfort remain practical risks [src-210][src-211][src-212]. | The country fits a low-humidity / sunny preference better than humid tropical options, but it is not a warm-year-round base. Ohrid/Bitola can be more comfortable than Skopje in summer; winter still needs heating and air-quality checks. |
+
+**Comfort verdict**: North Macedonia passes §5.8 at medium confidence. It is a practical low-cost Balkan base with decent safety proxies, relatively strong English-proficiency data for the region, and a clear Skopje service hub. The tradeoff is that long-term daily life still requires Macedonian-language adaptation, careful local-provider selection, and acceptance that legal/tax/healthcare/school services are concentrated in Skopje. Add `macedonian-language-integration-needed` as a live risk flag. [src-785][src-786]
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
+
+> **DoD status**: passed for first-pass screening. This section does not prove a spouse/dependent checklist from the Ministry of Interior. It establishes the safe planning baseline from the already captured temporary-residence purposes, self-employment/company route, cost/tax/healthcare/education evidence, and the couple's facts.
+
+The student partner can be practically accommodated in North Macedonia only if she has her own lawful status or is included through a family route tied to the IT partner's ordinary residence file. The captured residence baseline includes family reunification as a temporary-residence purpose [src-206], but the candidate work/self-employment route is still an evidence-heavy local self-employment/company/work-permit file rather than a digital-nomad family package [src-207][src-208]. For screening, marriage is the conservative dependent baseline; do **not** assume an unmarried partner can be attached without a current Ministry of Interior or lawyer confirmation.
+
+| Need | Screening baseline | Couple-specific implication |
+|---|---|---|
+| Partner residence | Temporary residence purposes include family reunification [src-206], but the exact family-file checklist, income/accommodation proof, and unmarried-partner treatment were not captured. | If North Macedonia remains a candidate, plan around marriage or independent status unless counsel confirms durable-partner recognition for the chosen route. |
+| Main sponsor route | The IT partner's plausible path is a real self-employment/company/work-permit file, not a fixed-income DN visa [src-207][src-208]. | The partner plan depends on the man's residence file being approved first or filed together; if the self-employment/company route fails, her derivative plan also fails. |
+| Remote Ukrainian study | No captured source makes remote Ukrainian university enrollment a North Macedonian residence basis. | She can continue studying online only after securing another lawful status; do not treat Ukrainian remote study as a visa strategy. |
+| Work later | Work/self-employment residence exists conceptually [src-206][src-207], but student/dependent work-rights were not captured. | If she later works, verify whether she needs her own work permit, self-employment file, or employer-backed status; do not assume automatic work rights from dependency. |
+| One-income budget | Low rent/costs help, but the tax downside stress-test leaves about USD 1,860-1,944/month before accountant, insurance, immigration, and school costs [src-417]. | The couple can screen Ohrid/Bitola comfortably and Skopje with a cap only if the tax/legal route works; private insurance and any future international-school costs create `north-macedonia-one-income-margin-risk`. |
+
+**Partner verdict**: North Macedonia is viable for the student partner only as a legal add-on to the main ordinary-residence plan, not as a standalone student/remote-study solution. The safest planning sequence is: confirm the man's self-employment/company residence route with counsel, confirm whether a spouse can be included and what income/accommodation proof is required, marry if that materially improves eligibility, then keep her Ukrainian remote study as an activity rather than a status basis. [src-206][src-207][src-417]
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -218,10 +241,10 @@ North Macedonia is education-viable if the couple is comfortable with either loc
 
 ## Block 5 — Practical verdict
 
-- **Can relocate now**: Possibly for scouting / short stay, but current Ukrainian entry duration and ordinary residence mechanics must be verified before relocation. Cost/rent now screens as favorable; Skopje is the practical first base for bureaucracy, healthcare, and international schooling, while Ohrid/Bitola remain lower-cost fallbacks if healthcare/school needs are modest.
+- **Can relocate now**: Possibly for scouting / short stay, but current Ukrainian entry duration and ordinary residence mechanics must be verified before relocation. Cost/rent and comfort now screen as favorable for a low-cost Balkan base; Skopje is the practical first base for bureaucracy, healthcare, and international schooling, while Ohrid/Bitola remain lower-cost fallbacks if healthcare/school needs are modest.
 - **Best legalization path for the man**: Candidate path is self-employment / company-backed ordinary temporary residence; not yet proven for foreign-client remote IT.
-- **Best legalization path for the woman**: Unknown; assume marriage or independent eligibility until family reunification / partner rules are verified.
-- **Does marriage change the picture**: Likely yes for conservative dependent planning, but exact family route still needs verification.
+- **Best legalization path for the woman**: Conservative baseline is spouse/family inclusion in the man's ordinary residence file or an independent status; remote Ukrainian study is practical only after she has lawful residence and is not a captured status basis by itself.
+- **Does marriage change the picture**: Yes for conservative planning: marriage should be assumed necessary unless counsel confirms durable-partner recognition for the chosen self-employment/company route.
 - **Realism of staying after 03.2027**: Unclear / medium-low until ordinary self-employment residence and PR counting are confirmed.
 
 **Pros**:
@@ -234,6 +257,7 @@ North Macedonia is education-viable if the couple is comfortable with either loc
 - No captured dedicated digital-nomad visa.
 - No current Ukraine temporary-protection bridge is captured; ordinary residence must be the plan.
 - Self-employment route may require a real local business/employment-permit file rather than simple foreign-client remote work.
+- Macedonian-language integration is needed for government offices, leases, taxes, public schools, and routine bureaucracy despite relatively good EF English-proficiency data. [src-786]
 - Skopje is still budget-manageable, but the conservative tax/contribution stress-test means the couple should cap housing and avoid assuming capital-city comfort on one income.
 - Private insurance, maternity/newborn coverage, and international-school fees can erode the budget if the tax downside model applies. [src-698][src-699]
 
@@ -252,7 +276,7 @@ North Macedonia is education-viable if the couple is comfortable with either loc
 
 ### 6c. First 3–6 months
 - Decide whether to set up a local sole-proprietor/company structure or use another country as the main legal base.
-- If the partner needs derived status, verify whether marriage is required and what income/accommodation proof is needed.
+- If the partner needs derived status, verify whether marriage is required, whether durable partnership is recognized, what income/accommodation proof is needed, and whether she receives work rights or must file separately later.
 
 ### 6d. Before March 2027 (critical deadline)
 - Treat Ukrainian protection as unverified backup, not the main strategy.
@@ -277,7 +301,7 @@ North Macedonia is education-viable if the couple is comfortable with either loc
 
 ### 6g. Contact points and communities
 - Invest North Macedonia aftercare contact for investor / company-linked permit support: `aftercare@invest.gov.mk` / `aftercare@investnorthmacedonia.gov.mk` as listed by the agency [src-207].
-- Immigration lawyers / Ukrainian communities: TBD.
+- Immigration lawyers / Ukrainian communities: TBD. Prioritize Skopje-based counsel because the ordinary self-employment/company file, family inclusion, tax registration, banking, healthcare, and school checks are all Skopje-service-heavy.
 
 ## Block 7 — Sources
 
@@ -305,6 +329,8 @@ _(none yet)_
 - Livingcost North Macedonia country / Skopje / Ohrid / Bitola cost and rent pages [src-557][src-558][src-559][src-560]
 - ExpatLife North Macedonia healthcare and education guides [src-698][src-699]
 - QSI International School of Skopje and NOVA International School Skopje public websites [src-700]
+- World Population Review / TravelSafe-derived safety proxies [src-785]
+- EF English Proficiency Index North Macedonia [src-786]
 
 ### 7e. Not found
 - Official North Macedonia country-specific Ukraine visa table was not cleanly captured; recheck before travel, but `vq-064` is closed for screening.
@@ -314,6 +340,7 @@ _(none yet)_
 - Official PR/citizenship counting rules were not extracted.
 - Healthcare application-prep gaps remain: route-compliant private insurance quotes, maternity/newborn terms, exact FZO onboarding by residence/tax status, and selected-city provider checks (`vq-144`).
 - Education application-prep gaps remain: exact QSI/NOVA/international-school tuition, registration/transport/meal fees, private preschool prices, and non-Skopje school availability (`vq-145`).
+- Comfort / partner application-prep gaps remain: live neighborhood safety, winter air-quality checks, landlord/address-registration acceptance, spouse/dependent checklist, unmarried-partner treatment, sponsor income/accommodation proof, and student/dependent work-right rules.
 
 ## Block 8 — Open questions and verification markers
 
@@ -321,3 +348,4 @@ _(none yet)_
 - `vq-107` resolved in run-087: North Macedonia self-employed / company-manager tax fit is closed for screening using the existing PIT-only and contribution-stress baselines; exact registration, contribution, VAT, and immigration fit remain application-prep checks.
 - `vq-144` — North Macedonia route-compliant health-insurance quotes, maternity/newborn terms, exact FZO onboarding by final residence/tax status, and Skopje/Ohrid/Bitola private-care price/provider checks.
 - `vq-145` — North Macedonia exact QSI/NOVA/international-school tuition, registration/transport/meal fees, private preschool prices, and school availability outside Skopje.
+- No new verification queue item added in run-192: comfort and partner fit are screenable; route-specific family/dependent details remain application-prep checks tied to the existing ordinary-residence route gap.

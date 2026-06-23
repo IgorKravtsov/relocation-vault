@@ -2485,7 +2485,7 @@ Each source entry:
 - **Date published**: unknown
 - **Date accessed**: 2026-06-02
 - **Used by**: North Macedonia
-- **Facts supporting**: D visa / temporary residence sequence, work and residence permit categories, and temporary residence purposes including work, study, family reunification, humanitarian reasons, and other legal bases (claim-north-macedonia-002)
+- **Facts supporting**: D visa / temporary residence sequence, work and residence permit categories, and temporary residence purposes including work, study, family reunification, humanitarian reasons, and other legal bases (claim-north-macedonia-002, claim-north-macedonia-021)
 - **Confidence ceiling**: medium-high
 - **Stale at**: 2026-12-02
 
@@ -9456,5 +9456,29 @@ Each source entry:
 - **Date accessed**: 2026-06-23
 - **Used by**: Panama
 - **Facts supporting**: Panama English-proficiency / language-integration screen: global rank #70, EF EPI score 491, reading 511, listening 476, writing 455, speaking 452 (claim-panama-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-23
+
+## src-785
+- **Title**: World Population Review — Safest Countries in the World 2026 / TravelSafe-derived North Macedonia safety fields
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026-06-16
+- **Date accessed**: 2026-06-23
+- **Used by**: North Macedonia
+- **Facts supporting**: North Macedonia comfort / safety screening proxy: 2025 Global Peace Index score 1.799, 2024 GPI 1.764, 2023 GPI 1.713, and TravelSafe-derived safety index 55 / Low (claim-north-macedonia-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-16
+
+## src-786
+- **Title**: EF English Proficiency Index — North Macedonia
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/north-macedonia/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 edition page, no separate page date captured
+- **Date accessed**: 2026-06-23
+- **Used by**: North Macedonia
+- **Facts supporting**: North Macedonia English-proficiency / language-integration screen: EF EPI score 595, global average score 488, and European ranking #17 on the captured country page (claim-north-macedonia-020)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-23

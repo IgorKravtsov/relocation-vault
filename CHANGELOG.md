@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-23
 ---
 
+## 2026-06-23 — run-192 — North Macedonia comfort/partner fit
+
+- Completed North Macedonia sections 5.8 and 5.9 for screening by adding safety, English/Macedonian-language integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-785`, `src-786`) and two North Macedonia claims (`claim-north-macedonia-020`, `claim-north-macedonia-021`).
+- North Macedonia depth_score moved from 5.5 to 8.0; added `macedonian-language-integration-needed` and `north-macedonia-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-23 — run-191 — Portugal partner fit
 
 - Completed Portugal section 5.9 for screening by adding TP-vs-D8 partner options, D8 spouse / long-term-partner document baseline, remote-study limits, work-right caveats, and one-income sponsor arithmetic.

@@ -169,3 +169,21 @@
   confidence: medium
   tags: [education, international-school, skopje, qsi, nova]
   notes: "Exact admissions, tuition, registration, transport, meal fees, and seat availability require direct school confirmation."
+
+- id: claim-north-macedonia-020
+  topic: comfort_safety_language_baseline
+  value: "World Population Review reports North Macedonia's 2025 Global Peace Index score as 1.799 and a TravelSafe-derived safety index of 55 / Low, while EF EPI reports an English score of 595 against a global average of 488 and European rank #17 on the captured country page."
+  source: src-785
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [comfort, safety, english-proficiency, adaptation]
+  notes: "EF English data is at src-786; use this as a screening baseline, not a substitute for neighborhood and local-language checks."
+
+- id: claim-north-macedonia-021
+  topic: partner_family_route_baseline
+  value: "For North Macedonia screening, the captured temporary-residence purposes include family reunification, so the student partner should be planned as a spouse/family add-on or independent-status applicant until a route-specific checklist proves wider unmarried-partner treatment."
+  source: src-206
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [partner, dependent, family-reunification, remote-study]
+  notes: "Self-employment/company route evidence is at src-207 and the tax stress-test FX claim at src-417; remote Ukrainian study is not a captured residence basis, and exact family checklist, sponsor proof, and work rights remain application-prep checks."
