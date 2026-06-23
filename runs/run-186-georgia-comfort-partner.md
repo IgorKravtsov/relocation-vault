@@ -60,7 +60,8 @@ schema_version: 2.0.0
 
 ## Commit / push status
 
-- Pending at run-log creation; completed after validation and git commit/push.
+- Completed after validation and git commit/push.
+- Protocol issue for human follow-up: the first commit (`aee20c5`) succeeded with repository/default identity `hermes <hermes@vmi3071242.contaboserver.net>` instead of the canonical one-shot Hermes identity. Per protocol, history was not amended or rewritten; this note records the issue.
 
 ## Open questions added
 
