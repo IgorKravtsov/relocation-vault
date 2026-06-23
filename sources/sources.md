@@ -9435,3 +9435,26 @@ Each source entry:
 - **Facts supporting**: Paraguay English-proficiency / adaptation baseline: EF EPI global rank #43, score 531, city scores Asuncion 563, Lambare 557, San Lorenzo 547; Spanish/Guarani official-language adaptation, bus/taxi and poor-road caveats, Asuncion private-care concentration, and Asuncion school concentration (claim-paraguay-021)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-23
+## src-783
+- **Title**: World Population Review — Safest Countries in the World 2026 / TravelSafe Abroad — Panama safety report
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/panama/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: WPR 2026-06-16; TravelSafe updated 2026-01-03
+- **Date accessed**: 2026-06-23
+- **Used by**: Panama
+- **Facts supporting**: Panama comfort/safety screen: GPI 2.006, WPR rank #52, TravelSafe-derived safety index 65 / Medium, TravelSafe overall risk Medium, transport/taxis Medium, pickpocket and mugging Low (claim-panama-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-01-03
+
+## src-784
+- **Title**: EF English Proficiency Index — Panama
+- **URL**: https://www.ef.com/wwen/epi/regions/latin-america/panama/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 edition page, no separate page date captured
+- **Date accessed**: 2026-06-23
+- **Used by**: Panama
+- **Facts supporting**: Panama English-proficiency / language-integration screen: global rank #70, EF EPI score 491, reading 511, listening 476, writing 455, speaking 452 (claim-panama-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-23

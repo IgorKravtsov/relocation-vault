@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 189,
+  "iteration": 190,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-23T12:49:14Z",
+  "last_run_timestamp": "2026-06-23T15:57:13Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Paraguay",
+    "country": "Panama",
     "sections": [
       "5.8",
       "5.9"
@@ -16,12 +16,11 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Panama",
+    "suggested_country": "Portugal",
     "suggested_sections": [
-      "5.8",
       "5.9"
     ],
-    "reason": "Pending/open verification queue remains below threshold; Paraguay reached 5.8/5.9 screening coverage, so rotate to another low-depth Tier-2-hint Latin America country for comfort/partner coverage."
+    "reason": "Pending/open verification queue remains below threshold; Panama reached 5.8/5.9 screening coverage, so rotate to the remaining low-depth Tier-1-hint country section before continuing lower-priority cohorts."
   },
   "countries": {
     "Spain": {
@@ -858,12 +857,14 @@
     "Panama": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 5.5,
+      "depth_score": 8.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
-        "5.7"
+        "5.7",
+        "5.8",
+        "5.9"
       ],
       "sections_partial": [
         "5.1",
@@ -871,8 +872,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.8",
-        "5.9",
         "5.10",
         "5.11"
       ],
@@ -884,9 +883,12 @@
         "panama-itbms-export-service-gap",
         "panama-city-rent-pressure",
         "panama-health-insurance-quote-gap",
-        "panama-international-school-cost-risk"
+        "panama-international-school-cost-risk",
+        "panama-spanish-language-integration-needed",
+        "panama-road-and-transport-risk",
+        "panama-one-income-margin-risk"
       ],
-      "last_iteration": 156,
+      "last_iteration": 190,
       "unverified_count": 0
     },
     "Mexico": {
@@ -1177,7 +1179,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 781,
-  "claims_count": 690,
+  "sources_count": 783,
+  "claims_count": 692,
   "proposals_pending": 0
 }

@@ -169,3 +169,21 @@
   confidence: medium
   tags: [education, international-school, bilingual-school, cost-proxy]
   notes: "ISP public pages at src-696 confirm admissions/placement/tuition-fees/legal-requirements anchors; exact live invoices remain practical-budget work."
+
+- id: claim-panama-020
+  topic: comfort_safety_screen
+  value: "Panama screens as medium rather than low-risk for comfort: WPR reports 2025 Global Peace Index 2.006 and rank #52, while TravelSafe labels overall Panama risk Medium with safety index 65."
+  source: src-783
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [comfort, safety, panama, screening]
+  notes: "Use as country-screening evidence only; final city/neighborhood safety still needs local checks."
+
+- id: claim-panama-021
+  topic: english_spanish_integration_baseline
+  value: "EF EPI places Panama at global rank #70 with score 491; English may help in private services, but Spanish remains the safe baseline for bureaucracy, leases, healthcare, schools, tax, and long-term residence work."
+  source: src-784
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [comfort, language, adaptation, spanish, english]
+  notes: "EF skill scores captured: reading 511, listening 476, writing 455, speaking 452."

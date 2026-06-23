@@ -1,13 +1,13 @@
 ---
 country: Panama
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-19T06:06:57Z
-sections_completed: ["5.2","5.4","5.5","5.7"]
+depth_score: 8.0
+last_updated: 2026-06-23T15:57:13Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season", "panama-territorial-tax-source-risk", "panama-itbms-export-service-gap", "panama-city-rent-pressure", "panama-health-insurance-quote-gap", "panama-international-school-cost-risk"]
-sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203", "src-444", "src-445", "src-446", "src-447", "src-448", "src-553", "src-554", "src-555", "src-556", "src-693", "src-694", "src-695", "src-696"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season", "panama-territorial-tax-source-risk", "panama-itbms-export-service-gap", "panama-city-rent-pressure", "panama-health-insurance-quote-gap", "panama-international-school-cost-risk", "panama-spanish-language-integration-needed", "panama-road-and-transport-risk", "panama-one-income-margin-risk"]
+sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203", "src-444", "src-445", "src-446", "src-447", "src-448", "src-553", "src-554", "src-555", "src-556", "src-693", "src-694", "src-695", "src-696", "src-783", "src-784"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests Panama is useful as a short-to-medium-term remote-work base because the official remote-worker visa fits exactly USD 3,000/month foreign-source income, but it is a non-resident short-stay route and not a clean permanent-residence/citizenship ladder by itself. [src-199]
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-19T06:06:57Z
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-23T15:57:13Z
 - **Tier rationale**: keep as Tier-2 hint only if a separate residence route can be made realistic. The likely long-term routes require a Panama employer/professional file, friendly-nations economic/professional activity, or investment/family facts not yet proven for this Ukrainian remote-IT couple. [src-198][src-200]
 
 ## Block 2 - Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 1BR proxies are about $794-$1,062 in Panama City, $302-$332 in David, and $387-$590 in Santiago; Panama City needs a strict cap, while David/Santiago fit the $3,000 gross and tax-downside budgets more comfortably. | §5.5 |
 | Healthcare | — | medium | Panama City screens well for private care: local private insurance proxy is about $100-$175/month, private GP visits about $40-$80, and top private hospitals have English-speaking international-patient support; Boquete/David need escalation planning for serious care. Route-compliant policy wording, maternity/newborn terms, and exact CSS/MINSA onboarding remain application-prep checks. | §5.6 |
 | Education (future child) | — | medium | Panama City has a strong international/bilingual school ecosystem but it is expensive: international K-12 proxies run about $8,000-$20,000/year, ISP is cited around $10,000-$22,000/year, and bilingual schools around $3,000-$8,000/year. Public schools are Spanish-medium with English as a required subject. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Panama is service-rich but uneven: WPR/TravelSafe proxies show GPI 2.006, WPR rank #52, and TravelSafe safety index 65 / Medium; Panama City has best infrastructure, banking, healthcare, schools, and expat services, while David/Boquete trade cost/climate for thinner services. Spanish is still required for bureaucracy and daily life. | §5.8 |
+| Fit for couple with single income | — | medium | Remote-worker income threshold is exactly USD 3,000/month, Panama City rent/insurance/schooling can erase the tax upside, and the partner is safest as spouse or on a separate file. David/Boquete/Santiago improve budget fit but weaken service/school depth. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -203,13 +203,37 @@ Panama is education-positive only if the couple accepts either Spanish-medium in
 **Education verdict**: Panama passes the education screening DoD at medium confidence. Public schooling is budget-friendly but Spanish-medium; private bilingual schooling is the realistic paid compromise; full international schooling is available mainly around Panama City and is a material one-income risk. [src-695][src-696]
 
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for country screening. Safety proxies, language/integration, infrastructure, transport, banking, internet, and core city-comfort tradeoffs are covered. This is not a final-neighborhood safety or live-community check.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+Panama is a mixed but workable comfort screen: it has strong capital-city services and USD-denominated daily life, but the comfort case depends heavily on city choice and Spanish adaptation. WPR's safest-countries table gives Panama a **2025 Global Peace Index of 2.006**, WPR rank **#52**, and a TravelSafe-derived safety index of **65 / Medium**. TravelSafe's Panama page also labels overall risk **Medium**, with transport/taxis and women-traveler risk medium, but pickpocket, mugging, and scams low. [src-783]
 
-[verification required]
+| Factor | Screening baseline | Fit for the couple |
+|---|---|---|
+| Safety | Medium safety screen: not a high-alarm country for ordinary expat life, but not a low-friction safety environment either. Avoid border/Darien-style risk assumptions, use normal big-city precautions, and plan night transport carefully. [src-783] | Acceptable for screening if the couple uses vetted neighborhoods, ride-hailing, and local advice; not a carefree walk-anywhere-at-night environment. |
+| Infrastructure / services | Panama City is the practical service hub for migration lawyers, banks, accountants, private hospitals, international schools, airport access, and expat-facing services already captured in cost/health/education sections. [src-554][src-694][src-695] | Land in Panama City for filings and setup, then test David, Santiago, or Boquete only after healthcare, school, accountant, and internet needs are clear. |
+| Transport and roads | TravelSafe labels transport/taxis **Medium** risk: apps such as Uber are preferable to haggled taxis; public buses can be chaotic and less reliable, and road conditions/driving habits deserve caution. [src-783] | A car or ride-hailing budget may be necessary outside the capital; do not assume cheap public transport can replace safe daily mobility for two people. |
+| Language / adaptation | EF EPI places Panama at global rank **#70** with score **491**; skill scores are reading 511, listening 476, writing 455, speaking 452. This screens as limited/moderate English, not an English-default environment. [src-784] | Spanish is required for bureaucracy, leases, tax/accounting, public healthcare/CSS/MINSA, schools, and ordinary residence files. English can help in private clinics, schools, and expat services but should not be the core plan. |
+| City comfort | Panama City is services-first but expensive and humid; David is the budget fallback; Santiago is a middle-cost inland option; Boquete/highlands are climate-friendlier but thinner for services and specialist care. [src-202][src-203][src-554][src-555][src-556][src-694] | First screen: Panama City for setup, David for budget, Boquete for climate if the couple accepts smaller-city tradeoffs and travel to David/Panama City for serious needs. |
+
+**Comfort verdict**: Panama passes comfort screening at medium confidence, but only as a managed, Spanish-learning, private-service plan. It is strongest for legal/accounting/healthcare setup in Panama City and strongest for budget/climate in David/Boquete; no single city cleanly solves route, cost, healthcare, schooling, and climate at the same time. [src-783][src-784]
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
+
+> **DoD status**: passed at medium confidence for country screening. Dependent/spouse baseline, remote-study practicality, work-right constraints, local-study relevance, and one-income budget fit are covered. Exact remote-worker dependent checklist and unmarried-partner treatment remain application-prep/lawyer checks.
+
+For the woman partner, Panama is workable only if the couple treats legal status and budget as the main constraints. Ukrainian remote study is practical from a connectivity/time-zone perspective, but it is not a captured Panama residence basis. The route file should be built around the man's remote-worker status and/or an ordinary residence route, with marriage as the conservative relationship baseline because captured dependent evidence points to spouse/child/guardianship categories rather than unmarried partners. [src-199][src-200]
+
+| Issue | Screening answer | Practical implication |
+|---|---|---|
+| Dependent / partner status | The remote-worker checklist captured in §5.1 does not prove an unmarried-partner dependent route. The friendly/specific-countries dependent evidence uses spouse, child, guardianship, and solvency concepts. [src-199][src-200] | If Panama remains a finalist, plan for marriage or a separate residence basis unless a Panama lawyer confirms unmarried-partner acceptance for the chosen route. |
+| Remote Ukrainian study | No Panama source is needed for the academic fact of studying remotely, but remote study does not by itself create a Panama residence route. | Feasible as daily life if internet and time zone work; irrelevant as an immigration anchor unless she separately enrolls locally or qualifies under another route. |
+| Work rights | Remote-worker status is built around foreign-source remote work and no local Panama job/service/business activity by the applicant. The partner's work rights were not captured. [src-199] | If she starts working, confirm whether she needs her own authorization/tax registration, especially for Panama clients or local employment. |
+| Local education / future child | For future family planning, public schools are Spanish-medium; bilingual/international schools exist but can be expensive, especially around Panama City. [src-695][src-696] | Learning Spanish helps both partner integration now and possible child schooling later; full international schooling can break the one-income budget. |
+| One-income fit | The route threshold is exactly B/.3,000/month, Panama City's family cost/rent is tight, and private insurance/schooling/lawyer/accountant costs can erase the territorial-tax upside. David/Santiago/Boquete improve rent but reduce service depth. [src-199][src-553][src-554][src-555][src-556] | Use Panama City as setup base only with a strict rent cap; keep David/Boquete as budget/climate tests; do not commit until tax-source classification, insurance, and long-term route fit are confirmed. |
+
+**Partner verdict**: Panama passes partner/student screening at medium confidence only under a conservative setup: marriage or separate eligibility for the partner, Spanish learning for both, private insurance, and a city plan that avoids Panama City rent plus international-school costs consuming the single income. [src-199][src-200][src-783][src-784]
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -240,6 +264,7 @@ Panama is education-positive only if the couple accepts either Spanish-medium in
 - **Does marriage change the picture**: likely yes for documentary clarity; captured dependent language uses spouse/child/guardianship evidence, not unmarried partner evidence. [src-200]
 - **Realism of staying after 03.2027**: medium-low until a permanent-residence-capable route is verified; remote-worker visa alone is only 9+9 months.
 - **Healthcare / education screen**: Panama City is strong for private healthcare and international/bilingual schooling, but both add budget pressure; David/Boquete are cheaper or more climate-friendly but need city-specific health and school checks before family planning. [src-694][src-695]
+- **Comfort / partner screen**: Panama is usable for a Spanish-learning remote-worker couple, especially if they land in Panama City for services and test David/Boquete for budget/climate. Marriage remains the conservative dependent baseline; Ukrainian remote study is practical but not a Panama residence basis. [src-199][src-200][src-783][src-784]
 
 **Pros**:
 - Official remote-worker route exactly targets foreign-source telework/self-employment. [src-199]
@@ -252,6 +277,8 @@ Panama is education-positive only if the couple accepts either Spanish-medium in
 - Ukraine-specific official entry table should still be checked before travel, but this is no longer a core screening blocker because tourist status is not the long-term route.
 - The USD 3,000/month budget sits exactly at the remote-worker threshold, leaving little margin. [src-199]
 - Very humid/rainy/cloudy climate in the practical lowland cities. [src-202]
+- Spanish-language integration is necessary for bureaucracy, leases, health, schools, and any long-term residence file; English proficiency screens only moderate at EF rank #70 / score 491. [src-784]
+- Transport, road, petty-theft, and night-safety habits need attention; TravelSafe rates overall risk medium and transport/taxis medium even though pickpocket and mugging risk are labelled low. [src-783]
 - Private insurance and international schooling can materially erode the one-income budget, especially in Panama City. [src-694][src-695]
 
 ## Block 6 - Practical playbook (working relocation guide)
@@ -260,6 +287,7 @@ Panama is education-positive only if the couple accepts either Spanish-medium in
 - Confirm official Panama entry rule for Ukrainian citizens and whether visa-free stay is accepted for the intended filing sequence before travel; do not treat it as the residence plan.
 - Prepare passport copies, police certificates, health certificate, medical insurance covering Panama, bank statements, client/employer letters, proof of foreign-source income, and notarized translations/legalizations as advised by counsel. [src-199]
 - If marrying, prepare marriage certificate with apostille/legalization and Spanish translation; captured dependent language is spouse-focused. [src-200]
+- Start Spanish learning before arrival; EF places Panama at global rank #70 / score 491, so English may help with some private services but should not be assumed for public offices, landlords, clinics, schools, accountants, or long-term integration. [src-784]
 - Check Polish `karta pobytu` absence/notification obligations separately. [verification required]
 
 ### 6b. First month after arrival
@@ -314,6 +342,8 @@ Panama is education-positive only if the couple accepts either Spanish-medium in
 - [src-448] PwC Panama corporate other taxes: ITBMS/export context.
 - [src-694] ExpatLife Panama healthcare guide.
 - [src-695] ExpatLife Panama education guide.
+- [src-783] World Population Review / TravelSafe safety proxies for Panama.
+- [src-784] EF English Proficiency Index Panama page.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -335,8 +365,9 @@ _(none yet)_
 - Route-compliant private health-insurance quotes and policy wording for two young adults, maternity/newborn coverage, exact CSS/MINSA onboarding by final residence/tax status, and selected-city private GP/pediatric/maternity prices remain application-prep checks (`vq-143`).
 - Live international-school tuition invoices, private-preschool / bilingual-school city quotes outside Panama City, and final enrollment-document checks remain family-planning practical-budget work.
 - Route-specific remote-worker dependent checklist; the screening baseline is marriage for any later ordinary dependent file and no confirmed unmarried-partner route.
+- Live neighborhood safety, Ukrainian/Russian-speaking community depth, and final-city Spanish/English service availability remain practical checks after this first comfort/partner screen.
 
 ## Block 8 - Open questions and verification markers
 
 - `vq-112` resolved for screening in run-093: use the zero-PIT territorial baseline only as a provisional upside case and preserve the Panama-source PIT / employee-style contribution downside sensitivities. DGI/accountant confirmation of source classification, registration/RUC, CSS/education-tax, ITBMS/export-service handling, and immigration-file compatibility remains application-prep work.
-- `vq-143` pending: route-compliant private health-insurance quotes, maternity/newborn coverage, exact CSS/MINSA onboarding by final residence/tax status, and selected-city private-care prices.
+- `vq-143` resolved for screening in run-156: route-compliant private health-insurance quotes, maternity/newborn coverage, exact CSS/MINSA onboarding by final residence/tax status, and selected-city private-care prices remain application-prep checks.
