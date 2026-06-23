@@ -162,3 +162,21 @@
   confidence: medium
   tags: [portugal, comfort, english, adaptation]
   notes: "Useful for broad adaptation screening; not a guarantee of English in public schools or public offices."
+
+- id: claim-portugal-019
+  topic: d8_family_inclusion_and_documents
+  value: "The D8 two-year residence version can include a spouse or long-term partner; family files need marriage documents or long-term cohabitation evidence, and each additional person raises income and savings evidence"
+  source: src-020
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [portugal, d8, partner, dependent, family, income]
+  notes: "Portugalist 2026 D8 guide; exact serving-consulate dependent uplift / savings wording remains application-prep verification."
+
+- id: claim-portugal-020
+  topic: partner_status_screening_baseline
+  value: "For the student partner, separate Ukrainian TP is the safest near-term status if eligible; D8 family sponsorship is possible but not ready on the current one-income USD 3,000/month profile because the individual threshold is already about EUR 3,680/month and family files need more"
+  source: src-017
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [portugal, partner, temporary-protection, d8, one-income]
+  notes: "Synthesizes src-017 TP access, src-020 D8/family threshold evidence, and existing Portugal tax/rent sections for screening; no new queue item because the blocker is already operationally clear."

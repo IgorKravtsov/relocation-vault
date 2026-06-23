@@ -1,12 +1,12 @@
 ---
 country: Portugal
 tier: null
-depth_score: 6.0
-last_updated: 2026-06-15T13:10:20Z
-sections_completed: ["5.4", "5.5", "5.7", "5.8"]
+depth_score: 7.0
+last_updated: 2026-06-23T19:03:25Z
+sections_completed: ["5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1","5.2","5.3","5.6"]
-sections_pending: ["5.9","5.10","5.11"]
-risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap","portugal-health-insurance-quote-gap","portugal-international-school-cost-risk"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap","portugal-health-insurance-quote-gap","portugal-international-school-cost-risk","portugal-one-income-margin-risk"]
 sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406","src-492","src-493","src-494","src-495","src-496","src-608","src-609","src-610","src-611","src-612"]
 unverified_count: 1
 schema_version: 2.0.0
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
-- **depth_score**: 6.0
-- **Last updated**: 2026-06-15T13:10:20Z
+- **depth_score**: 7.0
+- **Last updated**: 2026-06-23T19:03:25Z
 - **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
 
 ## Block 2 — Scoring
@@ -35,7 +35,7 @@ schema_version: 2.0.0
 | Healthcare | 7 | medium | Legal residents can register for an SNS user number and local health-centre access, TP holders already have NHS access via the Portugal Ukraine mechanism, and private care is available for faster/English-speaking access. Remaining gaps: official D8 visa insurance minimums and live insurer quotes for two young adults. | §5.6 |
 | Education (future child) | 6 | medium | Public schooling is structurally accessible and compulsory from age 6, with preschool from age 3; private preschool and international school costs are the budget risk. | §5.7 |
 | Comfort of life | 7 | medium | Portugal screens well on safety, climate, English exposure in main cities, healthcare access, and Ukraine reception, but rent pressure and slower public services reduce the score. | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Fit for couple with single income | 5 | medium | TP gives the student partner a separate near-term shelter if eligible, and the D8 residence version can include a spouse or long-term partner, but the main applicant already needs about €3,680/month and each dependent raises the evidence burden. On the current one-income ~$3,000/month profile, Portugal is partner-workable only with TP or higher income/savings; marriage/cohabitation documents improve the file but do not fix the income gap. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -227,9 +227,34 @@ Verification note: `vq-057` is resolved at the operational-planning level. The c
 
 - Portugal scores well for day-to-day comfort if the couple chooses the right city: Porto is the best large-city balance, Faro / Algarve is the climate option with seasonal/rent caveats, and Lisbon should be treated as a services-rich but budget-fragile base. Comfort is not the gating problem; the gating problems remain income-to-D8 fit, tax/rent margin, and the missing post-2027 TP bridge. [src-017][src-611][src-612]
 
-### 5.9. Fit for couple with single income {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.9. Fit for couple with single income {status: completed, depth: 1, last_updated: 2026-06-23, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence. Covered: separate TP baseline for the student partner, D8 spouse / long-term-partner inclusion, remote-study practicality, local-work / self-employment caution, sponsor-income stress, and marriage/cohabitation effect. Application-prep gap: exact serving-consulate dependent uplift / savings wording for a D8 family file.
+
+#### Partner status options
+
+| Scenario | Practical answer for the woman | Screening read |
+|---|---|---|
+| Separate Ukrainian TP file | If she is eligible under Portugal's Ukraine reception mechanism, TP is the cleanest near-term status because it does not require a visa and leads to a Temporary Protection Title with NISS, NIF, and National Health System access. [src-017] | Best pre-2027 shelter if eligibility holds; it avoids making her dependent on the man's D8 income file. |
+| D8 dependent / family file | Portugalist's 2026 D8 guide says the two-year residence version can include a spouse or long-term partner, and requires marriage certificates or proof of an unmarried partnership with about two years of cohabitation evidence where relevant; each extra person raises the income and savings evidence needed. [src-020] | Possible, but not budget-safe at current income because the main applicant already needs about **EUR 3,680/month** and the family file needs more. |
+| Independent ordinary residence | She can later switch only if she has her own residence basis: local study, work, self-employment, family reunification, or another ordinary category. Remote study at a Ukrainian university is useful for continuity but is not a captured Portuguese residence basis by itself. [src-020][src-026] | Treat as a fallback only if a real Portuguese status exists, not as automatic because she studies remotely. |
+
+#### Remote study, education transfer, and work
+
+- Ukrainian remote study is practically compatible with living in Portugal if she has TP or another lawful stay, but this iteration did not capture a Portuguese permit category for **foreign remote students enrolled outside Portugal**. Do not rely on Ukrainian distance study as the residence basis. [src-017][src-020]
+- Transferring into a Portuguese university could create a separate student-residence path later, but it is not the default plan for this couple because section 5.7 already shows public/private education and international-school budget pressure, and this profile has not captured university admission, tuition, or student-residence mechanics. [src-608][src-609]
+- Under the TP baseline, Portugal's older gov.pt Ukraine umbrella explicitly covers work / health / education support, while the Justice FAQ confirms NISS and NIF issuance; that is enough for screening to treat TP as the more flexible near-term partner status. [src-017][src-018]
+- Under a D8 family file, work rights for the dependent partner should be checked in the exact AIMA / consulate process before filing. For screening, assume she should not be the plan's primary earner until her own tax / work status is confirmed. [src-020][src-026]
+
+#### Sponsor income and one-income budget
+
+- The key sponsor problem is arithmetic, not relationship status: the captured D8 threshold is **EUR 3,680/month** for an individual remote worker, already above the couple's nominal USD 3,000/month gross. Portugalist says couples/families need more income and savings, so adding the woman as a dependent makes the D8 file harder, not easier. [src-020]
+- The tax section's conservative model leaves about **EUR 1,862/month** net singly or **EUR 1,949/month** with joint-rate sensitivity before accountant, VAT, insurance, immigration, and setup costs. That is workable only outside the most rent-stressed choices and only if the legal route does not require proof at a higher gross-income level. [src-401][src-403][src-404]
+- Marriage still helps documentary clarity: a spouse file is simpler than proving a long-term unmarried partnership with cohabitation evidence, and joint tax filing may soften the PIT rate if they are married / de facto-married with no second income. But marriage does **not** solve the D8 gross-income gate or Lisbon rent pressure. [src-020][src-401][src-402]
+
+#### Practical partner conclusion
+
+Portugal is partner-workable but not partner-easy. The safest near-term arrangement is both partners using eligible Ukrainian TP while the man tests whether income can rise enough for D8 or another ordinary residence before the 2027 TP horizon. If relying on D8, marriage or well-documented long-term cohabitation should be prepared early, but the current one-income budget is below the captured main-applicant threshold and therefore cannot be treated as a ready family-sponsor file. [src-017][src-020][src-026]
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -252,8 +277,8 @@ Verification note: `vq-057` is resolved at the operational-planning level. The c
 
 - **Can relocate now**: Partially — TP is available immediately for eligible Ukrainians; D8 requires income verification.
 - **Best legalization path for the man**: D8 remote-work residence visa if the ~€3,680/month threshold can be met with evidence; otherwise, employment or entrepreneurship routes need exploration.
-- **Best legalization path for the woman**: TP if eligible, or derived residence through marriage / partnership documentation.
-- **Does marriage change the picture**: Some — documentary clarity improves, but income requirements for family D8 remain higher.
+- **Best legalization path for the woman**: TP if eligible, or derived D8/family residence through marriage or well-documented long-term partnership only if the sponsor-income file is strong enough.
+- **Does marriage change the picture**: Some — documentary clarity improves and joint tax filing may help at the margin, but income requirements for family D8 remain higher.
 - **Realism of staying after 03.2027**: Medium — depends on obtaining ordinary residence (D8 or other) before TP expires; no captured automatic bridge.
 
 **Pros**:
@@ -265,6 +290,7 @@ Verification note: `vq-057` is resolved at the operational-planning level. The c
 - D8 income threshold remains above the couple's current one-income budget.
 - Lisbon rent pressure and ordinary self-employed tax/social-security burden can compress the budget.
 - International school is not realistic at the current income; public-school fit and Portuguese-language adaptation matter.
+- D8 dependent sponsorship is not ready on the current income because the individual threshold is already about €3,680/month and family files need more income/savings.
 - No captured automatic TP-to-ordinary-residence bridge after the 2027 horizon.
 
 ## Block 6 — Practical playbook (working relocation guide)
@@ -276,6 +302,7 @@ TBD — will be developed as sections 5.3–5.11 are completed.
 ### 7a. Official primary
 - [src-002] Council Implementing Decision (EU) 2022/382 — Temporary Protection for displaced persons from Ukraine (extended through 04 March 2027).
 - [src-017] gov.pt / Justiça — FAQ sobre acolhimento de cidadãos ucranianos (visa exemption, TP title, NISS/NIF, NHS access).
+- [src-018] gov.pt — Ukraine information for refugee citizens living in Portugal (work / health / education support umbrella; older support page used only as secondary context).
 - [src-019] AIMA — Aviso n.º 7035/2024 — Extensão da proteção temporária até 2027.
 - [src-021] Diário da República — Decreto-Lei n.º 63/2026 (19 May 2026) — Alteração do regime de aquisição da nacionalidade portuguesa (7/10-year residence periods).
 - [src-026] AIMA — Autorização de residência para trabalho remoto (post-visa filing route, documents, validity).
@@ -319,6 +346,7 @@ _(none yet)_
 - Direct annual sunny-day counts for Faro.
 - Portugal self-employed tax fit: exact Article 151 activity code / coefficient, VAT place-of-supply or reverse-charge reporting, first-year social-security timing, expense-evidence treatment, and D8 / ordinary-status compatibility for a Ukrainian foreign-client IT freelancer remain accountant/application-prep checks; `vq-105` is closed for screening.
 - Portugal healthcare: official D8 / residence-visa medical-insurance minimums, live private-insurance quotes for two young adults, and private-clinic specialist/lab price checks remain application-prep checks; `vq-120` is resolved for screening.
+- Portugal partner/D8 family application-prep: exact serving-consulate dependent-income / savings wording and dependent work-right wording should be checked before filing; for screening, the current income gap is already enough to avoid treating D8 family sponsorship as ready.
 
 ## Block 8 — Open questions and verification markers
 

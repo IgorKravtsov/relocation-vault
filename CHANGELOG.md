@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-23
 ---
 
+## 2026-06-23 — run-191 — Portugal partner fit
+
+- Completed Portugal section 5.9 for screening by adding TP-vs-D8 partner options, D8 spouse / long-term-partner document baseline, remote-study limits, work-right caveats, and one-income sponsor arithmetic.
+- Added two Portugal claims (`claim-portugal-019`, `claim-portugal-020`) using existing sources; no new sources were needed.
+- Portugal depth_score moved from 6.0 to 7.0; added `portugal-one-income-margin-risk` as a practical fit flag.
+
 ## 2026-06-23 — run-190 — Panama comfort/partner fit
 
 - Completed Panama sections 5.8 and 5.9 for screening by adding safety, transport/road, English/Spanish-language integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.

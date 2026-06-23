@@ -1,26 +1,26 @@
 {
   "version": 2,
-  "iteration": 190,
+  "iteration": 191,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-23T15:57:13Z",
+  "last_run_timestamp": "2026-06-23T19:03:25Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Panama",
+    "country": "Portugal",
     "sections": [
-      "5.8",
       "5.9"
     ]
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Portugal",
+    "suggested_country": "North Macedonia",
     "suggested_sections": [
+      "5.8",
       "5.9"
     ],
-    "reason": "Pending/open verification queue remains below threshold; Panama reached 5.8/5.9 screening coverage, so rotate to the remaining low-depth Tier-1-hint country section before continuing lower-priority cohorts."
+    "reason": "Verification queue remains below threshold; Portugal reached depth 7.0, so rotate to the next lowest-depth country in INDEX order and continue comfort/partner coverage."
   },
   "countries": {
     "Spain": {
@@ -60,12 +60,13 @@
     "Portugal": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 6.0,
+      "depth_score": 7.0,
       "sections_completed": [
         "5.4",
         "5.5",
         "5.7",
-        "5.8"
+        "5.8",
+        "5.9"
       ],
       "sections_partial": [
         "5.1",
@@ -74,7 +75,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.9",
         "5.10",
         "5.11"
       ],
@@ -86,9 +86,10 @@
         "portugal-self-employed-tax-burden",
         "portugal-foreign-client-vat-fit-gap",
         "portugal-health-insurance-quote-gap",
-        "portugal-international-school-cost-risk"
+        "portugal-international-school-cost-risk",
+        "portugal-one-income-margin-risk"
       ],
-      "last_iteration": 128,
+      "last_iteration": 191,
       "unverified_count": 1
     },
     "Italy": {
@@ -1180,6 +1181,6 @@
   },
   "verification_queue_size": 0,
   "sources_count": 783,
-  "claims_count": 692,
+  "claims_count": 694,
   "proposals_pending": 0
 }
