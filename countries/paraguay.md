@@ -1,13 +1,13 @@
 ---
 country: Paraguay
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-19T06:06:57Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-23T12:49:14Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers", "paraguay-foreign-client-vat-fit-gap", "paraguay-social-security-category-gap", "asuncion-rent-pressure", "paraguay-private-insurance-route-fit-gap", "paraguay-international-school-cost-risk"]
-sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-437", "src-438", "src-439", "src-440", "src-441", "src-442", "src-443", "src-549", "src-550", "src-551", "src-552", "src-689", "src-690", "src-691", "src-692"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers", "paraguay-foreign-client-vat-fit-gap", "paraguay-social-security-category-gap", "asuncion-rent-pressure", "paraguay-private-insurance-route-fit-gap", "paraguay-international-school-cost-risk", "paraguay-spanish-guarani-language-integration-needed", "paraguay-road-and-transport-risk", "paraguay-one-income-margin-risk"]
+sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-437", "src-438", "src-439", "src-440", "src-441", "src-442", "src-443", "src-549", "src-550", "src-551", "src-552", "src-689", "src-690", "src-691", "src-692", "src-781", "src-782"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests a potentially useful long-term route because Paraguay has a normal temporary residence -> permanent residence ladder and the Constitution gives a 3-year naturalization baseline, but the captured official route is generic "lawful activity" residence rather than a digital-nomad visa. [src-191][src-192][src-193]
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-19T06:06:57Z
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-23T12:49:14Z
 - **Tier rationale**: keep as Tier-2 hint until the visa-for-residence filing route, foreign-client IT income evidence, taxes, cost, rent, healthcare, and practical lawyer/accountant mechanics are checked.
 
 ## Block 2 - Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | 40 m2 proxy rents are manageable on gross income and the Paraguay tax-screen net, with Asuncion highest and Ciudad del Este / Encarnacion cheaper. | §5.5 |
 | Healthcare | — | medium | First-pass screen: Ministry pages map a public hospital network; expat-facing 2026 data points to affordable private GP visits and insurance, but route-compliant policy wording, maternity/newborn terms, and public/IPS onboarding remain unresolved. | §5.6 |
 | Education (future child) | — | medium | Public schools are free but Spanish/Guarani and under-resourced; private bilingual schools and Asuncion international schools are available, but international-school fees are a major one-income budget risk. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Safety is manageable but not low-friction: WPR / TravelSafe proxies show GPI 1.981, GTI 0.073, TravelSafe index 45 / Medium risk, with low overall risk but medium transport, pickpocket, mugging, scam, women-traveler, and tap-water caveats. | §5.8 |
+| Fit for couple with single income | — | medium | Marriage or separate lawful-activity residence remains the conservative partner baseline; the student can continue Ukrainian remote study, but the one-income plan depends on the residence/lawful-activity file, tax/VAT/IPS outcome, and disciplined Asuncion or Encarnacion budgeting. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -211,13 +211,48 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 
 
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for country screening. Safety, everyday-transport caveats, English/Spanish-Guarani language fit, and city-comfort tradeoffs are covered from WPR / TravelSafe, EF EPI, Expat Arrivals, and existing cost/healthcare/education evidence.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Safety and everyday risk
 
-[verification required]
+- **Country-level safety proxy**: WPR's 2026 safety table gives Paraguay a 2025 Global Peace Index score of **1.981**, a 2025 Global Terrorism Index score of **0.073**, and a TravelSafe-derived index of **45 / Medium**. This is usable but weaker than Uruguay and many European options; do not treat Paraguay as a uniformly low-risk relocation base. [src-781]
+- **Practical travel-safety baseline**: TravelSafe's Paraguay page labels overall risk **low**, but transport/taxis, pickpockets, mugging, scams, women travelers, and tap water as **medium** risks. It specifically points to poorer neighborhoods, border regions, Asuncion / Ciudad del Este petty-theft hotspots, variable road conditions, taxi-meter issues, and safer rideshare use in major cities. [src-781]
+- **Natural-disaster / terrorism baseline**: TravelSafe labels natural-disaster and traditional terrorism risk low, while still flagging seasonal flooding and Tri-Border organized-crime context. For a couple, this makes city/neighborhood selection and transport habits more important than disaster planning. [src-781]
+
+#### Language, services, and city comfort
+
+- **English**: EF EPI gives Paraguay **global rank #43** and **score 531**, with Asuncion **563**, Lambare **557**, and San Lorenzo **547**. This is a moderate-helpful private-service baseline, not a way to avoid Spanish. [src-782]
+- **Spanish / Guarani integration**: Expat Arrivals notes Paraguay's official languages are Spanish and Guarani, with Guarani widely spoken outside Asuncion. For this couple, Spanish help is mandatory for DNM, leases, healthcare, tax/accountant work, schools, police certificates, and daily problem-solving; Guarani exposure is an extra rural/smaller-city adaptation layer. [src-782]
+- **Transport and roads**: Expat Arrivals says Paraguay's common public transport is urban/interurban buses, taxis are available in big metros, the rail network is mostly not usable, and drivers should remain vigilant because road conditions are often poor. This supports keeping `paraguay-road-and-transport-risk` as a practical comfort flag. [src-782]
+- **City fit**: Asuncion remains the services-first base for immigration lawyers, accountants, private clinics, bilingual/international schools, and English-tolerant services; Encarnacion is the affordability/climate fallback if smaller-city service depth is acceptable; Ciudad del Este should not be chosen just for cheapness until safety, border-town scam/petty-theft, and healthcare depth are checked. [src-550][src-551][src-552][src-690][src-691][src-781][src-782]
+
+**Comfort verdict**: Paraguay is comfort-screenable but not frictionless. It offers low costs, warm winters, usable English in Asuncion, and manageable routine private-care costs, but the couple should budget for Spanish-speaking professional help, private transport/rideshares at night, careful neighborhood selection, bottled/filtered water habits, and Asuncion-first services during the residence/tax setup phase. [src-550][src-690][src-781][src-782]
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-23, dod: passed}
+
+> **DoD status**: passed at medium confidence for screening. Dependent/partner planning, remote Ukrainian study, work-right implications, and one-income budget fit are covered as conservative baselines; exact family/dependent checklist and lawyer-confirmed filing sequence remain application-prep checks.
+
+#### Status as dependent / partner
+
+- **Conservative immigration baseline**: Paraguay's captured temporary-residence page supports a generic lawful-activity residence file, but it does not provide a clean unmarried-partner dependent checklist. For screening, assume the woman needs either marriage-based documentary support or her own temporary-residence eligibility; do not rely on informal cohabitation as enough for derived status. [src-191]
+- **Marriage effect**: Marriage likely helps documentary clarity for a family residence strategy and for proving the couple as a household, but it does not remove the need to verify the residence / lucrative-activity visa sequence for Ukrainians and the man's lawful-activity proof package. [src-190][src-191]
+- **Sponsor income**: No fixed sponsor-income threshold was captured. The practical package should therefore show contracts, invoices, bank statements, savings buffer, address, health/insurance plan, and local accountant/lawyer support rather than chasing a digital-nomad-style USD number. [src-191]
+
+#### Ukrainian remote study and work options
+
+- **Remote Ukrainian university**: Paraguay has no captured rule blocking the student from continuing a Ukrainian distance-learning programme while resident. The practical risks are time zones, Spanish-language daily administration, and whether her residence basis is dependent, separate lawful activity, study, or another ordinary category.
+- **Student-residence caution**: A Ukrainian online university is not a captured Paraguayan student-residence basis. Do not use it as the primary stay route unless a Paraguayan consulate/lawyer confirms a local student/other category can fit her facts.
+- **Work possibility**: The temporary-residence page states pending `residente precario` status allows study and work during validity, and temporary residence is framed around lawful activity. For the woman, any local or remote work should be aligned with her own tax/residence status before she starts invoicing or employment. [src-191]
+
+#### One-income and household fit
+
+- **Budget screen**: Paraguay's cost/rent profile is favorable: Asuncion's family-of-four proxy is $1,837/month and Encarnacion's is $1,479/month, while the PIT-only tax screen leaves about USD 2,727/month and a 9% social-security sensitivity leaves about USD 2,484/month before VAT/accountant/health/immigration costs. [src-443][src-550][src-552]
+- **Binding risks**: The household plan only works if the lawful-activity residence file, DNIT/RUC/VAT/IPS treatment, and private healthcare setup are workable. International school, high-quality Asuncion housing, lawyers/accountants, private insurance, and frequent rideshares can erode the budget advantage. [src-191][src-442][src-690][src-691]
+- **Best couple sequence**: confirm the residence-visa/lucrative-activity filing route before travel; marry first if counsel says it materially simplifies the woman's file; start in Asuncion for DNM/accountant/healthcare/school access; consider Encarnacion only after residence/tax/healthcare basics are stable. [src-190][src-191][src-550][src-552][src-690]
+
+**Partner-fit verdict**: Paraguay is workable for the student partner as a conservative marriage-or-independent-status plan, not as an uncaptured unmarried-dependent or online-student route. It is one-income plausible by Latin America standards, but the margin depends more on route/tax/healthcare execution than on rent or groceries.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -243,10 +278,10 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 
 - **Can relocate now**: maybe. Tourist entry is visa-free for Ukrainians up to 90 days, but residence / lucrative activity appears visa-required in the same official table, so the filing route must be checked before travel. [src-190]
 - **Best legalization path for the man**: temporary residence for lawful professional / remote IT activity, then permanent-residence category change; exact foreign-client proof package is still a blocker. [src-191][src-192]
-- **Best legalization path for the woman**: marriage-based or separate temporary residence eligibility needs verification; do not assume an unmarried dependent route. [verification required]
-- **Does marriage change the picture**: likely yes for documentary clarity and family file strategy, but exact Paraguayan spouse/dependent mechanics were not captured.
+- **Best legalization path for the woman**: marriage-based or separate temporary residence eligibility remains the conservative baseline; do not assume an unmarried dependent route without Paraguayan counsel. [src-191]
+- **Does marriage change the picture**: likely yes for documentary clarity and family file strategy, but exact Paraguayan spouse/dependent mechanics remain application-prep checks. [src-191]
 - **Realism of staying after 03.2027**: medium if the residence-visa and foreign-client income files are workable; not dependent on EU TP extension.
-- **Budget/rent first pass**: favorable on day-to-day costs. Asuncion is the services-first base with a rent cap and strongest healthcare/education access; Encarnacion is the affordability/climate fallback; Ciudad del Este is cheap but needs safety/service due diligence. [src-550][src-551][src-552][src-690][src-691]
+- **Budget/rent/comfort first pass**: favorable on day-to-day costs, but not frictionless. Asuncion is the services-first base with a rent cap and strongest healthcare/education/access-to-English support; Encarnacion is the affordability/climate fallback; Ciudad del Este is cheap but needs safety/service due diligence. [src-550][src-551][src-552][src-690][src-691][src-781][src-782]
 
 **Pros**:
 - Ukrainian tourists are visa-free for up to 90 days. [src-190]
@@ -259,7 +294,7 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 - Same official visa table says Ukrainians require a visa for residence / lucrative activities. [src-190]
 - No captured digital-nomad route or fixed remote-income threshold; acceptance of foreign-client IT income needs lawyer/consular verification. [src-191]
 - Dual-nationality consequences are not safe to assume from Article 149. [src-193]
-- Summers are hot/humid; Paraguay is landlocked and far from Ukraine/Europe.
+- Summers are hot/humid; Paraguay is landlocked and far from Ukraine/Europe; transport, petty-theft/scam, tap-water, Spanish/Guarani-language, and road-quality friction require active mitigation. [src-781][src-782]
 - Asuncion can erode the budget advantage if the couple needs a higher-quality capital-city lease, private healthcare, international schooling, and professional support at the same time. [src-550][src-690][src-691]
 
 ## Block 6 - Practical playbook (working relocation guide)
@@ -267,7 +302,7 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 ### 6a. Before the move (what to prepare in Ukraine / Poland)
 - Confirm the residence / lucrative-activity visa sequence for Ukrainian citizens with a Paraguayan consulate or DNM-facing lawyer before travel; do not rely on tourist entry as the filing basis without that confirmation. [src-190]
 - Passports, birth certificates, police certificates from Ukraine and recent residence countries, employment/client contracts, bank statements, proof of profession, and Spanish translations/apostilles/legalizations. [src-191]
-- If marrying, prepare marriage certificate with apostille/legalization and Spanish translation.
+- If marrying, prepare marriage certificate with apostille/legalization and Spanish translation; use marriage as the conservative partner-documentary baseline until a Paraguayan dependent checklist is confirmed. [src-191]
 - Check Polish `karta pobytu` absence/notification obligations separately. [verification required]
 
 ### 6b. First month after arrival
@@ -276,7 +311,7 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 - Prepare the lawful-activity package for remote IT income with local professional help. [verification required]
 
 ### 6c. First 3-6 months
-- Secure temporary residence and cedula if approved; use the precaria/residence status rules for work/study/travel planning while the file is pending. [src-191]
+- Secure temporary residence and cedula if approved; use the precaria/residence status rules for work/study/travel planning while the file is pending, and confirm the woman's dependent or separate-status basis before she starts work. [src-191]
 - Clarify tax registration and invoicing for foreign-client IT work. [verification required]
 
 ### 6d. Before March 2027 (critical deadline)
@@ -303,11 +338,11 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 | **Total** | — | |
 
 ### 6g. Contact points and communities
-- Healthcare: use the Ministry hospital / regional-service directory as the public-system starting point; shortlist private clinics and insurers in the selected city before filing. [src-689][src-690]
+- Healthcare: use the Ministry hospital / regional-service directory as the public-system starting point; shortlist private clinics and insurers in Asuncion first, then verify Encarnacion / Ciudad del Este depth before choosing a smaller base. [src-689][src-690][src-782]
 - Education: if a future child is a serious planning constraint, start with Asuncion bilingual/international schools such as ASA, then compare local private bilingual options. [src-691][src-692]
 - Immigration lawyers / accountants: [verification required]
-- Ukrainian / Russian-speaking diaspora: [verification required]
-- Expat blogs: [verification required]
+- Ukrainian / Russian-speaking diaspora: [verification required]; for screening, assume Spanish-speaking local professional help is more important than a large Ukrainian network. [src-782]
+- Expat adaptation: Expat Arrivals Paraguay overview for language, transport, healthcare, education, and family context. [src-782]
 - NGOs / refugee help: [verification required]
 
 ## Block 7 - Sources
@@ -329,12 +364,14 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 - [src-442] PwC Paraguay corporate other taxes / VAT and social-security context.
 - [src-690] ExpatLife.AI Paraguay healthcare 2026 guide.
 - [src-691] ExpatLife.AI Paraguay education 2026 guide.
+- [src-782] EF English Proficiency Index Paraguay / Expat Arrivals moving-to-Paraguay adaptation overview.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
 
 ### 7d. Statistical / commercial
 - [src-692] American School of Asuncion public website.
+- [src-781] World Population Review / TravelSafe safety proxies for Paraguay.
 - [src-194] Climate to Travel Paraguay climate overview.
 - [src-195] WeatherSpark Paraguay country climate comparison.
 - [src-443] ExchangeRate-API USD/PYG snapshot.
@@ -348,6 +385,6 @@ _(none yet)_
 ## Block 8 - Open questions and verification markers
 
 - `vq-111` resolved for screening in run-093: Paraguay foreign-client IT tax structure has a conservative PIT/VAT/social-security risk baseline; DNIT/RUC category, IPS/private social-security treatment, VAT/place-of-supply/export-service classification, and compatibility with the lawful-activity temporary-residence file remain application-prep/accountant checks.
-- `vq-142` pending: route-compliant private health-insurance quotes, maternity/newborn coverage, exact IPS / Ministry public-care onboarding, and selected-city private GP/pediatric/maternity prices.
-- Family application details and lawyer/accountant contacts remain for later section passes.
+- `vq-142` resolved for screening in run-156: exact route-compliant private health-insurance quotes, maternity/newborn coverage, IPS / Ministry public-care onboarding, and selected-city provider prices remain application-prep checks.
+- Family application details, lawyer/accountant contacts, and exact marriage/dependent filing sequence remain for later application-prep passes.
 - Live rental listings, deposits/agency fees, registered-address support, utilities-by-season, foreigner lease acceptance, and city safety/service tradeoffs remain application-prep checks.

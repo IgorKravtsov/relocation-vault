@@ -9411,3 +9411,27 @@ Each source entry:
 - **Facts supporting**: Uruguay English-proficiency / adaptation baseline: EF EPI global rank #34, score 542, Montevideo score 544; Spanish-language integration caveat, English not fluent everywhere, Montevideo street-crime caution, accessible public transport, high-standard healthcare, mutualista route, public Spanish-language education, international-school concentration in Montevideo, and rising cost/accommodation caveats (claim-uruguay-021)
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-23
+
+## src-781
+- **Title**: World Population Review / TravelSafe Paraguay safety proxies
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/paraguay/
+- **Archive**: stable pages via direct HTML extraction; archive not captured
+- **Type**: commercial
+- **Date published**: WPR 2026 table current; TravelSafe updated 2025-12-10
+- **Date accessed**: 2026-06-23
+- **Used by**: Paraguay
+- **Facts supporting**: Paraguay comfort / safety screening proxy: 2025 Global Peace Index score 1.981, 2025 Global Terrorism Index 0.073, TravelSafe-derived index 45 / Medium, TravelSafe low overall risk, and medium transport / pickpocket / mugging / scam / women-traveler / tap-water caveats (claim-paraguay-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-23
+
+## src-782
+- **Title**: EF English Proficiency Index Paraguay / Expat Arrivals moving-to-Paraguay adaptation overview
+- **URL**: https://www.ef.com/wwen/epi/regions/latin-america/paraguay/ ; https://www.expatarrivals.com/americas/paraguay/moving-paraguay
+- **Archive**: stable pages via direct HTML / Jina text-mirror extraction; archive not captured
+- **Type**: reputable-secondary
+- **Date published**: EF 2025 index; Expat Arrivals current page, no explicit page date shown
+- **Date accessed**: 2026-06-23
+- **Used by**: Paraguay
+- **Facts supporting**: Paraguay English-proficiency / adaptation baseline: EF EPI global rank #43, score 531, city scores Asuncion 563, Lambare 557, San Lorenzo 547; Spanish/Guarani official-language adaptation, bus/taxi and poor-road caveats, Asuncion private-care concentration, and Asuncion school concentration (claim-paraguay-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-23

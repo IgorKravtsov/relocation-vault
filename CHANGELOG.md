@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-23
 ---
 
+## 2026-06-23 — run-189 — Paraguay comfort/partner fit
+
+- Completed Paraguay sections 5.8 and 5.9 for screening by adding safety, road/transport, English/Spanish-Guarani language integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-781`, `src-782`) and two Paraguay claims (`claim-paraguay-020`, `claim-paraguay-021`).
+- Paraguay depth_score moved from 5.5 to 8.0; added `paraguay-spanish-guarani-language-integration-needed`, `paraguay-road-and-transport-risk`, and `paraguay-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-23 — run-188 — Uruguay comfort/partner fit
 
 - Completed Uruguay sections 5.8 and 5.9 for screening by adding safety, Montevideo street-crime, English/Spanish-language integration, daily-life transport, city-comfort, marriage/separate-status partner, remote-study, work-right, and one-income baselines.

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 188,
+  "iteration": 189,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-23T09:27:59Z",
+  "last_run_timestamp": "2026-06-23T12:49:14Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Uruguay",
+    "country": "Paraguay",
     "sections": [
       "5.8",
       "5.9"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Paraguay",
+    "suggested_country": "Panama",
     "suggested_sections": [
       "5.8",
       "5.9"
     ],
-    "reason": "Pending/open verification queue remains below threshold; Uruguay reached 5.8/5.9 screening coverage, so rotate to another low-depth Tier-2-hint Latin America country for comfort/partner coverage."
+    "reason": "Pending/open verification queue remains below threshold; Paraguay reached 5.8/5.9 screening coverage, so rotate to another low-depth Tier-2-hint Latin America country for comfort/partner coverage."
   },
   "countries": {
     "Spain": {
@@ -821,12 +821,14 @@
     "Paraguay": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 5.5,
+      "depth_score": 8.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
-        "5.7"
+        "5.7",
+        "5.8",
+        "5.9"
       ],
       "sections_partial": [
         "5.1",
@@ -834,8 +836,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.8",
-        "5.9",
         "5.10",
         "5.11"
       ],
@@ -847,9 +847,12 @@
         "paraguay-social-security-category-gap",
         "asuncion-rent-pressure",
         "paraguay-private-insurance-route-fit-gap",
-        "paraguay-international-school-cost-risk"
+        "paraguay-international-school-cost-risk",
+        "paraguay-spanish-guarani-language-integration-needed",
+        "paraguay-road-and-transport-risk",
+        "paraguay-one-income-margin-risk"
       ],
-      "last_iteration": 156,
+      "last_iteration": 189,
       "unverified_count": 0
     },
     "Panama": {
@@ -1174,7 +1177,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 779,
-  "claims_count": 688,
+  "sources_count": 781,
+  "claims_count": 690,
   "proposals_pending": 0
 }

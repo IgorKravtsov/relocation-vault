@@ -169,3 +169,21 @@
   confidence: medium
   tags: [education, international-school, asa, budget-risk, paraguay]
   notes: "ASA website is captured as src-692 for the programme anchor; exact tuition contracts and admissions need direct confirmation."
+
+- id: claim-paraguay-020
+  topic: safety_comfort_screen
+  value: "Paraguay comfort screening combines WPR 2026 safety proxies (2025 GPI 1.981, GTI 0.073, TravelSafe-derived index 45 / Medium) with TravelSafe's low overall risk but medium transport, pickpocket, mugging, scam, women-traveler, and tap-water caveats."
+  source: src-781
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [comfort, safety, transport, paraguay]
+  notes: "Use as a screening proxy only; final city choice needs neighborhood and transport due diligence, especially Asuncion and Ciudad del Este."
+
+- id: claim-paraguay-021
+  topic: english_language_adaptation
+  value: "EF EPI gives Paraguay global rank #43 and score 531, with Asuncion 563, Lambare 557, and San Lorenzo 547; Expat Arrivals notes Spanish and Guarani as official languages, with Guarani widely spoken outside Asuncion."
+  source: src-782
+  date_verified: 2026-06-23
+  confidence: medium
+  tags: [comfort, english, spanish, guarani, adaptation, paraguay]
+  notes: "English helps in some private services, but Spanish-speaking professional help remains mandatory for DNM, tax/accountant, leases, healthcare, and schools."
