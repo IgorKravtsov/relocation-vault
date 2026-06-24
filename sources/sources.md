@@ -9630,3 +9630,27 @@ Each source entry:
 - **Facts supporting**: Thailand English-proficiency / adaptation screen: global rank #116, EF EPI score 402, global average score 488, and city scores including Pattaya 474, Bangkok 467, Chiang Mai 453, and Phuket 431 (claim-thailand-022)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-24
+
+## src-799
+- **Title**: World Population Review - Safest Countries in the World 2026 / TravelSafe Indonesia safety report
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/indonesia/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: WPR 2026-06-16; TravelSafe page title indicates 2026 safety rating and page metadata modified 2025-12-27
+- **Date accessed**: 2026-06-24
+- **Used by**: Indonesia
+- **Facts supporting**: Indonesia comfort / safety screen: 2025 Global Peace Index 1.786, 2025 Global Terrorism Index 4.170, WPR / TravelSafe safety index 58, TravelSafe risk level Medium, US News safest-country rank 51st, TravelSafe user sentiment 85/100, medium overall / transport / pickpocket / mugging / scam / tap-water / women-traveler risks, high natural-disaster and terrorism risk boxes, and 2026 criminal-code / social-norm caveats (claim-indonesia-020; claim-indonesia-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-24
+
+## src-800
+- **Title**: EF English Proficiency Index - Indonesia
+- **URL**: https://www.ef.com/wwen/epi/regions/asia/indonesia/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 edition page, no separate page date captured
+- **Date accessed**: 2026-06-24
+- **Used by**: Indonesia
+- **Facts supporting**: Indonesia English-proficiency / adaptation screen: global rank #80, EF EPI score 471, global average score 488, and city scores including Jakarta 523, Surabaya 519, Bandung 505, Balikpapan / Batam 495, and Denpasar 477 (claim-indonesia-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-24

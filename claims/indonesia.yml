@@ -169,3 +169,21 @@
   confidence: medium
   tags: [education, international-school, jakarta, bali, tuition]
   notes: "Exact current fees, deposits, meals/transport, waiting lists, and non-Jakarta/Bali options remain application-prep checks."
+
+- id: claim-indonesia-020
+  topic: indonesia_comfort_safety_english_screen
+  value: "Indonesia screens as medium rather than top-tier on comfort: WPR reports 2025 GPI 1.786, 2025 GTI 4.170, safety index 58, risk level Medium, and US News safest rank 51st, while EF ranks Indonesia #80 with score 471 and city scores of Jakarta 523, Surabaya 519, Bandung 505, and Denpasar 477."
+  source: [src-799, src-800]
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, safety, english, indonesia, city-screen]
+  notes: "Use as a screening baseline; final city choice still needs neighbourhood, natural-hazard, transport, lease, and private-service checks."
+
+- id: claim-indonesia-021
+  topic: indonesia_partner_single_income_fit
+  value: "For the student partner, Indonesia should be planned with marriage/spouse dependency or independent status rather than assumed unmarried-partner coverage; one-income monthly costs can fit on paper, but E33G's US$60,000/year income gate, private insurance, tax/VAT/BPJS advice, and future school costs keep Indonesia bridge-only at the couple's current income."
+  source: [src-263, src-264, src-590, src-591, src-592, src-593, src-594, src-728, src-730, src-731, src-799]
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [partner-fit, single-income, marriage, e33g, budget]
+  notes: "Exact E33G dependent filing and spouse work rights remain application-prep checks if income rises enough to use E33G."

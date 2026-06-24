@@ -1,13 +1,13 @@
 ---
 country: Indonesia
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-19T21:41:23Z
-sections_completed: ["5.2","5.4","5.5","5.7"]
+depth_score: 8.0
+last_updated: 2026-06-24T19:53:18Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["remote-worker-income-above-current-budget","bridge-route-not-settlement","pr-ladder-unclear","hot-humid-rainy-climate","indonesia-tax-residence-worldwide-income-risk","indonesia-vat-bpjs-fit-gap","jakarta-rent-pressure","bali-lease-seasonality-risk","indonesia-health-insurance-evacuation-gap","indonesia-international-school-cost-risk"]
-sources_used: ["src-262","src-263","src-264","src-265","src-266","src-477","src-478","src-479","src-480","src-481","src-590","src-591","src-592","src-593","src-594","src-727","src-728","src-729","src-730","src-731"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["remote-worker-income-above-current-budget","bridge-route-not-settlement","pr-ladder-unclear","hot-humid-rainy-climate","indonesia-tax-residence-worldwide-income-risk","indonesia-vat-bpjs-fit-gap","jakarta-rent-pressure","bali-lease-seasonality-risk","indonesia-health-insurance-evacuation-gap","indonesia-international-school-cost-risk","indonesia-natural-disaster-transport-risk","indonesia-english-language-integration-needed","indonesia-one-income-margin-risk"]
+sources_used: ["src-262","src-263","src-264","src-265","src-266","src-477","src-478","src-479","src-480","src-481","src-590","src-591","src-592","src-593","src-594","src-727","src-728","src-729","src-730","src-731","src-799","src-800"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to Indonesia as a bridge/base rather than a proven settlement route for this couple: Ukraine is listed among Indonesia's VoA/e-VoA subject countries, and the official E33G remote-worker limited-stay visa exists, but its US$60,000/year income requirement is above the couple's current ~US$36,000/year income. [src-263][src-264]
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-19
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-24
 - **Tier rationale**: Do not classify yet. The core route is official but income-gated and the first pass did not capture a durable PR/citizenship ladder for a foreign-client IT worker using E33G.
 
 ## Block 2 — Scoring
@@ -191,13 +191,27 @@ International Schools Database strengthens the city screen: it lists 73 internat
 
 Education is viable but budget-sensitive. For a future child, Jakarta has the deepest school ecosystem but also the highest school-cost risk; Bali has many English-language alternatives but still needs exact fee and admissions checks. Local/private Indonesian schools are much cheaper but require Bahasa Indonesia integration. For this couple, education does not rescue Indonesia's core legal/income-gate problem: the E33G income threshold and bridge-only status remain the limiting factors.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-24, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening at medium confidence. This pass captures safety, major daily-life risk filters, Ukrainian-attitude baseline, English level, and city-comfort tradeoffs. It does not replace final-city neighbourhood, healthcare, school, lease, and natural-hazard checks.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+- **Safety baseline**: World Population Review's 2026 safety table places Indonesia in a medium rather than high-safety band: 2025 Global Peace Index **1.786**, 2025 Global Terrorism Index **4.170**, TravelSafe safety index **58**, TravelSafe risk level **Medium**, and US News safest-country rank **51st**. This is compatible with scouting/bridge use, but not a low-friction safety score like the best EU or Malaysia screens. [src-799]
+- **TravelSafe caveats**: TravelSafe's Indonesia report gives Safety Index **58**, user sentiment **85/100**, and overall risk **Medium**. It rates transport/taxis, pickpockets, mugging, scams, tap water, and women-traveler risk as medium; natural disasters and terrorism are flagged high in the page's risk boxes. The practical implications are road/boat/airline filtering, strict bottled/filtered-water habits, no visible wealth in crowded tourist zones, and active monitoring of earthquakes, tsunamis, volcanoes, floods, and landslides. [src-799]
+- **Women / couple safety and local norms**: TravelSafe notes women-traveler risk as medium and warns about unwanted attention/harassment and drink-spiking risk. It also flags the 2026 criminal-code context around defamation, blasphemy, cohabitation, and sex outside marriage, with unclear enforcement. For this couple, conservative public-behaviour and housing documentation are prudent, especially if unmarried. [src-799]
+- **English and daily integration**: EF EPI ranks Indonesia **#80 globally** with EF EPI score **471**, below the global average **488**. City scores are stronger in Jakarta **523**, Surabaya **519**, Bandung **505**, Balikpapan / Batam **495**, and Denpasar **477**. English is usable in Jakarta/Bali private services, international schools, expat networks, and parts of tourism, but Bahasa Indonesia help remains important for bureaucracy, leases, public healthcare, local schools, and non-tourist districts. [src-800]
+- **Attitude toward Ukrainians**: no Indonesia-specific Ukrainian reception or support program was captured. The safe baseline is ordinary foreigner / visitor / KITAS treatment, not Ukraine-specific assistance. Indonesia is outside the EU temporary-protection system, so Ukrainian nationality does not create a post-2027 bridge.
+- **City comfort screen**: Jakarta has maximum bureaucracy, embassies, hospitals, schools, advisers, flights, and English-service depth, but it also carries traffic, flood, air-quality, and capital-rent pressure. Surabaya is the first large-city affordability screen. Bandung is the cooler highland comfort fallback but needs flood/traffic/provider checks. Denpasar/Bali has the strongest expat/tourism comfort ecosystem but lease seasonality, tourist pricing, traffic, and evacuation/healthcare limits make it a lifestyle exception, not the default one-income base.
 
-[verification required]
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-24, dod: passed}
+
+> **DoD status**: Passed for first-pass screening at medium confidence. The section gives a conservative dependent/partner baseline, remote-study fit, work-right caveats, and one-income budget fit. Exact E33G spouse/dependent filing and unmarried-partner treatment remain application-prep checks if income rises enough to use E33G.
+
+- **With marriage**: the conservative partner baseline is marriage/spouse planning if the working partner ever qualifies for E33G or another KITAS route. This pass still has not captured a clean official E33G dependent checklist, so do not assume spouse filing until immigration counsel or an official e-visa/immigration page confirms it. Marriage is nevertheless the safer document posture than cohabitation for Indonesia because the profile has no captured unmarried-partner route and local social/legal norms can be conservative. [src-264][src-799]
+- **Without marriage**: no unmarried-partner dependent treatment was captured. The student partner should be assumed to need her own visitor/residence basis or a later marriage-based dependent file; cohabitation alone should not be relied on for immigration, lease, or administrative acceptance. [src-264][src-799]
+- **Remote Ukrainian-university study**: remote Ukrainian university study is operationally compatible with Indonesia if her status is valid, internet/housing are stable, and time zones work. It does not create Indonesian residence or work rights and should not be used as the legal basis unless a separate Indonesian study route is deliberately researched.
+- **Work rights / future earnings**: B1 visitor status forbids receiving wages or compensation from Indonesian persons/corporations, and captured E33G evidence is for duties for a company outside Indonesia. If she starts working, verify whether she needs her own E33G, employment/work permit, business/tax registration, or other authorization before local work or invoicing. [src-263][src-264][src-477][src-480]
+- **One-income fit**: monthly costs and rents are not the first-pass blocker: Livingcost screens Surabaya, Bandung, Denpasar, and controlled Jakarta below the USD 3,000 gross income and below the conservative PIT-only net of about USD 2,436/month. The binding constraints are E33G's **US$60,000/year** income gate, private/international insurance with evacuation cover, tax/VAT/BPJS advice, deposits and live leases, flights/visa fees, and future international-school costs. [src-264][src-590][src-591][src-592][src-593][src-594][src-728][src-730][src-731]
+- **Planning verdict for the couple**: Indonesia is not a current-income settlement answer. It can be used for scouting and, if income rises materially, as a warm bridge/base with careful city selection. For the current USD 3,000/month profile, the partner plan remains conservative: do not move the student partner into Indonesian dependency assumptions until the main route, spouse/dependent file, tax status, private insurance, and lease documentation are all confirmed.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -224,9 +238,9 @@ Education is viable but budget-sensitive. For a future child, Jakarta has the de
 - **Can relocate now**: only for scouting or if a qualifying long-stay route is secured; B1 visitor status is not a residence solution. Median living costs and rents are affordable, but they do not solve the E33G income gate.
 - **Best legalization path for the man**: E33G remote-worker visa only if income rises to at least US$60,000/year and foreign-employer contract evidence fits.
 - **Best legalization path for the woman**: unresolved for E33G; conservative baseline is marriage/spouse-dependent planning only if an official dependent file is confirmed, otherwise independent eligibility.
-- **Does marriage change the picture**: likely relevant for dependent planning, but not captured for E33G in this pass.
+- **Does marriage change the picture**: yes for planning posture. No clean E33G dependent checklist is captured, but marriage is the conservative baseline because no unmarried-partner route is captured and local social/legal norms are conservative.
 - **Realism of staying after 03.2027**: low at current income; Indonesia is scouting/bridge-only unless income rises above E33G and a durable ITAP path is later confirmed.
-- **Budget fit after this pass**: monthly costs/rents are manageable on both gross USD 3,000 and the PIT-only tax screen, especially in Surabaya/Bandung, but private insurance with evacuation cover and international-school tuition can erase the apparent low-cost advantage; Jakarta and Bali need live-listing and lifestyle-inflation controls.
+- **Budget fit after this pass**: monthly costs/rents are manageable on both gross USD 3,000 and the PIT-only tax screen, especially in Surabaya/Bandung, but the E33G income gate, private insurance with evacuation cover, tax/VAT/BPJS advice, visa/flight buffers, and international-school tuition can erase the apparent low-cost advantage; Jakarta and Bali need live-listing and lifestyle-inflation controls.
 
 **Pros**:
 - Official remote-worker limited-stay route exists.
@@ -238,6 +252,8 @@ Education is viable but budget-sensitive. For a future child, Jakarta has the de
 - PR/citizenship ladder for E33G not captured; do not use Indonesia for settlement scoring now.
 - Hot, humid, rainy climate; flood and air-quality checks still needed.
 - Healthcare planning needs private/international insurance with evacuation cover; maternity/newborn and BPJS onboarding remain application-prep checks.
+- Comfort screen is mixed: WPR/TravelSafe put Indonesia in a medium safety band, with high natural-disaster and terrorism risk boxes, medium transport/scam/women-traveler caveats, and conservative 2026 criminal-code/social-norm concerns. [src-799]
+- English is moderate-low nationally: EF ranks Indonesia #80 with score 471, so Bahasa Indonesia help remains important outside Jakarta/Bali private-service contexts. [src-800]
 - International schools in Jakarta/Bali can be very expensive for a one-income USD 3,000/month family; local schools require Bahasa Indonesia integration.
 - Jakarta/Bali real leases may be higher than Livingcost medians once expat-quality housing, address evidence, deposits, and tourist seasonality are included.
 
@@ -302,6 +318,8 @@ Education is viable but budget-sensitive. For a future child, Jakarta has the de
 _(none yet)_
 
 ### 7d. Statistical / commercial
+- [src-799] World Population Review / TravelSafe — Indonesia safety and risk screen
+- [src-800] EF English Proficiency Index — Indonesia English-proficiency screen
 - [src-728] ExpatLife.AI — Indonesia Healthcare 2026 guide
 - [src-730] ExpatLife.AI — Indonesia education 2026 guide
 - [src-731] International Schools Database — Jakarta and Bali international-school lists
@@ -319,6 +337,7 @@ _(none yet)_
 - Live 2BR listings, deposits/advance rent, agency fees, landlord address-registration support, district-level flood/traffic/air-quality, and Bali tourist-season lease effects remain later practical-budget checks.
 - Exact E33G/KITAS-accepted health-insurance policy wording, two-adult quotes, maternity/newborn exclusions, BPJS onboarding by final status, and city-specific private GP/pediatric/maternity prices remain application-prep checks (`vq-158`).
 - Exact international-school fee schedules, deposits, meals/transport, private-preschool quotes, waiting lists, and English/bilingual options outside Jakarta/Bali remain application-prep or final-city checks (`vq-159`, resolved for screening in run-165).
+- Exact E33G spouse/dependent checklist, unmarried-partner treatment, spouse work rights, and final-city safety/lease/social-norm constraints remain application-prep checks if Indonesia becomes realistic after an income increase.
 
 ## Block 8 — Open questions and verification markers
 

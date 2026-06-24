@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-24
 ---
 
+## 2026-06-24 - run-199 - Indonesia comfort/partner fit
+
+- Completed Indonesia sections 5.8 and 5.9 for screening by adding safety, natural-disaster/transport, English/Bahasa integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-799`, `src-800`) and two Indonesia claims (`claim-indonesia-020`, `claim-indonesia-021`).
+- Indonesia depth_score moved from 5.5 to 8.0; added `indonesia-natural-disaster-transport-risk`, `indonesia-english-language-integration-needed`, and `indonesia-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-24 - run-198 - Thailand comfort/partner fit
 
 - Completed Thailand sections 5.8 and 5.9 for screening by adding safety, road/transport, English-language integration, city-comfort, spouse-dependent, remote-study, work-right, and one-income bridge baselines.
