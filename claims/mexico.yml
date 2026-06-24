@@ -178,3 +178,22 @@
   confidence: medium
   tags: [education, international-school, tuition-proxy, mexico-city, guadalajara]
   notes: "Exact current tuition, registration, transport, meal fees, waiting lists, and private-preschool prices remain vq-151."
+
+
+- id: claim-mexico-021
+  topic: mexico_comfort_safety_baseline
+  value: "WPR gives Mexico a 2025 Global Peace Index score of 2.636, Global Terrorism Index 0.582, safety index 65, Medium risk, and US News safest-country rank 81st; TravelSafe gives Safety Index 58, user sentiment 75/100, overall risk Medium, and regional / pickpocket / transport caveats."
+  source: src-791
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, safety, regional-risk, mexico]
+  notes: "Used for screening only; exact neighborhoods and current local crime conditions require final-city checks."
+
+- id: claim-mexico-022
+  topic: mexico_english_spanish_adaptation_baseline
+  value: "EF EPI lists Mexico at global rank #103 with score 440 versus global average 488; city scores include Monterrey 532, Guadalajara 511, Merida 470, Mexico City 428, and Cancun 414."
+  source: src-792
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, language, spanish, english-proficiency, mexico]
+  notes: "Supports a Spanish-first settlement assumption even if English is usable in some expat, tourist, and private-service contexts."

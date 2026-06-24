@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-24
 ---
 
+## 2026-06-24 — run-195 — Mexico comfort/partner fit
+
+- Completed Mexico sections 5.8 and 5.9 for screening by adding public-safety, transport, regional-risk, English/Spanish-language integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-791`, `src-792`) and two Mexico claims (`claim-mexico-021`, `claim-mexico-022`).
+- Mexico depth_score moved from 5.5 to 8.0; added `mexico-public-safety-regional-risk`, `mexico-spanish-language-integration-needed`, and `mexico-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-24 — run-194 — Moldova comfort/partner fit
 
 - Completed Moldova sections 5.8 and 5.9 for screening by adding safety, Transnistria/regional-security, transport, English/Romanian/Russian-language integration, Chisinau/Balti comfort, partner-status, remote-study, work-right, and one-income baselines.

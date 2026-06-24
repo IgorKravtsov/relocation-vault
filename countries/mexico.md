@@ -1,13 +1,13 @@
 ---
 country: Mexico
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-19T15:26:02Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-24T07:29:05Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["ukrainian-entry-visa-likely-required", "temporary-residence-income-above-current-budget", "no-dedicated-digital-nomad-visa", "coastal-heat-humidity", "mexico-resico-eligibility-gap", "mexico-vat-export-service-gap", "mexico-social-security-category-gap", "mexico-city-rent-pressure", "tourist-coast-cost-pressure", "mexico-health-insurance-quote-gap", "mexico-international-school-cost-risk"]
-sources_used: ["src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232", "src-449", "src-450", "src-451", "src-452", "src-453", "src-454", "src-455", "src-570", "src-571", "src-572", "src-573", "src-574", "src-709", "src-710", "src-711", "src-712"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["ukrainian-entry-visa-likely-required", "temporary-residence-income-above-current-budget", "no-dedicated-digital-nomad-visa", "coastal-heat-humidity", "mexico-resico-eligibility-gap", "mexico-vat-export-service-gap", "mexico-social-security-category-gap", "mexico-city-rent-pressure", "tourist-coast-cost-pressure", "mexico-health-insurance-quote-gap", "mexico-international-school-cost-risk", "mexico-public-safety-regional-risk", "mexico-spanish-language-integration-needed", "mexico-one-income-margin-risk"]
+sources_used: ["src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232", "src-449", "src-450", "src-451", "src-452", "src-453", "src-454", "src-455", "src-570", "src-571", "src-572", "src-573", "src-574", "src-709", "src-710", "src-711", "src-712", "src-791", "src-792"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests Mexico is a possible ordinary-residence fallback rather than a clean digital-nomad route: temporary residence can lead to permanent residence after four years, but 2026 economic-solvency thresholds appear above the couple's current ~$3,000/month income if they apply through the standard income route. [src-227][src-229]
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-19
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-24
 - **Tier rationale**: keep as Tier-3 hint until the exact serving-consulate threshold, entry mechanics for Ukrainian passports, taxes, rent, healthcare, and partner sponsorship are checked.
 
 ## Block 2 - Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | A modest 40 m2 proxy is manageable in Guadalajara/Cancun/Merida but Mexico City is expensive and should require a strict rent cap. | §5.5 |
 | Healthcare | — | medium | Screenable but not application-ready: public and private providers exist, IMSS/IMSS-Bienestar are key public anchors, and private hospitals are strongest in major cities; exact insurance, IMSS enrollment, maternity/newborn terms, and city prices remain open. | §5.6 |
 | Education (future child) | — | medium | Public school is the Spanish-language baseline, while Mexico City / Guadalajara have international-school anchors; exact current tuition, preschool prices, and non-capital availability remain budget checks. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Screenable but uneven: safety is regional, TravelSafe gives Mexico safety index 58 / Medium and WPR gives 2025 GPI 2.636; Guadalajara/Merida-style bases need Spanish for daily life. | §5.8 |
+| Fit for couple with single income | — | medium | Weak-to-borderline at current income: the working partner likely must solve a consular solvency gate above USD 3,000/month, while the student partner should use marriage/family unity or an independent file. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -176,13 +176,46 @@ For city selection, Mexico City has the strongest international-school ecosystem
 **Household verdict**: Mexico is education-screenable if the family accepts Spanish public schooling or can budget for private/bilingual schooling. On one income after Mexico's conservative tax screen, top CDMX international-school tuition is a major risk; Guadalajara or Spanish public/private bilingual options are more realistic first-pass paths. [src-711][src-712]
 
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-24, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for country screening. Public-safety, English/Spanish adaptation, transport, climate-city comfort, healthcare/education service depth, and city-fit tradeoffs are covered. Exact neighborhood crime, live lease friction, local lawyer/accountant quality, and final-city community checks remain application-prep work.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+Mexico is livable for a remote-work household, but comfort is strongly city- and neighborhood-dependent. WPR's 2026 safest-countries table gives Mexico a 2025 Global Peace Index score of **2.636**, Global Terrorism Index **0.582**, safety index **65**, Medium risk level, and US News safest-country rank **81st**. TravelSafe's country page gives Safety Index **58**, user sentiment 75/100, and overall risk Medium; it also says major tourist areas are generally safe but flags crime/kidnapping concerns and regional variation. Treat this as a regional-security screen, not a blanket no-go. [src-791]
 
-[verification required]
+Transport and daily movement need conservative habits. TravelSafe labels transport/taxi risk Low but recommends approved/licensed taxis, hotel-called taxis, and caution with crowded public transport; it labels pickpocket risk High in tourist areas. For the couple, that points to a stable neighborhood, app-based transport or known taxi stands, and avoiding border/high-crime zones rather than trying to optimize only for climate or rent. [src-791]
+
+English is weaker than in most earlier candidate countries. EF EPI lists Mexico at global rank **#103**, score **440** versus global average 488, with city variation: Monterrey 532, Guadalajara 511, Merida 470, Mexico City 428, and Cancun 414. English may work in expat/tourist/private-service contexts, but Spanish is the operating language for INM, SAT/RFC, landlords, doctors, schools, banking, utilities, and neighborhood life. [src-792]
+
+City comfort screen:
+
+| City / base | Comfort upside | Comfort downside | Screening verdict |
+|---|---|---|---|
+| Guadalajara | Best captured services/cost compromise, lower rent than Mexico City, large-city amenities, EF city score 511. [src-572][src-792] | Still tight after tax/insurance/accountant costs; Spanish needed for bureaucracy and leases. | First city to screen if Mexico remains viable. |
+| Mexico City | Deepest bureaucracy, healthcare, airport, schooling, and professional-services base. [src-571][src-709][src-711] | Rent and family-cost proxies are high; EF city score 428; crime/neighborhood selection matters. [src-571][src-791][src-792] | Use for setup or services only with strict rent and safety filters. |
+| Merida | Warm inland option with workable rent proxy and likely calmer lifestyle; EF city score 470. [src-574][src-792] | Heat/humidity, transport, healthcare depth, and community fit need follow-up. | Good second-stage warmer-base check. |
+| Cancun / coast | Warm climate, tourist-service ecosystem, low first-pass rent proxy. [src-573] | Tourist pricing, pickpocket/scam exposure, humidity/storms, and weaker EF city score 414. [src-573][src-791][src-792] | Lifestyle exception, not default one-income base. |
+
+**Comfort verdict**: Mexico can pass a screening-level comfort bar if the couple chooses a safer, service-rich neighborhood and commits to Spanish. It is not a low-friction English-first relocation: city selection, transport habits, private healthcare planning, Spanish-language bureaucracy, and neighborhood safety are core practical constraints. [src-791][src-792]
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-24, dod: passed}
+
+> **DoD status**: passed at medium confidence for screening. The section now covers the student partner's likely status logic, remote Ukrainian study, marriage/dependent baseline, work-right constraints, language adaptation, healthcare/education implications, and one-income budget fit. Exact family-unity checklist, apostille/translation requirements, dependent solvency uplift, and student/work authorization details remain serving-consulate / lawyer checks.
+
+For the student partner, the conservative planning baseline is **marriage/family unity or a separate independent file**, not an assumed unmarried-partner dependent route. The Mexico profile already treats dependent mechanics as unresolved and spouse-first for screening; no captured source proves an unmarried partner can ride on the working partner's temporary-residence file. [src-227][src-229]
+
+Remote Ukrainian university study is compatible with daily life only after she has lawful status and a stable address. It does not by itself solve Mexican residence, income thresholds, health coverage, school/future-child planning, or Spanish-language bureaucracy. If she later wants to work locally or invoice clients, the couple needs a separate SAT/RFC, immigration-permission, and tax check; do not assume the working partner's file automatically authorizes both partners' economic activity. [src-227][src-449][src-453]
+
+One-income fit remains Mexico's main weakness. Even before partner costs, the standard temporary-residence income benchmark captured from 2026 secondary guidance is about USD 4,400/month net, above the couple's current income; the conservative ordinary-resident PIT-only tax screen leaves about USD 2,447/month before accountant, VAT, IMSS/social-security, health insurance, and immigration costs. Rent can be workable outside Mexico City, but the route gate, private insurance, Spanish support, and professional fees make the margin tight. [src-229][src-449][src-455][src-571][src-572][src-573][src-574]
+
+Practical partner playbook:
+
+1. **Before filing**: decide whether to marry. For Mexico screening, marriage is the safer dependent/family-unity assumption; unmarried-partner treatment is not bankable. [src-227][src-229]
+2. **Consular threshold check**: ask the serving consulate whether a spouse/dependent is allowed on the same file, whether income/savings thresholds increase for the spouse, and which apostilled/translated documents are required. [src-229]
+3. **Study continuity**: keep Ukrainian university enrollment online, but do not cite it as a residence basis unless a separate Mexican student/residence option is deliberately chosen.
+4. **Language plan**: budget time and money for Spanish; EF's low national score means English-only handling of INM/SAT/leases/healthcare is not realistic outside narrow private-service contexts. [src-792]
+5. **Budget plan**: use Guadalajara or Merida as first screening bases, keep Mexico City for setup/services if needed, and avoid assuming coastal tourist markets are cheap once transport, insurance, safety, and seasonality are included. [src-571][src-572][src-573][src-574]
+
+**Partner-fit verdict**: Mexico is not impossible for the student partner, but it is fragile on the couple's current facts. It works only if the main applicant clears the consular financial gate or savings route, the partner path is spouse/family-unity or independently eligible, and the household accepts Spanish-first administration plus a tight one-income budget. [src-227][src-229][src-792]
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -209,14 +242,16 @@ For city selection, Mexico City has the strongest international-school ecosystem
 - **Can relocate now**: possible only after entry / consular requirements are confirmed. Conservative baseline: Ukrainian citizens need a Mexican visa unless a qualifying alternative document applies, and a temporary Polish residence card is not enough. [src-226]
 - **Best legalization path for the man**: temporary resident visa based on economic solvency if income/savings meet the serving-consulate threshold; no dedicated DN route captured. [src-227][src-229]
 - **Best legalization path for the woman**: spouse/family-unity route if married and eligible, or independent file; do not assume an unmarried-partner or one-income dependent route until the serving consulate confirms it. [src-227][src-229]
-- **Does marriage change the picture**: probably yes for dependent/family-unity clarity, but the exact Mexican dependent evidence and solvency uplift were not captured.
-- **Realism of staying after 03.2027**: medium-low at current income until the solvency threshold is solved; ordinary temporary residence can lead to permanent residence after four years if obtained and maintained. Tax screening plus cost/rent screening is workable only with a strict city and housing choice: Guadalajara/Merida/Cancun rent is manageable, while Mexico City is tight on the conservative PIT-only net. [src-227][src-449][src-571][src-572][src-573][src-574]
+- **Does marriage change the picture**: probably yes for dependent/family-unity clarity, but the exact Mexican dependent evidence and solvency uplift were not captured. For screening, marriage is the safer partner assumption; an unmarried-partner route is not bankable. [src-227][src-229]
+- **Best first city screen**: Guadalajara first, then Merida as a warmer lower-rent check; Mexico City mainly for setup/services with a strict rent and neighborhood-safety cap; Cancun/coasts only as lifestyle exceptions. [src-571][src-572][src-573][src-574][src-791][src-792]
+- **Realism of staying after 03.2027**: medium-low at current income until the solvency threshold is solved; ordinary temporary residence can lead to permanent residence after four years if obtained and maintained. Tax screening plus cost/rent/comfort screening is workable only with Spanish-first administration, private insurance/professional-fee buffers, and a strict city/housing choice. [src-227][src-449][src-571][src-572][src-573][src-574][src-791][src-792]
 
 **Pros**:
 - Ordinary non-EU residence ladder avoids EU temporary-protection uncertainty. [src-227]
 - Permanent-residence change after four years of temporary residence is a clear long-term concept. [src-227]
 - Highland climates can be mild year-round with very low muggy-day burden. [src-230][src-232]
 - Guadalajara, Cancun, and Merida show workable first-pass 40 m2 rent proxies under about $800/month, although non-rent costs still matter. [src-572][src-573][src-574]
+- Large-city and tourist-service depth can support remote work, private healthcare, and future-child education if the couple budgets carefully and chooses neighborhoods conservatively. [src-709][src-711][src-791]
 
 **Cons / risks**:
 - Standard 2026 temporary-residence income benchmark appears above the couple's current ~$3,000/month. [src-229]
@@ -224,6 +259,7 @@ For city selection, Mexico City has the strongest international-school ecosystem
 - Partner/dependent mechanics should be handled spouse-first for screening; remote-work tax compliance remains accountant-level, especially RESICO, VAT/export-service, and IMSS treatment. [src-451][src-452][src-454]
 - Coastal warmth comes with high humidity, rainy-season, storm exposure, tourist-market pricing, and seasonal lease risk. [src-231][src-232][src-573]
 - Mexico City rent is a budget-pressure flag: the captured 40 m2 city-center proxy is about $1,035/month, roughly 42% of the conservative PIT-only net. [src-571]
+- Public-safety and language comfort are real constraints: TravelSafe gives Mexico Safety Index 58 / Medium with regional variation and pickpocket risk, while EF ranks Mexico #103 with score 440, so Spanish is necessary for practical settlement. [src-791][src-792]
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -239,7 +275,7 @@ For city selection, Mexico City has the strongest international-school ecosystem
 
 ### 6c. First 3-6 months
 - Keep proof of residence, income, and address for renewal.
-- Decide whether a highland city or coast is the realistic climate/cost fit; climate alone does not justify a tourist coast.
+- Decide whether a highland city or coast is the realistic climate/cost/safety fit; climate alone does not justify a tourist coast. Guadalajara is the first screening city, with Merida as a warmer second-stage check. [src-572][src-574][src-791]
 
 ### 6d. Before March 2027 (critical deadline)
 - Mexico should only be treated as a post-EU-TP fallback if the resident-visa threshold, partner file, private insurance/IMSS plan, and school-language budget are solved well before March 2027.
@@ -265,7 +301,8 @@ For city selection, Mexico City has the strongest international-school ecosystem
 ### 6g. Contact points and communities
 - Immigration lawyers / facilitators: [verification required]
 - Ukrainian / Russian-speaking diaspora: [verification required]
-- Expat communities in Mexico City / Guadalajara / Cancun / Puerto Vallarta: [verification required]
+- Expat communities in Mexico City / Guadalajara / Cancun / Merida / Puerto Vallarta: [verification required]
+- Spanish-language tutor / translator support for INM, SAT/RFC, leases, and healthcare should be budgeted because EF ranks Mexico low for English proficiency. [src-792]
 - Official immigration points: INM / Mexican consulate serving current residence. [src-226][src-227]
 
 ## Block 7 - Sources
@@ -301,6 +338,8 @@ For city selection, Mexico City has the strongest international-school ecosystem
 - [src-573] Livingcost Cancun cost/rent page.
 - [src-574] Livingcost Merida cost/rent page.
 - [src-711] ExpatLife.AI Mexico healthcare and education 2026 guides plus ASF/ASFG public school websites.
+- [src-791] World Population Review / TravelSafe Mexico safety proxies.
+- [src-792] EF English Proficiency Index Mexico.
 
 ### 7e. Not found / not captured cleanly
 - Readable official OCR/text for Ukraine's exact placement in Mexico's visa-required / visa-free list.
@@ -309,6 +348,7 @@ For city selection, Mexico City has the strongest international-school ecosystem
 - Remote-work tax / local registration treatment for foreign-client IT income: ordinary PIT is screened and `vq-113` was resolved for screening in run-093, but exact SAT regime, RESICO eligibility, VAT/export-service handling, IMSS/social-security duty, and residence-file compatibility remain application-prep/accountant checks.
 - Route-compliant private health-insurance quotes, maternity/newborn terms, IMSS / IMSS-Bienestar onboarding by final status, and selected-city private-care prices remain application-prep checks after run-159 resolved `vq-150` for screening.
 - Exact international/bilingual school tuition, private-preschool prices, waiting lists, and non-CDMX/non-Guadalajara options remain application-prep / final-city checks after run-159 resolved `vq-151` for screening.
+- Exact safe neighborhoods, live local lease friction, Spanish-language service providers, and final-city Ukrainian/Russian-speaking community depth remain application-prep checks after sections 5.8 and 5.9 were completed for screening in run-195.
 
 ## Block 8 - Open questions and verification notes
 
@@ -317,3 +357,4 @@ For city selection, Mexico City has the strongest international-school ecosystem
 - `vq-113` resolved for screening in run-093 — Mexico has a conservative ordinary-PIT tax baseline; exact tax registration, RESICO eligibility, VAT/export-service treatment, IMSS/social-security position, and immigration-file fit remain application-prep/accountant checks.
 - `vq-150` resolved for screening in run-159: Mexico healthcare insurance, public-system onboarding, maternity/newborn terms, and city-specific private-care prices remain application-prep checks.
 - `vq-151` resolved for screening in run-159: Mexico international/bilingual school fees, private-preschool prices, waiting lists, and non-capital options remain application-prep checks.
+- Run-195 completed comfort/partner screening: Mexico requires Spanish-first adaptation, neighborhood/security filtering, and a spouse/independent-file partner baseline; exact final-city support networks, lease practice, and family-unity documents remain application-prep checks.

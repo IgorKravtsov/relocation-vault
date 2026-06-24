@@ -9531,3 +9531,28 @@ Each source entry:
 - **Facts supporting**: Moldova English-proficiency / language-integration screen: global rank #43, EF EPI score 531, global average score 488, and Chisinau score 572 (claim-moldova-020)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-24
+
+
+## src-791
+- **Title**: World Population Review — Safest Countries in the World 2026 / TravelSafe Mexico safety report
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/mexico/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: WPR 2026 table current; TravelSafe updated 2026-03-18
+- **Date accessed**: 2026-06-24
+- **Used by**: Mexico
+- **Facts supporting**: Mexico comfort / safety screen: 2025 Global Peace Index score 2.636, 2025 Global Terrorism Index 0.582, WPR safety index 65 / Medium risk, US News safest-country rank 81st, TravelSafe Safety Index 58, user sentiment 75/100, overall risk Medium, transport/taxi Low, pickpocket risk High, and regional safety caveats (claim-mexico-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-24
+
+## src-792
+- **Title**: EF English Proficiency Index — Mexico
+- **URL**: https://www.ef.com/wwen/epi/regions/latin-america/mexico/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 edition page, no separate page date captured
+- **Date accessed**: 2026-06-24
+- **Used by**: Mexico
+- **Facts supporting**: Mexico English-proficiency / language-integration screen: global rank #103, EF EPI score 440, global average score 488, skill scores, and city scores including Monterrey 532, Guadalajara 511, Merida 470, Mexico City 428, and Cancun 414 (claim-mexico-022)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-24
