@@ -1,13 +1,13 @@
 ---
 country: Argentina
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-19T15:26:02Z
-sections_completed: ["5.2","5.4","5.5","5.7"]
+depth_score: 8.0
+last_updated: 2026-06-24T10:34:43Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["digital-nomad-bridge-only", "tourist-entry-before-travel-check", "citizenship-continuous-no-exit-rule", "inflation-currency-risk", "argentina-pit-vat-gross-income-tax-risk", "argentina-social-security-category-gap", "argentina-monotributo-export-fit-gap", "buenos-aires-rent-pressure", "argentina-one-income-margin-risk", "argentina-health-insurance-quote-gap", "argentina-international-school-cost-risk"]
-sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242, src-456, src-457, src-458, src-459, src-460, src-461, src-575, src-576, src-577, src-578, src-579, src-713, src-714, src-715, src-716]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["digital-nomad-bridge-only", "tourist-entry-before-travel-check", "citizenship-continuous-no-exit-rule", "inflation-currency-risk", "argentina-pit-vat-gross-income-tax-risk", "argentina-social-security-category-gap", "argentina-monotributo-export-fit-gap", "buenos-aires-rent-pressure", "argentina-one-income-margin-risk", "argentina-health-insurance-quote-gap", "argentina-international-school-cost-risk", "argentina-spanish-language-integration-needed", "argentina-street-crime-scam-risk"]
+sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242, src-456, src-457, src-458, src-459, src-460, src-461, src-575, src-576, src-577, src-578, src-579, src-713, src-714, src-715, src-716, src-793, src-794]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint retained until taxes/cost/rent and residence-to-citizenship practicality are verified).
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-19
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-24
 - **Tier rationale**: First pass suggests Argentina is legally interesting because Ukrainian ordinary-passport holders have a usable 90-day tourist-entry screening baseline and Argentina has an official digital-nomad transitory residence plus a short legal naturalization horizon. However, the DN status is only 180 + 180 days and transitory, rentista excludes personal-work income, and 2025 citizenship changes require continuous legal residence with no exits during the two-year period. Treat as promising but high-verification until a durable ordinary residence route for foreign-client IT income is confirmed. [src-233][src-234][src-236][src-237]
 
 ## Block 2 — Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | 40 m2 modest-rent proxies are about USD 578/396 in Buenos Aires, USD 353/245 in Cordoba, USD 344/269 in Mendoza, and USD 244/161 in Rosario; Buenos Aires needs a strict rent cap. | §5.5 |
 | Healthcare | — | medium | Public hospitals are available as a safety net and Buenos Aires has strong private prepaga options, but exact residence-compliant insurance, maternity/newborn terms, and city/provider prices remain open. | §5.6 |
 | Education (future child) | — | medium | Public schooling is a Spanish-language baseline; Buenos Aires has strong international/bilingual schools, but top international tuition is high for one income. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | WPR / TravelSafe screen Argentina as relatively safe for the region (GPI 1.768, TravelSafe index 70 / Low overall risk), but street crime, scams, counterfeit-currency risk, and Buenos Aires big-city caution matter. Spanish is still the daily-life default despite high EF English scores. | §5.8 |
+| Fit for couple with single income | — | medium | Student partner can remote-study from Ukraine, but Argentina is not yet a proven dependent/settlement route: DN is bridge-only, durable sponsor mechanics remain unproven, and one-income fit depends on tax/banking and city choice. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -176,17 +176,42 @@ Buenos Aires has the strongest international-school ecosystem. The same guide na
 
 **Household verdict.** Argentina is education-screenable if the family accepts Spanish public schooling or a lower-cost bilingual private option. Top Buenos Aires international schools are probably not one-income-friendly under Argentina's conservative tax/rent screen, so they should be treated as a lifestyle exception rather than the default. Cordoba and Mendoza need separate bilingual-school and private-preschool checks before being treated as family-ready bases. [src-716][src-577][src-578]
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: completed, depth: 1, last_updated: 2026-06-24, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. Safety, English/language adaptation, and city-comfort baselines are captured; final-neighborhood safety, live transport choices, Ukrainian/Russian-speaking community depth, and current banking/cash-handling practice remain practical checks.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+**Safety baseline.** World Population Review's 2026 safest-country table gives Argentina a 2025 Global Peace Index score of **1.768**, Global Terrorism Index **0.801**, safety index **70 / Low risk**, and US News safest-country rank **53rd**. TravelSafe's Argentina page, updated 2025-12-27, also gives Safety Index **70** and user sentiment **80/100**. It describes overall risk as low, transport/taxis as low, and tap water in big cities as usually safe. This is a stronger regional comfort screen than many Latin American alternatives, but not a no-risk environment. [src-793]
 
-[verification required]
+**Street-crime / scam caveats.** TravelSafe marks pickpockets, natural disasters, scams, and women-traveler risk as medium. Its practical warnings are directly relevant for Buenos Aires and tourist districts: secure belongings, avoid carrying large cash/valuables, beware counterfeit large peso notes, unlicensed taxis, unauthorized money changers, dating-app robbery scams, and border/drug-smuggling areas. For this couple, the daily playbook should be app-based taxis/rideshare, bank/FX discipline, safer neighborhoods, and avoiding isolated nightlife or informal exchange contacts until local routines are learned. [src-793]
+
+**Language and English.** EF EPI ranks Argentina **#26** globally with score **575**, above the global average 488; skill scores are reading 592, listening 565, writing 526, speaking 489. City scores are also useful for screening: Buenos Aires 594, Rosario 589, La Plata 585, Mendoza 577, and Cordoba 547. This means Argentina is easier for English fallback than many Spanish-speaking options, especially in Buenos Aires, but immigration, ARCA/CUIT, leases, healthcare, school enrollment, and daily administration remain Spanish-first. [src-794]
+
+**Attitude / Ukraine-specific fit.** This pass did not capture hostility or a dedicated Ukraine-protection infrastructure in Argentina. The operational comfort baseline is ordinary-foreigner treatment: verify Ukrainian short-entry status before travel, use the DN bridge only if the passport remains visa-exempt, and keep EU/Polish fallback status until Argentina's durable residence route is proven. [src-233][src-234][src-235]
+
+**City-comfort screen.** Buenos Aires is the default for immigration lawyers, accountants, private clinics, schools, transport, coworking, and international community, but it also concentrates rent pressure, tourist scams, and big-city street crime. Cordoba is the inland cost/services compromise with lower rent and drier climate, but weaker international-service depth than Buenos Aires. Mendoza is the warm/dry lifestyle option with attractive rent and climate, but it needs more provider/community/connectivity checks before becoming the main base. Rosario remains a cheap fallback only; do not prefer it without a separate safety/service pass. [src-576][src-577][src-578][src-579][src-793][src-794]
+
+**Comfort verdict.** Argentina is comfort-screenable at medium confidence. It has favorable English-proficiency and safety proxies for the region, a large Buenos Aires service ecosystem, and realistic lower-cost inland alternatives. The comfort risks are not climate or basic services; they are Spanish bureaucracy, street crime/scams, cash/FX/banking habits, and whether the couple can avoid Buenos Aires overpaying while keeping access to professional support. [src-793][src-794]
+
+
+### 5.9. Partner (student) {status: completed, depth: 1, last_updated: 2026-06-24, dod: passed}
+
+> **DoD status**: passed for screening. The section gives a conservative partner-status, remote-study, work-right, and one-income fit baseline; exact DN dependent rules, durable temporary-residence family sponsorship, student-residence eligibility for a Ukrainian online university, and marriage-document requirements remain application-prep/legal checks.
+
+**Status with and without marriage.** The safe baseline remains: do not assume the woman can be attached as an unmarried dependent to the man's Argentine DN bridge. Argentina's captured DN pages prove the worker's transitory route and extension mechanics, while the general migration overview shows family reunification as a temporary-residence category, but this profile has not captured a DN-dependent or unmarried-partner checklist. Marriage is likely the cleaner future family-file position if the man later secures a durable temporary residence, but marriage does not solve the main problem: DN is transitory and not yet a proven settlement ladder. [src-235][src-237][src-238]
+
+**Student / remote-study fit.** Continuing a Ukrainian online university is practical from a lifestyle perspective: Argentina's timezone, internet/city infrastructure, and Buenos Aires/Cordoba/Mendoza service bases can support remote study. However, a Ukrainian online program should not be treated as an Argentine student-residence basis unless DNM/counsel confirms it; ordinary student routes usually depend on enrollment in a recognized local institution. Keep the partner plan as tourist/scouting or family/independent-status first, not online-student-status first. [src-238]
+
+**Ability to work.** If the partner starts earning from foreign clients, the household may become more resilient, but it also doubles the tax/banking question. PwC's spouse baseline says each spouse's employment/business income is assessed separately, so marriage is not a joint-tax shelter. Any partner work should be reviewed with the same ARCA/CUIT, VAT/export-service, Ingresos Brutos, social-security, invoice, and banking checks as the main worker. [src-456][src-459][src-460]
+
+**One-income fit.** On cost/rent alone, Argentina can work if the couple avoids expensive Buenos Aires housing: Cordoba and Mendoza are the stronger one-income screens, while Buenos Aires is a service hub with a rent cap. The binding risks are legal durability and usable net income. The USD 3,000/month tax screen leaves roughly USD 2,280/month PIT-only, or about USD 1,928/month under an employee-style contribution sensitivity before VAT, gross-income tax, accountant, insurance, banking spread, immigration, and partner costs. [src-461][src-576][src-577][src-578]
+
+**Partner verdict.** Argentina is a plausible bridge for the couple only if they preserve a non-Argentine fallback and treat marriage as a possible simplifier, not a magic route. For settlement scoring, the woman should be modelled as independently needing lawful status until a durable Argentine residence category and family/dependent rules are confirmed. [src-235][src-238][src-240]
+
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
 - **Currency/banking risk**: High. Argentina's macro/currency controls, foreign-client payment settlement, VAT/export-service treatment, and provincial gross-income-tax exposure can dominate a USD 3,000/month plan; run-093 resolved `vq-114` for screening, but this remains an application-prep/accountant risk.
+- **Street-crime / scam risk**: Medium. TravelSafe rates overall risk low, but pickpocket, scam, counterfeit-currency, and women-traveler risks are medium; use safer neighborhoods, app taxis, and conservative cash handling. [src-793]
 - **Political risk**: [verification required]
 - **Ties to Ukraine**: [verification required]
 - **Diaspora and adaptation**: [verification required]
@@ -202,14 +227,14 @@ Buenos Aires has the strongest international-school ecosystem. The same guide na
 | Currency / banking | High | Tax pass confirms the planning risk is not only PIT: VAT/export-service classification, provincial gross-income tax, self-employed contributions, and foreign-client payment settlement need Argentine adviser confirmation. |
 | Political | — | [verification required] |
 | Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Diaspora / adaptation | Medium | EF EPI score 575 makes English fallback better than in many Spanish-speaking countries, but Spanish remains required for DNM/ARCA, leases, healthcare, schools, and integration. [src-794] |
 
 ## Block 5 — Practical verdict
 
 - **Can relocate now**: Likely yes for scouting if Ukrainian visa-free status is confirmed; digital-nomad bridge is officially available only to visa-exempt nationals. [src-233][src-235][src-236]
 - **Best legalization path for the man**: Digital-nomad transitory residence as a bridge; do not assume a durable foreign-client IT residence route until a specific temporary category is confirmed. [src-235][src-238][src-239]
-- **Best legalization path for the woman**: Conservative baseline is tourist/scouting entry plus independent eligibility, or family route only after the man has a durable sponsor category; do not assume DN dependent treatment.
-- **Does marriage change the picture**: Likely useful for future family-file planning, but it does not convert the DN bridge into a settlement route by itself.
+- **Best legalization path for the woman**: Conservative baseline is tourist/scouting entry plus independent eligibility, or family route only after the man has a durable sponsor category; do not assume DN dependent treatment until DNM/counsel confirms it.
+- **Does marriage change the picture**: Likely useful for future family-file planning if a durable sponsor category is secured, but it does not convert the DN bridge into a settlement route by itself. [src-235][src-238]
 - **Budget/rent screen**: Workable outside expensive Buenos Aires housing: Cordoba and Mendoza are the best first-pass cost/rent screens; Buenos Aires is useful for services but needs a strict rent cap and tax-margin check. [src-576][src-577][src-578]
 - **Realism of staying after 03.2027**: Potentially interesting because Argentina has a short naturalization horizon, but only if a legal continuous temporary/permanent residence route can be secured and maintained without exits. [src-238][src-240]
 
@@ -252,7 +277,7 @@ Buenos Aires has the strongest international-school ecosystem. The same guide na
 - Tax registration as self-employed / freelancer: get Argentine tax-adviser confirmation before relying on the DN bridge for invoicing; likely issues are CUIT/self-employed registration, PIT annual filing/advances, VAT/export-service treatment, provincial Ingresos Brutos, and whether monotributo can handle foreign-client IT at about ARS 52.1m/year. [src-456][src-459][src-460][src-461]
 - Transferring partner to dependent / partner / student status: TBD.
 - Marriage (if applicable to scenario): keep as a likely simplifier; verify before relying on it.
-- Integration (language courses, communities): Spanish is the practical default; community research pending.
+- Integration (language courses, communities): Spanish is the practical default for bureaucracy, leases, healthcare, schools, and daily life even though Argentina has a comparatively strong EF English score. [src-794]
 
 ### 6d. Before March 2027 (critical deadline)
 - What must be in hand by this date: not Argentina-specific; do not abandon an EU/Polish fallback unless the Argentine durable route is secured.
@@ -304,6 +329,8 @@ Buenos Aires has the strongest international-school ecosystem. The same guide na
 - [src-460] PwC Argentina individual tax administration and corporate VAT context.
 - [src-714] ExpatLife.AI Argentina healthcare 2026 guide.
 - [src-716] ExpatLife.AI Argentina education 2026 guide plus Lincoln School public website.
+- [src-793] World Population Review / TravelSafe Argentina safety screen.
+- [src-794] EF English Proficiency Index Argentina page.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -330,3 +357,4 @@ _(none yet)_
 - `vq-114` resolved for screening in run-093: Argentina has a conservative PIT-only screen, contribution sensitivity, VAT/Ingresos Brutos risk, and registration caveats; monotributo/autonomous-worker eligibility, VAT/export-service handling, social-security/health obligations, banking/invoice requirements, and DN/temporary-residence compatibility remain application-prep/accountant checks. [src-456][src-458][src-459][src-460][src-461]
 - `vq-152` resolved for screening in run-159: route-compliant healthcare insurance, onboarding, maternity/newborn, and selected-city private-care prices remain application-prep checks. [src-713][src-714]
 - `vq-153` resolved for screening in run-159: exact international/bilingual school fees, private preschool, waiting lists, and Cordoba/Mendoza availability remain application-prep/final-city checks. [src-715][src-716]
+- Comfort/partner screening completed in run-196 with WPR / TravelSafe and EF EPI sources; live neighborhood safety, Ukrainian/Russian-speaking community depth, and exact DN/family-dependent mechanics remain practical checks. [src-793][src-794]

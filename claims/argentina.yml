@@ -178,3 +178,22 @@
   confidence: medium
   tags: [education, international-schools, bilingual-schools, buenos-aires, argentina]
   notes: "Top international schools are a major one-income budget risk; exact school fees and non-Buenos-Aires availability remain open."
+
+
+- id: claim-argentina-021
+  topic: argentina_comfort_safety_screen
+  value: "WPR's 2026 table gives Argentina 2025 GPI 1.768, Global Terrorism Index 0.801, safety index 70 / Low risk, and US News safest-country rank 53rd; TravelSafe gives Safety Index 70, user sentiment 80/100, low overall and transport/taxi risk, but medium pickpocket, scam, natural-disaster, and women-traveler risks."
+  source: src-793
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, safety, street-crime, argentina]
+  notes: "Used for first-pass comfort screening; neighborhood-level safety and current local routines remain final-city checks."
+
+- id: claim-argentina-022
+  topic: argentina_english_language_integration_screen
+  value: "EF EPI ranks Argentina #26 globally with score 575 versus global average 488; Buenos Aires city scores 594, Mendoza 577, Cordoba 547, and Rosario 589, but Spanish remains necessary for bureaucracy and daily integration."
+  source: src-794
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [language, english, spanish, adaptation, argentina]
+  notes: "English fallback is comparatively strong for the region, especially in Buenos Aires, but not enough to avoid Spanish for DNM/ARCA/leases/healthcare/schools."

@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 195,
+  "iteration": 196,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-24T07:29:05Z",
+  "last_run_timestamp": "2026-06-24T10:34:43Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Mexico",
+    "country": "Argentina",
     "sections": [
       "5.8",
       "5.9"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Argentina",
+    "suggested_country": "Malaysia",
     "suggested_sections": [
       "5.8",
       "5.9"
     ],
-    "reason": "Verification queue remains below threshold; Mexico reached depth 8.0, so rotate to the next lowest-depth country in INDEX order and continue comfort/partner coverage."
+    "reason": "Verification queue remains below threshold; Argentina reached depth 8.0, so rotate to the next lowest-depth country in INDEX order and continue comfort/partner coverage."
   },
   "countries": {
     "Spain": {
@@ -944,12 +944,14 @@
     "Argentina": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 5.5,
+      "depth_score": 8.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
-        "5.7"
+        "5.7",
+        "5.8",
+        "5.9"
       ],
       "sections_partial": [
         "5.1",
@@ -957,8 +959,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.8",
-        "5.9",
         "5.10",
         "5.11"
       ],
@@ -973,9 +973,11 @@
         "buenos-aires-rent-pressure",
         "argentina-one-income-margin-risk",
         "argentina-health-insurance-quote-gap",
-        "argentina-international-school-cost-risk"
+        "argentina-international-school-cost-risk",
+        "argentina-spanish-language-integration-needed",
+        "argentina-street-crime-scam-risk"
       ],
-      "last_iteration": 159,
+      "last_iteration": 196,
       "unverified_count": 0
     },
     "UAE": {
@@ -1192,7 +1194,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 791,
-  "claims_count": 702,
+  "sources_count": 793,
+  "claims_count": 704,
   "proposals_pending": 0
 }

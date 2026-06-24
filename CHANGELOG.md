@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-24
 ---
 
+## 2026-06-24 — run-196 — Argentina comfort/partner fit
+
+- Completed Argentina sections 5.8 and 5.9 for screening by adding safety, street-crime/scam, transport, English/Spanish-language integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-793`, `src-794`) and two Argentina claims (`claim-argentina-021`, `claim-argentina-022`).
+- Argentina depth_score moved from 5.5 to 8.0; added `argentina-spanish-language-integration-needed` and `argentina-street-crime-scam-risk` as practical fit flags.
+
 ## 2026-06-24 — run-195 — Mexico comfort/partner fit
 
 - Completed Mexico sections 5.8 and 5.9 for screening by adding public-safety, transport, regional-risk, English/Spanish-language integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.

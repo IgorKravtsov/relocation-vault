@@ -9556,3 +9556,28 @@ Each source entry:
 - **Facts supporting**: Mexico English-proficiency / language-integration screen: global rank #103, EF EPI score 440, global average score 488, skill scores, and city scores including Monterrey 532, Guadalajara 511, Merida 470, Mexico City 428, and Cancun 414 (claim-mexico-022)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-24
+
+
+## src-793
+- **Title**: World Population Review — Safest Countries in the World 2026 / TravelSafe Argentina safety report
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/argentina/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: WPR 2026 table current; TravelSafe updated 2025-12-27
+- **Date accessed**: 2026-06-24
+- **Used by**: Argentina
+- **Facts supporting**: Argentina comfort / safety screen: 2025 Global Peace Index score 1.768, 2025 Global Terrorism Index 0.801, safety index 70 / Low risk, US News safest-country rank 53rd, TravelSafe Safety Index 70, user sentiment 80/100, low overall and transport/taxi risk, and medium pickpocket, scam, natural-disaster, and women-traveler caveats (claim-argentina-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-27
+
+## src-794
+- **Title**: EF English Proficiency Index — Argentina
+- **URL**: https://www.ef.com/wwen/epi/regions/latin-america/argentina/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 edition page, no separate page date captured
+- **Date accessed**: 2026-06-24
+- **Used by**: Argentina
+- **Facts supporting**: Argentina English-proficiency / language-integration screen: global rank #26, EF EPI score 575, global average score 488, skill scores, and city scores including Buenos Aires 594, Rosario 589, Mendoza 577, and Cordoba 547 (claim-argentina-022)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-24
