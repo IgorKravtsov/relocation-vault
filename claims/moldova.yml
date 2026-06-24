@@ -209,3 +209,21 @@
   confidence: medium
   tags: [education, international-school, kindergarten, chisinau, tuition]
   notes: "Exact school fee schedules, registration, meals, transport, and non-Chisinau availability are vq-149."
+
+- id: claim-moldova-020
+  topic: comfort_safety_language_screen
+  value: "WPR / TravelSafe screen Moldova as medium risk with 2025 GPI 1.918, TravelSafe-derived safety index 67 / Medium, TravelSafe Safety Index 67, and overall risk Medium; EF EPI gives Moldova global rank #43, score 531, and Chisinau score 572."
+  source: [src-789, src-790]
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, safety, global-peace-index, english-proficiency, chisinau]
+  notes: "Used to pass Moldova section 5.8 for screening."
+
+- id: claim-moldova-021
+  topic: partner_one_income_screen
+  value: "For the student partner, independent TP or independent ordinary eligibility is the conservative baseline; do not assume foreign-DN dependent coverage until GIM/counsel confirms it. Chisinau is the first practical base, but one-income margin remains sensitive to DN threshold, tax/contribution fit, insurance, school fees, and legal/accounting costs."
+  source: [src-222, src-220, src-567, src-568, src-429]
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [partner, student, temporary-protection, digital-nomad, one-income, chisinau]
+  notes: "Uses existing Moldova legal, tax, cost, healthcare, and education evidence plus run-194 comfort/language context; exact spouse/dependent mechanics remain application-prep legal checks."

@@ -9507,3 +9507,27 @@ Each source entry:
 - **Facts supporting**: Bosnia and Herzegovina English-proficiency / language-integration screen: global rank #21, EF EPI score 591, global average score 488, Federation of Bosnia and Herzegovina score 594, Republika Srpska score 584, and Sarajevo score 587 (claim-bosnia-herzegovina-022)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-24
+
+## src-789
+- **Title**: World Population Review — Safest Countries in the World 2026 / TravelSafe Moldova safety report
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/moldova/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: WPR 2026 table current; TravelSafe updated 2025-12-16
+- **Date accessed**: 2026-06-24
+- **Used by**: Moldova
+- **Facts supporting**: Moldova comfort / safety screen: 2025 Global Peace Index score 1.918, 2024 GPI 1.976, 2023 GPI 1.873, TravelSafe-derived safety index 67 / Medium, TravelSafe Safety Index 67, user sentiment 65/100, overall risk Medium, and transport/taxi plus Transnistria/regional-security caveats (claim-moldova-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-16
+
+## src-790
+- **Title**: EF English Proficiency Index — Moldova
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/moldova/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 edition page, no separate page date captured
+- **Date accessed**: 2026-06-24
+- **Used by**: Moldova
+- **Facts supporting**: Moldova English-proficiency / language-integration screen: global rank #43, EF EPI score 531, global average score 488, and Chisinau score 572 (claim-moldova-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-24

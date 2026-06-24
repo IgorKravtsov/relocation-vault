@@ -1,13 +1,13 @@
 ---
 country: Moldova
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-19T15:26:02Z
-sections_completed: ["5.2","5.4","5.5","5.7"]
+depth_score: 8.0
+last_updated: 2026-06-24T04:22:20Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["digital-nomad-threshold-current-year-gap", "pr-counting-for-digital-nomad-unclear", "post-2027-tp-bridge-gap", "transnistria-practical-risk", "moldova-entrepreneur-contribution-category-gap", "moldova-foreign-client-vat-fit-gap", "moldova-health-insurance-onboarding-gap", "moldova-international-school-cost-risk"]
-sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225, src-424, src-425, src-426, src-427, src-428, src-429, src-566, src-567, src-568, src-569, src-705, src-706, src-707, src-708]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["digital-nomad-threshold-current-year-gap", "pr-counting-for-digital-nomad-unclear", "post-2027-tp-bridge-gap", "transnistria-practical-risk", "moldova-transnistria-border-security-risk", "moldova-romanian-russian-language-integration-needed", "moldova-entrepreneur-contribution-category-gap", "moldova-foreign-client-vat-fit-gap", "moldova-health-insurance-onboarding-gap", "moldova-international-school-cost-risk", "moldova-one-income-margin-risk"]
+sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225, src-424, src-425, src-426, src-427, src-428, src-429, src-566, src-567, src-568, src-569, src-705, src-706, src-707, src-708, src-789, src-790]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence shows Moldova has an official digital-nomad residence route and temporary protection for displaced Ukrainians until 01 March 2027, but long-term usefulness for this couple depends on the current average-salary threshold, whether digital-nomad residence counts toward permanent residence, and post-TP transition mechanics. [src-220][src-222]
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-19
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-24
 - **Tier rationale**: Not assigned. Treat Moldova as a potentially practical nearby bridge/base, not yet a proven long-term route to PR/citizenship for a foreign-client IT worker.
 
 ## Block 2 — Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | 40 m2 1BR proxy is about $373-$538 in Chisinau and $265-$375 in Balti; rent is affordable, but live listings, registered-address support, and lease terms still need application-prep checks. | §5.5 |
 | Healthcare | — | medium | Public coverage exists for legal residents and TP includes primary/emergency healthcare, but route-compliant private policy wording, CNAM onboarding by final status, and city-specific private prices remain application-prep gaps. | §5.6 |
 | Education (future child) | — | medium | Public schooling is structured through compulsory education to age 16, but Romanian-language integration is the baseline; Chisinau has QSI/Heritage international options with tuition risk. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | WPR/TravelSafe screen Moldova as medium-risk but not high-risk; English is moderate nationally and stronger in Chisinau, while Romanian/Russian language ability and Transnistria avoidance matter for daily life. | §5.8 |
+| Fit for couple with single income | — | medium | Low Chisinau/Balti costs help, but the DN threshold, unproven partner dependency, private insurance/school costs, and one-earner tax/route uncertainty keep the margin tight. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -214,13 +214,45 @@ schema_version: 2.0.0
 3. Treat the USD 3,000-8,000/year international-school range as a material one-income risk: at the conservative Moldova tax-net band, school fees plus private healthcare can consume most of the margin. [src-429][src-708]
 4. Before final city selection, collect exact QSI/Heritage tuition, registration, transport, meals, private-preschool prices, and availability outside Chisinau.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-24, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening at medium confidence. Safety and English-language data come from WPR / TravelSafe and EF EPI, so use them as country-screening proxies rather than neighborhood-level advice. The practical comfort baseline is Chisinau first, Balti only as a cheaper fallback, and no default reliance on Tiraspol / Transnistria.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Safety and daily-life risk
+- World Population Review's 2026 safety table lists Moldova with a **2025 Global Peace Index score of 1.918**, 2024 GPI 1.976, 2023 GPI 1.873, and a TravelSafe-derived **safety index of 67 / Medium**. TravelSafe's Moldova page is also updated 2025-12-16 and gives Safety Index 67, user sentiment 65/100, and overall risk **Medium**. [src-789] Confidence: medium.
+- The main safety caveat is not ordinary violent crime but the regional security environment: TravelSafe explicitly links the medium overall risk to the nearby Russia-Ukraine war and instability around breakaway regions such as Transnistria. For this couple, that reinforces the existing rule: use Chisinau / ordinary Moldovan-administered cities as the planning baseline and do not treat Tiraspol as a default relocation base even though it is cheaper. [src-789][src-569]
+- Transport and roads need caution. TravelSafe marks transport/taxis as medium risk because of inconsistent taxi services and variable road conditions, and recommends hotel-booked cars or ride apps rather than random street taxis. This matters for apartment search, appointments at GIM / clinics, and any cross-country travel. [src-789]
 
-[verification required]
+#### Language, services, and city comfort
+- EF EPI lists Moldova at **global ranking #43**, EF EPI score **531**, global average 488, and Chisinau city score **572**. That supports a moderate English baseline for Chisinau services, but it is not enough to make English-only life a safe assumption. [src-790] Confidence: medium.
+- Practical language baseline: budget for Romanian-language bureaucracy and leases, plus Russian-language usefulness in daily life. English may work better in Chisinau's international schools, private clinics, expat-facing landlords, and IT/accounting circles, but GIM, tax, CNAM/CNAS, public education, and most local paperwork should be planned around Romanian/Russian support. [src-790][src-219][src-707]
+- **City screen**: Chisinau remains the first base because it concentrates GIM access, embassies/NGOs, accountants/lawyers, tertiary healthcare, private clinics, QSI/Heritage international-school options, and the strongest English score captured in this pass. [src-567][src-706][src-708][src-790]
+- **Balti** is a cost fallback, not the first comfort pick: cheaper rent/living costs are attractive, but the colder northern climate, weaker services, and likely thinner English/international-school network make it a second-stage affordability option. [src-568][src-223][src-790]
+
+#### Comfort verdict
+Moldova is comfort-screenable but not a low-friction lifestyle choice. Chisinau can plausibly work for a Ukrainian remote-worker couple because costs are low, English is moderate, and Russian/Romanian familiarity may lower adaptation friction compared with more distant countries. The downsides are medium regional/security risk, road/taxi caution, cold winters, Transnistria avoidance, and the need for local-language help with bureaucracy, leases, healthcare, and schools.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-24, dod: passed}
+
+> **DoD status**: Passed for screening at medium confidence. The partner baseline uses already captured GIM/UNHCR residence evidence plus the new comfort/language and existing budget evidence. Exact foreign-DN spouse/dependent mechanics remain an application-prep legal check, so the conservative plan is independent TP/ordinary eligibility or marriage-backed documentation only after counsel confirms the route.
+
+#### Status options for the student partner
+- **Independent temporary protection**: If she independently qualifies under Moldova's Ukraine temporary-protection rules, TP provides the right to remain, work, access children's education, and receive primary/emergency healthcare until 01 March 2027. This is the cleanest short-term safety baseline because it does not depend on the man's DN sponsorship mechanics. [src-222]
+- **Dependent / spouse route**: The captured family-reunification source is for family reunification with a Moldovan citizen, while the DN page captured the main applicant's checklist but did not prove spouse/unmarried-partner sponsorship by a foreign digital nomad. Conservative answer: do not assume unmarried-partner coverage; if Moldova remains a candidate, marry only if a Moldovan lawyer/GIM confirms that a spouse can be included or sponsored under the chosen provisional-stay route. [src-220][src-225]
+- **Student route**: Remote study in a Ukrainian university does not itself create Moldovan residence. It is compatible with daily life if she already has TP, DN-dependent status, family status, or another ordinary Moldovan stay, but it should not be treated as a Moldovan student-residence basis unless she enrolls in a Moldovan institution and confirms the study-purpose residence file. [src-219]
+- **Work rights**: TP explicitly includes work rights, while the DN route is designed around remote work for the applicant with a foreign contract/service contract. The partner should not assume local work rights from the man's DN file until her exact status is confirmed; if she wants to work later, check whether her own TP/ordinary/family status permits local employment or self-employment. [src-222][src-220]
+
+#### One-income fit
+- On cost/rent alone, Moldova is one of the easier countries in the vault: Chisinau's Livingcost family proxy is about **USD 2,283/month**, Balti about **USD 1,870/month**, and modest 40 m2 Chisinau rent is about **USD 373-538/month**. That fits below gross USD 3,000 and narrowly below the conservative Moldova tax-net band of about **USD 2,469-2,490/month** before accountant, insurance, immigration, and school costs. [src-567][src-568][src-429]
+- The binding risk is not rent; it is route and margin. The DN formula requires three forecast average Moldovan salaries per month, PR counting for DN/IT time remains unproven, private insurance / school fees can consume much of the surplus, and the tax/contribution category still needs accountant confirmation. [src-220][src-221][src-426][src-706][src-708]
+- Partner comfort: the student can continue Ukrainian remote study from Chisinau if her legal status is stable and internet/housing are secured. However, she should budget for Romanian/Russian language learning, document translations, and local support for clinics, leases, banking, GIM, and possible future child schooling. [src-790][src-707]
+
+#### Partner playbook
+1. Treat TP as the short-term independent safety status if she qualifies; do not rely on the man's DN file to cover her until GIM/counsel confirms dependent mechanics. [src-222][src-220]
+2. If the couple decides to marry, use marriage as an evidence-strengthening tool only after checking whether the chosen Moldovan route actually recognises the spouse of a foreign DN/provisional-stay holder. [src-225]
+3. Choose Chisinau first for language/service depth, private clinics, international schools, immigration/accounting support, and better English score; use Balti only if the one-income budget becomes the overriding constraint. [src-567][src-568][src-706][src-708][src-790]
+4. Budget on the conservative fixed-contribution tax sensitivity and add private insurance, legal/accounting, translation, and residence-filing costs before deciding that Moldova is affordable. [src-429][src-426]
+5. Keep Tiraspol out of the default plan despite low rent, because Transnistria/regional-security risk is a comfort and legality/practicality problem for a residence file. [src-789][src-569]
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -246,8 +278,8 @@ schema_version: 2.0.0
 
 - **Can relocate now**: Possibly, via visa-free entry / TP / DN planning, but official entry and DN threshold verification are needed before scoring.
 - **Best legalization path for the man**: Digital-nomad residence if the current-year income formula fits the ~$3,000/month budget and DN time can support long-term planning.
-- **Best legalization path for the woman**: Temporary protection independently if eligible, or independent ordinary status; for the man's DN file, use marriage only as general documentation support and do not assume a foreign-DN dependent route until GIM/counsel confirms it. [src-222][src-225]
-- **Does marriage change the picture**: Likely helpful for documentation generally, but this pass only captured family reunification with a Moldovan citizen; foreign-sponsor spouse mechanics remain unverified.
+- **Best legalization path for the woman**: Temporary protection independently if eligible, or independent ordinary status; for the man's DN file, use marriage only as general documentation support and do not assume a foreign-DN dependent route until GIM/counsel confirms it. [src-222][src-220][src-225]
+- **Does marriage change the picture**: Likely helpful for documentation generally, but this pass only captured family reunification with a Moldovan citizen; foreign-sponsor spouse mechanics remain unverified. Marriage should be treated as an application-prep evidence tool, not a guaranteed dependent solution.
 - **Realism of staying after 03.2027**: Unclear / medium-risk until DN threshold, PR counting, and citizenship are verified.
 
 **Pros**:
@@ -260,7 +292,9 @@ schema_version: 2.0.0
 - DN income threshold is formula-based (3x the current-year forecast average salary per month); the exact filing-year number must be checked before applying. [src-220]
 - PR-counting for DN/IT residence should be treated as unproven because the PR page lists IT-related exceptions. [src-221]
 - No captured post-TP bridge; ordinary status should be secured before TP expiry.
-- Cold/gray winters and Transnistria-related practical risk reduce comfort.
+- Cold/gray winters, medium regional/security risk, road/taxi caution, and Transnistria-related practical risk reduce comfort. [src-789]
+- Chisinau English is better than the national baseline, but Romanian/Russian support remains necessary for bureaucracy, leases, healthcare, and public-school integration. [src-790]
+- One-income affordability is helped by low rent but still vulnerable to DN threshold, private insurance, school fees, accountant/legal costs, and unresolved tax/contribution fit. [src-220][src-426][src-706][src-708]
 
 ## Block 6 — Practical playbook (working relocation guide)
 
@@ -269,7 +303,8 @@ schema_version: 2.0.0
 - Criminal-record certificates for DN/residence, prepared for legalization/apostille as required and translated into Romanian or English. [src-220]
 - Foreign employment/service contract and six months of bank statements in Romanian or English for the DN file. [src-220]
 - Remote-work sworn statement in free form. [src-220]
-- Marriage certificate only if they decide to marry; dependent mechanics for a foreign sponsor still need verification.
+- Marriage certificate only if they decide to marry; dependent mechanics for a foreign sponsor still need verification, so collect apostilled/translated civil-status evidence but do not rely on it as a route by itself.
+- Start Romanian-language preparation and identify Russian/Romanian-speaking accountant, lawyer, and landlord support for Chisinau. [src-790]
 - Check whether holding or changing Polish `karta pobytu` / TP affects Moldova TP obligations before filing.
 
 ### 6b. First month after arrival
@@ -282,6 +317,7 @@ schema_version: 2.0.0
 - Decide between remaining on TP temporarily and converting/planning ordinary residence.
 - If DN route fits the verified threshold, file DN residence with bank statements, contract, accommodation, insurance, criminal-record certificate, and photo. [src-220]
 - Start tax/accounting research before local registration or invoicing changes.
+- Keep housing, clinics, and GIM/accounting appointments in Chisinau first; use ride apps or trusted transport for appointments rather than random taxis. [src-789]
 
 ### 6d. Before March 2027 (critical deadline)
 - Do not rely on TP past 01 March 2027 unless Moldova publishes a later extension/transition.
@@ -310,6 +346,7 @@ schema_version: 2.0.0
 - General Inspectorate for Migration: central and regional offices listed on IGM pages. [src-219]
 - UNHCR Moldova / Refugee Response Green Line for TP-related support. [src-222]
 - Lawyers/accountants: [verification required]
+- Language/support: plan Romanian/Russian help for official appointments; English is a screening advantage in Chisinau, not a substitute for local-language paperwork. [src-790]
 
 ## Block 7 — Sources
 
@@ -328,6 +365,8 @@ schema_version: 2.0.0
 - [src-427] PwC Moldova tax administration and foreign-tax relief.
 - [src-428] PwC Moldova corporate VAT context.
 - [src-707] Eurydice Moldova education-system structure.
+- [src-789] World Population Review / TravelSafe Moldova safety proxy.
+- [src-790] EF EPI Moldova English-proficiency page.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -356,8 +395,8 @@ _(none yet)_
 
 ## Block 8 — Open questions and verification markers
 
-- `vq-068` — official Ukraine entry / TP transition / citizenship baseline.
-- `vq-069` — DN current threshold, dependent mechanics, and PR-counting for DN/IT residence.
+- `vq-068` resolved for screening in run-043: official Ukraine entry / TP transition details are conservative planning checks; no captured post-TP bridge should be relied on.
+- `vq-069` resolved for screening in run-043: DN current threshold arithmetic, dependent mechanics, and PR-counting for DN/IT residence remain application-prep/legal checks.
 - `vq-109` resolved in run-087: Moldova foreign-client IT tax fit is closed for screening using the existing PIT-only and fixed-contribution sensitivities; exact registration, contribution, VAT/place-of-supply, and DN/provisional-stay compatibility remain application-prep checks.
 - `vq-148` resolved for screening in run-159: Moldova healthcare insurance/onboarding/private-price details remain application-prep checks.
 - `vq-149` resolved for screening in run-159: Moldova international-school/private-preschool fee and non-Chisinau availability details remain application-prep checks.

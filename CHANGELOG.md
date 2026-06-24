@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-24
 ---
 
+## 2026-06-24 — run-194 — Moldova comfort/partner fit
+
+- Completed Moldova sections 5.8 and 5.9 for screening by adding safety, Transnistria/regional-security, transport, English/Romanian/Russian-language integration, Chisinau/Balti comfort, partner-status, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-789`, `src-790`) and two Moldova claims (`claim-moldova-020`, `claim-moldova-021`).
+- Moldova depth_score moved from 5.5 to 8.0; added `moldova-transnistria-border-security-risk`, `moldova-romanian-russian-language-integration-needed`, and `moldova-one-income-margin-risk` as practical fit flags.
+
 ## 2026-06-24 — run-193 — Bosnia and Herzegovina comfort/partner fit
 
 - Completed Bosnia and Herzegovina sections 5.8 and 5.9 for screening by adding safety, English/Bosnian-Croatian-Serbian integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
