@@ -230,3 +230,22 @@
   confidence: medium
   tags: [education, international-school, sarajevo, mostar, qsi, uwc]
   notes: "Exact tuition and private preschool prices remain vq-147."
+
+
+- id: claim-bosnia-herzegovina-021
+  topic: comfort_safety_screen
+  value: "World Population Review gives Bosnia and Herzegovina a 2025 Global Peace Index score of 1.895 and a TravelSafe-derived safety index of 48 / Low; TravelSafe also labels overall risk low while flagging medium transport/taxi, pickpocket, scam, mugging, and natural-disaster risks."
+  source: src-787
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, safety, global-peace-index, travelsafe, transport-risk]
+  notes: "Commercial/reputable secondary safety screen; use as daily-life proxy, not a residence-security guarantee."
+
+- id: claim-bosnia-herzegovina-022
+  topic: english_language_integration_screen
+  value: "EF's Bosnia and Herzegovina page gives global rank #21, EF EPI score 591, global average score 488, Federation of Bosnia and Herzegovina 594, Republika Srpska 584, and Sarajevo city score 587."
+  source: src-788
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, english-proficiency, language-integration, sarajevo]
+  notes: "English screen is relatively strong, but Bosnian/Croatian/Serbian remains necessary for bureaucracy, leases, taxes, healthcare onboarding, and public schools."

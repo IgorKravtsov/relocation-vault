@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-23
+last_updated: 2026-06-24
 ---
 
 # Sources Registry
@@ -9482,3 +9482,28 @@ Each source entry:
 - **Facts supporting**: North Macedonia English-proficiency / language-integration screen: EF EPI score 595, global average score 488, and European ranking #17 on the captured country page (claim-north-macedonia-020)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-23
+
+
+## src-787
+- **Title**: World Population Review — Safest Countries in the World 2026 / TravelSafe Bosnia and Herzegovina safety report
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/bosnia-and-herzegovina/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: WPR 2026 table current; TravelSafe updated 2025-12-20
+- **Date accessed**: 2026-06-24
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Bosnia and Herzegovina comfort / safety screen: 2025 Global Peace Index score 1.895, 2025 Global Terrorism Index 1.218, TravelSafe-derived safety index 48 / Low, TravelSafe overall risk Low, and medium transport/taxi, pickpocket, scam, mugging, and natural-disaster caveats (claim-bosnia-herzegovina-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-20
+
+## src-788
+- **Title**: EF English Proficiency Index — Bosnia and Herzegovina
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/bosnia-and-herzegovina/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 edition page, no separate page date captured
+- **Date accessed**: 2026-06-24
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Bosnia and Herzegovina English-proficiency / language-integration screen: global rank #21, EF EPI score 591, global average score 488, Federation of Bosnia and Herzegovina score 594, Republika Srpska score 584, and Sarajevo score 587 (claim-bosnia-herzegovina-022)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-24

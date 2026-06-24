@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-23
+last_updated: 2026-06-24
 ---
 
 # INDEX
@@ -30,7 +30,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Georgia | europe-non-eu | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 186 | `countries/georgia.md` |
 | Albania | balkans-east | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 187 | `countries/albania.md` |
 | North Macedonia | balkans-east | 3 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 192 | `countries/north-macedonia.md` |
-| Bosnia and Herzegovina | balkans-east | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 159 | `countries/bosnia-and-herzegovina.md` |
+| Bosnia and Herzegovina | balkans-east | 3 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 193 | `countries/bosnia-and-herzegovina.md` |
 | Moldova | balkans-east | 3 | — | 5.5 | done: 5.2, 5.4, 5.5, 5.7; partial: 5.1, 5.3, 5.6 | 159 | `countries/moldova.md` |
 | Uruguay | latin-america | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 188 | `countries/uruguay.md` |
 | Paraguay | latin-america | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 189 | `countries/paraguay.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 7.23
+- **Average depth_score**: 7.30

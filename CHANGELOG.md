@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-23
+last_updated: 2026-06-24
 ---
+
+## 2026-06-24 — run-193 — Bosnia and Herzegovina comfort/partner fit
+
+- Completed Bosnia and Herzegovina sections 5.8 and 5.9 for screening by adding safety, English/Bosnian-Croatian-Serbian integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-787`, `src-788`) and two Bosnia and Herzegovina claims (`claim-bosnia-herzegovina-021`, `claim-bosnia-herzegovina-022`).
+- Bosnia and Herzegovina depth_score moved from 5.5 to 8.0; added `bosnian-croatian-serbian-language-integration-needed`, `bosnia-road-and-transport-risk`, and `bosnia-one-income-margin-risk` as practical fit flags.
 
 ## 2026-06-23 — run-192 — North Macedonia comfort/partner fit
 
