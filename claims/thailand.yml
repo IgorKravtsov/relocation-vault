@@ -178,3 +178,22 @@
   confidence: medium
   tags: [education, international-school, tuition, bangkok, chiang-mai, phuket]
   notes: "Bangkok source is src-725; Chiang Mai and Phuket examples are from src-726."
+
+
+- id: claim-thailand-021
+  topic: thailand_safety_and_transport_screen
+  value: "World Population Review / TravelSafe place Thailand in a moderate safety band: 2025 Global Peace Index 2.017, 2025 Global Terrorism Index 4.630, safety index 48, WPR TravelSafe risk level Medium, US News rank 46th, while TravelSafe's country report describes overall traveler risk as Low in tourist-friendly areas but flags transport/taxis, pickpockets, natural disasters, and tap water as medium risks."
+  source: src-797
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, safety, transport, travel-risk, thailand]
+  notes: "Use as country/city screening evidence only; final city choice still needs neighbourhood and route-specific safety checks, especially road/scooter/taxi risk and far-south unrest avoidance."
+
+- id: claim-thailand-022
+  topic: thailand_english_proficiency
+  value: "EF EPI ranks Thailand #116 globally with EF EPI score 402 versus global average 488; captured city scores include Pattaya 474, Bangkok 467, Chiang Mai 453, and Phuket 431."
+  source: src-798
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, english, language, integration, bangkok, chiang-mai, phuket]
+  notes: "English should be treated as an expat/tourist/private-service fallback rather than a broad daily-life default."

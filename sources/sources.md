@@ -9605,3 +9605,28 @@ Each source entry:
 - **Facts supporting**: Malaysia English-proficiency / adaptation screen: global rank #24, EF EPI score 581, global average score 488, skill scores, region scores, and city scores including Kuala Lumpur 588, Ipoh 582, and Johor Bahru 577 (claim-malaysia-023)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-24
+
+
+## src-797
+- **Title**: World Population Review - Safest Countries in the World 2026 / TravelSafe Thailand safety report
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/thailand/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: WPR 2026-06-16; TravelSafe page title indicates 2026 safety rating
+- **Date accessed**: 2026-06-24
+- **Used by**: Thailand
+- **Facts supporting**: Thailand comfort / safety screen: 2025 Global Peace Index 2.017, 2025 Global Terrorism Index 4.630, WPR / TravelSafe safety index 48, TravelSafe risk level Medium, US News safest-country rank 46th, TravelSafe Safety Index 48, user sentiment 79/100, overall traveler risk Low in tourist-friendly areas, far-south unrest caveat, and medium transport/taxi, pickpocket, natural-disaster, and tap-water risks (claim-thailand-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-24
+
+## src-798
+- **Title**: EF English Proficiency Index - Thailand
+- **URL**: https://www.ef.com/wwen/epi/regions/asia/thailand/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 edition page, no separate page date captured
+- **Date accessed**: 2026-06-24
+- **Used by**: Thailand
+- **Facts supporting**: Thailand English-proficiency / adaptation screen: global rank #116, EF EPI score 402, global average score 488, and city scores including Pattaya 474, Bangkok 467, Chiang Mai 453, and Phuket 431 (claim-thailand-022)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-24

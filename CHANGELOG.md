@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-24
 ---
 
+## 2026-06-24 - run-198 - Thailand comfort/partner fit
+
+- Completed Thailand sections 5.8 and 5.9 for screening by adding safety, road/transport, English-language integration, city-comfort, spouse-dependent, remote-study, work-right, and one-income bridge baselines.
+- Added two sources (`src-797`, `src-798`) and two Thailand claims (`claim-thailand-021`, `claim-thailand-022`).
+- Thailand depth_score moved from 5.5 to 8.0; added `thailand-road-and-transport-risk` and `thailand-english-language-integration-needed` as practical fit flags.
+
 ## 2026-06-24 — run-197 — Malaysia comfort/partner fit
 
 - Completed Malaysia sections 5.8 and 5.9 for screening by adding safety, English/Bahasa integration, city-comfort, spouse-dependent, remote-study, work-right, and one-income baselines.

@@ -1,13 +1,13 @@
 ---
 country: Thailand
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-19T18:42:00Z
-sections_completed: ["5.2","5.4","5.5","5.7"]
+depth_score: 8.0
+last_updated: 2026-06-24T16:49:33Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate", "thailand-remittance-tax-risk", "thailand-vat-social-security-fit-gap", "bangkok-phuket-rent-pressure", "thailand-one-income-margin-risk", "thailand-private-insurance-quote-gap", "thailand-international-school-cost-risk"]
-sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261", "src-471", "src-472", "src-473", "src-474", "src-475", "src-476", "src-585", "src-586", "src-587", "src-588", "src-589", "src-721", "src-722", "src-723", "src-724", "src-725", "src-726"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate", "thailand-remittance-tax-risk", "thailand-vat-social-security-fit-gap", "bangkok-phuket-rent-pressure", "thailand-one-income-margin-risk", "thailand-private-insurance-quote-gap", "thailand-international-school-cost-risk", "thailand-road-and-transport-risk", "thailand-english-language-integration-needed"]
+sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261", "src-471", "src-472", "src-473", "src-474", "src-475", "src-476", "src-585", "src-586", "src-587", "src-588", "src-589", "src-721", "src-722", "src-723", "src-724", "src-725", "src-726", "src-797", "src-798"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (first pass suggests a strong medium-term bridge/base, not a proven settlement route for this couple).
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-19
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-24
 - **Tier rationale**: Ukrainian passport holders can use a 60-day visa exemption for tourism/scouting, and the Destination Thailand Visa (DTV) is a current official workcation route for remote workers/freelancers with a 500,000 THB savings threshold and 5-year multiple-entry validity. However, DTV is structured around 180-day stays and exits/re-entries, while the official LTR Work-from-Thailand route requires at least USD 80,000/year, or USD 40,000/year plus extra qualifications and a qualifying large overseas employer, above or awkward for the couple's current profile. [src-257][src-258][src-259]
 
 ## Block 2 - Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | 40 m2 rent proxies are about USD 253-632 in the captured cities; Bangkok and Phuket require tighter caps, while Chiang Mai is the most affordable default screen. | §5.5 |
 | Healthcare | — | medium | Public care is not the default plan for DTV holders; private hospitals are strong in Bangkok/major cities and private insurance should be budgeted, but exact DTV-accepted wording, maternity/newborn terms, and city provider prices remain application-prep checks. | §5.6 |
 | Education (future child) | — | medium | Public schooling is Thai-language; international-school options are deep in Bangkok and present in Chiang Mai/Phuket, but fees can consume a large share of one income. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Thailand is manageable for an experienced expat-style bridge if the couple filters by city and season: general tourist risk is low, but WPR/TravelSafe safety proxies are weaker than Malaysia and road/taxi/petty-crime risks matter. English proficiency is very low nationally. | §5.8 |
+| Fit for couple with single income | — | medium | DTV works best after marriage because spouse/children are captured dependents; one-income finances can work in Chiang Mai or capped Bangkok/Pattaya, but private insurance, DTV savings, school costs, and no settlement ladder keep it bridge-only. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -161,17 +161,27 @@ schema_version: 2.0.0
 - **Kindergarten / preschool**: the captured system baseline includes two to three years of kindergarten, and the international-school examples start as young as ages 1-3 depending on school. Exact private-preschool standalone prices, deposits, meals, transport, and waiting-list terms were not captured; keep these as final-city budget checks. [src-724][src-725][src-726]
 - **Education verdict**: education is viable but not cheap. For screening, Thailand works only if the couple is comfortable with Thai-language public schooling or can reserve a substantial private-school buffer. Bangkok offers maximum choice at high cost; Chiang Mai is the best affordability screen; Phuket should not be the default future-child base on one income.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-24, dod: passed}
 
 > **DoD**: safety data; attitude toward Ukrainians with sources; English level among locals.
 
-[verification required]
+- **Safety baseline**: World Population Review's 2026 safety table places Thailand in a moderate-risk band rather than a top-safety band: 2025 Global Peace Index **2.017**, 2025 Global Terrorism Index **4.630**, WPR / TravelSafe safety index **48**, TravelSafe risk level **Medium**, and US News safest-country rank **46th**. This is not a rejection, but it means Thailand should be filtered by city, neighbourhood, transport habits, and southern-region risk rather than treated as uniformly safe. [src-797]
+- **TravelSafe caveats**: TravelSafe's Thailand report gives Safety Index **48**, user sentiment **79/100**, and overall traveler risk **Low** in tourist-friendly areas, while flagging political violence/unrest mainly in the far south. It rates transport/taxis, pickpockets, natural disasters, and tap-water risk as medium, with practical warnings around tuk-tuk / unmetered-taxi overcharging, scooter/road risk, crowded markets/stations/party streets, flooding/earthquake disruption, and petty non-violent theft. [src-797]
+- **Women / couple safety and daily rules**: TravelSafe rates women-traveler risk as low in cities and well-touristed areas, but still recommends standard party/alcohol caution and temple modesty. For this couple, Bangkok, Chiang Mai, and Phuket are viable comfort tests only with local transport discipline, neighbourhood screening, and avoidance of far-south security-risk areas. [src-797]
+- **English and daily integration**: EF EPI ranks Thailand **#116 globally** with EF EPI score **402**, far below the global average **488**. Captured city scores are also low: Pattaya **474**, Bangkok **467**, Chiang Mai **453**, Phuket **431**, and several smaller cities lower. English will be available in expat/tourist/private-hospital/international-school contexts, but it is not a broad daily-life fallback. [src-798]
+- **Attitude toward Ukrainians**: no Thailand-specific Ukrainian reception or support data was captured. The safe baseline is ordinary foreign-resident / tourist / DTV treatment, not Ukraine-specific assistance. Thailand is outside the EU temporary-protection system, so nationality does not create a post-2027 bridge; this is a neutral-to-negative support factor rather than an active blocker.
+- **City comfort screen**: Bangkok has the deepest hospitals, schools, airports, consulates, tax advisers, and expat infrastructure but also congestion, heat, scams/petty-crime exposure, and higher rent. Chiang Mai is the best budget and winter-comfort screen but needs smoke-season and healthcare/service-depth filtering. Phuket is a coastal lifestyle option with tourist-market costs, monsoon/humidity, and weaker English score than Bangkok/Chiang Mai. Pattaya has some cost/English-service appeal, but family-friendliness and neighbourhood quality need final-city checks. [src-586][src-587][src-588][src-589][src-797][src-798]
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-24, dod: passed}
 
 > **DoD**: dependent/partner status with and without marriage; possibility of remote Ukrainian-university study; possibility of work; sponsor minimum income.
 
-[verification required]
+- **With marriage**: the conservative partner route is spouse dependent on the working partner's DTV. Captured DTV sources explicitly include spouse and children under 20 as dependents, and the main applicant's DTV workcation file can be based on foreign remote-work / freelancer evidence plus at least **500,000 THB** financial evidence. [src-257][src-258]
+- **Without marriage**: no unmarried-partner dependent treatment was captured. For planning, the student partner should either marry before using the dependent route or maintain an independent Thai status/visitor plan. Do not assume cohabitation alone will create a Thai dependent file. [src-257][src-258]
+- **Remote Ukrainian-university study**: continuing remote Ukrainian university study should be operationally compatible if her Thai status is valid, housing/internet are stable, and time zones are manageable. It does not by itself grant Thai residence or work rights, so it is a life-logistics fact rather than a legalization basis unless a separate Thai education route is intentionally pursued.
+- **Work rights / future earnings**: captured DTV dependent evidence does not prove local employment rights or independent freelancing rights for the spouse. If she starts working, verify whether she needs her own DTV, work permit, Thai employer route, business/tax registration, or another authorization before local work or invoicing. [src-257][src-471][src-473]
+- **One-income fit**: Thailand can work as a bridge/base on one USD 3,000 income only with disciplined city choice. Chiang Mai and capped Bangkok/Pattaya budgets are the first screens; Phuket and premium Bangkok lifestyles can erode the tax-screen net quickly once private insurance, DTV extension/re-entry costs, deposits, coworking/transport, and adviser fees are included. Future international-school costs are a major later-family constraint. [src-585][src-586][src-587][src-588][src-589][src-722][src-725][src-726]
+- **Planning verdict for the couple**: Thailand is a practical bridge if the couple accepts marriage for dependency, very-low national English proficiency, tropical heat/monsoon conditions, and no captured settlement ladder. It should not be treated as a long-term family-base answer unless DTV extension practice, tax status, private insurance, spouse work rights, and a post-DTV route are verified.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -203,7 +213,7 @@ schema_version: 2.0.0
 - **Best legalization path for the man**: DTV workcation / remote worker / freelancer route.
 - **Best legalization path for the woman**: spouse dependent on DTV after marriage; unmarried-partner route not captured.
 - **Does marriage change the picture**: yes, captured DTV dependent language covers spouse and children under 20.
-- **Realism of staying after 03.2027**: medium as a bridge/base, low as a settlement route at current income/profile; no DTV-to-PR/citizenship ladder is captured. Cost/rent now looks workable for a bridge if Chiang Mai or capped Bangkok/Pattaya budgets are used, but private insurance and international-school costs can quickly erase the buffer; Phuket and uncapped Bangkok create one-income margin risk.
+- **Realism of staying after 03.2027**: medium as a bridge/base, low as a settlement route at current income/profile; no DTV-to-PR/citizenship ladder is captured. Cost/rent and partner fit look workable for a bridge if the couple marries for dependency and uses Chiang Mai or capped Bangkok/Pattaya budgets, but very-low national English proficiency, private insurance, DTV extension/re-entry costs, international-school costs, and Phuket / uncapped Bangkok lifestyle inflation can erase the buffer.
 
 **Pros**:
 - Official remote-worker/freelancer DTV route with no high monthly income threshold captured; main financial gate is savings of at least 500,000 THB.
@@ -216,6 +226,7 @@ schema_version: 2.0.0
 - Unmarried partner is not captured for dependent treatment; spouse/children only is the safe baseline.
 - Bangkok/Phuket are hot, humid, monsoon-affected, and more rent-sensitive; Phuket has low clearer-sky reliability.
 - One-income buffer can be squeezed by DTV savings evidence, tax/accountant uncertainty, private insurance, visa-trip/extension costs, and future private-school costs; Bangkok has the best hospital/school depth, Chiang Mai the best cost fit, and Phuket should remain a lifestyle exception.
+- Comfort screen is mixed: overall traveler risk can be low in tourist-friendly areas, but WPR/TravelSafe safety index is only 48, road/taxi/petty-crime risks need discipline, and EF places Thailand very low for English proficiency. [src-797][src-798]
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -233,7 +244,7 @@ schema_version: 2.0.0
 
 ### 6c. First 3-6 months
 - Verify Thai tax residency and foreign-income treatment for remote IT work.
-- Test real living comfort in Bangkok vs Chiang Mai vs Phuket, especially humidity, monsoon disruption, and air quality.
+- Test real living comfort in Bangkok vs Chiang Mai vs Phuket, especially humidity, monsoon disruption, air quality, transport safety, English-service depth, and neighbourhood fit. [src-797][src-798]
 - Decide whether Thailand is only a bridge or whether income/profile can be upgraded toward LTR or another durable route.
 
 ### 6d. Before March 2027 (critical deadline)
@@ -264,6 +275,7 @@ schema_version: 2.0.0
 - BOI LTR official programme: [src-259].
 - Thailand Ministry of Public Health / Ministry of Education official authority anchors: [src-721][src-723].
 - Healthcare and school searches should start in Bangkok for service depth, then Chiang Mai for budget, then Phuket only if coastal lifestyle is worth the added one-income risk. [src-722][src-725][src-726]
+- Comfort and community searches should start with Bangkok / Chiang Mai expat-service infrastructure, then Phuket or Pattaya only after neighbourhood, road-safety, English-service, and family-friendliness checks. [src-797][src-798]
 - Lawyers, tax advisers, Ukrainian/Russian-speaking communities: [verification required].
 
 ## Block 7 - Sources
@@ -274,7 +286,7 @@ schema_version: 2.0.0
 
 ### 7b. Reputable secondary
 - PwC Worldwide Tax Summaries Thailand individual PIT / residence / deductions / tax administration and corporate other-taxes pages: [src-471][src-472][src-473][src-474][src-475].
-- InternationalInsurance Thailand healthcare explainer and Scholaro Thailand education-system summary: [src-722][src-724].
+- InternationalInsurance Thailand healthcare explainer, Scholaro Thailand education-system summary, and EF EPI Thailand English-proficiency page: [src-722][src-724][src-798].
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -285,6 +297,7 @@ _(none yet)_
 - ExchangeRate-API USD/THB snapshot for the run-096 worked example: [src-476].
 - Livingcost Thailand national, Bangkok, Chiang Mai, Phuket, and Pattaya cost/rent baselines: [src-585][src-586][src-587][src-588][src-589].
 - International Schools Database Bangkok, Chiang Mai, and Phuket fee/school-count pages: [src-725][src-726].
+- World Population Review / TravelSafe Thailand safety screen: [src-797].
 
 ### 7e. Official secondary / consular
 - Royal Thai Embassy Warsaw visa exemption and DTV guidance for applicants in Poland/Ukraine: [src-257].
