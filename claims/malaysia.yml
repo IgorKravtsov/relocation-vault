@@ -189,3 +189,21 @@
   confidence: medium
   tags: [education, international-school, kindergarten, tuition, family-budget]
   notes: "Exact school fee schedules, admissions, transport/meal costs, and non-KL/Penang availability are queued as vq-155."
+
+- id: claim-malaysia-022
+  topic: malaysia_safety_comfort_screen
+  value: "Malaysia's 2026 safety screen is generally favourable: WPR gives 2025 GPI 1.469, GTI 1.626, safety index 69 / Medium and US News safest-country rank 44th, while TravelSafe gives Safety Index 69, user sentiment 78/100, and overall risk Low with an East Malaysia warning caveat."
+  source: src-795
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, safety, travel-risk, malaysia]
+  notes: "Use as a national screening proxy only; final city/neighbourhood selection still needs local checks."
+
+- id: claim-malaysia-023
+  topic: malaysia_english_proficiency_screen
+  value: "EF EPI ranks Malaysia #24 globally with score 581 versus global average 488; captured city scores include Kuala Lumpur 588, Ipoh 582, and Johor Bahru 577."
+  source: src-796
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, english, adaptation, malaysia]
+  notes: "English fallback is comparatively strong for services and expat life, but Bahasa Malaysia/local help remains important for public schools, some government interfaces, and non-expat neighbourhoods."

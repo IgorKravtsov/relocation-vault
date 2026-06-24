@@ -9581,3 +9581,27 @@ Each source entry:
 - **Facts supporting**: Argentina English-proficiency / language-integration screen: global rank #26, EF EPI score 575, global average score 488, skill scores, and city scores including Buenos Aires 594, Rosario 589, Mendoza 577, and Cordoba 547 (claim-argentina-022)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-24
+
+## src-795
+- **Title**: World Population Review - Safest Countries in the World 2026 / TravelSafe Malaysia safety report
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/malaysia/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: WPR 2026-06-16; TravelSafe updated 2025-12-27
+- **Date accessed**: 2026-06-24
+- **Used by**: Malaysia
+- **Facts supporting**: Malaysia comfort / safety screen: 2025 Global Peace Index score 1.469, 2025 Global Terrorism Index 1.626, WPR safety index 69 / Medium, US News safest-country rank 44th, TravelSafe Safety Index 69, user sentiment 78/100, overall risk Low, public transport / ride-hailing generally safe, and East Malaysia warning caveat (claim-malaysia-022)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-27
+
+## src-796
+- **Title**: EF English Proficiency Index - Malaysia
+- **URL**: https://www.ef.com/wwen/epi/regions/asia/malaysia/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 edition page, no separate page date captured
+- **Date accessed**: 2026-06-24
+- **Used by**: Malaysia
+- **Facts supporting**: Malaysia English-proficiency / adaptation screen: global rank #24, EF EPI score 581, global average score 488, skill scores, region scores, and city scores including Kuala Lumpur 588, Ipoh 582, and Johor Bahru 577 (claim-malaysia-023)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-24

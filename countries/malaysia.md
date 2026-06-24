@@ -1,13 +1,13 @@
 ---
 country: Malaysia
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-19T15:26:02Z
-sections_completed: ["5.2","5.4","5.5","5.7"]
+depth_score: 8.0
+last_updated: 2026-06-24T13:42:05Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["derantau-bridge-only", "pr-ladder-unclear", "hot-humid-rainy-year-round", "malaysia-foreign-client-tax-source-gap", "malaysia-social-security-fit-gap", "kuala-lumpur-rent-pressure", "malaysia-one-income-margin-risk", "malaysia-health-insurance-quote-gap", "malaysia-international-school-cost-risk"]
-sources_used: ["src-251", "src-252", "src-253", "src-254", "src-255", "src-256", "src-279", "src-465", "src-466", "src-467", "src-468", "src-469", "src-470", "src-580", "src-581", "src-582", "src-583", "src-584", "src-717", "src-718", "src-719", "src-720"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["derantau-bridge-only", "pr-ladder-unclear", "hot-humid-rainy-year-round", "malaysia-foreign-client-tax-source-gap", "malaysia-social-security-fit-gap", "kuala-lumpur-rent-pressure", "malaysia-one-income-margin-risk", "malaysia-health-insurance-quote-gap", "malaysia-international-school-cost-risk", "malaysia-bahasa-english-integration-needed", "east-malaysia-security-caveat"]
+sources_used: ["src-251", "src-252", "src-253", "src-254", "src-255", "src-256", "src-279", "src-465", "src-466", "src-467", "src-468", "src-469", "src-470", "src-580", "src-581", "src-582", "src-583", "src-584", "src-717", "src-718", "src-719", "src-720", "src-795", "src-796"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (early evidence points to a useful remote-work bridge/base, not yet a proven settlement route).
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-19
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-24
 - **Tier rationale**: Malaysia's DE Rantau pass is an official route for foreign digital nomads and the tech-professional threshold is below the couple's current income, but it is a Professional Visit Pass capped at 24 months total and no DE Rantau-to-PR ladder was captured. Entry Permit and citizenship pages show long-term mechanisms exist, but the fully foreign national / remote-worker fit remains a core verification gap. [src-253][src-254][src-255]
 
 ## Block 2 - Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | Kuala Lumpur is the main rent-pressure case; George Town/Johor Bahru are workable on paper; Ipoh is cheaper but weaker as a full relocation hub. | §5.5 |
 | Healthcare | — | medium | Private care is strong and English-friendly in KL/Penang, and DE Rantau should be filed with insurance, but exact accepted policy wording, maternity/newborn coverage, and city prices remain application-prep gaps. | §5.6 |
 | Education (future child) | — | medium | Public schools are Bahasa Malaysia based; Malaysia has many international schools, but KL/Penang international fees can be a major one-income budget risk. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | General safety screens well and English is comparatively strong, especially KL/Penang, but East Malaysia security warnings, scams/petty crime, humidity, and car/Grab dependence matter. | §5.8 |
+| Fit for couple with single income | — | medium | Marriage is the conservative dependent route for DE Rantau; remote Ukrainian study is practical, but local work rights and durable post-24-month status remain the binding gaps. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -164,17 +164,26 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 - **Kindergarten / preschool**: international nurseries and kindergartens are widely available in KL expat areas such as Mont Kiara, Bangsar, and Damansara, with fees around **MYR 2,000-5,000/month**; popular kindergartens and international schools can have **3-6 month** waiting lists. Subsidised national kindergartens are Bahasa Malaysia medium and not typical for expat families. [src-720]
 - **Budget verdict**: education is viable in Malaysia but not automatically cheap if the future child needs English-medium private or international schooling. On one income, full KL international school can consume a large share of the household budget, so public/Bahasa integration, mid-tier bilingual schools, or Penang/Johor alternatives should be checked before treating Malaysia as a family-base candidate. Run-159 resolved `vq-155` for screening, while `malaysia-international-school-cost-risk` remains: exact school fee schedules, deposits, private-preschool quotes, waiting lists, and non-KL availability are application-prep / final-city checks.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-24, dod: passed}
 
 > **DoD**: safety data; attitude toward Ukrainians with sources; English level among locals.
 
-[verification required]
+- **Safety baseline**: World Population Review's 2026 safety table places Malaysia in a strong general-safety band, with 2025 Global Peace Index **1.469**, 2025 Global Terrorism Index **1.626**, WPR safety index **69 / Medium**, and US News safest-country rank **44th**. Treat this as a national proxy rather than a city/neighbourhood guarantee. [src-795]
+- **TravelSafe caveats**: TravelSafe's Malaysia report gives Safety Index **69**, user sentiment **78/100**, and overall risk **Low**. It also flags a specific higher-warning area in East Malaysia, advises caution with unscheduled taxis and night driving/travel, and treats public transport / Grab-style ride hailing as generally safe and efficient. For the couple, Kuala Lumpur, Penang / George Town, Johor Bahru, and Ipoh should be screened neighbourhood-by-neighbourhood, but Malaysia is not rejected on basic public safety. [src-795]
+- **English and daily integration**: EF EPI ranks Malaysia **#24 globally** with score **581** versus global average **488**; captured city scores include Kuala Lumpur **588**, Ipoh **582**, and Johor Bahru **577**. English fallback is therefore materially better than in many candidate countries, especially in business, healthcare, private education, and expat districts. [src-796]
+- **Language / adaptation caveat**: English does not remove the need for Bahasa Malaysia / local help for public schools, some government interfaces, tenancy details, and non-expat neighbourhoods. The practical baseline is: Kuala Lumpur has the deepest English-service stack; Penang / George Town is the first coastal comfort screen; Johor Bahru is a services/cost alternative; Ipoh is affordable but needs extra checks for healthcare depth, transport, and foreigner-service ecosystem. [src-718][src-720][src-796]
+- **Attitude toward Ukrainians**: no Malaysia-specific Ukrainian reception data was captured. The safer operational assumption is ordinary foreign-resident / digital-nomad treatment rather than Ukraine-specific support. Malaysia is outside the EU temporary-protection frame, so Ukrainian nationality does not create the same post-2027 bridge mechanics; it also means no captured special support layer.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-24, dod: passed}
 
 > **DoD**: dependent/partner status with and without marriage; possibility of remote Ukrainian-university study; possibility of work; sponsor minimum income.
 
-[verification required]
+- **With marriage**: the conservative partner route is spouse dependent on the DE Rantau main applicant. MDEC explicitly names spouse and child/children as allowed dependents, plus parent(s) for the main pass holder. The working partner's tech-track income of about USD 36,000/year clears the captured **more than USD 24,000/year** tech threshold if the work evidence is accepted. [src-253]
+- **Without marriage**: no unmarried-partner dependent route was captured. For planning, the student partner should either marry before dependent filing or maintain an independent status/visitor strategy; do not assume cohabitation alone will satisfy the DE Rantau dependent file. [src-253]
+- **Remote Ukrainian-university study**: remote study should be operationally compatible with living in Malaysia if immigration status is valid, internet/housing are stable, and time-zone logistics are acceptable. It is not a Malaysian work or education entitlement by itself, so it should not be used as a residence basis unless a separate student route is intentionally chosen.
+- **Work rights / future earnings**: the current evidence supports the main applicant's foreign-client / foreign-employer remote work under DE Rantau, but it does not establish that the spouse dependent can work locally or freelance in Malaysia. If the partner starts earning, verify whether she needs her own DE Rantau, Employment Pass, business/tax registration, or another permission before invoicing or taking Malaysian work. [src-253][src-465][src-469]
+- **One-income fit**: Malaysia is plausible on one income for a 12-24 month bridge because rent and daily costs are moderate and English-service depth is good. The fragile points are not base groceries; they are DE Rantau's 24-month cap, private insurance, adviser/tax costs, KL/Penang international-school exposure, deposits, and the need to preserve enough savings for a next-country move if no durable Malaysian route appears. [src-253][src-470][src-581][src-718][src-720]
+- **Planning verdict for the couple**: Malaysia can be a strong English-friendly bridge/base if they accept a tropical climate and marriage-dependent partner filing. It should not yet be scored as a settlement route: before making it the main post-2027 plan, verify a post-DE Rantau path, spouse work rights, tax/source classification, and final-city healthcare/lease details.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -210,11 +219,13 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 - **Tax screening**: resident PIT stress test at USD 3,000/month leaves about USD 2,616/month before non-tax costs; do not assume a DE Rantau tax holiday. [src-465][src-470]
 - **Cost/rent screening**: day-to-day costs and rent look workable outside premium Kuala Lumpur housing, with George Town/Penang and Johor Bahru as the first practical screens and Ipoh as the affordability fallback. Kuala Lumpur needs a strict housing cap because the resident-tax net leaves only a modest buffer after insurance, visas, deposits, and adviser costs. [src-581][src-582][src-583][src-584]
 - **Healthcare / education screening**: private healthcare is strong and affordable by international standards, but the couple should budget for DE Rantau-compliant insurance and private clinics. Education is workable, but English-medium international schooling in KL/Penang can be expensive on one income; local public school means Bahasa Malaysia integration. [src-718][src-720]
+- **Comfort / partner screening**: Malaysia screens relatively well for safety and English fallback (EF #24, KL 588), but exact city/neighbourhood safety and East Malaysia travel warnings remain practical filters. Marriage is the conservative dependent route for the student partner; do not assume an unmarried-partner file or spouse local-work rights. [src-253][src-795][src-796]
 
 **Pros**:
 - Official digital-nomad pass with threshold that the current IT income can meet.
 - Application can be made without being in Malaysia.
 - No cold winter; warm tropical climate year-round.
+- Comparatively strong English fallback and good general safety screen for a non-EU bridge base. [src-795][src-796]
 
 **Cons / risks**:
 - DE Rantau appears capped at 24 months total.
@@ -222,6 +233,7 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 - Hot, humid, rainy climate may be uncomfortable year-round.
 - Ukrainian short-stay entry duration still needs before-travel capture, but it does not alter the bridge-vs-settlement route decision.
 - Kuala Lumpur and premium expat housing can compress the one-income budget once taxes, health insurance, deposits, and DE Rantau costs are included.
+- East Malaysia security warnings and local-language / public-school Bahasa integration need practical filtering even though English fallback is strong. [src-795][src-796]
 
 ## Block 6 - Practical playbook (working relocation guide)
 
@@ -279,6 +291,7 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 
 ### 7b. Reputable secondary
 - PwC Malaysia individual tax pages: PIT rates/source scope, residence, income determination, deductions, social-security/SST, and tax administration: [src-465][src-466][src-467][src-468][src-469].
+- EF English Proficiency Index Malaysia: national, skill, region, and city English-proficiency screen: [src-796].
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -289,6 +302,7 @@ _(none yet)_
 - WeatherSpark Malaysia clearer-sky comparison: [src-279].
 - Livingcost Malaysia / Kuala Lumpur / George Town / Johor Bahru / Ipoh cost-and-rent screens: [src-580][src-581][src-582][src-583][src-584].
 - ExpatLife.AI Malaysia 2026 healthcare and education guides for private-care, insurance, school, and kindergarten screening: [src-718][src-720].
+- World Population Review / TravelSafe Malaysia safety proxies: [src-795].
 
 ### 7e. Not found
 - Clean official Ukraine row / stay-duration extraction from Malaysia's visa table before travel.

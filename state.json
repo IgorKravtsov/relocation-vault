@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 196,
+  "iteration": 197,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-24T10:34:43Z",
+  "last_run_timestamp": "2026-06-24T13:42:05Z",
   "current_focus": {
     "mode": "country-deep-dive",
-    "country": "Argentina",
+    "country": "Malaysia",
     "sections": [
       "5.8",
       "5.9"
@@ -16,12 +16,12 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "country-deep-dive",
-    "suggested_country": "Malaysia",
+    "suggested_country": "Thailand",
     "suggested_sections": [
       "5.8",
       "5.9"
     ],
-    "reason": "Verification queue remains below threshold; Argentina reached depth 8.0, so rotate to the next lowest-depth country in INDEX order and continue comfort/partner coverage."
+    "reason": "Verification queue remains below threshold; Malaysia reached depth 8.0, so rotate to the next lowest-depth middle-east-asia country and continue comfort/partner coverage."
   },
   "countries": {
     "Spain": {
@@ -1018,12 +1018,14 @@
     "Malaysia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 5.5,
+      "depth_score": 8.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
-        "5.7"
+        "5.7",
+        "5.8",
+        "5.9"
       ],
       "sections_partial": [
         "5.1",
@@ -1031,8 +1033,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.8",
-        "5.9",
         "5.10",
         "5.11"
       ],
@@ -1045,9 +1045,11 @@
         "kuala-lumpur-rent-pressure",
         "malaysia-one-income-margin-risk",
         "malaysia-health-insurance-quote-gap",
-        "malaysia-international-school-cost-risk"
+        "malaysia-international-school-cost-risk",
+        "malaysia-bahasa-english-integration-needed",
+        "east-malaysia-security-caveat"
       ],
-      "last_iteration": 159,
+      "last_iteration": 197,
       "unverified_count": 0
     },
     "Thailand": {
@@ -1194,7 +1196,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 793,
-  "claims_count": 704,
+  "sources_count": 795,
+  "claims_count": 706,
   "proposals_pending": 0
 }

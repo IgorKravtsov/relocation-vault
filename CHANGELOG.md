@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-24
 ---
 
+## 2026-06-24 — run-197 — Malaysia comfort/partner fit
+
+- Completed Malaysia sections 5.8 and 5.9 for screening by adding safety, English/Bahasa integration, city-comfort, spouse-dependent, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-795`, `src-796`) and two Malaysia claims (`claim-malaysia-022`, `claim-malaysia-023`).
+- Malaysia depth_score moved from 5.5 to 8.0; added `malaysia-bahasa-english-integration-needed` and `east-malaysia-security-caveat` as practical fit flags.
+
 ## 2026-06-24 — run-196 — Argentina comfort/partner fit
 
 - Completed Argentina sections 5.8 and 5.9 for screening by adding safety, street-crime/scam, transport, English/Spanish-language integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
