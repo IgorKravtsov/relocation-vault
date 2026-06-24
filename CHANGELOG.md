@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-24
 ---
 
+## 2026-06-24 - run-200 - Kazakhstan comfort/partner fit
+
+- Completed Kazakhstan sections 5.8 and 5.9 for screening by adding safety, English/Kazakh/Russian-language integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-801`, `src-802`) and two Kazakhstan claims (`claim-kazakhstan-020`, `claim-kazakhstan-021`).
+- Kazakhstan depth_score moved from 5.5 to 8.0; added `kazakhstan-english-language-integration-needed` as a practical fit flag.
+
 ## 2026-06-24 - run-199 - Indonesia comfort/partner fit
 
 - Completed Indonesia sections 5.8 and 5.9 for screening by adding safety, natural-disaster/transport, English/Bahasa integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.

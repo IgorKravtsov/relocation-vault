@@ -9654,3 +9654,28 @@ Each source entry:
 - **Facts supporting**: Indonesia English-proficiency / adaptation screen: global rank #80, EF EPI score 471, global average score 488, and city scores including Jakarta 523, Surabaya 519, Bandung 505, Balikpapan / Batam 495, and Denpasar 477 (claim-indonesia-020)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-24
+
+
+## src-801
+- **Title**: World Population Review - Safest Countries in the World 2026 / TravelSafe Kazakhstan safety report
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/kazakhstan/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: WPR 2026-06-16; TravelSafe updated 2025-12-24
+- **Date accessed**: 2026-06-24
+- **Used by**: Kazakhstan
+- **Facts supporting**: Kazakhstan comfort / safety screen: 2025 Global Peace Index 1.875, WPR safety index 72 / Low risk, US News safest-country rank 65th, TravelSafe Safety Index 72, user sentiment 85/100, overall risk Low, and petty-crime / transport-taxi practical caveats (claim-kazakhstan-020)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-24
+
+## src-802
+- **Title**: EF English Proficiency Index - Kazakhstan
+- **URL**: https://www.ef.com/wwen/epi/regions/asia/kazakhstan/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 edition page, no separate page date captured
+- **Date accessed**: 2026-06-24
+- **Used by**: Kazakhstan
+- **Facts supporting**: Kazakhstan English-proficiency / adaptation screen: global rank #107, EF EPI score 417, global average score 488, and city scores including Astana 460, Almaty 457, Aktau 397, and Shymkent 377 (claim-kazakhstan-021)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-24

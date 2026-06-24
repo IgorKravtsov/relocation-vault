@@ -170,3 +170,22 @@
   confidence: medium
   tags: [education, international-school, tuition, almaty, astana]
   notes: "This confirms an international-school alternative mainly in Almaty/Astana, but exact admissions fees, deposits, meals/transport, waiting lists, and non-core-city options remain verification items."
+
+
+- id: claim-kazakhstan-020
+  topic: kazakhstan_comfort_safety_screen
+  value: "World Population Review lists Kazakhstan with 2025 Global Peace Index score 1.875, safety index 72 / Low risk, and US News safest-country rank 65th; TravelSafe gives Safety Index 72, user sentiment 85/100, and overall risk Low, with practical petty-crime and transport/taxi caveats."
+  source: src-801
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, safety, travel-risk, kazakhstan]
+  notes: "This is a country-screening proxy, not a final-city safety audit or political-risk assessment."
+
+- id: claim-kazakhstan-021
+  topic: kazakhstan_english_proficiency_screen
+  value: "EF EPI ranks Kazakhstan #107 with score 417 versus a global average 488; city scores include Astana 460, Almaty 457, Aktau 397, and Shymkent 377."
+  source: src-802
+  date_verified: 2026-06-24
+  confidence: medium
+  tags: [comfort, english, adaptation, language]
+  notes: "English should be treated as a weak fallback; Russian/Kazakh-language support is important for bureaucracy, landlords, healthcare, and daily services."
