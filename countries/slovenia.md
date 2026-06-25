@@ -1,11 +1,11 @@
 ---
 country: Slovenia
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-22T14:47:46Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T17:44:11Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10", "5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable", "slovenia-self-employed-tax-and-immigration-fit-gap", "ljubljana-rent-pressure", "slovenia-health-insurance-onboarding-gap", "slovenia-international-school-cost-risk", "slovenian-language-integration-needed", "slovenia-one-income-margin-risk"]
 sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187", "src-344", "src-345", "src-346", "src-347", "src-348", "src-521", "src-522", "src-523", "src-524", "src-656", "src-657", "src-658", "src-659", "src-660", "src-661", "src-768"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence is unusually interesting for the couple: Slovenia has official temporary protection for Ukrainians, an explicit post-temporary-protection filing window, and a new digital-nomad residence permit for non-EU remote workers. The route is capped at one year and the income formula likely sits near or above the couple's current budget, so do not assign a tier until the numeric threshold, taxes, renewal/permit-counting rules, and costs are researched. [src-110][src-111]
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-22T14:47:46Z
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: Keep unassigned until PR/citizenship counting for DN/TP time, DN-to-ordinary status strategy, tax/business fit, and cost-of-living/rent passes are complete.
 
 ## Block 2 — Scoring
@@ -220,12 +220,16 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 
 **Partner conclusion.** Slovenia is workable for a partner on paper because the family categories are broader than spouse-only and DN family reunion is immediate, but the practical plan should still be marriage/civil documentation or strong long-term-partner proof, plus an independent TP/status fallback. The core risk is not legal concept alone; it is the combined DN-income threshold, heavy conservative tax net, and rent/health-insurance margin on one income.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. This slice converts the pending risk placeholders into a practical baseline for currency/banking, political/Ukraine-posture, ties to Ukraine, and diaspora/adaptation using existing country evidence.
+
+- **Currency/banking risk**: low-medium. Slovenia is eurozone/SEPA, so FX volatility is not the lead risk. The practical financial risk is eligibility proof and one-income margin: the DN formula screens near EUR 3,357.62/month, above the couple's current nominal income, and the conservative ordinary self-employed stress test leaves only about EUR 1,364/month if a better `normirani s.p.` structure is not confirmed. [src-111][src-187][src-344][src-345][src-346][src-347][src-348]
+- **Political / Ukraine-posture risk**: low-medium. Slovenia has captured TP procedure evidence and an official post-TP 10-day ordinary-permit filing window, which is stronger than a pure no-bridge baseline. The risk is that the window is not an automatic conversion, and DN is one year / non-renewable; the couple still needs a renewable ordinary permit strategy. [src-002][src-110][src-111][src-112]
+- **Ties to Ukraine**: medium. Slovenia is an EU/Schengen base with overland access to Central Europe, but it is less direct than Poland/Slovakia/Romania for frequent Ukraine logistics. The Polish residence card remains filing/logistics evidence only and does not replace Slovenian status. [src-002][src-110][src-111]
+- **Diaspora and adaptation**: medium. Safety is very strong, and Ljubljana/Maribor/Nova Gorica are screenable from services/cost evidence. Adaptation risk remains because Slovenian is needed for administrative units, leases, public healthcare/ZZZS, kindergartens/schools, and tax/s.p. setup; international school is a future-child budget risk. [src-522][src-523][src-524][src-657][src-658][src-659][src-661][src-768]
+
+**Risk-dimension conclusion.** Slovenia's strategic risk is not public safety or euro banking; it is the combined DN income gate, one-year DN duration, heavy conservative tax downside, and need to switch into a renewable ordinary permit before the TP/DN bridge runs out.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -235,10 +239,10 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | low-medium | Eurozone/SEPA lowers FX risk, but the DN funds formula and conservative tax-net downside make proof-of-income and one-income margin the real financial risks. [src-111][src-187][src-344][src-345][src-348] |
+| Political / Ukraine-posture | low-medium | TP and a post-TP 10-day filing window are captured, but the window is not automatic conversion and DN is non-renewable; a renewable ordinary route is still needed. [src-002][src-110][src-111][src-112] |
+| Ties to Ukraine | medium | EU overland access is workable but less direct than Poland/Slovakia/Romania; Polish residence remains only filing/logistics evidence, not Slovenian status. [src-002][src-110][src-111] |
+| Diaspora / adaptation | medium | Very safe and practical in larger cities, but Slovenian-language administration, ZZZS, schools, leases, tax/s.p. setup, and international-school costs remain adaptation risks. [src-522][src-523][src-524][src-657][src-661][src-768] |
 
 ## Block 5 — Practical verdict
 

@@ -1,11 +1,11 @@
 ---
 country: Montenegro
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-22T17:54:04Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T17:44:11Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-income-threshold-needs-primary-check", "digital-nomad-long-term-counting-unclear", "montenegro-tax-registration-and-ssc-fit-gap", "kotor-budva-coastal-rent-pressure", "montenegro-private-health-insurance-gap", "montenegro-international-school-budget-risk", "montenegrin-serbian-language-integration-needed", "montenegro-one-income-margin-risk"]
 sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-143", "src-348", "src-349", "src-350", "src-351", "src-352", "src-525", "src-526", "src-527", "src-528", "src-662", "src-663", "src-664", "src-665", "src-666", "src-744", "src-769", "src-770"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass suggests a potentially useful non-EU fallback because Montenegro has extended temporary protection for Ukrainians to 04 March 2027 and advertises a digital-nomad residence framework, but the DN numeric income amount, long-term residence counting, and tax-registration / social-contribution fit for a foreign-client IT freelancer remain unresolved. [src-123][src-124][src-127][src-349]
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-22T17:54:04Z
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: Do not classify yet. The official DN page now confirms filing route, document categories, duration, processing time, and spouse/minor-child family baseline; remaining classification blockers are the exact numeric income floor, tax/cost fit, and whether DN or other temporary-residence time can safely build a long-term PR clock.
 
 ## Block 2 — Scoring
@@ -209,12 +209,16 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 
 **Partner verdict.** Montenegro is workable for the couple at screening level, but only if the partner has an independent status or the couple is ready to marry for derived residence, and only if the household chooses a budget-controlled base. The best first plan is Podgorica for administration/services and budget control, with Budva/coast considered only after live-rent and insurance checks. [src-123][src-143][src-526][src-527]
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. This slice converts the pending risk placeholders into a practical baseline for currency/banking, political/Ukraine-posture, ties to Ukraine, and diaspora/adaptation using existing Montenegro evidence.
+
+- **Currency/banking risk**: medium. Montenegro uses the euro, so daily FX risk is lower than in local-currency Balkan candidates, but it is outside the EU and eurozone institutions. The practical financial risk is route proof: DN requires financial-means evidence, health insurance, accommodation, and foreign-electronic-work proof, while the exact official income floor and tax/SSC/VAT treatment remain adviser checks. [src-143][src-349][src-350][src-352]
+- **Political / Ukraine-posture risk**: medium. Montenegro has officially extended temporary protection to 04 March 2027 and has an official digital-nomad framework. The policy risk is that no TP-to-ordinary bridge is captured, DN PR counting is unclear, and the DN structure is capped at 2+2 years with a six-month cooling-off rule before a new DN permit. [src-123][src-124][src-125][src-143]
+- **Ties to Ukraine**: medium. Montenegro is geographically closer to Ukraine than Latin America/Asia and can work as a Balkan fallback, but it is not an EU mobility/status continuation path. Travel and document logistics are less convenient than Poland/Slovakia/Romania, and the Polish `karta pobytu` does not create Montenegrin status. [src-123][src-143]
+- **Diaspora and adaptation**: medium. Safety and coastal comfort screen well, and Podgorica/Budva/Kotor give a clear city-choice frame. Adaptation risks are Montenegrin/Serbian language in offices, leases, healthcare, schools, and tax/accounting; coastal summer crowding/rent pressure; and a limited expensive English-school fallback. [src-526][src-527][src-528][src-662][src-663][src-664][src-665][src-666][src-744][src-769][src-770]
+
+**Risk-dimension conclusion.** Montenegro's attraction is warm climate plus a real DN route at potentially workable cost. Its live risk is legal/tax durability: official income amount, tax/SSC/VAT category, health-insurance onboarding, and whether the DN/ordinary route builds a long-term PR clock.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -224,10 +228,10 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | Euro use lowers everyday FX friction, but Montenegro is outside the EU/eurozone institutions and the DN/tax file still needs financial-means, insurance, foreign-work, SSC, and VAT checks. [src-143][src-349][src-350][src-352] |
+| Political / Ukraine-posture | medium | TP is extended to 04 March 2027 and DN exists, but no TP bridge is captured; DN PR counting and the 2+2-year plus cooling-off structure remain strategic risks. [src-123][src-124][src-125][src-143] |
+| Ties to Ukraine | medium | Balkan geography is more workable than overseas options, but not an EU status-continuity path; Polish residence does not create Montenegrin status. [src-123][src-143] |
+| Diaspora / adaptation | medium | Low-risk/warm-coastal daily life is attractive, but Montenegrin/Serbian administration, health insurance, schooling, coastal seasonal rent/crowds, and expensive English-school fallback remain adaptation risks. [src-526][src-527][src-528][src-744][src-769][src-770] |
 
 ## Block 5 — Practical verdict
 

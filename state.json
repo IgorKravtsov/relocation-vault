@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 205,
+  "iteration": 206,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-25T14:38:52Z",
+  "last_run_timestamp": "2026-06-25T17:44:11Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.10",
-    "reason": "Continue the 5.10 risk-dimensions slice with Slovakia, Slovenia, Montenegro, and Serbia unless verification or staleness triggers take priority."
+    "reason": "Continue the 5.10 risk-dimensions slice with Turkey, Georgia, Albania, and North Macedonia unless verification or staleness triggers take priority."
   },
   "countries": {
     "Spain": {
@@ -436,14 +436,15 @@
     "Slovakia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -451,7 +452,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -465,20 +465,21 @@
         "slovak-language-integration-needed",
         "slovakia-one-income-margin-risk"
       ],
-      "last_iteration": 181,
+      "last_iteration": 206,
       "unverified_count": 0
     },
     "Slovenia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -486,7 +487,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -499,20 +499,21 @@
         "slovenian-language-integration-needed",
         "slovenia-one-income-margin-risk"
       ],
-      "last_iteration": 182,
+      "last_iteration": 206,
       "unverified_count": 0
     },
     "Montenegro": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -520,7 +521,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -534,20 +534,21 @@
         "montenegrin-serbian-language-integration-needed",
         "montenegro-one-income-margin-risk"
       ],
-      "last_iteration": 183,
+      "last_iteration": 206,
       "unverified_count": 0
     },
     "Serbia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -555,7 +556,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -568,7 +568,7 @@
         "serbian-language-integration-needed",
         "serbia-one-income-margin-risk"
       ],
-      "last_iteration": 184,
+      "last_iteration": 206,
       "unverified_count": 0
     },
     "Turkey": {

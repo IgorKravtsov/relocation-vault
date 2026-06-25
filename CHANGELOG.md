@@ -4,6 +4,11 @@ version: 1.0.0
 last_updated: 2026-06-25
 ---
 
+## 2026-06-25 - run-206
+- Criterion slice: 5.10 risk dimensions completed for Slovakia, Slovenia, Montenegro, and Serbia.
+- Slovakia, Slovenia, Montenegro, Serbia: depth_score 8.0 -> 9.0 (section 5.10 completed).
+- Updated `dimensions/risk-dimensions-5.10.md`; sources added: 0; claims added: 0; verification queue: 0 pending.
+
 ## 2026-06-25 - run-205
 - Criterion slice: 5.10 risk dimensions completed for Poland, Romania, Bulgaria, and Hungary.
 - Poland, Romania, Bulgaria, Hungary: depth_score 8.0 -> 9.0 (section 5.10 completed).

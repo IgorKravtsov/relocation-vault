@@ -1,11 +1,11 @@
 ---
 country: Serbia
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-22T21:00:08Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T17:44:11Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check", "serbia-freelancer-tax-and-single-permit-fit-gap", "belgrade-rent-pressure", "serbia-private-insurance-quote-gap", "serbia-international-school-cost-risk", "serbian-language-integration-needed", "serbia-one-income-margin-risk"]
 sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174", "src-353", "src-354", "src-355", "src-356", "src-357", "src-358", "src-529", "src-530", "src-531", "src-532", "src-667", "src-668", "src-669", "src-670", "src-771", "src-772"]
 unverified_count: 0
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (likely Tier-2-hint until full legal/tax/cost evidence is gathered).
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-22T21:00:08Z
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: Serbia is operationally attractive because Ukrainian citizens have visa-free entry, Serbia has a renewable temporary-protection framework for Ukrainians, MUP confirms electronic single-permit filing for self-employment / independent professional work, and the amended Law on Foreigners provides temporary residence / single permits up to 3 years plus permanent residence after 3 years of continuous temporary residence. The weak points are that no Serbia-specific post-TP ordinary-residence bridge was captured, the foreign-client IT tax/single-permit fit is not yet accountant-confirmed, and healthcare remains filing-sensitive until private insurance / RFZO onboarding details are checked. [src-132][src-133][src-135][src-136][src-667]
 
 ## Block 2 — Scoring
@@ -223,12 +223,16 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 
 **Partner verdict for the couple:** Serbia passes first-pass partner-fit screening. Its official common-law-family evidence path is useful, but marriage is still the cleaner conservative option. The main partner risks are not relationship recognition itself; they are the household's one-income margin, tax-route uncertainty, private-insurance/healthcare setup, Serbian-language administration, and future-child education cost.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. This slice converts the pending risk placeholders into a practical baseline for currency/banking, political/Ukraine-posture, ties to Ukraine, and diaspora/adaptation using existing Serbia evidence.
+
+- **Currency/banking risk**: medium-high. Serbia uses RSD, so USD/EUR remote income must be managed against dinar rent, taxes, social contributions, and bank/accounting friction. The conservative tax screen ranges from about USD 1,649-1,919/month net if the route lands near gross-base contribution sensitivities; exact entrepreneur/freelancer classification, VAT/e-invoicing, and single-permit compatibility remain the real financial risk. [src-353][src-354][src-355][src-356][src-357][src-358]
+- **Political / Ukraine-posture risk**: medium. Serbia has Ukrainian visa-free entry, a temporary-protection framework, and ordinary temporary residence / single permits, but it is outside the EU and no post-TP ordinary bridge is captured. TravelSafe/WPR also flag a medium-risk public-order environment, protests, Kosovo/border sensitivity, and normal urban scams, though not a daily-violence blocker. [src-132][src-133][src-134][src-135][src-136][src-771]
+- **Ties to Ukraine**: low-medium. Serbia is geographically reachable from Ukraine/Poland and outside Schengen, so it can be a useful regional fallback. The tradeoff is that it does not preserve EU-status continuity, and ordinary citizenship may require release from foreign citizenship under the captured MFA baseline. [src-132][src-136][src-138]
+- **Diaspora and adaptation**: medium-high. Belgrade and Novi Sad are practical service bases and English is relatively workable by regional standards, but Serbian/Cyrillic remains important for MUP, RFZO, leases/address registration, taxes, schools, and everyday bureaucracy. Belgrade rent and international-school costs can quickly erode the one-income margin. [src-530][src-531][src-532][src-667][src-668][src-670][src-772]
+
+**Risk-dimension conclusion.** Serbia's upside is regional accessibility, low cost outside Belgrade, flexible family evidence, and a potentially fast PR clock. Its live risk is the stack of RSD/tax uncertainty, ordinary-route proof, public-order/Kosovo sensitivity, Serbian-language administration, and citizenship-release caveat.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -238,10 +242,10 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium-high | RSD exposure plus unresolved freelancer/entrepreneur tax, SSC, VAT/e-invoicing, and single-permit classification can materially change the one-income budget. [src-353][src-354][src-355][src-356][src-357][src-358] |
+| Political / Ukraine-posture | medium | Visa-free entry, TP, and ordinary permits exist, but Serbia is outside the EU and has no captured TP bridge; protests/Kosovo sensitivity and urban scam risks need normal caution. [src-132][src-133][src-134][src-135][src-136][src-771] |
+| Ties to Ukraine | low-medium | Regional geography and non-Schengen fallback value are useful, but Serbia is not EU status continuity and citizenship may require release from foreign citizenship. [src-132][src-136][src-138] |
+| Diaspora / adaptation | medium-high | Belgrade/Novi Sad services and English help, but Serbian/Cyrillic bureaucracy, address registration, RFZO/tax setup, Belgrade rent, and international-school costs remain significant adaptation risks. [src-530][src-531][src-532][src-667][src-670][src-772] |
 
 ## Block 5 — Practical verdict
 

@@ -1,11 +1,11 @@
 ---
 country: Slovakia
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-22T11:40:00Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T17:44:11Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10", "5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge", "slovakia-szco-tax-and-immigration-fit-gap", "bratislava-rent-pressure", "slovakia-health-insurance-onboarding-gap", "slovakia-international-school-cost-risk", "slovak-language-integration-needed", "slovakia-one-income-margin-risk"]
 sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173", "src-338", "src-339", "src-340", "src-341", "src-342", "src-343", "src-517", "src-518", "src-519", "src-520", "src-652", "src-653", "src-654", "src-655", "src-766", "src-767"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to a practical but administratively heavy Tier-2-style profile rather than an obvious Tier-1 route: Slovakia has EU temporary protection through 04 March 2027 and an ordinary self-employed/business residence route, but no dedicated digital-nomad visa and no captured post-2027 TP-to-ordinary-residence bridge. [src-002][src-100][src-101]
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-22
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: Keep unassigned until risk dimensions, bureaucracy, and whether business/SZCO residence is operational for a foreign-client IT contractor are confirmed. Healthcare, education, comfort, and partner/student fit are screenable; cost/rent looks manageable outside Bratislava, but language and one-income margin risks remain without solving the legal-route burden.
 
 ## Block 2 — Scoring
@@ -240,12 +240,16 @@ Education and future-child fit are acceptable only if the family can use the Slo
 
 Partner/student conclusion: Slovakia does **not** solve the unmarried-partner problem automatically. It is workable for the couple if (1) both can use TP now, or (2) they marry before relying on family reunification, and (3) the man proves a viable ordinary business/SZCO route before TP expiry. The woman can continue remote Ukrainian study operationally, but the residence plan should not depend on that study unless a separate Slovak student route is intentionally pursued.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. This slice converts the pending risk placeholders into a practical baseline for currency/banking, political/Ukraine-posture, ties to Ukraine, and diaspora/adaptation. It uses existing Slovakia legal, tax, cost, healthcare, education, comfort, and partner evidence; no new source was added.
+
+- **Currency/banking risk**: medium. Slovakia is in the eurozone, so day-to-day currency risk is lower than in PLN/RON/BGN/HUF/RSD jurisdictions, and SEPA/EU banking should be structurally predictable. The risk is not EUR volatility but proof-of-funds and business-file banking: the ordinary route is business/self-employment residence with separate personal and business financial coverage, trade/Commercial Register mechanics, and later SZCO/VAT/accountant setup. [src-101][src-338][src-342]
+- **Political / Ukraine-posture risk**: low-medium for screening. Temporary protection is captured through the EU horizon and Slovakia's Ministry of Interior confirms the automatic extension to 04 March 2027. The unresolved policy risk is the absence of a captured Slovakia-specific post-2027 TP-to-ordinary-residence bridge; the couple must build an ordinary business/family/status route before the horizon. [src-002][src-100][src-109]
+- **Ties to Ukraine**: low-medium. Slovakia is geographically close to Ukraine and Poland, with overland access that is easier than Mediterranean/island options. That helps document collection, family travel, and fallback logistics. The Polish `karta pobytu` can help only with filing/logistics where accepted; it does not replace Slovak status or neutralize the EU one-Member-State TP rule if the Polish status is TP. [src-002][src-100][src-101]
+- **Diaspora and adaptation**: medium. Safety and English-proficiency proxies are favorable, especially in Bratislava and Kosice, but Slovak remains important for Foreign Police, leases, health insurance, schools, tax/SZCO administration, and long-term residence/citizenship. Poprad improves rent affordability but increases smaller-city service/community risk. [src-518][src-519][src-520][src-652][src-653][src-654][src-655][src-766][src-767]
+
+**Risk-dimension conclusion.** Slovakia is not primarily a safety or currency-risk case. Its live risk is operational: whether a real Slovak business/SZCO file can be accepted for foreign-client IT before TP expires, while keeping rent, insurance, and Slovak-language administration under control.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -255,10 +259,10 @@ Partner/student conclusion: Slovakia does **not** solve the unmarried-partner pr
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | Eurozone/SEPA reduces FX friction, but business-residence financial coverage, trade registration, SZCO/VAT/accountant setup, and bank evidence make the route administratively sensitive. [src-101][src-338][src-342] |
+| Political / Ukraine-posture | low-medium | TP and EU extension are captured through 04 March 2027, but no Slovakia-specific post-TP bridge is captured; ordinary residence must be ready before the horizon. [src-002][src-100][src-109] |
+| Ties to Ukraine | low-medium | Geography is favorable for overland Ukraine/Poland access and document logistics; Polish residence may help only with filing logistics and does not substitute for Slovak status. [src-002][src-100][src-101] |
+| Diaspora / adaptation | medium | Safety and English proxies are good, but Slovak-language bureaucracy, public services, healthcare, schooling, and tax/SZCO administration remain practical adaptation risks. [src-518][src-519][src-652][src-655][src-766][src-767] |
 
 ## Block 5 — Practical verdict
 
