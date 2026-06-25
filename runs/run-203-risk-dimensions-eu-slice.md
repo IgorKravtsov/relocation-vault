@@ -60,6 +60,10 @@ schema_version: 2.0.0
 - Continue the 5.10 risk-dimensions slice with Cyprus, Croatia, Malta, and Czech Republic unless verification or staleness triggers take priority.
 - Later application-prep passes should capture exact bank onboarding, city-level Ukrainian communities, and live travel-cost details for finalists.
 
+## Commit / push status
+
+- Initial commit completed with canonical identity in `git log`, but the typed command failed the pre-execution identity-string gate by containing placeholder/redacted author values. Per the commit-identity pitfall, history was not rewritten; this note records the command-gate miss.
+
 ## Open questions added
 
 - None.
