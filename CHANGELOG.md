@@ -4,6 +4,11 @@ version: 1.0.0
 last_updated: 2026-06-25
 ---
 
+## 2026-06-25 - run-204
+- Criterion slice: 5.10 risk dimensions completed for Cyprus, Croatia, Malta, and Czech Republic.
+- Cyprus, Croatia, Malta, Czech Republic: depth_score 8.0 -> 9.0 (section 5.10 completed).
+- Updated `dimensions/risk-dimensions-5.10.md`; sources added: 0; claims added: 0; verification queue: 0 pending.
+
 ## 2026-06-25 — run-203
 - Criterion slice: 5.10 risk dimensions opened for Spain, Portugal, Italy, and Greece.
 - Spain: depth_score 8.0 → 9.0 (section 5.10 completed).

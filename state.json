@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 203,
+  "iteration": 204,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-25T08:23:11Z",
+  "last_run_timestamp": "2026-06-25T11:31:48Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.10",
-    "reason": "Continue the 5.10 risk-dimensions slice with the next EU/Schengen cohort (Cyprus, Croatia, Malta, Czech Republic) unless verification or staleness triggers take priority."
+    "reason": "Continue the 5.10 risk-dimensions slice with the next EU/Schengen cohort (Poland, Romania, Bulgaria, Hungary) unless verification or staleness triggers take priority."
   },
   "countries": {
     "Spain": {
@@ -160,14 +160,15 @@
     "Cyprus": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -175,7 +176,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -189,20 +189,21 @@
         "cyprus-greek-language-integration-needed",
         "cyprus-one-income-margin-risk"
       ],
-      "last_iteration": 170,
+      "last_iteration": 204,
       "unverified_count": 0
     },
     "Croatia": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -210,7 +211,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -224,20 +224,21 @@
         "croatian-language-integration-needed",
         "croatia-one-income-margin-risk"
       ],
-      "last_iteration": 171,
+      "last_iteration": 204,
       "unverified_count": 0
     },
     "Malta": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -245,7 +246,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -258,20 +258,21 @@
         "malta-international-school-cost-risk",
         "malta-one-income-margin-risk"
       ],
-      "last_iteration": 172,
+      "last_iteration": 204,
       "unverified_count": 0
     },
     "Czech Republic": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -279,7 +280,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -292,7 +292,7 @@
         "czech-language-integration-needed",
         "czech-one-income-margin-risk"
       ],
-      "last_iteration": 173,
+      "last_iteration": 204,
       "unverified_count": 0
     },
     "Poland": {

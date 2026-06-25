@@ -1,11 +1,11 @@
 ---
 country: Croatia
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-21T04:51:16Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T11:31:48Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "croatia-self-employed-contribution-base-gap", "croatia-lump-sum-obrt-fit-gap", "coastal-rent-pressure", "croatia-health-insurance-quote-gap", "croatia-international-school-cost-risk", "croatian-language-integration-needed", "croatia-one-income-margin-risk"]
 sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045", "src-293", "src-306", "src-307", "src-308", "src-309", "src-310", "src-381", "src-382", "src-383", "src-384", "src-385", "src-626", "src-627", "src-628", "src-629", "src-630", "src-753", "src-754"]
 unverified_count: 0
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Croatia has EU temporary protection, a formal digital-nomad temporary-stay route, and an attractive Adriatic climate, but the digital-nomad income floor is above the couple's current ~$3,000/month budget and no Croatia-specific post-04 March 2027 TP-to-ordinary-residence bridge was captured in this first pass.
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-21
-- **Tier rationale**: Keep unranked until risk dimensions, bureaucracy, ordinary residence after TP, and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the current first-pass sections. Comfort and partner/student fit are now screenable.
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
+- **Tier rationale**: Keep unranked until bureaucracy, ordinary residence after TP, and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the current first-pass sections. Comfort and partner/student fit are now screenable.
 
 ## Block 2 — Scoring
 
@@ -34,6 +34,7 @@ schema_version: 2.0.0
 | Education (future child) | — | N/A | Croatia has an 8-year compulsory primary/lower-secondary single structure and a mandatory, state-financed/free pre-primary year; childcare and international schooling are the budget risks. | §5.7 |
 | Comfort of life | — | N/A | Croatia screens comfort-positive on safety, Adriatic climate, Ukrainian reception infrastructure, and very high English proficiency, but Croatian remains needed for administration, leases, public healthcare, schooling, and citizenship. | §5.8 |
 | Fit for couple with single income | — | N/A | Partner fit is formally better than spouse-only systems because MUP includes common-law partners, but the DN sponsor threshold is far above current income and the non-working partner increases the budget stress. | §5.9 |
+| Risk dimensions | - | medium | Euro spending is stable, but the key risks are DN income above budget, 18-month DN cap, no captured post-TP bridge, coastal rent seasonality, and Croatian-language bureaucracy. | Section 5.10 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -228,25 +229,29 @@ City-level screen:
 
 **Practical partner playbook.** Preserve evidence of cohabitation, shared address history, photos/travel records, transfers, and civil-status documents, but treat marriage as the lower-risk route if Croatia remains a candidate. Keep the partner's Ukrainian-study documents translated only if a later Croatian student route is researched; for the current screen, dependent or independent TP status matters more than Ukrainian enrollment. Do not choose Croatia on the assumption that the non-working partner can quickly work locally; plan first with Rijeka/Zagreb-level rents and one income.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: Passed for screening. All four risk categories are covered at medium confidence from the existing Croatia legal, tax, rent, comfort, and partner evidence. Exact bank onboarding, city-level Ukrainian community channels, and live travel costs remain application-prep checks.
+
+- **Currency / banking risk: low-medium.** Croatia uses the euro, so local-currency risk is low. The practical financial risk is route proof: the DN means test is EUR 3,622.50/month before partner uplift or a large savings equivalent, while the current couple profile is about USD 3,000/month gross [src-041]. Ordinary self-employment also remains tax/social-contribution sensitive until lump-sum craft fit is confirmed [src-306][src-310].
+- **Political / Ukraine-posture risk: low-medium.** Croatia participates in the EU TP framework through 04 March 2027 and has a captured Croatia4Ukraine / MUP TP application path [src-002][src-040]. The open political/legal risk is the same as in many EU peers: no Croatia-specific post-TP conversion bridge is captured.
+- **Ties to Ukraine: medium.** Croatia is closer to Ukraine than Iberia/Malta and has regional familiarity, but practical ties depend heavily on the chosen city. Zagreb is more connected for administration and services; Rijeka/Split/Dubrovnik add coastal lifestyle but can increase rent/seasonality and travel planning burdens.
+- **Diaspora and adaptation: medium-low.** Croatia screens well for safety, Ukrainian reception infrastructure, and very high English-proficiency evidence, but Croatian remains needed for police/MUP, HZZO, tax/craft offices, leases, public schooling, and citizenship-facing integration [src-040][src-041][src-753][src-754]. Rijeka/Zagreb are safer adaptation screens than Split/Dubrovnik on one income [src-382][src-383][src-384][src-385].
+
+**Risk verdict:** Croatia's lead risk is not general safety or currency; it is legal/financial feasibility. DN is income-blocked and temporary, ordinary self-employment needs accountant confirmation, and the post-2027 bridge is not captured.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
 [verification required]
 
-## Block 4 — Risk dimensions (summary)
+## Block 4 - Risk dimensions (summary)
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | low-medium | Euro-area destination; main risk is proving DN means or sustainable self-employment at a USD-income level. |
+| Political | low-medium | EU TP plus Croatia4Ukraine/MUP intake are captured; no post-2027 bridge is captured. |
+| Ties to Ukraine | medium | Regionally closer than western EU/island options, but city choice changes travel/admin practicality. |
+| Diaspora / adaptation | medium-low | Safety, Ukrainian reception, and English are positives; Croatian bureaucracy and coastal seasonality/rents remain practical risks. |
 
 ## Block 5 — Practical verdict
 

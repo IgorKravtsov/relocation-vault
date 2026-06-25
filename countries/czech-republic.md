@@ -1,11 +1,11 @@
 ---
 country: Czech Republic
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-21T11:04:40Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T11:31:48Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up", "czech-flat-tax-it-trade-fit-gap", "prague-rent-pressure", "czech-private-insurance-quote-gap", "czech-international-school-cost-risk", "czech-language-integration-needed", "czech-one-income-margin-risk"]
 sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171", "src-293", "src-316", "src-317", "src-318", "src-319", "src-497", "src-498", "src-499", "src-500", "src-635", "src-636", "src-637", "src-638", "src-756", "src-757"]
 unverified_count: 0
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence suggests a strategically relevant Tier-2-hint profile: Czechia has an unusually explicit special long-term residence track for Ukrainian temporary-protection holders, but this pass captured it through UNHCR rather than an official-primary Czech page and the normal self-employed/business route has a high evidence burden.
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-21
-- **Tier rationale**: Keep Tier unset until official-primary special-residence future-round timing, flat-tax IT trade fit, risk dimensions, and bureaucracy/practicality are researched.
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
+- **Tier rationale**: Keep Tier unset until official-primary special-residence future-round timing, flat-tax IT trade fit, bureaucracy/practicality are researched.
 
 ## Block 2 — Scoring
 
@@ -34,6 +34,7 @@ schema_version: 2.0.0
 | Education (future child) | — | medium-high | Public education is structurally workable: compulsory last pre-primary year and 9-year basic school; private childcare and international primary are budget risks. | §5.7 |
 | Comfort of life | — | medium | Czechia screens as safe and administratively practical by regional standards, with strong Ukrainian-support context and high English proficiency, but Czech remains important for bureaucracy, leases, public healthcare, public schooling, and long-term integration. | §5.8 |
 | Fit for couple with single income | — | medium | Marriage or independent Czech TP eligibility remains safer than an unmarried-partner file; remote Ukrainian study is feasible, local work depends on final status/Czech language, and Prague strains the one-income budget. | §5.9 |
+| Risk dimensions | - | medium | CZK/EUR/USD conversion and banking are manageable, while the strategic risks are special-residence future-round timing, business-visa evidence burden, Prague rent, cold winters, and Czech-language bureaucracy. | Section 5.10 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -219,25 +220,29 @@ English practicality is decent for an EU inland country but not enough to avoid 
 
 **Bottom line for the partner:** plan for either independent Czech TP or marriage if Czechia becomes serious. Do not treat remote Ukrainian study or informal partnership as enough for residence by itself. For daily life, the partner can continue Ukrainian online study, but should budget time for Czech language and status-specific work-right confirmation before relying on local earnings.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: Passed for screening. All four risk categories are covered at medium confidence from existing Czech legal, tax, cost/rent, healthcare/education, comfort, and partner evidence. Exact bank onboarding, city-level Ukrainian communities, and future special-residence round timing remain application-prep / legal-follow-up checks.
+
+- **Currency / banking risk: medium.** Czechia uses CZK, not EUR, so the couple has a USD-to-CZK spending and savings risk as well as possible EUR intermediation. The first-pass tax screen is promising only if the CZK 9,984/month flat-tax band-I / 60% expense trade fit is confirmed; otherwise the business/self-employed file could be heavier [src-293][src-316][src-317]. Prague rent also makes the budget more sensitive than Brno/Ostrava [src-497][src-498][src-499][src-500].
+- **Political / Ukraine-posture risk: low-medium.** Czechia is one of the stronger EU profiles for Ukraine-specific continuity because existing evidence captures TP plus a special long-term residence concept and an official Czech status-counting anchor [src-002][src-053][src-061]. The remaining risk is implementation timing and eligibility for later rounds, especially if the couple is not already centered in Czech TP.
+- **Ties to Ukraine: low-medium.** Czechia has strong practical ties for Ukrainians compared with island or far-western options: central-European geography, captured Ukrainian-status infrastructure, and a larger Ukrainian presence implied by the special-residence system. This does not remove the Polish-status / one-Member-State TP question, but it improves logistics and adaptation.
+- **Diaspora and adaptation: medium.** Safety and English-proficiency proxies are favorable for screening, especially in Prague/Brno, and Ukrainian-specific official infrastructure helps. However, Czech remains important for offices, leases, public healthcare, public schooling, trade/tax registration, and long-term integration [src-054][src-055][src-057][src-756][src-757]. Climate is also a lifestyle risk because Czechia is colder and grayer than the Mediterranean candidates.
+
+**Risk verdict:** Czechia is strategically stronger than many peers on post-TP continuity, but the risk profile shifts to execution: round timing, household eligibility, trade/tax classification, Prague rent discipline, and Czech-language administration.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
 [verification required]
 
-## Block 4 — Risk dimensions (summary)
+## Block 4 - Risk dimensions (summary)
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | CZK exposure and Prague rents create more FX/budget sensitivity than euro-area peers; flat-tax upside still needs trade-fit confirmation. |
+| Political | low-medium | TP plus special long-term residence / status-counting anchors improve Ukraine continuity; future-round timing remains open. |
+| Ties to Ukraine | low-medium | Central-European geography and Ukrainian-specific infrastructure are positives; Polish-status interaction still needs legal care. |
+| Diaspora / adaptation | medium | Safety/English are workable, but Czech language, colder climate, and business/tax bureaucracy remain real adaptation burdens. |
 
 ## Block 5 — Practical verdict
 

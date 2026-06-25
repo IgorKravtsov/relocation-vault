@@ -1,11 +1,11 @@
 ---
 country: Cyprus
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-21T01:44:50Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T11:31:48Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "cyprus-social-insurance-category-gap", "limassol-rent-pressure", "cyprus-private-insurance-quote-gap", "cyprus-international-school-cost-risk", "cyprus-greek-language-integration-needed", "cyprus-one-income-margin-risk"]
 sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119", "src-293", "src-301", "src-302", "src-303", "src-304", "src-305", "src-371", "src-372", "src-373", "src-374", "src-375", "src-622", "src-623", "src-624", "src-625", "src-751", "src-752"]
 unverified_count: 0
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the DN net-income floor is above the couple's current ~$3,000/month budget and this first pass did not find a Cyprus-specific ordinary-residence bridge after 04 March 2027.
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-21
-- **Tier rationale**: Keep unranked until risk dimensions, bureaucracy/practicality, healthcare application-prep details, and post-TP transition risk are researched beyond the current screening passes.
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
+- **Tier rationale**: Keep unranked until bureaucracy/practicality, healthcare application-prep details, and post-TP transition risk are researched beyond the current screening passes.
 
 ## Block 2 — Scoring
 
@@ -34,6 +34,7 @@ schema_version: 2.0.0
 | Education (future child) | — | N/A | Public education is free from compulsory pre-primary through upper secondary ages, but under-age childcare and international schools are material budget risks. | §5.7 |
 | Comfort of life | — | N/A | Medium safety baseline, Ukrainian reception infrastructure, warm coastal daily life, and moderate English proficiency are positive, but Greek remains needed for bureaucracy, healthcare, leases, and public schooling. | §5.8 |
 | Fit for couple with single income | — | N/A | Partner planning is the hard constraint: DN family coverage is spouse/civil-union based, family members cannot work locally, and the sponsor income floor is above the couple's current one-income profile. | §5.9 |
+| Risk dimensions | - | medium | Euro banking lowers currency risk, but the live risks are DN income/banking proof, no captured post-2027 Cyprus TP bridge, distance from Ukraine, Greek-language administration, and one-income fragility. | Section 5.10 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -234,25 +235,29 @@ Her independent options are also limited at first-pass level. Temporary protecti
 
 **Partner playbook.** Keep her Ukrainian remote study as a practical daily-life activity, but do not rely on it as a Cyprus residence basis. If Cyprus remains a candidate, decide early whether marriage/civil union is acceptable, raise/verify sponsor income before any DN plan, and keep an independent TP/ordinary-status fallback before the 2027 cliff. For one-income budgeting, use Larnaca or Nicosia first and avoid Limassol unless income rises materially [src-035][src-036][src-372][src-373][src-374].
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: Passed for screening. All four risk categories are covered at medium confidence using the existing Cyprus legalization, cost/rent, comfort, and partner evidence; exact bank onboarding and city-level community channels remain application-prep checks, not screening blockers.
+
+- **Currency / banking risk: low-medium.** Cyprus is in the euro area, so there is no local-currency devaluation risk against EUR spending. The practical risk is proving stable foreign income, bank statements, and tax/social-insurance position for a DN or self-employed file while the couple earns in USD and spends in EUR. This matters because the DN threshold is EUR 3,500/month net and the current USD 3,000/month profile is below that gate [src-035][src-293][src-301][src-305].
+- **Political / Ukraine-posture risk: low-medium.** Cyprus is covered by the EU temporary-protection framework through 04 March 2027 and has captured local TP administrative infrastructure, so near-term Ukraine posture is acceptable for screening [src-002][src-036]. The unresolved risk is not hostility; it is the absence of a captured Cyprus-specific TP-to-ordinary-residence bridge after the EU horizon.
+- **Ties to Ukraine: medium.** Cyprus is geographically closer to Ukraine than western EU options and has a warm-climate / coastal profile, but it is island-based and requires flight planning rather than easy land travel. Keep travel cost, medical evacuation, and document-return logistics as practical checks before final selection.
+- **Diaspora and adaptation: medium.** The profile has Ukrainian reception infrastructure and moderate English usability, but Greek remains important for public administration, healthcare, leases, public schooling, and citizenship. Larnaca/Nicosia are the first practical screens; Limassol rent and one-income fragility are the main adaptation stressors [src-037][src-371][src-372][src-373][src-374][src-375][src-751][src-752].
+
+**Risk verdict:** Cyprus is not politically risky for a Ukrainian screening case, but the country remains route-risky: the income gate, Greek-language administration, lack of captured post-2027 bridge, and dependence on one income matter more than currency or safety.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
 [verification required]
 
-## Block 4 — Risk dimensions (summary)
+## Block 4 - Risk dimensions (summary)
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | low-medium | Euro-area spending reduces local-currency risk; DN income proof, bank statements, tax/social-insurance setup, and USD-to-EUR margin are the real financial risks. |
+| Political | low-medium | EU/Cyprus TP evidence supports near-term Ukraine posture, but no Cyprus-specific post-2027 bridge is captured. |
+| Ties to Ukraine | medium | Closer than western EU options but island-based; flights/document logistics need later live checks. |
+| Diaspora / adaptation | medium | Ukrainian reception infrastructure and some English help, but Greek administration, Limassol rents, and one-income pressure remain binding. |
 
 ## Block 5 — Practical verdict
 

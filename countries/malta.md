@@ -1,11 +1,11 @@
 ---
 country: Malta
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-21T07:57:44Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T11:31:48Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path", "malta-nrp-authorized-work-tax-fit-gap", "malta-rent-pressure", "malta-health-insurance-quote-gap", "malta-international-school-cost-risk", "malta-one-income-margin-risk"]
 sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052", "src-120", "src-293", "src-311", "src-312", "src-313", "src-314", "src-315", "src-376", "src-377", "src-378", "src-379", "src-380", "src-631", "src-632", "src-633", "src-634", "src-755"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence makes Malta a mixed legalization candidate: it has EU temporary protection and a well-documented Nomad Residence Permit, but the nomad route requires EUR 42,000/year gross income and explicitly does not lead to long-term residence or citizenship by itself [src-047][src-049].
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-21
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: Do not classify yet. Main current risks are that the couple's current USD 3,000/month is below the nomad threshold, the NRP does not lead to PR/citizenship, the ordinary fallback is tax/rent-tight, and the exact Maltese tax/social-security treatment of foreign-client IT work under the NRP still needs adviser confirmation [src-002][src-049][src-311][src-312][src-376].
 
 ## Block 2 — Scoring
@@ -34,6 +34,7 @@ schema_version: 2.0.0
 | Education (future child) | — | N/A | Malta has an English/Maltese public-school system with 11 years of compulsory education from ages 5-16 and free childcare only if parents work or study; international schooling is a major budget risk. | §5.7 |
 | Comfort of life | — | N/A | Malta is comfort-positive for English-language practicality, warm island lifestyle, official NRP materials, and moderate safety, but it is crowded, expensive, and administratively small-island / rent-sensitive. | §5.8 |
 | Fit for couple with single income | — | N/A | Partner inclusion is plausible through spouse or documented de facto partnership, but the NRP EUR 42,000/year gross threshold and Malta rent/tax pressure make the one-income fit weak at the current USD 3,000/month profile. | §5.9 |
+| Risk dimensions | - | medium | Euro/English lower currency and language friction, but the main risks are NRP income above budget, NRP not counting to PR/citizenship, rent pressure, and small-island service capacity. | Section 5.10 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -247,25 +248,29 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 
 **Practical partner playbook.** If Malta remains a candidate, prepare passports, police certificates, relationship documents, and English translations for both partners; collect two years of cohabitation evidence if not marrying; and ask Residency Malta in writing whether the partner can be included as a de facto partner in the exact scenario. Do not rely on remote Ukrainian student status as residence grounds. Treat marriage as the lower-risk file, and do not choose Malta unless the principal's documented gross income reaches the NRP threshold or another countable ordinary route is verified.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: Passed for screening. All four risk categories are covered at medium confidence using existing Malta legal, tax, rent, comfort, and partner evidence. Exact bank onboarding, insurer wording, and live community contacts remain application-prep checks.
+
+- **Currency / banking risk: low-medium.** Malta is a euro-area country and the NRP application materials are clear about bank statements and income proof. Currency risk is therefore mostly USD-to-EUR purchasing-power risk plus the need to show EUR 42,000/year gross income, which the current USD 3,000/month profile does not meet [src-047][src-048][src-049].
+- **Political / Ukraine-posture risk: low-medium.** Malta is covered by the EU TP framework to 04 March 2027 and has a Maltese legal basis for temporary protection [src-002][src-046]. The screening risk is not anti-Ukraine posture; it is that no Malta-specific post-TP bridge is captured and NRP explicitly does not lead to long-term residence or citizenship [src-049].
+- **Ties to Ukraine: medium-high.** Malta is the weakest in this slice for physical ties to Ukraine because it is a small island at the edge of Europe. Expect flight dependence, smaller logistics buffers, and less easy document-return/family-visit planning than Czechia or Croatia.
+- **Diaspora and adaptation: medium-low.** English-language practicality is Malta's biggest adaptation advantage, and official NRP material is unusually accessible. But the country is small, crowded, rent-sensitive, and service-capacity constrained; Marsaskala/Birkirkara screen better than Sliema/Valletta for a one-income couple [src-377][src-378][src-379][src-380][src-755]. Maltese/English public-service navigation is easier than in many peers, but the rent and NRP threshold risks dominate.
+
+**Risk verdict:** Malta is low-friction linguistically but high-friction strategically. It is best treated as an English-friendly bridge only if income rises, not as a confirmed settlement route at the current budget.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
 [verification required]
 
-## Block 4 — Risk dimensions (summary)
+## Block 4 - Risk dimensions (summary)
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | low-medium | Euro-area and clear NRP bank-statement mechanics; real issue is EUR 42,000/year gross proof vs current income. |
+| Political | low-medium | EU/Malta TP basis is captured; no Malta post-TP bridge and NRP is not a PR/citizenship path. |
+| Ties to Ukraine | medium-high | Island geography makes flights/document logistics weaker than mainland EU options. |
+| Diaspora / adaptation | medium-low | English helps substantially, but rent, crowding, small-island capacity, and NRP threshold dominate. |
 
 ## Block 5 — Practical verdict
 
