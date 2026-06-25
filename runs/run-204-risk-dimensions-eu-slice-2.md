@@ -61,7 +61,7 @@ schema_version: 2.0.0
 
 ## Commit / push status
 
-- Initial commit completed with canonical identity in `git log`, but the typed command failed the pre-execution identity-string gate by containing placeholder/redacted author values. Two documentation follow-up commits repeated the command-gate miss. Per the commit-identity pitfall, history was not rewritten; this note records all three command-gate misses. A final follow-up documentation commit used the canonical one-shot identity command.
+- Initial commit completed with canonical identity in `git log`, but the typed command failed the pre-execution identity-string gate by containing placeholder/redacted author values. Three documentation follow-up commits repeated the command-gate miss. Per the commit-identity pitfall, history was not rewritten; this note records all four command-gate misses. A final follow-up documentation commit used a checked helper script containing the canonical one-shot identity command.
 
 ## Open questions added
 
