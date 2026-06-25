@@ -1,11 +1,11 @@
 ---
 country: Bulgaria
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-21T20:20:39Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T14:38:52Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10", "5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["self-employment-permit-3-year-cap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational", "bulgaria-self-employed-contribution-and-status-fit-gap", "sofia-rent-pressure", "bulgaria-private-insurance-quote-gap", "bulgaria-international-school-cost-risk", "bulgarian-language-integration-needed", "bulgaria-one-income-margin-risk"]
 sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118", "src-328", "src-329", "src-330", "src-331", "src-509", "src-510", "src-511", "src-512", "src-644", "src-645", "src-646", "src-647", "src-762", "src-763"]
 unverified_count: 0
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (insufficient data for tier assignment after first pass)
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-21
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: TBD. Bulgaria offers a self-employment residence route with a 3-year cap and a 5-year path to permanent residence, but the 3-year self-employment permit limitation and the absence of a captured TP-to-ordinary-residence bridge create operational constraints. Dual-citizenship restrictions for naturalized non-EU nationals are a further consideration. A tier will be assigned after deeper research.
 
 ## Block 2 — Scoring
@@ -275,9 +275,16 @@ Education conclusion: Bulgaria passes the first-pass education DoD for screening
 **Partner verdict**
 - Bulgaria passes §5.9 for screening: marriage materially improves the partner pathway, independent TP is a useful near-term alternative if available, and remote Ukrainian study can continue as a life-plan factor but not as a residence basis. The budget can work most plausibly in Plovdiv, but only after confirming the self-employment / residence / tax package.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for screening. This is a country-screening risk baseline from existing legal, tax, cost, healthcare, education, comfort, and partner evidence. Exact bank onboarding, Employment Agency practice, live diaspora groups, and lawyer/accountant contacts remain application-prep.
+
+- **Currency / banking risk: medium.** Bulgaria uses BGN, pegged to EUR, while the couple earns USD. That reduces local-currency volatility versus free-floating currencies, but the self-employed contribution package, VAT / reverse-charge, foreign-client income documentation, and rent/insurance deposits still need professional handling. [src-328][src-329][src-331][src-509][src-510][src-511][src-512]
+- **Political / Ukraine-posture risk: medium.** Bulgaria has an active captured TP framework through 04 March 2027, including PFN / registration card, medical care, education, social support, and work without a permit for eligible Ukrainians. The strategic risk is higher than Poland/Romania because no post-TP bridge is captured and the ordinary self-employment route remains non-operational without Employment Agency / Migration Directorate confirmation. [src-002][src-079][src-089][src-090]
+- **Ties to Ukraine: low-medium.** Bulgaria is geographically close enough for Ukraine logistics and has a Ukrainian TP support channel, while Varna/Plovdiv offer plausible lifestyle screens. It is still less route-secure than Poland because the couple lacks a captured bridge or ready DN-style status. [src-089][src-090][src-511][src-512]
+- **Diaspora / adaptation: medium.** Safety and English proxies are workable, especially Sofia/urban contexts, but Bulgarian remains important for public offices, leases, healthcare/NHIF, tax/self-employment, schooling, and long-term integration. Varna may improve lifestyle fit but needs seasonal-rent and service-depth checks. [src-762][src-763][src-644][src-645]
+
+Practical risk read: Bulgaria's rent/tax math can be attractive, especially Plovdiv, but the unresolved self-employment residence route and Bulgarian-language administration are the core risks.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -287,10 +294,10 @@ Education conclusion: Bulgaria passes the first-pass education DoD for screening
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | BGN/EUR peg reduces local volatility, but USD income, tax/social contribution setup, VAT, deposits, and bank proof still require care. |
+| Political | medium | TP support exists, but no post-2027 bridge is captured and self-employment residence is not operational without authority/counsel confirmation. |
+| Ties to Ukraine | low-medium | Geography and TP support help; route continuity is weaker than Poland because no CUKR-like bridge is captured. |
+| Diaspora / adaptation | medium | Safety/English are workable in urban areas, but Bulgarian-language offices, NHIF, tax, leases, and schools remain substantial adaptation work. |
 
 ## Block 5 — Practical verdict
 

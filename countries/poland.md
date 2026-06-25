@@ -1,11 +1,11 @@
 ---
 country: Poland
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-21T14:09:50Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T14:38:52Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10", "5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["poland-zus-social-contribution-gap", "poland-ryczalt-it-rate-fit-gap", "warsaw-rent-pressure", "poland-private-insurance-quote-gap", "poland-international-school-cost-risk", "poland-polish-language-integration-needed", "poland-one-income-margin-risk"]
 sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091", "src-293", "src-320", "src-321", "src-322", "src-323", "src-501", "src-502", "src-503", "src-504", "src-639", "src-640", "src-641", "src-758", "src-759"]
 unverified_count: 4
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (set after sufficient evidence; justify with sources)
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-21
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: TBD. Poland is a uniquely relevant case because one partner already holds a Polish `karta pobytu` (residence permit), which creates a family-reunification path that does not exist for most other countries in the set. The new CUKR card (May 2026) also provides a clear post-2027 bridge for Ukrainian temporary-protection holders. If both paths hold, Poland could rate Tier 1 or Tier 2; the first tax pass suggests the self-employed tax answer can be workable, but exact ZUS and IT lump-sum classification require accountant confirmation.
 
 ## Block 2 — Scoring
@@ -279,14 +279,16 @@ Poland passes comfort screening at medium confidence. It is not climate-ideal, b
 #### Partner verdict
 Poland passes partner/student screening at medium confidence. Marriage is the cleanest dependent strategy; independent CUKR / PESEL UKR eligibility can be even stronger if available. Remote study can continue, but the couple should not treat it as a residence basis, and the one-income budget needs tax/ZUS and rent discipline.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-> **DoD**: all 4 risk categories assessed (currency/banking, political, ties-to-Ukraine, diaspora).
+> **DoD status**: Passed for screening. This is a risk-dimensions baseline built from already captured legal, tax, cost, healthcare, education, comfort, and partner evidence; exact bank onboarding, city-level Ukrainian communities, and live travel-cost details remain application-prep checks.
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+- **Currency / banking risk: medium.** Poland adds PLN exposure on top of the couple's USD income: the tax model uses a USD/PLN conversion, rents and ZUS/health contributions are PLN-linked, and future income proof must satisfy voivode / bank / tax-office expectations. The risk is not currency crisis; it is exchange-rate, ZUS, and documentation friction around a foreign-client IT income stream. [src-293][src-320][src-321][src-091]
+- **Political / Ukraine-posture risk: low-medium.** Poland has one of the strongest captured Ukraine-specific administrative frameworks in the vault: PESEL UKR, TP rights, NFZ medical access under the Ukraine framework, public-education access, and the CUKR post-TP card. The main policy risk is not current support, but exact post-CUKR transition and future ordinary-permit fit. [src-002][src-062][src-063][src-064][src-639][src-641]
+- **Ties to Ukraine: low.** Geography, existing Polish residence ties, CUKR/PESEL infrastructure, and large Ukrainian practical support make Poland one of the easiest countries for family visits, document logistics, and continuity with Ukrainian networks. Winter/climate is a lifestyle negative, not a ties-to-Ukraine risk. [src-062][src-063][src-064][src-758]
+- **Diaspora / adaptation: medium-low.** Poland screens well on safety, English proficiency, Ukrainian support infrastructure, and Wroclaw/Krakow service depth. The adaptation burden is Polish-language bureaucracy, healthcare, leases, schooling, tax/ZUS, and eventual PR/citizenship language requirements. [src-758][src-759][src-502][src-503][src-504]
+
+Practical risk read: Poland's risk profile is unusually strong for continuity and support, but the couple must control Warsaw rent, confirm ZUS / `ryczalt` / VAT treatment, and treat Polish-language integration as a long-term requirement.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -298,10 +300,10 @@ Poland passes partner/student screening at medium confidence. Marriage is the cl
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | PLN income-proof, ZUS, health, rent, and tax-payment friction matter because the income is USD/foreign-client based; exchange-rate risk is manageable but not zero. |
+| Political | low-medium | Strong captured Ukraine/TP/CUKR/NFZ/education support; remaining risk is future ordinary-status transition after CUKR / TP. |
+| Ties to Ukraine | low | Existing Polish residence relevance, geography, and Ukrainian administrative/support infrastructure make continuity with Ukraine comparatively easy. |
+| Diaspora / adaptation | medium-low | High English and Ukrainian support help, but Polish-language bureaucracy, healthcare, tax/ZUS, schools, and long-term integration remain real work. |
 
 ## Block 5 — Practical verdict
 

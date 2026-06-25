@@ -2,7 +2,7 @@
 
 Last updated: 2026-06-25
 Mode: criterion-slice
-Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic
+Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary
 
 ## Scope
 
@@ -18,14 +18,19 @@ This slice converts pending 5.10 placeholders for high-priority EU / Schengen co
 | Croatia | low-medium | low-medium | medium | medium-low | DN income / 18-month cap, no post-TP bridge, coastal rent seasonality | [src-002][src-040][src-041][src-293][src-306][src-310][src-381][src-382][src-383][src-384][src-385][src-753][src-754] |
 | Malta | low-medium | low-medium | medium-high | medium-low | NRP income gate, NRP not settlement path, island logistics, rent/crowding | [src-002][src-047][src-048][src-049][src-050][src-051][src-293][src-311][src-314][src-376][src-377][src-378][src-379][src-380][src-755] |
 | Czech Republic | medium | low-medium | low-medium | medium | Special-residence timing, trade/tax fit, Prague rent, Czech bureaucracy | [src-002][src-053][src-054][src-055][src-056][src-057][src-061][src-293][src-316][src-317][src-497][src-498][src-499][src-500][src-756][src-757] |
+| Poland | medium | low-medium | low | medium-low | CUKR/ordinary-status transition, ZUS/ryczalt fit, Warsaw rent, Polish bureaucracy | [src-002][src-062][src-063][src-064][src-091][src-293][src-320][src-321][src-502][src-503][src-504][src-639][src-641][src-758][src-759] |
+| Romania | medium | low-medium | low-medium | medium | DN income gate, PFA/company tax fit, no post-TP bridge, one-income margin | [src-002][src-068][src-070][src-076][src-121][src-324][src-325][src-327][src-505][src-506][src-507][src-508][src-642][src-643][src-760][src-761] |
+| Bulgaria | medium | medium | low-medium | medium | Self-employment route uncertainty, no post-TP bridge, Bulgarian bureaucracy | [src-002][src-079][src-080][src-089][src-090][src-118][src-328][src-329][src-331][src-509][src-510][src-511][src-512][src-644][src-645][src-762][src-763] |
+| Hungary | medium-high | medium | medium | medium-high | White Card income/partner limits, guest-self-employment burden, HUF/tax downside | [src-002][src-092][src-093][src-094][src-095][src-096][src-172][src-332][src-333][src-336][src-513][src-514][src-515][src-516][src-648][src-649][src-764][src-765] |
 
 ## Cross-country observations
 
-- Currency risk is not the lead differentiator for the euro-area countries in this slice; the Czech Republic adds CZK exposure, but practical financial risk is still mostly income proof, banking/KYC, rent discipline, and self-employed tax registration.
+- Currency risk is not the lead differentiator for euro-area countries; non-euro countries add PLN/RON/BGN/HUF exposure, with Hungary the sharpest risk because HUF income-proof, EUR White Card thresholds, and tax-net sensitivities collide.
 - Ukraine-posture is acceptable for screening across the covered EU countries because each has captured Ukraine reception / TP evidence, but post-2027 ordinary-status continuity remains country-specific and should not be assumed from general support.
-- Travel ties to Ukraine are strongest for Czechia and Croatia in this enlarged subset because of mainland central/southeast Europe geography and Ukrainian-status infrastructure; Malta is weakest because island logistics dominate.
-- Adaptation risk is lowest in Malta/Portugal for English-language practicality, medium-low in Croatia because English and safety screen well, and higher in Italy/Czechia/Greece/Cyprus where local language remains important for public offices, healthcare, leases, tax, and schooling.
+- Poland is the strongest continuity case in this enlarged slice because of existing Polish residence relevance, PESEL/ CUKR infrastructure, NFZ/education baselines, and geography. Romania and Bulgaria are also geographically useful; Malta remains weakest for Ukraine travel logistics.
+- Adaptation risk is lowest in Malta/Portugal for English-language practicality and medium-low in Croatia/Poland; it is higher in Italy/Czechia/Greece/Cyprus/Romania/Bulgaria and highest in Hungary where local-language bureaucracy is likely to affect OIF/NAV/NEAK, leases, schools, and healthcare.
+- For the Poland/Romania/Bulgaria/Hungary subgroup, the risk driver is not daily safety; it is whether the ordinary route and tax/social-insurance file can be made operational before the TP horizon ends.
 
 ## Next slice candidate
 
-Continue 5.10 risk dimensions with Poland, Romania, Bulgaria, and Hungary, unless verification or staleness triggers take priority.
+Continue 5.10 risk dimensions with Slovakia, Slovenia, Montenegro, and Serbia, unless verification or staleness triggers take priority.

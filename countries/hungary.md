@@ -1,11 +1,11 @@
 ---
 country: Hungary
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-21T23:27:55Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T14:38:52Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10", "5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "hungary-self-employed-tax-and-immigration-fit-gap", "budapest-rent-pressure", "hungary-private-insurance-quote-gap", "hungary-international-school-cost-risk", "hungarian-language-integration-needed", "hungary-one-income-margin-risk"]
 sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172", "src-332", "src-333", "src-334", "src-335", "src-336", "src-513", "src-514", "src-515", "src-516", "src-648", "src-649", "src-650", "src-651", "src-764", "src-765"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Hungary is usable as a legal short/medium-term base but not yet an obvious long-term fit for this couple: the White Card is clean for foreign remote work but requires at least EUR 3,000 net monthly income for 6 months, does not allow Hungarian gainful activity, and its holder cannot sponsor family reunification; guest self-employment has a heavier evidence burden and a 3-year cap before a new application. [src-093][src-094][src-095]
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-21
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: Leave unassigned until taxes, cost, rent, healthcare, and ordinary self-employment feasibility are researched.
 
 ## Block 2 — Scoring
@@ -262,12 +262,16 @@ Education conclusion: Hungary passes the first-pass education DoD for screening.
 **Partner verdict**
 - Hungary passes §5.9 for screening, but the partner route is a weakness rather than a strength. White Card is awkward for a couple because it cannot sponsor family reunification; the woman needs independent TP/status, or the man must qualify for a different sponsor-eligible route before marriage/family reunification becomes useful. Remote Ukrainian study can continue as a life-plan factor, not as a residence basis.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: Passed for screening. This risk baseline reuses existing legal, tax, cost, healthcare, education, comfort, and partner evidence; exact bank onboarding, OIF/NAV practice, city-level Ukrainian communities, and final-route professional advice remain application-prep.
+
+- **Currency / banking risk: medium-high.** Hungary uses HUF, so USD income must support HUF rent, tax, health, and contribution obligations. The tax stress test has a wide net range (about USD 1,745-2,192/month), and White Card evidence requires EUR 3,000 net/month for 6 months, making proof-of-funds and exchange-rate presentation more sensitive than in euro-area candidates. [src-093][src-332][src-333][src-336][src-513][src-514][src-515][src-516]
+- **Political / Ukraine-posture risk: medium.** OIF captures a TP baseline with work and healthcare rights, but no Hungary-specific post-2027 TP bridge is captured. Hungary also has a more awkward route fit for this couple: White Card is income-gated and cannot sponsor family, while guest self-employment is evidence-heavy and capped. [src-002][src-092][src-093][src-094][src-095]
+- **Ties to Ukraine: medium.** Hungary is geographically close to Ukraine and can support family/document travel better than distant bridge countries. However, route continuity is fragile because the White Card does not solve the partner file and ordinary self-employment/tax fit is still unresolved. [src-092][src-093][src-094][src-095]
+- **Diaspora / adaptation: medium-high.** Safety and Budapest English are acceptable, but Hungarian-language administration is one of the heavier adaptation risks: OIF/Enter Hungary, NAV/tax, TAJ/NEAK, leases, public schools, and healthcare all require local-language support outside expat-facing Budapest services. [src-764][src-765][src-648][src-649]
+
+Practical risk read: Hungary is close and administratively real, but risk is higher than the Poland/Romania/Bulgaria slice because the core remote-work route is income/partner-gated and the tax/contribution downside can erase the rent advantage.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -277,10 +281,10 @@ Education conclusion: Hungary passes the first-pass education DoD for screening.
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium-high | HUF exposure plus EUR-denominated White Card proof and wide tax-net sensitivities make one-income planning fragile. |
+| Political | medium | TP support is captured, but no post-2027 bridge; White Card and guest self-employment are both constrained for this couple. |
+| Ties to Ukraine | medium | Geography supports Ukraine travel/logistics, but route continuity is weak without income rise or a solved guest-self-employment file. |
+| Diaspora / adaptation | medium-high | Budapest English helps, but Hungarian-language OIF/NAV/NEAK/lease/school bureaucracy is a major adaptation burden. |
 
 ## Block 5 — Practical verdict
 

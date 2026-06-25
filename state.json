@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 204,
+  "iteration": 205,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-25T11:31:48Z",
+  "last_run_timestamp": "2026-06-25T14:38:52Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.10",
-    "reason": "Continue the 5.10 risk-dimensions slice with the next EU/Schengen cohort (Poland, Romania, Bulgaria, Hungary) unless verification or staleness triggers take priority."
+    "reason": "Continue the 5.10 risk-dimensions slice with Slovakia, Slovenia, Montenegro, and Serbia unless verification or staleness triggers take priority."
   },
   "countries": {
     "Spain": {
@@ -298,14 +298,15 @@
     "Poland": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -313,7 +314,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -325,20 +325,21 @@
         "poland-polish-language-integration-needed",
         "poland-one-income-margin-risk"
       ],
-      "last_iteration": 174,
+      "last_iteration": 205,
       "unverified_count": 4
     },
     "Romania": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -346,7 +347,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -358,20 +358,21 @@
         "romanian-language-integration-needed",
         "romania-one-income-margin-risk"
       ],
-      "last_iteration": 175,
+      "last_iteration": 205,
       "unverified_count": 1
     },
     "Bulgaria": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -379,7 +380,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -393,20 +393,21 @@
         "bulgarian-language-integration-needed",
         "bulgaria-one-income-margin-risk"
       ],
-      "last_iteration": 176,
+      "last_iteration": 205,
       "unverified_count": 0
     },
     "Hungary": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -414,7 +415,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -430,7 +430,7 @@
         "hungarian-language-integration-needed",
         "hungary-one-income-margin-risk"
       ],
-      "last_iteration": 177,
+      "last_iteration": 205,
       "unverified_count": 0
     },
     "Slovakia": {

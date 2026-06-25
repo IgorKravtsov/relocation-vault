@@ -1,11 +1,11 @@
 ---
 country: Romania
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-21T17:16:11Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T14:38:52Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10", "5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["romania-dn-income-above-current-budget", "romania-pfa-registration-vat-fit-gap", "cluj-rent-pressure", "romania-private-insurance-quote-gap", "romania-international-school-cost-risk", "romanian-language-integration-needed", "romania-one-income-margin-risk"]
 sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076, src-121, src-324, src-325, src-326, src-327, src-505, src-506, src-507, src-508, src-642, src-643, src-760, src-761]
 unverified_count: 1
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-21
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: TBD. Romania offers a legislated digital-nomad route and low cost of living, but winters are cold and no post-2027 TP bridge has been captured.
 
 ## Block 2 — Scoring
@@ -254,9 +254,16 @@ Practical interpretation: for the current one-income couple, **Timisoara first, 
 **Partner verdict**
 - Romania passes §5.9 for screening: marriage materially improves the partner pathway, independent TP is a useful near-term alternative if available, and remote Ukrainian study can continue as a life-plan factor but not as a residence basis. The current budget can work only with disciplined city/rent choice and a confirmed tax/residence structure.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for screening. This risk baseline reuses captured legal, climate, tax, cost, healthcare, education, comfort, and partner evidence; exact bank onboarding, Romanian professional contacts, and final-city diaspora details remain application-prep.
+
+- **Currency / banking risk: medium.** Romania uses RON while the couple earns USD. Headline living costs are low, but the conservative PFA-style tax model leaves only about USD 1,952-2,027/month, so RON exchange movement, accountant fees, private insurance, and rent discipline can quickly affect the one-income margin. [src-324][src-325][src-327][src-505][src-506][src-507][src-508]
+- **Political / Ukraine-posture risk: low-medium.** Romania has a captured TP framework through GII, with CNP/residence permits, work/self-employment, healthcare, education, and social-protection rights for eligible Ukrainians. The unresolved risk is the absence of a captured Romania-specific TP-to-ordinary-status bridge after 04 March 2027. [src-002][src-076]
+- **Ties to Ukraine: low-medium.** Romania is geographically close to Ukraine and can be useful for family/document logistics. It is weaker than Poland because the couple does not have an existing Romanian status and because the digital-nomad income gate is above the current budget. [src-068][src-070][src-076]
+- **Diaspora / adaptation: medium.** Safety and English-proficiency proxies are favorable, with Timisoara/Bucharest/Cluj all screenable for urban services. Adaptation still requires Romanian-language help for leases, GII, CNAS/family-doctor onboarding, PFA/tax work, public schools, and long-term status. [src-760][src-761][src-642][src-643]
+
+Practical risk read: Romania is a cost/logistics-friendly EU fallback, but the binding risks are DN income insufficiency, ordinary PFA/company route fit, no captured TP bridge, and one-income margin after tax/insurance.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -266,10 +273,10 @@ Practical interpretation: for the current one-income couple, **Timisoara first, 
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | RON exposure is manageable, but the conservative PFA tax net leaves little room for exchange, insurance, accountant, and rent surprises. |
+| Political | low-medium | Ukraine TP administration and rights are captured; no post-2027 ordinary-status bridge is captured. |
+| Ties to Ukraine | low-medium | Geography is favorable for Ukraine logistics, but no existing Romanian status and the DN income gate weaken route continuity. |
+| Diaspora / adaptation | medium | Strong English/safety proxies help; Romanian-language bureaucracy, CNAS, PFA/tax, leases, and schools remain practical barriers. |
 
 ## Block 5 — Practical verdict
 
