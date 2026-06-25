@@ -61,7 +61,7 @@ schema_version: 2.0.0
 
 ## Commit / push status
 
-- Pending at run-log creation; completed after validation and git commit/push.
+- Initial commit completed with canonical identity in `git log`, but the typed command failed the pre-execution identity-string gate by containing placeholder/redacted author values. Per the commit-identity pitfall, history was not rewritten; this note records the command-gate miss, and a follow-up canonical-identity commit documents it.
 
 ## Open questions added
 
