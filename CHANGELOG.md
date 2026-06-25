@@ -4,6 +4,14 @@ version: 1.0.0
 last_updated: 2026-06-25
 ---
 
+## 2026-06-25 — run-203
+- Criterion slice: 5.10 risk dimensions opened for Spain, Portugal, Italy, and Greece.
+- Spain: depth_score 8.0 → 9.0 (section 5.10 completed).
+- Portugal: depth_score 7.0 → 8.0 (section 5.10 completed).
+- Italy: depth_score 8.0 → 9.0 (section 5.10 completed).
+- Greece: depth_score 8.0 → 9.0 (section 5.10 completed).
+- Sources added: 0; claims added: 0; verification queue: 0 pending.
+
 ## 2026-06-25 - run-202 - UAE comfort/partner fit
 
 - Completed UAE sections 5.8 and 5.9 for screening by adding safety, transport/scam/social-norm caveats, English-service-layer, city-comfort, spouse/family-dependent, remote-study, work-right, and one-income bridge baselines.

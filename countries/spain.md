@@ -1,11 +1,11 @@
 ---
 country: Spain
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-20T16:26:00Z
-sections_completed: ["5.2","5.3","5.4","5.5","5.7","5.8","5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T08:23:11Z
+sections_completed: ["5.2","5.3","5.4","5.5","5.7","5.8","5.9","5.10"]
 sections_partial: ["5.1","5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight","autonomo-tax-social-security-burden","madrid-barcelona-rent-pressure","malaga-tourist-rent-pressure","spain-private-insurance-quote-gap","spain-international-school-cost-risk","spanish-language-integration-needed"]
 sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025","src-280","src-281","src-282","src-283","src-284","src-285","src-286","src-391","src-392","src-393","src-394","src-395","src-613","src-614","src-615","src-745","src-746"]
 unverified_count: 0
@@ -18,9 +18,9 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD after remaining legal long-term, risk-dimension, and bureaucracy / practicality research is added.
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-20T16:26:00Z
+- **Tier**: TBD after remaining legal long-term and bureaucracy / practicality research is added.
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25T08:23:11Z
 - **Tier rationale**: Spain already has a strong remote-work legalization route, a mature temporary-protection system for Ukrainians, passed climate coverage, a practical ordinary freelancer-tax baseline, first-pass cost/rent plus healthcare/education screening, and now passed comfort and partner/student-fit screening. The main remaining caveats are no captured post-04 March 2027 TP-to-ordinary-residence bridge, tight couple-income math for the digital nomad route, heavy autonomous-worker tax/social-security burden at the couple's current income, rent pressure in Madrid/Barcelona/Malaga, uncaptured live private-insurance quotes for a DN filing, and Spanish-language integration needs for daily life / public schooling.
 
 ## Block 2 — Scoring
@@ -217,14 +217,14 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 - **Possibility of work**: TP is clear: Spain's Ukrainian TP page says the status allows **work** as well as residence, medical assistance, and study. For the DN-family path, this pass confirms family-member eligibility but does not capture a clean official sentence on independent dependent work rights; plan conservatively that the partner's immediate baseline is dependent residence plus remote study / later independent work authorization if needed. [src-011][src-013]
 - **Partner verdict**: Spain is legally partner-friendly compared with many countries because it names unmarried partners, but budget math is the binding issue. If the partner is included from day one, the couple should either raise documented income above the two-person DN threshold, show a strong savings cushion, or file only after a Spanish lawyer / gestor confirms the exact income evidence and dependent-card consequences.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-> **DoD**: all 4 risk categories assessed (currency/banking, political, ties-to-Ukraine, diaspora).
+> **DoD status**: passed for screening. Covered: currency/banking, political/Ukraine-posture, ties to Ukraine, and diaspora/language adaptation. Exact bank onboarding by city, active Ukrainian community contacts, and travel-cost checks remain application-prep.
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+- **Currency / banking risk**: Low-medium. Spain is a euro-area jurisdiction, so local-currency volatility is not the main issue; the practical risk is USD-to-EUR income conversion plus Spanish banking/KYC and tax-residence documentation once the couple becomes resident. The profile already treats Spanish tax/social-security setup as a major administrative burden. [src-280][src-284][src-285]
+- **Political / Ukraine-posture risk**: Low-medium for screening. Spain has a formal Ukraine temporary-protection channel with residence, work, medical-assistance, and study rights, and the current comfort pass screens Spain as broadly safe. The post-2027 route remains the legal risk, not near-term hostility. [src-011][src-012][src-745]
+- **Ties to Ukraine**: Medium. Spain is geographically farther from Ukraine than Central/Eastern Europe, so repeated university/family trips are less convenient, but EU/Schengen connectivity and Spain's official reception infrastructure make it workable if travel costs are budgeted. [src-011][src-012]
+- **Diaspora / adaptation**: Medium. Ukraine-specific reception support is positive, but EF ranks Spain in the moderate English band; Spanish is needed for bureaucracy, healthcare, school, landlords, and tax/accounting. Keep `spanish-language-integration-needed` as the live adaptation flag. [src-011][src-746]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -236,10 +236,10 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | low-medium | Euro-area currency risk is manageable, but USD-to-EUR conversion, Spanish KYC, tax registration, and RETA/autonomo setup need planning. [src-280][src-284][src-285] |
+| Political | low-medium | Formal Ukrainian TP infrastructure and broad safety proxy are positive; the main risk is no captured post-2027 bridge. [src-011][src-012][src-745] |
+| Ties to Ukraine | medium | EU/Schengen connectivity is workable, but Spain is far from Ukraine for repeated family or university travel. [src-011] |
+| Diaspora / adaptation | medium | Ukrainian reception exists, but Spanish-language integration is necessary outside international/private settings. [src-011][src-746] |
 
 ## Block 5 — Practical verdict
 
@@ -369,5 +369,5 @@ _(none yet)_
 ## Block 8 — Open questions and verification markers
 
 - `vq-121` resolved for screening in run-138: Spain healthcare application-prep details (DN-compliant private-insurance quotes for two young adults, maternity waiting periods, and region-specific health-card registration) remain before-filing checks.
-- PR/citizenship, risk dimensions, and bureaucracy remain for later country-deep-dive work.
+- PR/citizenship and bureaucracy remain for later country-deep-dive work.
 - Spain comfort and partner/student fit are now screenable; final filing still needs dependent-card work-right wording, unmarried-partner evidence standards, and city-level integration/community checks.

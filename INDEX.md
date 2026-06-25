@@ -10,10 +10,10 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 
 | Country | Group | Tier hint | Tier | depth_score | Sections done | Last iter | Profile |
 |---------|-------|----------:|------|------------:|---------------|----------:|---------|
-| Spain | eu-schengen | 1 | — | 8.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.6 | 167 | `countries/spain.md` |
-| Portugal | eu-schengen | 1 | — | 7.0 | done: 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.2, 5.3, 5.6 | 191 | `countries/portugal.md` |
-| Italy | eu-schengen | 1 | — | 8.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.6 | 168 | `countries/italy.md` |
-| Greece | eu-schengen | 1 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 169 | `countries/greece.md` |
+| Spain | eu-schengen | 1 | — | 9.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.6 | 203 | `countries/spain.md` |
+| Portugal | eu-schengen | 1 | — | 8.0 | done: 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.2, 5.3, 5.6 | 203 | `countries/portugal.md` |
+| Italy | eu-schengen | 1 | — | 9.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.6 | 203 | `countries/italy.md` |
+| Greece | eu-schengen | 1 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 203 | `countries/greece.md` |
 | Cyprus | eu-schengen | 1 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 170 | `countries/cyprus.md` |
 | Croatia | eu-schengen | 1 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 171 | `countries/croatia.md` |
 | Malta | eu-schengen | 1 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 172 | `countries/malta.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 7.95
+- **Average depth_score**: 8.08

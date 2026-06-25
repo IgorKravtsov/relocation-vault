@@ -1,29 +1,29 @@
 {
   "version": 2,
-  "iteration": 202,
+  "iteration": 203,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-25T05:13:59Z",
+  "last_run_timestamp": "2026-06-25T08:23:11Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "UAE",
+    "mode": "criterion-slice",
+    "country": null,
     "sections": [
-      "5.8",
-      "5.9"
-    ]
+      "5.10"
+    ],
+    "criterion": "risk-dimensions"
   },
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.10",
-    "reason": "All 33 countries are now at depth_score >= 7 after UAE comfort/partner coverage; verification queue remains below threshold, so start cross-country risk-dimensions coverage."
+    "reason": "Continue the 5.10 risk-dimensions slice with the next EU/Schengen cohort (Cyprus, Croatia, Malta, Czech Republic) unless verification or staleness triggers take priority."
   },
   "countries": {
     "Spain": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.3",
@@ -31,14 +31,14 @@
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -51,19 +51,20 @@
         "spain-international-school-cost-risk",
         "spanish-language-integration-needed"
       ],
-      "last_iteration": 167,
+      "last_iteration": 203,
       "unverified_count": 0
     },
     "Portugal": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 7.0,
+      "depth_score": 8.0,
       "sections_completed": [
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -72,7 +73,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -86,13 +86,13 @@
         "portugal-international-school-cost-risk",
         "portugal-one-income-margin-risk"
       ],
-      "last_iteration": 191,
+      "last_iteration": 203,
       "unverified_count": 1
     },
     "Italy": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.3",
@@ -100,14 +100,14 @@
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -121,20 +121,21 @@
         "italy-international-school-cost-risk",
         "italian-language-integration-needed"
       ],
-      "last_iteration": 168,
+      "last_iteration": 203,
       "unverified_count": 0
     },
     "Greece": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -142,7 +143,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -154,7 +154,7 @@
         "greek-language-integration-needed",
         "greece-one-income-margin-risk"
       ],
-      "last_iteration": 169,
+      "last_iteration": 203,
       "unverified_count": 0
     },
     "Cyprus": {

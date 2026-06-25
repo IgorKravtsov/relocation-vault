@@ -1,11 +1,11 @@
 ---
 country: Greece
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-20T22:39:53Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T08:23:11Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["greece-article-5c-foreign-client-fit-gap", "athens-rent-pressure", "crete-tourist-rent-pressure", "greece-private-insurance-quote-gap", "greece-international-school-cost-risk", "greek-language-integration-needed", "greece-one-income-margin-risk"]
 sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300", "src-337", "src-386", "src-387", "src-388", "src-389", "src-390", "src-619", "src-620", "src-621", "src-749", "src-750"]
 unverified_count: 0
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, partner-path, comfort, risk, and bureaucracy research are added.
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-20
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25T08:23:11Z
 - **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP->Immigration Code bridge) plus a documented digital nomad route. The tax pass now has an official 2026 EFKA self-employed minimum, so the conservative ordinary PIT + minimum social-insurance stress test is usable; Article 5C fit for foreign-client IT work still needs current specialist/official verification. Cost/rent screening is workable on gross USD 3,000/month only with housing discipline; Patras and Thessaloniki screen cheaper than Athens/Heraklion. Healthcare is structurally workable through public-system access for protected/resident statuses, education is favorable if the couple accepts Greek-language public schooling and avoids international-school costs, and the comfort/partner pass now shows a safe but Greek-language-dependent environment with the DN family-income gate above the current one-income budget.
 
 ## Block 2 — Scoring
@@ -201,14 +201,14 @@ City-level screen:
 - **One-income fit**: Greece is possible but tight on one USD 3,000/month income. The DN family-income threshold is above the current income, while the conservative tax section leaves about EUR 1,844/month before accountant/VAT/insurance costs; Thessaloniki or Patras are the safer budget cities than Athens/Heraklion. [src-004][src-295][src-337][src-388][src-390]
 - **Partner conclusion**: Greece is partner-workable if the route is Greek TP with a later Immigration Code switch, or if income rises enough for a DN family file and the relationship is documented as spouse/cohabitant. It is not yet a clean one-income DN solution at the couple's current income.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-> **DoD**: all 4 risk categories assessed (currency/banking, political, ties-to-Ukraine, diaspora).
+> **DoD status**: passed for screening. Covered: currency/banking, political/Ukraine-posture, ties to Ukraine, and diaspora/language adaptation. Exact bank onboarding, active Ukrainian community contacts, and live travel-cost checks remain application-prep.
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+- **Currency / banking risk**: Low-medium. Greece is a euro-area jurisdiction, so the main budget risk is USD-to-EUR conversion plus Greek tax/EFKA/VAT and bank/KYC documentation, not local-currency depreciation. The existing tax pass still requires accountant confirmation for Article 5C and self-employed ordering. [src-295][src-300][src-337]
+- **Political / Ukraine-posture risk**: Low for near-term planning and medium-low for long-term route risk. Greece has TP to 04 March 2027, a documented Immigration Code bridge concept, and acceptable safety proxies; final route execution still depends on correctly using TP/DN/ordinary-status paperwork before the deadline. [src-001][src-004][src-749]
+- **Ties to Ukraine**: Medium-low. Greece is farther than Central Europe but remains inside the EU/Schengen ecosystem and closer than Iberia; Thessaloniki/Patras/Athens/Crete city choice affects practical travel and service depth. [src-001][src-386][src-387][src-388][src-389]
+- **Diaspora / adaptation**: Medium. Official Ukrainian reception and a relatively strong EF score help, but Greek is needed for leases, tax/EFKA, public healthcare, schools, and routine bureaucracy. Keep `greek-language-integration-needed`. [src-001][src-750]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -220,10 +220,10 @@ City-level screen:
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | low-medium | Euro-area currency risk is manageable; Greek tax/EFKA/VAT, bank/KYC paperwork, and USD-to-EUR conversion are the real issues. [src-295][src-300][src-337] |
+| Political | low-medium | TP, the captured bridge concept, and safety proxies are positive; correct pre-deadline status execution remains essential. [src-001][src-004][src-749] |
+| Ties to Ukraine | medium-low | EU/Schengen location and Balkan proximity help, but Greece is still not a quick overland base for routine Ukraine travel. [src-001] |
+| Diaspora / adaptation | medium | Ukrainian reception and English exposure help, but Greek-language support is needed for administration, leases, healthcare, schools, and taxes. [src-001][src-750] |
 
 ## Block 5 — Practical verdict
 

@@ -1,11 +1,11 @@
 ---
 country: Italy
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-20T19:35:38Z
-sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T08:23:11Z
+sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-source-2024", "unmarried-partner-not-covered-by-dn-family-sponsorship", "italy-worldwide-tax-and-reporting", "rome-milan-rent-pressure", "southern-services-tradeoff", "italy-private-insurance-quote-gap", "italy-international-school-cost-risk", "italian-language-integration-needed"]
 sources_used: ["src-002", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033", "src-034", "src-287", "src-288", "src-289", "src-290", "src-291", "src-292", "src-293", "src-396", "src-397", "src-398", "src-399", "src-400", "src-616", "src-617", "src-618", "src-747", "src-748"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Italy has a usable temporary-protection framework through 4 March 2027 and a formal digital-nomad / remote-worker visa, but the first pass did not find an Italy-specific TP-to-ordinary-residence bridge after March 2027, and the digital-nomad family route clearly covers a spouse and minor children, not an unmarried partner. Tier remains unassigned until taxes, rent, partner status, and post-2027 fallback mechanics are researched.
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-20T19:35:38Z
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25T08:23:11Z
 - **Tier rationale**: Italy looks operationally plausible for a married couple if the IT worker can prove a highly specialized remote-work profile and stable income, but long-term stay after TP still depends on switching to an ordinary permit rather than relying on TP.
 
 ## Block 2 — Scoring
@@ -237,12 +237,14 @@ Italy is not a uniform budget country. The north/service hubs are significantly 
 - **Single-income fit**: The current USD 3,000/month household can screen only if the man qualifies for the DN / remote-worker route, forfetario-style tax treatment, and controlled rent. Palermo and Naples are the realistic city budget screens; Rome is tight and Milan is poor. A child before income rises would make private nursery or international school hard to absorb. [src-293][src-396][src-397][src-398][src-399][src-400][src-617][src-618]
 - **Partner verdict**: Italy is viable for the student partner mainly as a married-spouse file or separate TP file. If they do not marry and cannot both keep independent Ukrainian TP/ordinary status, Italy's partner fit is weak until official unmarried-partner evidence is captured.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. Covered: currency/banking, political/Ukraine-posture, ties to Ukraine, and diaspora/language adaptation. Exact bank onboarding, active Ukrainian community contacts, and city travel-cost checks remain application-prep.
+
+- **Currency / banking risk**: Low-medium. Italy is a euro-area jurisdiction, so the main financial risk is not local-currency collapse but USD-to-EUR income conversion, bank/KYC friction, and Italian tax/social-security/reporting complexity. Registered-lease and tax-file formality are already practical route constraints in this profile. [src-028][src-287][src-288][src-293]
+- **Political / Ukraine-posture risk**: Low-medium for screening. Italy has an operational Ukraine TP / permit framework through 04 March 2027 and UNHCR confirms work, study, and SSN access from the request stage; safety proxies are acceptable, though TravelSafe labels overall risk medium. [src-027][src-034][src-747]
+- **Ties to Ukraine**: Medium. Italy is closer than Iberia and keeps the couple inside the EU/Schengen travel ecosystem, but southern budget cities such as Palermo/Naples may require extra connections for Ukraine-related trips. [src-027][src-034][src-397][src-399][src-400]
+- **Diaspora / adaptation**: Medium-high. Institutional TP support helps, but EF places Italy below Spain/Portugal/Greece and the profile already requires Italian-speaking support for Questura, ASL/SSN, leases, tax/accounting, and schools. Keep `italian-language-integration-needed`. [src-034][src-748]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -252,10 +254,10 @@ Italy is not a uniform budget country. The north/service hubs are significantly 
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | low-medium | Euro-area currency risk is manageable; Italian KYC, registered-lease, tax and reporting formality are the bigger practical risks. [src-028][src-287][src-293] |
+| Political | low-medium | Ukraine TP/permit framework and SSN/work/study rights are positive; broad safety proxy is acceptable but not friction-free. [src-027][src-034][src-747] |
+| Ties to Ukraine | medium | EU location helps, but cheaper southern bases may add travel complexity for Ukraine-related trips. [src-027][src-399][src-400] |
+| Diaspora / adaptation | medium-high | Italian-language bureaucracy, leases, healthcare, schools, and tax/accounting support are material adaptation needs. [src-034][src-748] |
 
 ## Block 5 — Practical verdict
 

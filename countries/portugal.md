@@ -1,11 +1,11 @@
 ---
 country: Portugal
 tier: null
-depth_score: 7.0
-last_updated: 2026-06-23T19:03:25Z
-sections_completed: ["5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 8.0
+last_updated: 2026-06-25T08:23:11Z
+sections_completed: ["5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1","5.2","5.3","5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap","portugal-health-insurance-quote-gap","portugal-international-school-cost-risk","portugal-one-income-margin-risk"]
 sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406","src-492","src-493","src-494","src-495","src-496","src-608","src-609","src-610","src-611","src-612"]
 unverified_count: 1
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
-- **depth_score**: 7.0
-- **Last updated**: 2026-06-23T19:03:25Z
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-25T08:23:11Z
 - **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
 
 ## Block 2 — Scoring
@@ -256,9 +256,14 @@ Verification note: `vq-057` is resolved at the operational-planning level. The c
 
 Portugal is partner-workable but not partner-easy. The safest near-term arrangement is both partners using eligible Ukrainian TP while the man tests whether income can rise enough for D8 or another ordinary residence before the 2027 TP horizon. If relying on D8, marriage or well-documented long-term cohabitation should be prepared early, but the current one-income budget is below the captured main-applicant threshold and therefore cannot be treated as a ready family-sponsor file. [src-017][src-020][src-026]
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-[verification required]
+> **DoD status**: passed for screening. Covered: currency/banking, political/Ukraine-posture, ties to Ukraine, and diaspora/language adaptation. Exact bank onboarding, active Ukrainian community contacts, and live travel-cost checks remain application-prep.
+
+- **Currency / banking risk**: Low-medium. Portugal is a euro-area jurisdiction and therefore avoids local-currency devaluation risk; the budget risk is USD-to-EUR income conversion plus Portuguese tax/social-security/VAT registration once resident. The existing profile already flags D8 income and self-employed tax margin as the gating financial risks. [src-077][src-082][src-017]
+- **Political / Ukraine-posture risk**: Low for near-term reception, medium for long-term status. Portugal has a formal Ukraine reception channel with TP, NISS/NIF, and SNS access, and the comfort pass screens the country as safe and serviceable; the unresolved risk is the absence of a captured automatic post-2027 TP bridge. [src-017][src-611]
+- **Ties to Ukraine**: Medium. Portugal is one of the farther EU options from Ukraine, so repeated trips for family or university matters need a travel budget and time buffer. The EU/Schengen location still keeps travel procedurally simpler than non-European bridge bases. [src-017]
+- **Diaspora / adaptation**: Medium-low. EF places Portugal very high globally for English proficiency, and the official Ukraine reception channel lowers first-contact friction; Portuguese-language school, healthcare, lease, and tax/accounting adaptation still matter outside large cities. [src-017][src-608][src-612]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -268,10 +273,10 @@ Portugal is partner-workable but not partner-easy. The safest near-term arrangem
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | medium-low | Ukraine reception is institutionally supported and English proficiency is comparatively strong, but public-service speed, Portuguese-language school adaptation, and rent-constrained city choice remain practical frictions. [src-017][src-608][src-612] |
+| Currency / banking | low-medium | Euro-area currency risk is manageable, but USD-to-EUR conversion and Portuguese tax/social-security/VAT setup need planning. [src-077][src-082] |
+| Political | low-medium | Ukraine reception and general safety are positive; the unresolved issue is no captured automatic post-2027 TP bridge. [src-017][src-611] |
+| Ties to Ukraine | medium | Portugal is far from Ukraine for repeat travel, though EU/Schengen status keeps procedures familiar. [src-017] |
+| Diaspora / adaptation | medium-low | Strong English score and formal Ukraine reception help, but Portuguese-language public services and schooling still require adaptation. [src-017][src-608][src-612] |
 
 ## Block 5 — Practical verdict
 
