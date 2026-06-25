@@ -62,7 +62,9 @@ schema_version: 2.0.0
 
 ## Commit / push status
 
-- Pending at run-log creation; final status is determined by the git step after validators.
+- Initial commit completed as `75c9d0a`; `git log -1 --pretty=fuller` showed canonical author/committer identity (`Hermes <hermes@example.local>`).
+- Identity-gate note: the first commit command string should have been stopped before execution because the typed environment prefix contained placeholder-looking fragments; no amend or history rewrite was performed. This follow-up log note was committed with a read-back checked canonical helper.
+- Push status is determined by the final git push step.
 
 ## Open questions added
 
