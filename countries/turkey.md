@@ -1,11 +1,11 @@
 ---
 country: Turkey
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-23T00:09:08Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T20:50:12Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent", "turkey-self-employment-and-sgk-fit-gap", "istanbul-rent-pressure", "turkey-one-income-margin-risk", "turkey-private-insurance-quote-gap", "turkey-international-school-cost-risk", "turkish-language-integration-needed", "turkey-earthquake-and-border-security-risk"]
 sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163", "src-359", "src-360", "src-361", "src-362", "src-363", "src-364", "src-533", "src-534", "src-535", "src-536", "src-671", "src-672", "src-673", "src-674", "src-675", "src-773", "src-774"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Turkey is easy to enter for Ukrainians and has an official digital-nomad / remote-work channel, but the route sits exactly at the couple's current ~$3,000/month income and long-term settlement depends on ordinary Turkish residence rather than an EU-style Ukraine temporary-protection bridge.
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-23T00:09:08Z
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25T20:50:12Z
 - **Tier rationale**: Not assigned until risk dimensions, bureaucracy/practicality, and actual residence-renewal / long-term practice are researched.
 
 ## Block 2 — Scoring
@@ -208,12 +208,14 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 
 **Partner verdict:** Turkey can work for the couple only if the male partner clearly qualifies for DN/ordinary residence and the woman uses marriage-based family residence or an independent status. Keep marriage as the conservative planning baseline, keep Izmir/Antalya as the budget cities, and treat the one-income margin as tight rather than comfortable.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. Covered: currency/banking, political/Ukraine-posture, ties to Ukraine, and diaspora/language adaptation. Exact bank onboarding, residence-open district availability, city-level Ukrainian community contacts, and live travel-cost checks remain application-prep.
+
+- **Currency / banking risk**: Medium-high. Turkey uses TRY while the couple earns in USD, so headline affordability can be offset by inflation, exchange-rate movement, banking/KYC checks, and residence-file proof requirements. The DN route's USD 3,000/month threshold sits exactly at the current gross income, while the tax pass leaves about USD 2,162/month PIT-only or about USD 1,870/month with an SGK sensitivity. [src-148][src-364]
+- **Political / Ukraine-posture risk**: Medium. Turkey is outside the EU TP system and no Ukraine-specific protection bridge was captured; the planning route is DN/ordinary residence, not an EU-style humanitarian continuation. Safety is city-dependent, with earthquake, border-region, protest/security, and neighborhood-open-to-residence checks required before filing. [src-145][src-146][src-773]
+- **Ties to Ukraine**: Medium. Turkey is geographically and logistically closer to Ukraine than western EU options and Istanbul is a major flight hub, but it is not an EU/Schengen continuity case and cannot rely on Polish/EU TP infrastructure. Keep family/university travel feasible but budgeted, especially if the base is Izmir or Antalya rather than Istanbul. [src-533][src-535][src-536]
+- **Diaspora / adaptation**: Medium-high. Istanbul/Izmir/Antalya have expat and service depth, but EF places Turkey in a moderate English band and the country profile already flags Turkish-language needs for bureaucracy, leases, public healthcare, schools, and tax/SGK work. Use Turkish-speaking legal/accounting help as a default, not a luxury. [src-773][src-774]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -223,10 +225,10 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium-high | TRY/inflation exposure, USD income proof, Turkish KYC, and tax/SGK uncertainty stack on a DN threshold exactly at the current USD 3,000/month gross. [src-148][src-364] |
+| Political | medium | No EU-TP bridge; ordinary DN/residence must carry the plan, with earthquake, border/security, and residence-district checks before filing. [src-145][src-146][src-773] |
+| Ties to Ukraine | medium | Turkey is geographically useful and Istanbul is a major hub, but it is not EU/Schengen continuity and travel costs still matter from Izmir/Antalya. [src-533][src-535][src-536] |
+| Diaspora / adaptation | medium-high | Service-city expat layers exist, but Turkish-language help is needed for residence, leases, healthcare, schools, and tax administration. [src-773][src-774] |
 
 ## Block 5 — Practical verdict
 

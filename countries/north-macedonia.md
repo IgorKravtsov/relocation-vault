@@ -1,11 +1,11 @@
 ---
 country: North Macedonia
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-23T22:09:00Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T20:50:12Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["official-ukraine-entry-table-gap", "no-dedicated-digital-nomad-visa", "ordinary-residence-route-needs-fit-check", "no-captured-ukraine-protection-bridge", "north-macedonia-self-employed-contribution-base-gap", "north-macedonia-foreign-client-vat-fit-gap", "skopje-rent-pressure", "north-macedonia-private-insurance-quote-gap", "north-macedonia-international-school-cost-risk", "macedonian-language-integration-needed", "north-macedonia-one-income-margin-risk"]
 sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212", "src-413", "src-414", "src-415", "src-416", "src-417", "src-557", "src-558", "src-559", "src-560", "src-697", "src-698", "src-699", "src-700", "src-785", "src-786"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to an ordinary-residence / work-or-self-employment file rather than a dedicated digital-nomad route. The country is promising as a low-cost Balkan base, but the post-2027 Ukrainian protection baseline and foreign-client IT residence fit still need primary-source verification.
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-23T22:09:00Z
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25T20:50:12Z
 - **Tier rationale**: Not assigned yet; legalization remains partial.
 
 ## Block 2 — Scoring
@@ -219,12 +219,14 @@ The student partner can be practically accommodated in North Macedonia only if s
 
 **Partner verdict**: North Macedonia is viable for the student partner only as a legal add-on to the main ordinary-residence plan, not as a standalone student/remote-study solution. The safest planning sequence is: confirm the man's self-employment/company residence route with counsel, confirm whether a spouse can be included and what income/accommodation proof is required, marry if that materially improves eligibility, then keep her Ukrainian remote study as an activity rather than a status basis. [src-206][src-207][src-417]
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. Covered: currency/banking, political/Ukraine-posture, ties to Ukraine, and diaspora/language adaptation. Exact bank onboarding, self-employment/company-residence practice, active Ukrainian community contacts, and live travel-cost checks remain application-prep.
+
+- **Currency / banking risk**: Medium. North Macedonia uses MKD while the couple earns in USD, but low rent/costs soften the currency exposure. The bigger financial risk is the unresolved self-employed/company route and the conservative tax/contribution stress-test net of about USD 1,860-1,944/month before accountant, insurance, immigration, and school costs. [src-417][src-557][src-558][src-559][src-560]
+- **Political / Ukraine-posture risk**: Medium. The country is outside the EU TP framework, no current Ukraine protection bridge was captured, and the ordinary route appears to be a real self-employment/company-backed file rather than a DN route. This makes legal execution, not daily safety, the core political/status risk. [src-206][src-207][src-209]
+- **Ties to Ukraine**: Low-medium. Balkan geography and the existing Polish/EU residence-card short-stay bridge make scouting and regional movement easier than for distant options, but the 15-day EU/Schengen residence-card rule is only travel permission and does not solve Macedonian residence. [src-205]
+- **Diaspora / adaptation**: Medium. EF scores North Macedonia relatively well for the region and Skopje has the main service/healthcare/schooling base, but Macedonian-language support is still needed for government offices, leases, tax/accountants, public schooling, and healthcare. Ohrid/Bitola trade lower cost and climate comfort for weaker services. [src-785][src-786]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -234,10 +236,10 @@ The student partner can be practically accommodated in North Macedonia only if s
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | MKD exposure is softened by low costs, but the tax/contribution downside and unresolved legal form can leave only about USD 1,860-1,944/month before extras. [src-417][src-557][src-558][src-559][src-560] |
+| Political | medium | No EU-TP bridge or DN route is captured; ordinary self-employment/company residence must be proven. [src-206][src-207][src-209] |
+| Ties to Ukraine | low-medium | Balkan proximity and the EU/Schengen residence-card short-stay bridge help scouting, but that bridge is not residence. [src-205] |
+| Diaspora / adaptation | medium | English is comparatively strong, but Macedonian-language help and Skopje service concentration remain practical constraints. [src-785][src-786] |
 
 ## Block 5 — Practical verdict
 

@@ -1,11 +1,11 @@
 ---
 country: Albania
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-23T06:22:25Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T20:50:12Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["official-primary-capture-gaps", "remote-worker-route-application-prep-gap", "albania-tax-regime-2029-sunset", "albania-self-employed-contribution-base-gap", "albania-foreign-client-vat-fit-gap", "tirana-rent-pressure", "albania-private-insurance-quote-gap", "albania-international-school-cost-risk", "albanian-language-integration-needed", "albania-road-and-transport-risk", "albania-one-income-margin-risk"]
 sources_used: ["src-164", "src-165", "src-166", "src-167", "src-168", "src-169", "src-170", "src-188", "src-407", "src-408", "src-409", "src-410", "src-411", "src-412", "src-541", "src-542", "src-543", "src-544", "src-680", "src-681", "src-682", "src-683", "src-777", "src-778"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Albania has an attractive remote-worker / Unique Permit narrative and a warm Adriatic/Ionian climate, but this first pass could not capture clean official-primary route pages because several Albanian government sites were blocked or unreachable. Treat the digital-nomad route as promising but medium-confidence until the official e-Albania / State Police / law-text checklist is extracted.
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-23T06:22:25Z
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25T20:50:12Z
 - **Tier rationale**: Not assigned until taxes, rent, healthcare, and full practical costs are verified. Run-061 closes the remote-worker Unique Permit blocker to a conservative screening baseline: Albania remains a promising ordinary-residence candidate for a foreign-client IT worker, but exact official checklist / fees / PR-counting should be treated as application-prep or deeper-country work, not as a current queue blocker.
 
 ## Block 2 — Scoring
@@ -205,12 +205,14 @@ schema_version: 2.0.0
 
 **Partner verdict**: Albania is plausible for the student partner if the couple is willing to marry for dependent status and keep the male IT worker as the sponsor. It is not yet proven for an unmarried partner, and the one-income plan depends on preserving the favorable remote-worker/tax assumptions through official checklist and accountant checks. [src-166][src-167][src-778]
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. Covered: currency/banking, political/Ukraine-posture, ties to Ukraine, and diaspora/language adaptation. Exact bank onboarding, official route-page capture, active Ukrainian community contacts, and final-city travel-cost checks remain application-prep.
+
+- **Currency / banking risk**: Medium. Albania uses ALL while the couple earns in USD/EUR, and the current favorable tax screen relies on the self-employed / commercial-individual regime and its 31 Dec 2029 sunset. Headline costs and coastal rents are attractive, but banking, VAT/place-of-supply, contribution-base, and residence-permit fit should be confirmed before relying on the high net estimate. [src-407][src-412][src-542][src-543][src-544]
+- **Political / Ukraine-posture risk**: Medium. Albania is outside the EU TP system; no current Ukraine protection bridge was captured, and several official-primary route pages were WAF-blocked or unreachable. The operational answer is ordinary Type D / Unique Permit planning, not protection continuity. [src-164][src-166][src-167]
+- **Ties to Ukraine**: Medium. Albania is regionally closer than Iberia/Latin America/Asia and has Adriatic/Balkan travel logic, but it is not EU/Schengen continuity and coastal cities may require extra airport/route planning for repeated family or university travel. [src-542][src-543][src-544]
+- **Diaspora / adaptation**: Medium. Safety and warm-climate comfort screen positively, and EF places Albania in a usable English band, but Albanian remains necessary for public offices, leases, healthcare, tax/accountants, schools, and transport. Tirana is the practical service hub; Durres/Vlore need stronger support checks before becoming the default base. [src-777][src-778]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -220,10 +222,10 @@ schema_version: 2.0.0
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | ALL exposure is manageable on USD/EUR income, but the favorable tax screen depends on regime fit, contribution/VAT details, banking, and the 2029 PIT sunset. [src-407][src-412][src-542][src-543][src-544] |
+| Political | medium | No EU-TP continuity or captured Ukraine bridge; route-page capture gaps mean the ordinary Type D / Unique Permit file needs official confirmation before filing. [src-164][src-166][src-167] |
+| Ties to Ukraine | medium | Balkan proximity helps, but Albania is not EU/Schengen continuity and coastal bases need airport/travel-cost checks. [src-542][src-543][src-544] |
+| Diaspora / adaptation | medium | Tirana has the strongest service layer and English is usable, but Albanian-language, road/transport, healthcare, school, and tax support are still needed. [src-777][src-778] |
 
 ## Block 5 — Practical verdict
 

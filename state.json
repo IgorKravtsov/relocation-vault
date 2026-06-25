@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 206,
+  "iteration": 207,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-25T17:44:11Z",
+  "last_run_timestamp": "2026-06-25T20:50:12Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.10",
-    "reason": "Continue the 5.10 risk-dimensions slice with Turkey, Georgia, Albania, and North Macedonia unless verification or staleness triggers take priority."
+    "reason": "Continue the 5.10 risk-dimensions slice with Bosnia and Herzegovina, Moldova, Uruguay, and Paraguay unless verification or staleness triggers take priority."
   },
   "countries": {
     "Spain": {
@@ -574,14 +574,15 @@
     "Turkey": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -589,7 +590,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -603,20 +603,21 @@
         "turkish-language-integration-needed",
         "turkey-earthquake-and-border-security-risk"
       ],
-      "last_iteration": 185,
+      "last_iteration": 207,
       "unverified_count": 0
     },
     "Georgia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -624,7 +625,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -637,20 +637,21 @@
         "georgia-occupied-territories-safety-risk",
         "georgia-one-income-margin-risk"
       ],
-      "last_iteration": 186,
+      "last_iteration": 207,
       "unverified_count": 0
     },
     "Albania": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -658,7 +659,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -674,20 +674,21 @@
         "albania-road-and-transport-risk",
         "albania-one-income-margin-risk"
       ],
-      "last_iteration": 187,
+      "last_iteration": 207,
       "unverified_count": 0
     },
     "North Macedonia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -695,7 +696,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -711,7 +711,7 @@
         "macedonian-language-integration-needed",
         "north-macedonia-one-income-margin-risk"
       ],
-      "last_iteration": 192,
+      "last_iteration": 207,
       "unverified_count": 0
     },
     "Bosnia and Herzegovina": {

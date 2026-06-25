@@ -2,7 +2,7 @@
 
 Last updated: 2026-06-25
 Mode: criterion-slice
-Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia
+Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia
 
 ## Scope
 
@@ -26,6 +26,10 @@ This slice converts pending 5.10 placeholders for high-priority EU / Schengen co
 | Slovenia | low-medium | low-medium | medium | medium | DN income/duration, heavy conservative tax net, ordinary-route switch | [src-002][src-110][src-111][src-112][src-113][src-117][src-187][src-344][src-345][src-346][src-347][src-348][src-522][src-523][src-524][src-656][src-657][src-658][src-659][src-661][src-768] |
 | Montenegro | medium | medium | medium | medium | DN income/PR counting/tax fit, coastal rent and language friction | [src-123][src-124][src-125][src-127][src-143][src-349][src-350][src-351][src-352][src-526][src-527][src-528][src-662][src-663][src-664][src-665][src-666][src-744][src-769][src-770] |
 | Serbia | medium-high | medium | low-medium | medium-high | RSD/tax uncertainty, ordinary-route proof, Serbian/Cyrillic bureaucracy | [src-132][src-133][src-134][src-135][src-136][src-137][src-138][src-139][src-353][src-354][src-355][src-356][src-357][src-358][src-530][src-531][src-532][src-667][src-668][src-670][src-771][src-772] |
+| Turkey | medium-high | medium | medium | medium-high | DN income exactly at budget edge, TRY/inflation, Turkish bureaucracy, earthquake/security checks | [src-145][src-146][src-148][src-364][src-533][src-535][src-536][src-773][src-774] |
+| Georgia | medium | medium | medium-low | medium | IT-residence / small-business fit, GEL exposure, occupied-territory risk, Georgian bureaucracy | [src-155][src-157][src-365][src-370][src-538][src-539][src-775][src-776] |
+| Albania | medium | medium | medium | medium | Official route-page gaps, tax-regime sunset, road/transport friction, Albanian bureaucracy | [src-164][src-166][src-167][src-407][src-412][src-542][src-543][src-544][src-777][src-778] |
+| North Macedonia | medium | medium | low-medium | medium | No DN route, self-employment/company proof, MKD/tax downside, Macedonian bureaucracy | [src-205][src-206][src-207][src-209][src-417][src-557][src-558][src-559][src-560][src-785][src-786] |
 
 ## Cross-country observations
 
@@ -37,7 +41,9 @@ This slice converts pending 5.10 placeholders for high-priority EU / Schengen co
 - Adaptation risk is lowest in Malta/Portugal for English-language practicality and medium-low in Croatia/Poland; it is higher in Italy/Czechia/Greece/Cyprus/Romania/Bulgaria and highest in Hungary where local-language bureaucracy is likely to affect OIF/NAV/NEAK, leases, schools, and healthcare.
 - For the Poland/Romania/Bulgaria/Hungary subgroup, the risk driver is not daily safety; it is whether the ordinary route and tax/social-insurance file can be made operational before the TP horizon ends.
 - For the Slovakia/Slovenia/Montenegro/Serbia subgroup, the risk driver splits: Slovakia/Slovenia are route-switch and one-income-margin cases; Montenegro is a warm non-EU DN durability case; Serbia is a low-cost regional fallback with higher currency, political, and language-bureaucracy friction.
+- For the Turkey/Georgia/Albania/North Macedonia subgroup, risk is mainly ordinary-route execution rather than headline affordability: Turkey has a real DN route but income/currency/security pressure, Georgia has an attractive IT/small-business path but political/renewal uncertainty, Albania is warm and cheap but official capture and regime-sunset risks remain, and North Macedonia is cheapest but lacks a DN route.
+- Across the non-EU Balkan/Caucasus options, regional proximity to Ukraine helps compared with distant bridge countries, but none should be treated as EU/Schengen continuity; each needs its own residence and tax file before the 2027 planning horizon.
 
 ## Next slice candidate
 
-Continue 5.10 risk dimensions with Turkey, Georgia, Albania, and North Macedonia, unless verification or staleness triggers take priority.
+Continue 5.10 risk dimensions with Bosnia and Herzegovina, Moldova, Uruguay, and Paraguay, unless verification or staleness triggers take priority.

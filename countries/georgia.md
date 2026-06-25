@@ -1,11 +1,11 @@
 ---
 country: Georgia
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-23T03:15:05Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T20:50:12Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["visa-free-not-residence", "georgia-small-business-tax-and-it-residence-fit-gap", "tbilisi-rent-pressure", "georgia-private-insurance-quote-gap", "georgia-international-school-cost-risk", "georgian-language-integration-needed", "georgia-occupied-territories-safety-risk", "georgia-one-income-margin-risk"]
 sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370", "src-537", "src-538", "src-539", "src-540", "src-676", "src-677", "src-678", "src-679", "src-775", "src-776"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Georgia is easy to enter and has an official IT residence-permit category that may fit the male IT worker, but the route needs verification on the 2026 work-right / small-business mechanics and is not an EU temporary-protection bridge.
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-23T03:15:05Z
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25T20:50:12Z
 - **Tier rationale**: Not assigned until risk dimensions, bureaucracy, and practical permit-renewal experience are researched.
 
 ## Block 2 — Scoring
@@ -202,12 +202,14 @@ For a future child, Georgia is workable if the family accepts Georgian-language 
 
 **Partner verdict:** Georgia can work for the couple if the man builds a credible IT/small-business residence file and the woman uses marriage-based family residence or an independent lawful status. Keep Tbilisi as the administrative/service base, cap rent tightly, and do not rely on visa-free stay or remote Ukrainian study as the long-term legal foundation. Add `georgia-one-income-margin-risk` to the risk map.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. Covered: currency/banking, political/Ukraine-posture, ties to Ukraine, and diaspora/language adaptation. Exact bank onboarding, active Ukrainian community contacts, current political/security advice, and final-city travel-cost checks remain application-prep.
+
+- **Currency / banking risk**: Medium. Georgia uses GEL while the couple earns in USD, and the favorable small-business tax screen depends on the exact IT residence / entrepreneur fit. The optimistic small-business net is strong, but the ordinary PIT fallback and Tbilisi rent make the one-income buffer less generous. [src-157][src-365][src-370][src-538]
+- **Political / Ukraine-posture risk**: Medium. Georgia is outside the EU TP system, has occupied-territory / border-region risk, and the profile treats the Ukrainian one-year stay as an entry bridge rather than settlement. The live political/security risk is not daily Tbilisi/Batumi safety alone; it is whether the IT residence and ordinary renewal path remain practical under current Georgian policy. [src-155][src-157][src-775]
+- **Ties to Ukraine**: Medium-low. Georgia is closer to Ukraine than western Europe and has regional travel logic, but it is not an EU continuity jurisdiction and flights/land logistics can be geopolitically sensitive. Treat family/university travel as workable but requiring live route checks and contingency planning. [src-538][src-539][src-775]
+- **Diaspora / adaptation**: Medium. EF scores Georgia better than many regional alternatives, and Tbilisi/Batumi have service/expat layers, but Georgian-language support is still needed for residence, tax, leases, public healthcare, and schooling. Occupied territories and road-safety caveats also make local advice important. [src-775][src-776]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -217,10 +219,10 @@ For a future child, Georgia is workable if the family accepts Georgian-language 
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | GEL exposure is manageable on USD income only if the IT/small-business tax route holds; ordinary PIT and Tbilisi rent narrow the buffer. [src-157][src-365][src-370][src-538] |
+| Political | medium | Georgia is outside EU TP, has occupied-territory risk, and depends on ordinary IT/residence renewal rather than a protection bridge. [src-155][src-157][src-775] |
+| Ties to Ukraine | medium-low | Regional proximity is useful, but travel routes and contingency planning need live checks because Georgia is not EU/Schengen continuity. [src-538][src-539][src-775] |
+| Diaspora / adaptation | medium | English and expat layers help in Tbilisi/Batumi, but Georgian-language help remains needed for administration, tax, leases, healthcare, and schools. [src-775][src-776] |
 
 ## Block 5 — Practical verdict
 
