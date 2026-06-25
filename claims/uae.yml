@@ -153,3 +153,21 @@
   confidence: medium
   tags: [education, international-school, daycare, preschool, budget, dubai, abu-dhabi, sharjah]
   notes: "Livingcost city sources src-605 through src-607 support the cost proxies; exact target-school fees and admissions costs remain application-prep checks."
+
+- id: claim-uae-018
+  topic: comfort_safety_screen
+  value: "World Population Review gives the UAE a 2025 Global Peace Index score of 1.812, 2025 Global Terrorism Index score of 1.178, TravelSafe-derived safety index 79, risk level Low, and US News safest-country rank 25th; TravelSafe also gives Safety Index 79 and overall risk Low, with medium transport/taxi, terrorism, scams, and women-traveler caveats."
+  source: src-805
+  date_verified: 2026-06-25
+  confidence: medium
+  tags: [comfort, safety, travel-risk, dubai, abu-dhabi, sharjah]
+  notes: "Use as screening evidence only; final neighborhood, lease-fraud, road-safety, travel-advisory, and social-norm checks remain practical due diligence."
+
+- id: claim-uae-019
+  topic: english_proficiency_adaptation_screen
+  value: "EF EPI places the UAE at global rank #72 with score 487 versus global average 488; Dubai region scores 513, Dubai city 509, Abu Dhabi city 484, Sharjah 477, Al Ain 452, and Ajman 425."
+  source: src-806
+  date_verified: 2026-06-25
+  confidence: medium
+  tags: [comfort, english, adaptation, dubai, abu-dhabi, sharjah]
+  notes: "English is workable in expat-facing service layers, especially Dubai, but official and dispute-heavy steps still need Arabic/PRO or local-language support."

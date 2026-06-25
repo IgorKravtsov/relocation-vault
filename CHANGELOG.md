@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-25
 ---
 
+## 2026-06-25 - run-202 - UAE comfort/partner fit
+
+- Completed UAE sections 5.8 and 5.9 for screening by adding safety, transport/scam/social-norm caveats, English-service-layer, city-comfort, spouse/family-dependent, remote-study, work-right, and one-income bridge baselines.
+- Added two sources (`src-805`, `src-806`) and two UAE claims (`claim-uae-018`, `claim-uae-019`).
+- UAE depth_score moved from 6.0 to 8.0; added `uae-conservative-social-legal-norms` and `uae-english-service-layer-not-local-default` as practical fit flags.
+
 ## 2026-06-25 - run-201 - Armenia comfort/partner fit
 
 - Completed Armenia sections 5.8 and 5.9 for screening by adding safety, transport/border caveats, English/Armenian/Russian integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.

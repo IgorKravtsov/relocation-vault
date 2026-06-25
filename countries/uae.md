@@ -1,13 +1,13 @@
 ---
 country: UAE
 tier: null
-depth_score: 6.0
-last_updated: 2026-06-20T07:07:51Z
-sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7"]
+depth_score: 8.0
+last_updated: 2026-06-25T05:13:59Z
+sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["virtual-work-bridge-only", "green-visa-income-above-current-budget", "no-ordinary-naturalization-route", "extreme-summer-heat", "tax-status-threshold-monitoring", "dubai-abu-dhabi-rent-pressure", "uae-one-income-margin-risk", "uae-health-insurance-quote-gap", "uae-international-school-cost-risk"]
-sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250", "src-462", "src-463", "src-464", "src-604", "src-605", "src-606", "src-607", "src-740", "src-741", "src-742", "src-743"]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["virtual-work-bridge-only", "green-visa-income-above-current-budget", "no-ordinary-naturalization-route", "extreme-summer-heat", "tax-status-threshold-monitoring", "dubai-abu-dhabi-rent-pressure", "uae-one-income-margin-risk", "uae-health-insurance-quote-gap", "uae-international-school-cost-risk", "uae-conservative-social-legal-norms", "uae-english-service-layer-not-local-default"]
+sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250", "src-462", "src-463", "src-464", "src-604", "src-605", "src-606", "src-607", "src-740", "src-741", "src-742", "src-743", "src-805", "src-806"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (early evidence points to a bridge/base jurisdiction rather than a settlement route for this couple).
-- **depth_score**: 6.0
-- **Last updated**: 2026-06-20T07:07:51Z
+- **depth_score**: 8.0
+- **Last updated**: 2026-06-25T05:13:59Z
 - **Tier rationale**: UAE has real short-stay and self-sponsored residence routes, and taxes are very favorable at the couple's current income level. The limiting factor remains immigration, not tax: the best-fit virtual-work route is a one-year extendable bridge above the couple's current USD 3,000/month income, the 5-year Green Residence freelancer threshold is much higher, and ordinary citizenship is nomination-based for exceptional categories rather than a predictable residence-to-passport track. [src-244][src-245][src-248][src-462]
 
 ## Block 2 - Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | Livingcost 40 m2 rent proxies show Dubai and Abu Dhabi rent pressure; Sharjah is the first lower-cost screen, but live listing, deposit, chiller, Ejari/Tawtheeq, and family-sponsorship housing checks remain. | §5.5 |
 | Healthcare | — | medium | Private healthcare is strong enough for screening and doctor-visit proxies are captured, but exact virtual-work accepted policy wording, two-adult premiums, maternity/newborn terms, and final public/private onboarding remain application-prep checks. | §5.6 |
 | Education (future child) | — | medium | Public-school structure and international-school alternatives are captured; English private/international schooling is available but can be expensive enough to break the one-income budget. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Low everyday-crime screen, strong infrastructure, and high expat service depth, but conservative social/legal norms, road-risk, scams/rental fraud, and extreme summer heat require planning. | §5.8 |
+| Fit for couple with single income | — | medium | Partner sponsorship is spouse/family-first after the sponsor qualifies; remote Ukrainian study is lifestyle-compatible only with another status; USD 3,000/month is below the virtual-work income gate and fragile in Dubai/Abu Dhabi. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -163,17 +163,52 @@ Scholaro's UAE education-system profile describes six years of compulsory primar
 
 For screening, UAE education is available and deep in Dubai/Abu Dhabi, but the likely English/international-school path is expensive for a one-income couple. Sharjah improves the daycare and school-cost screen, yet the family must verify transport, curriculum, admissions age, deposits, waiting lists, and whether a residence/lease in one emirate affects access to preferred schools in another.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: completed, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-> **DoD**: safety data; attitude toward Ukrainians with sources; English level among locals.
+> **DoD status**: Passed for screening at medium confidence. Safety, everyday transport/scam/social-norm caveats, attitude-to-Ukrainians operational baseline, English-proficiency, and city-comfort tradeoffs are covered. This is not final-neighborhood due diligence; current travel advisories, lease-fraud checks, school/clinic commute, and community contacts remain practical checks.
 
-[verification required]
+#### Safety and everyday risk baseline
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+World Population Review's 2026 safest-countries table gives the UAE a 2025 Global Peace Index score of **1.812**, Global Terrorism Index score of **1.178**, TravelSafe-derived safety index **79**, risk level **Low**, and US News safest-country rank **25th**. TravelSafe's UAE page likewise gives Safety Index **79**, user sentiment **78/100**, and overall risk **Low**, citing strong infrastructure, low crime rates, and heavy police presence in major cities. [src-805]
 
-> **DoD**: dependent/partner status with and without marriage; possibility of remote Ukrainian-university study; possibility of work; sponsor minimum income.
+The practical caveats are not ordinary violent crime. TravelSafe rates transport/taxis **Medium** because fast/aggressive driving and unlicensed cabs can be issues, terrorism **Medium** because of regional-security exposure and occasional alerts, scams **Medium** in tourist-heavy areas and rental/service transactions, and women-traveler risk **Medium** because conservative social norms can make casual behavior such as public displays of affection legally/socially risky. Pickpocketing, mugging, natural disasters, and tap-water risk are low in the captured screen. [src-805]
 
-[verification required]
+#### Language, Ukrainians, and adaptation
+
+EF EPI places the UAE at **global rank #72** with score **487**, just below the EF global average score of 488 and in the low-proficiency band in the captured country panel. City/region scores are materially better in the main service bases: Dubai region **513**, Dubai city **509**, Abu Dhabi city **484**, Sharjah **477**, Al Ain **452**, and Ajman **425**. For daily life, English is workable in expat-facing Dubai/Abu Dhabi services, but Arabic and immigration/PRO help remain important for leases, government steps, clinics, school administration, and disputes. [src-806]
+
+For Ukrainians specifically, the captured operational baseline is favorable but not a social-integration proof: Emirates' UAE visa page lists Ukraine under 30-day visa-on-arrival eligibility, and the GDRFA virtual-work route is nationality-neutral in the captured route evidence. That supports scouting and ordinary residence planning, but it does not replace live Ukrainian/Russian-speaking community, lawyer, school, and landlord checks before committing. [src-243][src-244]
+
+#### City comfort screen
+
+| City / emirate | Comfort role | Strengths | Watch-outs |
+|---|---|---|---|
+| Dubai | Default services/expat base | Deepest expat infrastructure, flights, private clinics, schools, banks, English service layer, and Ukrainian/Russian-speaking community search potential. | Highest rent/cost pressure, traffic/road risk, tourist scams/rental fraud checks, summer heat/humidity, and one-income fragility. [src-605][src-743][src-805][src-806] |
+| Abu Dhabi | More orderly capital/services base | Strong healthcare/school/service depth, lower captured rent than Dubai, and high safety/infrastructure baseline. | Still expensive, more car-oriented, not immune to summer heat and spouse/lease/insurance document checks. [src-606][src-805][src-806] |
+| Sharjah | Affordability fallback | Best captured rent/daycare screen and close enough to Dubai services for some households. | Commute burden, emirate-specific lease/utility/school access, lower EF city score than Dubai, and need to verify provider/school networks. [src-607][src-743][src-806] |
+
+**Comfort verdict**: UAE is comfort-screenable as a safe, high-infrastructure bridge if the couple can manage heat, conservative social/legal norms, driving/rental-fraud checks, and private-market costs. The strongest everyday base is Dubai for services/community, but Sharjah is the first affordability screen; Abu Dhabi is a services-rich alternative if rent and filing mechanics work.
+
+### 5.9. Partner (student) {status: completed, depth: 1, last_updated: 2026-06-25, dod: passed}
+
+> **DoD status**: Passed for screening at medium confidence. The conservative dependent baseline, marriage effect, Ukrainian remote-study practicality, work/residence alternatives, sponsor-income gate, and one-income city fit are explicit. Exact unmarried-partner sponsorship, final family-sponsorship document list, emirate-specific housing/insurance requirements, and partner work-permission mechanics remain application-prep/legal checks.
+
+#### Status options for the student partner
+
+- **Spouse/family-dependent baseline**: GDRFA's virtual-work service says family sponsorship is available for the same one-year extendable residence period as the sponsor's virtual-work residence. UAE Government Green/Golden residence pages likewise frame family sponsorship around spouse/children. For screening, marriage/spouse sponsorship is the safe baseline after the working partner qualifies. [src-244][src-246][src-247]
+- **Unmarried partner**: No captured UAE source supports unmarried/cohabiting partner sponsorship under the virtual-work, Green, or Golden residence routes. Do not rely on cohabitation evidence unless a UAE immigration lawyer or the filing authority confirms a specific route. [src-244][src-246][src-247]
+- **Independent study route**: The partner's Ukrainian remote university study is compatible as a lifestyle fact only if she has another lawful UAE status. This pass did not capture a UAE student-residence route based on studying remotely at a Ukrainian university.
+- **Work / independent fallback**: If the partner later works remotely or locally, she needs her own lawful work/residence basis or a dependent-file work authorization confirmed before starting. Do not treat spouse residence as automatic permission to work without application-prep confirmation.
+
+#### Income, budget, and city fit
+
+The decisive sponsor-income point remains negative at current income: the captured virtual-work route requires at least **USD 3,500/month**, while the couple's baseline is about **USD 3,000/month**. The Green Residence freelancer/self-employed threshold of **AED 360,000/year** is far above current income. Marriage helps the dependent file only after the sponsor clears the main route. [src-244][src-245]
+
+Budget fit is also fragile. UAE tax can screen near zero at USD 3,000/month, but Dubai and Abu Dhabi rent/cost proxies consume too much of the one-income budget; Sharjah improves the rent and daycare screen but adds commute, lease, school, and service-network tradeoffs. If the working partner raises income above USD 3,500/month, the next practical test is a Sharjah/outer-Dubai housing cap plus private health-insurance, deposits, utilities/chiller, school/daycare, and residence-fee buffer. [src-462][src-604][src-605][src-606][src-607]
+
+#### Partner verdict
+
+UAE partner fit is conditional rather than strong. If the sponsor qualifies for virtual work or a higher-income Green route and the couple marries, the student partner can plausibly be carried as spouse/family for the same bridge period. Without marriage, no captured partner route exists; without higher sponsor income, the residence file itself is not budget-safe. The Ukrainian remote-study plan does not create a UAE status by itself, so UAE should remain a bridge/base option rather than a durable one-income student-partner settlement plan.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -204,11 +239,12 @@ For screening, UAE education is available and deep in Dubai/Abu Dhabi, but the l
 - **Can relocate now**: Probably for scouting; residence depends on crossing the USD 3,500/month virtual-work income threshold or another route. [src-243][src-244]
 - **Best legalization path for the man**: Virtual-work residence if income rises to at least USD 3,500/month; otherwise not budget-safe. [src-244]
 - **Best legalization path for the woman**: Spouse/family sponsorship after the sponsor qualifies; unmarried-partner route not captured. [src-244][src-246]
-- **Does marriage change the picture**: Yes, likely important for spouse/family sponsorship, but it does not solve the sponsor income threshold.
+- **Does marriage change the picture**: Yes. It is the conservative baseline for carrying the student partner as family/spouse after the sponsor qualifies, but it does not solve the sponsor income threshold. [src-244][src-246]
 - **Realism of staying after 03.2027**: Medium-low for settlement; medium as a renewable bridge if income qualifies.
 - **Tax fit at USD 3,000/month**: Strong for screening; likely near-zero UAE tax before non-tax costs, but threshold monitoring is needed if income grows or a UAE company/free-zone structure is used. [src-462][src-464]
 - **Cost/rent fit at USD 3,000/month**: Weak in Dubai / Abu Dhabi without higher income; Sharjah or another cheaper emirate is the first affordability screen, but the UAE remains a one-income-margin-risk country once health insurance, residence fees, deposits, and summer utilities are included. [src-604][src-605][src-606][src-607]
 - **Healthcare/education fit**: Healthcare and education are strong in absolute availability but expensive in private-market practice. Private insurance is mandatory for the residence file, and English/international schooling can become a major budget breaker; Sharjah is the first affordability screen for daycare/school costs. [src-244][src-741][src-743]
+- **Comfort / adaptation fit**: Strong safety and infrastructure help, especially in Dubai/Abu Dhabi, but conservative social/legal norms, road/transport risk, scams/rental-fraud checks, and a not-quite-English-first EF baseline require careful service/community planning. [src-805][src-806]
 
 **Pros**:
 - Official self-sponsored virtual-work route for foreign remote work. [src-244]
@@ -221,6 +257,8 @@ For screening, UAE education is available and deep in Dubai/Abu Dhabi, but the l
 - Green Residence freelancer threshold of AED 360,000 annual income is far above current income. [src-245]
 - No predictable ordinary citizenship route captured. [src-248]
 - Extreme summer heat/humidity. [src-249][src-250]
+- Conservative social/legal norms and medium transport/scam/women-traveler caveats require adaptation despite the low overall crime screen. [src-805]
+- English is workable in Dubai service layers but the national EF EPI score is only 487; Arabic/PRO support remains important for official steps. [src-806]
 - Dubai and Abu Dhabi rent/cost levels can consume too much of the current USD 3,000/month one-income budget; Sharjah improves rent but adds commute, emirate-specific lease, and practical-service tradeoffs. [src-605][src-606][src-607]
 - Tax remains favorable at current income, but a UAE business/free-zone setup or income growth could trigger corporate-tax, VAT, and accounting thresholds that need accountant confirmation before filing. [src-462][src-464]
 
@@ -245,9 +283,9 @@ For screening, UAE education is available and deep in Dubai/Abu Dhabi, but the l
 
 ### 6c. First 3-6 months
 - Tax registration as self-employed / freelancer: no UAE individual PIT filing is captured; at USD 36,000/year, natural-person CT and VAT thresholds are not reached, but any UAE company/free-zone setup or higher turnover needs accountant review. [src-462][src-464]
-- Transferring partner to dependent / partner / student status: only spouse/family sponsorship is safe in captured sources; unmarried partner mechanics are not captured. [src-244][src-246]
+- Transferring partner to dependent / partner / student status: only spouse/family sponsorship is safe in captured sources; unmarried partner mechanics are not captured, and Ukrainian remote-university study is not captured as a UAE student-residence basis. [src-244][src-246]
 - Marriage (if applicable to scenario): likely relevant if the partner needs dependent status.
-- Integration (language courses, communities): TBD.
+- Integration (language courses, communities): prioritize Dubai or Abu Dhabi for English-service depth and Ukrainian/Russian-speaking community search; budget Arabic/PRO help for government, lease, insurance, and school steps because the national EF EPI score is low. [src-805][src-806]
 
 ### 6d. Before March 2027 (critical deadline)
 - What must be in hand by this date: a non-TP, renewable ordinary residence route if UAE is chosen, because there is no UAE TP bridge.

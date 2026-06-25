@@ -9704,3 +9704,27 @@ Each source entry:
 - **Facts supporting**: Armenia English-proficiency / adaptation screen: global rank #56, EF EPI score 515, low-proficiency band, and need for Armenian/Russian administrative support despite better English baseline than many post-USSR fallback countries (claim-armenia-019)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-25
+
+## src-805
+- **Title**: World Population Review - Safest Countries in the World 2026 / TravelSafe UAE safety report
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/united-arab-emirates/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: WPR 2026-06-16; TravelSafe updated 2025-12-25
+- **Date accessed**: 2026-06-25
+- **Used by**: UAE
+- **Facts supporting**: UAE comfort / safety screen: 2025 Global Peace Index 1.812, 2025 Global Terrorism Index 1.178, TravelSafe-derived safety index 79, risk level Low, US News safest-country rank 25th, TravelSafe Safety Index 79, user sentiment 78/100, overall traveler risk Low, and medium transport/taxi, terrorism, scams, and women-traveler caveats (claim-uae-018)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-25
+
+## src-806
+- **Title**: EF English Proficiency Index - United Arab Emirates
+- **URL**: https://www.ef.com/wwen/epi/regions/middle-east/united-arab-emirates/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 edition page, no separate page date captured
+- **Date accessed**: 2026-06-25
+- **Used by**: UAE
+- **Facts supporting**: UAE English-proficiency / adaptation screen: global rank #72, EF EPI score 487, global average 488, skill scores, job-function scores, and city/region scores including Dubai 509-513, Abu Dhabi 481-484, Sharjah 477-479, Al Ain 452, and Ajman 425 (claim-uae-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-25
