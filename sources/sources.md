@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-24
+last_updated: 2026-06-25
 ---
 
 # Sources Registry
@@ -9679,3 +9679,28 @@ Each source entry:
 - **Facts supporting**: Kazakhstan English-proficiency / adaptation screen: global rank #107, EF EPI score 417, global average score 488, and city scores including Astana 460, Almaty 457, Aktau 397, and Shymkent 377 (claim-kazakhstan-021)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-24
+
+
+## src-803
+- **Title**: World Population Review - Safest Countries in the World 2026 / TravelSafe Armenia safety report
+- **URL**: https://worldpopulationreview.com/country-rankings/safest-countries-in-the-world ; https://www.travelsafe-abroad.com/armenia/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: WPR 2026-06-16; TravelSafe page title indicates 2026 safety rating
+- **Date accessed**: 2026-06-25
+- **Used by**: Armenia
+- **Facts supporting**: Armenia comfort / safety screen: 2025 Global Peace Index 1.893, 2025 Global Terrorism Index 0.720, TravelSafe-derived safety index 60 / Low risk, overall traveler risk Low, low pickpocket / mugging / terrorism / scam / women-traveler / tap-water risk, medium transport/taxi risk, and border-region / mountain-road caveats (claim-armenia-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-25
+
+## src-804
+- **Title**: EF English Proficiency Index - Armenia
+- **URL**: https://www.ef.com/wwen/epi/regions/europe/armenia/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: reputable-secondary
+- **Date published**: 2026 edition page, no separate page date captured
+- **Date accessed**: 2026-06-25
+- **Used by**: Armenia
+- **Facts supporting**: Armenia English-proficiency / adaptation screen: global rank #56, EF EPI score 515, low-proficiency band, and need for Armenian/Russian administrative support despite better English baseline than many post-USSR fallback countries (claim-armenia-019)
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-25

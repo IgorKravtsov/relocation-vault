@@ -159,3 +159,22 @@
   confidence: medium
   tags: [education, childcare, international-school, yerevan, dilijan]
   notes: "Livingcost sources src-600 and src-601 support daycare/international-primary proxies; src-738 supports QSI Yerevan availability; src-739 supports UWC Dilijan fee details. Exact QSI fees remain open."
+
+
+- id: claim-armenia-019
+  topic: armenia_comfort_safety_language_screen
+  value: "Armenia screens as low-risk for everyday comfort: WPR reports 2025 GPI 1.893, GTI 0.720, TravelSafe-derived safety index 60 / Low, and TravelSafe labels overall risk low with medium transport/taxi caveats; EF ranks Armenia #56 with score 515 in the low-proficiency band, so Armenian/Russian support remains necessary."
+  source: src-803
+  date_verified: 2026-06-25
+  confidence: medium
+  tags: [comfort, safety, transport, english-proficiency, armenian-russian-support]
+  notes: "EF source src-804 supports the English-proficiency values. Avoid border-region/security hotspots and verify current advisories before final city selection."
+
+- id: claim-armenia-020
+  topic: armenia_partner_student_one_income_screen
+  value: "For the student partner, Armenia should be screened on a marriage/spouse or independent-status baseline: MFA lists spouse/parent/child of a temporary resident, but no captured evidence supports unmarried-partner sponsorship or Ukrainian remote university study as its own Armenian residence ground; one-income fit is service-rich but tight in Yerevan and cheaper but lower-service in Gyumri/Vanadzor."
+  source: src-275
+  date_verified: 2026-06-25
+  confidence: medium
+  tags: [partner, spouse, student, one-income, yerevan, gyumri, vanadzor]
+  notes: "Cost/rent support comes from src-601, src-602, and src-603; conservative tax-net context comes from src-491."

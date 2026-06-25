@@ -1,8 +1,14 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-24
+last_updated: 2026-06-25
 ---
+
+## 2026-06-25 - run-201 - Armenia comfort/partner fit
+
+- Completed Armenia sections 5.8 and 5.9 for screening by adding safety, transport/border caveats, English/Armenian/Russian integration, city-comfort, marriage/independent-status partner, remote-study, work-right, and one-income baselines.
+- Added two sources (`src-803`, `src-804`) and two Armenia claims (`claim-armenia-019`, `claim-armenia-020`).
+- Armenia depth_score moved from 5.5 to 7.5; added `armenia-english-language-integration-needed` and `armenia-border-region-security-caveat` as practical fit flags.
 
 ## 2026-06-24 - run-200 - Kazakhstan comfort/partner fit
 

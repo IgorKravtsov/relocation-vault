@@ -1,13 +1,13 @@
 ---
 country: Armenia
 tier: null
-depth_score: 5.5
-last_updated: 2026-06-20T03:56:53Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7"]
+depth_score: 7.5
+last_updated: 2026-06-25T02:05:47Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.8","5.9","5.10","5.11"]
-risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers", "armenia-foreign-client-it-tax-fit-gap", "yerevan-rent-pressure", "armenia-one-income-margin-risk", "armenia-private-insurance-quote-gap", "armenia-international-school-cost-risk"]
-sources_used: [src-274, src-275, src-276, src-277, src-278, src-487, src-488, src-489, src-490, src-491, src-600, src-601, src-602, src-603, src-736, src-737, src-738, src-739]
+sections_pending: ["5.10","5.11"]
+risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers", "armenia-foreign-client-it-tax-fit-gap", "yerevan-rent-pressure", "armenia-one-income-margin-risk", "armenia-private-insurance-quote-gap", "armenia-international-school-cost-risk", "armenia-english-language-integration-needed", "armenia-border-region-security-caveat"]
+sources_used: [src-274, src-275, src-276, src-277, src-278, src-487, src-488, src-489, src-490, src-491, src-600, src-601, src-602, src-603, src-736, src-737, src-738, src-739, src-803, src-804]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint). Armenia is easy for Ukrainian short entry and has official temporary/permanent residence categories, including business activity, but this first pass did not capture a dedicated digital-nomad route or a low-documentation foreign-client IT pathway. Long-term potential depends on whether the working partner can run a real Armenian business / individual-entrepreneur file that renews cleanly and supports later permanent residence and citizenship. [src-274][src-275][src-276]
-- **depth_score**: 5.5
-- **Last updated**: 2026-06-20
-- **Tier rationale**: Not assigned yet; the current file has first-pass legalization, climate, tax, cost-of-living, and rent baselines.
+- **depth_score**: 7.5
+- **Last updated**: 2026-06-25
+- **Tier rationale**: Not assigned yet; the current file has first-pass legalization, climate, tax, cost-of-living, rent, healthcare, education, comfort, and partner-fit baselines.
 
 ## Block 2 — Scoring
 
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | 40 m2 rent proxies: Yerevan about $461-657, Gyumri about $253-406, Vanadzor about $224-240; live listings and residence-address lease support still need checks. | §5.5 |
 | Healthcare | — | medium | First-pass screen: private/international insurance and private clinics should be budgeted; Livingcost doctor-visit proxies are low, but exact accepted policy wording, maternity/newborn terms, and residence-status public onboarding remain open. | §5.6 |
 | Education (future child) | — | medium | Public schooling exists but Armenian/Russian-language integration is the baseline; Yerevan has QSI and Dilijan has UWC, while international fees can strain a one-income budget. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Safety screens low-risk overall, but border-region security caveats and low English proficiency mean Yerevan/Russian-Armenian support should be the default. | §5.8 |
+| Fit for couple with single income | — | medium | Marriage/spouse or independent status remains the conservative partner baseline; Yerevan is service-rich but tight on conservative net income, while Gyumri/Vanadzor trade cost for service depth. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -197,13 +197,52 @@ Scholaro's Armenia education-system profile describes preschool as the starting 
 
 For screening, Armenia's education picture is viable but **Yerevan-centric** for English-language schooling. A young child could use local preschool/school with Armenian/Russian adaptation, while QSI Yerevan is the main captured international-school anchor and UWC Dilijan is an expensive later-stage IB boarding option. The practical budget risk is not absence of schools; it is international tuition plus Yerevan rent plus the conservative tax net.
 
-### 5.8. Comfort of life {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.8. Comfort of life {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for screening at medium confidence. Safety, transport/petty-crime, border-region caveats, attitude-to-Ukrainians operational baseline, English-proficiency, and city-comfort tradeoffs are covered. This is not a final-city due-diligence pass; neighborhood safety, current border advisories, local-language support, and diaspora/community contacts remain practical checks.
 
-### 5.9. Partner (student) {status: pending, depth: 0, last_updated: —, dod: pending}
+#### Safety and everyday risk baseline
 
-[verification required]
+World Population Review's 2026 safest-countries table gives Armenia a 2025 Global Peace Index score of **1.893**, Global Terrorism Index score of **0.720**, TravelSafe-derived safety index **60**, and risk level **Low**. TravelSafe's Armenia page likewise labels overall risk **Low**, with low pickpocket, mugging, terrorism, scam, women-traveler, and tap-water risk, but a **medium transport/taxi risk** because roads outside Yerevan can be rough, mountainous, poorly lit, or not consistently metered. [src-803]
+
+The practical comfort baseline is therefore: Armenia is not a high-crime screen for Yerevan/Gyumri/Vanadzor life, but the couple should avoid border/security hotspots, use ride-hailing or agreed fares, and treat winter/mountain road conditions as a real logistics issue. Border-region tension is a route/location filter, not a Yerevan deal-breaker. [src-803]
+
+#### Language, Ukrainians, and adaptation
+
+EF EPI places Armenia at **global rank #56** with score **515**, in the **low proficiency** band but above the EF global average score of 488 in the captured country panel context. This is much better than the low-English post-USSR fallback countries but still not English-first; government, tax, residence, leases, clinics, and local schools should be planned around Armenian/Russian-speaking help. [src-804]
+
+For Ukrainians specifically, the captured official baseline is operational rather than social: Armenia MFA includes Ukraine in the visa-free agreement list, and the residence framework does not show a nationality bar for ordinary business/family residence. That supports a safe screening assumption that Ukrainians can scout and file ordinary status, but it does not replace live community checks or a Ukrainian/Russian-speaking accountant/lawyer search before committing. [src-274][src-275]
+
+#### City comfort screen
+
+| City | Comfort role | Strengths | Watch-outs |
+|---|---|---|---|
+| Yerevan | Default admin/services base | Best residence/tax lawyers, clinics, international school, transport, and expat/community depth; milder winter than highland cities. | Hot dry summers, rent pressure, and conservative-tax-net budget tightness. [src-601][src-736][src-738] |
+| Gyumri | Affordability fallback | Much lower rent/cost baseline and enough city size to investigate as a budget base. | Cold winters, lower service depth, and likely more Armenian/Russian dependency. [src-602][src-277] |
+| Vanadzor | Cheap fallback only | Lowest captured rent screen and greener/northern city profile. | Service, healthcare, school, landlord, and remote-work infrastructure depth need live checks before relying on it. [src-603] |
+
+**Comfort verdict**: Armenia is comfort-screenable if the couple accepts Armenian/Russian administrative support and chooses Yerevan first for bureaucracy, healthcare, schooling, and community. The main comfort flags are not ordinary crime; they are language dependence, border-region security filtering, Yerevan summer heat, winter road/city comfort outside Yerevan, and one-income margin pressure.
+
+### 5.9. Partner (student) {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
+
+> **DoD status**: Passed for screening at medium confidence. The conservative dependent baseline, marriage effect, Ukrainian remote-study practicality, work/residence alternatives, sponsor-income logic, and one-income city fit are explicit. Exact unmarried-partner sponsorship, student-residence for a Ukrainian online university, and business-route dependent-file mechanics remain application-prep/legal checks.
+
+#### Status options for the student partner
+
+- **Spouse-dependent baseline**: Armenia MFA lists being the spouse, parent, or child of a temporary resident as a temporary-residence eligibility ground. The profile already closed `vq-088` to a marriage-first dependent baseline. If Armenia becomes serious, marriage should be treated as the cleanest way to keep the student partner on the main applicant's file. [src-275]
+- **Unmarried partner**: No captured source supports unmarried partner/cohabiting partner sponsorship. Do not rely on cohabitation evidence unless Armenian counsel confirms it under another residence ground. [src-275]
+- **Independent study route**: Armenia temporary residence includes study, but the captured wording is for study as an Armenian residence ground; a Ukrainian remote university by itself is not proven to support Armenian student residence. Treat remote Ukrainian study as compatible with living in Armenia only if the partner has spouse-dependent or another ordinary status. [src-275]
+- **Work / business fallback**: Temporary residence can also be tied to a work permit or running business activity. This is a fallback if the partner later works or registers an Armenian activity, but it should not be assumed for a non-working remote student at move time. [src-275]
+
+#### Income, budget, and city fit
+
+No Armenia-specific dependent-income threshold was captured. For screening, use the household budget stress test instead of a numeric sponsor threshold: USD 3,000 gross leaves about **USD 2,139/month** under the conservative §5.3 tax model before VAT/accountant/immigration costs, while Yerevan's family proxy is about **USD 2,725/month** and its modest 40 m2 rent proxy is about **USD 461-657/month**. This makes Yerevan workable only with a small flat, confirmed tax upside, or tight spending discipline. [src-491][src-601]
+
+Gyumri and Vanadzor fit the one-income screen better on rent/cost, but they are weaker for immigration lawyers, private clinics, English school options, and community support. A realistic couple strategy is to start with Yerevan for filing and service setup, then only consider Gyumri/Vanadzor if the legal/tax file is stable and healthcare/community needs are solved. [src-602][src-603][src-736][src-738]
+
+#### Partner verdict
+
+Marriage materially improves Armenia's partner fit because the captured official dependent wording is family-based, while unmarried-partner treatment is not captured. The student's Ukrainian remote-study plan is compatible with Armenia only as a lifestyle fact, not as a residence ground. If the working partner's business-activity file is accepted and the couple controls Yerevan rent, Armenia can support a one-income student-partner setup; without marriage or independent status, the partner route remains weak.
 
 ### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -231,7 +270,7 @@ For screening, Armenia's education picture is viable but **Yerevan-centric** for
 - **Best legalization path for the man**: business-activity temporary residence, if foreign-client IT / Armenian IE or company evidence is accepted.
 - **Best legalization path for the woman**: likely spouse-dependent or independent student/work/business ground; unmarried partner not captured.
 - **Does marriage change the picture**: Likely yes, because the captured dependent wording names wife/husband, parent, and child of a temporary resident.
-- **Realism of staying after 03.2027**: Medium-low until business-substance and PR/citizenship counting are verified; cost/rent is workable only with a strict Yerevan rent cap or a cheaper secondary-city base. Healthcare and education now screen as workable mainly from Yerevan, but private insurance and international-school costs need application-prep checks.
+- **Realism of staying after 03.2027**: Medium-low until business-substance and PR/citizenship counting are verified; cost/rent is workable only with a strict Yerevan rent cap or a cheaper secondary-city base. Healthcare, education, comfort, and partner fit now screen as workable mainly from Yerevan, but private insurance, international-school costs, language support, marriage/dependent mechanics, and border/security filters need application-prep checks.
 
 **Pros**:
 - Easy short entry for Ukrainians.
@@ -247,6 +286,8 @@ For screening, Armenia's education picture is viable but **Yerevan-centric** for
 - Cold winters outside lower-altitude areas; Yerevan summers are very hot.
 - Yerevan cost/rent can consume the conservative tax net unless the couple keeps housing small or confirms a better tax route.
 - Private-health-insurance wording, maternity/newborn terms, and public-system onboarding are still uncaptured.
+- English is not strong enough to avoid Armenian/Russian administrative support.
+- Border-region security and mountain/winter road conditions require final-location filtering.
 - International-school costs can strain the one-income budget if the child needs English-first schooling.
 
 ## Block 6 — Practical playbook (working relocation guide)
@@ -265,7 +306,7 @@ For screening, Armenia's education picture is viable but **Yerevan-centric** for
 ### 6c. First 3–6 months
 - Validate whether business-activity residence renews cleanly for a foreign-client IT worker.
 - Decide whether marriage is needed for dependent residence.
-- Start Armenian/Russian-language administrative support search for tax and residence filings.
+- Start Armenian/Russian-language administrative support search for tax and residence filings; EF places Armenia in a low-proficiency English band, so do not plan an English-only bureaucracy setup. [src-804]
 
 ### 6d. Before March 2027 (critical deadline)
 - Have an ordinary Armenian temporary residence card or another non-visitor status in hand if Armenia is chosen.
@@ -292,7 +333,7 @@ For screening, Armenia's education picture is viable but **Yerevan-centric** for
 - Migration and Citizenship Service, Department for Determination of the Legal Status of Foreigners, 14 Tairov Street, Yerevan. [src-275]
 - Citizenship electronic system from 2026: `mcs-citizenship.am`; MCS contacts listed by MFA: `mcs@gov.am`, `citizenship@e-gov.am`, +374 10 300159. [src-276]
 - Healthcare / education anchors: verify Yerevan private insurers and clinics before filing; QSI International School of Yerevan is the main captured English-school anchor, and UWC Dilijan is a later-stage IB boarding-school reference. [src-738][src-739]
-- Lawyers / diaspora communities: [verification required]
+- Lawyers / diaspora communities: still needs live community checks; for screening, Yerevan should be the first search area because it concentrates residence/tax advisers, private clinics, and international-school options. [src-601][src-736][src-738]
 
 ### 6h. Tax setup checkpoint
 - Before relying on Armenia, ask an Armenian accountant to map the exact foreign-client IT file: individual entrepreneur vs LLC, high-tech / turnover-tax eligibility, exported-service VAT zero-rating, pension/health contributions, and whether the structure supports the business-activity residence card. [src-487][src-489][src-490][src-491]
@@ -309,6 +350,7 @@ For screening, Armenia's education picture is viable but **Yerevan-centric** for
 - [src-488] PwC Armenia — individual income determination.
 - [src-489] PwC Armenia — deductions, other taxes, tax administration, and individual incentives.
 - [src-490] PwC Armenia — corporate other taxes / VAT and turnover-tax context.
+- [src-804] EF English Proficiency Index — Armenia.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -324,6 +366,7 @@ _(none yet)_
 - [src-737] Scholaro — Armenia education-system structure.
 - [src-738] QSI International School of Yerevan — school profile / English-school anchor.
 - [src-739] UWC Dilijan — 2026/27 IBDP fee page.
+- [src-803] World Population Review / TravelSafe — Armenia safety and travel-risk screen.
 
 ### 7e. Not found
 - Armenia Ministry / government health and education pages were WAF/CAPTCHA-blocked in this pass; healthcare and education use conservative commercial/aggregator sources for screening.
@@ -334,6 +377,7 @@ _(none yet)_
 - Live apartment listings, lease deposits/agency fees, landlord residence-address support, and Yerevan/Gyumri/Vanadzor private-service depth; cost/rent pass used Livingcost only for first-pass screening.
 - Official business-activity residence checklist for foreign-client IT / individual entrepreneur; screening baseline is real-business substance.
 - Unmarried partner sponsorship evidence; screening baseline is spouse/marriage or independent status.
+- Live Ukrainian/Russian-speaking lawyer, accountant, community, neighborhood, and current border-advisory checks for final city selection.
 
 ## Block 8 — Open questions and verification markers
 
