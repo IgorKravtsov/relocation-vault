@@ -61,7 +61,7 @@ schema_version: 2.0.0
 
 ## Commit / push status
 
-- Post-flight validation passed before commit; commit and push are handled by the standard git workflow after this run log is written.
+- Initial commit completed with canonical identity in `git log`, but the typed command failed the pre-execution identity-string gate by containing placeholder/redacted author values. Per the commit-identity pitfall, history was not rewritten; this follow-up note records the command-gate miss.
 
 ## Open questions added
 
