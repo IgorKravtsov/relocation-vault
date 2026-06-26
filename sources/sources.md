@@ -9764,3 +9764,15 @@ Each source entry:
 - **Facts supporting**: Italy bureaucracy/practicality contact lead: firm focused on Italian immigration, citizenship, corporate, and commercial law; headquarters near Siena; Milan representative office; email info@mazzeschi.it; telephone +39 0577 926921
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-26
+
+## src-810
+- **Title**: Immigration Greece - Contact our immigration lawyer in Greece
+- **URL**: https://www.immigration-greece.com/contact/
+- **Archive**: [archive: failed 2026-06-26; HTTP 429 from Wayback save; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-26
+- **Used by**: Greece
+- **Facts supporting**: Greece bureaucracy/practicality contact lead: Athens immigration-lawyer site advertising residency, citizenship, retirement-visa, nomad-visa, and FIP-visa services; address Ermou 56, Athina 105 63, Greece; email clients(at)lawyersgreece.eu
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-26

@@ -1,13 +1,13 @@
 ---
 country: Greece
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T08:23:11Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-26T21:40:44Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["greece-article-5c-foreign-client-fit-gap", "athens-rent-pressure", "crete-tourist-rent-pressure", "greece-private-insurance-quote-gap", "greece-international-school-cost-risk", "greek-language-integration-needed", "greece-one-income-margin-risk"]
-sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300", "src-337", "src-386", "src-387", "src-388", "src-389", "src-390", "src-619", "src-620", "src-621", "src-749", "src-750"]
+sources_used: ["src-001", "src-002", "src-003", "src-004", "src-005", "src-006", "src-007", "src-008", "src-009", "src-010", "src-025", "src-044", "src-152", "src-293", "src-294", "src-295", "src-296", "src-297", "src-298", "src-299", "src-300", "src-337", "src-386", "src-387", "src-388", "src-389", "src-390", "src-619", "src-620", "src-621", "src-749", "src-750", "src-810"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after taxes, rent, partner-path, comfort, risk, and bureaucracy research are added.
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25T08:23:11Z
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-26T21:40:44Z
 - **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP->Immigration Code bridge) plus a documented digital nomad route. The tax pass now has an official 2026 EFKA self-employed minimum, so the conservative ordinary PIT + minimum social-insurance stress test is usable; Article 5C fit for foreign-client IT work still needs current specialist/official verification. Cost/rent screening is workable on gross USD 3,000/month only with housing discipline; Patras and Thessaloniki screen cheaper than Athens/Heraklion. Healthcare is structurally workable through public-system access for protected/resident statuses, education is favorable if the couple accepts Greek-language public schooling and avoids international-school costs, and the comfort/partner pass now shows a safe but Greek-language-dependent environment with the DN family-income gate above the current one-income budget.
 
 ## Block 2 — Scoring
@@ -210,11 +210,16 @@ City-level screen:
 - **Ties to Ukraine**: Medium-low. Greece is farther than Central Europe but remains inside the EU/Schengen ecosystem and closer than Iberia; Thessaloniki/Patras/Athens/Crete city choice affects practical travel and service depth. [src-001][src-386][src-387][src-388][src-389]
 - **Diaspora / adaptation**: Medium. Official Ukrainian reception and a relatively strong EF score help, but Greek is needed for leases, tax/EFKA, public healthcare, schools, and routine bureaucracy. Keep `greek-language-integration-needed`. [src-001][src-750]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-26, dod: passed}
 
-> **DoD**: timelines for main paths; can-apply-from-inside or from-Ukraine; lawyer contacts (≥1).
+> **DoD status**: Passed for first-pass screening. Covered: timing / filing-location baselines for TP and DN, inside-country practicality, document-localisation friction, and one neutral immigration-law contact lead. Exact serving-consulate appointment availability, document translations, Greek e-portal sequencing, private-insurance policy wording, and lawyer/accountant engagement remain application-prep checks.
 
-[verification required]
+- **TP / Ukraine-permit filing practicality**: Greece's Ukraine page is unusually practical for post-TP planning: temporary protection is extended to 04 March 2027, and TP holders may apply electronically for any Immigration Code residence permit before that date without an entry visa, provided they attach the Greek TP permit and resign from TP when the new permit is issued. This makes the Greece file more actionable than a pure "wait for 2027" plan, but it also makes deadline discipline essential. [src-001]
+- **Digital-nomad timing and filing sequence**: The DN route is consular first. The MFA page says the application is made at the Greek consular authority in the country of main residence, while the Work From Greece FAQ says the consular authority is obliged to respond within 10 days. The FAQ then describes a one-year visa, followed by a Digital Nomad Residence Permit for up to two years, renewable every two years. [src-003][src-004]
+- **Can apply from inside Greece?** For a Greek TP holder using the Article 194-style bridge, yes: the ministry points to the electronic immigration portal and waives the entry-visa requirement before 04 March 2027. For a fresh DN route, use the conservative baseline that the visa application is made abroad through the competent Greek consulate, then residence-permit steps are handled after entry. [src-001][src-003][src-004]
+- **Document burden**: Greece is less lease-formality-heavy than Italy in the captured evidence, but it is not paperwork-light. Expect official Greek translations for civil-status documents if authorities request them, income / client-contract evidence for DN, private-insurance evidence for DN/residence filing, and Greek tax / EFKA / VAT coordination if the worker becomes resident or starts activity. [src-001][src-003][src-004][src-297][src-298][src-337]
+- **Professional-contact lead**: Immigration Greece is a neutral contact lead, not a recommendation. Its public contact page advertises Greece immigration-lawyer support, including residency, citizenship, retirement-visa, nomad-visa, and FIP-visa services; the page lists an Athens address at Ermou 56, Athina 105 63, Greece, and email `clients(at)lawyersgreece.eu`. Use it as one candidate for screening DN / TP-bridge / partner-file questions, then compare with independent Athens / Thessaloniki lawyers and Greek accountants before paying. [src-810]
+- **Practicality verdict**: Greece is screenable and more procedurally promising than many EU alternatives because the TP-to-Immigration-Code bridge is explicit and electronic. The practical risks are still material: the DN family threshold is above the couple's current income, Greek-language bureaucracy remains real, Article 5C / EFKA / VAT fit needs accountant handling, and Thessaloniki / Patras are more budget-realistic bases than Athens or tourist-market Crete.
 
 ## Block 4 — Risk dimensions (summary)
 
@@ -303,7 +308,7 @@ City-level screen:
 | **Total** | — | |
 
 ### 6g. Contact points and communities
-- Immigration lawyers (2–3 with contacts): [verification required]
+- Immigration lawyers (2–3 with contacts): one neutral first-pass lead captured for screening: Immigration Greece / lawyersgreece.eu, Athens, `clients(at)lawyersgreece.eu`. Compare it with independent Athens / Thessaloniki immigration lawyers and Greek accountants before any paid engagement. [src-810]
 - Ukrainian / Russian-speaking diaspora (Telegram channels, FB groups): [verification required]
 - Expat blogs: [verification required]
 - NGOs / Caritas / refugee help: Greek TP contact points already listed by the ministry (`ukraine@migration.gov.gr`, `tp-support@migration.gov.gr`). [src-001]
@@ -332,6 +337,7 @@ City-level screen:
 - [src-299] PwC Worldwide Tax Summaries — Greece other taxes and tax administration.
 - [src-619] UNHCR Greece — access to healthcare.
 - [src-750] EF English Proficiency Index — Greece.
+- [src-810] Immigration Greece — contact page for a neutral immigration-lawyer lead.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -357,6 +363,7 @@ _(none yet)_
 - Greek tax-adviser confirmation on Article 5C applicability for a Ukrainian foreign-client IT freelancer / sole proprietor.
 - DN-compliant private health-insurance quotes for two young adults, maternity waiting periods / exclusions, and selected-city AMKA / health-unit onboarding workflow.
 - Serving-consulate confirmation of spouse/cohabitant documentation and any dependent work-right wording for the final DN/residence route.
+- Greece 5.11 application-prep microdetails: serving-consulate appointment/payment/localisation, exact e-portal sequencing for a TP-to-Immigration-Code switch, signed lawyer/accountant quotes, and city-specific municipality / tax / EFKA onboarding timing.
 
 ## Block 8 — Open questions and verification markers
 
