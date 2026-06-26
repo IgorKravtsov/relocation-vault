@@ -1,29 +1,29 @@
 {
   "version": 2,
-  "iteration": 211,
+  "iteration": 212,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-26T09:18:00Z",
+  "last_run_timestamp": "2026-06-26T12:23:52Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
     "sections": [
-      "5.10"
+      "5.11"
     ],
-    "criterion": "risk-dimensions"
+    "criterion": "bureaucracy-practicality"
   },
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.11",
-    "reason": "The 5.10 risk-dimensions slice now covers all 33 countries; continue with bureaucracy/practicality unless verification or staleness triggers take priority."
+    "reason": "Bureaucracy/practicality slice has started with Spain; continue with remaining Tier-1 countries unless verification or staleness triggers take priority."
   },
   "countries": {
     "Spain": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 9.0,
+      "depth_score": 10.0,
       "sections_completed": [
         "5.2",
         "5.3",
@@ -32,15 +32,14 @@
         "5.7",
         "5.8",
         "5.9",
-        "5.10"
+        "5.10",
+        "5.11"
       ],
       "sections_partial": [
         "5.1",
         "5.6"
       ],
-      "sections_pending": [
-        "5.11"
-      ],
+      "sections_pending": [],
       "risk_flags": [
         "no-clear-post-2027-tp-bridge",
         "dn-threshold-for-couple-tight",
@@ -51,7 +50,7 @@
         "spain-international-school-cost-risk",
         "spanish-language-integration-needed"
       ],
-      "last_iteration": 203,
+      "last_iteration": 212,
       "unverified_count": 0
     },
     "Portugal": {
@@ -1202,7 +1201,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 805,
+  "sources_count": 806,
   "claims_count": 716,
   "proposals_pending": 0
 }

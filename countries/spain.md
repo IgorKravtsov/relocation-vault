@@ -1,13 +1,13 @@
 ---
 country: Spain
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T08:23:11Z
-sections_completed: ["5.2","5.3","5.4","5.5","5.7","5.8","5.9","5.10"]
+depth_score: 10.0
+last_updated: 2026-06-26T12:23:52Z
+sections_completed: ["5.2","5.3","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["no-clear-post-2027-tp-bridge","dn-threshold-for-couple-tight","autonomo-tax-social-security-burden","madrid-barcelona-rent-pressure","malaga-tourist-rent-pressure","spain-private-insurance-quote-gap","spain-international-school-cost-risk","spanish-language-integration-needed"]
-sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025","src-280","src-281","src-282","src-283","src-284","src-285","src-286","src-391","src-392","src-393","src-394","src-395","src-613","src-614","src-615","src-745","src-746"]
+sources_used: ["src-002","src-011","src-012","src-013","src-014","src-015","src-016","src-025","src-280","src-281","src-282","src-283","src-284","src-285","src-286","src-391","src-392","src-393","src-394","src-395","src-613","src-614","src-615","src-745","src-746","src-807"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -18,10 +18,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD after remaining legal long-term and bureaucracy / practicality research is added.
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25T08:23:11Z
-- **Tier rationale**: Spain already has a strong remote-work legalization route, a mature temporary-protection system for Ukrainians, passed climate coverage, a practical ordinary freelancer-tax baseline, first-pass cost/rent plus healthcare/education screening, and now passed comfort and partner/student-fit screening. The main remaining caveats are no captured post-04 March 2027 TP-to-ordinary-residence bridge, tight couple-income math for the digital nomad route, heavy autonomous-worker tax/social-security burden at the couple's current income, rent pressure in Madrid/Barcelona/Malaga, uncaptured live private-insurance quotes for a DN filing, and Spanish-language integration needs for daily life / public schooling.
+- **Tier**: TBD after remaining legal long-term and healthcare details are added.
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-26T12:23:52Z
+- **Tier rationale**: Spain already has a strong remote-work legalization route, a mature temporary-protection system for Ukrainians, passed climate coverage, a practical ordinary freelancer-tax baseline, first-pass cost/rent plus healthcare/education screening, and now passed comfort and partner/student-fit screening. The main remaining caveats are no captured post-04 March 2027 TP-to-ordinary-residence bridge, tight couple-income math for the digital nomad route, heavy autonomous-worker tax/social-security burden at the couple's current income, rent pressure in Madrid/Barcelona/Malaga, uncaptured live private-insurance quotes for a DN filing, and Spanish-language integration needs for daily life / public schooling; bureaucracy is now screenable but still needs a serving-consulate and gestor check before filing.
 
 ## Block 2 — Scoring
 
@@ -226,11 +226,15 @@ Practical interpretation: Spain is legally attractive but tax-heavy at this inco
 - **Ties to Ukraine**: Medium. Spain is geographically farther from Ukraine than Central/Eastern Europe, so repeated university/family trips are less convenient, but EU/Schengen connectivity and Spain's official reception infrastructure make it workable if travel costs are budgeted. [src-011][src-012]
 - **Diaspora / adaptation**: Medium. Ukraine-specific reception support is positive, but EF ranks Spain in the moderate English band; Spanish is needed for bureaucracy, healthcare, school, landlords, and tax/accounting. Keep `spanish-language-integration-needed` as the live adaptation flag. [src-011][src-746]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-26, dod: passed}
 
-> **DoD**: timelines for main paths; can-apply-from-inside or from-Ukraine; lawyer contacts (≥1).
+> **DoD status**: passed for first-pass screening. Covered: TP and DN decision-time baselines, where the couple can file, document-localisation implications, and one immigration/tax lawyer contact. Serving-consulate appointment slots, regional TIE / padron timing, gestor pricing, and a final document review remain application-prep checks.
 
-[verification required]
+- **Main route timings**: Spain's Ukraine temporary-protection procedure is unusually fast on paper: the official procedure page says the administrative resolution is issued within a **maximum of 24 hours** after the request, then the certificate can be downloaded with the NIE / case number and used to request the TIE. The official digital-nomad / international-telework consular page gives a **10-day** visa decision baseline unless extra documents or an interview are requested; the initial visa can be valid up to **1 year**, with later residence-card work through UGE-CE in the two months before expiry. [src-012][src-013]
+- **Where to apply**: TP is an in-Spain filing route through CREADE centres or specially enabled National Police stations. The DN route is consular for the visa stage and requires proof of residence in the consular district, but the official page also points to later in-Spain UGE-CE residence-card handling after the initial visa period. This makes the safe planning sequence: use TP only as an emergency/current-status bridge, but build a DN or other ordinary residence file with the serving Spanish consulate / UGE-CE rules checked before travel. [src-012][src-013]
+- **Document practicality**: The DN checklist already implies real bureaucracy: NIE before filing, criminal-record evidence for the last two years plus a five-year declaration, health insurance, proof of foreign-client / foreign-company relationship, and legalization/apostille plus official Spanish translation for foreign documents when applicable. Relationship evidence for an unmarried partner should be treated as a lawyer-reviewed file, even though Spain is more partner-friendly than countries that require marriage by default. [src-013]
+- **Professional contact**: Balcells Group is a Barcelona-based private law firm advertising immigration, tax, business, and real-estate services; its contact page lists phone **+34 93 631 51 39** and address **Rambla de Catalunya 124, Barcelona**. Treat this as a starting contact for DN / autonomo / tax-structure triage, not as an endorsement; the couple should still compare at least one Valencia/Malaga gestor or immigration lawyer before filing. [src-807]
+- **Bureaucracy verdict**: Spain is administratively heavy but screenable. The official TP and DN pages are much clearer than many countries' route pages; the remaining risk is execution quality: Spanish-language forms, appointment availability, NIE/TIE sequencing, regional health-card registration, RETA/gestor setup, and whether the partner evidence plus income proof are accepted without a marriage certificate.
 
 ## Block 4 — Risk dimensions (summary)
 

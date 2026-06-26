@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-25
+last_updated: 2026-06-26
 ---
 
 # Sources Registry
@@ -9728,3 +9728,15 @@ Each source entry:
 - **Facts supporting**: UAE English-proficiency / adaptation screen: global rank #72, EF EPI score 487, global average 488, skill scores, job-function scores, and city/region scores including Dubai 509-513, Abu Dhabi 481-484, Sharjah 477-479, Al Ain 452, and Ajman 425 (claim-uae-019)
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-25
+
+## src-807
+- **Title**: Balcells Group - Contact
+- **URL**: https://balcellsgroup.com/contact/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-26
+- **Used by**: Spain
+- **Facts supporting**: Spain bureaucracy/practicality contact lead: Barcelona law firm advertising immigration, tax, business, and real-estate services; phone +34 93 631 51 39; address Rambla de Catalunya 124, Barcelona
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-26
