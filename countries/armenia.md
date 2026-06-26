@@ -1,11 +1,11 @@
 ---
 country: Armenia
 tier: null
-depth_score: 7.5
-last_updated: 2026-06-25T02:05:47Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-26T09:18:00Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers", "armenia-foreign-client-it-tax-fit-gap", "yerevan-rent-pressure", "armenia-one-income-margin-risk", "armenia-private-insurance-quote-gap", "armenia-international-school-cost-risk", "armenia-english-language-integration-needed", "armenia-border-region-security-caveat"]
 sources_used: [src-274, src-275, src-276, src-277, src-278, src-487, src-488, src-489, src-490, src-491, src-600, src-601, src-602, src-603, src-736, src-737, src-738, src-739, src-803, src-804]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint). Armenia is easy for Ukrainian short entry and has official temporary/permanent residence categories, including business activity, but this first pass did not capture a dedicated digital-nomad route or a low-documentation foreign-client IT pathway. Long-term potential depends on whether the working partner can run a real Armenian business / individual-entrepreneur file that renews cleanly and supports later permanent residence and citizenship. [src-274][src-275][src-276]
-- **depth_score**: 7.5
-- **Last updated**: 2026-06-25
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-26
 - **Tier rationale**: Not assigned yet; the current file has first-pass legalization, climate, tax, cost-of-living, rent, healthcare, education, comfort, and partner-fit baselines.
 
 ## Block 2 — Scoring
@@ -244,12 +244,37 @@ Gyumri and Vanadzor fit the one-income screen better on rent/cost, but they are 
 
 Marriage materially improves Armenia's partner fit because the captured official dependent wording is family-based, while unmarried-partner treatment is not captured. The student's Ukrainian remote-study plan is compatible with Armenia only as a lifestyle fact, not as a residence ground. If the working partner's business-activity file is accepted and the couple controls Yerevan rent, Armenia can support a one-income student-partner setup; without marriage or independent status, the partner route remains weak.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-26, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: Passed for screening at medium confidence. This risk pass reuses the captured Armenia legal, tax, cost/rent, healthcare, education, comfort, and partner-fit evidence. It does not replace live bank/accountant/lawyer, border-advisory, Ukrainian-community, or final-city due diligence before filing.
+
+#### Currency / banking risk
+
+Armenia is a non-EU, non-euro jurisdiction, so the couple should not treat it as a SEPA-style continuation of Polish/EU life. The tax worked example uses AMD exposure: USD 3,000/month was about AMD 1,105,030 in run-099, and the conservative tax/contribution screen left about AMD 787,721 / USD 2,139 before accountant, VAT, residence, healthcare, and banking costs. That makes banking and FX less severe than in high-inflation cases but still a material one-income planning risk, especially if income arrives in USD/EUR while rent, taxes, fees, and daily spending are in AMD. [src-487][src-489][src-490][src-491][src-601]
+
+Screening level: **medium**. Use Yerevan first for bank/accountant access, keep a USD/EUR buffer outside Armenia, and verify foreign-client invoicing, bank onboarding, VAT/export-service treatment, and whether the same IE/LLC file supports both tax and residence before relying on Armenia. [src-275][src-490][src-491]
+
+#### Political / route risk
+
+The core route risk is not ordinary crime but legal-route proof. MFA captures visa-free short entry and temporary/permanent residence categories, including business activity, but no dedicated digital-nomad route or Ukraine-specific protection bridge was captured. The business route should therefore be treated as a real Armenian business / IE or company file, not a light remote-worker visa. Permanent residence and the short citizenship headline may be attractive only if the business residence renews cleanly and counts as lawful residence in practice. [src-274][src-275][src-276]
+
+Political/security screening is **medium** because Armenia is generally low-risk for daily safety in the captured WPR/TravelSafe screen, yet border-region security, mountain/winter roads, and regional tensions must remain final-location filters. Avoid assuming that a safe Yerevan base removes the need for current border-advisory checks before signing a lease outside the capital. [src-803]
+
+#### Ties to Ukraine
+
+Operational ties to Ukraine are **medium-low risk** compared with distant Asia/Latin America options: Armenia is outside the EU/Schengen TP framework but is geographically closer than the long-haul bridge countries, and the captured MFA baseline allows Ukrainian visa-free scouting. However, Armenia does not preserve EU/Poland continuity; the Polish residence card still needs absence/renewal checks, and Armenia requires its own ordinary status before it can be used as a post-2027 base. [src-274][src-275]
+
+The practical rule is to use Armenia as an ordinary-residence candidate, not as an extension of EU temporary protection. If chosen, the couple should secure the Armenian business/spouse file while separately maintaining or deliberately exiting Polish/EU obligations. [src-275]
+
+#### Diaspora / adaptation
+
+Adaptation risk is **medium**. EF places Armenia in the low English-proficiency band, so English-only bureaucracy is not a safe assumption; residence, tax, leases, clinics, and schools should be planned around Armenian/Russian-speaking professional help. Yerevan is the default adaptation base because it concentrates lawyers, accountants, private clinics, and QSI / international-school options, while Gyumri and Vanadzor are mainly budget fallbacks with weaker service depth. [src-601][src-602][src-603][src-736][src-738][src-804]
+
+For the student partner and future-child horizon, the adaptation issue is not lack of a path but friction: marriage is the cleanest captured dependent baseline, local schooling is Armenian/Russian-language by default, international schooling is Yerevan-centric and costly, and private healthcare/insurance terms need application-prep quotes. [src-275][src-736][src-737][src-738][src-739]
+
+#### Risk-dimension verdict
+
+Armenia is screenable as a nearby, relatively safe ordinary-business-residence candidate, not as a proven DN-style settlement route. The decisive risks are business-route evidence, AMD/banking/tax/VAT setup, spouse/marriage dependency, low-English bureaucracy, Yerevan budget pressure, and border-region filtering. None blocks screening, but all require adviser/application-prep work before Armenia can be treated as a serious post-2027 fallback.
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -259,10 +284,10 @@ Marriage materially improves Armenia's partner fit because the captured official
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | Non-euro AMD exposure is manageable but material for a one-income file; bank onboarding, foreign-client invoicing, VAT/export-service treatment, and IE/LLC fit must be verified before relying on Armenia. [src-487][src-489][src-490][src-491] |
+| Political | medium | Daily safety screens low-risk, but no DN route or Ukraine-specific bridge is captured; the ordinary business-residence route must be proven and border-region / winter-road risks filtered. [src-274][src-275][src-803] |
+| Ties to Ukraine | medium-low | Ukrainian visa-free scouting and geographic proximity help, but Armenia is outside EU TP continuity and the Polish residence card still needs separate absence/renewal planning. [src-274][src-275] |
+| Diaspora / adaptation | medium | Yerevan can support lawyers, clinics, and English-school search, but low English proficiency, Armenian/Russian administration, spouse/marriage dependency, and international-school/private-healthcare costs create adaptation friction. [src-601][src-736][src-738][src-804] |
 
 ## Block 5 — Practical verdict
 

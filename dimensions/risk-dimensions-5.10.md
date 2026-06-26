@@ -2,7 +2,7 @@
 
 Last updated: 2026-06-26
 Mode: criterion-slice
-Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama, Mexico, Argentina, UAE, Malaysia, Thailand, Indonesia, Kazakhstan
+Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama, Mexico, Argentina, UAE, Malaysia, Thailand, Indonesia, Kazakhstan, Armenia
 
 ## Scope
 
@@ -42,6 +42,7 @@ This slice converts pending 5.10 placeholders across the country set into screen
 | Thailand | medium | medium-high | high risk | high | DTV bridge-only mechanics, tax/remittance, road/safety filters, very low English baseline | [src-257][src-259][src-471][src-476][src-586][src-588][src-722][src-797][src-798] |
 | Indonesia | medium-high | medium-high | high risk | medium-high | E33G income gate, IDR/tax/VAT/BPJS exposure, natural-disaster/social-norm risk, Bahasa administration | [src-263][src-264][src-477][src-480][src-590][src-594][src-728][src-799][src-800] |
 | Kazakhstan | medium | medium-high | low-medium risk | medium-high | Neo Nomad official-capture gap, TRP/tax fit, PR/dual-nationality risk, weak English outside service hubs | [src-267][src-268][src-269][src-270][src-271][src-482][src-484][src-485][src-596][src-598][src-801][src-802] |
+| Armenia | medium | medium | medium-low risk | medium | Business-route proof, AMD/banking/tax/VAT setup, low-English bureaucracy, Yerevan budget pressure, border-region filtering | [src-274][src-275][src-276][src-487][src-489][src-490][src-491][src-601][src-736][src-738][src-803][src-804] |
 
 ## Cross-country observations
 
@@ -64,7 +65,9 @@ This slice converts pending 5.10 placeholders across the country set into screen
 - For the Malaysia/Thailand/Indonesia/Kazakhstan subgroup, the risk split is mainly bridge durability and administrative language rather than first-month rent: Malaysia is the strongest English-service bridge but capped at 24 months; Thailand is a flexible DTV bridge with very weak English and stay-management/tax caveats; Indonesia is cheap but currently blocked by the E33G income gate; Kazakhstan is nearby and affordable but still lacks official-primary Neo Nomad / IT-TRP proof.
 - Distance from Ukraine sharply separates the Southeast Asian options from Kazakhstan. Malaysia/Thailand/Indonesia need emergency-flight, document-refresh, and ordinary-foreigner planning; Kazakhstan has easier regional/CIS logistics and Russian-language overlap, but no EU TP continuity and more geopolitical / dual-nationality complexity.
 - For this subgroup, a safe screening rule is to treat all four as bridge/base candidates until one of them has a verified durable route: DE Rantau is time-capped, DTV is not settlement, E33G is above current income, and Kazakhstan's remote-work route still needs official-primary capture.
+- Armenia closes the remaining 5.10 country gap as a nearby ordinary-business-residence candidate rather than a DN route: daily-safety risk is not the lead issue, but AMD/banking/tax/VAT setup, business-residence evidence, low-English bureaucracy, spouse/marriage dependency, Yerevan budget pressure, and border-region filtering all need adviser/application-prep work.
+- Across the full 5.10 dimension, the safest screening posture is to treat headline immigration routes as necessary but insufficient: the decisive operational risks are route durability, tax/social-insurance registration, language bureaucracy, bank/accountant onboarding, private healthcare/school costs, and whether the couple can preserve enough one-income buffer in the default service city.
 
 ## Next slice candidate
 
-Continue 5.10 risk dimensions with Armenia, unless verification or staleness triggers take priority.
+The 5.10 risk-dimensions slice now covers all 33 countries. Continue with 5.11 bureaucracy and practicality unless accepted proposals, verification, or staleness triggers take priority.
