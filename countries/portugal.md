@@ -1,13 +1,13 @@
 ---
 country: Portugal
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-25T08:23:11Z
-sections_completed: ["5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 9.0
+last_updated: 2026-06-26T15:29:02Z
+sections_completed: ["5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1","5.2","5.3","5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap","portugal-health-insurance-quote-gap","portugal-international-school-cost-risk","portugal-one-income-margin-risk"]
-sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406","src-492","src-493","src-494","src-495","src-496","src-608","src-609","src-610","src-611","src-612"]
+sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406","src-492","src-493","src-494","src-495","src-496","src-608","src-609","src-610","src-611","src-612","src-808"]
 unverified_count: 1
 schema_version: 2.0.0
 ---
@@ -18,9 +18,9 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD after taxes, rent, healthcare, partner-path, and bureaucracy research are added.
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-25T08:23:11Z
+- **Tier**: TBD after the remaining legal, climate, tax, and healthcare partials are resolved or demoted to final screening baselines.
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-26T15:29:02Z
 - **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
 
 ## Block 2 — Scoring
@@ -265,9 +265,16 @@ Portugal is partner-workable but not partner-easy. The safest near-term arrangem
 - **Ties to Ukraine**: Medium. Portugal is one of the farther EU options from Ukraine, so repeated trips for family or university matters need a travel budget and time buffer. The EU/Schengen location still keeps travel procedurally simpler than non-European bridge bases. [src-017]
 - **Diaspora / adaptation**: Medium-low. EF places Portugal very high globally for English proficiency, and the official Ukraine reception channel lowers first-contact friction; Portuguese-language school, healthcare, lease, and tax/accounting adaptation still matter outside large cities. [src-017][src-608][src-612]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-26, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. Covered: TP and D8 post-visa AIMA timing / filing-location baselines, document-localisation implications, and one immigration / relocation professional-contact lead. Missing details such as serving-consulate appointment slots, live lawyer quotes, NIF / bank onboarding timing, and final AIMA appointment availability remain application-prep checks.
+
+- **Main route timings**: Portugal's captured Ukraine reception sources confirm a real temporary-protection pathway with automatic NISS / NIF / SNS onboarding, but they do not give a same-day-style administrative SLA like Spain. For the ordinary remote-worker path, the strongest official-primary anchor is the AIMA post-visa residence-authorization page: once the D8 / remote-work residence visa is obtained, the AIMA residence card is filed by appointment / platform, the initial temporary permit is valid for **two years**, and renewals are for successive **three-year** periods. [src-017][src-019][src-026]
+- **Where to apply**: The safe screening sequence is consular or pre-entry D8 visa work first, then in-Portugal AIMA residence authorization for remote work. AIMA's page requires in-person filing by appointment or a platform route for residence-visa holders once implemented, plus passport, valid remote-work residence visa, employer/client declaration, and residence-address proof. TP remains useful as a near-term shelter / onboarding route for eligible Ukrainians, not as a proven post-2027 ordinary-status bridge. [src-017][src-026]
+- **Document practicality**: Portugal is document-heavy before it becomes administratively comfortable: the D8 file still needs NIF, bank / funds evidence, accommodation, criminal-record and remote-work proof, while the post-visa AIMA stage needs address evidence and foreign employer/client declarations. Portuguese-language administration is likely around tax, lease, SNS, and AIMA steps even though English exposure is relatively strong. [src-020][src-026][src-405][src-612]
+- **Professional contact**: Global Citizen Solutions is a private Portugal-based residence / immigration advisory lead; its contact page lists a Portugal office at **Av. 24 de Julho 4, 2o Esquerdo, Lisboa 1200-480** and phone **+351 21 060 5995**. Treat this only as a starting lead for D8 / NIF / residence-file triage, not as an endorsement; the couple should compare at least one independent Portuguese immigration lawyer and one accountant before filing. [src-808]
+- **Bureaucracy verdict**: Portugal is screenable but slower and less deterministic than Spain for this couple. The post-visa AIMA route is official and concrete enough for first-pass planning, but the hard blockers remain outside pure paperwork: D8 income above the current budget, no captured post-2027 TP bridge, lease/address proof, NIF/bank setup, tax/social-security registration, and appointment availability.
+
 
 ## Block 4 — Risk dimensions (summary)
 
@@ -293,6 +300,7 @@ Portugal is partner-workable but not partner-easy. The safest near-term arrangem
 
 **Cons / risks**:
 - D8 income threshold remains above the couple's current one-income budget.
+- AIMA / D8 bureaucracy is screenable, but appointment availability, lease/address proof, NIF/bank setup, and lawyer/accountant execution quality remain practical risks.
 - Lisbon rent pressure and ordinary self-employed tax/social-security burden can compress the budget.
 - International school is not realistic at the current income; public-school fit and Portuguese-language adaptation matter.
 - D8 dependent sponsorship is not ready on the current income because the individual threshold is already about €3,680/month and family files need more income/savings.
@@ -345,6 +353,7 @@ _(none yet)_
 - [src-024] Climate to Travel — Faro / Algarve climate averages.
 - [src-609] Numbeo — Cost of living in Portugal / Lisbon / Porto (childcare and international-school cost proxies).
 - [src-611] Numbeo — Quality of Life and Crime / Safety in Portugal.
+- [src-808] Global Citizen Solutions — Contact Us.
 
 ### 7e. Not found
 - Official-primary D8 visa checklist (pre-visa document list, health-insurance minimum, processing time) from a Portuguese consulate or AIMA circular.
@@ -352,6 +361,7 @@ _(none yet)_
 - Portugal self-employed tax fit: exact Article 151 activity code / coefficient, VAT place-of-supply or reverse-charge reporting, first-year social-security timing, expense-evidence treatment, and D8 / ordinary-status compatibility for a Ukrainian foreign-client IT freelancer remain accountant/application-prep checks; `vq-105` is closed for screening.
 - Portugal healthcare: official D8 / residence-visa medical-insurance minimums, live private-insurance quotes for two young adults, and private-clinic specialist/lab price checks remain application-prep checks; `vq-120` is resolved for screening.
 - Portugal partner/D8 family application-prep: exact serving-consulate dependent-income / savings wording and dependent work-right wording should be checked before filing; for screening, the current income gap is already enough to avoid treating D8 family sponsorship as ready.
+- Portugal 5.11 application-prep: live AIMA / consulate appointment availability, NIF / bank account timing, lawyer/accountant quotes, and final address-proof / lease requirements should be verified before committing funds.
 
 ## Block 8 — Open questions and verification markers
 
