@@ -1,13 +1,13 @@
 ---
 country: Italy
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T08:23:11Z
-sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-26T18:06:00Z
+sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-source-2024", "unmarried-partner-not-covered-by-dn-family-sponsorship", "italy-worldwide-tax-and-reporting", "rome-milan-rent-pressure", "southern-services-tradeoff", "italy-private-insurance-quote-gap", "italy-international-school-cost-risk", "italian-language-integration-needed"]
-sources_used: ["src-002", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033", "src-034", "src-287", "src-288", "src-289", "src-290", "src-291", "src-292", "src-293", "src-396", "src-397", "src-398", "src-399", "src-400", "src-616", "src-617", "src-618", "src-747", "src-748"]
+sources_used: ["src-002", "src-027", "src-028", "src-029", "src-030", "src-031", "src-032", "src-033", "src-034", "src-287", "src-288", "src-289", "src-290", "src-291", "src-292", "src-293", "src-396", "src-397", "src-398", "src-399", "src-400", "src-616", "src-617", "src-618", "src-747", "src-748", "src-809"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Italy has a usable temporary-protection framework through 4 March 2027 and a formal digital-nomad / remote-worker visa, but the first pass did not find an Italy-specific TP-to-ordinary-residence bridge after March 2027, and the digital-nomad family route clearly covers a spouse and minor children, not an unmarried partner. Tier remains unassigned until taxes, rent, partner status, and post-2027 fallback mechanics are researched.
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25T08:23:11Z
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-26T18:06:00Z
 - **Tier rationale**: Italy looks operationally plausible for a married couple if the IT worker can prove a highly specialized remote-work profile and stable income, but long-term stay after TP still depends on switching to an ordinary permit rather than relying on TP.
 
 ## Block 2 — Scoring
@@ -246,9 +246,15 @@ Italy is not a uniform budget country. The north/service hubs are significantly 
 - **Ties to Ukraine**: Medium. Italy is closer than Iberia and keeps the couple inside the EU/Schengen travel ecosystem, but southern budget cities such as Palermo/Naples may require extra connections for Ukraine-related trips. [src-027][src-034][src-397][src-399][src-400]
 - **Diaspora / adaptation**: Medium-high. Institutional TP support helps, but EF places Italy below Spain/Portugal/Greece and the profile already requires Italian-speaking support for Questura, ASL/SSN, leases, tax/accounting, and schools. Keep `italian-language-integration-needed`. [src-034][src-748]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-26, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. Covered: timing / filing-location baselines for TP and DN, document-localisation friction, and one neutral immigration-law contact lead. Exact serving-consulate appointment availability, lease-registration execution, ASL / Questura appointment timing, and a signed commercialista / lawyer engagement remain application-prep checks.
+
+- **TP / Ukraine-permit filing practicality**: The practical first contact is the local `Questura`; UNHCR Italy says temporary-protection applicants should contact the Police Headquarters directly, and that the application receipt already contains the `codice fiscale` and unlocks work, study, and SSN registration from the request stage. That makes TP useful for shelter/onboarding before March 2027, but it is not a captured post-2027 settlement bridge. [src-034][src-027]
+- **Digital-nomad / remote-worker timing and sequence**: The captured consular checklist is visa-first: obtain the national visa abroad, then apply for the Italian residence permit at the local Questura within eight working days after arrival. The cited consulate states the resulting DN residence permit is currently issued for one year and can be renewed locally if employment, lodging, and health-insurance conditions remain satisfied. [src-028]
+- **Document burden**: Italy is practical only with a paper-heavy file. The DN checklist requires proof of highly specialized status, prior work experience, income evidence, health insurance, and a registered Italian lease / rental contract / deed; hotel stay or third-party hospitality is not accepted by the cited consulate. Treat lease registration and landlord cooperation as a legal-route constraint, not just a rent detail. [src-028]
+- **Professional-contact lead**: Mazzeschi Legal Counsels is a neutral contact lead, not a recommendation. Its public contact page describes the firm as focused on Italian immigration, citizenship, corporate, and commercial law, with headquarters near Siena, a Milan representative office, email `info@mazzeschi.it`, and telephone +39 0577 926921. Use it as one candidate for screening DN / family / `partita IVA` coordination, then compare with Palermo / Naples / Rome local lawyers and commercialisti before paying. [src-809]
+- **Practicality verdict**: Italy is screenable but high-friction. The most realistic path is not a walk-in DN process; it is a coordinated package: marry or otherwise solve the partner file, secure a registered lease in a budget city, align immigration evidence with the tax / `partita IVA` story, and use Italian-speaking professional help for Questura, ASL, and commercialista steps. Palermo and Naples remain the budget-first bases; Rome is service-rich but tighter; Milan is a poor default on current income.
 
 ## Block 4 — Risk dimensions (summary)
 

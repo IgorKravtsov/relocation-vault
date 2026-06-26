@@ -9752,3 +9752,15 @@ Each source entry:
 - **Facts supporting**: Portugal bureaucracy/practicality contact lead: private residence / immigration advisory firm with Portugal office at Av. 24 de Julho 4, 2o Esquerdo, Lisboa 1200-480; phone +351 21 060 5995
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-26
+
+## src-809
+- **Title**: Mazzeschi Legal Counsels - Contact us
+- **URL**: https://www.mazzeschi.it/contact-us/
+- **Archive**: [archive: failed 2026-06-26; HTTP 429 from Wayback save; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-26
+- **Used by**: Italy
+- **Facts supporting**: Italy bureaucracy/practicality contact lead: firm focused on Italian immigration, citizenship, corporate, and commercial law; headquarters near Siena; Milan representative office; email info@mazzeschi.it; telephone +39 0577 926921
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-26
