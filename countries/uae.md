@@ -1,11 +1,11 @@
 ---
 country: UAE
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-25T05:13:59Z
-sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-26T03:03:39Z
+sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["virtual-work-bridge-only", "green-visa-income-above-current-budget", "no-ordinary-naturalization-route", "extreme-summer-heat", "tax-status-threshold-monitoring", "dubai-abu-dhabi-rent-pressure", "uae-one-income-margin-risk", "uae-health-insurance-quote-gap", "uae-international-school-cost-risk", "uae-conservative-social-legal-norms", "uae-english-service-layer-not-local-default"]
 sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250", "src-462", "src-463", "src-464", "src-604", "src-605", "src-606", "src-607", "src-740", "src-741", "src-742", "src-743", "src-805", "src-806"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (early evidence points to a bridge/base jurisdiction rather than a settlement route for this couple).
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-25T05:13:59Z
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-26T03:03:39Z
 - **Tier rationale**: UAE has real short-stay and self-sponsored residence routes, and taxes are very favorable at the couple's current income level. The limiting factor remains immigration, not tax: the best-fit virtual-work route is a one-year extendable bridge above the couple's current USD 3,000/month income, the 5-year Green Residence freelancer threshold is much higher, and ordinary citizenship is nomination-based for exceptional categories rather than a predictable residence-to-passport track. [src-244][src-245][src-248][src-462]
 
 ## Block 2 - Scoring
@@ -210,14 +210,15 @@ Budget fit is also fragile. UAE tax can screen near zero at USD 3,000/month, but
 
 UAE partner fit is conditional rather than strong. If the sponsor qualifies for virtual work or a higher-income Green route and the couple marries, the student partner can plausibly be carried as spouse/family for the same bridge period. Without marriage, no captured partner route exists; without higher sponsor income, the residence file itself is not budget-safe. The Ukrainian remote-study plan does not create a UAE status by itself, so UAE should remain a bridge/base option rather than a durable one-income student-partner settlement plan.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-26, dod: passed}
 
-> **DoD**: all 4 risk categories assessed (currency/banking, political, ties-to-Ukraine, diaspora).
+> **DoD status**: passed for country screening at medium confidence. Currency/banking, political / regional, ties-to-Ukraine, and diaspora/adaptation risks are explicit enough for comparison. Exact bank onboarding, health-insurance quotes, lease registration, Ukrainian/Russian-speaking community contacts, and emirate-specific filing details remain application-prep checks.
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+- **Currency / banking risk**: Low-medium. AED is effectively pegged to USD for screening, UAE PIT/social-security exposure is near zero for a Ukrainian individual at USD 3,000/month, and VAT/corporate-tax thresholds are above current turnover. Banking risk is operational: account opening, Emirates ID/residence timing, salary/income proof above the USD 3,500 virtual-work gate, and compliance if income rises or a UAE company/free-zone structure is used. [src-244][src-462][src-464]
+- **Political / regional risk**: Medium. Ordinary crime risk is low, but the UAE is in a regional-security environment; TravelSafe flags terrorism/transport/scam/women-traveler risk as medium, and conservative social/legal norms affect daily life, cohabitation assumptions, public behavior, disputes, and rental/service transactions. [src-805]
+- **Ties to Ukraine**: Medium. UAE is far from Ukraine/Poland but has strong air links and an expat service layer; there is no Ukraine TP bridge or ordinary citizenship ladder, so keep a European or other durable residence fallback alive. [src-243][src-244][src-248]
+- **Diaspora / adaptation**: Medium-low. Dubai/Abu Dhabi have deep expat infrastructure, private clinics, international schools, and likely Ukrainian/Russian-speaking service communities, but EF scores show UAE is not fully English-default outside expat/service channels and Arabic/PRO help may be needed for disputes and government steps. [src-743][src-806]
+- **Main route risk**: UAE's practical risk is not tax; it is income and durability. The virtual-work route requires USD 3,500/month, the Green Residence freelancer threshold is far above the current income, and citizenship is nomination-based rather than a predictable ladder. [src-244][src-245][src-248]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -229,10 +230,10 @@ UAE partner fit is conditional rather than strong. If the sponsor qualifies for 
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | Low-medium | USD/AED peg and near-zero tax reduce financial volatility, but account opening, Emirates ID timing, route income proof, and threshold monitoring remain operational checks. [src-244][src-462][src-464] |
+| Political / regional | Medium | Low ordinary crime, but regional-security, transport/scam, women-traveler, and conservative social/legal-norm caveats require planning. [src-805] |
+| Ties to Ukraine | Medium | Strong air/service links help, but UAE is distant, has no TP bridge, and lacks a predictable citizenship ladder; keep a durable fallback route elsewhere. [src-243][src-248] |
+| Diaspora / adaptation | Medium-low | Dubai/Abu Dhabi/Sharjah have strong expat infrastructure, but EF data and government/lease/clinic practice still point to an English-service layer rather than full English-default integration. [src-743][src-806] |
 
 ## Block 5 - Practical verdict
 

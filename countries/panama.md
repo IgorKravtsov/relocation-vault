@@ -1,11 +1,11 @@
 ---
 country: Panama
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-23T15:57:13Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
+depth_score: 9.0
+last_updated: 2026-06-26T03:03:39Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season", "panama-territorial-tax-source-risk", "panama-itbms-export-service-gap", "panama-city-rent-pressure", "panama-health-insurance-quote-gap", "panama-international-school-cost-risk", "panama-spanish-language-integration-needed", "panama-road-and-transport-risk", "panama-one-income-margin-risk"]
 sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203", "src-444", "src-445", "src-446", "src-447", "src-448", "src-553", "src-554", "src-555", "src-556", "src-693", "src-694", "src-695", "src-696", "src-783", "src-784"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests Panama is useful as a short-to-medium-term remote-work base because the official remote-worker visa fits exactly USD 3,000/month foreign-source income, but it is a non-resident short-stay route and not a clean permanent-residence/citizenship ladder by itself. [src-199]
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-23T15:57:13Z
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-26T03:03:39Z
 - **Tier rationale**: keep as Tier-2 hint only if a separate residence route can be made realistic. The likely long-term routes require a Panama employer/professional file, friendly-nations economic/professional activity, or investment/family facts not yet proven for this Ukrainian remote-IT couple. [src-198][src-200]
 
 ## Block 2 - Scoring
@@ -235,13 +235,15 @@ For the woman partner, Panama is workable only if the couple treats legal status
 
 **Partner verdict**: Panama passes partner/student screening at medium confidence only under a conservative setup: marriage or separate eligibility for the partner, Spanish learning for both, private insurance, and a city plan that avoids Panama City rent plus international-school costs consuming the single income. [src-199][src-200][src-783][src-784]
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-26, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Tax/source-classification risk**: Panama's territorial system is attractive only if the couple's foreign-client IT revenue is confirmed as non-Panama-source / export-style income; otherwise Panama-source PIT and possibly CSS/ITBMS mechanics need modelling. [src-444][src-446][src-448]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for country screening at medium confidence. Currency/banking, political / route, ties-to-Ukraine, and diaspora/adaptation risks are now explicit enough for comparison. Final-bank onboarding, lawyer/accountant choice, live Ukrainian community, and route-specific insurance remain application-prep checks.
+
+- **Currency / banking risk**: Low-medium. Panama is unusually simple for currency planning because the couple's income is already in USD and Livingcost / route fees are effectively USD-denominated. The banking risk is operational rather than FX: remote-worker visa evidence, foreign-source income proof, Panamanian bank onboarding, DGI/RUC needs, and avoiding any Panama-source/local-client activity must be confirmed before moving. [src-199][src-444][src-553]
+- **Tax / source-classification risk**: Medium-high. The territorial-tax screen is attractive only if foreign-client remote IT income is treated as non-Panama-source or export-style income. If DGI treats services physically performed from Panama as Panama-source, the PIT-only downside is about USD 2,688/month and employee-style CSS/education-tax sensitivity about USD 2,358/month. [src-444][src-446][src-448]
+- **Political / route risk**: Medium. Panama is not an EU TP bridge and the official remote-worker visa is a 9+9 month non-resident bridge. Long-term residence depends on a separate friendly-countries, foreign-professional, investment, employment, or family file that is not yet proven for a Ukrainian foreign-client IT worker. [src-198][src-199][src-200]
+- **Ties to Ukraine**: Medium-high risk. Panama is far from Ukraine/Poland, so document renewals, family support, emergency travel, and maintaining any EU fallback status are more burdensome than in Europe. Tourist entry is only a scouting tool and should not replace an ordinary residence plan. [src-197][src-201]
+- **Diaspora / adaptation**: Medium. Panama City has expat-facing services, private healthcare, schools, lawyers, and banks, but Spanish is required for migration, leases, tax, public services, and daily administration; EF/TravelSafe evidence supports a managed Spanish-learning plan rather than an English-default move. [src-694][src-695][src-783][src-784]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -251,10 +253,10 @@ For the woman partner, Panama is workable only if the couple treats legal status
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | Low-medium | USD-denominated income/prices reduce FX risk, but bank onboarding, foreign-source proof, DGI/RUC treatment, and no-local-activity compliance remain operational checks. [src-199][src-444] |
+| Political / route | Medium | Remote-worker visa is a non-resident 9+9 month bridge; long-term residence fit is unproven for this profile. [src-198][src-199][src-200] |
+| Ties to Ukraine | Medium-high | Distance from Ukraine/Poland makes document refresh, family support, emergency flights, and EU fallback-status management costly and slow. [src-197][src-201] |
+| Diaspora / adaptation | Medium | Expat/private-service layer exists, especially in Panama City, but Spanish and local professional support are required for the real residence/tax file. [src-694][src-695][src-783][src-784] |
 
 ## Block 5 - Practical verdict
 

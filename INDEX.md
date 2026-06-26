@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-25
+last_updated: 2026-06-26
 ---
 
 # INDEX
@@ -34,10 +34,10 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Moldova | balkans-east | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 208 | `countries/moldova.md` |
 | Uruguay | latin-america | 2 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 208 | `countries/uruguay.md` |
 | Paraguay | latin-america | 2 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 208 | `countries/paraguay.md` |
-| Panama | latin-america | 2 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 190 | `countries/panama.md` |
-| Mexico | latin-america | 3 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 195 | `countries/mexico.md` |
-| Argentina | latin-america | 3 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 196 | `countries/argentina.md` |
-| UAE | middle-east-asia | 3 | — | 8.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.6 | 202 | `countries/uae.md` |
+| Panama | latin-america | 2 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 209 | `countries/panama.md` |
+| Mexico | latin-america | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 209 | `countries/mexico.md` |
+| Argentina | latin-america | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 209 | `countries/argentina.md` |
+| UAE | middle-east-asia | 3 | — | 9.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.6 | 209 | `countries/uae.md` |
 | Malaysia | middle-east-asia | 3 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 197 | `countries/malaysia.md` |
 | Thailand | middle-east-asia | 3 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 198 | `countries/thailand.md` |
 | Indonesia | middle-east-asia | 3 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 199 | `countries/indonesia.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 8.68
+- **Average depth_score**: 8.80

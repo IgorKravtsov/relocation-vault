@@ -1,8 +1,13 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-25
+last_updated: 2026-06-26
 ---
+
+## 2026-06-26 - run-209
+- Criterion slice: 5.10 risk dimensions completed for Panama, Mexico, Argentina, and UAE.
+- Panama, Mexico, Argentina, UAE: depth_score 8.0 -> 9.0 (section 5.10 completed).
+- Updated `dimensions/risk-dimensions-5.10.md`; sources added: 0; claims added: 0; verification queue: 0 pending.
 
 ## 2026-06-25 - run-208
 - Criterion slice: 5.10 risk dimensions completed for Bosnia and Herzegovina, Moldova, Uruguay, and Paraguay.

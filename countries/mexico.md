@@ -1,11 +1,11 @@
 ---
 country: Mexico
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-24T07:29:05Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-26T03:03:39Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["ukrainian-entry-visa-likely-required", "temporary-residence-income-above-current-budget", "no-dedicated-digital-nomad-visa", "coastal-heat-humidity", "mexico-resico-eligibility-gap", "mexico-vat-export-service-gap", "mexico-social-security-category-gap", "mexico-city-rent-pressure", "tourist-coast-cost-pressure", "mexico-health-insurance-quote-gap", "mexico-international-school-cost-risk", "mexico-public-safety-regional-risk", "mexico-spanish-language-integration-needed", "mexico-one-income-margin-risk"]
 sources_used: ["src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232", "src-449", "src-450", "src-451", "src-452", "src-453", "src-454", "src-455", "src-570", "src-571", "src-572", "src-573", "src-574", "src-709", "src-710", "src-711", "src-712", "src-791", "src-792"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests Mexico is a possible ordinary-residence fallback rather than a clean digital-nomad route: temporary residence can lead to permanent residence after four years, but 2026 economic-solvency thresholds appear above the couple's current ~$3,000/month income if they apply through the standard income route. [src-227][src-229]
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-24
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-26T03:03:39Z
 - **Tier rationale**: keep as Tier-3 hint until the exact serving-consulate threshold, entry mechanics for Ukrainian passports, taxes, rent, healthcare, and partner sponsorship are checked.
 
 ## Block 2 - Scoring
@@ -217,12 +217,15 @@ Practical partner playbook:
 
 **Partner-fit verdict**: Mexico is not impossible for the student partner, but it is fragile on the couple's current facts. It works only if the main applicant clears the consular financial gate or savings route, the partner path is spouse/family-unity or independently eligible, and the household accepts Spanish-first administration plus a tight one-income budget. [src-227][src-229][src-792]
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-26, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for country screening at medium confidence. Currency/banking, political/safety, ties-to-Ukraine, and diaspora/adaptation risks are explicit enough for comparison. Serving-consulate solvency, SAT/RFC setup, neighborhood safety, and live community checks remain application-prep work.
+
+- **Currency / banking risk**: Medium-high. MXN exposure is not the only issue: a temporary-residence file likely needs consular financial evidence, then INM/RFC/SAT banking and invoice setup. Ordinary PIT-only net screens near USD 2,447/month before VAT, IMSS, accountant, insurance, and immigration costs, while RESICO/export-service treatment is not yet proven. [src-227][src-229][src-449][src-452][src-455]
+- **Political / safety risk**: Medium-high. Mexico is regionally uneven: WPR/TravelSafe proxies give medium overall risk, but crime/kidnapping concerns, tourist-area pickpocketing, transport habits, and neighborhood selection matter. Treat Guadalajara or Merida-style screened neighborhoods as mandatory rather than assuming countrywide comfort. [src-791]
+- **Ties to Ukraine**: High risk. Mexico has no EU TP bridge, ordinary entry may require a visa, a temporary Polish residence card should not be assumed to waive Mexican entry, and the standard temporary-residence income benchmark appears above the couple's current USD 3,000/month. [src-226][src-229]
+- **Diaspora / adaptation**: Medium-high. Spanish is the operating language for INM, SAT/RFC, leases, public healthcare, schools, and banking; EF places Mexico low nationally, although Guadalajara and Merida are more workable than some alternatives. [src-792]
+- **Main route risk**: Mexico's long-term ladder is conceptually attractive because temporary residence can lead to permanent residence after four years, but at this income the solvency gate and tax/compliance file are the blockers. [src-227][src-229][src-449]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -232,10 +235,10 @@ Practical partner playbook:
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | Medium-high | MXN/SAT/RFC and tax-registration mechanics combine with a conservative PIT-only net around USD 2,447/month and unresolved VAT/IMSS/RESICO fit. [src-449][src-452][src-455] |
+| Political / safety | Medium-high | Safety is city/neighborhood-specific; WPR/TravelSafe support a medium-risk screen with crime, transport, and tourist-area caution. [src-791] |
+| Ties to Ukraine | High | No TP bridge; Ukrainian entry / visa-alternative mechanics and the consular solvency gate are still controlling, and Mexico is distant from the Poland/Ukraine support base. [src-226][src-229] |
+| Diaspora / adaptation | Medium-high | Spanish-first administration is unavoidable and EF scores are low nationally; Guadalajara/Merida are more plausible than English-default planning. [src-792] |
 
 ## Block 5 - Practical verdict
 

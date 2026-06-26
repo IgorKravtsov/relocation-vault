@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 208,
+  "iteration": 209,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-25T23:57:07Z",
+  "last_run_timestamp": "2026-06-26T03:03:39Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.10",
-    "reason": "Continue the 5.10 risk-dimensions slice with Panama, Mexico, Argentina, and UAE unless verification or staleness triggers take priority."
+    "reason": "Continue the 5.10 risk-dimensions slice with Malaysia, Thailand, Indonesia, and Kazakhstan unless verification or staleness triggers take priority."
   },
   "countries": {
     "Spain": {
@@ -863,14 +863,15 @@
     "Panama": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -878,7 +879,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -894,20 +894,21 @@
         "panama-road-and-transport-risk",
         "panama-one-income-margin-risk"
       ],
-      "last_iteration": 190,
+      "last_iteration": 209,
       "unverified_count": 0
     },
     "Mexico": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -915,7 +916,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -934,20 +934,21 @@
         "mexico-spanish-language-integration-needed",
         "mexico-one-income-margin-risk"
       ],
-      "last_iteration": 195,
+      "last_iteration": 209,
       "unverified_count": 0
     },
     "Argentina": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -955,7 +956,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -973,13 +973,13 @@
         "argentina-spanish-language-integration-needed",
         "argentina-street-crime-scam-risk"
       ],
-      "last_iteration": 196,
+      "last_iteration": 209,
       "unverified_count": 0
     },
     "UAE": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.3",
@@ -987,14 +987,14 @@
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -1010,7 +1010,7 @@
         "uae-conservative-social-legal-norms",
         "uae-english-service-layer-not-local-default"
       ],
-      "last_iteration": 202,
+      "last_iteration": 209,
       "unverified_count": 0
     },
     "Malaysia": {

@@ -1,11 +1,11 @@
 ---
 country: Argentina
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-24T10:34:43Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
+depth_score: 9.0
+last_updated: 2026-06-26T03:03:39Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["digital-nomad-bridge-only", "tourist-entry-before-travel-check", "citizenship-continuous-no-exit-rule", "inflation-currency-risk", "argentina-pit-vat-gross-income-tax-risk", "argentina-social-security-category-gap", "argentina-monotributo-export-fit-gap", "buenos-aires-rent-pressure", "argentina-one-income-margin-risk", "argentina-health-insurance-quote-gap", "argentina-international-school-cost-risk", "argentina-spanish-language-integration-needed", "argentina-street-crime-scam-risk"]
 sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242, src-456, src-457, src-458, src-459, src-460, src-461, src-575, src-576, src-577, src-578, src-579, src-713, src-714, src-715, src-716, src-793, src-794]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint retained until taxes/cost/rent and residence-to-citizenship practicality are verified).
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-24
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-26T03:03:39Z
 - **Tier rationale**: First pass suggests Argentina is legally interesting because Ukrainian ordinary-passport holders have a usable 90-day tourist-entry screening baseline and Argentina has an official digital-nomad transitory residence plus a short legal naturalization horizon. However, the DN status is only 180 + 180 days and transitory, rentista excludes personal-work income, and 2025 citizenship changes require continuous legal residence with no exits during the two-year period. Treat as promising but high-verification until a durable ordinary residence route for foreign-client IT income is confirmed. [src-233][src-234][src-236][src-237]
 
 ## Block 2 — Scoring
@@ -208,26 +208,28 @@ Buenos Aires has the strongest international-school ecosystem. The same guide na
 **Partner verdict.** Argentina is a plausible bridge for the couple only if they preserve a non-Argentine fallback and treat marriage as a possible simplifier, not a magic route. For settlement scoring, the woman should be modelled as independently needing lawful status until a durable Argentine residence category and family/dependent rules are confirmed. [src-235][src-238][src-240]
 
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-26, dod: passed}
 
-- **Currency/banking risk**: High. Argentina's macro/currency controls, foreign-client payment settlement, VAT/export-service treatment, and provincial gross-income-tax exposure can dominate a USD 3,000/month plan; run-093 resolved `vq-114` for screening, but this remains an application-prep/accountant risk.
-- **Street-crime / scam risk**: Medium. TravelSafe rates overall risk low, but pickpocket, scam, counterfeit-currency, and women-traveler risks are medium; use safer neighborhoods, app taxis, and conservative cash handling. [src-793]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for country screening at medium confidence. Currency/banking, political/safety, ties-to-Ukraine, and diaspora/adaptation risks are explicit enough for comparison. Durable-residence category, ARCA/CUIT setup, banking/FX settlement, and final-city safety/community checks remain application-prep/legal work.
+
+- **Currency / banking risk**: High. Argentina's macro/currency environment, foreign-client payment settlement, VAT/export-service treatment, provincial gross-income-tax exposure, and self-employed contribution category can dominate the USD 3,000/month plan. The PIT-only screen is workable, but the usable net can fall materially once banking, ARCA/CUIT, VAT, Ingresos Brutos, and health/social contributions are known. [src-456][src-459][src-460][src-461]
+- **Political / safety risk**: Medium. TravelSafe/WPR make Argentina stronger than several regional alternatives on ordinary safety, but street crime, scams, counterfeit-currency handling, informal FX, and big-city routines still require conservative habits. Political/economic volatility remains tied to the currency and banking risk rather than to daily violent-crime risk alone. [src-793]
+- **Ties to Ukraine**: Medium-high risk. Argentina is far from Ukraine/Poland, and the DN route is only a 180+180 day transitory bridge. The two-year citizenship headline is only useful if a durable legal residence category is found and maintained with the strict no-exit rule. [src-235][src-237][src-238][src-240]
+- **Diaspora / adaptation**: Medium-low. Argentina has the best English-proficiency screen among the Spanish-speaking Latin America candidates captured so far, especially Buenos Aires/Mendoza/Cordoba, but DNM/ARCA, leases, healthcare, schools, and legal filings are still Spanish-first. [src-794]
+- **Main route risk**: The DN route is a good test bridge but not settlement by itself, and rentista excludes personal-work income. A specific temporary residence category for foreign-client IT must be confirmed before Argentina can be treated as a durable post-2027 option. [src-235][src-238][src-239]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
 [verification required]
 
-## Block 4 — Risk dimensions (summary)
+## Block 4 - Risk dimensions (summary)
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | High | Tax pass confirms the planning risk is not only PIT: VAT/export-service classification, provincial gross-income tax, self-employed contributions, and foreign-client payment settlement need Argentine adviser confirmation. |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | Medium | EF EPI score 575 makes English fallback better than in many Spanish-speaking countries, but Spanish remains required for DNM/ARCA, leases, healthcare, schools, and integration. [src-794] |
+| Currency / banking | High | ARS/FX/banking, VAT/export-service, Ingresos Brutos, and self-employed contribution fit can dominate the PIT-only budget screen. [src-456][src-459][src-460][src-461] |
+| Political / safety | Medium | Safety proxies are relatively favorable for the region, but street crime, scams, counterfeit-currency and informal-FX handling remain practical risks. [src-793] |
+| Ties to Ukraine | Medium-high | Argentina is distant and the DN route is only a bridge; the short citizenship horizon requires durable legal residence and no exits during the qualifying period. [src-235][src-238][src-240] |
+| Diaspora / adaptation | Medium-low | EF EPI score 575 makes English fallback comparatively strong, but Spanish remains required for DNM/ARCA, leases, healthcare, schools, and integration. [src-794] |
 
 ## Block 5 — Practical verdict
 

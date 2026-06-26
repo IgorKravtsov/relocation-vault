@@ -1,12 +1,12 @@
 # Dimension: Risk dimensions (5.10)
 
-Last updated: 2026-06-25
+Last updated: 2026-06-26
 Mode: criterion-slice
-Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay
+Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama, Mexico, Argentina, UAE
 
 ## Scope
 
-This slice converts pending 5.10 placeholders for high-priority EU / Schengen countries into screening-level risk baselines. It does not rank countries; it records which risk category is likely to drive application-prep work.
+This slice converts pending 5.10 placeholders across the country set into screening-level risk baselines. It does not rank countries; it records which risk category is likely to drive application-prep work.
 
 | Country | Currency / banking | Political / Ukraine-posture | Ties to Ukraine | Diaspora / adaptation | Main live risk | Sources |
 |---|---|---|---|---|---|---|
@@ -34,6 +34,10 @@ This slice converts pending 5.10 placeholders for high-priority EU / Schengen co
 | Moldova | medium | medium-high | low-medium | medium | DN threshold / PR-counting uncertainty, Transnistria/regional-security exposure, Chisinau-only default | [src-219][src-220][src-221][src-222][src-426][src-567][src-706][src-708][src-789][src-790] |
 | Uruguay | medium | low-medium | medium-high | medium | Distant but stable ordinary-residence file; BPS/VAT, habitual residence, Spanish, and Montevideo budget discipline | [src-180][src-182][src-184][src-430][src-433][src-546][src-548][src-684][src-688][src-779][src-780] |
 | Paraguay | medium-high | medium | high | medium-high | Residence/lucrative-activity visa sequencing, PYG/VAT/IPS risk, distance, Spanish/Guarani and transport friction | [src-190][src-191][src-192][src-193][src-437][src-442][src-550][src-552][src-690][src-691][src-781][src-782] |
+| Panama | low-medium | medium | medium-high | medium | Remote-worker bridge only, territorial-tax source classification, distance, Spanish administration | [src-197][src-198][src-199][src-200][src-201][src-444][src-446][src-448][src-553][src-554][src-555][src-556][src-783][src-784] |
+| Mexico | medium-high | medium-high | high | medium-high | Consular solvency above current income, visa/entry mechanics, SAT/VAT/IMSS fit, regional safety and Spanish bureaucracy | [src-226][src-227][src-229][src-449][src-452][src-455][src-570][src-571][src-572][src-573][src-574][src-791][src-792] |
+| Argentina | high | medium | medium-high | medium-low | ARS/FX and tax-category risk, DN bridge-only status, no-exit citizenship condition, durable residence gap | [src-233][src-235][src-237][src-238][src-239][src-240][src-456][src-459][src-460][src-461][src-576][src-577][src-578][src-793][src-794] |
+| UAE | low-medium | medium | medium | medium-low | Immigration income gate, no ordinary citizenship ladder, regional/social-norm caveats, high private-market costs | [src-243][src-244][src-245][src-248][src-462][src-464][src-604][src-605][src-606][src-607][src-805][src-806] |
 
 ## Cross-country observations
 
@@ -49,7 +53,10 @@ This slice converts pending 5.10 placeholders for high-priority EU / Schengen co
 - Across the non-EU Balkan/Caucasus options, regional proximity to Ukraine helps compared with distant bridge countries, but none should be treated as EU/Schengen continuity; each needs its own residence and tax file before the 2027 planning horizon.
 - For the Bosnia/Moldova/Uruguay/Paraguay subgroup, the risk split is clear: Bosnia is affordable but route-heavy; Moldova is nearby and practical but DN-threshold / PR-counting / Transnistria-sensitive; Uruguay is the cleaner ordinary-residence case but far and budget-sensitive; Paraguay is cheapest but highest-friction on distance, residence-visa sequencing, and tax/VAT/IPS setup.
 - Distance from Ukraine becomes a decisive operational risk in the Latin America pair even when legal routes look promising: document refreshes, family support, emergency return flights, Spanish-only administration, and loss of EU/Poland proximity all need to be weighed before treating Uruguay or Paraguay as fallback bases.
+- For the Panama/Mexico/Argentina/UAE subgroup, Panama and UAE are clearest as bridge jurisdictions but not settlement ladders at the current income; Mexico has a conceptually durable temporary-to-permanent ladder but the solvency gate is above budget; Argentina has the most interesting naturalization headline but the DN route is only a bridge and ARS/tax/banking risk is high.
+- Currency risk splits sharply: UAE and Panama have lower FX volatility because of USD/AED structures, Mexico adds MXN plus SAT/RFC complexity, and Argentina is the highest financial-risk case because ARS/FX settlement, VAT, Ingresos Brutos, and self-employed category can change the usable net.
+- All four need a durable-route check before being treated as post-2027 fallback bases: Panama's remote-worker visa is 9+9 months, Mexico needs consular solvency, Argentina needs a real temporary category beyond DN, and UAE needs income above the virtual-work gate or a higher-income Green/freelancer route.
 
 ## Next slice candidate
 
-Continue 5.10 risk dimensions with Panama, Mexico, Argentina, and UAE, unless verification or staleness triggers take priority.
+Continue 5.10 risk dimensions with Malaysia, Thailand, Indonesia, and Kazakhstan, unless verification or staleness triggers take priority.
