@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 207,
+  "iteration": 208,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-25T20:50:12Z",
+  "last_run_timestamp": "2026-06-25T23:57:07Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.10",
-    "reason": "Continue the 5.10 risk-dimensions slice with Bosnia and Herzegovina, Moldova, Uruguay, and Paraguay unless verification or staleness triggers take priority."
+    "reason": "Continue the 5.10 risk-dimensions slice with Panama, Mexico, Argentina, and UAE unless verification or staleness triggers take priority."
   },
   "countries": {
     "Spain": {
@@ -717,14 +717,15 @@
     "Bosnia and Herzegovina": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -732,7 +733,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -748,20 +748,21 @@
         "bosnia-road-and-transport-risk",
         "bosnia-one-income-margin-risk"
       ],
-      "last_iteration": 193,
+      "last_iteration": 208,
       "unverified_count": 0
     },
     "Moldova": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -769,7 +770,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -785,20 +785,21 @@
         "moldova-international-school-cost-risk",
         "moldova-one-income-margin-risk"
       ],
-      "last_iteration": 194,
+      "last_iteration": 208,
       "unverified_count": 0
     },
     "Uruguay": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -806,7 +807,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -820,20 +820,21 @@
         "uruguay-spanish-language-integration-needed",
         "uruguay-one-income-margin-risk"
       ],
-      "last_iteration": 188,
+      "last_iteration": 208,
       "unverified_count": 0
     },
     "Paraguay": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -841,7 +842,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -857,7 +857,7 @@
         "paraguay-road-and-transport-risk",
         "paraguay-one-income-margin-risk"
       ],
-      "last_iteration": 189,
+      "last_iteration": 208,
       "unverified_count": 0
     },
     "Panama": {

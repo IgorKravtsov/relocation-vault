@@ -2,7 +2,7 @@
 
 Last updated: 2026-06-25
 Mode: criterion-slice
-Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia
+Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay
 
 ## Scope
 
@@ -30,6 +30,10 @@ This slice converts pending 5.10 placeholders for high-priority EU / Schengen co
 | Georgia | medium | medium | medium-low | medium | IT-residence / small-business fit, GEL exposure, occupied-territory risk, Georgian bureaucracy | [src-155][src-157][src-365][src-370][src-538][src-539][src-775][src-776] |
 | Albania | medium | medium | medium | medium | Official route-page gaps, tax-regime sunset, road/transport friction, Albanian bureaucracy | [src-164][src-166][src-167][src-407][src-412][src-542][src-543][src-544][src-777][src-778] |
 | North Macedonia | medium | medium | low-medium | medium | No DN route, self-employment/company proof, MKD/tax downside, Macedonian bureaucracy | [src-205][src-206][src-207][src-209][src-417][src-557][src-558][src-559][src-560][src-785][src-786] |
+| Bosnia and Herzegovina | medium | medium-high | medium | medium | High-burden company/work route, no DN, fragmented administration, local-language execution | [src-214][src-215][src-218][src-420][src-562][src-563][src-701][src-704][src-787][src-788] |
+| Moldova | medium | medium-high | low-medium | medium | DN threshold / PR-counting uncertainty, Transnistria/regional-security exposure, Chisinau-only default | [src-219][src-220][src-221][src-222][src-426][src-567][src-706][src-708][src-789][src-790] |
+| Uruguay | medium | low-medium | medium-high | medium | Distant but stable ordinary-residence file; BPS/VAT, habitual residence, Spanish, and Montevideo budget discipline | [src-180][src-182][src-184][src-430][src-433][src-546][src-548][src-684][src-688][src-779][src-780] |
+| Paraguay | medium-high | medium | high | medium-high | Residence/lucrative-activity visa sequencing, PYG/VAT/IPS risk, distance, Spanish/Guarani and transport friction | [src-190][src-191][src-192][src-193][src-437][src-442][src-550][src-552][src-690][src-691][src-781][src-782] |
 
 ## Cross-country observations
 
@@ -43,7 +47,9 @@ This slice converts pending 5.10 placeholders for high-priority EU / Schengen co
 - For the Slovakia/Slovenia/Montenegro/Serbia subgroup, the risk driver splits: Slovakia/Slovenia are route-switch and one-income-margin cases; Montenegro is a warm non-EU DN durability case; Serbia is a low-cost regional fallback with higher currency, political, and language-bureaucracy friction.
 - For the Turkey/Georgia/Albania/North Macedonia subgroup, risk is mainly ordinary-route execution rather than headline affordability: Turkey has a real DN route but income/currency/security pressure, Georgia has an attractive IT/small-business path but political/renewal uncertainty, Albania is warm and cheap but official capture and regime-sunset risks remain, and North Macedonia is cheapest but lacks a DN route.
 - Across the non-EU Balkan/Caucasus options, regional proximity to Ukraine helps compared with distant bridge countries, but none should be treated as EU/Schengen continuity; each needs its own residence and tax file before the 2027 planning horizon.
+- For the Bosnia/Moldova/Uruguay/Paraguay subgroup, the risk split is clear: Bosnia is affordable but route-heavy; Moldova is nearby and practical but DN-threshold / PR-counting / Transnistria-sensitive; Uruguay is the cleaner ordinary-residence case but far and budget-sensitive; Paraguay is cheapest but highest-friction on distance, residence-visa sequencing, and tax/VAT/IPS setup.
+- Distance from Ukraine becomes a decisive operational risk in the Latin America pair even when legal routes look promising: document refreshes, family support, emergency return flights, Spanish-only administration, and loss of EU/Poland proximity all need to be weighed before treating Uruguay or Paraguay as fallback bases.
 
 ## Next slice candidate
 
-Continue 5.10 risk dimensions with Bosnia and Herzegovina, Moldova, Uruguay, and Paraguay, unless verification or staleness triggers take priority.
+Continue 5.10 risk dimensions with Panama, Mexico, Argentina, and UAE, unless verification or staleness triggers take priority.

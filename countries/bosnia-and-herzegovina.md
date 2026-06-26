@@ -1,11 +1,11 @@
 ---
 country: Bosnia and Herzegovina
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-24T01:16:39Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T23:57:07Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["no-dedicated-digital-nomad-visa", "company-founder-route-high-burden", "no-captured-ukraine-protection-bridge", "cold-inland-winters", "bosnia-entity-tax-and-ssc-fit-gap", "bosnia-foreign-client-vat-fit-gap", "bosnia-health-insurance-onboarding-gap", "bosnia-international-school-cost-risk", "bosnian-croatian-serbian-language-integration-needed", "bosnia-road-and-transport-risk", "bosnia-one-income-margin-risk"]
 sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218", "src-418", "src-419", "src-420", "src-421", "src-422", "src-423", "src-561", "src-562", "src-563", "src-564", "src-565", "src-701", "src-702", "src-703", "src-704", "src-787", "src-788"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint retained until tax / cost / ordinary-residence viability is researched).
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-24
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and now also has entity-specific tax / social-contribution uncertainty. Cost/rent screening is comparatively affordable, and healthcare / education are screenable with Sarajevo as the safest services base. Comfort and partner fit are now screenable too: safety is low-risk but transport/pickpocket/scam caveats matter, English is relatively strong in EF data, and marriage or independent status remains the conservative partner baseline. Low rent and acceptable schools still do not solve the legal-route burden. [src-214][src-215][src-418][src-420][src-561][src-563][src-565][src-701][src-703][src-704][src-787][src-788]
 
 ## Block 2 — Scoring
@@ -261,12 +261,16 @@ Bosnia's low rent helps the one-income plan: modest 40 m2 proxies run about **$1
 For screening, Bosnia and Herzegovina fits the couple only if they accept a conservative relationship/status plan: marry before filing or keep the partner on an independent lawful basis. The woman's Ukrainian remote study is compatible with living there only after status is solved; it is not itself a residence route. Low living costs make a one-income household plausible on paper, but the high-burden company/work route, entity tax/SSC uncertainty, healthcare onboarding, and possible family-document requirements keep the country in a cautious, lawyer-first bucket.
 
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. This is a synthesis of already captured legal, tax, cost, healthcare, education, comfort, and partner evidence; it adds no new source IDs and should not be read as final-country ranking.
+
+- **Currency / banking risk: medium.** Bosnia and Herzegovina uses the convertible mark (BAM), which reduces wild FX volatility relative to more floating currencies because the practical screen already models USD income through a BAM FX snapshot. The bigger financial risk is not rent but entity-specific tax / social-contribution fit: if the ordinary company/work route pulls the IT worker into employee-style contribution mechanics, the conservative net falls to about USD 1,878-1,881 before lawyer, accountant, insurance, and company-compliance costs. [src-420][src-423][src-562][src-563]
+- **Political / route risk: medium-high.** Daily safety is not the blocker, but the country is administratively fragmented by entity/canton and the visible foreign-client route is high-burden: no DN route is captured, the company-founder checklist can require five BiH employees per foreign founder, and no Ukraine-specific post-2027 protection bridge is captured. Treat Bosnia as a lawyer-first ordinary-route case, not a plug-and-play remote-worker base. [src-214][src-215][src-218][src-787]
+- **Ties to Ukraine: medium.** Geography keeps Bosnia closer to Ukraine/Europe than Latin America or Asia, and short-stay scouting appears plausible once Ukraine entry is officially checked. Still, the profile has no captured Ukraine-specific settlement bridge, no strong captured diaspora/NGO route beyond UNHCR international-protection information, and local residence must stand on its own. [src-204][src-214][src-218]
+- **Diaspora / adaptation risk: medium.** EF's English score is relatively strong for the region and Sarajevo has the best service, school, healthcare, lawyer/accountant, and international-school base. Adaptation still needs Bosnian/Croatian/Serbian help for leases, tax, health funds, schools, and residence, plus road/transport caution. [src-701][src-703][src-704][src-787][src-788]
+
+**Risk verdict**: Bosnia and Herzegovina is low-cost and comfort-screenable, but its risk driver is legal-route execution. Use Sarajevo for first administration/services or Mostar for a warm-cost fallback only after immigration/accountant counsel confirms a workable ordinary route; low rent is not enough to offset the company/work burden. [src-215][src-562][src-563][src-787]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -276,10 +280,10 @@ For screening, Bosnia and Herzegovina fits the couple only if they accept a cons
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | BAM modelling is manageable, but entity tax / SSC fit and company-compliance costs can push the USD 3,000/month budget toward the conservative downside. [src-420][src-423] |
+| Political | medium-high | No DN route, no captured Ukraine bridge, and a heavy company/founder route make ordinary-status execution the main risk rather than everyday safety. [src-214][src-215][src-218] |
+| Ties to Ukraine | medium | Regional proximity helps, but no Ukraine-specific settlement bridge or strong captured diaspora route has been proven. [src-204][src-218] |
+| Diaspora / adaptation | medium | EF English is strong for the region and Sarajevo has services, but local-language administration, roads/transport, and professional-help dependence remain material. [src-701][src-704][src-787][src-788] |
 
 ## Block 5 — Practical verdict
 

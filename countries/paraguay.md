@@ -1,11 +1,11 @@
 ---
 country: Paraguay
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-23T12:49:14Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T23:57:07Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers", "paraguay-foreign-client-vat-fit-gap", "paraguay-social-security-category-gap", "asuncion-rent-pressure", "paraguay-private-insurance-route-fit-gap", "paraguay-international-school-cost-risk", "paraguay-spanish-guarani-language-integration-needed", "paraguay-road-and-transport-risk", "paraguay-one-income-margin-risk"]
 sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-437", "src-438", "src-439", "src-440", "src-441", "src-442", "src-443", "src-549", "src-550", "src-551", "src-552", "src-689", "src-690", "src-691", "src-692", "src-781", "src-782"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests a potentially useful long-term route because Paraguay has a normal temporary residence -> permanent residence ladder and the Constitution gives a 3-year naturalization baseline, but the captured official route is generic "lawful activity" residence rather than a digital-nomad visa. [src-191][src-192][src-193]
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-23T12:49:14Z
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: keep as Tier-2 hint until the visa-for-residence filing route, foreign-client IT income evidence, taxes, cost, rent, healthcare, and practical lawyer/accountant mechanics are checked.
 
 ## Block 2 - Scoring
@@ -254,12 +254,16 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 
 **Partner-fit verdict**: Paraguay is workable for the student partner as a conservative marriage-or-independent-status plan, not as an uncaptured unmarried-dependent or online-student route. It is one-income plausible by Latin America standards, but the margin depends more on route/tax/healthcare execution than on rent or groceries.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. This is a risk synthesis from existing Paraguay legal, tax, cost, healthcare, education, comfort, and partner evidence. It does not replace the application-prep need to confirm residence-visa sequencing, lawful-activity proof, DNIT/RUC/VAT/IPS treatment, or spouse/dependent mechanics.
+
+- **Currency / banking risk: medium-high.** Paraguay is very affordable on paper, but the PYG / tax / VAT / IPS file is not yet filing-ready. The PIT-only model leaves about USD 2,727/month and the 9% social-security sensitivity about USD 2,484, before VAT, accountant, lawyer, private healthcare, and immigration costs; if VAT is economically borne by the worker, the margin narrows further. [src-437][src-440][src-442][src-443][src-550][src-552]
+- **Political / route risk: medium.** Paraguay has an ordinary temporary-to-permanent residence ladder and a 3-year constitutional naturalization baseline, but the same official visa table that opens 90-day tourist entry says Ukrainians need a visa for residence / lucrative activities. The route is therefore consular/lawyer-execution risk, not a simple tourist-to-DN conversion. [src-190][src-191][src-192][src-193]
+- **Ties to Ukraine: high risk.** Paraguay is far from Ukraine/Europe, landlocked, and not connected to any Ukraine-protection continuity. It can be a long-term ordinary-residence project, but document refreshes, family visits, emergency returns, and maintaining Polish/European ties are much harder than in European or Moldova options. [src-190][src-191]
+- **Diaspora / adaptation risk: medium-high.** Asuncion has the best lawyer/accountant, clinic, school, English-tolerant service, and immigration-support base; Encarnacion is the affordability/climate fallback. Spanish is mandatory and Guarani matters outside the capital; TravelSafe / Expat Arrivals also flag transport, roads, petty theft/scams, tap-water caution, and border-region issues. [src-690][src-691][src-781][src-782]
+
+**Risk verdict**: Paraguay is budget-forgiving but operationally high-friction. Keep Asuncion as the setup base with a rent cap and Encarnacion as a later fallback only after residence, tax, healthcare, and city safety/service checks are stable. [src-550][src-552][src-781][src-782]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -269,10 +273,10 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium-high | Low costs help, but PYG exposure plus unresolved DNIT/RUC, VAT, IPS/private-social-security, and lawful-activity tax fit can narrow the one-income buffer. [src-437][src-442][src-443] |
+| Political | medium | Temporary-to-permanent residence exists, but Ukrainians appear visa-required for residence/lucrative activity, so route sequencing needs counsel. [src-190][src-191][src-192] |
+| Ties to Ukraine | high | Far from Ukraine/Europe and outside TP continuity; document refreshes, family support, and emergency travel are materially harder. [src-190][src-191] |
+| Diaspora / adaptation | medium-high | Spanish/Guarani, roads/transport, petty-theft/scam, tap-water, and border-region caveats make Asuncion-first professional support important. [src-690][src-781][src-782] |
 
 ## Block 5 - Practical verdict
 

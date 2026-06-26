@@ -1,11 +1,11 @@
 ---
 country: Moldova
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-24T04:22:20Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T23:57:07Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["digital-nomad-threshold-current-year-gap", "pr-counting-for-digital-nomad-unclear", "post-2027-tp-bridge-gap", "transnistria-practical-risk", "moldova-transnistria-border-security-risk", "moldova-romanian-russian-language-integration-needed", "moldova-entrepreneur-contribution-category-gap", "moldova-foreign-client-vat-fit-gap", "moldova-health-insurance-onboarding-gap", "moldova-international-school-cost-risk", "moldova-one-income-margin-risk"]
 sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225, src-424, src-425, src-426, src-427, src-428, src-429, src-566, src-567, src-568, src-569, src-705, src-706, src-707, src-708, src-789, src-790]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence shows Moldova has an official digital-nomad residence route and temporary protection for displaced Ukrainians until 01 March 2027, but long-term usefulness for this couple depends on the current average-salary threshold, whether digital-nomad residence counts toward permanent residence, and post-TP transition mechanics. [src-220][src-222]
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-24
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: Not assigned. Treat Moldova as a potentially practical nearby bridge/base, not yet a proven long-term route to PR/citizenship for a foreign-client IT worker.
 
 ## Block 2 — Scoring
@@ -254,12 +254,16 @@ Moldova is comfort-screenable but not a low-friction lifestyle choice. Chisinau 
 4. Budget on the conservative fixed-contribution tax sensitivity and add private insurance, legal/accounting, translation, and residence-filing costs before deciding that Moldova is affordable. [src-429][src-426]
 5. Keep Tiraspol out of the default plan despite low rent, because Transnistria/regional-security risk is a comfort and legality/practicality problem for a residence file. [src-789][src-569]
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. This section synthesizes existing Moldova legal, tax, cost, healthcare, education, comfort, and partner evidence. It does not close the DN threshold / PR-counting application-prep checks.
+
+- **Currency / banking risk: medium.** Moldova is cheap enough on day-to-day costs, but MDL exposure and the unresolved contribution category mean the couple should budget from the conservative fixed-contribution tax sensitivity of about USD 2,469-2,490/month before accountant, insurance, immigration, and school costs. Chisinau rent remains manageable, but the margin is not large once route costs are added. [src-426][src-429][src-567][src-568]
+- **Political / security risk: medium-high.** Moldova has an official DN route and TP through 01 March 2027, but the post-TP bridge is not captured, DN/IT PR counting is unproven, and Transnistria / regional-security exposure is already a practical city-choice warning. The safe plan is Chisinau plus ordinary status before TP expiry, not reliance on Tiraspol or automatic transition. [src-219][src-220][src-221][src-222][src-789]
+- **Ties to Ukraine: low-medium risk.** Moldova is the strongest proximity/cultural-continuity case in this subgroup: near Ukraine, TP support is captured, Romanian/Russian language familiarity may help, and overland logistics are easier than Latin America. The risk is that proximity does not solve the legal question: the couple still needs DN threshold, dependent mechanics, and PR-counting confirmation. [src-220][src-222][src-790]
+- **Diaspora / adaptation risk: medium.** Chisinau has the best captured service base, English score, private clinics, schools, and GIM/accountant access. English-only life is not safe; plan Romanian/Russian support for GIM, tax, CNAM/CNAS, leases, public education, and healthcare. [src-567][src-706][src-708][src-790]
+
+**Risk verdict**: Moldova is practical as a nearby bridge/base if the DN formula and partner/status file work, but it remains a route-threshold and regional-security case. Chisinau is the only default planning base; Balti is an affordability fallback, and Tiraspol should stay outside the normal relocation plan. [src-220][src-567][src-568][src-789]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -269,10 +273,10 @@ Moldova is comfort-screenable but not a low-friction lifestyle choice. Chisinau 
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required]; Transnistria is already a practical caution for city choice. |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | Low Chisinau/Balti costs help, but MDL exposure and contribution-category uncertainty leave a narrow one-income margin after route costs. [src-426][src-429][src-567] |
+| Political | medium-high | DN route exists, but post-TP bridge, DN/IT PR counting, dependent mechanics, and Transnistria/regional-security exposure keep the route risky. [src-220][src-221][src-222][src-789] |
+| Ties to Ukraine | low-medium | Proximity to Ukraine, captured TP support, and Romanian/Russian familiarity are advantages, but do not replace ordinary Moldovan status. [src-222][src-790] |
+| Diaspora / adaptation | medium | Chisinau has the best English/service base, yet Romanian/Russian support is still needed for GIM, tax, healthcare, leases, and schools. [src-706][src-708][src-790] |
 
 ## Block 5 — Practical verdict
 

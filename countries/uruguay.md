@@ -1,11 +1,11 @@
 ---
 country: Uruguay
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-23T09:27:59Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9"]
+depth_score: 9.0
+last_updated: 2026-06-25T23:57:07Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence", "uruguay-self-employed-bps-gap", "uruguay-foreign-client-vat-fit-gap", "montevideo-punta-del-este-rent-pressure", "uruguay-private-insurance-quote-gap", "uruguay-international-school-cost-risk", "uruguay-spanish-language-integration-needed", "uruguay-one-income-margin-risk"]
 sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186", "src-430", "src-431", "src-432", "src-433", "src-434", "src-435", "src-436", "src-545", "src-546", "src-547", "src-548", "src-684", "src-685", "src-686", "src-687", "src-688", "src-779", "src-780"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests a potentially strong long-term route because Uruguay allows ordinary legal residence for non-Mercosur foreigners and legal citizenship after 3 years with family constituted in Uruguay or 5 years without family, but the route depends on proving habitual residence and means of life rather than a simple remote-worker visa threshold. [src-181][src-182][src-184]
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-23T09:27:59Z
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-25
 - **Tier rationale**: keep as Tier-2 hint until practical residence / tax approval mechanics for foreign-client IT income, healthcare insurance/onboarding costs, and habitual-residence/citizenship practice are checked; cost/rent, education, comfort, and partner fit now screen as workable if Spanish-language integration and strict one-income budgeting are accepted.
 
 ## Block 2 - Scoring
@@ -216,12 +216,16 @@ International schooling is the budget risk. ExpatLife's 2026 Uruguay education g
 
 **Partner verdict**: Uruguay is plausible for the student partner if the couple treats marriage or separate residence files as the conservative baseline, accepts Spanish-language integration, and preserves a one-income buffer for healthcare, accountant/notary, and education costs. It is not yet proven as an unmarried-partner or low-friction dependent route. [src-182][src-184][src-780]
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: deep, depth: 1, last_updated: 2026-06-25, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: passed for screening. This is a cross-risk synthesis from existing Uruguay residence, tax, cost, healthcare, education, comfort, and partner evidence; exact notary/accountant, BPS/VAT, insurance, and city-neighborhood checks remain application-prep work.
+
+- **Currency / banking risk: medium.** Uruguay screens better than many Latin America options because the legal-residence path can use foreign-company or independent-worker means-of-life evidence, but the UYU budget remains sensitive to BPS/VAT/accountant outcomes. The favorable IRPF-only model is about USD 2,880/month net, while an employee-style contribution stress test falls to about USD 2,187-2,337; Montevideo and Punta del Este become tight under the downside model. [src-182][src-430][src-432][src-433][src-436][src-546]
+- **Political / route risk: low-medium.** Uruguay is not dependent on EU TP and has an ordinary permanent legal residence path plus a legal-citizenship framework, so the headline political/settlement risk is lower than bridge-only countries. The live risk is practice: means-of-life sufficiency, habitual residence, Spanish ability, and no absences over six consecutive months for citizenship planning. [src-180][src-182][src-184]
+- **Ties to Ukraine: medium-high risk.** Uruguay is distant from Ukraine/Europe, so travel, document refreshes, family support, and fallback logistics are harder than in Europe/Moldova. A Polish residence card does not help Uruguayan status except as travel/residence-history evidence, and any long-term plan is ordinary Uruguayan residence rather than Ukraine-protection continuity. [src-180][src-182]
+- **Diaspora / adaptation risk: medium.** Uruguay has strong regional safety/quality-of-life proxies and Montevideo offers the best services, healthcare, notary/accountant, and school access. Spanish is unavoidable for leases, public offices, healthcare, education, tax, and citizenship, and Montevideo still needs street-crime / night-transport caution. [src-684][src-688][src-779][src-780]
+
+**Risk verdict**: Uruguay is one of the cleaner non-EU ordinary-residence screens, but it is not a low-cost or low-distance fallback. Treat Montevideo as the service landing base with strict rent discipline and Salto as the affordability fallback only if smaller-city service and healthcare checks pass. [src-546][src-548][src-780]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -231,10 +235,10 @@ International schooling is the budget risk. ExpatLife's 2026 Uruguay education g
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | UYU/BPS/VAT uncertainty can move the budget from a favorable IRPF screen to a tight contribution-stress model, especially in Montevideo. [src-430][src-433][src-436][src-546] |
+| Political | low-medium | Ordinary permanent residence and legal-citizenship baselines are captured; practice risk is means-of-life proof, habitual residence, Spanish, and absence discipline. [src-182][src-184] |
+| Ties to Ukraine | medium-high | Distance from Ukraine/Europe makes travel, documents, and family support harder; there is no TP-continuity advantage. [src-180][src-182] |
+| Diaspora / adaptation | medium | Regional safety and quality-of-life proxies are good, but Spanish, Montevideo street-crime caution, and healthcare/school budget checks are unavoidable. [src-684][src-688][src-779][src-780] |
 
 ## Block 5 - Practical verdict
 
