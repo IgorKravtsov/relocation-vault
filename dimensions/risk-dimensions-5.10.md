@@ -2,7 +2,7 @@
 
 Last updated: 2026-06-26
 Mode: criterion-slice
-Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama, Mexico, Argentina, UAE
+Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama, Mexico, Argentina, UAE, Malaysia, Thailand, Indonesia, Kazakhstan
 
 ## Scope
 
@@ -38,6 +38,10 @@ This slice converts pending 5.10 placeholders across the country set into screen
 | Mexico | medium-high | medium-high | high | medium-high | Consular solvency above current income, visa/entry mechanics, SAT/VAT/IMSS fit, regional safety and Spanish bureaucracy | [src-226][src-227][src-229][src-449][src-452][src-455][src-570][src-571][src-572][src-573][src-574][src-791][src-792] |
 | Argentina | high | medium | medium-high | medium-low | ARS/FX and tax-category risk, DN bridge-only status, no-exit citizenship condition, durable residence gap | [src-233][src-235][src-237][src-238][src-239][src-240][src-456][src-459][src-460][src-461][src-576][src-577][src-578][src-793][src-794] |
 | UAE | low-medium | medium | medium | medium-low | Immigration income gate, no ordinary citizenship ladder, regional/social-norm caveats, high private-market costs | [src-243][src-244][src-245][src-248][src-462][src-464][src-604][src-605][src-606][src-607][src-805][src-806] |
+| Malaysia | medium | medium | medium-high risk | medium-low | DE Rantau 24-month cap, post-DE Rantau status, MYR/tax-source fit, humid climate | [src-253][src-254][src-465][src-470][src-581][src-718][src-720][src-795][src-796] |
+| Thailand | medium | medium-high | high risk | high | DTV bridge-only mechanics, tax/remittance, road/safety filters, very low English baseline | [src-257][src-259][src-471][src-476][src-586][src-588][src-722][src-797][src-798] |
+| Indonesia | medium-high | medium-high | high risk | medium-high | E33G income gate, IDR/tax/VAT/BPJS exposure, natural-disaster/social-norm risk, Bahasa administration | [src-263][src-264][src-477][src-480][src-590][src-594][src-728][src-799][src-800] |
+| Kazakhstan | medium | medium-high | low-medium risk | medium-high | Neo Nomad official-capture gap, TRP/tax fit, PR/dual-nationality risk, weak English outside service hubs | [src-267][src-268][src-269][src-270][src-271][src-482][src-484][src-485][src-596][src-598][src-801][src-802] |
 
 ## Cross-country observations
 
@@ -57,6 +61,10 @@ This slice converts pending 5.10 placeholders across the country set into screen
 - Currency risk splits sharply: UAE and Panama have lower FX volatility because of USD/AED structures, Mexico adds MXN plus SAT/RFC complexity, and Argentina is the highest financial-risk case because ARS/FX settlement, VAT, Ingresos Brutos, and self-employed category can change the usable net.
 - All four need a durable-route check before being treated as post-2027 fallback bases: Panama's remote-worker visa is 9+9 months, Mexico needs consular solvency, Argentina needs a real temporary category beyond DN, and UAE needs income above the virtual-work gate or a higher-income Green/freelancer route.
 
+- For the Malaysia/Thailand/Indonesia/Kazakhstan subgroup, the risk split is mainly bridge durability and administrative language rather than first-month rent: Malaysia is the strongest English-service bridge but capped at 24 months; Thailand is a flexible DTV bridge with very weak English and stay-management/tax caveats; Indonesia is cheap but currently blocked by the E33G income gate; Kazakhstan is nearby and affordable but still lacks official-primary Neo Nomad / IT-TRP proof.
+- Distance from Ukraine sharply separates the Southeast Asian options from Kazakhstan. Malaysia/Thailand/Indonesia need emergency-flight, document-refresh, and ordinary-foreigner planning; Kazakhstan has easier regional/CIS logistics and Russian-language overlap, but no EU TP continuity and more geopolitical / dual-nationality complexity.
+- For this subgroup, a safe screening rule is to treat all four as bridge/base candidates until one of them has a verified durable route: DE Rantau is time-capped, DTV is not settlement, E33G is above current income, and Kazakhstan's remote-work route still needs official-primary capture.
+
 ## Next slice candidate
 
-Continue 5.10 risk dimensions with Malaysia, Thailand, Indonesia, and Kazakhstan, unless verification or staleness triggers take priority.
+Continue 5.10 risk dimensions with Armenia, unless verification or staleness triggers take priority.

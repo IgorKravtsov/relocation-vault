@@ -1,11 +1,11 @@
 ---
 country: Malaysia
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-24T13:42:05Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
+depth_score: 9.0
+last_updated: 2026-06-26T06:08:55Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["derantau-bridge-only", "pr-ladder-unclear", "hot-humid-rainy-year-round", "malaysia-foreign-client-tax-source-gap", "malaysia-social-security-fit-gap", "kuala-lumpur-rent-pressure", "malaysia-one-income-margin-risk", "malaysia-health-insurance-quote-gap", "malaysia-international-school-cost-risk", "malaysia-bahasa-english-integration-needed", "east-malaysia-security-caveat"]
 sources_used: ["src-251", "src-252", "src-253", "src-254", "src-255", "src-256", "src-279", "src-465", "src-466", "src-467", "src-468", "src-469", "src-470", "src-580", "src-581", "src-582", "src-583", "src-584", "src-717", "src-718", "src-719", "src-720", "src-795", "src-796"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (early evidence points to a useful remote-work bridge/base, not yet a proven settlement route).
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-24
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-26
 - **Tier rationale**: Malaysia's DE Rantau pass is an official route for foreign digital nomads and the tech-professional threshold is below the couple's current income, but it is a Professional Visit Pass capped at 24 months total and no DE Rantau-to-PR ladder was captured. Entry Permit and citizenship pages show long-term mechanisms exist, but the fully foreign national / remote-worker fit remains a core verification gap. [src-253][src-254][src-255]
 
 ## Block 2 - Scoring
@@ -185,14 +185,14 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 - **One-income fit**: Malaysia is plausible on one income for a 12-24 month bridge because rent and daily costs are moderate and English-service depth is good. The fragile points are not base groceries; they are DE Rantau's 24-month cap, private insurance, adviser/tax costs, KL/Penang international-school exposure, deposits, and the need to preserve enough savings for a next-country move if no durable Malaysian route appears. [src-253][src-470][src-581][src-718][src-720]
 - **Planning verdict for the couple**: Malaysia can be a strong English-friendly bridge/base if they accept a tropical climate and marriage-dependent partner filing. It should not yet be scored as a settlement route: before making it the main post-2027 plan, verify a post-DE Rantau path, spouse work rights, tax/source classification, and final-city healthcare/lease details.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: completed, depth: 1, last_updated: 2026-06-26, dod: passed}
 
-> **DoD**: all 4 risk categories assessed (currency/banking, political, ties-to-Ukraine, diaspora).
+> **DoD**: all 4 risk categories assessed (currency/banking, political, ties-to-Ukraine, diaspora). Passed for screening using existing legal, tax, cost, healthcare, education, and comfort evidence; it does not replace final bank-onboarding or community checks.
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+- **Currency/banking risk: medium**. Malaysia uses MYR and the captured tax screen depends on whether DE Rantau / foreign-client income is Malaysian-source, exempt foreign-source, or another category. Day-to-day cost/rent is workable, but KL/Penang buffers can shrink after tax, insurance, deposits, adviser fees, and a post-24-month exit plan. Banking and payment operations should be verified with a DE Rantau pass and local tax-adviser file before a move. [src-253][src-465][src-470][src-581][src-582]
+- **Political / route risk: medium**. Malaysia is stable enough for bridge screening, and public safety is strong, but the route risk is structural: DE Rantau is a Professional Visit Pass capped at 24 months and no PR ladder for a foreign-client IT worker is captured. East Malaysia security cautions and ordinary foreigner treatment should be handled as final-city/travel filters. [src-253][src-254][src-795]
+- **Ties to Ukraine: medium-high risk**. Malaysia is far from Ukraine/Poland and outside the EU temporary-protection system. No Malaysia-specific Ukrainian reception or support evidence was captured, so the couple should plan ordinary third-country documents, flights, embassy logistics, and emergency-return buffers rather than relying on Ukraine-specific help. [src-251][src-252][src-253]
+- **Diaspora / adaptation risk: medium-low**. Malaysia has one of the better English screens in the vault so far (EF rank #24; KL/Ipoh/Johor scores around the high-570s/580s), plus strong private healthcare and international-school ecosystems. The adaptation caveat is that public schools and some government/lease interfaces remain Bahasa Malaysia / local-help dependent, and climate tolerance is a major daily-life filter. [src-718][src-720][src-795][src-796]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -204,10 +204,10 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | MYR/tax-source uncertainty and DE Rantau exit planning matter more than median rent; KL/Penang buffers need discipline. |
+| Political | medium | General safety/stability screens well, but DE Rantau is a capped 24-month bridge and East Malaysia has travel-security caveats. |
+| Ties to Ukraine | medium-high risk | Far from Ukraine/Poland, outside EU TP, and no captured Ukraine-specific support layer. |
+| Diaspora / adaptation | medium-low | English fallback is comparatively strong, but Bahasa/public-school/government interfaces and humid tropical climate remain filters. |
 
 ## Block 5 - Practical verdict
 

@@ -38,10 +38,10 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Mexico | latin-america | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 209 | `countries/mexico.md` |
 | Argentina | latin-america | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 209 | `countries/argentina.md` |
 | UAE | middle-east-asia | 3 | — | 9.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.6 | 209 | `countries/uae.md` |
-| Malaysia | middle-east-asia | 3 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 197 | `countries/malaysia.md` |
-| Thailand | middle-east-asia | 3 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 198 | `countries/thailand.md` |
-| Indonesia | middle-east-asia | 3 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 199 | `countries/indonesia.md` |
-| Kazakhstan | post-ussr | 3 | — | 8.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 200 | `countries/kazakhstan.md` |
+| Malaysia | middle-east-asia | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 210 | `countries/malaysia.md` |
+| Thailand | middle-east-asia | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 210 | `countries/thailand.md` |
+| Indonesia | middle-east-asia | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 210 | `countries/indonesia.md` |
+| Kazakhstan | post-ussr | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 210 | `countries/kazakhstan.md` |
 | Armenia | post-ussr | 3 | — | 7.5 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9; partial: 5.1, 5.3, 5.6 | 201 | `countries/armenia.md` |
 
 ## Summary
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 8.80
+- **Average depth_score**: 8.92

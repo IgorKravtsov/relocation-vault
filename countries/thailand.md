@@ -1,11 +1,11 @@
 ---
 country: Thailand
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-24T16:49:33Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
+depth_score: 9.0
+last_updated: 2026-06-26T06:08:55Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.10","5.11"]
+sections_pending: ["5.11"]
 risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate", "thailand-remittance-tax-risk", "thailand-vat-social-security-fit-gap", "bangkok-phuket-rent-pressure", "thailand-one-income-margin-risk", "thailand-private-insurance-quote-gap", "thailand-international-school-cost-risk", "thailand-road-and-transport-risk", "thailand-english-language-integration-needed"]
 sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261", "src-471", "src-472", "src-473", "src-474", "src-475", "src-476", "src-585", "src-586", "src-587", "src-588", "src-589", "src-721", "src-722", "src-723", "src-724", "src-725", "src-726", "src-797", "src-798"]
 unverified_count: 0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (first pass suggests a strong medium-term bridge/base, not a proven settlement route for this couple).
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-24
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-26
 - **Tier rationale**: Ukrainian passport holders can use a 60-day visa exemption for tourism/scouting, and the Destination Thailand Visa (DTV) is a current official workcation route for remote workers/freelancers with a 500,000 THB savings threshold and 5-year multiple-entry validity. However, DTV is structured around 180-day stays and exits/re-entries, while the official LTR Work-from-Thailand route requires at least USD 80,000/year, or USD 40,000/year plus extra qualifications and a qualifying large overseas employer, above or awkward for the couple's current profile. [src-257][src-258][src-259]
 
 ## Block 2 - Scoring
@@ -183,14 +183,14 @@ schema_version: 2.0.0
 - **One-income fit**: Thailand can work as a bridge/base on one USD 3,000 income only with disciplined city choice. Chiang Mai and capped Bangkok/Pattaya budgets are the first screens; Phuket and premium Bangkok lifestyles can erode the tax-screen net quickly once private insurance, DTV extension/re-entry costs, deposits, coworking/transport, and adviser fees are included. Future international-school costs are a major later-family constraint. [src-585][src-586][src-587][src-588][src-589][src-722][src-725][src-726]
 - **Planning verdict for the couple**: Thailand is a practical bridge if the couple accepts marriage for dependency, very-low national English proficiency, tropical heat/monsoon conditions, and no captured settlement ladder. It should not be treated as a long-term family-base answer unless DTV extension practice, tax status, private insurance, spouse work rights, and a post-DTV route are verified.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: completed, depth: 1, last_updated: 2026-06-26, dod: passed}
 
-> **DoD**: all 4 risk categories assessed (currency/banking, political, ties-to-Ukraine, diaspora).
+> **DoD**: all 4 risk categories assessed (currency/banking, political, ties-to-Ukraine, diaspora). Passed for screening from existing DTV, tax, cost, healthcare, education, safety, and English evidence; exact bank onboarding, DTV extension practice, and final-city community checks remain application-prep work.
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+- **Currency/banking risk: medium**. THB exposure is not the main blocker, and ordinary PIT-only modelling leaves a usable screen, but DTV stays can create tax-residence / remittance questions and the household must preserve the 500,000 THB financial-evidence buffer plus insurance, visa-trip, and adviser costs. Bangkok/Phuket lifestyle inflation can erase the apparent cost advantage. [src-257][src-471][src-476][src-586][src-588]
+- **Political / route risk: medium-high**. DTV is an official bridge route, but it is not a captured settlement route and requires 180-day stay management, extensions, and re-entries. TravelSafe/WPR show a medium safety band, far-south unrest caveats, road/taxi/petty-crime risks, and natural-disaster/tap-water cautions that make city and behaviour filters important. [src-257][src-259][src-797]
+- **Ties to Ukraine: high risk**. Thailand is far from Ukraine/Poland, outside EU temporary protection, and has no captured Ukraine-specific support layer. It should be treated as ordinary DTV/visitor immigration with emergency-flight and document-refresh buffers, not as a Ukraine-continuity jurisdiction. [src-257]
+- **Diaspora / adaptation risk: high**. Thailand has deep tourist/expat/private-hospital infrastructure in Bangkok, Chiang Mai, Phuket, and Pattaya, but EF ranks national English very low (#116; score 402). Thai-language help will be needed for many leases, local services, healthcare administration, schools, tax, and government steps. [src-722][src-725][src-726][src-797][src-798]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
@@ -202,10 +202,10 @@ schema_version: 2.0.0
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium | THB is manageable, but tax-residence/remittance, DTV savings evidence, insurance, visa trips, and Bangkok/Phuket spending can compress the one-income buffer. |
+| Political | medium-high | DTV is real but bridge-only; safety is city/behaviour dependent, with road/taxi/petty-crime, far-south, and disaster caveats. |
+| Ties to Ukraine | high risk | Far from Ukraine/Poland, no EU TP continuity, and no captured Ukraine-specific support layer. |
+| Diaspora / adaptation | high | Expat/tourist services exist, but EF #116 means Thai-language support is needed for ordinary life and administration. |
 
 ## Block 5 - Practical verdict
 

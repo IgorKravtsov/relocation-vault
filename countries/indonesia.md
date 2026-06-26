@@ -1,12 +1,12 @@
 ---
 country: Indonesia
 tier: null
-depth_score: 8.0
-last_updated: 2026-06-24T19:53:18Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9"]
+depth_score: 9.0
+last_updated: 2026-06-26T06:08:55Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.10","5.11"]
-risk_flags: ["remote-worker-income-above-current-budget","bridge-route-not-settlement","pr-ladder-unclear","hot-humid-rainy-climate","indonesia-tax-residence-worldwide-income-risk","indonesia-vat-bpjs-fit-gap","jakarta-rent-pressure","bali-lease-seasonality-risk","indonesia-health-insurance-evacuation-gap","indonesia-international-school-cost-risk","indonesia-natural-disaster-transport-risk","indonesia-english-language-integration-needed","indonesia-one-income-margin-risk"]
+sections_pending: ["5.11"]
+risk_flags: ["remote-worker-income-above-current-budget", "bridge-route-not-settlement", "pr-ladder-unclear", "hot-humid-rainy-climate", "indonesia-tax-residence-worldwide-income-risk", "indonesia-vat-bpjs-fit-gap", "jakarta-rent-pressure", "bali-lease-seasonality-risk", "indonesia-health-insurance-evacuation-gap", "indonesia-international-school-cost-risk", "indonesia-natural-disaster-transport-risk", "indonesia-english-language-integration-needed", "indonesia-one-income-margin-risk"]
 sources_used: ["src-262","src-263","src-264","src-265","src-266","src-477","src-478","src-479","src-480","src-481","src-590","src-591","src-592","src-593","src-594","src-727","src-728","src-729","src-730","src-731","src-799","src-800"]
 unverified_count: 0
 schema_version: 2.0.0
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to Indonesia as a bridge/base rather than a proven settlement route for this couple: Ukraine is listed among Indonesia's VoA/e-VoA subject countries, and the official E33G remote-worker limited-stay visa exists, but its US$60,000/year income requirement is above the couple's current ~US$36,000/year income. [src-263][src-264]
-- **depth_score**: 8.0
-- **Last updated**: 2026-06-24
+- **depth_score**: 9.0
+- **Last updated**: 2026-06-26
 - **Tier rationale**: Do not classify yet. The core route is official but income-gated and the first pass did not capture a durable PR/citizenship ladder for a foreign-client IT worker using E33G.
 
 ## Block 2 — Scoring
@@ -32,8 +32,8 @@ schema_version: 2.0.0
 | Rent (decent 2BR) | — | medium | 40 m2 city-centre proxies are cheap versus USD 3,000 gross and the PIT-only tax net, but Jakarta and Bali/Denpasar need live-listing and lease-seasonality checks. | §5.5 |
 | Healthcare | — | medium | Public Puskesmas/BPJS and private hospitals are screenable, but the safe expat baseline is private insurance with evacuation cover; exact E33G/KITAS onboarding, maternity/newborn terms, and city provider prices remain application-prep checks. | §5.6 |
 | Education (future child) | — | medium | Public/local schools imply Indonesian-language integration, while Jakarta/Bali international schools are available but can be expensive; education is viable but budget-sensitive. | §5.7 |
-| Comfort of life | — | N/A | [verification required] | §5.8 |
-| Fit for couple with single income | — | N/A | [verification required] | §5.9 |
+| Comfort of life | — | medium | Safety is medium rather than low-friction, with road/taxi/scam, natural-disaster, conservative-social-norm, and Bahasa-administration caveats; Jakarta/Bali have the strongest service layers. | §5.8 |
+| Fit for couple with single income | — | medium | Costs/rents can work on one income, but E33G income, private insurance with evacuation, tax/VAT/BPJS advice, lease proof, and future school costs keep the route fragile. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -213,25 +213,27 @@ Education is viable but budget-sensitive. For a future child, Jakarta has the de
 - **One-income fit**: monthly costs and rents are not the first-pass blocker: Livingcost screens Surabaya, Bandung, Denpasar, and controlled Jakarta below the USD 3,000 gross income and below the conservative PIT-only net of about USD 2,436/month. The binding constraints are E33G's **US$60,000/year** income gate, private/international insurance with evacuation cover, tax/VAT/BPJS advice, deposits and live leases, flights/visa fees, and future international-school costs. [src-264][src-590][src-591][src-592][src-593][src-594][src-728][src-730][src-731]
 - **Planning verdict for the couple**: Indonesia is not a current-income settlement answer. It can be used for scouting and, if income rises materially, as a warm bridge/base with careful city selection. For the current USD 3,000/month profile, the partner plan remains conservative: do not move the student partner into Indonesian dependency assumptions until the main route, spouse/dependent file, tax status, private insurance, and lease documentation are all confirmed.
 
-### 5.10. Risk dimensions {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.10. Risk dimensions {status: completed, depth: 1, last_updated: 2026-06-26, dod: passed}
 
-- **Currency/banking risk**: [verification required]
-- **Political risk**: [verification required]
-- **Ties to Ukraine**: [verification required]
-- **Diaspora and adaptation**: [verification required]
+> **DoD status**: Passed for first-pass screening. Currency/banking, political / route risk, ties to Ukraine, and diaspora / adaptation are assessed from existing official visa, tax, cost, healthcare, education, comfort, and partner evidence.
+
+- **Currency/banking risk: medium-high**. IDR volatility, Indonesian tax-residence / worldwide-income exposure, VAT/BPJS uncertainty, and banking/address mechanics stack with the legal issue that E33G needs US$60,000/year income. Median rents are low, but Jakarta/Bali expat-market pricing, private insurance with evacuation cover, and adviser costs can absorb the margin if income rises enough to qualify. [src-264][src-477][src-480][src-590][src-591][src-594][src-728]
+- **Political / route risk: medium-high**. Indonesia has an official remote-worker visa, but it is income-gated above the couple's current profile and not captured as a settlement ladder. WPR/TravelSafe put Indonesia in a medium safety band with high natural-disaster and terrorism risk boxes, and the 2026 criminal-code / conservative-social-norm caveat makes unmarried cohabitation and public behaviour a practical filter. [src-264][src-799]
+- **Ties to Ukraine: high risk**. Indonesia is far from Ukraine/Poland, outside the EU TP framework, and has no captured Ukraine-specific support route. Ukrainian nationality helps with VoA/e-VoA scouting in the captured table, but it does not create residence continuity; document refreshes, embassy access, and emergency flights need planning. [src-263][src-264]
+- **Diaspora / adaptation risk: medium-high**. Jakarta/Bali have international schools, private hospitals, and expat/tourism services, while EF city scores are usable in Jakarta/Surabaya/Bandung but still below English-easy countries. Bahasa Indonesia help is needed for bureaucracy, leases, public healthcare, local schools, BPJS/tax, and non-tourist districts. [src-728][src-730][src-731][src-799][src-800]
 
 ### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
 
 [verification required]
 
-## Block 4 — Risk dimensions (summary)
+## Block 4 - Risk dimensions (summary)
 
 | Category | Level | Rationale |
 |---|---|---|
-| Currency / banking | — | [verification required] |
-| Political | — | [verification required] |
-| Ties to Ukraine | — | [verification required] |
-| Diaspora / adaptation | — | [verification required] |
+| Currency / banking | medium-high | IDR, tax-residence/worldwide-income, VAT/BPJS, bank/address mechanics, and Jakarta/Bali expat pricing stack on top of the E33G income gate. |
+| Political | medium-high | E33G is official but above budget and not a settlement ladder; safety/natural-disaster/social-norm caveats require city and lifestyle filters. |
+| Ties to Ukraine | high risk | Far from Ukraine/Poland and outside EU TP; VoA helps scouting only, not residence continuity. |
+| Diaspora / adaptation | medium-high | Jakarta/Bali services exist, but Bahasa help is needed outside private/expat layers and for administration. |
 
 ## Block 5 — Practical verdict
 

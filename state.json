@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 209,
+  "iteration": 210,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-26T03:03:39Z",
+  "last_run_timestamp": "2026-06-26T06:08:55Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.10",
-    "reason": "Continue the 5.10 risk-dimensions slice with Malaysia, Thailand, Indonesia, and Kazakhstan unless verification or staleness triggers take priority."
+    "reason": "Continue the 5.10 risk-dimensions slice with Armenia unless verification or staleness triggers take priority."
   },
   "countries": {
     "Spain": {
@@ -1016,14 +1016,15 @@
     "Malaysia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -1031,7 +1032,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -1047,20 +1047,21 @@
         "malaysia-bahasa-english-integration-needed",
         "east-malaysia-security-caveat"
       ],
-      "last_iteration": 197,
+      "last_iteration": 210,
       "unverified_count": 0
     },
     "Thailand": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -1068,7 +1069,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -1085,20 +1085,21 @@
         "thailand-road-and-transport-risk",
         "thailand-english-language-integration-needed"
       ],
-      "last_iteration": 198,
+      "last_iteration": 210,
       "unverified_count": 0
     },
     "Indonesia": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -1106,7 +1107,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -1124,20 +1124,21 @@
         "indonesia-english-language-integration-needed",
         "indonesia-one-income-margin-risk"
       ],
-      "last_iteration": 199,
+      "last_iteration": 210,
       "unverified_count": 0
     },
     "Kazakhstan": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 8.0,
+      "depth_score": 9.0,
       "sections_completed": [
         "5.2",
         "5.4",
         "5.5",
         "5.7",
         "5.8",
-        "5.9"
+        "5.9",
+        "5.10"
       ],
       "sections_partial": [
         "5.1",
@@ -1145,7 +1146,6 @@
         "5.6"
       ],
       "sections_pending": [
-        "5.10",
         "5.11"
       ],
       "risk_flags": [
@@ -1160,7 +1160,7 @@
         "kazakhstan-international-school-cost-risk",
         "kazakhstan-english-language-integration-needed"
       ],
-      "last_iteration": 200,
+      "last_iteration": 210,
       "unverified_count": 0
     },
     "Armenia": {
