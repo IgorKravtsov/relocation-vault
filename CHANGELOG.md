@@ -4,6 +4,11 @@ version: 1.0.0
 last_updated: 2026-06-27
 ---
 
+## 2026-06-27 - run-222
+- Criterion slice: 5.11 bureaucracy/practicality continued with Bulgaria.
+- Bulgaria: depth_score 9.0 -> 10.0 (section 5.11 completed for screening).
+- Updated `dimensions/bureaucracy-practicality-5.11.md`; sources added: 1 (`src-817`); claims added: 0; verification queue: 0 pending.
+
 ## 2026-06-27 — run-221 — Romania bureaucracy/practicality slice
 
 - Completed Romania §5.11 for first-pass screening: E-VISA / IGI workflow visibility, consular presentation caveat, document translation/upload constraints, professional-contact lead, and route-sequencing risks.

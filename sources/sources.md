@@ -9849,3 +9849,15 @@ Each source entry:
 - **Facts supporting**: Romania bureaucracy/practicality contact lead: Romanian immigration-lawyer site advertising support for immigration to Romania, foreign-worker hiring, work visa / residence-permit / employer-support contact form, document review, and guidance until completion; phone +40 734 679 007; email Office@immigration-romania.com and Astrid114@yahoo.com; address Alba-Iulia Str., No. 96, Ighiu, Alba County, Romania
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-27
+
+## src-817
+- **Title**: New Balkans Law Office — Business Immigration Bulgaria
+- **URL**: https://www.newbalkanslawoffice.com/practice-areas/business-immigration/
+- **Archive**: [archive: failed 2026-06-27; direct page is dynamic/cookie-protected, text extracted via Jina reader]
+- **Type**: reputable-secondary
+- **Date published**: unknown
+- **Date accessed**: 2026-06-27
+- **Used by**: Bulgaria
+- **Facts supporting**: Neutral Bulgaria immigration-lawyer contact lead; Sofia office email/phone/address; business-immigration services covering visas, residence permits, work permits, documentation, and administrative procedures
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-27

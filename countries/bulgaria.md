@@ -1,13 +1,13 @@
 ---
 country: Bulgaria
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T14:38:52Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-27T19:17:06Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["self-employment-permit-3-year-cap", "dual-citizenship-restriction-for-non-eu-naturalized", "self-employment-requirements-not-operational", "bulgaria-self-employed-contribution-and-status-fit-gap", "sofia-rent-pressure", "bulgaria-private-insurance-quote-gap", "bulgaria-international-school-cost-risk", "bulgarian-language-integration-needed", "bulgaria-one-income-margin-risk"]
-sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118", "src-328", "src-329", "src-330", "src-331", "src-509", "src-510", "src-511", "src-512", "src-644", "src-645", "src-646", "src-647", "src-762", "src-763"]
+sources_used: ["src-002", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086", "src-087", "src-089", "src-090", "src-118", "src-328", "src-329", "src-330", "src-331", "src-509", "src-510", "src-511", "src-512", "src-644", "src-645", "src-646", "src-647", "src-762", "src-763", "src-817"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (insufficient data for tier assignment after first pass)
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-27
 - **Tier rationale**: TBD. Bulgaria offers a self-employment residence route with a 3-year cap and a 5-year path to permanent residence, but the 3-year self-employment permit limitation and the absence of a captured TP-to-ordinary-residence bridge create operational constraints. Dual-citizenship restrictions for naturalized non-EU nationals are a further consideration. A tier will be assigned after deeper research.
 
 ## Block 2 — Scoring
@@ -286,9 +286,26 @@ Education conclusion: Bulgaria passes the first-pass education DoD for screening
 
 Practical risk read: Bulgaria's rent/tax math can be attractive, especially Plovdiv, but the unresolved self-employment residence route and Bulgarian-language administration are the core risks.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-27, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. Core route timing, filing location, document-localisation burden, and a neutral professional-contact lead are captured. Exact Employment Agency practice, Migration Directorate appointments, translations/apostilles, lawyer engagement terms, accountant scope, and live state-fee totals remain application-prep checks.
+
+**Route timing and filing sequence**
+- The self-employment route is not a one-step local freelancer registration. The EU Immigration Portal describes a three-stage sequence: obtain a self-employment permit from the Bulgarian Employment Agency on the basis of a detailed business plan, apply for a Type D visa at a Bulgarian embassy or consulate abroad, then obtain a residence permit from the Migration Directorate after entry [src-079].
+- Practical timing risk is structural: the self-employment permit is valid for up to 1 year and renewable only up to 3 years total, after which the applicant must leave Bulgaria for 1 month before reapplying through the same path [src-079]. This makes Bulgaria more bureaucratically fragile than countries with a renewable ordinary freelancer/DN residence path.
+- For temporary protection, the operational baseline is local registration/card renewal rather than a settlement conversion. UNHCR Bulgaria confirms PFN / registration-document mechanics, address-card obligations, work rights, medical care, education, and TP extension through 04 March 2027 [src-089][src-090]. No captured source makes TP an automatic ordinary-residence bridge.
+
+**Inside-country practicality and documents**
+- The ordinary self-employment path should be treated as visa-first and authority-heavy: business plan, Employment Agency permit, consular Type D filing, and post-arrival Migration Directorate residence steps all need Bulgarian-language or lawyer-supported execution [src-079].
+- A Polish residence card does not simplify Bulgarian long-stay bureaucracy. It may help Schengen/entry logistics if valid, but it does not replace the Bulgarian Type D / residence sequence, and if it is tied to Polish TP the EU one-Member-State TP rule remains the safe planning baseline [src-002][src-079].
+- Family planning is also document-sensitive: the captured family-member baseline covers spouse/minor-child style reunification, not an unmarried girlfriend route, so marriage should be planned before relying on dependent residence [src-080].
+
+**Professional support / contact lead**
+- Neutral lead, not a recommendation: New Balkans Law Office in Sofia publishes a business-immigration practice covering visas, work permits, residence permits, immigration applications, supporting documentation, and procedures before competent authorities. Public contact details captured from the site include Sofia email `sofia@newbalkanslawoffice.com`, phone `+359 (0) 2 996 3868`, and address `19 Karnigradska Street, Floor 1, Sofia 1000` [src-817].
+- If Bulgaria remains a finalist, professional support should combine immigration counsel and a Bulgarian accountant because the same self-employment file affects Employment Agency viability, tax registration, social/health contribution status, VAT/reverse-charge treatment, NHIF/private-insurance onboarding, lease proof, and spouse/family sequencing.
+
+**Practicality verdict**
+- Bulgaria passes §5.11 for screening, but it is **bureaucratically route-constrained** rather than simply cheap. Plovdiv remains the first practical city screen, Varna the coastal option, and Sofia the bureaucracy / professional-services hub with rent pressure. The go/no-go question is whether a Bulgarian professional can turn the foreign-client IT activity into a credible self-employment permit + Type D + residence file before the TP horizon.
 
 ## Block 4 — Risk dimensions (summary)
 
@@ -330,13 +347,13 @@ Working sequence for Bulgaria:
 5. Before any filing, confirm self-employment permit documents, business-plan practice, tax/social-health contribution package, VAT/reverse-charge handling, NHIF/private-insurance onboarding, and family/work-right mechanics with Bulgarian professionals.
 
 ### 6b. First month after arrival
-- Address registration: TBD
-- Submitting residence application (if not done from abroad): TBD
-- Bank account opening: TBD
-- Tax ID / social security number: TBD
-- Long-term housing: TBD
-- Health insurance / public health registration: TBD
-- SIM card, internet, utilities: TBD
+- Address registration: complete the local address-card / residence-address evidence workflow with landlord support; TP beneficiaries should follow UNHCR/SAR card-renewal and address-card guidance, while ordinary-route applicants need counsel-confirmed Migration Directorate requirements.
+- Submitting residence application: ordinary self-employment is Type D first, then Migration Directorate residence after entry; do not assume a pure inside-country conversion unless counsel confirms the exact status.
+- Bank account opening: prepare passport, lawful-stay evidence, lease/address proof, foreign-client contract/invoices, and source-of-funds documents; exact bank acceptance remains a live city/provider check.
+- Tax ID / social security number: coordinate with accountant after the immigration route is chosen; the tax file and Employment Agency business plan should not contradict each other.
+- Long-term housing: prioritise Plovdiv first, Varna second, Sofia only for bureaucracy/services; require a lease/address format that counsel confirms works for the residence file.
+- Health insurance / public health registration: carry private insurance until final NHIF/public onboarding by route is confirmed.
+- SIM card, internet, utilities: ordinary local setup; use landlord/agent support for utilities if the lease is not yet tied to a residence card.
 
 ### 6c. First 3–6 months
 - Tax registration as self-employed / freelancer: TBD
@@ -367,10 +384,11 @@ Working sequence for Bulgaria:
 | **Total** | — | |
 
 ### 6g. Contact points and communities
-- Immigration lawyers (2–3 with contacts): TBD
-- Ukrainian / Russian-speaking diaspora (Telegram channels, FB groups): TBD
-- Expat blogs: TBD
-- NGOs / Caritas / refugee help: TBD
+- Immigration lawyers (neutral lead, not a recommendation): New Balkans Law Office, Sofia, `sofia@newbalkanslawoffice.com`, `+359 (0) 2 996 3868`, 19 Karnigradska Street, Floor 1, Sofia 1000 [src-817]. Compare with at least one independent immigration lawyer before filing.
+- Accountant: TBD; must confirm self-employed IT classification, social/health contribution package, VAT/reverse-charge, invoicing, and compatibility with the residence file.
+- Ukrainian / Russian-speaking diaspora (Telegram channels, FB groups): TBD.
+- Expat blogs: TBD.
+- NGOs / refugee help: UNHCR Bulgaria remains the captured Ukraine/TP support anchor [src-089][src-090].
 
 ## Block 7 — Sources
 
@@ -389,6 +407,7 @@ Working sequence for Bulgaria:
 - [src-645] Eurydice — Bulgaria early childhood education and care (official-secondary)
 - [src-763] EF English Proficiency Index — Bulgaria — English-proficiency screening baseline for Bulgaria, Sofia, and Varna.
 - [src-646] Eurydice — Bulgaria education-system overview (official-secondary)
+- [src-817] New Balkans Law Office — Business Immigration Bulgaria — neutral immigration-lawyer contact lead (reputable-secondary)
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -419,6 +438,7 @@ _(none yet)_
 - Bulgaria-Ukraine dual-citizenship reciprocity agreement status
 - Bulgarian NRA official 2026 self-insured contribution table / exact foreigner health-insurance obligation and self-employed IT classification. Direct NRA capture failed during run-065, so the tax worked example uses a PwC-backed planning stress test and remains partial.
 - Accountant-level VAT / reverse-charge and immigration-status compatibility for a Ukrainian foreign-client IT freelancer.
+- Exact Bulgarian Employment Agency self-employment business-plan practice, Migration Directorate appointment mechanics, state-fee totals, sworn-translation/apostille requirements, and lawyer/accountant engagement terms for an actual filing.
 - Live Bulgarian rental listings, exact deposit norms, agency fee practice, lease-registration mechanics, and landlord acceptance of foreign remote income for Sofia / Plovdiv / Varna.
 - Live Bulgarian private-health-insurance quotes for two young adults, maternity waiting periods / exclusions, and exact NHIF / GP onboarding workflow for the final self-employment / family-residence status.
 
@@ -429,4 +449,4 @@ _(none yet)_
 - `vq-097` — resolved to a conservative screening baseline: keep the statutory-expense / contribution stress test as partial only; exact contribution package, foreigner health-insurance obligation, IT classification, VAT / reverse-charge handling, and migration-route fit remain accountant/application-prep checks before filing.
 - `vq-130` — resolved in run-148 for screening: route-compliant private insurance quotes, maternity exclusions / waiting periods, and final-status NHIF / GP onboarding workflow remain before-filing checks, not country-screening blockers.
 
-Sections 5.1/5.2 have no current blockers after prior operational-core closures. Comfort and partner fit are now screenable; later citizenship, risk dimensions, bureaucracy, and route-specific application-prep checks remain in their own pending sections.
+Sections 5.1/5.2 have no current blockers after prior operational-core closures. Comfort, partner fit, risk dimensions, and bureaucracy/practicality are now screenable; route-specific application-prep checks remain before any filing.
