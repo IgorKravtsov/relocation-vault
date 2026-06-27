@@ -1,13 +1,13 @@
 ---
 country: Hungary
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T14:38:52Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-27T22:22:40Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["white-card-income-above-current-budget", "white-card-no-local-work", "white-card-holder-cannot-sponsor-family-reunification", "guest-self-employment-evidence-burden", "no-captured-post-2027-tp-bridge", "hungary-self-employed-tax-and-immigration-fit-gap", "budapest-rent-pressure", "hungary-private-insurance-quote-gap", "hungary-international-school-cost-risk", "hungarian-language-integration-needed", "hungary-one-income-margin-risk"]
-sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172", "src-332", "src-333", "src-334", "src-335", "src-336", "src-513", "src-514", "src-515", "src-516", "src-648", "src-649", "src-650", "src-651", "src-764", "src-765"]
+sources_used: ["src-002", "src-092", "src-093", "src-094", "src-095", "src-096", "src-097", "src-098", "src-099", "src-172", "src-332", "src-333", "src-334", "src-335", "src-336", "src-513", "src-514", "src-515", "src-516", "src-648", "src-649", "src-650", "src-651", "src-764", "src-765", "src-818"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Hungary is usable as a legal short/medium-term base but not yet an obvious long-term fit for this couple: the White Card is clean for foreign remote work but requires at least EUR 3,000 net monthly income for 6 months, does not allow Hungarian gainful activity, and its holder cannot sponsor family reunification; guest self-employment has a heavier evidence burden and a 3-year cap before a new application. [src-093][src-094][src-095]
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-27
 - **Tier rationale**: Leave unassigned until taxes, cost, rent, healthcare, and ordinary self-employment feasibility are researched.
 
 ## Block 2 — Scoring
@@ -34,6 +34,7 @@ schema_version: 2.0.0
 | Education (future child) | — | medium-high | Eurydice baseline: free mandatory kindergarten from age 3 to school start and 8-grade basic education; Budapest international-school fees create budget risk | §5.7 |
 | Comfort of life | — | medium | Safety proxies are acceptable, Ukraine/TP support infrastructure exists, and EF EPI shows high English proficiency, but Hungarian remains important for bureaucracy, healthcare, leases, schooling, and long-term integration. | §5.8 |
 | Fit for couple with single income | — | medium | Partner fit is fragile: White Card cannot sponsor family reunification, so marriage only helps under another sponsor-eligible status; independent TP/status is the safer baseline, and one-income affordability is tight after tax/rent/insurance. | §5.9 |
+| Bureaucracy and practicality | — | medium | Route mechanics are visible through OIF / Enter Hungary and a professional-services market exists in Budapest, but the practical file is fragile because White Card is income/partner-gated and guest self-employment requires local business, tax, TAJ/NEAK, lease, and Hungarian-language coordination. | §5.11 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -273,9 +274,31 @@ Education conclusion: Hungary passes the first-pass education DoD for screening.
 
 Practical risk read: Hungary is close and administratively real, but risk is higher than the Poland/Romania/Bulgaria slice because the core remote-work route is income/partner-gated and the tax/contribution downside can erase the rent advantage.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-27, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. This section captures route timing / filing channels, document-localisation pressure, practical city sequencing, and one neutral Budapest professional-services lead. It is not application-ready: exact OIF / Enter Hungary appointment behavior, Hungarian translations, tax / TAJ / NEAK setup, lease evidence, and final lawyer/accountant quotes remain application-prep checks.
+
+**Main route timing and filing practicality**
+- **White Card**: OIF gives a 21-day procedural administration period and says extensions are filed in Hungary through Enter Hungary, but this route is practical only if income is safely above EUR 3,000 net/month for at least 6 months and the partner has independent status, because White Card holders cannot sponsor family reunification. [src-093][src-095]
+- **Guest self-employment**: OIF makes this the more route-relevant ordinary-status fallback for a foreign-client IT worker, but the file is evidence-heavy: self-employed income over 24 times the minimum wage annually or a business-executive/business-plan package, plus no tax/contribution debt. The permit is initially up to 1 year and extendable up to a 3-year total, so it is not a low-friction permanent bridge by itself. [src-094]
+- **Post-2027 sequencing**: no Hungary-specific TP-to-ordinary-status bridge is captured. The practical baseline is to secure White Card / guest self-employment / another ordinary status before the EU TP horizon, not to wait for TP expiry. [src-002][src-092]
+
+**Filing location / inside-country practicality**
+- White Card initial filing is consular if the applicant lacks a Hungarian residence permit and cannot use the intended route from inside Hungary; extensions are through Enter Hungary after the applicant has held the permit and met the residence-period condition. [src-093]
+- Family reunification, if relevant under a sponsor-eligible status, requires proof of subsistence, accommodation, return/onward-travel capacity, and healthcare coverage; it should not be planned from a White Card sponsor. [src-095]
+- Practical implication: Hungary is administratively screenable because OIF / Enter Hungary mechanics are visible, but the couple should budget Hungarian-language help for OIF forms, accommodation evidence, tax / self-employed registration, TAJ / NEAK healthcare onboarding, bank/lease paperwork, and translations. [src-093][src-094][src-095][src-648]
+
+**Professional-contact lead (neutral, not a recommendation)**
+- Helpers Hungary Kft is a Budapest-based business / immigration services provider. Its public pages say HELPERS provides immigration services from residency to citizenship, company formation, back office and accountancy, and residence-permit / business-immigration assistance; contact details captured are +36 1 317 8570, info@helpers.hu, and Budapart Gate, Dombovari ut 27, Budapest 1117. [src-818]
+- Use this only as a first neutral lead to price a Hungarian immigration-plus-accounting package; compare at least one independent immigration lawyer and one accountant before any filing.
+
+**City / execution read**
+- **Budapest** is the easiest bureaucracy base because it concentrates English-facing services, private clinics, international schools, lawyers, accountants, and government-facing support, but it is already the rent-pressure case. [src-514][src-651][src-765]
+- **Debrecen** is the first lower-cost practical compromise if local English-speaking service providers and healthcare are confirmed; it has better Livingcost fit than Budapest. [src-515]
+- **Pecs** remains the affordability / warmer-southwest screen, but smaller-city professional-service depth and English-speaking healthcare need live checks. [src-516]
+
+**Practicality verdict**
+- Hungary passes §5.11 for screening but stays fragile. The country has visible OIF routes and a Budapest professional-services market, yet the couple should not improvise the file: White Card needs higher net income and does not sponsor the partner, while guest self-employment links immigration, NAV tax, social-security/TAJ, VAT, lease, and evidence questions. Budget a coordinated immigration lawyer + accountant package before treating Hungary as an executable post-2027 plan. [src-093][src-094][src-095][src-332][src-333][src-648][src-818]
 
 ## Block 4 — Risk dimensions (summary)
 

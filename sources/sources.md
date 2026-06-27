@@ -9861,3 +9861,15 @@ Each source entry:
 - **Facts supporting**: Neutral Bulgaria immigration-lawyer contact lead; Sofia office email/phone/address; business-immigration services covering visas, residence permits, work permits, documentation, and administrative procedures
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-27
+
+## src-818
+- **Title**: Helpers Hungary - Services and Contact
+- **URL**: https://helpers.hu/services/ ; https://helpers.hu/services/immigration/ ; https://helpers.hu/contact/
+- **Archive**: [archive: not captured; direct pages extracted through Jina reader]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-27
+- **Used by**: Hungary
+- **Facts supporting**: Neutral Hungary bureaucracy/practicality contact lead: Budapest business and immigration services provider offering immigration services from residency to citizenship, company formation, back office/accountancy, residence-permit and business-immigration assistance; public phone +36 1 317 8570; email info@helpers.hu; address Budapart Gate, Dombovari ut 27, Budapest 1117
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-27
