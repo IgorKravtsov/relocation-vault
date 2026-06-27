@@ -1,13 +1,13 @@
 ---
 country: Croatia
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T11:31:48Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-27T03:48:32Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "croatia-self-employed-contribution-base-gap", "croatia-lump-sum-obrt-fit-gap", "coastal-rent-pressure", "croatia-health-insurance-quote-gap", "croatia-international-school-cost-risk", "croatian-language-integration-needed", "croatia-one-income-margin-risk"]
-sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045", "src-293", "src-306", "src-307", "src-308", "src-309", "src-310", "src-381", "src-382", "src-383", "src-384", "src-385", "src-626", "src-627", "src-628", "src-629", "src-630", "src-753", "src-754"]
+sources_used: ["src-002", "src-040", "src-041", "src-042", "src-043", "src-045", "src-293", "src-306", "src-307", "src-308", "src-309", "src-310", "src-381", "src-382", "src-383", "src-384", "src-385", "src-626", "src-627", "src-628", "src-629", "src-630", "src-753", "src-754", "src-812"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Croatia has EU temporary protection, a formal digital-nomad temporary-stay route, and an attractive Adriatic climate, but the digital-nomad income floor is above the couple's current ~$3,000/month budget and no Croatia-specific post-04 March 2027 TP-to-ordinary-residence bridge was captured in this first pass.
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
-- **Tier rationale**: Keep unranked until bureaucracy, ordinary residence after TP, and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the current first-pass sections. Comfort and partner/student fit are now screenable.
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-27
+- **Tier rationale**: Keep unranked until ordinary residence after TP and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the current first-pass sections. Bureaucracy/practicality, comfort, and partner/student fit are now screenable.
 
 ## Block 2 — Scoring
 
@@ -35,6 +35,7 @@ schema_version: 2.0.0
 | Comfort of life | — | N/A | Croatia screens comfort-positive on safety, Adriatic climate, Ukrainian reception infrastructure, and very high English proficiency, but Croatian remains needed for administration, leases, public healthcare, schooling, and citizenship. | §5.8 |
 | Fit for couple with single income | — | N/A | Partner fit is formally better than spouse-only systems because MUP includes common-law partners, but the DN sponsor threshold is far above current income and the non-working partner increases the budget stress. | §5.9 |
 | Risk dimensions | - | medium | Euro spending is stable, but the key risks are DN income above budget, 18-month DN cap, no captured post-TP bridge, coastal rent seasonality, and Croatian-language bureaucracy. | Section 5.10 |
+| Bureaucracy / practicality | — | N/A | Core DN filing mechanics, MUP/police routing, translation/legalisation burden, address proof, HZZO/tax follow-ups, and one Croatian professional-contact lead are now captured for screening. | §5.11 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -240,9 +241,19 @@ City-level screen:
 
 **Risk verdict:** Croatia's lead risk is not general safety or currency; it is legal/financial feasibility. DN is income-blocked and temporary, ordinary self-employment needs accountant confirmation, and the post-2027 bridge is not captured.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-27, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. Core filing location / timing, document-localisation burden, address and insurance requirements, first-month authority touchpoints, and one neutral professional-contact lead are captured. Exact appointment load, official fee receipts, OIB / craft registration sequencing, lawyer/accountant quotes, and final city-specific office practice remain application-prep checks.
+
+**Route timing and filing channel.** Croatia's DN temporary-stay route is screenable but not low-friction. MUP allows online filing, embassy/consulate filing from outside Croatia, or filing at the competent police administration/station when the applicant is already legally in Croatia; if filed from Croatia, the applicant may remain until the decision becomes enforceable [src-041]. The stay can be granted for up to 18 months, with any extension filed no later than 60 days before expiry and the total still capped at 18 months [src-041]. A new DN file is possible only after a 6-month cooling-off period [src-041]. For this couple, that means Croatia is practical only as a temporary DN file if income rises, not as a self-contained settlement ladder.
+
+**Documents, localisation, and address friction.** The MUP checklist is administratively concrete: passport validity, health insurance covering Croatia, remote-work evidence, proof of means, legalized criminal-record proof from the home/residence country, and address or intended-address evidence are needed [src-041]. Proof of health insurance, means, purpose, and criminal-record status must be in Croatian or English, with authorized translation where needed, and the criminal-record document must be legalized [src-041]. Address proof is a practical gate: the page allows a notarized lease / ownership deed / host statement or, for a first application without a fixed address, an intended-address basis such as confirmed accommodation [src-041].
+
+**First-month authority sequence.** The principal practical sequence is: secure Croatian-covering insurance and an address / intended address; file online, consularly, or with the police administration/station depending on entry posture; then align HZZO, tax, and possible self-employment/craft steps only after the legal-status strategy is chosen. HZZO registration/change/deregistration is filed at an HZZO regional office or branch within 8 days from the circumstance that creates/changes/ends insured status [src-627]. Tax and craft setup remain application-prep because the profile still needs accountant confirmation of lump-sum craft, VAT/reverse-charge, and contribution bases [src-306][src-308][src-310].
+
+**Professional-contact lead (neutral, not a recommendation).** Vukmir & Associates is a Zagreb law-firm lead whose public services page lists Labor and Immigration Law, corporate/commercial support, real-estate law, data protection/privacy, and ICT regulatory/contractual work; its contact page lists Gramača 2L, 10000 Zagreb, telephone +385 1 3760 511, and email vukmir@vukmir.net [src-812]. Use this only as one screening contact to compare against Croatian immigration lawyers and accountants; no endorsement, fee quote, or case suitability is implied.
+
+**Practicality verdict.** Croatia is bureaucratically screenable because the DN filing channel, document package, translation/legalisation burdens, family route, and police/HZZO touchpoints are clear enough for a planning baseline. The blockers are substantive: DN income is above the couple's current budget, DN duration is capped, no post-2027 TP bridge is captured, ordinary self-employment tax/craft treatment is not yet accountant-confirmed, and Croatian-language help will be needed for MUP/police, HZZO, tax, leases, and public services. Rijeka / Zagreb remain the practical bases to test before Split / Dubrovnik.
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -324,7 +335,7 @@ City-level screen:
 | **Total** | — | Full relocation budget pending rent / fee research. |
 
 ### 6g. Contact points and communities
-- Immigration lawyers (2–3 with contacts): [verification required]
+- Immigration lawyers (2-3 with contacts): Vukmir & Associates, Zagreb, is one neutral lead for labor / immigration-law triage; compare at least two additional Croatia immigration lawyers and a Croatian accountant before filing [src-812].
 - Ukrainian / Russian-speaking diaspora (Telegram channels, FB groups): official Croatia4Ukraine / MUP infrastructure is captured, but informal Ukrainian / Russian-speaking community channels remain a later application-prep search [src-040].
 - Expat blogs: [verification required]
 - NGOs / refugee help: [verification required]
@@ -362,6 +373,7 @@ _(none yet)_
 - [src-384] Livingcost — Dubrovnik cost of living.
 - [src-385] Livingcost — Rijeka cost of living.
 - [src-753] World Population Review / Numbeo safety proxies for Croatia.
+- [src-812] Vukmir & Associates — services and contact pages.
 
 ### 7e. Not found
 - Croatia-specific official TP-to-ordinary-residence bridge for the period after 04 March 2027.
@@ -372,6 +384,7 @@ _(none yet)_
 - Live Croatian rental listing validation, deposit / agency-fee practice, and exact neighborhood-level long-lease availability for Rijeka, Zagreb, Split, and Dubrovnik.
 - DN/residence-compliant private health-insurance quotes, maternity waiting periods/exclusions, and exact HZZO onboarding workflow for the couple's final status/city.
 - Informal Ukrainian / Russian-speaking community channels and city-specific Croatian-language-course options.
+- Additional Croatia immigration-lawyer / accountant quotes beyond the single Vukmir & Associates lead captured for 5.11 screening [src-812].
 - Exact MUP/police practice on digital-nomad family-member local work rights and common-law evidence package.
 
 ## Block 8 — Open questions and verification markers
@@ -381,3 +394,4 @@ _(none yet)_
 - `vq-092` resolved for screening in run-100: keep Croatia as incomplete/partial with conservative ordinary self-employment stress tests; exact `pausalni obrt`, contribution-band, VAT/reverse-charge, and family allowance fit is application-prep/accountant work.
 - `vq-125` resolved for screening in run-138: Croatia healthcare application-prep details (private insurance quotes, maternity exclusions/waiting periods, and exact HZZO onboarding by final status/city) remain before-filing checks.
 - Run-171 comfort/partner pass: safety, Ukrainian-reception infrastructure, English proficiency, common-law/spouse dependent baseline, remote-study posture, and one-income budget fit are screenable; exact city community channels, language-course choices, dependent work-right practice, and common-law evidence package remain application-prep checks.
+- Run-217 bureaucracy/practicality pass: DN filing channels, document-localisation burden, address proof, HZZO timing, and one professional-contact lead are screenable; appointment load, OIB/craft registration sequencing, exact official fee receipts, and lawyer/accountant quotes remain application-prep checks.

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 216,
+  "iteration": 217,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-27T00:43:54Z",
+  "last_run_timestamp": "2026-06-27T03:48:32Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.11",
-    "reason": "Continue the bureaucracy/practicality slice with remaining Tier-1 countries (Croatia, Malta) unless verification or staleness triggers take priority."
+    "reason": "Continue the bureaucracy/practicality slice with the remaining Tier-1 country (Malta) unless verification or staleness triggers take priority."
   },
   "countries": {
     "Spain": {
@@ -190,7 +190,7 @@
     "Croatia": {
       "tier": null,
       "tier_hint": 1,
-      "depth_score": 9.0,
+      "depth_score": 10.0,
       "sections_completed": [
         "5.2",
         "5.4",
@@ -198,16 +198,15 @@
         "5.7",
         "5.8",
         "5.9",
-        "5.10"
+        "5.10",
+        "5.11"
       ],
       "sections_partial": [
         "5.1",
         "5.3",
         "5.6"
       ],
-      "sections_pending": [
-        "5.11"
-      ],
+      "sections_pending": [],
       "risk_flags": [
         "no-clear-post-2027-tp-bridge",
         "dn-income-above-current-budget",
@@ -219,7 +218,7 @@
         "croatian-language-integration-needed",
         "croatia-one-income-margin-risk"
       ],
-      "last_iteration": 204,
+      "last_iteration": 217,
       "unverified_count": 0
     },
     "Malta": {
@@ -1197,7 +1196,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 810,
+  "sources_count": 811,
   "claims_count": 716,
   "proposals_pending": 0
 }
