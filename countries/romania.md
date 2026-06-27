@@ -1,26 +1,26 @@
 ---
 country: Romania
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T14:38:52Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-27T16:11:32Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["romania-dn-income-above-current-budget", "romania-pfa-registration-vat-fit-gap", "cluj-rent-pressure", "romania-private-insurance-quote-gap", "romania-international-school-cost-risk", "romanian-language-integration-needed", "romania-one-income-margin-risk"]
-sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076, src-121, src-324, src-325, src-326, src-327, src-505, src-506, src-507, src-508, src-642, src-643, src-760, src-761]
+sources_used: [src-002, src-068, src-069, src-070, src-071, src-072, src-073, src-074, src-075, src-076, src-121, src-324, src-325, src-326, src-327, src-505, src-506, src-507, src-508, src-642, src-643, src-760, src-761, src-816]
 unverified_count: 1
 schema_version: 2.0.0
 ---
 
 # Romania
 
-> First-pass country profile. Sections 5.2, 5.4, 5.5, 5.7, 5.8, and 5.9 are completed for screening; sections 5.1, 5.3, and 5.6 remain partial. Healthcare is workable but final-status insurance / onboarding details remain application-prep checks.
+> First-pass country profile. Sections 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, and 5.11 are completed for screening; sections 5.1, 5.3, and 5.6 remain partial. Healthcare is workable but final-status insurance / onboarding details remain application-prep checks.
 
 ## Block 1 — Summary
 
 - **Tier**: TBD
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-27
 - **Tier rationale**: TBD. Romania offers a legislated digital-nomad route and low cost of living, but winters are cold and no post-2027 TP bridge has been captured.
 
 ## Block 2 — Scoring
@@ -265,9 +265,26 @@ Practical interpretation: for the current one-income couple, **Timisoara first, 
 
 Practical risk read: Romania is a cost/logistics-friendly EU fallback, but the binding risks are DN income insufficiency, ordinary PFA/company route fit, no captured TP bridge, and one-income margin after tax/insurance.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-27, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. Romania's core official channels and a professional-contact lead are captured, but this is not filing-ready advice; exact GII appointment capacity, document legalization, PFA/company sequencing, CNAS/private-insurance onboarding, and provider fee quotes remain application-prep checks.
+
+**Route / filing practicality**
+- For a digital-nomad or other long-stay visa file, Romania's E-VISA portal lets the applicant fill in a visa application file online and send it to the selected Romanian diplomatic mission or consular post; the portal explicitly says the formal decision clock starts when the applicant presents at the mission/consular post [src-072].
+- The E-VISA portal also requires a valid email address, document uploads, legible attachments, and original plus copy presentation at the diplomatic mission/consular post; it advises that supporting documents be translated into Romanian or English by an authorised translator, and states a 2 MB attachment limit [src-072]. This makes Romania less opaque than many consular-only routes, but still not fully remote.
+- For post-arrival / residence-permit work, the IGI Portal is already captured as Romania's public online application platform for residence permits and work authorisations, including document-upload and appointment-scheduling functionality [src-069]. Treat it as a useful local workflow aid, not proof that every route can be completed without in-person steps.
+- The D/AC commercial-activity route remains heavy for a solo foreign-client IT freelancer: OUG 194/2002 frames it around a Romanian commercial company, investment/business-plan evidence, and projected activity rather than a lightweight self-employed permit [src-068].
+
+**Professional-support lead (neutral, not a recommendation)**
+- A Romania-specific contact lead is captured for later comparison: Immigration-Romania.com / Milaciu N. Cristina - Cabinet Avocatura advertises Romanian immigration-lawyer support for work visas, residence permits, employer support, document review, and guidance through completion; public contact details include phone +40 734 679 007, Office@immigration-romania.com, Astrid114@yahoo.com, and Alba-Iulia Str., No. 96, Ighiu, Alba County [src-816]. Use this only as one lead to compare against independent Bucharest / Timisoara immigration lawyers and accountants.
+
+**Practicality read for this couple**
+- Bureaucracy score for screening: medium. Romania is practical because E-VISA and IGI give visible official online workflows, English is comparatively strong, and Timisoara/Bucharest can be cost-controlled. The route itself is not solved because the DN income gate is above the current budget, the ordinary PFA/company path needs tax/immigration fit confirmation, and no Romania-specific TP-to-ordinary-status bridge has been captured [src-068][src-069][src-070][src-072].
+- Document/localisation burden: moderate. Expect Romanian or English translations, original/copy presentation at the consulate, possible apostille/legalisation for civil/criminal documents depending on the filing route, and local help for GII, CNAS, lease, and tax/PFA steps [src-072].
+- City practicality: **Timisoara first** for rent/cost balance, **Bucharest second** for deepest bureaucracy/private-service access with a rent cap, and **Cluj-Napoca only** for a specific tech/community reason because rent is already the weakest budget point [src-506][src-507][src-508].
+
+**Bureaucracy verdict**
+- Romania passes §5.11 for screening. It is administratively screenable but sequence-sensitive: decide before March 2027 whether the plan is independent TP, DN if income rises, marriage/family, employment, or a real company/PFA structure, and budget Romanian immigration lawyer plus accountant support before filing.
 
 ## Block 4 — Risk dimensions (summary)
 
@@ -329,7 +346,10 @@ Working sequence for Romania:
 ### 7c. Community and forums
 _(none yet)_
 
-### 7d. Statistical / commercial
+### 7d. Professional / commercial contacts
+- [src-816] Immigration-Romania.com — Romania immigration-lawyer contact lead for residence permits, work visas, employer support, document review, and guidance; phone/email/address captured for later comparison.
+
+### 7e. Statistical / commercial
 - [src-073] Climate to Travel — Bucharest climate averages (temperatures, sunshine hours, precipitation).
 - [src-074] Climate to Travel — Cluj-Napoca climate averages.
 - [src-075] Climate to Travel — Timișoara climate averages.
@@ -342,13 +362,14 @@ _(none yet)_
 - [src-643] Eurydice — Romania education-system pages — ECEC, compulsory/free education, primary/lower-secondary structure, and governance baseline.
 - [src-760] World Population Review / TravelSafe safety proxies for Romania — Global Peace Index, TravelSafe safety index, risk label, and US News safest-country proxy.
 
-### 7e. Not found
+### 7f. Not found
 - Serving-consulate digital-nomad appointment/payment/localisation details and exact processing-time practice; not a current core-route blocker after `vq-022` closure.
 - Official meteorological annual sunny-day counts for Romanian cities. WeatherSpark clearer-sky day-equivalent proxies are now captured for §5.2 screening.
 - Romanian accountant / authority confirmation of the exact PFA or company route for foreign-client IT, CAEN classification, expense deductions, VAT / reverse-charge treatment, and compatibility with the couple's immigration file.
 - Private-insurance quotes, maternity waiting periods/exclusions, and CNAS / family-doctor onboarding for the couple's final Romanian status and selected city.
 - City-level school catchment, Romanian-language support, and live private nursery / international-school quotes.
 - Unmarried-partner residence treatment, final DN-family mechanics, and ordinary-status work rights for the partner if Romania becomes a finalist.
+- Exact GII appointment availability, Romanian lawyer/accountant quotes, PFA/company sequencing, document legalization edge cases, and final-city provider choices for a filing-ready Romania plan.
 
 ## Block 8 — Open questions and verification markers
 
@@ -358,6 +379,6 @@ Tax application-prep checks after run-069:
 Healthcare application-prep check after run-137:
 - `vq-129` resolved for screening in run-138: private-insurance quotes, maternity waiting periods/exclusions, and exact CNAS / family-doctor onboarding for the couple's final DN / family / self-employed status and selected city remain application-prep checks.
 
-Sections 5.1/5.2 have no current blockers after `vq-022` operational-core closure. Comfort and partner fit are now screenable; later citizenship, risk dimensions, bureaucracy, and route-specific application-prep checks remain in their own pending sections.
+Sections 5.1/5.2 have no current blockers after `vq-022` operational-core closure. Comfort, partner fit, risk dimensions, and bureaucracy are now screenable; later citizenship and route-specific application-prep checks remain outside the current screening pass.
 
 

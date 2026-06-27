@@ -9837,3 +9837,15 @@ Each source entry:
 - **Facts supporting**: Poland bureaucracy/practicality contact lead: Warsaw immigration-specialist contact page listing residency / citizenship / Schengen-visa / temporary-residence services; address ul. Hoza 86, office 210/214, 00-682 Warszawa; email clients(at)lawyerspoland.eu; phone +485****3752
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-27
+
+## src-816
+- **Title**: Immigration-Romania.com - Contact Us | Romanian Immigration Lawyer
+- **URL**: https://www.immigration-romania.com/contact/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-27
+- **Used by**: Romania
+- **Facts supporting**: Romania bureaucracy/practicality contact lead: Romanian immigration-lawyer site advertising support for immigration to Romania, foreign-worker hiring, work visa / residence-permit / employer-support contact form, document review, and guidance until completion; phone +40 734 679 007; email Office@immigration-romania.com and Astrid114@yahoo.com; address Alba-Iulia Str., No. 96, Ighiu, Alba County, Romania
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-27

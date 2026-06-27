@@ -4,6 +4,12 @@ version: 1.0.0
 last_updated: 2026-06-27
 ---
 
+## 2026-06-27 — run-221 — Romania bureaucracy/practicality slice
+
+- Completed Romania §5.11 for first-pass screening: E-VISA / IGI workflow visibility, consular presentation caveat, document translation/upload constraints, professional-contact lead, and route-sequencing risks.
+- Added `src-816` for a neutral Romanian immigration-lawyer contact lead and updated `dimensions/bureaucracy-practicality-5.11.md`.
+- Advanced Romania depth_score 9.0 -> 10.0; verification queue remains 0.
+
 ## 2026-06-27 - run-220
 - Criterion slice: 5.11 bureaucracy/practicality continued with Poland.
 - Poland: depth_score 9.0 -> 10.0 (section 5.11 completed for screening).

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 220,
+  "iteration": 221,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-27T13:05:43Z",
+  "last_run_timestamp": "2026-06-27T16:11:32Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.11",
-    "reason": "Continue the Tier-2 5.11 bureaucracy/practicality slice with Romania unless verification, staleness, or accepted proposals take priority."
+    "reason": "Continue the Tier-2 5.11 bureaucracy/practicality slice with Bulgaria unless verification, staleness, or accepted proposals take priority."
   },
   "countries": {
     "Spain": {
@@ -322,7 +322,7 @@
     "Romania": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 9.0,
+      "depth_score": 10.0,
       "sections_completed": [
         "5.2",
         "5.4",
@@ -330,16 +330,15 @@
         "5.7",
         "5.8",
         "5.9",
-        "5.10"
+        "5.10",
+        "5.11"
       ],
       "sections_partial": [
         "5.1",
         "5.3",
         "5.6"
       ],
-      "sections_pending": [
-        "5.11"
-      ],
+      "sections_pending": [],
       "risk_flags": [
         "romania-dn-income-above-current-budget",
         "romania-pfa-registration-vat-fit-gap",
@@ -349,7 +348,7 @@
         "romanian-language-integration-needed",
         "romania-one-income-margin-risk"
       ],
-      "last_iteration": 205,
+      "last_iteration": 221,
       "unverified_count": 1
     },
     "Bulgaria": {
@@ -1193,7 +1192,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 814,
+  "sources_count": 815,
   "claims_count": 716,
   "proposals_pending": 0
 }
