@@ -1,13 +1,13 @@
 ---
 country: Malta
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T11:31:48Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
+depth_score: 10.0
+last_updated: 2026-06-27T07:42:00Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["no-clear-post-2027-tp-bridge", "nomad-income-above-current-budget", "nomad-not-pr-citizenship-path", "malta-nrp-authorized-work-tax-fit-gap", "malta-rent-pressure", "malta-health-insurance-quote-gap", "malta-international-school-cost-risk", "malta-one-income-margin-risk"]
-sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052", "src-120", "src-293", "src-311", "src-312", "src-313", "src-314", "src-315", "src-376", "src-377", "src-378", "src-379", "src-380", "src-631", "src-632", "src-633", "src-634", "src-755"]
+sources_used: ["src-002", "src-046", "src-047", "src-048", "src-049", "src-050", "src-051", "src-052", "src-120", "src-293", "src-311", "src-312", "src-313", "src-314", "src-315", "src-376", "src-377", "src-378", "src-379", "src-380", "src-631", "src-632", "src-633", "src-634", "src-755", "src-813"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence makes Malta a mixed legalization candidate: it has EU temporary protection and a well-documented Nomad Residence Permit, but the nomad route requires EUR 42,000/year gross income and explicitly does not lead to long-term residence or citizenship by itself [src-047][src-049].
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-27
 - **Tier rationale**: Do not classify yet. Main current risks are that the couple's current USD 3,000/month is below the nomad threshold, the NRP does not lead to PR/citizenship, the ordinary fallback is tax/rent-tight, and the exact Maltese tax/social-security treatment of foreign-client IT work under the NRP still needs adviser confirmation [src-002][src-049][src-311][src-312][src-376].
 
 ## Block 2 — Scoring
@@ -259,9 +259,21 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 
 **Risk verdict:** Malta is low-friction linguistically but high-friction strategically. It is best treated as an English-friendly bridge only if income rises, not as a confirmed settlement route at the current budget.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-27, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for screening. Core NRP route timing, filing channel, document-localisation burden, inside/outside-country practicality, and one professional-contact lead are captured. Exact appointment load, insurer wording, final tax/social-security sequencing, and TP office practice remain application-prep checks.
+
+**Primary route timing.** Malta's NRP is the only well-captured remote-work filing route in this profile. Residency Malta states that processing is expected to take **30 working days after funds are received**; fees are EUR 300 non-refundable application fee per person plus EUR 100 residence-card issuance fee per person [src-049]. The permit can be renewed up to a maximum stay of four years, but it explicitly does not lead to long-term residence or citizenship [src-049]. This makes the bureaucracy clear enough for filing, but strategically weak as a settlement route.
+
+**Filing location and channel.** The NRP is practical from outside Malta because applications are submitted through the Residency Malta online portal [src-048]. The checklist requires Form N4 for each applicant, passport copy, CV, bank statements with income credited to the main applicant, police certificates for adults, foreign-employment / self-employment / freelance evidence, and relationship documents for dependants [src-048]. Accommodation and Malta/international health insurance are submitted after Approval in Principle and must cover the permit period [src-048].
+
+**Document-localisation burden.** Malta is easier than many EU peers because the NRP materials and much of the service ecosystem are in English, but it is not paperwork-light. Non-English police certificates and documents require English translation, relationship evidence must be assembled carefully for a spouse or de facto partner, and the income evidence must show at least EUR 42,000/year gross from qualifying foreign work [src-047][src-048][src-049].
+
+**Temporary protection / post-2027 practicality.** For TP, the captured evidence supports only the EU/Malta legal-basis and 04 March 2027 horizon, not a clean current Malta office workflow or post-2027 conversion bridge [src-002][src-046]. Operationally, TP is a short-term bridge only; the couple should not rely on it for Malta settlement unless a later official transition rule appears.
+
+**Professional-contact lead.** Neutral lead, not a recommendation: Chetcuti Cauchi Advocates lists Immigration, European Residency, Global Mobility, Tax, Corporate Services, Property, and related practice areas, with a Valletta contact address at 86 Merchants Street, email info@ccmalta.com, and telephone +356 22056200 [src-813]. Use this or another Maltese immigration/tax adviser to cross-check NRP authorised-work tax, Class Two / social-security treatment, VAT/source-remittance, de facto partner evidence, and any ordinary route that could count toward long-term residence.
+
+**Practicality verdict.** Malta is bureaucratically screenable but not practically strong for this couple at current income. The online NRP path, English documents, and 30-working-day baseline are clear; the binding problems are the EUR 42,000/year gross threshold, the non-settlement nature of NRP, rent pressure, private-insurance requirement, and the uncaptured post-2027 TP bridge [src-047][src-048][src-049]. Marsaskala / Birkirkara remain the only first-pass bases worth testing if income rises; Sliema / Valletta should be treated as rent-stress markets.
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -337,6 +349,7 @@ For this vault's definition, a "normal two-room apartment" means a separate bedr
 
 ### 6g. Contact points and communities
 - Residency Malta Agency, Zentrum Business Centre, Level 2, Mdina Road, Qormi QRM 9010; clientrelations.residencymalta@gov.mt; +356 22034000 [src-047].
+- Professional lead to compare, not a recommendation: Chetcuti Cauchi Advocates, 86 Merchants Street, Valletta VLT 1166; info@ccmalta.com; +356 22056200 [src-813].
 - Malta TP application contact points: [verification required].
 - Healthcare: use the chosen insurer, local health centre, and emergency number 112; verify public-health registration only after the final residence status is known [src-631].
 - Education: start with Malta state-school / free-childcare eligibility checks before pricing international schools [src-632][src-634].
@@ -376,6 +389,7 @@ _(none yet)_
 - [src-379] Livingcost — Birkirkara cost of living.
 - [src-380] Livingcost — Marsaskala cost of living.
 - [src-755] World Population Review / Numbeo safety proxies for Malta.
+- [src-813] Chetcuti Cauchi Advocates Malta contact / practice areas.
 
 ### 7e. Not found
 - Capturable Malta International Protection Agency / Home Affairs current TP procedure page. Obvious official pages were public in search results but blocked by security verification during extraction. Current operational baseline is “no captured post-2027 TP bridge, plan an ordinary route before TP expiry.”
