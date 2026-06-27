@@ -1,13 +1,13 @@
 ---
 country: Cyprus
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T11:31:48Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
+depth_score: 10.0
+last_updated: 2026-06-27T00:43:54Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["no-clear-post-2027-tp-bridge", "dn-income-above-current-budget", "civil-union-needed-for-partner-dependency", "cyprus-social-insurance-category-gap", "limassol-rent-pressure", "cyprus-private-insurance-quote-gap", "cyprus-international-school-cost-risk", "cyprus-greek-language-integration-needed", "cyprus-one-income-margin-risk"]
-sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119", "src-293", "src-301", "src-302", "src-303", "src-304", "src-305", "src-371", "src-372", "src-373", "src-374", "src-375", "src-622", "src-623", "src-624", "src-625", "src-751", "src-752"]
+sources_used: ["src-002", "src-035", "src-036", "src-037", "src-038", "src-039", "src-119", "src-293", "src-301", "src-302", "src-303", "src-304", "src-305", "src-371", "src-372", "src-373", "src-374", "src-375", "src-622", "src-623", "src-624", "src-625", "src-751", "src-752", "src-811"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (do not assign yet). Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the DN net-income floor is above the couple's current ~$3,000/month budget and this first pass did not find a Cyprus-specific ordinary-residence bridge after 04 March 2027.
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
-- **Tier rationale**: Keep unranked until bureaucracy/practicality, healthcare application-prep details, and post-TP transition risk are researched beyond the current screening passes.
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-27
+- **Tier rationale**: Keep unranked until healthcare application-prep details and post-TP transition risk are researched beyond the current screening passes; bureaucracy/practicality is now screenable but route-risk remains high because DN income is above the couple's current budget.
 
 ## Block 2 — Scoring
 
@@ -35,6 +35,7 @@ schema_version: 2.0.0
 | Comfort of life | — | N/A | Medium safety baseline, Ukrainian reception infrastructure, warm coastal daily life, and moderate English proficiency are positive, but Greek remains needed for bureaucracy, healthcare, leases, and public schooling. | §5.8 |
 | Fit for couple with single income | — | N/A | Partner planning is the hard constraint: DN family coverage is spouse/civil-union based, family members cannot work locally, and the sponsor income floor is above the couple's current one-income profile. | §5.9 |
 | Risk dimensions | - | medium | Euro banking lowers currency risk, but the live risks are DN income/banking proof, no captured post-2027 Cyprus TP bridge, distance from Ukraine, Greek-language administration, and one-income fragility. | Section 5.10 |
+| Bureaucracy / practicality | 5 | medium | DN processing is formally screenable (central Nicosia filing within 3 months of arrival, 5-7 week examination, certified translations), but the income gate, no captured TP bridge, and Greek-language administration make it high-friction. | Section 5.11 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -246,9 +247,19 @@ Her independent options are also limited at first-pass level. Temporary protecti
 
 **Risk verdict:** Cyprus is not politically risky for a Ukrainian screening case, but the country remains route-risky: the income gate, Greek-language administration, lack of captured post-2027 bridge, and dependence on one income matter more than currency or safety.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-27, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening. Covered: route timing, filing-location baseline, inside-country practicality, document-localisation friction, and one neutral Cyprus law-firm contact lead. Exact final-route checklist review, live appointment load, insurance wording, accountant engagement, and city-specific GESY / tax / Social Insurance sequencing remain application-prep checks.
+
+**Timing and filing-location baseline.** Cyprus is procedurally clear for the official Digital Nomad route but not easy for this couple. The applicant files personally or through an authorised representative at the Migration Department's central offices in Nicosia within 3 months of arrival; biometric data and signature are captured for permit issuance; incomplete files are not accepted; and the official examination time is 5-7 weeks [src-035]. The initial residence permit is for 1 year and can be renewed for a further 2 years, while family members receive the same residence period but cannot work or perform economic activity in Cyprus [src-035].
+
+**Document-localisation burden.** The official DN page requires accompanying documents to be officially translated and duly certified or ratified, so Cyprus should be treated as a translation/legalisation-heavy file rather than a simple online remote-worker registration [src-035]. For Ukrainians using TP as a near-term bridge, Cyprus has an Asylum Service application / extension infrastructure, but the captured Cyprus page still does not provide a Cyprus-specific post-04 March 2027 ordinary-status conversion rule; plan an ordinary route before the cliff unless a later official transition appears [src-002][src-036].
+
+**Practical first-month sequence.** If Cyprus remains in play, use a route-first checklist: (1) confirm whether the couple can meet the EUR 3,500/month net DN income gate after taxes and contributions; (2) formalise marriage or civil union if using dependent coverage; (3) prepare certified translations / ratifications before arrival where possible; (4) secure Cyprus-covering medical insurance; (5) file at Nicosia within the 3-month window; and (6) coordinate tax registration, self-employed Social Insurance / GHS, bank statements, lease/address proof, and GESY eligibility after the residence posture is clear [src-035][src-301][src-303][src-304][src-305][src-622].
+
+**Professional-contact lead.** Neutral lead, not a recommendation: Michael Kyprianou Law Firm publishes Cyprus contact offices in Nicosia, Limassol, and Paphos, plus a Kyiv office; the Nicosia contact is 17 Stasinou Avenue, 1060 Nicosia, telephone +357 22 447 777, email info@kyprianou.com [src-811]. Use this only as a starting point for immigration/tax triage and compare against independent Cyprus migration lawyers before paying any retainer.
+
+**Practicality verdict.** Cyprus is screenable but high-friction. The bureaucracy itself is not opaque: the DN filing window, Nicosia office, fees, and 5-7 week examination baseline are captured. The real blockers are substantive: DN net income is above the couple's current one-income budget, dependent coverage likely requires marriage/civil union, family members cannot work locally, and no post-2027 Cyprus TP bridge is captured. If income rises, Larnaca or Nicosia remain the practical bases; Limassol should not be the default on current income.
 
 ## Block 4 - Risk dimensions (summary)
 

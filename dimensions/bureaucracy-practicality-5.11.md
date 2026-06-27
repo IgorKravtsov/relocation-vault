@@ -1,8 +1,8 @@
 # Dimension: Bureaucracy and practicality (5.11)
 
-Last updated: 2026-06-26
+Last updated: 2026-06-27
 Mode: criterion-slice
-Countries covered in this slice: Spain, Portugal, Italy, Greece
+Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus
 
 ## Scope
 
@@ -14,6 +14,7 @@ This slice records first-pass bureaucracy / practicality baselines for section 5
 | Portugal | AIMA post-visa remote-worker residence authorization gives 2-year initial permit and 3-year renewals; no captured TP processing SLA | D8 / remote-work route is visa-first, then in-person / platform AIMA residence authorization in Portugal; TP is shelter/onboarding, not a proven post-2027 bridge | Global Citizen Solutions, Lisbon: Portugal office and immigration/residence advisory contact; phone +351 21 060 5995 | Screenable but slower/less deterministic: official AIMA route exists, but income gate, NIF/bank/lease setup, tax registration, and appointment capacity are practical risks | [src-017][src-020][src-026][src-808] |
 | Italy | TP applicants contact the Questura directly; DN route is visa-first, then Questura residence permit within 8 working days after arrival; permit currently 1 year and locally renewable | TP files with local Questura; DN needs consular visa plus registered Italian lease and post-arrival Questura permit, so lease registration and appointment sequencing are practical gates | Mazzeschi Legal Counsels: immigration / citizenship / corporate law lead; info@mazzeschi.it; +39 0577 926921 | Screenable but high-friction: viable only with a coordinated lease, DN evidence, tax / partita IVA, partner-status, Questura, ASL, and Italian-speaking professional-support plan | [src-027][src-028][src-034][src-809] |
 | Greece | TP-to-Immigration-Code switch can be filed electronically before 04 March 2027 without an entry visa; DN consular response baseline is 10 days; DN starts as 1-year visa then up to 2-year residence permit, renewable every 2 years | TP bridge is inside-country/e-portal if Greek TP is held; fresh DN route is consular from the country of main residence, with Greek post-entry residence / tax / EFKA steps still needing local support | Immigration Greece / lawyersgreece.eu: Athens immigration-lawyer lead; clients(at)lawyersgreece.eu | Procedurally promising because the TP bridge is explicit, but not low-friction: DN income/family gate, Greek translations, tax/EFKA/VAT setup, private insurance, and Greek-language bureaucracy remain practical risks | [src-001][src-003][src-004][src-297][src-298][src-337][src-810] |
+| Cyprus | DN residence-permit filing is within 3 months of arrival; official examination time is 5-7 weeks; permit baseline is 1 year plus renewal for a further 2 years | DN filing is inside Cyprus at the Migration Department central offices in Nicosia, personally or through an authorised representative; TP has local Asylum Service filing infrastructure but no captured post-2027 conversion bridge | Michael Kyprianou Law Firm: Cyprus offices in Nicosia / Limassol / Paphos; Nicosia phone +357 22 447 777; info@kyprianou.com | Screenable but high-friction: procedure and office are clear, but certified translations, high DN income, spouse/civil-union dependency, no local work for family, tax/GESY/Social Insurance setup, and no captured TP bridge are binding risks | [src-002][src-035][src-036][src-301][src-303][src-304][src-305][src-622][src-811] |
 
 ## Cross-country observations
 
@@ -21,4 +22,5 @@ This slice records first-pass bureaucracy / practicality baselines for section 5
 - Portugal is a lower-SLA but still screenable case: AIMA gives a clear post-visa residence-card route for remote workers, while practical risk concentrates in the D8 income gate, appointment capacity, NIF / bank / lease setup, and tax-accounting execution.
 - Italy adds a high-friction but screenable case: TP onboarding has a clear Questura first-contact baseline, while the DN route is paperwork-heavy and depends on a registered lease, post-arrival Questura permit, tax / `partita IVA` alignment, and Italian-speaking professional help.
 - Greece adds the strongest explicit TP-to-ordinary-status practicality baseline in the slice so far: the ministry allows an electronic Immigration Code permit filing before 04 March 2027 without an entry visa for Greek TP holders, while the DN route remains consular and income-gated.
+- Cyprus adds a clear but income-gated DN bureaucracy baseline: the filing office, 3-month arrival window, and 5-7 week examination time are captured, but lack of a Cyprus TP bridge and the EUR 3,500 net-income threshold keep it high-friction for this couple.
 - Future 5.11 slice passes should keep lawyer/contact entries as neutral leads rather than recommendations, and should separate route-screening sufficiency from final application-prep details such as quotes, appointment slots, and gestor engagement letters.

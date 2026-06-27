@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-26
+last_updated: 2026-06-27
 ---
 
 # Sources Registry
@@ -9776,3 +9776,15 @@ Each source entry:
 - **Facts supporting**: Greece bureaucracy/practicality contact lead: Athens immigration-lawyer site advertising residency, citizenship, retirement-visa, nomad-visa, and FIP-visa services; address Ermou 56, Athina 105 63, Greece; email clients(at)lawyersgreece.eu
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-26
+
+## src-811
+- **Title**: Michael Kyprianou Law Firm - Contact us
+- **URL**: https://www.kyprianou.com/en/contact-us
+- **Archive**: [archive: failed 2026-06-27; HTTP 429 from Wayback save; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-27
+- **Used by**: Cyprus
+- **Facts supporting**: Cyprus bureaucracy/practicality contact lead: Cyprus law-firm contact page with offices in Nicosia, Limassol, and Paphos; Nicosia office at 17 Stasinou Avenue, 1060 Nicosia; telephone +357 22 447 777; email info@kyprianou.com; Limassol and Paphos office contacts also listed
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-27
