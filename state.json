@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 218,
+  "iteration": 219,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-27T07:42:00Z",
+  "last_run_timestamp": "2026-06-27T09:58:20Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.11",
-    "reason": "Tier-1-hint 5.11 bureaucracy/practicality is now complete; continue the slice across Tier-2 countries unless verification, staleness, or accepted proposals take priority."
+    "reason": "Continue the Tier-2 5.11 bureaucracy/practicality slice with Poland unless verification, staleness, or accepted proposals take priority."
   },
   "countries": {
     "Spain": {
@@ -257,7 +257,7 @@
     "Czech Republic": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 9.0,
+      "depth_score": 10.0,
       "sections_completed": [
         "5.2",
         "5.4",
@@ -265,16 +265,15 @@
         "5.7",
         "5.8",
         "5.9",
-        "5.10"
+        "5.10",
+        "5.11"
       ],
       "sections_partial": [
         "5.1",
         "5.3",
         "5.6"
       ],
-      "sections_pending": [
-        "5.11"
-      ],
+      "sections_pending": [],
       "risk_flags": [
         "business-visa-evidence-burden",
         "special-residence-round-timing-needs-follow-up",
@@ -285,7 +284,7 @@
         "czech-language-integration-needed",
         "czech-one-income-margin-risk"
       ],
-      "last_iteration": 204,
+      "last_iteration": 219,
       "unverified_count": 0
     },
     "Poland": {
@@ -1195,7 +1194,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 812,
+  "sources_count": 813,
   "claims_count": 716,
   "proposals_pending": 0
 }

@@ -1,13 +1,13 @@
 ---
 country: Czech Republic
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T11:31:48Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-27T09:58:20Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["business-visa-evidence-burden", "special-residence-round-timing-needs-follow-up", "czech-flat-tax-it-trade-fit-gap", "prague-rent-pressure", "czech-private-insurance-quote-gap", "czech-international-school-cost-risk", "czech-language-integration-needed", "czech-one-income-margin-risk"]
-sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171", "src-293", "src-316", "src-317", "src-318", "src-319", "src-497", "src-498", "src-499", "src-500", "src-635", "src-636", "src-637", "src-638", "src-756", "src-757"]
+sources_used: ["src-002", "src-053", "src-054", "src-055", "src-056", "src-057", "src-058", "src-059", "src-060", "src-061", "src-171", "src-293", "src-316", "src-317", "src-318", "src-319", "src-497", "src-498", "src-499", "src-500", "src-635", "src-636", "src-637", "src-638", "src-756", "src-757", "src-814"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence suggests a strategically relevant Tier-2-hint profile: Czechia has an unusually explicit special long-term residence track for Ukrainian temporary-protection holders, but this pass captured it through UNHCR rather than an official-primary Czech page and the normal self-employed/business route has a high evidence burden.
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
-- **Tier rationale**: Keep Tier unset until official-primary special-residence future-round timing, flat-tax IT trade fit, bureaucracy/practicality are researched.
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-27
+- **Tier rationale**: Keep Tier unset until official-primary special-residence future-round timing and flat-tax IT trade fit are researched; bureaucracy/practicality is now screenable for first-pass planning.
 
 ## Block 2 — Scoring
 
@@ -231,9 +231,19 @@ English practicality is decent for an EU inland country but not enough to avoid 
 
 **Risk verdict:** Czechia is strategically stronger than many peers on post-TP continuity, but the risk profile shifts to execution: round timing, household eligibility, trade/tax classification, Prague rent discipline, and Czech-language administration.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-27, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. This section captures the main filing channels, document-localisation burden, practical sequencing risks, city-service read, and one neutral professional-contact lead. It is not filing-ready: final special-residence round timing, exact business/self-employed visa evidence, accountant/trade-licence fit, insurer wording, and appointment capacity still need application-prep checks.
+
+**Core filing practicality.** Czechia is paperwork-heavy but operationally legible. The official business-purpose long-term-visa page says the file is normally lodged in person at a Czech diplomatic mission, the consular fee is **CZK 5,000**, processing is **90 days**, and the evidence set includes application form, travel document, accommodation proof, proof of funds, photo, trade/commercial register evidence, and criminal-record extract [src-054]. The Ministry of the Interior general long-term-visa rules add the practical localization burden: documents should be originals or official copies, foreign-language documents need official Czech translation, and foreign public documents need apostille or superlegalisation [src-055].
+
+**Inside-country / transition practicality.** The Ukrainian special-long-term-residence track is the key administrative upside: the Czech IPC page confirms this is a special status for economically self-sufficient temporary-protection holders who want to settle in Czechia, not an automatic replacement for TP [src-061]. That makes Czechia more practical than ordinary visa-only screens if the couple can lawfully center their file in Czech TP and meet the income, insurance, debt, accommodation, and household conditions already captured in §5.1. The remaining caveat is timing: future registration rounds after the first cycle are still a legal-follow-up item, so do not build a March-2027 plan without checking the current official round calendar.
+
+**Professional-contact lead.** Foreigners.cz is a neutral first contact lead rather than a recommendation. Its relocation-services page advertises Czech services for foreign students and expats, including visa arrangement, residence permits, employee cards, digital-nomad program support, proof of accommodation, relocation services, and city coverage including Brno, Prague, Pilsen, Hradec Kralove, and Olomouc; the public contact baseline is **info@foreigners.cz** and **+420 211 221 492** [src-814]. This is useful for a first screening call, but the couple should still compare independent Czech immigration lawyers and accountants before relying on business-visa, trade-licence, tax, or special-residence advice.
+
+**City practicality.** Prague has the deepest legal/accounting/translation ecosystem, Ukrainian networks, and appointment/support density, but it is also the most rent-pressured city. Brno is the best first bureaucracy/cost screen because it combines services, tech/student infrastructure, high English proficiency, and lower rents than Prague. Ostrava is the affordability fallback, especially near Poland, but likely has thinner specialist support and weaker lifestyle/climate fit [src-498][src-499][src-500][src-757].
+
+**Bottom line:** Czechia is bureaucratically screenable but not light-touch. Its strategic advantage is the Ukrainian special-long-term-residence concept plus clear official business-visa mechanics; the practical downside is Czech translation/legalisation, evidence-heavy self-employment/business setup, health-insurance continuity, flat-tax/trade-fit uncertainty, and the need for Czech-speaking professional support. For this couple, treat Brno as the first practical base to test, Prague as the services-heavy/rent-stressed option, and Ostrava as a budget fallback.
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -306,12 +316,12 @@ English practicality is decent for an EU inland country but not enough to avoid 
 | Rental deposit | TBD | §5.5 later. |
 | First month rent | TBD | §5.5 later. |
 | Health insurance | TBD | Special long-term residence / visa planning needs insurance continuity; comprehensive foreigner insurance is the safer baseline, pregnancy needs a dedicated package, and live quotes remain pending [src-053][src-635][src-636]. |
-| Immigration lawyer fees | TBD | §5.11 later. |
+| Immigration / relocation support | TBD | Use Foreigners.cz only as a neutral first contact lead, not a recommendation; compare against Czech immigration lawyers/accountants before filing [src-814]. |
 | Buffer / contingencies | TBD | Needs cost-of-living research. |
 | **Total** | — | Not yet computable. |
 
 ### 6g. Contact points and communities
-- Immigration lawyers: TBD.
+- Immigration / relocation support: Foreigners.cz is a neutral first contact lead for visa arrangement, residence permits, employee cards, digital-nomad program support, proof of accommodation, and relocation services; public contact baseline is info@foreigners.cz and +420 211 221 492 [src-814]. Treat it as a lead to compare, not as an endorsement.
 - Ukrainian / Russian-speaking diaspora: use UNHCR Czechia and official Czech special-long-term-residence / temporary-protection guidance as the first support layer; city-specific communities remain TBD.
 - Official portals captured: IPC / Czech Ministry of the Interior [src-054][src-055][src-056].
 - Support / guidance captured: UNHCR Czechia [src-053].
@@ -352,6 +362,7 @@ _(none yet)_
 - [src-635] PVZP foreigners medical-insurance product baseline.
 - [src-636] InfoCizinci Czech foreigner health-insurance calculator / explainer.
 - [src-756] World Population Review / TravelSafe safety proxies for Czechia.
+- [src-814] Foreigners.cz relocation-services contact lead for Czech visa / residence / relocation support.
 
 ### 7e. Not found
 - Later-round special-long-term-residence timing after the first registration cycle remains unresolved.
@@ -360,10 +371,11 @@ _(none yet)_
 - Live Czech rental listings, deposit/agency-fee practice, and foreigner-document requirements were not captured.
 - Live Czech residence-compliant insurance quotes, maternity exclusions/waiting periods, and final-status public/private health onboarding were not captured.
 - Exact unmarried-partner treatment for a childless couple under special long-term residence / ordinary residence was not captured; use marriage or independent TP as the conservative baseline.
+- Exact current special-residence round calendar, business/self-employed appointment capacity, trade-licence/accountant sequencing, and support-provider fee quotes remain application-prep checks after this 5.11 screening pass.
 
 ## Block 8 — Open questions and verification markers
 
 - `vq-020` resolved in run-032: WeatherSpark clearer-sky day-equivalent proxies close the climate blocker at medium confidence; direct official sunny-day counts were not captured.
 - `vq-094` resolved for screening in run-100: use the Czech flat-tax / 60% expense scenario only as a conservative screening baseline; exact trade category, VAT/reverse-charge, social-health, and immigration-status fit is application-prep/accountant work.
 - `vq-127` resolved for screening in run-138: Czech residence-compliant insurance quotes, maternity exclusions/waiting periods, and status/city-specific healthcare onboarding remain application-prep checks.
-- Run-173 added comfort/partner screening baselines. Remaining Czech issues are application-prep checks: final-city community/service depth, Czech-language integration, and exact unmarried-partner legal treatment.
+- Run-173 added comfort/partner screening baselines. Run-219 completed 5.11 bureaucracy/practicality for screening; remaining Czech issues are application-prep checks: final-city community/service depth, Czech-language integration, exact unmarried-partner legal treatment, current special-residence round timing, and support-provider/accountant quotes.

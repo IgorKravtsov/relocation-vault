@@ -9812,3 +9812,15 @@ Each source entry:
 - **Facts supporting**: Malta bureaucracy/practicality contact lead: law-firm contact page and navigation listing Immigration, European Residency, Global Mobility, Tax, Corporate Services, Property, and related practice areas; main entrance 86 Merchants Street, Valletta VLT 1166; email info@ccmalta.com; telephone +356 22056200
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-27
+
+## src-814
+- **Title**: Foreigners.cz - services for foreign students and expats in the Czech Republic
+- **URL**: https://www.foreigners.cz/relocation-services/
+- **Archive**: [archive: failed 2026-06-27; HTTP 429 from Wayback save; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-27
+- **Used by**: Czech Republic
+- **Facts supporting**: Czech Republic bureaucracy/practicality contact lead: relocation-services page listing visa arrangement, residence permit, employee card, digital nomad program, proof of accommodation, cleaning service, and relocation support for foreign students and expats; public contact info@foreigners.cz and +420 211 221 492; city selector includes Brno, Prague, Pilsen, Hradec Kralove, and Olomouc
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-27
