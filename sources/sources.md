@@ -9824,3 +9824,16 @@ Each source entry:
 - **Facts supporting**: Czech Republic bureaucracy/practicality contact lead: relocation-services page listing visa arrangement, residence permit, employee card, digital nomad program, proof of accommodation, cleaning service, and relocation support for foreign students and expats; public contact info@foreigners.cz and +420 211 221 492; city selector includes Brno, Prague, Pilsen, Hradec Kralove, and Olomouc
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-27
+
+
+## src-815
+- **Title**: Immigration-Poland.com - Contact our Poland immigration specialists
+- **URL**: https://www.immigration-poland.com/contact/
+- **Archive**: [archive: failed 2026-06-27; HTTP 429 from Wayback save; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-27
+- **Used by**: Poland
+- **Facts supporting**: Poland bureaucracy/practicality contact lead: Warsaw immigration-specialist contact page listing residency / citizenship / Schengen-visa / temporary-residence services; address ul. Hoza 86, office 210/214, 00-682 Warszawa; email clients(at)lawyerspoland.eu; phone +485****3752
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-27

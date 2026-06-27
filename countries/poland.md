@@ -1,13 +1,13 @@
 ---
 country: Poland
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T14:38:52Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-27T13:05:43Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["poland-zus-social-contribution-gap", "poland-ryczalt-it-rate-fit-gap", "warsaw-rent-pressure", "poland-private-insurance-quote-gap", "poland-international-school-cost-risk", "poland-polish-language-integration-needed", "poland-one-income-margin-risk"]
-sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091", "src-293", "src-320", "src-321", "src-322", "src-323", "src-501", "src-502", "src-503", "src-504", "src-639", "src-640", "src-641", "src-758", "src-759"]
+sources_used: ["src-002", "src-062", "src-063", "src-064", "src-065", "src-066", "src-067", "src-091", "src-293", "src-320", "src-321", "src-322", "src-323", "src-501", "src-502", "src-503", "src-504", "src-639", "src-640", "src-641", "src-758", "src-759", "src-815"]
 unverified_count: 4
 schema_version: 2.0.0
 ---
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (set after sufficient evidence; justify with sources)
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-27
 - **Tier rationale**: TBD. Poland is a uniquely relevant case because one partner already holds a Polish `karta pobytu` (residence permit), which creates a family-reunification path that does not exist for most other countries in the set. The new CUKR card (May 2026) also provides a clear post-2027 bridge for Ukrainian temporary-protection holders. If both paths hold, Poland could rate Tier 1 or Tier 2; the first tax pass suggests the self-employed tax answer can be workable, but exact ZUS and IT lump-sum classification require accountant confirmation.
 
 ## Block 2 — Scoring
@@ -36,6 +36,7 @@ schema_version: 2.0.0
 | Education (future child) | — | medium | Eurydice supports a normal public-school baseline: compulsory one-year preschool preparation, primary school from age 7, and education/training obligation to 18; childcare/international-school costs are the budget risk. | §5.7 |
 | Comfort of life | — | medium | Poland screens comfort-positive for safety, EU/large-city infrastructure, Ukrainian support systems, and high English proficiency, but winters and Polish-language bureaucracy remain practical frictions. | §5.8 |
 | Fit for couple with single income | — | medium | Marriage or independent Ukrainian status is the conservative partner baseline; remote Ukrainian study is compatible in practice but gives no Polish residence rights, and the one-income margin depends on confirmed rent and ZUS/tax treatment. | §5.9 |
+| Bureaucracy / practicality | — | medium | CUKR is the cleanest administrative path if eligibility is real: MOS electronic filing, PLN 440 core fees, and a 04 March 2027 deadline are captured; family reunification is document-heavy, and business/self-employment remains lawyer/accountant-led. | §5.11 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -290,11 +291,22 @@ Poland passes partner/student screening at medium confidence. Marriage is the cl
 
 Practical risk read: Poland's risk profile is unusually strong for continuity and support, but the couple must control Warsaw rent, confirm ZUS / `ryczalt` / VAT treatment, and treat Polish-language integration as a long-term requirement.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-27, dod: passed}
 
-> **DoD**: timelines for main paths; can-apply-from-inside or from-Ukraine; lawyer contacts (≥1).
+> **DoD status**: Passed for screening. This is a bureaucracy/practicality baseline, not a final application-prep packet; exact voivode appointment practice, lawyer engagement terms, sworn-translation quotes, ZUS/accountant setup, and the final CUKR / family / business sequencing should still be checked before filing.
 
-[verification required]
+**Main route timing and filing mechanics (medium confidence)**:
+- **CUKR / Ukraine special bridge**: the strongest practical baseline is the CUKR card if the relevant partner has continuous UKR status and PESEL UKR eligibility. The official UdSC procedure is an electronic MOS application path, has a hard filing horizon to **04 March 2027**, costs **PLN 340 stamp duty + PLN 100 residence-card fee**, and produces a **3-year** temporary residence permit on special conditions if granted [src-062]. The Q&A also makes the route operationally useful by confirming labour-market access, business-activity rights, a 60-day collection window, and the need to move to general permit rules after CUKR [src-063].
+- **Family reunification / spouse file**: the captured voivodeship guidance gives a conventional temporary-residence file with marriage/family-tie evidence, health insurance, accommodation, stable regular income, and government fees. This route is practical only if marriage / qualifying family status is clean; no safe unmarried-partner baseline is captured [src-091].
+- **Business / self-employed execution**: Polish sole-proprietor tax registration is administratively real, but the immigration file is not yet a lightweight remote-work route. Treat CEIDG / tax / ZUS / VAT setup as a lawyer-plus-accountant workstream until the 12% `ryczalt`, social-contribution, and residence-purpose fit are confirmed [src-320][src-321][src-323].
+
+**Professional-contact lead (neutral, not a recommendation)**:
+- Immigration-Poland.com / BridgeWest-associated Poland immigration specialists list a Warsaw contact at ul. Hoza 86, office 210/214, 00-682 Warszawa; public email `clients(at)lawyerspoland.eu`; and immigration/residency/citizenship service coverage. Use this as one comparison lead only, alongside independent Polish immigration lawyers and accountants [src-815].
+
+**Practicality read for this couple**:
+- Poland is one of the more practical jurisdictions in the vault if the existing Polish status / PESEL UKR / CUKR facts line up, because the main bridge is digital, local, and already tailored to Ukrainians.
+- The operational weak point is not the existence of paperwork; it is choosing the correct file sequence before March 2027: CUKR if eligible, marriage-based family reunification if it is the cleaner sponsor route, and business/self-employment only after tax/ZUS and voivode practice are confirmed.
+- First city screen remains **Wroclaw first, Krakow second, Warsaw only with a strict cap**: bureaucracy, lawyers, accountants, and Ukrainian support are deepest in major cities, but Warsaw rent can erase the one-income margin.
 
 ## Block 4 — Risk dimensions (summary)
 
@@ -315,6 +327,7 @@ Practical risk read: Poland's risk profile is unusually strong for continuity an
 
 **Pros**:
 - Existing Polish `karta pobytu` / CUKR relevance makes Poland unusually practical compared with many countries in the set.
+- CUKR bureaucracy is comparatively concrete: electronic MOS filing, 04 March 2027 application horizon, PLN 440 core fees, and 3-year permit duration are captured.
 - Krakow and Wroclaw screen as workable on the current income if rent is controlled.
 - Comfort screening is positive for safety, high English proficiency, and Ukraine-specific support infrastructure.
 - Public education is a realistic future-child baseline if the family accepts Polish-language integration.
@@ -324,6 +337,7 @@ Practical risk read: Poland's risk profile is unusually strong for continuity an
 - Warsaw rent is too high as a default on one income.
 - Climate is colder/greyer than the couple's preference.
 - Full ZUS / VAT / business-residence fit is not yet verified.
+- Lawyer/accountant support is likely needed to avoid choosing the wrong CUKR / family / business sequence before March 2027.
 - Private insurance quotes, maternity coverage, and exact NFZ onboarding for the final route remain application-prep gaps.
 - International schooling would be expensive relative to one income.
 - Polish-language bureaucracy, public healthcare, schooling, and long-term integration remain practical friction points.
@@ -376,7 +390,7 @@ Practical risk read: Poland's risk profile is unusually strong for continuity an
 | **Total** | — | |
 
 ### 6g. Contact points and communities
-- Immigration lawyers (2–3 with contacts): TBD
+- Immigration lawyers (2–3 with contacts): one neutral lead captured for comparison, Immigration-Poland.com / BridgeWest-associated specialists in Warsaw, `clients(at)lawyerspoland.eu`, ul. Hoza 86 [src-815]. Add at least one independent Polish immigration lawyer and one accountant before filing.
 - Ukrainian / Russian-speaking diaspora (Telegram channels, FB groups): TBD
 - Expat blogs: TBD
 - NGOs / Caritas / refugee help: TBD
@@ -399,6 +413,7 @@ Practical risk read: Poland's risk profile is unusually strong for continuity an
 - [src-640] Expat Arrivals — Healthcare and health insurance for expats in Poland (accessed 2026-06-16)
 - [src-641] Eurydice — Poland education-system / early-childhood / structure pages (accessed 2026-06-16)
 - [src-759] EF English Proficiency Index — Poland (2025-11-01, accessed 2026-06-21)
+- [src-815] Immigration-Poland.com — Contact our Poland immigration specialists (accessed 2026-06-27)
 - [src-293] NBP USD/PLN exchange-rate API reference reused for 2026-06-05 USD/PLN calculation
 
 ### 7c. Community and forums
@@ -424,6 +439,7 @@ _(none yet)_
 - School catchment / Ukrainian-language support and live international-school admissions/fees for the final city.
 - Application-prep check: exact voivode practice for documenting foreign-client IT income in a family-reunification file, and exact work rights under the chosen family / CUKR / student status.
 - Application-prep check: Polish-language plan for offices, healthcare, leases, schooling, and long-term residence / citizenship requirements.
+- Application-prep check: compare at least two Polish immigration lawyers and one accountant before choosing the CUKR / family-reunification / business sequence.
 
 ## Block 8 — Open questions and verification markers
 
