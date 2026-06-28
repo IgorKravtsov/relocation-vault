@@ -1,13 +1,13 @@
 ---
 country: Montenegro
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T17:44:11Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-28T07:40:25Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-income-threshold-needs-primary-check", "digital-nomad-long-term-counting-unclear", "montenegro-tax-registration-and-ssc-fit-gap", "kotor-budva-coastal-rent-pressure", "montenegro-private-health-insurance-gap", "montenegro-international-school-budget-risk", "montenegrin-serbian-language-integration-needed", "montenegro-one-income-margin-risk"]
-sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-143", "src-348", "src-349", "src-350", "src-351", "src-352", "src-525", "src-526", "src-527", "src-528", "src-662", "src-663", "src-664", "src-665", "src-666", "src-744", "src-769", "src-770"]
+sources_used: ["src-123", "src-124", "src-125", "src-126", "src-127", "src-128", "src-129", "src-130", "src-131", "src-143", "src-348", "src-349", "src-350", "src-351", "src-352", "src-525", "src-526", "src-527", "src-528", "src-662", "src-663", "src-664", "src-665", "src-666", "src-744", "src-769", "src-770", "src-821"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass suggests a potentially useful non-EU fallback because Montenegro has extended temporary protection for Ukrainians to 04 March 2027 and advertises a digital-nomad residence framework, but the DN numeric income amount, long-term residence counting, and tax-registration / social-contribution fit for a foreign-client IT freelancer remain unresolved. [src-123][src-124][src-127][src-349]
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
-- **Tier rationale**: Do not classify yet. The official DN page now confirms filing route, document categories, duration, processing time, and spouse/minor-child family baseline; remaining classification blockers are the exact numeric income floor, tax/cost fit, and whether DN or other temporary-residence time can safely build a long-term PR clock.
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-28
+- **Tier rationale**: Do not classify yet. The official DN page now confirms filing route, document categories, duration, processing time, spouse/minor-child family baseline, and a screenable bureaucracy/practicality sequence. Remaining classification blockers are the exact numeric income floor, tax/cost fit, and whether DN or other temporary-residence time can safely build a long-term PR clock.
 
 ## Block 2 — Scoring
 
@@ -33,6 +33,7 @@ schema_version: 2.0.0
 | Healthcare | — | medium | Public/Fund baseline is screenable, but route-compliant private insurance, maternity coverage, and ordinary-residence onboarding costs remain application-prep gaps. | §5.6 |
 | Education (future child) | — | medium | Public preschool/school structure is clear, public preschool fees are modest, and QSI Montenegro 2025-26 tuition gives a concrete international-school stress test; this passes for screening but remains budget-sensitive. | §5.7 |
 | Comfort of life | — | medium | Low safety risk by travel/safety proxies; strongest day-to-day comfort is a tradeoff between Podgorica services/admin and Budva/Kotor coastal climate, with summer crowds and local-language friction active. | §5.8 |
+| Bureaucracy / practicality | — | medium | DN and TP filing channels are visible, but the country is adviser-dependent for DN evidence, tax/SSC/VAT setup, partner sequencing, lease/insurance proof, and any PR-counting strategy. | §5.11 |
 | Fit for couple with single income | — | medium | Workable only with controlled rent and public/local services: spouse/minor-child family route is captured for DN, unmarried partner is not, and one-income margin tightens if coastal rent, private healthcare, QSI, or tax/SSC downside applies. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
@@ -220,9 +221,17 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 
 **Risk-dimension conclusion.** Montenegro's attraction is warm climate plus a real DN route at potentially workable cost. Its live risk is legal/tax durability: official income amount, tax/SSC/VAT category, health-insurance onboarding, and whether the DN/ordinary route builds a long-term PR clock.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-28, dod: passed}
 
-[verification required]
+> **DoD status**: passed for screening. This slice captures the main timing / filing-location baseline and one neutral professional-services contact lead. It does not replace final application-prep checks for official DN income amount, fees, translations/apostilles, lawyer engagement, accountant scope, insurance, or lease evidence.
+
+**Core timing and filing sequence.** Temporary protection is already extended to **04 March 2027**, so TP can serve as a short shelter/status bridge but not as a captured post-2027 settlement route. The DN route is the main practical foreign-remote-work filing channel: the applicant files personally with the Ministry / local MIA branch after legal entry, can stay while a proper application filed before the 90-day stay expires is decided, and the regional unit / MIA branch should decide within **40 days** from a proper application. DN residence can be issued for up to **2 years**, extended for up to **2 more years**, and then requires a 6-month cooling-off period before a new DN permit. [src-123][src-143]
+
+**Inside-country practicality.** Montenegro is more locally actionable than visa-first EU routes because the captured DN legal-status page allows a legal entrant to file personally at the local MIA branch. However, this does not make the file lightweight: the couple must sequence accommodation, health insurance, passport validity, clean-record proof, financial-means evidence, and foreign-electronic-work proof before the tourist/visa-free clock runs out. The exact official income amount and fee / translation / apostille practice remain application-prep checks. [src-143]
+
+**Professional-support lead.** Neutral lead for later comparison: Prelevic Law Firm in Podgorica presents itself as a Montenegro corporate legal office with banking/finance, corporate/commercial, labour, real-estate, human-rights, energy, and intellectual-property practice areas. Public contact details are Bulevar Svetog Petra Cetinjskog 130/7, 81000 Podgorica; phone +382 20 228 563 / +382 20 228 564; email office@prelevic.com. Treat this as a legal-services lead to compare with at least one immigration/accounting specialist, not as an endorsement. [src-821]
+
+**Practicality verdict.** Montenegro is screenable but adviser-dependent. The strong points are local DN filing, a 40-day decision baseline, euro use, and Podgorica-based legal support. The hard points are DN financial-means proof, spouse-vs-unmarried-partner sequencing, health-insurance / lease evidence, accountant mapping of foreign-client IT income to entrepreneur/company/DN tax status, VAT/SSC handling, and whether DN or another ordinary status can build a safe PR clock after TP expires. [src-143][src-349][src-350][src-352][src-821]
 
 ## Block 4 — Risk dimensions (summary)
 
@@ -239,11 +248,11 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 - **Best legalization path for the man**: Likely DN / foreign-client remote-work residence if the financial-means proof is accepted; otherwise TP as a temporary shelter status while preparing another ordinary residence basis.
 - **Best legalization path for the woman**: TP independently if eligible; as a DN family member, the official captured list supports spouse/minor-child family reunification, not an unmarried partner baseline. [src-143]
 - **Does marriage change the picture**: Yes. Marriage is the safe baseline if she needs derived DN/family residence.
-- **Realism of staying after 03.2027**: Medium-unclear. DN exists and can cover up to 4 years, but the 6-month cooling-off rule and PR counting need legal confirmation.
+- **Realism of staying after 03.2027**: Medium-unclear. DN exists, can be filed locally after lawful entry, and can cover up to 4 years, but the 6-month cooling-off rule and PR counting need legal confirmation. [src-143]
 - **Tax fit at current income**: Potentially workable on the captured entrepreneur PIT baseline, but not passed; exact self-employed SSC/VAT/DN-status treatment needs accountant confirmation. [src-349][src-350]
 - **Cost/rent fit at current income**: First-pass cost/rent is workable if the couple avoids the most rent-pressured coastal stock: Podgorica screens best for budget/admin practicality, Budva is the warmer coastal compromise, and Kotor needs a strict housing cap. [src-526][src-527][src-528]
 - **Healthcare/education fit**: First-pass public-system and public-education baselines are screenable. Healthcare remains status/insurance-sensitive; education now passes for screening, but the English-language fallback is expensive, with QSI primary/secondary total annual fees around USD 28,500/year. [src-662][src-664][src-665][src-666][src-744]
-- **Comfort / partner fit**: Passes for screening at medium confidence. Montenegro is low-risk and warm/coastal, but local-language friction, coastal summer crowds/prices, and one-income margin risk mean Podgorica should be the conservative first base and marriage/independent status is the safe partner baseline. [src-769][src-770][src-143]
+- **Comfort / partner fit**: Passes for screening at medium confidence. Montenegro is low-risk and warm/coastal, but local-language friction, coastal summer crowds/prices, one-income margin risk, and adviser-dependent DN/tax/partner sequencing mean Podgorica should be the conservative first base and marriage/independent status is the safe partner baseline. [src-769][src-770][src-143][src-821]
 
 **Pros**:
 - TP officially extended to 04 March 2027. [src-123]
@@ -292,13 +301,14 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 | Rental deposit | — | Deposit norms and seasonal prepayment are still [verification required]. |
 | First month rent | ~$416-$676 | 40 m2 first-pass proxy: Podgorica cheap through Budva center; Kotor starts around $620. [src-526][src-527][src-528] |
 | Health insurance (one year) | — | Required for DN per secondary source; cost not researched. [src-127] |
-| Immigration lawyer fees | — | [verification required] |
+| Immigration lawyer fees | — | Compare Prelevic and at least one immigration/accounting specialist before filing; no fee quote captured. [src-821] |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |
 
 ### 6g. Contact points and communities
 - Ministry of Interior local branch / civil-status and personal-document office for TP extension/application. [src-123]
 - Official digital-nomad portal: Digital Nomads GOV.me. [src-124]
+- Neutral legal-services lead: Prelevic Law Firm, Podgorica; corporate/commercial/labour legal office with public phone and email. [src-821]
 - UNHCR / Red Cross support was part of the original TP implementation model; current contact details need verification. [src-126]
 
 ## Block 7 — Sources
@@ -338,6 +348,7 @@ _(none yet)_
 - [src-744] QSI Montenegro Information Packet 2025-26 — registration, capital-fund, and tuition fee schedule.
 - [src-769] World Population Review / TravelSafe safety proxies — Montenegro GPI / safety-index / risk baseline.
 - [src-770] Expat Arrivals — moving to Montenegro / expat-language / small-expat-community practical baseline.
+- [src-821] Prelevic Law Firm — Podgorica legal-services contact lead for bureaucracy/practicality screening.
 
 ### 7e. Not found
 - Official-primary DN numeric income threshold and full fee schedule.
@@ -346,7 +357,7 @@ _(none yet)_
 - Montenegro self-employed / entrepreneur registration, exact SSC base/rates, small-business VAT threshold, foreign-client reverse-charge handling, and DN-status tax compatibility.
 - Route-compliant private health-insurance quotes for two adults, maternity/newborn coverage, and exact public-insurance onboarding by residence status.
 - Montenegro private-preschool city quotes, exact admissions deposits/meals/transport/waiting lists, public-school enrollment documents for foreign children, and non-Podgorica English/bilingual alternatives.
-- Exact live-neighbourhood, lease, language-school, community, and partner-proof checks for the final Montenegro city/status choice.
+- Exact live-neighbourhood, lease, language-school, community, partner-proof, and final lawyer/accountant engagement checks for the final Montenegro city/status choice.
 
 ## Block 8 — Open questions and verification markers
 
@@ -358,3 +369,4 @@ _(none yet)_
 - `vq-134` — resolved in run-148 for screening: route-compliant private health-insurance quotes, maternity/newborn coverage, exact FZOCG/public-insurance onboarding, and city-specific private-clinic/GP/pediatrician checks remain application-prep items.
 - `vq-135` — resolved in run-148 for screening; run-166 captured QSI Montenegro 2025-26 tuition for the international-school stress test. Private-preschool city quotes, admissions deposits, meals/transport, waiting lists, public enrollment documents for foreign children, and coastal/non-Podgorica English/bilingual alternatives remain application-prep/final-city checks.
 - Run-183 completed sections 5.8 and 5.9 for screening: comfort is acceptable at medium confidence, but Montenegrin/Serbian language, coastal seasonality, one-income margin, and marriage/independent-status partner baselines remain practical planning constraints.
+- Run-226 completed section 5.11 for screening: local DN filing, 40-day decision baseline, and a Podgorica legal-services contact lead are captured; final lawyer/accountant engagement, income/fee/localisation checks, lease, insurance, tax/SSC/VAT setup, and PR-counting strategy remain application-prep work.

@@ -9898,3 +9898,15 @@ Each source entry:
 - **Facts supporting**: Neutral Slovenia bureaucracy/practicality contact lead: Ljubljana legal-services provider advertising immigration representation before the Ministry of the Interior, work permits from the Employment Service of Slovenia, company setup, residence, citizenship, VAT registration, and tax advice; public contact `clients(at)lawyersslovenia.com` and phone `(+35) 699 699 405`
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-28
+
+## src-821
+- **Title**: Prelevic Law Firm - Contact / Expertise
+- **URL**: https://www.prelevic.com/contact/ ; https://www.prelevic.com/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-28
+- **Used by**: Montenegro
+- **Facts supporting**: Neutral Montenegro bureaucracy/practicality contact lead: Podgorica law firm describing banking/finance, corporate/commercial, labour, real estate, human rights, energy, and intellectual-property practice areas; address Bulevar Svetog Petra Cetinjskog 130/7, 81000 Podgorica; phone +382 20 228 563 / +382 20 228 564; email office@prelevic.com
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-28
