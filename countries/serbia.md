@@ -1,13 +1,13 @@
 ---
 country: Serbia
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T17:44:11Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
+depth_score: 10.0
+last_updated: 2026-06-28T10:49:05Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["no-captured-post-2027-tp-bridge", "digital-nomad-implementing-rules-need-primary-check", "serbia-freelancer-tax-and-single-permit-fit-gap", "belgrade-rent-pressure", "serbia-private-insurance-quote-gap", "serbia-international-school-cost-risk", "serbian-language-integration-needed", "serbia-one-income-margin-risk"]
-sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174", "src-353", "src-354", "src-355", "src-356", "src-357", "src-358", "src-529", "src-530", "src-531", "src-532", "src-667", "src-668", "src-669", "src-670", "src-771", "src-772"]
+sources_used: ["src-132", "src-133", "src-134", "src-135", "src-136", "src-137", "src-138", "src-139", "src-140", "src-141", "src-142", "src-174", "src-353", "src-354", "src-355", "src-356", "src-357", "src-358", "src-529", "src-530", "src-531", "src-532", "src-667", "src-668", "src-669", "src-670", "src-771", "src-772", "src-822"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (likely Tier-2-hint until full legal/tax/cost evidence is gathered).
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-28
 - **Tier rationale**: Serbia is operationally attractive because Ukrainian citizens have visa-free entry, Serbia has a renewable temporary-protection framework for Ukrainians, MUP confirms electronic single-permit filing for self-employment / independent professional work, and the amended Law on Foreigners provides temporary residence / single permits up to 3 years plus permanent residence after 3 years of continuous temporary residence. The weak points are that no Serbia-specific post-TP ordinary-residence bridge was captured, the foreign-client IT tax/single-permit fit is not yet accountant-confirmed, and healthcare remains filing-sensitive until private insurance / RFZO onboarding details are checked. [src-132][src-133][src-135][src-136][src-667]
 
 ## Block 2 — Scoring
@@ -234,9 +234,17 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 
 **Risk-dimension conclusion.** Serbia's upside is regional accessibility, low cost outside Belgrade, flexible family evidence, and a potentially fast PR clock. Its live risk is the stack of RSD/tax uncertainty, ordinary-route proof, public-order/Kosovo sensitivity, Serbian-language administration, and citizenship-release caveat.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-28, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening at medium confidence. Core filing channels, timing / location constraints, document-practicality issues, and one neutral professional-services contact lead are captured; exact official fees, Serbian translations, accountant engagement, lease/address-registration support, and final appointment/document lists remain application-prep checks.
+
+**Route timing and filing baseline.** Serbia is locally practical for reconnaissance because Ukrainian ordinary-passport holders can enter visa-free for up to 90 days in any 180-day period. For long-stay work/self-employment planning, the official MUP baseline is electronic: temporary-residence and single-permit applications for employment-based detailed reasons such as self-employment and independent professional work are filed through the Foreign Nationals Portal with documents enclosed in electronic/digital form and fees paid through the portal. The Law on Foreigners allows temporary residence and single permits for up to 3 years, while the official residence-and-work page also treats self-employment and independent professional work as residence/work categories. [src-132][src-135][src-136][src-137]
+
+**Inside-country practicality.** Serbia is not a pure consulate-first case for this couple if they enter legally and the selected route accepts electronic filing. The practical sequence is: enter or prepare from abroad, secure address-registration evidence, health-insurance evidence, means / contract / business documentation, and then file through the portal or with adviser support before the visa-free clock becomes tight. Temporary protection can be an arrival/safety layer for eligible Ukrainians, but no captured Serbia-specific TP-to-ordinary bridge exists, so ordinary residence should be built early rather than deferred to 2027. [src-133][src-134][src-136]
+
+**Document and local-support burden.** The route is screenable but not do-it-yourself-safe: Serbian/Cyrillic administration, address registration by the landlord, health-insurance proof, APR/tax registration, freelancer-portal versus entrepreneur classification, VAT/e-invoicing, and family/common-law evidence all interact with the single-permit file. Zunic Law is a neutral professional-services lead for screening: its Serbia immigration page advertises services for companies, investors, global entrepreneurs, and families, including temporary residence, permanent residence, work permits, family reunification, and citizenship; its contact page lists Belgrade and Novi Sad offices, phone numbers, and email `bd@zuniclaw.com`. This is a lead to compare, not a recommendation. [src-135][src-136][src-355][src-667][src-772][src-822]
+
+**Practicality verdict for the couple:** Serbia passes 5.11 for first-pass screening. It is easier to enter and potentially easier to file than many embassy-first EU cases, and Belgrade/Novi Sad have adviser depth. The decisive practical risk is not finding a portal; it is proving the correct self-employment / independent-professional business and tax structure, locking landlord-supported address evidence, and attaching the student partner through marriage or strong common-law evidence without letting the 90/180-day clock or TP uncertainty drive the timeline.
 
 ## Block 4 — Risk dimensions (summary)
 
@@ -259,6 +267,7 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 - **Future-child education**: public compulsory education is usable for planning, but international schooling in Belgrade is expensive relative to one USD 3,000/month income. [src-668][src-670]
 - **Comfort**: passes screening at medium confidence; Belgrade/Novi Sad are practical services bases, while safety is acceptable but protests, Kosovo-border sensitivity, taxis/pickpockets/scams, Serbian/Cyrillic bureaucracy, and continental winters remain caveats. [src-771][src-772]
 - **Partner/student fit**: stronger than many options because Serbia recognises both marriage and common-law evidence for family reunification; still prepare marriage or strong relationship documentation and keep an independent-status fallback. [src-135]
+- **Bureaucracy / practicality**: passes screening; visa-free entry plus electronic single-permit filing make Serbia operationally easier than many embassy-first routes, but address registration, Serbian/Cyrillic paperwork, lawyer/accountant coordination, and tax/permit classification must be solved early. [src-132][src-135][src-136][src-822]
 
 **Pros**:
 - Ukrainian ordinary-passport holders have visa-free entry for up to 90/180 days. [src-132]
@@ -324,7 +333,7 @@ Niš in the south is not a winter-warm option: January averages about 1.1°C, Ju
 | **Total** | — | |
 
 ### 6g. Contact points and communities
-- Immigration lawyers (2–3 with contacts): TBD
+- Immigration lawyers / professional-services leads: Zunic Law has Belgrade and Novi Sad offices and advertises immigration services for temporary residence, permanent residence, work permits, family reunification, and citizenship; public contacts include `bd@zuniclaw.com`, Belgrade phone +381 63 185 84 58, and Novi Sad phone +381 62 89 68 090. Treat as a neutral comparison lead, not a recommendation. [src-822]
 - Ukrainian / Russian-speaking diaspora (Telegram channels, FB groups): TBD
 - Expat blogs: TBD
 - NGOs / Caritas / refugee help: KIRS / Serbian asylum and migration institutions are source anchors for TP; practical NGO list pending. [src-133][src-134]
@@ -366,6 +375,7 @@ _(none yet)_
 - [src-531] Livingcost — Novi Sad cost/rent baseline.
 - [src-532] Livingcost — Niš cost/rent baseline.
 - [src-670] International Schools Database — Belgrade international schools and 2026/2027 fee benchmarks.
+- [src-822] Zunic Law Serbia immigration-lawyer and contact pages, used only as a neutral professional-services lead for bureaucracy/practicality screening.
 
 ### 7e. Not found
 - Current official implementing act / checklist for a separate Serbia digital-nomad special category, if already active.
@@ -374,7 +384,7 @@ _(none yet)_
 - Serbian Tax Administration / APR / accountant confirmation of the exact foreign-client IT route: freelancer portal versus registered entrepreneur, activity code, lump-sum eligibility, social-contribution base, VAT / reverse-charge / e-invoicing, and single-permit compatibility.
 - Live rental listings, Serbian lease terms, deposits/agency fees, and landlord support for address registration in Belgrade, Novi Sad, and Niš.
 - Private health-insurance quotes for two young adults, maternity/newborn coverage, exact RFZO onboarding by self-employed / independent-professional / family status, and city-specific private-care prices.
-- Exact Serbian-language course/community options, lease/address-registration support, and city-specific adviser/doctor/community shortlists for Belgrade, Novi Sad, and Nis.
+- Exact Serbian-language course/community options, lease/address-registration support, and city-specific adviser/doctor/community shortlists for Belgrade, Novi Sad, and Nis; one neutral lawyer lead is now captured but should be compared against at least one independent immigration lawyer and one accountant before filing.
 
 ## Block 8 — Open questions and verification markers
 

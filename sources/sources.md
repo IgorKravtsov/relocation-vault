@@ -9910,3 +9910,16 @@ Each source entry:
 - **Facts supporting**: Neutral Montenegro bureaucracy/practicality contact lead: Podgorica law firm describing banking/finance, corporate/commercial, labour, real estate, human rights, energy, and intellectual-property practice areas; address Bulevar Svetog Petra Cetinjskog 130/7, 81000 Podgorica; phone +382 20 228 563 / +382 20 228 564; email office@prelevic.com
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-28
+
+
+## src-822
+- **Title**: Zunic Law - Serbia Immigration Lawyer / Contact
+- **URL**: https://zuniclaw.com/en/serbia-immigration-lawyer/ ; https://zuniclaw.com/en/contact/
+- **Archive**: [archive: failed 2026-06-28; HTTP 429 from Wayback save; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-28
+- **Used by**: Serbia
+- **Facts supporting**: Neutral Serbia bureaucracy/practicality contact lead: Serbia immigration-lawyer page advertising immigration services for companies, investors, global entrepreneurs, and families, including temporary residence, permanent residence, work permits, family reunification, and citizenship; contact page listing Belgrade address Tadije Sondermajera 3, 11000 Belgrade, phone +381 63 185 84 58, Novi Sad address Theater Square 7, 21000 Novi Sad, phone +381 62 89 68 090, and email bd@zuniclaw.com
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-28
