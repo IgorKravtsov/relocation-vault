@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-27
+last_updated: 2026-06-28
 ---
 
 # Sources Registry
@@ -9873,3 +9873,16 @@ Each source entry:
 - **Facts supporting**: Neutral Hungary bureaucracy/practicality contact lead: Budapest business and immigration services provider offering immigration services from residency to citizenship, company formation, back office/accountancy, residence-permit and business-immigration assistance; public phone +36 1 317 8570; email info@helpers.hu; address Budapart Gate, Dombovari ut 27, Budapest 1117
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-27
+
+
+## src-819
+- **Title**: AKMV Law Firm - Immigration law / Contact
+- **URL**: https://www.akmv.sk/en/legal-services-category/immigration-law/ ; https://www.akmv.sk/en/contact/
+- **Archive**: [archive: not captured; direct gzip HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-28
+- **Used by**: Slovakia
+- **Facts supporting**: Neutral Slovakia bureaucracy/practicality contact lead: Bratislava law firm listing immigration-law services for residence permits for foreigners, temporary residence for the purpose of doing business, work permits, and family reunification; contact phone +421 915 046 749, phone +421 (2) 4333 3509, email recepcia@akmv.sk, address Pluhova 17, 831 03 Bratislava
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-28

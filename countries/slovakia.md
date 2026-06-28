@@ -1,13 +1,13 @@
 ---
 country: Slovakia
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T17:44:11Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-28T01:27:33Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["no-dedicated-digital-nomad-visa", "business-residence-evidence-burden", "no-captured-post-2027-tp-bridge", "slovakia-szco-tax-and-immigration-fit-gap", "bratislava-rent-pressure", "slovakia-health-insurance-onboarding-gap", "slovakia-international-school-cost-risk", "slovak-language-integration-needed", "slovakia-one-income-margin-risk"]
-sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173", "src-338", "src-339", "src-340", "src-341", "src-342", "src-343", "src-517", "src-518", "src-519", "src-520", "src-652", "src-653", "src-654", "src-655", "src-766", "src-767"]
+sources_used: ["src-002", "src-100", "src-101", "src-102", "src-103", "src-104", "src-105", "src-106", "src-107", "src-108", "src-109", "src-173", "src-338", "src-339", "src-340", "src-341", "src-342", "src-343", "src-517", "src-518", "src-519", "src-520", "src-652", "src-653", "src-654", "src-655", "src-766", "src-767", "src-819"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to a practical but administratively heavy Tier-2-style profile rather than an obvious Tier-1 route: Slovakia has EU temporary protection through 04 March 2027 and an ordinary self-employed/business residence route, but no dedicated digital-nomad visa and no captured post-2027 TP-to-ordinary-residence bridge. [src-002][src-100][src-101]
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-28
 - **Tier rationale**: Keep unassigned until risk dimensions, bureaucracy, and whether business/SZCO residence is operational for a foreign-client IT contractor are confirmed. Healthcare, education, comfort, and partner/student fit are screenable; cost/rent looks manageable outside Bratislava, but language and one-income margin risks remain without solving the legal-route burden.
 
 ## Block 2 — Scoring
@@ -251,9 +251,29 @@ Partner/student conclusion: Slovakia does **not** solve the unmarried-partner pr
 
 **Risk-dimension conclusion.** Slovakia is not primarily a safety or currency-risk case. Its live risk is operational: whether a real Slovak business/SZCO file can be accepted for foreign-client IT before TP expires, while keeping rent, insurance, and Slovak-language administration under control.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-28, dod: passed}
 
-[verification required]
+> **DoD status**: passed for screening. This section captures the main filing sequence, localisation burden, post-approval deadlines, city practicality, and one neutral professional-services lead. It is not application advice; exact embassy appointment timing, attorney engagement, accountant pricing, insurer selection, and trade-office practice remain application-prep checks.
+
+#### Route timing and filing sequence
+
+Slovakia is administratively visible but not lightweight. The ordinary no-local-employer route is temporary residence for business / self-employment, not a dedicated digital-nomad permit. From 01 July 2025, Ministry of Economy guidance says business-residence applications are accepted only at Slovak diplomatic missions abroad; the Ministry issues an opinion for the Bureau of Border and Foreign Police, and the business plan is assessed for quality, feasibility, sustainability, and expected contribution to the Slovak economy. [src-108]
+
+The EU Immigration Portal baseline makes the paperwork stack explicit: application form, passport, photos, business plan or business-authorisation evidence, criminal-record statements, personal financial means, separate business financial coverage, accommodation proof, official translations into Slovak, authentication by apostille or superlegalisation where required, and documents generally no older than 90 days. Fees captured earlier are EUR 232 at Foreign Police or EUR 240 at embassy plus EUR 4.50 for the residence card. [src-101]
+
+After approval, the applicant must enter Slovakia within 180 days, report residence start within three working days, obtain health insurance within three working days of collecting the residence document, submit insurance proof within 30 days, and submit a medical report within 30 days. For the couple this means the filing calendar must be managed as one sequence: embassy/business-plan file, accommodation evidence, insurance, medical report, SZCO/trade/tax setup, and partner status. [src-101][src-652]
+
+#### Practical support and professional-contact lead
+
+A neutral Slovak professional-services lead is AKMV Law Firm in Bratislava. Its English immigration-law page lists services for residence permits for foreigners, temporary residence for the purpose of doing business, work permits, family reunification, and related immigration-law help; the contact page lists phone +421 915 046 749, phone +421 (2) 4333 3509, email recepcia@akmv.sk, and address Pluhova 17, 831 03 Bratislava. This is a lead for comparison, not a recommendation. [src-819]
+
+#### City and execution practicality
+
+Bratislava is the best bureaucracy hub because it concentrates law firms, accountants, embassies/consulates, English-facing services, healthcare depth, and cross-border options, but it is also the rent-pressure case. Kosice remains the best services/cost compromise if competent English-speaking lawyer/accountant and health-insurance support are available. Poprad is the affordability fallback, but its smaller-city service depth is a practical risk for a business-residence file. [src-518][src-519][src-520][src-767]
+
+#### Practical conclusion for the couple
+
+Slovakia is screenable only as a planned, adviser-supported ordinary-status file before the EU TP horizon. The main risk is not discovering the route; it is making a foreign-client IT business file credible enough for business-plan review, real-business scrutiny, trade/tax/VAT classification, insurance onboarding, and marriage/family sequencing. If the couple uses Slovakia, they should treat Bratislava legal/accounting consultations as an early prerequisite, then decide whether to live in Bratislava, Kosice, or Poprad after the route and insurer/accountant plan is confirmed. [src-101][src-108][src-819]
 
 ## Block 4 — Risk dimensions (summary)
 
