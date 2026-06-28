@@ -1,13 +1,13 @@
 ---
 country: Georgia
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T20:50:12Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-28T21:36:27Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["visa-free-not-residence", "georgia-small-business-tax-and-it-residence-fit-gap", "tbilisi-rent-pressure", "georgia-private-insurance-quote-gap", "georgia-international-school-cost-risk", "georgian-language-integration-needed", "georgia-occupied-territories-safety-risk", "georgia-one-income-margin-risk"]
-sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370", "src-537", "src-538", "src-539", "src-540", "src-676", "src-677", "src-678", "src-679", "src-775", "src-776"]
+sources_used: ["src-155", "src-156", "src-157", "src-158", "src-159", "src-160", "src-161", "src-175", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370", "src-537", "src-538", "src-539", "src-540", "src-676", "src-677", "src-678", "src-679", "src-775", "src-776", "src-824"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. Georgia is easy to enter and has an official IT residence-permit category that may fit the male IT worker, but the route needs verification on the 2026 work-right / small-business mechanics and is not an EU temporary-protection bridge.
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25T20:50:12Z
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-28T21:36:27Z
 - **Tier rationale**: Not assigned until risk dimensions, bureaucracy, and practical permit-renewal experience are researched.
 
 ## Block 2 — Scoring
@@ -34,6 +34,7 @@ schema_version: 2.0.0
 | Education (future child) | — | medium | Public preschool/general-education structure captured; primary and basic education are compulsory, public preschool is free with catering, and Tbilisi has an international-school market but published fee data is sparse. | §5.7 |
 | Comfort of life | — | medium | Safety proxies are low/medium-risk but not risk-free; English is moderate, Tbilisi/Batumi help, and Georgian-language support is still needed for bureaucracy, leases, healthcare, and schools. | §5.8 |
 | Fit for couple with single income | — | medium | Marriage remains the conservative dependent baseline, remote Ukrainian study is practical but not a Georgian status, and the one-income budget works best if the IT/small-business tax route holds and Tbilisi rent is capped. | §5.9 |
+| Bureaucracy and practicality | — | medium | SDA gives a visible residence-permit / IT-permit anchor, but the file is evidence-heavy: IT experience, USD 25,000+ remuneration, small-business/tax setup, address, insurance, translations, and Georgian-language professional help should be sequenced before relying on visa-free stay. | §5.11 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -211,9 +212,22 @@ For a future child, Georgia is workable if the family accepts Georgian-language 
 - **Ties to Ukraine**: Medium-low. Georgia is closer to Ukraine than western Europe and has regional travel logic, but it is not an EU continuity jurisdiction and flights/land logistics can be geopolitically sensitive. Treat family/university travel as workable but requiring live route checks and contingency planning. [src-538][src-539][src-775]
 - **Diaspora / adaptation**: Medium. EF scores Georgia better than many regional alternatives, and Tbilisi/Batumi have service/expat layers, but Georgian-language support is still needed for residence, tax, leases, public healthcare, and schooling. Occupied territories and road-safety caveats also make local advice important. [src-775][src-776]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-28, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass screening at medium confidence. The route is administratively visible because SDA publishes residence-permit / IT-permit anchors, but it is not low-friction: the couple needs Georgian-language legal/accounting support, an address/lease usable for residence, IT experience and remuneration evidence, tax/VAT setup, insurance, and marriage/family sequencing before relying on a long stay.
+
+#### Practical filing sequence
+- **Do not use visa-free stay as the plan**: Georgia can be used for entry/scouting, but the residence file should be built early. SDA's general rule is that a residence-permit application is filed while lawfully staying, usually 40 calendar days before lawful stay expires. [src-157] Confidence: high.
+- **Main applicant route**: For the male IT worker, the practical file to test is the IT residence permit / entrepreneurial-natural-person small-business variant: at least 2 years of IT work or economic-activity experience, at least USD 25,000 equivalent annual remuneration, and documents for small-business status / IT activity if using the Georgia-registered entrepreneur path. This fits the couple's income on paper, but work-right registration and renewal practice remain application-prep checks. [src-157] Confidence: medium-high for the checklist, medium for couple-specific fit.
+- **Partner sequencing**: The woman should not rely on remote Ukrainian study as a Georgian status. Use marriage / family reunification after the main applicant has a Georgian permit as the conservative dependent baseline, or keep an independent lawful-stay plan. [src-157] Confidence: medium.
+
+#### Administration, services, and support needs
+- **Tax / business setup**: Georgia looks attractive only if the small-business / IT file is accepted in practice; otherwise the ordinary 20% PIT fallback materially narrows the one-income budget. VAT threshold and foreign-client place-of-supply treatment are close enough to the budget line that a Georgian accountant should be engaged before registration. [src-365][src-369][src-370]
+- **Healthcare / insurance / address**: Public healthcare coverage is citizen-focused and Georgia's provider market is highly privatized, so budget private insurance and cash buffers until the exact foreign-resident onboarding route is known. Tbilisi should be the first administrative base because it has the strongest captured healthcare, school, legal/accounting, and service depth. [src-676][src-538][src-679]
+- **Language and documents**: EF's English proxy is screenable, but residence, tax, leases, healthcare, and schools still require Georgian-language support. Prepare passports, contracts, bank statements, IT-experience evidence, civil-status/marriage documents if applicable, translations/legalisation as requested, and landlord-supported address evidence before committing to a long lease. [src-157][src-776]
+- **Neutral professional-contact lead**: BGI Legal in Tbilisi is a full-service Georgian law firm with corporate registrations/incorporation, contracts/corporate structuring, tax/customs advice, and public contact details (Meidan Palace, 44 Kote Abkhazi Str., Tbilisi 0108; bgilegal@bgi.ge; +995 322 470 747). This is a lead for legal/tax/company-setup triage, not an endorsement. [src-824] Confidence: medium.
+
+**Practicality verdict:** Georgia is operationally screenable but evidence-heavy. Start with Tbilisi for SDA / Public Service Hall filings, tax registration, accountants, healthcare, schools, and legal support; use Batumi only after confirming seasonal lease/address support; keep Kutaisi as an affordability fallback. The decisive practicality question is whether the IT / small-business residence file can be made credible before the visa-free horizon expires.
 
 ## Block 4 — Risk dimensions (summary)
 

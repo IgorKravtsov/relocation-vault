@@ -9935,3 +9935,15 @@ Each source entry:
 - **Facts supporting**: Neutral Turkey bureaucracy/practicality contact lead: public English site advertising work-permit, residence-permit, company-establishment, and Turkish-citizenship consultancy services; contact page listing public email info@atakurumsal.com
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-28
+
+## src-824
+- **Title**: BGI Legal - Georgian law firm homepage / services / contact
+- **URL**: https://bgi.ge/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-28
+- **Used by**: Georgia
+- **Facts supporting**: Neutral Georgia bureaucracy/practicality contact lead: Tbilisi full-service law firm describing contracts/corporate structuring, tax and customs advice, corporate registrations and incorporation, and public contact details at Meidan Palace, 44 Kote Abkhazi Str., Tbilisi 0108; bgilegal@bgi.ge; +995 322 470 747
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-28
