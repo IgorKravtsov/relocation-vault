@@ -1,13 +1,13 @@
 ---
 country: Slovenia
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T17:44:11Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-28T04:33:04Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["digital-nomad-income-above-current-budget", "digital-nomad-not-renewable", "slovenia-self-employed-tax-and-immigration-fit-gap", "ljubljana-rent-pressure", "slovenia-health-insurance-onboarding-gap", "slovenia-international-school-cost-risk", "slovenian-language-integration-needed", "slovenia-one-income-margin-risk"]
-sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187", "src-344", "src-345", "src-346", "src-347", "src-348", "src-521", "src-522", "src-523", "src-524", "src-656", "src-657", "src-658", "src-659", "src-660", "src-661", "src-768"]
+sources_used: ["src-002", "src-110", "src-111", "src-112", "src-113", "src-114", "src-115", "src-116", "src-117", "src-122", "src-187", "src-344", "src-345", "src-346", "src-347", "src-348", "src-521", "src-522", "src-523", "src-524", "src-656", "src-657", "src-658", "src-659", "src-660", "src-661", "src-768", "src-820"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence is unusually interesting for the couple: Slovenia has official temporary protection for Ukrainians, an explicit post-temporary-protection filing window, and a new digital-nomad residence permit for non-EU remote workers. The route is capped at one year and the income formula likely sits near or above the couple's current budget, so do not assign a tier until the numeric threshold, taxes, renewal/permit-counting rules, and costs are researched. [src-110][src-111]
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-28
 - **Tier rationale**: Keep unassigned until PR/citizenship counting for DN/TP time, DN-to-ordinary status strategy, tax/business fit, and cost-of-living/rent passes are complete.
 
 ## Block 2 — Scoring
@@ -231,9 +231,21 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 
 **Risk-dimension conclusion.** Slovenia's strategic risk is not public safety or euro banking; it is the combined DN income gate, one-year DN duration, heavy conservative tax downside, and need to switch into a renewable ordinary permit before the TP/DN bridge runs out.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-28, dod: passed}
 
-[verification required]
+> **DoD status**: passed for screening. This pass captures the core filing channels, timing/practical sequence, document-localisation burden, city/service-base choice, and one neutral professional-services contact lead. Final application-prep still needs serving-office checklists, exact forms/fees, insurance quotes, lease evidence, and accountant/lawyer engagement letters.
+
+**Route timing and filing channels.** Slovenia is practical only if the couple chooses the route before the TP / DN bridge expires. Temporary protection starts through police registration and an administrative-unit application within three working days; after TP ends, Slovenia's captured safety valve is a 10-day window to apply for an ordinary temporary-residence purpose, not automatic conversion. The DN permit can be filed either at a Slovenian diplomatic / consular post abroad or at an administrative unit while legally present in Slovenia; it is issued for up to one year, is not extendable, and can only be reapplied for after a six-month gap. Self-employed/single-permit planning is more complex because the EU Immigration Portal baseline requires a single permit and generally one prior year of valid residence before self-employment, except for registered professional-activity cases. [src-110][src-111][src-112]
+
+**Document and localisation burden.** Expect a high-document EU file rather than an English-only remote-worker shortcut: civil-status documents, proof of lawful income, foreign remote-work contracts/invoices, accommodation/registered-address evidence, health-insurance evidence, translations, apostilles/legalisation where required, and route-specific forms should be prepared before filing. The Polish residence card helps only as lawful-status / logistics context; it does not replace Slovenian residence, and if it is TP the one-Member-State rule remains a planning constraint. [src-002][src-110][src-111][src-113]
+
+**Tax / business practicality.** Slovenia's practicality bottleneck is the join between immigration and taxes. The DN file is clean conceptually but currently income-gated above the couple's nominal budget; the ordinary self-employed/single-permit route needs accountant confirmation of `s.p.` / `normirani` availability, contribution bases, VAT / reverse-charge reporting, and whether foreign-client IT work fits the residence purpose. Do not improvise a Slovenian self-employment file without coordinated immigration and tax advice. [src-111][src-112][src-187][src-344][src-345][src-346][src-347][src-348]
+
+**Professional-support lead.** As a neutral contact lead, Lawyers Slovenia / BridgeWest advertises Slovenian legal services covering company incorporation, permits and licences, tax advice, immigration representation before the Ministry of the Interior, work permits from the Employment Service of Slovenia, residence, citizenship, VAT registration, and company setup. The public contact page lists Ljubljana, `clients(at)lawyersslovenia.com`, and phone `(+35) 699 699 405`. Treat this as a lead to compare against independent Slovenian immigration lawyers and accountants, not as a recommendation. [src-820]
+
+**City practicality.** Ljubljana is the strongest administrative, lawyer/accountant, healthcare, and school-services hub, but rent and one-income margin are the binding risks. Maribor is the better first screen for services/cost balance. Nova Gorica is the warmer western affordability fallback, but it needs confirmation of local professional, healthcare, and community support before becoming the filing base. [src-522][src-523][src-524][src-657][src-660][src-768]
+
+**Bureaucracy conclusion.** Slovenia is screenable but sequence-sensitive: TP gives a lawful-current-status layer, DN gives a short explicit foreign-remote-work bridge if income rises, and an ordinary renewable route must be prepared early. The decisive practical tasks are route selection before March 2027, proof-of-income documentation, translations/legalisation, insurance and lease evidence, Slovenian-language administration, and a lawyer/accountant plan for the self-employed or family fallback. [src-110][src-111][src-112][src-820]
 
 ## Block 4 — Risk dimensions (summary)
 
@@ -314,7 +326,8 @@ Use Livingcost's **40 m2 1BR** line as the vault's closest modest two-room proxy
 - Ministry of the Interior DN route announcement: [src-111]
 - Healthcare onboarding: ZZZS compulsory-health-insurance / public-service-provider pages. [src-657]
 - Education onboarding for Ukrainian children: GOV.SI education page and municipal kindergarten vacancy information point. [src-658]
-- Ukrainian / Russian-speaking diaspora, migration lawyers, and tax accountants: pending.
+- Professional-services lead: Lawyers Slovenia / BridgeWest, Ljubljana; public contact `clients(at)lawyersslovenia.com`, phone `(+35) 699 699 405`; compare with independent Slovenian immigration lawyers and accountants before engagement. [src-820]
+- Ukrainian / Russian-speaking diaspora and community channels: pending.
 
 ## Block 7 — Sources
 
@@ -353,10 +366,11 @@ _(none yet)_
 - [src-524] — Livingcost Nova Gorica cost/rent screen.
 - [src-661] — International Schools Database Ljubljana fee screen.
 - [src-768] — World Population Review / TravelSafe safety proxies for Slovenia.
+- [src-820] — Lawyers Slovenia / BridgeWest contact and services lead for legal / immigration / company / tax support.
 
 ### 7e. Not found
 - Exact serving-administrative-unit DN checklist and fee schedule: not captured in this pass.
-- Detailed DN application checklist/fee list beyond the Ministry announcement: not captured.
+- Detailed DN application checklist/fee list beyond the Ministry announcement: not captured; §5.11 now records this as application-prep rather than a screening blocker.
 - Official meteorological annual sunny-day counts for Ljubljana, Maribor, and Portorož/Koper: not captured; WeatherSpark clearer-sky day-equivalent proxies are now captured for §5.2 screening.
 - Official 2026 Slovenian s.p. / normirani rule text, exact new-entrepreneur contribution base, foreign-client VAT/reverse-charge handling, and compatibility with the DN / single-permit immigration route: not captured.
 - Article-level confirmation of which temporary-residence purposes count toward permanent residence remains for application-prep; the operational baseline is not to rely on a one-year non-renewable DN permit as the whole PR plan.
@@ -365,4 +379,4 @@ _(none yet)_
 
 - Tax application-prep remains: confirm exact Slovenian s.p. / normirani and VAT treatment for a Ukrainian foreign-client IT freelancer, including 2026 deemed-expense rules, contribution bases, VAT / reverse-charge reporting, and DN / single-permit immigration compatibility.
 - `vq-133`: resolved in run-148 for screening; healthcare application-prep remains: confirm DN/self-employed/single-permit/family-status-compliant private health-insurance quotes for two young adults, maternity waiting periods/exclusions, and exact ZZZS / GP onboarding for the final route and city.
-- Later application-prep should still recheck DN forms, fees, residence-type counting, exact unmarried long-term partner evidence standards, live rents, deposits, agency fees, landlord requirements, lease-registration needs, and city-specific school/kindergarten availability before filing.
+- Later application-prep should still recheck DN forms, fees, residence-type counting, exact unmarried long-term partner evidence standards, live rents, deposits, agency fees, landlord requirements, lease-registration needs, city-specific school/kindergarten availability, and independent lawyer/accountant engagement terms before filing.

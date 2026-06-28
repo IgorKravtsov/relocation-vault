@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 224,
+  "iteration": 225,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-28T01:27:33Z",
+  "last_run_timestamp": "2026-06-28T04:33:04Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.11",
-    "reason": "Continue the Tier-2 5.11 bureaucracy/practicality slice with Slovenia unless verification, staleness, or accepted proposals take priority."
+    "reason": "Continue the Tier-2 5.11 bureaucracy/practicality slice with Montenegro unless verification, staleness, or accepted proposals take priority."
   },
   "countries": {
     "Spain": {
@@ -458,7 +458,7 @@
     "Slovenia": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 9.0,
+      "depth_score": 10.0,
       "sections_completed": [
         "5.2",
         "5.4",
@@ -466,16 +466,15 @@
         "5.7",
         "5.8",
         "5.9",
-        "5.10"
+        "5.10",
+        "5.11"
       ],
       "sections_partial": [
         "5.1",
         "5.3",
         "5.6"
       ],
-      "sections_pending": [
-        "5.11"
-      ],
+      "sections_pending": [],
       "risk_flags": [
         "digital-nomad-income-above-current-budget",
         "digital-nomad-not-renewable",
@@ -486,7 +485,7 @@
         "slovenian-language-integration-needed",
         "slovenia-one-income-margin-risk"
       ],
-      "last_iteration": 206,
+      "last_iteration": 225,
       "unverified_count": 0
     },
     "Montenegro": {
@@ -1189,7 +1188,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 818,
+  "sources_count": 819,
   "claims_count": 716,
   "proposals_pending": 0
 }

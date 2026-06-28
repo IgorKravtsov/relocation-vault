@@ -9886,3 +9886,15 @@ Each source entry:
 - **Facts supporting**: Neutral Slovakia bureaucracy/practicality contact lead: Bratislava law firm listing immigration-law services for residence permits for foreigners, temporary residence for the purpose of doing business, work permits, and family reunification; contact phone +421 915 046 749, phone +421 (2) 4333 3509, email recepcia@akmv.sk, address Pluhova 17, 831 03 Bratislava
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-28
+
+## src-820
+- **Title**: Lawyers Slovenia / BridgeWest - Law Firm in Slovenia / Contact
+- **URL**: https://www.lawyersslovenia.com/ ; https://www.lawyersslovenia.com/contact/
+- **Archive**: [archive: not captured; direct page blocked with HTTP 403, text extracted through Jina reader]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-28
+- **Used by**: Slovenia
+- **Facts supporting**: Neutral Slovenia bureaucracy/practicality contact lead: Ljubljana legal-services provider advertising immigration representation before the Ministry of the Interior, work permits from the Employment Service of Slovenia, company setup, residence, citizenship, VAT registration, and tax advice; public contact `clients(at)lawyersslovenia.com` and phone `(+35) 699 699 405`
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-28
