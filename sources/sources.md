@@ -9923,3 +9923,15 @@ Each source entry:
 - **Facts supporting**: Neutral Serbia bureaucracy/practicality contact lead: Serbia immigration-lawyer page advertising immigration services for companies, investors, global entrepreneurs, and families, including temporary residence, permanent residence, work permits, family reunification, and citizenship; contact page listing Belgrade address Tadije Sondermajera 3, 11000 Belgrade, phone +381 63 185 84 58, Novi Sad address Theater Square 7, 21000 Novi Sad, phone +381 62 89 68 090, and email bd@zuniclaw.com
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-28
+
+## src-823
+- **Title**: Ata Kurumsal - Turkey work/residence permit consultancy and contact
+- **URL**: https://atakurumsal.com/en/homepage ; https://atakurumsal.com/en/contact
+- **Archive**: [archive: not captured; text extracted through Jina reader]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-28
+- **Used by**: Turkey
+- **Facts supporting**: Neutral Turkey bureaucracy/practicality contact lead: public English site advertising work-permit, residence-permit, company-establishment, and Turkish-citizenship consultancy services; contact page listing public email info@atakurumsal.com
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-28

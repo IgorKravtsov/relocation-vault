@@ -1,13 +1,13 @@
 ---
 country: Turkey
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T20:50:12Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-28T18:30:13Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["dn-income-at-budget-edge", "family-route-likely-marriage-dependent", "turkey-self-employment-and-sgk-fit-gap", "istanbul-rent-pressure", "turkey-one-income-margin-risk", "turkey-private-insurance-quote-gap", "turkey-international-school-cost-risk", "turkish-language-integration-needed", "turkey-earthquake-and-border-security-risk"]
-sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163", "src-359", "src-360", "src-361", "src-362", "src-363", "src-364", "src-533", "src-534", "src-535", "src-536", "src-671", "src-672", "src-673", "src-674", "src-675", "src-773", "src-774"]
+sources_used: ["src-144", "src-145", "src-146", "src-147", "src-148", "src-149", "src-150", "src-151", "src-154", "src-162", "src-163", "src-359", "src-360", "src-361", "src-362", "src-363", "src-364", "src-533", "src-534", "src-535", "src-536", "src-671", "src-672", "src-673", "src-674", "src-675", "src-773", "src-774", "src-823"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First pass shows Turkey is easy to enter for Ukrainians and has an official digital-nomad / remote-work channel, but the route sits exactly at the couple's current ~$3,000/month income and long-term settlement depends on ordinary Turkish residence rather than an EU-style Ukraine temporary-protection bridge.
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25T20:50:12Z
-- **Tier rationale**: Not assigned until risk dimensions, bureaucracy/practicality, and actual residence-renewal / long-term practice are researched.
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-28T18:30:13Z
+- **Tier rationale**: Not assigned until final synthesis; all screening sections now have first-pass coverage, while the route still depends on DN income proof, Turkish tax/SGK/VAT advice, and residence-renewal practice.
 
 ## Block 2 — Scoring
 
@@ -33,7 +33,7 @@ schema_version: 2.0.0
 | Healthcare | — | medium | Public/SGK and health-insurance baselines opened, but exact private policy quotes, maternity/newborn exclusions, and route-specific SGK onboarding remain application-prep gaps. | §5.6 |
 | Education (future child) | — | medium | Public 12-year compulsory school structure, free public pre-primary institutions, and Istanbul international-school fee benchmarks captured; Turkish-language integration remains the practical issue. | §5.7 |
 | Comfort of life | — | medium | Turkey is comfortable in Istanbul/Izmir/Antalya for services and infrastructure, but safety is uneven by region, English is limited outside tourist/business contexts, and earthquake/border risks matter. | §5.8 |
-| Fit for couple with single income | — | medium | Partner planning works best through marriage/family residence or independent status; one-income feasibility remains tight because the DN threshold, tax, rent, insurance, and future schooling all compete for the same USD 3,000/month. | §5.9 |
+| Fit for couple with single income | — | medium | Partner planning works best through marriage/family residence or independent status; one-income feasibility remains tight because the DN threshold, tax, rent, insurance, future schooling, and Turkish-language bureaucracy all compete for the same USD 3,000/month. | §5.9 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -217,9 +217,17 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 - **Ties to Ukraine**: Medium. Turkey is geographically and logistically closer to Ukraine than western EU options and Istanbul is a major flight hub, but it is not an EU/Schengen continuity case and cannot rely on Polish/EU TP infrastructure. Keep family/university travel feasible but budgeted, especially if the base is Izmir or Antalya rather than Istanbul. [src-533][src-535][src-536]
 - **Diaspora / adaptation**: Medium-high. Istanbul/Izmir/Antalya have expat and service depth, but EF places Turkey in a moderate English band and the country profile already flags Turkish-language needs for bureaucracy, leases, public healthcare, schools, and tax/SGK work. Use Turkish-speaking legal/accounting help as a default, not a luxury. [src-773][src-774]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-28, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening at medium confidence. Covered: official e-ikamet / PMM filing anchors, GoTurkey DN certificate evidence, long-term-residence timing, practical sequencing for address / insurance / tax / partner evidence, and one neutral consultancy contact lead. Later application-prep still needs serving-channel checklist, residence-open district checks, exact fees, sworn-translation / notarisation rules, private insurance quotes, and Turkish tax / SGK / VAT advice.
+
+- **Core filing channels**: Turkey is not an EU-TP bridge case. The practical route must be an ordinary residence / DN-related file anchored in PMM residence-permit procedures and the e-ikamet portal, with the GoTurkey DN certificate as the remote-work evidence layer if the male partner can document USD 3,000/month or USD 36,000/year. [src-145][src-147][src-148] Confidence: medium-high.
+- **Timing / route clock**: The long-term residence anchor is eight years of continuous ordinary residence, with full counting for non-student ordinary residence permits and no transfer from temporary-protection / humanitarian categories. That makes renewal practice and status type more important than initial entry ease; the couple should not treat visa-free stay or a short DN bridge as settlement by itself. [src-154] Confidence: high for the captured baseline.
+- **Document and address sequencing**: Before committing to Turkey, prepare income proof, diploma, foreign-employment or freelancer-contract evidence, passport/photo, health-insurance evidence, and a lease/address that can support residence filing. Because Expat Arrivals warns that many neighborhoods have been closed to new foreign residence permits and some landlords ask foreigners for six to twelve months upfront, the address should be checked as a legal-file input, not just as rent. [src-145][src-147][src-148][src-774] Confidence: medium.
+- **Professional-support need**: Use Turkish-speaking immigration and tax support as a default. The unresolved items are self-employment / DN tax registration, SGK or Bag-Kur contribution base, VAT / export-of-services treatment, insurance acceptance, residence-open districts, and marriage/family-residence evidence for the partner. Ata Kurumsal is a neutral contact lead rather than an endorsement: its public English site advertises work-permit, residence-permit, company-establishment, and Turkish-citizenship consultancy services and lists `info@atakurumsal.com` as the public contact. [src-359][src-361][src-362][src-363][src-823] Confidence: medium.
+- **City practicality**: Screen Izmir first because it balances services, climate, lower rent than Istanbul, and the highest captured EF city score; Antalya is the warm-coast alternative with tourist-season and lease/address caution; Istanbul is the professional-services hub but should be used only if the couple needs its lawyers, airports, diaspora, or private services enough to justify rent and crowding pressure. [src-535][src-536][src-773][src-774]
+
+**Bureaucracy verdict:** Turkey is operationally screenable but not low-risk. Entry and portal anchors are visible, and the DN route matches the remote-work fact pattern only at the current income edge. The practical go/no-go depends on proving stable USD income above the DN floor, obtaining a residence-usable address in an open district, using Turkish-language legal/accounting help, and confirming SGK/VAT/tax status before a long lease.
 
 ## Block 4 — Risk dimensions (summary)
 
@@ -282,12 +290,12 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 | Rental deposit | — | Live-listing check required; plan at least one to two months as a placeholder until Turkish lease norms are verified. |
 | First month rent | $388-$596 modest Izmir/Antalya 40 m2 proxy; Istanbul $561-$896 | Livingcost first-pass proxy only; exact 2-room live listings remain application-prep. [src-534][src-535][src-536] |
 | Health insurance (one year) | — | Private quote and SGK/GSS onboarding verification still required; assume a private-policy year until route-specific advice confirms otherwise. [src-671] |
-| Immigration lawyer fees | — | Bureaucracy pass required. |
+| Immigration lawyer / consultancy fees | — | Not priced in this pass; obtain quotes before filing because residence, tax/SGK, VAT, insurance, and partner sequencing are adviser-dependent. [src-823] |
 | Buffer / contingencies | — | Important because income threshold is tight. |
 | **Total** | — | |
 
 ### 6g. Contact points and communities
-- Immigration lawyers: TBD.
+- Immigration / residence consultancy lead: Ata Kurumsal public English site advertises work-permit, residence-permit, company-establishment, and Turkish-citizenship consultancy services; public contact `info@atakurumsal.com`. Treat as a neutral lead to compare, not an endorsement. [src-823]
 - Ukrainian / Russian-speaking diaspora: TBD.
 - Official filing portals: Presidency of Migration Management / e-ikamet [src-145][src-147]; GoTurkey digital-nomad portal [src-148].
 - Practical city/language screen: use Izmir or Antalya first unless Istanbul services are needed; budget for Turkish-language help for leases, immigration appointments, public services, healthcare, and school enrollment. [src-774]
@@ -317,6 +325,7 @@ Turkey is tax-heavy at the couple's current income if ordinary progressive PIT a
 _(none yet)_
 
 ### 7d. Statistical / commercial
+- [src-823] Ata Kurumsal — Turkey work/residence permit and consultancy contact lead.
 - [src-364] XE USD/TRY exchange-rate snapshot.
 - [src-533] Livingcost — Cost of living in Turkey.
 - [src-534] Livingcost — Cost of living in Istanbul.

@@ -4,6 +4,11 @@ version: 1.0.0
 last_updated: 2026-06-28
 ---
 
+## 2026-06-28 - run-228
+- Criterion slice: 5.11 bureaucracy/practicality continued with Turkey.
+- Turkey: depth_score 9.0 -> 10.0 (section 5.11 completed for screening).
+- Updated `dimensions/bureaucracy-practicality-5.11.md`; sources added: 1 (`src-823`); claims added: 0; verification queue: 0 pending.
+
 ## 2026-06-28 - run-227
 - Criterion slice: 5.11 bureaucracy/practicality continued with Serbia.
 - Serbia: depth_score 9.0 -> 10.0 (section 5.11 completed for screening).
