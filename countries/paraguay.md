@@ -1,13 +1,13 @@
 ---
 country: Paraguay
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T23:57:07Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-29T16:17:45Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["residence-visa-for-lucrative-activity-gap", "no-fixed-remote-income-threshold", "hot-humid-summers", "paraguay-foreign-client-vat-fit-gap", "paraguay-social-security-category-gap", "asuncion-rent-pressure", "paraguay-private-insurance-route-fit-gap", "paraguay-international-school-cost-risk", "paraguay-spanish-guarani-language-integration-needed", "paraguay-road-and-transport-risk", "paraguay-one-income-margin-risk"]
-sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-437", "src-438", "src-439", "src-440", "src-441", "src-442", "src-443", "src-549", "src-550", "src-551", "src-552", "src-689", "src-690", "src-691", "src-692", "src-781", "src-782"]
+sources_used: ["src-190", "src-191", "src-192", "src-193", "src-194", "src-195", "src-196", "src-437", "src-438", "src-439", "src-440", "src-441", "src-442", "src-443", "src-549", "src-550", "src-551", "src-552", "src-689", "src-690", "src-691", "src-692", "src-781", "src-782", "src-830"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests a potentially useful long-term route because Paraguay has a normal temporary residence -> permanent residence ladder and the Constitution gives a 3-year naturalization baseline, but the captured official route is generic "lawful activity" residence rather than a digital-nomad visa. [src-191][src-192][src-193]
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-29
 - **Tier rationale**: keep as Tier-2 hint until the visa-for-residence filing route, foreign-client IT income evidence, taxes, cost, rent, healthcare, and practical lawyer/accountant mechanics are checked.
 
 ## Block 2 - Scoring
@@ -34,6 +34,7 @@ schema_version: 2.0.0
 | Education (future child) | — | medium | Public schools are free but Spanish/Guarani and under-resourced; private bilingual schools and Asuncion international schools are available, but international-school fees are a major one-income budget risk. | §5.7 |
 | Comfort of life | — | medium | Safety is manageable but not low-friction: WPR / TravelSafe proxies show GPI 1.981, GTI 0.073, TravelSafe index 45 / Medium risk, with low overall risk but medium transport, pickpocket, mugging, scam, women-traveler, and tap-water caveats. | §5.8 |
 | Fit for couple with single income | — | medium | Marriage or separate lawful-activity residence remains the conservative partner baseline; the student can continue Ukrainian remote study, but the one-income plan depends on the residence/lawful-activity file, tax/VAT/IPS outcome, and disciplined Asuncion or Encarnacion budgeting. | §5.9 |
+| Bureaucracy and practicality | — | medium | Screenable only as an adviser-led ordinary-residence project: DNM residence / lucrative-activity sequencing, Spanish translations, health/INTERPOL/address evidence, DNIT/RUC/VAT/IPS setup, and Asuncion-first lawyer/accountant coordination are the practical gates. | §5.11 |
 
 **Weighted score**: — (compute when all criteria are scored)
 
@@ -265,9 +266,30 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 
 **Risk verdict**: Paraguay is budget-forgiving but operationally high-friction. Keep Asuncion as the setup base with a rent cap and Encarnacion as a later fallback only after residence, tax, healthcare, and city safety/service checks are stable. [src-550][src-552][src-781][src-782]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-29, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for country screening. The filing route is not low-friction, but the practical sequence is now explicit: confirm the residence / lucrative-activity visa path before travel, build a lawful-activity temporary-residence file, use Asuncion for DNM / lawyer / accountant / healthcare / school access, and treat tax, VAT, IPS, insurance, and partner mechanics as coordinated application-prep checks.
+
+#### Filing sequence and timing
+
+- **Route shape**: Paraguay is not a DN-style self-service route for this couple. The practical plan is an ordinary temporary-residence / lawful-activity file, followed later by permanent-residence category change; the official visa table still requires a visa for residence / lucrative activities for Ukrainians, so consular/DNM confirmation before travel is a gating step. [src-190][src-191][src-192]
+- **Short-stay clock**: Ukrainian tourist entry is useful for scouting only. If counsel confirms inside-country filing is possible, start the residence file immediately after arrival; otherwise obtain the correct residence / lucrative-activity visa before relocation. [src-190][src-191]
+- **Document-localisation burden**: expect Spanish translations by a Paraguayan registered public translator or properly legalised/apostilled foreign translation; police records, birth/marriage documents, health certificate, INTERPOL certificate, address proof, and lawful-activity evidence should be prepared as one bundle rather than improvised after arrival. [src-191]
+- **Tax / business setup**: the lawful-activity residence file and tax file should be coordinated before invoicing from Paraguay. DNIT/RUC category, VAT/place-of-supply, IPS or private-social-security exposure, and invoice wording remain accountant checks, not reasons to leave the country unscreened. [src-437][src-440][src-442][src-830]
+
+#### Practical city base and support model
+
+| Practical need | Screening baseline | Why it matters |
+|---|---|---|
+| DNM / residence filing | Use Asuncion as the first base unless a lawyer confirms a smooth alternative. | Capital access is more important than lowest rent during the first residence/tax/health setup. [src-191][src-550] |
+| Lawyer / accountant | Use a Paraguay professional-services lead before committing to leases or travel timing. Vouga Abogados publicly lists corporate-immigration support for determining residence permits, residence-permit documentation, and relocation compliance, plus labour/social-security and broader Paraguay business-law capacity; contact page lists Juan de Salazar 657, Asuncion, info@vouga.com.py, +595 21 202 049. [src-830] | The couple's route depends on sequencing residence / lucrative-activity visa, proof of lawful activity, partner evidence, tax registration, VAT, and social-security status. |
+| Housing / address | Keep Asuncion as the setup base with a strict rent cap; test Encarnacion only after services are stable. | DNM address evidence, safe neighbourhood selection, private transport, and Spanish lease support matter more than headline cheap rent. [src-550][src-552][src-781][src-782] |
+| Healthcare / insurance | Assume private policy or prepaid medical support until route-compliant wording and IPS/public onboarding are confirmed. | Healthcare is affordable on proxies, but residence-file acceptance and maternity/newborn terms are application-prep details. [src-690] |
+| Partner file | Marriage or separate eligibility remains the conservative baseline. | Do not rely on an uncaptured unmarried-dependent route; coordinate family documents with the residence file. [src-191] |
+
+#### Practical verdict
+
+Paraguay is bureaucracy-screenable but adviser-dependent. The strongest practical argument is affordability plus an ordinary temporary-to-permanent residence ladder; the weakest practical point is that the first filing is not a clean digital-nomad route and the official visa table makes residence / lucrative activity a separate visa problem for Ukrainians. For the couple, the viable workflow is: confirm visa sequence, prepare translated/apostilled documents, start in Asuncion, retain immigration/accounting help, file temporary residence with a lawful-activity evidence package, and only then optimise city choice toward Encarnacion or Ciudad del Este.
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -307,16 +329,16 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 - Confirm the residence / lucrative-activity visa sequence for Ukrainian citizens with a Paraguayan consulate or DNM-facing lawyer before travel; do not rely on tourist entry as the filing basis without that confirmation. [src-190]
 - Passports, birth certificates, police certificates from Ukraine and recent residence countries, employment/client contracts, bank statements, proof of profession, and Spanish translations/apostilles/legalizations. [src-191]
 - If marrying, prepare marriage certificate with apostille/legalization and Spanish translation; use marriage as the conservative partner-documentary baseline until a Paraguayan dependent checklist is confirmed. [src-191]
-- Check Polish `karta pobytu` absence/notification obligations separately. [verification required]
+- Check Polish `karta pobytu` absence/notification obligations separately as an application-prep item; the Polish card does not replace Paraguayan status. [src-191]
 
 ### 6b. First month after arrival
 - Do not overstay the 90-day tourist entry clock; if residence filing from inside is allowed, start it immediately. [src-190][src-191]
 - Obtain INTERPOL / health / address evidence required by the temporary-residence checklist. [src-191]
-- Prepare the lawful-activity package for remote IT income with local professional help. [verification required]
+- Prepare the lawful-activity package for remote IT income with local professional help before invoicing or residence filing. [src-191][src-830]
 
 ### 6c. First 3-6 months
 - Secure temporary residence and cedula if approved; use the precaria/residence status rules for work/study/travel planning while the file is pending, and confirm the woman's dependent or separate-status basis before she starts work. [src-191]
-- Clarify tax registration and invoicing for foreign-client IT work. [verification required]
+- Clarify tax registration and invoicing for foreign-client IT work with a Paraguayan accountant before local invoicing. [src-437][src-442][src-830]
 
 ### 6d. Before March 2027 (critical deadline)
 - Have a Paraguayan temporary-residence file submitted or approved before relying on Paraguay as the post-EU-TP fallback.
@@ -334,20 +356,20 @@ Using ExchangeRate-API's 2026-06-10 USD/PYG snapshot, **USD 1 = PYG 6,152.887361
 | Temporary residence fee | Gs. 2,787,550 | Official fee captured; USD equivalent not computed in this pass. [src-191] |
 | Permanent residence fee | Gs. 2,787,550 | Later category change; certificate of radication Gs. 223,004. [src-192] |
 | Apostilles and translations | — | Likely significant; Spanish translation required for foreign-language documents. [src-191] |
-| Flights for two | — | [verification required] |
+| Flights for two | — | Application-prep item; compare Europe -> Asuncion routings after choosing the filing sequence. |
 | Rental deposit / first month | $219-$448+ | Use at least 1 month of the captured 40 m2 proxy as a first-pass reserve; exact deposit/commission norms and registered-address suitability need live-listing checks. [src-550][src-551][src-552] |
 | Health / INTERPOL / local certificates | — | Required categories captured, exact costs pending. [src-191] |
-| Immigration lawyer / accountant | — | Critical for residence-visa and lawful-activity proof. |
-| Buffer / contingencies | — | [verification required] |
+| Immigration lawyer / accountant | — | Critical for residence-visa, lawful-activity proof, DNIT/RUC, VAT, IPS/private-social-security, and partner sequencing. [src-830] |
+| Buffer / contingencies | — | Keep a conservative cash reserve for visa/residence rework, translations, health checks, lawyer/accountant fees, and temporary housing. |
 | **Total** | — | |
 
 ### 6g. Contact points and communities
 - Healthcare: use the Ministry hospital / regional-service directory as the public-system starting point; shortlist private clinics and insurers in Asuncion first, then verify Encarnacion / Ciudad del Este depth before choosing a smaller base. [src-689][src-690][src-782]
 - Education: if a future child is a serious planning constraint, start with Asuncion bilingual/international schools such as ASA, then compare local private bilingual options. [src-691][src-692]
-- Immigration lawyers / accountants: [verification required]
-- Ukrainian / Russian-speaking diaspora: [verification required]; for screening, assume Spanish-speaking local professional help is more important than a large Ukrainian network. [src-782]
+- Immigration lawyers / accountants: Vouga Abogados is a neutral contact lead for screening, with public corporate-immigration, labour/social-security, and business-law capacity; contact page lists Juan de Salazar 657, Asuncion, info@vouga.com.py, +595 21 202 049. [src-830]
+- Ukrainian / Russian-speaking diaspora: no dedicated community lead captured; for screening, assume Spanish-speaking local professional help is more important than a large Ukrainian network. [src-782]
 - Expat adaptation: Expat Arrivals Paraguay overview for language, transport, healthcare, education, and family context. [src-782]
-- NGOs / refugee help: [verification required]
+- NGOs / refugee help: no dedicated Ukraine-protection NGO route is assumed; Paraguay planning should use ordinary residence / lawful-activity channels. [src-190][src-191]
 
 ## Block 7 - Sources
 
@@ -379,6 +401,7 @@ _(none yet)_
 - [src-194] Climate to Travel Paraguay climate overview.
 - [src-195] WeatherSpark Paraguay country climate comparison.
 - [src-443] ExchangeRate-API USD/PYG snapshot.
+- [src-830] Vouga Abogados Paraguay corporate-immigration / labour-social-security / contact pages.
 
 ### 7e. Not found
 - Detailed consular appointment/payment workflow and whether any exception permits tourist-entry-to-residence conversion for Ukrainian applicants; the screening baseline is to assume a residence / lucrative-activity visa is required.
@@ -390,5 +413,5 @@ _(none yet)_
 
 - `vq-111` resolved for screening in run-093: Paraguay foreign-client IT tax structure has a conservative PIT/VAT/social-security risk baseline; DNIT/RUC category, IPS/private social-security treatment, VAT/place-of-supply/export-service classification, and compatibility with the lawful-activity temporary-residence file remain application-prep/accountant checks.
 - `vq-142` resolved for screening in run-156: exact route-compliant private health-insurance quotes, maternity/newborn coverage, IPS / Ministry public-care onboarding, and selected-city provider prices remain application-prep checks.
-- Family application details, lawyer/accountant contacts, and exact marriage/dependent filing sequence remain for later application-prep passes.
+- Family application details and exact marriage/dependent filing sequence remain for later application-prep passes; a neutral Paraguay lawyer/accountant contact lead is now captured in §5.11. [src-830]
 - Live rental listings, deposits/agency fees, registered-address support, utilities-by-season, foreigner lease acceptance, and city safety/service tradeoffs remain application-prep checks.

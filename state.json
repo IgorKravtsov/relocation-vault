@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 234,
+  "iteration": 235,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-29T13:11:45Z",
+  "last_run_timestamp": "2026-06-29T16:17:45Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.11",
-    "reason": "Continue the remaining lower-depth 5.11 bureaucracy/practicality slice with Paraguay unless verification, staleness, or accepted proposals take priority."
+    "reason": "Continue the remaining lower-depth 5.11 bureaucracy/practicality slice with Panama unless verification, staleness, or accepted proposals take priority."
   },
   "countries": {
     "Spain": {
@@ -803,7 +803,7 @@
     "Paraguay": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 9.0,
+      "depth_score": 10.0,
       "sections_completed": [
         "5.2",
         "5.4",
@@ -811,16 +811,15 @@
         "5.7",
         "5.8",
         "5.9",
-        "5.10"
+        "5.10",
+        "5.11"
       ],
       "sections_partial": [
         "5.1",
         "5.3",
         "5.6"
       ],
-      "sections_pending": [
-        "5.11"
-      ],
+      "sections_pending": [],
       "risk_flags": [
         "residence-visa-for-lucrative-activity-gap",
         "no-fixed-remote-income-threshold",
@@ -834,7 +833,7 @@
         "paraguay-road-and-transport-risk",
         "paraguay-one-income-margin-risk"
       ],
-      "last_iteration": 208,
+      "last_iteration": 235,
       "unverified_count": 0
     },
     "Panama": {
@@ -1179,7 +1178,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 828,
+  "sources_count": 829,
   "claims_count": 716,
   "proposals_pending": 0
 }

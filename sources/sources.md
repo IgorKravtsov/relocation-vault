@@ -10007,3 +10007,15 @@ Each source entry:
 - **Facts supporting**: Neutral Uruguay bureaucracy/practicality contact lead: public services page lists practice areas including immigration, tax, labour, company law and corporate governance, corporate and commercial, real estate, family law, data privacy and information technologies, and technology/media/TMT; contact page lists Uruguay offices and public phone contacts including Montevideo +598 2900 1000, Aguada Park +598 2 927 2360, Punta del Este +598 4244 1287, Colonia +598 4523 1517, and Tacuarembo +598 4633 1111
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-29
+
+## src-830
+- **Title**: Vouga Abogados Paraguay - corporate immigration, labour/social-security, and contact pages
+- **URL**: https://www.vouga.com.py/en/areas/inmigracion-corporativa/ ; https://www.vouga.com.py/en/areas/laboral-seguridad-social-seguridad-industrial/ ; https://www.vouga.com.py/en/contacto/
+- **Archive**: direct HTML extraction used from public pages
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-29
+- **Used by**: Paraguay
+- **Facts supporting**: Neutral Paraguay bureaucracy/practicality contact lead: corporate-immigration page states assistance to companies and individuals in determining appropriate residency permits, preparing documentation for residence permits, complying with relocation-related labour standards, and corporate relocation processes; labour/social-security page lists labour, social-security, and service-contract support; contact metadata lists Juan de Salazar 657, Asuncion - Paraguay, info@vouga.com.py, telephone +595 21 202 049, fax +595 21 230 101
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-29
