@@ -9995,3 +9995,15 @@ Each source entry:
 - **Facts supporting**: Neutral Moldova bureaucracy/practicality contact lead: Chisinau law firm with public practice links for corporate and M&A, commercial and employment, regulatory and tax, tax advisory, data protection, and work permits; work-permits page lists Alexander.Tuceac@TurcanLaw.md for a free description of the Moldovan work-permitting process; contact page lists Str. Puskin 47/1-5a, Chisinau, MD-2005, tel. (373) 22 212 031 / 226 113, and Turcan@TurcanLaw.md
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-29
+
+## src-829
+- **Title**: FERRERE Uruguay - services and contact pages
+- **URL**: https://www.ferrere.com/en/services/ ; https://www.ferrere.com/en/contact/
+- **Archive**: [archive: failed 2026-06-29; Wayback returned HTTP 429; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-29
+- **Used by**: Uruguay
+- **Facts supporting**: Neutral Uruguay bureaucracy/practicality contact lead: public services page lists practice areas including immigration, tax, labour, company law and corporate governance, corporate and commercial, real estate, family law, data privacy and information technologies, and technology/media/TMT; contact page lists Uruguay offices and public phone contacts including Montevideo +598 2900 1000, Aguada Park +598 2 927 2360, Punta del Este +598 4244 1287, Colonia +598 4523 1517, and Tacuarembo +598 4633 1111
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-29

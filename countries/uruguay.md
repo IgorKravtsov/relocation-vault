@@ -1,13 +1,13 @@
 ---
 country: Uruguay
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T23:57:07Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-29T13:11:45Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["digital-nomad-not-long-term-route", "citizenship-requires-habitual-presence", "uruguay-self-employed-bps-gap", "uruguay-foreign-client-vat-fit-gap", "montevideo-punta-del-este-rent-pressure", "uruguay-private-insurance-quote-gap", "uruguay-international-school-cost-risk", "uruguay-spanish-language-integration-needed", "uruguay-one-income-margin-risk"]
-sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186", "src-430", "src-431", "src-432", "src-433", "src-434", "src-435", "src-436", "src-545", "src-546", "src-547", "src-548", "src-684", "src-685", "src-686", "src-687", "src-688", "src-779", "src-780"]
+sources_used: ["src-180", "src-181", "src-182", "src-183", "src-184", "src-185", "src-186", "src-430", "src-431", "src-432", "src-433", "src-434", "src-435", "src-436", "src-545", "src-546", "src-547", "src-548", "src-684", "src-685", "src-686", "src-687", "src-688", "src-779", "src-780", "src-829"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests a potentially strong long-term route because Uruguay allows ordinary legal residence for non-Mercosur foreigners and legal citizenship after 3 years with family constituted in Uruguay or 5 years without family, but the route depends on proving habitual residence and means of life rather than a simple remote-worker visa threshold. [src-181][src-182][src-184]
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
-- **Tier rationale**: keep as Tier-2 hint until practical residence / tax approval mechanics for foreign-client IT income, healthcare insurance/onboarding costs, and habitual-residence/citizenship practice are checked; cost/rent, education, comfort, and partner fit now screen as workable if Spanish-language integration and strict one-income budgeting are accepted.
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-29
+- **Tier rationale**: keep as Tier-2 hint until practical residence / tax approval mechanics for foreign-client IT income, healthcare insurance/onboarding costs, and habitual-residence/citizenship practice are checked; cost/rent, education, comfort, partner fit, and bureaucracy/practicality now screen as workable if Spanish-language integration, Montevideo-first professional support, and strict one-income budgeting are accepted.
 
 ## Block 2 - Scoring
 
@@ -227,9 +227,18 @@ International schooling is the budget risk. ExpatLife's 2026 Uruguay education g
 
 **Risk verdict**: Uruguay is one of the cleaner non-EU ordinary-residence screens, but it is not a low-cost or low-distance fallback. Treat Montevideo as the service landing base with strict rent discipline and Salto as the affordability fallback only if smaller-city service and healthcare checks pass. [src-546][src-548][src-780]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-29, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for country screening. The route is practical only as a Montevideo-first notary/accountant/lawyer file: visa-free entry and ordinary residence anchors are clear, but means-of-life certification, DGI/BPS/VAT alignment, Spanish documents, healthcare card / insurance, lease/address evidence, and partner/family status must be coordinated before relying on Uruguay as a post-2027 base.
+
+- **Core workflow**: use visa-free entry as the reconnaissance/arrival layer, then build a permanent legal residence file rather than treating the 6+6 month digital-nomad provisional identity as the durable route. The permanent-residence checklist makes the practical bottleneck explicit: identity, criminal records, civil-status documents, health card, vaccination certificate, and proof of means of life need apostille/legalisation and Spanish public-translation handling where required. [src-180][src-182][src-183] Confidence: medium.
+- **Foreign-client IT practicality**: the male partner's strongest operational file is the foreign-company employee / independent-worker means-of-life category, supported by a notarial certificate and accounting/tax explanation. The checklist asks for income amount, payment method, activity performed from Uruguay, and whether Uruguayan labour/social-security registration applies, so the residence file should be prepared together with DGI/BPS/VAT advice rather than after arrival improvisation. [src-182][src-430][src-433][src-435] Confidence: medium.
+- **Filing location / city choice**: Montevideo should be the default first administrative base because it concentrates migration/notary/accountant/lawyer support, mutualista/private healthcare, schools, transport, and English-support odds. Salto remains the affordability fallback after the residence, healthcare, and professional-support file is clear; Punta del Este / Maldonado should not be the default one-income filing base because rent and seasonality can absorb the budget buffer. [src-546][src-547][src-548][src-684][src-780] Confidence: medium.
+- **Professional support lead**: FERRERE is a neutral Uruguay lead, not a recommendation. Its public site lists Uruguay offices in Aguada Park, Colonia, Montevideo, Punta del Este, and Tacuarembo, and practice areas including immigration, tax, labour, company law / corporate governance, corporate and commercial, real estate, family law, data privacy / IT, and technology/media/TMT. Public contact information includes Montevideo +598 2900 1000, Aguada Park +598 2 927 2360, Punta del Este +598 4244 1287, Colonia +598 4523 1517, and Tacuarembo +598 4633 1111. [src-829] Confidence: medium.
+- **Document / language burden**: Spanish is a real execution requirement. Public offices, leases, healthcare, tax/accounting, school enrollment, and eventual citizenship should be assumed Spanish-first; English may help with larger Montevideo professional firms but should not be treated as sufficient for a self-managed file. [src-182][src-184][src-780] Confidence: medium.
+- **Partner / family sequencing**: for this couple, practicality improves if they decide before filing whether to marry. Marriage may simplify civil-status evidence and later family-constituted citizenship planning, but residence should still be treated as a Uruguayan file for each partner or as a lawyer-checked family file, not as an assumed unmarried-dependent shortcut. [src-182][src-184] Confidence: medium.
+
+**Practicality verdict**: Uruguay is operationally screenable and cleaner than many non-EU options because the official permanent-residence checklist recognizes foreign-company and independent-worker evidence. It is not low-friction: the couple should budget for a Montevideo lawyer/notary/accountant package, Spanish translations, health-card / insurance steps, DGI/BPS/VAT setup, and a lease/address plan before using Uruguay as the post-EU-TP fallback. [src-182][src-829]
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -307,12 +316,12 @@ International schooling is the budget risk. ExpatLife's 2026 Uruguay education g
 | Rental deposit | $262-$1,013+ | Use at least 1 month of the captured 40 m2 proxy as a first-pass reserve; exact deposit/guarantee and agency norms need live-listing checks. [src-546][src-547][src-548] |
 | First month rent | $262-$1,013 | Salto lower end, Montevideo mid-range, Punta del Este high/tourist-market range for the 40 m2 proxy. [src-546][src-547][src-548] |
 | Health insurance / health card | — | Health card is a residence-file input; private insurance / mutualista route and exact costs need quotes. [src-182][src-685] |
-| Immigration lawyer / notary / accountant | — | Critical for means-of-life proof. |
+| Immigration lawyer / notary / accountant | — | Critical for means-of-life proof; at least one neutral Uruguay law-firm lead is captured, but quotes/scope need application-prep checks. [src-829] |
 | Buffer / contingencies | — | [verification required] |
 | **Total** | — | |
 
 ### 6g. Contact points and communities
-- Immigration lawyers / notaries: [verification required]
+- Immigration lawyers / notaries: FERRERE is captured as a neutral Uruguay professional-services lead with immigration, tax, labour, corporate/commercial, real estate, family-law, and technology/TMT practice areas and Uruguay offices/phone contacts; compare with other Uruguayan notaries/accountants before engagement. [src-829]
 - Ukrainian / Russian-speaking diaspora: [verification required]
 - Expat blogs: Expat Arrivals moving-to-Uruguay overview is useful for high-level daily-life, language, healthcare, education, street-crime, and cost caveats. [src-780]
 - NGOs / refugee help: [verification required]
@@ -339,6 +348,7 @@ International schooling is the budget risk. ExpatLife's 2026 Uruguay education g
 _(none yet)_
 
 ### 7d. Statistical / commercial
+- [src-829] FERRERE Uruguay services/contact pages for neutral bureaucracy/practicality professional-services lead.
 - [src-185] Climate to Travel Uruguay climate overview / normals.
 - [src-186] WeatherSpark Uruguay country climate comparison.
 - [src-436] ExchangeRate-API USD to UYU FX snapshot.
@@ -361,8 +371,9 @@ _(none yet)_
 - Partner/dependent mechanics for an unmarried Ukrainian partner remain unproven; the safe baseline is marriage or separate residence eligibility.
 - Comfort/partner application-prep details: exact safe neighborhoods, lease-guarantee products, Spanish-support/community depth, final-city healthcare/school access, and partner work authorization remain later checks.
 - Uruguay tax treatment for foreign-client IT remote work: first-pass §5.3 now covers IRPF/tax residence and screening calculations. `vq-110` was resolved for screening in run-093; exact DGI/BPS/VAT/immigration-file alignment remains an application-prep/accountant check.
-- Healthcare application-prep details: exact route-compliant private insurance quotes, maternity/newborn exclusions, FONASA/ASSE/mutualista onboarding by residence/BPS status, and Montevideo/Salto private-care price checks are open in `vq-141`.
+- Healthcare application-prep details: exact route-compliant private insurance quotes, maternity/newborn exclusions, FONASA/ASSE/mutualista onboarding by residence/BPS status, and Montevideo/Salto private-care price checks were resolved for country screening in `vq-141` but remain application-prep checks.
 
 ## Block 8 - Open questions and verification markers
 
-- `vq-141`: Uruguay private health-insurance quotes, maternity/newborn terms, exact FONASA/ASSE/mutualista onboarding by residence/self-employed status, and selected-city private GP/pediatric/maternity prices.
+- `vq-141`: resolved for country screening in run-156; exact private-health-insurance quotes, maternity/newborn terms, FONASA/ASSE/mutualista onboarding by residence/self-employed status, and selected-city private GP/pediatric/maternity prices remain application-prep checks.
+- §5.11 application-prep: compare Uruguayan immigration lawyers, notaries, and accountants; quote means-of-life certificate preparation; confirm DGI/BPS/VAT fit, health-card workflow, lease/address support, and family/partner evidence before filing.
