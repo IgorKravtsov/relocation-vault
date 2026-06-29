@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 232,
+  "iteration": 233,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-29T06:54:09Z",
+  "last_run_timestamp": "2026-06-29T10:05:11Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.11",
-    "reason": "Continue the remaining lower-depth 5.11 bureaucracy/practicality slice with Moldova unless verification, staleness, or accepted proposals take priority."
+    "reason": "Continue the remaining lower-depth 5.11 bureaucracy/practicality slice with Uruguay unless verification, staleness, or accepted proposals take priority."
   },
   "countries": {
     "Spain": {
@@ -733,7 +733,7 @@
     "Moldova": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 9.0,
+      "depth_score": 10.0,
       "sections_completed": [
         "5.2",
         "5.4",
@@ -741,16 +741,15 @@
         "5.7",
         "5.8",
         "5.9",
-        "5.10"
+        "5.10",
+        "5.11"
       ],
       "sections_partial": [
         "5.1",
         "5.3",
         "5.6"
       ],
-      "sections_pending": [
-        "5.11"
-      ],
+      "sections_pending": [],
       "risk_flags": [
         "digital-nomad-threshold-current-year-gap",
         "pr-counting-for-digital-nomad-unclear",
@@ -764,7 +763,7 @@
         "moldova-international-school-cost-risk",
         "moldova-one-income-margin-risk"
       ],
-      "last_iteration": 208,
+      "last_iteration": 233,
       "unverified_count": 0
     },
     "Uruguay": {
@@ -1181,7 +1180,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 826,
+  "sources_count": 827,
   "claims_count": 716,
   "proposals_pending": 0
 }

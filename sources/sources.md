@@ -9983,3 +9983,15 @@ Each source entry:
 - **Facts supporting**: Neutral Bosnia and Herzegovina bureaucracy/practicality contact lead: Sarajevo law firm describing more than 65 years of legal-services experience and public expertise areas including corporate and commercial law, employment law, immigration and nationality law, regulatory compliance, risk management, and tax law; public contact details include contact@mariclaw.com and +387 33 566 700
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-29
+
+## src-828
+- **Title**: Turcan Cazac - Work permits / contacts / Moldova business-law practice pages
+- **URL**: https://www.turcanlaw.md/practices/work-permits/ ; https://www.turcanlaw.md/contacts ; https://www.turcanlaw.md/
+- **Archive**: [archive: failed 2026-06-29; Wayback returned HTTP 429; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-29
+- **Used by**: Moldova
+- **Facts supporting**: Neutral Moldova bureaucracy/practicality contact lead: Chisinau law firm with public practice links for corporate and M&A, commercial and employment, regulatory and tax, tax advisory, data protection, and work permits; work-permits page lists Alexander.Tuceac@TurcanLaw.md for a free description of the Moldovan work-permitting process; contact page lists Str. Puskin 47/1-5a, Chisinau, MD-2005, tel. (373) 22 212 031 / 226 113, and Turcan@TurcanLaw.md
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-29

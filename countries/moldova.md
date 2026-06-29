@@ -1,13 +1,13 @@
 ---
 country: Moldova
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T23:57:07Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
+depth_score: 10.0
+last_updated: 2026-06-29T10:05:11Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["digital-nomad-threshold-current-year-gap", "pr-counting-for-digital-nomad-unclear", "post-2027-tp-bridge-gap", "transnistria-practical-risk", "moldova-transnistria-border-security-risk", "moldova-romanian-russian-language-integration-needed", "moldova-entrepreneur-contribution-category-gap", "moldova-foreign-client-vat-fit-gap", "moldova-health-insurance-onboarding-gap", "moldova-international-school-cost-risk", "moldova-one-income-margin-risk"]
-sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225, src-424, src-425, src-426, src-427, src-428, src-429, src-566, src-567, src-568, src-569, src-705, src-706, src-707, src-708, src-789, src-790]
+sources_used: [src-204, src-219, src-220, src-221, src-222, src-223, src-224, src-225, src-424, src-425, src-426, src-427, src-428, src-429, src-566, src-567, src-568, src-569, src-705, src-706, src-707, src-708, src-789, src-790, src-828]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence shows Moldova has an official digital-nomad residence route and temporary protection for displaced Ukrainians until 01 March 2027, but long-term usefulness for this couple depends on the current average-salary threshold, whether digital-nomad residence counts toward permanent residence, and post-TP transition mechanics. [src-220][src-222]
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-29
 - **Tier rationale**: Not assigned. Treat Moldova as a potentially practical nearby bridge/base, not yet a proven long-term route to PR/citizenship for a foreign-client IT worker.
 
 ## Block 2 — Scoring
@@ -265,9 +265,23 @@ Moldova is comfort-screenable but not a low-friction lifestyle choice. Chisinau 
 
 **Risk verdict**: Moldova is practical as a nearby bridge/base if the DN formula and partner/status file work, but it remains a route-threshold and regional-security case. Chisinau is the only default planning base; Balti is an affordability fallback, and Tiraspol should stay outside the normal relocation plan. [src-220][src-567][src-568][src-789]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-29, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for screening. Moldova has visible GIM / TP / DN filing anchors, a Chisinau-first service baseline, and at least one neutral professional-services contact lead. This does not solve the DN income formula, PR-counting, tax category, partner sponsorship, or insurance quote gaps; those remain application-prep checks rather than 5.11 blockers.
+
+#### Core route timing and filing sequence
+- **Temporary protection**: TP is a safety status through the captured **01 March 2027** horizon; it requires online registration at `protectietemporara.gov.md` and a GIM appointment with original documents. Use it for short-term legal stay/work rights only, not as a post-2027 plan. [src-222]
+- **Ordinary provisional stay / digital nomad**: GIM's provisional-stay overview says ordinary files are submitted in person at the One-stop-shop or regional GIM offices, normally at least **30 days before** the authorized stay ends; work/investor/EU applications use a 15-day rule. Standard review is 30 days, with shorter paid options listed on the overview. [src-219]
+- **DN document burden**: The DN file is practical only if the applicant prepares accommodation proof, medical insurance, six months of bank statements, foreign employment/service contract, sworn remote-work statement, photo, and a criminal-record certificate legalized/apostilled and translated into Romanian or English. [src-220]
+- **Permanent-residence caution**: Permanent stay may be available after 3 years for family reunification or 5 years for other categories, but the captured PR page has IT/category exceptions. Do not treat DN/IT time as PR-counting until counsel or GIM confirms it. [src-219][src-221]
+
+#### Practical execution baseline
+- **Chisinau first**: Chisinau is the default filing and living base because it concentrates GIM access, embassies/NGOs, accountants/lawyers, tertiary healthcare, private clinics, international schools, stronger English scores, and the widest rental/service market. Balti remains a cheaper fallback; Tiraspol should stay outside the ordinary plan because of Transnistria/regional-security risk. [src-567][src-568][src-569][src-706][src-708][src-789][src-790]
+- **Language and document support**: Plan Romanian-language execution for GIM/tax/CNAM/CNAS, translations, leases, public services, and school paperwork. Russian can help daily life; English is a Chisinau service-layer advantage, not a substitute for local-language paperwork. [src-219][src-707][src-790]
+- **Professional contact lead**: Turcan Cazac is a neutral Moldova law-firm lead, not a recommendation. Its public pages describe Moldova business-law coverage including corporate/M&A, commercial and employment, regulatory and tax, tax advisory, data protection, and work permits; its work-permits page lists a direct associate email for a free description of the Moldovan work-permitting process, and the contact page lists a Chisinau office at Str. Puskin 47/1-5a, tel. (373) 22 212 031 / 226 113, and general email Turcan@TurcanLaw.md. [src-828]
+
+#### Bureaucracy verdict for this couple
+Moldova is bureaucratically screenable and geographically convenient, but not low-risk. The couple can build a plausible Chisinau-first TP-to-ordinary-status plan, but they should solve the DN income threshold, partner/dependent route, PR-counting, tax registration, insurance, and lease/address evidence before treating Moldova as a durable post-2027 base. Use a Moldovan lawyer/accountant before filing rather than improvising a foreign-client IT / DN / family file.
 
 ## Block 4 — Risk dimensions (summary)
 
@@ -349,7 +363,7 @@ Moldova is comfort-screenable but not a low-friction lifestyle choice. Chisinau 
 ### 6g. Contact points and communities
 - General Inspectorate for Migration: central and regional offices listed on IGM pages. [src-219]
 - UNHCR Moldova / Refugee Response Green Line for TP-related support. [src-222]
-- Lawyers/accountants: [verification required]
+- Lawyers/accountants: Turcan Cazac is a neutral Chisinau professional-services lead with public work-permit, commercial/employment, tax, corporate, and contact pages; use it as one candidate to compare with at least one immigration-focused adviser and one accountant before filing. [src-828]
 - Language/support: plan Romanian/Russian help for official appointments; English is a screening advantage in Chisinau, not a substitute for local-language paperwork. [src-790]
 
 ## Block 7 — Sources
@@ -386,6 +400,7 @@ _(none yet)_
 - [src-569] Livingcost Tiraspol cost/rent baseline.
 - [src-706] ExpatLife.AI Moldova healthcare 2026 guide.
 - [src-708] ExpatLife.AI Moldova education 2026 guide plus QSI/Heritage school pages.
+- [src-828] Turcan Cazac law-firm work-permit, tax, commercial/employment, and contact pages.
 
 ### 7e. Not found
 - Official Moldovan MFA/eVisa country table confirming Ukrainian passport short-entry rules.
