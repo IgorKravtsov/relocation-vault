@@ -1,13 +1,13 @@
 ---
 country: Panama
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-26T03:03:39Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
+depth_score: 10.0
+last_updated: 2026-06-29T19:26:34Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["remote-worker-visa-bridge-only", "panama-permanent-residence-route-needs-fit-check", "very-humid-rainy-season", "panama-territorial-tax-source-risk", "panama-itbms-export-service-gap", "panama-city-rent-pressure", "panama-health-insurance-quote-gap", "panama-international-school-cost-risk", "panama-spanish-language-integration-needed", "panama-road-and-transport-risk", "panama-one-income-margin-risk"]
-sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203", "src-444", "src-445", "src-446", "src-447", "src-448", "src-553", "src-554", "src-555", "src-556", "src-693", "src-694", "src-695", "src-696", "src-783", "src-784"]
+sources_used: ["src-197", "src-198", "src-199", "src-200", "src-201", "src-202", "src-203", "src-444", "src-445", "src-446", "src-447", "src-448", "src-553", "src-554", "src-555", "src-556", "src-693", "src-694", "src-695", "src-696", "src-783", "src-784", "src-831"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests Panama is useful as a short-to-medium-term remote-work base because the official remote-worker visa fits exactly USD 3,000/month foreign-source income, but it is a non-resident short-stay route and not a clean permanent-residence/citizenship ladder by itself. [src-199]
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-26T03:03:39Z
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-29T19:26:34Z
 - **Tier rationale**: keep as Tier-2 hint only if a separate residence route can be made realistic. The likely long-term routes require a Panama employer/professional file, friendly-nations economic/professional activity, or investment/family facts not yet proven for this Ukrainian remote-IT couple. [src-198][src-200]
 
 ## Block 2 - Scoring
@@ -245,9 +245,22 @@ For the woman partner, Panama is workable only if the couple treats legal status
 - **Ties to Ukraine**: Medium-high risk. Panama is far from Ukraine/Poland, so document renewals, family support, emergency travel, and maintaining any EU fallback status are more burdensome than in Europe. Tourist entry is only a scouting tool and should not replace an ordinary residence plan. [src-197][src-201]
 - **Diaspora / adaptation**: Medium. Panama City has expat-facing services, private healthcare, schools, lawyers, and banks, but Spanish is required for migration, leases, tax, public services, and daily administration; EF/TravelSafe evidence supports a managed Spanish-learning plan rather than an English-default move. [src-694][src-695][src-783][src-784]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-29, dod: passed}
 
-[verification required]
+> **DoD status**: passed for country screening at medium confidence. Core route timing, filing posture, document-localisation burden, city sequencing, and one neutral professional-services contact lead are captured. This is not yet an application-ready lawyer/accountant engagement plan.
+
+Panama is practical only if treated as a two-stage, adviser-led file: the official remote-worker visa is a clean 9+9 month bridge for foreign-source telework, but durable settlement still requires a separately verified ordinary residence route such as friendly-countries, foreign-professional, employment/company, investment, or family residence. [src-198][src-199][src-200]
+
+| Practical step | Screening baseline | Couple-specific implication |
+|---|---|---|
+| Entry / first filing | Tourist entry is only for scouting; the remote-worker file needs foreign-source income proof, medical insurance covering Panama, police/health certificates, notarized/authenticated passport copy, forms, and no-local-work declaration. [src-199][src-201] | Do not arrive assuming tourist status solves residence. Build the remote-worker packet before travel and confirm the Ukraine-specific entry/filing sequence with counsel. |
+| Timing | Remote-worker status is valid for 9 months and renewable once for the same term; the route is short-stay / non-resident, not a captured PR ladder. [src-198][src-199] | Use the first 3-6 months to test the long-term residence path; do not wait until the bridge is near expiry. |
+| Filing location / support | The checklist is legal-document heavy: power/application, sworn statements, authenticated copies, insurance, foreign-company/client evidence, health and criminal-record documents, plus likely Spanish localisation. [src-199] | Panama City should be the setup base for migration lawyer, notary, accountant, bank, insurance, labs, and private healthcare even if David or Boquete later fits the budget/climate better. |
+| Tax / business coordination | The attractive territorial-tax case depends on DGI/accountant confirmation of source classification, RUC/filing needs, CSS/education-tax exposure, and ITBMS/export-service treatment. [src-444][src-446][src-447][src-448] | Handle immigration and tax together: no Panama clients/employment under the remote-worker declaration, but the long-term route may need a different economic hook. |
+| Partner / documents | Captured dependent evidence is spouse/child/guardianship-oriented; unmarried-partner treatment is not proven. [src-200] | Marriage or a separate status remains the conservative practical baseline; prepare apostilled/translated relationship and civil-status documents if Panama stays on the shortlist. |
+| Professional lead | Morgan & Morgan in Panama City publicly lists immigration law, taxation, corporate services, labour, real estate, and contact details at MMG Tower, Costa del Este, phone 507.265.7777 and public email contact. [src-831] | Use as a neutral lead for comparison, not a recommendation; application prep should still quote at least two immigration/tax advisers. |
+
+**Practicality verdict**: Panama is operationally screenable but strategically fragile. The remote-worker route fits the income profile on paper, yet it sits exactly at the USD 3,000/month threshold and does not by itself solve post-bridge residence. If Panama remains a candidate, execute it as Panama City-first professional setup, remote-worker bridge, immediate long-term-route/legal-tax test, then possible David/Boquete budget-climate relocation only after the file is stable. [src-199][src-444][src-554][src-555][src-694][src-831]
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -321,7 +334,7 @@ For the woman partner, Panama is workable only if the couple treats legal status
 | **Total** | — | |
 
 ### 6g. Contact points and communities
-- Immigration lawyers / accountants: [verification required]
+- Immigration lawyers / accountants: neutral first lead for comparison - Morgan & Morgan in Panama City lists immigration law, taxation, corporate services, labour, real estate, MMG Tower / Costa del Este contact details, phone 507.265.7777, and public email contact. [src-831]
 - Ukrainian / Russian-speaking diaspora: [verification required]
 - Expat blogs: [verification required]
 - NGOs / refugee help: [verification required]
@@ -358,6 +371,7 @@ _(none yet)_
 - [src-555] Livingcost David cost/rent page.
 - [src-556] Livingcost Santiago de Veraguas cost/rent page.
 - [src-696] International School of Panama public website.
+- [src-831] Morgan & Morgan Panama City immigration / tax / corporate-services / contact pages.
 
 ### 7e. Not found
 - Official Panama / consular country table showing the current Ukraine-specific entry rule and exact visa-free duration remains useful before travel; `vq-062` is closed for screening to the tourist-status-is-not-residence baseline.
@@ -368,6 +382,7 @@ _(none yet)_
 - Live international-school tuition invoices, private-preschool / bilingual-school city quotes outside Panama City, and final enrollment-document checks remain family-planning practical-budget work.
 - Route-specific remote-worker dependent checklist; the screening baseline is marriage for any later ordinary dependent file and no confirmed unmarried-partner route.
 - Live neighborhood safety, Ukrainian/Russian-speaking community depth, and final-city Spanish/English service availability remain practical checks after this first comfort/partner screen.
+- Compare at least two Panama immigration/tax advisers and quote remote-worker plus ordinary-residence follow-on support; Morgan & Morgan is captured only as a neutral first lead, not a recommendation. [src-831]
 
 ## Block 8 - Open questions and verification markers
 

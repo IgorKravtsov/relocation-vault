@@ -10019,3 +10019,15 @@ Each source entry:
 - **Facts supporting**: Neutral Paraguay bureaucracy/practicality contact lead: corporate-immigration page states assistance to companies and individuals in determining appropriate residency permits, preparing documentation for residence permits, complying with relocation-related labour standards, and corporate relocation processes; labour/social-security page lists labour, social-security, and service-contract support; contact metadata lists Juan de Salazar 657, Asuncion - Paraguay, info@vouga.com.py, telephone +595 21 202 049, fax +595 21 230 101
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-29
+
+## src-831
+- **Title**: Morgan & Morgan Panama - immigration law, taxation, corporate services, and contact pages
+- **URL**: https://morimor.com/practice-areas/immigration-law/ ; https://morimor.com/practice-areas/taxation/ ; https://morimor.com/practice-areas/corporate-services/ ; https://morimor.com/contact-us/
+- **Archive**: direct HTML extraction used from public pages
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-29
+- **Used by**: Panama
+- **Facts supporting**: Neutral Panama bureaucracy/practicality contact lead: Panama City law firm pages list immigration law, taxation, corporate services, labour law, real estate, and related practice areas; contact page lists Morgan & Morgan Headquarters at MMG Tower, 23rd Floor, Ave. Paseo del Mar, Costa del Este, Panama City, Republic of Panama, phone 507.265.7777, and public email contact
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-29
