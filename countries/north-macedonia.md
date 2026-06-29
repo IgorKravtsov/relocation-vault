@@ -1,13 +1,13 @@
 ---
 country: North Macedonia
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T20:50:12Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-29T03:48:37Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["official-ukraine-entry-table-gap", "no-dedicated-digital-nomad-visa", "ordinary-residence-route-needs-fit-check", "no-captured-ukraine-protection-bridge", "north-macedonia-self-employed-contribution-base-gap", "north-macedonia-foreign-client-vat-fit-gap", "skopje-rent-pressure", "north-macedonia-private-insurance-quote-gap", "north-macedonia-international-school-cost-risk", "macedonian-language-integration-needed", "north-macedonia-one-income-margin-risk"]
-sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212", "src-413", "src-414", "src-415", "src-416", "src-417", "src-557", "src-558", "src-559", "src-560", "src-697", "src-698", "src-699", "src-700", "src-785", "src-786"]
+sources_used: ["src-204", "src-205", "src-206", "src-207", "src-208", "src-209", "src-210", "src-211", "src-212", "src-413", "src-414", "src-415", "src-416", "src-417", "src-557", "src-558", "src-559", "src-560", "src-697", "src-698", "src-699", "src-700", "src-785", "src-786", "src-826"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to an ordinary-residence / work-or-self-employment file rather than a dedicated digital-nomad route. The country is promising as a low-cost Balkan base, but the post-2027 Ukrainian protection baseline and foreign-client IT residence fit still need primary-source verification.
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25T20:50:12Z
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-29T03:48:37Z
 - **Tier rationale**: Not assigned yet; legalization remains partial.
 
 ## Block 2 — Scoring
@@ -228,9 +228,24 @@ The student partner can be practically accommodated in North Macedonia only if s
 - **Ties to Ukraine**: Low-medium. Balkan geography and the existing Polish/EU residence-card short-stay bridge make scouting and regional movement easier than for distant options, but the 15-day EU/Schengen residence-card rule is only travel permission and does not solve Macedonian residence. [src-205]
 - **Diaspora / adaptation**: Medium. EF scores North Macedonia relatively well for the region and Skopje has the main service/healthcare/schooling base, but Macedonian-language support is still needed for government offices, leases, tax/accountants, public schooling, and healthcare. Ohrid/Bitola trade lower cost and climate comfort for weaker services. [src-785][src-786]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-29, dod: passed}
 
-[verification required]
+> **DoD status**: passed for first-pass screening. This pass captures the practical route sequence, filing/localisation friction, professional-support need, and one neutral North Macedonia legal-services contact lead. It is not application-ready: current Ministry of Interior / Employment Agency checklists, exact fees, appointment practice, translations/legalisation, tax/VAT setup, insurance wording, lease/address support, and spouse/family evidence remain application-prep checks.
+
+North Macedonia is bureaucratically screenable but adviser-dependent. The country is attractive only if the couple treats it as a real self-employment/company-backed ordinary residence project, not as a digital-nomad or simple visitor stay. The existing evidence shows temporary residence purposes including work, family reunification, and other legal bases [src-206], and Invest North Macedonia describes aftercare support for employment, work, and self-employment residence/work-permit matters [src-207]. The 2025 Law on Foreigners amendment alert means the exact document list and employment/residence sequencing must be rechecked under current Ministry of Interior / Employment Agency practice before filing [src-208].
+
+| Practical step | Screening baseline | Why it matters |
+|---|---|---|
+| Entry / scouting | Use the Polish EU/Schengen residence-card rule only as a short travel bridge, and verify Ukrainian passport entry before travel. | Neither short entry nor the Polish card creates Macedonian residence; the residence project must be ready before the short-stay horizon becomes a trap. [src-205] |
+| Main residence file | Build a self-employment / company-backed / work-permit file with counsel; do not assume foreign-client remote work alone is enough. | This is the core execution risk because no dedicated DN visa or fixed-income remote-worker route has been captured. [src-206][src-207][src-208] |
+| Documents and localisation | Budget for apostille/legalisation, sworn translation where required, police certificates, health insurance, accommodation/address proof, bank/tax evidence, and renewed post-2025 checklist review. | The route is likely documentation-heavy and Macedonian-language administration is a live friction point. [src-208][src-786] |
+| Tax / business setup | Coordinate residence strategy with accountant advice on sole proprietor vs company/manager status, contributions, VAT threshold/export-service treatment, invoicing, and bank account. | The 5.3 downside model can leave only about USD 1,860-1,944/month before extras if contribution treatment is unfavorable. [src-413][src-415][src-416][src-417] |
+| City sequencing | Start in Skopje for lawyer/accountant, offices, banks, healthcare, and international schools; consider Ohrid/Bitola only after legal/tax/healthcare/school logistics are solved. | Lower-cost cities are useful budget fallbacks, but Skopje is the practical service hub. [src-558][src-559][src-560][src-698][src-699] |
+| Partner/family evidence | Use marriage as the conservative family-route baseline unless counsel confirms durable-partner recognition for the chosen status. | The captured route evidence mentions family reunification generally, but not unmarried-partner treatment for the candidate self-employment/company file. [src-206] |
+
+**Professional-support lead (neutral, not a recommendation)**: Qoku & Partners in Skopje, in cooperation with Karanovic & Partners, is listed publicly for North Macedonia at Maksim Gorki no. 13, 1000 Skopje, with `northmacedonia@karanovicpartners.com` and tel. +389 2 3223 870. Karanovic & Partners' public practice list includes corporate and commercial, employment, real estate, tax, IT/startups, and technology/media/telecoms coverage, making it a reasonable first shortlist lead for immigration-adjacent company, employment, and tax coordination rather than a verified migration-law recommendation. [src-826]
+
+**Practicality verdict**: North Macedonia passes §5.11 at medium confidence for screening. It is affordable and geographically practical, but the bureaucratic burden is front-loaded: choose counsel/accountant first, confirm the exact current self-employment/company residence path, align tax/VAT and address/lease evidence, then decide whether Skopje's service concentration is worth the higher cost. Do not treat the country as durable unless the ordinary-residence file is confirmed before the Ukraine TP horizon. [src-206][src-207][src-208][src-826]
 
 ## Block 4 — Risk dimensions (summary)
 

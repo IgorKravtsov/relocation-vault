@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-28
+last_updated: 2026-06-29
 ---
 
 # Sources Registry
@@ -9957,5 +9957,17 @@ Each source entry:
 - **Date accessed**: 2026-06-29
 - **Used by**: Albania
 - **Facts supporting**: Neutral Albania bureaucracy/practicality contact lead: Tirana law firm contact page listing Kavaja Avenue, Tirana Tower, 5th Floor, Tirana, Albania; phone +355 (4)2233 532 / +355 (4)2224727; email info@kalo-attorneys.com; site practice areas include FDI, banking and finance, corporate/commercial, employment, real estate, tax and taxation, litigation and arbitration, and intellectual property
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-29
+
+## src-826
+- **Title**: Karanovic & Partners - Contact / Practice and industry groups
+- **URL**: https://www.karanovicpartners.com/contact/ ; https://www.karanovicpartners.com/practice-industry-groups/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-29
+- **Used by**: North Macedonia
+- **Facts supporting**: Neutral North Macedonia bureaucracy/practicality contact lead: Qoku & Partners in cooperation with Karanovic & Partners listed in Skopje at Maksim Gorki no. 13, 1000 Skopje, North Macedonia; tel. +389 2 3223 870; northmacedonia@karanovicpartners.com; public practice list includes corporate and commercial, employment, real estate, tax, IT/startups, and technology/media/telecoms coverage
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-29
