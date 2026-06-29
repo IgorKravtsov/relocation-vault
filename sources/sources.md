@@ -10031,3 +10031,15 @@ Each source entry:
 - **Facts supporting**: Neutral Panama bureaucracy/practicality contact lead: Panama City law firm pages list immigration law, taxation, corporate services, labour law, real estate, and related practice areas; contact page lists Morgan & Morgan Headquarters at MMG Tower, 23rd Floor, Ave. Paseo del Mar, Costa del Este, Panama City, Republic of Panama, phone 507.265.7777, and public email contact
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-29
+
+## src-832
+- **Title**: Fragomen Mexico - Mexico immigration services and Mexico City office listing
+- **URL**: https://www.fragomen.com/countries/mexico.html ; https://www.fragomen.com/services.html
+- **Archive**: direct HTML extraction used from public pages
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-29
+- **Used by**: Mexico
+- **Facts supporting**: Neutral Mexico bureaucracy/practicality contact lead: Mexico country page states Fragomen immigration professionals support businesses sending employees to Mexico or expanding there, that Mexican law provides several options for employers of foreign nationals, and that requirements, processing times, and employment eligibility vary by visa classification; services page describes immigration support beyond preparing and filing visa and work-permit applications; country page lists Fragomen in Mexico City, Mexico, phone +52 55 9420 0200 and Contact us
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-29

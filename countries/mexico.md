@@ -1,13 +1,13 @@
 ---
 country: Mexico
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-26T03:03:39Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-29T22:31:12Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["ukrainian-entry-visa-likely-required", "temporary-residence-income-above-current-budget", "no-dedicated-digital-nomad-visa", "coastal-heat-humidity", "mexico-resico-eligibility-gap", "mexico-vat-export-service-gap", "mexico-social-security-category-gap", "mexico-city-rent-pressure", "tourist-coast-cost-pressure", "mexico-health-insurance-quote-gap", "mexico-international-school-cost-risk", "mexico-public-safety-regional-risk", "mexico-spanish-language-integration-needed", "mexico-one-income-margin-risk"]
-sources_used: ["src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232", "src-449", "src-450", "src-451", "src-452", "src-453", "src-454", "src-455", "src-570", "src-571", "src-572", "src-573", "src-574", "src-709", "src-710", "src-711", "src-712", "src-791", "src-792"]
+sources_used: ["src-226", "src-227", "src-228", "src-229", "src-230", "src-231", "src-232", "src-449", "src-450", "src-451", "src-452", "src-453", "src-454", "src-455", "src-570", "src-571", "src-572", "src-573", "src-574", "src-709", "src-710", "src-711", "src-712", "src-791", "src-792", "src-832"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD. First pass suggests Mexico is a possible ordinary-residence fallback rather than a clean digital-nomad route: temporary residence can lead to permanent residence after four years, but 2026 economic-solvency thresholds appear above the couple's current ~$3,000/month income if they apply through the standard income route. [src-227][src-229]
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-26T03:03:39Z
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-29T22:31:12Z
 - **Tier rationale**: keep as Tier-3 hint until the exact serving-consulate threshold, entry mechanics for Ukrainian passports, taxes, rent, healthcare, and partner sponsorship are checked.
 
 ## Block 2 - Scoring
@@ -227,9 +227,22 @@ Practical partner playbook:
 - **Diaspora / adaptation**: Medium-high. Spanish is the operating language for INM, SAT/RFC, leases, public healthcare, schools, and banking; EF places Mexico low nationally, although Guadalajara and Merida are more workable than some alternatives. [src-792]
 - **Main route risk**: Mexico's long-term ladder is conceptually attractive because temporary residence can lead to permanent residence after four years, but at this income the solvency gate and tax/compliance file are the blockers. [src-227][src-229][src-449]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-29, dod: passed}
 
-[verification required]
+> **DoD status**: passed at medium confidence for country screening. Route timing, filing location, in-country practicality, and one neutral professional-contact lead are now explicit enough for comparison; exact consular appointment timing, local document translations, lawyer engagement terms, INM/SAT sequencing, and final-city lease/address support remain application-prep checks.
+
+Mexico is bureaucratically visible but not route-easy for this couple. The main durable path remains a **consular temporary-resident visa based on economic solvency or savings**, followed by in-country exchange (`canje`) into a Mexican residence card with INM. That means the real clock starts before travel: the couple should confirm the serving consulate's threshold, required bank-statement period, dependent uplift, interview/appointment timing, and accepted proof of foreign remote IT income before treating Mexico as a March-2027 fallback. [src-227][src-229]
+
+Route timing is less deterministic than the Panama-style remote-worker route captured in the previous slice. The public INM procedure catalogue confirms the post-entry exchange and later renewal / permanent-residence-after-four-years procedures, while the financial gate is consulate-specific in current secondary guidance. Fragomen's Mexico page also warns at a general level that requirements, processing times, and employment eligibility vary by visa classification. For planning, treat Mexico as a **pre-clearance country**: do not move first and hope to solve residence locally unless the visa / alternative-entry and `canje` sequence is already approved. [src-227][src-229][src-832]
+
+Filing practicality is therefore two-stage:
+
+1. **Before travel / outside Mexico**: confirm Ukrainian entry, whether any permanent-residence or valid-visa alternative applies, and file the resident-visa route at the competent Mexican consulate if eligible. A temporary Polish residence card should not be assumed to waive the Mexican visa. [src-226][src-229]
+2. **After arrival with a resident visa**: complete INM `canje`, then coordinate RFC/SAT, banking, lease/address evidence, private insurance or IMSS advice, and renewal evidence. Guadalajara is still the best first screening city for services/cost balance; Mexico City is useful for lawyers, consular follow-up, healthcare, banking, and schools but needs a strict rent/safety cap. [src-227][src-571][src-572][src-709][src-792]
+
+**Professional-contact lead (neutral, not a recommendation)**: Fragomen has a Mexico country page and a related Mexico City office / regional coordination-center listing with phone **+52 55 9420 0200**. Its public materials describe immigration support for companies sending employees to Mexico or expanding there, Mexican visa-classification variability, business/work visitor constraints, and services that go beyond preparing and filing visa/work-permit applications. This is useful as a screening lead for consular route fit, employer/foreign-client evidence, and processing variability, but the couple should compare it with Mexico-focused local immigration/tax counsel before filing. [src-832]
+
+**Practicality verdict**: Mexico is screenable but fragile. It has a long-term residence concept after four years of temporary residence, large-city services, and professional support, but the couple's current USD 3,000/month income is below the captured rough income benchmark. Mexico should be treated as a future ordinary-residence option or savings-supported fallback unless a serving consulate confirms eligibility; Spanish-language administration, SAT/RFC/VAT/IMSS advice, private insurance, lease/address proof, and spouse/family documentation all need coordinated support. [src-227][src-229][src-449][src-452][src-571][src-572][src-792]
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -297,12 +310,12 @@ Practical partner playbook:
 | Rental deposit | — | [verification required]; first-pass rent proxy is $492-$776 in Guadalajara, $398-$626 in Cancun, $461-$579 in Merida, and $623-$1,035 in Mexico City before deposits/fees. [src-571][src-572][src-573][src-574] |
 | First month rent | $398-$1,035 | First-pass 40 m2 cheaper-to-city-center proxy across the captured cities; Mexico City should be capped strictly. [src-571][src-572][src-573][src-574] |
 | Health insurance / healthcare entry costs | ~$150-$300/month private-insurance proxy | Medium-confidence expat guide proxy only; exact policy, maternity/newborn coverage, IMSS eligibility/costs, and city provider prices remain application-prep checks after run-159 resolved `vq-150` for screening. [src-711] |
-| Immigration lawyer / facilitator | — | Useful for consular threshold and dependent file. |
+| Immigration lawyer / facilitator | — | Fragomen Mexico City is captured as one neutral immigration-services contact lead; compare with local immigration/tax counsel before filing. [src-832] |
 | Buffer / contingencies | — | [verification required] |
 | **Total** | — | |
 
 ### 6g. Contact points and communities
-- Immigration lawyers / facilitators: [verification required]
+- Immigration lawyers / facilitators: Fragomen Mexico City / Mexico country page is captured as one neutral lead for immigration support and processing-variability screening; phone +52 55 9420 0200. [src-832]
 - Ukrainian / Russian-speaking diaspora: [verification required]
 - Expat communities in Mexico City / Guadalajara / Cancun / Merida / Puerto Vallarta: [verification required]
 - Spanish-language tutor / translator support for INM, SAT/RFC, leases, and healthcare should be budgeted because EF ranks Mexico low for English proficiency. [src-792]
@@ -343,6 +356,7 @@ Practical partner playbook:
 - [src-711] ExpatLife.AI Mexico healthcare and education 2026 guides plus ASF/ASFG public school websites.
 - [src-791] World Population Review / TravelSafe Mexico safety proxies.
 - [src-792] EF English Proficiency Index Mexico.
+- [src-832] Fragomen Mexico country and services / Mexico City office listing.
 
 ### 7e. Not found / not captured cleanly
 - Readable official OCR/text for Ukraine's exact placement in Mexico's visa-required / visa-free list.
@@ -351,7 +365,7 @@ Practical partner playbook:
 - Remote-work tax / local registration treatment for foreign-client IT income: ordinary PIT is screened and `vq-113` was resolved for screening in run-093, but exact SAT regime, RESICO eligibility, VAT/export-service handling, IMSS/social-security duty, and residence-file compatibility remain application-prep/accountant checks.
 - Route-compliant private health-insurance quotes, maternity/newborn terms, IMSS / IMSS-Bienestar onboarding by final status, and selected-city private-care prices remain application-prep checks after run-159 resolved `vq-150` for screening.
 - Exact international/bilingual school tuition, private-preschool prices, waiting lists, and non-CDMX/non-Guadalajara options remain application-prep / final-city checks after run-159 resolved `vq-151` for screening.
-- Exact safe neighborhoods, live local lease friction, Spanish-language service providers, and final-city Ukrainian/Russian-speaking community depth remain application-prep checks after sections 5.8 and 5.9 were completed for screening in run-195.
+- Exact safe neighborhoods, live local lease friction, Spanish-language service providers, final-city Ukrainian/Russian-speaking community depth, serving-consulate appointment timing, lawyer engagement terms, and INM/SAT sequencing remain application-prep checks after sections 5.8, 5.9, and 5.11 were completed for screening.
 
 ## Block 8 - Open questions and verification notes
 
