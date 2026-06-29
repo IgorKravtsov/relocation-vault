@@ -1,13 +1,13 @@
 ---
 country: Bosnia and Herzegovina
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-25T23:57:07Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-29T06:54:09Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["no-dedicated-digital-nomad-visa", "company-founder-route-high-burden", "no-captured-ukraine-protection-bridge", "cold-inland-winters", "bosnia-entity-tax-and-ssc-fit-gap", "bosnia-foreign-client-vat-fit-gap", "bosnia-health-insurance-onboarding-gap", "bosnia-international-school-cost-risk", "bosnian-croatian-serbian-language-integration-needed", "bosnia-road-and-transport-risk", "bosnia-one-income-margin-risk"]
-sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218", "src-418", "src-419", "src-420", "src-421", "src-422", "src-423", "src-561", "src-562", "src-563", "src-564", "src-565", "src-701", "src-702", "src-703", "src-704", "src-787", "src-788"]
+sources_used: ["src-204", "src-213", "src-214", "src-215", "src-216", "src-217", "src-218", "src-418", "src-419", "src-420", "src-421", "src-422", "src-423", "src-561", "src-562", "src-563", "src-564", "src-565", "src-701", "src-702", "src-703", "src-704", "src-787", "src-788", "src-827"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint retained until tax / cost / ordinary-residence viability is researched).
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-25
-- **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and now also has entity-specific tax / social-contribution uncertainty. Cost/rent screening is comparatively affordable, and healthcare / education are screenable with Sarajevo as the safest services base. Comfort and partner fit are now screenable too: safety is low-risk but transport/pickpocket/scam caveats matter, English is relatively strong in EF data, and marriage or independent status remains the conservative partner baseline. Low rent and acceptable schools still do not solve the legal-route burden. [src-214][src-215][src-418][src-420][src-561][src-563][src-565][src-701][src-703][src-704][src-787][src-788]
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-29
+- **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and now also has entity-specific tax / social-contribution uncertainty. Cost/rent screening is comparatively affordable, and healthcare / education are screenable with Sarajevo as the safest services base. Comfort, partner fit, and bureaucracy/practicality are now screenable too: safety is low-risk but transport/pickpocket/scam caveats matter, English is relatively strong in EF data, and the practical file needs Bosnian/Croatian/Serbian document support plus lawyer/accountant coordination. Low rent and acceptable schools still do not solve the legal-route burden. [src-214][src-215][src-418][src-420][src-561][src-563][src-565][src-701][src-703][src-704][src-787][src-788][src-827]
 
 ## Block 2 — Scoring
 
@@ -272,9 +272,29 @@ For screening, Bosnia and Herzegovina fits the couple only if they accept a cons
 
 **Risk verdict**: Bosnia and Herzegovina is low-cost and comfort-screenable, but its risk driver is legal-route execution. Use Sarajevo for first administration/services or Mostar for a warm-cost fallback only after immigration/accountant counsel confirms a workable ordinary route; low rent is not enough to offset the company/work burden. [src-215][src-562][src-563][src-787]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-29, dod: passed}
 
-[verification required]
+> **DoD status**: passed for screening. Core residence timing, filing-location logic, document-localisation burden, and one neutral professional-contact lead are captured. This does not make Bosnia and Herzegovina a low-friction country: the practical answer is still lawyer/accountant-first because the visible route is an ordinary work/company/founder file, not a digital-nomad route.
+
+#### Route timing and filing sequence
+
+Bosnia and Herzegovina is not a plug-and-play remote-worker jurisdiction in the captured evidence. The useful timing baseline is ordinary temporary residence: the Service for Foreigners' Affairs says a first temporary residence application can be submitted through a BiH diplomatic-consular representation abroad, or directly at the competent Service unit inside Bosnia and Herzegovina if the applicant entered with a D visa or is a visa-free national; temporary residence is generally issued for up to one year. [src-214]
+
+The captured official checklist makes the practical burden concrete. Work-permit residence uses a BAM 150 temporary-residence fee plus photo, passport / D-visa or entry evidence, white-card registration, work permit, tax evidence, medical certificate, criminal-record evidence, and accommodation. The company-founder checklist is heavier: registration, business-purpose evidence, company solvency, tax-compliance evidence, means of subsistence, health insurance, accommodation, medical / criminal-record certificates, and evidence of at least five BiH employees per foreign founder paid at least the average gross salary. [src-215]
+
+#### Inside-country practicality and documents
+
+For a visa-free Ukrainian applicant, inside-country filing may be possible only if the exact entry status and competent Service-office practice are confirmed before the 90/180 short-stay clock becomes risky. Treat scouting as separate from settlement: use the first trip to confirm official Ukraine entry, field-office acceptance, D-visa vs in-country sequencing, lease/address support, and whether any ordinary self-employment/company route can avoid the captured five-employee founder burden. [src-204][src-214][src-215]
+
+Document localisation is a real workload, not a formality. Foreign documents need translation into an official BiH language, criminal-record certificates should be recent, accommodation and health-insurance proof are residence-file items, and entity/canton choice affects tax and health-fund execution. Sarajevo is the safest first bureaucracy base because it concentrates Service access, lawyers, accountants, clinical centers, schools, and English-service depth; Mostar remains the warm-cost fallback only after the legal/accounting route is solved. [src-215][src-701][src-704][src-788]
+
+#### Professional-support lead
+
+Neutral contact lead for screening, not a recommendation: MARIC & Co in Sarajevo presents itself as a Bosnia and Herzegovina law firm with more than 65 years of legal-services experience and public expertise areas including corporate and commercial law, employment law, immigration and nationality law, regulatory compliance, risk management, and tax law. The public site lists contact@mariclaw.com and +387 33 566 700. This is enough to satisfy the profile's practical-contact lead; any final filing should compare at least two Bosnia immigration/accounting providers and request written scope/fee quotes. [src-827]
+
+#### Practicality verdict for the couple
+
+Bosnia and Herzegovina is operationally screenable but adviser-dependent. The low rent and decent English screen help, but the decisive file is a real ordinary residence / company / work-permit structure with local-language documentation, address registration, health insurance, tax/VAT/contribution advice, and marriage/family evidence if the partner is included. Do not let the short-entry or cheap Mostar/Tuzla budget create a false sense of route safety: if counsel cannot make the foreign-client IT structure credible without disproportionate local-company obligations, Bosnia should remain a fallback rather than a durable post-2027 plan. [src-214][src-215][src-420][src-562][src-563][src-827]
 
 ## Block 4 — Risk dimensions (summary)
 
@@ -345,7 +365,7 @@ For screening, Bosnia and Herzegovina fits the couple only if they accept a cons
 | Rental deposit | — | Live listings / landlord practice still TBD; budget at least 1-2 months as an application-prep placeholder until verified. |
 | First month rent | $182-$439 modest 40 m2 proxy | Livingcost city range across Tuzla / Mostar / Sarajevo / Banja Luka; 80 m2 stress range $287-$724. [src-562][src-563][src-564][src-565] |
 | Health insurance | — | Evidence required for residence; exact private-policy quotes and public-fund onboarding by final status remain application-prep checks after run-159 resolved `vq-146` for screening. [src-215][src-701] |
-| Immigration lawyer / accountant | — | Strongly recommended before any company-founder file. |
+| Immigration lawyer / accountant | — | Strongly recommended before any company-founder file; compare at least two providers and request written scope/fee quotes. [src-827] |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |
 
@@ -354,7 +374,8 @@ For screening, Bosnia and Herzegovina fits the couple only if they accept a cons
 - UNHCR Help Bosnia and Herzegovina: asylum / international-protection information and service navigation. [src-218]
 - Federal Ministry of Health / Republika Srpska Ministry of Health and Social Welfare: public health-system authority anchors for FBiH / RS onboarding checks. [src-702][src-701]
 - QSI International School of Sarajevo and UWC Mostar: international-school anchors for education follow-up. [src-704]
-- Immigration lawyers / diaspora communities: TBD.
+- MARIC & Co, Sarajevo: neutral law-firm contact lead for immigration/nationality, corporate/commercial, employment, regulatory, and tax support; contact@mariclaw.com; +387 33 566 700. [src-827]
+- Immigration lawyers / diaspora communities: compare at least one additional provider before relying on a route strategy.
 - EF English screen and TravelSafe/WPR safety proxies: useful for early city comfort checks, not substitutes for local-language administrative help. [src-787][src-788]
 
 ## Block 7 — Sources
@@ -383,6 +404,7 @@ _(none yet)_
 - [src-787] World Population Review / TravelSafe Bosnia and Herzegovina safety proxies.
 - [src-788] EF English Proficiency Index — Bosnia and Herzegovina.
 - [src-704] QSI International School of Sarajevo and UWC Mostar — public school websites.
+- [src-827] MARIC & Co — Sarajevo law-firm homepage / expertise / contact.
 - [src-216] Climate to Travel Bosnia and Herzegovina climate page.
 - [src-217] WeatherSpark Bosnia and Herzegovina country climate comparison.
 - [src-423] ExchangeRate-API open rates — USD to BAM snapshot.

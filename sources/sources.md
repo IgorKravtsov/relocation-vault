@@ -9971,3 +9971,15 @@ Each source entry:
 - **Facts supporting**: Neutral North Macedonia bureaucracy/practicality contact lead: Qoku & Partners in cooperation with Karanovic & Partners listed in Skopje at Maksim Gorki no. 13, 1000 Skopje, North Macedonia; tel. +389 2 3223 870; northmacedonia@karanovicpartners.com; public practice list includes corporate and commercial, employment, real estate, tax, IT/startups, and technology/media/telecoms coverage
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-29
+
+## src-827
+- **Title**: MARIC & Co - Law firm homepage / expertise / contact
+- **URL**: https://mariclaw.com/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-29
+- **Used by**: Bosnia and Herzegovina
+- **Facts supporting**: Neutral Bosnia and Herzegovina bureaucracy/practicality contact lead: Sarajevo law firm describing more than 65 years of legal-services experience and public expertise areas including corporate and commercial law, employment law, immigration and nationality law, regulatory compliance, risk management, and tax law; public contact details include contact@mariclaw.com and +387 33 566 700
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-29
