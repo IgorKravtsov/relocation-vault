@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 229,
+  "iteration": 230,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-28T21:36:27Z",
+  "last_run_timestamp": "2026-06-29T00:43:19Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.11",
-    "reason": "Continue the non-EU / Balkan 5.11 bureaucracy/practicality slice with Albania unless verification, staleness, or accepted proposals take priority."
+    "reason": "Continue the Balkan / lower-depth 5.11 bureaucracy/practicality slice with North Macedonia unless verification, staleness, or accepted proposals take priority."
   },
   "countries": {
     "Spain": {
@@ -625,7 +625,7 @@
     "Albania": {
       "tier": null,
       "tier_hint": 2,
-      "depth_score": 9.0,
+      "depth_score": 10.0,
       "sections_completed": [
         "5.2",
         "5.4",
@@ -633,16 +633,15 @@
         "5.7",
         "5.8",
         "5.9",
-        "5.10"
+        "5.10",
+        "5.11"
       ],
       "sections_partial": [
         "5.1",
         "5.3",
         "5.6"
       ],
-      "sections_pending": [
-        "5.11"
-      ],
+      "sections_pending": [],
       "risk_flags": [
         "official-primary-capture-gaps",
         "remote-worker-route-application-prep-gap",
@@ -656,7 +655,7 @@
         "albania-road-and-transport-risk",
         "albania-one-income-margin-risk"
       ],
-      "last_iteration": 207,
+      "last_iteration": 230,
       "unverified_count": 0
     },
     "North Macedonia": {
@@ -1184,7 +1183,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 823,
+  "sources_count": 824,
   "claims_count": 716,
   "proposals_pending": 0
 }

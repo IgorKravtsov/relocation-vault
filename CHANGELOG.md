@@ -1,8 +1,13 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-28
+last_updated: 2026-06-29
 ---
+
+## 2026-06-29 - run-230
+- Criterion slice: 5.11 bureaucracy/practicality continued with Albania.
+- Albania: depth_score 9.0 -> 10.0 (section 5.11 completed for screening).
+- Updated `dimensions/bureaucracy-practicality-5.11.md`; sources added: 1 (`src-825`); claims added: 0; verification queue: 0 pending.
 
 ## 2026-06-28 - run-229
 - Criterion slice: 5.11 bureaucracy/practicality continued with Georgia.

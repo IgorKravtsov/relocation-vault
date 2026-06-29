@@ -9947,3 +9947,15 @@ Each source entry:
 - **Facts supporting**: Neutral Georgia bureaucracy/practicality contact lead: Tbilisi full-service law firm describing contracts/corporate structuring, tax and customs advice, corporate registrations and incorporation, and public contact details at Meidan Palace, 44 Kote Abkhazi Str., Tbilisi 0108; bgilegal@bgi.ge; +995 322 470 747
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-28
+
+## src-825
+- **Title**: Kalo & Associates - Contact / Practice Areas
+- **URL**: https://www.kalo-attorneys.com/contact/ ; https://www.kalo-attorneys.com/
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-29
+- **Used by**: Albania
+- **Facts supporting**: Neutral Albania bureaucracy/practicality contact lead: Tirana law firm contact page listing Kavaja Avenue, Tirana Tower, 5th Floor, Tirana, Albania; phone +355 (4)2233 532 / +355 (4)2224727; email info@kalo-attorneys.com; site practice areas include FDI, banking and finance, corporate/commercial, employment, real estate, tax and taxation, litigation and arbitration, and intellectual property
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-29
