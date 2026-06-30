@@ -10055,3 +10055,15 @@ Each source entry:
 - **Facts supporting**: Neutral Argentina bureaucracy/practicality contact lead: Argentina country page states Fragomen immigration professionals support businesses sending employees to Argentina or expanding there, describes multiple Argentinian visa/work-permit options with requirements, processing times, employment eligibility, and family-member benefits varying by visa type, and notes RENURE registration for companies sponsoring foreign nationals; services page states immigration support goes beyond preparing and filing visa and work-permit applications; country page lists Fragomen in Buenos Aires, Argentina, phone +54 (11) 50324966 and Contact us
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-30
+
+## src-834
+- **Title**: Fragomen - United Arab Emirates country page / UAE offices
+- **URL**: https://www.fragomen.com/countries/united-arab-emirates.html
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-30
+- **Used by**: UAE
+- **Facts supporting**: Neutral UAE bureaucracy/practicality contact and workflow lead: page describes UAE immigration options, remote work, destination services, payroll, document procurement and legalisation, related offices / regional coordination in Abu Dhabi and Dubai, public phone contacts +971 2 408 3100 and +971 4 818 1777, and notes Fragomen UAE Ltd / Fragomen FZ-LLC operate as immigration consultancies in the UAE
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-30

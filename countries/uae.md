@@ -1,13 +1,13 @@
 ---
 country: UAE
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-26T03:03:39Z
-sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-30T04:44:49Z
+sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["virtual-work-bridge-only", "green-visa-income-above-current-budget", "no-ordinary-naturalization-route", "extreme-summer-heat", "tax-status-threshold-monitoring", "dubai-abu-dhabi-rent-pressure", "uae-one-income-margin-risk", "uae-health-insurance-quote-gap", "uae-international-school-cost-risk", "uae-conservative-social-legal-norms", "uae-english-service-layer-not-local-default"]
-sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250", "src-462", "src-463", "src-464", "src-604", "src-605", "src-606", "src-607", "src-740", "src-741", "src-742", "src-743", "src-805", "src-806"]
+sources_used: ["src-243", "src-244", "src-245", "src-246", "src-247", "src-248", "src-249", "src-250", "src-462", "src-463", "src-464", "src-604", "src-605", "src-606", "src-607", "src-740", "src-741", "src-742", "src-743", "src-805", "src-806", "src-834"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (early evidence points to a bridge/base jurisdiction rather than a settlement route for this couple).
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-26T03:03:39Z
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-30T04:44:49Z
 - **Tier rationale**: UAE has real short-stay and self-sponsored residence routes, and taxes are very favorable at the couple's current income level. The limiting factor remains immigration, not tax: the best-fit virtual-work route is a one-year extendable bridge above the couple's current USD 3,000/month income, the 5-year Green Residence freelancer threshold is much higher, and ordinary citizenship is nomination-based for exceptional categories rather than a predictable residence-to-passport track. [src-244][src-245][src-248][src-462]
 
 ## Block 2 - Scoring
@@ -220,11 +220,25 @@ UAE partner fit is conditional rather than strong. If the sponsor qualifies for 
 - **Diaspora / adaptation**: Medium-low. Dubai/Abu Dhabi have deep expat infrastructure, private clinics, international schools, and likely Ukrainian/Russian-speaking service communities, but EF scores show UAE is not fully English-default outside expat/service channels and Arabic/PRO help may be needed for disputes and government steps. [src-743][src-806]
 - **Main route risk**: UAE's practical risk is not tax; it is income and durability. The virtual-work route requires USD 3,500/month, the Green Residence freelancer threshold is far above the current income, and citizenship is nomination-based rather than a predictable ladder. [src-244][src-245][src-248]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: completed, depth: 1, last_updated: 2026-06-30, dod: passed}
 
-> **DoD**: timelines for main paths; can-apply-from-inside or from-Ukraine; lawyer contacts (>=1).
+> **DoD status**: Passed for screening at medium confidence. Core virtual-work / Green Residence timing, filing-location constraints, document-localisation burden, and one neutral professional-services contact lead are captured. Exact appointment slots, medical-test / Emirates ID sequencing, dependent-document wording, insurance quotes, and engagement terms remain application-prep checks.
 
-[verification required]
+#### Route timing and filing practicality
+
+- **Virtual-work residence timing**: GDRFA's captured service page frames the UAE virtual-work status as a one-year, extendable residence route for foreign remote employment, with a baseline fee line of AED 200 plus VAT and possible inside-country AED 500 fee. For screening, treat it as a bridge route that must be renewed yearly and that depends on clearing the USD 3,500/month income gate before filing. [src-244]
+- **Filing location / channel**: The route is authority-channel driven through GDRFA / UAE residence procedures rather than a classic EU-style consular settlement ladder. Exact inside-country versus outside-country workflow, medical test, Emirates ID, dependent-document upload, and final-fee sequencing should be confirmed immediately before filing; these are application-prep details, not blockers for country screening. [src-244]
+- **Green Residence practicality**: The Green Residence freelancer/self-employed route is more durable on paper, but the official baseline is above the couple's current finances: MOHRE permit, education credential, and at least AED 360,000 annual freelancing income in the past two years or proof of financial solvency. It is therefore not the default practical route at USD 3,000/month. [src-245][src-246]
+- **Document-localisation burden**: The core file should be prepared in English/Arabic-ready form: 6+ month passports, foreign employment/client proof, income/bank evidence, health insurance, marriage certificate if using spouse sponsorship, and any education / professional documents requested by the filing authority. Use a UAE PRO / immigration adviser before assuming apostille, Arabic translation, attestation, medical, or Emirates ID ordering. [src-244][src-245][src-246]
+
+#### Professional support and city execution
+
+- **Neutral professional-services lead**: Fragomen's UAE country page describes UAE immigration support, remote-work / employer immigration services, destination services, payroll, document procurement and legalisation, and related offices in Abu Dhabi and Dubai. Public contact lines listed on the page include Abu Dhabi **+971 2 408 3100** and Dubai **+971 4 818 1777**; the page states Fragomen UAE Ltd / Fragomen FZ-LLC operate as immigration consultancies in the UAE. This is a contact lead, not a recommendation. [src-834]
+- **Setup base**: Dubai is the deepest service / PRO / banking / airport base, but rent is the main practical constraint. Sharjah is the first affordability screen if commute, lease registration, health-insurance network, school access, and the residence-file address work; Abu Dhabi is a services-rich alternative if the filing path or employer/client support points there. [src-605][src-606][src-607][src-805][src-806]
+
+#### Practicality verdict
+
+UAE is bureaucracy-screenable as a high-service bridge jurisdiction, not as a low-friction settlement plan. The practical sequence is: raise/verify income above the virtual-work threshold, pre-check GDRFA/ICP channel details, prepare insurance and foreign-work evidence, marry if carrying the partner as spouse, use Dubai/Abu Dhabi professional support for the residence / Emirates ID / banking / lease sequence, and keep a non-UAE long-term fallback because the captured UAE routes do not produce a predictable PR/citizenship ladder. [src-244][src-245][src-248][src-834]
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -267,20 +281,20 @@ UAE partner fit is conditional rather than strong. If the sponsor qualifies for 
 
 ### 6a. Before the move (what to prepare in Ukraine / Poland)
 - Documents (with apostille / notarized translation markers): passports valid 6+ months; foreign employment/client contracts; income proof/bank statements; health insurance; marriage certificate if using spouse sponsorship. Translation/legalization specifics remain application-prep checks. [src-244]
-- Steps in Ukrainian government agencies: TBD.
+- Steps in Ukrainian government agencies: prepare civil-status, police-record, education/professional, and income documents early; UAE-specific attestation / Arabic-translation ordering should be confirmed with the filing adviser before paying for translations. [src-244][src-834]
 - What to do with the Polish karta pobytu: it does not substitute for UAE residence; keep it as an independent fallback until UAE residence is secured.
-- Financial preparation (USD cushion): TBD; at minimum, raise recurring income above USD 3,500/month if targeting virtual work.
+- Financial preparation (USD cushion): at minimum, raise recurring income above USD 3,500/month if targeting virtual work, then budget residence fees, medical / Emirates ID steps, insurance, deposit / chiller / utilities, and professional support before signing a lease. [src-244][src-605][src-606][src-607][src-834]
 - For the student partner (academic certificates, translations): TBD.
-- Submitting visa/permit application from abroad: GDRFA virtual-work visa and residence-permit workflow needs exact channel/inside-vs-outside mechanics verified before filing. [src-244]
+- Submitting visa/permit application from abroad: GDRFA virtual-work visa and residence-permit workflow needs exact channel/inside-vs-outside mechanics verified before filing; use a UAE PRO / immigration consultant if the sponsor is close to the income threshold or carrying a spouse. [src-244][src-834]
 
 ### 6b. First month after arrival
-- Address registration: TBD.
+- Address registration: secure a residence-file-compatible lease/address and verify whether Ejari / Tawtheeq or other emirate-specific tenancy registration is needed before family sponsorship, banking, or school steps. [src-605][src-606][src-607][src-834]
 - Submitting residence application (if not done from abroad): file virtual-work / residence steps through GDRFA/ICP channels once entry and documents are ready. [src-244]
-- Bank account opening: TBD.
+- Bank account opening: sequence after residence / Emirates ID as advised; expect compliance questions around foreign-client income proof and any UAE business/free-zone structure. [src-462][src-834]
 - Tax ID / social security number: no individual PIT registration or UAE social-security contribution is expected for a non-GCC individual at the current screening level; monitor CT/VAT thresholds if opening a UAE business or invoicing structure. [src-462][src-464]
-- Long-term housing: TBD.
+- Long-term housing: choose Dubai only with a strict rent cap; test Sharjah / outer-emirate leases for affordability, commute, chiller / utility costs, and residence-document usability before signing. [src-605][src-606][src-607]
 - Health insurance / public health registration: valid health insurance is required for the virtual-work file. [src-244]
-- SIM card, internet, utilities: TBD.
+- SIM card, internet, utilities: handle as part of the lease / Emirates ID / local-address setup; confirm chiller and utility deposits in live listings before budgeting. [src-605][src-606][src-607]
 
 ### 6c. First 3-6 months
 - Tax registration as self-employed / freelancer: no UAE individual PIT filing is captured; at USD 36,000/year, natural-person CT and VAT thresholds are not reached, but any UAE company/free-zone setup or higher turnover needs accountant review. [src-462][src-464]
@@ -311,7 +325,7 @@ UAE partner fit is conditional rather than strong. If the sponsor qualifies for 
 | **Total** | — | |
 
 ### 6g. Contact points and communities
-- Immigration lawyers (2-3 with contacts): TBD.
+- Immigration / PRO contact lead: Fragomen UAE country page lists Abu Dhabi (+971 2 408 3100) and Dubai (+971 4 818 1777) contact lines and immigration-consultancy entities; compare with local UAE PRO / immigration advisers before engagement. [src-834]
 - Ukrainian / Russian-speaking diaspora (Telegram channels, FB groups): TBD.
 - Expat blogs: TBD.
 - NGOs / refugee help: TBD.
@@ -337,6 +351,7 @@ UAE partner fit is conditional rather than strong. If the sponsor qualifies for 
 _(none yet)_
 
 ### 7d. Statistical / commercial
+- [src-834] Fragomen - United Arab Emirates country page / UAE offices
 - [src-249] Climate to Travel - Dubai climate
 - [src-250] WeatherSpark - UAE country climate comparison
 - [src-604] Livingcost - Cost of living in the United Arab Emirates
@@ -350,7 +365,7 @@ _(none yet)_
 
 ### 7e. Application-prep checks
 - Official UAE nationality-selector confirmation for Ukrainian passports before travel.
-- Full virtual-work residence-permit issuance checklist after entry, including medical test, Emirates ID, dependent-document details, and final fees.
+- Full virtual-work residence-permit issuance checklist after entry, including medical test, Emirates ID, dependent-document details, final fees, appointment timing, and whether the file is best handled inside or outside the UAE.
 - Live rental listings and lease mechanics: Bayut / Property Finder / Dubizzle prices, deposit, agency fee, chiller and utility setup, Ejari/Tawtheeq registration, landlord document support, and housing requirements for family sponsorship.
 - Health insurance: exact virtual-work / family-dependent accepted wording, two-adult premiums, maternity/newborn terms, public/private onboarding, and city provider prices remain application-prep checks (`vq-164`, resolved for screening in run-165).
 - Education: exact international-school/nursery fee schedules, registration deposits, transport/meals, admissions documents, waiting lists, and cross-emirate school access remain application-prep/final-city checks (`vq-165`, resolved for screening in run-165).

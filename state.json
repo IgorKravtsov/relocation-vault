@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 238,
+  "iteration": 239,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-30T01:39:54Z",
+  "last_run_timestamp": "2026-06-30T04:44:49Z",
   "current_focus": {
     "mode": "criterion-slice",
     "country": null,
@@ -17,7 +17,7 @@
   "next_iteration_hint": {
     "suggested_mode": "criterion-slice",
     "suggested_criterion": "5.11",
-    "reason": "Continue the remaining lower-depth 5.11 bureaucracy/practicality slice with UAE unless verification, staleness, or accepted proposals take priority."
+    "reason": "Continue the remaining lower-depth 5.11 bureaucracy/practicality slice with Malaysia unless verification, staleness, or accepted proposals take priority."
   },
   "countries": {
     "Spain": {
@@ -952,7 +952,7 @@
     "UAE": {
       "tier": null,
       "tier_hint": 3,
-      "depth_score": 9.0,
+      "depth_score": 10.0,
       "sections_completed": [
         "5.2",
         "5.3",
@@ -961,15 +961,14 @@
         "5.7",
         "5.8",
         "5.9",
-        "5.10"
+        "5.10",
+        "5.11"
       ],
       "sections_partial": [
         "5.1",
         "5.6"
       ],
-      "sections_pending": [
-        "5.11"
-      ],
+      "sections_pending": [],
       "risk_flags": [
         "virtual-work-bridge-only",
         "green-visa-income-above-current-budget",
@@ -983,7 +982,7 @@
         "uae-conservative-social-legal-norms",
         "uae-english-service-layer-not-local-default"
       ],
-      "last_iteration": 209,
+      "last_iteration": 239,
       "unverified_count": 0
     },
     "Malaysia": {
@@ -1175,7 +1174,7 @@
     }
   },
   "verification_queue_size": 0,
-  "sources_count": 832,
+  "sources_count": 833,
   "claims_count": 716,
   "proposals_pending": 0
 }
