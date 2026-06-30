@@ -10067,3 +10067,15 @@ Each source entry:
 - **Facts supporting**: Neutral UAE bureaucracy/practicality contact and workflow lead: page describes UAE immigration options, remote work, destination services, payroll, document procurement and legalisation, related offices / regional coordination in Abu Dhabi and Dubai, public phone contacts +971 2 408 3100 and +971 4 818 1777, and notes Fragomen UAE Ltd / Fragomen FZ-LLC operate as immigration consultancies in the UAE
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-30
+
+## src-835
+- **Title**: Fragomen Malaysia - Malaysia immigration services and Kuala Lumpur office listing
+- **URL**: https://www.fragomen.com/countries/malaysia.html ; https://www.fragomen.com/services.html
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-30
+- **Used by**: Malaysia
+- **Facts supporting**: Neutral Malaysia bureaucracy/practicality contact and workflow lead: country page describes Malaysian immigration laws for non-Malaysians visiting for business, notes East/West Malaysia policy differences, lists common work-authorisation categories including PLS@XPATS, Professional Visit Pass, and Employment Pass, notes ESD / MYXpats Centre / MDEC filing channels, states foreign nationals cannot commence work until physically holding the work pass, lists Fragomen in Kuala Lumpur with public phone +603 22803600 and fax +603 22803700, and says Fragomen Malaysia Sdn. Bhd. operates exclusively as an immigration consultancy and not a law firm in Malaysia
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-30

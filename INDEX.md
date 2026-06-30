@@ -38,7 +38,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Mexico | latin-america | 3 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 237 | `countries/mexico.md` |
 | Argentina | latin-america | 3 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 238 | `countries/argentina.md` |
 | UAE | middle-east-asia | 3 | — | 10.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.6 | 239 | `countries/uae.md` |
-| Malaysia | middle-east-asia | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 210 | `countries/malaysia.md` |
+| Malaysia | middle-east-asia | 3 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 240 | `countries/malaysia.md` |
 | Thailand | middle-east-asia | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 210 | `countries/thailand.md` |
 | Indonesia | middle-east-asia | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 210 | `countries/indonesia.md` |
 | Kazakhstan | post-ussr | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 210 | `countries/kazakhstan.md` |

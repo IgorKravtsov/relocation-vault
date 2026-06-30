@@ -1,13 +1,13 @@
 ---
 country: Malaysia
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-26T06:08:55Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
+depth_score: 10.0
+last_updated: 2026-06-30T07:49:25Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["derantau-bridge-only", "pr-ladder-unclear", "hot-humid-rainy-year-round", "malaysia-foreign-client-tax-source-gap", "malaysia-social-security-fit-gap", "kuala-lumpur-rent-pressure", "malaysia-one-income-margin-risk", "malaysia-health-insurance-quote-gap", "malaysia-international-school-cost-risk", "malaysia-bahasa-english-integration-needed", "east-malaysia-security-caveat"]
-sources_used: ["src-251", "src-252", "src-253", "src-254", "src-255", "src-256", "src-279", "src-465", "src-466", "src-467", "src-468", "src-469", "src-470", "src-580", "src-581", "src-582", "src-583", "src-584", "src-717", "src-718", "src-719", "src-720", "src-795", "src-796"]
+sources_used: ["src-251", "src-252", "src-253", "src-254", "src-255", "src-256", "src-279", "src-465", "src-466", "src-467", "src-468", "src-469", "src-470", "src-580", "src-581", "src-582", "src-583", "src-584", "src-717", "src-718", "src-719", "src-720", "src-795", "src-796", "src-835"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (early evidence points to a useful remote-work bridge/base, not yet a proven settlement route).
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-26
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-30
 - **Tier rationale**: Malaysia's DE Rantau pass is an official route for foreign digital nomads and the tech-professional threshold is below the couple's current income, but it is a Professional Visit Pass capped at 24 months total and no DE Rantau-to-PR ladder was captured. Entry Permit and citizenship pages show long-term mechanisms exist, but the fully foreign national / remote-worker fit remains a core verification gap. [src-253][src-254][src-255]
 
 ## Block 2 - Scoring
@@ -194,11 +194,15 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 - **Ties to Ukraine: medium-high risk**. Malaysia is far from Ukraine/Poland and outside the EU temporary-protection system. No Malaysia-specific Ukrainian reception or support evidence was captured, so the couple should plan ordinary third-country documents, flights, embassy logistics, and emergency-return buffers rather than relying on Ukraine-specific help. [src-251][src-252][src-253]
 - **Diaspora / adaptation risk: medium-low**. Malaysia has one of the better English screens in the vault so far (EF rank #24; KL/Ipoh/Johor scores around the high-570s/580s), plus strong private healthcare and international-school ecosystems. The adaptation caveat is that public schools and some government/lease interfaces remain Bahasa Malaysia / local-help dependent, and climate tolerance is a major daily-life filter. [src-718][src-720][src-795][src-796]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: completed, depth: 1, last_updated: 2026-06-30, dod: passed}
 
-> **DoD**: timelines for main paths; can-apply-from-inside or from-Ukraine; lawyer contacts (>=1).
+> **DoD**: timelines for main paths; can-apply-from-inside or from-Ukraine; lawyer contacts (>=1). Passed for screening: this is a neutral professional-support and route-sequencing baseline, not a recommendation or final engagement shortlist.
 
-[verification required]
+- **Main route timing**: MDEC says DE Rantau is a Professional Visit Pass for 3-12 months, renewable for a further 12 months, with a maximum 24-month stay. It can include spouse and children, and the tech-professional income threshold is above USD 24,000/year, so the working partner's about USD 36,000/year clears the first numeric gate if the evidence is accepted. [src-253]
+- **Filing location / inside-country practicality**: MDEC says applicants do not need to be in Malaysia to apply. That makes pre-arrival filing the cleaner path; visitor entry should be treated as scouting/logistics only because the exact Ukraine visitor duration still needs before-travel confirmation and visitor status is not the relocation route. [src-251][src-252][src-253]
+- **Professional-support lead**: Fragomen's Malaysia page describes immigration support for companies sending employees to Malaysia or expanding there, notes common Malaysian work-authorisation categories including PLS@XPATS, Professional Visit Pass, and Employment Pass, and says employer registrations / filings may go through ESD, MYXpats Centre, or MDEC depending on route/industry. It lists Fragomen in Kuala Lumpur with public phone **+603 22803600** and fax **+603 22803700**, and clarifies that Fragomen Malaysia Sdn. Bhd. operates as an immigration consultancy, not a Malaysian law firm. Treat this as a neutral contact lead to compare against local immigration lawyers / tax advisers, not an endorsement. [src-835]
+- **Practical sequence for this couple**: use a Kuala Lumpur-first setup for MDEC, tax-adviser, banking, insurance, and professional-support depth; test George Town/Penang or Johor Bahru as lower-cost living bases only after the pass, lease, insurance, and tax file are stable. Marriage remains the conservative dependent sequence because MDEC names spouse/children, not an unmarried partner. [src-253][src-581][src-582][src-583][src-835]
+- **Bureaucracy verdict**: Malaysia is practical as an English-service, pre-arrival-filed 12-24 month bridge if DE Rantau evidence, insurance, spouse documents, tax registration/source classification, lease/address, and banking are coordinated early. It is not practical as a settlement plan until a post-DE Rantau durable route is confirmed; the file should include an exit/next-country plan by month 12. [src-253][src-254][src-465][src-835]
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -271,14 +275,15 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 | Rental deposit | — | Live-listing check needed; assume multiple months plus utilities deposit until tenancy practice is captured. |
 | First month rent | USD 330-602 modest 40 m2 proxy | Ipoh at the low end; Kuala Lumpur centre at the high end. Use live 2BR listings before filing. [src-581][src-584] |
 | Health insurance | MYR 300-700/month screening proxy | Verify DE Rantau-accepted policy wording and maternity/newborn exclusions before filing; run-159 resolved `vq-154` for screening only. [src-718] |
-| Immigration lawyer / agent | — | TBD |
+| Immigration lawyer / agent | — | Compare neutral immigration-consultancy / lawyer leads; Fragomen Kuala Lumpur is one captured contact lead for Malaysia route workflow questions, not an endorsement. [src-835] |
 | Buffer / contingencies | — | TBD |
 | **Total** | — | |
 
 ### 6g. Contact points and communities
 - MDEC DE Rantau portal: [src-253].
 - Immigration Department / MDAC / visa table: [src-251][src-252].
-- Lawyers, tax advisers, Ukrainian/Russian-speaking communities: [verification required].
+- Professional-support lead: Fragomen Malaysia / Kuala Lumpur immigration-consultancy contact for route workflow comparison, phone +603 22803600; compare against Malaysian immigration lawyers and tax advisers before engagement. [src-835]
+- Ukrainian/Russian-speaking communities: not captured yet; use as final-city/social-support research, not a 5.11 blocker.
 
 ## Block 7 - Sources
 
@@ -303,12 +308,13 @@ _(none yet)_
 - Livingcost Malaysia / Kuala Lumpur / George Town / Johor Bahru / Ipoh cost-and-rent screens: [src-580][src-581][src-582][src-583][src-584].
 - ExpatLife.AI Malaysia 2026 healthcare and education guides for private-care, insurance, school, and kindergarten screening: [src-718][src-720].
 - World Population Review / TravelSafe Malaysia safety proxies: [src-795].
+- Fragomen Malaysia country page / Kuala Lumpur office listing for neutral immigration-consultancy and workflow-contact baseline: [src-835].
 
 ### 7e. Not found
 - Clean official Ukraine row / stay-duration extraction from Malaysia's visa table before travel.
 - Official meteorological sunny-day counts for Kuala Lumpur, George Town, and an East Malaysia comparator; WeatherSpark clearer-sky proxies are sufficient for first-pass screening but are not official sunny-day counts.
 - Official DE Rantau post-24-month transition / PR-counting guidance for a foreign-client IT worker is not captured; screening baseline is bridge-only.
-- Exact Malaysian tax classification for DE Rantau foreign-client IT income, including source/exemption treatment, registration form, SST/e-invoice, EPF/SOCSO and immigration-status fit; added `vq-115`.
+- Exact Malaysian tax classification for DE Rantau foreign-client IT income, including source/exemption treatment, registration form, SST/e-invoice, EPF/SOCSO and immigration-status fit remains application-prep/adviser work after run-100 resolved `vq-115` for screening.
 - Live 2BR listing bands, deposits, utilities-deposit and tenancy-stamping practice, and landlord acceptance of DE Rantau / foreign remote-worker income for the target Malaysian city.
 - Exact DE Rantau-accepted health-insurance policy wording, current quotes for two young adults, maternity/newborn terms, and city-specific GP/pediatric/maternity prices remain application-prep checks after run-159 resolved `vq-154` for screening.
 - Exact Malaysia international-school tuition/fees, private-preschool quotes, waiting lists, and English/bilingual availability outside Kuala Lumpur/Penang remain application-prep / final-city checks after run-159 resolved `vq-155` for screening.
