@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "iteration": 244,
+  "iteration": 245,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-06-30T20:12:08Z",
+  "last_run_timestamp": "2026-06-30T23:16:47Z",
   "current_focus": {
-    "mode": "criterion-slice",
+    "mode": "consolidation",
     "country": null,
     "sections": [
       "5.11"
@@ -16,7 +16,7 @@
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "All 33 country profiles now have screening-level 5.11 bureaucracy/practicality coverage; choose consolidation unless verification, staleness, or accepted proposals take priority."
+    "reason": "5.11 slice is normalized and INDEX aggregate is corrected; next consolidation should either normalize another aggregate/dimension inconsistency or open a new cross-dimension synthesis if no verification, staleness, or accepted proposals take priority."
   },
   "countries": {
     "Spain": {

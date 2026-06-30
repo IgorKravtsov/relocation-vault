@@ -4,6 +4,11 @@ version: 1.0.0
 last_updated: 2026-06-30
 ---
 
+## 2026-06-30 - run-245
+- Consolidation: normalized the completed 5.11 bureaucracy/practicality slice after all 33 country rows were added.
+- Verified the dimension has one row for every country and no duplicate country rows; corrected `INDEX.md` average depth_score to 9.97 from live state values.
+- Sources added: 0; claims added: 0; verification queue: 0 pending.
+
 ## 2026-06-30 - run-244
 - Criterion slice: 5.11 bureaucracy/practicality completed with Armenia, closing the initial country set for this criterion.
 - Armenia: depth_score 9.0 -> 10.0 (section 5.11 completed for screening).

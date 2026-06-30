@@ -51,4 +51,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 10.00
+- **Average depth_score**: 9.97
+- **Consolidation note**: run-245 verified the 5.11 dimension has one row for each of the 33 countries and corrected this aggregate average from the live `state.json` country scores.
