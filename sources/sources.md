@@ -10103,3 +10103,15 @@ Each source entry:
 - **Facts supporting**: Neutral Indonesia bureaucracy/practicality contact and workflow lead: Emerhub describes Indonesia company formation, licensing, tax/accounting, visas, relocation/corporate services, PT PMA registration, and local consultant support; contact page lists Emerhub Indonesia at Satrio Tower Floor 6, Unit 5, Kuningan, Jakarta 12950, email indonesia@emerhub.com, and phone +62 21 2205 7930
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-30
+
+## src-838
+- **Title**: GRATA International Kazakhstan - Kazakhstan professional-services presence, key contacts, and office emails
+- **URL**: https://gratanet.com/regions/kazakhstan
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: page current in 2026 footer; no specific page date captured
+- **Date accessed**: 2026-06-30
+- **Used by**: Kazakhstan
+- **Facts supporting**: Neutral Kazakhstan bureaucracy/practicality contact and workflow lead: page describes GRATA International in Kazakhstan, multi-city Kazakhstan presence, professional indemnity insurance / ISO certification context, 2026 Kazakhstan legal updates, and key contacts including Saule Akhmetova, Partner / Director of GRATA International in Almaty, phone +7 701 722 3280, Ainura Takeyeva, Partner in Astana, phone +7 701 555 8761, and office emails including almaty@gratanet.com and astana@gratanet.com
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-30

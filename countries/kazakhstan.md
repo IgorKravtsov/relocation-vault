@@ -1,13 +1,13 @@
 ---
 country: Kazakhstan
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-26T06:08:55Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-30T17:05:40Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["ordinary-trp-not-settlement", "dn-route-secondary-sourced", "pr-citizenship-ladder-unclear", "cold-continental-winters", "kazakhstan-foreign-client-tax-structure-gap", "almaty-rent-pressure", "kazakhstan-one-income-margin-risk", "kazakhstan-private-insurance-gap", "kazakhstan-international-school-cost-risk", "kazakhstan-english-language-integration-needed"]
-sources_used: ["src-267", "src-268", "src-269", "src-270", "src-271", "src-272", "src-273", "src-482", "src-483", "src-484", "src-485", "src-486", "src-595", "src-596", "src-597", "src-598", "src-599", "src-732", "src-733", "src-734", "src-735", "src-801", "src-802"]
+sources_used: ["src-267", "src-268", "src-269", "src-270", "src-271", "src-272", "src-273", "src-482", "src-483", "src-484", "src-485", "src-486", "src-595", "src-596", "src-597", "src-598", "src-599", "src-732", "src-733", "src-734", "src-735", "src-801", "src-802", "src-838"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint until durable settlement mechanics are verified)
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-26
-- **Tier rationale**: Kazakhstan is easy for Ukrainian short entry and can be a nearby CIS bridge, but this first pass did not capture a durable foreign-client IT residence ladder. The official TRP page lists one-year temporary-residence purposes for CIS citizens, including labor, business-immigrant, family, and study purposes, while the remote-work / Neo Nomad route is only secondary-sourced and must be confirmed against official visa-category rules before it can be used for scoring. Taxes screen moderately on PIT alone, but the exact foreign-client IT entrepreneur / VAT / contribution structure is unresolved. Cost and rent now screen affordable in Shymkent / Aktau and workable in Nur-Sultan, while Almaty requires a stricter rent cap on the conservative tax-net band. Healthcare is screenable only with private-insurance budgeting and status-specific public-system checks; education is viable in Almaty/Astana through public Kazakh/Russian schooling or international schools, but international-school fees can be a major one-income budget risk. Comfort now screens medium: WPR/TravelSafe show a low-risk safety baseline, but Kazakhstan is not an English-easy relocation; EF ranks it low and Shymkent/Aktau have weaker English scores than Astana/Almaty. Partner fit is conservative: marriage/spouse status or an independent study/work file is safer than unmarried dependency, and the one-income margin depends on resolving the Neo Nomad/TRP route. [src-267][src-268][src-269][src-272][src-273][src-482][src-483][src-484][src-595][src-596][src-597][src-598][src-599][src-732][src-733][src-734][src-735][src-801][src-802]
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-30
+- **Tier rationale**: Kazakhstan is easy for Ukrainian short entry and can be a nearby CIS bridge, but this first pass did not capture a durable foreign-client IT residence ladder. The official TRP page lists one-year temporary-residence purposes for CIS citizens, including labor, business-immigrant, family, and study purposes, while the remote-work / Neo Nomad route is only secondary-sourced and must be confirmed against official visa-category rules before it can be used for scoring. Taxes screen moderately on PIT alone, but the exact foreign-client IT entrepreneur / VAT / contribution structure is unresolved. Cost and rent now screen affordable in Shymkent / Aktau and workable in Nur-Sultan, while Almaty requires a stricter rent cap on the conservative tax-net band. Healthcare is screenable only with private-insurance budgeting and status-specific public-system checks; education is viable in Almaty/Astana through public Kazakh/Russian schooling or international schools, but international-school fees can be a major one-income budget risk. Comfort now screens medium: WPR/TravelSafe show a low-risk safety baseline, but Kazakhstan is not an English-easy relocation; EF ranks it low and Shymkent/Aktau have weaker English scores than Astana/Almaty. Partner fit is conservative: marriage/spouse status or an independent study/work file is safer than unmarried dependency, and the one-income margin depends on resolving the Neo Nomad/TRP route. Bureaucracy/practicality is now screenable but adviser-led: visa-free scouting is easy, while any Neo Nomad/TRP/business-immigrant file needs Almaty/Astana professional support for route, tax, IIN/banking, insurance, lease/address, and spouse sequencing. [src-267][src-268][src-269][src-272][src-273][src-482][src-483][src-484][src-595][src-596][src-597][src-598][src-599][src-732][src-733][src-734][src-735][src-801][src-802][src-838]
 
 ## Block 2 — Scoring
 
@@ -263,11 +263,35 @@ Partner verdict: Kazakhstan can be screened as a **marriage-first / independent-
 - **Ties to Ukraine: low-medium risk**. Compared with Southeast Asia, Kazakhstan is geographically and linguistically closer to Ukraine/Poland and Ukrainian ordinary passports get visa-free scouting. However, it is not an EU TP continuation jurisdiction and no Ukraine-specific long-stay bridge is captured, so the couple still needs an ordinary Kazakhstan status before relying on it after the EU TP horizon. [src-267][src-268]
 - **Diaspora / adaptation risk: medium-high**. Russian-language familiarity may help some Ukrainians, but EF ranks Kazakhstan low for English (#107) and Shymkent/Aktau are especially weak in the captured city scores. Almaty/Astana are easier for services, healthcare, schools, and advisers; Shymkent/Aktau need stronger Russian/Kazakh support and direct provider/lease checks. [src-734][src-735][src-801][src-802]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: completed, depth: 1, last_updated: 2026-06-30, dod: passed}
 
-> **DoD**: timelines for main paths; can-apply-from-inside or from-Ukraine; lawyer contacts (≥1).
+> **DoD**: passed for first-pass screening. Core timing / filing posture is captured from existing official and route sources; one neutral professional-services lead is captured. This is not a recommendation and does not replace application-prep counsel.
 
-[verification required]
+Kazakhstan's practical sequence is **scouting first, adviser-led residence only if the route is confirmed**. Ukrainian ordinary passports can support short visa-free reconnaissance, while eGov's arrival-notification, TRP-purpose, IIN/banking, and work-purpose warnings make it unsafe to improvise remote work or local activity under the short-stay layer. [src-267][src-268]
+
+#### Route timing and filing posture
+
+| Route / step | Timing baseline | Filing / practicality read |
+|---|---|---|
+| Visa-free scouting | Up to 90 days for Ukrainian ordinary passports. | Useful for Almaty/Astana/Shymkent feasibility, IIN/banking checks, lease tests, and lawyer/accountant meetings; not a residence or work authorization by itself. [src-267][src-268] |
+| Arrival notification | Receiving party must notify migration authorities within 3 working days. | Build this into hotel/landlord selection; avoid informal housing that cannot support migration paperwork. [src-268] |
+| TRP for CIS citizens | eGov describes TRP up to 1 year for labor, business-immigrant, family, study, medical, or missionary purposes. | Potentially local/status-specific, but not proven as a lightweight foreign-client IT file; confirm business-immigrant / family / study mechanics before travel commitments. [src-268] |
+| Neo Nomad / remote-work route | Secondary baseline says US$3,000/month income, health insurance, clean criminal record, and foreign work evidence. | Treat as promising but not official-primary in the vault; use only after official checklist or counsel confirms filing channel, dependents, fees, renewals, and tax-status effects. [src-269] |
+| Professional pre-clearance | No statutory SLA captured in this pass. | Use Kazakhstan counsel/accountant to test Neo Nomad / TRP / business-immigrant fit, tax-registration sequence, and dependent mechanics before long leases or EU-base exit. [src-838] |
+
+#### Practical execution sequence for the couple
+
+1. **Before leaving the current EU base**, decide whether Kazakhstan is only a scouting trip or a serious fallback. If serious, pre-clear Neo Nomad / TRP / business-immigrant fit with counsel; do not rely on tourist/visa-free status for remote-work legality. [src-268][src-269][src-838]
+2. Prepare passports, clean criminal-record certificates, foreign-client contracts / employer letters, bank statements, proof of health insurance, civil-status documents, and marriage certificate if using spouse-dependent planning; exact apostille / Russian-Kazakh translation rules remain application-prep checks. [src-269]
+3. Use **Almaty first** for services, private healthcare, international schools, lawyers, accountants, and banking/IIN support; use **Astana** for capital / authority access if needed but not as the lifestyle default because of winter; test **Shymkent/Aktau** only after confirming service depth and lease/address support. [src-596][src-597][src-598][src-599][src-732][src-735][src-802]
+4. Sequence IIN, bank account, e-government / EDS access, individual-entrepreneur or tax registration, VAT/place-of-supply advice, private insurance, lease/address evidence, and spouse/student status as one coordinated file. [src-268][src-485]
+5. Keep a non-Kazakhstan fallback until an official/counsel file confirms Neo Nomad or TRP status, dependent mechanics, tax registration, and any PR-counting / renewal pathway. [src-270][src-271]
+
+#### Professional contact lead
+
+GRATA International Kazakhstan is a neutral professional-services lead, not a recommendation. Its Kazakhstan page describes a multi-city Kazakhstan presence, professional indemnity insurance / ISO certification context, and 2026 Kazakhstan legal updates; the page lists key contacts including Saule Akhmetova, Partner / Director of GRATA International in Almaty, phone +7 701 722 3280, and Ainura Takeyeva, Partner in Astana, phone +7 701 555 8761. It also exposes office emails including `almaty@gratanet.com` and `astana@gratanet.com`. Use this as one due-diligence starting point for immigration / corporate / tax coordination, then compare with at least one Kazakhstan immigration/tax adviser before engagement. [src-838]
+
+Bureaucracy verdict: Kazakhstan is **screenable but not self-service**. The easy part is initial access; the hard part is proving a lawful long-stay route for foreign-client IT and aligning tax, IIN/banking, private insurance, lease/address, and spouse/student status. Treat Almaty/Astana professional coordination as mandatory if Kazakhstan becomes more than a scouting option. [src-267][src-268][src-269][src-485][src-838]
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -284,7 +308,7 @@ Partner verdict: Kazakhstan can be screened as a **marriage-first / independent-
 - **Best legalization path for the man**: Potential Neo Nomad / remote-work route if official-primary checklist confirms the secondary baseline; otherwise investigate business-immigrant TRP / local company or local-employment file. [src-268][src-269]
 - **Best legalization path for the woman**: Marriage/spouse-dependent planning is safer than unmarried-partner assumptions; independent study TRP is also listed as a TRP purpose but not yet researched. [src-268]
 - **Does marriage change the picture**: Likely yes for family-reunion / spouse treatment; unmarried partner mechanics were not captured. [src-268]
-- **Realism of staying after 03.2027**: medium-low as a bridge/base, low as a settlement route until an official Neo Nomad/TRP fit and PR counting are captured. Taxes are not an obvious rate blocker, cost/rent is workable outside expensive Almaty scenarios, healthcare is screenable with private-insurance budgeting, education has workable public/international options mainly in Almaty/Astana, and comfort is manageable if Russian/Kazakh-language support is available. Tax-registration / contribution / VAT fit, immigration status, and official dependent mechanics remain unresolved. [src-270][src-271][src-482][src-483][src-484][src-596][src-598][src-732][src-734][src-735][src-801][src-802]
+- **Realism of staying after 03.2027**: medium-low as a bridge/base, low as a settlement route until an official Neo Nomad/TRP fit and PR counting are captured. Taxes are not an obvious rate blocker, cost/rent is workable outside expensive Almaty scenarios, healthcare is screenable with private-insurance budgeting, education has workable public/international options mainly in Almaty/Astana, and comfort is manageable if Russian/Kazakh-language support is available. Bureaucracy is now screenable only as an adviser-led Almaty/Astana file; tax-registration / contribution / VAT fit, immigration status, and official dependent mechanics remain unresolved. [src-270][src-271][src-482][src-483][src-484][src-596][src-598][src-732][src-734][src-735][src-801][src-802][src-838]
 
 **Pros**:
 - Official Ukrainian visa-free entry baseline makes scouting easy. [src-267]
@@ -353,7 +377,8 @@ Partner verdict: Kazakhstan can be screened as a **marriage-first / independent-
 | **Total** | — | |
 
 ### 6g. Contact points and communities
-- Immigration lawyers (2–3 with contacts): TBD
+- Professional-services lead: GRATA International Kazakhstan / Almaty and Astana; Almaty partner/director lead +7 701 722 3280, Astana partner lead +7 701 555 8761, office emails `almaty@gratanet.com` and `astana@gratanet.com`; neutral due-diligence lead only, not a recommendation. [src-838]
+- Immigration lawyers (2–3 with contacts): compare at least one additional Kazakhstan immigration/tax adviser before engagement.
 - Ukrainian / Russian-speaking diaspora (Telegram channels, FB groups): TBD
 - Expat blogs: TBD
 - NGOs / Caritas / refugee help: TBD
@@ -392,6 +417,7 @@ _(none yet)_
 - [src-735] International Schools Database Kazakhstan / Almaty / Astana school and fee listings.
 - [src-801] World Population Review / TravelSafe Kazakhstan safety screen.
 - [src-802] EF English Proficiency Index Kazakhstan.
+- [src-838] GRATA International Kazakhstan professional-services / contact lead.
 
 ### 7e. Not found
 - Exact E33G-style/Neo Nomad or TRP-accepted private-insurance wording, two-adult premiums, maternity/newborn terms, MSHI onboarding by final status, and city provider prices remain application-prep checks (`vq-160`, resolved for screening in run-165).
