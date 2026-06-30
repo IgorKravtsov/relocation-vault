@@ -10079,3 +10079,15 @@ Each source entry:
 - **Facts supporting**: Neutral Malaysia bureaucracy/practicality contact and workflow lead: country page describes Malaysian immigration laws for non-Malaysians visiting for business, notes East/West Malaysia policy differences, lists common work-authorisation categories including PLS@XPATS, Professional Visit Pass, and Employment Pass, notes ESD / MYXpats Centre / MDEC filing channels, states foreign nationals cannot commence work until physically holding the work pass, lists Fragomen in Kuala Lumpur with public phone +603 22803600 and fax +603 22803700, and says Fragomen Malaysia Sdn. Bhd. operates exclusively as an immigration consultancy and not a law firm in Malaysia
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-30
+
+## src-836
+- **Title**: Fragomen Thailand - Thailand immigration services and Bangkok office listing
+- **URL**: https://www.fragomen.com/countries/thailand.html ; https://www.fragomen.com/services.html
+- **Archive**: [archive: not captured; direct HTML extraction used]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-06-30
+- **Used by**: Thailand
+- **Facts supporting**: Neutral Thailand bureaucracy/practicality contact and workflow lead: country page states Fragomen immigration professionals support businesses sending employees to Thailand or expanding there, services page context lists immigration work-permit services, private-client residency/citizenship services, remote-work strategic services, and related office/RCC support, and the country page lists Fragomen in Bangkok, Thailand, phone +66 02 502 9600 and Contact us
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-30

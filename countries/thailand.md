@@ -1,13 +1,13 @@
 ---
 country: Thailand
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-26T06:08:55Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
+depth_score: 10.0
+last_updated: 2026-06-30T10:54:31Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["dtv-bridge-not-settlement", "ltr-income-above-current-budget", "marriage-needed-for-dependent-baseline", "hot-humid-monsoon-climate", "thailand-remittance-tax-risk", "thailand-vat-social-security-fit-gap", "bangkok-phuket-rent-pressure", "thailand-one-income-margin-risk", "thailand-private-insurance-quote-gap", "thailand-international-school-cost-risk", "thailand-road-and-transport-risk", "thailand-english-language-integration-needed"]
-sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261", "src-471", "src-472", "src-473", "src-474", "src-475", "src-476", "src-585", "src-586", "src-587", "src-588", "src-589", "src-721", "src-722", "src-723", "src-724", "src-725", "src-726", "src-797", "src-798"]
+sources_used: ["src-257", "src-258", "src-259", "src-260", "src-261", "src-471", "src-472", "src-473", "src-474", "src-475", "src-476", "src-585", "src-586", "src-587", "src-588", "src-589", "src-721", "src-722", "src-723", "src-724", "src-725", "src-726", "src-797", "src-798", "src-836"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 - Summary
 
 - **Tier**: TBD (first pass suggests a strong medium-term bridge/base, not a proven settlement route for this couple).
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-26
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-30
 - **Tier rationale**: Ukrainian passport holders can use a 60-day visa exemption for tourism/scouting, and the Destination Thailand Visa (DTV) is a current official workcation route for remote workers/freelancers with a 500,000 THB savings threshold and 5-year multiple-entry validity. However, DTV is structured around 180-day stays and exits/re-entries, while the official LTR Work-from-Thailand route requires at least USD 80,000/year, or USD 40,000/year plus extra qualifications and a qualifying large overseas employer, above or awkward for the couple's current profile. [src-257][src-258][src-259]
 
 ## Block 2 - Scoring
@@ -192,11 +192,16 @@ schema_version: 2.0.0
 - **Ties to Ukraine: high risk**. Thailand is far from Ukraine/Poland, outside EU temporary protection, and has no captured Ukraine-specific support layer. It should be treated as ordinary DTV/visitor immigration with emergency-flight and document-refresh buffers, not as a Ukraine-continuity jurisdiction. [src-257]
 - **Diaspora / adaptation risk: high**. Thailand has deep tourist/expat/private-hospital infrastructure in Bangkok, Chiang Mai, Phuket, and Pattaya, but EF ranks national English very low (#116; score 402). Thai-language help will be needed for many leases, local services, healthcare administration, schools, tax, and government steps. [src-722][src-725][src-726][src-797][src-798]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-30, dod: passed}
 
-> **DoD**: timelines for main paths; can-apply-from-inside or from-Ukraine; lawyer contacts (>=1).
+> **DoD**: timelines for main paths; can-apply-from-inside or from-Ukraine; lawyer contacts (>=1). Passed for screening: DTV route timing / filing logic, inside/outside-country practicality, and one professional contact lead are captured; exact e-visa appointment behavior, extension/re-entry costs, local tax adviser scope, lease/TM30 support, and DTV-dependent document sequencing remain application-prep checks.
 
-[verification required]
+- **Route timing**: the practical Thailand file is DTV-first for this couple. Captured DTV evidence gives a 5-year multiple-entry visa, 180 days per entry, one possible 180-day extension through Thai Immigration per entry, then exit/re-entry management while the visa remains valid. Treat this as a bridge/base clock, not a settlement clock. [src-257]
+- **Filing location / jurisdiction**: for the couple's current region, the Warsaw Thai embassy page is the cleanest official-secondary operational anchor because it covers applicants currently residing in Poland or Ukraine and points to the e-visa workflow. Scouting can use the 60-day visa exemption, but relying on Thailand after EU TP should mean having the DTV file approved or at least professionally pre-cleared before moving household logistics. [src-257]
+- **Document-localisation burden**: prepare passport, photo, current-location / residence evidence, bank statement or sponsorship proof showing at least 500,000 THB, and foreign remote-work / freelancer evidence. The exact translation, notarisation, apostille, and dependent-document wording should be confirmed with the serving e-visa post before submission. [src-257][src-258]
+- **Inside-country practicality after arrival**: once in Thailand, the working partner must track 180-day stay stamps, extension windows, possible 90-day reporting / address obligations, tax-residence day counts, private insurance, lease / TM30 address support, and re-entry timing. Bangkok is the safest first setup base for immigration, tax, private healthcare, banking, and adviser depth; Chiang Mai is the budget test after the file is stable; Phuket should remain a lifestyle exception with explicit rent/insurance buffers. [src-257][src-471][src-472][src-586][src-587][src-588][src-722]
+- **Professional contact lead**: Fragomen's Thailand country page describes immigration professionals supporting businesses sending employees to Thailand or expanding there, lists related services including immigration work-permit services, private-client residency/citizenship services, remote-work strategic services, and related office/RCC support, and lists Fragomen in Bangkok with public phone +66 02 502 9600 and Contact us. This is a neutral lead, not a recommendation; still compare Thai visa agents, tax advisers, and lawyer/accountant scope before filing. [src-836]
+- **Practical verdict**: Thailand is bureaucracy-screenable as a DTV bridge if the couple accepts marriage-first dependency, 500,000 THB savings evidence, e-visa pre-clearance, Thai tax advice before 180-day residence/remittance exposure, and a disciplined exit/re-entry calendar. It remains weak as settlement because DTV-to-PR/citizenship counting and a durable foreign-client IT route are not captured.
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -265,7 +270,7 @@ schema_version: 2.0.0
 | Rental deposit | TBD | Live Thai lease/deposit practice not captured; budget conservatively as a later practical check. |
 | First month rent | about USD 253-632 for modest 40 m2 proxy | Chiang Mai at the low end; Bangkok/Phuket at the high end. [src-586][src-587][src-588] |
 | Health insurance | TBD | Private/international policy likely needed for DTV-style planning; exact accepted wording and maternity/newborn terms remain application-prep checks (`vq-156`, resolved for screening in run-165). |
-| Immigration lawyer / agent | — | TBD |
+| Immigration lawyer / agent | TBD | At least one neutral immigration-consultancy lead is captured; compare fees/scope before engagement. [src-836] |
 | Buffer / contingencies | — | TBD |
 | **Total cash to prepare** | — | Needs live DTV filing, insurance, school, lease/deposit, and flight quotes. |
 
@@ -276,7 +281,8 @@ schema_version: 2.0.0
 - Thailand Ministry of Public Health / Ministry of Education official authority anchors: [src-721][src-723].
 - Healthcare and school searches should start in Bangkok for service depth, then Chiang Mai for budget, then Phuket only if coastal lifestyle is worth the added one-income risk. [src-722][src-725][src-726]
 - Comfort and community searches should start with Bangkok / Chiang Mai expat-service infrastructure, then Phuket or Pattaya only after neighbourhood, road-safety, English-service, and family-friendliness checks. [src-797][src-798]
-- Lawyers, tax advisers, Ukrainian/Russian-speaking communities: [verification required].
+- Immigration adviser lead: Fragomen in Bangkok is captured as a neutral contact point for immigration / mobility support; compare with Thai tax counsel and local visa agents before filing. [src-836]
+- Tax advisers and Ukrainian/Russian-speaking communities: final-city application-prep checks.
 
 ## Block 7 - Sources
 
@@ -298,6 +304,7 @@ _(none yet)_
 - Livingcost Thailand national, Bangkok, Chiang Mai, Phuket, and Pattaya cost/rent baselines: [src-585][src-586][src-587][src-588][src-589].
 - International Schools Database Bangkok, Chiang Mai, and Phuket fee/school-count pages: [src-725][src-726].
 - World Population Review / TravelSafe Thailand safety screen: [src-797].
+- Fragomen Thailand immigration-consultancy contact page: [src-836].
 
 ### 7e. Official secondary / consular
 - Royal Thai Embassy Warsaw visa exemption and DTV guidance for applicants in Poland/Ukraine: [src-257].
