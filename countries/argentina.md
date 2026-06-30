@@ -1,13 +1,13 @@
 ---
 country: Argentina
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-26T03:03:39Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
+depth_score: 10.0
+last_updated: 2026-06-30T01:39:54Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["digital-nomad-bridge-only", "tourist-entry-before-travel-check", "citizenship-continuous-no-exit-rule", "inflation-currency-risk", "argentina-pit-vat-gross-income-tax-risk", "argentina-social-security-category-gap", "argentina-monotributo-export-fit-gap", "buenos-aires-rent-pressure", "argentina-one-income-margin-risk", "argentina-health-insurance-quote-gap", "argentina-international-school-cost-risk", "argentina-spanish-language-integration-needed", "argentina-street-crime-scam-risk"]
-sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242, src-456, src-457, src-458, src-459, src-460, src-461, src-575, src-576, src-577, src-578, src-579, src-713, src-714, src-715, src-716, src-793, src-794]
+sources_used: [src-233, src-234, src-235, src-236, src-237, src-238, src-239, src-240, src-241, src-242, src-456, src-457, src-458, src-459, src-460, src-461, src-575, src-576, src-577, src-578, src-579, src-713, src-714, src-715, src-716, src-793, src-794, src-833]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint retained until taxes/cost/rent and residence-to-citizenship practicality are verified).
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-26T03:03:39Z
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-30T01:39:54Z
 - **Tier rationale**: First pass suggests Argentina is legally interesting because Ukrainian ordinary-passport holders have a usable 90-day tourist-entry screening baseline and Argentina has an official digital-nomad transitory residence plus a short legal naturalization horizon. However, the DN status is only 180 + 180 days and transitory, rentista excludes personal-work income, and 2025 citizenship changes require continuous legal residence with no exits during the two-year period. Treat as promising but high-verification until a durable ordinary residence route for foreign-client IT income is confirmed. [src-233][src-234][src-236][src-237]
 
 ## Block 2 — Scoring
@@ -218,9 +218,19 @@ Buenos Aires has the strongest international-school ecosystem. The same guide na
 - **Diaspora / adaptation**: Medium-low. Argentina has the best English-proficiency screen among the Spanish-speaking Latin America candidates captured so far, especially Buenos Aires/Mendoza/Cordoba, but DNM/ARCA, leases, healthcare, schools, and legal filings are still Spanish-first. [src-794]
 - **Main route risk**: The DN route is a good test bridge but not settlement by itself, and rentista excludes personal-work income. A specific temporary residence category for foreign-client IT must be confirmed before Argentina can be treated as a durable post-2027 option. [src-235][src-238][src-239]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: completed, depth: 1, last_updated: 2026-06-30, dod: passed}
 
-[verification required]
+> **DoD status**: passed for country screening at medium confidence. The core filing sequence, document-localisation burden, city setup logic, and one neutral immigration-services contact lead are captured. Exact engagement quotes, appointment availability, DN / temporary-residence fee totals, Argentine tax-registration execution, and final lease/address support remain application-prep checks.
+
+**Route timing and filing sequence.** Argentina is operationally useful only as a staged project, not as an improvise-after-arrival settlement plan. The clean first step is either the official digital-nomad electronic entry / transitory route or an in-country DNM digital-nomad file after lawful entry. The bridge is short: 180 days plus one 180-day extension, and Argentina's general migration overview treats transitory residence as a short-stay category without DNI. The durable-route question must therefore be tested during the first 3-6 months, not postponed until the bridge expires. [src-235][src-236][src-237][src-238]
+
+**Document burden / localisation.** The DNM pages make Argentina document-heavy but legible: passport, Argentine criminal-record certificate, address evidence, signed request, CV, proof of remote activity/income, work references, and criminal records for extension; foreign documents need Argentine consular legalisation or Hague apostille plus Spanish translation by an Argentine public translator with translator-college legalisation. For this couple, the practical preparation list is Ukrainian police/civil-status documents, remote-work contracts/client letters/invoices, education/training proof, apostilles, and budget for certified local Spanish translations. [src-235][src-237]
+
+**City execution.** Buenos Aires should be the first setup base for DNM, immigration counsel, ARCA/CUIT tax advice, private healthcare, banks/fintechs, certified translators, and lease/address evidence. Cordoba or Mendoza can be better one-income living bases after the legal/tax file is stable, but they should not replace Buenos Aires for first-contact professional services. Rosario remains a cheap fallback only after a separate safety/service check. [src-576][src-577][src-578][src-579][src-793]
+
+**Professional-support lead.** Fragomen's Argentina page is a neutral immigration-services lead, not a recommendation: it says its immigration professionals support businesses sending employees to Argentina, describes multiple visa/work-permit options with varying requirements, processing times, employment eligibility, and family-member benefits, and lists Fragomen in Buenos Aires with phone +54 (11) 50324966. Use it as one comparison point alongside Argentine immigration/tax counsel who can test the non-employer foreign-client IT scenario, DN bridge limits, RENURE/employer irrelevance, tax registration, lease/address support, and partner/family mechanics. [src-833]
+
+**Practicality verdict.** Argentina is bureaucracy-screenable but strategically fragile. The paperwork route is visible, Spanish-first, and service-rich in Buenos Aires, yet the captured official route is a 6-12 month bridge. Before treating Argentina as a post-2027 fallback, counsel must identify a durable temporary-residence category for foreign-client IT work and confirm tax/banking/VAT/Ingresos Brutos execution; otherwise Argentina remains a bridge/test country rather than a settlement plan. [src-235][src-238][src-456][src-459][src-460]
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -267,17 +277,17 @@ Buenos Aires has the strongest international-school ecosystem. The same guide na
 ### 6b. First month after arrival
 - Address registration: prepare address evidence for DNM filing. [src-235]
 - Submitting residence application (if not done from abroad): contact DNM / local migration office for DN filing; in CABA the official page gives asesoramiento@migraciones.gov.ar. [src-235]
-- Bank account opening: TBD.
-- Tax ID / social security number: TBD.
-- Long-term housing: TBD.
-- Health insurance / public health registration: TBD.
-- SIM card, internet, utilities: TBD.
+- Bank account opening: treat as part of the Buenos Aires setup sequence; confirm bank/fintech access, tax-ID needs, and foreign-client payment settlement with counsel/accountant before relying on local banking. [src-456][src-459][src-460]
+- Tax ID / social security number: confirm CUIT/CUIL and self-employed or monotributo/autonomous-worker registration during the first setup phase; do not assume DN transitory status alone solves invoicing. [src-456][src-460]
+- Long-term housing: use Buenos Aires first for address evidence and professional access, then test Cordoba/Mendoza after the tax/residence file is stable; verify garantia, deposits, prepaid rent, and DNM/bank address acceptance. [src-576][src-577][src-578]
+- Health insurance / public health registration: budget private prepaga coverage and verify policy wording / signup requirements by DN, temporary-residence, CUIT/CUIL, or tax status. [src-714]
+- SIM card, internet, utilities: treat as routine city setup but verify whether providers require DNI/CUIT, local card, or lease/address evidence before moving outside Buenos Aires.
 
 ### 6c. First 3–6 months
 - Healthcare: budget for private prepaga coverage; verify accepted residence/DN policy wording, CUIL/CUIT requirements, maternity/newborn terms, and selected-city GP/pediatric/maternity prices before filing or choosing a base. [src-714]
 - Education planning: if a future child is part of the plan, decide early between Spanish public schooling, lower-cost bilingual private school, or expensive Buenos Aires international schools; top international schools are not the default on one income. [src-715][src-716]
 - Tax registration as self-employed / freelancer: get Argentine tax-adviser confirmation before relying on the DN bridge for invoicing; likely issues are CUIT/self-employed registration, PIT annual filing/advances, VAT/export-service treatment, provincial Ingresos Brutos, and whether monotributo can handle foreign-client IT at about ARS 52.1m/year. [src-456][src-459][src-460][src-461]
-- Transferring partner to dependent / partner / student status: TBD.
+- Transferring partner to dependent / partner / student status: do not assume DN-dependent or unmarried-partner attachment; test marriage/family, independent-status, or local-study routes with counsel once the main durable route is identified. [src-238]
 - Marriage (if applicable to scenario): keep as a likely simplifier; verify before relying on it.
 - Integration (language courses, communities): Spanish is the practical default for bureaucracy, leases, healthcare, schools, and daily life even though Argentina has a comparatively strong EF English score. [src-794]
 
@@ -304,7 +314,7 @@ Buenos Aires has the strongest international-school ecosystem. The same guide na
 | **Total** | — | |
 
 ### 6g. Contact points and communities
-- Immigration lawyers (2-3 with contacts): TBD.
+- Immigration lawyers / professional leads: Fragomen in Buenos Aires, Argentina; phone +54 (11) 50324966; use as one neutral immigration-services comparison point, not a recommendation. [src-833]
 - Ukrainian / Russian-speaking diaspora (Telegram channels, FB groups): TBD.
 - Expat blogs: TBD.
 - NGOs / refugee help: TBD.
@@ -338,6 +348,7 @@ Buenos Aires has the strongest international-school ecosystem. The same guide na
 _(none yet)_
 
 ### 7d. Statistical / commercial
+- [src-833] Fragomen Argentina country page and services page, used as a neutral immigration-services / Buenos Aires contact lead for the 5.11 bureaucracy-practicality screen.
 - [src-241] Climate to Travel Argentina / Buenos Aires / Cordoba / Mendoza climate pages.
 - [src-242] WeatherSpark Argentina country climate comparison.
 - [src-461] ExchangeRate-API USD/ARS snapshot for the run-092 tax worked example.
@@ -360,3 +371,4 @@ _(none yet)_
 - `vq-152` resolved for screening in run-159: route-compliant healthcare insurance, onboarding, maternity/newborn, and selected-city private-care prices remain application-prep checks. [src-713][src-714]
 - `vq-153` resolved for screening in run-159: exact international/bilingual school fees, private preschool, waiting lists, and Cordoba/Mendoza availability remain application-prep/final-city checks. [src-715][src-716]
 - Comfort/partner screening completed in run-196 with WPR / TravelSafe and EF EPI sources; live neighborhood safety, Ukrainian/Russian-speaking community depth, and exact DN/family-dependent mechanics remain practical checks. [src-793][src-794]
+- Bureaucracy/practicality screening completed in run-238: Buenos Aires-first professional setup, DN bridge timing, document localisation, and one neutral immigration-services lead are captured; durable foreign-client IT residence, tax/banking execution, and final engagement quotes remain application-prep/legal checks. [src-235][src-237][src-238][src-833]

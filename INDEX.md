@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-29
+last_updated: 2026-06-30
 ---
 
 # INDEX
@@ -36,7 +36,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Paraguay | latin-america | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 235 | `countries/paraguay.md` |
 | Panama | latin-america | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 236 | `countries/panama.md` |
 | Mexico | latin-america | 3 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 237 | `countries/mexico.md` |
-| Argentina | latin-america | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 209 | `countries/argentina.md` |
+| Argentina | latin-america | 3 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 238 | `countries/argentina.md` |
 | UAE | middle-east-asia | 3 | — | 9.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.6 | 209 | `countries/uae.md` |
 | Malaysia | middle-east-asia | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 210 | `countries/malaysia.md` |
 | Thailand | middle-east-asia | 3 | — | 9.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10; partial: 5.1, 5.3, 5.6 | 210 | `countries/thailand.md` |
@@ -51,4 +51,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 2 hints**: 16
 - **Tier 3 hints**: 10
 - **Researched**: 33
-- **Average depth_score**: 9.79
+- **Average depth_score**: 9.82
