@@ -10115,3 +10115,15 @@ Each source entry:
 - **Facts supporting**: Neutral Kazakhstan bureaucracy/practicality contact and workflow lead: page describes GRATA International in Kazakhstan, multi-city Kazakhstan presence, professional indemnity insurance / ISO certification context, 2026 Kazakhstan legal updates, and key contacts including Saule Akhmetova, Partner / Director of GRATA International in Almaty, phone +7 701 722 3280, Ainura Takeyeva, Partner in Astana, phone +7 701 555 8761, and office emails including almaty@gratanet.com and astana@gratanet.com
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-30
+
+## src-839
+- **Title**: ADWISE Business & Legal Consulting — Legal & Tax Practice and Contact Us
+- **URL**: https://adwise.am/legal-tax-practice/ ; https://adwise.am/contact-us
+- **Archive**: [archive: failed 2026-06-30; Wayback returned HTTP 429]
+- **Type**: reputable-secondary
+- **Date published**: page modified 2024-06-13 (legal/tax page metadata); contact page modified 2024-02-05
+- **Date accessed**: 2026-06-30
+- **Used by**: Armenia
+- **Facts supporting**: neutral Armenia bureaucracy/practicality professional lead: ADWISE describes legal and tax advisory for businesses, corporate law, regulatory compliance, administrative representation, tax optimization/disputes, TMT/e-commerce, employment, and insurance; contact page lists info@adwise.am, (+37460) 541 295, (+37494) 541 295, and Erebuni Plaza Business Center, 26/1 Vazgen Sargsyan St., 0010 Yerevan
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-06-30

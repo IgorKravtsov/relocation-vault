@@ -1,13 +1,13 @@
 ---
 country: Armenia
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-26T09:18:00Z
-sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10"]
+depth_score: 10.0
+last_updated: 2026-06-30T20:12:08Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["ordinary-business-residence-not-dn", "settlement-ladder-needs-business-substance", "partner-baseline-marriage", "cold-winters-hot-yerevan-summers", "armenia-foreign-client-it-tax-fit-gap", "yerevan-rent-pressure", "armenia-one-income-margin-risk", "armenia-private-insurance-quote-gap", "armenia-international-school-cost-risk", "armenia-english-language-integration-needed", "armenia-border-region-security-caveat"]
-sources_used: [src-274, src-275, src-276, src-277, src-278, src-487, src-488, src-489, src-490, src-491, src-600, src-601, src-602, src-603, src-736, src-737, src-738, src-739, src-803, src-804]
+sources_used: [src-274, src-275, src-276, src-277, src-278, src-487, src-488, src-489, src-490, src-491, src-600, src-601, src-602, src-603, src-736, src-737, src-738, src-739, src-803, src-804, src-839]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,9 +17,9 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD (Tier-3 hint). Armenia is easy for Ukrainian short entry and has official temporary/permanent residence categories, including business activity, but this first pass did not capture a dedicated digital-nomad route or a low-documentation foreign-client IT pathway. Long-term potential depends on whether the working partner can run a real Armenian business / individual-entrepreneur file that renews cleanly and supports later permanent residence and citizenship. [src-274][src-275][src-276]
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-26
-- **Tier rationale**: Not assigned yet; the current file has first-pass legalization, climate, tax, cost-of-living, rent, healthcare, education, comfort, and partner-fit baselines.
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-30
+- **Tier rationale**: Not assigned yet; the current file has first-pass legalization, climate, tax, cost-of-living, rent, healthcare, education, comfort, partner-fit, risk, and bureaucracy/practicality baselines.
 
 ## Block 2 — Scoring
 
@@ -276,9 +276,29 @@ For the student partner and future-child horizon, the adaptation issue is not la
 
 Armenia is screenable as a nearby, relatively safe ordinary-business-residence candidate, not as a proven DN-style settlement route. The decisive risks are business-route evidence, AMD/banking/tax/VAT setup, spouse/marriage dependency, low-English bureaucracy, Yerevan budget pressure, and border-region filtering. None blocks screening, but all require adviser/application-prep work before Armenia can be treated as a serious post-2027 fallback.
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-30, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for screening at medium confidence. Core residence processing time, filing location, document-localisation burden, and at least one legal/tax professional lead are captured. This is not final application advice: the exact business-activity / IE or LLC checklist for foreign-client IT, tax/VAT registration, private-insurance wording, lease/address support, and spouse-dependent mechanics remain application-prep checks.
+
+#### Route timing and filing practicality
+
+- **Short-entry / scouting layer**: Ukraine is in Armenia's visa-free regime list; use this only for scouting, adviser meetings, apartment checks, translations, medical certificate logistics, and preparing an ordinary residence file, not as a settlement status. [src-274]
+- **Residence filing office and timing**: MFA lists the Department for Determination of the Legal Status of Foreigners at the Migration and Citizenship Service, 14 Tairov Street, Yerevan, as the filing location for temporary/permanent residence. A temporary resident card is valid up to one year and can be extended one year at a time; extension should be filed at least 30 days before expiry; processing time is up to 30 days after submission. [src-275]
+- **Document burden**: MFA lists the application, three 35x45 mm photos, passport, passport copy, notarized Armenian translation of the passport, documents supporting the residence-permit condition, medical certificate, and fee receipt. This makes Armenia administratively lighter than many EU routes, but not self-service if the residence ground is business activity rather than family or local employment. [src-275]
+
+#### Practical sequencing for this couple
+
+1. **Pre-clear the residence ground before a long lease**: the working partner's plausible route is business activity, so an Armenian adviser should confirm whether foreign-client IT can be filed as an individual entrepreneur or LLC, what evidence is needed, and whether the same structure supports residence renewal. [src-275][src-491]
+2. **Use Yerevan as the setup base**: Yerevan concentrates the MCS filing office, translators, banks, accountants, clinics, and English/Russian/Armenian professional support. Gyumri and Vanadzor are budget fallbacks only after the residence/tax file and healthcare/service depth are proven. [src-275][src-601][src-602][src-603]
+3. **Sequence tax and banking with immigration**: before filing, map e-register/IE or LLC setup, accountant engagement, foreign-client invoicing, VAT/export-service treatment, pension/health contributions, banking, and AMD/USD cash-flow buffers. [src-487][src-489][src-490][src-491]
+4. **Partner status is marriage-first for screening**: the captured official dependent wording names spouse/parent/child of a temporary resident, so do not rely on unmarried-partner sponsorship unless counsel confirms it. [src-275]
+5. **Insurance and lease evidence**: budget private/international insurance and a landlord-supported address/lease before filing; exact accepted policy wording, maternity/newborn terms, and lease/address format are application-prep checks. [src-275][src-736]
+
+#### Professional lead captured
+
+ADWISE Business & Legal Consulting is a neutral Armenia legal/tax advisory lead, not a recommendation. Its legal and tax practice page describes legal and tax advisory for businesses, corporate law, regulatory compliance, administrative representation, tax optimization/disputes, TMT/e-commerce, employment, insurance, and business-support services; the contact page lists `info@adwise.am`, (+37460) 541 295, (+37494) 541 295, and Erebuni Plaza Business Center, 26/1 Vazgen Sargsyan St., 0010 Yerevan. Use it as one screening contact to compare against immigration-specialist and accountant alternatives. [src-839]
+
+**Bureaucracy verdict**: Armenia is easy to enter but should be treated as an adviser-assisted ordinary business-residence file, not a DN-style remote-work route. The bureaucracy is screenable because the MCS office, 30-day processing baseline, document categories, fees, and Yerevan professional-service lead are captured; the decisive practical risk is proving that the foreign-client IT business/tax structure is acceptable for residence renewal and partner sponsorship before EU temporary-protection timing becomes binding.
 
 ## Block 4 — Risk dimensions (summary)
 
@@ -357,6 +377,7 @@ Armenia is screenable as a nearby, relatively safe ordinary-business-residence c
 ### 6g. Contact points and communities
 - Migration and Citizenship Service, Department for Determination of the Legal Status of Foreigners, 14 Tairov Street, Yerevan. [src-275]
 - Citizenship electronic system from 2026: `mcs-citizenship.am`; MCS contacts listed by MFA: `mcs@gov.am`, `citizenship@e-gov.am`, +374 10 300159. [src-276]
+- ADWISE Business & Legal Consulting, Yerevan legal/tax advisory lead: `info@adwise.am`, (+37460) 541 295, (+37494) 541 295; Erebuni Plaza Business Center, 26/1 Vazgen Sargsyan St., 0010 Yerevan. [src-839]
 - Healthcare / education anchors: verify Yerevan private insurers and clinics before filing; QSI International School of Yerevan is the main captured English-school anchor, and UWC Dilijan is a later-stage IB boarding-school reference. [src-738][src-739]
 - Lawyers / diaspora communities: still needs live community checks; for screening, Yerevan should be the first search area because it concentrates residence/tax advisers, private clinics, and international-school options. [src-601][src-736][src-738]
 
@@ -376,6 +397,7 @@ Armenia is screenable as a nearby, relatively safe ordinary-business-residence c
 - [src-489] PwC Armenia — deductions, other taxes, tax administration, and individual incentives.
 - [src-490] PwC Armenia — corporate other taxes / VAT and turnover-tax context.
 - [src-804] EF English Proficiency Index — Armenia.
+- [src-839] ADWISE Business & Legal Consulting — Armenia legal/tax practice and Yerevan contact lead.
 
 ### 7c. Community and forums (mandatory date of original post)
 _(none yet)_
@@ -402,7 +424,7 @@ _(none yet)_
 - Live apartment listings, lease deposits/agency fees, landlord residence-address support, and Yerevan/Gyumri/Vanadzor private-service depth; cost/rent pass used Livingcost only for first-pass screening.
 - Official business-activity residence checklist for foreign-client IT / individual entrepreneur; screening baseline is real-business substance.
 - Unmarried partner sponsorship evidence; screening baseline is spouse/marriage or independent status.
-- Live Ukrainian/Russian-speaking lawyer, accountant, community, neighborhood, and current border-advisory checks for final city selection.
+- Live Ukrainian/Russian-speaking immigration-specialist / accountant comparisons, community, neighborhood, and current border-advisory checks for final city selection.
 
 ## Block 8 — Open questions and verification markers
 
