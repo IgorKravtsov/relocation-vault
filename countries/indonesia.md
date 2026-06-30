@@ -1,13 +1,13 @@
 ---
 country: Indonesia
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-26T06:08:55Z
-sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10"]
+depth_score: 10.0
+last_updated: 2026-06-30T14:00:47Z
+sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
-sections_pending: ["5.11"]
+sections_pending: []
 risk_flags: ["remote-worker-income-above-current-budget", "bridge-route-not-settlement", "pr-ladder-unclear", "hot-humid-rainy-climate", "indonesia-tax-residence-worldwide-income-risk", "indonesia-vat-bpjs-fit-gap", "jakarta-rent-pressure", "bali-lease-seasonality-risk", "indonesia-health-insurance-evacuation-gap", "indonesia-international-school-cost-risk", "indonesia-natural-disaster-transport-risk", "indonesia-english-language-integration-needed", "indonesia-one-income-margin-risk"]
-sources_used: ["src-262","src-263","src-264","src-265","src-266","src-477","src-478","src-479","src-480","src-481","src-590","src-591","src-592","src-593","src-594","src-727","src-728","src-729","src-730","src-731","src-799","src-800"]
+sources_used: ["src-262","src-263","src-264","src-265","src-266","src-477","src-478","src-479","src-480","src-481","src-590","src-591","src-592","src-593","src-594","src-727","src-728","src-729","src-730","src-731","src-799","src-800","src-837"]
 unverified_count: 0
 schema_version: 2.0.0
 ---
@@ -17,8 +17,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD. First-pass evidence points to Indonesia as a bridge/base rather than a proven settlement route for this couple: Ukraine is listed among Indonesia's VoA/e-VoA subject countries, and the official E33G remote-worker limited-stay visa exists, but its US$60,000/year income requirement is above the couple's current ~US$36,000/year income. [src-263][src-264]
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-26
+- **depth_score**: 10.0
+- **Last updated**: 2026-06-30
 - **Tier rationale**: Do not classify yet. The core route is official but income-gated and the first pass did not capture a durable PR/citizenship ladder for a foreign-client IT worker using E33G.
 
 ## Block 2 — Scoring
@@ -222,9 +222,15 @@ Education is viable but budget-sensitive. For a future child, Jakarta has the de
 - **Ties to Ukraine: high risk**. Indonesia is far from Ukraine/Poland, outside the EU TP framework, and has no captured Ukraine-specific support route. Ukrainian nationality helps with VoA/e-VoA scouting in the captured table, but it does not create residence continuity; document refreshes, embassy access, and emergency flights need planning. [src-263][src-264]
 - **Diaspora / adaptation risk: medium-high**. Jakarta/Bali have international schools, private hospitals, and expat/tourism services, while EF city scores are usable in Jakarta/Surabaya/Bandung but still below English-easy countries. Bahasa Indonesia help is needed for bureaucracy, leases, public healthcare, local schools, BPJS/tax, and non-tourist districts. [src-728][src-730][src-731][src-799][src-800]
 
-### 5.11. Bureaucracy and practicality {status: pending, depth: 0, last_updated: —, dod: pending}
+### 5.11. Bureaucracy and practicality {status: deep, depth: 1, last_updated: 2026-06-30, dod: passed}
 
-[verification required]
+> **DoD status**: Passed for first-pass country screening. The section captures the core E33G/B1 timing baseline from existing official sources, the practical filing posture, and one professional-services contact lead. It does not make Indonesia a settlement route: E33G remains income-gated above the couple's current profile, and dependent, tax, BPJS, lease/address, and ITAP mechanics remain application-prep or long-term-route checks.
+
+- **Main route timing**: B1 VoA/e-VoA is only a 30-day scouting layer, extendable once to 60 days; it forbids local paid work or selling goods/services to Indonesian persons/corporations. E33G is the main captured remote-worker limited-stay route: the official page states a 1-year stay, five-working-day processing after visa payment, automatic ITAS/re-entry permit issuance after admission, online extension through `evisa.imigrasi.go.id`, and a Rp7,000,000 government-fee package. [src-263][src-264]
+- **Filing location / sequence**: use B1 only for reconnaissance. If income later rises above US$60,000/year and the foreign-company contract fits, build E33G as a pre-cleared e-visa / immigration file before committing to a long lease. The practical sequence is Jakarta-first or Bali/Jakarta adviser-first: confirm E33G eligibility, spouse/dependent file, private insurance, address/lease evidence, tax/NPWP/VAT/BPJS position, and re-entry / extension calendar before treating Indonesia as a bridge. [src-264][src-477][src-480][src-728][src-837]
+- **Professional contact lead**: Emerhub Indonesia is a neutral commercial-services lead, not a recommendation. Its Indonesia page and contact page describe PT PMA registration, licensing, tax/accounting, visas, relocation/corporate services, and a Jakarta office at Satrio Tower Floor 6, Unit 5, Kuningan, Jakarta 12950, with `indonesia@emerhub.com` and +62 21 2205 7930. [src-837]
+- **Practicality read**: Indonesia is administratively visible but strategically weak at current income. It is practical for short scouting and potentially practical as an E33G bridge after a major income increase, but it should not be used as a post-2027 settlement plan unless counsel confirms E33G family mechanics, tax/source classification, BPJS/insurance, address registration, and any ITAP conversion/counting route.
+- **City execution**: Jakarta is the default setup city for immigration/tax/accounting, embassies, private hospitals, and schools. Bali/Denpasar is the lifestyle/expat-services alternative but needs stricter lease, address, and tourist-season pricing checks. Surabaya/Bandung remain affordability/comfort screens after the status file is stable.
 
 ## Block 4 - Risk dimensions (summary)
 
@@ -296,7 +302,7 @@ Education is viable but budget-sensitive. For a future child, Jakarta has the de
 | **Total** | — | incomplete |
 
 ### 6g. Contact points and communities
-- Immigration lawyers: TBD
+- Immigration / corporate-services lead: Emerhub Indonesia, Jakarta; `indonesia@emerhub.com`; +62 21 2205 7930. Use as a neutral lead for visa, corporate, tax/accounting, and relocation-service scoping, not as an endorsement. [src-837]
 - Ukrainian / Russian-speaking diaspora: TBD
 - Expat blogs: TBD
 - NGOs / refugee help: TBD
@@ -322,6 +328,7 @@ _(none yet)_
 ### 7d. Statistical / commercial
 - [src-799] World Population Review / TravelSafe — Indonesia safety and risk screen
 - [src-800] EF English Proficiency Index — Indonesia English-proficiency screen
+- [src-837] Emerhub Indonesia — Indonesia corporate, visa, relocation, tax/accounting, and Jakarta contact lead
 - [src-728] ExpatLife.AI — Indonesia Healthcare 2026 guide
 - [src-730] ExpatLife.AI — Indonesia education 2026 guide
 - [src-731] International Schools Database — Jakarta and Bali international-school lists
@@ -340,6 +347,7 @@ _(none yet)_
 - Exact E33G/KITAS-accepted health-insurance policy wording, two-adult quotes, maternity/newborn exclusions, BPJS onboarding by final status, and city-specific private GP/pediatric/maternity prices remain application-prep checks (`vq-158`).
 - Exact international-school fee schedules, deposits, meals/transport, private-preschool quotes, waiting lists, and English/bilingual options outside Jakarta/Bali remain application-prep or final-city checks (`vq-159`, resolved for screening in run-165).
 - Exact E33G spouse/dependent checklist, unmarried-partner treatment, spouse work rights, and final-city safety/lease/social-norm constraints remain application-prep checks if Indonesia becomes realistic after an income increase.
+- Compare Indonesian immigration/tax advisers before filing; Emerhub is only a captured neutral lead, not a vetted recommendation.
 
 ## Block 8 — Open questions and verification markers
 

@@ -10091,3 +10091,15 @@ Each source entry:
 - **Facts supporting**: Neutral Thailand bureaucracy/practicality contact and workflow lead: country page states Fragomen immigration professionals support businesses sending employees to Thailand or expanding there, services page context lists immigration work-permit services, private-client residency/citizenship services, remote-work strategic services, and related office/RCC support, and the country page lists Fragomen in Bangkok, Thailand, phone +66 02 502 9600 and Contact us
 - **Confidence ceiling**: medium
 - **Stale at**: 2026-12-30
+
+## src-837
+- **Title**: Emerhub Indonesia - Indonesia corporate, visa, relocation, tax/accounting, and Jakarta contact lead
+- **URL**: https://emerhub.com/indonesia/ ; https://emerhub.com/contact-us/
+- **Archive**: [archive: failed 2026-06-30, Wayback returned HTTP 429; direct HTML / structured-data extraction used]
+- **Type**: commercial
+- **Date published**: page current in 2026 footer; no specific page date captured
+- **Date accessed**: 2026-06-30
+- **Used by**: Indonesia
+- **Facts supporting**: Neutral Indonesia bureaucracy/practicality contact and workflow lead: Emerhub describes Indonesia company formation, licensing, tax/accounting, visas, relocation/corporate services, PT PMA registration, and local consultant support; contact page lists Emerhub Indonesia at Satrio Tower Floor 6, Unit 5, Kuningan, Jakarta 12950, email indonesia@emerhub.com, and phone +62 21 2205 7930
+- **Confidence ceiling**: medium
+- **Stale at**: 2026-12-30
