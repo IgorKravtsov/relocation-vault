@@ -52,4 +52,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Consolidation note**: run-250 reconciled the last legacy country-local `unverified_count` values (Poland, Romania) to the global resolved queue; run-249 added the non-ranking tier-readiness audit, and all 33 countries remain depth 10.0 with `tier: null`.
+- **Consolidation note**: run-251 added a non-ranking tier-normalization worksheet; run-250 reconciled legacy country-local `unverified_count` values to the global resolved queue. All 33 countries remain depth 10.0 with final `tier: null` until a schema-safe country-by-country tier application pass.

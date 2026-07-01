@@ -12,7 +12,7 @@ This is a non-ranking audit. It checks whether the vault is structurally ready f
 
 - Country set: 33/33 countries are present in `countries.yml`, `state.json`, and `INDEX.md`.
 - Screening depth: 33/33 countries have `depth_score: 10.0`.
-- Assigned tiers: 0/33; every country still has `tier: null` in `countries.yml`, country frontmatter, and live state.
+- Assigned tiers: 0/33; every country still has `tier: null` in `countries.yml`, country frontmatter, and live state. Run-251 added a separate non-ranking tier-normalization worksheet but did not write final tier fields.
 - Tier hints: Tier-1 hints 7; Tier-2 hints 15; Tier-3 hints 11.
 - Verification queue: 0 pending/open items.
 - Country-local unverified counters: 0 nonzero values after run-250 reconciliation.
@@ -39,4 +39,4 @@ The vault is ready for a **dedicated tier-normalization workflow**, not for auto
 
 ## Next consolidation candidate
 
-Run a dedicated non-ranking `tier-normalization` / consolidation pass that assigns provisional tiers country-by-country only if the profile has enough route, tax, healthcare, risk, and practicality evidence; otherwise leave `tier: null` with a documented blocker. If protocol changes are needed for tier confidence fields, create a proposal before editing schema-critical rules.
+Use `dimensions/tier-normalization-worksheet.md` from run-251 as the normalization bridge. The next consolidation candidate is a schema-safe small-batch tier-application pass: write explicit country Block 1 rationale, country frontmatter, `countries.yml`, `state.json`, and `INDEX.md` together, and leave any unsupported country as `tier: null` with a documented blocker. If protocol changes are needed for tier confidence fields, create a proposal before editing schema-critical rules.

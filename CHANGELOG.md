@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-07-01
 ---
 
+## 2026-07-01 - run-251 - tier-normalization-worksheet
+
+- Consolidation: added `dimensions/tier-normalization-worksheet.md` as a non-ranking bridge from the tier-readiness audit to a later schema-safe tier application pass.
+- Grouped all 33 countries into screening bands by route durability and blocker type without changing final `tier` fields, country order, or rankings.
+- Updated INDEX / readiness handoff notes; no sources, claims, verification items, or final tiers added.
+- Next: schema-safe small-batch tier application if no proposal / verification / staleness trigger appears.
+
 ## 2026-07-01 — run-250 — unverified-count-reconciliation
 
 - Consolidation: reconciled legacy country-local `unverified_count` values for Poland (4 -> 0) and Romania (1 -> 0) to match the global resolved queue.

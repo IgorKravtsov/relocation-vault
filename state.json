@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "iteration": 250,
+  "iteration": 251,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-01T14:47:09Z",
+  "last_run_timestamp": "2026-07-01T17:50:35Z",
   "current_focus": {
     "mode": "consolidation",
     "country": null,
     "sections": [],
-    "criterion": "unverified-count-reconciliation"
+    "criterion": "tier-normalization-worksheet"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "Run the dedicated non-ranking tier-normalization pass using dimensions/tier-readiness-audit.md now that legacy country-local unverified_count values are reconciled to the global resolved queue."
+    "reason": "Run a schema-safe small-batch tier-application pass using dimensions/tier-readiness-audit.md and dimensions/tier-normalization-worksheet.md; keep the pass non-ranking and synchronize country frontmatter, countries.yml, state.json, and INDEX.md."
   },
   "countries": {
     "Spain": {
