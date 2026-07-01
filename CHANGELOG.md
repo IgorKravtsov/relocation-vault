@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-07-01
 ---
 
+## 2026-07-01 — run-250 — unverified-count-reconciliation
+
+- Consolidation: reconciled legacy country-local `unverified_count` values for Poland (4 -> 0) and Romania (1 -> 0) to match the global resolved queue.
+- Added `dimensions/unverified-count-reconciliation.md` as a non-ranking data-hygiene note.
+- Verification queue remains 0 pending/open; no sources, claims, tiers, or rankings added.
+- Next: dedicated non-ranking tier-normalization pass if no proposal / verification / staleness trigger appears.
+
 ## 2026-07-01 — run-249 — tier-readiness-audit
 
 - Consolidation: added `dimensions/tier-readiness-audit.md` as a non-ranking guardrail for later tier normalization.

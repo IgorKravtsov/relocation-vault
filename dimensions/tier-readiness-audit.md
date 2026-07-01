@@ -15,7 +15,8 @@ This is a non-ranking audit. It checks whether the vault is structurally ready f
 - Assigned tiers: 0/33; every country still has `tier: null` in `countries.yml`, country frontmatter, and live state.
 - Tier hints: Tier-1 hints 7; Tier-2 hints 15; Tier-3 hints 11.
 - Verification queue: 0 pending/open items.
-- Staleness check: 0 stale claims from `scripts/find-stale.py` at run-249 pre-flight.
+- Country-local unverified counters: 0 nonzero values after run-250 reconciliation.
+- Staleness check: 0 stale claims from `scripts/find-stale.py` at run-250 pre-flight.
 - Partial sections remain deliberate screening caveats: 33 countries partial in §5.1 and §5.6; 30 countries partial in §5.3. These are not active queue blockers, but they matter for final tier confidence.
 
 ## Readiness conclusion
@@ -34,7 +35,7 @@ The vault is ready for a **dedicated tier-normalization workflow**, not for auto
 ## Data-quality notes found during audit
 
 - `INDEX.md` summary had stale tier-hint totals from before the current country set distribution; live `countries.yml` / `state.json` show 7 Tier-1 hints, 15 Tier-2 hints, and 11 Tier-3 hints. Run-249 corrects the summary.
-- `state.json` and two country frontmatters still carry nonzero `unverified_count` while the global queue has 0 pending/open items. Treat these as legacy country-local counters to reconcile before final tier assignment, not as a reason to reopen global verification mode.
+- Run-250 reconciled the two legacy nonzero country-local `unverified_count` values (Poland 4 and Romania 1) to 0 in country frontmatter and `state.json`, matching the global queue size of 0 pending/open items.
 
 ## Next consolidation candidate
 

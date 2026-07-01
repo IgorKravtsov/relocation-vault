@@ -18,8 +18,8 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Croatia | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 217 | `countries/croatia.md` |
 | Malta | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 218 | `countries/malta.md` |
 | Czech Republic | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 219 | `countries/czech-republic.md` |
-| Poland | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 220 | `countries/poland.md` |
-| Romania | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 221 | `countries/romania.md` |
+| Poland | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 250 | `countries/poland.md` |
+| Romania | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 250 | `countries/romania.md` |
 | Bulgaria | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 222 | `countries/bulgaria.md` |
 | Hungary | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 223 | `countries/hungary.md` |
 | Slovakia | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 224 | `countries/slovakia.md` |
@@ -52,4 +52,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Consolidation note**: run-249 added `dimensions/tier-readiness-audit.md`, confirmed all 33 countries are depth 10.0 with `tier: null`, and corrected the summary tier-hint totals to the live `countries.yml` / `state.json` distribution; run-248 completed Portugal 5.2 for screening and brought the live average depth to 10.00.
+- **Consolidation note**: run-250 reconciled the last legacy country-local `unverified_count` values (Poland, Romania) to the global resolved queue; run-249 added the non-ranking tier-readiness audit, and all 33 countries remain depth 10.0 with `tier: null`.
