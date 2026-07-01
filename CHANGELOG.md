@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-07-01
 ---
 
+## 2026-07-01 — run-249 — tier-readiness-audit
+
+- Consolidation: added `dimensions/tier-readiness-audit.md` as a non-ranking guardrail for later tier normalization.
+- Confirmed 33/33 profiles are depth 10.0 and still `tier: null`; live tier hints are 7 Tier-1, 15 Tier-2, and 11 Tier-3.
+- Corrected stale `INDEX.md` summary tier-hint totals; no sources, claims, or verification items added.
+- Next: dedicated non-ranking tier-normalization pass if no proposal / verification / staleness trigger appears.
+
 ## 2026-07-01 — run-248 — portugal-climate-closure
 
 - Portugal: §5.2 Climate moved from partial to passed at medium confidence using a WeatherSpark Faro clearer-sky proxy.

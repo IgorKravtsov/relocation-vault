@@ -1,22 +1,20 @@
 {
   "version": 2,
-  "iteration": 248,
+  "iteration": 249,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-01T08:34:48Z",
+  "last_run_timestamp": "2026-07-01T11:41:02Z",
   "current_focus": {
-    "mode": "country-deep-dive",
-    "country": "Portugal",
-    "sections": [
-      "5.2"
-    ],
-    "criterion": null
+    "mode": "consolidation",
+    "country": null,
+    "sections": [],
+    "criterion": "tier-readiness-audit"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "All 33 countries now show depth 10.0 for screening; next safe unit is tier-readiness audit or cross-dimension consolidation, without writing final rankings."
+    "reason": "Run a dedicated non-ranking tier-normalization pass using dimensions/tier-readiness-audit.md; do not convert tier_hint to final tier mechanically and do not write TOP-N recommendations."
   },
   "countries": {
     "Spain": {

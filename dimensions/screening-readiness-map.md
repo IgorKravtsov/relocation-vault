@@ -17,7 +17,7 @@ This scaffold records what the downstream synthesis process can safely consume w
 - Below-full-depth profile: none; Portugal is now 10.0, with 5.1, 5.3, and 5.6 still partial but sufficient for screening-depth coverage.
 - Verification queue: 0 pending/open items at run-248 pre-flight.
 - Staleness queue: 0 stale claims at run-248 pre-flight.
-- Completed cross-country dimensions available for synthesis support: 5.10 risk dimensions and 5.11 bureaucracy/practicality.
+- Completed cross-country dimensions available for synthesis support: 5.10 risk dimensions, 5.11 bureaucracy/practicality, and the run-249 tier-readiness audit.
 
 ## Safe synthesis inputs available now
 
@@ -26,6 +26,7 @@ This scaffold records what the downstream synthesis process can safely consume w
 - Use `dimensions/risk-dimensions-5.10.md` for cross-country operational risk categories and risk-driver wording.
 - Use `dimensions/bureaucracy-practicality-5.11.md` for filing practicality, timing, and professional-support leads.
 - Use country profiles for detailed route, tax, healthcare, school, cost, rent, comfort, partner, and bureaucracy caveats.
+- Use `dimensions/tier-readiness-audit.md` only as a workflow-readiness check; it is not a tier assignment or ranking.
 
 ## Do-not-use-as-final-ranking guardrails
 
@@ -38,10 +39,10 @@ This scaffold records what the downstream synthesis process can safely consume w
 ## Open gates before any downstream TOP-N process
 
 - Decide whether Portugal's remaining partial 5.1, 5.3, and 5.6 sections need application-prep deepening or whether screening-depth coverage is sufficient for downstream use.
-- Decide whether assigned tiers should be written into country frontmatter/state in a dedicated non-ranking tier-normalization run.
+- Run a dedicated non-ranking tier-normalization pass before writing assigned tiers into country frontmatter/state; run-249 confirmed the vault is structurally ready but still needs explicit rationale/confidence per country.
 - Decide whether cross-country dimensions are needed for 5.1, 5.3, 5.4/5.5, 5.6/5.7, and 5.8/5.9 before synthesis.
 - Keep final recommendations, ranking, and visit order out of Hermes iterations unless the downstream synthesis process explicitly owns them.
 
 ## Next consolidation candidate
 
-If no proposal, verification, or staleness trigger appears, the next safe consolidation unit is a non-ranking tier-readiness audit: compare `tier_hint`, current `tier: null`, and country-profile rationale references, then either open a proposal for tier-assignment workflow or prepare a dedicated tier-normalization plan without assigning final rankings.
+If no proposal, verification, or staleness trigger appears, the next safe consolidation unit is a dedicated non-ranking tier-normalization pass, using `dimensions/tier-readiness-audit.md` as the guardrail checklist and avoiding TOP-N recommendations.

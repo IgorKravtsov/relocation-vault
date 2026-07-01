@@ -48,8 +48,8 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 
 - **Total**: 33
 - **Tier 1 hints**: 7 (Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta)
-- **Tier 2 hints**: 16
-- **Tier 3 hints**: 10
+- **Tier 2 hints**: 15
+- **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Consolidation note**: run-248 completed Portugal 5.2 for screening and brought the live average depth to 10.00; run-247 opened `dimensions/screening-readiness-map.md` as a non-ranking downstream handoff scaffold; run-246 verified the 5.10 risk-dimensions slice has one row for each of the 33 countries, no duplicate country rows, and source references validated.
+- **Consolidation note**: run-249 added `dimensions/tier-readiness-audit.md`, confirmed all 33 countries are depth 10.0 with `tier: null`, and corrected the summary tier-hint totals to the live `countries.yml` / `state.json` distribution; run-248 completed Portugal 5.2 for screening and brought the live average depth to 10.00.
