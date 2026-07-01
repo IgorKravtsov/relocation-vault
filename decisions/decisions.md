@@ -1,7 +1,7 @@
 ---
 document: decisions-log
 version: 1.0.0
-last_updated: 2026-05-24
+last_updated: 2026-07-01
 ---
 
 # Decisions Log
@@ -11,6 +11,13 @@ Record of non-trivial decisions made during research, with rationale, sources, a
 Each entry includes: date, decision (1 line), rationale, sources, iteration, counter-evidence considered.
 
 ---
+
+## 2026-07-01 - Greece assigned Tier 1
+**Decision**: Assign Greece `tier: 1` as the first schema-safe tier-application country, without ranking it against other countries.
+**Rationale**: Greece has the strongest captured post-TP legal bridge: temporary-protection holders may apply for ordinary Immigration Code permits through the electronic immigration portal before 04 March 2027, without an entry visa. The profile also has a documented DN route, tax/rent/healthcare/education/comfort/bureaucracy screening, and a long-stay chain into permanent residence / citizenship in principle.
+**Source**: src-001, src-002, src-003, src-004, src-007, src-337.
+**Iteration**: run-252.
+**Counterevidence considered**: Exact PR/citizenship timing, the best Immigration Code category for a foreign-client IT worker, Article 5C tax fit, private-insurance quotes, and DN family affordability are still medium-confidence or application-prep caveats; the assignment is therefore medium-confidence and not final relocation advice.
 
 ## 2026-05-24 — Greece kept unranked after first iteration
 **Decision**: Do not assign a final tier yet.

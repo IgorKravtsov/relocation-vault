@@ -41,7 +41,7 @@ countries:
   - name: Greece
     group: eu-schengen
     tier_hint: 1
-    tier: null
+    tier: 1
     status: pending
   - name: Cyprus
     group: eu-schengen

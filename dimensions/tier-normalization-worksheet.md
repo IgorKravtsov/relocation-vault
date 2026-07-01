@@ -6,7 +6,7 @@ Inputs: `dimensions/tier-readiness-audit.md`, `state.json`, `INDEX.md`, country 
 
 ## Scope
 
-This worksheet is a non-ranking normalization layer between the completed country profiles and any later write to `tier` fields. It does not assign final tiers in country frontmatter, `countries.yml`, or `state.json`. It records the screening-safe tier band that the next schema-safe tier-application pass should review country by country.
+This worksheet is a non-ranking normalization layer between the completed country profiles and schema-safe writes to `tier` fields. As of run-252, it records both the screening-safe bands for countries still awaiting tier application and the small-batch tier changes already applied. It is not a TOP-N ranking or relocation recommendation.
 
 ## Guardrails applied
 
@@ -32,6 +32,10 @@ This worksheet is a non-ranking normalization layer between the completed countr
 - The safe first batch for actual `tier` writes is probably a small representative set across bands, not all 33 at once, because frontmatter, `countries.yml`, `state.json`, and `INDEX.md` must stay synchronized.
 - No new sources are needed for this worksheet; it summarizes already captured country-profile evidence and resolved verification state.
 
+## Applied tier changes
+
+- run-252: Greece assigned `tier: 1` as a schema-safe first application. Rationale: Greek TP holders have a captured legislated bridge into ordinary Immigration Code permits before 04 March 2027, plus a documented remote-work route and a long-stay chain in principle. Confidence remains medium because PR/citizenship timeline details, Article 5C tax fit, DN affordability, insurance, and bureaucracy remain application-prep caveats.
+
 ## Next consolidation candidate
 
-Run a schema-safe tier-application pass on a small batch of countries: update Block 1 tier wording, country frontmatter, `countries.yml`, `state.json`, and `INDEX.md` together, then validate that no profile still says `Tier: TBD` after a non-null tier is written.
+Continue the schema-safe tier-application pass on another small batch of countries: update Block 1 tier wording, country frontmatter, `countries.yml`, `state.json`, and `INDEX.md` together, then validate that no profile still says `Tier: TBD` after a non-null tier is written.

@@ -1,8 +1,8 @@
 ---
 country: Greece
-tier: null
+tier: 1
 depth_score: 10.0
-last_updated: 2026-06-26T21:40:44Z
+last_updated: 2026-07-01T20:54:03Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -18,10 +18,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD after taxes, rent, partner-path, comfort, risk, and bureaucracy research are added.
+- **Tier**: 1 (assigned in run-252; medium confidence, not a ranking).
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-26T21:40:44Z
-- **Tier rationale**: Greece already shows a strong legalization skeleton for Ukrainians (TP extended to 04 March 2027 and a legislated TP->Immigration Code bridge) plus a documented digital nomad route. The tax pass now has an official 2026 EFKA self-employed minimum, so the conservative ordinary PIT + minimum social-insurance stress test is usable; Article 5C fit for foreign-client IT work still needs current specialist/official verification. Cost/rent screening is workable on gross USD 3,000/month only with housing discipline; Patras and Thessaloniki screen cheaper than Athens/Heraklion. Healthcare is structurally workable through public-system access for protected/resident statuses, education is favorable if the couple accepts Greek-language public schooling and avoids international-school costs, and the comfort/partner pass now shows a safe but Greek-language-dependent environment with the DN family-income gate above the current one-income budget.
+- **Last updated**: 2026-07-01T20:54:03Z
+- **Tier rationale**: Greece is the first schema-applied Tier 1 country because it is the clearest captured case where Ukrainians can use a current temporary-protection base and a legislated bridge into ordinary Immigration Code permits before 04 March 2027, while a remote-work / digital-nomad route and a long-stay chain into permanent residence / citizenship exist in principle. The assignment remains medium-confidence rather than final advice: exact PR/citizenship timing, the best Immigration Code category for a foreign-client IT worker, Article 5C tax fit, DN family-income affordability, private-insurance quotes, and Greek-language bureaucracy still need application-prep verification. Cost/rent screening is workable only with housing discipline, and Patras / Thessaloniki remain safer budget screens than Athens or Crete.
 
 ## Block 2 — Scoring
 

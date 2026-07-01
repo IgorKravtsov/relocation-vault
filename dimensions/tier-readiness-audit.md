@@ -12,16 +12,16 @@ This is a non-ranking audit. It checks whether the vault is structurally ready f
 
 - Country set: 33/33 countries are present in `countries.yml`, `state.json`, and `INDEX.md`.
 - Screening depth: 33/33 countries have `depth_score: 10.0`.
-- Assigned tiers: 0/33; every country still has `tier: null` in `countries.yml`, country frontmatter, and live state. Run-251 added a separate non-ranking tier-normalization worksheet but did not write final tier fields.
+- Assigned tiers: 1/33. Greece now has `tier: 1` in country frontmatter, `countries.yml`, live state, and `INDEX.md`; the remaining 32 countries still have `tier: null`. Run-251 added the non-ranking worksheet, and run-252 started schema-safe tier application with one country only.
 - Tier hints: Tier-1 hints 7; Tier-2 hints 15; Tier-3 hints 11.
 - Verification queue: 0 pending/open items.
 - Country-local unverified counters: 0 nonzero values after run-250 reconciliation.
-- Staleness check: 0 stale claims from `scripts/find-stale.py` at run-250 pre-flight.
+- Staleness check: 0 stale claims from `scripts/find-stale.py` at run-252 pre-flight.
 - Partial sections remain deliberate screening caveats: 33 countries partial in §5.1 and §5.6; 30 countries partial in §5.3. These are not active queue blockers, but they matter for final tier confidence.
 
 ## Readiness conclusion
 
-The vault is ready for a **dedicated tier-normalization workflow**, not for automatic tier assignment inside an ordinary consolidation pass. The inputs are complete enough to compare countries for screening, but assigned tiers should be written only in a focused run that explicitly records rationale, confidence, and caveats per country.
+The vault is in the **dedicated tier-normalization workflow**: run-252 applied the first country tier, but broad automatic tier assignment is still forbidden. The inputs are complete enough to compare countries for screening, but assigned tiers should be written only in a focused run that explicitly records rationale, confidence, and caveats per country.
 
 ## Required guardrails for tier normalization
 
@@ -39,4 +39,4 @@ The vault is ready for a **dedicated tier-normalization workflow**, not for auto
 
 ## Next consolidation candidate
 
-Use `dimensions/tier-normalization-worksheet.md` from run-251 as the normalization bridge. The next consolidation candidate is a schema-safe small-batch tier-application pass: write explicit country Block 1 rationale, country frontmatter, `countries.yml`, `state.json`, and `INDEX.md` together, and leave any unsupported country as `tier: null` with a documented blocker. If protocol changes are needed for tier confidence fields, create a proposal before editing schema-critical rules.
+Continue using `dimensions/tier-normalization-worksheet.md` as the normalization bridge. The next consolidation candidate is another schema-safe small-batch tier-application pass: write explicit country Block 1 rationale, country frontmatter, `countries.yml`, `state.json`, and `INDEX.md` together, and leave any unsupported country as `tier: null` with a documented blocker. If protocol changes are needed for tier confidence fields, create a proposal before editing schema-critical rules.

@@ -13,7 +13,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Spain | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.6 | 212 | `countries/spain.md` |
 | Portugal | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 248 | `countries/portugal.md` |
 | Italy | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.6 | 214 | `countries/italy.md` |
-| Greece | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 215 | `countries/greece.md` |
+| Greece | eu-schengen | 1 | 1 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 252 | `countries/greece.md` |
 | Cyprus | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 216 | `countries/cyprus.md` |
 | Croatia | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 217 | `countries/croatia.md` |
 | Malta | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 218 | `countries/malta.md` |
@@ -52,4 +52,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Consolidation note**: run-251 added a non-ranking tier-normalization worksheet; run-250 reconciled legacy country-local `unverified_count` values to the global resolved queue. All 33 countries remain depth 10.0 with final `tier: null` until a schema-safe country-by-country tier application pass.
+- **Assigned final tiers**: 1/33 (Greece).
+- **Consolidation note**: run-252 began schema-safe tier application with Greece only, preserving non-ranking guardrails. The remaining 32 countries stay `tier: null` until explicit country-by-country tier rationale is applied.
