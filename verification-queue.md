@@ -1,7 +1,7 @@
 ---
 document: verification-queue
 version: 1.0.0
-last_updated: 2026-06-20
+last_updated: 2026-07-01
 ---
 
 # Verification Queue
@@ -519,7 +519,7 @@ Items are added during regular iterations. Closed in batches during `mode: verif
 - **Created**: 2026-05-24 (run-004)
 - **Status**: resolved
 - **Resolved**: 2026-05-27 (run-015)
-- **Resolution note**: Wikipedia Climate of Lisbon and Climate of Porto provide annual "Percentage possible sunshine" (Lisbon 63%, Porto 54%) from WMO/NOAA-sourced tables. Faro remains pending (no dedicated climate page). [src-077][src-078]
+- **Resolution note**: Updated by run-248. Wikipedia Climate of Lisbon and Climate of Porto provide annual "Percentage possible sunshine" (Lisbon 63%, Porto 54%) from WMO/NOAA-sourced tables; WeatherSpark Faro now supplies a medium-confidence clearer-sky proxy of about 249 clear/mostly-clear/partly-cloudy day-equivalents/year. This closes the blocker for screening, while final city choice should still treat Faro as a proxy rather than an official sunny-day count. [src-077][src-078][src-840]
 
 ## vq-011 [high priority]
 - **Fact**: "Italy's official post-04 March 2027 transition path from Ukrainian temporary protection into an ordinary residence permit, if any"

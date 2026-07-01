@@ -1,7 +1,7 @@
 ---
 document: sources-registry
 version: 1.0.0
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 ---
 
 # Sources Registry
@@ -10127,3 +10127,15 @@ Each source entry:
 - **Facts supporting**: neutral Armenia bureaucracy/practicality professional lead: ADWISE describes legal and tax advisory for businesses, corporate law, regulatory compliance, administrative representation, tax optimization/disputes, TMT/e-commerce, employment, and insurance; contact page lists info@adwise.am, (+37460) 541 295, (+37494) 541 295, and Erebuni Plaza Business Center, 26/1 Vazgen Sargsyan St., 0010 Yerevan
 - **Confidence ceiling**: medium
 - **Stale at**: 2027-06-30
+
+## src-840
+- **Title**: WeatherSpark - Faro Climate, Weather By Month, Average Temperature (Portugal)
+- **URL**: https://weatherspark.com/y/32777/Average-Weather-in-Faro-Portugal-Year-Round
+- **Archive**: [archive: not captured; Jina text extraction used 2026-07-01]
+- **Type**: commercial
+- **Date published**: no page date captured
+- **Date accessed**: 2026-07-01
+- **Used by**: Portugal
+- **Facts supporting**: Faro cloud-cover seasonality and clearer-sky proxy: WeatherSpark says the clearer part of the year runs about 05 June-10 September, July averages clear / mostly clear / partly cloudy 93% of the time, December is overcast / mostly cloudy 44% of the time; monthly cloud-cover text supports an approximate 249 clear/mostly-clear/partly-cloudy day-equivalent proxy for Faro, labelled as broader clearer-sky proxy rather than official sunny-day count
+- **Confidence ceiling**: medium
+- **Stale at**: 2027-07-01

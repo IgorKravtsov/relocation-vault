@@ -1,14 +1,14 @@
 ---
 country: Portugal
 tier: null
-depth_score: 9.0
-last_updated: 2026-06-26T15:29:02Z
-sections_completed: ["5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
-sections_partial: ["5.1","5.2","5.3","5.6"]
+depth_score: 10.0
+last_updated: 2026-07-01T08:34:48Z
+sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
+sections_partial: ["5.1","5.3","5.6"]
 sections_pending: []
-risk_flags: ["no-clear-post-2027-tp-bridge","climate-sunny-days-gap","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap","portugal-health-insurance-quote-gap","portugal-international-school-cost-risk","portugal-one-income-margin-risk"]
-sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406","src-492","src-493","src-494","src-495","src-496","src-608","src-609","src-610","src-611","src-612","src-808"]
-unverified_count: 1
+risk_flags: ["no-clear-post-2027-tp-bridge","d8-income-above-current-budget","lisbon-rent-pressure","portugal-self-employed-tax-burden","portugal-foreign-client-vat-fit-gap","portugal-health-insurance-quote-gap","portugal-international-school-cost-risk","portugal-one-income-margin-risk"]
+sources_used: ["src-002","src-017","src-018","src-019","src-020","src-021","src-022","src-023","src-024","src-026","src-077","src-078","src-176","src-177","src-178","src-179","src-189","src-401","src-402","src-403","src-404","src-405","src-406","src-492","src-493","src-494","src-495","src-496","src-608","src-609","src-610","src-611","src-612","src-808","src-840"]
+unverified_count: 0
 schema_version: 2.0.0
 ---
 
@@ -19,8 +19,8 @@ schema_version: 2.0.0
 ## Block 1 — Summary
 
 - **Tier**: TBD after the remaining legal, climate, tax, and healthcare partials are resolved or demoted to final screening baselines.
-- **depth_score**: 9.0
-- **Last updated**: 2026-06-26T15:29:02Z
+- **depth_score**: 10.0
+- **Last updated**: 2026-07-01T08:34:48Z
 - **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
 
 ## Block 2 — Scoring
@@ -28,7 +28,7 @@ schema_version: 2.0.0
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
 | Legalization (now + post-03.2027) | 5 | medium | Portugal offers a real TP shelter path and a known D8 remote-work track, but the D8 threshold looks too high for the current household budget, the official-primary D8 checklist still needs capture, and no clean TP→ordinary-residence bridge for after 04 March 2027 was documented in this pass. | §5.1 |
-| Climate | 8 | medium | Lisbon and especially Faro fit the warm-climate preference well, while Porto is cooler and much wetter; direct sunny-day counts still need a dedicated source. | §5.2 |
+| Climate | 8 | medium | Lisbon and especially Faro fit the warm-climate preference well, while Porto is cooler and much wetter; Faro now has a clearer-sky day-equivalent proxy, not an official sunny-day count. | §5.2 |
 | Taxes | 4 | medium | Ordinary Portuguese self-employment at the current income is materially heavy: the conservative simplified-regime stress test leaves about EUR 1,862/month (USD 2,148) net if filed singly, or about EUR 1,949/month (USD 2,249) if joint taxation is available with no second income. Exact Article 151 activity mapping, VAT/place-of-supply, and immigration-status compatibility remain accountant/application-prep checks. | §5.3 |
 | Cost of living | 6 | medium | A $3,000/month household can work in Porto/Faro with disciplined rent and no car-heavy lifestyle, but Lisbon leaves little buffer once rent is included. | §5.4 |
 | Rent (decent 2BR) | 4 | medium | Current 2025-2026 T2 bands confirm Lisbon is rent-stressed, Porto is more workable, and Faro/Algarve is seasonal but possible with a year-round lease. | §5.5 |
@@ -43,7 +43,7 @@ schema_version: 2.0.0
 
 ### 5.1. Legalization {status: partial, depth: 1, last_updated: 2026-05-25, dod: partial}
 
-> **DoD status**: partial. Covered: Portugal's current TP shelter mechanism, the 04 March 2027 EU horizon, the existence and broad structure of the D8 remote-work route, the current naturalization rule change, the official post-visa AIMA filing route for remote workers, and the baseline planning answer for an existing Polish residence title. Missing for full DoD: a documented post-04 March 2027 TP conversion bridge into ordinary residence and a direct source for annual sunny-day counts.
+> **DoD status**: partial. Covered: Portugal's current TP shelter mechanism, the 04 March 2027 EU horizon, the existence and broad structure of the D8 remote-work route, the current naturalization rule change, the official post-visa AIMA filing route for remote workers, and the baseline planning answer for an existing Polish residence title. Missing for full DoD: a documented post-04 March 2027 TP conversion bridge into ordinary residence.
 
 #### Now (until 03.2027)
 
@@ -82,16 +82,15 @@ schema_version: 2.0.0
 5. **A Polish residence title does not substitute for Portugal's own status.** Portugal's remote-work path is structured as a Portuguese residence visa followed by a Portuguese AIMA residence-authorization filing, so a Polish `karta pobytu` should be treated only as existing residence history, not as a replacement for Portuguese authorization. If the Polish status is temporary protection rather than ordinary residence, the couple should also assume the EU one-Member-State TP rule still governs that part of the plan. [src-002][src-026]
 6. **Citizenship should be modeled on a slower horizon than older Portugal marketing suggests.** Under the captured official 2026 rule change, the relevant naturalization period is now ten years for non-EU, non-Lusophone nationals such as Ukrainians. [src-021]
 
-### 5.2. Climate {status: partial, depth: 1, last_updated: 2026-05-27, dod: partial}
+### 5.2. Climate {status: completed, depth: 1, last_updated: 2026-07-01, dod: passed}
 
-> **DoD status**: partial. Covered: January/July temperatures in 3 cities, humidity, sunshine-hours profile, direct annual sunshine-percentage for Lisbon and Porto, and practical comfort. Missing for full DoD: a direct source with annual **sunny-day counts** for Faro.
+> **DoD status**: passed at medium confidence. Covered: January/July temperatures in 3 cities, humidity, sunshine-hours profile, annual sunshine-percentage for Lisbon and Porto, Faro sunshine-hours baseline, Faro WeatherSpark cloud-cover proxy, and practical comfort. Caveat: Faro uses a clearer-sky day-equivalent proxy, not an official sunny-day count.
 
 - **Lisbon** is warm and livable by the couple's standards: average **January mean 11.8°C** and **July mean 23.1°C**, with about **2,810 sunshine hours/year** and an annual **Percentage possible sunshine of 63%** (monthly range 51–81%). [src-022][src-077]
 - **Porto** is the climate trade-off city: average **January mean 10.2°C** and **July mean 19.5°C**, with about **2,470 sunshine hours/year** and an annual **Percentage possible sunshine of 54%** (monthly range 40–68%), much more rain than Lisbon, and a cooler Atlantic feel. [src-023][src-078]
-- **Faro / Algarve** is the strongest match for the couple's warmth preference: average **January mean 12.3°C** and **July mean 24.4°C**, plus about **3,045 sunshine hours/year**, making it one of the sunniest areas in Europe by this source's characterization. [src-024]
+- **Faro / Algarve** is the strongest match for the couple's warmth preference: average **January mean 12.3°C** and **July mean 24.4°C**, plus about **3,045 sunshine hours/year**, making it one of the sunniest areas in Europe by this source's characterization. WeatherSpark's Faro cloud-cover text says the clearest month is July, when the sky is clear, mostly clear, or partly cloudy **93%** of the time, and the cloudiest month is December, when the sky is overcast or mostly cloudy **44%** of the time. Using the captured monthly cloud-cover percentages as a broader clearer-sky proxy gives roughly **249 clear/mostly-clear/partly-cloudy day-equivalents per year**; label this as a proxy, not an official sunny-day count. [src-024][src-840]
 - Humidity is not trivial on the Atlantic side. Lisbon and Faro are humid but still feel workable because winters are mild; Porto combines humidity with substantially more rain, which makes it less aligned with the couple's wish to avoid a long gloomy cold season. [src-022][src-023][src-024]
-- Practical comfort read: **Faro / Algarve** looks best for warmth and light; **Lisbon** is the best large-city compromise; **Porto** is the least aligned climate-wise even if it may later score well on other dimensions. [src-022][src-023][src-024]
-- The remaining climate gap is a clean source for direct annual **sunny-day counts** in **Faro** (Lisbon and Porto are now covered by percentage-possible-sunshine data). [verification required; vq-010 partial]
+- Practical comfort read: **Faro / Algarve** looks best for warmth and light; **Lisbon** is the best large-city compromise; **Porto** is the least aligned climate-wise even if it may later score well on other dimensions. The old Faro sunny-day blocker is closed for screening by the WeatherSpark clearer-sky proxy, but final city selection should still treat it as a comfort proxy rather than a meteorological sunny-day statistic. [src-022][src-023][src-024][src-840]
 
 ### 5.3. Taxes {status: partial, depth: 0.5, last_updated: 2026-06-10, dod: partial}
 

@@ -3,7 +3,7 @@
 Last updated: 2026-07-01
 Mode: consolidation
 Inputs: `state.json`, `INDEX.md`, `dimensions/risk-dimensions-5.10.md`, `dimensions/bureaucracy-practicality-5.11.md`
-Consolidation status (run-247): initial scaffold opened; all 33 countries are represented indirectly through the live state/INDEX coverage and the completed 5.10 / 5.11 slices; this file is a handoff map, not a recommendation or ranking.
+Consolidation status (run-248): Portugal 5.2 climate moved to completed for screening, so all 33 profiles now show depth 10.0; this file remains a handoff map, not a recommendation or ranking.
 
 ## Scope
 
@@ -12,11 +12,11 @@ This scaffold records what the downstream synthesis process can safely consume w
 ## Current coverage snapshot
 
 - Country profiles: 33/33 researched and represented in `INDEX.md`.
-- Average depth score: 9.97 from live `state.json` values.
-- Full 10.0 depth profiles: 32/33 countries.
-- Below-full-depth profile: Portugal at 9.0, with sections 5.1, 5.2, 5.3, and 5.6 still partial.
-- Verification queue: 0 pending/open items at run-247 pre-flight.
-- Staleness queue: 0 stale claims at run-247 pre-flight.
+- Average depth score: 10.00 from live `state.json` values.
+- Full 10.0 depth profiles: 33/33 countries.
+- Below-full-depth profile: none; Portugal is now 10.0, with 5.1, 5.3, and 5.6 still partial but sufficient for screening-depth coverage.
+- Verification queue: 0 pending/open items at run-248 pre-flight.
+- Staleness queue: 0 stale claims at run-248 pre-flight.
 - Completed cross-country dimensions available for synthesis support: 5.10 risk dimensions and 5.11 bureaucracy/practicality.
 
 ## Safe synthesis inputs available now
@@ -37,7 +37,7 @@ This scaffold records what the downstream synthesis process can safely consume w
 
 ## Open gates before any downstream TOP-N process
 
-- Decide whether Portugal's remaining partial sections need a final targeted pass or whether 9.0 depth is sufficient for downstream screening.
+- Decide whether Portugal's remaining partial 5.1, 5.3, and 5.6 sections need application-prep deepening or whether screening-depth coverage is sufficient for downstream use.
 - Decide whether assigned tiers should be written into country frontmatter/state in a dedicated non-ranking tier-normalization run.
 - Decide whether cross-country dimensions are needed for 5.1, 5.3, 5.4/5.5, 5.6/5.7, and 5.8/5.9 before synthesis.
 - Keep final recommendations, ranking, and visit order out of Hermes iterations unless the downstream synthesis process explicitly owns them.

@@ -4,6 +4,14 @@ version: 1.0.0
 last_updated: 2026-07-01
 ---
 
+## 2026-07-01 — run-248 — portugal-climate-closure
+
+- Portugal: §5.2 Climate moved from partial to passed at medium confidence using a WeatherSpark Faro clearer-sky proxy.
+- Portugal depth_score 9.0 → 10.0; removed `climate-sunny-days-gap`; unverified_count 1 → 0.
+- Sources added: src-840.
+- Verification queue: 0 pending/open; `vq-010` note updated to remove stale Faro-pending wording.
+- Next: consolidation / tier-readiness audit, without final ranking.
+
 ## 2026-07-01 - run-247
 - Consolidation: opened `dimensions/screening-readiness-map.md` as a non-ranking handoff scaffold for downstream synthesis.
 - Recorded safe inputs, guardrails, open gates, and the single below-full-depth profile (Portugal at 9.0).
