@@ -4,6 +4,11 @@ version: 1.0.0
 last_updated: 2026-07-01
 ---
 
+## 2026-07-01 - run-247
+- Consolidation: opened `dimensions/screening-readiness-map.md` as a non-ranking handoff scaffold for downstream synthesis.
+- Recorded safe inputs, guardrails, open gates, and the single below-full-depth profile (Portugal at 9.0).
+- Sources added: 0; claims added: 0; verification queue: 0 pending.
+
 ## 2026-07-01 - run-246
 - Consolidation: normalized the completed 5.10 risk-dimensions slice after all 33 country rows were already present.
 - Verified the dimension has one row for every country, no duplicate country rows, and source references remain valid.

@@ -1,22 +1,20 @@
 {
   "version": 2,
-  "iteration": 246,
+  "iteration": 247,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-01T02:21:46Z",
+  "last_run_timestamp": "2026-07-01T05:25:47Z",
   "current_focus": {
     "mode": "consolidation",
     "country": null,
-    "sections": [
-      "5.10"
-    ],
-    "criterion": "risk-dimensions"
+    "sections": [],
+    "criterion": "screening-readiness-map"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "5.10 and 5.11 cross-country slices are now normalized for coverage; next consolidation should open a small cross-dimension synthesis scaffold or check another aggregate inconsistency if no verification, staleness, or accepted proposals take priority."
+    "reason": "Screening-readiness map is now opened; next consolidation can audit tier-readiness or decide whether Portugal needs a targeted final pass before downstream synthesis."
   },
   "countries": {
     "Spain": {
