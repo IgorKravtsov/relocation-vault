@@ -1,8 +1,13 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 ---
+
+## 2026-07-01 - run-246
+- Consolidation: normalized the completed 5.10 risk-dimensions slice after all 33 country rows were already present.
+- Verified the dimension has one row for every country, no duplicate country rows, and source references remain valid.
+- Sources added: 0; claims added: 0; verification queue: 0 pending.
 
 ## 2026-06-30 - run-245
 - Consolidation: normalized the completed 5.11 bureaucracy/practicality slice after all 33 country rows were added.

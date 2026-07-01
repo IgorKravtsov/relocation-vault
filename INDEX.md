@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-06-30
+last_updated: 2026-07-01
 ---
 
 # INDEX
@@ -52,4 +52,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 10
 - **Researched**: 33
 - **Average depth_score**: 9.97
-- **Consolidation note**: run-245 verified the 5.11 dimension has one row for each of the 33 countries and corrected this aggregate average from the live `state.json` country scores.
+- **Consolidation note**: run-246 verified the 5.10 risk-dimensions slice has one row for each of the 33 countries, no duplicate country rows, and source references validated; run-245 corrected this aggregate average from the live `state.json` country scores.

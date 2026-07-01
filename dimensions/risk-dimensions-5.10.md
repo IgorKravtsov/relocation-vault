@@ -1,8 +1,9 @@
 # Dimension: Risk dimensions (5.10)
 
-Last updated: 2026-06-26
+Last updated: 2026-07-01
 Mode: criterion-slice
 Countries covered in this slice: Spain, Portugal, Italy, Greece, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama, Mexico, Argentina, UAE, Malaysia, Thailand, Indonesia, Kazakhstan, Armenia
+Consolidation status (run-246): 33/33 country rows present; no duplicate country rows found; source references validated; use this slice as complete for screening until staleness, verification, or application-prep work creates a new trigger.
 
 ## Scope
 
