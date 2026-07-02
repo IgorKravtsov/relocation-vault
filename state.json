@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 253,
+  "iteration": 254,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-01T23:58:55Z",
+  "last_run_timestamp": "2026-07-02T03:02:51Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "Spain",
+    "country": "Portugal",
     "sections": [],
     "criterion": "tier-application-small-batch"
   },
@@ -51,7 +51,7 @@
       "unverified_count": 0
     },
     "Portugal": {
-      "tier": null,
+      "tier": 2,
       "tier_hint": 1,
       "depth_score": 10.0,
       "sections_completed": [
@@ -80,7 +80,7 @@
         "portugal-international-school-cost-risk",
         "portugal-one-income-margin-risk"
       ],
-      "last_iteration": 248,
+      "last_iteration": 254,
       "unverified_count": 0
     },
     "Italy": {

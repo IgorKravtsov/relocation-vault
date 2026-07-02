@@ -1,8 +1,8 @@
 ---
 country: Portugal
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-07-01T08:34:48Z
+last_updated: 2026-07-02T03:02:51Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: []
@@ -18,10 +18,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD after the remaining legal, climate, tax, and healthcare partials are resolved or demoted to final screening baselines.
+- **Tier**: 2 (conditional settlement candidate; medium confidence, not a ranking).
 - **depth_score**: 10.0
-- **Last updated**: 2026-07-01T08:34:48Z
-- **Tier rationale**: Portugal still looks strategically interesting because it combines a live temporary-protection framework with a known remote-work residence route and a warm Atlantic south, but the first pass surfaced two major constraints for this couple: no documented official post-04 March 2027 TP conversion bridge was captured in this iteration, and the D8 remote-work income threshold appears above the couple's current nominal monthly budget.
+- **Last updated**: 2026-07-02T03:02:51Z
+- **Tier rationale**: Portugal is assigned Tier 2 for screening, not Tier 1, because it has a credible ordinary remote-work residence ladder in principle and strong climate/healthcare/life-quality fundamentals, but the captured D8 income threshold is above the couple's current USD 3,000/month budget, no Portugal-specific post-04 March 2027 TP-to-ordinary-residence bridge has been captured, ordinary self-employment taxation compresses the budget, and the 2026 naturalization baseline is now a slower ten-year track for Ukrainians. Treat Portugal as a conditional settlement candidate only if income/savings or another ordinary status can carry the file before TP expiry. [src-002][src-017][src-019][src-020][src-021][src-026][src-401][src-404]
 
 ## Block 2 — Scoring
 

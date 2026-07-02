@@ -31,7 +31,7 @@ countries:
   - name: Portugal
     group: eu-schengen
     tier_hint: 1
-    tier: null
+    tier: 2
     status: pending
   - name: Italy
     group: eu-schengen

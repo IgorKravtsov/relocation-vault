@@ -1,12 +1,12 @@
 # Dimension: Tier-normalization worksheet
 
-Last updated: 2026-07-01
+Last updated: 2026-07-02
 Mode: consolidation
 Inputs: `dimensions/tier-readiness-audit.md`, `state.json`, `INDEX.md`, country Block 1 summaries, partial-section state, risk flags
 
 ## Scope
 
-This worksheet is a non-ranking normalization layer between the completed country profiles and schema-safe writes to `tier` fields. As of run-253, it records both the screening-safe bands for countries still awaiting tier application and the small-batch tier changes already applied. It is not a TOP-N ranking or relocation recommendation.
+This worksheet is a non-ranking normalization layer between the completed country profiles and schema-safe writes to `tier` fields. As of run-254, it records both the screening-safe bands for countries still awaiting tier application and the small-batch tier changes already applied. It is not a TOP-N ranking or relocation recommendation.
 
 ## Guardrails applied
 
@@ -36,6 +36,7 @@ This worksheet is a non-ranking normalization layer between the completed countr
 
 - run-252: Greece assigned `tier: 1` as a schema-safe first application. Rationale: Greek TP holders have a captured legislated bridge into ordinary Immigration Code permits before 04 March 2027, plus a documented remote-work route and a long-stay chain in principle. Confidence remains medium because PR/citizenship timeline details, Article 5C tax fit, DN affordability, insurance, and bureaucracy remain application-prep caveats.
 - run-253: Spain assigned `tier: 2` as the next schema-safe application. Rationale: Spain has an official international-telework route that covers foreign remote work and spouse/unmarried-partner family coverage, but no captured Spain-specific post-2027 TP bridge, tight two-person DN income math, ordinary autonomo tax/social-security burden, and PR/citizenship counting gaps keep it below Tier 1 at screening confidence.
+- run-254: Portugal assigned `tier: 2` as a conditional settlement candidate. Rationale: Portugal has an ordinary remote-work residence ladder in principle and strong climate/healthcare/comfort fundamentals, but the captured D8 income threshold is above the couple's current income, no Portugal-specific post-2027 TP bridge is captured, ordinary self-employment tax compresses the budget, and the current naturalization baseline is ten years for Ukrainians.
 
 ## Next consolidation candidate
 

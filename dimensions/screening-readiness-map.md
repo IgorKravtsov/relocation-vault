@@ -1,9 +1,9 @@
 # Dimension: Screening readiness map
 
-Last updated: 2026-07-01
+Last updated: 2026-07-02
 Mode: consolidation
 Inputs: `state.json`, `INDEX.md`, `dimensions/risk-dimensions-5.10.md`, `dimensions/bureaucracy-practicality-5.11.md`
-Consolidation status (run-253): all 33 profiles remain depth 10.0, the global verification queue has 0 pending/open items, legacy country-local `unverified_count` values are reconciled, and schema-safe tier application has assigned Greece Tier 1 and Spain Tier 2; the remaining 31 countries stay `tier: null`.
+Consolidation status (run-254): all 33 profiles remain depth 10.0, the global verification queue has 0 pending/open items, legacy country-local `unverified_count` values are reconciled, and schema-safe tier application has assigned Greece Tier 1 plus Spain and Portugal Tier 2; the remaining 30 countries stay `tier: null`.
 
 ## Scope
 
@@ -31,15 +31,14 @@ This scaffold records what the downstream synthesis process can safely consume w
 ## Do-not-use-as-final-ranking guardrails
 
 - Do not infer a final country order from row order in any dimension file.
-- Do not treat `tier_hint` as assigned final `tier`; only Greece and Spain have assigned final tiers after run-253, while all other countries remain null until explicit rationale is written.
+- Do not treat `tier_hint` as assigned final `tier`; only Greece, Spain, and Portugal have assigned final tiers after run-254, while all other countries remain null until explicit rationale is written.
 - Do not promote partial 5.1, 5.3, or 5.6 sections into passed sections unless a later iteration explicitly completes them.
 - Do not treat bridge routes such as DN / DTV / DE Rantau / virtual work as settlement ladders unless the country profile already proves a durable follow-on route.
 - Do not collapse application-prep checks into active verification blockers when the queue is already resolved for screening.
 
 ## Open gates before any downstream TOP-N process
 
-- Decide whether Portugal's remaining partial 5.1, 5.3, and 5.6 sections need application-prep deepening or whether screening-depth coverage is sufficient for downstream use.
-- Continue schema-safe small-batch tier application before writing assigned tiers broadly into country frontmatter/state; run-249 confirmed structural readiness, run-250 removed the last legacy unverified-counter mismatch, run-251 added the non-ranking worksheet, run-252 applied Greece, and run-253 applied Spain.
+- Continue schema-safe small-batch tier application before writing assigned tiers broadly into country frontmatter/state; run-249 confirmed structural readiness, run-250 removed the last legacy unverified-counter mismatch, run-251 added the non-ranking worksheet, run-252 applied Greece, and run-253 applied Spain, and run-254 applied Portugal.
 - Decide whether cross-country dimensions are needed for 5.1, 5.3, 5.4/5.5, 5.6/5.7, and 5.8/5.9 before synthesis.
 - Keep final recommendations, ranking, and visit order out of Hermes iterations unless the downstream synthesis process explicitly owns them.
 

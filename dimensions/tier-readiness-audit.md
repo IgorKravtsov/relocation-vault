@@ -1,6 +1,6 @@
 # Dimension: Tier-readiness audit
 
-Last updated: 2026-07-01
+Last updated: 2026-07-02
 Mode: consolidation
 Inputs: `state.json`, `countries.yml`, `INDEX.md`, country frontmatter, `verification-queue.md`, `scripts/find-stale.py`
 
@@ -12,7 +12,7 @@ This is a non-ranking audit. It checks whether the vault is structurally ready f
 
 - Country set: 33/33 countries are present in `countries.yml`, `state.json`, and `INDEX.md`.
 - Screening depth: 33/33 countries have `depth_score: 10.0`.
-- Assigned tiers: 2/33. Greece has `tier: 1` and Spain has `tier: 2` in country frontmatter, `countries.yml`, live state, and `INDEX.md`; the remaining 31 countries still have `tier: null`. Run-251 added the non-ranking worksheet, run-252 started schema-safe tier application, and run-253 continued it with one additional country.
+- Assigned tiers: 3/33. Greece has `tier: 1`; Spain and Portugal have `tier: 2` in country frontmatter, `countries.yml`, live state, and `INDEX.md`; the remaining 30 countries still have `tier: null`. Run-251 added the non-ranking worksheet, run-252 started schema-safe tier application, run-253 continued it with Spain, and run-254 continued it with Portugal.
 - Tier hints: Tier-1 hints 7; Tier-2 hints 15; Tier-3 hints 11.
 - Verification queue: 0 pending/open items.
 - Country-local unverified counters: 0 nonzero values after run-250 reconciliation.

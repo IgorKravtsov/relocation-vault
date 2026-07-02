@@ -1,7 +1,7 @@
 ---
 document: decisions-log
 version: 1.0.0
-last_updated: 2026-07-01
+last_updated: 2026-07-02
 ---
 
 # Decisions Log
@@ -11,6 +11,13 @@ Record of non-trivial decisions made during research, with rationale, sources, a
 Each entry includes: date, decision (1 line), rationale, sources, iteration, counter-evidence considered.
 
 ---
+
+## 2026-07-02 - Portugal assigned Tier 2
+**Decision**: Assign Portugal `tier: 2` as a conditional schema-safe tier-application country, without ranking it against other countries.
+**Rationale**: Portugal has a real Ukraine temporary-protection reception mechanism, an ordinary remote-work residence framework through the D8 / remote-worker route and AIMA residence-authorization stage, strong climate and healthcare fundamentals, and a long-term residence/citizenship ladder in principle. It is not assigned Tier 1 because the captured D8 threshold is above the couple's current USD 3,000/month income, no Portugal-specific post-04 March 2027 TP-to-ordinary-residence bridge has been captured, ordinary self-employed tax/social-security costs compress the budget, and the captured 2026 nationality baseline is ten years for Ukrainians.
+**Source**: src-002, src-017, src-019, src-020, src-021, src-026, src-401, src-404.
+**Iteration**: run-254.
+**Counterevidence considered**: Portugal could become stronger if income rises, savings are sufficient for a D8 family file, another ordinary status is secured before TP expiry, or a Portuguese adviser confirms a better tax/route structure; those upsides are not safe enough to score as Tier 1 in the current vault state.
 
 ## 2026-07-01 - Spain assigned Tier 2
 **Decision**: Assign Spain `tier: 2` as a schema-safe tier-application country, without ranking it against other countries.
