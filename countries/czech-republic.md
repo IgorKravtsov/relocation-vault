@@ -1,8 +1,8 @@
 ---
 country: Czech Republic
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-06-27T09:58:20Z
+last_updated: 2026-07-02T18:26:15Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,16 +16,16 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. First-pass evidence suggests a strategically relevant Tier-2-hint profile: Czechia has an unusually explicit special long-term residence track for Ukrainian temporary-protection holders, but this pass captured it through UNHCR rather than an official-primary Czech page and the normal self-employed/business route has a high evidence burden.
+- **Tier**: 2. Czechia is a conditional settlement candidate rather than a bridge-only country: it has an official-primary special long-term residence anchor for economically self-sufficient Ukrainian TP holders, status-counting toward PR, and an ordinary business/self-employed fallback. It is not Tier 1 because future special-residence round timing, exact unmarried-partner handling, business/self-employed evidence burden, and Czech flat-tax / trade-fit mechanics remain application-prep caveats.
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-27
-- **Tier rationale**: Keep Tier unset until official-primary special-residence future-round timing and flat-tax IT trade fit are researched; bureaucracy/practicality is now screenable for first-pass planning.
+- **Last updated**: 2026-07-02
+- **Tier rationale**: Assigned Tier 2 in run-259 at medium confidence. The route is more concrete than no-bridge countries because special long-term residence and PR status-counting are captured, but the couple should still confirm current round timing, household eligibility, accountant/tax setup, insurance, and Brno/Prague budget fit before relying on Czechia.
 
 ## Block 2 — Scoring
 
 | Criterion | Score (1–10) | Confidence | Brief rationale | Profile section |
 |---|---:|---|---|---|
-| Legalization (now + post-03.2027) | — | N/A | First-pass: TP plus a Czech special long-term residence route may be strong, but official-primary details and current round timing must be verified. | §5.1 |
+| Legalization (now + post-03.2027) | — | N/A | First-pass: TP plus a Czech special long-term residence route may be strong, with an official-primary status anchor captured; later-round timing and household mechanics still need application-prep verification. | §5.1 |
 | Climate | — | medium | Temperate inland climate; winters are real and sunshine is modest compared with Mediterranean targets. Clearer-sky proxies now close the sunny-day blocker at medium confidence. | §5.2 |
 | Taxes | — | medium | First pass: Czech tax residence brings worldwide-income taxation; the promising route is the 2026 flat-tax regime, potentially CZK 9,984/month in band I if foreign-client IT activity qualifies as a 60% expense trade. | §5.3 |
 | Cost of living | — | medium | First-pass Livingcost data shows Czechia is materially more expensive than the cheapest Balkans / Latin America screens, but Brno and especially Ostrava can still fit the couple's gross budget; Prague is tight on the conservative Czech after-tax baseline. | §5.4 |

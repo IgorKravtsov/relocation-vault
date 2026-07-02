@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-02 - Czech Republic assigned Tier 2
+**Decision**: Assign Czech Republic `tier: 2` as a conditional settlement tier, without ranking it against other countries.
+**Rationale**: Czechia has one of the stronger captured post-TP continuity profiles outside the already assigned Tier 1 case: an official-primary Czech IPC page confirms special long-term residence for economically self-sufficient Ukrainian TP holders, the profile captures special-status counting toward PR, and ordinary business/self-employed residence is available as a fallback. It is Tier 2 rather than Tier 1 because future special-residence round timing, exact unmarried-partner treatment, the evidence-heavy business/self-employed fallback, flat-tax / trade-fit mechanics, health-insurance onboarding, and Prague/Brno budget fit still need application-prep confirmation.
+**Source**: src-002, src-053, src-054, src-055, src-056, src-057, src-061, src-293, src-316, src-319, src-497, src-498, src-499, src-500.
+**Iteration**: run-259.
+**Counterevidence considered**: Czechia could become stronger if the couple is already cleanly in Czech TP, future special-residence rounds stay open, marriage or independent TP solves the partner file, and an accountant confirms flat-tax band I for foreign-client IT; it could weaken if the Polish-status interaction blocks TP transfer, future rounds close, or the business route proves too burdensome.
+
 ## 2026-07-02 - Malta assigned Tier X
 **Decision**: Assign Malta `tier: X` as a screening-negative tier for the couple's current income profile, without ranking it against other countries.
 **Rationale**: Malta has EU temporary protection, a clear official Nomad Residence Permit route, English-language practicality, warm climate, and ordinary long-term-residence / naturalisation frameworks. It is still Tier X for the current profile because the NRP requires EUR 42,000/year gross income, above the couple's about USD 3,000/month gross income; the NRP explicitly does not lead to long-term residence or citizenship; no Malta-specific TP-to-ordinary-residence bridge is captured; and the ordinary fallback is tax/rent-tight with adviser-dependent authorised-work, social-security, VAT, and source/remittance treatment.

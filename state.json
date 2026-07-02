@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 258,
+  "iteration": 259,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-02T15:21:16Z",
+  "last_run_timestamp": "2026-07-02T18:26:15Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "Malta",
+    "country": "Czech Republic",
     "sections": [],
     "criterion": "tier-application-small-batch"
   },
@@ -251,7 +251,7 @@
       "unverified_count": 0
     },
     "Czech Republic": {
-      "tier": null,
+      "tier": 2,
       "tier_hint": 2,
       "depth_score": 10.0,
       "sections_completed": [
@@ -280,7 +280,7 @@
         "czech-language-integration-needed",
         "czech-one-income-margin-risk"
       ],
-      "last_iteration": 219,
+      "last_iteration": 259,
       "unverified_count": 0
     },
     "Poland": {

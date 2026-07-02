@@ -17,7 +17,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Cyprus | eu-schengen | 1 | X | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 256 | `countries/cyprus.md` |
 | Croatia | eu-schengen | 1 | X | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 257 | `countries/croatia.md` |
 | Malta | eu-schengen | 1 | X | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 258 | `countries/malta.md` |
-| Czech Republic | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 219 | `countries/czech-republic.md` |
+| Czech Republic | eu-schengen | 2 | 2 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 259 | `countries/czech-republic.md` |
 | Poland | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 250 | `countries/poland.md` |
 | Romania | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 250 | `countries/romania.md` |
 | Bulgaria | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 222 | `countries/bulgaria.md` |
@@ -52,5 +52,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Assigned final tiers**: 7/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta).
-- **Consolidation note**: run-258 continued schema-safe tier application with Malta assigned Tier X after explicit Block 1 rationale. The remaining 26 countries stay `tier: null` until explicit country-by-country tier rationale is applied.
+- **Assigned final tiers**: 8/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic).
+- **Consolidation note**: run-259 continued schema-safe tier application with Czech Republic assigned Tier 2 after explicit Block 1 rationale. The remaining 25 countries stay `tier: null` until explicit country-by-country tier rationale is applied.
