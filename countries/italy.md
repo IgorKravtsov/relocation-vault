@@ -1,8 +1,8 @@
 ---
 country: Italy
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-06-26T18:06:00Z
+last_updated: 2026-07-02T06:07:47Z
 sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. Italy has a usable temporary-protection framework through 4 March 2027 and a formal digital-nomad / remote-worker visa, but the first pass did not find an Italy-specific TP-to-ordinary-residence bridge after March 2027, and the digital-nomad family route clearly covers a spouse and minor children, not an unmarried partner. Tier remains unassigned until taxes, rent, partner status, and post-2027 fallback mechanics are researched.
+- **Tier**: 2 (medium confidence). Italy is a conditional settlement candidate rather than a Tier 1 case: it has a real temporary-protection framework through 4 March 2027, a formal digital-nomad / remote-worker visa, and a 10-year citizenship-by-residence baseline in principle, but the profile still lacks an Italy-specific TP-to-ordinary-residence bridge and the DN file is high-friction.
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-26T18:06:00Z
-- **Tier rationale**: Italy looks operationally plausible for a married couple if the IT worker can prove a highly specialized remote-work profile and stable income, but long-term stay after TP still depends on switching to an ordinary permit rather than relying on TP.
+- **Last updated**: 2026-07-02T06:07:47Z
+- **Tier rationale**: Italy fits Tier 2 for screening because a highly specialized IT worker may be able to switch to an ordinary DN / remote-worker permit and later pursue the long-stay ladder, especially if the couple marries and chooses Palermo / Naples over Rome / Milan. It is not Tier 1 in the current vault state because no post-2027 TP bridge is captured, unmarried-partner sponsorship is unsupported by the captured DN family wording, the route requires a registered lease and specialized-worker proof, and the one-income budget works mainly in lower-rent cities.
 
 ## Block 2 — Scoring
 

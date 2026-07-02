@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 254,
+  "iteration": 255,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-02T03:02:51Z",
+  "last_run_timestamp": "2026-07-02T06:07:47Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "Portugal",
+    "country": "Italy",
     "sections": [],
     "criterion": "tier-application-small-batch"
   },
@@ -84,7 +84,7 @@
       "unverified_count": 0
     },
     "Italy": {
-      "tier": null,
+      "tier": 2,
       "tier_hint": 1,
       "depth_score": 10.0,
       "sections_completed": [
@@ -114,7 +114,7 @@
         "italy-international-school-cost-risk",
         "italian-language-integration-needed"
       ],
-      "last_iteration": 214,
+      "last_iteration": 255,
       "unverified_count": 0
     },
     "Greece": {

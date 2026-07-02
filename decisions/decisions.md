@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-02 - Italy assigned Tier 2
+**Decision**: Assign Italy `tier: 2` as a conditional schema-safe tier-application country, without ranking it against other countries.
+**Rationale**: Italy has a live Ukrainian temporary-protection framework through 04 March 2027, a formal digital-nomad / remote-worker route for highly specialized remote workers, workable forfetario-style tax screening if eligibility is confirmed, and lower-rent southern city options. It is not assigned Tier 1 because the captured profile has no Italy-specific TP-to-ordinary-residence bridge, the DN path is paperwork-heavy and lease-dependent, the captured family route clearly covers spouse/minor children rather than an unmarried partner, and the current one-income budget works mainly in Palermo / Naples rather than Rome / Milan.
+**Source**: src-002, src-027, src-028, src-034, src-287, src-288, src-290, src-293, src-397, src-399, src-400.
+**Iteration**: run-255.
+**Counterevidence considered**: Italy could improve if the couple marries, a commercialista confirms forfetario / ATECO / INPS fit, a serving consulate accepts the DN evidence cleanly, or Italy later publishes a TP transition mechanism; those upsides are not safe enough to score as Tier 1 in the current vault state.
+
 ## 2026-07-02 - Portugal assigned Tier 2
 **Decision**: Assign Portugal `tier: 2` as a conditional schema-safe tier-application country, without ranking it against other countries.
 **Rationale**: Portugal has a real Ukraine temporary-protection reception mechanism, an ordinary remote-work residence framework through the D8 / remote-worker route and AIMA residence-authorization stage, strong climate and healthcare fundamentals, and a long-term residence/citizenship ladder in principle. It is not assigned Tier 1 because the captured D8 threshold is above the couple's current USD 3,000/month income, no Portugal-specific post-04 March 2027 TP-to-ordinary-residence bridge has been captured, ordinary self-employed tax/social-security costs compress the budget, and the captured 2026 nationality baseline is ten years for Ukrainians.

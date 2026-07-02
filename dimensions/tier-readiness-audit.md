@@ -12,7 +12,7 @@ This is a non-ranking audit. It checks whether the vault is structurally ready f
 
 - Country set: 33/33 countries are present in `countries.yml`, `state.json`, and `INDEX.md`.
 - Screening depth: 33/33 countries have `depth_score: 10.0`.
-- Assigned tiers: 3/33. Greece has `tier: 1`; Spain and Portugal have `tier: 2` in country frontmatter, `countries.yml`, live state, and `INDEX.md`; the remaining 30 countries still have `tier: null`. Run-251 added the non-ranking worksheet, run-252 started schema-safe tier application, run-253 continued it with Spain, and run-254 continued it with Portugal.
+- Assigned tiers: 4/33. Greece has `tier: 1`; Spain, Portugal, and Italy have `tier: 2` in country frontmatter, `countries.yml`, live state, and `INDEX.md`; the remaining 29 countries still have `tier: null`. Run-251 added the non-ranking worksheet, run-252 started schema-safe tier application, run-253 continued it with Spain, run-254 continued it with Portugal, and run-255 continued it with Italy.
 - Tier hints: Tier-1 hints 7; Tier-2 hints 15; Tier-3 hints 11.
 - Verification queue: 0 pending/open items.
 - Country-local unverified counters: 0 nonzero values after run-250 reconciliation.
@@ -21,7 +21,7 @@ This is a non-ranking audit. It checks whether the vault is structurally ready f
 
 ## Readiness conclusion
 
-The vault is in the **dedicated tier-normalization workflow**: runs 252-253 applied the first two country tiers, but broad automatic tier assignment is still forbidden. The inputs are complete enough to compare countries for screening, but assigned tiers should be written only in a focused run that explicitly records rationale, confidence, and caveats per country.
+The vault is in the **dedicated tier-normalization workflow**: runs 252-255 applied the first four country tiers, but broad automatic tier assignment is still forbidden. The inputs are complete enough to compare countries for screening, but assigned tiers should be written only in a focused run that explicitly records rationale, confidence, and caveats per country.
 
 ## Required guardrails for tier normalization
 

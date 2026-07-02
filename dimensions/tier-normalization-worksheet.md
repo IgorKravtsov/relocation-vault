@@ -6,7 +6,7 @@ Inputs: `dimensions/tier-readiness-audit.md`, `state.json`, `INDEX.md`, country 
 
 ## Scope
 
-This worksheet is a non-ranking normalization layer between the completed country profiles and schema-safe writes to `tier` fields. As of run-254, it records both the screening-safe bands for countries still awaiting tier application and the small-batch tier changes already applied. It is not a TOP-N ranking or relocation recommendation.
+This worksheet is a non-ranking normalization layer between the completed country profiles and schema-safe writes to `tier` fields. As of run-255, it records both the screening-safe bands for countries still awaiting tier application and the small-batch tier changes already applied. It is not a TOP-N ranking or relocation recommendation.
 
 ## Guardrails applied
 
@@ -20,7 +20,7 @@ This worksheet is a non-ranking normalization layer between the completed countr
 
 | Band | Countries | Screening interpretation | Confidence limit |
 |---|---|---|---|
-| Durable-settlement candidate | Spain, Portugal, Italy, Greece, Cyprus, Croatia | Has a plausible long-stay or remote-work / self-employment route plus an EU-style residence/citizenship ladder, but each still has route, tax, insurance, or budget caveats before final tier assignment. | Medium until exact post-2027 bridge, tax-status, health-insurance, and filing-route details are checked per country. |
+| Durable-settlement candidate | Spain, Portugal, Italy, Greece, Cyprus, Croatia | Has a plausible long-stay or remote-work / self-employment route plus an EU-style residence/citizenship ladder, but countries still awaiting tier application in this band need explicit route, tax, insurance, and budget caveats before any final tier write. | Medium until exact post-2027 bridge, tax-status, health-insurance, and filing-route details are checked per country. |
 | Conditional EU / nearby-Europe candidate | Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania | Has a plausible residence or ordinary-status path for screening, but the durable ladder is more conditional, income-gated, tax-heavy, evidence-heavy, or dependent on ordinary business/self-employment mechanics. | Medium-low to medium; do not treat these as Tier 1 without country-specific legal/tax confirmation. |
 | Ordinary-residence / Latin America candidate | Uruguay, Paraguay, Panama | Has an ordinary residence or lawful-activity route that can screen on the current budget, but exact means-of-life, tax registration, dependent, and long-term-status mechanics need application-prep checks. | Medium; not automatically above EU options because distance, services, healthcare, and professional-support depth differ. |
 | Bridge / high-burden / uncertain-settlement candidate | North Macedonia, Bosnia and Herzegovina, Moldova, Mexico, Argentina, UAE, Malaysia, Thailand, Indonesia, Kazakhstan, Armenia | Useful for bridge/base or ordinary-business planning, but the captured route is income-gated, short-term, high-burden, uncertain for remote IT settlement, or weak as a predictable PR/citizenship ladder for the couple's current profile. | Medium-low for final tier; keep final `tier` null until a schema-safe tier application pass writes explicit country rationales. |
@@ -37,6 +37,7 @@ This worksheet is a non-ranking normalization layer between the completed countr
 - run-252: Greece assigned `tier: 1` as a schema-safe first application. Rationale: Greek TP holders have a captured legislated bridge into ordinary Immigration Code permits before 04 March 2027, plus a documented remote-work route and a long-stay chain in principle. Confidence remains medium because PR/citizenship timeline details, Article 5C tax fit, DN affordability, insurance, and bureaucracy remain application-prep caveats.
 - run-253: Spain assigned `tier: 2` as the next schema-safe application. Rationale: Spain has an official international-telework route that covers foreign remote work and spouse/unmarried-partner family coverage, but no captured Spain-specific post-2027 TP bridge, tight two-person DN income math, ordinary autonomo tax/social-security burden, and PR/citizenship counting gaps keep it below Tier 1 at screening confidence.
 - run-254: Portugal assigned `tier: 2` as a conditional settlement candidate. Rationale: Portugal has an ordinary remote-work residence ladder in principle and strong climate/healthcare/comfort fundamentals, but the captured D8 income threshold is above the couple's current income, no Portugal-specific post-2027 TP bridge is captured, ordinary self-employment tax compresses the budget, and the current naturalization baseline is ten years for Ukrainians.
+- run-255: Italy assigned `tier: 2` as a conditional settlement candidate. Rationale: Italy has TP through 04 March 2027, a formal DN / remote-worker route, and a long-stay / citizenship ladder in principle, but no Italy-specific TP bridge is captured, unmarried-partner coverage is unsupported, the DN file requires specialized-worker proof and a registered lease, and budget fit depends on lower-rent cities.
 
 ## Next consolidation candidate
 
