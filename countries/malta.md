@@ -1,8 +1,8 @@
 ---
 country: Malta
-tier: null
+tier: X
 depth_score: 10.0
-last_updated: 2026-06-27T07:42:00Z
+last_updated: 2026-07-02T15:21:16Z
 sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. First-pass evidence makes Malta a mixed legalization candidate: it has EU temporary protection and a well-documented Nomad Residence Permit, but the nomad route requires EUR 42,000/year gross income and explicitly does not lead to long-term residence or citizenship by itself [src-047][src-049].
+- **Tier**: X (screening-negative at the current income profile; not a TOP-N ranking). Malta has EU temporary protection and unusually clear Nomad Residence Permit materials, but the only captured remote-work route requires EUR 42,000/year gross income, is above the couple's current about USD 3,000/month gross profile, and explicitly does not lead to long-term residence or citizenship by itself [src-047][src-049].
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-27
-- **Tier rationale**: Do not classify yet. Main current risks are that the couple's current USD 3,000/month is below the nomad threshold, the NRP does not lead to PR/citizenship, the ordinary fallback is tax/rent-tight, and the exact Maltese tax/social-security treatment of foreign-client IT work under the NRP still needs adviser confirmation [src-002][src-049][src-311][src-312][src-376].
+- **Last updated**: 2026-07-02
+- **Tier rationale**: Assign Tier X for the current profile because no Malta-specific post-2027 TP-to-ordinary-residence bridge is captured, the NRP income gate is currently missed, NRP residence is non-converting for PR/citizenship, and the ordinary fallback remains tax/rent-tight with adviser-dependent NRP authorised-work / social-security / VAT treatment [src-002][src-047][src-049][src-311][src-312][src-376]. This could be reconsidered only if income rises above the NRP threshold or a countable ordinary Maltese status is proven.
 
 ## Block 2 — Scoring
 

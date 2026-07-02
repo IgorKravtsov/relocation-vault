@@ -12,7 +12,7 @@ This is a non-ranking audit. It checks whether the vault is structurally ready f
 
 - Country set: 33/33 countries are present in `countries.yml`, `state.json`, and `INDEX.md`.
 - Screening depth: 33/33 countries have `depth_score: 10.0`.
-- Assigned tiers: 6/33. Greece has `tier: 1`; Spain, Portugal, and Italy have `tier: 2`; Cyprus and Croatia have `tier: X` in country frontmatter, `countries.yml`, live state, and `INDEX.md`; the remaining 27 countries still have `tier: null`. Run-251 added the non-ranking worksheet, run-252 started schema-safe tier application, run-253 continued it with Spain, run-254 continued it with Portugal, run-255 continued it with Italy, run-256 continued it with Cyprus, and run-257 continued it with Croatia.
+- Assigned tiers: 7/33. Greece has `tier: 1`; Spain, Portugal, and Italy have `tier: 2`; Cyprus, Croatia, and Malta have `tier: X` in country frontmatter, `countries.yml`, live state, and `INDEX.md`; the remaining 26 countries still have `tier: null`. Run-251 added the non-ranking worksheet, run-252 started schema-safe tier application, run-253 continued it with Spain, run-254 continued it with Portugal, run-255 continued it with Italy, run-256 continued it with Cyprus, run-257 continued it with Croatia, and run-258 continued it with Malta.
 - Tier hints: Tier-1 hints 7; Tier-2 hints 15; Tier-3 hints 11.
 - Verification queue: 0 pending/open items.
 - Country-local unverified counters: 0 nonzero values after run-250 reconciliation.
@@ -21,7 +21,7 @@ This is a non-ranking audit. It checks whether the vault is structurally ready f
 
 ## Readiness conclusion
 
-The vault is in the **dedicated tier-normalization workflow**: runs 252-257 applied the first six country tiers, but broad automatic tier assignment is still forbidden. The inputs are complete enough to compare countries for screening, but assigned tiers should be written only in a focused run that explicitly records rationale, confidence, and caveats per country.
+The vault is in the **dedicated tier-normalization workflow**: runs 252-258 applied the first seven country tiers, but broad automatic tier assignment is still forbidden. The inputs are complete enough to compare countries for screening, but assigned tiers should be written only in a focused run that explicitly records rationale, confidence, and caveats per country.
 
 ## Required guardrails for tier normalization
 

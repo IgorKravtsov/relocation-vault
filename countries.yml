@@ -56,7 +56,7 @@ countries:
   - name: Malta
     group: eu-schengen
     tier_hint: 1
-    tier: null
+    tier: X
     status: pending
   - name: Czech Republic
     group: eu-schengen

@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-02 - Malta assigned Tier X
+**Decision**: Assign Malta `tier: X` as a screening-negative tier for the couple's current income profile, without ranking it against other countries.
+**Rationale**: Malta has EU temporary protection, a clear official Nomad Residence Permit route, English-language practicality, warm climate, and ordinary long-term-residence / naturalisation frameworks. It is still Tier X for the current profile because the NRP requires EUR 42,000/year gross income, above the couple's about USD 3,000/month gross income; the NRP explicitly does not lead to long-term residence or citizenship; no Malta-specific TP-to-ordinary-residence bridge is captured; and the ordinary fallback is tax/rent-tight with adviser-dependent authorised-work, social-security, VAT, and source/remittance treatment.
+**Source**: src-002, src-047, src-049, src-050, src-051, src-311, src-312, src-376.
+**Iteration**: run-258.
+**Counterevidence considered**: Malta could improve if income rises above the NRP threshold, the couple can prove spouse or de facto partner dependency cleanly, a countable ordinary status is found, or Maltese tax advice confirms a budget-safe setup; those upsides are not safe enough for the current-profile tier.
+
 ## 2026-07-02 - Croatia assigned Tier X
 **Decision**: Assign Croatia `tier: X` as a screening-negative tier for the couple's current income profile, without ranking it against other countries.
 **Rationale**: Croatia has EU temporary protection through 04 March 2027, an official digital-nomad temporary-stay route, common-law partner coverage, strong Adriatic climate / comfort signals, and screenable bureaucracy. It is still Tier X for the current profile because the captured DN means threshold is EUR 3,622.50/month before the partner uplift, above the couple's about USD 3,000/month gross income; the route is capped at 18 months with a cooling-off period; no Croatia-specific TP-to-ordinary-residence bridge is captured; and the ordinary self-employment / lump-sum craft tax setup remains accountant-dependent with tight one-income rent/tax margins.
