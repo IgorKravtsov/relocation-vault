@@ -51,7 +51,7 @@ countries:
   - name: Croatia
     group: eu-schengen
     tier_hint: 1
-    tier: null
+    tier: X
     status: pending
   - name: Malta
     group: eu-schengen

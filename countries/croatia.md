@@ -1,8 +1,8 @@
 ---
 country: Croatia
-tier: null
+tier: X
 depth_score: 10.0
-last_updated: 2026-06-27T03:48:32Z
+last_updated: 2026-07-02T12:17:07Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD (do not assign yet). Croatia has EU temporary protection, a formal digital-nomad temporary-stay route, and an attractive Adriatic climate, but the digital-nomad income floor is above the couple's current ~$3,000/month budget and no Croatia-specific post-04 March 2027 TP-to-ordinary-residence bridge was captured in this first pass.
+- **Tier**: X (screening-negative at the current income profile; not a ranking). Croatia has EU temporary protection through 04 March 2027, an operational digital-nomad temporary-stay route, common-law partner coverage, and strong Adriatic comfort signals, but the captured DN means floor is EUR 3,622.50/month before partner uplift, above the couple's current about USD 3,000/month gross income. The DN route is capped at 18 months with a cooling-off period, no Croatia-specific post-TP bridge is captured, ordinary self-employment / lump-sum craft fit remains accountant-dependent, and the conservative tax/rent model makes one-income planning tight.
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-27
-- **Tier rationale**: Keep unranked until ordinary residence after TP and the exact Croatian self-employed contribution / lump-sum craft setup are researched beyond the current first-pass sections. Bureaucracy/practicality, comfort, and partner/student fit are now screenable.
+- **Last updated**: 2026-07-02
+- **Tier rationale**: Assign Tier X for current-profile screening because the only captured non-local-employer route is income-blocked and temporary, while no reliable ordinary-residence bridge after TP is captured. Reconsider only if income rises above the DN family threshold, a Croatian post-TP / ordinary self-employment route is proven, or a Croatian accountant confirms a low-burden craft setup compatible with the immigration file.
 
 ## Block 2 — Scoring
 

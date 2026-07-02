@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-02 - Croatia assigned Tier X
+**Decision**: Assign Croatia `tier: X` as a screening-negative tier for the couple's current income profile, without ranking it against other countries.
+**Rationale**: Croatia has EU temporary protection through 04 March 2027, an official digital-nomad temporary-stay route, common-law partner coverage, strong Adriatic climate / comfort signals, and screenable bureaucracy. It is still Tier X for the current profile because the captured DN means threshold is EUR 3,622.50/month before the partner uplift, above the couple's about USD 3,000/month gross income; the route is capped at 18 months with a cooling-off period; no Croatia-specific TP-to-ordinary-residence bridge is captured; and the ordinary self-employment / lump-sum craft tax setup remains accountant-dependent with tight one-income rent/tax margins.
+**Source**: src-002, src-040, src-041, src-293, src-306, src-310, src-381, src-382, src-383, src-385.
+**Iteration**: run-257.
+**Counterevidence considered**: Croatia could improve if income rises above the DN family threshold, the couple can document common-law partnership or marry, a Croatian post-TP / ordinary-status bridge is captured, and an accountant confirms a low-burden lump-sum craft route compatible with the immigration file; those upsides are not safe enough for the current-profile tier.
+
 ## 2026-07-02 - Cyprus assigned Tier X
 **Decision**: Assign Cyprus `tier: X` as a screening-negative tier for the couple's current income profile, without ranking it against other countries.
 **Rationale**: Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the Digital Nomad gate is EUR 3,500/month net after taxes/contributions, above the couple's current USD 3,000/month gross income. The profile also has no captured Cyprus-specific TP-to-ordinary-residence bridge after 04 March 2027, DN family coverage requires spouse or civil-union formalization, family members cannot work locally, and the one-income budget remains tight even in Larnaca/Nicosia after tax and rent modelling.
