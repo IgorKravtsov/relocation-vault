@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-02 - Poland assigned Tier 1
+**Decision**: Assign Poland `tier: 1` as a user-specific / CUKR-bridge settlement tier, without ranking it against other countries.
+**Rationale**: Poland is unusually strong for this couple because one partner already has a Polish `karta pobytu`, giving a family-reunification angle if the couple marries, and because the captured CUKR framework gives eligible Ukrainian TP holders a 3-year post-TP temporary residence permit before 04 March 2027. The CUKR card includes work and business rights, and the profile captures CUKR time as counting toward EU long-term residence, which makes a remote-IT / self-employment file plausibly durable enough for Tier 1 screening.
+**Source**: src-002, src-062, src-063, src-091, src-293, src-320, src-321, src-323, src-501, src-502, src-503, src-504, src-758, src-759, src-815.
+**Iteration**: run-260.
+**Counterevidence considered**: Confidence remains medium rather than high because the standard post-CUKR renewal category, exact PR/citizenship counting, Polish-language integration, ZUS social-contribution table, 12% IT `ryczalt` classification, VAT / reverse-charge mechanics, private-insurance quotes, and Warsaw/Krakow/Wroclaw one-income budget all remain application-prep caveats.
+
 ## 2026-07-02 - Czech Republic assigned Tier 2
 **Decision**: Assign Czech Republic `tier: 2` as a conditional settlement tier, without ranking it against other countries.
 **Rationale**: Czechia has one of the stronger captured post-TP continuity profiles outside the already assigned Tier 1 case: an official-primary Czech IPC page confirms special long-term residence for economically self-sufficient Ukrainian TP holders, the profile captures special-status counting toward PR, and ordinary business/self-employed residence is available as a fallback. It is Tier 2 rather than Tier 1 because future special-residence round timing, exact unmarried-partner treatment, the evidence-heavy business/self-employed fallback, flat-tax / trade-fit mechanics, health-insurance onboarding, and Prague/Brno budget fit still need application-prep confirmation.

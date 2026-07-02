@@ -3,7 +3,7 @@
 Last updated: 2026-07-02
 Mode: consolidation
 Inputs: `state.json`, `INDEX.md`, `dimensions/risk-dimensions-5.10.md`, `dimensions/bureaucracy-practicality-5.11.md`
-Consolidation status (run-258): all 33 profiles remain depth 10.0, the global verification queue has 0 pending/open items, legacy country-local `unverified_count` values are reconciled, and schema-safe tier application has assigned Greece Tier 1, Spain / Portugal / Italy / Czech Republic Tier 2, and Cyprus / Croatia / Malta Tier X; the remaining 25 countries stay `tier: null`.
+Consolidation status (run-260): all 33 profiles remain depth 10.0, the global verification queue has 0 pending/open items, legacy country-local `unverified_count` values are reconciled, and schema-safe tier application has assigned Greece / Poland Tier 1, Spain / Portugal / Italy / Czech Republic Tier 2, and Cyprus / Croatia / Malta Tier X; the remaining 24 countries stay `tier: null`.
 
 ## Scope
 
@@ -31,14 +31,14 @@ This scaffold records what the downstream synthesis process can safely consume w
 ## Do-not-use-as-final-ranking guardrails
 
 - Do not infer a final country order from row order in any dimension file.
-- Do not treat `tier_hint` as assigned final `tier`; only Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, and Czech Republic have assigned final tiers after run-259, while all other countries remain null until explicit rationale is written.
+- Do not treat `tier_hint` as assigned final `tier`; only Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, and Poland have assigned final tiers after run-260, while all other countries remain null until explicit rationale is written.
 - Do not promote partial 5.1, 5.3, or 5.6 sections into passed sections unless a later iteration explicitly completes them.
 - Do not treat bridge routes such as DN / DTV / DE Rantau / virtual work as settlement ladders unless the country profile already proves a durable follow-on route.
 - Do not collapse application-prep checks into active verification blockers when the queue is already resolved for screening.
 
 ## Open gates before any downstream TOP-N process
 
-- Continue schema-safe small-batch tier application before writing assigned tiers broadly into country frontmatter/state; run-249 confirmed structural readiness, run-250 removed the last legacy unverified-counter mismatch, run-251 added the non-ranking worksheet, run-252 applied Greece, run-253 applied Spain, run-254 applied Portugal, run-255 applied Italy, run-256 applied Cyprus, run-257 applied Croatia, run-258 applied Malta, and run-259 applied Czech Republic.
+- Continue schema-safe small-batch tier application before writing assigned tiers broadly into country frontmatter/state; run-249 confirmed structural readiness, run-250 removed the last legacy unverified-counter mismatch, run-251 added the non-ranking worksheet, run-252 applied Greece, run-253 applied Spain, run-254 applied Portugal, run-255 applied Italy, run-256 applied Cyprus, run-257 applied Croatia, run-258 applied Malta, run-259 applied Czech Republic, and run-260 applied Poland.
 - Decide whether cross-country dimensions are needed for 5.1, 5.3, 5.4/5.5, 5.6/5.7, and 5.8/5.9 before synthesis.
 - Keep final recommendations, ranking, and visit order out of Hermes iterations unless the downstream synthesis process explicitly owns them.
 

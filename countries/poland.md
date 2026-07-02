@@ -1,8 +1,8 @@
 ---
 country: Poland
-tier: null
+tier: 1
 depth_score: 10.0
-last_updated: 2026-07-01T14:47:09Z
+last_updated: 2026-07-02T21:30:04Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -18,10 +18,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD (set after sufficient evidence; justify with sources)
+- **Tier**: 1 (medium confidence; assigned for screening, not a final recommendation)
 - **depth_score**: 10.0
-- **Last updated**: 2026-07-01
-- **Tier rationale**: TBD. Poland is a uniquely relevant case because one partner already holds a Polish `karta pobytu` (residence permit), which creates a family-reunification path that does not exist for most other countries in the set. The new CUKR card (May 2026) also provides a clear post-2027 bridge for Ukrainian temporary-protection holders. If both paths hold, Poland could rate Tier 1 or Tier 2; the first tax pass suggests the self-employed tax answer can be workable, but exact ZUS and IT lump-sum classification require accountant confirmation.
+- **Last updated**: 2026-07-02
+- **Tier rationale**: Poland is assigned Tier 1 because it is the only profile with both direct user-specific relevance (one partner already has a Polish `karta pobytu`) and a captured post-TP bridge: the CUKR card gives eligible Ukrainian TP holders a 3-year temporary residence permit before 04 March 2027, includes work / business rights, and is captured as counting toward EU long-term residence. Family reunification via the existing Polish residence permit gives a second practical route if the couple marries. Confidence stays medium because the ordinary post-CUKR permit, exact PR/citizenship counting, Polish-language integration, ZUS / `ryczalt` IT classification, and Warsaw/Krakow/Wroclaw one-income budget fit remain application-prep caveats; this is not a TOP-N ranking.
 
 ## Block 2 — Scoring
 

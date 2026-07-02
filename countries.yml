@@ -66,7 +66,7 @@ countries:
   - name: Poland
     group: eu-schengen
     tier_hint: 2
-    tier: null
+    tier: 1
     status: pending
   - name: Romania
     group: eu-schengen
