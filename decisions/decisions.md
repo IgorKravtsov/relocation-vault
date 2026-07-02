@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-01 - Spain assigned Tier 2
+**Decision**: Assign Spain `tier: 2` as a schema-safe tier-application country, without ranking it against other countries.
+**Rationale**: Spain has a credible non-local-employer residence path through the official international-telework route, which covers foreign remote work and family coverage for a spouse or unmarried partner, plus a current Ukrainian temporary-protection baseline with residence, work, medical-assistance, and study rights. It is not assigned Tier 1 because the profile still lacks a captured Spain-specific post-04 March 2027 TP-to-ordinary-residence bridge, the two-person DN income formula is tight for the couple's current income, ordinary autonomo tax/social-security costs compress the budget, and exact PR/citizenship counting remains a legal/application-prep check.
+**Source**: src-002, src-011, src-012, src-013, src-281, src-285.
+**Iteration**: run-253.
+**Counterevidence considered**: Spain remains a strong practical candidate if income rises, the couple can evidence the unmarried partnership, or a gestor confirms favorable tax/social-security structuring; however those upsides are not safe enough to score as Tier 1 in the current vault state.
+
 ## 2026-07-01 - Greece assigned Tier 1
 **Decision**: Assign Greece `tier: 1` as the first schema-safe tier-application country, without ranking it against other countries.
 **Rationale**: Greece has the strongest captured post-TP legal bridge: temporary-protection holders may apply for ordinary Immigration Code permits through the electronic immigration portal before 04 March 2027, without an entry visa. The profile also has a documented DN route, tax/rent/healthcare/education/comfort/bureaucracy screening, and a long-stay chain into permanent residence / citizenship in principle.

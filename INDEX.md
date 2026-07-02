@@ -10,7 +10,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 
 | Country | Group | Tier hint | Tier | depth_score | Sections done | Last iter | Profile |
 |---------|-------|----------:|------|------------:|---------------|----------:|---------|
-| Spain | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.6 | 212 | `countries/spain.md` |
+| Spain | eu-schengen | 1 | 2 | 10.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.6 | 253 | `countries/spain.md` |
 | Portugal | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 248 | `countries/portugal.md` |
 | Italy | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.6 | 214 | `countries/italy.md` |
 | Greece | eu-schengen | 1 | 1 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 252 | `countries/greece.md` |
@@ -52,5 +52,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Assigned final tiers**: 1/33 (Greece).
-- **Consolidation note**: run-252 began schema-safe tier application with Greece only, preserving non-ranking guardrails. The remaining 32 countries stay `tier: null` until explicit country-by-country tier rationale is applied.
+- **Assigned final tiers**: 2/33 (Greece, Spain).
+- **Consolidation note**: run-253 continued schema-safe tier application with Spain assigned Tier 2 after explicit Block 1 rationale. The remaining 31 countries stay `tier: null` until explicit country-by-country tier rationale is applied.

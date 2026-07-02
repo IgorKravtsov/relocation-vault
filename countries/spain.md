@@ -1,8 +1,8 @@
 ---
 country: Spain
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-06-26T12:23:52Z
+last_updated: 2026-07-01T23:58:55Z
 sections_completed: ["5.2","5.3","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.6"]
 sections_pending: []
@@ -18,10 +18,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD after remaining legal long-term and healthcare details are added.
+- **Tier**: 2 (medium confidence; schema-safe assignment in run-253, not a ranking).
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-26T12:23:52Z
-- **Tier rationale**: Spain already has a strong remote-work legalization route, a mature temporary-protection system for Ukrainians, passed climate coverage, a practical ordinary freelancer-tax baseline, first-pass cost/rent plus healthcare/education screening, and now passed comfort and partner/student-fit screening. The main remaining caveats are no captured post-04 March 2027 TP-to-ordinary-residence bridge, tight couple-income math for the digital nomad route, heavy autonomous-worker tax/social-security burden at the couple's current income, rent pressure in Madrid/Barcelona/Malaga, uncaptured live private-insurance quotes for a DN filing, and Spanish-language integration needs for daily life / public schooling; bureaucracy is now screenable but still needs a serving-consulate and gestor check before filing.
+- **Last updated**: 2026-07-01T23:58:55Z
+- **Tier rationale**: Spain has a credible long-stay planning path for the couple because the official international-telework route covers foreign remote work and explicitly includes a spouse or unmarried partner, while temporary protection gives Ukrainians a current residence/work/study baseline through the EU horizon. It is assigned Tier 2 rather than Tier 1 because no captured Spanish post-04 March 2027 TP-to-ordinary-residence bridge matches Greece's stronger bridge, the two-person DN income formula is tight for the couple's current budget, ordinary autonomo tax/social-security costs materially compress net income, and exact PR/citizenship counting remains an application-prep/legal check. This is a screening tier only, not a final TOP-N recommendation. [src-002][src-011][src-012][src-013][src-281][src-285]
 
 ## Block 2 — Scoring
 
