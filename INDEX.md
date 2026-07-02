@@ -14,7 +14,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Portugal | eu-schengen | 1 | 2 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 254 | `countries/portugal.md` |
 | Italy | eu-schengen | 1 | 2 | 10.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.6 | 255 | `countries/italy.md` |
 | Greece | eu-schengen | 1 | 1 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 252 | `countries/greece.md` |
-| Cyprus | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 216 | `countries/cyprus.md` |
+| Cyprus | eu-schengen | 1 | X | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 256 | `countries/cyprus.md` |
 | Croatia | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 217 | `countries/croatia.md` |
 | Malta | eu-schengen | 1 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 218 | `countries/malta.md` |
 | Czech Republic | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 219 | `countries/czech-republic.md` |
@@ -52,5 +52,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Assigned final tiers**: 4/33 (Greece, Spain, Portugal, Italy).
-- **Consolidation note**: run-255 continued schema-safe tier application with Italy assigned Tier 2 after explicit Block 1 rationale. The remaining 29 countries stay `tier: null` until explicit country-by-country tier rationale is applied.
+- **Assigned final tiers**: 5/33 (Greece, Spain, Portugal, Italy, Cyprus).
+- **Consolidation note**: run-256 continued schema-safe tier application with Cyprus assigned Tier X after explicit Block 1 rationale. The remaining 28 countries stay `tier: null` until explicit country-by-country tier rationale is applied.

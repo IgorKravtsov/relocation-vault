@@ -1,8 +1,8 @@
 ---
 country: Cyprus
-tier: null
+tier: X
 depth_score: 10.0
-last_updated: 2026-06-27T00:43:54Z
+last_updated: 2026-07-02T09:13:20Z
 sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD (do not assign yet). Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the DN net-income floor is above the couple's current ~$3,000/month budget and this first pass did not find a Cyprus-specific ordinary-residence bridge after 04 March 2027.
+- **Tier**: X (screening-negative at the current income profile; not a final relocation recommendation). Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the DN net-income floor is EUR 3,500/month after taxes/contributions, above the couple's current ~$3,000/month gross income, and no Cyprus-specific ordinary-residence bridge after 04 March 2027 has been captured [src-002][src-035][src-036].
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-27
-- **Tier rationale**: Keep unranked until healthcare application-prep details and post-TP transition risk are researched beyond the current screening passes; bureaucracy/practicality is now screenable but route-risk remains high because DN income is above the couple's current budget.
+- **Last updated**: 2026-07-02
+- **Tier rationale**: Assign Tier X at screening confidence because the couple cannot safely rely on TP alone after the 2027 cliff, the captured DN route is income-gated above their current budget, partner coverage requires spouse/civil-union formalization, and the one-income budget remains tight even in Larnaca/Nicosia after Cyprus tax/social-insurance modelling. Cyprus could be reconsidered if income rises substantially or a post-TP / ordinary-status bridge is later captured; current evidence does not support a realistic stay-after-2027 path for this profile.
 
 ## Block 2 — Scoring
 

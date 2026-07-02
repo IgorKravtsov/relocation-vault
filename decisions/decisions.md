@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-02 - Cyprus assigned Tier X
+**Decision**: Assign Cyprus `tier: X` as a screening-negative tier for the couple's current income profile, without ranking it against other countries.
+**Rationale**: Cyprus has a live EU temporary-protection context and a formal Digital Nomad residence-permit route, but the Digital Nomad gate is EUR 3,500/month net after taxes/contributions, above the couple's current USD 3,000/month gross income. The profile also has no captured Cyprus-specific TP-to-ordinary-residence bridge after 04 March 2027, DN family coverage requires spouse or civil-union formalization, family members cannot work locally, and the one-income budget remains tight even in Larnaca/Nicosia after tax and rent modelling.
+**Source**: src-002, src-035, src-036, src-293, src-301, src-303, src-304, src-371, src-372, src-374.
+**Iteration**: run-256.
+**Counterevidence considered**: Cyprus could improve if income rises substantially, the couple formalizes the relationship, an ordinary residence route is captured, or Cyprus publishes a post-TP transition rule; those upsides are not safe enough to treat Cyprus as a realistic post-2027 stay option for the current profile.
+
 ## 2026-07-02 - Italy assigned Tier 2
 **Decision**: Assign Italy `tier: 2` as a conditional schema-safe tier-application country, without ranking it against other countries.
 **Rationale**: Italy has a live Ukrainian temporary-protection framework through 04 March 2027, a formal digital-nomad / remote-worker route for highly specialized remote workers, workable forfetario-style tax screening if eligibility is confirmed, and lower-rent southern city options. It is not assigned Tier 1 because the captured profile has no Italy-specific TP-to-ordinary-residence bridge, the DN path is paperwork-heavy and lease-dependent, the captured family route clearly covers spouse/minor children rather than an unmarried partner, and the current one-income budget works mainly in Palermo / Naples rather than Rome / Milan.
