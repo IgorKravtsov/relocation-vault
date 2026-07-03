@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 265,
+  "iteration": 266,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-03T12:52:04Z",
+  "last_run_timestamp": "2026-07-03T15:58:48Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "Slovenia",
+    "country": "Montenegro",
     "sections": [],
     "criterion": "tier-application-small-batch"
   },
@@ -485,7 +485,7 @@
       "unverified_count": 0
     },
     "Montenegro": {
-      "tier": null,
+      "tier": 2,
       "tier_hint": 2,
       "depth_score": 10.0,
       "sections_completed": [
@@ -515,7 +515,7 @@
         "montenegrin-serbian-language-integration-needed",
         "montenegro-one-income-margin-risk"
       ],
-      "last_iteration": 226,
+      "last_iteration": 266,
       "unverified_count": 0
     },
     "Serbia": {

@@ -1,8 +1,8 @@
 ---
 country: Montenegro
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-06-28T07:40:25Z
+last_updated: 2026-07-03T15:58:48Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. First pass suggests a potentially useful non-EU fallback because Montenegro has extended temporary protection for Ukrainians to 04 March 2027 and advertises a digital-nomad residence framework, but the DN numeric income amount, long-term residence counting, and tax-registration / social-contribution fit for a foreign-client IT freelancer remain unresolved. [src-123][src-124][src-127][src-349]
+- **Tier**: 2. Montenegro is a conditional nearby-Europe settlement candidate, not a final recommendation. It has TP extended to 04 March 2027, an official digital-nomad route for foreign remote work, a local MIA filing sequence, and a 5-year PR legal anchor, while cost/rent and warm-coast comfort can work on the couple's income if Podgorica or controlled Budva rents are used. [src-123][src-124][src-125][src-143][src-526][src-527]
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-28
-- **Tier rationale**: Do not classify yet. The official DN page now confirms filing route, document categories, duration, processing time, spouse/minor-child family baseline, and a screenable bureaucracy/practicality sequence. Remaining classification blockers are the exact numeric income floor, tax/cost fit, and whether DN or other temporary-residence time can safely build a long-term PR clock.
+- **Last updated**: 2026-07-03
+- **Tier rationale**: Tier 2 rather than Tier 1 because the route is still conditional: no post-2027 TP bridge is captured, the official DN page does not expose a numeric income floor, DN residence is capped at 2+2 years with a six-month cooling-off period before a new DN file, spouse/minor-child coverage is safer than unmarried-partner reliance, and tax/SSC/VAT/insurance plus PR-counting mechanics need adviser confirmation. It is not Tier X at screening because the DN route exists officially, filing is locally actionable, the 5-year PR anchor is captured, and the first-pass tax/rent screens are workable if the couple avoids expensive coastal stock. [src-123][src-125][src-143][src-349][src-350][src-528]
 
 ## Block 2 — Scoring
 

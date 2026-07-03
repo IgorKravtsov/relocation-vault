@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-03 - Montenegro assigned Tier 2
+**Decision**: Assign Montenegro `tier: 2` as a conditional nearby-Europe settlement tier for the couple's current profile, without ranking it against other countries.
+**Rationale**: Montenegro has temporary protection extended to 04 March 2027, an official digital-nomad route for foreign remote work with local MIA filing after legal entry, a 40-day decision baseline, spouse/minor-child family coverage, euro use, workable Podgorica / controlled-Budva rent screens, and a captured 5-year permanent-residence legal anchor. It is Tier 2 rather than Tier 1 because no post-2027 TP-to-ordinary bridge is captured, the official DN page does not expose the current numeric income floor, DN residence is capped at 2+2 years with a six-month cooling-off period before a new DN file, and tax/SSC/VAT/insurance plus DN/ordinary-status PR counting need adviser confirmation.
+**Source**: src-123, src-124, src-125, src-143, src-349, src-350, src-352, src-526, src-527, src-528, src-662, src-663, src-744, src-821.
+**Iteration**: run-266.
+**Counterevidence considered**: Montenegro could weaken if the official income floor is above the couple's resources, if DN time cannot safely build an uninterrupted PR clock, if an unmarried partner cannot use an independent status and the couple does not marry, or if self-employed tax / insurance / coastal-rent costs erase the budget margin. It could improve if counsel confirms PR-counting and a clean ordinary-status bridge from DN or self-employment.
+
 ## 2026-07-03 - Slovenia assigned Tier 2
 **Decision**: Assign Slovenia `tier: 2` as a conditional settlement tier for the couple's current profile, without ranking it against other countries.
 **Rationale**: Slovenia has EU temporary protection through 04 March 2027, an official 10-day post-temporary-protection filing window into ordinary residence purposes, a digital-nomad bridge for foreign remote work, self-employed / single-permit and family routes, and captured long-term-residence and citizenship anchors after 5 and 10 years respectively. It is Tier 2 rather than Tier 1 because the DN permit is capped at one year and non-renewable, the twice-net-salary formula currently screens above the couple's USD 3,000/month income, and the durable plan depends on moving into a renewable ordinary status plus adviser-confirmed s.p. / normirani / VAT / contribution and insurance setup. The one-income budget is most plausible with Maribor / Nova Gorica discipline rather than a loose Ljubljana plan.
