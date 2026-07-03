@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 ---
 
 # INDEX
@@ -19,7 +19,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Malta | eu-schengen | 1 | X | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 258 | `countries/malta.md` |
 | Czech Republic | eu-schengen | 2 | 2 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 259 | `countries/czech-republic.md` |
 | Poland | eu-schengen | 2 | 1 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 260 | `countries/poland.md` |
-| Romania | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 250 | `countries/romania.md` |
+| Romania | eu-schengen | 2 | X | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 261 | `countries/romania.md` |
 | Bulgaria | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 222 | `countries/bulgaria.md` |
 | Hungary | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 223 | `countries/hungary.md` |
 | Slovakia | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 224 | `countries/slovakia.md` |
@@ -52,5 +52,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Assigned final tiers**: 9/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland).
-- **Consolidation note**: run-260 continued schema-safe tier application with Poland assigned Tier 1 after explicit Block 1 rationale. The remaining 24 countries stay `tier: null` until explicit country-by-country tier rationale is applied.
+- **Assigned final tiers**: 10/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania).
+- **Consolidation note**: run-261 continued schema-safe tier application with Romania assigned Tier X after explicit Block 1 rationale. The remaining 23 countries stay `tier: null` until explicit country-by-country tier rationale is applied.

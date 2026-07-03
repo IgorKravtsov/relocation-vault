@@ -1,7 +1,7 @@
 ---
 document: decisions-log
 version: 1.0.0
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 ---
 
 # Decisions Log
@@ -11,6 +11,13 @@ Record of non-trivial decisions made during research, with rationale, sources, a
 Each entry includes: date, decision (1 line), rationale, sources, iteration, counter-evidence considered.
 
 ---
+
+## 2026-07-03 - Romania assigned Tier X
+**Decision**: Assign Romania `tier: X` as a screening-negative tier for the couple's current income profile, without ranking it against other countries.
+**Rationale**: Romania has EU temporary protection through 04 March 2027, a legislated digital-nomad route, low-cost Timisoara/Bucharest rent screens, and an EU long-term-residence framework in principle. It is still Tier X for the current profile because no Romania-specific TP-to-ordinary-residence bridge is captured, the digital-nomad income gate is about EUR 3,300/month and therefore above the couple's current about USD 3,000/month gross income, the D/AC commercial-activity route is a heavy company/investment file rather than a simple solo IT-freelancer fallback, unmarried-partner coverage is unsupported, and conservative PFA-style taxes leave a tight one-income margin.
+**Source**: src-002, src-068, src-070, src-076, src-324, src-325, src-505, src-506, src-508.
+**Iteration**: run-261.
+**Counterevidence considered**: Romania could improve if income rises above the DN gate, the couple marries, Romania publishes a TP transition rule, or a Romanian accountant / immigration lawyer confirms a lightweight PFA/company route compatible with long-term residence; those upsides are not safe enough for the current-profile tier.
 
 ## 2026-07-02 - Poland assigned Tier 1
 **Decision**: Assign Poland `tier: 1` as a user-specific / CUKR-bridge settlement tier, without ranking it against other countries.

@@ -1,8 +1,8 @@
 ---
 country: Romania
-tier: null
+tier: X
 depth_score: 10.0
-last_updated: 2026-07-01T14:47:09Z
+last_updated: 2026-07-03T00:33:41Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -18,10 +18,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD
+- **Tier**: X
 - **depth_score**: 10.0
-- **Last updated**: 2026-07-01
-- **Tier rationale**: TBD. Romania offers a legislated digital-nomad route and low cost of living, but winters are cold and no post-2027 TP bridge has been captured.
+- **Last updated**: 2026-07-03
+- **Tier rationale**: Tier X for the couple's current income profile, with medium confidence and without ranking Romania against other countries. Romania has EU temporary protection through 04 March 2027, a legislated digital-nomad route, low Timisoara/Bucharest rent screens, and an ordinary EU long-term-residence framework in principle. It remains screening-negative because no Romania-specific TP-to-ordinary-residence bridge is captured, the DN route is above the couple's current income at about EUR 3,300/month, the D/AC commercial-activity route is a heavy company/investment file rather than a simple solo freelancer fallback, unmarried-partner coverage is unsupported, and the conservative PFA-style tax model leaves a tight one-income margin. [src-002][src-068][src-070][src-076][src-324][src-325][src-505][src-506][src-508]
 
 ## Block 2 — Scoring
 

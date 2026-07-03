@@ -1,8 +1,15 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-07-02
+last_updated: 2026-07-03
 ---
+
+## 2026-07-03 - run-261 - tier-application-romania
+
+- Consolidation: continued schema-safe tier application with one country; Romania is now `tier: X` in country frontmatter, `countries.yml`, `state.json`, and `INDEX.md`.
+- Updated Romania Block 1 tier rationale and added a decision-log entry; this is not a TOP-N ranking or final relocation recommendation.
+- Remaining countries stay `tier: null` until explicit country-level rationale is applied in later small batches.
+- Sources added: 0; claims added: 0; verification queue remains 0 pending/open.
 
 ## 2026-07-02 - run-260 - tier-application-poland
 

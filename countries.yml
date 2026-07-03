@@ -71,7 +71,7 @@ countries:
   - name: Romania
     group: eu-schengen
     tier_hint: 2
-    tier: null
+    tier: X
     status: pending
   - name: Bulgaria
     group: eu-schengen
