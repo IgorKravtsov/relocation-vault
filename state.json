@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 261,
+  "iteration": 262,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-03T00:33:41Z",
+  "last_run_timestamp": "2026-07-03T03:37:53Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "Romania",
+    "country": "Bulgaria",
     "sections": [],
     "criterion": "tier-application-small-batch"
   },
@@ -348,7 +348,7 @@
       "unverified_count": 0
     },
     "Bulgaria": {
-      "tier": null,
+      "tier": "X",
       "tier_hint": 2,
       "depth_score": 10.0,
       "sections_completed": [
@@ -378,7 +378,7 @@
         "bulgarian-language-integration-needed",
         "bulgaria-one-income-margin-risk"
       ],
-      "last_iteration": 222,
+      "last_iteration": 262,
       "unverified_count": 0
     },
     "Hungary": {

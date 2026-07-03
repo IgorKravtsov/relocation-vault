@@ -1,8 +1,8 @@
 ---
 country: Bulgaria
-tier: null
+tier: X
 depth_score: 10.0
-last_updated: 2026-06-27T19:17:06Z
+last_updated: 2026-07-03T03:37:53Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -18,10 +18,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD (insufficient data for tier assignment after first pass)
+- **Tier**: X (screening-negative for the current income / route profile)
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-27
-- **Tier rationale**: TBD. Bulgaria offers a self-employment residence route with a 3-year cap and a 5-year path to permanent residence, but the 3-year self-employment permit limitation and the absence of a captured TP-to-ordinary-residence bridge create operational constraints. Dual-citizenship restrictions for naturalized non-EU nationals are a further consideration. A tier will be assigned after deeper research.
+- **Last updated**: 2026-07-03
+- **Tier rationale**: Bulgaria is assigned Tier X for the couple's current profile, without ranking it against other countries. It has EU TP through 04 March 2027, low Plovdiv / Varna cost screens, and a theoretical self-employment-to-permanent-residence ladder, but no Bulgaria-specific post-TP bridge is captured, the ordinary self-employment permit is Employment-Agency / business-plan dependent and capped at three years before a leave-and-reapply cycle, unmarried-partner coverage is not proven, and the tax/residence fit for a Ukrainian foreign-client IT freelancer remains accountant- and authority-dependent. This could improve if counsel confirms a credible self-employment file and a continuity strategy, but it is not a reliable post-2027 settlement route at screening confidence.
 
 ## Block 2 — Scoring
 

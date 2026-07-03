@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-03 - Bulgaria assigned Tier X
+**Decision**: Assign Bulgaria `tier: X` as a screening-negative tier for the couple's current income / route profile, without ranking it against other countries.
+**Rationale**: Bulgaria has EU temporary protection through 04 March 2027, low Plovdiv / Varna cost screens, a moderate safety / English baseline, and a theoretical self-employment-to-permanent-residence ladder. It is still Tier X for this couple's current profile because no Bulgaria-specific TP-to-ordinary-residence bridge is captured, the ordinary self-employment route is not a lightweight freelancer/DN status but an Employment Agency business-plan permit followed by Type D and Migration Directorate filing, the self-employment permit is capped at three years before a leave-and-reapply cycle, unmarried-partner coverage is unproven, and tax / social / health / VAT / immigration-status fit for a Ukrainian foreign-client IT freelancer remains unresolved.
+**Source**: src-002, src-079, src-080, src-081, src-089, src-090, src-328, src-329, src-509, src-510, src-511, src-512, src-817.
+**Iteration**: run-262.
+**Counterevidence considered**: Bulgaria could improve if professional advice confirms a credible Employment Agency self-employment file, a continuity strategy that can bridge the three-year permit cap to permanent residence, marriage or another independent status solves the partner file, and accountant guidance confirms the favorable tax model; those upsides are not safe enough for current-profile screening.
+
 ## 2026-07-03 - Romania assigned Tier X
 **Decision**: Assign Romania `tier: X` as a screening-negative tier for the couple's current income profile, without ranking it against other countries.
 **Rationale**: Romania has EU temporary protection through 04 March 2027, a legislated digital-nomad route, low-cost Timisoara/Bucharest rent screens, and an EU long-term-residence framework in principle. It is still Tier X for the current profile because no Romania-specific TP-to-ordinary-residence bridge is captured, the digital-nomad income gate is about EUR 3,300/month and therefore above the couple's current about USD 3,000/month gross income, the D/AC commercial-activity route is a heavy company/investment file rather than a simple solo IT-freelancer fallback, unmarried-partner coverage is unsupported, and conservative PFA-style taxes leave a tight one-income margin.
