@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-03 - Hungary assigned Tier X
+**Decision**: Assign Hungary `tier: X` as a screening-negative tier for the couple's current income / route profile, without ranking it against other countries.
+**Rationale**: Hungary has EU temporary protection through 04 March 2027, a formal White Card for foreign remote work, a National Residence Card framework after three years for qualifying holders, and lower-rent Debrecen / Pecs screens. It is still Tier X for the current profile because no Hungary-specific TP-to-ordinary-status bridge is captured, the White Card requires at least EUR 3,000 net/month for six months, excludes Hungarian gainful activity, cannot sponsor family reunification, and the guest self-employment fallback is evidence-heavy, tax/TAJ/NAV dependent, and capped at three years total before a new application. Conservative tax/contribution modelling can also compress the one-income budget below comfortable rent/health/legal margins.
+**Source**: src-002, src-092, src-093, src-094, src-095, src-096, src-332, src-333, src-513, src-514, src-515, src-516, src-648, src-765.
+**Iteration**: run-263.
+**Counterevidence considered**: Hungary could improve if income rises above the White Card gate, the woman has independent TP/status, or Hungarian counsel and an accountant confirm a durable guest-self-employment file with manageable contribution/VAT/healthcare treatment; those upsides are not safe enough for current-profile screening.
+
 ## 2026-07-03 - Bulgaria assigned Tier X
 **Decision**: Assign Bulgaria `tier: X` as a screening-negative tier for the couple's current income / route profile, without ranking it against other countries.
 **Rationale**: Bulgaria has EU temporary protection through 04 March 2027, low Plovdiv / Varna cost screens, a moderate safety / English baseline, and a theoretical self-employment-to-permanent-residence ladder. It is still Tier X for this couple's current profile because no Bulgaria-specific TP-to-ordinary-residence bridge is captured, the ordinary self-employment route is not a lightweight freelancer/DN status but an Employment Agency business-plan permit followed by Type D and Migration Directorate filing, the self-employment permit is capped at three years before a leave-and-reapply cycle, unmarried-partner coverage is unproven, and tax / social / health / VAT / immigration-status fit for a Ukrainian foreign-client IT freelancer remains unresolved.

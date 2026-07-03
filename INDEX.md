@@ -21,7 +21,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Poland | eu-schengen | 2 | 1 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 260 | `countries/poland.md` |
 | Romania | eu-schengen | 2 | X | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 261 | `countries/romania.md` |
 | Bulgaria | eu-schengen | 2 | X | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 262 | `countries/bulgaria.md` |
-| Hungary | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 223 | `countries/hungary.md` |
+| Hungary | eu-schengen | 2 | X | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 263 | `countries/hungary.md` |
 | Slovakia | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 224 | `countries/slovakia.md` |
 | Slovenia | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 225 | `countries/slovenia.md` |
 | Montenegro | europe-non-eu | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 226 | `countries/montenegro.md` |
@@ -52,5 +52,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Assigned final tiers**: 11/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria).
-- **Consolidation note**: run-262 continued schema-safe tier application with Bulgaria assigned Tier X after explicit Block 1 rationale. The remaining 22 countries stay `tier: null` until explicit country-by-country tier rationale is applied.
+- **Assigned final tiers**: 12/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary).
+- **Consolidation note**: run-263 continued schema-safe tier application with Hungary assigned Tier X after explicit Block 1 rationale. The remaining 21 countries stay `tier: null` until explicit country-by-country tier rationale is applied.

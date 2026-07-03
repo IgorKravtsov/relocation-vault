@@ -81,7 +81,7 @@ countries:
   - name: Hungary
     group: eu-schengen
     tier_hint: 2
-    tier: null
+    tier: X
     status: pending
   - name: Slovakia
     group: eu-schengen

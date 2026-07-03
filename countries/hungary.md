@@ -1,8 +1,8 @@
 ---
 country: Hungary
-tier: null
+tier: X
 depth_score: 10.0
-last_updated: 2026-06-27T22:22:40Z
+last_updated: 2026-07-03T06:43:02Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. First pass shows Hungary is usable as a legal short/medium-term base but not yet an obvious long-term fit for this couple: the White Card is clean for foreign remote work but requires at least EUR 3,000 net monthly income for 6 months, does not allow Hungarian gainful activity, and its holder cannot sponsor family reunification; guest self-employment has a heavier evidence burden and a 3-year cap before a new application. [src-093][src-094][src-095]
+- **Tier**: X (screening-negative for the couple's current income / route profile, not a final ranking). Hungary has a clean White Card concept for foreign remote work and a National Residence Card framework, but the captured White Card requires at least EUR 3,000 net monthly income for 6 months, excludes Hungarian gainful activity, and cannot sponsor family reunification; the guest self-employment fallback is evidence-heavy, tied to Hungarian business/tax mechanics, and capped at 3 years total before a new application. [src-093][src-094][src-095][src-096]
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-27
-- **Tier rationale**: Leave unassigned until taxes, cost, rent, healthcare, and ordinary self-employment feasibility are researched.
+- **Last updated**: 2026-07-03
+- **Tier rationale**: Assigned Tier X for the current profile because no Hungary-specific post-2027 TP bridge is captured, the White Card is income- and partner-gated, guest self-employment is not a lightweight DN substitute, tax/contribution downside can erase the rent advantage, and the partner needs independent status unless the man holds a sponsor-eligible route. Hungary could improve only if income rises above the White Card gate or counsel/accountant advice confirms a durable guest-self-employment path. [src-002][src-092][src-093][src-094][src-095][src-332][src-333]
 
 ## Block 2 — Scoring
 
