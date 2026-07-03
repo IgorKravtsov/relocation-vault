@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-03 - Serbia assigned Tier 2
+**Decision**: Assign Serbia `tier: 2` as a conditional nearby-Europe settlement tier for the couple's current profile, without ranking it against other countries.
+**Rationale**: Serbia has Ukrainian visa-free entry, a temporary-protection layer, official electronic single-permit filing for self-employment / independent professional work, up-to-3-year temporary residence / single permits, official marriage and common-law family-reunification evidence paths, and a captured permanent-residence baseline after 3 years of continuous temporary residence. It is Tier 2 rather than Tier 1 because no Serbia-specific post-TP bridge is captured, the foreign-client IT file must be matched to APR / tax / single-permit practice, conservative tax stress tests can compress the one-income budget, RFZO/private-insurance onboarding remains filing-sensitive, and ordinary citizenship may require release from Ukrainian citizenship.
+**Source**: src-132, src-133, src-135, src-136, src-137, src-138, src-358, src-531, src-532, src-667.
+**Iteration**: run-267.
+**Counterevidence considered**: Serbia could weaken if MUP or tax practice rejects a foreign-client IT entrepreneur file, if the household lands near the gross-base tax/contribution stress test, if health-insurance or address-registration evidence is difficult, or if the citizenship-release condition is unacceptable. It could improve if counsel confirms a clean self-employment / independent-professional permit and APR/tax model with a manageable contribution base.
+
 ## 2026-07-03 - Montenegro assigned Tier 2
 **Decision**: Assign Montenegro `tier: 2` as a conditional nearby-Europe settlement tier for the couple's current profile, without ranking it against other countries.
 **Rationale**: Montenegro has temporary protection extended to 04 March 2027, an official digital-nomad route for foreign remote work with local MIA filing after legal entry, a 40-day decision baseline, spouse/minor-child family coverage, euro use, workable Podgorica / controlled-Budva rent screens, and a captured 5-year permanent-residence legal anchor. It is Tier 2 rather than Tier 1 because no post-2027 TP-to-ordinary bridge is captured, the official DN page does not expose the current numeric income floor, DN residence is capped at 2+2 years with a six-month cooling-off period before a new DN file, and tax/SSC/VAT/insurance plus DN/ordinary-status PR counting need adviser confirmation.

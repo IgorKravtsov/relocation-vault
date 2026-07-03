@@ -1,8 +1,8 @@
 ---
 country: Serbia
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-06-28T10:49:05Z
+last_updated: 2026-07-03T19:06:54Z
 sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: []
@@ -18,10 +18,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD (likely Tier-2-hint until full legal/tax/cost evidence is gathered).
+- **Tier**: 2. Serbia is a conditional nearby-Europe settlement candidate, not a final recommendation. It has easy Ukrainian visa-free entry, a Serbian temporary-protection layer, official electronic single-permit filing for self-employment / independent professional work, permits that can run up to 3 years, and a captured permanent-residence anchor after 3 years of continuous temporary residence. [src-132][src-133][src-135][src-136][src-137]
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-28
-- **Tier rationale**: Serbia is operationally attractive because Ukrainian citizens have visa-free entry, Serbia has a renewable temporary-protection framework for Ukrainians, MUP confirms electronic single-permit filing for self-employment / independent professional work, and the amended Law on Foreigners provides temporary residence / single permits up to 3 years plus permanent residence after 3 years of continuous temporary residence. The weak points are that no Serbia-specific post-TP ordinary-residence bridge was captured, the foreign-client IT tax/single-permit fit is not yet accountant-confirmed, and healthcare remains filing-sensitive until private insurance / RFZO onboarding details are checked. [src-132][src-133][src-135][src-136][src-667]
+- **Last updated**: 2026-07-03
+- **Tier rationale**: Tier 2 rather than Tier 1 because the durable plan is still conditional: no Serbia-specific post-TP ordinary-residence bridge was captured, the foreign-client IT route must be matched to APR / tax / single-permit practice, the conservative tax stress tests can compress the one-income budget, healthcare/RFZO onboarding is filing-sensitive, and ordinary citizenship may require release from Ukrainian citizenship. It is not Tier X at screening because the self-employment / independent-professional route is officially actionable, family reunification can use marriage or documented common-law evidence, Novi Sad and Nis offer workable cost screens, and the 3-year PR clock is unusually short if the ordinary permit strategy is confirmed. [src-135][src-136][src-138][src-358][src-531][src-532][src-667]
 
 ## Block 2 — Scoring
 
@@ -391,5 +391,5 @@ _(none yet)_
 - `vq-044` — resolved in run-026: official MUP/Welcome to Serbia sources confirm self-employment / independent-professional single-permit electronic filing and family mechanics, including common-law partnership evidence; treat a separate DN special category as a later route-specific detail rather than a core blocker.
 - `vq-045` — resolved in run-026: no captured Serbian ordinary-residence bridge from TP; Polish residence/TP does not substitute for Serbian status, and Serbian TP should be treated only as a protection layer while ordinary residence is built.
 - `vq-046` — resolved in run-032: WeatherSpark clearer-sky day-equivalent proxies for Belgrade, Novi Sad, and Niš close the §5.2 sunny/clear-day blocker for screening.
-- `vq-102` — Serbia foreign-client IT tax / APR registration / VAT / contribution-base / single-permit compatibility remains open before §5.3 can be marked passed.
+- `vq-102` — resolved in run-075 for screening: Serbia uses conservative tax stress tests and keeps APR / tax / VAT / contribution-base / single-permit compatibility as application-prep checks before §5.3 can be marked passed.
 - `vq-136` — resolved in run-148 for screening: Serbia private health-insurance quotes, maternity/newborn coverage, RFZO/public-insurance onboarding by residence route, and city-specific private-care checks remain application-prep items before §5.6 can be marked passed.

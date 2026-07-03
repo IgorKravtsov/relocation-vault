@@ -101,7 +101,7 @@ countries:
   - name: Serbia
     group: europe-non-eu
     tier_hint: 2
-    tier: null
+    tier: 2
     status: pending
   - name: Turkey
     group: europe-non-eu
