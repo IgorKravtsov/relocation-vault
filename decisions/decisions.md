@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-03 - Turkey assigned Tier 2
+**Decision**: Assign Turkey `tier: 2` as a conditional nearby-Europe settlement tier for the couple's current profile, without ranking it against other countries.
+**Rationale**: Turkey has simple regional access for Ukrainians, an official GoTurkey remote-work / digital-nomad channel at USD 3,000/month or USD 36,000/year, ordinary residence filing through PMM / e-ikamet, family-residence planning if the couple marries or otherwise proves the required relationship, and a captured long-term-residence baseline after eight years of continuous ordinary residence. It is Tier 2 rather than Tier 1 because the DN income gate sits exactly at the couple's current gross income, Turkey is outside the EU temporary-protection bridge framework, ordinary residence renewal practice must carry the long-term plan, and tax / SGK / VAT / health-insurance / address-district requirements can materially squeeze the one-income budget.
+**Source**: src-144, src-145, src-147, src-148, src-154, src-359, src-360, src-362, src-363, src-364, src-535, src-536, src-671, src-774.
+**Iteration**: run-268.
+**Counterevidence considered**: Turkey could weaken if the income proof must be comfortably above USD 3,000/month, if residence renewal practice is restrictive for remote workers, if SGK / Bag-Kur / VAT treatment lands near the downside tax model, if residence-open districts or landlord address support are hard to secure, or if marriage/family evidence is not ready. It could improve if Turkish counsel confirms a clean DN-to-ordinary-renewal strategy, manageable tax/SGK treatment, and stable Izmir or Antalya housing.
+
 ## 2026-07-03 - Serbia assigned Tier 2
 **Decision**: Assign Serbia `tier: 2` as a conditional nearby-Europe settlement tier for the couple's current profile, without ranking it against other countries.
 **Rationale**: Serbia has Ukrainian visa-free entry, a temporary-protection layer, official electronic single-permit filing for self-employment / independent professional work, up-to-3-year temporary residence / single permits, official marriage and common-law family-reunification evidence paths, and a captured permanent-residence baseline after 3 years of continuous temporary residence. It is Tier 2 rather than Tier 1 because no Serbia-specific post-TP bridge is captured, the foreign-client IT file must be matched to APR / tax / single-permit practice, conservative tax stress tests can compress the one-income budget, RFZO/private-insurance onboarding remains filing-sensitive, and ordinary citizenship may require release from Ukrainian citizenship.

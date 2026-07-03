@@ -1,8 +1,8 @@
 ---
 country: Turkey
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-06-28T18:30:13Z
+last_updated: 2026-07-03T22:11:05Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. First pass shows Turkey is easy to enter for Ukrainians and has an official digital-nomad / remote-work channel, but the route sits exactly at the couple's current ~$3,000/month income and long-term settlement depends on ordinary Turkish residence rather than an EU-style Ukraine temporary-protection bridge.
+- **Tier**: 2. Turkey is a conditional nearby-Europe settlement candidate for the couple's current profile: it has simple regional access, an official remote-work / digital-nomad channel at USD 3,000/month or USD 36,000/year, ordinary residence filing through PMM/e-ikamet, and a captured eight-year long-term-residence anchor. It is not Tier 1 because the DN threshold sits exactly at the current gross income, no Ukraine-specific protection bridge was captured, long-term success depends on ordinary residence renewals, and tax / SGK / VAT / insurance / address-district details can make the one-income budget fragile.
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-28T18:30:13Z
-- **Tier rationale**: Not assigned until final synthesis; all screening sections now have first-pass coverage, while the route still depends on DN income proof, Turkish tax/SGK/VAT advice, and residence-renewal practice.
+- **Last updated**: 2026-07-03T22:11:05Z
+- **Tier rationale**: Assigned in run-268 as a medium-confidence Tier 2 rather than a final recommendation: Turkey can screen as a conditional renewable-residence-to-long-term-residence case, but the route remains budget-edge and adviser-dependent for DN income proof, tax registration, SGK/GSS, VAT/export treatment, spouse/family evidence, health-insurance quotes, and residence-open district/address support.
 
 ## Block 2 — Scoring
 
