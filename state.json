@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 263,
+  "iteration": 264,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-03T06:43:02Z",
+  "last_run_timestamp": "2026-07-03T09:47:51Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "Hungary",
+    "country": "Slovakia",
     "sections": [],
     "criterion": "tier-application-small-batch"
   },
@@ -418,7 +418,7 @@
       "unverified_count": 0
     },
     "Slovakia": {
-      "tier": null,
+      "tier": 2,
       "tier_hint": 2,
       "depth_score": 10.0,
       "sections_completed": [
@@ -448,7 +448,7 @@
         "slovak-language-integration-needed",
         "slovakia-one-income-margin-risk"
       ],
-      "last_iteration": 224,
+      "last_iteration": 264,
       "unverified_count": 0
     },
     "Slovenia": {

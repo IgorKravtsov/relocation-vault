@@ -1,8 +1,8 @@
 ---
 country: Slovakia
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-06-28T01:27:33Z
+last_updated: 2026-07-03T09:47:51Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. First-pass evidence points to a practical but administratively heavy Tier-2-style profile rather than an obvious Tier-1 route: Slovakia has EU temporary protection through 04 March 2027 and an ordinary self-employed/business residence route, but no dedicated digital-nomad visa and no captured post-2027 TP-to-ordinary-residence bridge. [src-002][src-100][src-101]
+- **Tier**: 2. Conditional settlement tier for screening: Slovakia has EU temporary protection through 04 March 2027, an ordinary business/self-employed residence route, spouse-based family reunification, and a captured 5-year long-term-residence anchor. It is not Tier 1 because no Slovakia-specific post-2027 TP bridge or dedicated digital-nomad route is captured, and the ordinary route depends on a business plan, real-business scrutiny, SZCO/tax/VAT fit, insurance onboarding, and Slovak-language administration. [src-002][src-100][src-101][src-103][src-108][src-109]
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-28
-- **Tier rationale**: Keep unassigned until risk dimensions, bureaucracy, and whether business/SZCO residence is operational for a foreign-client IT contractor are confirmed. Healthcare, education, comfort, and partner/student fit are screenable; cost/rent looks manageable outside Bratislava, but language and one-income margin risks remain without solving the legal-route burden.
+- **Last updated**: 2026-07-03
+- **Tier rationale**: Assign Tier 2 at medium confidence, without ranking Slovakia against other countries. The durable path is plausible because business/self-employed residence can be renewed and long-term residence is captured after 5 years, but it is conditional on professional confirmation that a Ukrainian foreign-client IT contractor can operate a credible Slovak business/SZCO file before TP expiry. Cost/rent is manageable mainly outside Bratislava, while healthcare, education, comfort, and partner fit are screenable but still application-prep sensitive. [src-101][src-103][src-108][src-338][src-339][src-342][src-518][src-519][src-520][src-652]
 
 ## Block 2 — Scoring
 

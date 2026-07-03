@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-03 - Slovakia assigned Tier 2
+**Decision**: Assign Slovakia `tier: 2` as a conditional settlement tier for the couple's current profile, without ranking it against other countries.
+**Rationale**: Slovakia has EU temporary protection through 04 March 2027, an ordinary temporary residence route for business / self-employment, spouse-based family reunification, and a captured long-term-residence anchor after 5 years of uninterrupted legal residence. It is Tier 2 rather than Tier 1 because no Slovakia-specific post-2027 TP bridge or dedicated digital-nomad route is captured; the ordinary route requires an embassy-filed business plan, real-business scrutiny, trade / Commercial Register mechanics, and adviser-confirmed SZCO / tax / VAT / insurance fit. The one-income budget can work mainly with Kosice / Poprad discipline rather than a loose Bratislava plan.
+**Source**: src-002, src-100, src-101, src-102, src-103, src-108, src-109, src-338, src-339, src-342, src-518, src-519, src-520, src-652, src-819.
+**Iteration**: run-264.
+**Counterevidence considered**: Slovakia could weaken if Ministry / Foreign Police practice rejects a foreign-client IT business file as insufficiently real, if SZCO / VAT / insurance setup is materially costlier than the screening model, or if the couple cannot use TP or marriage/family sequencing before the EU horizon. It could improve if counsel confirms the business route and accountant guidance confirms the favorable SZCO model.
+
 ## 2026-07-03 - Hungary assigned Tier X
 **Decision**: Assign Hungary `tier: X` as a screening-negative tier for the couple's current income / route profile, without ranking it against other countries.
 **Rationale**: Hungary has EU temporary protection through 04 March 2027, a formal White Card for foreign remote work, a National Residence Card framework after three years for qualifying holders, and lower-rent Debrecen / Pecs screens. It is still Tier X for the current profile because no Hungary-specific TP-to-ordinary-status bridge is captured, the White Card requires at least EUR 3,000 net/month for six months, excludes Hungarian gainful activity, cannot sponsor family reunification, and the guest self-employment fallback is evidence-heavy, tax/TAJ/NAV dependent, and capped at three years total before a new application. Conservative tax/contribution modelling can also compress the one-income budget below comfortable rent/health/legal margins.
