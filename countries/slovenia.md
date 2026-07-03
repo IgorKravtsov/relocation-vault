@@ -1,8 +1,8 @@
 ---
 country: Slovenia
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-06-28T04:33:04Z
+last_updated: 2026-07-03T12:52:04Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. First-pass evidence is unusually interesting for the couple: Slovenia has official temporary protection for Ukrainians, an explicit post-temporary-protection filing window, and a new digital-nomad residence permit for non-EU remote workers. The route is capped at one year and the income formula likely sits near or above the couple's current budget, so do not assign a tier until the numeric threshold, taxes, renewal/permit-counting rules, and costs are researched. [src-110][src-111]
+- **Tier**: 2. Conditional settlement tier for screening: Slovenia has EU temporary protection through 04 March 2027, an official post-temporary-protection filing window, a digital-nomad bridge, self-employed / single-permit and family routes, and captured 5-year permanent-residence plus 10-year citizenship anchors. It is not Tier 1 because the DN route is one-year and non-renewable, the current formula screens above the couple's USD 3,000/month income, and the durable plan depends on shifting into an ordinary self-employed/single-permit or other renewable status before relying on PR time. [src-002][src-110][src-111][src-112][src-114][src-187]
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-28
-- **Tier rationale**: Keep unassigned until PR/citizenship counting for DN/TP time, DN-to-ordinary status strategy, tax/business fit, and cost-of-living/rent passes are complete.
+- **Last updated**: 2026-07-03
+- **Tier rationale**: Assign Tier 2 at medium confidence, without ranking Slovenia against other countries. The official 10-day post-TP filing window and long-term-residence ladder make a settlement path plausible, but the practical route is conditional on DN affordability or savings, a renewable ordinary-status transition, Slovenian accountant confirmation of s.p. / normirani / VAT / contribution treatment, insurance onboarding, and disciplined Maribor / Nova Gorica budgeting rather than a loose Ljubljana plan. [src-110][src-111][src-112][src-344][src-345][src-347][src-522][src-523][src-524][src-657]
 
 ## Block 2 — Scoring
 

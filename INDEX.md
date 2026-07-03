@@ -23,7 +23,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Bulgaria | eu-schengen | 2 | X | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 262 | `countries/bulgaria.md` |
 | Hungary | eu-schengen | 2 | X | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 263 | `countries/hungary.md` |
 | Slovakia | eu-schengen | 2 | 2 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 264 | `countries/slovakia.md` |
-| Slovenia | eu-schengen | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 225 | `countries/slovenia.md` |
+| Slovenia | eu-schengen | 2 | 2 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 265 | `countries/slovenia.md` |
 | Montenegro | europe-non-eu | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 226 | `countries/montenegro.md` |
 | Serbia | europe-non-eu | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 227 | `countries/serbia.md` |
 | Turkey | europe-non-eu | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 228 | `countries/turkey.md` |
@@ -52,5 +52,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Assigned final tiers**: 13/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia).
-- **Consolidation note**: run-264 continued schema-safe tier application with Slovakia assigned Tier 2 after explicit Block 1 rationale. The remaining 20 countries stay `tier: null` until explicit country-by-country tier rationale is applied.
+- **Assigned final tiers**: 14/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia).
+- **Consolidation note**: run-265 continued schema-safe tier application with Slovenia assigned Tier 2 after explicit Block 1 rationale. The remaining 19 countries stay `tier: null` until explicit country-by-country tier rationale is applied.

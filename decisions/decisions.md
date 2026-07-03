@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-03 - Slovenia assigned Tier 2
+**Decision**: Assign Slovenia `tier: 2` as a conditional settlement tier for the couple's current profile, without ranking it against other countries.
+**Rationale**: Slovenia has EU temporary protection through 04 March 2027, an official 10-day post-temporary-protection filing window into ordinary residence purposes, a digital-nomad bridge for foreign remote work, self-employed / single-permit and family routes, and captured long-term-residence and citizenship anchors after 5 and 10 years respectively. It is Tier 2 rather than Tier 1 because the DN permit is capped at one year and non-renewable, the twice-net-salary formula currently screens above the couple's USD 3,000/month income, and the durable plan depends on moving into a renewable ordinary status plus adviser-confirmed s.p. / normirani / VAT / contribution and insurance setup. The one-income budget is most plausible with Maribor / Nova Gorica discipline rather than a loose Ljubljana plan.
+**Source**: src-002, src-110, src-111, src-112, src-114, src-187, src-344, src-345, src-347, src-522, src-523, src-524, src-657, src-820.
+**Iteration**: run-265.
+**Counterevidence considered**: Slovenia could weaken if the DN income gate remains above the couple's resources, if the single-permit/self-employed path is not accepted for a foreign-client IT contractor, or if tax / insurance costs stay near the conservative stress-test. It could improve if income rises, savings qualify for the DN means test, or Slovenian counsel confirms a clean renewable self-employed/status transition.
+
 ## 2026-07-03 - Slovakia assigned Tier 2
 **Decision**: Assign Slovakia `tier: 2` as a conditional settlement tier for the couple's current profile, without ranking it against other countries.
 **Rationale**: Slovakia has EU temporary protection through 04 March 2027, an ordinary temporary residence route for business / self-employment, spouse-based family reunification, and a captured long-term-residence anchor after 5 years of uninterrupted legal residence. It is Tier 2 rather than Tier 1 because no Slovakia-specific post-2027 TP bridge or dedicated digital-nomad route is captured; the ordinary route requires an embassy-filed business plan, real-business scrutiny, trade / Commercial Register mechanics, and adviser-confirmed SZCO / tax / VAT / insurance fit. The one-income budget can work mainly with Kosice / Poprad discipline rather than a loose Bratislava plan.

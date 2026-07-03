@@ -91,7 +91,7 @@ countries:
   - name: Slovenia
     group: eu-schengen
     tier_hint: 2
-    tier: null
+    tier: 2
     status: pending
   - name: Montenegro
     group: europe-non-eu
