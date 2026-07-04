@@ -1,8 +1,8 @@
 ---
 country: Paraguay
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-06-29T16:17:45Z
+last_updated: 2026-07-04T19:54:43Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 - Summary
 
-- **Tier**: TBD. First pass suggests a potentially useful long-term route because Paraguay has a normal temporary residence -> permanent residence ladder and the Constitution gives a 3-year naturalization baseline, but the captured official route is generic "lawful activity" residence rather than a digital-nomad visa. [src-191][src-192][src-193]
+- **Tier**: 2. Paraguay is a conditional ordinary-residence / Latin America settlement candidate: it has visa-free Ukrainian tourist entry for scouting, an ordinary temporary-residence -> permanent-residence ladder, and a constitutional 3-year naturalization baseline tied to radication and local professional/economic activity. It is not Tier 1 because the route is a generic lawful-activity residence file rather than a clean digital-nomad visa, the official visa table still separates residence / lucrative activity from tourist entry, dual-nationality consequences are unresolved, and the durable plan depends on adviser-confirmed residence-visa sequencing, foreign-client IT evidence, DNIT/RUC/VAT/IPS treatment, private healthcare, Spanish/Guarani adaptation, and long-distance ties to Europe. [src-190][src-191][src-192][src-193]
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-29
-- **Tier rationale**: keep as Tier-2 hint until the visa-for-residence filing route, foreign-client IT income evidence, taxes, cost, rent, healthcare, and practical lawyer/accountant mechanics are checked.
+- **Last updated**: 2026-07-04
+- **Tier rationale**: assigned in run-275 as a Tier 2 conditional ordinary-residence / Latin America settlement tier, not a final recommendation or TOP-N ranking.
 
 ## Block 2 - Scoring
 

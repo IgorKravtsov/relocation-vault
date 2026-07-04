@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-04 - Paraguay assigned Tier 2
+**Decision**: Assign Paraguay `tier: 2` as a conditional ordinary-residence / Latin America settlement tier for the couple's current profile, without ranking it against other countries.
+**Rationale**: Paraguay has official visa-free tourist entry for Ukrainians for up to 90 days, an ordinary temporary-residence route for foreigners intending to establish themselves and carry out lawful activity, a temporary-to-permanent residence ladder, and a constitutional naturalization baseline after 3 years of radication with local professional/economic activity and good conduct. Cost, rent, tax, education, partner-fit, and bureaucracy screens are workable if the couple treats the file as an adviser-led lawful-activity residence project rather than a self-service digital-nomad route.
+**Source**: src-190, src-191, src-192, src-193, src-194, src-195, src-196, src-437, src-438, src-439, src-440, src-441, src-442, src-443, src-549, src-550, src-551, src-552, src-689, src-690, src-691, src-692, src-781, src-782, src-830.
+**Iteration**: run-275.
+**Counterevidence considered**: Paraguay is not Tier 1 at screening confidence because the captured route is generic lawful activity rather than a dedicated DN visa, the official visa table says Ukrainians need a visa for residence / lucrative activity, dual-nationality consequences are unresolved, and DNIT/RUC/VAT/IPS treatment, spouse/dependent mechanics, route-compliant insurance, Spanish/Guarani integration, road/safety friction, and distance from Europe remain application-prep caveats.
+
 ## 2026-07-04 - Uruguay assigned Tier 2
 **Decision**: Assign Uruguay `tier: 2` as a conditional ordinary-residence / Latin America settlement tier for the couple's current profile, without ranking it against other countries.
 **Rationale**: Uruguay has visa-free entry for Ukrainians, an official permanent legal residence route that explicitly accepts foreign-company employment or independent-worker means-of-life evidence, a digital-nomad / provisional-identity route usable as a short bridge, and a legal-citizenship baseline after 3 years with family constituted in Uruguay or 5 years without family if habitual residence is maintained. First-pass tax, rent, safety, comfort, education, partner-fit, and bureaucracy screens are workable if the couple uses Montevideo for professional support or a lower-cost fallback city with strict one-income budgeting.

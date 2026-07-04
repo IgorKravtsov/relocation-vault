@@ -141,7 +141,7 @@ countries:
   - name: Paraguay
     group: latin-america
     tier_hint: 2
-    tier: null
+    tier: 2
     status: pending
   - name: Panama
     group: latin-america
