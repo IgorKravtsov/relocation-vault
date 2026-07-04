@@ -1,8 +1,8 @@
 ---
 country: Panama
-tier: null
+tier: 3
 depth_score: 10.0
-last_updated: 2026-06-29T19:26:34Z
+last_updated: 2026-07-04T22:59:42Z
 sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 - Summary
 
-- **Tier**: TBD. First pass suggests Panama is useful as a short-to-medium-term remote-work base because the official remote-worker visa fits exactly USD 3,000/month foreign-source income, but it is a non-resident short-stay route and not a clean permanent-residence/citizenship ladder by itself. [src-199]
+- **Tier**: 3. Panama is a bridge / conditional ordinary-route candidate for the couple's current profile: the official remote-worker visa fits the USD 3,000/month foreign-source income level on paper, but it is a non-resident 9+9 month route and does not by itself create a permanent-residence or citizenship ladder. [src-198][src-199]
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-29T19:26:34Z
-- **Tier rationale**: keep as Tier-2 hint only if a separate residence route can be made realistic. The likely long-term routes require a Panama employer/professional file, friendly-nations economic/professional activity, or investment/family facts not yet proven for this Ukrainian remote-IT couple. [src-198][src-200]
+- **Last updated**: 2026-07-04T22:59:42Z
+- **Tier rationale**: Tier 3 rather than Tier 2 because the captured long-term routes remain unproven for a Ukrainian foreign-client IT worker without Panama employment, investment, or a confirmed friendly-countries / foreign-professional fit. It is not Tier X because Panama still has an official income-fit remote-work bridge, USD-denominated budget/tax upside, and visible ordinary-residence categories to test with counsel before the EU TP horizon. [src-198][src-199][src-200]
 
 ## Block 2 - Scoring
 

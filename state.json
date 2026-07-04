@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 275,
+  "iteration": 276,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-04T19:54:43Z",
+  "last_run_timestamp": "2026-07-04T22:59:42Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "Paraguay",
+    "country": "Panama",
     "sections": [],
     "criterion": "tier-application-small-batch"
   },
@@ -833,7 +833,7 @@
       "unverified_count": 0
     },
     "Panama": {
-      "tier": null,
+      "tier": 3,
       "tier_hint": 2,
       "depth_score": 10.0,
       "sections_completed": [
@@ -865,7 +865,7 @@
         "panama-road-and-transport-risk",
         "panama-one-income-margin-risk"
       ],
-      "last_iteration": 236,
+      "last_iteration": 276,
       "unverified_count": 0
     },
     "Mexico": {

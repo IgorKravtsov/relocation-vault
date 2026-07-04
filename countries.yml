@@ -146,7 +146,7 @@ countries:
   - name: Panama
     group: latin-america
     tier_hint: 2
-    tier: null
+    tier: 3
     status: pending
   - name: Mexico
     group: latin-america

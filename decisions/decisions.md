@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-04 - Panama assigned Tier 3
+**Decision**: Assign Panama `tier: 3` as a bridge / conditional ordinary-route tier for the couple's current profile, without ranking it against other countries.
+**Rationale**: Panama has an official remote-worker short-stay visa for foreign-source telework/self-employment at B/.36,000/year or B/.3,000/month, USD-denominated cost and tax-screening upside, strong Panama City private-service infrastructure, and visible ordinary residence categories such as friendly/specific-countries or foreign-professional routes to test with counsel. It is Tier 3 rather than Tier 2 because the captured remote-worker route is non-resident and capped at 9+9 months, and no permanent-residence-capable route is yet proven for a Ukrainian foreign-client IT worker without Panama employment, investment, or a confirmed professional/friendly-countries fit.
+**Source**: src-197, src-198, src-199, src-200, src-201, src-444, src-445, src-446, src-447, src-448, src-553, src-554, src-555, src-556, src-693, src-694, src-695, src-696, src-783, src-784, src-831.
+**Iteration**: run-276.
+**Counterevidence considered**: Panama could improve if Panamanian counsel confirms a clean Ukrainian-friendly ordinary residence route, foreign-professional fit, spouse/dependent mechanics, and a tax/DGI/RUC/CSS/ITBMS model compatible with foreign-client IT. It could weaken if income proof must be comfortably above USD 3,000/month, if the long-term route requires local employment/investment, or if Panama City rent, insurance, school, Spanish-language administration, and distance from Europe erase the bridge value.
+
 ## 2026-07-04 - Paraguay assigned Tier 2
 **Decision**: Assign Paraguay `tier: 2` as a conditional ordinary-residence / Latin America settlement tier for the couple's current profile, without ranking it against other countries.
 **Rationale**: Paraguay has official visa-free tourist entry for Ukrainians for up to 90 days, an ordinary temporary-residence route for foreigners intending to establish themselves and carry out lawful activity, a temporary-to-permanent residence ladder, and a constitutional naturalization baseline after 3 years of radication with local professional/economic activity and good conduct. Cost, rent, tax, education, partner-fit, and bureaucracy screens are workable if the couple treats the file as an adviser-led lawful-activity residence project rather than a self-service digital-nomad route.
