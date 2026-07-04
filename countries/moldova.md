@@ -1,8 +1,8 @@
 ---
 country: Moldova
-tier: null
+tier: 3
 depth_score: 10.0
-last_updated: 2026-06-29T10:05:11Z
+last_updated: 2026-07-04T13:45:44Z
 sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. First-pass evidence shows Moldova has an official digital-nomad residence route and temporary protection for displaced Ukrainians until 01 March 2027, but long-term usefulness for this couple depends on the current average-salary threshold, whether digital-nomad residence counts toward permanent residence, and post-TP transition mechanics. [src-220][src-222]
+- **Tier**: 3. Moldova is best treated as a nearby bridge/base rather than a proven settlement route: official pages show temporary protection through 01 March 2027 and a digital-nomad provisional-stay route for foreign remote work, but no captured post-TP bridge, unclear DN/IT counting toward permanent residence, and missing citizenship mechanics keep it below the settlement tiers. [src-219][src-220][src-221][src-222]
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-29
-- **Tier rationale**: Not assigned. Treat Moldova as a potentially practical nearby bridge/base, not yet a proven long-term route to PR/citizenship for a foreign-client IT worker.
+- **Last updated**: 2026-07-04
+- **Tier rationale**: Assigned Tier 3 because Moldova has a plausible renewable ordinary/DN residence file and strong cost proximity advantages, but long-term residence and citizenship are not safe enough to score as Tier 1/2 until GIM/lawyer evidence confirms DN/IT PR counting, current-year salary threshold, spouse/dependent treatment, tax/insurance fit, and post-TP transition practice.
 
 ## Block 2 — Scoring
 

@@ -131,7 +131,7 @@ countries:
   - name: Moldova
     group: balkans-east
     tier_hint: 3
-    tier: null
+    tier: 3
     status: pending
   - name: Uruguay
     group: latin-america
