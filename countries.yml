@@ -116,7 +116,7 @@ countries:
   - name: Albania
     group: balkans-east
     tier_hint: 2
-    tier: null
+    tier: 2
     status: pending
   - name: North Macedonia
     group: balkans-east

@@ -1,8 +1,8 @@
 ---
 country: Albania
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-06-29T00:43:19Z
+last_updated: 2026-07-04T04:23:57Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. Albania has an attractive remote-worker / Unique Permit narrative and a warm Adriatic/Ionian climate, but this first pass could not capture clean official-primary route pages because several Albanian government sites were blocked or unreachable. Treat the digital-nomad route as promising but medium-confidence until the official e-Albania / State Police / law-text checklist is extracted.
+- **Tier**: 2. Albania is a conditional nearby-Europe settlement candidate for the couple's current profile: secondary route evidence supports a Type D + Unique Permit remote-worker path for foreign-client work, the income screen appears comfortably below the couple's USD 3,000/month gross income, the favorable small-business tax model leaves a workable one-income budget if confirmed, and Durres / Vlore / rent-controlled Tirana cost screens are strong. It is Tier 2 rather than Tier 1 because clean official-primary route extraction is still missing, Albania is outside the EU temporary-protection bridge framework, PR / citizenship counting for the remote-worker permit is not captured from law, and the plan remains adviser-dependent for tax, VAT, insurance, lease/address, and spouse/dependent mechanics.
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-29T00:43:19Z
-- **Tier rationale**: Not assigned until taxes, rent, healthcare, and full practical costs are verified. Run-061 closes the remote-worker Unique Permit blocker to a conservative screening baseline: Albania remains a promising ordinary-residence candidate for a foreign-client IT worker, but exact official checklist / fees / PR-counting should be treated as application-prep or deeper-country work, not as a current queue blocker.
+- **Last updated**: 2026-07-04T04:23:57Z
+- **Tier rationale**: Assigned in run-270 as a conditional ordinary-residence candidate, not a final recommendation or TOP-N ranking. The route is plausible enough for Tier 2 screening because the Type D + Unique Permit baseline, tax/cost/rent/comfort sections, and practical playbook all support a coherent low-cost relocation project; it is not Tier 1 until official e-Albania / State Police / law-text evidence confirms the exact checklist, dependent mechanics, renewal / PR counting, and application sequence.
 
 ## Block 2 — Scoring
 
