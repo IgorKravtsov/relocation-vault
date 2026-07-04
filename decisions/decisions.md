@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-04 - Uruguay assigned Tier 2
+**Decision**: Assign Uruguay `tier: 2` as a conditional ordinary-residence / Latin America settlement tier for the couple's current profile, without ranking it against other countries.
+**Rationale**: Uruguay has visa-free entry for Ukrainians, an official permanent legal residence route that explicitly accepts foreign-company employment or independent-worker means-of-life evidence, a digital-nomad / provisional-identity route usable as a short bridge, and a legal-citizenship baseline after 3 years with family constituted in Uruguay or 5 years without family if habitual residence is maintained. First-pass tax, rent, safety, comfort, education, partner-fit, and bureaucracy screens are workable if the couple uses Montevideo for professional support or a lower-cost fallback city with strict one-income budgeting.
+**Source**: src-180, src-181, src-182, src-183, src-184, src-185, src-186, src-430, src-431, src-432, src-433, src-434, src-435, src-436, src-545, src-546, src-547, src-548, src-684, src-685, src-686, src-687, src-688, src-779, src-780, src-829.
+**Iteration**: run-274.
+**Counterevidence considered**: Uruguay is not Tier 1 at screening confidence because the durable path is a documentary residence / means-of-life file rather than a simple fixed-threshold DN route, the DN route is only a 6+6 month bridge, and DGI/BPS/VAT treatment, health-insurance/onboarding, school costs, habitual-presence practice, Spanish integration, distance from Europe, and Montevideo / Punta del Este rent pressure remain application-prep caveats.
+
 ## 2026-07-04 - Moldova assigned Tier 3
 **Decision**: Assign Moldova `tier: 3` as a nearby bridge/base tier for the couple's current profile, without ranking it against other countries.
 **Rationale**: Moldova has practical proximity to Ukraine/Poland, low Chisinau/Balti cost and rent screens, temporary protection for displaced Ukrainians through 01 March 2027, and an official digital-nomad provisional-stay route with foreign employment/service contract, remote-work declaration, accommodation, insurance, criminal-record evidence, and an income formula. It is Tier 3 rather than Tier 1/2 because no Moldova-specific post-TP bridge is captured, the route depends on a current-year average-salary threshold that must be checked before filing, DN/IT residence may not count cleanly toward permanent residence, citizenship mechanics were not captured, partner/dependent mechanics are uncertain, and tax / contribution / VAT / insurance plus Transnistria/regional-security caveats remain application-prep risks.

@@ -1,8 +1,8 @@
 ---
 country: Uruguay
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-06-29T13:11:45Z
+last_updated: 2026-07-04T16:50:26Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 - Summary
 
-- **Tier**: TBD. First pass suggests a potentially strong long-term route because Uruguay allows ordinary legal residence for non-Mercosur foreigners and legal citizenship after 3 years with family constituted in Uruguay or 5 years without family, but the route depends on proving habitual residence and means of life rather than a simple remote-worker visa threshold. [src-181][src-182][src-184]
+- **Tier**: 2. Uruguay is a conditional ordinary-residence / Latin America settlement candidate for this couple: visa-free entry, an official permanent legal residence file with foreign-company or independent-worker means-of-life evidence, and a legal-citizenship baseline after 3 years with family constituted in Uruguay or 5 years without family make the long-term route more durable than a pure bridge visa. [src-180][src-181][src-182][src-184]
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-29
-- **Tier rationale**: keep as Tier-2 hint until practical residence / tax approval mechanics for foreign-client IT income, healthcare insurance/onboarding costs, and habitual-residence/citizenship practice are checked; cost/rent, education, comfort, partner fit, and bureaucracy/practicality now screen as workable if Spanish-language integration, Montevideo-first professional support, and strict one-income budgeting are accepted.
+- **Last updated**: 2026-07-04
+- **Tier rationale**: assigned Tier 2 in run-274, without ranking Uruguay against other countries. The upside is a real ordinary residence / citizenship framework, workable tax and rent screens if the favorable foreign-client IT model holds, and strong safety/comfort baselines for Latin America. It is not Tier 1 because approval is documentary and adviser-dependent rather than a simple income-threshold DN route; the DN/provisional identity is only a 6+6 month bridge; habitual residence, Spanish, DGI/BPS/VAT treatment, private healthcare/insurance onboarding, school costs, distance from Europe, and Montevideo / Punta del Este one-income pressure remain active caveats.
 
 ## Block 2 - Scoring
 

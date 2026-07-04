@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 273,
+  "iteration": 274,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-04T13:45:44Z",
+  "last_run_timestamp": "2026-07-04T16:50:26Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "Moldova",
+    "country": "Uruguay",
     "sections": [],
     "criterion": "tier-application-small-batch"
   },
@@ -763,7 +763,7 @@
       "unverified_count": 0
     },
     "Uruguay": {
-      "tier": null,
+      "tier": 2,
       "tier_hint": 2,
       "depth_score": 10.0,
       "sections_completed": [
@@ -793,7 +793,7 @@
         "uruguay-spanish-language-integration-needed",
         "uruguay-one-income-margin-risk"
       ],
-      "last_iteration": 234,
+      "last_iteration": 274,
       "unverified_count": 0
     },
     "Paraguay": {
