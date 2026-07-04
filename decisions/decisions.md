@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-04 - Bosnia and Herzegovina assigned Tier X
+**Decision**: Assign Bosnia and Herzegovina `tier: X` as a screening-negative high-burden ordinary-route tier for the couple's current profile, without ranking it against other countries.
+**Rationale**: Bosnia and Herzegovina has low rent/cost screens, Sarajevo/Mostar service roles, acceptable safety and English-proficiency proxies, and a permanent-residence ladder after five years of temporary residence on paper. It is still Tier X for this couple because no dedicated digital-nomad route or current Ukraine-specific protection/post-2027 bridge is captured; the visible residence path is an ordinary work-permit / local-company / founder file, and the captured founder checklist can require five BiH employees per foreign founder. Entity-specific tax/social-contribution treatment, VAT/place-of-supply handling, health-insurance onboarding, family/dependent mechanics, and local-language bureaucracy all remain adviser-dependent, so low rent does not make the route durable enough for current-profile screening.
+**Source**: src-204, src-214, src-215, src-218, src-420, src-561, src-562, src-563, src-565, src-701, src-703, src-704, src-787, src-788, src-827.
+**Iteration**: run-272.
+**Counterevidence considered**: Bosnia and Herzegovina could improve if immigration counsel confirms a workable renewable foreign-client IT self-employment or company-manager route without disproportionate local-employee obligations, if spouse/family residence and PR counting are clear, and if an accountant confirms manageable entity/tax/VAT/insurance mechanics. Those upsides are not safe enough for the current route profile without adviser confirmation.
+
 ## 2026-07-04 - North Macedonia assigned Tier X
 **Decision**: Assign North Macedonia `tier: X` as a screening-negative high-burden / uncertain-settlement tier for the couple's current route profile, without ranking it against other countries.
 **Rationale**: North Macedonia has attractive cost and rent screens, Balkan proximity, a relatively manageable safety / English baseline, and conceptual temporary residence for work or self-employment. It is still Tier X for this couple because no dedicated digital-nomad route or current Ukraine protection bridge is captured, the practical path is a real local self-employment / company-backed / work-permit file rather than simple foreign-client remote work, PR / citizenship counting was not extracted, spouse or durable-partner inclusion is unproven, and conservative tax / contribution modelling can leave only about USD 1,860-1,944/month before accountant, insurance, immigration, and school costs.

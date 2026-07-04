@@ -1,8 +1,8 @@
 ---
 country: Bosnia and Herzegovina
-tier: null
+tier: X
 depth_score: 10.0
-last_updated: 2026-06-29T06:54:09Z
+last_updated: 2026-07-04T10:37:53Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD (Tier-3 hint retained until tax / cost / ordinary-residence viability is researched).
+- **Tier**: X (screening-negative for the current foreign-client IT / one-income route profile).
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-29
-- **Tier rationale**: First pass suggests Bosnia and Herzegovina is an ordinary-residence / company-founder or work-permit jurisdiction, not a dedicated digital-nomad route. The long-term ladder exists on paper through five years of temporary residence to permanent residence, but a foreign-client IT fit is high-burden and now also has entity-specific tax / social-contribution uncertainty. Cost/rent screening is comparatively affordable, and healthcare / education are screenable with Sarajevo as the safest services base. Comfort, partner fit, and bureaucracy/practicality are now screenable too: safety is low-risk but transport/pickpocket/scam caveats matter, English is relatively strong in EF data, and the practical file needs Bosnian/Croatian/Serbian document support plus lawyer/accountant coordination. Low rent and acceptable schools still do not solve the legal-route burden. [src-214][src-215][src-418][src-420][src-561][src-563][src-565][src-701][src-703][src-704][src-787][src-788][src-827]
+- **Last updated**: 2026-07-04
+- **Tier rationale**: Bosnia and Herzegovina is assigned **Tier X** for this couple's current profile because the captured route is not a lightweight remote-worker or digital-nomad path: no dedicated DN route or current Ukraine-specific post-2027 bridge is captured, and the visible ordinary residence route is a work-permit / local company / founder file whose official checklist can require five BiH employees per foreign founder. A permanent-residence ladder after five years exists on paper, and cost/rent are attractive, especially Mostar / Tuzla, but those positives do not overcome the high-burden legal file, unresolved foreign-client IT structure, entity-specific tax / social-contribution risk, health-insurance onboarding, spouse/dependent uncertainty, and local-language bureaucracy. This is a screening tier only, not a final ranking; Bosnia could improve only if counsel confirms a workable foreign-client IT residence structure without disproportionate local-company obligations. [src-214][src-215][src-218][src-420][src-561][src-563][src-565][src-701][src-703][src-704][src-787][src-788][src-827]
 
 ## Block 2 — Scoring
 

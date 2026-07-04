@@ -126,7 +126,7 @@ countries:
   - name: Bosnia and Herzegovina
     group: balkans-east
     tier_hint: 3
-    tier: null
+    tier: X
     status: pending
   - name: Moldova
     group: balkans-east
