@@ -1,7 +1,7 @@
 ---
 document: decisions-log
 version: 1.0.0
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 ---
 
 # Decisions Log
@@ -11,6 +11,13 @@ Record of non-trivial decisions made during research, with rationale, sources, a
 Each entry includes: date, decision (1 line), rationale, sources, iteration, counter-evidence considered.
 
 ---
+
+## 2026-07-04 - Georgia assigned Tier 2
+**Decision**: Assign Georgia `tier: 2` as a conditional nearby-Europe settlement tier for the couple's current profile, without ranking it against other countries.
+**Rationale**: Georgia has easy entry / scouting for Ukrainians, an official SDA IT residence-permit category with a USD 25,000/year remuneration anchor, family residence after the main applicant receives a Georgian permit, a favorable small-business tax screen if the IT / entrepreneurial-natural-person file is accepted, and workable Tbilisi / Batumi / Kutaisi cost and rent baselines. It is Tier 2 rather than Tier 1 because visa-free stay is not residence, Georgia is outside the EU temporary-protection bridge framework, durable status depends on adviser-confirmed IT / small-business / work-right / VAT / pension mechanics, private-health onboarding is still an application-prep caveat, and PR / ordinary citizenship require about 10 years plus Georgian-language / history / law tests.
+**Source**: src-155, src-156, src-157, src-158, src-365, src-367, src-369, src-370, src-537, src-538, src-539, src-540, src-676, src-775, src-776, src-824.
+**Iteration**: run-269.
+**Counterevidence considered**: Georgia could weaken if the IT residence-permit small-business variant does not fit foreign-client contracting, if Revenue Service / pension / VAT treatment pushes the file toward the ordinary 20% PIT fallback, if private insurance and Tbilisi rents erase the one-income buffer, or if marriage/family sequencing is not ready. It could improve if Georgian counsel and an accountant confirm the IT / small-business file and renewal practice cleanly.
 
 ## 2026-07-03 - Turkey assigned Tier 2
 **Decision**: Assign Turkey `tier: 2` as a conditional nearby-Europe settlement tier for the couple's current profile, without ranking it against other countries.

@@ -1,8 +1,8 @@
 ---
 country: Georgia
-tier: null
+tier: 2
 depth_score: 10.0
-last_updated: 2026-06-28T21:36:27Z
+last_updated: 2026-07-04T01:14:50Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. Georgia is easy to enter and has an official IT residence-permit category that may fit the male IT worker, but the route needs verification on the 2026 work-right / small-business mechanics and is not an EU temporary-protection bridge.
+- **Tier**: 2. Georgia is a conditional nearby-Europe settlement candidate for this couple: entry is easy, the official IT residence-permit category can plausibly fit the male IT worker's income and experience, and cost/rent screens are workable, but the route is not an EU temporary-protection bridge and depends on a credible IT / small-business residence file.
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-28T21:36:27Z
-- **Tier rationale**: Not assigned until risk dimensions, bureaucracy, and practical permit-renewal experience are researched.
+- **Last updated**: 2026-07-04T01:14:50Z
+- **Tier rationale**: Tier 2 rather than Tier 1 because the durable plan depends on Georgian IT residence / entrepreneurial-natural-person mechanics, Revenue Service small-business / VAT / pension treatment, marriage-based family sequencing, private-insurance/public-health onboarding, and a long 10-year PR/citizenship clock. It remains stronger than Tier X because the captured SDA IT route has a USD 25,000/year remuneration anchor, family residence after the main permit, and workable Tbilisi/Batumi/Kutaisi budget screens if the small-business model holds.
 
 ## Block 2 — Scoring
 

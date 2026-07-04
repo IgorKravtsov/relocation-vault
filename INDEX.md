@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-07-03
+last_updated: 2026-07-04
 ---
 
 # INDEX
@@ -27,7 +27,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Montenegro | europe-non-eu | 2 | 2 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 266 | `countries/montenegro.md` |
 | Serbia | europe-non-eu | 2 | 2 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 267 | `countries/serbia.md` |
 | Turkey | europe-non-eu | 2 | 2 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 268 | `countries/turkey.md` |
-| Georgia | europe-non-eu | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 229 | `countries/georgia.md` |
+| Georgia | europe-non-eu | 2 | 2 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 269 | `countries/georgia.md` |
 | Albania | balkans-east | 2 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 230 | `countries/albania.md` |
 | North Macedonia | balkans-east | 3 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 231 | `countries/north-macedonia.md` |
 | Bosnia and Herzegovina | balkans-east | 3 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 232 | `countries/bosnia-and-herzegovina.md` |
@@ -52,5 +52,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Assigned final tiers**: 17/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey).
-- **Consolidation note**: run-268 continued schema-safe tier application with Turkey assigned Tier 2 after explicit Block 1 rationale. The remaining 16 countries stay `tier: null` until explicit country-by-country tier rationale is applied.
+- **Assigned final tiers**: 18/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia).
+- **Consolidation note**: run-269 continued schema-safe tier application with Georgia assigned Tier 2 after explicit Block 1 rationale. The remaining 15 countries stay `tier: null` until explicit country-by-country tier rationale is applied.
