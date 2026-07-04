@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-04 - North Macedonia assigned Tier X
+**Decision**: Assign North Macedonia `tier: X` as a screening-negative high-burden / uncertain-settlement tier for the couple's current route profile, without ranking it against other countries.
+**Rationale**: North Macedonia has attractive cost and rent screens, Balkan proximity, a relatively manageable safety / English baseline, and conceptual temporary residence for work or self-employment. It is still Tier X for this couple because no dedicated digital-nomad route or current Ukraine protection bridge is captured, the practical path is a real local self-employment / company-backed / work-permit file rather than simple foreign-client remote work, PR / citizenship counting was not extracted, spouse or durable-partner inclusion is unproven, and conservative tax / contribution modelling can leave only about USD 1,860-1,944/month before accountant, insurance, immigration, and school costs.
+**Source**: src-205, src-206, src-207, src-208, src-209, src-413, src-415, src-416, src-417, src-557, src-558, src-698, src-699, src-785, src-786, src-826.
+**Iteration**: run-271.
+**Counterevidence considered**: North Macedonia could improve if current Ministry of Interior / Employment Agency practice confirms a renewable foreign-client IT self-employment or company-manager route, if PR counting and spouse inclusion are clear, and if an accountant confirms lighter contributions plus export-service VAT treatment. Those upsides are not safe enough for current-profile screening without adviser confirmation.
+
 ## 2026-07-04 - Albania assigned Tier 2
 **Decision**: Assign Albania `tier: 2` as a conditional nearby-Europe / Balkan ordinary-residence tier for the couple's current profile, without ranking it against other countries.
 **Rationale**: Albania has a plausible Type D + Unique Permit remote-worker baseline for foreign-client IT work, secondary income thresholds that screen well below the couple's about USD 3,000/month gross income, a favorable but time-limited self-employed / small-business tax screen, strong Durres / Vlore / rent-controlled Tirana cost and rent baselines, and usable safety / English / professional-support screens. It is Tier 2 rather than Tier 1 because clean official-primary route extraction remains missing, Albania is outside the EU temporary-protection bridge framework, PR / citizenship counting for the remote-worker permit is not captured from law, unmarried-partner coverage is unproven, and tax / VAT / contribution / insurance / lease-address mechanics need adviser confirmation before filing.

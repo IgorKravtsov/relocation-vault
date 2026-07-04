@@ -121,7 +121,7 @@ countries:
   - name: North Macedonia
     group: balkans-east
     tier_hint: 3
-    tier: null
+    tier: X
     status: pending
   - name: Bosnia and Herzegovina
     group: balkans-east

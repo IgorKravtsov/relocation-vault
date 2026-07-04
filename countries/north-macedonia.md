@@ -1,8 +1,8 @@
 ---
 country: North Macedonia
-tier: null
+tier: X
 depth_score: 10.0
-last_updated: 2026-06-29T03:48:37Z
+last_updated: 2026-07-04T07:32:10Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. First-pass evidence points to an ordinary-residence / work-or-self-employment file rather than a dedicated digital-nomad route. The country is promising as a low-cost Balkan base, but the post-2027 Ukrainian protection baseline and foreign-client IT residence fit still need primary-source verification.
+- **Tier**: X. North Macedonia is screening-negative for the couple's current route profile despite low costs: no dedicated digital-nomad route or current Ukraine protection bridge is captured, the practical path is an adviser-dependent real self-employment / company-backed ordinary residence file, PR / citizenship counting was not extracted, and the conservative tax / contribution downside can compress the one-income budget.
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-29T03:48:37Z
-- **Tier rationale**: Not assigned yet; legalization remains partial.
+- **Last updated**: 2026-07-04T07:32:10Z
+- **Tier rationale**: Assigned Tier X in run-271 as a high-burden / uncertain-settlement case, not a final ranking. It could improve only if current Ministry of Interior / Employment Agency practice confirms a renewable foreign-client IT self-employment or company route, spouse inclusion, countable residence toward PR, and manageable tax / VAT / health-insurance setup. [src-206][src-207][src-208][src-413][src-415][src-416][src-417][src-557][src-558][src-698][src-786]
 
 ## Block 2 — Scoring
 
