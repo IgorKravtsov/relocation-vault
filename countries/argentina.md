@@ -1,8 +1,8 @@
 ---
 country: Argentina
-tier: null
+tier: 3
 depth_score: 10.0
-last_updated: 2026-06-30T01:39:54Z
+last_updated: 2026-07-05T05:10:23Z
 sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD (Tier-3 hint retained until taxes/cost/rent and residence-to-citizenship practicality are verified).
+- **Tier**: 3 (bridge / uncertain-settlement case for the current profile).
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-30T01:39:54Z
-- **Tier rationale**: First pass suggests Argentina is legally interesting because Ukrainian ordinary-passport holders have a usable 90-day tourist-entry screening baseline and Argentina has an official digital-nomad transitory residence plus a short legal naturalization horizon. However, the DN status is only 180 + 180 days and transitory, rentista excludes personal-work income, and 2025 citizenship changes require continuous legal residence with no exits during the two-year period. Treat as promising but high-verification until a durable ordinary residence route for foreign-client IT income is confirmed. [src-233][src-234][src-236][src-237]
+- **Last updated**: 2026-07-05T05:10:23Z
+- **Tier rationale**: Argentina is useful as a bridge/base rather than a proven settlement route for this couple. Ukrainian ordinary-passport holders have a usable 90-day scouting baseline, Argentina has an official digital-nomad transitory route for foreign remote work, and the legal-citizenship headline can be short after continuous legal residence. However, the captured DN route is only 180 + 180 days and transitory, the official rentista category excludes remuneration from personal work, no durable foreign-client IT temporary-residence category is captured, and the updated citizenship baseline requires two years of legal continuous residence with no exits. Tier 3 reflects a potentially useful test/base country with a short-citizenship upside only if counsel proves the durable ordinary route; it is not a Tier 1/2 settlement plan and not a TOP-N recommendation. [src-233][src-235][src-237][src-238][src-239][src-240]
 
 ## Block 2 — Scoring
 

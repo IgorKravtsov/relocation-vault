@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "iteration": 277,
+  "iteration": 278,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-05T02:04:24Z",
+  "last_run_timestamp": "2026-07-05T05:10:23Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "Mexico",
+    "country": "Argentina",
     "sections": [],
     "criterion": "tier-application-small-batch"
   },
@@ -908,7 +908,7 @@
       "unverified_count": 0
     },
     "Argentina": {
-      "tier": null,
+      "tier": 3,
       "tier_hint": 3,
       "depth_score": 10.0,
       "sections_completed": [
@@ -942,7 +942,7 @@
         "argentina-spanish-language-integration-needed",
         "argentina-street-crime-scam-risk"
       ],
-      "last_iteration": 238,
+      "last_iteration": 278,
       "unverified_count": 0
     },
     "UAE": {
