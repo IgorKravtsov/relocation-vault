@@ -1,8 +1,8 @@
 ---
 country: Thailand
-tier: null
+tier: 3
 depth_score: 10.0
-last_updated: 2026-06-30T10:54:31Z
+last_updated: 2026-07-05T14:25:56Z
 sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 - Summary
 
-- **Tier**: TBD (first pass suggests a strong medium-term bridge/base, not a proven settlement route for this couple).
+- **Tier**: 3 (bridge/base: usable DTV medium-term remote-work route, but no captured settlement ladder for the couple's current profile).
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-30
-- **Tier rationale**: Ukrainian passport holders can use a 60-day visa exemption for tourism/scouting, and the Destination Thailand Visa (DTV) is a current official workcation route for remote workers/freelancers with a 500,000 THB savings threshold and 5-year multiple-entry validity. However, DTV is structured around 180-day stays and exits/re-entries, while the official LTR Work-from-Thailand route requires at least USD 80,000/year, or USD 40,000/year plus extra qualifications and a qualifying large overseas employer, above or awkward for the couple's current profile. [src-257][src-258][src-259]
+- **Last updated**: 2026-07-05
+- **Tier rationale**: Thailand has a real official Destination Thailand Visa (DTV) workcation route for remote workers/freelancers, a 5-year multiple-entry validity, 180-day stay blocks with extension/re-entry mechanics, a 500,000 THB financial-evidence requirement that may be feasible if savings are available, and spouse/children dependent coverage if the couple marries. It is Tier 3 rather than Tier 1/2 because DTV is a bridge/base status, not a captured PR/citizenship ladder; the official LTR Work-from-Thailand route requires at least USD 80,000/year, or USD 40,000/year plus extra qualifications and a qualifying large overseas employer, above or awkward for the couple's current USD 36,000/year freelance/client profile. Tax-remittance, VAT/social-security, health-insurance, international-school, road/transport, English-language, and one-income Bangkok/Phuket budget risks remain active caveats. [src-257][src-258][src-259]
 
 ## Block 2 - Scoring
 

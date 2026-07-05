@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-05 - Thailand assigned Tier 3
+**Decision**: Assign Thailand `tier: 3` as a bridge/base tier for the couple's current profile, without ranking it against other countries.
+**Rationale**: Thailand has an official Destination Thailand Visa workcation route for foreign remote workers/freelancers, 5-year multiple-entry validity, 180-day stay blocks with extension/re-entry mechanics, and captured spouse/children dependent coverage if the couple marries. Cost/rent screens can work in Chiang Mai or with capped Bangkok/Pattaya budgets, and the ordinary PIT-only tax screen is not the main blocker. It is Tier 3 rather than Tier 1/2 because DTV is not captured as a PR/citizenship ladder, LTR Work-from-Thailand Professionals requires USD 80,000/year or USD 40,000-80,000/year plus extra qualifications and a qualifying large overseas employer, and tax-remittance, VAT/social-security, insurance, international-school, road/transport, English-language, and one-income Bangkok/Phuket budget risks remain active.
+**Source**: src-257, src-258, src-259, src-260, src-261, src-471, src-472, src-473, src-474, src-475, src-476, src-585, src-586, src-587, src-588, src-589, src-721, src-722, src-723, src-724, src-725, src-726, src-797, src-798, src-836.
+**Iteration**: run-281.
+**Counterevidence considered**: Thailand could improve if Thai counsel confirms a durable post-DTV route, PR/citizenship counting or conversion mechanics, spouse work rights, and a tax-adviser file that keeps foreign-client IT income cleanly reportable. It could weaken if DTV extension/re-entry practice, Thai tax residence/remittance treatment, private insurance, school fees, road/safety friction, or Bangkok/Phuket costs make the bridge too fragile on one income.
+
 ## 2026-07-05 - Malaysia assigned Tier 3
 **Decision**: Assign Malaysia `tier: 3` as a bridge/base tier for the couple's current profile, without ranking it against other countries.
 **Rationale**: Malaysia has an official DE Rantau Professional Visit Pass route for foreign digital nomads, can be applied for from outside Malaysia, accepts spouse/children dependents, and its tech-professional income threshold of more than USD 24,000/year is below the working partner's roughly USD 36,000/year profile. It is Tier 3 rather than Tier 1/2 because DE Rantau is capped at 24 months total, no DE Rantau-to-Entry-Permit / permanent-residence ladder or time-counting rule is captured, citizenship requires a durable long-residence baseline not yet proven for this route, and tax/source classification, SST/e-invoice, insurance, post-24-month status, and Kuala Lumpur/Penang one-income budget caveats remain application-prep risks.

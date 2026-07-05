@@ -6,7 +6,7 @@ Inputs: `dimensions/tier-readiness-audit.md`, `state.json`, `INDEX.md`, country 
 
 ## Scope
 
-This worksheet is a non-ranking normalization layer between the completed country profiles and schema-safe writes to `tier` fields. As of run-280, it records both the screening-safe bands for countries still awaiting tier application and the small-batch tier changes already applied. It is not a TOP-N ranking or relocation recommendation.
+This worksheet is a non-ranking normalization layer between the completed country profiles and schema-safe writes to `tier` fields. As of run-281, it records both the screening-safe bands for countries still awaiting tier application and the small-batch tier changes already applied. It is not a TOP-N ranking or relocation recommendation.
 
 ## Guardrails applied
 
@@ -64,6 +64,7 @@ This worksheet is a non-ranking normalization layer between the completed countr
 - run-278: Argentina assigned `tier: 3` as a bridge / uncertain-settlement case. Rationale: Argentina has a usable scouting baseline, an official 180+180-day digital-nomad transitory route, good regional comfort/cost screens, and a short citizenship headline if legal continuous residence is later secured; it is not Tier 1/2 because DN is transitory, rentista excludes personal-work income, no durable foreign-client IT temporary-residence category is captured, and citizenship now requires two years of legal residence with no exits.
 - run-279: UAE assigned `tier: X` as screening-negative at the current income / settlement profile. Rationale: UAE has excellent tax and infrastructure screens plus an official virtual-work route, but the route requires USD 3,500/month, above the couple's current USD 3,000/month gross income; the 5-year Green Residence freelancer threshold is far higher, private-market costs are tight in Dubai/Abu Dhabi, and ordinary citizenship is nomination-based rather than a predictable residence ladder.
 - run-280: Malaysia assigned `tier: 3` as a bridge/base case. Rationale: Malaysia has an official DE Rantau Professional Visit Pass route for foreign digital nomads, the tech-income threshold is below the couple's current USD 36,000/year profile, and spouse/children dependents are captured, but the route is capped at 24 months total and no DE Rantau-to-PR / Entry Permit ladder or time-counting rule is proven; tax/source, insurance, post-24-month status, and one-income KL/Penang caveats remain application-prep risks.
+- run-281: Thailand assigned `tier: 3` as a bridge/base case. Rationale: Thailand has an official DTV workcation route for foreign remote workers/freelancers, 5-year multiple-entry validity, spouse/children dependent coverage after marriage, and feasible cost/rent screens if city choice is disciplined, but DTV is structured around 180-day stay management and is not a captured PR/citizenship ladder; LTR Work-from-Thailand is above or awkward for the couple's current USD 36,000/year freelance/client profile, and tax/remittance, insurance, school, English, road/transport, and one-income Bangkok/Phuket budget risks remain active.
 
 ## Next consolidation candidate
 
