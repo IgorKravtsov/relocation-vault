@@ -186,5 +186,5 @@ countries:
   - name: Armenia
     group: post-ussr
     tier_hint: 3
-    tier: null
+    tier: 3
     status: pending

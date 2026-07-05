@@ -42,7 +42,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Thailand | middle-east-asia | 3 | 3 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 281 | `countries/thailand.md` |
 | Indonesia | middle-east-asia | 3 | 3 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 282 | `countries/indonesia.md` |
 | Kazakhstan | post-ussr | 3 | 3 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 283 | `countries/kazakhstan.md` |
-| Armenia | post-ussr | 3 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 244 | `countries/armenia.md` |
+| Armenia | post-ussr | 3 | 3 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 284 | `countries/armenia.md` |
 
 ## Summary
 
@@ -52,5 +52,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Assigned final tiers**: 32/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama, Mexico, Argentina, UAE, Malaysia, Thailand, Indonesia, Kazakhstan).
-- **Consolidation note**: run-283 continued schema-safe tier application with Kazakhstan assigned Tier 3 after explicit Block 1 rationale. The remaining 1 country stays `tier: null` until explicit country-by-country tier rationale is applied.
+- **Assigned final tiers**: 33/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama, Mexico, Argentina, UAE, Malaysia, Thailand, Indonesia, Kazakhstan, Armenia).
+- **Consolidation note**: run-284 completed schema-safe tier application with Armenia assigned Tier 3 after explicit Block 1 rationale. All 33 countries now have assigned tiers, but this remains a screening taxonomy, not a TOP-N ranking or final relocation recommendation.

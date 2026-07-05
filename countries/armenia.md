@@ -1,8 +1,8 @@
 ---
 country: Armenia
-tier: null
+tier: 3
 depth_score: 10.0
-last_updated: 2026-06-30T20:12:08Z
+last_updated: 2026-07-05T23:40:35Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD (Tier-3 hint). Armenia is easy for Ukrainian short entry and has official temporary/permanent residence categories, including business activity, but this first pass did not capture a dedicated digital-nomad route or a low-documentation foreign-client IT pathway. Long-term potential depends on whether the working partner can run a real Armenian business / individual-entrepreneur file that renews cleanly and supports later permanent residence and citizenship. [src-274][src-275][src-276]
+- **Tier**: 3. Armenia is assigned as a nearby bridge/base tier for the couple's current profile. Ukrainian visa-free scouting, official business-activity temporary/permanent residence categories, a potentially short citizenship headline, low secondary-city rent, and screenable Yerevan services make it usable to investigate, but the captured evidence does not yet prove a lightweight foreign-client IT residence route or a durable settlement ladder. The practical plan remains adviser-led Armenian IE/LLC / business-activity residence plus marriage-first partner coverage, with tax/VAT, insurance, lease, language, border-security, and renewal/counting caveats active. [src-274][src-275][src-276][src-487][src-489][src-490][src-491][src-601][src-803][src-804]
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-30
-- **Tier rationale**: Not assigned yet; the current file has first-pass legalization, climate, tax, cost-of-living, rent, healthcare, education, comfort, partner-fit, risk, and bureaucracy/practicality baselines.
+- **Last updated**: 2026-07-05
+- **Tier rationale**: Tier 3 rather than Tier 1/2 because Armenia is not a captured DN-style or low-friction settlement route for foreign-client IT, and the business-residence-to-PR/citizenship chain still requires adviser confirmation. Not Tier X because official ordinary residence categories, easy entry, workable tax/rent screens, and Yerevan professional-service depth make a counsel-led bridge/base plausible if the business file is accepted.
 
 ## Block 2 — Scoring
 

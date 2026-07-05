@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "iteration": 283,
+  "iteration": 284,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-05T20:36:26Z",
+  "last_run_timestamp": "2026-07-05T23:40:35Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "Kazakhstan",
+    "country": "Armenia",
     "sections": [],
     "criterion": "tier-application-small-batch"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "Continue schema-safe tier application using dimensions/tier-normalization-worksheet.md; 1 country remains tier:null until explicit country-level rationale is applied, and avoid TOP-N ranking."
+    "reason": "All 33 countries now have assigned tiers after schema-safe country-level tier application. Next consolidation can verify tier-field consistency or prepare non-ranking cross-country synthesis inputs; do not create a TOP-N ranking."
   },
   "countries": {
     "Spain": {
@@ -1128,7 +1128,7 @@
       "unverified_count": 0
     },
     "Armenia": {
-      "tier": null,
+      "tier": 3,
       "tier_hint": 3,
       "depth_score": 10.0,
       "sections_completed": [
@@ -1160,7 +1160,7 @@
         "armenia-english-language-integration-needed",
         "armenia-border-region-security-caveat"
       ],
-      "last_iteration": 244,
+      "last_iteration": 284,
       "unverified_count": 0
     }
   },
