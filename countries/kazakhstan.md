@@ -1,8 +1,8 @@
 ---
 country: Kazakhstan
-tier: null
+tier: 3
 depth_score: 10.0
-last_updated: 2026-06-30T17:05:40Z
+last_updated: 2026-07-05T20:36:26Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD (Tier-3 hint until durable settlement mechanics are verified)
+- **Tier**: 3 (nearby bridge/base; not a proven settlement ladder)
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-30
-- **Tier rationale**: Kazakhstan is easy for Ukrainian short entry and can be a nearby CIS bridge, but this first pass did not capture a durable foreign-client IT residence ladder. The official TRP page lists one-year temporary-residence purposes for CIS citizens, including labor, business-immigrant, family, and study purposes, while the remote-work / Neo Nomad route is only secondary-sourced and must be confirmed against official visa-category rules before it can be used for scoring. Taxes screen moderately on PIT alone, but the exact foreign-client IT entrepreneur / VAT / contribution structure is unresolved. Cost and rent now screen affordable in Shymkent / Aktau and workable in Nur-Sultan, while Almaty requires a stricter rent cap on the conservative tax-net band. Healthcare is screenable only with private-insurance budgeting and status-specific public-system checks; education is viable in Almaty/Astana through public Kazakh/Russian schooling or international schools, but international-school fees can be a major one-income budget risk. Comfort now screens medium: WPR/TravelSafe show a low-risk safety baseline, but Kazakhstan is not an English-easy relocation; EF ranks it low and Shymkent/Aktau have weaker English scores than Astana/Almaty. Partner fit is conservative: marriage/spouse status or an independent study/work file is safer than unmarried dependency, and the one-income margin depends on resolving the Neo Nomad/TRP route. Bureaucracy/practicality is now screenable but adviser-led: visa-free scouting is easy, while any Neo Nomad/TRP/business-immigrant file needs Almaty/Astana professional support for route, tax, IIN/banking, insurance, lease/address, and spouse sequencing. [src-267][src-268][src-269][src-272][src-273][src-482][src-483][src-484][src-595][src-596][src-597][src-598][src-599][src-732][src-733][src-734][src-735][src-801][src-802][src-838]
+- **Last updated**: 2026-07-05
+- **Tier rationale**: Kazakhstan is assigned **Tier 3** as a nearby bridge/base, not a proven settlement route. The positive screen is that Ukrainian ordinary passports have official visa-free short entry, eGov shows a one-year CIS-citizen TRP framework for purposes such as labor, business, family, and study, taxes are not rate-disqualifying on PIT alone, and Shymkent/Aktau rents leave one-income margin. The limiting evidence is stronger: the Neo Nomad / remote-work route is still secondary-sourced in this vault, ordinary TRP/business-immigrant evidence does not prove a lightweight foreign-client IT file, no durable PR/citizenship ladder is captured for TRP / Neo Nomad / foreign-client IT, and citizenship planning carries dual-nationality risk. Kazakhstan therefore stays below Tier 1/2 until an official or counsel-confirmed route proves renewable lawful stay, spouse/dependent mechanics, tax/VAT/contribution fit, and PR-counting. It is not Tier X because scouting is easy, costs can work outside Almaty, and a counsel-led bridge may be feasible; it is Tier 3 because the captured evidence supports bridge/base planning rather than a dependable settlement ladder. Healthcare, insurance, school, lease/address, English/Russian/Kazakh-language, and Almaty margin caveats remain active. [src-267][src-268][src-269][src-270][src-271][src-482][src-483][src-484][src-596][src-598][src-599][src-732][src-735][src-801][src-802][src-838]
 
 ## Block 2 — Scoring
 

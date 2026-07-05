@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-07-05
 ---
 
+## 2026-07-05 - run-283 - tier-application-kazakhstan
+
+- Consolidation: continued schema-safe tier application with one country; Kazakhstan is now `tier: 3` in country frontmatter, `countries.yml`, `state.json`, and `INDEX.md`.
+- Updated Kazakhstan Block 1 tier rationale and added a decision-log entry; this is not a TOP-N ranking or final relocation recommendation.
+- Remaining countries stay `tier: null` until explicit country-level rationale is applied in later small batches.
+- Sources added: 0; claims added: 0; verification queue remains 0 pending/open.
+
 ## 2026-07-05 - run-282 - tier-application-indonesia
 
 - Consolidation: continued schema-safe tier application with one country; Indonesia is now `tier: 3` in country frontmatter, `countries.yml`, `state.json`, and `INDEX.md`.
