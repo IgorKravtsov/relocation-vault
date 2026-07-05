@@ -1,8 +1,8 @@
 ---
 country: Indonesia
-tier: null
+tier: 3
 depth_score: 10.0
-last_updated: 2026-06-30T14:00:47Z
+last_updated: 2026-07-05T17:30:22Z
 sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 — Summary
 
-- **Tier**: TBD. First-pass evidence points to Indonesia as a bridge/base rather than a proven settlement route for this couple: Ukraine is listed among Indonesia's VoA/e-VoA subject countries, and the official E33G remote-worker limited-stay visa exists, but its US$60,000/year income requirement is above the couple's current ~US$36,000/year income. [src-263][src-264]
+- **Tier**: 3. Indonesia is a bridge/base case rather than a settlement candidate for the couple's current profile: Ukrainian/Polish passports can use VoA/e-VoA scouting, and the official E33G remote-worker limited-stay route exists, but E33G requires at least US$60,000/year income, above the couple's current ~US$36,000/year, and no durable ITAP/PR/citizenship ladder is captured for foreign-client IT work. [src-263][src-264]
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-30
-- **Tier rationale**: Do not classify yet. The core route is official but income-gated and the first pass did not capture a durable PR/citizenship ladder for a foreign-client IT worker using E33G.
+- **Last updated**: 2026-07-05
+- **Tier rationale**: Tier 3 reflects a warm, low-rent, potentially useful bridge only if income rises enough for E33G or another KITAS path. It is not Tier 1/2 because the current-income route gate fails and settlement mechanics are unproven; it is not Tier X because short scouting and a future higher-income E33G bridge remain real official options, with cost/rent screens that can work if private insurance, tax, lease, and city risks are controlled.
 
 ## Block 2 — Scoring
 

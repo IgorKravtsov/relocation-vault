@@ -176,7 +176,7 @@ countries:
   - name: Indonesia
     group: middle-east-asia
     tier_hint: 3
-    tier: null
+    tier: 3
     status: pending
   - name: Kazakhstan
     group: post-ussr
