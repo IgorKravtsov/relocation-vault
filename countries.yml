@@ -151,7 +151,7 @@ countries:
   - name: Mexico
     group: latin-america
     tier_hint: 3
-    tier: null
+    tier: X
     status: pending
   - name: Argentina
     group: latin-america

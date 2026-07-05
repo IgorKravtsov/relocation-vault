@@ -1,8 +1,8 @@
 ---
 country: Mexico
-tier: null
+tier: X
 depth_score: 10.0
-last_updated: 2026-06-29T22:31:12Z
+last_updated: 2026-07-05T02:04:24Z
 sections_completed: ["5.2", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.3", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 - Summary
 
-- **Tier**: TBD. First pass suggests Mexico is a possible ordinary-residence fallback rather than a clean digital-nomad route: temporary residence can lead to permanent residence after four years, but 2026 economic-solvency thresholds appear above the couple's current ~$3,000/month income if they apply through the standard income route. [src-227][src-229]
+- **Tier**: X. Mexico is screening-negative for the couple's current income profile, not because the country lacks a residence ladder, but because the captured practical route starts with a consular temporary-resident solvency gate that appears above the couple's ~$3,000/month income. Temporary residence can in principle lead to permanent residence after four years, but no dedicated digital-nomad route was captured, Ukrainian entry / visa-alternative mechanics remain conservative, and tax / healthcare / partner / Spanish-language setup would add costs after an already-failed income screen. [src-226][src-227][src-229][src-449][src-571][src-572][src-792]
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-29T22:31:12Z
-- **Tier rationale**: keep as Tier-3 hint until the exact serving-consulate threshold, entry mechanics for Ukrainian passports, taxes, rent, healthcare, and partner sponsorship are checked.
+- **Last updated**: 2026-07-05T02:04:24Z
+- **Tier rationale**: assign Tier X for the current profile because the ordinary temporary-residence ladder is not realistically accessible on income alone at the captured 2026 consular-solvency benchmark, and the savings/dependent/remote-work tax path remains unproven. Mexico could be revisited if savings qualify, income rises, or a serving consulate confirms a lower threshold, but those are application-prep contingencies rather than screening-safe assumptions.
 
 ## Block 2 - Scoring
 

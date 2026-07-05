@@ -1,7 +1,7 @@
 ---
 document: decisions-log
 version: 1.0.0
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # Decisions Log
@@ -11,6 +11,13 @@ Record of non-trivial decisions made during research, with rationale, sources, a
 Each entry includes: date, decision (1 line), rationale, sources, iteration, counter-evidence considered.
 
 ---
+
+## 2026-07-05 - Mexico assigned Tier X
+**Decision**: Assign Mexico `tier: X` as a screening-negative tier for the couple's current income / route profile, without ranking it against other countries.
+**Rationale**: Mexico has a useful ordinary-residence ladder in principle: a consular resident visa can be exchanged in-country, temporary residence can later change to permanent residence after four years, and Guadalajara / Merida-style bases are more plausible than Mexico City on rent. It is still Tier X for this couple because the captured 2026 temporary-resident income benchmark is about USD 4,400/month net, above the current USD 3,000/month gross income; no dedicated digital-nomad route was captured; Ukrainian entry and a temporary Polish `karta pobytu` should not be assumed to waive Mexican visa requirements; and tax / VAT / IMSS / private-insurance / spouse / Spanish-language administration would add friction after an already weak route gate.
+**Source**: src-226, src-227, src-228, src-229, src-230, src-231, src-232, src-449, src-450, src-451, src-452, src-453, src-454, src-455, src-570, src-571, src-572, src-573, src-574, src-709, src-710, src-711, src-712, src-791, src-792, src-832.
+**Iteration**: run-277.
+**Counterevidence considered**: Mexico could improve if income rises, savings/investment criteria qualify at the serving consulate, the couple marries and family-unity mechanics are confirmed, or a Mexican accountant confirms a favorable RESICO / VAT / IMSS setup. Those upsides are not safe enough for the current-profile tier because they depend on consular or adviser confirmation not captured in the screening baseline.
 
 ## 2026-07-04 - Panama assigned Tier 3
 **Decision**: Assign Panama `tier: 3` as a bridge / conditional ordinary-route tier for the couple's current profile, without ranking it against other countries.

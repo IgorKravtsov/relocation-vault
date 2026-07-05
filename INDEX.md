@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-07-04
+last_updated: 2026-07-05
 ---
 
 # INDEX
@@ -35,7 +35,7 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 | Uruguay | latin-america | 2 | 2 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 274 | `countries/uruguay.md` |
 | Paraguay | latin-america | 2 | 2 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 275 | `countries/paraguay.md` |
 | Panama | latin-america | 2 | 3 | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 276 | `countries/panama.md` |
-| Mexico | latin-america | 3 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 237 | `countries/mexico.md` |
+| Mexico | latin-america | 3 | X | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 277 | `countries/mexico.md` |
 | Argentina | latin-america | 3 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 238 | `countries/argentina.md` |
 | UAE | middle-east-asia | 3 | — | 10.0 | done: 5.2, 5.3, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.6 | 239 | `countries/uae.md` |
 | Malaysia | middle-east-asia | 3 | — | 10.0 | done: 5.2, 5.4, 5.5, 5.7, 5.8, 5.9, 5.10, 5.11; partial: 5.1, 5.3, 5.6 | 240 | `countries/malaysia.md` |
@@ -52,5 +52,5 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Tier 3 hints**: 11
 - **Researched**: 33
 - **Average depth_score**: 10.00
-- **Assigned final tiers**: 25/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama).
-- **Consolidation note**: run-276 continued schema-safe tier application with Panama assigned Tier 3 after explicit Block 1 rationale. The remaining 8 countries stay `tier: null` until explicit country-by-country tier rationale is applied.
+- **Assigned final tiers**: 26/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama, Mexico).
+- **Consolidation note**: run-277 continued schema-safe tier application with Mexico assigned Tier X after explicit Block 1 rationale. The remaining 7 countries stay `tier: null` until explicit country-by-country tier rationale is applied.

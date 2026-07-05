@@ -1,6 +1,6 @@
 # Dimension: Tier-readiness audit
 
-Last updated: 2026-07-04
+Last updated: 2026-07-05
 Mode: consolidation
 Inputs: `state.json`, `countries.yml`, `INDEX.md`, country frontmatter, `verification-queue.md`, `scripts/find-stale.py`
 
@@ -12,7 +12,7 @@ This is a non-ranking audit. It checks whether the vault is structurally ready f
 
 - Country set: 33/33 countries are present in `countries.yml`, `state.json`, and `INDEX.md`.
 - Screening depth: 33/33 countries have `depth_score: 10.0`.
-- Assigned tiers: 25/33. Greece and Poland have `tier: 1`; Spain, Portugal, Italy, Czech Republic, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, Uruguay, and Paraguay have `tier: 2`; Moldova and Panama have `tier: 3`; Cyprus, Croatia, Malta, Romania, Bulgaria, Hungary, North Macedonia, and Bosnia and Herzegovina have `tier: X` in country frontmatter, `countries.yml`, live state, and `INDEX.md`; the remaining 8 countries still have `tier: null`. Run-251 added the non-ranking worksheet, run-252 started schema-safe tier application, run-253 continued it with Spain, run-254 continued it with Portugal, run-255 continued it with Italy, run-256 continued it with Cyprus, run-257 continued it with Croatia, run-258 continued it with Malta, run-259 continued it with Czech Republic, run-260 continued it with Poland, run-261 continued it with Romania, run-262 continued it with Bulgaria, run-263 continued it with Hungary, run-264 continued it with Slovakia, run-265 continued it with Slovenia, run-266 continued it with Montenegro, run-267 continued it with Serbia, run-268 continued it with Turkey, run-269 continued it with Georgia, run-270 continued it with Albania, run-271 continued it with North Macedonia, run-272 continued it with Bosnia and Herzegovina, run-273 continued it with Moldova, run-274 continued it with Uruguay, run-275 continued it with Paraguay, and run-276 continued it with Panama.
+- Assigned tiers: 26/33. Greece and Poland have `tier: 1`; Spain, Portugal, Italy, Czech Republic, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, Uruguay, and Paraguay have `tier: 2`; Moldova and Panama have `tier: 3`; Cyprus, Croatia, Malta, Romania, Bulgaria, Hungary, North Macedonia, Bosnia and Herzegovina, and Mexico have `tier: X` in country frontmatter, `countries.yml`, live state, and `INDEX.md`; the remaining 7 countries still have `tier: null`. Run-251 added the non-ranking worksheet, run-252 started schema-safe tier application, run-253 continued it with Spain, run-254 continued it with Portugal, run-255 continued it with Italy, run-256 continued it with Cyprus, run-257 continued it with Croatia, run-258 continued it with Malta, run-259 continued it with Czech Republic, run-260 continued it with Poland, run-261 continued it with Romania, run-262 continued it with Bulgaria, run-263 continued it with Hungary, run-264 continued it with Slovakia, run-265 continued it with Slovenia, run-266 continued it with Montenegro, run-267 continued it with Serbia, run-268 continued it with Turkey, run-269 continued it with Georgia, run-270 continued it with Albania, run-271 continued it with North Macedonia, run-272 continued it with Bosnia and Herzegovina, run-273 continued it with Moldova, run-274 continued it with Uruguay, run-275 continued it with Paraguay, run-276 continued it with Panama, and run-277 continued it with Mexico.
 - Tier hints: Tier-1 hints 7; Tier-2 hints 15; Tier-3 hints 11.
 - Verification queue: 0 pending/open items.
 - Country-local unverified counters: 0 nonzero values after run-250 reconciliation.
@@ -21,7 +21,7 @@ This is a non-ranking audit. It checks whether the vault is structurally ready f
 
 ## Readiness conclusion
 
-The vault is in the **dedicated tier-normalization workflow**: runs 252-276 applied the first twenty-five country tiers, but broad automatic tier assignment is still forbidden. The inputs are complete enough to compare countries for screening, but assigned tiers should be written only in a focused run that explicitly records rationale, confidence, and caveats per country.
+The vault is in the **dedicated tier-normalization workflow**: runs 252-277 applied the first twenty-six country tiers, but broad automatic tier assignment is still forbidden. The inputs are complete enough to compare countries for screening, but assigned tiers should be written only in a focused run that explicitly records rationale, confidence, and caveats per country.
 
 ## Required guardrails for tier normalization
 
