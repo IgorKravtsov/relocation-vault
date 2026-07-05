@@ -161,7 +161,7 @@ countries:
   - name: UAE
     group: middle-east-asia
     tier_hint: 3
-    tier: null
+    tier: X
     status: pending
   - name: Malaysia
     group: middle-east-asia

@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "iteration": 278,
+  "iteration": 279,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-05T05:10:23Z",
+  "last_run_timestamp": "2026-07-05T08:17:00Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "Argentina",
+    "country": "UAE",
     "sections": [],
     "criterion": "tier-application-small-batch"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "Continue schema-safe small-batch tier application using dimensions/tier-normalization-worksheet.md; apply explicit Block 1 rationale before changing any remaining country tier fields, and avoid TOP-N ranking."
+    "reason": "Continue schema-safe small-batch tier application using dimensions/tier-normalization-worksheet.md; 5 countries remain tier:null until explicit country-level rationale is applied, and avoid TOP-N ranking."
   },
   "countries": {
     "Spain": {
@@ -946,7 +946,7 @@
       "unverified_count": 0
     },
     "UAE": {
-      "tier": null,
+      "tier": "X",
       "tier_hint": 3,
       "depth_score": 10.0,
       "sections_completed": [
@@ -978,7 +978,7 @@
         "uae-conservative-social-legal-norms",
         "uae-english-service-layer-not-local-default"
       ],
-      "last_iteration": 239,
+      "last_iteration": 279,
       "unverified_count": 0
     },
     "Malaysia": {

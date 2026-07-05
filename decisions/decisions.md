@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-05 - UAE assigned Tier X
+**Decision**: Assign UAE `tier: X` as a screening-negative tier for the couple's current income / settlement profile, without ranking it against other countries.
+**Rationale**: UAE has an official virtual-work residence route for foreign remote work, strong Dubai / Abu Dhabi / Sharjah infrastructure, very favorable individual-tax screening at USD 3,000/month, and excellent winter climate. It is still Tier X for the current profile because the best-fit virtual-work route requires at least USD 3,500/month, above the couple's current gross income; the 5-year Green Residence freelancer threshold is far higher at AED 360,000/year; Dubai and Abu Dhabi cost/rent screens are tight on one income; the student partner is spouse/family-first after the sponsor qualifies; and citizenship is nomination-based for exceptional categories rather than a predictable residence-to-passport ladder.
+**Source**: src-243, src-244, src-245, src-246, src-247, src-248, src-249, src-250, src-462, src-463, src-464, src-604, src-605, src-606, src-607, src-740, src-741, src-742, src-743, src-805, src-806, src-834.
+**Iteration**: run-279.
+**Counterevidence considered**: UAE could improve as a bridge/base if recurring income rises above USD 3,500/month, if the couple marries for spouse sponsorship, and if adviser checks confirm acceptable health insurance, lease, Emirates ID, banking, and family-sponsorship mechanics. It remains weak as a settlement country because the captured routes do not create a normal PR/citizenship ladder and because private-market costs can erase the tax advantage.
+
 ## 2026-07-05 - Argentina assigned Tier 3
 **Decision**: Assign Argentina `tier: 3` as a bridge / uncertain-settlement tier for the couple's current profile, without ranking it against other countries.
 **Rationale**: Argentina has a usable 90-day Ukrainian scouting baseline, official digital-nomad transitory residence / electronic-entry paths for foreign remote work, good Cordoba / Mendoza cost and climate screens, and a potentially short citizenship horizon if legal continuous residence is later secured. It remains Tier 3 rather than Tier 1/2 because the captured DN route is transitory and limited to 180 + 180 days, rentista expressly excludes remuneration from personal work, no durable foreign-client IT temporary-residence category is captured, and the updated citizenship rule requires two years of legal residence with no exits. Tax, VAT/export-service, Ingresos Brutos, banking, health-insurance, dependent, and Buenos Aires rent caveats keep the current profile bridge-first.

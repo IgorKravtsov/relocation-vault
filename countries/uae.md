@@ -1,8 +1,8 @@
 ---
 country: UAE
-tier: null
+tier: X
 depth_score: 10.0
-last_updated: 2026-06-30T04:44:49Z
+last_updated: 2026-07-05T08:17:00Z
 sections_completed: ["5.2", "5.3", "5.4", "5.5", "5.7", "5.8", "5.9", "5.10", "5.11"]
 sections_partial: ["5.1", "5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 - Summary
 
-- **Tier**: TBD (early evidence points to a bridge/base jurisdiction rather than a settlement route for this couple).
+- **Tier**: X (screening-negative for the couple's current income / settlement profile; usable only as a higher-income bridge/base).
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-30T04:44:49Z
-- **Tier rationale**: UAE has real short-stay and self-sponsored residence routes, and taxes are very favorable at the couple's current income level. The limiting factor remains immigration, not tax: the best-fit virtual-work route is a one-year extendable bridge above the couple's current USD 3,000/month income, the 5-year Green Residence freelancer threshold is much higher, and ordinary citizenship is nomination-based for exceptional categories rather than a predictable residence-to-passport track. [src-244][src-245][src-248][src-462]
+- **Last updated**: 2026-07-05T08:17:00Z
+- **Tier rationale**: UAE has strong infrastructure, near-zero individual tax at USD 3,000/month, and an official self-sponsored virtual-work residence route, but the decisive route gate is negative for the current profile: virtual work requires at least USD 3,500/month, Green Residence freelancer income is far higher, and no predictable PR/citizenship ladder is captured. Treat UAE as Tier X for the current one-income settlement plan; it could become a bridge option if income rises above the route threshold and the couple accepts renewable temporary residence without a normal naturalization path. [src-244][src-245][src-248][src-462]
 
 ## Block 2 - Scoring
 
