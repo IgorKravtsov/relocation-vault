@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "iteration": 279,
+  "iteration": 280,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-05T08:17:00Z",
+  "last_run_timestamp": "2026-07-05T11:20:49Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "UAE",
+    "country": "Malaysia",
     "sections": [],
     "criterion": "tier-application-small-batch"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "Continue schema-safe small-batch tier application using dimensions/tier-normalization-worksheet.md; 5 countries remain tier:null until explicit country-level rationale is applied, and avoid TOP-N ranking."
+    "reason": "Continue schema-safe small-batch tier application using dimensions/tier-normalization-worksheet.md; 4 countries remain tier:null until explicit country-level rationale is applied, and avoid TOP-N ranking."
   },
   "countries": {
     "Spain": {
@@ -982,7 +982,7 @@
       "unverified_count": 0
     },
     "Malaysia": {
-      "tier": null,
+      "tier": 3,
       "tier_hint": 3,
       "depth_score": 10.0,
       "sections_completed": [
@@ -1014,7 +1014,7 @@
         "malaysia-bahasa-english-integration-needed",
         "east-malaysia-security-caveat"
       ],
-      "last_iteration": 240,
+      "last_iteration": 280,
       "unverified_count": 0
     },
     "Thailand": {

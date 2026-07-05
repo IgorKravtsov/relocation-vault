@@ -1,8 +1,8 @@
 ---
 country: Malaysia
-tier: null
+tier: 3
 depth_score: 10.0
-last_updated: 2026-06-30T07:49:25Z
+last_updated: 2026-07-05T11:20:49Z
 sections_completed: ["5.2","5.4","5.5","5.7","5.8","5.9","5.10","5.11"]
 sections_partial: ["5.1","5.3","5.6"]
 sections_pending: []
@@ -16,10 +16,10 @@ schema_version: 2.0.0
 
 ## Block 1 - Summary
 
-- **Tier**: TBD (early evidence points to a useful remote-work bridge/base, not yet a proven settlement route).
+- **Tier**: 3 (bridge/base; DE Rantau is useful but capped and not a proven settlement ladder).
 - **depth_score**: 10.0
-- **Last updated**: 2026-06-30
-- **Tier rationale**: Malaysia's DE Rantau pass is an official route for foreign digital nomads and the tech-professional threshold is below the couple's current income, but it is a Professional Visit Pass capped at 24 months total and no DE Rantau-to-PR ladder was captured. Entry Permit and citizenship pages show long-term mechanisms exist, but the fully foreign national / remote-worker fit remains a core verification gap. [src-253][src-254][src-255]
+- **Last updated**: 2026-07-05
+- **Tier rationale**: Malaysia is Tier 3 for this couple's current profile: DE Rantau is an official foreign digital-nomad / Professional Visit Pass route, can be filed without being in Malaysia, allows spouse/children, and the tech threshold of more than USD 24,000/year is below the working partner's roughly USD 36,000/year income. It remains bridge/base rather than Tier 1/2 settlement because DE Rantau is capped at 24 months total, no DE Rantau-to-Entry-Permit / PR ladder or time-counting rule was captured, citizenship requires a durable long-residence baseline not yet proven for this route, and tax/source, insurance, post-24-month status, and one-income Kuala Lumpur/Penang budget caveats remain application-prep risks. [src-253][src-254][src-255][src-465][src-470][src-581][src-718]
 
 ## Block 2 - Scoring
 
@@ -219,7 +219,7 @@ Malaysia is not a tax-free default for this couple. A conservative resident PIT 
 - **Best legalization path for the man**: DE Rantau tech-professional digital-nomad / Professional Visit Pass.
 - **Best legalization path for the woman**: spouse dependent on DE Rantau after marriage; unmarried-partner route not captured.
 - **Does marriage change the picture**: yes, because captured dependent language names spouse and children.
-- **Realism of staying after 03.2027**: medium-low as a settlement plan; safe baseline is 3-24 month bridge only until a durable post-DE Rantau status is verified.
+- **Realism of staying after 03.2027**: Tier 3 / bridge-realistic but settlement-unproven; safe baseline is 3-24 month DE Rantau only until a durable post-DE Rantau status is verified.
 - **Tax screening**: resident PIT stress test at USD 3,000/month leaves about USD 2,616/month before non-tax costs; do not assume a DE Rantau tax holiday. [src-465][src-470]
 - **Cost/rent screening**: day-to-day costs and rent look workable outside premium Kuala Lumpur housing, with George Town/Penang and Johor Bahru as the first practical screens and Ipoh as the affordability fallback. Kuala Lumpur needs a strict housing cap because the resident-tax net leaves only a modest buffer after insurance, visas, deposits, and adviser costs. [src-581][src-582][src-583][src-584]
 - **Healthcare / education screening**: private healthcare is strong and affordable by international standards, but the couple should budget for DE Rantau-compliant insurance and private clinics. Education is workable, but English-medium international schooling in KL/Penang can be expensive on one income; local public school means Bahasa Malaysia integration. [src-718][src-720]

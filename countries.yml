@@ -166,7 +166,7 @@ countries:
   - name: Malaysia
     group: middle-east-asia
     tier_hint: 3
-    tier: null
+    tier: 3
     status: pending
   - name: Thailand
     group: middle-east-asia

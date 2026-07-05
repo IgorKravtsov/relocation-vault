@@ -12,6 +12,13 @@ Each entry includes: date, decision (1 line), rationale, sources, iteration, cou
 
 ---
 
+## 2026-07-05 - Malaysia assigned Tier 3
+**Decision**: Assign Malaysia `tier: 3` as a bridge/base tier for the couple's current profile, without ranking it against other countries.
+**Rationale**: Malaysia has an official DE Rantau Professional Visit Pass route for foreign digital nomads, can be applied for from outside Malaysia, accepts spouse/children dependents, and its tech-professional income threshold of more than USD 24,000/year is below the working partner's roughly USD 36,000/year profile. It is Tier 3 rather than Tier 1/2 because DE Rantau is capped at 24 months total, no DE Rantau-to-Entry-Permit / permanent-residence ladder or time-counting rule is captured, citizenship requires a durable long-residence baseline not yet proven for this route, and tax/source classification, SST/e-invoice, insurance, post-24-month status, and Kuala Lumpur/Penang one-income budget caveats remain application-prep risks.
+**Source**: src-251, src-252, src-253, src-254, src-255, src-256, src-279, src-465, src-466, src-467, src-468, src-469, src-470, src-580, src-581, src-582, src-583, src-584, src-717, src-718, src-719, src-720, src-795, src-796, src-835.
+**Iteration**: run-280.
+**Counterevidence considered**: Malaysia could improve if Malaysian immigration counsel confirms a durable post-DE Rantau route, Entry Permit / PR eligibility and time-counting for foreign-client IT, spouse work/dependent mechanics, and a tax-adviser file that keeps net income near the resident-rate screen. It could weaken if DE Rantau remains a hard 24-month bridge with no ordinary follow-on, if tax/source treatment lands closer to the non-resident downside, or if insurance, school, deposits, and KL/Penang housing erase the one-income margin.
+
 ## 2026-07-05 - UAE assigned Tier X
 **Decision**: Assign UAE `tier: X` as a screening-negative tier for the couple's current income / settlement profile, without ranking it against other countries.
 **Rationale**: UAE has an official virtual-work residence route for foreign remote work, strong Dubai / Abu Dhabi / Sharjah infrastructure, very favorable individual-tax screening at USD 3,000/month, and excellent winter climate. It is still Tier X for the current profile because the best-fit virtual-work route requires at least USD 3,500/month, above the couple's current gross income; the 5-year Green Residence freelancer threshold is far higher at AED 360,000/year; Dubai and Abu Dhabi cost/rent screens are tight on one income; the student partner is spouse/family-first after the sponsor qualifies; and citizenship is nomination-based for exceptional categories rather than a predictable residence-to-passport ladder.
