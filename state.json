@@ -1,22 +1,22 @@
 {
   "version": 2,
-  "iteration": 286,
+  "iteration": 287,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-06T05:54:00Z",
+  "last_run_timestamp": "2026-07-06T08:58:38Z",
   "current_focus": {
     "mode": "consolidation",
     "country": null,
     "sections": [
-      "5.1"
+      "5.3"
     ],
-    "criterion": "route-durability-map"
+    "criterion": "tax-budget-stress-map"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "Route durability (5.1) now has a non-ranking synthesis-input map. Next consolidation can prepare another non-ranking cross-country dimension such as tax/budget stress (5.3), cost/rent pressure (5.4/5.5), healthcare/education access (5.6/5.7), or comfort/partner fit (5.8/5.9). Do not create a TOP-N ranking."
+    "reason": "Tax / one-income budget stress (5.3) now has a non-ranking synthesis-input map. Next consolidation can prepare another non-ranking cross-country dimension such as cost/rent pressure (5.4/5.5), healthcare/education access (5.6/5.7), or comfort/partner fit (5.8/5.9). Do not create a TOP-N ranking."
   },
   "countries": {
     "Spain": {

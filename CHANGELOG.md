@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-07-06
 ---
 
+## 2026-07-06 - run-287 - tax-budget-stress-map
+
+- Consolidation: added `dimensions/tax-budget-stress-5.3.md` as a non-ranking tax / one-income budget stress map for all 33 country profiles.
+- Grouped captured §5.3 worked examples into screening-positive, manageable adviser-dependent, tight one-income, high-stress, and tax-favorable-but-immigration-gated buckets; no country tier changed.
+- Updated screening-readiness and INDEX handoff notes; kept TOP-N ranking and final recommendations out of scope.
+- Sources added: 0; claims added: 0; verification queue remains 0 pending/open.
+
 ## 2026-07-06 - run-286 - route-durability-map
 
 - Consolidation: added `dimensions/route-durability-5.1.md` as a non-ranking legal-route durability map for all 33 country profiles.
