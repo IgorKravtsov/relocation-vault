@@ -1,8 +1,15 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 ---
+
+## 2026-07-06 - run-285 - tier-field-consistency-check
+
+- Consolidation: added `dimensions/tier-field-consistency-check.md` after completing all country tier assignments.
+- Verified 0 tier mismatches, 0 depth mismatches, 0 country-local unverified-count mismatches, 0 pending/open verification items, 839 source headings, 716 claim entries, and 0 stale claims.
+- Updated screening-readiness and tier-readiness handoff notes; no country tier changed and no TOP-N ranking or recommendation was created.
+- Sources added: 0; claims added: 0; verification queue remains 0 pending/open.
 
 ## 2026-07-05 - run-284 - tier-application-armenia
 

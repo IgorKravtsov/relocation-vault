@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "iteration": 284,
+  "iteration": 285,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-05T23:40:35Z",
+  "last_run_timestamp": "2026-07-06T02:50:02Z",
   "current_focus": {
     "mode": "consolidation",
-    "country": "Armenia",
+    "country": null,
     "sections": [],
-    "criterion": "tier-application-small-batch"
+    "criterion": "tier-field-consistency-check"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "All 33 countries now have assigned tiers after schema-safe country-level tier application. Next consolidation can verify tier-field consistency or prepare non-ranking cross-country synthesis inputs; do not create a TOP-N ranking."
+    "reason": "Tier-field consistency is now confirmed across country frontmatter, countries.yml, state.json, INDEX.md, source counts, claim counts, verification queue size, and stale-claim checks. Next consolidation can prepare non-ranking synthesis-input maps for remaining cross-country dimensions; do not create a TOP-N ranking."
   },
   "countries": {
     "Spain": {

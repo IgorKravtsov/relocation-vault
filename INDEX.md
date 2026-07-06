@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 ---
 
 # INDEX
@@ -53,4 +53,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Researched**: 33
 - **Average depth_score**: 10.00
 - **Assigned final tiers**: 33/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama, Mexico, Argentina, UAE, Malaysia, Thailand, Indonesia, Kazakhstan, Armenia).
-- **Consolidation note**: run-284 completed schema-safe tier application with Armenia assigned Tier 3 after explicit Block 1 rationale. All 33 countries now have assigned tiers, but this remains a screening taxonomy, not a TOP-N ranking or final relocation recommendation.
+- **Consolidation note**: run-285 confirmed tier-field consistency across country frontmatter, `countries.yml`, `state.json`, `INDEX.md`, source counts, claim counts, verification queue size, and stale-claim checks. All 33 countries have assigned screening tiers, but this remains a screening taxonomy, not a TOP-N ranking or final relocation recommendation.

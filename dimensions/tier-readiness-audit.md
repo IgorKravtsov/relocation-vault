@@ -39,4 +39,4 @@ The vault has completed the **dedicated tier-normalization workflow** at screeni
 
 ## Next consolidation candidate
 
-Continue using `dimensions/tier-normalization-worksheet.md` as the normalization bridge. The next consolidation candidate is a tier-field consistency check or non-ranking synthesis-input preparation pass. If protocol changes are needed for tier confidence fields or final ranking mechanics, create a proposal before editing schema-critical rules.
+Run-285 completed the tier-field consistency check in `dimensions/tier-field-consistency-check.md`: country frontmatter, `countries.yml`, `state.json`, `INDEX.md`, source counts, claim counts, verification queue size, and stale-claim checks agree. The next consolidation candidate is non-ranking synthesis-input preparation. If protocol changes are needed for tier confidence fields or final ranking mechanics, create a proposal before editing schema-critical rules.

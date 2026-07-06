@@ -1,9 +1,9 @@
 # Dimension: Screening readiness map
 
-Last updated: 2026-07-05
+Last updated: 2026-07-06
 Mode: consolidation
-Inputs: `state.json`, `INDEX.md`, `dimensions/risk-dimensions-5.10.md`, `dimensions/bureaucracy-practicality-5.11.md`
-Consolidation status (run-284): all 33 profiles remain depth 10.0, the global verification queue has 0 pending/open items, legacy country-local `unverified_count` values are reconciled, and schema-safe tier application has assigned Greece / Poland Tier 1, Spain / Portugal / Italy / Czech Republic / Slovakia / Slovenia / Montenegro / Serbia / Turkey / Georgia / Albania / Uruguay / Paraguay Tier 2, Moldova / Panama / Argentina / Malaysia / Thailand / Indonesia / Kazakhstan / Armenia Tier 3, and Cyprus / Croatia / Malta / Romania / Bulgaria / Hungary / North Macedonia / Bosnia and Herzegovina / Mexico / UAE Tier X.
+Inputs: `state.json`, `INDEX.md`, `dimensions/risk-dimensions-5.10.md`, `dimensions/bureaucracy-practicality-5.11.md`, `dimensions/tier-field-consistency-check.md`
+Consolidation status (run-285): all 33 profiles remain depth 10.0, the global verification queue has 0 pending/open items, country-local `unverified_count` values are reconciled, stale claims are 0, and the tier-field consistency check confirms that country frontmatter, `countries.yml`, `state.json`, and `INDEX.md` agree on all assigned screening tiers.
 
 ## Scope
 
@@ -17,7 +17,7 @@ This scaffold records what the downstream synthesis process can safely consume w
 - Below-full-depth profile: none; Portugal is now 10.0, with 5.1, 5.3, and 5.6 still partial but sufficient for screening-depth coverage.
 - Verification queue: 0 pending/open items at run-250 pre-flight; country-local unverified counters are also 0 after reconciliation.
 - Staleness queue: 0 stale claims at run-250 pre-flight.
-- Completed cross-country dimensions available for synthesis support: 5.10 risk dimensions, 5.11 bureaucracy/practicality, the run-249 tier-readiness audit, the run-250 unverified-count reconciliation note, and the run-251 tier-normalization worksheet.
+- Completed cross-country dimensions available for synthesis support: 5.10 risk dimensions, 5.11 bureaucracy/practicality, the run-249 tier-readiness audit, the run-250 unverified-count reconciliation note, the run-251 tier-normalization worksheet, and the run-285 tier-field consistency check.
 
 ## Safe synthesis inputs available now
 
@@ -26,7 +26,7 @@ This scaffold records what the downstream synthesis process can safely consume w
 - Use `dimensions/risk-dimensions-5.10.md` for cross-country operational risk categories and risk-driver wording.
 - Use `dimensions/bureaucracy-practicality-5.11.md` for filing practicality, timing, and professional-support leads.
 - Use country profiles for detailed route, tax, healthcare, school, cost, rent, comfort, partner, and bureaucracy caveats.
-- Use `dimensions/tier-readiness-audit.md` only as a workflow-readiness check; use `dimensions/tier-normalization-worksheet.md` as a non-ranking screening-band worksheet, not as final assigned tiers.
+- Use `dimensions/tier-readiness-audit.md` only as a workflow-readiness check; use `dimensions/tier-normalization-worksheet.md` as a non-ranking screening-band worksheet, not as final assigned tiers; use `dimensions/tier-field-consistency-check.md` to confirm cross-file tier/count consistency before downstream synthesis.
 
 ## Do-not-use-as-final-ranking guardrails
 
@@ -38,10 +38,10 @@ This scaffold records what the downstream synthesis process can safely consume w
 
 ## Open gates before any downstream TOP-N process
 
-- Tier application is complete for all 33 countries after runs 252-284, ending with Armenia. Any later tier changes should be deliberate country-level revisions, not mechanical conversions from tier hints.
+- Tier application is complete for all 33 countries after runs 252-284, ending with Armenia; run-285 confirmed cross-file tier/count consistency. Any later tier changes should be deliberate country-level revisions, not mechanical conversions from tier hints.
 - Decide whether cross-country dimensions are needed for 5.1, 5.3, 5.4/5.5, 5.6/5.7, and 5.8/5.9 before synthesis.
 - Keep final recommendations, ranking, and visit order out of Hermes iterations unless the downstream synthesis process explicitly owns them.
 
 ## Next consolidation candidate
 
-If no proposal, verification, or staleness trigger appears, the next safe consolidation unit is a tier-consistency or non-ranking synthesis-readiness pass using `dimensions/tier-readiness-audit.md` and `dimensions/tier-normalization-worksheet.md` as guardrails while avoiding TOP-N recommendations.
+If no proposal, verification, or staleness trigger appears, the next safe consolidation unit is a non-ranking synthesis-readiness pass for uncovered cross-country dimensions, using `dimensions/tier-field-consistency-check.md` as the structural guardrail while avoiding TOP-N recommendations.
