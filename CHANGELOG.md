@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-07-06
 ---
 
+## 2026-07-06 - run-289 - healthcare-education-access-map
+
+- Consolidation: added `dimensions/healthcare-education-access-5.6-5.7.md` as a non-ranking healthcare / education practical-access map for all 33 country profiles.
+- Grouped captured §5.6/§5.7 baselines into public-system usable, private-care strong, status/onboarding-sensitive, language/integration-heavy, and high private-cost / one-income-pressure buckets; no country tier changed.
+- Updated screening-readiness and INDEX handoff notes; kept TOP-N ranking and final recommendations out of scope.
+- Sources added: 0; claims added: 0; verification queue remains 0 pending/open.
+
 ## 2026-07-06 - run-288 - cost-rent-affordability-map
 
 - Consolidation: added `dimensions/cost-rent-affordability-5.4-5.5.md` as a non-ranking cost / rent affordability-pressure map for all 33 country profiles.

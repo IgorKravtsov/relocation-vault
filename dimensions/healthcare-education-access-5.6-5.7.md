@@ -1,0 +1,68 @@
+# Dimension: Healthcare / education practical-access map (5.6/5.7)
+
+Last updated: 2026-07-06
+Mode: consolidation
+Inputs: country profiles, `state.json`, `INDEX.md`, healthcare/education runs 101, 128-166, and country-level tier rationales
+Consolidation status (run-289): non-ranking synthesis-input map. This file does not change country tiers, scores, sources, claims, country profiles, or verification status.
+
+## Scope
+
+This map groups the already captured healthcare and future-child education baselines for the couple's current profile: about USD 3,000/month gross income, one remote IT earner, one student partner, and a possible future child. It is a synthesis input, not a final country ranking, medical recommendation, school recommendation, insurance advice, or city-selection order.
+
+## Access buckets
+
+- **Public-system usable with private backup**: public healthcare and public schooling are structurally usable after the correct legal status, while private insurance / private appointments and childcare remain budget buffers.
+- **Private-care strong, schooling budget-sensitive**: private healthcare/service depth is a relative strength, but public schooling is language-heavy or international schools can consume a large share of one income.
+- **Screenable but status/onboarding-sensitive**: basic healthcare/education evidence is sufficient for screening, but exact residence-status insurance, public onboarding, maternity/newborn terms, or city provider prices remain application-prep checks.
+- **Language / integration-heavy but affordable**: public healthcare/school systems can be used in principle, but local-language schooling and integration dominate the future-child plan; international alternatives are limited or budget-stressing.
+- **High private-cost / one-income pressure**: private healthcare, mandatory insurance, or English/international schooling can materially strain a USD 3,000 one-income household even where service quality is strong.
+
+## Non-ranking country map
+
+| Country | Assigned screening tier | 5.6/5.7 status | Healthcare / education access bucket | Captured screening baseline for synthesis |
+|---|---:|---|---|---|
+| Spain | 2 | 5.6 partial; 5.7 completed | Public-system usable with private backup | Strong public-health baseline for TP / social-security-covered residents and structurally usable free public schooling; exact DN-compliant insurance quotes and 0-2 childcare / international-school costs remain the budget checks. |
+| Portugal | 2 | 5.6 partial; 5.7 completed | Public-system usable with private backup | SNS access for residents/TP holders and compulsory public schooling are positive, but D8 insurance wording, private quotes, private preschool, and international-school costs remain application-prep/budget checks. |
+| Italy | 2 | 5.6 partial; 5.7 completed | Public-system usable with private backup | SSN access looks strong for TP/legal residents and public schooling is usable/free through compulsory ages; DN-compliant insurance, waiting periods, 0-3 childcare, and international schools remain one-income risks. |
+| Greece | 1 | 5.6 partial; 5.7 completed | Public-system usable with private backup | Refugee/resident public-health mechanics and public school from pre-primary age 4 are strong if Greek-language integration is accepted; DN insurance quotes and private childcare/school costs remain prep checks. |
+| Cyprus | X | 5.6 partial; 5.7 completed | Screenable but status/onboarding-sensitive | GESY is the public-health anchor and public education is free from compulsory pre-primary through upper secondary, but DN/residence insurance, city onboarding, under-age childcare, and international schools remain material checks. |
+| Croatia | X | 5.6 partial; 5.7 completed | Public-system usable with private backup | Public/compulsory insurance and maternity coverage are structurally available for covered residents; the mandatory pre-primary year and basic schooling help, while DN/residence insurance and childcare/international school remain prep risks. |
+| Malta | X | 5.6 partial; 5.7 completed | High private-cost / one-income pressure | NRP requires health insurance and public care depends on work/residence status; English/Maltese public schooling is useful, but private insurance, status onboarding, childcare eligibility, and international schooling are large budget risks. |
+| Czech Republic | 2 | 5.6 partial; 5.7 completed | Screenable but status/onboarding-sensitive | Comprehensive foreigner health insurance is the safer residence baseline, including pregnancy coverage; education is structurally workable with compulsory pre-primary/basic school, while live quotes and private childcare/international primary remain checks. |
+| Poland | 1 | 5.6 partial; 5.7 completed | Public-system usable with private backup | Ukrainian special-protection NFZ access and ordinary insured-status access are screenable; public education has compulsory preschool preparation and schooling to 18, with childcare/international schools as budget risks. |
+| Romania | X | 5.6 partial; 5.7 completed | Public-system usable with private backup | TP gives a public-health baseline and public/private care exists; ECEC and public-school structure are clear enough, while private insurance, final-status onboarding, international school, and childcare costs remain prep checks. |
+| Bulgaria | X | 5.6 partial; 5.7 completed | Public-system usable with private backup | NHIF/TP healthcare baseline and free compulsory pre-primary from age 4 make screening workable, but route-compliant insurance, final-status onboarding, and Sofia international-school fees remain risks. |
+| Hungary | X | 5.6 partial; 5.7 completed | Public-system usable with private backup | TP/NEAK healthcare and free mandatory kindergarten from age 3 support screening; route-compliant insurance, maternity exclusions, final-status onboarding, and Budapest international-school fees remain checks. |
+| Slovakia | 2 | 5.6 partial; 5.7 completed | Public-system usable with private backup | TP healthcare rights and public-health-insurance mechanics are screenable, with a clear nursery/kindergarten/school structure; ordinary-route onboarding and Bratislava international-school fees remain application-prep risks. |
+| Slovenia | 2 | 5.6 partial; 5.7 completed | Public-system usable with private backup | TP covers emergency and pregnancy/childbirth healthcare and public kindergarten/basic-school baselines are clear; ordinary route insurance/onboarding and Ljubljana international-school costs remain budget/status checks. |
+| Montenegro | 2 | 5.6 partial; 5.7 completed | Screenable but status/onboarding-sensitive | Public/Fund healthcare and school/preschool structure are screenable; route-compliant insurance, maternity coverage, ordinary-residence onboarding, and QSI tuition remain budget-sensitive prep items. |
+| Serbia | 2 | 5.6 partial; 5.7 completed | Screenable but status/onboarding-sensitive | RFZO rights and health-insurance evidence requirements are screenable; compulsory preparatory preschool and free basic education help, while private quotes, public onboarding, and Belgrade international school remain prep risks. |
+| Turkey | 2 | 5.6 partial; 5.7 completed | Language / integration-heavy but affordable | SGK / health-insurance baselines and 12-year compulsory public schooling are captured, but Turkish-language integration, private policy terms, SGK route onboarding, and international-school fees remain key checks. |
+| Georgia | 2 | 5.6 partial; 5.7 completed | Private-care strong, schooling budget-sensitive | Tbilisi has stronger healthcare capacity in a privatized provider market and public preschool/basic schooling is captured; foreign-resident insurance/onboarding and sparse international-school fee evidence remain prep gaps. |
+| Albania | 2 | 5.6 partial; 5.7 completed | Screenable but status/onboarding-sensitive | Public health / compulsory insurance fund structure and Tirana private hospitals are screenable; preschool/basic-school structure is clear and TIS anchors English schooling, while policy quotes and tuition checks remain. |
+| North Macedonia | X | 5.6 partial; 5.7 completed | Language / integration-heavy but affordable | FZO-linked coverage and low private-care proxies are positive for Skopje; public schools are free but Macedonian/Albanian-medium, and international options around EUR 4,000-8,000/year remain one-income-sensitive. |
+| Bosnia and Herzegovina | X | 5.6 partial; 5.7 completed | Language / integration-heavy but affordable | Entity/canton public healthcare and free compulsory public primary school are screenable, but administrative fragmentation, local-language schooling, residence-file insurance, and limited international-school options remain practical constraints. |
+| Moldova | 3 | 5.6 partial; 5.7 completed | Language / integration-heavy but affordable | Legal-resident public coverage and TP primary/emergency care are screenable, and compulsory public education to age 16 is captured; Romanian-language integration, DN/private insurance, CNAM onboarding, and Chisinau international options remain checks. |
+| Uruguay | 2 | 5.6 partial; 5.7 completed | Public-system usable with private backup | SNIS/FONASA/mutualista structure and public education from age 4/primary age 6 make screening positive, but private/mutualista quotes, maternity/newborn terms, and Montevideo bilingual/international fees remain prep checks. |
+| Paraguay | 2 | 5.6 partial; 5.7 completed | Private-care strong, schooling budget-sensitive | Public hospital network plus affordable private-care/insurance proxies make healthcare screenable; public schools are Spanish/Guarani and under-resourced, so bilingual/international school planning is the bigger future-child risk. |
+| Panama | 3 | 5.6 partial; 5.7 completed | Private-care strong, schooling budget-sensitive | Panama City private care, insurance proxies, and English-speaking hospital support are strong, but CSS/MINSA onboarding and remote-worker policy wording remain checks; international/bilingual schools are deep but expensive. |
+| Mexico | X | 5.6 partial; 5.7 completed | Private-care strong, schooling budget-sensitive | Public/private providers and IMSS anchors make healthcare screenable in major cities, while public school is Spanish-medium and international options in Mexico City/Guadalajara require tuition checks. |
+| Argentina | 3 | 5.6 partial; 5.7 completed | Private-care strong, schooling budget-sensitive | Public hospitals plus Buenos Aires prepaga options give a usable healthcare screen, but residence-compliant insurance and provider prices remain open; public school is Spanish-language and private bilingual/international tuition is the future-child risk. |
+| UAE | X | 5.6 partial; 5.7 completed | High private-cost / one-income pressure | Private healthcare quality and school choice are strong, but mandatory/accepted insurance, two-adult premiums, maternity/newborn terms, and English private/international schooling can break the current one-income budget. |
+| Malaysia | 3 | 5.6 partial; 5.7 completed | Private-care strong, schooling budget-sensitive | KL/Penang private care is strong and English-friendly, but DE Rantau insurance wording and maternity/newborn terms remain prep checks; public schools are Bahasa Malaysia and international fees can be a major one-income risk. |
+| Thailand | 3 | 5.6 partial; 5.7 completed | Private-care strong, schooling budget-sensitive | DTV planning should assume private insurance and private hospitals in Bangkok/major cities; public schooling is Thai-language and international schools are deep but potentially budget-heavy. |
+| Indonesia | 3 | 5.6 partial; 5.7 completed | Private-care strong, schooling budget-sensitive | Public Puskesmas/BPJS plus private hospitals are screenable, but expat planning needs private insurance/evacuation; public schools are Indonesian-language and Jakarta/Bali international schools can be expensive. |
+| Kazakhstan | 3 | 5.6 partial; 5.7 completed | Language / integration-heavy but affordable | Public MSHI/SFMA access is status-limited and private care is affordable by global standards; public schools are Kazakh/Russian-heavy and international schools cluster in Almaty/Astana with high fee examples. |
+| Armenia | 3 | 5.6 partial; 5.7 completed | Language / integration-heavy but affordable | Private/international insurance and Yerevan private clinics should be budgeted; public schooling implies Armenian/Russian integration, while QSI/UWC-type options are limited and can strain one income. |
+
+## Synthesis-use guardrails
+
+- Use this file to spot healthcare / education access patterns, not to rank countries or override assigned screening tiers.
+- Do not promote §5.6 to completed where the country profile still marks it partial; most healthcare sections intentionally keep live insurance quotes, maternity/newborn terms, and exact final-status onboarding as application-prep checks.
+- Do not assume international schools are affordable just because they exist; for this household, public/local schooling language fit and private-school tuition can dominate the future-child budget.
+- Treat exact insurer wording, current quotes, public-system onboarding by final route, maternity/newborn cover, provider prices, school fees, deposits, waiting lists, and final-city school availability as application-prep checks unless a later country iteration upgrades them.
+
+## Next safe consolidation candidates
+
+- A non-ranking comfort/partner-fit map for 5.8/5.9.
+- A final synthesis-readiness checklist tying together the non-ranking dimension maps, without producing a TOP-N ranking.
