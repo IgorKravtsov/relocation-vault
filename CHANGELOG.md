@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-07-06
 ---
 
+## 2026-07-06 - run-286 - route-durability-map
+
+- Consolidation: added `dimensions/route-durability-5.1.md` as a non-ranking legal-route durability map for all 33 country profiles.
+- Grouped captured legal-route patterns into durable settlement file, conditional ordinary-residence file, bridge/base route, and high-risk / weak-fit buckets; no country tier changed.
+- Updated screening-readiness and INDEX handoff notes; kept TOP-N ranking and final recommendations out of scope.
+- Sources added: 0; claims added: 0; verification queue remains 0 pending/open.
+
 ## 2026-07-06 - run-285 - tier-field-consistency-check
 
 - Consolidation: added `dimensions/tier-field-consistency-check.md` after completing all country tier assignments.
