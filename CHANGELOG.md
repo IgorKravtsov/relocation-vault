@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-07-06
 ---
 
+## 2026-07-06 - run-290 - comfort-partner-fit-map
+
+- Consolidation: added `dimensions/comfort-partner-fit-5.8-5.9.md` as a non-ranking comfort / partner-fit map for all 33 country profiles.
+- Grouped captured §5.8/§5.9 baselines into marriage/dependent-path, language/bureaucracy-friction, independent-status-fallback, bridge/status-capped, and high-adaptation-pressure buckets; no country tier changed.
+- Updated screening-readiness and INDEX handoff notes; kept TOP-N ranking and final recommendations out of scope.
+- Sources added: 0; claims added: 0; verification queue remains 0 pending/open.
+
 ## 2026-07-06 - run-289 - healthcare-education-access-map
 
 - Consolidation: added `dimensions/healthcare-education-access-5.6-5.7.md` as a non-ranking healthcare / education practical-access map for all 33 country profiles.

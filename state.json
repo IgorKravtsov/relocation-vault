@@ -1,23 +1,23 @@
 {
   "version": 2,
-  "iteration": 289,
+  "iteration": 290,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-06T15:08:39Z",
+  "last_run_timestamp": "2026-07-06T18:14:08Z",
   "current_focus": {
     "mode": "consolidation",
     "country": null,
     "sections": [
-      "5.6",
-      "5.7"
+      "5.8",
+      "5.9"
     ],
-    "criterion": "healthcare-education-access-map"
+    "criterion": "comfort-partner-fit-map"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "Healthcare / education practical access (5.6/5.7) now has a non-ranking synthesis-input map. Next consolidation can prepare another non-ranking cross-country dimension such as comfort/partner fit (5.8/5.9). Do not create a TOP-N ranking."
+    "reason": "Comfort / partner fit (5.8/5.9) now has a non-ranking synthesis-input map. Next consolidation can prepare a final synthesis-readiness checklist tying together the non-ranking dimension maps. Do not create a TOP-N ranking."
   },
   "countries": {
     "Spain": {
