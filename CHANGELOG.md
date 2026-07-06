@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-07-06
 ---
 
+## 2026-07-06 - run-288 - cost-rent-affordability-map
+
+- Consolidation: added `dimensions/cost-rent-affordability-5.4-5.5.md` as a non-ranking cost / rent affordability-pressure map for all 33 country profiles.
+- Grouped captured §5.4/§5.5 baselines into comfortable-if-route-works, manageable-with-city-discipline, tight city-sensitive, high-pressure, and route/tax-gated buckets; no country tier changed.
+- Updated screening-readiness and INDEX handoff notes; kept TOP-N ranking and final recommendations out of scope.
+- Sources added: 0; claims added: 0; verification queue remains 0 pending/open.
+
 ## 2026-07-06 - run-287 - tax-budget-stress-map
 
 - Consolidation: added `dimensions/tax-budget-stress-5.3.md` as a non-ranking tax / one-income budget stress map for all 33 country profiles.
