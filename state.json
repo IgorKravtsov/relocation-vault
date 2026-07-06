@@ -1,23 +1,20 @@
 {
   "version": 2,
-  "iteration": 290,
+  "iteration": 291,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-06T18:14:08Z",
+  "last_run_timestamp": "2026-07-06T21:18:50Z",
   "current_focus": {
     "mode": "consolidation",
     "country": null,
-    "sections": [
-      "5.8",
-      "5.9"
-    ],
-    "criterion": "comfort-partner-fit-map"
+    "sections": [],
+    "criterion": "final-synthesis-readiness-checklist"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "Comfort / partner fit (5.8/5.9) now has a non-ranking synthesis-input map. Next consolidation can prepare a final synthesis-readiness checklist tying together the non-ranking dimension maps. Do not create a TOP-N ranking."
+    "reason": "Final synthesis-readiness handoff checklist is now available. If no proposal, verification, staleness, or human-directed application-prep focus appears, avoid creating a TOP-N ranking in normal Hermes iterations; future work should respond to new evidence or explicit downstream synthesis ownership."
   },
   "countries": {
     "Spain": {
