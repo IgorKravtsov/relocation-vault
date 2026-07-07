@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-07-07
 ---
 
+## 2026-07-07 - run-293 - claim-staleness-sweep
+
+- Staleness-check: reran `scripts/find-stale.py` across 716 claim entries and found 0 stale claims.
+- Confirmed the vault still has 0 pending/open verification items, 839 source headings, and no accepted proposals to apply.
+- Updated state and INDEX handoff notes only; no country tier, depth score, source, claim, verification, or recommendation changed.
+- Sources added: 0; claims added: 0; facts verified: 0.
+
 ## 2026-07-07 - run-292 - application-prep-trigger-map
 
 - Consolidation: added `dimensions/application-prep-trigger-map.md` as a downstream-only trigger map for future finalist-specific application-prep work.

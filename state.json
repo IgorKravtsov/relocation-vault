@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "iteration": 292,
+  "iteration": 293,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-07T00:24:15Z",
+  "last_run_timestamp": "2026-07-07T03:28:05Z",
   "current_focus": {
-    "mode": "consolidation",
+    "mode": "staleness-check",
     "country": null,
     "sections": [],
-    "criterion": "application-prep-trigger-map"
+    "criterion": "claim-staleness-sweep"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "Application-prep trigger map is now available. If no proposal, verification, staleness, new-evidence, or human-directed finalist/application-prep focus appears, avoid creating a TOP-N ranking in normal Hermes iterations; future work should be explicit downstream synthesis or country-specific application-prep only."
+    "reason": "Staleness sweep found 0 stale claims and the queue remains empty. Keep the vault in downstream handoff mode unless proposals, stale claims, new evidence, or explicit finalist/application-prep direction appears."
   },
   "countries": {
     "Spain": {
