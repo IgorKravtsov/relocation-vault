@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "iteration": 296,
+  "iteration": 297,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-07T12:40:14Z",
+  "last_run_timestamp": "2026-07-07T15:43:31Z",
   "current_focus": {
     "mode": "consolidation",
     "country": null,
     "sections": [],
-    "criterion": "scheduled-handoff-recheck"
+    "criterion": "scheduled-no-trigger-recheck"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "Scheduled handoff recheck confirms no accepted proposals, no pending/open verification items, no stale claims, and no country-depth gaps. Keep the vault in downstream handoff mode unless proposals, stale claims, new evidence, or explicit finalist/application-prep direction appears."
+    "reason": "Scheduled no-trigger recheck confirms no accepted proposals, no pending/open verification items, no stale claims, and no country-depth gaps. Keep the vault in downstream handoff mode unless proposals, stale claims, new evidence, or explicit finalist/application-prep direction appears."
   },
   "countries": {
     "Spain": {
