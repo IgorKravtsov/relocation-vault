@@ -4,6 +4,13 @@ version: 1.0.0
 last_updated: 2026-07-07
 ---
 
+## 2026-07-07 - run-294 - handoff-maintenance-check
+
+- Consolidation: added `dimensions/handoff-maintenance-check.md` as a no-trigger maintenance gate for scheduled normal iterations.
+- Confirmed the vault remains in downstream handoff mode: no accepted proposals, 0 pending/open verification items, 0 stale claims, 839 source headings, and 716 claim entries.
+- Updated screening-readiness, final-synthesis checklist, INDEX, and state handoff notes; no country tier, source, claim, or verification status changed.
+- Sources added: 0; claims added: 0; facts verified: 0.
+
 ## 2026-07-07 - run-293 - claim-staleness-sweep
 
 - Staleness-check: reran `scripts/find-stale.py` across 716 claim entries and found 0 stale claims.

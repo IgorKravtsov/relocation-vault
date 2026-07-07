@@ -2,8 +2,8 @@
 
 Last updated: 2026-07-07
 Mode: consolidation
-Inputs: `state.json`, `INDEX.md`, `dimensions/risk-dimensions-5.10.md`, `dimensions/bureaucracy-practicality-5.11.md`, `dimensions/tier-field-consistency-check.md`, `dimensions/route-durability-5.1.md`, `dimensions/tax-budget-stress-5.3.md`, `dimensions/cost-rent-affordability-5.4-5.5.md`, `dimensions/healthcare-education-access-5.6-5.7.md`, `dimensions/comfort-partner-fit-5.8-5.9.md`, `dimensions/final-synthesis-readiness-checklist.md`, `dimensions/application-prep-trigger-map.md`
-Consolidation status (run-292): all 33 profiles remain depth 10.0, the global verification queue has 0 pending/open items, country-local `unverified_count` values are reconciled, stale claims are 0, the tier-field consistency check confirms that country frontmatter, `countries.yml`, `state.json`, and `INDEX.md` agree on all assigned screening tiers, the non-ranking dimension maps cover route durability (5.1), tax / one-income budget stress (5.3), cost / rent affordability pressure (5.4/5.5), healthcare / education practical access (5.6/5.7), comfort / partner fit (5.8/5.9), risk dimensions (5.10), and bureaucracy / practicality (5.11), `dimensions/final-synthesis-readiness-checklist.md` ties those maps together as a downstream handoff checklist, and `dimensions/application-prep-trigger-map.md` now defines when future finalist-specific application-prep work should begin without creating a TOP-N ranking.
+Inputs: `state.json`, `INDEX.md`, `dimensions/risk-dimensions-5.10.md`, `dimensions/bureaucracy-practicality-5.11.md`, `dimensions/tier-field-consistency-check.md`, `dimensions/route-durability-5.1.md`, `dimensions/tax-budget-stress-5.3.md`, `dimensions/cost-rent-affordability-5.4-5.5.md`, `dimensions/healthcare-education-access-5.6-5.7.md`, `dimensions/comfort-partner-fit-5.8-5.9.md`, `dimensions/final-synthesis-readiness-checklist.md`, `dimensions/application-prep-trigger-map.md`, `dimensions/handoff-maintenance-check.md`
+Consolidation status (run-294): all 33 profiles remain depth 10.0, the global verification queue has 0 pending/open items, country-local `unverified_count` values are reconciled, stale claims are 0, the tier-field consistency check confirms that country frontmatter, `countries.yml`, `state.json`, and `INDEX.md` agree on all assigned screening tiers, the non-ranking dimension maps cover route durability (5.1), tax / one-income budget stress (5.3), cost / rent affordability pressure (5.4/5.5), healthcare / education practical access (5.6/5.7), comfort / partner fit (5.8/5.9), risk dimensions (5.10), and bureaucracy / practicality (5.11), `dimensions/final-synthesis-readiness-checklist.md` ties those maps together as a downstream handoff checklist, `dimensions/application-prep-trigger-map.md` defines when future finalist-specific application-prep work should begin, and `dimensions/handoff-maintenance-check.md` records the current no-trigger maintenance state without creating a TOP-N ranking.
 
 ## Scope
 
@@ -17,7 +17,7 @@ This scaffold records what the downstream synthesis process can safely consume w
 - Below-full-depth profile: none; Portugal is now 10.0, with 5.1, 5.3, and 5.6 still partial but sufficient for screening-depth coverage.
 - Verification queue: 0 pending/open items at run-250 pre-flight; country-local unverified counters are also 0 after reconciliation.
 - Staleness queue: 0 stale claims at run-250 pre-flight.
-- Completed cross-country dimensions available for synthesis support: 5.1 route durability, 5.3 tax / budget stress, 5.4/5.5 cost / rent affordability pressure, 5.6/5.7 healthcare / education practical access, 5.8/5.9 comfort / partner fit, 5.10 risk dimensions, 5.11 bureaucracy/practicality, the run-249 tier-readiness audit, the run-250 unverified-count reconciliation note, the run-251 tier-normalization worksheet, the run-285 tier-field consistency check, the run-291 final synthesis-readiness checklist, and the run-292 application-prep trigger map.
+- Completed cross-country dimensions available for synthesis support: 5.1 route durability, 5.3 tax / budget stress, 5.4/5.5 cost / rent affordability pressure, 5.6/5.7 healthcare / education practical access, 5.8/5.9 comfort / partner fit, 5.10 risk dimensions, 5.11 bureaucracy/practicality, the run-249 tier-readiness audit, the run-250 unverified-count reconciliation note, the run-251 tier-normalization worksheet, the run-285 tier-field consistency check, the run-291 final synthesis-readiness checklist, the run-292 application-prep trigger map, and the run-294 handoff maintenance check.
 
 ## Safe synthesis inputs available now
 
@@ -33,6 +33,7 @@ This scaffold records what the downstream synthesis process can safely consume w
 - Use country profiles for detailed route, tax, healthcare, school, cost, rent, comfort, partner, and bureaucracy caveats.
 - Use `dimensions/final-synthesis-readiness-checklist.md` as the downstream handoff order and pre-synthesis checklist; it is still not a final recommendation or TOP-N ranking.
 - Use `dimensions/application-prep-trigger-map.md` only after a human names finalists, new evidence appears, a stale-source trigger appears, or downstream synthesis requests country-specific filing-grade checks.
+- Use `dimensions/handoff-maintenance-check.md` to confirm the current no-trigger state before doing further scheduled maintenance-only consolidation.
 - Use `dimensions/tier-readiness-audit.md` only as a workflow-readiness check; use `dimensions/tier-normalization-worksheet.md` as a non-ranking screening-band worksheet, not as final assigned tiers; use `dimensions/tier-field-consistency-check.md` to confirm cross-file tier/count consistency before downstream synthesis.
 
 ## Do-not-use-as-final-ranking guardrails
@@ -47,7 +48,7 @@ This scaffold records what the downstream synthesis process can safely consume w
 
 - Tier application is complete for all 33 countries after runs 252-284, ending with Armenia; run-285 confirmed cross-file tier/count consistency. Any later tier changes should be deliberate country-level revisions, not mechanical conversions from tier hints.
 - Non-ranking dimension maps are now available for 5.1 route durability, 5.3 tax / budget stress, 5.4/5.5 cost / rent affordability pressure, 5.6/5.7 healthcare / education practical access, 5.8/5.9 comfort / partner fit, 5.10 risk dimensions, and 5.11 bureaucracy/practicality.
-- `dimensions/final-synthesis-readiness-checklist.md` ties the dimension maps together as a safe handoff checklist for a downstream synthesis process, and `dimensions/application-prep-trigger-map.md` defines when future finalist-specific application-prep work should start.
+- `dimensions/final-synthesis-readiness-checklist.md` ties the dimension maps together as a safe handoff checklist for a downstream synthesis process, `dimensions/application-prep-trigger-map.md` defines when future finalist-specific application-prep work should start, and `dimensions/handoff-maintenance-check.md` records the no-trigger maintenance gate for scheduled iterations.
 - Keep final recommendations, ranking, and visit order out of Hermes iterations unless the downstream synthesis process explicitly owns them.
 
 ## Next consolidation candidate

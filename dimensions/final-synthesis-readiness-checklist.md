@@ -2,8 +2,8 @@
 
 Last updated: 2026-07-07
 Mode: consolidation
-Inputs: `INDEX.md`, `state.json`, `dimensions/screening-readiness-map.md`, `dimensions/route-durability-5.1.md`, `dimensions/tax-budget-stress-5.3.md`, `dimensions/cost-rent-affordability-5.4-5.5.md`, `dimensions/healthcare-education-access-5.6-5.7.md`, `dimensions/comfort-partner-fit-5.8-5.9.md`, `dimensions/risk-dimensions-5.10.md`, `dimensions/bureaucracy-practicality-5.11.md`, `dimensions/tier-field-consistency-check.md`, `dimensions/application-prep-trigger-map.md`
-Consolidation status (run-292): handoff checklist for downstream synthesis, with a linked trigger map for later country-specific application-prep work. This file does not rank countries, change country tiers, update sources, update claims, or reopen resolved verification items.
+Inputs: `INDEX.md`, `state.json`, `dimensions/screening-readiness-map.md`, `dimensions/route-durability-5.1.md`, `dimensions/tax-budget-stress-5.3.md`, `dimensions/cost-rent-affordability-5.4-5.5.md`, `dimensions/healthcare-education-access-5.6-5.7.md`, `dimensions/comfort-partner-fit-5.8-5.9.md`, `dimensions/risk-dimensions-5.10.md`, `dimensions/bureaucracy-practicality-5.11.md`, `dimensions/tier-field-consistency-check.md`, `dimensions/application-prep-trigger-map.md`, `dimensions/handoff-maintenance-check.md`
+Consolidation status (run-294): handoff checklist for downstream synthesis, now linked to a maintenance check that confirms the vault remains in handoff mode when no proposal, verification, staleness, new-evidence, or explicit application-prep trigger exists. This file does not rank countries, change country tiers, update sources, update claims, or reopen resolved verification items.
 
 ## Scope
 
@@ -18,6 +18,7 @@ This checklist defines what is ready for a later downstream synthesis process an
 - Source and claim registry: 839 source headings and 716 claim entries are available for traceability.
 - Non-ranking dimension coverage: route durability (5.1), tax/budget stress (5.3), cost/rent affordability (5.4/5.5), healthcare/education access (5.6/5.7), comfort/partner fit (5.8/5.9), risk dimensions (5.10), and bureaucracy/practicality (5.11) are all available.
 - Application-prep handoff: `dimensions/application-prep-trigger-map.md` now defines when to start finalist-specific, filing-grade checks without reopening resolved-for-screening caveats for all countries.
+- Maintenance handoff: `dimensions/handoff-maintenance-check.md` records the current no-trigger state and the safe next-action rules for scheduled normal iterations.
 
 ## Downstream synthesis input order
 
@@ -30,6 +31,7 @@ This checklist defines what is ready for a later downstream synthesis process an
 7. Use `dimensions/risk-dimensions-5.10.md` and `dimensions/bureaucracy-practicality-5.11.md` as stress overlays, not as standalone rejection or ranking engines.
 8. Return to the country profiles for the detailed route playbooks, source citations, caveats, and application-prep checks before making any human-facing recommendation.
 9. Use `dimensions/application-prep-trigger-map.md` only after finalists, new evidence, stale-source triggers, or explicit application-prep instructions exist; do not use it to create a ranking.
+10. Use `dimensions/handoff-maintenance-check.md` to confirm whether a scheduled normal iteration has any substantive trigger before creating additional broad consolidation.
 
 ## Required guardrails for any later TOP-N process
 
