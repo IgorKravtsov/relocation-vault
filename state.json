@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "iteration": 294,
+  "iteration": 295,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-07T06:31:26Z",
+  "last_run_timestamp": "2026-07-07T09:36:29Z",
   "current_focus": {
     "mode": "consolidation",
     "country": null,
     "sections": [],
-    "criterion": "handoff-maintenance-check"
+    "criterion": "scheduled-trigger-recheck"
   },
   "next_iteration_hint": {
     "suggested_mode": "consolidation",
-    "reason": "Handoff maintenance check confirms no accepted proposals, no pending/open verification items, no stale claims, and no country-depth gaps. Keep the vault in downstream handoff mode unless proposals, stale claims, new evidence, or explicit finalist/application-prep direction appears."
+    "reason": "Scheduled trigger recheck confirms no accepted proposals, no pending/open verification items, no stale claims, and no country-depth gaps. Keep the vault in downstream handoff mode unless proposals, stale claims, new evidence, or explicit finalist/application-prep direction appears."
   },
   "countries": {
     "Spain": {
