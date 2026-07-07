@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-07-06
+last_updated: 2026-07-07
 ---
 
 # INDEX
@@ -53,4 +53,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Researched**: 33
 - **Average depth_score**: 10.00
 - **Assigned final tiers**: 33/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama, Mexico, Argentina, UAE, Malaysia, Thailand, Indonesia, Kazakhstan, Armenia).
-- **Consolidation note**: run-291 added `dimensions/final-synthesis-readiness-checklist.md`, a downstream handoff checklist that ties together the non-ranking dimension maps for route durability, tax/budget stress, cost/rent pressure, healthcare/education access, comfort/partner fit, risk dimensions, and bureaucracy/practicality. All 33 countries have assigned screening tiers, but this remains a screening/handoff taxonomy, not a TOP-N ranking or final relocation recommendation.
+- **Consolidation note**: runs 291-292 added `dimensions/final-synthesis-readiness-checklist.md` and `dimensions/application-prep-trigger-map.md`, downstream handoff artifacts that tie together the non-ranking dimension maps and define when later finalist-specific application-prep work should begin. All 33 countries have assigned screening tiers, but this remains a screening/handoff taxonomy, not a TOP-N ranking or final relocation recommendation.

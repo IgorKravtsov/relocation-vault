@@ -1,8 +1,15 @@
 ---
 document: changelog
 version: 1.0.0
-last_updated: 2026-07-06
+last_updated: 2026-07-07
 ---
+
+## 2026-07-07 - run-292 - application-prep-trigger-map
+
+- Consolidation: added `dimensions/application-prep-trigger-map.md` as a downstream-only trigger map for future finalist-specific application-prep work.
+- Defined route, tax, budget/housing, healthcare/education, comfort/partner, and practical triggers without choosing finalists, ranking countries, or reopening resolved-for-screening caveats.
+- Updated screening-readiness, final-synthesis checklist, INDEX, and state handoff notes; no country tier, source, claim, or verification status changed.
+- Sources added: 0; claims added: 0; verification queue remains 0 pending/open.
 
 ## 2026-07-06 - run-291 - final-synthesis-readiness-checklist
 
