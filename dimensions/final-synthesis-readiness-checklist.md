@@ -3,7 +3,7 @@
 Last updated: 2026-07-09
 Mode: consolidation
 Inputs: `INDEX.md`, `state.json`, `dimensions/screening-readiness-map.md`, `dimensions/route-durability-5.1.md`, `dimensions/tax-budget-stress-5.3.md`, `dimensions/cost-rent-affordability-5.4-5.5.md`, `dimensions/healthcare-education-access-5.6-5.7.md`, `dimensions/comfort-partner-fit-5.8-5.9.md`, `dimensions/risk-dimensions-5.10.md`, `dimensions/bureaucracy-practicality-5.11.md`, `dimensions/tier-field-consistency-check.md`, `dimensions/application-prep-trigger-map.md`, `dimensions/handoff-maintenance-check.md`
-Consolidation status (run-309): handoff checklist for downstream synthesis, linked to a maintenance check that reconfirmed the vault remains in handoff mode when no proposal, verification, staleness, new-evidence, or explicit application-prep trigger exists. This file does not rank countries, change country tiers, update sources, update claims, or reopen resolved verification items.
+Consolidation status (run-310): handoff checklist for downstream synthesis, linked to a maintenance check that reconfirmed the vault remains in handoff mode when no proposal, verification, staleness, new-evidence, or explicit application-prep trigger exists. This file does not rank countries, change country tiers, update sources, update claims, or reopen resolved verification items.
 
 ## Scope
 
@@ -14,7 +14,7 @@ This checklist defines what is ready for a later downstream synthesis process an
 - Country coverage: 33/33 profiles are researched, present in `INDEX.md`, and at depth_score 10.0 in `state.json`.
 - Assigned screening tiers: 33/33 countries have assigned country-level screening tiers after runs 252-284; run-285 confirmed cross-file tier consistency.
 - Verification queue: 0 pending/open items; country-local `unverified_count` values are reconciled at 0.
-- Stale-claim trigger: 0 stale claims at the latest run-309 no-trigger recheck.
+- Stale-claim trigger: 0 stale claims at the latest run-310 no-trigger recheck.
 - Source and claim registry: 839 source headings and 716 claim entries are available for traceability.
 - Non-ranking dimension coverage: route durability (5.1), tax/budget stress (5.3), cost/rent affordability (5.4/5.5), healthcare/education access (5.6/5.7), comfort/partner fit (5.8/5.9), risk dimensions (5.10), and bureaucracy/practicality (5.11) are all available.
 - Application-prep handoff: `dimensions/application-prep-trigger-map.md` now defines when to start finalist-specific, filing-grade checks without reopening resolved-for-screening caveats for all countries.
