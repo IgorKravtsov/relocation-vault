@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "iteration": 352,
+  "iteration": 353,
   "schema_doc": "criteria.md",
   "schema_doc_version": "2.0.0",
   "protocol_doc": "vault-protocol.md",
   "protocol_doc_version": "1.0.0",
-  "last_run_timestamp": "2026-07-14T15:43:58Z",
+  "last_run_timestamp": "2026-07-14T18:47:56Z",
   "current_focus": {
     "mode": "consolidation",
     "country": null,
