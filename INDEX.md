@@ -1,7 +1,7 @@
 ---
 document: index
 version: 1.0.0
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 ---
 
 # INDEX
@@ -53,4 +53,4 @@ Live progress map for all 33 countries. Updated each iteration by Hermes.
 - **Researched**: 33
 - **Average depth_score**: 10.00
 - **Assigned final tiers**: 33/33 (Greece, Spain, Portugal, Italy, Cyprus, Croatia, Malta, Czech Republic, Poland, Romania, Bulgaria, Hungary, Slovakia, Slovenia, Montenegro, Serbia, Turkey, Georgia, Albania, North Macedonia, Bosnia and Herzegovina, Moldova, Uruguay, Paraguay, Panama, Mexico, Argentina, UAE, Malaysia, Thailand, Indonesia, Kazakhstan, Armenia).
-- **Consolidation note**: runs 291-345 maintained downstream handoff and maintenance artifacts (`dimensions/final-synthesis-readiness-checklist.md`, `dimensions/application-prep-trigger-map.md`, and `dimensions/handoff-maintenance-check.md`); run 346 reconfirmed 0 stale claims, 0 pending/open verification items, 839 sources, and 716 claims. All 33 countries have assigned screening tiers, but this remains a screening/handoff taxonomy, not a TOP-N ranking or final relocation recommendation.
+- **Consolidation note**: runs 291-346 maintained downstream handoff and maintenance artifacts (`dimensions/final-synthesis-readiness-checklist.md`, `dimensions/application-prep-trigger-map.md`, and `dimensions/handoff-maintenance-check.md`); run 347 reconfirmed 0 stale claims, 0 pending/open verification items, 839 sources, and 716 claims. All 33 countries have assigned screening tiers, but this remains a screening/handoff taxonomy, not a TOP-N ranking or final relocation recommendation.
