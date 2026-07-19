@@ -1,9 +1,9 @@
 # Dimension: Handoff maintenance check
 
-Last updated: 2026-07-18
+Last updated: 2026-07-19
 Mode: consolidation
 Inputs: `state.json`, `INDEX.md`, `verification-queue.md`, `sources/sources.md`, `claims/*.yml`, `dimensions/final-synthesis-readiness-checklist.md`, `dimensions/application-prep-trigger-map.md`
-Consolidation status (run-386): scheduled no-trigger recheck confirming that the vault remains in downstream handoff mode. This file does not rank countries, choose finalists, change tiers, update claims, update sources, or reopen resolved verification items.
+Consolidation status (run-387): scheduled no-trigger recheck confirming that the vault remains in downstream handoff mode. This file does not rank countries, choose finalists, change tiers, update claims, update sources, or reopen resolved verification items.
 
 ## Scope
 
@@ -15,7 +15,7 @@ This check records the safe condition for future scheduled normal iterations aft
 |---|---|---|
 | Accepted proposals | none in `proposals/queue.md` | No `proposal-apply` work. |
 | Verification queue | 0 pending/open items | Do not reopen resolved-for-screening items without new evidence or explicit direction. |
-| Stale claims | 0 stale claims in the run-386 no-trigger recheck | No staleness-check work until `scripts/find-stale.py` reports stale items. |
+| Stale claims | 0 stale claims in the run-387 no-trigger recheck | No staleness-check work until `scripts/find-stale.py` reports stale items. |
 | Country depth | 33/33 at depth_score 10.0 | No broad country-deep-dive work unless a profile changes or a human names a focus. |
 | Assigned screening tiers | 33/33 assigned and cross-file consistent | Tier changes must be deliberate country-level revisions, not mechanical ranking work. |
 | Source / claim registry | 839 source headings and 716 claim entries | Recompute counts before any future state update. |
@@ -41,4 +41,4 @@ A future scheduled normal iteration should do one of the following, in priority 
 
 ## Result
 
-The vault is still screening-complete and handoff-ready as of run-386. The next substantive work should be downstream synthesis, accepted proposals, stale-claim refresh, new-evidence handling, or explicit human-directed finalist/application-prep work.
+The vault is still screening-complete and handoff-ready as of run-387. The next substantive work should be downstream synthesis, accepted proposals, stale-claim refresh, new-evidence handling, or explicit human-directed finalist/application-prep work.
